@@ -1,0 +1,63 @@
+export const routes = {
+  home: "/",
+  jualAc: "/jual-ac",
+  jualAcPurwokerto: "/jual-ac-purwokerto",
+  jualAcBanyumas: "/jual-ac-banyumas",
+  jualAcSokaraja: "/jual-ac-sokaraja",
+
+  katalog: "/katalog",
+  katalogAcSetengahPk: "/katalog/ac-1-2-pk",
+  katalogAcSplitRumah: "/katalog/ac-split-rumah",
+  katalogAcInverter: "/katalog/ac-inverter",
+  katalogAcLowWatt: "/katalog/ac-low-watt",
+  katalogAcKantorKomersial: "/katalog/ac-kantor-komersial",
+
+  brandGree: "/brand/gree",
+  brandDaikin: "/brand/daikin",
+  brandMidea: "/brand/midea",
+  brandHisense: "/brand/hisense",
+  brandLainnya: "/brand/lainnya",
+
+  pengadaanAc: "/pengadaan-ac",
+  pengadaanKostApartemen: "/pengadaan-ac/kost-apartemen-skala-besar",
+  pengadaanHotelGuestHouse: "/pengadaan-ac/hotel-guest-house",
+  pengadaanKontraktorDeveloper: "/pengadaan-ac/kontraktor-developer",
+
+  pengirimanPemasangan: "/pengiriman-pemasangan",
+  buktiPengirimanProyek: "/bukti-pengiriman-proyek",
+  tentangKami: "/tentang-kami",
+  kontak: "/kontak",
+  artikel: "/artikel",
+};
+
+export const sitemapRoutes = [
+  { path: routes.home, priority: 1.0 },
+  { path: routes.jualAc, priority: 0.9 },
+  { path: routes.jualAcPurwokerto, priority: 0.9 },
+  { path: routes.jualAcBanyumas, priority: 0.85 },
+  { path: routes.jualAcSokaraja, priority: 0.85 },
+
+  { path: routes.katalog, priority: 0.85 },
+  { path: routes.katalogAcSetengahPk, priority: 0.75 },
+  { path: routes.katalogAcSplitRumah, priority: 0.75 },
+  { path: routes.katalogAcInverter, priority: 0.75 },
+  { path: routes.katalogAcLowWatt, priority: 0.75 },
+  { path: routes.katalogAcKantorKomersial, priority: 0.75 },
+
+  { path: routes.brandGree, priority: 0.8 },
+  { path: routes.brandDaikin, priority: 0.8 },
+  { path: routes.brandMidea, priority: 0.8 },
+  { path: routes.brandHisense, priority: 0.75 },
+  { path: routes.brandLainnya, priority: 0.7 },
+
+  { path: routes.pengadaanAc, priority: 0.85 },
+  { path: routes.pengadaanKostApartemen, priority: 0.75 },
+  { path: routes.pengadaanHotelGuestHouse, priority: 0.75 },
+  { path: routes.pengadaanKontraktorDeveloper, priority: 0.75 },
+
+  { path: routes.pengirimanPemasangan, priority: 0.7 },
+  { path: routes.buktiPengirimanProyek, priority: 0.7 },
+  { path: routes.tentangKami, priority: 0.65 },
+  { path: routes.kontak, priority: 0.8 },
+  { path: routes.artikel, priority: 0.6 },
+];
