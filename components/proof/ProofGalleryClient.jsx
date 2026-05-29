@@ -322,15 +322,15 @@ export default function ProofGalleryClient() {
   }, [activeFilter]);
 
   return (
-    <main className="relative overflow-hidden bg-[#f7fbff] text-slate-950">
+    <main className="relative overflow-hidden bg-white text-slate-950">
       <div className="pointer-events-none fixed inset-0 -z-10 overflow-hidden">
-        <div className="absolute left-[-160px] top-[-220px] h-[420px] w-[420px] rounded-full bg-cyan-200/45 blur-[120px]" />
-        <div className="absolute bottom-[-220px] right-[-160px] h-[420px] w-[420px] rounded-full bg-blue-200/35 blur-[120px]" />
+        <div className="absolute left-[-160px] top-[-220px] h-[420px] w-[420px] rounded-full bg-cyan-100/70 blur-[120px]" />
+        <div className="absolute bottom-[-220px] right-[-160px] h-[420px] w-[420px] rounded-full bg-slate-100 blur-[120px]" />
       </div>
 
       <section className="mx-auto max-w-7xl px-5 pb-6 pt-10 lg:px-8 lg:pb-8 lg:pt-14">
         <div className="mx-auto max-w-3xl text-center">
-          <div className="mb-7 inline-flex items-center gap-2 rounded-full border border-cyan-200 bg-cyan-50 px-5 py-3 text-sm font-bold uppercase tracking-wide text-cyan-800 shadow-[0_14px_38px_rgba(14,116,144,0.12)]">
+          <div className="mb-7 inline-flex items-center gap-2 rounded-full border border-cyan-200 bg-white px-5 py-3 text-sm font-bold uppercase tracking-wide text-cyan-800 shadow-sm">
             <span aria-hidden="true">▣</span>
             Gallery RADJA AC Purwokerto
           </div>
@@ -353,9 +353,9 @@ export default function ProofGalleryClient() {
           {galleryCategories.map((item) => (
             <article
               key={item.title}
-              className="rounded-[28px] border border-slate-200 bg-white/92 p-5 text-center shadow-[0_18px_50px_rgba(15,23,42,0.08)]"
+              className="rounded-[28px] border border-slate-200 bg-white p-5 text-center shadow-sm transition hover:-translate-y-0.5 hover:border-cyan-200 hover:bg-cyan-50/40"
             >
-              <div className="mx-auto mb-5 flex h-14 w-14 items-center justify-center rounded-3xl border border-cyan-200 bg-cyan-50 text-2xl font-black text-cyan-700">
+              <div className="mx-auto mb-5 flex h-14 w-14 items-center justify-center rounded-3xl border border-cyan-100 bg-cyan-50 text-2xl font-black text-cyan-800">
                 {item.icon}
               </div>
               <h2 className="mb-4 text-base font-black text-slate-950">{item.title}</h2>
@@ -383,7 +383,7 @@ export default function ProofGalleryClient() {
           {galleryVideos.map((item) => (
             <article
               key={item.video}
-              className="overflow-hidden rounded-[20px] border border-slate-200 bg-white shadow-[0_16px_38px_rgba(15,23,42,0.1)]"
+              className="overflow-hidden rounded-[22px] border border-slate-200 bg-white shadow-sm transition hover:-translate-y-0.5 hover:shadow-lg"
             >
               <div className="relative overflow-hidden bg-slate-900">
                 <video
@@ -440,8 +440,8 @@ export default function ProofGalleryClient() {
                   onClick={() => setActiveFilter(filter)}
                   className={`shrink-0 rounded-full border px-5 py-3 text-sm font-bold shadow-sm transition ${
                     isActive
-                      ? "border-cyan-200 bg-cyan-100 text-cyan-900"
-                      : "border-slate-200 bg-white text-cyan-800 hover:border-cyan-200 hover:bg-cyan-50"
+                      ? "border-cyan-200 bg-cyan-50 text-cyan-900"
+                      : "border-slate-200 bg-white text-slate-700 hover:border-cyan-200 hover:bg-cyan-50 hover:text-cyan-800"
                   }`}
                 >
                   {filter}
@@ -458,7 +458,7 @@ export default function ProofGalleryClient() {
               href={item.image}
               target="_blank"
               rel="noreferrer"
-              className="group overflow-hidden rounded-[24px] border border-slate-200 bg-white shadow-[0_16px_40px_rgba(15,23,42,0.09)] transition hover:-translate-y-0.5 hover:shadow-[0_22px_50px_rgba(15,23,42,0.13)]"
+              className="group overflow-hidden rounded-[24px] border border-slate-200 bg-white shadow-sm transition hover:-translate-y-0.5 hover:border-cyan-200 hover:shadow-lg"
             >
               <div className="relative aspect-[4/5] overflow-hidden bg-slate-200">
                 <Image
@@ -479,7 +479,7 @@ export default function ProofGalleryClient() {
           ))}
         </div>
 
-        <div className="mx-auto mt-10 max-w-3xl rounded-[28px] border border-slate-200 bg-white p-6 text-center shadow-[0_18px_50px_rgba(15,23,42,0.08)]">
+        <div className="mx-auto mt-10 max-w-3xl rounded-[28px] border border-cyan-200 bg-cyan-50 p-6 text-center shadow-sm">
           <h2 className="text-2xl font-black tracking-[-0.03em] text-slate-950">
             Mau cek stok hari ini?
           </h2>
@@ -488,7 +488,7 @@ export default function ProofGalleryClient() {
             stok, opsi unit, pengiriman, dan kebutuhan pemasangan sesuai kondisi.
           </p>
           <WhatsappLink
-            className="mt-6 inline-flex w-full items-center justify-center rounded-full bg-[#25D366] px-6 py-4 text-sm font-black text-white shadow-[0_18px_45px_rgba(37,211,102,0.22)] transition hover:bg-[#20BA5A] sm:w-auto"
+            className="mt-6 inline-flex w-full items-center justify-center rounded-full bg-[#25D366] px-6 py-4 text-sm font-black text-slate-950 shadow-[0_10px_24px_rgba(37,211,102,0.18)] transition hover:-translate-y-0.5 hover:bg-[#20BA5A] sm:w-auto"
             source="Bukti Pengiriman Closing"
             intent="cek stok setelah melihat gallery RADJA AC"
           >
