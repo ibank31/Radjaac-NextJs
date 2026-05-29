@@ -340,6 +340,88 @@ export const areaItems = [
     waIntent: "konsultasi jual AC Kebumen untuk rumah kost toko ruko kantor kecil atau usaha",
     waArea: "Kebumen",
   },
+
+  {
+    slug: "jual-ac-tegal",
+    path: routes.jualAcTegal,
+    areaName: "Tegal",
+    label: "Jual AC Tegal",
+    title: "Jual AC Tegal | Cek Stok, Konsultasi PK & Opsi Pemasangan",
+    description:
+      "Butuh AC baru untuk area Tegal dan Slawi? RADJA AC bantu konsultasi PK, cek stok unit, pengiriman, dan opsi pemasangan untuk rumah, toko, kantor, usaha, dan proyek kecil.",
+    h1: "Jual AC Tegal untuk rumah, toko, kantor, usaha, dan proyek kecil",
+    eyebrow: "Area Layanan",
+    intro:
+      "RADJA AC membantu kebutuhan AC area Tegal dan Slawi untuk rumah, toko, kantor, ruang usaha, dan proyek kecil. Admin bantu cek kebutuhan PK, daya listrik, pilihan brand, stok unit, pengiriman, dan opsi pemasangan sebelum Anda order.",
+    localContext:
+      "Area Tegal dan Slawi memiliki kebutuhan AC untuk rumah tinggal, toko, kantor kecil, ruko, dan usaha. Karena jarak dan kebutuhan pemasangan perlu dikonfirmasi lebih rapi, sebaiknya kirim area detail, ukuran ruangan, jumlah unit, daya listrik, dan timeline kebutuhan sejak awal.",
+    coverageNote:
+      "RADJA AC berbasis di Banyumas dan melayani kebutuhan AC area Tegal dengan konsultasi PK, cek stok unit, pengiriman, serta opsi pemasangan yang dikonfirmasi admin sesuai alamat, jumlah unit, dan jadwal.",
+    commonNeeds: [
+      "AC rumah tinggal dan kamar keluarga",
+      "AC toko, ruko, kantor kecil, dan ruang usaha",
+      "AC untuk area Tegal, Slawi, dan sekitarnya",
+      "Pembelian beberapa unit untuk usaha atau proyek kecil",
+    ],
+    buyingChecks: [
+      "Area detail Tegal atau Slawi untuk estimasi pengiriman",
+      "Ukuran ruangan, jumlah unit, dan kebutuhan PK",
+      "Daya listrik dan pilihan tipe hemat daya",
+      "Kebutuhan unit saja, pengiriman, atau opsi pemasangan",
+    ],
+    relatedLinks: [
+      ["Kalkulator PK AC", routes.kalkulatorPkAc],
+      ["AC Split Rumah", routes.katalogAcSplitRumah],
+      ["AC Kantor & Komersial", routes.katalogAcKantorKomersial],
+      ["Pengadaan AC Proyek", routes.pengadaanAc],
+      ["AC Daikin", routes.brandDaikin],
+      ["AC Gree", routes.brandGree],
+      ["Kontak RADJA AC", routes.kontak],
+    ],
+    ctaLabel: "Chat WA untuk AC Tegal",
+    waIntent: "konsultasi jual AC Tegal atau Slawi untuk rumah toko kantor usaha atau proyek kecil",
+    waArea: "Tegal",
+  },
+  {
+    slug: "jual-ac-banjarnegara",
+    path: routes.jualAcBanjarnegara,
+    areaName: "Banjarnegara",
+    label: "Jual AC Banjarnegara",
+    title: "Jual AC Banjarnegara | Cek Stok, Konsultasi PK & Opsi Pemasangan",
+    description:
+      "Butuh AC baru untuk area Banjarnegara? RADJA AC bantu konsultasi PK, cek stok unit, pengiriman, dan opsi pemasangan untuk rumah, kost, toko, kantor kecil, dan usaha.",
+    h1: "Jual AC Banjarnegara untuk rumah, kost, toko, dan usaha",
+    eyebrow: "Area Layanan",
+    intro:
+      "RADJA AC membantu kebutuhan AC area Banjarnegara untuk rumah, kamar, kost, toko, kantor kecil, dan ruang usaha. Admin bantu cek kebutuhan PK, daya listrik, pilihan brand, stok unit, pengiriman, dan opsi pemasangan sesuai kebutuhan.",
+    localContext:
+      "Banjarnegara termasuk area regional yang perlu ditangani dengan data awal yang jelas. Kirim ukuran ruangan, lokasi, jumlah unit, daya listrik, dan kebutuhan unit saja atau opsi pemasangan agar admin bisa membantu mengarahkan pilihan AC yang masuk akal.",
+    coverageNote:
+      "RADJA AC berbasis di Banyumas dan melayani kebutuhan AC area Banjarnegara dengan konsultasi PK, cek stok unit, pengiriman, dan opsi pemasangan yang dikonfirmasi admin sesuai alamat, jumlah unit, serta jadwal.",
+    commonNeeds: [
+      "AC rumah tinggal dan kamar tidur",
+      "AC kost, kontrakan, dan rumah sewa",
+      "AC toko, kantor kecil, dan ruang usaha",
+      "Pembelian beberapa unit untuk kebutuhan usaha",
+    ],
+    buyingChecks: [
+      "Lokasi detail area Banjarnegara",
+      "Ukuran ruangan dan estimasi kebutuhan PK",
+      "Daya listrik dan kebutuhan low watt atau inverter",
+      "Alamat pengiriman dan kebutuhan opsi pemasangan",
+    ],
+    relatedLinks: [
+      ["Kalkulator PK AC", routes.kalkulatorPkAc],
+      ["AC Split Rumah", routes.katalogAcSplitRumah],
+      ["AC Low Watt", routes.katalogAcLowWatt],
+      ["AC Gree", routes.brandGree],
+      ["AC Midea", routes.brandMidea],
+      ["Kontak RADJA AC", routes.kontak],
+    ],
+    ctaLabel: "Chat WA untuk AC Banjarnegara",
+    waIntent: "konsultasi jual AC Banjarnegara untuk rumah kost toko kantor kecil atau usaha",
+    waArea: "Banjarnegara",
+  },
 ];
 
 export function getAreaItem(slug) {
