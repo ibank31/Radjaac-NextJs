@@ -1,9 +1,9 @@
 # Live Sitemap Gap Decision Matrix
 
-Status: working decision matrix
-Basis: live sitemap audit after PR #19
+Status: final live sitemap gap reconciliation
+Basis: live sitemap audit after PR #24
 Live sitemap: `https://www.radjaac.com/sitemap.xml`
-Next.js repo: `main` after area batch 2 PR #19
+Next.js repo: `main` after article batch 2 PR #24
 
 ## Purpose
 
@@ -22,8 +22,8 @@ The goal is to prevent production cutover problems such as:
 | Metric | Count |
 |---|---:|
 | Live sitemap URLs | 43 |
-| Matched in Next.js route registry | 34 |
-| Missing in Next.js route registry | 9 |
+| Matched in Next.js route registry | 43 |
+| Missing in Next.js route registry | 0 |
 
 ## Decision labels
 
@@ -39,7 +39,7 @@ The goal is to prevent production cutover problems such as:
 
 ## Non-negotiable migration rule
 
-Do not deploy the Next.js repo as the production replacement while the remaining live sitemap URLs are unresolved.
+The live sitemap URL gap is now resolved after PR #24, but production cutover still requires final sitemap, robots, canonical, internal-link, and redirect verification.
 
 A URL is considered resolved only when one of these is true:
 
@@ -64,14 +64,14 @@ These are live sitemap URLs and should not be dropped during cutover.
 | `/jual-ac-purbalingga` | Area page | `RESOLVED-FINAL` | Done PR #19 | Built as final nearby regional area page | Watch thin/local-claim risk | Source-aligned area page implemented and included in sitemap. |
 | `/jual-ac-cilacap` | Area page | `RESOLVED-FINAL` | Done PR #19 | Built as final regional area page | Watch thin/local-claim risk | Source-aligned area page implemented and included in sitemap. |
 | `/jual-ac-kebumen` | Area page | `RESOLVED-FINAL` | Done PR #19 | Built as final regional area page | Watch thin/local-claim risk | Source-aligned area page implemented and included in sitemap. |
-| `/jual-ac-tegal` | Area page | `BUILD-FINAL-BATCHED` | P3 | Rebuild after closer/high-priority area pages | Over-expansion risk | Treat as later area batch. |
-| `/jual-ac-banjarnegara` | Area page | `BUILD-FINAL-BATCHED` | P3 | Rebuild after P1/P2 pages | Thin content / lower priority | Keep in migration queue because it is live, but do not mass-publish. |
+| `/jual-ac-tegal` | Area page | `RESOLVED-FINAL` | Done PR #21 | Built as final regional area page | Watch over-expansion risk | Source-aligned area page implemented and included in sitemap. |
+| `/jual-ac-banjarnegara` | Area page | `RESOLVED-FINAL` | Done PR #21 | Built as final regional area page | Watch thin/local-claim risk | Source-aligned area page implemented and included in sitemap. |
 
 ### Business decision URL
 
 | URL | Current type | Decision | Priority | Recommended action | Main risk | Notes |
 |---|---|---|---:|---|---|---|
-| `/ganti-ac-baru-purwokerto` | Commercial/service-adjacent page | `DECISION-NEEDED` | P2 | Review business intent, live content, and GSC before deciding build or redirect | Could pull site toward service/trade-in intent | Do not rebuild blindly. Decide whether this supports AC sales or should merge into `/jual-ac-purwokerto`, `/katalog`, or an article/support page. |
+| `/ganti-ac-baru-purwokerto` | Commercial support page | `RESOLVED-FINAL` | Done PR #22 | Built as final transition/support page | Watch service-cluster drift | Rebuilt as AC-new replacement decision page; supports sales journey without creating service/repair cluster. |
 
 ### Article URLs
 
@@ -79,12 +79,12 @@ These article URLs exist in the live sitemap. They should not be redirected blin
 
 | URL | Current type | Decision | Priority | Recommended action | Main risk | Notes |
 |---|---|---|---:|---|---|---|
-| `/artikel/panduan-beli-ac-baru` | Article | `ARTICLE-REVIEW` | P1 | Review content and GSC; likely migrate or normalize as buying guide | Losing feeder traffic | Should feed `/katalog`, `/kalkulator-pk-ac`, and WhatsApp CTA. |
-| `/artikel/ac-1-pk-untuk-ruangan-berapa` | Article | `ARTICLE-REVIEW` | P1 | Review; likely keep/migrate as sizing article, then link to future `/katalog/ac-1-pk` | Cannibalization with future capacity page | Should remain educational, not become “jual AC 1 PK”. |
-| `/artikel/ac-inverter-vs-low-watt` | Article | `ARTICLE-REVIEW` | P1 | Review; likely migrate as decision-support article | Cannibalization with catalog pages | Must link to `/katalog/ac-inverter` and `/katalog/ac-low-watt`. |
-| `/artikel/cara-memilih-ac-untuk-kamar-3x4` | Article | `ARTICLE-REVIEW` | P2 | Review; likely migrate as sizing feeder article | Duplicate sizing intent | Should link to `/kalkulator-pk-ac` and relevant capacity/category pages. |
-| `/artikel/panduan-instalasi-ac-baru` | Article | `ARTICLE-REVIEW` | P2 | Review; decide migrate, merge, or redirect | Pulling site toward service/install content | Keep only if it supports pre-purchase installation expectations. |
-| `/artikel/ac-kurang-dingin-belum-tentu-freon-habis` | Article | `ARTICLE-REVIEW` | P3 | Review carefully; likely low priority | Site positioning may drift into service blog | Avoid expanding service/repair cluster. Keep only if it supports sales consultation. |
+| `/artikel/panduan-beli-ac-baru` | Article | `RESOLVED-FINAL` | Done PR #23 | Migrated as buying guide article | Watch article-to-money-page link quality | Educational feeder to `/katalog`, `/kalkulator-pk-ac`, and WhatsApp CTA. |
+| `/artikel/ac-1-pk-untuk-ruangan-berapa` | Article | `RESOLVED-FINAL` | Done PR #23 | Migrated as sizing article | Watch cannibalization with future capacity page | Kept educational and linked to PK/calculator/category pages. |
+| `/artikel/ac-inverter-vs-low-watt` | Article | `RESOLVED-FINAL` | Done PR #23 | Migrated as decision-support article | Watch cannibalization with catalog pages | Links to `/katalog/ac-inverter` and `/katalog/ac-low-watt`. |
+| `/artikel/cara-memilih-ac-untuk-kamar-3x4` | Article | `RESOLVED-FINAL` | Done PR #24 | Migrated as sizing feeder article | Watch duplicate sizing intent | Links to `/kalkulator-pk-ac` and relevant capacity/category pages. |
+| `/artikel/panduan-instalasi-ac-baru` | Article | `RESOLVED-FINAL` | Done PR #24 | Migrated as pre-purchase installation article | Watch install/service drift | Kept focused on AC-new purchase preparation and installation expectations. |
+| `/artikel/ac-kurang-dingin-belum-tentu-freon-habis` | Article | `RESOLVED-FINAL` | Done PR #24 | Migrated as AC replacement decision article | Watch service/repair drift | Kept focused on evaluation and possible AC-new replacement, not service expansion. |
 
 ---
 
@@ -119,47 +119,42 @@ Built:
 2. `/jual-ac-cilacap`
 3. `/jual-ac-kebumen`
 
-Remaining area gap candidates:
+### Batch 3 — Remaining regional area protection
+
+Status: done in PR #21.
+
+Built:
 
 1. `/jual-ac-tegal`
 2. `/jual-ac-banjarnegara`
 
-These should be handled only after reassessing source support, uniqueness, and operational readiness.
-
-### Batch 3 — Article review
-
-Review the six article URLs one by one.
-
-For each article, decide:
-
-- migrate as article,
-- merge into a money page,
-- redirect to final target,
-- hold/remove from future sitemap.
-
-No article should be migrated unless it has:
-
-- one clear educational intent,
-- a money page target,
-- internal links to relevant final URLs,
-- WhatsApp CTA context,
-- no conflict with catalog/brand/area money pages.
-
 ### Batch 4 — Business decision URL
 
-Decide `/ganti-ac-baru-purwokerto` only after checking whether it represents:
+Status: done in PR #22.
 
-- a real active business offer,
-- a temporary campaign,
-- a service/trade-in intent,
-- or an outdated page that should redirect.
+Built:
 
-Possible targets if redirected later:
+1. `/ganti-ac-baru-purwokerto`
 
-- `/jual-ac-purwokerto`
-- `/katalog`
-- `/kontak`
-- a future article, only if the intent is educational and not a money page
+Decision: rebuild as a focused AC-new replacement support page. It must not become a service, cuci AC, repair, trade-in, or freon cluster.
+
+### Batch 5 — Article review
+
+Status: done in PR #23 and PR #24.
+
+Built in Article Batch 1 / PR #23:
+
+1. `/artikel/panduan-beli-ac-baru`
+2. `/artikel/ac-1-pk-untuk-ruangan-berapa`
+3. `/artikel/ac-inverter-vs-low-watt`
+
+Built in Article Batch 2 / PR #24:
+
+1. `/artikel/ac-kurang-dingin-belum-tentu-freon-habis`
+2. `/artikel/panduan-instalasi-ac-baru`
+3. `/artikel/cara-memilih-ac-untuk-kamar-3x4`
+
+Decision: keep all six as educational support articles with clear money-page targets, WhatsApp CTA context, and no service-cluster expansion.
 
 ---
 
@@ -167,18 +162,28 @@ Possible targets if redirected later:
 
 Before switching production traffic to the Next.js repo:
 
-- all remaining live sitemap gaps must be resolved,
+- live sitemap gap must remain 0,
 - sitemap must contain final URLs only,
 - internal links must point only to final URLs,
 - legacy redirects must exist for intentionally removed/merged URLs,
 - no live indexed URL should become accidental 404,
 - build must pass,
-- canonical and robots must be verified.
+- canonical and robots must be verified,
+- production domain/base URL configuration must be verified.
 
 ## Current conclusion
 
-The Next.js repo structure is healthy, but production cutover is not ready until the remaining live sitemap gaps are handled.
+The live sitemap gap is now resolved: 43 live sitemap URLs are represented in the Next.js route registry and sitemap.
+
+The Next.js repo is close to production-cutover readiness, but cutover should wait for final technical verification:
+
+1. route registry vs generated sitemap audit,
+2. internal link audit,
+3. robots and canonical audit,
+4. legacy redirect plan,
+5. production domain/base URL verification,
+6. final build verification.
 
 The safest next engineering step is:
 
-`Reassess remaining area gaps: /jual-ac-tegal and /jual-ac-banjarnegara, then decide whether to build a small Area Batch 3 or start Article Review Batch 1.`
+`Run final cutover readiness audit: route registry, generated sitemap, internal links, robots, canonical, and redirect handling.`
