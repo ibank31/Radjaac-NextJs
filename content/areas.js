@@ -218,6 +218,128 @@ export const areaItems = [
     waIntent: "konsultasi jual AC Solo untuk rumah kost hotel kecil toko kantor atau usaha",
     waArea: "Solo",
   },
+
+  {
+    slug: "jual-ac-purbalingga",
+    path: routes.jualAcPurbalingga,
+    areaName: "Purbalingga",
+    label: "Jual AC Purbalingga",
+    title: "Jual AC Purbalingga | Cek Stok, Konsultasi PK & Opsi Pemasangan",
+    description:
+      "Butuh AC baru untuk area Purbalingga? RADJA AC bantu konsultasi PK, cek stok unit, pengiriman, dan opsi pemasangan untuk rumah, kost, toko, kantor kecil, dan usaha.",
+    h1: "Jual AC Purbalingga untuk rumah, kost, toko, dan usaha",
+    eyebrow: "Area Layanan",
+    intro:
+      "RADJA AC membantu kebutuhan AC area Purbalingga untuk rumah, kamar, kost, kontrakan, toko, kantor kecil, dan ruang usaha. Admin bantu cek kebutuhan PK, daya listrik, pilihan brand, stok unit, pengiriman, dan opsi pemasangan sebelum Anda menentukan unit.",
+    localContext:
+      "Purbalingga termasuk area regional dekat basis RADJA AC dengan kebutuhan AC untuk rumah, kost, toko, kantor kecil, dan usaha harian. Supaya pilihan unit tidak hanya berdasarkan perkiraan, admin akan membantu cek ukuran ruangan, daya listrik, budget, dan kebutuhan unit saja atau pemasangan.",
+    coverageNote:
+      "RADJA AC berbasis di Banyumas dan melayani kebutuhan AC area Purbalingga dengan konsultasi PK, cek stok unit, pengiriman, dan opsi pemasangan yang dikonfirmasi admin sesuai alamat, jumlah unit, serta jadwal.",
+    commonNeeds: [
+      "AC rumah tinggal dan kamar tidur",
+      "AC kost, kontrakan, dan rumah sewa",
+      "AC toko, kantor kecil, dan ruang usaha",
+      "Pembelian beberapa unit untuk kebutuhan usaha",
+    ],
+    buyingChecks: [
+      "Ukuran ruangan dan estimasi kebutuhan PK",
+      "Daya listrik rumah atau tempat usaha",
+      "Pilihan brand, tipe standard, low watt, atau inverter",
+      "Alamat pengiriman dan kebutuhan opsi pemasangan",
+    ],
+    relatedLinks: [
+      ["Kalkulator PK AC", routes.kalkulatorPkAc],
+      ["AC Split Rumah", routes.katalogAcSplitRumah],
+      ["AC Low Watt", routes.katalogAcLowWatt],
+      ["AC Gree", routes.brandGree],
+      ["AC Midea", routes.brandMidea],
+      ["Kontak RADJA AC", routes.kontak],
+    ],
+    ctaLabel: "Chat WA untuk AC Purbalingga",
+    waIntent: "konsultasi jual AC Purbalingga untuk rumah kost toko kantor kecil atau usaha",
+    waArea: "Purbalingga",
+  },
+  {
+    slug: "jual-ac-cilacap",
+    path: routes.jualAcCilacap,
+    areaName: "Cilacap",
+    label: "Jual AC Cilacap",
+    title: "Jual AC Cilacap | Konsultasi PK, Cek Stok & Opsi Pemasangan",
+    description:
+      "Butuh AC baru untuk area Cilacap? RADJA AC bantu konsultasi PK, cek stok unit, pengiriman, dan opsi pemasangan untuk rumah, toko, kantor, usaha, dan kebutuhan banyak unit.",
+    h1: "Jual AC Cilacap untuk rumah, toko, kantor, usaha, dan banyak unit",
+    eyebrow: "Area Layanan",
+    intro:
+      "RADJA AC membantu kebutuhan AC area Cilacap untuk rumah, toko, kantor, ruang usaha, dan pembelian beberapa unit. Admin bantu cek kebutuhan PK, daya listrik, pilihan brand, stok unit, pengiriman, dan opsi pemasangan sesuai alamat dan kebutuhan.",
+    localContext:
+      "Cilacap punya kebutuhan AC yang kuat untuk rumah, toko, kantor, usaha, dan bangunan dengan beberapa ruangan. Data awal seperti kecamatan, ukuran ruangan, jumlah unit, daya listrik, dan kebutuhan pemasangan akan membantu admin memberi arahan yang lebih tepat.",
+    coverageNote:
+      "RADJA AC berbasis di Banyumas dan melayani kebutuhan AC area Cilacap dengan konsultasi PK, cek stok unit, pengiriman, serta opsi pemasangan yang dikonfirmasi sesuai lokasi, jumlah unit, dan jadwal pekerjaan.",
+    commonNeeds: [
+      "AC rumah tinggal dan kamar keluarga",
+      "AC toko, ruko, kantor, dan ruang usaha",
+      "AC untuk kebutuhan beberapa ruangan",
+      "Pengadaan unit untuk usaha atau proyek ringan",
+    ],
+    buyingChecks: [
+      "Kecamatan atau area pengiriman di Cilacap",
+      "Ukuran ruangan dan jumlah unit yang dibutuhkan",
+      "Daya listrik dan pilihan low watt atau inverter",
+      "Kebutuhan unit saja, pengiriman, atau opsi pemasangan",
+    ],
+    relatedLinks: [
+      ["Kalkulator PK AC", routes.kalkulatorPkAc],
+      ["AC Kantor & Komersial", routes.katalogAcKantorKomersial],
+      ["AC Low Watt", routes.katalogAcLowWatt],
+      ["Pengadaan AC Proyek", routes.pengadaanAc],
+      ["AC Daikin", routes.brandDaikin],
+      ["AC Gree", routes.brandGree],
+      ["Kontak RADJA AC", routes.kontak],
+    ],
+    ctaLabel: "Chat WA untuk AC Cilacap",
+    waIntent: "konsultasi jual AC Cilacap untuk rumah toko kantor usaha atau banyak unit",
+    waArea: "Cilacap",
+  },
+  {
+    slug: "jual-ac-kebumen",
+    path: routes.jualAcKebumen,
+    areaName: "Kebumen",
+    label: "Jual AC Kebumen",
+    title: "Jual AC Kebumen | Cek Stok AC untuk Rumah, Kost & Usaha",
+    description:
+      "Butuh AC baru untuk area Kebumen? RADJA AC bantu konsultasi PK, cek stok unit, pengiriman, dan opsi pemasangan untuk rumah, kost, toko, ruko, kantor kecil, dan usaha.",
+    h1: "Jual AC Kebumen untuk rumah, kost, toko, ruko, dan kantor kecil",
+    eyebrow: "Area Layanan",
+    intro:
+      "RADJA AC membantu kebutuhan AC area Kebumen untuk rumah, kost, toko, ruko, kantor kecil, dan ruang usaha. Admin bantu cek kebutuhan PK, daya listrik, pilihan brand, stok unit, pengiriman, dan opsi pemasangan sebelum Anda order.",
+    localContext:
+      "Kebumen cocok untuk kebutuhan AC rumah, kamar, kost kecil, toko, ruko, dan usaha harian. Agar pembelian lebih aman, admin akan membantu cek ukuran ruangan, daya listrik, pola pemakaian, budget, dan kebutuhan pengiriman atau pemasangan.",
+    coverageNote:
+      "RADJA AC berbasis di Banyumas dan melayani kebutuhan AC area Kebumen dengan konsultasi PK, cek stok unit, pengiriman, dan opsi pemasangan yang dikonfirmasi admin sesuai alamat, jumlah unit, serta jadwal.",
+    commonNeeds: [
+      "AC rumah dan kamar tidur",
+      "AC kost kecil, kontrakan, dan rumah sewa",
+      "AC toko, ruko, kantor kecil, dan ruang kerja",
+      "Pembelian beberapa unit untuk usaha",
+    ],
+    buyingChecks: [
+      "Ukuran ruangan dan perkiraan kapasitas PK",
+      "Daya listrik dan kebutuhan hemat daya",
+      "Brand yang tersedia sesuai stok terbaru",
+      "Alamat pengiriman dan kebutuhan opsi pemasangan",
+    ],
+    relatedLinks: [
+      ["Kalkulator PK AC", routes.kalkulatorPkAc],
+      ["AC Split Rumah", routes.katalogAcSplitRumah],
+      ["AC Low Watt", routes.katalogAcLowWatt],
+      ["AC Midea", routes.brandMidea],
+      ["AC Gree", routes.brandGree],
+      ["Kontak RADJA AC", routes.kontak],
+    ],
+    ctaLabel: "Chat WA untuk AC Kebumen",
+    waIntent: "konsultasi jual AC Kebumen untuk rumah kost toko ruko kantor kecil atau usaha",
+    waArea: "Kebumen",
+  },
 ];
 
 export function getAreaItem(slug) {
