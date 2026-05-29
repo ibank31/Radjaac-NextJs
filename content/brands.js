@@ -17,7 +17,7 @@ export const brandItems = [
       "RADJA AC memiliki dukungan Proshop Gree. Stok, tipe, dan ketentuan garansi unit tetap dikonfirmasi oleh admin sesuai kondisi terbaru.",
     certificateHolder: "RADJA AC / Proshop Gree",
     variants: ["Standard", "Low watt", "Inverter"],
-    suitableFor: ["Rumah", "Kamar", "Kost", "Kantor kecil", "Usaha"],
+    suitableFor: ["Rumah", "Kamar", "Kost", "Kantor", "Hotel", "Proyek"],
     ctaLabel: "Cek Stok AC Gree",
     waIntent: "cek stok dan konsultasi AC Gree",
     waBrand: "Gree",
@@ -51,15 +51,15 @@ export const brandItems = [
     title: "AC Midea Original | Cek Stok FT, AF, Inverter & Konsultasi PK",
     description:
       "RADJA AC menyediakan AC Midea original. Cek stok Midea FT, AF, inverter, rekomendasi PK, pengiriman, opsi pemasangan, dan bantuan klaim sesuai ketentuan brand.",
-    h1: "AC Midea original untuk rumah, kost, usaha, dan kebutuhan harian",
+    h1: "AC Midea original untuk rumah, kost, usaha, kantor, hotel, dan proyek",
     eyebrow: "Brand AC",
     intro:
-      "Midea menjadi pilihan untuk pembeli yang mencari AC original dengan pilihan tipe rumah, kost, usaha, dan pemakaian harian. Admin bantu cek kebutuhan PK, daya listrik, stok, dan opsi pemasangan.",
+      "Midea menjadi pilihan untuk pembeli yang mencari AC original dengan pilihan tipe rumah, kost, usaha, kantor, hotel, dan proyek. Admin bantu cek kebutuhan PK, daya listrik, stok, dan opsi pemasangan.",
     trustNote:
       "Dokumen brand Midea tercatat atas nama CV. Prima Sedaya, yang merupakan bagian dari operasional RADJA AC.",
     certificateHolder: "CV. Prima Sedaya",
     variants: ["FT", "AF", "Inverter"],
-    suitableFor: ["Rumah", "Kamar", "Kost", "Kontrakan", "Usaha kecil"],
+    suitableFor: ["Rumah", "Kamar", "Kost", "Kontrakan", "Kantor", "Proyek"],
     ctaLabel: "Cek Stok AC Midea",
     waIntent: "cek stok dan konsultasi AC Midea",
     waBrand: "Midea",
@@ -80,7 +80,7 @@ export const brandItems = [
       "Dokumen brand Hisense tercatat atas nama CV. Prima Sedaya, yang merupakan bagian dari operasional RADJA AC.",
     certificateHolder: "CV. Prima Sedaya",
     variants: ["Standard", "Inverter"],
-    suitableFor: ["Rumah", "Kamar", "Kost", "Usaha kecil"],
+    suitableFor: ["Rumah", "Kamar", "Kost", "Kantor", "Proyek"],
     ctaLabel: "Cek Stok AC Hisense",
     waIntent: "cek stok dan konsultasi AC Hisense",
     waBrand: "Hisense",
@@ -93,7 +93,7 @@ export const brandItems = [
     title: "AC Sansui Original | Cek Stok, Tipe & Konsultasi PK",
     description:
       "RADJA AC membantu cek pilihan AC Sansui original sesuai stok, kebutuhan ruangan, daya listrik, pengiriman, opsi pemasangan, dan bantuan klaim sesuai ketentuan brand.",
-    h1: "AC Sansui original untuk rumah, kost, usaha, dan kebutuhan harian",
+    h1: "AC Sansui original untuk rumah, kost, usaha, kantor, hotel, dan proyek",
     eyebrow: "Brand AC",
     intro:
       "Sansui dapat menjadi pilihan untuk pembeli yang mencari AC original dengan opsi standard, low watt, atau inverter sesuai stok. Admin RADJA AC bantu cek kebutuhan PK, daya listrik, budget, area pengiriman, dan opsi pemasangan sebelum Anda deal.",
@@ -101,7 +101,7 @@ export const brandItems = [
       "Dokumen brand Sansui tercatat atas nama CV. Prima Sedaya, yang merupakan bagian dari operasional RADJA AC. Stok, tipe, harga, dan ketentuan garansi tetap dikonfirmasi admin sesuai kondisi terbaru.",
     certificateHolder: "CV. Prima Sedaya",
     variants: ["Standard", "Low watt", "Inverter"],
-    suitableFor: ["Rumah", "Kamar", "Kost", "Kontrakan", "Usaha kecil"],
+    suitableFor: ["Rumah", "Kamar", "Kost", "Kontrakan", "Kantor", "Proyek"],
     ctaLabel: "Cek Stok AC Sansui",
     waIntent: "cek stok dan konsultasi AC Sansui",
     waBrand: "Sansui",
@@ -114,15 +114,15 @@ export const brandItems = [
     title: "AC Sharp Original | Cek Stok, Tipe & Konsultasi PK",
     description:
       "RADJA AC membantu cek pilihan AC Sharp original sesuai stok, kebutuhan ruangan, daya listrik, pengiriman, opsi pemasangan, dan bantuan klaim sesuai ketentuan brand.",
-    h1: "AC Sharp original untuk rumah, kost, usaha, dan kebutuhan harian",
+    h1: "AC Sharp original untuk rumah, kost, usaha, kantor, hotel, dan proyek",
     eyebrow: "Brand AC",
     intro:
-      "Sharp menjadi salah satu brand yang sering dipertimbangkan untuk kebutuhan rumah, kamar, kost, kontrakan, dan usaha kecil. Admin RADJA AC bantu cek tipe yang tersedia berdasarkan ukuran ruangan, daya listrik, budget, stok unit, dan opsi pemasangan.",
+      "Sharp menjadi salah satu brand yang sering dipertimbangkan untuk kebutuhan rumah, kamar, kost, kontrakan, dan usaha. Admin RADJA AC bantu cek tipe yang tersedia berdasarkan ukuran ruangan, daya listrik, budget, stok unit, dan opsi pemasangan.",
     trustNote:
       "Untuk AC Sharp, stok, tipe, harga, garansi unit, dan opsi pemasangan dikonfirmasi oleh admin sebelum pembelian. Garansi unit mengikuti ketentuan resmi brand yang tertera pada kemasan, kartu garansi, atau dokumen garansi unit.",
     certificateHolder: "",
     variants: ["Standard", "Low watt", "Inverter"],
-    suitableFor: ["Rumah", "Kamar", "Kost", "Kontrakan", "Usaha kecil"],
+    suitableFor: ["Rumah", "Kamar", "Kost", "Kontrakan", "Kantor", "Proyek"],
     ctaLabel: "Cek Stok AC Sharp",
     waIntent: "cek stok dan konsultasi AC Sharp",
     waBrand: "Sharp",
@@ -135,15 +135,15 @@ export const brandItems = [
     title: "AC Samsung Original | Cek Stok, Tipe & Konsultasi PK",
     description:
       "RADJA AC membantu cek pilihan AC Samsung original sesuai stok, kebutuhan ruangan, daya listrik, pengiriman, opsi pemasangan, dan bantuan klaim sesuai ketentuan brand.",
-    h1: "AC Samsung original untuk rumah, kantor kecil, dan pemakaian harian",
+    h1: "AC Samsung original untuk rumah, kantor, hotel, dan proyek",
     eyebrow: "Brand AC",
     intro:
-      "Samsung dapat dipertimbangkan untuk pembeli yang mencari AC original dengan pilihan tipe sesuai kebutuhan rumah, ruang kerja, kantor kecil, atau pemakaian harian. Admin RADJA AC bantu cek kebutuhan PK, daya listrik, budget, stok, dan opsi pemasangan.",
+      "Samsung dapat dipertimbangkan untuk pembeli yang mencari AC original dengan pilihan tipe sesuai kebutuhan rumah, ruang kerja, kantor, atau pemakaian rumah, usaha, dan proyek. Admin RADJA AC bantu cek kebutuhan PK, daya listrik, budget, stok, dan opsi pemasangan.",
     trustNote:
       "Untuk AC Samsung, stok, tipe, harga, garansi unit, dan opsi pemasangan dikonfirmasi oleh admin sebelum pembelian. Garansi unit mengikuti ketentuan resmi brand yang tertera pada kemasan, kartu garansi, atau dokumen garansi unit.",
     certificateHolder: "",
     variants: ["Standard", "Inverter"],
-    suitableFor: ["Rumah", "Kamar", "Ruang kerja", "Kantor kecil", "Usaha kecil"],
+    suitableFor: ["Rumah", "Kamar", "Ruang kerja", "Kantor", "Hotel", "Proyek"],
     ctaLabel: "Cek Stok AC Samsung",
     waIntent: "cek stok dan konsultasi AC Samsung",
     waBrand: "Samsung",
@@ -156,15 +156,15 @@ export const brandItems = [
     title: "AC Panasonic Original | Cek Stok, Tipe & Konsultasi PK",
     description:
       "RADJA AC membantu cek pilihan AC Panasonic original sesuai stok, kebutuhan ruangan, daya listrik, pengiriman, opsi pemasangan, dan bantuan klaim sesuai ketentuan brand.",
-    h1: "AC Panasonic original untuk rumah, usaha, kantor kecil, dan kebutuhan harian",
+    h1: "AC Panasonic original untuk rumah, usaha, kantor, hotel, dan proyek",
     eyebrow: "Brand AC",
     intro:
-      "Panasonic dapat menjadi pilihan untuk kebutuhan AC rumah, kamar, usaha, kantor kecil, atau pemakaian harian. Admin RADJA AC bantu cek tipe yang tersedia berdasarkan ukuran ruangan, daya listrik, budget, stok unit, dan opsi pemasangan.",
+      "Panasonic dapat menjadi pilihan untuk kebutuhan AC rumah, kamar, usaha, kantor, atau pemakaian rumah, usaha, dan proyek. Admin RADJA AC bantu cek tipe yang tersedia berdasarkan ukuran ruangan, daya listrik, budget, stok unit, dan opsi pemasangan.",
     trustNote:
       "Untuk AC Panasonic, stok, tipe, harga, garansi unit, dan opsi pemasangan dikonfirmasi oleh admin sebelum pembelian. Garansi unit mengikuti ketentuan resmi brand yang tertera pada kemasan, kartu garansi, atau dokumen garansi unit.",
     certificateHolder: "",
     variants: ["Standard", "Inverter"],
-    suitableFor: ["Rumah", "Kamar", "Ruang kerja", "Kantor kecil", "Usaha kecil"],
+    suitableFor: ["Rumah", "Kamar", "Ruang kerja", "Kantor", "Hotel", "Proyek"],
     ctaLabel: "Cek Stok AC Panasonic",
     waIntent: "cek stok dan konsultasi AC Panasonic",
     waBrand: "Panasonic",
