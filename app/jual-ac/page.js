@@ -18,7 +18,7 @@ const brandLinks = [
   ["Midea", routes.brandMidea, "FT, AF, inverter, rumah, kost, dan usaha"],
   ["Hisense", routes.brandHisense, "Standard dan inverter sesuai stok"],
   ["Sharp", routes.brandSharp, "Cek tipe, stok, dan kebutuhan ruangan"],
-  ["Panasonic", routes.brandPanasonic, "Pilihan rumah, kantor kecil, dan usaha"],
+  ["Panasonic", routes.brandPanasonic, "Pilihan rumah, kantor, dan usaha"],
 ];
 
 const catalogLinks = [
@@ -26,7 +26,7 @@ const catalogLinks = [
   ["AC Split Rumah", routes.katalogAcSplitRumah, "Untuk kamar, ruang keluarga, kontrakan, dan rumah"],
   ["AC Inverter", routes.katalogAcInverter, "Untuk pemakaian lama dan suhu lebih stabil"],
   ["AC Low Watt", routes.katalogAcLowWatt, "Untuk daya listrik terbatas dan kebutuhan hemat daya"],
-  ["AC Kantor & Komersial", routes.katalogAcKantorKomersial, "Untuk toko, ruko, cafe, klinik, kantor, dan showroom"],
+  ["AC Kantor & Komersial", routes.katalogAcKantorKomersial, "Untuk toko, ruko, cafe, klinik, kantor, gedung, proyek, dan showroom"],
 ];
 
 const areaLinks = [
@@ -80,7 +80,7 @@ export default function JualAcPage() {
             </h1>
             <p className="mt-6 max-w-2xl text-base leading-8 text-slate-200 sm:text-lg">
               RADJA AC membantu pembelian AC original multi-brand untuk rumah, kost, toko,
-              kantor, hotel, dan proyek. Admin bantu cek kebutuhan PK, pilihan brand,
+              kantor, hotel, proyek, dan pengadaan banyak unit. Admin bantu cek kebutuhan PK, pilihan brand,
               stok unit, area pengiriman, dan opsi pemasangan sebelum Anda deal.
             </p>
 
@@ -131,8 +131,7 @@ export default function JualAcPage() {
               </p>
               <p className="mt-2 text-2xl font-black">PK, brand, stok, dan kebutuhan ruangan</p>
               <p className="mt-2 text-sm leading-6 text-slate-600">
-                Cocok untuk pembeli yang belum yakin memilih AC 1/2 PK, 1 PK,
-                low watt, inverter, atau kebutuhan banyak unit.
+                Cocok untuk pembeli satuan, kantor, hotel, proyek, dan pengadaan banyak unit yang perlu cek PK, stok, dan koordinasi pengiriman.
               </p>
             </div>
           </div>
@@ -313,11 +312,10 @@ export default function JualAcPage() {
             Konsultasi dulu
           </p>
           <h2 className="mt-4 text-3xl font-black tracking-tight text-slate-950 sm:text-4xl">
-            Belum tahu harus pilih AC apa?
+            Butuh AC untuk rumah, kantor, hotel, atau proyek?
           </h2>
           <p className="mx-auto mt-5 max-w-2xl text-base leading-8 text-slate-600">
-            Kirim ukuran ruangan, lokasi, daya listrik, kebutuhan unit, dan brand
-            yang diminati. Admin RADJA AC bantu cek opsi yang masuk akal.
+            Kirim ukuran ruangan, lokasi, daya listrik, jumlah unit, dan brand yang diminati. Admin RADJA AC bantu cek opsi untuk pembelian satuan sampai pengadaan banyak unit.
           </p>
           <div className="mt-8 flex flex-col justify-center gap-3 sm:flex-row">
             <WhatsappLink
