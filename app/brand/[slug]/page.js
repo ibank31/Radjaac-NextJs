@@ -14,8 +14,9 @@ export function generateStaticParams() {
   }));
 }
 
-export function generateMetadata({ params }) {
-  const item = getBrandItem(params.slug);
+export async function generateMetadata({ params }) {
+  const { slug } = await params;
+  const item = getBrandItem(slug);
 
   if (!item) {
     return {};
@@ -28,8 +29,9 @@ export function generateMetadata({ params }) {
   });
 }
 
-export default function BrandDetailPage({ params }) {
-  const item = getBrandItem(params.slug);
+export default async function BrandDetailPage({ params }) {
+  const { slug } = await params;
+  const item = getBrandItem(slug);
 
   if (!item) {
     notFound();
