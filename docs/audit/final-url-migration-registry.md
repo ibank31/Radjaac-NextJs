@@ -222,3 +222,93 @@ Recommended order after this registry:
 - No Product/Offer schema without valid product and price data.
 - No article that steals intent from a money page.
 - No production deploy without redirect, sitemap, internal link, and build audit.
+
+---
+
+## Live sitemap reconciliation
+
+Last live sitemap audit source: `https://www.radjaac.com/sitemap.xml`
+
+Audit result:
+
+| Metric | Count |
+|---|---:|
+| Live sitemap URLs | 43 |
+| Matched in Next route registry | 23 |
+| Missing in Next route registry | 20 |
+
+This section was added after checking the live sitemap. It overrides any assumption that the current Next.js route registry is already complete.
+
+### Rule
+
+Do not deploy the current Next.js repo as a final replacement until the live sitemap gap has been resolved.
+
+Live sitemap URLs must be classified before redirect or production work:
+
+| Decision | Meaning |
+|---|---|
+| `LIVE-FINAL-BUILD` | URL exists in live sitemap and should be rebuilt as a final Next.js page. |
+| `LIVE-ARTICLE-REVIEW` | URL exists in live sitemap as an article and needs content/GSC review before migrate or redirect. |
+| `LIVE-DECISION-NEEDED` | URL exists in live sitemap but needs manual business/SEO decision. |
+| `LIVE-REDIRECT-CANDIDATE` | URL exists in live sitemap but may be redirected only after review. |
+
+### LIVE-FINAL-BUILD
+
+These URLs exist in the live sitemap, are missing in the Next.js repo, and should be treated as final page candidates rather than legacy redirect URLs.
+
+| URL | Decision | Notes |
+|---|---|---|
+| `/kalkulator-pk-ac` | `LIVE-FINAL-BUILD` | Sizing/tool hub; high priority before major article work |
+| `/jual-ac-purbalingga` | `LIVE-FINAL-BUILD` | Live sitemap area page |
+| `/jual-ac-banjarnegara` | `LIVE-FINAL-BUILD` | Live sitemap area page |
+| `/jual-ac-cilacap` | `LIVE-FINAL-BUILD` | Live sitemap area page |
+| `/jual-ac-kebumen` | `LIVE-FINAL-BUILD` | Live sitemap area page |
+| `/jual-ac-tegal` | `LIVE-FINAL-BUILD` | Live sitemap area page |
+| `/jual-ac-yogyakarta` | `LIVE-FINAL-BUILD` | Live sitemap area page |
+| `/jual-ac-semarang` | `LIVE-FINAL-BUILD` | Live sitemap area page; high sitemap priority |
+| `/jual-ac-solo` | `LIVE-FINAL-BUILD` | Live sitemap area page; high sitemap priority |
+| `/brand/sansui` | `LIVE-FINAL-BUILD` | Live sitemap brand page |
+| `/brand/sharp` | `LIVE-FINAL-BUILD` | Live sitemap brand page |
+| `/brand/samsung` | `LIVE-FINAL-BUILD` | Live sitemap brand page |
+| `/brand/panasonic` | `LIVE-FINAL-BUILD` | Live sitemap brand page |
+
+### LIVE-DECISION-NEEDED
+
+| URL | Decision | Notes |
+|---|---|---|
+| `/ganti-ac-baru-purwokerto` | `LIVE-DECISION-NEEDED` | Needs business/GSC review before deciding final page or redirect |
+
+### LIVE-ARTICLE-REVIEW
+
+These article URLs exist in the live sitemap and should not be redirected blindly.
+
+| URL | Decision | Notes |
+|---|---|---|
+| `/artikel/panduan-beli-ac-baru` | `LIVE-ARTICLE-REVIEW` | Review content and GSC before migrate/redirect |
+| `/artikel/ac-1-pk-untuk-ruangan-berapa` | `LIVE-ARTICLE-REVIEW` | Review content and GSC before migrate/redirect |
+| `/artikel/ac-inverter-vs-low-watt` | `LIVE-ARTICLE-REVIEW` | Review content and GSC before migrate/redirect |
+| `/artikel/ac-kurang-dingin-belum-tentu-freon-habis` | `LIVE-ARTICLE-REVIEW` | Review content and GSC before migrate/redirect |
+| `/artikel/panduan-instalasi-ac-baru` | `LIVE-ARTICLE-REVIEW` | Review content and GSC before migrate/redirect |
+| `/artikel/cara-memilih-ac-untuk-kamar-3x4` | `LIVE-ARTICLE-REVIEW` | Review content and GSC before migrate/redirect |
+
+### Updated next priority
+
+The next work order changes after live sitemap audit:
+
+1. `Live Sitemap Reconciliation`
+   - Update registry and prevent premature redirect work.
+
+2. `Build /kalkulator-pk-ac`
+   - High-priority final URL from live sitemap.
+
+3. `Build live sitemap area batch`
+   - Start with a small batch; no mass publish.
+
+4. `Build missing live brand pages`
+   - Sansui, Sharp, Samsung, Panasonic.
+
+5. `Review live article URLs`
+   - Decide migrate, merge, or redirect based on content and GSC.
+
+6. `Legacy Redirect Safety Net`
+   - Only after live sitemap gaps are classified and major final URLs are protected.
