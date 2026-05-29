@@ -1,9 +1,9 @@
 # Live Sitemap Gap Decision Matrix
 
 Status: working decision matrix
-Basis: live sitemap audit after PR #15
+Basis: live sitemap audit after PR #19
 Live sitemap: `https://www.radjaac.com/sitemap.xml`
-Next.js repo: `main` after route hardening PR #15
+Next.js repo: `main` after area batch 2 PR #19
 
 ## Purpose
 
@@ -22,8 +22,8 @@ The goal is to prevent production cutover problems such as:
 | Metric | Count |
 |---|---:|
 | Live sitemap URLs | 43 |
-| Matched in Next.js route registry | 28 |
-| Missing in Next.js route registry | 15 |
+| Matched in Next.js route registry | 34 |
+| Missing in Next.js route registry | 9 |
 
 ## Decision labels
 
@@ -35,10 +35,11 @@ The goal is to prevent production cutover problems such as:
 | `DECISION-NEEDED` | Needs business/SEO decision before implementation. |
 | `HOLD` | Do not build in current phase. |
 | `REDIRECT-CANDIDATE` | May redirect later, but only after review and target confirmation. |
+| `RESOLVED-FINAL` | Already rebuilt as a final Next.js route and included in sitemap. |
 
 ## Non-negotiable migration rule
 
-Do not deploy the Next.js repo as the production replacement while these 15 live sitemap URLs are unresolved.
+Do not deploy the Next.js repo as the production replacement while the remaining live sitemap URLs are unresolved.
 
 A URL is considered resolved only when one of these is true:
 
@@ -57,12 +58,12 @@ These are live sitemap URLs and should not be dropped during cutover.
 
 | URL | Current type | Decision | Priority | Recommended action | Main risk | Notes |
 |---|---|---|---:|---|---|---|
-| `/jual-ac-yogyakarta` | Area page | `BUILD-FINAL-BATCHED` | P1 | Rebuild as final area page | Losing indexed local intent | Strong area candidate. Must avoid fake branch/showroom claim. |
-| `/jual-ac-semarang` | Area page | `BUILD-FINAL-BATCHED` | P1 | Rebuild as final area page | Losing high-priority live sitemap URL | High sitemap priority on live site. Needs unique copy and service-safe wording. |
-| `/jual-ac-solo` | Area page | `BUILD-FINAL-BATCHED` | P1 | Rebuild after Semarang/Yogyakarta or in same small batch | Thin/copy-paste area page | Use service-led copy, not fake local store claim. |
-| `/jual-ac-purbalingga` | Area page | `BUILD-FINAL-BATCHED` | P2 | Rebuild as nearby regional area page | Dropping regional indexed URL | Closer regional page; likely easier to make operationally credible. |
-| `/jual-ac-cilacap` | Area page | `BUILD-FINAL-BATCHED` | P2 | Rebuild as regional area page | Thin content if copied | Needs delivery/coordination wording and relevant internal links. |
-| `/jual-ac-kebumen` | Area page | `BUILD-FINAL-BATCHED` | P2 | Rebuild as regional area page | Thin content if copied | Needs unique buyer concerns and safe fulfillment wording. |
+| `/jual-ac-yogyakarta` | Area page | `RESOLVED-FINAL` | Done PR #18 | Built as final area page | Watch snippet consistency | Source-aligned area page implemented and included in sitemap. |
+| `/jual-ac-semarang` | Area page | `RESOLVED-FINAL` | Done PR #18 | Built as final area page | Watch snippet consistency | Source-aligned area page implemented and included in sitemap. |
+| `/jual-ac-solo` | Area page | `RESOLVED-FINAL` | Done PR #18 | Built as final area page | Watch snippet consistency | Source-aligned area page implemented and included in sitemap. |
+| `/jual-ac-purbalingga` | Area page | `RESOLVED-FINAL` | Done PR #19 | Built as final nearby regional area page | Watch thin/local-claim risk | Source-aligned area page implemented and included in sitemap. |
+| `/jual-ac-cilacap` | Area page | `RESOLVED-FINAL` | Done PR #19 | Built as final regional area page | Watch thin/local-claim risk | Source-aligned area page implemented and included in sitemap. |
+| `/jual-ac-kebumen` | Area page | `RESOLVED-FINAL` | Done PR #19 | Built as final regional area page | Watch thin/local-claim risk | Source-aligned area page implemented and included in sitemap. |
 | `/jual-ac-tegal` | Area page | `BUILD-FINAL-BATCHED` | P3 | Rebuild after closer/high-priority area pages | Over-expansion risk | Treat as later area batch. |
 | `/jual-ac-banjarnegara` | Area page | `BUILD-FINAL-BATCHED` | P3 | Rebuild after P1/P2 pages | Thin content / lower priority | Keep in migration queue because it is live, but do not mass-publish. |
 
@@ -91,7 +92,9 @@ These article URLs exist in the live sitemap. They should not be redirected blin
 
 ### Batch 1 — Area protection, high priority
 
-Build only 2–3 pages first:
+Status: done in PR #18.
+
+Built:
 
 1. `/jual-ac-yogyakarta`
 2. `/jual-ac-semarang`
@@ -108,16 +111,20 @@ Rules:
 
 ### Batch 2 — Nearby/regional area protection
 
-Build:
+Status: done in PR #19.
+
+Built:
 
 1. `/jual-ac-purbalingga`
 2. `/jual-ac-cilacap`
 3. `/jual-ac-kebumen`
 
-Then reassess before adding:
+Remaining area gap candidates:
 
 1. `/jual-ac-tegal`
 2. `/jual-ac-banjarnegara`
+
+These should be handled only after reassessing source support, uniqueness, and operational readiness.
 
 ### Batch 3 — Article review
 
@@ -160,7 +167,7 @@ Possible targets if redirected later:
 
 Before switching production traffic to the Next.js repo:
 
-- all 15 live sitemap gaps must be resolved,
+- all remaining live sitemap gaps must be resolved,
 - sitemap must contain final URLs only,
 - internal links must point only to final URLs,
 - legacy redirects must exist for intentionally removed/merged URLs,
@@ -174,4 +181,4 @@ The Next.js repo structure is healthy, but production cutover is not ready until
 
 The safest next engineering step is:
 
-`Area Batch 1: /jual-ac-yogyakarta, /jual-ac-semarang, /jual-ac-solo`
+`Reassess remaining area gaps: /jual-ac-tegal and /jual-ac-banjarnegara, then decide whether to build a small Area Batch 3 or start Article Review Batch 1.`
