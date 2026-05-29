@@ -151,6 +151,160 @@ export const articleItems = [
       ["Kontak RADJA AC", routes.kontak],
     ],
   },
+
+  {
+    slug: "ac-kurang-dingin-belum-tentu-freon-habis",
+    path: routes.artikelAcKurangDingin,
+    title: "AC Kurang Dingin? Cek Layak Pakai atau Ganti Baru",
+    description:
+      "AC kurang dingin tidak selalu berarti freon habis. Cek kapasitas PK, usia unit, pemakaian, daya listrik, dan kapan lebih masuk akal mempertimbangkan AC baru.",
+    h1: "AC kurang dingin belum tentu freon habis",
+    eyebrow: "Edukasi AC",
+    readTime: "6 menit baca",
+    intro:
+      "Saat AC lama mulai kurang dingin, keputusan paling penting bukan langsung menambah biaya, tetapi mengevaluasi apakah unit masih layak dipakai atau lebih masuk akal diganti baru. Penyebabnya bisa dari kapasitas PK yang kurang, ruangan berubah fungsi, pemakaian berat, instalasi kurang ideal, atau usia unit yang sudah tinggi.",
+    sections: [
+      {
+        heading: "AC kurang dingin perlu dilihat sebagai tanda evaluasi",
+        body: [
+          "AC yang mulai kurang dingin adalah sinyal untuk mengecek kecocokan unit dengan kebutuhan ruangan saat ini. Ruangan yang makin padat, plafon tinggi, sering terkena panas matahari, atau pintu sering terbuka bisa membuat AC lama terasa tidak kuat lagi.",
+          "Jika unit sudah berumur, boros listrik, sering bermasalah, atau kapasitas PK sejak awal terlalu kecil, membeli AC baru dengan ukuran yang tepat sering lebih sehat daripada terus mengeluarkan biaya berulang.",
+        ],
+      },
+      {
+        heading: "Cek kapasitas PK sebelum menambah biaya",
+        body: [
+          "Salah satu penyebab AC terasa tidak maksimal adalah kapasitas PK yang tidak sesuai luas dan kondisi ruangan. AC kecil untuk ruangan yang terlalu besar akan bekerja berat, lambat dingin, dan konsumsi listrik terasa kurang efisien.",
+          "Sebelum menambah biaya ke unit lama, cek ukuran ruangan, jumlah orang, sumber panas, arah matahari, dan daya listrik rumah. Dari data ini, pilihan AC standard, low watt, atau inverter bisa diarahkan lebih tepat.",
+        ],
+      },
+      {
+        heading: "Tanda lebih masuk akal ganti AC baru",
+        body: [
+          "Pertimbangkan ganti AC baru jika unit sudah tua, sering kurang dingin, suara mulai kasar, listrik terasa boros, spare part sulit, atau biaya perbaikan mulai mendekati nilai unit baru.",
+          "Ganti AC baru juga lebih masuk akal ketika kebutuhan ruangan berubah. Contohnya kamar berubah jadi ruang kerja, ruangan makin banyak perangkat elektronik, atau ruangan usaha butuh pendinginan lebih stabil sepanjang hari.",
+        ],
+      },
+      {
+        heading: "Checklist sebelum membeli AC pengganti",
+        body: [
+          "Siapkan ukuran ruangan, daya listrik, lokasi indoor dan outdoor, kebiasaan pemakaian, budget, dan merek yang diminati. Data ini membantu memilih AC dengan PK dan fitur yang sesuai.",
+          "Untuk rumah dengan daya terbatas, AC low watt bisa dipertimbangkan. Untuk pemakaian lama setiap hari, AC inverter sering lebih nyaman. Untuk toko, kantor, kost, atau banyak ruangan, stok dan jadwal pemasangan perlu dicek lebih awal.",
+        ],
+      },
+    ],
+    ctaLabel: "Konsultasi Ganti AC Baru",
+    waIntent: "konsultasi AC kurang dingin dan pertimbangan ganti AC baru",
+    relatedLinks: [
+      ["Ganti AC Baru Purwokerto", routes.gantiAcBaruPurwokerto],
+      ["Kalkulator PK AC", routes.kalkulatorPkAc],
+      ["AC Low Watt", routes.katalogAcLowWatt],
+      ["AC Inverter", routes.katalogAcInverter],
+      ["Kontak RADJA AC", routes.kontak],
+    ],
+  },
+  {
+    slug: "panduan-instalasi-ac-baru",
+    path: routes.artikelPanduanInstalasiAcBaru,
+    title: "Panduan Instalasi AC Baru | Cek Indoor, Outdoor, Pipa & Listrik",
+    description:
+      "Panduan sebelum memasang AC baru: cek posisi indoor, outdoor, jalur pipa, drainase, listrik, dan kebutuhan ruangan agar tidak salah pilih unit.",
+    h1: "Panduan instalasi AC baru sebelum unit dipasang",
+    eyebrow: "Panduan Instalasi",
+    readTime: "5 menit baca",
+    intro:
+      "Saat membeli AC baru, pilihan merek dan kapasitas PK memang penting. Namun hasil akhirnya juga dipengaruhi titik pemasangan, posisi outdoor, jalur pipa, drainase, dan kesiapan listrik. Karena itu, calon pembeli sebaiknya memahami hal dasar instalasi sebelum menentukan unit AC.",
+    sections: [
+      {
+        heading: "Kenapa instalasi perlu dipikirkan sebelum membeli AC?",
+        body: [
+          "AC yang kapasitasnya sudah benar tetap bisa kurang nyaman jika titik indoor, outdoor, pipa, atau pembuangan air tidak direncanakan dengan baik. Instalasi yang kurang tepat bisa membuat ruangan lama dingin, suara lebih mengganggu, air menetes, atau tampilan ruangan kurang rapi.",
+          "Sebelum membeli AC, lebih aman jika pembeli sudah menyiapkan ukuran ruangan, foto calon titik indoor, foto area outdoor, dan informasi daya listrik. Data sederhana ini membantu admin memberi arahan unit dan opsi pemasangan yang lebih masuk akal.",
+        ],
+      },
+      {
+        heading: "Cek posisi indoor dan arah hembusan udara",
+        body: [
+          "Unit indoor sebaiknya dipasang di posisi yang tidak terhalang lemari, gorden tebal, plafon terlalu dekat, atau sekat ruangan. Arah hembusan udara juga perlu diperhatikan agar ruangan terasa merata, bukan hanya dingin di satu titik.",
+          "Untuk kamar tidur, ruang keluarga, toko kecil, atau ruang kerja, posisi indoor yang rapi dan tepat bisa membuat AC bekerja lebih nyaman.",
+        ],
+      },
+      {
+        heading: "Outdoor butuh sirkulasi udara yang baik",
+        body: [
+          "Outdoor AC membutuhkan ruang buang panas yang cukup. Jika outdoor terlalu tertutup, terlalu dekat dinding, atau terkena panas berlebih tanpa sirkulasi, performa pendinginan bisa turun dan unit bekerja lebih berat.",
+          "Sebelum menentukan AC, cek apakah lokasi outdoor aman, mudah dijangkau untuk perawatan, dan memungkinkan jalur pipa yang wajar. Untuk rumah bertingkat, ruko, atau area sempit, titik outdoor sebaiknya dibahas sejak awal.",
+        ],
+      },
+      {
+        heading: "Perhatikan pipa, drainase, dan listrik",
+        body: [
+          "Jalur pipa dan kabel yang rapi membantu tampilan ruangan tetap bersih. Drainase juga penting karena pembuangan air yang kurang tepat bisa menyebabkan tetesan, lembap, atau bekas air di dinding.",
+          "Daya listrik dan jalur MCB perlu dicek agar sesuai dengan kebutuhan unit. Pembeli yang ragu antara AC standard, low watt, atau inverter sebaiknya menyampaikan daya listrik rumah saat konsultasi.",
+        ],
+      },
+    ],
+    ctaLabel: "Konsultasi AC Baru & Opsi Pemasangan",
+    waIntent: "konsultasi beli AC baru dan opsi pemasangan",
+    relatedLinks: [
+      ["Katalog AC", routes.katalog],
+      ["Kalkulator PK AC", routes.kalkulatorPkAc],
+      ["Pengiriman & Pemasangan", routes.pengirimanPemasangan],
+      ["Jual AC Purwokerto", routes.jualAcPurwokerto],
+      ["Kontak RADJA AC", routes.kontak],
+    ],
+  },
+  {
+    slug: "cara-memilih-ac-untuk-kamar-3x4",
+    path: routes.artikelCaraMemilihAcKamarTigaKaliEmpat,
+    title: "Cara Memilih AC untuk Kamar 3x4 | Cek PK, Daya & Posisi Pasang",
+    description:
+      "Panduan memilih AC untuk kamar ukuran 3x4 meter, mulai dari kapasitas PK, tipe AC, daya listrik, sampai posisi pemasangan.",
+    h1: "Cara memilih AC untuk kamar 3x4 meter",
+    eyebrow: "Panduan Ruangan",
+    readTime: "4 menit baca",
+    intro:
+      "Kamar ukuran 3x4 meter termasuk ukuran yang umum di rumah. Untuk ruangan seperti ini, pilihan AC tidak hanya ditentukan dari luas ruangan, tetapi juga kondisi panas, plafon, jumlah penghuni, pola pemakaian, dan daya listrik.",
+    sections: [
+      {
+        heading: "Hitung kebutuhan dari kondisi kamar",
+        body: [
+          "Kamar 3x4 meter memiliki luas sekitar 12 m². Dalam kondisi normal, ruangan seperti ini sering masuk rentang 1/2 PK sampai 3/4 PK, tetapi bisa berubah jika kamar panas, plafon tinggi, atau sering terkena matahari langsung.",
+          "Jika kamar di lantai atas, banyak kaca, atau dinding terkena panas sore, kebutuhan pendinginan bisa lebih besar dibanding kamar yang teduh.",
+        ],
+      },
+      {
+        heading: "Perhatikan daya listrik dan pola pemakaian",
+        body: [
+          "Untuk kamar yang dipakai setiap malam, kenyamanan dan kestabilan suhu penting diperhatikan. AC inverter bisa dipertimbangkan jika pemakaian rutin dan budget memungkinkan.",
+          "Kalau daya listrik rumah terbatas, AC low watt bisa menjadi pilihan yang lebih aman. Namun, tetap pastikan kapasitasnya cukup agar AC tidak bekerja terlalu berat.",
+        ],
+      },
+      {
+        heading: "Jangan abaikan posisi pemasangan",
+        body: [
+          "Posisi indoor sebaiknya tidak langsung terhalang lemari, tirai, atau plafon terlalu dekat. Outdoor juga perlu sirkulasi udara yang baik agar performa pendinginan tidak turun.",
+          "Sebelum membeli, foto ruangan dan titik pemasangan bisa dikirim ke admin agar rekomendasi unit dan opsi pemasangannya lebih tepat.",
+        ],
+      },
+      {
+        heading: "Mulai dari kalkulator PK sebelum tanya stok",
+        body: [
+          "Untuk kamar 3x4, cek kebutuhan PK dulu sebelum memilih brand. Setelah kapasitasnya lebih jelas, barulah bandingkan tipe standard, low watt, atau inverter sesuai budget dan daya listrik.",
+          "Data yang paling membantu adalah ukuran ruangan, tinggi plafon, arah panas matahari, daya listrik, dan apakah AC dipakai hanya malam hari atau hampir sepanjang hari.",
+        ],
+      },
+    ],
+    ctaLabel: "Konsultasi AC Kamar 3x4",
+    waIntent: "konsultasi memilih AC untuk kamar 3x4",
+    relatedLinks: [
+      ["Kalkulator PK AC", routes.kalkulatorPkAc],
+      ["AC 1/2 PK", routes.katalogAcSetengahPk],
+      ["AC Split Rumah", routes.katalogAcSplitRumah],
+      ["AC Low Watt", routes.katalogAcLowWatt],
+      ["Kontak RADJA AC", routes.kontak],
+    ],
+  },
 ];
 
 export function getArticleItem(slug) {

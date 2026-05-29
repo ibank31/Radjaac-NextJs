@@ -46,6 +46,9 @@ export const routes = {
   artikelPanduanBeliAcBaru: "/artikel/panduan-beli-ac-baru",
   artikelAcSatuPkUntukRuanganBerapa: "/artikel/ac-1-pk-untuk-ruangan-berapa",
   artikelAcInverterVsLowWatt: "/artikel/ac-inverter-vs-low-watt",
+  artikelAcKurangDingin: "/artikel/ac-kurang-dingin-belum-tentu-freon-habis",
+  artikelPanduanInstalasiAcBaru: "/artikel/panduan-instalasi-ac-baru",
+  artikelCaraMemilihAcKamarTigaKaliEmpat: "/artikel/cara-memilih-ac-untuk-kamar-3x4",
 };
 
 export const sitemapRoutes = [
@@ -95,4 +98,7 @@ export const sitemapRoutes = [
   { path: routes.artikelPanduanBeliAcBaru, priority: 0.55 },
   { path: routes.artikelAcSatuPkUntukRuanganBerapa, priority: 0.55 },
   { path: routes.artikelAcInverterVsLowWatt, priority: 0.55 },
+  { path: routes.artikelAcKurangDingin, priority: 0.5 },
+  { path: routes.artikelPanduanInstalasiAcBaru, priority: 0.5 },
+  { path: routes.artikelCaraMemilihAcKamarTigaKaliEmpat, priority: 0.5 },
 ];
