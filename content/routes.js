@@ -7,6 +7,9 @@ export const routes = {
   jualAcYogyakarta: "/jual-ac-yogyakarta",
   jualAcSemarang: "/jual-ac-semarang",
   jualAcSolo: "/jual-ac-solo",
+  jualAcPurbalingga: "/jual-ac-purbalingga",
+  jualAcCilacap: "/jual-ac-cilacap",
+  jualAcKebumen: "/jual-ac-kebumen",
 
   katalog: "/katalog",
   katalogAcSetengahPk: "/katalog/ac-1-2-pk",
@@ -48,6 +51,9 @@ export const sitemapRoutes = [
   { path: routes.jualAcYogyakarta, priority: 0.85 },
   { path: routes.jualAcSemarang, priority: 0.85 },
   { path: routes.jualAcSolo, priority: 0.85 },
+  { path: routes.jualAcPurbalingga, priority: 0.8 },
+  { path: routes.jualAcCilacap, priority: 0.8 },
+  { path: routes.jualAcKebumen, priority: 0.8 },
 
   { path: routes.katalog, priority: 0.85 },
   { path: routes.kalkulatorPkAc, priority: 0.9 },
