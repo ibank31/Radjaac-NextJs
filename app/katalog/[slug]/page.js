@@ -5,6 +5,8 @@ import { buildMetadata } from "@/lib/seo";
 import { catalogItems, getCatalogItem } from "@/content/catalog";
 import WhatsappLink from "@/components/ui/WhatsappLink";
 
+export const dynamicParams = false;
+
 export function generateStaticParams() {
   return catalogItems.map((item) => ({
     slug: item.slug,

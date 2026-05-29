@@ -6,6 +6,8 @@ import { brandItems, featuredBrandItems, getBrandItem } from "@/content/brands";
 import { warrantyHighlights } from "@/content/policies";
 import WhatsappLink from "@/components/ui/WhatsappLink";
 
+export const dynamicParams = false;
+
 export function generateStaticParams() {
   return brandItems.map((item) => ({
     slug: item.slug,

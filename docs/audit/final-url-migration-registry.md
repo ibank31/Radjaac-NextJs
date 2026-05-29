@@ -53,6 +53,7 @@ These URLs are currently implemented in the Next.js repo and are allowed as fina
 | `/kontak` | `FINAL-NOW` | Contact / conversion page |
 | `/tentang-kami` | `FINAL-NOW` | Business identity page |
 | `/artikel` | `FINAL-NOW` | Article index placeholder; article detail migration not started |
+| `/kalkulator-pk-ac` | `FINAL-NOW` | PK sizing/tool hub; live sitemap URL implemented in PR #13 |
 | `/pengiriman-pemasangan` | `FINAL-NOW` | Delivery and installation information page |
 | `/bukti-pengiriman-proyek` | `FINAL-NOW` | Proof/trust page |
 
@@ -83,6 +84,10 @@ These URLs are currently implemented in the Next.js repo and are allowed as fina
 | `/brand/midea` | `FINAL-NOW` | Main brand page |
 | `/brand/hisense` | `FINAL-NOW` | Supporting brand page |
 | `/brand/lainnya` | `FINAL-NOW` | Brand collection page |
+| `/brand/sansui` | `FINAL-NOW` | Supporting brand page; live sitemap URL implemented in PR #14 |
+| `/brand/sharp` | `FINAL-NOW` | Supporting brand page; live sitemap URL implemented in PR #14 |
+| `/brand/samsung` | `FINAL-NOW` | Supporting brand page; live sitemap URL implemented in PR #14 |
+| `/brand/panasonic` | `FINAL-NOW` | Supporting brand page; live sitemap URL implemented in PR #14 |
 
 ### Procurement pages
 
@@ -104,7 +109,6 @@ They must not be added blindly. Each one needs a focused PR with unique content,
 
 | URL | Status | Recommended action |
 |---|---|---|
-| `/kalkulator-pk-ac` | `FINAL-MISSING` | Build as sizing/tool hub before major article work |
 | `/katalog/ac-1-pk` | `FINAL-MISSING` | Build after registry; first missing capacity page |
 | `/jual-ac-yogyakarta` | `FINAL-MISSING` | Rebuild/polish as final area page if source confirms live/priority |
 | `/jual-ac-semarang` | `FINAL-MISSING` | Build as major area expansion after cleanup |
@@ -120,10 +124,6 @@ They must not be added blindly. Each one needs a focused PR with unique content,
 |---|---|---|
 | `/katalog/ac-1-5-pk` | `FINAL-MISSING` | Build after `/katalog/ac-1-pk` |
 | `/katalog/ac-2-pk` | `FINAL-MISSING` | Build after `/katalog/ac-1-pk` |
-| `/brand/sansui` | `FINAL-MISSING` | Consider brand page if source/trust and stock context justify it |
-| `/brand/sharp` | `FINAL-MISSING` | Consider brand page if source/trust and stock context justify it |
-| `/brand/samsung` | `FINAL-MISSING` | Consider brand page if source/trust and stock context justify it |
-| `/brand/panasonic` | `FINAL-MISSING` | Consider brand page if source/trust and stock context justify it |
 | `/pengadaan-ac/gedung-kantor-ruko` | `FINAL-MISSING` | B2B expansion candidate |
 | `/pengadaan-ac/cafe-resto` | `FINAL-MISSING` | B2B expansion candidate |
 
@@ -226,6 +226,31 @@ Recommended order after this registry:
 ---
 
 ## Live sitemap reconciliation
+
+### Post PR #14 reconciliation status
+
+After PR #13 and PR #14, the Next.js route registry covers 28 of 43 live sitemap URLs.
+
+Resolved live sitemap gaps:
+
+| URL | Resolution |
+|---|---|
+| `/kalkulator-pk-ac` | Implemented as `FINAL-NOW` in PR #13 |
+| `/brand/sansui` | Implemented as `FINAL-NOW` in PR #14 |
+| `/brand/sharp` | Implemented as `FINAL-NOW` in PR #14 |
+| `/brand/samsung` | Implemented as `FINAL-NOW` in PR #14 |
+| `/brand/panasonic` | Implemented as `FINAL-NOW` in PR #14 |
+
+Remaining live sitemap gaps: 15 URLs.
+
+Remaining groups:
+
+- Area pages: `/jual-ac-purbalingga`, `/jual-ac-banjarnegara`, `/jual-ac-cilacap`, `/jual-ac-kebumen`, `/jual-ac-tegal`, `/jual-ac-yogyakarta`, `/jual-ac-semarang`, `/jual-ac-solo`
+- Decision-needed page: `/ganti-ac-baru-purwokerto`
+- Article review URLs: `/artikel/panduan-beli-ac-baru`, `/artikel/ac-1-pk-untuk-ruangan-berapa`, `/artikel/ac-inverter-vs-low-watt`, `/artikel/ac-kurang-dingin-belum-tentu-freon-habis`, `/artikel/panduan-instalasi-ac-baru`, `/artikel/cara-memilih-ac-untuk-kamar-3x4`
+
+Do not start legacy redirect work until remaining live sitemap gaps are either rebuilt, reviewed, or intentionally mapped.
+
 
 Last live sitemap audit source: `https://www.radjaac.com/sitemap.xml`
 
