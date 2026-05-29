@@ -19,6 +19,10 @@ export const routes = {
   brandMidea: "/brand/midea",
   brandHisense: "/brand/hisense",
   brandLainnya: "/brand/lainnya",
+  brandSansui: "/brand/sansui",
+  brandSharp: "/brand/sharp",
+  brandSamsung: "/brand/samsung",
+  brandPanasonic: "/brand/panasonic",
 
   pengadaanAc: "/pengadaan-ac",
   pengadaanKostApartemen: "/pengadaan-ac/kost-apartemen-skala-besar",
@@ -52,6 +56,10 @@ export const sitemapRoutes = [
   { path: routes.brandMidea, priority: 0.8 },
   { path: routes.brandHisense, priority: 0.75 },
   { path: routes.brandLainnya, priority: 0.7 },
+  { path: routes.brandSansui, priority: 0.7 },
+  { path: routes.brandSharp, priority: 0.7 },
+  { path: routes.brandSamsung, priority: 0.7 },
+  { path: routes.brandPanasonic, priority: 0.7 },
 
   { path: routes.pengadaanAc, priority: 0.85 },
   { path: routes.pengadaanKostApartemen, priority: 0.75 },
