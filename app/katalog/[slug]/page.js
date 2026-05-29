@@ -13,8 +13,9 @@ export function generateStaticParams() {
   }));
 }
 
-export function generateMetadata({ params }) {
-  const item = getCatalogItem(params.slug);
+export async function generateMetadata({ params }) {
+  const { slug } = await params;
+  const item = getCatalogItem(slug);
 
   if (!item) {
     return {};
@@ -27,8 +28,9 @@ export function generateMetadata({ params }) {
   });
 }
 
-export default function CatalogDetailPage({ params }) {
-  const item = getCatalogItem(params.slug);
+export default async function CatalogDetailPage({ params }) {
+  const { slug } = await params;
+  const item = getCatalogItem(slug);
 
   if (!item) {
     notFound();
