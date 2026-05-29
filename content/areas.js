@@ -94,6 +94,130 @@ export const areaItems = [
     waIntent: "konsultasi jual AC Sokaraja",
     waArea: "Sokaraja",
   },
+
+  {
+    slug: "jual-ac-yogyakarta",
+    path: routes.jualAcYogyakarta,
+    areaName: "Yogyakarta",
+    label: "Jual AC Yogyakarta",
+    title: "Jual AC Yogyakarta | Cek Stok, Konsultasi PK & Opsi Pemasangan",
+    description:
+      "Butuh AC baru untuk area Yogyakarta? RADJA AC bantu konsultasi PK, cek stok unit, pengiriman, dan opsi pemasangan untuk rumah, kost, guest house, usaha, dan banyak unit.",
+    h1: "Jual AC Yogyakarta untuk kost, hotel kecil, rumah, dan usaha",
+    eyebrow: "Area Layanan",
+    intro:
+      "RADJA AC membantu kebutuhan AC area Yogyakarta untuk rumah, kost, guest house, hotel kecil, usaha, kantor, dan pembelian banyak unit. Admin bantu cek kebutuhan PK, daya listrik, pilihan brand, stok unit, pengiriman, dan opsi pemasangan sebelum Anda deal.",
+    localContext:
+      "Yogyakarta punya banyak kebutuhan AC untuk kost, guest house, rumah tinggal, cafe, ruang usaha, dan unit banyak kamar. Karena pola pemakaian bisa berbeda antara kamar kost, ruang keluarga, dan area usaha, pilihan AC sebaiknya dicek dari ukuran ruangan, daya listrik, jumlah unit, serta budget.",
+    coverageNote:
+      "RADJA AC berbasis di Banyumas dan melayani kebutuhan AC area Yogyakarta dengan konsultasi PK, cek stok unit, pengiriman, dan opsi pemasangan yang dikonfirmasi admin sesuai alamat, jumlah unit, dan jadwal.",
+    commonNeeds: [
+      "AC kost, guest house, dan kamar sewa",
+      "AC rumah tinggal, kontrakan, dan homestay",
+      "AC cafe, toko, kantor kecil, dan ruang usaha",
+      "Pembelian banyak unit untuk pengelola bangunan",
+    ],
+    buyingChecks: [
+      "Jumlah kamar atau ruangan yang akan dipasang AC",
+      "Ukuran ruangan, tinggi plafon, dan panas matahari",
+      "Daya listrik tiap titik atau daya listrik total bangunan",
+      "Kebutuhan unit saja, pengiriman, atau opsi pemasangan",
+    ],
+    relatedLinks: [
+      ["Kalkulator PK AC", routes.kalkulatorPkAc],
+      ["Katalog AC", routes.katalog],
+      ["Pengadaan AC Hotel & Guest House", routes.pengadaanHotelGuestHouse],
+      ["Pengadaan AC Kost & Apartemen", routes.pengadaanKostApartemen],
+      ["AC Daikin", routes.brandDaikin],
+      ["AC Gree", routes.brandGree],
+      ["Kontak RADJA AC", routes.kontak],
+    ],
+    ctaLabel: "Chat WA untuk AC Yogyakarta",
+    waIntent: "konsultasi jual AC Yogyakarta untuk rumah kost hotel kecil usaha atau banyak unit",
+    waArea: "Yogyakarta",
+  },
+  {
+    slug: "jual-ac-semarang",
+    path: routes.jualAcSemarang,
+    areaName: "Semarang",
+    label: "Jual AC Semarang",
+    title: "Jual AC Semarang | Cek Stok, Konsultasi PK & Opsi Pemasangan",
+    description:
+      "Butuh AC baru untuk area Semarang? RADJA AC bantu konsultasi PK, cek stok unit, pengiriman, dan opsi pemasangan untuk rumah, ruko, kantor, usaha, hotel kecil, dan proyek.",
+    h1: "Jual AC Semarang untuk rumah, kantor, ruko, usaha, dan proyek ringan",
+    eyebrow: "Area Layanan",
+    intro:
+      "RADJA AC membantu kebutuhan AC area Semarang untuk rumah, kantor, ruko, toko, hotel kecil, developer, dan pembelian banyak unit. Admin bantu cek kebutuhan PK, stok unit, pilihan brand, pengiriman, dan opsi pemasangan yang sesuai dengan kebutuhan Anda.",
+    localContext:
+      "Semarang cocok diprioritaskan untuk kebutuhan AC rumah, kantor, ruko, ruang usaha, hotel kecil, dan proyek ringan. Karena kebutuhan komersial sering melibatkan banyak ruangan atau timeline tertentu, data awal seperti jumlah unit, ukuran ruangan, dan kebutuhan pemasangan perlu disiapkan sejak awal.",
+    coverageNote:
+      "RADJA AC berbasis di Banyumas dan melayani kebutuhan AC area Semarang dengan konsultasi PK, cek stok unit, pengiriman, serta opsi pemasangan yang dikonfirmasi sesuai alamat, jumlah unit, dan jadwal pekerjaan.",
+    commonNeeds: [
+      "AC rumah tinggal dan kamar keluarga",
+      "AC kantor, ruko, toko, dan ruang usaha",
+      "AC hotel kecil, guest house, dan bangunan komersial",
+      "Kebutuhan banyak unit untuk proyek ringan",
+    ],
+    buyingChecks: [
+      "Jenis bangunan dan jumlah ruangan",
+      "Ukuran ruangan, beban panas, dan jam pemakaian",
+      "Preferensi brand, tipe standard, low watt, atau inverter",
+      "Timeline pengiriman dan kebutuhan opsi pemasangan",
+    ],
+    relatedLinks: [
+      ["Kalkulator PK AC", routes.kalkulatorPkAc],
+      ["AC Kantor & Komersial", routes.katalogAcKantorKomersial],
+      ["Pengadaan AC Proyek", routes.pengadaanAc],
+      ["Pengadaan Kontraktor & Developer", routes.pengadaanKontraktorDeveloper],
+      ["AC Daikin", routes.brandDaikin],
+      ["AC Gree", routes.brandGree],
+      ["Kontak RADJA AC", routes.kontak],
+    ],
+    ctaLabel: "Chat WA untuk AC Semarang",
+    waIntent: "konsultasi jual AC Semarang untuk rumah kantor ruko usaha atau proyek ringan",
+    waArea: "Semarang",
+  },
+  {
+    slug: "jual-ac-solo",
+    path: routes.jualAcSolo,
+    areaName: "Solo",
+    label: "Jual AC Solo",
+    title: "Jual AC Solo | Cek Stok AC, Konsultasi PK & Opsi Pemasangan",
+    description:
+      "Butuh AC baru untuk area Solo? RADJA AC bantu konsultasi PK, cek stok unit, pengiriman, dan opsi pemasangan untuk rumah, kost, toko, kantor kecil, hotel kecil, dan usaha.",
+    h1: "Jual AC Solo untuk rumah, kost, hotel kecil, toko, dan kantor",
+    eyebrow: "Area Layanan",
+    intro:
+      "RADJA AC membantu kebutuhan AC area Solo untuk rumah, kost, hotel kecil, toko, kantor kecil, dan ruang usaha. Admin bantu cek kebutuhan PK, daya listrik, pilihan brand, stok unit, pengiriman, dan opsi pemasangan sebelum Anda menentukan unit.",
+    localContext:
+      "Solo memiliki kebutuhan AC yang beragam dari rumah, kost, toko, kantor kecil, sampai hospitality skala kecil. Agar pilihan unit tidak hanya berdasarkan harga, admin akan membantu cek ukuran ruangan, daya listrik, pola pemakaian, dan kebutuhan unit saja atau pemasangan.",
+    coverageNote:
+      "RADJA AC berbasis di Banyumas dan melayani kebutuhan AC area Solo dengan konsultasi PK, cek stok unit, pengiriman, dan opsi pemasangan yang dikonfirmasi admin sesuai lokasi, jumlah unit, serta jadwal.",
+    commonNeeds: [
+      "AC rumah dan kamar tidur",
+      "AC kost, kontrakan, dan hotel kecil",
+      "AC toko, kantor kecil, dan ruang kerja",
+      "Pembelian beberapa unit untuk usaha",
+    ],
+    buyingChecks: [
+      "Ukuran ruangan dan perkiraan kapasitas PK",
+      "Daya listrik dan kebutuhan low watt atau inverter",
+      "Jumlah unit dan preferensi brand",
+      "Alamat pengiriman dan kebutuhan opsi pemasangan",
+    ],
+    relatedLinks: [
+      ["Kalkulator PK AC", routes.kalkulatorPkAc],
+      ["AC Split Rumah", routes.katalogAcSplitRumah],
+      ["AC Inverter", routes.katalogAcInverter],
+      ["Pengadaan AC Hotel & Guest House", routes.pengadaanHotelGuestHouse],
+      ["AC Gree", routes.brandGree],
+      ["AC Daikin", routes.brandDaikin],
+      ["Kontak RADJA AC", routes.kontak],
+    ],
+    ctaLabel: "Chat WA untuk AC Solo",
+    waIntent: "konsultasi jual AC Solo untuk rumah kost hotel kecil toko kantor atau usaha",
+    waArea: "Solo",
+  },
 ];
 
 export function getAreaItem(slug) {

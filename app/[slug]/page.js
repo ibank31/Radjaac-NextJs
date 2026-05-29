@@ -22,8 +22,9 @@ export function generateStaticParams() {
   }));
 }
 
-export function generateMetadata({ params }) {
-  const item = getAreaItem(params.slug);
+export async function generateMetadata({ params }) {
+  const { slug } = await params;
+  const item = getAreaItem(slug);
 
   if (!item) {
     return {};
@@ -36,14 +37,16 @@ export function generateMetadata({ params }) {
   });
 }
 
-export default function AreaPage({ params }) {
-  const item = getAreaItem(params.slug);
+export default async function AreaPage({ params }) {
+  const { slug } = await params;
+  const item = getAreaItem(slug);
 
   if (!item) {
     notFound();
   }
 
   const relatedAreas = areaItems.filter((areaItem) => areaItem.slug !== item.slug);
+  const pageLinks = item.relatedLinks?.length ? item.relatedLinks : primaryLinks;
 
   return (
     <main className="bg-white">
@@ -69,7 +72,7 @@ export default function AreaPage({ params }) {
             intent={item.waIntent}
             area={item.waArea}
           >
-            Chat Admin RADJA AC
+            {item.ctaLabel ?? "Chat Admin RADJA AC"}
           </WhatsappLink>
           <Link
             href={routes.katalog}
@@ -127,7 +130,7 @@ export default function AreaPage({ params }) {
             Admin RADJA AC bantu cek pilihan yang masuk akal sebelum Anda deal.
           </p>
           <div className="mt-6 flex flex-wrap gap-3">
-            {primaryLinks.map(([label, href]) => (
+            {pageLinks.map(([label, href]) => (
               <Link
                 key={href}
                 href={href}
