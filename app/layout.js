@@ -1,6 +1,7 @@
 import "./globals.css";
 import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
+import FloatingWhatsapp from "@/components/layout/FloatingWhatsapp";
 import { buildMetadata } from "@/lib/seo";
 import { siteConfig } from "@/content/site";
 
@@ -13,6 +14,7 @@ export default function RootLayout({ children }) {
         <Header />
         {children}
         <Footer />
+        <FloatingWhatsapp />
       </body>
     </html>
   );
