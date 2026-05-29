@@ -5,18 +5,18 @@ export const catalogItems = [
     slug: "ac-1-2-pk",
     path: routes.katalogAcSetengahPk,
     label: "AC 1/2 PK",
-    title: "AC 1/2 PK | Konsultasi Ruangan Kecil, Cek Stok & Pemasangan",
+    title: "AC 1/2 PK | Konsultasi Kamar, Kost, Cek Stok & Pemasangan",
     description:
-      "Konsultasi AC 1/2 PK untuk kamar kecil, kost, ruang kerja kecil, dan kebutuhan rumah. RADJA AC bantu cek ukuran ruangan, daya listrik, stok unit, pengiriman, dan opsi pemasangan.",
-    h1: "AC 1/2 PK untuk kamar kecil, kost, dan ruang kerja kecil",
+      "Konsultasi AC 1/2 PK untuk kamar, kost, ruang kerja, dan kebutuhan rumah. RADJA AC bantu cek ukuran ruangan, daya listrik, stok unit, pengiriman, dan opsi pemasangan.",
+    h1: "AC 1/2 PK untuk kamar, kost, dan ruang kerja",
     eyebrow: "Katalog Kapasitas",
     intro:
-      "AC 1/2 PK biasanya dipertimbangkan untuk ruangan kecil. Sebelum memilih unit, ukuran ruangan, tinggi plafon, arah panas, jumlah orang, dan daya listrik tetap perlu dicek agar pilihan tidak terlalu kecil atau terlalu boros.",
+      "AC 1/2 PK biasanya dipertimbangkan untuk ruangan compact. Sebelum memilih unit, ukuran ruangan, tinggi plafon, arah panas, jumlah orang, dan daya listrik tetap perlu dicek agar pilihan tidak kurang sesuai atau terlalu boros.",
     bestFor: [
-      "Kamar tidur kecil",
+      "Kamar tidur",
       "Kamar kost",
-      "Ruang kerja kecil",
-      "Ruangan rumah dengan pemakaian ringan",
+      "Ruang kerja",
+      "Ruangan rumah dengan pemakaian rutin",
     ],
     concerns: [
       "Apakah 1/2 PK cukup untuk ukuran ruangan",
@@ -34,8 +34,8 @@ export const catalogItems = [
     label: "AC Split Rumah",
     title: "AC Split Rumah | Konsultasi AC Kamar, Ruang Keluarga & Rumah",
     description:
-      "Konsultasi AC split rumah untuk kamar, ruang keluarga, rumah harian, kost, dan kontrakan. Cek kebutuhan PK, daya listrik, stok, pengiriman, dan opsi pemasangan.",
-    h1: "AC split rumah untuk kamar, ruang keluarga, dan pemakaian harian",
+      "Konsultasi AC split rumah untuk kamar, ruang keluarga, rumah, kost, dan kontrakan. Cek kebutuhan PK, daya listrik, stok, pengiriman, dan opsi pemasangan.",
+    h1: "AC split rumah untuk kamar, ruang keluarga, dan pemakaian rutin",
     eyebrow: "Katalog Rumah",
     intro:
       "AC split rumah cocok untuk kebutuhan harian seperti kamar tidur, ruang keluarga, kost, kontrakan, dan rumah tinggal. Admin RADJA AC bantu arahkan kategori AC dari ukuran ruangan, daya listrik, budget, dan pola pemakaian.",
@@ -61,15 +61,15 @@ export const catalogItems = [
     label: "AC Inverter",
     title: "AC Inverter | Konsultasi Pemakaian Lama, Hemat Listrik & Stok",
     description:
-      "Konsultasi AC inverter untuk pemakaian lama, kamar, rumah, kantor kecil, dan kebutuhan hemat listrik. Cek ukuran ruangan, jam pemakaian, daya listrik, stok, dan opsi pemasangan.",
+      "Konsultasi AC inverter untuk pemakaian lama, kamar, rumah, kantor, dan kebutuhan hemat listrik. Cek ukuran ruangan, jam pemakaian, daya listrik, stok, dan opsi pemasangan.",
     h1: "AC inverter untuk pemakaian lama dan kebutuhan hemat listrik",
     eyebrow: "Katalog Tipe",
     intro:
-      "AC inverter biasanya dipertimbangkan untuk ruangan yang sering dipakai lama. Pilihan tetap perlu disesuaikan dengan ukuran ruangan, jam pemakaian harian, daya listrik, budget, dan brand yang tersedia.",
+      "AC inverter biasanya dipertimbangkan untuk ruangan yang sering dipakai lama. Pilihan tetap perlu disesuaikan dengan ukuran ruangan, jam pemakaian rutin, daya listrik, budget, dan brand yang tersedia.",
     bestFor: [
       "Kamar dengan pemakaian lama",
       "Rumah harian",
-      "Kantor kecil",
+      "Kantor",
       "Ruangan yang butuh suhu stabil",
     ],
     concerns: [
@@ -113,18 +113,18 @@ export const catalogItems = [
     slug: "ac-kantor-komersial",
     path: routes.katalogAcKantorKomersial,
     label: "AC Kantor & Komersial",
-    title: "AC Kantor & Komersial | Konsultasi Toko, Ruko, Cafe & Kantor",
+    title: "AC Kantor & Komersial | Konsultasi Toko, Ruko, Cafe, Kantor & Proyek",
     description:
-      "Konsultasi AC kantor dan komersial untuk toko, ruko, cafe, klinik, showroom, kantor, dan kebutuhan banyak unit. Cek PK, tipe unit, stok, pengiriman, dan opsi pemasangan.",
-    h1: "AC kantor dan komersial untuk toko, ruko, cafe, klinik, showroom, dan kantor",
+      "Konsultasi AC kantor dan komersial untuk toko, ruko, cafe, klinik, showroom, kantor, hotel, proyek, dan kebutuhan banyak unit. Cek PK, tipe unit, stok, pengiriman, dan opsi pemasangan.",
+    h1: "AC kantor dan komersial untuk toko, ruko, cafe, klinik, showroom, kantor, hotel, dan proyek",
     eyebrow: "Katalog Komersial",
     intro:
       "Kebutuhan AC komersial biasanya tidak cukup hanya melihat PK. Jenis ruangan, jumlah orang, bukaan pintu, jam operasional, plafon, dan jumlah unit perlu dipertimbangkan sejak awal.",
     bestFor: [
       "Toko dan ruko",
-      "Cafe dan restoran kecil",
+      "Cafe dan restoran",
       "Klinik dan ruang tunggu",
-      "Kantor dan showroom",
+      "Kantor, hotel, proyek, dan showroom",
     ],
     concerns: [
       "Jumlah ruang dan estimasi unit",
