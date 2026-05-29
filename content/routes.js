@@ -43,6 +43,9 @@ export const routes = {
   tentangKami: "/tentang-kami",
   kontak: "/kontak",
   artikel: "/artikel",
+  artikelPanduanBeliAcBaru: "/artikel/panduan-beli-ac-baru",
+  artikelAcSatuPkUntukRuanganBerapa: "/artikel/ac-1-pk-untuk-ruangan-berapa",
+  artikelAcInverterVsLowWatt: "/artikel/ac-inverter-vs-low-watt",
 };
 
 export const sitemapRoutes = [
@@ -89,4 +92,7 @@ export const sitemapRoutes = [
   { path: routes.tentangKami, priority: 0.65 },
   { path: routes.kontak, priority: 0.8 },
   { path: routes.artikel, priority: 0.6 },
+  { path: routes.artikelPanduanBeliAcBaru, priority: 0.55 },
+  { path: routes.artikelAcSatuPkUntukRuanganBerapa, priority: 0.55 },
+  { path: routes.artikelAcInverterVsLowWatt, priority: 0.55 },
 ];
