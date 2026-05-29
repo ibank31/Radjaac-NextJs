@@ -21,6 +21,7 @@ export const routes = {
   katalogAcKantorKomersial: "/katalog/ac-kantor-komersial",
 
   kalkulatorPkAc: "/kalkulator-pk-ac",
+  gantiAcBaruPurwokerto: "/ganti-ac-baru-purwokerto",
 
   brandGree: "/brand/gree",
   brandDaikin: "/brand/daikin",
@@ -61,6 +62,7 @@ export const sitemapRoutes = [
 
   { path: routes.katalog, priority: 0.85 },
   { path: routes.kalkulatorPkAc, priority: 0.9 },
+  { path: routes.gantiAcBaruPurwokerto, priority: 0.75 },
   { path: routes.katalogAcSetengahPk, priority: 0.75 },
   { path: routes.katalogAcSplitRumah, priority: 0.75 },
   { path: routes.katalogAcInverter, priority: 0.75 },
