@@ -1,13 +1,15 @@
 import { siteConfig } from "@/content/site";
 import { sitemapRoutes } from "@/content/routes";
 
-export default function sitemap() {
-  const now = new Date();
+export const dynamic = "force-static";
 
-  return sitemapRoutes.map((route) => ({
-    url: `${siteConfig.baseUrl}${route.path}`,
-    lastModified: now,
+export default function sitemap() {
+  const lastModified = new Date();
+
+  return sitemapRoutes.map(({ path, priority }) => ({
+    url: `${siteConfig.baseUrl}${path}`,
+    lastModified,
     changeFrequency: "weekly",
-    priority: route.priority,
+    priority,
   }));
 }
