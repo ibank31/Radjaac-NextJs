@@ -22,8 +22,9 @@ export function generateStaticParams() {
   }));
 }
 
-export function generateMetadata({ params }) {
-  const item = getProcurementItem(params.slug);
+export async function generateMetadata({ params }) {
+  const { slug } = await params;
+  const item = getProcurementItem(slug);
 
   if (!item) {
     return {};
@@ -36,8 +37,9 @@ export function generateMetadata({ params }) {
   });
 }
 
-export default function ProcurementDetailPage({ params }) {
-  const item = getProcurementItem(params.slug);
+export default async function ProcurementDetailPage({ params }) {
+  const { slug } = await params;
+  const item = getProcurementItem(slug);
 
   if (!item) {
     notFound();
