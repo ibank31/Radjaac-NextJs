@@ -468,7 +468,7 @@ function HomeSalesLanding() {
           <div>
             <SectionBadge>Cek Dulu Sebelum Deal</SectionBadge>
             <h2 className="mt-4 text-3xl font-black tracking-tight text-slate-950 sm:text-4xl lg:text-5xl">
-              Beli AC yang pas itu bukan soal yang paling murah
+              Beli AC yang pas itu bukan cuma soal harga awal
             </h2>
             <p className="mt-5 max-w-2xl text-sm leading-7 text-slate-600 sm:text-base">
               Yang sering jadi masalah bukan harga unitnya — tapi PK tidak sesuai ruangan, stok ternyata

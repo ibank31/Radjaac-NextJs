@@ -38,6 +38,12 @@ const areaLinks = [
   ["Banjarnegara", routes.jualAcBanjarnegara],
 ];
 
+const packagePricingBands = [
+  ["3 jutaan", "Hemat untuk kamar/kost", "Ariston, TCL, Hisense Standard, Midea FT/AF, Sharp, Sansui Japan, LG, FLife, Polytron, Bestlife, Akari, Toshiba, Modena, Aqua"],
+  ["4 jutaan", "Seimbang untuk rumah harian", "Hisense Inverter, Midea Inverter, Gree Standard/Low Watt, Daikin STC/STP, Panasonic, Sansui Inverter, Samsung Inverter, Mitsubishi"],
+  ["5 jutaan", "Inverter lebih tinggi", "Gree Inverter dan Daikin Inverter untuk pemakaian lebih lama dan suhu lebih stabil"],
+];
+
 const processSteps = [
   ["Ceritakan kebutuhan ruangan", "Sampaikan ukuran ruangan, lokasi, daya listrik, jumlah unit, dan preferensi brand jika ada."],
   ["Admin bantu arahkan pilihan", "RADJA AC bantu cek kebutuhan PK, tipe standard, low watt, inverter, dan kategori AC yang masuk akal."],
@@ -163,6 +169,54 @@ export default function JualAcPage() {
                 </p>
               </Link>
             ))}
+          </div>
+        </div>
+      </section>
+
+      <section className="bg-cyan-50">
+        <div className="mx-auto max-w-7xl px-6 py-16 lg:px-8">
+          <div className="grid gap-10 lg:grid-cols-[0.78fr_1.22fr] lg:items-start">
+            <div>
+              <p className="text-sm font-black uppercase tracking-[0.22em] text-cyan-800">
+                Estimasi paket 1/2 PK
+              </p>
+              <h2 className="mt-4 text-3xl font-black tracking-tight text-slate-950 sm:text-4xl">
+                Paket AC 1/2 PK + pemasangan mulai Rp3 jutaan.
+              </h2>
+              <p className="mt-5 text-base leading-8 text-slate-700">
+                Cocok untuk pembeli satuan yang ingin gambaran awal sebelum chat. Paket standar dapat mencakup pipa 2 meter, kabel 5 meter, bracket 1 set, duct tape 1 roll, free selang drain, dan free vacuum.
+              </p>
+              <p className="mt-4 text-sm leading-7 text-slate-600">
+                Harga akhir tetap dikonfirmasi admin sesuai brand, tipe, stok, area pemasangan, panjang pipa tambahan, titik outdoor, akses lokasi, dan kebutuhan material tambahan.
+              </p>
+            </div>
+
+            <div className="grid gap-4 md:grid-cols-3">
+              {packagePricingBands.map(([range, title, brands]) => (
+                <div key={range} className="rounded-3xl border border-cyan-100 bg-white p-6 shadow-sm">
+                  <p className="text-sm font-black uppercase tracking-[0.18em] text-cyan-700">{range}</p>
+                  <h3 className="mt-3 text-xl font-black text-slate-950">{title}</h3>
+                  <p className="mt-3 text-sm leading-7 text-slate-600">{brands}</p>
+                </div>
+              ))}
+            </div>
+          </div>
+
+          <div className="mt-8 flex flex-col gap-3 sm:flex-row">
+            <Link
+              href={routes.katalogAcSetengahPk}
+              className="inline-flex items-center justify-center rounded-full bg-slate-950 px-6 py-4 text-sm font-black text-white transition hover:bg-slate-800"
+            >
+              Lihat Detail AC 1/2 PK
+            </Link>
+            <WhatsappLink
+              className="inline-flex items-center justify-center rounded-full bg-[#25D366] px-6 py-4 text-sm font-black text-slate-950 transition hover:bg-[#20BA5A]"
+              source="Halaman Jual AC - Pricing Band"
+              intent="cek estimasi paket AC 1/2 PK dan pemasangan standar"
+              category="AC 1/2 PK"
+            >
+              Cek Estimasi Paket
+            </WhatsappLink>
           </div>
         </div>
       </section>

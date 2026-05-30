@@ -24,6 +24,73 @@ export const catalogItems = [
       "Pilihan standard, low watt, atau inverter",
       "Unit saja atau sekalian opsi pemasangan",
     ],
+    pricingIntro:
+      "Estimasi paket AC 1/2 PK + pemasangan standar tersedia mulai Rp3 jutaan. Pilihan 3 jutaan, 4 jutaan, hingga 5 jutaan bergantung pada brand, tipe standard/low watt/inverter, stok, dan kebutuhan lokasi.",
+    standardPackage: [
+      "Pipa 2 meter",
+      "Kabel 5 meter",
+      "Bracket 1 set",
+      "Duct tape 1 roll",
+      "Free selang drain",
+      "Free vacuum",
+    ],
+    pricingBands: [
+      {
+        label: "3 jutaan",
+        title: "Hemat untuk kamar, kost, dan ruang kecil",
+        brands: [
+          "Ariston",
+          "TCL",
+          "Hisense Standard",
+          "Midea FT / AF",
+          "Sharp BEY",
+          "Sansui Japan",
+          "LG",
+          "FLife",
+          "Polytron",
+          "Bestlife",
+          "Akari",
+          "Toshiba",
+          "Modena",
+          "Aqua",
+        ],
+        value:
+          "Cocok untuk kamar, kost, kontrakan, dan ruang kecil dengan budget efisien. Tetap cek ukuran ruangan, daya listrik, stok, dan titik pemasangan sebelum deal.",
+      },
+      {
+        label: "4 jutaan",
+        title: "Seimbang untuk rumah harian",
+        brands: [
+          "Hisense Inverter",
+          "Midea Inverter",
+          "Gree Standard",
+          "Gree Low Watt",
+          "Daikin STC / STP",
+          "Panasonic",
+          "Sansui Inverter",
+          "Samsung Inverter",
+          "Mitsubishi",
+        ],
+        value:
+          "Cocok untuk pembeli yang ingin pilihan brand lebih kuat, opsi low watt atau inverter tertentu, dan kenyamanan lebih baik untuk pemakaian rutin.",
+      },
+      {
+        label: "5 jutaan",
+        title: "Inverter lebih tinggi untuk pemakaian lama",
+        brands: ["Gree Inverter", "Daikin Inverter STKQ / STKE"],
+        value:
+          "Cocok untuk kamar utama, ruang kerja, atau pemakaian harian lebih lama yang mengejar suhu lebih stabil dan kenyamanan jangka panjang.",
+      },
+      {
+        label: "Unit only",
+        title: "Window dan portable sesuai stok",
+        brands: ["Reiwa Window", "Reiwa Portable 1 PK"],
+        value:
+          "Untuk kebutuhan unit khusus tanpa paket pemasangan standar. Cocok jika pembeli memang mencari window AC atau portable AC sesuai stok terbaru.",
+      },
+    ],
+    pricingNote:
+      "Harga final dikonfirmasi admin sesuai brand, tipe, stok, promo, area pemasangan, panjang pipa tambahan, posisi outdoor, akses lokasi, dan kebutuhan material tambahan.",
     ctaLabel: "Tanya AC 1/2 PK yang Cocok",
     waIntent: "konsultasi AC 1/2 PK",
     waCategory: "AC 1/2 PK",

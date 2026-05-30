@@ -143,6 +143,62 @@ export default async function CatalogDetailPage({ params }) {
         </div>
       </section>
 
+      {item.pricingBands?.length ? (
+        <section className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8 lg:py-14">
+          <div className="rounded-[34px] border border-cyan-300/15 bg-cyan-300/[0.055] p-6 sm:p-8 lg:p-10">
+            <div className="mx-auto mb-8 max-w-3xl text-center">
+              <p className="mb-3 text-xs font-black uppercase tracking-[0.28em] text-cyan-300">Estimasi Paket</p>
+              <h2 className="mb-4 text-3xl font-black tracking-tight text-white sm:text-4xl">
+                Paket AC 1/2 PK + pemasangan standar
+              </h2>
+              <p className="text-sm leading-7 text-white/65 sm:text-base">{item.pricingIntro}</p>
+            </div>
+
+            <div className="grid gap-4 lg:grid-cols-4">
+              {item.pricingBands.map((band) => (
+                <article key={band.label} className="rounded-[28px] border border-white/10 bg-slate-950/55 p-5">
+                  <p className="text-sm font-black uppercase tracking-[0.2em] text-cyan-300">{band.label}</p>
+                  <h3 className="mt-3 text-xl font-black text-white">{band.title}</h3>
+                  <p className="mt-3 text-sm leading-6 text-white/62">{band.value}</p>
+                  <div className="mt-5 flex flex-wrap gap-2">
+                    {band.brands.map((brand) => (
+                      <span key={brand} className="rounded-full border border-white/10 bg-white/[0.05] px-3 py-1.5 text-xs font-bold text-white/75">
+                        {brand}
+                      </span>
+                    ))}
+                  </div>
+                </article>
+              ))}
+            </div>
+
+            <div className="mt-6 grid gap-4 lg:grid-cols-[0.9fr_1.1fr]">
+              <div className="rounded-[28px] border border-white/10 bg-white/[0.04] p-5">
+                <h3 className="text-xl font-black text-white">Paket standar dapat mencakup</h3>
+                <div className="mt-4 grid gap-2 sm:grid-cols-2">
+                  {item.standardPackage.map((point) => (
+                    <div key={point} className="rounded-2xl border border-white/10 bg-slate-950/45 px-4 py-3 text-sm font-semibold text-white/70">
+                      {point}
+                    </div>
+                  ))}
+                </div>
+              </div>
+              <div className="rounded-[28px] border border-amber-300/15 bg-amber-300/[0.08] p-5">
+                <h3 className="text-xl font-black text-white">Harga final tetap dikonfirmasi</h3>
+                <p className="mt-3 text-sm leading-7 text-white/68">{item.pricingNote}</p>
+                <WhatsappLink
+                  className="mt-5 inline-flex rounded-full bg-[#25D366] px-5 py-3 text-sm font-black text-slate-950 transition hover:bg-[#20BA5A]"
+                  source={`Katalog ${item.label} - Pricing Band`}
+                  intent="cek estimasi paket AC 1/2 PK dan pemasangan standar"
+                  category={item.waCategory}
+                >
+                  Cek Estimasi via WhatsApp
+                </WhatsappLink>
+              </div>
+            </div>
+          </div>
+        </section>
+      ) : null}
+
       <section className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8 lg:py-14">
         <div className="grid gap-7 lg:grid-cols-[0.9fr_1.1fr] lg:items-start">
           <div>
