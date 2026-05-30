@@ -10,10 +10,15 @@ import WhatsappLink from "@/components/ui/WhatsappLink";
 export const dynamicParams = false;
 
 const heroImages = {
-  gree: "/photos/display/display-gree-residential-ac-radja-ac.webp",
-  sharp: "/photos/delivery/radja-ac-persiapan-pengiriman.webp",
-  hisense: "/photos/stock/gudang-stok-ac-radja-ac-purwokerto-01.webp",
-  panasonic: "/photos/stock/gudang-stok-ac-radja-ac-purwokerto-01.webp",
+  gree: "/photos/showroom/display-gree-residential-ac-radja-ac.webp",
+  daikin: "/photos/brand-proof/daikin-daikin-showcase.webp",
+  midea: "/photos/brand-proof/midea-midea-showcase.webp",
+  hisense: "/photos/brand-proof/hisense-showcase-hisense.webp",
+  sansui: "/photos/brand-proof/sansui-sansui-showcase.webp",
+  samsung: "/photos/product-display/samsung-samsung-inverter.webp",
+  sharp: "/photos/product-display/sharp-ac-sharp-bey.webp",
+  panasonic: "/photos/showroom/showroom-multibrand-radja-ac-purwokerto-01.webp",
+  lainnya: "/photos/showroom/showroom-multibrand-radja-ac-purwokerto-01.webp",
   default: "/photos/showroom/showroom-multibrand-radja-ac-purwokerto-01.webp",
 };
 
