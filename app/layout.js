@@ -2,6 +2,7 @@ import "./globals.css";
 import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
 import FloatingWhatsapp from "@/components/layout/FloatingWhatsapp";
+import GoogleAnalytics from "@/components/analytics/GoogleAnalytics";
 import JsonLd from "@/components/seo/JsonLd";
 import { buildMetadata } from "@/lib/seo";
 import { siteConfig } from "@/content/site";
@@ -14,6 +15,7 @@ export default function RootLayout({ children }) {
     <html lang={siteConfig.language}>
       <body>
         <JsonLd data={sitewideSchemas()} />
+        <GoogleAnalytics />
         <Header />
         {children}
         <Footer />
