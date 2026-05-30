@@ -13,8 +13,9 @@ export function generateStaticParams() {
   }));
 }
 
-export function generateMetadata({ params }) {
-  const item = getArticleItem(params.slug);
+export async function generateMetadata({ params }) {
+  const { slug } = await params;
+  const item = getArticleItem(slug);
 
   if (!item) {
     return {};
@@ -27,8 +28,9 @@ export function generateMetadata({ params }) {
   });
 }
 
-export default function ArticleDetailPage({ params }) {
-  const item = getArticleItem(params.slug);
+export default async function ArticleDetailPage({ params }) {
+  const { slug } = await params;
+  const item = getArticleItem(slug);
 
   if (!item) {
     notFound();
