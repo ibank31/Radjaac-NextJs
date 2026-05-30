@@ -1,4 +1,4 @@
-import { siteConfig } from "@/content/site";
+import { absoluteSiteUrl } from "@/lib/url";
 
 export default function robots() {
   return {
@@ -6,6 +6,6 @@ export default function robots() {
       userAgent: "*",
       allow: "/",
     },
-    sitemap: `${siteConfig.baseUrl}/sitemap.xml`,
+    sitemap: absoluteSiteUrl("/sitemap.xml"),
   };
 }
