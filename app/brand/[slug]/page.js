@@ -110,10 +110,6 @@ export default async function BrandDetailPage({ params }) {
 
         <div className="relative mx-auto grid max-w-7xl items-start gap-10 lg:grid-cols-[1fr_0.95fr] lg:gap-16">
           <div>
-            <Link href={routes.katalog} className="mb-5 inline-flex text-sm font-black text-cyan-700 transition hover:text-cyan-900">
-              ← Kembali ke Katalog AC
-            </Link>
-
             <div className="mb-5 inline-flex items-center gap-2 rounded-full border border-cyan-100 bg-white/80 px-4 py-2 text-xs font-black uppercase tracking-[0.18em] text-cyan-800 shadow-sm backdrop-blur">
               <span className="h-2 w-2 rounded-full bg-[#4984B8]" /> {item.eyebrow}
             </div>
