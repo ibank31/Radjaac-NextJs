@@ -1,8 +1,8 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #0f172a;
+  --background: #020617;
+  --foreground: #f8fafc;
 }
 
 * {
@@ -11,6 +11,7 @@
 
 html {
   scroll-behavior: smooth;
+  background: #020617;
 }
 
 body {
@@ -22,4 +23,74 @@ body {
 
 a {
   text-decoration: none;
+}
+
+/* Dark premium fallback untuk sisa komponen lama yang masih memakai palet terang. */
+.bg-white,
+.bg-slate-50,
+.bg-slate-100,
+.bg-stone-50,
+.bg-zinc-50,
+.bg-neutral-50 {
+  background-color: rgba(15, 23, 42, 0.94) !important;
+}
+
+.bg-white\/95 {
+  background-color: rgba(2, 6, 23, 0.94) !important;
+}
+
+.text-slate-950,
+.text-slate-900,
+.text-slate-800,
+.text-slate-700,
+.text-stone-950,
+.text-zinc-950,
+.text-neutral-950 {
+  color: rgba(248, 250, 252, 0.96) !important;
+}
+
+.text-slate-600,
+.text-slate-500,
+.text-slate-400,
+.text-stone-600,
+.text-zinc-600,
+.text-neutral-600 {
+  color: rgba(226, 232, 240, 0.68) !important;
+}
+
+.border-slate-50,
+.border-slate-100,
+.border-slate-200,
+.border-stone-100,
+.border-zinc-100,
+.border-neutral-100 {
+  border-color: rgba(255, 255, 255, 0.1) !important;
+}
+
+.ring-slate-200 {
+  --tw-ring-color: rgba(255, 255, 255, 0.14) !important;
+}
+
+.hover\:bg-slate-50:hover,
+.hover\:bg-cyan-50:hover,
+.hover\:bg-white:hover {
+  background-color: rgba(255, 255, 255, 0.06) !important;
+}
+
+.bg-cyan-50,
+.bg-blue-50,
+.bg-amber-50,
+.bg-orange-50,
+.bg-emerald-50 {
+  background-color: rgba(34, 211, 238, 0.1) !important;
+}
+
+.text-cyan-800,
+.text-cyan-700,
+.text-blue-800,
+.text-blue-700,
+.text-amber-800,
+.text-orange-800,
+.text-emerald-800 {
+  color: #67e8f9 !important;
 }
