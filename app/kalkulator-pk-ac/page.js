@@ -65,7 +65,7 @@ export default function KalkulatorPkAcPage() {
 
         <div className="mt-8 flex flex-col gap-3 sm:flex-row">
           <WhatsappLink
-            className="inline-flex items-center justify-center rounded-full bg-white px-6 py-4 text-sm font-black text-white transition hover:bg-slate-800"
+            className="inline-flex items-center justify-center rounded-full bg-slate-950 px-6 py-4 text-sm font-black text-white transition hover:bg-slate-800"
             source="Kalkulator PK AC"
             intent="kirim ukuran ruangan dan daya listrik untuk cek kebutuhan PK AC"
           >

@@ -140,7 +140,7 @@ export default async function ArticleDetailPage({ params }) {
             <section key={section.heading} className="rounded-[1.55rem] border border-slate-200 bg-white p-6 sm:p-8">
               <div className="mb-4 flex items-start gap-3">
                 <span className="mt-1 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-cyan-600 text-xs font-black text-white">✓</span>
-                <h2 className="text-2xl font-black tracking-tight text-white sm:text-3xl">
+                <h2 className="text-2xl font-black tracking-tight text-slate-950 sm:text-3xl">
                   {section.heading}
                 </h2>
               </div>

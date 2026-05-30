@@ -39,7 +39,7 @@ export default function GantiAcBaruPurwokertoPage() {
         <p className="text-sm font-bold uppercase tracking-[0.22em] text-cyan-700">
           Ganti AC Baru
         </p>
-        <h1 className="mt-4 max-w-4xl text-4xl font-black tracking-tight text-white md:text-5xl">
+        <h1 className="mt-4 max-w-4xl text-4xl font-black tracking-tight text-slate-950 md:text-5xl">
           Ganti AC baru di Purwokerto saat unit lama sudah tidak nyaman dipakai
         </h1>
         <p className="mt-6 max-w-3xl text-lg leading-8 text-slate-600">
@@ -60,7 +60,7 @@ export default function GantiAcBaruPurwokertoPage() {
           </WhatsappLink>
           <Link
             href={routes.katalog}
-            className="inline-flex items-center justify-center rounded-full border border-slate-200 px-6 py-4 text-sm font-bold text-white transition hover:bg-slate-50"
+            className="inline-flex items-center justify-center rounded-full border border-slate-200 bg-white px-6 py-4 text-sm font-black text-slate-900 shadow-sm transition hover:bg-slate-50"
           >
             Lihat Katalog AC
           </Link>

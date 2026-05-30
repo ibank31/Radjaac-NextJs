@@ -69,7 +69,7 @@ export default function ArtikelPage() {
               <p className="mb-4 inline-flex rounded-full border border-cyan-100 bg-cyan-50 px-4 py-2 text-xs font-black uppercase tracking-[0.2em] text-cyan-700">
                 Artikel Utama
               </p>
-              <h2 className="text-3xl font-black tracking-tight text-white sm:text-4xl">
+              <h2 className="text-3xl font-black tracking-tight text-slate-950 sm:text-4xl">
                 {featuredArticle.h1}
               </h2>
               <p className="mt-5 text-sm leading-7 text-slate-600 sm:text-base">

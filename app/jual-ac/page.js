@@ -205,7 +205,7 @@ export default function JualAcPage() {
           <div className="mt-8 flex flex-col gap-3 sm:flex-row">
             <Link
               href={routes.katalogAcSetengahPk}
-              className="inline-flex items-center justify-center rounded-full bg-white px-6 py-4 text-sm font-black text-white transition hover:bg-slate-800"
+              className="inline-flex items-center justify-center rounded-full bg-slate-950 px-6 py-4 text-sm font-black text-white transition hover:bg-slate-800"
             >
               Lihat Detail AC 1/2 PK
             </Link>
@@ -368,7 +368,7 @@ export default function JualAcPage() {
           </p>
           <div className="mt-8 flex flex-col justify-center gap-3 sm:flex-row">
             <WhatsappLink
-              className="inline-flex items-center justify-center rounded-full bg-white px-7 py-4 text-sm font-black text-white transition hover:bg-slate-800"
+              className="inline-flex items-center justify-center rounded-full bg-slate-950 px-7 py-4 text-sm font-black text-white transition hover:bg-slate-800"
               source="Halaman Jual AC"
               intent="konsultasi memilih AC original multi-brand dari halaman jual AC"
             >
