@@ -2,14 +2,10 @@ import Link from "next/link";
 import { routes } from "@/content/routes";
 import { siteConfig } from "@/content/site";
 import { buildMetadata } from "@/lib/seo";
+import { staticPageMetadata } from "@/content/static-pages";
 import WhatsappLink from "@/components/ui/WhatsappLink";
 
-export const metadata = buildMetadata({
-  title: "Kontak RADJA AC | Chat Admin untuk Cek Stok & Konsultasi AC",
-  description:
-    "Hubungi RADJA AC untuk konsultasi pembelian AC, cek stok, rekomendasi PK, pengiriman unit, opsi pemasangan, dan pengadaan banyak unit.",
-  path: routes.kontak,
-});
+export const metadata = buildMetadata(staticPageMetadata.kontak);
 
 const quickNeeds = [
   "Rekomendasi PK sesuai ukuran ruangan",

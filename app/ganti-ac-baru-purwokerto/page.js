@@ -1,14 +1,10 @@
 import Link from "next/link";
 import { routes } from "@/content/routes";
 import { buildMetadata } from "@/lib/seo";
+import { staticPageMetadata } from "@/content/static-pages";
 import WhatsappLink from "@/components/ui/WhatsappLink";
 
-export const metadata = buildMetadata({
-  title: "Ganti AC Baru Purwokerto | Cek Unit Baru, PK & Opsi Pemasangan",
-  description:
-    "AC lama mulai bermasalah? RADJA AC bantu pertimbangkan ganti AC baru di Purwokerto dengan konsultasi PK, cek stok unit, daya listrik, budget, dan opsi pemasangan.",
-  path: routes.gantiAcBaruPurwokerto,
-});
+export const metadata = buildMetadata(staticPageMetadata.gantiAcBaruPurwokerto);
 
 const decisionChecks = [
   "AC lama sudah sering bermasalah atau kurang nyaman dipakai",

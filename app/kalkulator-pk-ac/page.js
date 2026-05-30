@@ -1,14 +1,10 @@
 import Link from "next/link";
 import { routes } from "@/content/routes";
 import { buildMetadata } from "@/lib/seo";
+import { staticPageMetadata } from "@/content/static-pages";
 import WhatsappLink from "@/components/ui/WhatsappLink";
 
-export const metadata = buildMetadata({
-  title: "Kalkulator PK AC | Estimasi Kebutuhan Ruangan Sebelum Order — RADJA AC",
-  description:
-    "Gunakan kalkulator PK AC untuk memperkirakan kebutuhan awal berdasarkan ukuran ruangan. Setelah itu, lanjutkan konsultasi ke admin untuk cek stok, daya listrik, dan opsi pemasangan.",
-  path: routes.kalkulatorPkAc,
-});
+export const metadata = buildMetadata(staticPageMetadata.kalkulatorPkAc);
 
 const roomGuides = [
   {

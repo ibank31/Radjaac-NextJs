@@ -1,15 +1,11 @@
 import Link from "next/link";
 import { routes } from "@/content/routes";
 import { buildMetadata } from "@/lib/seo";
+import { staticPageMetadata } from "@/content/static-pages";
 import { warrantyHighlights } from "@/content/policies";
 import WhatsappLink from "@/components/ui/WhatsappLink";
 
-export const metadata = buildMetadata({
-  title: "Pengiriman & Pemasangan AC | RADJA AC",
-  description:
-    "Informasi pengiriman unit dan opsi pemasangan AC melalui RADJA AC. Area, jadwal, stok, dan kebutuhan pemasangan dikonfirmasi admin sebelum pembelian.",
-  path: routes.pengirimanPemasangan,
-});
+export const metadata = buildMetadata(staticPageMetadata.pengirimanPemasangan);
 
 const processSteps = [
   "Kirim kebutuhan ruangan, kota, dan brand yang diminati.",

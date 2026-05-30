@@ -1,14 +1,10 @@
 import Link from "next/link";
 import { routes } from "@/content/routes";
 import { buildMetadata } from "@/lib/seo";
+import { staticPageMetadata } from "@/content/static-pages";
 import WhatsappLink from "@/components/ui/WhatsappLink";
 
-export const metadata = buildMetadata({
-  title: "Katalog AC | Pilihan AC Split, Inverter, Low Watt & Komersial",
-  description:
-    "Lihat kategori AC yang bisa dikonsultasikan di RADJA AC: AC 1/2 PK, split rumah, inverter, low watt, dan AC kantor/komersial.",
-  path: routes.katalog,
-});
+export const metadata = buildMetadata(staticPageMetadata.katalog);
 
 const categories = [
   ["AC Split Rumah", routes.katalogAcSplitRumah, "Kamar tidur, ruang keluarga, kost, kontrakan, dan rumah harian."],

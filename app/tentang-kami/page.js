@@ -3,14 +3,10 @@ import { routes } from "@/content/routes";
 import { siteConfig } from "@/content/site";
 import { legalEntityCopy } from "@/content/policies";
 import { buildMetadata } from "@/lib/seo";
+import { staticPageMetadata } from "@/content/static-pages";
 import WhatsappLink from "@/components/ui/WhatsappLink";
 
-export const metadata = buildMetadata({
-  title: "Tentang RADJA AC | Dealer AC Original Multi-Brand",
-  description:
-    "Tentang RADJA AC, website resmi penjualan AC original multi-brand berbasis di Pamijen, Sokaraja, Banyumas. Fokus pada konsultasi PK, cek stok, pengiriman, opsi pemasangan, dan pengadaan banyak unit.",
-  path: routes.tentangKami,
-});
+export const metadata = buildMetadata(staticPageMetadata.tentangKami);
 
 const values = [
   "Fokus pada penjualan AC original multi-brand.",

@@ -2,15 +2,10 @@ import Image from "next/image";
 import Link from "next/link";
 import { routes } from "@/content/routes";
 import { buildMetadata } from "@/lib/seo";
+import { staticPageMetadata } from "@/content/static-pages";
 import WhatsappLink from "@/components/ui/WhatsappLink";
 
-export const metadata = buildMetadata({
-  title: "Jual AC Original Multi-Brand | Konsultasi PK, Cek Stok & Pengiriman",
-  description:
-    "RADJA AC membantu pembelian AC original multi-brand untuk rumah, kost, toko, kantor, hotel, dan proyek. Konsultasi PK, cek stok, pengiriman unit, opsi pemasangan, dan pengadaan banyak unit.",
-  path: routes.jualAc,
-  image: "/photos/display/display-gree-residential-ac-radja-ac.webp",
-});
+export const metadata = buildMetadata(staticPageMetadata.jualAc);
 
 const brandLinks = [
   ["Gree", routes.brandGree, "Proshop Gree, standard, low watt, inverter"],

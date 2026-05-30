@@ -1,14 +1,10 @@
 import Link from "next/link";
 import { routes } from "@/content/routes";
 import { buildMetadata } from "@/lib/seo";
+import { staticPageMetadata } from "@/content/static-pages";
 import WhatsappLink from "@/components/ui/WhatsappLink";
 
-export const metadata = buildMetadata({
-  title: "Pengadaan AC Proyek | Supplier Banyak Unit — RADJA AC",
-  description:
-    "RADJA AC membantu pengadaan AC proyek untuk hotel, kantor, kost, apartemen, kontraktor, developer, dan kebutuhan banyak unit. Konsultasi PK, stok, pengiriman, dan opsi pemasangan.",
-  path: routes.pengadaanAc,
-});
+export const metadata = buildMetadata(staticPageMetadata.pengadaanAc);
 
 const procurementLinks = [
   {
