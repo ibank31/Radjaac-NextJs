@@ -23,7 +23,7 @@ export const areaItems = [
     path: routes.jualAcPurwokerto,
     areaName: "Purwokerto",
     label: "Jual AC Purwokerto",
-    title: "Jual AC Purwokerto | Cek Stok, Konsultasi PK & Opsi Pasang",
+    title: "Jual AC Purwokerto | Cek Stok, Konsultasi PK & Opsi Pemasangan — RADJA AC",
     description:
       "Butuh AC untuk rumah, kost, toko, kantor, hotel, atau proyek di Purwokerto? RADJA AC bantu cek stok, konsultasi PK, pengiriman unit, dan opsi pemasangan via WhatsApp.",
     h1: "Jual AC Purwokerto | Cek Stok, Konsultasi PK, Pengiriman & Opsi Pemasangan",
@@ -59,7 +59,7 @@ export const areaItems = [
     path: routes.jualAcBanyumas,
     areaName: "Banyumas",
     label: "Jual AC Banyumas",
-    title: "Jual AC Banyumas | Cek Stok, Konsultasi PK & Opsi Pasang",
+    title: "Jual AC Banyumas | Cek Stok, Konsultasi PK & Opsi Pemasangan — RADJA AC",
     description:
       "Butuh AC untuk rumah, kost, toko, kantor, atau proyek di Banyumas? RADJA AC bantu cek stok, konsultasi PK, pengiriman unit, dan opsi pemasangan via WhatsApp.",
     h1: "Jual AC Banyumas | Cek Stok, Konsultasi PK, Pengiriman & Opsi Pemasangan",
@@ -87,7 +87,7 @@ export const areaItems = [
     path: routes.jualAcSokaraja,
     areaName: "Sokaraja",
     label: "Jual AC Sokaraja",
-    title: "Jual AC Sokaraja | Cek Stok, Konsultasi PK & Opsi Pasang",
+    title: "Jual AC Sokaraja | Cek Stok, Konsultasi PK & Opsi Pemasangan — RADJA AC",
     description:
       "Butuh AC untuk rumah, kost, toko, kantor, atau proyek di Sokaraja? RADJA AC bantu cek stok, konsultasi PK, pengiriman unit, dan opsi pemasangan via WhatsApp.",
     h1: "Jual AC Sokaraja | Cek Stok, Konsultasi PK, Pengiriman & Opsi Pemasangan",
@@ -123,7 +123,7 @@ export const areaItems = [
     path: routes.jualAcYogyakarta,
     areaName: "Yogyakarta",
     label: "Jual AC Yogyakarta",
-    title: "Jual AC Yogyakarta | Cek Stok, Konsultasi PK & Opsi Pasang",
+    title: "Jual AC Yogyakarta | Cek Stok, Konsultasi PK & Opsi Pemasangan — RADJA AC",
     description:
       "Butuh AC untuk rumah, kost, guest house, hotel, kantor, atau proyek di Yogyakarta? RADJA AC bantu cek stok, konsultasi PK, pengiriman unit, dan opsi pemasangan via WhatsApp.",
     h1: "Jual AC Yogyakarta | Cek Stok, Konsultasi PK, Pengiriman & Opsi Pemasangan",
@@ -164,7 +164,7 @@ export const areaItems = [
     path: routes.jualAcSemarang,
     areaName: "Semarang",
     label: "Jual AC Semarang",
-    title: "Jual AC Semarang | Cek Stok, Konsultasi PK & Opsi Pasang",
+    title: "Jual AC Semarang | Cek Stok, Konsultasi PK & Opsi Pemasangan — RADJA AC",
     description:
       "Butuh AC untuk rumah, ruko, kantor, hotel, usaha, atau proyek di Semarang? RADJA AC bantu cek stok, konsultasi PK, pengiriman unit, dan opsi pemasangan via WhatsApp.",
     h1: "Jual AC Semarang | Cek Stok, Konsultasi PK, Pengiriman & Opsi Pemasangan",
@@ -205,7 +205,7 @@ export const areaItems = [
     path: routes.jualAcSolo,
     areaName: "Solo",
     label: "Jual AC Solo",
-    title: "Jual AC Solo | Cek Stok, Konsultasi PK & Opsi Pasang",
+    title: "Jual AC Solo | Cek Stok, Konsultasi PK & Opsi Pemasangan — RADJA AC",
     description:
       "Butuh AC untuk rumah, kost, toko, kantor, hotel, atau usaha di Solo? RADJA AC bantu cek stok, konsultasi PK, pengiriman unit, dan opsi pemasangan via WhatsApp.",
     h1: "Jual AC Solo | Cek Stok, Konsultasi PK, Pengiriman & Opsi Pemasangan",
@@ -241,7 +241,7 @@ export const areaItems = [
     path: routes.jualAcPurbalingga,
     areaName: "Purbalingga",
     label: "Jual AC Purbalingga",
-    title: "Jual AC Purbalingga | Cek Stok, Konsultasi PK & Opsi Pasang",
+    title: "Jual AC Purbalingga | Cek Stok, Konsultasi PK & Opsi Pemasangan — RADJA AC",
     description:
       "Butuh AC untuk rumah, kost, toko, kantor, atau usaha di Purbalingga? RADJA AC bantu cek stok, konsultasi PK, pengiriman unit, dan opsi pemasangan via WhatsApp.",
     h1: "Jual AC Purbalingga | Cek Stok, Konsultasi PK, Pengiriman & Opsi Pemasangan",
@@ -269,7 +269,7 @@ export const areaItems = [
     path: routes.jualAcCilacap,
     areaName: "Cilacap",
     label: "Jual AC Cilacap",
-    title: "Jual AC Cilacap | Cek Stok, Konsultasi PK & Opsi Pasang",
+    title: "Jual AC Cilacap | Cek Stok, Konsultasi PK & Opsi Pemasangan — RADJA AC",
     description:
       "Butuh AC untuk rumah, toko, kantor, usaha, atau banyak unit di Cilacap? RADJA AC bantu cek stok, konsultasi PK, pengiriman unit, dan opsi pemasangan via WhatsApp.",
     h1: "Jual AC Cilacap | Cek Stok, Konsultasi PK, Pengiriman & Opsi Pemasangan",
@@ -310,7 +310,7 @@ export const areaItems = [
     path: routes.jualAcKebumen,
     areaName: "Kebumen",
     label: "Jual AC Kebumen",
-    title: "Jual AC Kebumen | Cek Stok, Konsultasi PK & Opsi Pasang",
+    title: "Jual AC Kebumen | Cek Stok, Konsultasi PK & Opsi Pemasangan — RADJA AC",
     description:
       "Butuh AC untuk rumah, kost, toko, ruko, kantor, atau usaha di Kebumen? RADJA AC bantu cek stok, konsultasi PK, pengiriman unit, dan opsi pemasangan via WhatsApp.",
     h1: "Jual AC Kebumen | Cek Stok, Konsultasi PK, Pengiriman & Opsi Pemasangan",
@@ -338,7 +338,7 @@ export const areaItems = [
     path: routes.jualAcTegal,
     areaName: "Tegal",
     label: "Jual AC Tegal",
-    title: "Jual AC Tegal | Cek Stok, Konsultasi PK & Opsi Pasang",
+    title: "Jual AC Tegal | Cek Stok, Konsultasi PK & Opsi Pemasangan — RADJA AC",
     description:
       "Butuh AC untuk rumah, toko, kantor, usaha, proyek, atau banyak unit di Tegal dan Slawi? RADJA AC bantu cek stok, konsultasi PK, pengiriman unit, dan opsi pemasangan via WhatsApp.",
     h1: "Jual AC Tegal | Cek Stok, Konsultasi PK, Pengiriman & Opsi Pemasangan",
@@ -379,7 +379,7 @@ export const areaItems = [
     path: routes.jualAcBanjarnegara,
     areaName: "Banjarnegara",
     label: "Jual AC Banjarnegara",
-    title: "Jual AC Banjarnegara | Cek Stok, Konsultasi PK & Opsi Pasang",
+    title: "Jual AC Banjarnegara | Cek Stok, Konsultasi PK & Opsi Pemasangan — RADJA AC",
     description:
       "Butuh AC untuk rumah, kost, toko, kantor, atau usaha di Banjarnegara? RADJA AC bantu cek stok, konsultasi PK, pengiriman unit, dan opsi pemasangan via WhatsApp.",
     h1: "Jual AC Banjarnegara | Cek Stok, Konsultasi PK, Pengiriman & Opsi Pemasangan",

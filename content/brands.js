@@ -6,7 +6,7 @@ export const brandItems = [
     path: routes.brandGree,
     name: "Gree",
     label: "AC Gree",
-    title: "AC Gree Original | Proshop Gree, Cek Stok & Konsultasi PK",
+    title: "AC Gree Original | Cek Stok, Tipe & Konsultasi PK — RADJA AC",
     description:
       "RADJA AC menyediakan AC Gree original melalui Proshop Gree. Cek stok Gree standard, low watt, inverter, rekomendasi PK, pengiriman, opsi pemasangan, dan bantuan klaim sesuai ketentuan brand.",
     h1: "AC Gree original melalui Proshop Gree RADJA AC",
@@ -27,7 +27,7 @@ export const brandItems = [
     path: routes.brandDaikin,
     name: "Daikin",
     label: "AC Daikin",
-    title: "AC Daikin Original | Cek Stok, Konsultasi PK & Opsi Pemasangan",
+    title: "AC Daikin Original | Cek Stok, Tipe & Konsultasi PK — RADJA AC",
     description:
       "RADJA AC menyediakan AC Daikin original. Cek stok Daikin standard dan inverter, rekomendasi PK, pengiriman, opsi pemasangan, dan bantuan klaim sesuai ketentuan brand.",
     h1: "AC Daikin original untuk rumah, usaha, kantor, dan proyek",
@@ -48,7 +48,7 @@ export const brandItems = [
     path: routes.brandMidea,
     name: "Midea",
     label: "AC Midea",
-    title: "AC Midea Original | Cek Stok FT, AF, Inverter & Konsultasi PK",
+    title: "AC Midea Original | Cek Stok, Tipe & Konsultasi PK — RADJA AC",
     description:
       "RADJA AC menyediakan AC Midea original. Cek stok Midea FT, AF, inverter, rekomendasi PK, pengiriman, opsi pemasangan, dan bantuan klaim sesuai ketentuan brand.",
     h1: "AC Midea original untuk rumah, kost, usaha, kantor, hotel, dan proyek",
@@ -69,7 +69,7 @@ export const brandItems = [
     path: routes.brandHisense,
     name: "Hisense",
     label: "AC Hisense",
-    title: "AC Hisense Original | Cek Stok Standard, Inverter & Konsultasi PK",
+    title: "AC Hisense Original | Cek Stok, Tipe & Konsultasi PK — RADJA AC",
     description:
       "RADJA AC menyediakan AC Hisense original. Cek stok Hisense standard dan inverter, rekomendasi PK, pengiriman, opsi pemasangan, dan bantuan klaim sesuai ketentuan brand.",
     h1: "AC Hisense original untuk rumah, kost, usaha, dan kebutuhan hemat budget",
@@ -90,7 +90,7 @@ export const brandItems = [
     path: routes.brandSansui,
     name: "Sansui",
     label: "AC Sansui",
-    title: "AC Sansui Original | Cek Stok, Tipe & Konsultasi PK",
+    title: "AC Sansui Original | Cek Stok, Tipe & Konsultasi PK — RADJA AC",
     description:
       "RADJA AC membantu cek pilihan AC Sansui original sesuai stok, kebutuhan ruangan, daya listrik, pengiriman, opsi pemasangan, dan bantuan klaim sesuai ketentuan brand.",
     h1: "AC Sansui original untuk rumah, kost, usaha, kantor, hotel, dan proyek",
@@ -111,7 +111,7 @@ export const brandItems = [
     path: routes.brandSharp,
     name: "Sharp",
     label: "AC Sharp",
-    title: "AC Sharp Original | Cek Stok, Tipe & Konsultasi PK",
+    title: "AC Sharp Original | Cek Stok, Tipe & Konsultasi PK — RADJA AC",
     description:
       "RADJA AC membantu cek pilihan AC Sharp original sesuai stok, kebutuhan ruangan, daya listrik, pengiriman, opsi pemasangan, dan bantuan klaim sesuai ketentuan brand.",
     h1: "AC Sharp original untuk rumah, kost, usaha, kantor, hotel, dan proyek",
@@ -132,7 +132,7 @@ export const brandItems = [
     path: routes.brandSamsung,
     name: "Samsung",
     label: "AC Samsung",
-    title: "AC Samsung Original | Cek Stok, Tipe & Konsultasi PK",
+    title: "AC Samsung Original | Cek Stok, Tipe & Konsultasi PK — RADJA AC",
     description:
       "RADJA AC membantu cek pilihan AC Samsung original sesuai stok, kebutuhan ruangan, daya listrik, pengiriman, opsi pemasangan, dan bantuan klaim sesuai ketentuan brand.",
     h1: "AC Samsung original untuk rumah, kantor, hotel, dan proyek",
@@ -153,7 +153,7 @@ export const brandItems = [
     path: routes.brandPanasonic,
     name: "Panasonic",
     label: "AC Panasonic",
-    title: "AC Panasonic Original | Cek Stok, Tipe & Konsultasi PK",
+    title: "AC Panasonic Original | Cek Stok, Tipe & Konsultasi PK — RADJA AC",
     description:
       "RADJA AC membantu cek pilihan AC Panasonic original sesuai stok, kebutuhan ruangan, daya listrik, pengiriman, opsi pemasangan, dan bantuan klaim sesuai ketentuan brand.",
     h1: "AC Panasonic original untuk rumah, usaha, kantor, hotel, dan proyek",
@@ -174,7 +174,7 @@ export const brandItems = [
     path: routes.brandLainnya,
     name: "Brand Lainnya",
     label: "Brand AC Lainnya",
-    title: "Brand AC Lainnya | Sharp, Panasonic, Sansui, Samsung, LG & Lainnya",
+    title: "Brand AC Original Lainnya | Cek Stok, Tipe & Konsultasi PK — RADJA AC",
     description:
       "Cek pilihan brand AC lainnya di RADJA AC seperti Sharp, Panasonic, Sansui, Samsung, LG, TCL, Ariston, Modena, Aqua, Polytron, Toshiba, Akari, Mitsubishi, Reiwa, dan lainnya sesuai stok.",
     h1: "Brand AC lainnya yang bisa dicek melalui RADJA AC",
