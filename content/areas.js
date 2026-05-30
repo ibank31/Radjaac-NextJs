@@ -127,7 +127,7 @@ export const areaItems = [
     description:
       "Butuh AC untuk rumah, kost, guest house, hotel, kantor, atau proyek di Yogyakarta? RADJA AC bantu cek stok, konsultasi PK, pengiriman unit, dan opsi pemasangan via WhatsApp.",
     h1: "Jual AC Yogyakarta | Cek Stok, Konsultasi PK, Pengiriman & Opsi Pemasangan",
-    eyebrow: "Area Prioritas DIY",
+    eyebrow: "Layanan AC Area DIY",
     intro:
       "Butuh AC untuk rumah, kost, guest house, hotel, kantor, atau ruang usaha di Yogyakarta? RADJA AC bantu cek kebutuhan PK, daya listrik, stok unit, pengiriman, dan opsi pemasangan sebelum Anda menentukan unit.",
     localContext:
@@ -168,7 +168,7 @@ export const areaItems = [
     description:
       "Butuh AC untuk rumah, ruko, kantor, hotel, usaha, atau proyek di Semarang? RADJA AC bantu cek stok, konsultasi PK, pengiriman unit, dan opsi pemasangan via WhatsApp.",
     h1: "Jual AC Semarang | Cek Stok, Konsultasi PK, Pengiriman & Opsi Pemasangan",
-    eyebrow: "Area Prioritas Jawa Tengah",
+    eyebrow: "Layanan AC Area Jawa Tengah",
     intro:
       "Butuh AC untuk rumah, kantor, ruko, toko, hotel, developer, atau proyek di Semarang? RADJA AC bantu cek kebutuhan PK, stok unit, pilihan brand, pengiriman, dan opsi pemasangan sesuai brief Anda.",
     localContext:
@@ -209,7 +209,7 @@ export const areaItems = [
     description:
       "Butuh AC untuk rumah, kost, toko, kantor, hotel, atau usaha di Solo? RADJA AC bantu cek stok, konsultasi PK, pengiriman unit, dan opsi pemasangan via WhatsApp.",
     h1: "Jual AC Solo | Cek Stok, Konsultasi PK, Pengiriman & Opsi Pemasangan",
-    eyebrow: "Area Prioritas Jawa Tengah",
+    eyebrow: "Layanan AC Area Jawa Tengah",
     intro:
       "Butuh AC untuk rumah, kost, hotel, toko, kantor, atau ruang usaha di Solo? RADJA AC bantu cek kebutuhan PK, daya listrik, pilihan brand, stok unit, pengiriman, dan opsi pemasangan sebelum Anda menentukan unit.",
     localContext:
@@ -273,7 +273,7 @@ export const areaItems = [
     description:
       "Butuh AC untuk rumah, toko, kantor, usaha, atau banyak unit di Cilacap? RADJA AC bantu cek stok, konsultasi PK, pengiriman unit, dan opsi pemasangan via WhatsApp.",
     h1: "Jual AC Cilacap | Cek Stok, Konsultasi PK, Pengiriman & Opsi Pemasangan",
-    eyebrow: "Area Prioritas Regional",
+    eyebrow: "Layanan AC Area Regional",
     intro:
       "Butuh AC untuk rumah, toko, kantor, ruang usaha, atau pembelian banyak unit di Cilacap? RADJA AC bantu cek kebutuhan PK, daya listrik, pilihan brand, stok unit, pengiriman, dan opsi pemasangan sesuai alamat dan kebutuhan.",
     localContext:
@@ -314,7 +314,7 @@ export const areaItems = [
     description:
       "Butuh AC untuk rumah, kost, toko, ruko, kantor, atau usaha di Kebumen? RADJA AC bantu cek stok, konsultasi PK, pengiriman unit, dan opsi pemasangan via WhatsApp.",
     h1: "Jual AC Kebumen | Cek Stok, Konsultasi PK, Pengiriman & Opsi Pemasangan",
-    eyebrow: "Area Prioritas Regional",
+    eyebrow: "Layanan AC Area Regional",
     intro:
       "Butuh AC untuk rumah, kost, toko, ruko, kantor, atau ruang usaha di Kebumen? RADJA AC bantu cek kebutuhan PK, daya listrik, pilihan brand, stok unit, pengiriman, dan opsi pemasangan sebelum Anda order.",
     localContext:
@@ -342,7 +342,7 @@ export const areaItems = [
     description:
       "Butuh AC untuk rumah, toko, kantor, usaha, proyek, atau banyak unit di Tegal dan Slawi? RADJA AC bantu cek stok, konsultasi PK, pengiriman unit, dan opsi pemasangan via WhatsApp.",
     h1: "Jual AC Tegal | Cek Stok, Konsultasi PK, Pengiriman & Opsi Pemasangan",
-    eyebrow: "Area Prioritas Regional",
+    eyebrow: "Layanan AC Area Regional",
     intro:
       "Butuh AC untuk rumah, toko, kantor, ruang usaha, proyek, atau pengadaan banyak unit di Tegal dan Slawi? RADJA AC bantu cek kebutuhan PK, daya listrik, pilihan brand, stok unit, pengiriman, dan opsi pemasangan sebelum Anda order.",
     localContext:
