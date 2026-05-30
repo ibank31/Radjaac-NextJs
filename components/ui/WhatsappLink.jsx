@@ -10,6 +10,7 @@ export default function WhatsappLink({
   category = "",
   pageType = "",
   waLabel = "",
+  ...props
 }) {
   const href = buildWhatsAppUrl({
     intent,
@@ -23,6 +24,7 @@ export default function WhatsappLink({
 
   return (
     <a
+      {...props}
       href={href}
       className={className}
       target="_blank"
