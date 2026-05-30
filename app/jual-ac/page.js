@@ -107,9 +107,9 @@ export default function JualAcPage() {
                 ["Konsultasi PK", "Bantu cek ukuran ruangan, daya listrik, dan kebutuhan"],
                 ["Pengiriman", "Koordinasi unit, alamat, jadwal, dan opsi pemasangan"],
               ].map(([title, text]) => (
-                <div key={title} className="rounded-3xl border border-slate-200 bg-white/10 p-5">
+                <div key={title} className="rounded-3xl border border-slate-200 bg-white/80 p-5 shadow-sm">
                   <p className="text-lg font-black">{title}</p>
-                  <p className="mt-2 text-sm leading-6 text-slate-300">{text}</p>
+                  <p className="mt-2 text-sm leading-6 text-slate-600">{text}</p>
                 </div>
               ))}
             </div>
@@ -122,11 +122,11 @@ export default function JualAcPage() {
                 alt="Display AC original multi-brand di RADJA AC"
                 width={900}
                 height={1100}
-                className="h-[520px] w-full rounded-[1.5rem] object-cover"
+                className="h-[360px] w-full rounded-[1.5rem] object-cover sm:h-[460px] lg:h-[520px]"
                 priority
               />
             </div>
-            <div className="absolute -bottom-6 left-6 right-6 rounded-3xl border border-slate-200 bg-white p-6 text-slate-950 shadow-2xl">
+            <div className="mt-4 rounded-3xl border border-slate-200 bg-white p-6 text-slate-950 shadow-xl lg:absolute lg:-bottom-6 lg:left-6 lg:right-6 lg:mt-0 lg:shadow-2xl">
               <p className="text-xs font-black uppercase tracking-[0.22em] text-slate-500">
                 Fokus konsultasi
               </p>

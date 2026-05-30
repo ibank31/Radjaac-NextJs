@@ -589,7 +589,11 @@ function HomeBrands() {
                 alt={`Logo ${brand.name}`}
                 width={148}
                 height={56}
-                className="max-h-11 w-auto object-contain"
+                className={
+                  brand.name === "Sansui"
+                    ? "max-h-11 w-auto object-contain brightness-0"
+                    : "max-h-11 w-auto object-contain"
+                }
               />
             </div>
             <p className="mt-3 mb-3 flex min-h-[40px] items-center justify-center text-xs leading-5 text-slate-500">
