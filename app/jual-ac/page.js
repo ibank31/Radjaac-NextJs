@@ -69,7 +69,7 @@ const proofImages = [
 export default function JualAcPage() {
   return (
     <main className="bg-white">
-      <section className="relative overflow-hidden bg-slate-950 text-white">
+      <section className="relative overflow-hidden bg-[#f7fbff] text-slate-950">
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_left,rgba(56,189,248,0.24),transparent_34%),radial-gradient(circle_at_bottom_right,rgba(34,197,94,0.18),transparent_30%)]" />
         <div className="relative mx-auto grid max-w-7xl gap-12 px-6 py-20 lg:grid-cols-[1.05fr_0.95fr] lg:px-8 lg:py-24">
           <div>
@@ -107,7 +107,7 @@ export default function JualAcPage() {
                 ["Konsultasi PK", "Bantu cek ukuran ruangan, daya listrik, dan kebutuhan"],
                 ["Pengiriman", "Koordinasi unit, alamat, jadwal, dan opsi pemasangan"],
               ].map(([title, text]) => (
-                <div key={title} className="rounded-3xl border border-white/10 bg-white/10 p-5">
+                <div key={title} className="rounded-3xl border border-slate-200 bg-white/10 p-5">
                   <p className="text-lg font-black">{title}</p>
                   <p className="mt-2 text-sm leading-6 text-slate-300">{text}</p>
                 </div>
@@ -116,7 +116,7 @@ export default function JualAcPage() {
           </div>
 
           <div className="relative">
-            <div className="overflow-hidden rounded-[2rem] border border-white/10 bg-white/10 p-3 shadow-2xl">
+            <div className="overflow-hidden rounded-[2rem] border border-slate-200 bg-white/10 p-3 shadow-2xl">
               <Image
                 src="/photos/display/display-gree-residential-ac-radja-ac.webp"
                 alt="Display AC original multi-brand di RADJA AC"
@@ -126,7 +126,7 @@ export default function JualAcPage() {
                 priority
               />
             </div>
-            <div className="absolute -bottom-6 left-6 right-6 rounded-3xl border border-white/10 bg-white p-6 text-slate-950 shadow-2xl">
+            <div className="absolute -bottom-6 left-6 right-6 rounded-3xl border border-slate-200 bg-white p-6 text-slate-950 shadow-2xl">
               <p className="text-xs font-black uppercase tracking-[0.22em] text-slate-500">
                 Fokus konsultasi
               </p>
@@ -205,7 +205,7 @@ export default function JualAcPage() {
           <div className="mt-8 flex flex-col gap-3 sm:flex-row">
             <Link
               href={routes.katalogAcSetengahPk}
-              className="inline-flex items-center justify-center rounded-full bg-slate-950 px-6 py-4 text-sm font-black text-white transition hover:bg-slate-800"
+              className="inline-flex items-center justify-center rounded-full bg-white px-6 py-4 text-sm font-black text-white transition hover:bg-slate-800"
             >
               Lihat Detail AC 1/2 PK
             </Link>
@@ -272,7 +272,7 @@ export default function JualAcPage() {
           <div className="space-y-4">
             {processSteps.map(([title, text], index) => (
               <div key={title} className="flex gap-5 rounded-3xl border border-slate-200 p-6">
-                <div className="flex h-11 w-11 shrink-0 items-center justify-center rounded-full bg-slate-950 text-sm font-black text-white">
+                <div className="flex h-11 w-11 shrink-0 items-center justify-center rounded-full bg-white text-sm font-black text-slate-950">
                   {index + 1}
                 </div>
                 <div>
@@ -285,11 +285,11 @@ export default function JualAcPage() {
         </div>
       </section>
 
-      <section className="bg-slate-950 text-white">
+      <section className="bg-[#f7fbff] text-slate-950">
         <div className="mx-auto max-w-7xl px-6 py-20 lg:px-8">
           <div className="grid gap-12 lg:grid-cols-[0.9fr_1.1fr]">
             <div>
-              <p className="text-sm font-black uppercase tracking-[0.22em] text-cyan-200">
+              <p className="text-sm font-black uppercase tracking-[0.22em] text-cyan-700">
                 Bukti aktivitas
               </p>
               <h2 className="mt-4 text-3xl font-black tracking-tight sm:text-4xl">
@@ -309,7 +309,7 @@ export default function JualAcPage() {
 
             <div className="grid gap-4 sm:grid-cols-3">
               {proofImages.map((image) => (
-                <div key={image.src} className="overflow-hidden rounded-3xl border border-white/10 bg-white/10 p-2">
+                <div key={image.src} className="overflow-hidden rounded-3xl border border-slate-200 bg-white/10 p-2">
                   <Image
                     src={image.src}
                     alt={image.alt}
@@ -368,7 +368,7 @@ export default function JualAcPage() {
           </p>
           <div className="mt-8 flex flex-col justify-center gap-3 sm:flex-row">
             <WhatsappLink
-              className="inline-flex items-center justify-center rounded-full bg-slate-950 px-7 py-4 text-sm font-black text-white transition hover:bg-slate-800"
+              className="inline-flex items-center justify-center rounded-full bg-white px-7 py-4 text-sm font-black text-white transition hover:bg-slate-800"
               source="Halaman Jual AC"
               intent="konsultasi memilih AC original multi-brand dari halaman jual AC"
             >

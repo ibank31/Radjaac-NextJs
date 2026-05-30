@@ -79,20 +79,20 @@ export default async function ArticleDetailPage({ params }) {
   const keywords = item.keywords?.length ? item.keywords : [item.eyebrow, "AC", "RADJA AC"];
 
   return (
-    <main className="min-h-screen overflow-hidden bg-slate-950 text-white">
+    <main className="min-h-screen overflow-hidden bg-[#f7fbff] text-slate-950">
       <article className="mx-auto max-w-4xl px-4 pb-12 pt-16 sm:px-6 lg:px-8 lg:pb-16 lg:pt-24">
-        <Link href={routes.artikel} className="mb-7 inline-flex items-center gap-2 text-sm font-semibold text-cyan-300 transition hover:text-cyan-200">
+        <Link href={routes.artikel} className="mb-7 inline-flex items-center gap-2 text-sm font-semibold text-cyan-700 transition hover:text-cyan-700">
           ← Kembali ke artikel
         </Link>
 
-        <div className="mb-6 flex flex-wrap items-center gap-3 text-sm text-white/55">
-          <span className="rounded-full border border-cyan-300/20 bg-cyan-300/10 px-3 py-1 font-semibold text-cyan-200">
+        <div className="mb-6 flex flex-wrap items-center gap-3 text-sm text-slate-500">
+          <span className="rounded-full border border-cyan-100 bg-cyan-50 px-3 py-1 font-semibold text-cyan-700">
             {item.eyebrow}
           </span>
-          <span className="rounded-full border border-white/10 bg-white/[0.04] px-3 py-1">
+          <span className="rounded-full border border-slate-200 bg-white px-3 py-1">
             {item.readTime}
           </span>
-          <span className="rounded-full border border-white/10 bg-white/[0.04] px-3 py-1">
+          <span className="rounded-full border border-slate-200 bg-white px-3 py-1">
             Update terbaru
           </span>
         </div>
@@ -101,7 +101,7 @@ export default async function ArticleDetailPage({ params }) {
           {item.h1}
         </h1>
 
-        <p className="mb-8 text-lg leading-8 text-white/72">
+        <p className="mb-8 text-lg leading-8 text-slate-600">
           {item.intro}
         </p>
 
@@ -115,13 +115,13 @@ export default async function ArticleDetailPage({ params }) {
           </WhatsappLink>
           <Link
             href={routes.kalkulatorPkAc}
-            className="inline-flex items-center justify-center rounded-full border border-white/10 px-6 py-4 font-semibold text-white/90 transition hover:border-cyan-300/30 hover:bg-white/[0.05]"
+            className="inline-flex items-center justify-center rounded-full border border-slate-200 px-6 py-4 font-semibold text-slate-700 transition hover:border-cyan-200 hover:bg-slate-50"
           >
             Cek Kalkulator PK
           </Link>
           <Link
             href={routes.katalog}
-            className="inline-flex items-center justify-center rounded-full border border-white/10 px-6 py-4 font-semibold text-white/90 transition hover:border-cyan-300/30 hover:bg-white/[0.05]"
+            className="inline-flex items-center justify-center rounded-full border border-slate-200 px-6 py-4 font-semibold text-slate-700 transition hover:border-cyan-200 hover:bg-slate-50"
           >
             Lihat Katalog AC
           </Link>
@@ -129,7 +129,7 @@ export default async function ArticleDetailPage({ params }) {
 
         <div className="mb-10 flex flex-wrap gap-2">
           {keywords.map((keyword) => (
-            <span key={keyword} className="rounded-full border border-white/10 bg-white/[0.04] px-3 py-1.5 text-xs text-white/60">
+            <span key={keyword} className="rounded-full border border-slate-200 bg-white px-3 py-1.5 text-xs text-slate-600">
               {keyword}
             </span>
           ))}
@@ -137,15 +137,15 @@ export default async function ArticleDetailPage({ params }) {
 
         <div className="space-y-10">
           {item.sections.map((section) => (
-            <section key={section.heading} className="rounded-[30px] border border-white/10 bg-white/[0.035] p-6 sm:p-8">
+            <section key={section.heading} className="rounded-[1.55rem] border border-slate-200 bg-white p-6 sm:p-8">
               <div className="mb-4 flex items-start gap-3">
-                <span className="mt-1 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-cyan-300 text-xs font-black text-slate-950">✓</span>
+                <span className="mt-1 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-cyan-600 text-xs font-black text-white">✓</span>
                 <h2 className="text-2xl font-black tracking-tight text-white sm:text-3xl">
                   {section.heading}
                 </h2>
               </div>
 
-              <div className="space-y-4 text-sm leading-7 text-white/65 sm:text-base sm:leading-8">
+              <div className="space-y-4 text-sm leading-7 text-slate-600 sm:text-base sm:leading-8">
                 {section.body.map((paragraph) => (
                   <p key={paragraph}>{paragraph}</p>
                 ))}
@@ -154,8 +154,8 @@ export default async function ArticleDetailPage({ params }) {
           ))}
         </div>
 
-        <section className="mt-10 rounded-[30px] border border-cyan-300/15 bg-cyan-300/[0.06] p-6 sm:p-8">
-          <p className="mb-3 text-xs font-semibold uppercase tracking-[0.24em] text-cyan-300">
+        <section className="mt-10 rounded-[1.55rem] border border-cyan-100 bg-cyan-50 p-6 sm:p-8">
+          <p className="mb-3 text-xs font-semibold uppercase tracking-[0.24em] text-cyan-700">
             Lanjutkan ke halaman terkait
           </p>
           <h2 className="mb-5 text-2xl font-black tracking-tight sm:text-3xl">
@@ -166,11 +166,11 @@ export default async function ArticleDetailPage({ params }) {
               <Link
                 key={href}
                 href={href}
-                className="group rounded-[24px] border border-white/10 bg-slate-950/45 p-5 transition hover:-translate-y-1 hover:border-cyan-300/30 hover:bg-white/[0.06]"
+                className="group rounded-[1.35rem] border border-slate-200 bg-[#f7fbff]/45 p-5 transition hover:-translate-y-1 hover:border-cyan-200 hover:bg-slate-50"
               >
-                <h3 className="mb-2 text-lg font-black text-white">{label}</h3>
-                <p className="mb-4 text-sm leading-6 text-white/58">{description}</p>
-                <span className="inline-flex items-center gap-2 text-sm font-bold text-cyan-300 group-hover:text-cyan-200">
+                <h3 className="mb-2 text-lg font-black text-slate-950">{label}</h3>
+                <p className="mb-4 text-sm leading-6 text-slate-600">{description}</p>
+                <span className="inline-flex items-center gap-2 text-sm font-bold text-cyan-700 group-hover:text-cyan-700">
                   Buka halaman →
                 </span>
               </Link>
@@ -178,14 +178,14 @@ export default async function ArticleDetailPage({ params }) {
           </div>
         </section>
 
-        <section className="mt-10 rounded-[34px] border border-[#25D366]/20 bg-[#25D366]/10 p-6 text-center sm:p-8">
+        <section className="mt-10 rounded-[1.7rem] border border-[#25D366]/20 bg-[#25D366]/10 p-6 text-center sm:p-8">
           <div className="mx-auto mb-4 flex h-12 w-12 items-center justify-center rounded-2xl bg-[#25D366] text-slate-950">
             WA
           </div>
           <h2 className="mb-3 text-2xl font-black tracking-tight sm:text-3xl">
             Masih bingung pilih AC?
           </h2>
-          <p className="mx-auto mb-6 max-w-2xl text-sm leading-7 text-white/68">
+          <p className="mx-auto mb-6 max-w-2xl text-sm leading-7 text-slate-600">
             Chat RADJA AC untuk cek stok, tanya rekomendasi PK, dan pilih tipe AC yang sesuai kebutuhan ruangan.
           </p>
           <WhatsappLink
@@ -205,11 +205,11 @@ export default async function ArticleDetailPage({ params }) {
                 <Link
                   key={article.slug}
                   href={article.path}
-                  className="rounded-[24px] border border-white/10 bg-white/[0.04] p-5 transition hover:border-cyan-300/30 hover:bg-white/[0.06]"
+                  className="rounded-[1.35rem] border border-slate-200 bg-white p-5 transition hover:border-cyan-200 hover:bg-slate-50"
                 >
-                  <p className="mb-2 text-xs font-semibold text-cyan-300">{article.eyebrow}</p>
-                  <h3 className="mb-2 text-lg font-black text-white">{article.h1}</h3>
-                  <p className="text-sm leading-6 text-white/55">{article.description}</p>
+                  <p className="mb-2 text-xs font-semibold text-cyan-700">{article.eyebrow}</p>
+                  <h3 className="mb-2 text-lg font-black text-slate-950">{article.h1}</h3>
+                  <p className="text-sm leading-6 text-slate-500">{article.description}</p>
                 </Link>
               ))}
             </div>

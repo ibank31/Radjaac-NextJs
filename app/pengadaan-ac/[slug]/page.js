@@ -48,123 +48,130 @@ export default async function ProcurementDetailPage({ params }) {
   const relatedItems = procurementItems.filter((procurementItem) => procurementItem.slug !== item.slug);
 
   return (
-    <main className="min-h-screen overflow-hidden bg-slate-950 text-white">
-      <section className="relative mx-auto max-w-7xl px-4 py-16 lg:py-24">
-        <div className="pointer-events-none absolute inset-0 -z-10 bg-[radial-gradient(circle_at_top_left,rgba(34,211,238,0.18),transparent_32%),radial-gradient(circle_at_bottom_right,rgba(37,211,102,0.12),transparent_28%)]" />
-        <Link href={routes.pengadaanAc} className="text-sm font-bold text-cyan-300 hover:text-cyan-200">
-          ← Kembali ke Pengadaan AC
-        </Link>
+    <main className="min-h-screen overflow-hidden bg-[#f7fbff] text-slate-950">
+      <section className="relative overflow-hidden border-b border-cyan-100 bg-[linear-gradient(180deg,#f8fdff_0%,#eefbff_100%)] px-4 py-12 lg:py-20">
+        <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_top_left,rgba(34,211,238,0.16),transparent_34%),radial-gradient(circle_at_bottom_right,rgba(15,23,42,0.08),transparent_32%)]" />
 
-        <p className="mt-8 text-sm font-bold uppercase tracking-[0.22em] text-cyan-300">
-          {item.eyebrow}
-        </p>
-        <h1 className="mt-4 max-w-4xl text-4xl font-black tracking-tight text-white md:text-5xl">
-          {item.h1}
-        </h1>
-        <p className="mt-6 max-w-3xl text-lg leading-8 text-white/70">
-          {item.intro}
-        </p>
-
-        <div className="mt-8 flex flex-col gap-3 sm:flex-row">
-          <WhatsappLink
-            className="inline-flex items-center justify-center rounded-full bg-[#25D366] px-6 py-4 text-sm font-black text-slate-950 transition hover:bg-[#20BA5A]"
-            source={item.label}
-            intent={item.waIntent}
-            category={item.waProjectType}
-          >
-            Chat Admin RADJA AC
-          </WhatsappLink>
-          <Link
-            href={routes.katalog}
-            className="inline-flex items-center justify-center rounded-full border border-white/10 px-6 py-4 text-sm font-bold text-white transition hover:bg-white/[0.05]"
-          >
-            Lihat Katalog AC
+        <div className="relative mx-auto max-w-7xl">
+          <Link href={routes.pengadaanAc} className="text-sm font-black text-cyan-700 transition hover:text-cyan-900">
+            ← Kembali ke Pengadaan AC
           </Link>
-        </div>
 
-        <div className="mt-12 grid gap-6 lg:grid-cols-2">
-          <section className="rounded-3xl border border-white/10 bg-white/[0.04] p-6">
-            <h2 className="text-xl font-black text-white">Kebutuhan pengadaan</h2>
-            <ul className="mt-5 space-y-3 text-sm leading-6 text-white/65">
-              {item.commonNeeds.map((point) => (
-                <li key={point} className="rounded-2xl border border-white/10 bg-slate-950/45 p-4">
-                  {point}
-                </li>
-              ))}
-            </ul>
-          </section>
-
-          <section className="rounded-3xl border border-white/10 bg-white/[0.04] p-6">
-            <h2 className="text-xl font-black text-white">Data yang dicek admin</h2>
-            <ul className="mt-5 space-y-3 text-sm leading-6 text-white/65">
-              {item.buyingChecks.map((point) => (
-                <li key={point} className="rounded-2xl border border-white/10 bg-slate-950/45 p-4">
-                  {point}
-                </li>
-              ))}
-            </ul>
-          </section>
-        </div>
-
-        <section className="mt-8 rounded-3xl border border-cyan-300/15 bg-cyan-300/[0.055] p-6">
-          <h2 className="text-xl font-black text-white">Koordinasi proyek</h2>
-          <p className="mt-4 text-sm leading-6 text-white/65">{item.segmentContext}</p>
-          <p className="mt-4 text-sm leading-6 text-white/65">{item.coordinationNote}</p>
-        </section>
-
-        <section className="mt-8 rounded-3xl border border-white/10 bg-white/[0.04] p-6">
-          <h2 className="text-xl font-black text-white">Garansi & bantuan klaim</h2>
-          <ul className="mt-5 grid gap-3 text-sm leading-6 text-white/65 md:grid-cols-3">
-            {warrantyHighlights.map((point) => (
-              <li key={point} className="rounded-2xl border border-white/10 bg-slate-950/45 p-4">
-                {point}
-              </li>
-            ))}
-          </ul>
-        </section>
-
-        <section className="mt-8 rounded-3xl border border-white/10 bg-white/[0.04] p-6">
-          <h2 className="text-xl font-black text-white">Link terkait</h2>
-          <div className="mt-5 flex flex-wrap gap-3">
-            {item.suggestedLinks.map(([label, href]) => (
-              <Link
-                key={href}
-                href={href}
-                className="rounded-full border border-cyan-300/15 bg-cyan-300/10 px-4 py-2 text-sm font-bold text-cyan-200 transition hover:bg-cyan-300/15"
-              >
-                {label}
-              </Link>
-            ))}
-          </div>
-        </section>
-
-        <section className="mt-12 rounded-3xl border border-[#25D366]/20 bg-[#25D366]/10 p-6 text-white">
-          <h2 className="text-2xl font-black">Belum yakin kebutuhan proyeknya?</h2>
-          <p className="mt-4 max-w-3xl text-sm leading-6 text-white/70">
-            Kirim jumlah ruangan, ukuran ruangan, lokasi, estimasi jumlah unit, daya listrik, brand yang diminati,
-            dan kebutuhan unit saja atau opsi pemasangan. Admin RADJA AC bantu cek pilihan yang paling masuk akal.
+          <p className="mt-8 inline-flex rounded-full border border-cyan-100 bg-white/80 px-4 py-2 text-xs font-black uppercase tracking-[0.2em] text-cyan-800 shadow-sm backdrop-blur">
+            {item.eyebrow}
           </p>
-          <div className="mt-6 flex flex-wrap gap-3">
-            {parentLinks.map(([label, href]) => (
-              <Link
-                key={href}
-                href={href}
-                className="rounded-full border border-white/15 px-4 py-2 text-sm font-bold text-white transition hover:bg-white/10"
-              >
-                {label}
-              </Link>
-            ))}
-            {relatedItems.map((relatedItem) => (
-              <Link
-                key={relatedItem.slug}
-                href={relatedItem.path}
-                className="rounded-full border border-white/15 px-4 py-2 text-sm font-bold text-white transition hover:bg-white/10"
-              >
-                {relatedItem.label}
-              </Link>
-            ))}
+
+          <h1 className="mt-4 max-w-4xl text-4xl font-black tracking-[-0.04em] text-slate-950 md:text-5xl">
+            {item.h1}
+          </h1>
+
+          <p className="mt-6 max-w-3xl text-lg leading-8 text-slate-600">
+            {item.intro}
+          </p>
+
+          <div className="mt-8 flex flex-col gap-3 sm:flex-row">
+            <WhatsappLink
+              className="inline-flex items-center justify-center rounded-full bg-[#25D366] px-6 py-4 text-sm font-black text-slate-950 shadow-[0_14px_34px_rgba(37,211,102,0.20)] transition hover:-translate-y-0.5 hover:bg-[#20BA5A]"
+              source={item.label}
+              intent={item.waIntent}
+              category={item.waProjectType}
+            >
+              Chat Admin RADJA AC
+            </WhatsappLink>
+
+            <Link
+              href={routes.katalog}
+              className="inline-flex items-center justify-center rounded-full border border-slate-200 bg-white px-6 py-4 text-sm font-black text-slate-900 shadow-sm transition hover:bg-slate-50"
+            >
+              Lihat Katalog AC
+            </Link>
           </div>
-        </section>
+
+          <div className="mt-12 grid gap-6 lg:grid-cols-2">
+            <section className="rounded-[1.7rem] border border-slate-200 bg-white p-6 shadow-sm">
+              <h2 className="text-xl font-black text-slate-950">Kebutuhan pengadaan</h2>
+              <ul className="mt-5 space-y-3 text-sm leading-6 text-slate-700">
+                {item.commonNeeds.map((point) => (
+                  <li key={point} className="rounded-2xl border border-slate-200 bg-[#f8fbff] p-4">
+                    {point}
+                  </li>
+                ))}
+              </ul>
+            </section>
+
+            <section className="rounded-[1.7rem] border border-slate-200 bg-white p-6 shadow-sm">
+              <h2 className="text-xl font-black text-slate-950">Data yang dicek admin</h2>
+              <ul className="mt-5 space-y-3 text-sm leading-6 text-slate-700">
+                {item.buyingChecks.map((point) => (
+                  <li key={point} className="rounded-2xl border border-slate-200 bg-[#f8fbff] p-4">
+                    {point}
+                  </li>
+                ))}
+              </ul>
+            </section>
+          </div>
+
+          <section className="mt-8 rounded-[1.7rem] border border-cyan-100 bg-cyan-50 p-6">
+            <h2 className="text-xl font-black text-slate-950">Koordinasi proyek</h2>
+            <p className="mt-4 text-sm leading-7 text-slate-700">{item.segmentContext}</p>
+            <p className="mt-4 text-sm leading-7 text-slate-700">{item.coordinationNote}</p>
+          </section>
+
+          <section className="mt-8 rounded-[1.7rem] border border-slate-200 bg-white p-6 shadow-sm">
+            <h2 className="text-xl font-black text-slate-950">Garansi & bantuan klaim</h2>
+            <ul className="mt-5 grid gap-3 text-sm leading-6 text-slate-700 md:grid-cols-3">
+              {warrantyHighlights.map((point) => (
+                <li key={point} className="rounded-2xl border border-slate-200 bg-[#f8fbff] p-4">
+                  {point}
+                </li>
+              ))}
+            </ul>
+          </section>
+
+          <section className="mt-8 rounded-[1.7rem] border border-slate-200 bg-white p-6 shadow-sm">
+            <h2 className="text-xl font-black text-slate-950">Link terkait</h2>
+            <div className="mt-5 flex flex-wrap gap-3">
+              {item.suggestedLinks.map(([label, href]) => (
+                <Link
+                  key={href}
+                  href={href}
+                  className="rounded-full border border-slate-200 bg-[#f8fbff] px-4 py-2 text-sm font-bold text-slate-700 transition hover:border-cyan-200 hover:bg-cyan-50 hover:text-cyan-800"
+                >
+                  {label}
+                </Link>
+              ))}
+            </div>
+          </section>
+
+          <section className="mt-12 rounded-[1.7rem] border border-[#25D366]/20 bg-[#25D366]/10 p-6 shadow-[0_18px_50px_rgba(15,39,66,0.08)]">
+            <h2 className="text-2xl font-black text-slate-950">Belum yakin kebutuhan proyeknya?</h2>
+            <p className="mt-4 max-w-3xl text-sm leading-7 text-slate-700">
+              Kirim jumlah ruangan, ukuran ruangan, lokasi, estimasi jumlah unit, daya listrik, brand yang diminati, dan kebutuhan unit saja atau opsi pemasangan. Admin RADJA AC bantu cek pilihan yang paling masuk akal.
+            </p>
+
+            <div className="mt-6 flex flex-wrap gap-3">
+              {parentLinks.map(([label, href]) => (
+                <Link
+                  key={href}
+                  href={href}
+                  className="rounded-full border border-slate-200 bg-white px-4 py-2 text-sm font-bold text-slate-700 transition hover:border-cyan-200 hover:bg-cyan-50 hover:text-cyan-800"
+                >
+                  {label}
+                </Link>
+              ))}
+
+              {relatedItems.map((relatedItem) => (
+                <Link
+                  key={relatedItem.slug}
+                  href={relatedItem.path}
+                  className="rounded-full border border-slate-200 bg-white px-4 py-2 text-sm font-bold text-slate-700 transition hover:border-cyan-200 hover:bg-cyan-50 hover:text-cyan-800"
+                >
+                  {relatedItem.label}
+                </Link>
+              ))}
+            </div>
+          </section>
+        </div>
       </section>
     </main>
   );
