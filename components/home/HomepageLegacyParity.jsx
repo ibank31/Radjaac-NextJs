@@ -200,31 +200,30 @@ function ArrowLink({ href, children, className = "" }) {
 
 function HomeHero() {
   return (
-    <section className="relative overflow-hidden px-4 pb-10 pt-12 sm:pt-16 lg:pb-16">
-      <div className="absolute inset-x-0 top-0 h-56 bg-[linear-gradient(135deg,#eff6ff_0%,#ffffff_52%,#fff7ed_100%)]" />
+    <section className="relative overflow-hidden border-b border-cyan-100 bg-[linear-gradient(180deg,#f8fdff_0%,#eefbff_100%)] px-4 pb-10 pt-10 sm:pt-14 lg:pb-14">
+      <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_top_left,rgba(34,211,238,0.18),transparent_34%),radial-gradient(circle_at_bottom_right,rgba(15,23,42,0.08),transparent_32%)]" />
+
       <div className="relative mx-auto grid max-w-7xl gap-8 lg:grid-cols-[0.95fr_1.05fr] lg:items-center">
         <div>
-          <div className="mb-5 inline-flex items-center gap-2 rounded-full border border-cyan-200 bg-white px-4 py-2 text-xs font-black uppercase tracking-[0.16em] text-cyan-800 shadow-sm">
-            <span className="h-2 w-2 rounded-full bg-cyan-500" />
-            Cek Stok, Konsultasi PK, Pengiriman & Opsi Pemasangan
+          <div className="mb-5 inline-flex max-w-full items-center gap-2 rounded-full border border-cyan-100 bg-white/80 px-3.5 py-2 text-[11px] font-black uppercase tracking-[0.16em] text-cyan-800 shadow-sm backdrop-blur">
+            <span className="h-2 w-2 shrink-0 rounded-full bg-cyan-500" />
+            <span className="leading-5">Cek stok, konsultasi PK, pengiriman & pemasangan</span>
           </div>
 
-          <h1 className="max-w-3xl text-4xl font-black tracking-tight text-slate-950 sm:text-5xl lg:text-6xl">
+          <h1 className="max-w-3xl text-4xl font-black tracking-[-0.04em] text-slate-950 sm:text-5xl lg:text-6xl">
             Beli AC jangan cuma lihat harga unit.
             <span className="block text-cyan-700">
               PK, stok, dan biaya pasang harus jelas dulu.
             </span>
           </h1>
 
-          <p className="mt-6 max-w-2xl text-base leading-8 text-slate-600 sm:text-lg">
-            RADJA AC membantu pembelian AC original multi-brand untuk rumah, kost, toko, ruko, kantor,
-            hotel, dan proyek. Admin bantu cek PK sesuai ruangan, stok unit, alamat pengiriman, serta
-            opsi pemasangan sebelum Anda deal.
+          <p className="mt-5 max-w-2xl text-base leading-8 text-slate-600 sm:text-lg">
+            RADJA AC membantu pembelian AC original multi-brand untuk rumah, usaha, properti, dan proyek. Admin bantu cek PK, stok, pengiriman, dan opsi pemasangan sebelum Anda deal.
           </p>
 
-          <div className="mt-8 flex flex-col gap-3 sm:flex-row sm:flex-wrap">
+          <div className="mt-7 flex flex-col gap-3 sm:flex-row sm:flex-wrap">
             <WhatsappLink
-              className="inline-flex w-full items-center justify-center rounded-full bg-[#25D366] px-6 py-4 text-sm font-black text-slate-950 shadow-[0_18px_40px_rgba(37,211,102,0.18)] transition hover:-translate-y-0.5 hover:bg-[#20BA5A] sm:w-auto"
+              className="inline-flex w-full items-center justify-center rounded-full bg-[#25D366] px-6 py-4 text-sm font-black text-slate-950 shadow-[0_18px_42px_rgba(37,211,102,0.20)] transition hover:-translate-y-0.5 hover:bg-[#20BA5A] sm:w-auto"
               source="Homepage Hero"
               intent="konsultasi AC yang cocok, cek PK, stok, pengiriman, dan pemasangan"
             >
@@ -247,21 +246,20 @@ function HomeHero() {
           </div>
 
           <p className="mt-5 max-w-2xl text-sm leading-7 text-slate-500">
-            Kirim ukuran ruangan, daya listrik, alamat/kota tujuan, dan jumlah unit. Admin bantu cek PK,
-            stok, pengiriman, serta estimasi pemasangan bila tersedia.
+            Kirim ukuran ruangan, daya listrik, alamat/kota tujuan, dan jumlah unit. Admin bantu cek kebutuhan dari awal.
           </p>
         </div>
 
-        <div className="relative">
-          <div className="absolute -inset-4 rounded-[2.5rem] bg-cyan-200/35 blur-3xl" />
-          <div className="relative overflow-hidden rounded-[2.25rem] border border-slate-200 bg-white p-2 shadow-[0_28px_80px_rgba(15,39,66,0.14)]">
+        <div className="relative hidden sm:block">
+          <div className="absolute -inset-4 rounded-[1.7rem] bg-cyan-200/30 blur-3xl" />
+          <div className="relative overflow-hidden rounded-[1.7rem] border border-white bg-white p-2 shadow-[0_22px_60px_rgba(15,39,66,0.12)]">
             <Image
               src="/photos/showroom/showroom-multibrand-radja-ac-purwokerto-01.webp"
               alt="Showroom RADJA AC — AC original multi-brand untuk rumah, usaha, dan proyek"
               width={900}
               height={720}
               priority
-              className="h-[310px] w-full rounded-[1.75rem] object-cover object-center sm:h-[430px] lg:h-[540px]"
+              className="h-[310px] w-full rounded-[1.5rem] object-cover object-center sm:h-[390px] lg:h-[500px]"
             />
           </div>
         </div>
@@ -280,7 +278,7 @@ function HomeTrust() {
         </h2>
       </div>
 
-      <div className="overflow-hidden rounded-[2rem] border border-amber-200 bg-[linear-gradient(135deg,#fffaf2_0%,#ffffff_58%,#eef7ff_100%)] p-6 shadow-[0_24px_70px_rgba(15,39,66,0.08)] sm:p-8">
+      <div className="overflow-hidden rounded-[1.7rem] border border-amber-200 bg-[linear-gradient(135deg,#fffaf2_0%,#ffffff_58%,#eef7ff_100%)] p-6 shadow-[0_24px_70px_rgba(15,39,66,0.08)] sm:p-8">
         <div className="grid gap-7 lg:grid-cols-[0.7fr_1.3fr] lg:items-center">
           <div>
             <div className="mb-5 flex h-14 w-14 items-center justify-center rounded-2xl border border-amber-200 bg-white text-2xl text-amber-700 shadow-sm">
@@ -367,7 +365,7 @@ function HomeTrust() {
 function HomePriceEstimate() {
   return (
     <section className="mx-auto max-w-7xl px-4 py-10">
-      <div className="overflow-hidden rounded-[2rem] border border-blue-100 bg-white p-5 shadow-[0_22px_60px_rgba(15,39,66,0.08)] sm:p-8">
+      <div className="overflow-hidden rounded-[1.7rem] border border-blue-100 bg-white p-5 shadow-[0_22px_60px_rgba(15,39,66,0.08)] sm:p-8">
         <div className="mb-7 grid gap-5 lg:grid-cols-[0.9fr_1.1fr] lg:items-end">
           <div>
             <SectionBadge>Estimasi Budget AC + Pasang</SectionBadge>
@@ -463,7 +461,7 @@ function HomePaymentTrust() {
 function HomeSalesLanding() {
   return (
     <section className="mx-auto max-w-7xl px-4 py-10">
-      <div className="overflow-hidden rounded-[2rem] border border-cyan-200 bg-cyan-50 p-6 shadow-[0_35px_90px_rgba(8,145,178,0.10)] sm:p-8 lg:p-10">
+      <div className="overflow-hidden rounded-[1.7rem] border border-cyan-200 bg-cyan-50 p-6 shadow-[0_22px_60px_rgba(15,39,66,0.08)] sm:p-8 lg:p-10">
         <div className="grid gap-8 lg:grid-cols-[0.9fr_1.1fr] lg:items-center">
           <div>
             <SectionBadge>Cek Dulu Sebelum Deal</SectionBadge>
@@ -671,37 +669,44 @@ function HomeWhyChoose() {
 }
 
 function HomeClosingCta() {
+  const checklist = [
+    "Ukuran ruangan",
+    "Daya listrik",
+    "Lokasi pengiriman",
+    "Jumlah unit / kebutuhan proyek",
+  ];
+
   return (
-    <section className="mx-auto max-w-7xl px-4 pb-16 pt-8">
-      <div className="overflow-hidden rounded-[2rem] bg-slate-950 p-6 text-white shadow-[0_28px_80px_rgba(15,23,42,0.20)] sm:p-8 lg:p-10">
-        <div className="grid gap-7 lg:grid-cols-[1fr_0.8fr] lg:items-center">
+    <section className="mx-auto max-w-7xl px-4 pb-14 pt-8">
+      <div className="rounded-[1.6rem] border border-slate-200 bg-white p-6 shadow-[0_18px_50px_rgba(15,39,66,0.08)] sm:p-8 lg:p-10">
+        <div className="grid gap-7 lg:grid-cols-[1.05fr_0.95fr] lg:items-center">
           <div>
-            <p className="mb-3 text-xs font-black uppercase tracking-[0.22em] text-cyan-300">
+            <p className="mb-3 text-xs font-black uppercase tracking-[0.22em] text-cyan-700">
               Siap konsultasi?
             </p>
-            <h2 className="text-3xl font-black tracking-tight sm:text-4xl">
+            <h2 className="max-w-2xl text-3xl font-black tracking-[-0.03em] text-slate-950 sm:text-4xl">
               Kirim ukuran ruangan dan kebutuhan AC Anda.
             </h2>
-            <p className="mt-4 max-w-2xl text-sm leading-7 text-white/70 sm:text-base">
-              Admin RADJA AC bantu cek rekomendasi PK, opsi brand, estimasi budget, pengiriman, dan opsi
-              pemasangan. Tidak perlu langsung deal — tanya dulu tidak apa-apa.
+            <p className="mt-4 max-w-2xl text-sm leading-7 text-slate-600 sm:text-base">
+              Admin RADJA AC bantu cek rekomendasi PK, opsi brand, estimasi budget, pengiriman, dan opsi pemasangan. Tidak perlu langsung deal — tanya dulu tidak apa-apa.
             </p>
           </div>
 
-          <div className="rounded-[1.5rem] border border-white/10 bg-white/[0.04] p-5">
+          <div className="rounded-[1.35rem] border border-slate-200 bg-slate-50 p-4 sm:p-5">
             <WhatsappLink
-              className="inline-flex w-full items-center justify-center rounded-full bg-[#25D366] px-6 py-4 text-sm font-black text-slate-950 transition hover:bg-[#20BA5A]"
+              className="inline-flex w-full items-center justify-center rounded-full bg-[#25D366] px-6 py-4 text-sm font-black text-slate-950 shadow-[0_14px_34px_rgba(37,211,102,0.20)] transition hover:-translate-y-0.5 hover:bg-[#20BA5A]"
               source="Homepage Closing CTA"
               intent="konsultasi kebutuhan AC dari homepage"
             >
               Chat Admin RADJA AC
             </WhatsappLink>
 
-            <div className="mt-4 grid gap-2 text-sm text-white/60">
-              <span>• Ukuran ruangan</span>
-              <span>• Daya listrik</span>
-              <span>• Lokasi pengiriman</span>
-              <span>• Jumlah unit / kebutuhan proyek</span>
+            <div className="mt-4 grid grid-cols-1 gap-2 sm:grid-cols-2">
+              {checklist.map((item) => (
+                <div key={item} className="rounded-2xl border border-slate-200 bg-white px-4 py-3 text-sm font-bold text-slate-700">
+                  {item}
+                </div>
+              ))}
             </div>
           </div>
         </div>
@@ -712,7 +717,7 @@ function HomeClosingCta() {
 
 export default function HomepageLegacyParity() {
   return (
-    <main className="overflow-hidden bg-slate-50 text-slate-950">
+    <main className="overflow-hidden bg-[#f7fbff] text-slate-950">
       <HomeHero />
       <HomeTrust />
       <HomePriceEstimate />
