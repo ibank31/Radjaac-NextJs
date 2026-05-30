@@ -50,6 +50,13 @@ const proofImages = [
   },
 ];
 
+const briefFields = [
+  "Area/kecamatan dan alamat pengiriman",
+  "Ukuran ruangan dan jumlah unit",
+  "Daya listrik dan pola pemakaian",
+  "Butuh unit saja atau opsi pemasangan",
+];
+
 export function generateStaticParams() {
   return areaItems.map((item) => ({
     slug: item.slug,
@@ -80,14 +87,37 @@ export default async function AreaPage({ params }) {
     notFound();
   }
 
-  const relatedAreas = areaItems.filter((areaItem) => areaItem.slug !== item.slug).slice(0, 10);
+  const relatedAreas = areaItems.filter((areaItem) => areaItem.slug !== item.slug).slice(0, 8);
   const pageLinks = item.relatedLinks?.length ? item.relatedLinks : primaryLinks;
+
+  const faqItems = [
+    [
+      `Apakah RADJA AC punya toko fisik di ${item.areaName}?`,
+      `RADJA AC berbasis di Banyumas. Untuk area ${item.areaName}, admin membantu konsultasi PK, cek stok, pengiriman unit, dan opsi pemasangan yang dikonfirmasi sesuai alamat serta jadwal.`,
+    ],
+    [
+      `Bisa bantu pilih PK AC untuk area ${item.areaName}?`,
+      "Bisa. Kirim ukuran ruangan, tinggi plafon bila ada, kondisi panas matahari, daya listrik, dan pola pemakaian agar admin bisa memberi arahan yang lebih masuk akal.",
+    ],
+    [
+      "Bisa beli unit AC tanpa pemasangan?",
+      "Bisa dibahas dengan admin. Kebutuhan unit saja, pengiriman, atau opsi pemasangan akan dikonfirmasi sesuai stok, alamat, jumlah unit, dan jadwal.",
+    ],
+    [
+      "Brand apa saja yang bisa dicek?",
+      "Admin dapat membantu cek pilihan brand seperti Gree, Daikin, Midea, Hisense, Sharp, Panasonic, dan brand lain sesuai stok terbaru.",
+    ],
+    [
+      "Harga AC tergantung apa saja?",
+      "Harga dan estimasi akhir dipengaruhi brand, PK, tipe unit, stok, promo, alamat pengiriman, panjang pipa, posisi outdoor, serta kebutuhan pemasangan tambahan.",
+    ],
+  ];
 
   return (
     <main className="bg-white">
       <section className="relative overflow-hidden bg-slate-950 text-white">
-        <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_left,rgba(56,189,248,0.24),transparent_34%),radial-gradient(circle_at_bottom_right,rgba(34,197,94,0.16),transparent_30%)]" />
-        <div className="relative mx-auto grid max-w-7xl gap-12 px-6 py-20 lg:grid-cols-[1.05fr_0.95fr] lg:px-8 lg:py-24">
+        <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_left,rgba(56,189,248,0.24),transparent_34%),radial-gradient(circle_at_bottom_right,rgba(37,211,102,0.18),transparent_30%)]" />
+        <div className="relative mx-auto grid max-w-7xl gap-12 px-4 py-16 sm:px-6 lg:grid-cols-[1.02fr_0.98fr] lg:px-8 lg:py-24">
           <div>
             <Link
               href={routes.jualAc}
@@ -96,7 +126,7 @@ export default async function AreaPage({ params }) {
               ← Kembali ke Jual AC
             </Link>
 
-            <p className="mt-8 inline-flex rounded-full border border-white/20 bg-white/10 px-4 py-2 text-xs font-black uppercase tracking-[0.24em] text-cyan-100">
+            <p className="mt-8 inline-flex rounded-full border border-white/20 bg-white/10 px-4 py-2 text-xs font-black uppercase tracking-[0.22em] text-cyan-100">
               {item.eyebrow}
             </p>
 
@@ -108,18 +138,24 @@ export default async function AreaPage({ params }) {
               {item.intro}
             </p>
 
-            <div className="mt-9 flex flex-col gap-3 sm:flex-row">
+            <div className="mt-9 flex flex-col gap-3 sm:flex-row sm:flex-wrap">
               <WhatsappLink
-                className="inline-flex items-center justify-center rounded-full bg-cyan-300 px-7 py-4 text-sm font-black text-slate-950 transition hover:bg-cyan-200"
+                className="inline-flex w-full items-center justify-center rounded-full bg-[#25D366] px-7 py-4 text-sm font-black text-slate-950 shadow-[0_18px_42px_rgba(37,211,102,0.22)] transition hover:-translate-y-0.5 hover:bg-[#20BA5A] sm:w-auto"
                 source={item.label}
                 intent={item.waIntent}
                 area={item.waArea}
               >
-                {item.ctaLabel ?? `Chat WA untuk AC ${item.areaName}`}
+                {item.ctaLabel ?? `Chat WhatsApp untuk AC ${item.areaName}`}
               </WhatsappLink>
               <Link
+                href={routes.kalkulatorPkAc}
+                className="inline-flex w-full items-center justify-center rounded-full border border-white/25 px-7 py-4 text-sm font-black text-white transition hover:bg-white/10 sm:w-auto"
+              >
+                Hitung PK Dulu
+              </Link>
+              <Link
                 href={routes.katalog}
-                className="inline-flex items-center justify-center rounded-full border border-white/25 px-7 py-4 text-sm font-black text-white transition hover:bg-white/10"
+                className="inline-flex w-full items-center justify-center rounded-full border border-white/25 bg-white/10 px-7 py-4 text-sm font-black text-white transition hover:bg-white/15 sm:w-auto"
               >
                 Lihat Katalog AC
               </Link>
@@ -128,8 +164,8 @@ export default async function AreaPage({ params }) {
             <div className="mt-10 grid gap-4 sm:grid-cols-3">
               {[
                 ["Area", item.areaName],
-                ["Fokus", "Cek PK & stok"],
-                ["Opsi", "Pengiriman & pemasangan"],
+                ["Fokus", "PK, stok & brand"],
+                ["Brief WA", "Ukuran + daya + unit"],
               ].map(([label, value]) => (
                 <div key={label} className="rounded-3xl border border-white/10 bg-white/10 p-5">
                   <p className="text-xs font-black uppercase tracking-[0.2em] text-cyan-100">{label}</p>
@@ -139,38 +175,43 @@ export default async function AreaPage({ params }) {
             </div>
           </div>
 
-          <div className="relative">
+          <div className="relative lg:pt-4">
             <div className="overflow-hidden rounded-[2rem] border border-white/10 bg-white/10 p-3 shadow-2xl">
               <Image
                 src="/photos/showroom/showroom-multibrand-radja-ac-purwokerto-01.webp"
                 alt={`Showroom RADJA AC untuk konsultasi jual AC ${item.areaName}`}
                 width={900}
                 height={1100}
-                className="h-[520px] w-full rounded-[1.5rem] object-cover"
+                className="h-[430px] w-full rounded-[1.5rem] object-cover sm:h-[520px]"
                 priority
               />
             </div>
-            <div className="absolute -bottom-6 left-6 right-6 rounded-3xl border border-white/10 bg-white p-6 text-slate-950 shadow-2xl">
+            <div className="relative -mt-12 mx-4 rounded-3xl border border-white/10 bg-white p-6 text-slate-950 shadow-2xl sm:mx-6">
               <p className="text-xs font-black uppercase tracking-[0.22em] text-slate-500">
                 Sebelum order
               </p>
-              <p className="mt-2 text-2xl font-black">Cek ruangan, daya listrik, brand, dan stok</p>
-              <p className="mt-2 text-sm leading-6 text-slate-600">
-                Admin bantu arahkan pilihan AC untuk pembelian satuan, kantor, hotel, proyek, sampai kebutuhan banyak unit.
-              </p>
+              <p className="mt-2 text-2xl font-black">Kirim brief, baru admin cek opsi AC</p>
+              <div className="mt-4 grid gap-2">
+                {briefFields.map((field) => (
+                  <p key={field} className="flex gap-2 text-sm font-bold leading-6 text-slate-700">
+                    <span className="text-[#25D366]">✓</span>
+                    {field}
+                  </p>
+                ))}
+              </div>
             </div>
           </div>
         </div>
       </section>
 
-      <section className="mx-auto max-w-7xl px-6 py-20 lg:px-8">
+      <section className="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8 lg:py-20">
         <div className="grid gap-12 lg:grid-cols-[0.85fr_1.15fr]">
           <div>
             <p className="text-sm font-black uppercase tracking-[0.22em] text-cyan-700">
               Kebutuhan area
             </p>
             <h2 className="mt-4 text-3xl font-black tracking-tight text-slate-950 sm:text-4xl">
-              Kebutuhan AC di {item.areaName} bisa berbeda antara rumah, kost, toko, kantor, usaha, dan proyek.
+              Kebutuhan AC di {item.areaName} tidak cukup dijawab dengan harga unit saja.
             </h2>
             <p className="mt-5 text-base leading-8 text-slate-600">
               {item.localContext}
@@ -188,23 +229,31 @@ export default async function AreaPage({ params }) {
       </section>
 
       <section className="bg-slate-50">
-        <div className="mx-auto max-w-7xl px-6 py-20 lg:px-8">
+        <div className="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8 lg:py-20">
           <div className="grid gap-12 lg:grid-cols-[1fr_1fr]">
             <div>
               <p className="text-sm font-black uppercase tracking-[0.22em] text-cyan-700">
                 Yang dicek sebelum pembelian
               </p>
               <h2 className="mt-4 text-3xl font-black tracking-tight text-slate-950 sm:text-4xl">
-                Lebih aman konsultasi dulu sebelum menentukan unit.
+                Chat WhatsApp sebaiknya langsung membawa data yang bisa dicek admin.
               </h2>
               <p className="mt-5 text-base leading-8 text-slate-600">
                 {item.coverageNote}
               </p>
+              <WhatsappLink
+                className="mt-8 inline-flex rounded-full bg-[#25D366] px-6 py-4 text-sm font-black text-slate-950 transition hover:bg-[#20BA5A]"
+                source={`${item.label} - Brief Section`}
+                intent={item.waIntent}
+                area={item.waArea}
+              >
+                Kirim Brief via WhatsApp
+              </WhatsappLink>
             </div>
 
             <div className="space-y-4">
               {item.buyingChecks.map((point, index) => (
-                <div key={point} className="flex gap-5 rounded-3xl border border-slate-200 bg-white p-6">
+                <div key={point} className="flex gap-5 rounded-3xl border border-slate-200 bg-white p-6 shadow-sm">
                   <div className="flex h-11 w-11 shrink-0 items-center justify-center rounded-full bg-slate-950 text-sm font-black text-white">
                     {index + 1}
                   </div>
@@ -216,7 +265,7 @@ export default async function AreaPage({ params }) {
         </div>
       </section>
 
-      <section className="mx-auto max-w-7xl px-6 py-20 lg:px-8">
+      <section className="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8 lg:py-20">
         <div className="grid gap-12 lg:grid-cols-[0.8fr_1.2fr]">
           <div>
             <p className="text-sm font-black uppercase tracking-[0.22em] text-cyan-700">
@@ -250,7 +299,7 @@ export default async function AreaPage({ params }) {
       </section>
 
       <section className="bg-slate-950 text-white">
-        <div className="mx-auto max-w-7xl px-6 py-20 lg:px-8">
+        <div className="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8 lg:py-20">
           <div className="grid gap-12 lg:grid-cols-[0.9fr_1.1fr]">
             <div>
               <p className="text-sm font-black uppercase tracking-[0.22em] text-cyan-200">
@@ -260,8 +309,8 @@ export default async function AreaPage({ params }) {
                 Ada dokumentasi showroom, stok, dan pengiriman RADJA AC.
               </h2>
               <p className="mt-5 text-base leading-8 text-slate-300">
-                Calon pembeli bisa melihat bukti aktivitas sebelum konsultasi:
-                display AC, gudang stok, persiapan pengiriman, pengadaan banyak unit, material, dan dokumentasi lapangan.
+                Calon pembeli bisa melihat bukti aktivitas sebelum konsultasi: display AC, gudang stok,
+                persiapan pengiriman, pengadaan banyak unit, material, dan dokumentasi lapangan.
               </p>
               <Link
                 href={routes.buktiPengirimanProyek}
@@ -288,14 +337,14 @@ export default async function AreaPage({ params }) {
         </div>
       </section>
 
-      <section className="mx-auto max-w-7xl px-6 py-20 lg:px-8">
+      <section className="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8 lg:py-20">
         <div className="grid gap-12 lg:grid-cols-[1fr_1fr]">
           <div>
             <p className="text-sm font-black uppercase tracking-[0.22em] text-cyan-700">
               Brand & halaman terkait
             </p>
             <h2 className="mt-4 text-3xl font-black tracking-tight text-slate-950 sm:text-4xl">
-              Mulai dari area, brand, atau kebutuhan AC.
+              Mulai dari area, brand, kategori, atau kebutuhan AC.
             </h2>
             <p className="mt-5 text-base leading-8 text-slate-600">
               Jika belum yakin, mulai dari konsultasi. Jika sudah punya preferensi,
@@ -345,7 +394,29 @@ export default async function AreaPage({ params }) {
         </div>
       </section>
 
-      <section className="mx-auto max-w-7xl px-6 pb-20 lg:px-8">
+      <section className="bg-slate-50">
+        <div className="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8 lg:py-20">
+          <div className="mx-auto max-w-3xl text-center">
+            <p className="text-sm font-black uppercase tracking-[0.22em] text-cyan-700">
+              FAQ Jual AC {item.areaName}
+            </p>
+            <h2 className="mt-4 text-3xl font-black tracking-tight text-slate-950 sm:text-4xl">
+              Pertanyaan yang sering muncul sebelum chat admin.
+            </h2>
+          </div>
+
+          <div className="mx-auto mt-10 grid max-w-4xl gap-4">
+            {faqItems.map(([question, answer]) => (
+              <div key={question} className="rounded-3xl border border-slate-200 bg-white p-6 shadow-sm">
+                <h3 className="text-lg font-black text-slate-950">{question}</h3>
+                <p className="mt-3 text-sm leading-7 text-slate-600">{answer}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      <section className="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8 lg:py-20">
         <div className="grid gap-8 rounded-[2rem] border border-slate-200 bg-white p-8 shadow-xl lg:grid-cols-[0.9fr_1.1fr] lg:p-10">
           <div>
             <p className="text-sm font-black uppercase tracking-[0.22em] text-cyan-700">
@@ -370,7 +441,7 @@ export default async function AreaPage({ params }) {
         </div>
       </section>
 
-      <section className="mx-auto max-w-4xl px-6 pb-20 text-center lg:px-8">
+      <section className="mx-auto max-w-4xl px-4 pb-20 text-center sm:px-6 lg:px-8">
         <div className="rounded-[2rem] bg-slate-950 p-8 text-white sm:p-10">
           <p className="text-sm font-black uppercase tracking-[0.22em] text-cyan-200">
             Konsultasi AC {item.areaName}
@@ -379,12 +450,12 @@ export default async function AreaPage({ params }) {
             Mau cek AC untuk area {item.areaName}?
           </h2>
           <p className="mx-auto mt-5 max-w-2xl text-base leading-8 text-slate-300">
-            Kirim ukuran ruangan, lokasi, daya listrik, kebutuhan unit, dan brand yang diminati.
-            Admin RADJA AC bantu cek opsi yang masuk akal.
+            Kirim ukuran ruangan, lokasi, daya listrik, jumlah unit, brand yang diminati,
+            dan apakah butuh pemasangan. Admin RADJA AC bantu cek opsi yang masuk akal.
           </p>
           <div className="mt-8 flex flex-col justify-center gap-3 sm:flex-row">
             <WhatsappLink
-              className="inline-flex items-center justify-center rounded-full bg-cyan-300 px-7 py-4 text-sm font-black text-slate-950 transition hover:bg-cyan-200"
+              className="inline-flex items-center justify-center rounded-full bg-[#25D366] px-7 py-4 text-sm font-black text-slate-950 transition hover:bg-[#20BA5A]"
               source={item.label}
               intent={item.waIntent}
               area={item.waArea}
