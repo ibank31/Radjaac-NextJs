@@ -34,7 +34,7 @@ export const staticPageMetadata = {
   pengadaanAc: {
     title: "Supplier AC Partai Besar | Proyek, Hotel, Kost & Gedung — RADJA AC",
     description:
-      "RADJA AC membantu pengadaan AC banyak unit untuk proyek, hotel, guest house, kost, kantor, ruko, gedung, kontraktor, dan developer. Cek kebutuhan PK, stok, pengiriman, dan opsi pemasangan.",
+      "RADJA AC membantu pengadaan AC banyak unit hingga kebutuhan ratusan unit untuk proyek, hotel, guest house, kost, kantor, ruko, gedung, kontraktor, dan developer. Cek PK, stok, pengiriman, opsi pemasangan fleksibel, garansi pemasangan 1 bulan, dan bantuan klaim unit sesuai ketentuan brand.",
     path: routes.pengadaanAc,
   },
 
@@ -49,14 +49,14 @@ export const staticPageMetadata = {
   pengirimanPemasangan: {
     title: "Pengiriman & Pemasangan AC Baru | RADJA AC",
     description:
-      "Informasi pengiriman unit AC baru dan opsi pemasangan dari RADJA AC. Konsultasikan pilihan unit, kebutuhan PK, alamat pengiriman, dan kondisi lokasi sebelum deal.",
+      "Informasi pengiriman unit AC baru, opsi pemasangan fleksibel, garansi pemasangan 1 bulan, dan bantuan klaim unit dari RADJA AC. Konsultasikan pilihan unit, kebutuhan PK, alamat pengiriman, dan kondisi lokasi sebelum deal.",
     path: routes.pengirimanPemasangan,
   },
 
   tentangKami: {
     title: "Tentang RADJA AC | Showroom Banyumas, Stok AC & Konsultasi PK",
     description:
-      "Profil RADJA AC sebagai penyedia AC original multi-brand berbasis di Pamijen, Sokaraja, Banyumas. Melayani konsultasi PK, cek stok, pengiriman unit, dan opsi pemasangan.",
+      "Profil RADJA AC sebagai penyedia AC original multi-brand berbasis di Pamijen, Sokaraja, Banyumas. Melayani pembelian satuan hingga pengadaan ratusan unit, konsultasi PK, cek stok, pengiriman unit, opsi pemasangan fleksibel, dan bantuan klaim unit sesuai ketentuan brand.",
     path: routes.tentangKami,
   },
 

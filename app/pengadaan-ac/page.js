@@ -31,7 +31,7 @@ const fitItems = [
   "Kantor, ruko, toko, showroom, klinik, dan ruang usaha",
   "Hotel, guest house, homestay, villa, kost, dan apartemen",
   "Kontraktor, developer, proyek bangunan, dan kebutuhan banyak titik",
-  "Pembelian banyak unit, termasuk kebutuhan besar hingga 100 unit sesuai stok, jadwal, area, dan koordinasi admin",
+  "Pembelian satuan hingga pengadaan ratusan unit sesuai stok, timeline, area pengiriman, dan koordinasi admin",
 ];
 
 const briefItems = [
@@ -59,12 +59,12 @@ export default function PengadaanAcPage() {
               Pengadaan AC Proyek
             </p>
             <h1 className="mt-5 max-w-4xl text-4xl font-black tracking-tight text-white md:text-6xl">
-              Supplier AC banyak unit untuk hotel, kantor, properti, dan proyek.
+              Supplier AC banyak unit hingga pengadaan ratusan unit untuk hotel, kantor, properti, dan proyek.
             </h1>
             <p className="mt-6 max-w-3xl text-base leading-8 text-white/70 sm:text-lg">
               RADJA AC membantu koordinasi pembelian AC original multi-brand untuk kebutuhan
               proyek dan ruang komersial: cek kebutuhan PK, pilihan brand, ketersediaan stok,
-              pengiriman unit, dan opsi pemasangan sesuai brief.
+              pengiriman unit, opsi pemasangan fleksibel, garansi pemasangan 1 bulan, dan bantuan klaim unit sesuai ketentuan brand.
             </p>
 
             <div className="mt-8 flex flex-col gap-3 sm:flex-row sm:flex-wrap">

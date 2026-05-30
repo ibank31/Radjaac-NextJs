@@ -12,7 +12,7 @@ const values = [
   "Fokus pada penjualan AC original multi-brand.",
   "Admin membantu cek kebutuhan PK, daya listrik, pilihan brand, stok, pengiriman, dan opsi pemasangan.",
   "Informasi stok, harga, pengiriman, dan pemasangan dikonfirmasi sebelum pembelian.",
-  "Pengadaan banyak unit bisa dibicarakan sesuai kebutuhan proyek, lokasi, jumlah unit, dan jadwal.",
+  "Pembelian satuan hingga pengadaan ratusan unit bisa dibicarakan sesuai kebutuhan proyek, lokasi, jumlah unit, stok, dan jadwal.",
 ];
 
 const mainLinks = [
@@ -38,7 +38,7 @@ export default function TentangKamiPage() {
         <p className="mt-6 max-w-3xl text-lg leading-8 text-white/70">
           {siteConfig.name} berbasis di {siteConfig.businessBase}. Fokus utama kami adalah membantu pembeli
           memilih AC yang sesuai untuk rumah, kost, toko, kantor, hotel, dan proyek melalui konsultasi PK,
-          cek stok, pengiriman unit, opsi pemasangan, dan pengadaan banyak unit.
+          cek stok, pengiriman unit, opsi pemasangan fleksibel, pembelian satuan hingga pengadaan ratusan unit, garansi pemasangan 1 bulan, dan bantuan klaim unit sesuai ketentuan brand.
         </p>
 
         <div className="mt-8 flex flex-col gap-3 sm:flex-row">

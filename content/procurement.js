@@ -7,11 +7,11 @@ export const procurementItems = [
     label: "Kost & Apartemen",
     title: "Pengadaan AC Kost & Apartemen | Cek PK, Stok, Pengiriman & Pemasangan",
     description:
-      "Pengadaan AC untuk kost, apartemen, kontrakan, dan hunian banyak kamar. RADJA AC bantu cek kebutuhan PK per ruangan, brand, stok, pengiriman, opsi pemasangan, dan bantuan klaim sesuai ketentuan brand.",
+      "Pengadaan AC untuk kost, apartemen, kontrakan, dan hunian banyak kamar, dari pembelian bertahap sampai kebutuhan banyak unit. RADJA AC bantu cek PK per ruangan, brand, stok, pengiriman, opsi pemasangan fleksibel, garansi pemasangan 1 bulan, dan bantuan klaim unit sesuai ketentuan brand.",
     h1: "Pengadaan AC untuk kost, apartemen, dan hunian banyak kamar",
     eyebrow: "Pengadaan AC",
     intro:
-      "Kebutuhan AC untuk kost, apartemen, kontrakan, atau hunian banyak kamar perlu dihitung lebih rapi daripada pembelian satu unit. RADJA AC bantu cek kebutuhan PK per ruangan, pilihan brand, stok unit, pengiriman, dan opsi pemasangan yang bisa dibicarakan terlebih dahulu.",
+      "Kebutuhan AC untuk kost, apartemen, kontrakan, atau hunian banyak kamar perlu dihitung lebih rapi daripada pembelian satu unit. RADJA AC bantu cek kebutuhan PK per ruangan, pilihan brand, stok unit, pengiriman, dan opsi pemasangan fleksibel yang bisa dibicarakan terlebih dahulu.",
     segmentContext:
       "Untuk kost dan apartemen, kebutuhan tiap kamar bisa berbeda tergantung ukuran ruangan, arah panas, jumlah penghuni, daya listrik, dan target budget. Admin membantu menyusun opsi agar pembelian banyak unit lebih jelas sebelum deal.",
     coordinationNote:
@@ -45,11 +45,11 @@ export const procurementItems = [
     label: "Hotel & Guest House",
     title: "Pengadaan AC Hotel & Guest House | Cek PK, Brand, Pengiriman & Pemasangan",
     description:
-      "Pengadaan AC untuk hotel, guest house, homestay, villa, dan penginapan. RADJA AC bantu cek kebutuhan PK, brand, stok, pengiriman, opsi pemasangan, dan bantuan klaim sesuai ketentuan brand.",
+      "Pengadaan AC untuk hotel, guest house, homestay, villa, dan penginapan, termasuk kebutuhan banyak kamar. RADJA AC bantu cek PK, brand, stok, pengiriman, opsi pemasangan fleksibel, garansi pemasangan 1 bulan, dan bantuan klaim unit sesuai ketentuan brand.",
     h1: "Pengadaan AC untuk hotel, guest house, homestay, dan penginapan",
     eyebrow: "Pengadaan AC",
     intro:
-      "AC untuk hotel, guest house, homestay, atau villa harus mempertimbangkan kenyamanan tamu, ukuran kamar, durasi pemakaian, daya listrik, dan kesiapan unit. RADJA AC bantu cek kebutuhan PK, brand, stok, pengiriman, dan opsi pemasangan sebelum pembelian.",
+      "AC untuk hotel, guest house, homestay, atau villa harus mempertimbangkan kenyamanan tamu, ukuran kamar, durasi pemakaian, daya listrik, dan kesiapan unit. RADJA AC bantu cek kebutuhan PK, brand, stok, pengiriman, dan opsi pemasangan fleksibel sebelum pembelian.",
     segmentContext:
       "Kebutuhan penginapan biasanya bukan hanya soal jumlah unit, tapi juga konsistensi tipe, efisiensi listrik, kenyamanan kamar, dan koordinasi jadwal agar operasional tidak terganggu.",
     coordinationNote:
@@ -83,11 +83,11 @@ export const procurementItems = [
     label: "Kontraktor & Developer",
     title: "Pengadaan AC Kontraktor & Developer | Cek Kebutuhan Proyek AC",
     description:
-      "Pengadaan AC untuk kontraktor, developer, kantor proyek, ruko, klinik, dan kebutuhan banyak unit. RADJA AC bantu cek PK, brand, stok, pengiriman, opsi pemasangan, dan bantuan klaim sesuai ketentuan brand.",
+      "Pengadaan AC untuk kontraktor, developer, kantor proyek, ruko, klinik, dan kebutuhan banyak unit hingga ratusan unit. RADJA AC bantu cek PK, brand, stok, pengiriman, opsi pemasangan fleksibel, garansi pemasangan 1 bulan, dan bantuan klaim unit sesuai ketentuan brand.",
     h1: "Pengadaan AC untuk kontraktor, developer, dan kebutuhan proyek",
     eyebrow: "Pengadaan AC",
     intro:
-      "Untuk kontraktor, developer, dan kebutuhan proyek, pembelian AC perlu disiapkan dari jumlah unit, kapasitas PK, pilihan brand, ketersediaan stok, pengiriman, serta opsi pemasangan. RADJA AC bantu koordinasi kebutuhan awal sebelum pembelian.",
+      "Untuk kontraktor, developer, dan kebutuhan proyek, pembelian AC perlu disiapkan dari jumlah unit, kapasitas PK, pilihan brand, ketersediaan stok, pengiriman, serta opsi pemasangan fleksibel. RADJA AC bantu koordinasi kebutuhan awal sebelum pembelian.",
     segmentContext:
       "Kebutuhan proyek bisa mencakup rumah contoh, ruko, klinik, kantor, ruang usaha, atau beberapa titik pemasangan. Admin membantu menyusun kebutuhan berdasarkan ruangan, jumlah unit, jadwal, dan pilihan brand yang tersedia.",
     coordinationNote:

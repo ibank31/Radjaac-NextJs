@@ -11,11 +11,11 @@ const processSteps = [
   "Kirim kebutuhan ruangan, kota, dan brand yang diminati.",
   "Admin bantu cek stok, rekomendasi PK, dan opsi unit.",
   "Pengiriman unit dikonfirmasi berdasarkan alamat, jumlah unit, dan jadwal.",
-  "Opsi pemasangan dibicarakan terlebih dahulu sesuai area, titik pemasangan, dan kebutuhan teknis.",
+  "Opsi pemasangan fleksibel dibicarakan terlebih dahulu sesuai area, titik pemasangan, jumlah unit, dan kebutuhan teknis.",
 ];
 
 const notes = [
-  "Pengiriman dan opsi pemasangan tidak dibuat otomatis untuk semua lokasi; admin akan konfirmasi terlebih dahulu.",
+  "Pengiriman dan opsi pemasangan fleksibel dikonfirmasi terlebih dahulu sesuai lokasi, jumlah unit, jadwal, dan kondisi teknis.",
   "Untuk kebutuhan banyak unit atau proyek, koordinasi lokasi atau survey bisa dibicarakan sesuai kebutuhan, lokasi, jumlah unit, dan jadwal.",
   "Biaya, jadwal, akses lokasi, dan kebutuhan material tambahan harus dikonfirmasi sebelum deal.",
 ];
@@ -29,11 +29,11 @@ export default function PengirimanPemasanganPage() {
           Pengiriman & Pemasangan
         </p>
         <h1 className="mt-4 max-w-4xl text-4xl font-black tracking-tight text-white md:text-5xl">
-          Pengiriman unit dan opsi pemasangan AC yang dikonfirmasi admin
+          Pengiriman unit, opsi pemasangan fleksibel, dan garansi pemasangan AC
         </h1>
         <p className="mt-6 max-w-3xl text-lg leading-8 text-white/70">
           RADJA AC membantu pembelian AC original multi-brand dengan proses yang jelas: cek kebutuhan PK,
-          cek stok, konfirmasi alamat pengiriman, dan opsi pemasangan yang dibicarakan sebelum pembelian.
+          cek stok, konfirmasi alamat pengiriman, opsi pemasangan fleksibel, garansi pemasangan 1 bulan, dan bantuan klaim unit sesuai ketentuan brand.
         </p>
 
         <div className="mt-8 flex flex-col gap-3 sm:flex-row">
