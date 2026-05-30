@@ -73,13 +73,13 @@ export default function JualAcPage() {
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_left,rgba(56,189,248,0.24),transparent_34%),radial-gradient(circle_at_bottom_right,rgba(34,197,94,0.18),transparent_30%)]" />
         <div className="relative mx-auto grid max-w-7xl gap-12 px-6 py-20 lg:grid-cols-[1.05fr_0.95fr] lg:px-8 lg:py-24">
           <div>
-            <p className="inline-flex rounded-full border border-white/20 bg-white/10 px-4 py-2 text-xs font-black uppercase tracking-[0.24em] text-cyan-100">
+            <p className="inline-flex rounded-full border border-cyan-100 bg-white/80 px-4 py-2 text-xs font-black uppercase tracking-[0.24em] text-cyan-800 shadow-sm backdrop-blur">
               Jual AC Original Multi-Brand
             </p>
             <h1 className="mt-7 max-w-4xl text-4xl font-black tracking-tight sm:text-5xl lg:text-6xl">
               Beli AC jangan cuma lihat harga. Cek PK, stok, daya listrik, dan opsi pemasangan dulu.
             </h1>
-            <p className="mt-6 max-w-2xl text-base leading-8 text-slate-200 sm:text-lg">
+            <p className="mt-6 max-w-2xl text-base leading-8 text-slate-600 sm:text-lg">
               RADJA AC membantu pembelian AC original multi-brand untuk rumah, kost, toko,
               kantor, hotel, proyek, dan pengadaan banyak unit. Admin bantu cek kebutuhan PK, pilihan brand,
               stok unit, area pengiriman, dan opsi pemasangan sebelum Anda deal.
@@ -87,7 +87,7 @@ export default function JualAcPage() {
 
             <div className="mt-9 flex flex-col gap-3 sm:flex-row">
               <WhatsappLink
-                className="inline-flex items-center justify-center rounded-full bg-cyan-300 px-7 py-4 text-sm font-black text-slate-950 transition hover:bg-cyan-200"
+                className="inline-flex items-center justify-center rounded-full bg-[#25D366] px-7 py-4 text-sm font-black text-slate-950 shadow-[0_18px_42px_rgba(37,211,102,0.20)] transition hover:-translate-y-0.5 hover:bg-[#20BA5A]"
                 source="Halaman Jual AC"
                 intent="konsultasi pembelian AC original multi-brand, cek PK, stok, pengiriman, dan opsi pemasangan"
               >
@@ -95,7 +95,7 @@ export default function JualAcPage() {
               </WhatsappLink>
               <Link
                 href={routes.katalog}
-                className="inline-flex items-center justify-center rounded-full border border-white/25 px-7 py-4 text-sm font-black text-white transition hover:bg-white/10"
+                className="inline-flex items-center justify-center rounded-full border border-slate-200 bg-white px-7 py-4 text-sm font-black text-slate-900 shadow-sm transition hover:bg-slate-50"
               >
                 Lihat Katalog AC
               </Link>
