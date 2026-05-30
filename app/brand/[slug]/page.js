@@ -84,6 +84,12 @@ export default async function BrandDetailPage({ params }) {
 
   const relatedBrands = brandItems.filter((brandItem) => brandItem.slug !== item.slug);
   const heroImage = heroImages[item.slug] ?? heroImages.default;
+  const secondaryImage = item.slug === "ariston"
+    ? "/photos/delivery/pengiriman-ac-ariston.webp"
+    : "/photos/showroom/showroom-multibrand-radja-ac-purwokerto-01.webp";
+  const secondaryImageAlt = item.slug === "ariston"
+    ? "Pengiriman AC Ariston dan stok unit di RADJA AC"
+    : "Showroom RADJA AC dan stok unit AC multi-brand";
   const isGree = item.slug === "gree";
   const chips = isGree
     ? ["Proshop Gree", "Cek stok dulu", "Standard / low watt / inverter", "Bantu klaim sesuai ketentuan"]
@@ -198,8 +204,8 @@ export default async function BrandDetailPage({ params }) {
 
           <div className="overflow-hidden rounded-[1.7rem] border border-slate-200 bg-white p-3 shadow-[0_22px_60px_rgba(15,39,66,0.10)]">
             <Image
-              src="/photos/showroom/showroom-multibrand-radja-ac-purwokerto-01.webp"
-              alt="Showroom RADJA AC dan stok unit AC multi-brand"
+              src={secondaryImage}
+              alt={secondaryImageAlt}
               width={900}
               height={640}
               className="w-full rounded-[1.35rem] object-cover"
