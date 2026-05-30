@@ -10,10 +10,10 @@ import WhatsappLink from "@/components/ui/WhatsappLink";
 export const dynamicParams = false;
 
 const heroImages = {
-  gree: "/photos/showroom/display-gree-residential-ac-radja-ac.webp",
-  daikin: "/photos/brand-proof/daikin-daikin-showcase.webp",
+  gree: "/photos/showroom/display-gree-new.webp",
+  daikin: "/photos/showroom/display-daikin-new.webp",
   midea: "/photos/brand-proof/midea-midea-showcase.webp",
-  hisense: "/photos/brand-proof/hisense-showcase-hisense.webp",
+  hisense: "/photos/showroom/display-hisense-new.webp",
   sansui: "/photos/brand-proof/sansui-sansui-showcase.webp",
   samsung: "/photos/product-display/samsung-samsung-inverter.webp",
   sharp: "/photos/product-display/sharp-ac-sharp-bey.webp",
