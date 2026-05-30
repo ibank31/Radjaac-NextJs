@@ -188,7 +188,7 @@ export default function HeaderClient() {
               RADJA AC
             </span>
             <span className="text-xs font-medium text-slate-500">
-              Dealer AC Original Multi-Brand
+              AC Original untuk Rumah, Usaha & Proyek
             </span>
           </span>
         </Link>

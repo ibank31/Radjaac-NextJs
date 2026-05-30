@@ -206,7 +206,7 @@ function HomeHero() {
         <div>
           <div className="mb-5 inline-flex items-center gap-2 rounded-full border border-cyan-200 bg-white px-4 py-2 text-xs font-black uppercase tracking-[0.16em] text-cyan-800 shadow-sm">
             <span className="h-2 w-2 rounded-full bg-cyan-500" />
-            Dealer AC Multi-Brand — Stok, Pengiriman & Pemasangan
+            Cek Stok, Konsultasi PK, Pengiriman & Opsi Pemasangan
           </div>
 
           <h1 className="max-w-3xl text-4xl font-black tracking-tight text-slate-950 sm:text-5xl lg:text-6xl">
@@ -257,7 +257,7 @@ function HomeHero() {
           <div className="relative overflow-hidden rounded-[2.25rem] border border-slate-200 bg-white p-2 shadow-[0_28px_80px_rgba(15,39,66,0.14)]">
             <Image
               src="/photos/showroom/showroom-multibrand-radja-ac-purwokerto-01.webp"
-              alt="Showroom RADJA AC — dealer AC original multi-brand untuk rumah, bisnis, dan proyek"
+              alt="Showroom RADJA AC — AC original multi-brand untuk rumah, usaha, dan proyek"
               width={900}
               height={720}
               priority
