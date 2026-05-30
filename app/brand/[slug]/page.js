@@ -214,6 +214,70 @@ export default async function BrandDetailPage({ params }) {
         </div>
       </section>
 
+
+      {isGree ? (
+        <section className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8 lg:py-14">
+          <div className="overflow-hidden rounded-[1.8rem] border border-cyan-100 bg-white shadow-[0_22px_70px_rgba(15,39,66,0.10)]">
+            <div className="grid gap-0 lg:grid-cols-[0.95fr_1.05fr] lg:items-stretch">
+              <div className="p-6 sm:p-8 lg:p-10">
+                <div className="mb-4 inline-flex rounded-full border border-cyan-100 bg-cyan-50 px-4 py-2 text-xs font-black uppercase tracking-[0.2em] text-cyan-800">
+                  Proshop Gree
+                </div>
+
+                <h2 className="max-w-2xl text-3xl font-black leading-tight tracking-[-0.03em] text-slate-950 sm:text-4xl lg:text-5xl">
+                  RADJA AC sebagai Proshop Gree untuk cek stok dan konsultasi AC Gree
+                </h2>
+
+                <p className="mt-5 max-w-2xl text-sm leading-7 text-slate-600 sm:text-base">
+                  RADJA AC memiliki dukungan Proshop Gree. Untuk pembelian AC Gree, admin membantu cek pilihan
+                  standard, low watt, inverter, kapasitas PK, stok unit, pengiriman, opsi pemasangan, dan alur
+                  bantuan klaim sesuai ketentuan brand.
+                </p>
+
+                <div className="mt-6 grid gap-3 sm:grid-cols-2">
+                  {[
+                    "Cek stok Gree sebelum deal",
+                    "Pilihan standard, low watt, dan inverter",
+                    "Konsultasi PK sesuai ukuran ruangan",
+                    "Garansi unit mengikuti ketentuan Gree",
+                  ].map((point) => (
+                    <div key={point} className="rounded-2xl border border-slate-200 bg-slate-50 px-4 py-3 text-sm font-bold text-slate-700">
+                      {point}
+                    </div>
+                  ))}
+                </div>
+
+                <div className="mt-6 rounded-2xl border border-amber-200 bg-amber-50 px-4 py-4 text-sm leading-7 text-amber-900">
+                  Status, tipe unit, harga, promo, ketersediaan stok, dan ketentuan garansi tetap dikonfirmasi
+                  admin mengikuti kondisi terbaru.
+                </div>
+
+                <div className="mt-6">
+                  <WhatsappLink
+                    className="inline-flex w-full items-center justify-center rounded-full bg-[#25D366] px-6 py-4 text-sm font-black text-slate-950 shadow-[0_14px_34px_rgba(37,211,102,0.20)] transition hover:-translate-y-0.5 hover:bg-[#20BA5A] sm:w-auto"
+                    source="Brand Gree Proshop Section"
+                    intent="cek stok dan konsultasi AC Gree melalui Proshop Gree"
+                    brand="Gree"
+                  >
+                    Cek Stok Gree via WhatsApp
+                  </WhatsappLink>
+                </div>
+              </div>
+
+              <div className="bg-cyan-50 p-3">
+                <Image
+                  src="/photos/showroom/showroom-gree-radja-ac-purwokerto-01.webp"
+                  alt="Showroom Proshop Gree RADJA AC"
+                  width={900}
+                  height={720}
+                  className="h-full min-h-[320px] w-full rounded-[1.45rem] object-cover"
+                />
+              </div>
+            </div>
+          </div>
+        </section>
+      ) : null}
+
       <section className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8 lg:py-14">
         <SectionTitle
           eyebrow="Garansi & Bantuan Klaim"
