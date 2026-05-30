@@ -62,7 +62,14 @@ function GoogleAnalyticsEvents() {
 
       window.gtag("event", "whatsapp_click", {
         event_category: "lead",
-        event_label: link.textContent?.trim() || "WhatsApp link",
+        event_label: link.dataset.waLabel || link.textContent?.trim() || "WhatsApp link",
+        wa_source: link.dataset.waSource || "Website RADJA AC",
+        wa_label: link.dataset.waLabel || link.textContent?.trim() || "WhatsApp link",
+        intent_type: link.dataset.intentType || "konsultasi beli AC",
+        city_target: link.dataset.cityTarget || "",
+        brand_target: link.dataset.brandTarget || "",
+        category_target: link.dataset.categoryTarget || "",
+        page_type: link.dataset.pageType || "unknown",
         link_hostname: url.hostname,
         link_pathname: url.pathname,
         page_path: window.location.pathname,
