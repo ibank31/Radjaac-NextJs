@@ -18,6 +18,7 @@ const heroImages = {
   samsung: "/photos/product-display/samsung-samsung-inverter.webp",
   sharp: "/photos/product-display/sharp-ac-sharp-bey.webp",
   panasonic: "/photos/showroom/showroom-multibrand-radja-ac-purwokerto-01.webp",
+  ariston: "/photos/showroom/display-ariston-new.webp",
   lainnya: "/photos/showroom/showroom-multibrand-radja-ac-purwokerto-01.webp",
   default: "/photos/showroom/showroom-multibrand-radja-ac-purwokerto-01.webp",
 };

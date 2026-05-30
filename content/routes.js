@@ -32,6 +32,7 @@ export const routes = {
   brandSharp: "/brand/sharp",
   brandSamsung: "/brand/samsung",
   brandPanasonic: "/brand/panasonic",
+  brandAriston: "/brand/ariston",
 
   pengadaanAc: "/pengadaan-ac",
   pengadaanKostApartemen: "/pengadaan-ac/kost-apartemen-skala-besar",
@@ -84,6 +85,7 @@ export const sitemapRoutes = [
   { path: routes.brandSharp, priority: 0.7 },
   { path: routes.brandSamsung, priority: 0.7 },
   { path: routes.brandPanasonic, priority: 0.7 },
+  { path: routes.brandAriston, priority: 0.7 },
 
   { path: routes.pengadaanAc, priority: 0.85 },
   { path: routes.pengadaanKostApartemen, priority: 0.75 },

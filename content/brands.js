@@ -170,6 +170,29 @@ export const brandItems = [
     waBrand: "Panasonic",
   },
   {
+    slug: "ariston",
+    path: routes.brandAriston,
+    name: "Ariston",
+    label: "AC Ariston",
+    title: "AC Ariston Original | Cek Stok, PK & Opsi Pemasangan — RADJA AC",
+    description:
+      "RADJA AC membantu cek pilihan AC Ariston original sesuai stok, kebutuhan ruangan, daya listrik, pengiriman, opsi pemasangan, dan garansi unit sesuai ketentuan brand.",
+    h1: "AC Ariston original untuk kenyamanan rumah, usaha, dan ruang kerja",
+    eyebrow: "Brand AC",
+    intro:
+      "Ariston dikenal dengan pendekatan home comfort. Untuk kategori AC, Ariston menghadirkan lini KIOS dengan fokus kenyamanan udara, distribusi angin, dan fitur pendukung kualitas udara. Admin RADJA AC bantu cek pilihan AC Ariston sesuai stok, kapasitas PK, daya listrik, budget, lokasi pengiriman, dan opsi pemasangan.",
+    trustNote:
+      "Foto display Ariston di showroom RADJA AC digunakan sebagai bukti visual produk dan konteks brand yang pernah ditampilkan. Stok, tipe, harga, fitur per model, garansi unit, pengiriman, dan opsi pemasangan tetap dikonfirmasi admin sebelum pembelian. Garansi unit mengikuti ketentuan brand.",
+    certificateHolder: "",
+    variants: ["Sesuai stok", "Standard", "Low watt", "Inverter"],
+    suitableFor: ["Rumah", "Kamar", "Kost", "Usaha", "Kantor", "Ruang kerja"],
+    highlightedNote:
+      "Beberapa fitur Ariston AC yang perlu dicek sesuai model antara lain Smart & 4D Swing, filter udara, Eco Mode, Golden Fin, dan fitur diagnostik. Ketersediaan fitur mengikuti tipe unit yang tersedia.",
+    ctaLabel: "Cek Stok AC Ariston",
+    waIntent: "cek stok dan konsultasi AC Ariston",
+    waBrand: "Ariston",
+  },
+  {
     slug: "lainnya",
     path: routes.brandLainnya,
     name: "Brand Lainnya",
@@ -187,7 +210,6 @@ export const brandItems = [
     variants: ["Standard", "Low watt", "Inverter", "Window", "Portable"],
     suitableFor: ["Rumah", "Kost", "Usaha", "Kantor", "Kebutuhan khusus"],
     otherBrands: [
-      "Ariston",
       "TCL",
       "Panasonic",
       "Sharp",

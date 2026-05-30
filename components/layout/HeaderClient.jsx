@@ -32,7 +32,7 @@ const navItems = [
       { label: "Hisense", href: routes.brandHisense },
       { label: "Sharp", href: routes.brandSharp },
       { label: "Samsung", href: routes.brandSamsung },
-      { label: "Panasonic", href: routes.brandPanasonic },
+      { label: "Ariston", href: routes.brandAriston },
       { label: "Brand Lainnya", href: routes.brandLainnya },
     ],
   },

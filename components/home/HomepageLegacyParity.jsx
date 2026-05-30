@@ -142,11 +142,17 @@ const mainBrands = [
     tagline: "Nyaman & efisien",
     logo: "/brand-logos/panasonic-logo.webp",
   },
+  {
+    name: "Ariston",
+    href: routes.brandAriston,
+    tagline: "Home comfort",
+    logo: "/brand-logos/ariston-logo.webp",
+  },
 ];
 
 const otherBrandRows = [
   ["LG", "Samsung", "Aqua", "Polytron"],
-  ["TCL", "Ariston", "Mitsubishi", "Toshiba"],
+  ["TCL", "Mitsubishi", "Toshiba"],
   ["Modena", "Bestlife", "Akari", "FLife", "Reiwa"],
 ];
 
@@ -576,7 +582,7 @@ function HomeBrands() {
         bantu arahkan sesuai ruangan dan listrik.
       </p>
 
-      <div className="mb-8 grid grid-cols-2 gap-4 md:grid-cols-4 lg:grid-cols-7">
+      <div className="mb-8 grid grid-cols-2 gap-4 md:grid-cols-4 lg:grid-cols-8">
         {mainBrands.map((brand) => (
           <Link
             key={brand.name}
