@@ -3,6 +3,7 @@ import { routes } from "@/content/routes";
 import { buildMetadata } from "@/lib/seo";
 import { staticPageMetadata } from "@/content/static-pages";
 import WhatsappLink from "@/components/ui/WhatsappLink";
+import PkCalculator from "@/components/calculator/PkCalculator";
 
 export const metadata = buildMetadata(staticPageMetadata.kalkulatorPkAc);
 
@@ -79,29 +80,8 @@ export default function KalkulatorPkAcPage() {
           </Link>
         </div>
 
-        <section className="mt-12 rounded-3xl border border-slate-200 p-6">
-          <h2 className="text-2xl font-black text-slate-950">Panduan awal dari kebutuhan ruangan</h2>
-          <p className="mt-3 max-w-3xl text-sm leading-6 text-slate-600">
-            Gunakan panduan ini sebagai titik awal, bukan keputusan final. Untuk hasil yang lebih aman,
-            kirim ukuran ruangan, daya listrik, dan kondisi ruangan ke admin RADJA AC.
-          </p>
-
-          <div className="mt-6 grid gap-4 md:grid-cols-2">
-            {roomGuides.map((guide) => (
-              <Link
-                key={guide.label}
-                href={guide.href}
-                className="rounded-3xl border border-slate-200 p-5 transition hover:bg-slate-50"
-              >
-                <p className="text-sm font-bold uppercase tracking-[0.18em] text-slate-500">
-                  {guide.label}
-                </p>
-                <h3 className="mt-3 text-xl font-black text-slate-950">{guide.recommendation}</h3>
-                <p className="mt-3 text-sm leading-6 text-slate-600">{guide.size}</p>
-                <p className="mt-5 text-sm font-black text-slate-950">{guide.cta} →</p>
-              </Link>
-            ))}
-          </div>
+        <section className="mt-12">
+          <PkCalculator />
         </section>
 
         <div className="mt-8 grid gap-6 lg:grid-cols-2">
