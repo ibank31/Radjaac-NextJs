@@ -57,6 +57,45 @@ const primaryLinks = [
   ["Kontak", routes.kontak],
 ];
 
+const areaPageLinkOverrides = {
+  "jual-ac-banyumas": [
+    ["Katalog AC", routes.katalog],
+    ["Kalkulator PK AC", routes.kalkulatorPkAc],
+    ["AC Split Rumah", routes.katalogAcSplitRumah],
+    ["AC Low Watt", routes.katalogAcLowWatt],
+    ["AC Gree", routes.brandGree],
+    ["Bukti Pengiriman & Proyek", routes.buktiPengirimanProyek],
+    ["Kontak RADJA AC", routes.kontak],
+  ],
+  "jual-ac-purbalingga": [
+    ["Kalkulator PK AC", routes.kalkulatorPkAc],
+    ["AC Split Rumah", routes.katalogAcSplitRumah],
+    ["AC Low Watt", routes.katalogAcLowWatt],
+    ["AC Inverter", routes.katalogAcInverter],
+    ["AC Gree", routes.brandGree],
+    ["AC Midea", routes.brandMidea],
+    ["Kontak RADJA AC", routes.kontak],
+  ],
+  "jual-ac-kebumen": [
+    ["Katalog AC", routes.katalog],
+    ["Kalkulator PK AC", routes.kalkulatorPkAc],
+    ["AC Split Rumah", routes.katalogAcSplitRumah],
+    ["AC Low Watt", routes.katalogAcLowWatt],
+    ["AC Daikin", routes.brandDaikin],
+    ["AC Gree", routes.brandGree],
+    ["Kontak RADJA AC", routes.kontak],
+  ],
+  "jual-ac-banjarnegara": [
+    ["Katalog AC", routes.katalog],
+    ["Kalkulator PK AC", routes.kalkulatorPkAc],
+    ["AC Low Watt", routes.katalogAcLowWatt],
+    ["AC Split Rumah", routes.katalogAcSplitRumah],
+    ["Bukti Pengiriman & Proyek", routes.buktiPengirimanProyek],
+    ["Pengadaan AC", routes.pengadaanAc],
+    ["Kontak RADJA AC", routes.kontak],
+  ],
+};
+
 function SectionTitle({ eyebrow, title, description }) {
   return (
     <div className="mx-auto mb-9 max-w-3xl text-center">
@@ -93,7 +132,7 @@ export default async function AreaPage({ params }) {
 
   const isPurwokerto = item.slug === "jual-ac-purwokerto";
   const relatedAreas = areaItems.filter((areaItem) => areaItem.slug !== item.slug).slice(0, 5);
-  const pageLinks = item.relatedLinks?.length ? item.relatedLinks : primaryLinks;
+  const pageLinks = areaPageLinkOverrides[item.slug] ?? (item.relatedLinks?.length ? item.relatedLinks : primaryLinks);
 
   const heroChips = isPurwokerto
     ? ["Showroom Pamijen", "Stok dicek hari ini", "Unit + pemasangan", "Mulai 3 jutaan"]
