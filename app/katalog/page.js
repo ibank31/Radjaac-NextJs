@@ -84,7 +84,7 @@ export default function KatalogPage() {
             </h1>
 
             <p className="mb-6 max-w-xl text-sm leading-7 text-slate-600 sm:text-base">
-              Kamar kecil, ruang keluarga, kost, toko, kantor, dan banyak unit punya hitungan berbeda. Kirim ukuran ruangan dan daya listrik; admin cek PK, stok, pengiriman, dan pemasangan sebelum harga dikunci.
+              Kamar kecil, ruang keluarga, kost, toko, kantor, dan banyak unit punya hitungan berbeda. Kirim ukuran ruangan dan daya listrik; admin cek PK, stok, pengiriman, dan pemasangan sebelum lanjut pembelian.
             </p>
 
             <div className="flex flex-col gap-3 sm:flex-row sm:flex-wrap">
@@ -132,7 +132,7 @@ export default function KatalogPage() {
 
       <section className="mx-auto max-w-7xl px-4 py-7 sm:px-6 lg:px-8 lg:py-10">
         <div className="rounded-[1.7rem] border border-slate-200 bg-white p-5 shadow-[0_18px_50px_rgba(15,39,66,0.08)] sm:p-6 lg:p-7">
-          <SectionTitle eyebrow="Estimasi Budget AC + Pasang" title="Pilih AC dari budget, PK, dan kondisi ruangan" description="Gunakan sebagai patokan awal. Angka akhir mengikuti tipe unit, stok, promo, alamat, dan kebutuhan pemasangan." />
+          <SectionTitle eyebrow="Estimasi Budget AC + Pasang" title="Pilih AC dari budget, PK, dan kondisi ruangan" description="Gunakan sebagai patokan awal. Admin cek angka dari tipe unit, stok, promo, alamat, dan kebutuhan pemasangan." />
 
           <div className="grid gap-3 md:grid-cols-3">
             {budgetPackages.map(([budget, note]) => (
