@@ -33,7 +33,7 @@ const contactReasons = [
   ],
   [
     "Biaya lebih jelas dari awal",
-    "Pengiriman, pipa, titik outdoor, dan opsi pemasangan dibahas sebelum deal agar tidak menggantung.",
+    "Pengiriman, pipa, titik outdoor, dan opsi pemasangan dibahas sejak awal agar tidak menggantung.",
   ],
 ];
 
@@ -194,7 +194,7 @@ export default function KontakPage() {
             Siap cek stok dan rekomendasi AC?
           </h2>
           <p className="mx-auto mb-7 max-w-2xl text-sm leading-7 text-slate-700">
-            Kirim ukuran ruangan, daya listrik, lokasi, jumlah unit, budget, dan brand yang diminati. Admin RADJA AC menyusun opsi yang masuk akal sebelum deal.
+            Kirim ukuran ruangan, daya listrik, lokasi, jumlah unit, budget, dan brand yang diminati. Admin RADJA AC menyusun opsi yang masuk akal sebelum pembelian.
           </p>
           <WhatsappLink
             className="inline-flex items-center justify-center rounded-full bg-[#25D366] px-6 py-4 font-black text-slate-950 shadow-[0_14px_34px_rgba(37,211,102,0.20)] transition hover:-translate-y-0.5 hover:bg-[#20BA5A]"
