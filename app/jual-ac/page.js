@@ -295,7 +295,7 @@ export default function JualAcPage() {
               <h2 className="mt-4 text-3xl font-black tracking-tight sm:text-4xl">
                 Showroom, stok, pengiriman, dan material pemasangan tersedia di dokumentasi.
               </h2>
-              <p className="mt-5 text-base leading-8 text-slate-300">
+              <p className="mt-5 text-base leading-8 text-slate-600">
                 Lihat dokumentasi RADJA AC sebelum konsultasi: display unit,
                 pengiriman, stok, material, dan aktivitas lapangan yang relevan.
               </p>
