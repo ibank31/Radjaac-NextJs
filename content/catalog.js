@@ -96,6 +96,102 @@ export const catalogItems = [
     waCategory: "AC 1/2 PK",
   },
   {
+    slug: "ac-1-pk",
+    path: routes.katalogAcSatuPk,
+    label: "AC 1 PK",
+    title: "AC 1 PK | Cek Stok, Inverter, Low Watt & Konsultasi PK",
+    description:
+      "Konsultasi AC 1 PK untuk kamar besar, ruang kerja, ruang tamu kecil, kost, dan toko kecil. Cek ukuran ruangan, daya listrik, pilihan inverter/low watt, stok, pengiriman, dan opsi pemasangan.",
+    h1: "AC 1 PK untuk kamar besar, ruang kerja, dan ruang tamu kecil",
+    eyebrow: "Katalog Kapasitas",
+    intro:
+      "AC 1 PK sering jadi pilihan saat 1/2 PK terasa kurang untuk kamar besar, ruang kerja, ruang tamu kecil, kost premium, atau toko kecil. Admin tetap membaca ukuran ruangan, tinggi plafon, paparan panas, daya listrik, dan pola pemakaian sebelum menyarankan unit.",
+    bestFor: [
+      "Kamar utama atau kamar besar",
+      "Ruang kerja pribadi",
+      "Ruang tamu kecil",
+      "Kost, kontrakan, atau toko kecil",
+    ],
+    concerns: [
+      "Apakah 1 PK sudah cukup atau justru perlu 1.5 PK",
+      "Daya listrik rumah dan beban perangkat lain",
+      "Pilihan standard, low watt, atau inverter",
+      "Stok brand dan kebutuhan pemasangan",
+    ],
+    useCases: [
+      ["Kamar besar", "Cocok jika kamar lebih luas dari kamar kecil standar dan pintu sering tertutup.", "Kirim ukuran ruang, tinggi plafon, dan posisi panas matahari."],
+      ["Ruang kerja", "Cocok untuk pemakaian lama dengan kebutuhan suhu stabil.", "Pertimbangkan inverter jika dipakai berjam-jam setiap hari."],
+      ["Toko kecil", "Cocok untuk area pelanggan yang tidak terlalu luas.", "Cek bukaan pintu dan jumlah orang yang sering keluar-masuk."],
+    ],
+    ctaLabel: "Cek Stok AC 1 PK",
+    waIntent: "cek stok AC 1 PK untuk kamar besar ruang kerja atau toko kecil",
+    waCategory: "AC 1 PK",
+  },
+  {
+    slug: "ac-1-5-pk",
+    path: routes.katalogAcSatuSetengahPk,
+    label: "AC 1.5 PK",
+    title: "AC 1.5 PK | Cek Stok untuk Ruang Keluarga, Kantor Kecil & Toko",
+    description:
+      "Konsultasi AC 1.5 PK untuk ruang keluarga, kantor kecil, cafe kecil, toko, dan ruangan sekitar 18–24 m². Cek daya listrik, brand, stok, pengiriman, dan opsi pemasangan.",
+    h1: "AC 1.5 PK untuk ruang keluarga, kantor kecil, cafe kecil, dan toko",
+    eyebrow: "Katalog Kapasitas",
+    intro:
+      "AC 1.5 PK cocok saat ruangan mulai lebih besar dari kamar biasa, misalnya ruang keluarga, kantor kecil, toko, atau cafe kecil. Pilihan akhir tetap perlu membaca luas ruang, tinggi plafon, bukaan pintu, jumlah orang, daya listrik, dan jam pemakaian.",
+    bestFor: [
+      "Ruang keluarga",
+      "Kantor kecil atau ruang meeting kecil",
+      "Toko, butik, atau area pelanggan",
+      "Cafe kecil dengan ruangan tertutup",
+    ],
+    concerns: [
+      "Daya listrik dan MCB cukup atau tidak",
+      "Noise dan kenyamanan untuk pemakaian lama",
+      "Apakah split 1.5 PK cukup atau perlu 2 PK",
+      "Pilihan brand, stok, dan pemasangan outdoor",
+    ],
+    useCases: [
+      ["Ruang keluarga", "Cocok untuk area harian yang lebih luas dari kamar tidur.", "Cek jumlah orang dan paparan panas siang."],
+      ["Kantor kecil", "Cocok untuk ruang kerja beberapa orang atau meeting room kecil.", "Kirim perkiraan jumlah orang dan jam operasional."],
+      ["Toko/cafe kecil", "Cocok untuk area pelanggan yang tertutup dan tidak terlalu sering terbuka.", "Cek bukaan pintu, panas lampu, dan jumlah pengunjung."],
+    ],
+    ctaLabel: "Cek Stok AC 1.5 PK",
+    waIntent: "cek stok AC 1.5 PK untuk ruang keluarga kantor kecil toko atau cafe kecil",
+    waCategory: "AC 1.5 PK",
+  },
+  {
+    slug: "ac-2-pk",
+    path: routes.katalogAcDuaPk,
+    label: "AC 2 PK",
+    title: "AC 2 PK | Cek Stok untuk Kantor, Ruko, Ruang Besar & Usaha",
+    description:
+      "Konsultasi AC 2 PK untuk ruang tamu besar, kantor, meeting room, ruko, toko, dan kebutuhan usaha. Cek daya listrik, tipe unit, stok, pengiriman, dan opsi pemasangan.",
+    h1: "AC 2 PK untuk kantor, ruko, ruang besar, dan kebutuhan usaha",
+    eyebrow: "Katalog Kapasitas",
+    intro:
+      "AC 2 PK mulai masuk kebutuhan ruangan besar dan usaha: ruang tamu besar, kantor, meeting room, ruko, toko, atau area pelanggan. Sebelum memilih unit, admin perlu mengecek daya listrik, ukuran ruangan, tinggi plafon, jumlah orang, posisi outdoor, dan kebutuhan pemasangan.",
+    bestFor: [
+      "Ruang tamu besar",
+      "Kantor dan meeting room",
+      "Ruko, toko, atau showroom kecil",
+      "Kebutuhan usaha dengan ruangan tertutup",
+    ],
+    concerns: [
+      "Daya listrik dan kebutuhan jalur listrik",
+      "Panjang pipa dan posisi outdoor",
+      "Apakah cukup split 2 PK atau perlu cassette/komersial",
+      "Budget unit, pemasangan, dan material tambahan",
+    ],
+    useCases: [
+      ["Ruang tamu besar", "Cocok jika ruangan lebih luas, banyak orang, atau sering dipakai siang hari.", "Cek tinggi plafon, bukaan, dan panas matahari."],
+      ["Kantor/meeting room", "Cocok untuk ruang kerja yang butuh suhu stabil.", "Kirim jumlah orang, jam operasional, dan ukuran ruang."],
+      ["Ruko/toko", "Cocok untuk area usaha tertutup dengan pelanggan.", "Cek pintu sering terbuka, lampu panas, dan lokasi outdoor."],
+    ],
+    ctaLabel: "Cek Stok AC 2 PK",
+    waIntent: "cek stok AC 2 PK untuk kantor ruko ruang besar atau usaha",
+    waCategory: "AC 2 PK",
+  },
+  {
     slug: "ac-split-rumah",
     path: routes.katalogAcSplitRumah,
     label: "AC Split Rumah",
