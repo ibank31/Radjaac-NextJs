@@ -451,7 +451,7 @@ export default async function BrandDetailPage({ params }) {
             intent={item.waIntent}
             brand={item.waBrand}
           >
-            Cek Stok & Harga Sekarang
+            Cek Unit Brand Ini
           </WhatsappLink>
         </div>
       </section>

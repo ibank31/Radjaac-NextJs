@@ -104,7 +104,7 @@ export default function JualAcPage() {
             <div className="mt-10 grid gap-4 sm:grid-cols-3">
               {[
                 ["Original", "Unit AC multi-brand berdasarkan stok aktif dan konfirmasi admin"],
-                ["Konsultasi PK", "Bantu cek ukuran ruangan, daya listrik, dan kebutuhan"],
+                ["Cek PK", "Kirim ukuran ruangan, daya listrik, dan pola pemakaian"],
                 ["Pengiriman", "Koordinasi unit, alamat, jadwal, dan opsi pemasangan"],
               ].map(([title, text]) => (
                 <div key={title} className="rounded-3xl border border-slate-200 bg-white/80 p-5 shadow-sm">
@@ -358,7 +358,7 @@ export default function JualAcPage() {
       <section className="mx-auto max-w-4xl px-6 pb-20 lg:px-8">
         <div className="rounded-[2rem] border border-slate-200 bg-white p-8 text-center shadow-xl sm:p-10">
           <p className="text-sm font-black uppercase tracking-[0.22em] text-cyan-700">
-            Konsultasi dulu
+            Kirim Ukuran Ruangan
           </p>
           <h2 className="mt-4 text-3xl font-black tracking-tight text-slate-950 sm:text-4xl">
             Butuh AC untuk rumah, kantor, hotel, atau proyek?
@@ -372,7 +372,7 @@ export default function JualAcPage() {
               source="Halaman Jual AC"
               intent="konsultasi memilih AC original multi-brand dari halaman jual AC"
             >
-              Chat Admin RADJA AC
+              Cek AC dari Data Ruangan
             </WhatsappLink>
             <Link
               href={routes.kontak}

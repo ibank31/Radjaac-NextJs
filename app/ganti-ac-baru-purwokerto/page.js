@@ -122,7 +122,7 @@ export default function GantiAcBaruPurwokertoPage() {
           <h2 className="text-2xl font-black">Mau diarahkan pilihan unit baru?</h2>
           <p className="mt-4 max-w-3xl text-sm leading-6 text-slate-600">
             Kirim kondisi singkat AC lama, ukuran ruangan, daya listrik, lokasi, budget, dan kebutuhan
-            unit saja atau sekalian opsi pemasangan. Admin RADJA AC bantu arahkan pilihan AC baru yang
+            unit saja atau sekalian opsi pemasangan. Admin RADJA AC cocokkan pilihan AC baru yang
             masuk akal sebelum Anda deal.
           </p>
           <div className="mt-6">
@@ -132,7 +132,7 @@ export default function GantiAcBaruPurwokertoPage() {
               intent="cek pilihan unit baru untuk mengganti AC lama di Purwokerto"
               area="Purwokerto"
             >
-              Chat Admin RADJA AC
+              Cek Pengganti AC Lama
             </WhatsappLink>
           </div>
         </section>

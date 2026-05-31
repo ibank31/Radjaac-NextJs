@@ -73,7 +73,7 @@ export default function Footer() {
             source="Footer"
             intent="cek stok, rekomendasi PK, dan opsi pengiriman AC"
           >
-            Chat Admin RADJA AC
+            Kirim Ukuran Ruangan
           </WhatsappLink>
         </div>
 

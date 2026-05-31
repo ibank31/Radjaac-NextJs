@@ -42,7 +42,7 @@ export default function ArtikelPage() {
             source="Artikel Index"
             intent="konsultasi setelah membaca panduan beli AC"
           >
-            Chat Admin RADJA AC
+            Kirim Ukuran Ruangan
           </WhatsappLink>
           <Link
             href={routes.kalkulatorPkAc}
@@ -144,14 +144,14 @@ export default function ArtikelPage() {
             Sudah baca? Lanjutkan dengan data ruangan
           </h2>
           <p className="mx-auto mb-7 max-w-2xl text-sm leading-7 text-slate-600">
-            Kirim ukuran ruangan, daya listrik, kota, budget, dan brand yang diminati. Admin RADJA AC bantu arahkan pilihan sebelum Anda deal.
+            Kirim ukuran ruangan, daya listrik, kota, budget, dan brand yang diminati. Admin RADJA AC cocokkan pilihan dari data itu.
           </p>
           <WhatsappLink
             className="inline-flex items-center justify-center rounded-full bg-[#25D366] px-6 py-4 font-bold text-slate-950 transition hover:bg-[#20BA5A]"
             source="Artikel Index - Final CTA"
             intent="konsultasi setelah membaca artikel RADJA AC"
           >
-            Chat Admin RADJA AC
+            Kirim Ukuran Ruangan
           </WhatsappLink>
         </div>
       </section>

@@ -447,7 +447,7 @@ function HomePaymentTrust() {
               Alur Pembelian Aman
             </p>
             <h2 className="mt-2 text-xl font-black text-slate-950">
-              Konsultasi dulu, stok dicek, detail dikonfirmasi admin.
+              Kirim ukuran ruangan, daya listrik, dan lokasi. Admin cek unit, budget, dan kebutuhan pemasangan.
             </h2>
           </div>
 
@@ -605,7 +605,7 @@ function HomeBrands() {
               {brand.tagline}
             </p>
             <div className="text-xs font-black text-cyan-700">
-              Cek Stok & Harga →
+              Cek Unit & Budget →
             </div>
           </Link>
         ))}
@@ -707,7 +707,7 @@ function HomeClosingCta() {
               source="Homepage Closing CTA"
               intent="konsultasi kebutuhan AC dari homepage"
             >
-              Chat Admin RADJA AC
+              Kirim Ukuran Ruangan
             </WhatsappLink>
 
             <div className="mt-4 grid grid-cols-1 gap-2 sm:grid-cols-2">

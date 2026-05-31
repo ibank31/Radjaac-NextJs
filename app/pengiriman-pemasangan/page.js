@@ -62,7 +62,7 @@ export default function PengirimanPemasanganPage() {
             source="Pengiriman & Pemasangan"
             intent="konsultasi pengiriman dan opsi pemasangan AC"
           >
-            Chat Admin RADJA AC
+            Cek Pemasangan dari Foto Lokasi
           </WhatsappLink>
           <Link
             href={routes.katalog}

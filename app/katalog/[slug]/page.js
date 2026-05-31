@@ -298,7 +298,7 @@ export default async function CatalogDetailPage({ params }) {
             Belum yakin kategori ini cocok?
           </h2>
           <p className="mx-auto mb-6 max-w-2xl leading-7 text-slate-700">
-            Kirim ukuran ruangan, daya listrik, kota, budget, dan kebutuhan unit saja atau sekalian pemasangan. Admin RADJA AC bantu arahkan pilihan AC yang paling masuk akal sebelum Anda deal.
+            Kirim ukuran ruangan, daya listrik, kota, budget, dan kebutuhan unit saja atau sekalian pemasangan. Admin RADJA AC cocokkan pilihan AC dari ukuran ruangan, daya listrik, budget, dan stok.
           </p>
           <WhatsappLink
             className="inline-flex items-center justify-center rounded-full bg-[#25D366] px-6 py-4 font-black text-slate-950 shadow-[0_14px_34px_rgba(37,211,102,0.20)] transition hover:-translate-y-0.5 hover:bg-[#20BA5A]"
@@ -306,7 +306,7 @@ export default async function CatalogDetailPage({ params }) {
             intent={item.waIntent}
             category={item.waCategory}
           >
-            Chat Admin RADJA AC
+            Kirim Data Ruangan
           </WhatsappLink>
         </div>
       </section>

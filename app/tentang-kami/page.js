@@ -47,7 +47,7 @@ export default function TentangKamiPage() {
             source="Tentang Kami"
             intent="konsultasi pembelian AC original multi-brand"
           >
-            Chat Admin RADJA AC
+            Konsultasi Pembelian AC
           </WhatsappLink>
           <Link
             href={routes.katalog}

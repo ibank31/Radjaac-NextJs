@@ -76,7 +76,7 @@ export default async function ProcurementDetailPage({ params }) {
               intent={item.waIntent}
               category={item.waProjectType}
             >
-              Chat Admin RADJA AC
+              Kirim Brief Pengadaan
             </WhatsappLink>
 
             <Link

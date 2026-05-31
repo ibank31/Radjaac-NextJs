@@ -481,7 +481,7 @@ export default function ProofGalleryClient() {
 
         <div className="mx-auto mt-10 max-w-3xl rounded-[28px] border border-cyan-200 bg-cyan-50 p-6 text-center shadow-sm">
           <h2 className="text-2xl font-black tracking-[-0.03em] text-slate-950">
-            Mau cek stok hari ini?
+            Mau cek unit dari stok aktif?
           </h2>
           <p className="mx-auto mt-3 max-w-2xl text-sm leading-7 text-slate-600">
             Kirim kebutuhan ruangan, jumlah unit, brand yang diminati, dan lokasi pengiriman. Admin mengarahkan
@@ -492,7 +492,7 @@ export default function ProofGalleryClient() {
             source="Bukti Pengiriman Closing"
             intent="cek stok setelah melihat gallery RADJA AC"
           >
-            Chat Admin RADJA AC
+            Cek Stok Setelah Lihat Bukti
           </WhatsappLink>
         </div>
       </section>
