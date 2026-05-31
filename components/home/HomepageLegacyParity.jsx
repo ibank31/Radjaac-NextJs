@@ -224,7 +224,7 @@ function HomeHero() {
           </h1>
 
           <p className="mt-5 max-w-2xl text-base leading-8 text-slate-600 sm:text-lg">
-            RADJA AC membantu pembelian AC original multi-brand untuk rumah, usaha, properti, dan proyek. Admin cek PK, stok, pengiriman, dan pemasangan sebelum Anda deal.
+            RADJA AC melayani pembelian AC original multi-brand untuk rumah, usaha, properti, dan proyek. Admin cek PK, stok, pengiriman, dan pemasangan sebelum pembelian.
           </p>
 
           <div className="mt-7 flex flex-col gap-3 sm:flex-row sm:flex-wrap">
@@ -651,7 +651,7 @@ function HomeWhyChoose() {
       <div className="mx-auto mb-10 max-w-3xl text-center">
         <SectionBadge>Cara Kami Kerja</SectionBadge>
         <h2 className="mt-4 text-3xl font-black tracking-tight text-slate-950 sm:text-4xl">
-          Stok dicek, PK dihitung, pasang dijelaskan — sebelum Anda deal
+          Stok dicek, PK dihitung, pasang dijelaskan — sebelum pembelian
         </h2>
         <p className="mx-auto mt-4 max-w-2xl text-sm leading-7 text-slate-600">
           Bukan soal promosi. Ini yang kami lakukan di setiap order — supaya tidak ada yang kaget di

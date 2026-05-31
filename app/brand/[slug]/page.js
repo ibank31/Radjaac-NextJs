@@ -123,7 +123,7 @@ export default async function BrandDetailPage({ params }) {
 
             <p className="mb-4 max-w-2xl text-sm leading-7 text-slate-600 sm:text-base">{item.intro}</p>
             <p className="mb-6 max-w-2xl text-sm leading-7 text-slate-500 sm:text-base">
-              Stok, tipe, harga, pengiriman, dan opsi pemasangan dikonfirmasi admin sebelum Anda deal.
+              Stok, tipe, harga, pengiriman, dan opsi pemasangan dikonfirmasi admin sebelum pembelian.
             </p>
 
             <div className="mb-4 flex flex-col gap-3 sm:flex-row sm:flex-wrap">
