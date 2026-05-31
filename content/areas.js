@@ -23,10 +23,10 @@ export const areaItems = [
     path: routes.jualAcPurwokerto,
     areaName: "Purwokerto",
     label: "Jual AC Purwokerto",
-    title: "Jual AC Purwokerto | Cek Stok, Konsultasi PK & Opsi Pemasangan — RADJA AC",
+    title: "Jual AC Purwokerto untuk Rumah, Kost, Toko & Kantor — RADJA AC",
     description:
       "Butuh AC untuk rumah, kost, toko, kantor, hotel, atau proyek di Purwokerto? RADJA AC mengecek stok, mengarahkan konsultasi PK, pengiriman unit, dan opsi pemasangan via WhatsApp.",
-    h1: "Jual AC Purwokerto | Cek Stok, Konsultasi PK, Pengiriman & Opsi Pemasangan",
+    h1: "Jual AC Purwokerto untuk Rumah, Kost, Toko & Kantor",
     eyebrow: "Area Utama RADJA AC",
     intro:
       "Butuh AC untuk rumah, kost, toko, kantor, atau proyek di Purwokerto? RADJA AC mengecek stok, mengarahkan konsultasi PK, pengiriman unit, dan opsi pemasangan sebelum Anda menentukan unit.",
@@ -59,10 +59,10 @@ export const areaItems = [
     path: routes.jualAcBanyumas,
     areaName: "Banyumas",
     label: "Jual AC Banyumas",
-    title: "Jual AC Banyumas | Cek Stok, Konsultasi PK & Opsi Pemasangan — RADJA AC",
+    title: "Jual AC Banyumas untuk Rumah, Kost, Toko & Usaha — RADJA AC",
     description:
       "Butuh AC untuk rumah, kost, toko, kantor, atau proyek di Banyumas? RADJA AC mengecek stok, mengarahkan konsultasi PK, pengiriman unit, dan opsi pemasangan via WhatsApp.",
-    h1: "Jual AC Banyumas | Cek Stok, Konsultasi PK, Pengiriman & Opsi Pemasangan",
+    h1: "Jual AC Banyumas untuk Rumah, Kost, Toko & Usaha",
     eyebrow: "Area Basis Banyumas",
     intro:
       "RADJA AC berbasis di Banyumas dan membantu kebutuhan AC area Banyumas untuk rumah, kost, toko, kantor, usaha, dan pembelian banyak unit. Admin mengarahkan PK, stok unit, pengiriman, dan opsi pemasangan sebelum pembelian.",
@@ -87,10 +87,10 @@ export const areaItems = [
     path: routes.jualAcSokaraja,
     areaName: "Sokaraja",
     label: "Jual AC Sokaraja",
-    title: "Jual AC Sokaraja | Cek Stok, Konsultasi PK & Opsi Pemasangan — RADJA AC",
+    title: "Jual AC Sokaraja Dekat Showroom RADJA AC — RADJA AC",
     description:
       "Butuh AC untuk rumah, kost, toko, kantor, atau proyek di Sokaraja? RADJA AC mengecek stok, mengarahkan konsultasi PK, pengiriman unit, dan opsi pemasangan via WhatsApp.",
-    h1: "Jual AC Sokaraja | Cek Stok, Konsultasi PK, Pengiriman & Opsi Pemasangan",
+    h1: "Jual AC Sokaraja dekat Showroom RADJA AC",
     eyebrow: "Area Basis RADJA AC",
     intro:
       "RADJA AC berbasis di Pamijen, Sokaraja, Banyumas dan membantu pembelian AC original multi-brand untuk rumah, kost, toko, kantor, usaha, serta kebutuhan banyak unit. Admin mengarahkan PK, stok, pengiriman, dan opsi pemasangan.",
@@ -123,10 +123,10 @@ export const areaItems = [
     path: routes.jualAcYogyakarta,
     areaName: "Yogyakarta",
     label: "Jual AC Yogyakarta",
-    title: "Jual AC Yogyakarta | Cek Stok, Konsultasi PK & Opsi Pemasangan — RADJA AC",
+    title: "Jual AC Yogyakarta untuk Kost, Guest House & Usaha — RADJA AC",
     description:
       "Butuh AC untuk rumah, kost, guest house, hotel, kantor, atau proyek di Yogyakarta? RADJA AC mengecek stok, mengarahkan konsultasi PK, pengiriman unit, dan opsi pemasangan via WhatsApp.",
-    h1: "Jual AC Yogyakarta | Cek Stok, Konsultasi PK, Pengiriman & Opsi Pemasangan",
+    h1: "Jual AC Yogyakarta untuk Kost, Guest House & Usaha",
     eyebrow: "Layanan AC Area DIY",
     intro:
       "Butuh AC untuk rumah, kost, guest house, hotel, kantor, atau ruang usaha di Yogyakarta? RADJA AC mengarahkan kebutuhan PK, daya listrik, stok unit, pengiriman, dan opsi pemasangan sebelum Anda menentukan unit.",
@@ -164,10 +164,10 @@ export const areaItems = [
     path: routes.jualAcSemarang,
     areaName: "Semarang",
     label: "Jual AC Semarang",
-    title: "Jual AC Semarang | Cek Stok, Konsultasi PK & Opsi Pemasangan — RADJA AC",
+    title: "Jual AC Semarang untuk Ruko, Kantor, Hotel & Proyek — RADJA AC",
     description:
       "Butuh AC untuk rumah, ruko, kantor, hotel, usaha, atau proyek di Semarang? RADJA AC mengecek stok, mengarahkan konsultasi PK, pengiriman unit, dan opsi pemasangan via WhatsApp.",
-    h1: "Jual AC Semarang | Cek Stok, Konsultasi PK, Pengiriman & Opsi Pemasangan",
+    h1: "Jual AC Semarang untuk Ruko, Kantor, Hotel & Proyek",
     eyebrow: "Layanan AC Area Jawa Tengah",
     intro:
       "Butuh AC untuk rumah, kantor, ruko, toko, hotel, developer, atau proyek di Semarang? RADJA AC mengarahkan kebutuhan PK, stok unit, pilihan brand, pengiriman, dan opsi pemasangan sesuai brief Anda.",
@@ -205,10 +205,10 @@ export const areaItems = [
     path: routes.jualAcSolo,
     areaName: "Solo",
     label: "Jual AC Solo",
-    title: "Jual AC Solo | Cek Stok, Konsultasi PK & Opsi Pemasangan — RADJA AC",
+    title: "Jual AC Solo untuk Rumah, Kost, Hotel & Usaha — RADJA AC",
     description:
       "Butuh AC untuk rumah, kost, toko, kantor, hotel, atau usaha di Solo? RADJA AC mengecek stok, mengarahkan konsultasi PK, pengiriman unit, dan opsi pemasangan via WhatsApp.",
-    h1: "Jual AC Solo | Cek Stok, Konsultasi PK, Pengiriman & Opsi Pemasangan",
+    h1: "Jual AC Solo untuk Rumah, Kost, Hotel & Usaha",
     eyebrow: "Layanan AC Area Jawa Tengah",
     intro:
       "Butuh AC untuk rumah, kost, hotel, toko, kantor, atau ruang usaha di Solo? RADJA AC mengarahkan kebutuhan PK, daya listrik, pilihan brand, stok unit, pengiriman, dan opsi pemasangan sebelum Anda menentukan unit.",
@@ -241,10 +241,10 @@ export const areaItems = [
     path: routes.jualAcPurbalingga,
     areaName: "Purbalingga",
     label: "Jual AC Purbalingga",
-    title: "Jual AC Purbalingga | Cek Stok, Konsultasi PK & Opsi Pemasangan — RADJA AC",
+    title: "Jual AC Purbalingga untuk Rumah, Kost, Toko & Kantor — RADJA AC",
     description:
       "Butuh AC untuk rumah, kost, toko, kantor, atau usaha di Purbalingga? RADJA AC mengecek stok, mengarahkan konsultasi PK, pengiriman unit, dan opsi pemasangan via WhatsApp.",
-    h1: "Jual AC Purbalingga | Cek Stok, Konsultasi PK, Pengiriman & Opsi Pemasangan",
+    h1: "Jual AC Purbalingga untuk Rumah, Kost, Toko & Kantor",
     eyebrow: "Area Regional Dekat Banyumas",
     intro:
       "Butuh AC untuk rumah, kamar, kost, kontrakan, toko, kantor, atau ruang usaha di Purbalingga? RADJA AC mengarahkan kebutuhan PK, daya listrik, pilihan brand, stok unit, pengiriman, dan opsi pemasangan sebelum Anda menentukan unit.",
@@ -269,10 +269,10 @@ export const areaItems = [
     path: routes.jualAcCilacap,
     areaName: "Cilacap",
     label: "Jual AC Cilacap",
-    title: "Jual AC Cilacap | Cek Stok, Konsultasi PK & Opsi Pemasangan — RADJA AC",
+    title: "Jual AC Cilacap untuk Rumah, Toko, Kantor & Banyak Unit — RADJA AC",
     description:
       "Butuh AC untuk rumah, toko, kantor, usaha, atau banyak unit di Cilacap? RADJA AC mengecek stok, mengarahkan konsultasi PK, pengiriman unit, dan opsi pemasangan via WhatsApp.",
-    h1: "Jual AC Cilacap | Cek Stok, Konsultasi PK, Pengiriman & Opsi Pemasangan",
+    h1: "Jual AC Cilacap untuk Rumah, Toko, Kantor & Banyak Unit",
     eyebrow: "Layanan AC Area Regional",
     intro:
       "Butuh AC untuk rumah, toko, kantor, ruang usaha, atau pembelian banyak unit di Cilacap? RADJA AC mengarahkan kebutuhan PK, daya listrik, pilihan brand, stok unit, pengiriman, dan opsi pemasangan sesuai alamat dan kebutuhan.",
@@ -310,10 +310,10 @@ export const areaItems = [
     path: routes.jualAcKebumen,
     areaName: "Kebumen",
     label: "Jual AC Kebumen",
-    title: "Jual AC Kebumen | Cek Stok, Konsultasi PK & Opsi Pemasangan — RADJA AC",
+    title: "Jual AC Kebumen untuk Rumah, Kost, Toko & Ruko — RADJA AC",
     description:
       "Butuh AC untuk rumah, kost, toko, ruko, kantor, atau usaha di Kebumen? RADJA AC mengecek stok, mengarahkan konsultasi PK, pengiriman unit, dan opsi pemasangan via WhatsApp.",
-    h1: "Jual AC Kebumen | Cek Stok, Konsultasi PK, Pengiriman & Opsi Pemasangan",
+    h1: "Jual AC Kebumen untuk Rumah, Kost, Toko & Ruko",
     eyebrow: "Layanan AC Area Regional",
     intro:
       "Butuh AC untuk rumah, kost, toko, ruko, kantor, atau ruang usaha di Kebumen? RADJA AC mengarahkan kebutuhan PK, daya listrik, pilihan brand, stok unit, pengiriman, dan opsi pemasangan sebelum Anda order.",
@@ -338,10 +338,10 @@ export const areaItems = [
     path: routes.jualAcTegal,
     areaName: "Tegal",
     label: "Jual AC Tegal",
-    title: "Jual AC Tegal | Cek Stok, Konsultasi PK & Opsi Pemasangan — RADJA AC",
+    title: "Jual AC Tegal dan Slawi untuk Rumah, Toko & Proyek — RADJA AC",
     description:
       "Butuh AC untuk rumah, toko, kantor, usaha, proyek, atau banyak unit di Tegal dan Slawi? RADJA AC mengecek stok, mengarahkan konsultasi PK, pengiriman unit, dan opsi pemasangan via WhatsApp.",
-    h1: "Jual AC Tegal | Cek Stok, Konsultasi PK, Pengiriman & Opsi Pemasangan",
+    h1: "Jual AC Tegal dan Slawi untuk Rumah, Toko & Proyek",
     eyebrow: "Layanan AC Area Regional",
     intro:
       "Butuh AC untuk rumah, toko, kantor, ruang usaha, proyek, atau pengadaan banyak unit di Tegal dan Slawi? RADJA AC mengarahkan kebutuhan PK, daya listrik, pilihan brand, stok unit, pengiriman, dan opsi pemasangan sebelum Anda order.",
@@ -379,10 +379,10 @@ export const areaItems = [
     path: routes.jualAcBanjarnegara,
     areaName: "Banjarnegara",
     label: "Jual AC Banjarnegara",
-    title: "Jual AC Banjarnegara | Cek Stok, Konsultasi PK & Opsi Pemasangan — RADJA AC",
+    title: "Jual AC Banjarnegara untuk Rumah, Kost, Toko & Usaha — RADJA AC",
     description:
       "Butuh AC untuk rumah, kost, toko, kantor, atau usaha di Banjarnegara? RADJA AC mengecek stok, mengarahkan konsultasi PK, pengiriman unit, dan opsi pemasangan via WhatsApp.",
-    h1: "Jual AC Banjarnegara | Cek Stok, Konsultasi PK, Pengiriman & Opsi Pemasangan",
+    h1: "Jual AC Banjarnegara untuk Rumah, Kost, Toko & Usaha",
     eyebrow: "Area Regional Bertahap",
     intro:
       "Butuh AC untuk rumah, kamar, kost, toko, kantor, atau ruang usaha di Banjarnegara? RADJA AC mengarahkan kebutuhan PK, daya listrik, pilihan brand, stok unit, pengiriman, dan opsi pemasangan berdasarkan kebutuhan.",
