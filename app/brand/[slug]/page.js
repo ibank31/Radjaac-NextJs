@@ -234,7 +234,7 @@ export default async function BrandDetailPage({ params }) {
 
                 <div className="mt-6 grid gap-3 sm:grid-cols-2">
                   {[
-                    "Cek stok Gree sebelum deal",
+                    "Cek stok Gree sebelum pembelian",
                     "Pilihan standard, low watt, dan inverter",
                     "Konsultasi PK sesuai ukuran ruangan",
                     "Garansi unit mengikuti ketentuan Gree",
@@ -247,7 +247,7 @@ export default async function BrandDetailPage({ params }) {
 
                 <div className="mt-6 rounded-2xl border border-amber-200 bg-amber-50 px-4 py-4 text-sm leading-7 text-amber-900">
                   Admin cek status, tipe unit, harga, promo, ketersediaan stok, dan ketentuan garansi
-                  admin mengikuti kondisi terbaru.
+                  dari data terbaru.
                 </div>
 
                 <div className="mt-6">
@@ -322,7 +322,7 @@ export default async function BrandDetailPage({ params }) {
                 <div key={variant} className="rounded-2xl border border-slate-200 bg-[#f8fbff] p-4">
                   <div className="mb-1 text-sm font-black text-cyan-700">{item.name} {variant}</div>
                   <p className="text-sm leading-6 text-slate-600">
-                    Cocok tidaknya tipe ini bergantung pada ukuran ruangan, daya listrik, jam pemakaian, budget, dan stok terbaru.
+                    Kecocokan tipe ini dibaca dari ukuran ruangan, daya listrik, jam pemakaian, budget, dan stok terbaru.
                   </p>
                 </div>
               ))}
@@ -445,7 +445,7 @@ export default async function BrandDetailPage({ params }) {
             Mau cek stok {item.label} terbaru?
           </h2>
           <p className="mx-auto mb-7 max-w-2xl text-sm leading-7 text-slate-700">
-            Kirim ukuran ruangan, daya listrik, lokasi, budget, dan kebutuhan pemasangan. Admin mengecek stok, tipe, estimasi, pengiriman, dan opsi pemasangan sebelum deal.
+            Kirim ukuran ruangan, daya listrik, lokasi, budget, dan kebutuhan pemasangan. Admin mengecek stok, tipe, estimasi, pengiriman, dan opsi pemasangan sebelum pembelian.
           </p>
           <WhatsappLink
             className="inline-flex items-center justify-center rounded-full bg-[#25D366] px-6 py-4 font-black text-slate-950 shadow-[0_18px_42px_rgba(37,211,102,0.20)] transition hover:-translate-y-0.5 hover:bg-[#20BA5A]"
