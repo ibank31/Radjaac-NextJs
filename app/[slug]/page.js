@@ -97,7 +97,7 @@ export default async function AreaPage({ params }) {
 
   const heroChips = isPurwokerto
     ? ["Showroom Pamijen", "Stok dicek hari ini", "Unit + pemasangan", "Mulai 3 jutaan"]
-    : ["Cek stok dulu", "Area dikonfirmasi", "Opsi pasang dicek", "Brief via WhatsApp"];
+    : ["Cek stok dulu", "Area dicek", "Opsi pasang dicek", "Brief via WhatsApp"];
 
   const bulkCards = [
     ["Rumah & Kamar", `Cek AC untuk kamar tidur, ruang keluarga, dan rumah tinggal di ${item.areaName}.`],
@@ -147,7 +147,7 @@ export default async function AreaPage({ params }) {
               {item.h1}
             </h1>
             <p className="mb-5 max-w-2xl text-sm font-bold leading-6 text-cyan-700">
-              Cek stok, budget, PK, dan jadwal sebelum deal.
+              Cek stok, budget, PK, dan jadwal sebelum pembelian.
             </p>
             <p className="mb-6 max-w-2xl text-sm leading-7 text-slate-600 sm:text-base">{item.intro}</p>
             <div className="mb-3 flex flex-col gap-3 sm:flex-row sm:items-center sm:flex-wrap">
@@ -225,7 +225,7 @@ export default async function AreaPage({ params }) {
       </section>
 
       <section className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8 lg:py-12">
-        <SectionTitle eyebrow="KONSULTASI PEMBELIAN" title="Budget murah tidak ada artinya kalau PK salah dan biaya pasang belum dihitung" description="Yang sering jadi masalah: PK tidak sesuai ruangan, biaya pasang belum jelas, atau stok kosong setelah konfirmasi. RADJA AC kerja sebaliknya — stok dicek dulu, kebutuhan dihitung, estimasi dijelaskan sebelum deal." />
+        <SectionTitle eyebrow="KONSULTASI PEMBELIAN" title="Budget murah tidak ada artinya kalau PK salah dan biaya pasang belum dihitung" description="Yang sering jadi masalah: PK tidak sesuai ruangan, biaya pasang belum jelas, atau stok kosong saat mau beli. RADJA AC kerja sebaliknya — stok dicek dulu, kebutuhan dihitung, estimasi dijelaskan sebelum pembelian." />
         <div className="grid gap-5 md:grid-cols-3">
           {valueItems.map(([title, description]) => <div key={title} className="rounded-[1.45rem] border border-slate-200 bg-white p-6 text-center"><div className="mx-auto mb-5 flex h-12 w-12 items-center justify-center rounded-2xl bg-cyan-50 text-2xl text-cyan-700">✓</div><h2 className="mb-3 text-xl font-black text-slate-950">{title}</h2><p className="text-sm leading-7 text-slate-600">{description}</p></div>)}
         </div>
@@ -255,7 +255,7 @@ export default async function AreaPage({ params }) {
       </section>
 
       <section className="mx-auto max-w-7xl px-4 pb-16 pt-8 sm:px-6 lg:px-8 lg:pb-20 lg:pt-10">
-        <div className="rounded-[1.7rem] border border-[#25D366]/20 bg-[#25D366]/10 p-6 text-center sm:p-10"><h2 className="mx-auto mb-5 max-w-3xl text-3xl font-black tracking-tight sm:text-4xl">Cari AC untuk area {item.areaName}? Mulai dari data ruangan.</h2><p className="mx-auto mb-7 max-w-2xl text-sm leading-7 text-slate-600">Sebutkan area/kecamatan, ukuran ruangan, daya listrik, jumlah unit, dan budget awal. Admin mengecek stok dan estimasi sebelum deal.</p><WhatsappLink className="inline-flex items-center justify-center rounded-full bg-[#25D366] px-6 py-4 font-bold text-slate-950 shadow-[0_18px_50px_rgba(37,211,102,0.2)] transition hover:-translate-y-0.5 hover:bg-[#20BA5A]" source={`${item.label} - Final CTA`} intent={item.waIntent} area={item.waArea}>Kirim Data Ruangan</WhatsappLink></div>
+        <div className="rounded-[1.7rem] border border-[#25D366]/20 bg-[#25D366]/10 p-6 text-center sm:p-10"><h2 className="mx-auto mb-5 max-w-3xl text-3xl font-black tracking-tight sm:text-4xl">Cari AC untuk area {item.areaName}? Mulai dari data ruangan.</h2><p className="mx-auto mb-7 max-w-2xl text-sm leading-7 text-slate-600">Sebutkan area/kecamatan, ukuran ruangan, daya listrik, jumlah unit, dan budget awal. Admin mengecek stok dan estimasi sebelum pembelian.</p><WhatsappLink className="inline-flex items-center justify-center rounded-full bg-[#25D366] px-6 py-4 font-bold text-slate-950 shadow-[0_18px_50px_rgba(37,211,102,0.2)] transition hover:-translate-y-0.5 hover:bg-[#20BA5A]" source={`${item.label} - Final CTA`} intent={item.waIntent} area={item.waArea}>Kirim Data Ruangan</WhatsappLink></div>
       </section>
     </main>
   );

@@ -97,7 +97,7 @@ export const areaItems = [
     localContext:
       "Sokaraja adalah area basis RADJA AC, jadi halaman ini berfungsi sebagai trust page sekaligus money page lokal. Calon pembeli bisa mulai dari cek ukuran ruangan, daya listrik, pilihan brand, stok unit, dan kebutuhan pemasangan sebelum datang atau chat admin.",
     coverageNote:
-      "Untuk Sokaraja dan sekitarnya, admin tetap mengonfirmasi stok, alamat, jadwal, kebutuhan material, dan opsi pemasangan supaya estimasi tidak asal tebak.",
+      "Untuk Sokaraja dan sekitarnya, admin cek stok, alamat, jadwal, kebutuhan material, dan opsi pemasangan agar estimasi lebih rapi.",
     commonNeeds: [
       "AC rumah, kamar tidur, dan ruang keluarga",
       "AC kost, kontrakan, dan rumah sewa",
