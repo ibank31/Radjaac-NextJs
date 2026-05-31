@@ -143,10 +143,12 @@ export default async function AreaPage({ params }) {
             <div className="mb-5 inline-flex rounded-full border border-cyan-100 bg-cyan-50 px-4 py-2 text-sm text-cyan-700">
               {item.eyebrow}
             </div>
-            <h1 className="mb-5 max-w-3xl text-3xl font-black leading-[1.05] tracking-[-0.035em] sm:text-4xl md:text-5xl xl:text-6xl">
+            <h1 className="mb-3 max-w-3xl text-3xl font-black leading-[1.05] tracking-[-0.035em] sm:text-4xl md:text-5xl xl:text-6xl">
               {item.h1}
-              <span className="block text-cyan-700">Cek stok, budget, PK, dan jadwal sebelum deal</span>
             </h1>
+            <p className="mb-5 max-w-2xl text-sm font-bold leading-6 text-cyan-700">
+              Cek stok, budget, PK, dan jadwal sebelum deal.
+            </p>
             <p className="mb-6 max-w-2xl text-sm leading-7 text-slate-600 sm:text-base">{item.intro}</p>
             <div className="mb-3 flex flex-col gap-3 sm:flex-row sm:items-center sm:flex-wrap">
               <WhatsappLink className="inline-flex items-center justify-center rounded-full bg-[#25D366] px-6 py-4 font-bold text-slate-950 shadow-[0_18px_50px_rgba(37,211,102,0.2)] transition hover:-translate-y-0.5 hover:bg-[#20BA5A]" source={item.label} intent={item.waIntent} area={item.waArea}>

@@ -114,10 +114,12 @@ export default async function BrandDetailPage({ params }) {
               <span className="h-2 w-2 rounded-full bg-[#4984B8]" /> {item.eyebrow}
             </div>
 
-            <h1 className="mb-5 max-w-3xl text-3xl font-black leading-[1.08] tracking-[-0.04em] text-slate-950 sm:text-4xl md:text-5xl xl:text-6xl">
+            <h1 className="mb-3 max-w-3xl text-3xl font-black leading-[1.08] tracking-[-0.04em] text-slate-950 sm:text-4xl md:text-5xl xl:text-6xl">
               {item.h1}
-              <span className="block text-cyan-700">Cek stok, tipe, PK, dan opsi pemasangan</span>
             </h1>
+            <p className="mb-5 max-w-2xl text-sm font-bold leading-6 text-cyan-700">
+              Cek stok, tipe, PK, dan opsi pemasangan.
+            </p>
 
             <p className="mb-4 max-w-2xl text-sm leading-7 text-slate-600 sm:text-base">{item.intro}</p>
             <p className="mb-6 max-w-2xl text-sm leading-7 text-slate-500 sm:text-base">
