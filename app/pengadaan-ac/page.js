@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { buildMetadata } from "@/lib/seo";
 import { staticPageMetadata } from "@/content/static-pages";
+import WhatsappLink from "@/components/ui/WhatsappLink";
 
 export const metadata = buildMetadata(staticPageMetadata.pengadaanAc);
 
@@ -44,20 +45,7 @@ const capacityRows = [
   ["Area komersial", "Cassette / floor standing", "Butuh brief layout dan kebutuhan proyek"],
 ];
 
-function getWhatsappHref(context) {
-  const message = `Halo RADJA AC, saya mau konsultasi pengadaan AC. Kebutuhan: ${context}. Lokasi: [isi kota]. Jumlah unit/ruangan: [isi jumlah]. Ukuran ruangan: [isi ukuran]. Daya listrik: [isi daya]. Timeline: [isi timeline]. Tolong susunkan opsi unit yang sesuai.`;
-  const number = process.env.NEXT_PUBLIC_WHATSAPP_NUMBER;
-
-  if (!number) {
-    return `/kontak?message=${encodeURIComponent(message)}`;
-  }
-
-  return `https://wa.me/${number}?text=${encodeURIComponent(message)}`;
-}
-
 export default function PengadaanAcPage() {
-  const mainWa = getWhatsappHref("pengadaan AC proyek atau banyak unit");
-
   return (
     <main className="min-h-screen bg-white text-slate-800">
       <section className="relative overflow-hidden border-b border-blue-100 bg-[linear-gradient(135deg,#ffffff_0%,#f8fafc_42%,#e0f7fa_100%)]">
@@ -82,16 +70,14 @@ export default function PengadaanAcPage() {
             </p>
 
             <div className="mt-9 flex flex-col gap-3 sm:flex-row">
-              <a
-                href={mainWa}
+              <WhatsappLink
                 className="inline-flex items-center justify-center rounded-2xl bg-red-600 px-7 py-4 text-base font-bold text-white shadow-xl shadow-red-600/20 transition hover:-translate-y-0.5 hover:bg-red-700"
-                data-wa-source="pengadaan_hero_v3"
-                data-wa-label="kirim_brief_pengadaan"
-                data-page-type="b2b"
-                data-intent-type="procurement"
+                source="Pengadaan AC - Hero"
+                intent="pengadaan AC proyek atau banyak unit"
+                pageType="b2b"
               >
                 Kirim Brief via WhatsApp
-              </a>
+              </WhatsappLink>
 
               <Link
                 href="/katalog"
@@ -242,16 +228,14 @@ export default function PengadaanAcPage() {
                 </span>
                 <h3 className="mt-5 text-xl font-black text-blue-950">{item.title}</h3>
                 <p className="mt-3 text-sm leading-6 text-slate-600">{item.desc}</p>
-                <a
-                  href={getWhatsappHref(item.title)}
+                <WhatsappLink
                   className="mt-6 inline-flex font-bold text-red-600 transition group-hover:translate-x-1"
-                  data-wa-source="pengadaan_project_type_v3"
-                  data-wa-label={item.label.toLowerCase()}
-                  data-page-type="b2b"
-                  data-intent-type="procurement"
+                  source={`Pengadaan AC - ${item.label}`}
+                  intent={`konsultasi pengadaan AC untuk ${item.title}`}
+                  pageType="b2b"
                 >
                   Konsultasikan kebutuhan →
-                </a>
+                </WhatsappLink>
               </article>
             ))}
           </div>
@@ -317,16 +301,14 @@ export default function PengadaanAcPage() {
                 <li>• Daya listrik dan preferensi brand</li>
                 <li>• Timeline kebutuhan unit atau pemasangan</li>
               </ul>
-              <a
-                href={mainWa}
+              <WhatsappLink
                 className="mt-6 inline-flex w-full justify-center rounded-2xl bg-red-600 px-6 py-4 font-black text-white shadow-lg shadow-red-600/20 transition hover:-translate-y-0.5 hover:bg-red-700"
-                data-wa-source="pengadaan_final_v3"
-                data-wa-label="kirim_data_lengkap"
-                data-page-type="b2b"
-                data-intent-type="procurement"
+                source="Pengadaan AC - Final CTA"
+                intent="kirim data lengkap pengadaan AC"
+                pageType="b2b"
               >
                 Kirim Data via WhatsApp
-              </a>
+              </WhatsappLink>
             </div>
           </div>
         </div>
