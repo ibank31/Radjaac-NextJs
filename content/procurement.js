@@ -7,7 +7,7 @@ export const procurementItems = [
     label: "Kost & Apartemen",
     title: "Pengadaan AC Kost & Apartemen | Cek PK, Stok, Pengiriman & Pemasangan",
     description:
-      "Pengadaan AC untuk kost, apartemen, kontrakan, dan hunian banyak kamar, dari pembelian bertahap sampai kebutuhan banyak unit. RADJA AC mengarahkan PK per ruangan, brand, stok, pengiriman, kebutuhan pemasangan, garansi pemasangan 1 bulan, dan bantuan klaim unit sesuai ketentuan brand.",
+      "Pengadaan AC untuk kost, apartemen, kontrakan, dan hunian banyak kamar, dari pembelian bertahap sampai kebutuhan banyak unit. RADJA AC cek PK per ruangan, brand, stok, pengiriman, pemasangan, garansi pemasangan 1 bulan, dan bantuan klaim unit.",
     h1: "Pengadaan AC untuk kost, apartemen, dan hunian banyak kamar",
     eyebrow: "Pengadaan AC",
     intro:
@@ -45,7 +45,7 @@ export const procurementItems = [
     label: "Hotel & Guest House",
     title: "Pengadaan AC Hotel & Guest House | Cek PK, Brand, Pengiriman & Pemasangan",
     description:
-      "Pengadaan AC untuk hotel, guest house, homestay, villa, dan penginapan, termasuk kebutuhan banyak kamar. RADJA AC mengarahkan PK, brand, stok, pengiriman, kebutuhan pemasangan, garansi pemasangan 1 bulan, dan bantuan klaim unit sesuai ketentuan brand.",
+      "Pengadaan AC untuk hotel, guest house, homestay, villa, dan penginapan. RADJA AC cek PK, brand, stok, pengiriman, pemasangan, garansi pemasangan 1 bulan, dan bantuan klaim unit.",
     h1: "Pengadaan AC untuk hotel, guest house, homestay, dan penginapan",
     eyebrow: "Pengadaan AC",
     intro:
@@ -83,7 +83,7 @@ export const procurementItems = [
     label: "Kontraktor & Developer",
     title: "Pengadaan AC Kontraktor & Developer | Cek Kebutuhan Proyek AC",
     description:
-      "Pengadaan AC untuk kontraktor, developer, kantor proyek, ruko, klinik, dan kebutuhan banyak unit hingga ratusan unit. RADJA AC mengarahkan PK, brand, stok, pengiriman, kebutuhan pemasangan, garansi pemasangan 1 bulan, dan bantuan klaim unit sesuai ketentuan brand.",
+      "Pengadaan AC untuk kontraktor, developer, kantor proyek, ruko, klinik, dan kebutuhan banyak unit hingga ratusan unit. RADJA AC cek PK, brand, stok, pengiriman, pemasangan, garansi pemasangan 1 bulan, dan bantuan klaim unit.",
     h1: "Pengadaan AC untuk kontraktor, developer, dan kebutuhan proyek",
     eyebrow: "Pengadaan AC",
     intro:

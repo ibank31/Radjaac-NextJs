@@ -96,7 +96,7 @@ export const brandItems = [
     h1: "AC Sansui original untuk rumah, kost, usaha, kantor, hotel, dan proyek",
     eyebrow: "Brand AC",
     intro:
-      "Sansui menjadi pilihan untuk pembeli yang mencari AC original dengan opsi standard, low watt, atau inverter berdasarkan stok aktif. Admin RADJA AC mengarahkan kebutuhan PK, daya listrik, budget, area pengiriman, dan opsi pemasangan sebelum Anda deal.",
+      "AC Sansui original tersedia dalam opsi standard, low watt, atau inverter mengikuti stok aktif. Admin cek PK, daya listrik, budget, area pengiriman, dan pemasangan sebelum deal.",
     trustNote:
       "Dokumen brand Sansui tercatat atas nama CV. Prima Sedaya, yang merupakan bagian dari operasional RADJA AC. Stok, tipe, harga, dan ketentuan garansi tetap dikonfirmasi admin berdasarkan kondisi terbaru.",
     certificateHolder: "CV. Prima Sedaya",
@@ -117,7 +117,7 @@ export const brandItems = [
     h1: "AC Sharp original untuk rumah, kost, usaha, kantor, hotel, dan proyek",
     eyebrow: "Brand AC",
     intro:
-      "Sharp menjadi salah satu brand yang sering dipertimbangkan untuk kebutuhan rumah, kamar, kost, kontrakan, dan usaha. Admin RADJA AC mengarahkan tipe yang tersedia berdasarkan ukuran ruangan, daya listrik, budget, stok unit, dan opsi pemasangan.",
+      "AC Sharp original banyak dipakai untuk rumah, kamar, kost, kontrakan, dan usaha. Admin cek tipe yang tersedia dari ukuran ruangan, daya listrik, budget, stok, dan pemasangan.",
     trustNote:
       "Untuk AC Sharp, stok, tipe, harga, garansi unit, dan opsi pemasangan dikonfirmasi oleh admin sebelum pembelian. Garansi unit mengikuti ketentuan resmi brand yang tertera pada kemasan, kartu garansi, atau dokumen garansi unit.",
     certificateHolder: "",
@@ -138,7 +138,7 @@ export const brandItems = [
     h1: "AC Samsung original untuk rumah, kantor, hotel, dan proyek",
     eyebrow: "Brand AC",
     intro:
-      "Samsung dapat dipertimbangkan untuk pembeli yang mencari AC original dengan pilihan tipe berdasarkan kebutuhan rumah, ruang kerja, kantor, atau pemakaian rumah, usaha, dan proyek. Admin RADJA AC mengarahkan kebutuhan PK, daya listrik, budget, stok, dan opsi pemasangan.",
+      "Samsung bisa masuk untuk rumah, ruang kerja, kantor, usaha, dan proyek. Admin cek PK, daya listrik, budget, stok, dan pemasangan sebelum pembelian.",
     trustNote:
       "Untuk AC Samsung, stok, tipe, harga, garansi unit, dan opsi pemasangan dikonfirmasi oleh admin sebelum pembelian. Garansi unit mengikuti ketentuan resmi brand yang tertera pada kemasan, kartu garansi, atau dokumen garansi unit.",
     certificateHolder: "",
@@ -159,7 +159,7 @@ export const brandItems = [
     h1: "AC Panasonic original untuk rumah, usaha, kantor, hotel, dan proyek",
     eyebrow: "Brand AC",
     intro:
-      "Panasonic menjadi pilihan untuk kebutuhan AC rumah, kamar, usaha, kantor, atau pemakaian rumah, usaha, dan proyek. Admin RADJA AC mengarahkan tipe yang tersedia berdasarkan ukuran ruangan, daya listrik, budget, stok unit, dan opsi pemasangan.",
+      "Panasonic bisa dipakai untuk rumah, kamar, usaha, kantor, dan proyek. Admin cek tipe dari ukuran ruangan, daya listrik, budget, stok, dan pemasangan.",
     trustNote:
       "Untuk AC Panasonic, stok, tipe, harga, garansi unit, dan opsi pemasangan dikonfirmasi oleh admin sebelum pembelian. Garansi unit mengikuti ketentuan resmi brand yang tertera pada kemasan, kartu garansi, atau dokumen garansi unit.",
     certificateHolder: "",
@@ -180,7 +180,7 @@ export const brandItems = [
     h1: "AC Ariston original untuk kenyamanan rumah, usaha, dan ruang kerja",
     eyebrow: "Brand AC",
     intro:
-      "Ariston dikenal dengan pendekatan home comfort. Untuk kategori AC, Ariston menghadirkan lini KIOS dengan fokus kenyamanan udara, distribusi angin, dan fitur pendukung kualitas udara. Admin RADJA AC mengarahkan pilihan AC Ariston berdasarkan stok aktif, kapasitas PK, daya listrik, budget, lokasi pengiriman, dan opsi pemasangan.",
+      "Ariston dikenal lewat pendekatan home comfort. Untuk AC Ariston original, admin cek stok aktif Ariston, kapasitas PK, daya listrik, budget, lokasi pengiriman, dan pemasangan sebelum pembelian.",
     trustNote:
       "Foto display Ariston di showroom RADJA AC digunakan sebagai bukti visual produk dan konteks brand yang pernah ditampilkan. Stok, tipe, harga, fitur per model, garansi unit, pengiriman, dan opsi pemasangan tetap dikonfirmasi admin sebelum pembelian. Garansi unit mengikuti ketentuan brand.",
     certificateHolder: "",
