@@ -157,6 +157,15 @@ export default function PengirimanPemasanganPage() {
             Kirim kota, alamat area, jumlah unit, tipe ruangan, dan kebutuhan unit saja atau sekalian opsi pemasangan.
             Admin RADJA AC cek alamat, akses lokasi, jadwal kirim, dan kebutuhan pemasangan.
           </p>
+          <div className="mt-6">
+            <WhatsappLink
+              className="inline-flex items-center justify-center rounded-full bg-[#25D366] px-6 py-4 text-sm font-black text-slate-950 transition hover:bg-[#20BA5A]"
+              source="Pengiriman & Pemasangan - Final CTA"
+              intent="cek pengiriman dan pemasangan AC"
+            >
+              Kirim Data Lokasi
+            </WhatsappLink>
+          </div>
         </section>
       </section>
     </main>
