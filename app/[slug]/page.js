@@ -106,7 +106,7 @@ export default async function AreaPage({ params }) {
   ];
 
   const valueItems = [
-    ["Cek stok & budget dulu", "Admin cek unit yang tersedia, pilihan brand, dan estimasi awal sebelum Anda konfirmasi."],
+    ["Cek stok & budget dulu", "Admin cek unit yang tersedia, pilihan brand, dan estimasi awal sebelum konfirmasi pembelian."],
     ["Bantu pilih PK", "Ukuran ruangan, daya listrik, jumlah orang, panas matahari, dan jam pemakaian ikut dipertimbangkan."],
     ["Pemasangan berdasarkan lokasi", "Panjang pipa, posisi outdoor, akses lokasi, dan tambahan material dibahas di awal."],
   ];
@@ -152,7 +152,7 @@ export default async function AreaPage({ params }) {
             <p className="mb-6 max-w-2xl text-sm leading-7 text-slate-600 sm:text-base">{item.intro}</p>
             <div className="mb-3 flex flex-col gap-3 sm:flex-row sm:items-center sm:flex-wrap">
               <WhatsappLink className="inline-flex items-center justify-center rounded-full bg-[#25D366] px-6 py-4 font-bold text-slate-950 shadow-[0_18px_50px_rgba(37,211,102,0.2)] transition hover:-translate-y-0.5 hover:bg-[#20BA5A]" source={item.label} intent={item.waIntent} area={item.waArea}>
-                {item.ctaLabel ?? `Chat Admin AC ${item.areaName}`}
+                {item.ctaLabel ?? `Cek AC ${item.areaName}`}
               </WhatsappLink>
               <a href="#estimasi-budget" className="inline-flex items-center justify-center rounded-full border border-slate-200 bg-white px-6 py-4 font-black text-slate-900 shadow-sm transition hover:bg-slate-50">
                 Lihat Estimasi Budget

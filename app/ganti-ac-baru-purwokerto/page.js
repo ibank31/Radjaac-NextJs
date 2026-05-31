@@ -71,7 +71,7 @@ export default function GantiAcBaruPurwokertoPage() {
           <p className="mt-4 max-w-3xl text-sm leading-6 text-slate-600">
             RADJA AC berfokus membantu pembelian AC baru. Untuk perbaikan, cuci AC, atau bongkar-pasang
             service murni, admin akan cek kebutuhan dan ketersediaan informasi sebelum membahas pilihan unit baru.
-            Jika tujuan Anda adalah mengganti unit lama dengan unit baru, kirim data ruangan agar pilihan
+            Untuk mengganti unit lama dengan unit baru, kirim data ruangan agar pilihan
             AC bisa dicek lebih rapi.
           </p>
         </section>

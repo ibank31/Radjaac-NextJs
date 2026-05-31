@@ -29,7 +29,7 @@ const contactReasons = [
   ],
   [
     "Stok dicek dulu",
-    "Tipe, brand, harga, dan ketersediaan unit dicek sebelum Anda lanjut ke pembelian.",
+    "Tipe, brand, harga, dan ketersediaan unit dicek sebelum lanjut ke pembelian.",
   ],
   [
     "Biaya lebih jelas dari awal",

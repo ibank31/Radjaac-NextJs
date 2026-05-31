@@ -215,7 +215,7 @@ export default function HeaderClient() {
             source="Header"
             intent="konsultasi beli AC"
           >
-            Chat Admin
+            Cek AC
           </WhatsappLink>
         </div>
 
@@ -259,7 +259,7 @@ export default function HeaderClient() {
                 intent="konsultasi beli AC"
                 onClick={() => setIsMobileOpen(false)}
               >
-                Chat Admin
+                Cek AC
               </WhatsappLink>
             </div>
           </div>

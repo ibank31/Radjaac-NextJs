@@ -380,7 +380,7 @@ function HomePriceEstimate() {
             </h2>
           </div>
           <p className="text-sm leading-7 text-slate-600 sm:text-base">
-            Gambaran awal supaya Anda tahu budget segini dapat pilihan merek apa saja. Rincian harga
+            Gambaran awal untuk melihat budget segini dapat pilihan merek apa saja. Rincian harga
             mengikuti tipe unit, stok, promo, dan kondisi pemasangan di lokasi.
           </p>
         </div>
@@ -526,11 +526,11 @@ function HomeCategory() {
       <div className="mb-6">
         <SectionBadge>Kategori Produk</SectionBadge>
         <h2 className="mt-4 text-3xl font-black tracking-tight text-slate-950 sm:text-4xl">
-          Pilih dari jenis ruangan Anda
+          Pilih dari jenis ruangan
         </h2>
         <p className="mt-3 max-w-2xl text-sm leading-7 text-slate-600 sm:text-base">
           Kamar kost, rumah, toko yang pintunya sering buka, dan kantor hitungannya berbeda. Mulai dari
-          kategori yang paling dekat dengan kondisi tempat Anda.
+          kategori yang paling dekat dengan kondisi lokasi.
         </p>
       </div>
 
