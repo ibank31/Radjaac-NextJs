@@ -44,7 +44,7 @@ export default function GantiAcBaruPurwokertoPage() {
         </h1>
         <p className="mt-6 max-w-3xl text-lg leading-8 text-slate-600">
           Jika AC lama mulai sering bermasalah, kurang dingin, boros listrik, atau sudah tidak sesuai
-          kebutuhan ruangan, RADJA AC membantu Anda mempertimbangkan pilihan AC baru yang lebih masuk akal.
+          kebutuhan ruangan, RADJA AC mencocokkan pilihan AC baru yang lebih masuk akal.
           Fokus halaman ini adalah konsultasi pembelian unit baru, cek kebutuhan PK, stok, daya listrik,
           budget, pengiriman, dan opsi pemasangan.
         </p>

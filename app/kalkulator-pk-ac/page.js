@@ -59,7 +59,7 @@ export default function KalkulatorPkAcPage() {
           Kalkulator PK AC untuk estimasi kebutuhan ruangan sebelum order
         </h1>
         <p className="mt-6 max-w-3xl text-lg leading-8 text-slate-600">
-          Halaman ini membantu Anda memperkirakan kebutuhan awal sebelum memilih AC. Ukuran ruangan
+          Halaman ini menghitung kebutuhan awal sebelum memilih AC. Ukuran ruangan
           penting, tetapi keputusan akhir tetap perlu melihat tinggi plafon, panas matahari, jumlah orang,
           daya listrik, pola pemakaian, dan opsi pemasangan.
         </p>

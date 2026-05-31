@@ -159,7 +159,7 @@ export default async function ArticleDetailPage({ params }) {
             Lanjutkan ke halaman terkait
           </p>
           <h2 className="mb-5 text-2xl font-black tracking-tight sm:text-3xl">
-            Pilih halaman yang paling sesuai dengan kebutuhan Anda
+            Pilih halaman lanjutan sesuai kebutuhan ruangan
           </h2>
           <div className="grid gap-4 sm:grid-cols-2">
             {moneyLinks.map(([label, href, description]) => (

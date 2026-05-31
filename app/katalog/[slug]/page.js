@@ -295,7 +295,7 @@ export default async function CatalogDetailPage({ params }) {
       <section className="mx-auto max-w-7xl px-4 pb-16 pt-8 sm:px-6 lg:px-8 lg:pb-20">
         <div className="rounded-[1.7rem] border border-[#25D366]/20 bg-[#25D366]/10 p-6 text-center shadow-[0_18px_50px_rgba(15,39,66,0.08)] sm:p-10 lg:p-14">
           <h2 className="mx-auto mb-5 max-w-3xl text-3xl font-black tracking-[-0.03em] text-slate-950 sm:text-4xl">
-            Belum yakin kategori ini cocok?
+            Cocokkan kategori dengan data ruangan
           </h2>
           <p className="mx-auto mb-6 max-w-2xl leading-7 text-slate-700">
             Kirim ukuran ruangan, daya listrik, kota, budget, dan kebutuhan unit saja atau sekalian pemasangan. Admin RADJA AC cocokkan pilihan AC dari ukuran ruangan, daya listrik, budget, dan stok.
