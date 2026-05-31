@@ -27,7 +27,7 @@ export const procurementItems = [
       "Ukuran tiap kamar, tinggi plafon, dan paparan panas",
       "Daya listrik per kamar atau per lantai",
       "Target tipe unit: hemat budget, low watt, atau inverter",
-      "Akses lokasi, titik outdoor, dan jadwal pekerjaan bertahap",
+      "Akses lokasi, titik outdoor, timeline kebutuhan, dan jadwal pekerjaan bertahap",
     ],
     suggestedLinks: [
       ["AC 1/2 PK", routes.katalogAcSetengahPk],
@@ -65,7 +65,7 @@ export const procurementItems = [
       "Ukuran kamar, posisi outdoor, dan potensi suara indoor",
       "Durasi pemakaian harian dan prioritas hemat listrik",
       "Kebutuhan tipe seragam atau kombinasi beberapa tipe",
-      "Jadwal pekerjaan agar tidak bentrok dengan tamu menginap",
+      "Timeline kebutuhan dan jadwal pekerjaan agar tidak bentrok dengan tamu menginap",
     ],
     suggestedLinks: [
       ["AC Inverter", routes.katalogAcInverter],
