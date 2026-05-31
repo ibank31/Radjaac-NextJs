@@ -118,7 +118,7 @@ export default function KalkulatorPkAcPage() {
 
         <section className="mt-12 rounded-3xl bg-white p-6 text-slate-950">
           <h2 className="text-2xl font-black">Mau diarahkan kebutuhan PK?</h2>
-          <p className="mt-4 max-w-3xl text-sm leading-6 text-slate-300">
+          <p className="mt-4 max-w-3xl text-sm leading-6 text-slate-600">
             Kirim ukuran ruangan, tinggi plafon jika tahu, daya listrik, kota, budget, dan kebutuhan unit
             saja atau sekalian opsi pemasangan. Admin RADJA AC cocokkan pilihan dari ukuran ruangan, daya listrik, dan stok.
           </p>
