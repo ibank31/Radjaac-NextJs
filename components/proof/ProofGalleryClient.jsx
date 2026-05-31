@@ -41,6 +41,12 @@ const galleryFilters = [
 
 const galleryVideos = [
   {
+    title: "Restock Stok AC RADJA AC 26 Mei 2026",
+    category: "Gudang",
+    video: "/images/gallery/restock-video-26-5-2026.mp4",
+    thumbnail: "/images/gallery/restock-video-26-5-2026-poster.webp",
+  },
+  {
     title: "Pengiriman AC RADJA AC",
     category: "Pengiriman",
     video: "/videos/pengiriman-ac-radja-ac-purwokerto-01.mp4",
@@ -61,6 +67,26 @@ const galleryVideos = [
 ];
 
 const galleryItems = [
+  {
+    title: "Stok AC Sansui dan Gree RADJA AC",
+    category: "Gudang",
+    image: "/images/gallery/stock-sansui-gree.webp",
+  },
+  {
+    title: "Showroom RADJA AC 31 Mei 2026",
+    category: "Showroom",
+    image: "/images/gallery/showroom-31-5-2026.webp",
+  },
+  {
+    title: "Unit Bestlife Terjual",
+    category: "Display Produk",
+    image: "/images/gallery/bestlife-sold.webp",
+  },
+  {
+    title: "Restock AC Midea, TCL, dan LG",
+    category: "Gudang",
+    image: "/images/gallery/restock-mide-tcl-lg.webp",
+  },
   {
     title: "Pengiriman AC Daikin RADJA AC",
     category: "Pengiriman",
