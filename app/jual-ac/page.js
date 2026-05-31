@@ -91,7 +91,7 @@ export default function JualAcPage() {
                 source="Halaman Jual AC"
                 intent="konsultasi pembelian AC original multi-brand, cek PK, stok, pengiriman, dan opsi pemasangan"
               >
-                Chat Admin untuk Cek AC
+                Cek AC dari Data Ruangan
               </WhatsappLink>
               <Link
                 href={routes.katalog}

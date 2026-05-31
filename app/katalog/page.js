@@ -93,7 +93,7 @@ export default function KatalogPage() {
                 source="Halaman Katalog"
                 intent="konsultasi kategori AC dan rekomendasi PK"
               >
-                Chat, Minta Rekomendasi AC
+                Minta Rekomendasi AC
               </WhatsappLink>
               <a href="#kategori-katalog" className="inline-flex items-center justify-center rounded-full border border-slate-200 bg-white px-6 py-4 font-black text-slate-900 shadow-sm transition hover:bg-slate-50">
                 Pilih Kategori AC
@@ -229,7 +229,7 @@ export default function KatalogPage() {
             source="Halaman Katalog - Final CTA"
             intent="minta rekomendasi kategori AC dari katalog"
           >
-            Chat RADJA AC Sekarang
+            Kirim Data Ruangan
           </WhatsappLink>
         </div>
       </section>

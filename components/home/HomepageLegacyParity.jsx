@@ -233,7 +233,7 @@ function HomeHero() {
               source="Homepage Hero"
               intent="konsultasi AC yang cocok, cek PK, stok, pengiriman, dan pemasangan"
             >
-              Chat Admin Sekarang
+              Kirim Ukuran Ruangan
             </WhatsappLink>
 
             <ArrowLink
@@ -429,7 +429,7 @@ function HomePriceEstimate() {
             source="Home Price Estimate"
             intent="cek estimasi budget AC dan pemasangan"
           >
-            Sudah Punya Budget? Chat Sekarang
+            Cek Budget dari Data Ruangan
           </WhatsappLink>
         </div>
       </div>
@@ -486,7 +486,7 @@ function HomeSalesLanding() {
                 source="Home Sales Landing"
                 intent="minta rekomendasi AC sesuai ruangan dan budget"
               >
-                Tanya Rekomendasi via WhatsApp
+                Minta Rekomendasi AC
               </WhatsappLink>
               <ArrowLink
                 href={routes.katalog}

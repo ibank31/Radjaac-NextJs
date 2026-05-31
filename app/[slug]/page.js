@@ -210,7 +210,7 @@ export default async function AreaPage({ params }) {
             </div>
           </div>
           <div className="mt-5 flex justify-center">
-            <WhatsappLink className="inline-flex w-full items-center justify-center rounded-full bg-[#25D366] px-5 py-3 text-sm font-black text-slate-950 transition hover:bg-[#20BA5A] sm:w-auto" source={`${item.label} - Estimasi Budget`} intent={item.waIntent} area={item.waArea}>Sudah Punya Budget? Chat Sekarang</WhatsappLink>
+            <WhatsappLink className="inline-flex w-full items-center justify-center rounded-full bg-[#25D366] px-5 py-3 text-sm font-black text-slate-950 transition hover:bg-[#20BA5A] sm:w-auto" source={`${item.label} - Estimasi Budget`} intent={item.waIntent} area={item.waArea}>Cek Budget Area Ini</WhatsappLink>
           </div>
         </div>
       </section>

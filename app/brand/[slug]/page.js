@@ -255,7 +255,7 @@ export default async function BrandDetailPage({ params }) {
                     intent="cek stok dan konsultasi AC Gree melalui Proshop Gree"
                     brand="Gree"
                   >
-                    Cek Stok Gree via WhatsApp
+                    Cek Unit Gree Proshop
                   </WhatsappLink>
                 </div>
               </div>
