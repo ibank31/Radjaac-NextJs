@@ -227,7 +227,7 @@ export default async function BrandDetailPage({ params }) {
                 </h2>
 
                 <p className="mt-5 max-w-2xl text-sm leading-7 text-slate-600 sm:text-base">
-                  RADJA AC memiliki dukungan Proshop Gree. Untuk pembelian AC Gree, admin mengarahkan pilihan
+                  RADJA AC memiliki dukungan Proshop Gree. Untuk pembelian AC Gree, admin cek pilihan
                   standard, low watt, inverter, kapasitas PK, stok unit, pengiriman, opsi pemasangan, dan alur
                   bantuan klaim sesuai ketentuan brand.
                 </p>

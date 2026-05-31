@@ -186,7 +186,7 @@ export default async function ArticleDetailPage({ params }) {
             Mulai pilih AC dari data ruangan
           </h2>
           <p className="mx-auto mb-6 max-w-2xl text-sm leading-7 text-slate-600">
-            Chat RADJA AC untuk cek stok, tanya rekomendasi PK, dan pilih tipe AC berdasarkan kebutuhan ruangan.
+            Kirim data ruangan untuk cek stok, rekomendasi PK, dan pilihan tipe AC yang sesuai.
           </p>
           <WhatsappLink
             className="inline-flex items-center justify-center rounded-full bg-[#25D366] px-6 py-4 font-bold text-slate-950 transition hover:bg-[#20BA5A]"

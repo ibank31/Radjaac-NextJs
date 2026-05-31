@@ -33,7 +33,7 @@ export default function ArtikelPage() {
           Panduan beli AC sebelum chat admin
         </h1>
         <p className="mt-6 max-w-3xl text-base leading-8 text-slate-600 sm:text-lg">
-          Baca panduan singkat tentang PK, ukuran ruangan, inverter vs low watt, instalasi, dan tanda kapan AC lama perlu dievaluasi. Artikel dibuat untuk membantu calon pembeli mengirim brief WhatsApp yang lebih jelas.
+          Baca panduan singkat tentang PK, ukuran ruangan, inverter vs low watt, instalasi, dan tanda kapan AC lama perlu dievaluasi. Artikel ini jadi panduan awal sebelum mengirim brief WhatsApp ke admin.
         </p>
 
         <div className="mt-8 flex flex-col gap-3 sm:flex-row sm:flex-wrap">

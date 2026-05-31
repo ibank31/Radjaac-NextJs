@@ -80,9 +80,9 @@ export default function JualAcPage() {
               Beli AC dimulai dari ukuran ruangan, daya listrik, stok unit, dan kebutuhan pemasangan.
             </h1>
             <p className="mt-6 max-w-2xl text-base leading-8 text-slate-600 sm:text-lg">
-              RADJA AC membantu pembelian AC original multi-brand untuk rumah, kost, toko,
+              RADJA AC melayani pembelian AC original multi-brand untuk rumah, kost, toko,
               kantor, hotel, proyek, dan pengadaan banyak unit. Admin cek kebutuhan PK, pilihan brand,
-              stok unit, area pengiriman, dan opsi pemasangan sebelum Anda deal.
+              stok unit, area pengiriman, dan opsi pemasangan sebelum pembelian.
             </p>
 
             <div className="mt-9 flex flex-col gap-3 sm:flex-row">

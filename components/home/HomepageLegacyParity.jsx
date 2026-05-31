@@ -376,7 +376,7 @@ function HomePriceEstimate() {
           <div>
             <SectionBadge>Estimasi Budget AC + Pasang</SectionBadge>
             <h2 className="mt-4 text-3xl font-black tracking-tight text-slate-950 sm:text-4xl">
-              Pilih AC sesuai budget Anda
+              Pilih AC dari budget awal
             </h2>
           </div>
           <p className="text-sm leading-7 text-slate-600 sm:text-base">
@@ -694,7 +694,7 @@ function HomeClosingCta() {
               Siap konsultasi?
             </p>
             <h2 className="max-w-2xl text-3xl font-black tracking-[-0.03em] text-slate-950 sm:text-4xl">
-              Kirim ukuran ruangan dan kebutuhan AC Anda.
+              Kirim ukuran ruangan dan kebutuhan AC.
             </h2>
             <p className="mt-4 max-w-2xl text-sm leading-7 text-slate-600 sm:text-base">
               Admin RADJA AC membaca ukuran ruangan, daya listrik, estimasi budget, alamat pengiriman, dan kebutuhan pemasangan sebelum memberi arahan.
