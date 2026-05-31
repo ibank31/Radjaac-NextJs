@@ -105,7 +105,7 @@ export default function PengadaanAcPage() {
               {[
                 ["Cek PK awal", "Bantu baca kebutuhan dari ukuran dan fungsi ruangan."],
                 ["Multi-brand", "Pilihan brand dibaca dari kebutuhan proyek."],
-                ["Lead rapi", "Pesan WA berisi data proyek, bukan chat kosong."],
+                ["Brief jelas", "Pesan WA berisi data proyek, bukan chat kosong."],
               ].map(([title, desc]) => (
                 <div
                   key={title}
@@ -270,7 +270,7 @@ export default function PengadaanAcPage() {
                   Pilih kapasitas dari ukuran dan fungsi ruangan.
                 </h2>
                 <p className="mt-4 text-lg leading-8 text-slate-600">
-                  Tabel ini hanya panduan awal. Admin tetap perlu cek ukuran ruangan,
+                  Tabel ini hanya panduan awal. Admin cek ukuran ruangan,
                   tinggi plafon, paparan panas, jumlah orang, dan kondisi pemasangan.
                 </p>
               </div>
