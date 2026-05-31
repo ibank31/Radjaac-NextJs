@@ -112,9 +112,9 @@ export default function PkCalculator() {
   const waIntent = `konsultasi hasil kalkulator PK AC: ruangan ${formatNumber(result.area)} m2, estimasi ${result.recommendation.pk}, ${formatNumber(result.estimatedBtu, 0)} BTU, tipe ruang ${roomType}`;
 
   return (
-    <div className="rounded-[2rem] border border-slate-200 bg-white p-4 shadow-[0_22px_70px_rgba(15,39,66,0.10)] sm:p-6 lg:p-8">
+    <div className="rounded-[2rem] border border-cyan-100 bg-white/95 p-4 shadow-[0_28px_80px_rgba(15,39,66,0.12)] backdrop-blur sm:p-6 lg:p-8">
       <div className="grid gap-6 lg:grid-cols-[0.9fr_1.1fr] lg:items-start">
-        <section className="rounded-[1.6rem] border border-slate-200 bg-slate-50 p-5">
+        <section className="rounded-[1.6rem] border border-slate-200 bg-[linear-gradient(180deg,#ffffff_0%,#f8fbff_100%)] p-5 shadow-sm">
           <div className="mb-5">
             <p className="text-xs font-black uppercase tracking-[0.18em] text-cyan-700">Isi data ruangan</p>
             <h2 className="mt-2 text-2xl font-black text-slate-950">Ukur dulu sebelum pilih PK</h2>
@@ -162,7 +162,7 @@ export default function PkCalculator() {
           </div>
         </section>
 
-        <section className="rounded-[1.6rem] border border-cyan-100 bg-cyan-50 p-5">
+        <section className="rounded-[1.6rem] border border-cyan-200 bg-[linear-gradient(180deg,#ecfeff_0%,#f8fbff_100%)] p-5 shadow-[0_18px_50px_rgba(34,211,238,0.12)]">
           <div className="mb-5">
             <p className="text-xs font-black uppercase tracking-[0.18em] text-cyan-800">Estimasi awal</p>
             <h2 className="mt-2 text-2xl font-black text-slate-950">Cek ke admin sebelum deal</h2>

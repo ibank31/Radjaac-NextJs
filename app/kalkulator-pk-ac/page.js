@@ -50,8 +50,8 @@ const checkFactors = [
 
 export default function KalkulatorPkAcPage() {
   return (
-    <main className="bg-white">
-      <section className="mx-auto max-w-7xl px-4 py-16 lg:py-24">
+    <main className="bg-[linear-gradient(180deg,#f7fbff_0%,#eef8ff_42%,#ffffff_100%)]">
+      <section className="mx-auto max-w-7xl px-4 py-14 lg:py-20">
         <p className="text-sm font-bold uppercase tracking-[0.22em] text-slate-500">
           Kalkulator PK AC
         </p>
@@ -116,8 +116,8 @@ export default function KalkulatorPkAcPage() {
           </section>
         </div>
 
-        <section className="mt-12 rounded-3xl bg-white p-6 text-slate-950">
-          <h2 className="text-2xl font-black">Mau diarahkan kebutuhan PK?</h2>
+        <section className="mt-12 rounded-3xl border border-cyan-100 bg-white p-6 text-slate-950 shadow-[0_18px_55px_rgba(15,39,66,0.08)]">
+          <h2 className="text-2xl font-black">Mau cek hasil PK ke admin?</h2>
           <p className="mt-4 max-w-3xl text-sm leading-6 text-slate-600">
             Kirim ukuran ruangan, tinggi plafon jika tahu, daya listrik, kota, budget, dan kebutuhan unit
             saja atau sekalian opsi pemasangan. Admin RADJA AC cocokkan pilihan dari ukuran ruangan, daya listrik, dan stok.
