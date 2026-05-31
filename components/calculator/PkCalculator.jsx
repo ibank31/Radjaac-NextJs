@@ -28,9 +28,9 @@ const roomConditions = {
 const pkOptions = [
   { pk: "1/2 PK", maxBtu: 5000, watt: 350, href: routes.katalogAcSetengahPk },
   { pk: "3/4 PK", maxBtu: 7000, watt: 500, href: routes.katalogAcSplitRumah },
-  { pk: "1 PK", maxBtu: 9000, watt: 750, href: routes.artikelAcSatuPkUntukRuanganBerapa },
-  { pk: "1.5 PK", maxBtu: 12000, watt: 1100, href: routes.katalogAcSplitRumah },
-  { pk: "2 PK", maxBtu: 18000, watt: 1500, href: routes.katalogAcKantorKomersial },
+  { pk: "1 PK", maxBtu: 9000, watt: 750, href: routes.katalogAcSatuPk },
+  { pk: "1.5 PK", maxBtu: 12000, watt: 1100, href: routes.katalogAcSatuSetengahPk },
+  { pk: "2 PK", maxBtu: 18000, watt: 1500, href: routes.katalogAcDuaPk },
 ];
 
 const roomTypes = ["Kamar tidur", "Ruang keluarga", "Ruang kerja", "Toko kecil", "Kantor"];
