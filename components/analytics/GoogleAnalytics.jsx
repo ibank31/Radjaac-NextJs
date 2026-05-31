@@ -96,7 +96,7 @@ function GoogleAnalyticsEvents() {
 }
 
 export default function GoogleAnalytics() {
-  if (!GA_MEASUREMENT_ID || !isProductionHostname()) {
+  if (!GA_MEASUREMENT_ID) {
     return null;
   }
 
@@ -108,13 +108,15 @@ export default function GoogleAnalytics() {
       />
       <Script id="google-analytics" strategy="afterInteractive">
         {`
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){window.dataLayer.push(arguments);}
-          window.gtag = gtag;
-          gtag('js', new Date());
-          gtag('config', '${GA_MEASUREMENT_ID}', {
-            send_page_view: false
-          });
+          if (window.location.hostname === '${PRODUCTION_HOSTNAME}') {
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){window.dataLayer.push(arguments);}
+            window.gtag = gtag;
+            gtag('js', new Date());
+            gtag('config', '${GA_MEASUREMENT_ID}', {
+              send_page_view: false
+            });
+          }
         `}
       </Script>
       <Suspense fallback={null}>
