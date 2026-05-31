@@ -39,7 +39,7 @@ const quickTips = [
   "Jangan asal ambil 1/2 PK karena paling murah. Kalau ruangan terlalu besar, AC bekerja keras terus dan tetap susah dingin.",
   "Plafon tinggi, kaca besar, atau dinding kena matahari langsung bisa membuat kebutuhan BTU naik.",
   "Kalau AC sering menyala lama setiap hari, inverter menjadi pilihan, bukan hanya melihat harga unit awal.",
-  "Daya listrik rumah dan MCB tetap perlu dicek sebelum deal agar pilihan PK selaras dengan pemakaian listrik lain.",
+  "Daya listrik rumah dan MCB perlu dicek agar pilihan PK selaras dengan pemakaian listrik lain.",
 ];
 
 function formatNumber(value, maximumFractionDigits = 1) {
@@ -165,7 +165,7 @@ export default function PkCalculator() {
         <section className="rounded-[1.6rem] border border-cyan-200 bg-[linear-gradient(180deg,#ecfeff_0%,#f8fbff_100%)] p-5 shadow-[0_18px_50px_rgba(34,211,238,0.12)]">
           <div className="mb-5">
             <p className="text-xs font-black uppercase tracking-[0.18em] text-cyan-800">Estimasi awal</p>
-            <h2 className="mt-2 text-2xl font-black text-slate-950">Cek ke admin sebelum deal</h2>
+            <h2 className="mt-2 text-2xl font-black text-slate-950">Cek hasil PK ke admin</h2>
           </div>
 
           <div className="mb-5 grid grid-cols-2 gap-3 xl:grid-cols-4">
@@ -206,7 +206,7 @@ export default function PkCalculator() {
           <div className="mt-5 rounded-3xl border border-amber-200 bg-amber-50 p-4">
             <p className="font-black text-amber-950">Sudah keluar hasilnya? Jangan berhenti di sini</p>
             <p className="mt-2 text-sm leading-7 text-amber-900">
-              Kalkulator ini bantu kasih gambaran awal. Sebelum deal, konfirmasi stok unit, harga unit, biaya pasang, daya listrik, kondisi MCB, dan posisi pemasangan.
+              Kalkulator ini memberi gambaran awal. Kirim hasil hitung agar admin cek stok unit, harga unit, biaya pasang, daya listrik, kondisi MCB, dan posisi pemasangan.
             </p>
           </div>
         </section>

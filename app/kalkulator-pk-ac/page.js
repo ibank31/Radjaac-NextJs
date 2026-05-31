@@ -97,7 +97,7 @@ export default function KalkulatorPkAcPage() {
           </section>
 
           <section className="rounded-3xl border border-slate-200 p-6">
-            <h2 className="text-xl font-black text-slate-950">Arahkan hasil cek ke pilihan AC</h2>
+            <h2 className="text-xl font-black text-slate-950">Lanjutkan hasil cek ke pilihan AC</h2>
             <div className="mt-5 space-y-3 text-sm leading-6 text-slate-600">
               <p className="rounded-2xl bg-slate-50 p-4">
                 Untuk ruangan kecil, mulai dari halaman AC 1/2 PK lalu konfirmasi ukuran dan daya listrik.
