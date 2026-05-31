@@ -96,10 +96,10 @@ export default async function BrandDetailPage({ params }) {
     : ["Cek stok dulu", "Rekomendasi PK", "Pengiriman unit", "Opsi pemasangan"];
 
   const faqItems = [
-    [`Apakah RADJA AC menyediakan ${item.label} original?`, `RADJA AC mengarahkan pilihan ${item.label} original berdasarkan stok aktif. Tipe, harga, pengiriman, opsi pemasangan, dan garansi unit tetap dikonfirmasi admin sebelum pembelian.`],
+    [`Apakah RADJA AC menyediakan ${item.label} original?`, `RADJA AC menyediakan ${item.label} original. Admin cek tipe, harga, stok, pengiriman, pemasangan, dan garansi unit sebelum pembelian.`],
     [`Berapa harga ${item.label} terbaru?`, "Harga mengikuti kapasitas PK, tipe unit, stok, promo, alamat pengiriman, dan kebutuhan pemasangan. Kirim kebutuhan lewat WhatsApp agar admin cek estimasi terbaru."],
     [`${item.label} cocok untuk ruangan apa?`, "Kecocokan ditentukan oleh ukuran ruangan, tinggi plafon, paparan panas matahari, daya listrik, dan pola pemakaian."],
-    ["Beli unit saja tanpa pemasangan", "Silakan dibahas dengan admin. Kebutuhan unit saja, pengiriman, atau opsi pemasangan akan dikonfirmasi berdasarkan stok aktif, alamat, jumlah unit, dan jadwal."],
+    ["Beli unit saja tanpa pemasangan", "Kirim tipe unit, alamat, jumlah unit, dan kebutuhan pengiriman. Admin cek stok aktif dan jadwal."],
     ["Apa saja data yang perlu dikirim ke admin?", "Kirim ukuran ruangan, daya listrik, jenis ruangan, jumlah unit, preferensi tipe, lokasi, dan foto titik indoor-outdoor bila ingin opsi pemasangan."],
   ];
 
@@ -411,7 +411,7 @@ export default async function BrandDetailPage({ params }) {
       </section>
 
       <section className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8 lg:py-14">
-        <SectionTitle eyebrow="Brand Lain" title="Belum yakin pilih brand apa?" />
+        <SectionTitle eyebrow="Brand Lain" title="Pilih brand dari ukuran ruangan, daya listrik, dan stok" />
         <div className="flex flex-wrap justify-center gap-3">
           {relatedBrands.slice(0, 10).map((relatedBrand) => (
             <Link key={relatedBrand.slug} href={relatedBrand.path} className="rounded-full border border-slate-200 bg-white px-4 py-2 text-sm font-bold text-slate-700 shadow-sm transition hover:border-cyan-200 hover:bg-cyan-50 hover:text-cyan-800">

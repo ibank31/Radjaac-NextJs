@@ -25,7 +25,7 @@ const messageChecklist = [
 const contactReasons = [
   [
     "Tidak perlu nebak PK sendiri",
-    "Admin bantu arahkan kapasitas AC berdasarkan ukuran ruangan, pemakaian, daya listrik, dan kondisi lokasi.",
+    "Admin membaca kapasitas AC dari ukuran ruangan, pemakaian, daya listrik, dan kondisi lokasi.",
   ],
   [
     "Stok dikonfirmasi dulu",
@@ -56,7 +56,7 @@ export default function KontakPage() {
             </p>
 
             <h1 className="mt-6 max-w-4xl text-4xl font-black leading-tight tracking-[-0.04em] text-slate-950 md:text-6xl">
-              Mau beli AC? Chat admin dulu supaya PK, stok, dan opsi pemasangan tidak salah.
+              Mau beli AC? Kirim ukuran ruangan, daya listrik, lokasi, dan jumlah unit ke admin.
             </h1>
 
             <p className="mt-6 max-w-3xl text-base leading-8 text-slate-600 sm:text-lg">
@@ -107,7 +107,7 @@ export default function KontakPage() {
             </p>
 
             <p className="mt-4 text-sm leading-7 text-slate-600">
-              Supaya admin menjawab lebih tepat, kirim detail kebutuhan sejak pesan pertama.
+              Kirim detail sejak pesan pertama agar admin langsung membaca ukuran ruangan, daya listrik, stok, dan kebutuhan pemasangan.
             </p>
 
             <div className="mt-6 rounded-[1.45rem] border border-cyan-100 bg-cyan-50 p-5">

@@ -224,7 +224,7 @@ function HomeHero() {
           </h1>
 
           <p className="mt-5 max-w-2xl text-base leading-8 text-slate-600 sm:text-lg">
-            RADJA AC membantu pembelian AC original multi-brand untuk rumah, usaha, properti, dan proyek. Admin mengarahkan PK, stok, pengiriman, dan opsi pemasangan sebelum Anda deal.
+            RADJA AC membantu pembelian AC original multi-brand untuk rumah, usaha, properti, dan proyek. Admin cek PK, stok, pengiriman, dan pemasangan sebelum Anda deal.
           </p>
 
           <div className="mt-7 flex flex-col gap-3 sm:flex-row sm:flex-wrap">
@@ -252,7 +252,7 @@ function HomeHero() {
           </div>
 
           <p className="mt-5 max-w-2xl text-sm leading-7 text-slate-500">
-            Kirim ukuran ruangan, daya listrik, alamat/kota tujuan, dan jumlah unit. Admin mengarahkan kebutuhan dari awal.
+            Kirim ukuran ruangan, daya listrik, alamat/kota tujuan, dan jumlah unit. Admin membaca kebutuhan dari awal.
           </p>
         </div>
 
@@ -578,8 +578,7 @@ function HomeBrands() {
       <p className="mb-7 max-w-3xl text-sm leading-7 text-slate-600 sm:text-base">
         Gree punya value kuat dan RADJA AC tercantum sebagai Proshop Gree resmi. Daikin cocok untuk
         ketenangan jangka panjang, Midea populer karena harga masuk, Hisense modern, Sansui untuk kebutuhan
-        ekonomis, dan brand lain bisa dicek berdasarkan stok aktif. Belum yakin pilih yang mana? Chat dulu — admin
-        bantu arahkan sesuai ruangan dan listrik.
+        ekonomis, dan brand lain dicek dari stok aktif. Kirim ukuran ruangan dan daya listrik — admin cocokkan pilihan dari data itu.
       </p>
 
       <div className="mb-8 grid grid-cols-2 gap-4 md:grid-cols-4 lg:grid-cols-8">
@@ -623,7 +622,7 @@ function HomeBrands() {
             </h3>
           </div>
           <p className="text-sm text-slate-500 sm:text-right">
-            Mau cari brand tertentu? Chat dulu, nanti admin mengarahkan.
+            Cari brand tertentu? Kirim nama brand dan ukuran ruangan ke admin.
           </p>
         </div>
 
@@ -698,7 +697,7 @@ function HomeClosingCta() {
               Kirim ukuran ruangan dan kebutuhan AC Anda.
             </h2>
             <p className="mt-4 max-w-2xl text-sm leading-7 text-slate-600 sm:text-base">
-              Admin RADJA AC mengarahkan rekomendasi PK, opsi brand, estimasi budget, pengiriman, dan opsi pemasangan. Tidak perlu langsung deal — mulai konsultasi dari data ruangan.
+              Admin RADJA AC membaca ukuran ruangan, daya listrik, estimasi budget, alamat pengiriman, dan kebutuhan pemasangan sebelum memberi arahan.
             </p>
           </div>
 

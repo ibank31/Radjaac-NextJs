@@ -76,7 +76,7 @@ export default function PengadaanAcPage() {
             </h1>
 
             <p className="mt-6 max-w-2xl text-lg leading-8 text-slate-600">
-              RADJA AC mengarahkan kebutuhan PK, opsi brand, ketersediaan unit,
+              RADJA AC cek kebutuhan PK, pilihan brand, ketersediaan unit,
               pengiriman, dan kebutuhan pemasangan berdasarkan lokasi, jumlah ruangan,
               daya listrik, serta timeline proyek.
             </p>
@@ -104,7 +104,7 @@ export default function PengadaanAcPage() {
             <div className="mt-10 grid gap-3 sm:grid-cols-3">
               {[
                 ["Cek PK awal", "Bantu baca kebutuhan dari ukuran dan fungsi ruangan."],
-                ["Multi-brand", "Pilihan brand dikonsultasikan berdasarkan kebutuhan."],
+                ["Multi-brand", "Pilihan brand dibaca dari kebutuhan proyek."],
                 ["Lead rapi", "Pesan WA berisi data proyek, bukan chat kosong."],
               ].map(([title, desc]) => (
                 <div
@@ -309,7 +309,7 @@ export default function PengadaanAcPage() {
             </div>
 
             <div className="rounded-[2rem] bg-white p-6 text-slate-950 shadow-2xl">
-              <h3 className="text-xl font-black text-blue-950">Data yang sebaiknya dikirim</h3>
+              <h3 className="text-xl font-black text-blue-950">Data yang dikirim sebelum konsultasi</h3>
               <ul className="mt-4 space-y-3 text-sm leading-6 text-slate-600">
                 <li>• Lokasi atau kota proyek</li>
                 <li>• Jumlah unit / jumlah ruangan</li>

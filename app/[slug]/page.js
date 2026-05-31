@@ -102,11 +102,11 @@ export default async function AreaPage({ params }) {
   const bulkCards = [
     ["Rumah & Kamar", `Cek AC untuk kamar tidur, ruang keluarga, dan rumah tinggal di ${item.areaName}.`],
     ["Toko, Ruko & Usaha", `Bantu pilih AC untuk ruang usaha, area pelanggan, dan kantor kecil di ${item.areaName}.`],
-    ["Kost & Banyak Unit", "Untuk banyak kamar, admin membaca daya listrik, pilihan unit, stok, dan jadwal bertahap."],
+    ["Kost & Banyak Unit", "Untuk banyak kamar, admin cek daya listrik, pilihan unit, stok, dan jadwal bertahap."],
   ];
 
   const valueItems = [
-    ["Cek stok & budget dulu", "Admin mengarahkan unit yang tersedia, opsi brand, dan estimasi awal sebelum Anda konfirmasi."],
+    ["Cek stok & budget dulu", "Admin cek unit yang tersedia, pilihan brand, dan estimasi awal sebelum Anda konfirmasi."],
     ["Bantu pilih PK", "Ukuran ruangan, daya listrik, jumlah orang, panas matahari, dan jam pemakaian ikut dipertimbangkan."],
     ["Pemasangan berdasarkan lokasi", "Panjang pipa, posisi outdoor, akses lokasi, dan tambahan material dibahas di awal."],
   ];
@@ -123,12 +123,12 @@ export default async function AreaPage({ params }) {
       `Apakah RADJA AC punya toko fisik di ${item.areaName}?`,
       isPurwokerto
         ? "RADJA AC berbasis di Pamijen, Sokaraja, Banyumas dan melayani area Purwokerto. Kirim kebutuhan agar admin mengecek stok aktif."
-        : `RADJA AC berbasis di Banyumas. Untuk area ${item.areaName}, admin membantu konsultasi PK, cek stok, pengiriman unit, dan opsi pemasangan sesuai konfirmasi.`,
+        : `RADJA AC berbasis di Banyumas. Untuk area ${item.areaName}, admin cek PK, stok, pengiriman unit, dan kebutuhan pemasangan berdasarkan data awal.`,
     ],
     [`Berapa estimasi budget AC untuk area ${item.areaName}?`, "Estimasi awal mulai dari 3 jutaan untuk unit + pemasangan standar tertentu. Finalnya bergantung brand, PK, stok, alamat, dan kondisi pemasangan."],
-    ["Saya belum tahu butuh berapa PK, bisa dibantu?", "Bisa. Kirim ukuran ruangan, daya listrik, jumlah orang, dan pola pemakaian. Admin bantu arahkan PK yang masuk akal."],
-    ["Bisa beli unit AC tanpa pemasangan?", "Bisa dibahas dengan admin. Kebutuhan unit saja, pengiriman, atau opsi pemasangan akan dikonfirmasi berdasarkan stok aktif dan alamat."],
-    ["Brand apa saja yang bisa dicek?", "Admin dapat mengarahkan Gree, Daikin, Midea, Hisense, Sharp, Panasonic, Samsung, Aqua, TCL, dan brand lain berdasarkan stok aktif."],
+    ["Belum tahu butuh berapa PK?", "Kirim ukuran ruangan, daya listrik, jumlah orang, dan pola pemakaian. Admin cocokkan kapasitas PK dari data itu."],
+    ["Beli unit AC tanpa pemasangan", "Kirim tipe unit, alamat pengiriman, dan jumlah unit. Admin cek stok aktif dan skema pengiriman."],
+    ["Brand apa saja yang tersedia?", "Admin cek Gree, Daikin, Midea, Hisense, Sharp, Panasonic, Samsung, Aqua, TCL, dan brand lain dari stok aktif."],
     [`Bisa untuk kost, kantor, toko, atau proyek di ${item.areaName}?`, "Bisa. Untuk banyak unit, kirim jumlah ruangan, ukuran ruangan, daya listrik, target budget, timeline, dan lokasi."],
   ];
 
@@ -193,7 +193,7 @@ export default async function AreaPage({ params }) {
       <section id="estimasi-budget" className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8 lg:py-12">
         <div className="rounded-[1.7rem] border border-cyan-100 bg-cyan-50 p-5 sm:p-6 lg:p-8">
           <h2 className="mb-3 text-center text-2xl font-black tracking-tight text-slate-950 sm:text-3xl">Estimasi Budget AC + Pasang</h2>
-          <p className="mx-auto mb-4 max-w-2xl text-center text-sm leading-7 text-slate-600">Gambaran awal supaya Anda tahu budget segini biasanya masuk pilihan apa. Estimasi tetap mengikuti brand, PK, stok, alamat, dan kondisi pemasangan di area {item.areaName}.</p>
+          <p className="mx-auto mb-4 max-w-2xl text-center text-sm leading-7 text-slate-600">Gunakan tabel ini sebagai patokan awal. Angka akhir tetap mengikuti brand, PK, stok, alamat, dan kondisi pemasangan di area {item.areaName}.</p>
           <div className="mx-auto mb-4 grid max-w-5xl gap-3 sm:grid-cols-3">
             {budgetPackages.map(([budget, brands, description]) => (
               <div key={budget} className="rounded-[22px] border border-slate-200 bg-[#f7fbff]/45 p-4 text-center">
@@ -231,7 +231,7 @@ export default async function AreaPage({ params }) {
 
       <section className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8 lg:py-12">
         <div className="grid gap-8 lg:grid-cols-[0.9fr_1.1fr] lg:items-start">
-          <div><div className="mb-4 inline-flex rounded-full border border-cyan-100 bg-cyan-50 px-4 py-2 text-sm font-semibold text-cyan-700">ALUR BELI AC</div><h2 className="mb-5 text-3xl font-black tracking-tight sm:text-4xl lg:text-5xl">Cek kebutuhan dulu, baru kunci stok dan jadwal</h2><p className="mb-6 text-sm leading-7 text-slate-600 sm:text-base">Mulai dari area dan ukuran ruangan, admin mengecek stok, mengarahkan PK, jelaskan estimasi, lalu jadwal dikunci setelah cocok.</p><WhatsappLink className="inline-flex items-center justify-center rounded-full bg-[#25D366] px-6 py-4 font-bold text-slate-950 transition hover:bg-[#20BA5A]" source={`${item.label} - Alur Beli`} intent={item.waIntent} area={item.waArea}>Cek Budget, Stok & Jadwal</WhatsappLink></div>
+          <div><div className="mb-4 inline-flex rounded-full border border-cyan-100 bg-cyan-50 px-4 py-2 text-sm font-semibold text-cyan-700">ALUR BELI AC</div><h2 className="mb-5 text-3xl font-black tracking-tight sm:text-4xl lg:text-5xl">Cek kebutuhan dulu, baru kunci stok dan jadwal</h2><p className="mb-6 text-sm leading-7 text-slate-600 sm:text-base">Mulai dari area dan ukuran ruangan. Admin cek stok, arahkan PK, jelaskan estimasi, lalu jadwal dikunci setelah cocok.</p><WhatsappLink className="inline-flex items-center justify-center rounded-full bg-[#25D366] px-6 py-4 font-bold text-slate-950 transition hover:bg-[#20BA5A]" source={`${item.label} - Alur Beli`} intent={item.waIntent} area={item.waArea}>Cek Budget, Stok & Jadwal</WhatsappLink></div>
           <div className="grid gap-4">{processSteps.map(([title, description], index) => <div key={title} className="rounded-[1.45rem] border border-slate-200 bg-white p-5"><div className="mb-3 flex items-center gap-3"><span className="flex h-9 w-9 items-center justify-center rounded-full bg-cyan-300 text-sm font-black text-slate-950">{index + 1}</span><h3 className="text-lg font-black text-slate-950">{title}</h3></div><p className="text-sm leading-7 text-slate-600">{description}</p></div>)}</div>
         </div>
       </section>

@@ -13,9 +13,9 @@ export const procurementItems = [
     intro:
       "Untuk kost, apartemen, kontrakan, atau hunian banyak kamar, pembelian AC perlu membaca harga unit, jumlah kamar, daya listrik, dan rencana pemasangan. Jumlah kamar, daya listrik, tipe unit, jadwal pengiriman, dan rencana pemasangan perlu dibaca lebih rapi agar pembelian banyak unit tertata di lapangan.",
     segmentContext:
-      "Kost dan apartemen biasanya membutuhkan unit yang mudah dirawat, tipe relatif seragam, dan konsumsi listrik yang masuk akal. Admin RADJA AC membantu membaca kebutuhan dari jumlah kamar, ukuran ruangan, daya listrik per titik, prioritas budget, serta apakah pengiriman atau pemasangan perlu dilakukan bertahap.",
+      "Untuk kost dan apartemen, pilih unit yang mudah dirawat, tipenya seragam, dan konsumsi listriknya masuk akal. Admin RADJA AC membaca jumlah kamar, ukuran ruangan, daya listrik per titik, prioritas budget, serta rencana pengiriman atau pemasangan bertahap.",
     coordinationNote:
-      "Koordinasi lokasi atau survey dibahas sejak awal berdasarkan kebutuhan, jumlah unit, area, dan jadwal. admin membaca kebutuhan awal dari data ruangan dan lokasi.",
+      "Koordinasi lokasi atau survey dibahas sejak awal berdasarkan kebutuhan, jumlah unit, area, dan jadwal. Admin membaca kebutuhan awal dari data ruangan dan lokasi.",
     commonNeeds: [
       "AC banyak kamar untuk kost, kontrakan, mess, atau hunian sewa",
       "Pilihan unit seragam agar perawatan dan penggantian lebih mudah",
@@ -51,9 +51,9 @@ export const procurementItems = [
     intro:
       "Untuk hotel, guest house, homestay, atau villa, AC berpengaruh langsung ke kenyamanan tamu. Pemilihan unit perlu mempertimbangkan ukuran kamar, tingkat kebisingan, durasi pemakaian, daya listrik, kesiapan stok, dan jadwal pekerjaan agar operasional tidak terganggu.",
     segmentContext:
-      "Kebutuhan penginapan biasanya menuntut unit yang nyaman, mudah dijelaskan ke tamu bila ada maintenance, dan menjaga okupansi tetap tertata. Admin membantu menyiapkan opsi berdasarkan kategori kamar, area publik, jadwal kosong kamar, serta kebutuhan pengiriman atau pemasangan bertahap.",
+      "Untuk penginapan, AC harus nyaman untuk tamu dan jadwal pekerjaan tidak boleh mengganggu okupansi. Admin menyiapkan opsi dari kategori kamar, area publik, jadwal kosong kamar, dan kebutuhan pengiriman atau pemasangan bertahap.",
     coordinationNote:
-      "Koordinasi lokasi atau survey dibahas sejak awal sesuai jumlah unit, area, jadwal, dan kebutuhan proyek. Admin memulai dari data kamar, foto lokasi, atau daftar kebutuhan awal.",
+      "Koordinasi lokasi atau survey dibahas sejak awal sesuai jumlah unit, area, jadwal, dan kebutuhan proyek. Kirim data kamar, foto lokasi, atau daftar kebutuhan awal.",
     commonNeeds: [
       "AC kamar tamu hotel, guest house, homestay, atau villa",
       "AC lobby, resepsionis, ruang tunggu, dan area bersama",
@@ -87,9 +87,9 @@ export const procurementItems = [
     h1: "Pengadaan AC untuk kontraktor, developer, dan kebutuhan proyek",
     eyebrow: "Pengadaan AC",
     intro:
-      "Untuk kontraktor, developer, dan proyek bangunan, kebutuhan AC biasanya terkait RAB, BOQ, jumlah titik, deadline pekerjaan, dan koordinasi lapangan. RADJA AC mengarahkan pilihan unit, kapasitas PK, stok, pengiriman, serta opsi pemasangan berdasarkan data proyek yang dikirim.",
+      "Untuk kontraktor, developer, dan proyek bangunan, kebutuhan AC terkait RAB, BOQ, jumlah titik, deadline pekerjaan, dan koordinasi lapangan. RADJA AC menyusun pilihan unit, kapasitas PK, stok, pengiriman, serta pemasangan dari data proyek yang dikirim.",
     segmentContext:
-      "Kebutuhan kontraktor dan developer sering membutuhkan alternatif brand sesuai budget, kesiapan unit, dan jadwal kirim. Admin dapat mulai dari daftar titik AC, ukuran ruangan, gambar sederhana, BOQ/RAB awal, atau foto lokasi untuk membantu membaca kebutuhan sebelum penawaran dibicarakan.",
+      "Kebutuhan kontraktor dan developer sering membutuhkan alternatif brand sesuai budget, kesiapan unit, dan jadwal kirim. Admin mulai dari daftar titik AC, ukuran ruangan, gambar sederhana, BOQ/RAB awal, atau foto lokasi sebelum penawaran dibahas.",
     coordinationNote:
       "Koordinasi lokasi atau survey dibahas sejak awal berdasarkan kebutuhan proyek, lokasi, jumlah unit, akses pekerjaan, dan jadwal. Detail teknis tetap dikonfirmasi sebelum pembelian atau pemasangan.",
     commonNeeds: [

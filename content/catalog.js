@@ -7,11 +7,11 @@ export const catalogItems = [
     label: "AC 1/2 PK",
     title: "AC 1/2 PK | Konsultasi Kamar, Kost, Cek Stok & Pemasangan",
     description:
-      "Konsultasi AC 1/2 PK untuk kamar, kost, ruang kerja, dan kebutuhan rumah. RADJA AC mengarahkan ukuran ruangan, daya listrik, stok unit, pengiriman, dan opsi pemasangan.",
+      "Konsultasi AC 1/2 PK untuk kamar, kost, ruang kerja, dan kebutuhan rumah. Admin membaca ukuran ruangan, daya listrik, stok unit, pengiriman, dan kebutuhan pemasangan.",
     h1: "AC 1/2 PK untuk kamar, kost, dan ruang kerja",
     eyebrow: "Katalog Kapasitas",
     intro:
-      "AC 1/2 PK biasanya dipertimbangkan untuk ruangan compact. Sebelum memilih unit, ukuran ruangan, tinggi plafon, arah panas, jumlah orang, dan daya listrik tetap perlu dicek agar pilihan tidak kurang sesuai atau terlalu boros.",
+      "AC 1/2 PK banyak dipakai untuk ruangan compact. Sebelum memilih unit, cek ukuran ruangan, tinggi plafon, arah panas, jumlah orang, dan daya listrik agar kapasitas tidak kurang atau terlalu boros.",
     bestFor: [
       "Kamar tidur",
       "Kamar kost",
@@ -105,7 +105,7 @@ export const catalogItems = [
     h1: "AC split rumah untuk kamar, ruang keluarga, dan pemakaian rutin",
     eyebrow: "Katalog Rumah",
     intro:
-      "AC split rumah cocok untuk kebutuhan harian seperti kamar tidur, ruang keluarga, kost, kontrakan, dan rumah tinggal. Admin RADJA AC bantu arahkan kategori AC dari ukuran ruangan, daya listrik, budget, dan pola pemakaian.",
+      "AC split rumah cocok untuk kebutuhan harian seperti kamar tidur, ruang keluarga, kost, kontrakan, dan rumah tinggal. Admin RADJA AC membaca kategori AC dari ukuran ruangan, daya listrik, budget, dan pola pemakaian.",
     bestFor: [
       "Kamar tidur",
       "Ruang keluarga",
@@ -132,7 +132,7 @@ export const catalogItems = [
     h1: "AC inverter untuk pemakaian lama dan kebutuhan hemat listrik",
     eyebrow: "Katalog Tipe",
     intro:
-      "AC inverter biasanya dipertimbangkan untuk ruangan yang sering dipakai lama. Pilihan tetap perlu disesuaikan dengan ukuran ruangan, jam pemakaian rutin, daya listrik, budget, dan brand yang tersedia.",
+      "AC inverter cocok untuk ruangan yang sering dipakai lama. Pilihan unit tetap dibaca dari ukuran ruangan, jam pemakaian rutin, daya listrik, budget, dan brand yang tersedia.",
     bestFor: [
       "Kamar dengan pemakaian lama",
       "Rumah harian",
@@ -186,7 +186,7 @@ export const catalogItems = [
     h1: "AC kantor dan komersial untuk toko, ruko, cafe, klinik, showroom, kantor, hotel, dan proyek",
     eyebrow: "Katalog Komersial",
     intro:
-      "Kebutuhan AC komersial biasanya perlu membaca PK, jenis ruangan, dan pola pemakaian. Jenis ruangan, jumlah orang, bukaan pintu, jam operasional, plafon, dan jumlah unit perlu dipertimbangkan sejak awal.",
+      "Untuk AC komersial, kirim jenis ruangan, jumlah orang, bukaan pintu, jam operasional, tinggi plafon, dan jumlah unit. Data ini dipakai untuk membaca PK dan tipe AC.",
     bestFor: [
       "Toko dan ruko",
       "Cafe dan restoran",

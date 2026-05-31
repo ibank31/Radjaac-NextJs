@@ -12,7 +12,7 @@ export const staticPageMetadata = {
   jualAc: {
     title: "Jual AC Original Multi-Brand | Cek Stok, Konsultasi PK & Pengiriman — RADJA AC",
     description:
-      "Mulai pembelian AC dari kebutuhan ruangan, daya listrik, budget, dan lokasi. RADJA AC mengecek stok, mengarahkan konsultasi PK, pengiriman unit, dan opsi pemasangan.",
+      "Mulai pembelian AC dari kebutuhan ruangan, daya listrik, budget, dan lokasi. RADJA AC cek stok, kebutuhan PK, pengiriman unit, dan pemasangan.",
     path: routes.jualAc,
     image: "/photos/display/display-gree-residential-ac-radja-ac.webp",
   },
@@ -70,7 +70,7 @@ export const staticPageMetadata = {
   gantiAcBaruPurwokerto: {
     title: "Ganti AC Baru Purwokerto | Cek Unit Baru, PK & Opsi Pemasangan",
     description:
-      "Butuh ganti AC baru di Purwokerto dan sekitarnya? RADJA AC mengarahkan unit baru, kebutuhan PK, stok, pengiriman, dan opsi pemasangan berdasarkan lokasi.",
+      "Butuh ganti AC baru di Purwokerto dan sekitarnya? RADJA AC cek unit baru, kebutuhan PK, stok, pengiriman, dan pemasangan berdasarkan lokasi.",
     path: routes.gantiAcBaruPurwokerto,
   },
 };

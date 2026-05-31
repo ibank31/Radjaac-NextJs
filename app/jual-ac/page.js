@@ -46,7 +46,7 @@ const packagePricingBands = [
 
 const processSteps = [
   ["Ceritakan kebutuhan ruangan", "Sampaikan ukuran ruangan, lokasi, daya listrik, jumlah unit, dan preferensi brand jika ada."],
-  ["Admin bantu arahkan pilihan", "RADJA AC mengarahkan kebutuhan PK, tipe standard, low watt, inverter, dan kategori AC yang masuk akal."],
+  ["Cek PK dan tipe AC", "Admin membaca ukuran ruangan, daya listrik, pola pemakaian, lalu cocokkan tipe standard, low watt, atau inverter."],
   ["Cek stok dan area pengiriman", "Stok unit, harga, pengiriman, dan opsi pemasangan dikonfirmasi admin berdasarkan kondisi terbaru."],
   ["Deal setelah jelas", "Pembelian dilakukan setelah unit, jadwal, alamat, dan kebutuhan tambahan sudah dikonfirmasi."],
 ];
@@ -77,11 +77,11 @@ export default function JualAcPage() {
               Jual AC Original Multi-Brand
             </p>
             <h1 className="mt-7 max-w-4xl text-4xl font-black tracking-tight sm:text-5xl lg:text-6xl">
-              Beli AC dimulai dari PK, stok, daya listrik, dan kebutuhan pemasangan. Cek PK, stok, daya listrik, dan opsi pemasangan dulu.
+              Beli AC dimulai dari ukuran ruangan, daya listrik, stok unit, dan kebutuhan pemasangan.
             </h1>
             <p className="mt-6 max-w-2xl text-base leading-8 text-slate-600 sm:text-lg">
               RADJA AC membantu pembelian AC original multi-brand untuk rumah, kost, toko,
-              kantor, hotel, proyek, dan pengadaan banyak unit. Admin mengarahkan kebutuhan PK, pilihan brand,
+              kantor, hotel, proyek, dan pengadaan banyak unit. Admin cek kebutuhan PK, pilihan brand,
               stok unit, area pengiriman, dan opsi pemasangan sebelum Anda deal.
             </p>
 
@@ -143,7 +143,7 @@ export default function JualAcPage() {
         <div className="grid gap-12 lg:grid-cols-[0.8fr_1.2fr]">
           <div>
             <p className="text-sm font-black uppercase tracking-[0.22em] text-cyan-700">
-              Pilih berdasarkan kebutuhan
+              Pilih dari jenis ruangan
             </p>
             <h2 className="mt-4 text-3xl font-black tracking-tight text-slate-950 sm:text-4xl">
               Tidak semua ruangan cocok dengan AC yang sama.
@@ -231,7 +231,7 @@ export default function JualAcPage() {
               Cek pilihan brand berdasarkan stok aktif, kebutuhan PK, dan budget.
             </h2>
             <p className="mt-5 text-base leading-8 text-slate-600">
-              RADJA AC mengarahkan pilihan AC Gree, Daikin, Midea, Hisense,
+              RADJA AC menyediakan pilihan AC Gree, Daikin, Midea, Hisense,
               Sharp, Panasonic, Samsung, Sansui, dan brand lain berdasarkan stok aktif.
               Garansi unit mengikuti ketentuan resmi brand.
             </p>

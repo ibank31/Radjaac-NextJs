@@ -52,7 +52,7 @@ export default function PengirimanPemasanganPage() {
           Pengiriman unit, kebutuhan pemasangan, dan garansi pemasangan AC
         </h1>
         <p className="mt-6 max-w-3xl text-lg leading-8 text-slate-600">
-          RADJA AC membantu pembelian AC original multi-brand dengan proses yang jelas: cek kebutuhan PK,
+          RADJA AC membantu pembelian AC original multi-brand dari data teknis yang nyata: ukuran ruangan, kebutuhan PK,
           cek stok, konfirmasi alamat pengiriman, kebutuhan pemasangan, garansi pemasangan 1 bulan, dan bantuan klaim unit sesuai ketentuan brand.
         </p>
 
@@ -109,7 +109,7 @@ export default function PengirimanPemasanganPage() {
           </div>
 
           <div className="rounded-[1.45rem] border border-slate-200 bg-white p-6">
-            <h2 className="text-xl font-black text-slate-950">Foto yang sebaiknya dikirim</h2>
+            <h2 className="text-xl font-black text-slate-950">Foto yang dikirim sebelum cek pemasangan</h2>
             <ul className="mt-5 space-y-3 text-sm leading-6 text-slate-600">
               {photoBriefs.map((item) => (
                 <li key={item} className="rounded-2xl border border-slate-200 bg-[#f7fbff]/45 p-4">
@@ -124,7 +124,7 @@ export default function PengirimanPemasanganPage() {
           <h2 className="text-xl font-black text-slate-950">Bukan sekadar kirim unit</h2>
           <p className="mt-4 max-w-3xl text-sm leading-7 text-slate-700">
             Untuk pembelian AC, pengiriman dan pemasangan perlu dibaca dari kondisi lokasi.
-            Admin RADJA AC akan mengarahkan kebutuhan awal supaya pembeli tidak hanya melihat harga unit,
+            Admin RADJA AC membaca kebutuhan awal supaya pembeli melihat unit, posisi pemasangan, dan kebutuhan material sejak awal,
             tetapi juga memahami kebutuhan pipa, bracket, posisi outdoor, akses kerja, dan jadwal.
           </p>
           <div className="mt-5 flex flex-wrap gap-3">
@@ -155,7 +155,7 @@ export default function PengirimanPemasanganPage() {
           <h2 className="text-2xl font-black">Butuh cek pengiriman atau pemasangan?</h2>
           <p className="mt-4 max-w-3xl text-sm leading-6 text-slate-600">
             Kirim kota, alamat area, jumlah unit, tipe ruangan, dan kebutuhan unit saja atau sekalian opsi pemasangan.
-            Admin RADJA AC mengarahkan rencana pengiriman dan pemasangannya.
+            Admin RADJA AC cek alamat, akses lokasi, jadwal kirim, dan kebutuhan pemasangan.
           </p>
         </section>
       </section>

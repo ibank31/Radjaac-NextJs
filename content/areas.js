@@ -346,7 +346,7 @@ export const areaItems = [
     intro:
       "Butuh AC untuk rumah, toko, kantor, ruang usaha, proyek, atau pengadaan banyak unit di Tegal dan Slawi? RADJA AC mengarahkan kebutuhan PK, daya listrik, pilihan brand, stok unit, pengiriman, dan opsi pemasangan sebelum Anda order.",
     localContext:
-      "Area Tegal dan Slawi memiliki kebutuhan AC untuk rumah tinggal, toko, kantor, ruko, dan usaha. Karena jarak dan kebutuhan pemasangan perlu dikonfirmasi rapi, sebaiknya kirim area detail, ukuran ruangan, jumlah unit, daya listrik, dan timeline kebutuhan sejak awal.",
+      "Area Tegal dan Slawi banyak dipakai untuk rumah tinggal, toko, kantor, ruko, dan usaha. Kirim area detail, ukuran ruangan, jumlah unit, daya listrik, dan timeline agar admin bisa membaca pengiriman serta kebutuhan pemasangan sejak awal.",
     coverageNote:
       "RADJA AC berbasis di Banyumas dan melayani kebutuhan AC area Tegal dengan konsultasi PK, cek stok unit, pengiriman, serta opsi pemasangan yang dikonfirmasi admin sesuai alamat, jumlah unit, dan jadwal.",
     commonNeeds: [

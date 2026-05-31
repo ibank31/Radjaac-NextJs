@@ -53,7 +53,7 @@ export default function Footer() {
           </p>
 
           <p className="mt-3 max-w-md text-sm leading-7 text-white/90">
-            Kurasi AC original untuk rumah, usaha, properti, dan proyek. Admin mengarahkan PK, stok, pengiriman, opsi pemasangan, dan kebutuhan banyak unit dengan alur yang jelas.
+            AC original untuk rumah, usaha, properti, dan proyek. Admin membaca PK, stok, pengiriman, pemasangan, dan kebutuhan banyak unit dari data yang Anda kirim.
           </p>
 
           <p className="mt-3 text-sm leading-7 text-white/80">
