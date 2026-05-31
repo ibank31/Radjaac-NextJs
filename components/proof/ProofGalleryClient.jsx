@@ -54,7 +54,7 @@ const galleryVideos = [
   },
   {
     title: "Stok AC Siap Kirim",
-    category: "Stok & Aktivitas",
+    category: "Gudang",
     video: "/videos/pengiriman-stok-ac-radja-ac-clean.mp4",
     thumbnail: "/video-thumbnails/pengiriman-stok-ac-radja-ac-clean.webp",
   },

@@ -182,7 +182,7 @@ export default function KatalogPage() {
         <div className="grid gap-7 lg:grid-cols-[0.9fr_1.1fr] lg:items-start">
           <div>
             <p className="mb-3 text-xs font-black uppercase tracking-[0.24em] text-cyan-700">Panduan PK</p>
-            <h2 className="mb-4 text-3xl font-black tracking-[-0.03em] text-slate-950 sm:text-4xl lg:text-5xl">Kira-kira butuh berapa PK untuk ruangan Anda?</h2>
+            <h2 className="mb-4 text-3xl font-black tracking-[-0.03em] text-slate-950 sm:text-4xl lg:text-5xl">Kira-kira ruangan ini butuh berapa PK?</h2>
             <p className="text-sm leading-7 text-slate-600 sm:text-base">
               Tabel ini hanya patokan awal. Ruangan lantai atas, kena matahari langsung, dinding tipis, atau banyak orang di dalamnya bisa butuh kapasitas lebih dari perkiraan luas ruang saja.
             </p>

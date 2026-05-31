@@ -69,7 +69,7 @@ export default function KontakPage() {
                 source="Halaman Kontak - Hero"
                 intent="konsultasi pembelian AC, cek PK, stok, pengiriman, dan opsi pemasangan"
               >
-                Chat Admin via WhatsApp
+                Kirim Data Ruangan
               </WhatsappLink>
 
               <Link
@@ -181,7 +181,7 @@ export default function KontakPage() {
                 source="Halaman Kontak - Jalur Cepat"
                 intent="konsultasi cepat pembelian AC"
               >
-                Langsung WhatsApp →
+                Kirim Kebutuhan AC →
               </WhatsappLink>
             </div>
           </div>
