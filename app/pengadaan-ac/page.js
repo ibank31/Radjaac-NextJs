@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { buildMetadata } from "@/lib/seo";
 import { staticPageMetadata } from "@/content/static-pages";
+import { routes } from "@/content/routes";
 import WhatsappLink from "@/components/ui/WhatsappLink";
 
 export const metadata = buildMetadata(staticPageMetadata.pengadaanAc);
