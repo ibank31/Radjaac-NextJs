@@ -169,12 +169,12 @@ export default function HeaderClient() {
   const [isMobileOpen, setIsMobileOpen] = useState(false);
 
   return (
-    <header className="sticky top-0 z-50 border-b border-slate-200 bg-white shadow-[0_10px_34px_rgba(15,23,42,0.07)]">
+    <header className="sticky top-0 z-50 border-b border-cyan-100 bg-white/95 shadow-[0_12px_34px_rgba(73,132,184,0.14)] backdrop-blur-xl">
       <div className="mx-auto flex max-w-7xl items-center justify-between gap-4 px-4 py-3.5">
         <Link href={routes.home} className="flex items-center gap-3" aria-label="RADJA AC">
           <span className="relative flex h-11 w-11 shrink-0 overflow-hidden rounded-2xl bg-white ring-1 ring-slate-200 shadow-[0_10px_26px_rgba(15,23,42,0.10)]">
             <Image
-              src="/brand/logo-radjaac.webp"
+              src="/icons/master-icon-1024.png"
               alt=""
               fill
               sizes="44px"
@@ -211,7 +211,7 @@ export default function HeaderClient() {
 
         <div className="hidden items-center gap-3 md:flex">
           <WhatsappLink
-            className="inline-flex items-center justify-center rounded-full bg-slate-950 px-4 py-2 text-sm font-black text-white shadow-[0_14px_34px_rgba(15,23,42,0.18)] transition hover:-translate-y-0.5 hover:bg-slate-800"
+            className="inline-flex items-center justify-center rounded-full bg-[#4984B8] px-4 py-2 text-sm font-black text-white shadow-[0_14px_34px_rgba(73,132,184,0.22)] transition hover:-translate-y-0.5 hover:bg-[#3f75a4]"
             source="Header"
             intent="konsultasi beli AC"
           >
@@ -254,7 +254,7 @@ export default function HeaderClient() {
 
             <div className="mt-3 border-t border-cyan-50 pt-3">
               <WhatsappLink
-                className="flex w-full items-center justify-center rounded-2xl bg-slate-950 px-4 py-3 text-sm font-black text-white shadow-[0_14px_34px_rgba(15,23,42,0.18)]"
+                className="flex w-full items-center justify-center rounded-2xl bg-[#4984B8] px-4 py-3 text-sm font-black text-white shadow-[0_14px_34px_rgba(73,132,184,0.22)]"
                 source="Mobile Header"
                 intent="konsultasi beli AC"
                 onClick={() => setIsMobileOpen(false)}
