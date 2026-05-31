@@ -17,45 +17,81 @@ const featuredLinks = [
   ["Jual AC Purwokerto", routes.jualAcPurwokerto, "Lanjut ke halaman pembelian utama RADJA AC."],
 ];
 
+const guideStats = [
+  ["PK", "Mulai dari ukuran ruangan"],
+  ["Daya", "Cek listrik sebelum pilih unit"],
+  ["WA", "Kirim brief yang lebih lengkap"],
+];
+
 export default function ArtikelPage() {
   const featuredArticle = articleItems[0];
   const otherArticles = articleItems.slice(1);
 
   return (
-    <main className="min-h-screen overflow-hidden bg-[#f7fbff] text-slate-950">
-      <section className="relative overflow-hidden border-b border-cyan-100 bg-[linear-gradient(180deg,#f8fdff_0%,#eefbff_100%)] px-4 pb-10 pt-12 sm:px-6 lg:px-8 lg:pb-16 lg:pt-20">
-        <div className="pointer-events-none absolute inset-0 -z-10 bg-[radial-gradient(circle_at_top_left,rgba(34,211,238,0.18),transparent_32%),radial-gradient(circle_at_bottom_right,rgba(37,211,102,0.12),transparent_28%)]" />
+    <main className="min-h-screen overflow-hidden bg-[#f4f8fb] text-slate-950">
+      <section className="relative overflow-hidden border-b border-slate-200 bg-[linear-gradient(135deg,#061727_0%,#0f3f57_44%,#e9fbff_100%)] px-4 pb-12 pt-12 text-white sm:px-6 lg:px-8 lg:pb-18 lg:pt-20">
+        <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_top_left,rgba(34,211,238,0.22),transparent_34%),radial-gradient(circle_at_bottom_right,rgba(37,211,102,0.22),transparent_30%)]" />
+        <div className="relative mx-auto grid max-w-7xl gap-10 lg:grid-cols-[1.05fr_0.95fr] lg:items-center lg:gap-14">
+          <div>
+            <p className="inline-flex rounded-full border border-white/15 bg-white/10 px-4 py-2 text-xs font-black uppercase tracking-[0.24em] text-cyan-100 backdrop-blur">
+              Artikel RADJA AC
+            </p>
+            <h1 className="mt-6 max-w-4xl text-4xl font-black leading-tight tracking-[-0.04em] md:text-6xl">
+              Panduan beli AC yang tidak bikin bingung sebelum chat admin
+            </h1>
+            <p className="mt-6 max-w-3xl text-base leading-8 text-cyan-50/90 sm:text-lg">
+              Mulai dari PK, ukuran ruangan, daya listrik, inverter vs low watt, instalasi, sampai tanda kapan AC lama perlu dievaluasi. Baca dulu, lalu kirim brief WhatsApp yang lebih jelas.
+            </p>
 
-        <p className="inline-flex rounded-full border border-cyan-100 bg-cyan-50 px-4 py-2 text-xs font-black uppercase tracking-[0.24em] text-cyan-700">
-          Artikel RADJA AC
-        </p>
-        <h1 className="mt-6 max-w-4xl text-4xl font-black leading-tight tracking-tight md:text-6xl">
-          Panduan beli AC sebelum chat admin
-        </h1>
-        <p className="mt-6 max-w-3xl text-base leading-8 text-slate-600 sm:text-lg">
-          Baca panduan singkat tentang PK, ukuran ruangan, inverter vs low watt, instalasi, dan tanda kapan AC lama perlu dievaluasi. Artikel ini jadi panduan awal sebelum mengirim brief WhatsApp ke admin.
-        </p>
+            <div className="mt-8 flex flex-col gap-3 sm:flex-row sm:flex-wrap">
+              <WhatsappLink
+                className="inline-flex items-center justify-center rounded-full bg-[#25D366] px-6 py-4 font-black text-slate-950 shadow-[0_18px_50px_rgba(37,211,102,0.24)] transition hover:-translate-y-0.5 hover:bg-[#20BA5A]"
+                source="Artikel Index"
+                intent="konsultasi setelah membaca panduan beli AC"
+              >
+                Kirim Ukuran Ruangan
+              </WhatsappLink>
+              <Link
+                href={routes.kalkulatorPkAc}
+                className="inline-flex items-center justify-center rounded-full border border-white/20 bg-white/10 px-6 py-4 font-black text-white backdrop-blur transition hover:-translate-y-0.5 hover:bg-white/15"
+              >
+                Cek Kalkulator PK
+              </Link>
+              <Link
+                href={routes.katalog}
+                className="inline-flex items-center justify-center rounded-full border border-white/20 bg-white px-6 py-4 font-black text-slate-950 shadow-sm transition hover:-translate-y-0.5 hover:bg-cyan-50"
+              >
+                Lihat Katalog AC
+              </Link>
+            </div>
+          </div>
 
-        <div className="mt-8 flex flex-col gap-3 sm:flex-row sm:flex-wrap">
-          <WhatsappLink
-            className="inline-flex items-center justify-center rounded-full bg-[#25D366] px-6 py-4 font-bold text-slate-950 shadow-[0_18px_50px_rgba(37,211,102,0.2)] transition hover:-translate-y-0.5 hover:bg-[#20BA5A]"
-            source="Artikel Index"
-            intent="konsultasi setelah membaca panduan beli AC"
-          >
-            Kirim Ukuran Ruangan
-          </WhatsappLink>
-          <Link
-            href={routes.kalkulatorPkAc}
-            className="inline-flex items-center justify-center rounded-full border border-slate-200 px-6 py-4 font-semibold text-slate-700 transition hover:border-cyan-200 hover:bg-slate-50"
-          >
-            Cek Kalkulator PK
-          </Link>
-          <Link
-            href={routes.katalog}
-            className="inline-flex items-center justify-center rounded-full border border-slate-200 px-6 py-4 font-semibold text-slate-700 transition hover:border-cyan-200 hover:bg-slate-50"
-          >
-            Lihat Katalog AC
-          </Link>
+          <aside className="rounded-[2rem] border border-white/20 bg-white/12 p-5 shadow-[0_28px_80px_rgba(2,8,23,0.28)] backdrop-blur sm:p-6 lg:p-7">
+            <p className="text-xs font-black uppercase tracking-[0.22em] text-cyan-100">
+              Mulai dari masalah user
+            </p>
+            <h2 className="mt-3 text-2xl font-black tracking-tight text-white sm:text-3xl">
+              Baca singkat, lalu ambil keputusan lebih cepat.
+            </h2>
+            <div className="mt-5 grid gap-3">
+              {guideStats.map(([label, text]) => (
+                <div key={label} className="rounded-2xl border border-white/15 bg-white/12 p-4">
+                  <div className="flex items-center gap-3">
+                    <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-2xl bg-cyan-300 text-sm font-black text-slate-950">
+                      {label}
+                    </span>
+                    <p className="text-sm font-semibold leading-6 text-cyan-50">{text}</p>
+                  </div>
+                </div>
+              ))}
+            </div>
+            <div className="mt-5 rounded-2xl bg-white p-4 text-slate-950">
+              <p className="text-sm font-black">Brief WA yang bagus berisi:</p>
+              <p className="mt-2 text-sm leading-6 text-slate-600">
+                ukuran ruangan, daya listrik, kota, budget awal, jumlah unit, dan butuh pemasangan atau tidak.
+              </p>
+            </div>
+          </aside>
         </div>
       </section>
 
@@ -63,31 +99,37 @@ export default function ArtikelPage() {
         <section className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8 lg:py-12">
           <Link
             href={featuredArticle.path}
-            className="group grid gap-8 rounded-[1.7rem] border border-cyan-100 bg-cyan-50 p-6 transition hover:-translate-y-1 hover:border-cyan-200 sm:p-8 lg:grid-cols-[0.9fr_1.1fr] lg:p-10"
+            className="group grid overflow-hidden rounded-[2rem] border border-slate-200 bg-white shadow-[0_22px_70px_rgba(15,39,66,0.10)] transition hover:-translate-y-1 hover:shadow-[0_28px_90px_rgba(15,39,66,0.16)] lg:grid-cols-[1fr_0.82fr]"
           >
-            <div>
+            <div className="p-6 sm:p-8 lg:p-10">
               <p className="mb-4 inline-flex rounded-full border border-cyan-100 bg-cyan-50 px-4 py-2 text-xs font-black uppercase tracking-[0.2em] text-cyan-700">
                 Artikel Utama
               </p>
-              <h2 className="text-3xl font-black tracking-tight text-slate-950 sm:text-4xl">
+              <h2 className="text-3xl font-black tracking-[-0.03em] text-slate-950 sm:text-4xl">
                 {featuredArticle.h1}
               </h2>
               <p className="mt-5 text-sm leading-7 text-slate-600 sm:text-base">
                 {featuredArticle.intro}
               </p>
+              <span className="mt-7 inline-flex rounded-full bg-slate-950 px-5 py-3 text-sm font-black text-white transition group-hover:bg-cyan-700">
+                Baca panduan →
+              </span>
             </div>
-            <div className="flex flex-col justify-between rounded-[1.45rem] border border-slate-200 bg-[#f7fbff]/45 p-6">
-              <div className="flex flex-wrap gap-2 text-xs text-slate-600">
-                <span className="rounded-full border border-cyan-100 bg-cyan-50 px-3 py-1 font-semibold text-cyan-700">
+            <div className="flex flex-col justify-between bg-[linear-gradient(160deg,#083449_0%,#0ea5b7_100%)] p-6 text-white sm:p-8 lg:p-10">
+              <div className="flex flex-wrap gap-2 text-xs">
+                <span className="rounded-full border border-white/20 bg-white/15 px-3 py-1 font-semibold text-cyan-50">
                   {featuredArticle.eyebrow}
                 </span>
-                <span className="rounded-full border border-slate-200 bg-white px-3 py-1">
+                <span className="rounded-full border border-white/20 bg-white/15 px-3 py-1 text-cyan-50">
                   {featuredArticle.readTime}
                 </span>
               </div>
-              <span className="mt-8 inline-flex text-sm font-black text-cyan-700 group-hover:text-cyan-700">
-                Baca panduan →
-              </span>
+              <div className="mt-12 rounded-[1.35rem] border border-white/15 bg-white/12 p-5 backdrop-blur">
+                <p className="text-sm font-black text-cyan-50">Tujuan artikel</p>
+                <p className="mt-2 text-sm leading-6 text-cyan-50/90">
+                  Membantu pembeli mengirim data yang tepat sebelum tanya stok, PK, pengiriman, dan pemasangan.
+                </p>
+              </div>
             </div>
           </Link>
         </section>
@@ -96,26 +138,30 @@ export default function ArtikelPage() {
       <section className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8 lg:py-12">
         <div className="mb-8 max-w-3xl">
           <p className="mb-3 text-xs font-black uppercase tracking-[0.24em] text-cyan-700">Semua Artikel</p>
-          <h2 className="text-3xl font-black tracking-tight sm:text-4xl">Pilih panduan sesuai masalah pembelian AC</h2>
+          <h2 className="text-3xl font-black tracking-[-0.03em] text-slate-950 sm:text-4xl">Pilih panduan sesuai masalah pembelian AC</h2>
         </div>
         <div className="grid gap-5 md:grid-cols-2 lg:grid-cols-3">
-          {otherArticles.map((article) => (
+          {otherArticles.map((article, index) => (
             <Link
               key={article.slug}
               href={article.path}
-              className="group rounded-[1.45rem] border border-slate-200 bg-white p-6 transition hover:-translate-y-1 hover:border-cyan-200 hover:bg-slate-50"
+              className="group relative overflow-hidden rounded-[1.55rem] border border-slate-200 bg-white p-6 shadow-sm transition hover:-translate-y-1 hover:border-cyan-200 hover:shadow-[0_22px_60px_rgba(15,39,66,0.12)]"
             >
-              <div className="mb-4 flex flex-wrap gap-2 text-xs text-slate-500">
-                <span className="rounded-full border border-cyan-100 bg-cyan-50 px-3 py-1 font-semibold text-cyan-700">
+              <div className="absolute inset-x-0 top-0 h-1 bg-gradient-to-r from-cyan-500 via-sky-400 to-emerald-400" />
+              <div className="mb-5 flex items-start justify-between gap-3 text-xs text-slate-500">
+                <span className="rounded-full border border-cyan-100 bg-cyan-50 px-3 py-1 font-bold text-cyan-700">
                   {article.eyebrow}
                 </span>
-                <span className="rounded-full border border-slate-200 bg-white px-3 py-1">
+                <span className="rounded-full border border-slate-200 bg-[#f8fbff] px-3 py-1 font-semibold">
                   {article.readTime}
                 </span>
               </div>
+              <div className="mb-4 flex h-10 w-10 items-center justify-center rounded-2xl bg-slate-950 text-sm font-black text-white">
+                {String(index + 1).padStart(2, "0")}
+              </div>
               <h3 className="text-xl font-black leading-tight text-slate-950">{article.h1}</h3>
               <p className="mt-4 text-sm leading-7 text-slate-600">{article.description}</p>
-              <span className="mt-6 inline-flex text-sm font-black text-cyan-700 group-hover:text-cyan-700">
+              <span className="mt-6 inline-flex text-sm font-black text-cyan-700 transition group-hover:translate-x-1">
                 Baca artikel →
               </span>
             </Link>
@@ -129,7 +175,7 @@ export default function ArtikelPage() {
             <Link
               key={href}
               href={href}
-              className="rounded-[1.35rem] border border-slate-200 bg-white p-6 transition hover:-translate-y-1 hover:border-cyan-200"
+              className="rounded-[1.45rem] border border-slate-200 bg-white p-6 shadow-sm transition hover:-translate-y-1 hover:border-cyan-200 hover:shadow-[0_18px_45px_rgba(15,39,66,0.10)]"
             >
               <h2 className="text-xl font-black text-slate-950">{title}</h2>
               <p className="mt-3 text-sm leading-6 text-slate-600">{text}</p>
@@ -139,15 +185,15 @@ export default function ArtikelPage() {
       </section>
 
       <section className="mx-auto max-w-7xl px-4 pb-16 pt-8 sm:px-6 lg:px-8 lg:pb-20">
-        <div className="rounded-[1.7rem] border border-[#25D366]/20 bg-[#25D366]/10 p-6 text-center sm:p-10">
-          <h2 className="mx-auto mb-5 max-w-3xl text-3xl font-black tracking-tight sm:text-4xl">
+        <div className="rounded-[2rem] border border-[#25D366]/20 bg-[linear-gradient(135deg,rgba(37,211,102,0.14),rgba(34,211,238,0.10))] p-6 text-center shadow-[0_20px_60px_rgba(15,39,66,0.08)] sm:p-10">
+          <h2 className="mx-auto mb-5 max-w-3xl text-3xl font-black tracking-[-0.03em] text-slate-950 sm:text-4xl">
             Sudah baca? Lanjutkan dengan data ruangan
           </h2>
           <p className="mx-auto mb-7 max-w-2xl text-sm leading-7 text-slate-600">
             Kirim ukuran ruangan, daya listrik, kota, budget, dan brand yang diminati. Admin RADJA AC cocokkan pilihan dari data itu.
           </p>
           <WhatsappLink
-            className="inline-flex items-center justify-center rounded-full bg-[#25D366] px-6 py-4 font-bold text-slate-950 transition hover:bg-[#20BA5A]"
+            className="inline-flex items-center justify-center rounded-full bg-[#25D366] px-6 py-4 font-black text-slate-950 shadow-[0_16px_40px_rgba(37,211,102,0.20)] transition hover:-translate-y-0.5 hover:bg-[#20BA5A]"
             source="Artikel Index - Final CTA"
             intent="konsultasi setelah membaca artikel RADJA AC"
           >
