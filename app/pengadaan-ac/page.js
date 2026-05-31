@@ -42,24 +42,24 @@ const projectTypes = [
 
 const proofImages = [
   {
-    title: "Pengiriman AC Daikin",
+    title: "Showroom RADJA AC 31 Mei 2026",
+    label: "Showroom",
+    image: "/images/gallery/showroom-31-5-2026.webp",
+  },
+  {
+    title: "Pengiriman Ariston dan Daikin",
     label: "Pengiriman",
-    image: "/photos/delivery/new-armada-radjaac-daikin.webp",
+    image: "/photos/delivery/pengiriman-ariston-daikin.webp",
   },
   {
-    title: "Persiapan pengiriman unit",
-    label: "Loading",
-    image: "/photos/delivery/radja-ac-persiapan-pengiriman.webp",
+    title: "Pengiriman AC Ariston",
+    label: "Pengiriman",
+    image: "/photos/delivery/pengiriman-ac-ariston.webp",
   },
   {
-    title: "Stok gudang AC Daikin & Gree",
-    label: "Gudang",
-    image: "/photos/stock/gudang-stok-ac-daikin-gree-radja-ac-01.webp",
-  },
-  {
-    title: "Pemasangan outdoor AC kost",
-    label: "Pemasangan",
-    image: "/photos/installation/pemasangan-ac-daikin-untuk-kost-outdoor-01.webp",
+    title: "Stok AC Sansui dan Gree RADJA AC",
+    label: "Stok",
+    image: "/images/gallery/stock-sansui-gree.webp",
   },
 ];
 
@@ -135,8 +135,8 @@ export default function PengadaanAcPage() {
           <div className="grid gap-4">
             <div className="overflow-hidden rounded-[2rem] border border-white bg-white shadow-2xl shadow-blue-900/10">
               <Image
-                src="/photos/delivery/new-armada-radjaac-daikin.webp"
-                alt="Pengiriman AC Daikin RADJA AC untuk kebutuhan banyak unit"
+                src="/images/gallery/showroom-31-5-2026.webp"
+                alt="Showroom RADJA AC untuk konsultasi pengadaan AC banyak unit"
                 width={900}
                 height={720}
                 priority
