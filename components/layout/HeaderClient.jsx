@@ -59,8 +59,8 @@ function navLinkClass(active) {
   return [
     "rounded-full px-3.5 py-2 text-sm font-bold transition",
     active
-      ? "bg-cyan-50 text-cyan-800 shadow-sm ring-1 ring-cyan-100"
-      : "text-slate-700 hover:bg-cyan-50/70 hover:text-cyan-800",
+      ? "bg-brand-blue-tint text-navy shadow-sm ring-1 ring-brand-blue/20"
+      : "text-slate-700 hover:bg-brand-blue-tint/60 hover:text-navy",
   ].join(" ");
 }
 
@@ -68,8 +68,8 @@ function dropdownItemClass(active) {
   return [
     "rounded-2xl px-4 py-3 text-sm font-bold transition",
     active
-      ? "bg-cyan-50 text-cyan-800 ring-1 ring-cyan-100"
-      : "text-slate-700 hover:bg-cyan-50/80 hover:text-cyan-800",
+      ? "bg-blue-50 text-blue-800 ring-1 ring-blue-100"
+      : "text-slate-700 hover:bg-blue-50/80 hover:text-blue-800",
   ].join(" ");
 }
 
@@ -81,13 +81,13 @@ function DesktopDropdown({ item, pathname }) {
       <button type="button" className={navLinkClass(active)}>
         <span className="inline-flex items-center gap-1">
           {item.label}
-          <span className={`text-xs leading-none ${active ? "text-cyan-700" : "text-slate-400"}`}>
+          <span className={`text-xs leading-none ${active ? "text-blue-700" : "text-slate-400"}`}>
             ⌄
           </span>
         </span>
       </button>
 
-      <div className="invisible absolute left-0 top-full z-50 mt-3 min-w-64 rounded-[1.6rem] border border-cyan-100 bg-white/95 p-3 opacity-0 shadow-[0_24px_70px_rgba(15,23,42,0.14)] backdrop-blur-xl transition group-hover:visible group-hover:opacity-100">
+      <div className="invisible absolute left-0 top-full z-50 mt-3 min-w-64 rounded-[1.6rem] border border-blue-100 bg-white/95 p-3 opacity-0 shadow-[0_24px_70px_rgba(15,23,42,0.14)] backdrop-blur-xl transition group-hover:visible group-hover:opacity-100">
         <div className="grid gap-1">
           {item.items.map((subItem) => {
             const subActive = isPathActive(pathname, subItem.href, subItem.exact);
@@ -113,15 +113,15 @@ function MobileNavItem({ item, pathname, onNavigate }) {
     const active = isDropdownActive(pathname, item);
 
     return (
-      <details className={`group rounded-2xl border ${active ? "border-cyan-100 bg-cyan-50" : "border-slate-100 bg-white"}`}>
+      <details className={`group rounded-2xl border ${active ? "border-blue-100 bg-blue-50" : "border-slate-100 bg-white"}`}>
         <summary className="list-none cursor-pointer px-4 py-3 text-sm font-black text-slate-800 marker:hidden">
           <span className="flex items-center justify-between">
-            <span className={active ? "text-cyan-800" : "text-slate-800"}>{item.label}</span>
+            <span className={active ? "text-blue-800" : "text-slate-800"}>{item.label}</span>
             <span className="text-xs leading-none text-slate-400">⌄</span>
           </span>
         </summary>
 
-        <div className="grid gap-1 border-t border-cyan-50 bg-white p-2">
+        <div className="grid gap-1 border-t border-blue-50 bg-white p-2">
           {item.items.map((subItem) => {
             const subActive = isPathActive(pathname, subItem.href, subItem.exact);
 
@@ -132,8 +132,8 @@ function MobileNavItem({ item, pathname, onNavigate }) {
                 className={[
                   "rounded-xl px-3 py-2 text-sm font-bold transition",
                   subActive
-                    ? "bg-cyan-50 text-cyan-800 ring-1 ring-cyan-100"
-                    : "text-slate-600 hover:bg-cyan-50 hover:text-cyan-800",
+                    ? "bg-blue-50 text-blue-800 ring-1 ring-blue-100"
+                    : "text-slate-600 hover:bg-blue-50 hover:text-blue-800",
                 ].join(" ")}
                 onClick={onNavigate}
               >
@@ -154,8 +154,8 @@ function MobileNavItem({ item, pathname, onNavigate }) {
       className={[
         "rounded-2xl border px-4 py-3 text-sm font-black transition",
         active
-          ? "border-cyan-100 bg-cyan-50 text-cyan-800 ring-1 ring-cyan-100"
-          : "border-slate-100 bg-white text-slate-800 hover:bg-cyan-50/80 hover:text-cyan-800",
+          ? "border-blue-100 bg-blue-50 text-blue-800 ring-1 ring-blue-100"
+          : "border-slate-100 bg-white text-slate-800 hover:bg-blue-50/80 hover:text-blue-800",
       ].join(" ")}
       onClick={onNavigate}
     >
@@ -169,7 +169,7 @@ export default function HeaderClient() {
   const [isMobileOpen, setIsMobileOpen] = useState(false);
 
   return (
-    <header className="sticky top-0 z-50 border-b border-cyan-100 bg-white/95 shadow-[0_12px_34px_rgba(73,132,184,0.14)] backdrop-blur-xl">
+    <header className="sticky top-0 z-50 border-b border-blue-100 bg-white/95 shadow-[0_12px_34px_rgba(73,132,184,0.14)] backdrop-blur-xl">
       <div className="mx-auto flex max-w-7xl items-center justify-between gap-4 px-4 py-3.5">
         <Link href={routes.home} className="flex items-center gap-3" aria-label="RADJA AC">
           <span className="relative flex h-11 w-11 shrink-0 overflow-hidden rounded-2xl bg-white ring-1 ring-slate-200 shadow-[0_10px_26px_rgba(15,23,42,0.10)]">
@@ -211,7 +211,7 @@ export default function HeaderClient() {
 
         <div className="hidden items-center gap-3 md:flex">
           <WhatsappLink
-            className="inline-flex items-center justify-center rounded-full bg-[#4984B8] px-4 py-2 text-sm font-black text-white shadow-[0_14px_34px_rgba(73,132,184,0.22)] transition hover:-translate-y-0.5 hover:bg-[#3f75a4]"
+            className="inline-flex items-center justify-center rounded-full bg-brand-red px-5 py-2.5 text-sm font-bold text-white shadow-[0_14px_34px_rgba(214,40,40,0.24)] transition hover:-translate-y-0.5 hover:bg-brand-red-dark"
             source="Header"
             intent="konsultasi beli AC"
           >
@@ -240,7 +240,7 @@ export default function HeaderClient() {
             </span>
           </summary>
 
-          <div className="absolute right-0 top-12 max-h-[calc(100vh-6rem)] w-[min(88vw,360px)] overflow-y-auto rounded-[1.6rem] border border-cyan-100 bg-white/95 p-3 shadow-[0_24px_70px_rgba(15,23,42,0.16)] backdrop-blur-xl">
+          <div className="absolute right-0 top-12 max-h-[calc(100vh-6rem)] w-[min(88vw,360px)] overflow-y-auto rounded-[1.6rem] border border-blue-100 bg-white/95 p-3 shadow-[0_24px_70px_rgba(15,23,42,0.16)] backdrop-blur-xl">
             <nav className="grid gap-2">
               {navItems.map((item) => (
                 <MobileNavItem
@@ -252,9 +252,9 @@ export default function HeaderClient() {
               ))}
             </nav>
 
-            <div className="mt-3 border-t border-cyan-50 pt-3">
+            <div className="mt-3 border-t border-blue-50 pt-3">
               <WhatsappLink
-                className="flex w-full items-center justify-center rounded-2xl bg-[#4984B8] px-4 py-3 text-sm font-black text-white shadow-[0_14px_34px_rgba(73,132,184,0.22)]"
+                className="flex w-full items-center justify-center rounded-2xl bg-brand-red px-4 py-3 text-sm font-bold text-white shadow-[0_14px_34px_rgba(214,40,40,0.24)]"
                 source="Mobile Header"
                 intent="konsultasi beli AC"
                 onClick={() => setIsMobileOpen(false)}

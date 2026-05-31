@@ -52,7 +52,7 @@ const relatedLinks = [
 function SectionTitle({ eyebrow, title, description }) {
   return (
     <div className="mx-auto mb-9 max-w-3xl text-center">
-      <p className="mb-3 text-xs font-black uppercase tracking-[0.24em] text-cyan-700">{eyebrow}</p>
+      <p className="mb-3 text-xs font-black uppercase tracking-[0.24em] text-blue-700">{eyebrow}</p>
       <h2 className="mb-4 text-3xl font-black tracking-[-0.03em] text-slate-950 sm:text-4xl lg:text-5xl">{title}</h2>
       {description ? <p className="mx-auto max-w-2xl text-sm leading-7 text-slate-600 sm:text-base">{description}</p> : null}
     </div>
@@ -105,19 +105,19 @@ export default async function BrandDetailPage({ params }) {
 
   return (
     <main className="min-h-screen overflow-hidden bg-[#f7fbff] text-slate-950">
-      <section className="relative overflow-hidden border-b border-cyan-100 bg-[linear-gradient(180deg,#f8fdff_0%,#eefbff_100%)] px-4 pb-10 pt-12 sm:px-6 lg:px-8 lg:pb-16 lg:pt-20">
+      <section className="relative overflow-hidden border-b border-blue-100 bg-[linear-gradient(180deg,#f8fdff_0%,#eefbff_100%)] px-4 pb-10 pt-12 sm:px-6 lg:px-8 lg:pb-16 lg:pt-20">
         <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_top_left,rgba(34,211,238,0.16),transparent_34%),radial-gradient(circle_at_bottom_right,rgba(15,23,42,0.08),transparent_32%)]" />
 
         <div className="relative mx-auto grid max-w-7xl items-start gap-10 lg:grid-cols-[1fr_0.95fr] lg:gap-16">
           <div>
-            <div className="mb-5 inline-flex items-center gap-2 rounded-full border border-cyan-100 bg-white/80 px-4 py-2 text-xs font-black uppercase tracking-[0.18em] text-cyan-800 shadow-sm backdrop-blur">
+            <div className="mb-5 inline-flex items-center gap-2 rounded-full border border-blue-100 bg-white/80 px-4 py-2 text-xs font-black uppercase tracking-[0.18em] text-blue-800 shadow-sm backdrop-blur">
               <span className="h-2 w-2 rounded-full bg-[#4984B8]" /> {item.eyebrow}
             </div>
 
             <h1 className="mb-3 max-w-3xl text-3xl font-black leading-[1.08] tracking-[-0.04em] text-slate-950 sm:text-4xl md:text-5xl xl:text-6xl">
               {item.h1}
             </h1>
-            <p className="mb-5 max-w-2xl text-sm font-bold leading-6 text-cyan-700">
+            <p className="mb-5 max-w-2xl text-sm font-bold leading-6 text-blue-700">
               Cek stok, tipe, PK, dan opsi pemasangan.
             </p>
 
@@ -172,7 +172,7 @@ export default async function BrandDetailPage({ params }) {
       <section className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8 lg:py-14">
         <div className="grid items-start gap-7 lg:grid-cols-[0.95fr_1.05fr] lg:gap-10">
           <div>
-            <div className="mb-4 inline-flex rounded-full border border-amber-200 bg-amber-50 px-4 py-2 text-sm font-black text-amber-800">
+            <div className="mb-4 inline-flex rounded-full border border-blue-200 bg-blue-50 px-4 py-2 text-sm font-black text-blue-800">
               Status & Kejelasan Brand
             </div>
 
@@ -215,10 +215,10 @@ export default async function BrandDetailPage({ params }) {
 
       {isGree ? (
         <section className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8 lg:py-14">
-          <div className="overflow-hidden rounded-[1.8rem] border border-cyan-100 bg-white shadow-[0_22px_70px_rgba(15,39,66,0.10)]">
+          <div className="overflow-hidden rounded-[1.8rem] border border-blue-100 bg-white shadow-[0_22px_70px_rgba(15,39,66,0.10)]">
             <div className="grid gap-0 lg:grid-cols-[0.95fr_1.05fr] lg:items-stretch">
               <div className="p-6 sm:p-8 lg:p-10">
-                <div className="mb-4 inline-flex rounded-full border border-cyan-100 bg-cyan-50 px-4 py-2 text-xs font-black uppercase tracking-[0.2em] text-cyan-800">
+                <div className="mb-4 inline-flex rounded-full border border-blue-100 bg-blue-50 px-4 py-2 text-xs font-black uppercase tracking-[0.2em] text-blue-800">
                   Proshop Gree
                 </div>
 
@@ -245,7 +245,7 @@ export default async function BrandDetailPage({ params }) {
                   ))}
                 </div>
 
-                <div className="mt-6 rounded-2xl border border-amber-200 bg-amber-50 px-4 py-4 text-sm leading-7 text-amber-900">
+                <div className="mt-6 rounded-2xl border border-blue-200 bg-blue-50 px-4 py-4 text-sm leading-7 text-blue-900">
                   Admin cek status, tipe unit, harga, promo, ketersediaan stok, dan ketentuan garansi
                   dari data terbaru.
                 </div>
@@ -262,7 +262,7 @@ export default async function BrandDetailPage({ params }) {
                 </div>
               </div>
 
-              <div className="bg-cyan-50 p-3">
+              <div className="bg-blue-50 p-3">
                 <Image
                   src="/photos/showroom/showroom-gree-radja-ac-purwokerto-01.webp"
                   alt="Showroom Proshop Gree RADJA AC"
@@ -286,7 +286,7 @@ export default async function BrandDetailPage({ params }) {
         <div className="grid gap-5 md:grid-cols-3">
           {warrantyHighlights.map((point) => (
             <div key={point} className="rounded-[1.55rem] border border-slate-200 bg-white p-6 shadow-sm">
-              <div className="mb-5 flex h-12 w-12 items-center justify-center rounded-2xl border border-cyan-100 bg-cyan-50 text-cyan-700">✓</div>
+              <div className="mb-5 flex h-12 w-12 items-center justify-center rounded-2xl border border-blue-100 bg-blue-50 text-blue-700">✓</div>
               <h3 className="text-lg font-black text-slate-950">{point}</h3>
             </div>
           ))}
@@ -296,7 +296,7 @@ export default async function BrandDetailPage({ params }) {
       <section className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8 lg:py-14">
         <div className="grid gap-6 lg:grid-cols-[0.95fr_1.05fr]">
           <div className="rounded-[1.7rem] border border-slate-200 bg-white p-6 shadow-sm sm:p-8">
-            <div className="mb-3 text-sm font-black uppercase tracking-[0.2em] text-cyan-700">Kapasitas PK</div>
+            <div className="mb-3 text-sm font-black uppercase tracking-[0.2em] text-blue-700">Kapasitas PK</div>
             <h2 className="mb-4 text-3xl font-black tracking-[-0.03em] text-slate-950 sm:text-4xl">Jangan pilih {item.label} hanya dari nama brand</h2>
             <p className="mb-5 text-sm leading-7 text-slate-600 sm:text-base">
               Kapasitas tetap mengikuti ukuran ruangan, daya listrik, posisi ruangan, dan pola pemakaian. Tabel ini hanya panduan awal.
@@ -305,7 +305,7 @@ export default async function BrandDetailPage({ params }) {
             <div className="grid gap-3">
               {pkGuide.map(([pk, size, fit]) => (
                 <div key={pk} className="grid gap-2 rounded-2xl border border-slate-200 bg-[#f8fbff] p-4 sm:grid-cols-[0.4fr_0.7fr_1fr]">
-                  <div className="font-black text-cyan-700">{pk}</div>
+                  <div className="font-black text-blue-700">{pk}</div>
                   <div className="text-sm font-bold text-slate-950">{size}</div>
                   <div className="text-sm text-slate-600">{fit}</div>
                 </div>
@@ -314,13 +314,13 @@ export default async function BrandDetailPage({ params }) {
           </div>
 
           <div className="rounded-[1.7rem] border border-slate-200 bg-white p-6 shadow-sm sm:p-8">
-            <div className="mb-3 text-sm font-black uppercase tracking-[0.2em] text-cyan-700">Pilihan Awal</div>
+            <div className="mb-3 text-sm font-black uppercase tracking-[0.2em] text-blue-700">Pilihan Awal</div>
             <h2 className="mb-4 text-3xl font-black tracking-[-0.03em] text-slate-950 sm:text-4xl">Standard, low watt, atau inverter?</h2>
 
             <div className="grid gap-3">
               {item.variants.map((variant) => (
                 <div key={variant} className="rounded-2xl border border-slate-200 bg-[#f8fbff] p-4">
-                  <div className="mb-1 text-sm font-black text-cyan-700">{item.name} {variant}</div>
+                  <div className="mb-1 text-sm font-black text-blue-700">{item.name} {variant}</div>
                   <p className="text-sm leading-6 text-slate-600">
                     Kecocokan tipe ini dibaca dari ukuran ruangan, daya listrik, jam pemakaian, budget, dan stok terbaru.
                   </p>
@@ -344,8 +344,8 @@ export default async function BrandDetailPage({ params }) {
 
         <div className="grid gap-5 md:grid-cols-3">
           {item.variants.map((variant) => (
-            <article key={variant} className="rounded-[1.55rem] border border-slate-200 bg-white p-6 shadow-sm transition hover:-translate-y-1 hover:border-cyan-200 hover:shadow-[0_18px_45px_rgba(15,39,66,0.10)]">
-              <p className="mb-3 text-xs font-black uppercase tracking-[0.18em] text-cyan-700">Tipe {item.name}</p>
+            <article key={variant} className="rounded-[1.55rem] border border-slate-200 bg-white p-6 shadow-sm transition hover:-translate-y-1 hover:border-blue-200 hover:shadow-[0_18px_45px_rgba(15,39,66,0.10)]">
+              <p className="mb-3 text-xs font-black uppercase tracking-[0.18em] text-blue-700">Tipe {item.name}</p>
               <h3 className="mb-3 text-2xl font-black text-slate-950">{variant}</h3>
               <p className="text-sm leading-7 text-slate-600">
                 Cek kecocokan {variant.toLowerCase()} berdasarkan ruangan, daya listrik, budget, dan stok terbaru.
@@ -369,7 +369,7 @@ export default async function BrandDetailPage({ params }) {
         <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
           {checklist.map((point) => (
             <div key={point} className="rounded-2xl border border-slate-200 bg-white p-4 text-sm font-semibold leading-6 text-slate-700 shadow-sm">
-              <span className="mb-3 flex h-7 w-7 items-center justify-center rounded-full bg-cyan-600 text-xs font-black text-white">✓</span>
+              <span className="mb-3 flex h-7 w-7 items-center justify-center rounded-full bg-blue-600 text-xs font-black text-white">✓</span>
               {point}
             </div>
           ))}
@@ -393,7 +393,7 @@ export default async function BrandDetailPage({ params }) {
         <SectionTitle eyebrow="Halaman Terkait" title="Lanjutkan dari brand ke kebutuhan ruangan" />
         <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
           {relatedLinks.map(([title, href]) => (
-            <Link key={href} href={href} className="rounded-[1.35rem] border border-slate-200 bg-white p-5 shadow-sm transition hover:-translate-y-1 hover:border-cyan-200 hover:bg-cyan-50">
+            <Link key={href} href={href} className="rounded-[1.35rem] border border-slate-200 bg-white p-5 shadow-sm transition hover:-translate-y-1 hover:border-blue-200 hover:bg-blue-50">
               <h3 className="text-lg font-black text-slate-950">{title}</h3>
             </Link>
           ))}
@@ -416,11 +416,11 @@ export default async function BrandDetailPage({ params }) {
         <SectionTitle eyebrow="Brand Lain" title="Pilih brand dari ukuran ruangan, daya listrik, dan stok" />
         <div className="flex flex-wrap justify-center gap-3">
           {relatedBrands.slice(0, 10).map((relatedBrand) => (
-            <Link key={relatedBrand.slug} href={relatedBrand.path} className="rounded-full border border-slate-200 bg-white px-4 py-2 text-sm font-bold text-slate-700 shadow-sm transition hover:border-cyan-200 hover:bg-cyan-50 hover:text-cyan-800">
+            <Link key={relatedBrand.slug} href={relatedBrand.path} className="rounded-full border border-slate-200 bg-white px-4 py-2 text-sm font-bold text-slate-700 shadow-sm transition hover:border-blue-200 hover:bg-blue-50 hover:text-blue-800">
               {relatedBrand.label}
             </Link>
           ))}
-          <Link href={routes.katalog} className="rounded-full border border-slate-200 bg-white px-4 py-2 text-sm font-bold text-slate-700 shadow-sm transition hover:border-cyan-200 hover:bg-cyan-50 hover:text-cyan-800">
+          <Link href={routes.katalog} className="rounded-full border border-slate-200 bg-white px-4 py-2 text-sm font-bold text-slate-700 shadow-sm transition hover:border-blue-200 hover:bg-blue-50 hover:text-blue-800">
             Katalog AC
           </Link>
         </div>
@@ -431,7 +431,7 @@ export default async function BrandDetailPage({ params }) {
           <SectionTitle eyebrow="Brand Utama" title="Brand utama RADJA AC" />
           <div className="flex flex-wrap justify-center gap-3">
             {featuredBrandItems.map((brand) => (
-              <Link key={brand.slug} href={brand.path} className="rounded-full border border-slate-200 bg-white px-4 py-2 text-sm font-bold text-slate-700 shadow-sm transition hover:border-cyan-200 hover:bg-cyan-50 hover:text-cyan-800">
+              <Link key={brand.slug} href={brand.path} className="rounded-full border border-slate-200 bg-white px-4 py-2 text-sm font-bold text-slate-700 shadow-sm transition hover:border-blue-200 hover:bg-blue-50 hover:text-blue-800">
                 {brand.label}
               </Link>
             ))}

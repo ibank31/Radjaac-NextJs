@@ -73,7 +73,7 @@ export default function JualAcPage() {
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_left,rgba(56,189,248,0.24),transparent_34%),radial-gradient(circle_at_bottom_right,rgba(34,197,94,0.18),transparent_30%)]" />
         <div className="relative mx-auto grid max-w-7xl gap-12 px-6 py-20 lg:grid-cols-[1.05fr_0.95fr] lg:px-8 lg:py-24">
           <div>
-            <p className="inline-flex rounded-full border border-cyan-100 bg-white/80 px-4 py-2 text-xs font-black uppercase tracking-[0.24em] text-cyan-800 shadow-sm backdrop-blur">
+            <p className="inline-flex rounded-full border border-blue-100 bg-white/80 px-4 py-2 text-xs font-black uppercase tracking-[0.24em] text-blue-800 shadow-sm backdrop-blur">
               Jual AC Original Multi-Brand
             </p>
             <h1 className="mt-7 max-w-4xl text-4xl font-black tracking-tight sm:text-5xl lg:text-6xl">
@@ -142,7 +142,7 @@ export default function JualAcPage() {
       <section className="mx-auto max-w-7xl px-6 py-20 lg:px-8">
         <div className="grid gap-12 lg:grid-cols-[0.8fr_1.2fr]">
           <div>
-            <p className="text-sm font-black uppercase tracking-[0.22em] text-cyan-700">
+            <p className="text-sm font-black uppercase tracking-[0.22em] text-blue-700">
               Pilih dari jenis ruangan
             </p>
             <h2 className="mt-4 text-3xl font-black tracking-tight text-slate-950 sm:text-4xl">
@@ -160,11 +160,11 @@ export default function JualAcPage() {
               <Link
                 key={href}
                 href={href}
-                className="group rounded-3xl border border-slate-200 bg-white p-6 shadow-sm transition hover:-translate-y-1 hover:border-cyan-300 hover:shadow-xl"
+                className="group rounded-3xl border border-slate-200 bg-white p-6 shadow-sm transition hover:-translate-y-1 hover:border-blue-300 hover:shadow-xl"
               >
                 <p className="text-lg font-black text-slate-950">{label}</p>
                 <p className="mt-3 text-sm leading-6 text-slate-600">{text}</p>
-                <p className="mt-5 text-sm font-black text-cyan-700 group-hover:text-cyan-900">
+                <p className="mt-5 text-sm font-black text-blue-700 group-hover:text-blue-900">
                   Lihat kategori →
                 </p>
               </Link>
@@ -173,11 +173,11 @@ export default function JualAcPage() {
         </div>
       </section>
 
-      <section className="bg-cyan-50">
+      <section className="bg-blue-50">
         <div className="mx-auto max-w-7xl px-6 py-16 lg:px-8">
           <div className="grid gap-10 lg:grid-cols-[0.78fr_1.22fr] lg:items-start">
             <div>
-              <p className="text-sm font-black uppercase tracking-[0.22em] text-cyan-800">
+              <p className="text-sm font-black uppercase tracking-[0.22em] text-blue-800">
                 Estimasi paket 1/2 PK
               </p>
               <h2 className="mt-4 text-3xl font-black tracking-tight text-slate-950 sm:text-4xl">
@@ -193,8 +193,8 @@ export default function JualAcPage() {
 
             <div className="grid gap-4 md:grid-cols-3">
               {packagePricingBands.map(([range, title, brands]) => (
-                <div key={range} className="rounded-3xl border border-cyan-100 bg-white p-6 shadow-sm">
-                  <p className="text-sm font-black uppercase tracking-[0.18em] text-cyan-700">{range}</p>
+                <div key={range} className="rounded-3xl border border-blue-100 bg-white p-6 shadow-sm">
+                  <p className="text-sm font-black uppercase tracking-[0.18em] text-blue-700">{range}</p>
                   <h3 className="mt-3 text-xl font-black text-slate-950">{title}</h3>
                   <p className="mt-3 text-sm leading-7 text-slate-600">{brands}</p>
                 </div>
@@ -224,7 +224,7 @@ export default function JualAcPage() {
       <section className="bg-slate-50">
         <div className="mx-auto max-w-7xl px-6 py-20 lg:px-8">
           <div className="max-w-3xl">
-            <p className="text-sm font-black uppercase tracking-[0.22em] text-cyan-700">
+            <p className="text-sm font-black uppercase tracking-[0.22em] text-blue-700">
               Brand AC
             </p>
             <h2 className="mt-4 text-3xl font-black tracking-tight text-slate-950 sm:text-4xl">
@@ -246,7 +246,7 @@ export default function JualAcPage() {
               >
                 <p className="text-xl font-black text-slate-950">AC {label}</p>
                 <p className="mt-3 text-sm leading-6 text-slate-600">{text}</p>
-                <p className="mt-5 text-sm font-black text-cyan-700">Cek halaman brand →</p>
+                <p className="mt-5 text-sm font-black text-blue-700">Cek halaman brand →</p>
               </Link>
             ))}
           </div>
@@ -256,7 +256,7 @@ export default function JualAcPage() {
       <section className="mx-auto max-w-7xl px-6 py-20 lg:px-8">
         <div className="grid gap-12 lg:grid-cols-[1fr_1fr]">
           <div>
-            <p className="text-sm font-black uppercase tracking-[0.22em] text-cyan-700">
+            <p className="text-sm font-black uppercase tracking-[0.22em] text-blue-700">
               Alur beli AC
             </p>
             <h2 className="mt-4 text-3xl font-black tracking-tight text-slate-950 sm:text-4xl">
@@ -289,7 +289,7 @@ export default function JualAcPage() {
         <div className="mx-auto max-w-7xl px-6 py-20 lg:px-8">
           <div className="grid gap-12 lg:grid-cols-[0.9fr_1.1fr]">
             <div>
-              <p className="text-sm font-black uppercase tracking-[0.22em] text-cyan-700">
+              <p className="text-sm font-black uppercase tracking-[0.22em] text-blue-700">
                 Bukti aktivitas
               </p>
               <h2 className="mt-4 text-3xl font-black tracking-tight sm:text-4xl">
@@ -325,10 +325,10 @@ export default function JualAcPage() {
       </section>
 
       <section className="mx-auto max-w-7xl px-6 py-20 lg:px-8">
-        <div className="rounded-[2rem] bg-cyan-50 p-8 sm:p-10 lg:p-12">
+        <div className="rounded-[2rem] bg-blue-50 p-8 sm:p-10 lg:p-12">
           <div className="grid gap-10 lg:grid-cols-[0.85fr_1.15fr]">
             <div>
-              <p className="text-sm font-black uppercase tracking-[0.22em] text-cyan-800">
+              <p className="text-sm font-black uppercase tracking-[0.22em] text-blue-800">
                 Area layanan
               </p>
               <h2 className="mt-4 text-3xl font-black tracking-tight text-slate-950 sm:text-4xl">
@@ -357,7 +357,7 @@ export default function JualAcPage() {
 
       <section className="mx-auto max-w-4xl px-6 pb-20 lg:px-8">
         <div className="rounded-[2rem] border border-slate-200 bg-white p-8 text-center shadow-xl sm:p-10">
-          <p className="text-sm font-black uppercase tracking-[0.22em] text-cyan-700">
+          <p className="text-sm font-black uppercase tracking-[0.22em] text-blue-700">
             Kirim Ukuran Ruangan
           </p>
           <h2 className="mt-4 text-3xl font-black tracking-tight text-slate-950 sm:text-4xl">

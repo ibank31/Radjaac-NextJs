@@ -56,7 +56,7 @@ export async function generateMetadata({ params }) {
 function SectionTitle({ eyebrow, title, description }) {
   return (
     <div className="mx-auto mb-8 max-w-3xl text-center">
-      <p className="mb-3 text-xs font-black uppercase tracking-[0.24em] text-cyan-700">
+      <p className="mb-3 text-xs font-black uppercase tracking-[0.24em] text-blue-700">
         {eyebrow}
       </p>
       <h2 className="mb-4 text-3xl font-black tracking-[-0.03em] text-slate-950 sm:text-4xl lg:text-5xl">
@@ -83,17 +83,17 @@ export default async function CatalogDetailPage({ params }) {
 
   return (
     <main className="min-h-screen overflow-hidden bg-[#f7fbff] text-slate-950">
-      <section className="relative overflow-hidden border-b border-cyan-100 bg-[linear-gradient(180deg,#f8fdff_0%,#eefbff_100%)] px-4 pb-10 pt-12 sm:px-6 lg:px-8 lg:pb-14 lg:pt-20">
+      <section className="relative overflow-hidden border-b border-blue-100 bg-[linear-gradient(180deg,#f8fdff_0%,#eefbff_100%)] px-4 pb-10 pt-12 sm:px-6 lg:px-8 lg:pb-14 lg:pt-20">
         <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_top_left,rgba(34,211,238,0.16),transparent_34%),radial-gradient(circle_at_bottom_right,rgba(15,23,42,0.08),transparent_32%)]" />
 
         <div className="relative mx-auto max-w-7xl">
-          <Link href={routes.katalog} className="mb-7 inline-flex text-sm font-black text-cyan-700 transition hover:text-cyan-900">
+          <Link href={routes.katalog} className="mb-7 inline-flex text-sm font-black text-blue-700 transition hover:text-blue-900">
             ← Kembali ke Katalog AC
           </Link>
 
           <div className="grid gap-10 lg:grid-cols-[1fr_0.88fr] lg:items-start lg:gap-16">
             <div>
-              <p className="mb-5 inline-flex rounded-full border border-cyan-100 bg-white/80 px-4 py-2 text-xs font-black uppercase tracking-[0.2em] text-cyan-800 shadow-sm backdrop-blur">
+              <p className="mb-5 inline-flex rounded-full border border-blue-100 bg-white/80 px-4 py-2 text-xs font-black uppercase tracking-[0.2em] text-blue-800 shadow-sm backdrop-blur">
                 {item.eyebrow}
               </p>
 
@@ -126,7 +126,7 @@ export default async function CatalogDetailPage({ params }) {
             </div>
 
             <aside className="rounded-[1.7rem] border border-slate-200 bg-white p-5 shadow-[0_22px_60px_rgba(15,39,66,0.10)] sm:p-6">
-              <p className="mb-3 text-xs font-black uppercase tracking-[0.2em] text-cyan-700">
+              <p className="mb-3 text-xs font-black uppercase tracking-[0.2em] text-blue-700">
                 Sebelum pilih unit
               </p>
               <h2 className="text-2xl font-black tracking-[-0.03em] text-slate-950">
@@ -136,7 +136,7 @@ export default async function CatalogDetailPage({ params }) {
               <div className="mt-5 grid gap-3">
                 {checklist.map((point) => (
                   <div key={point} className="rounded-2xl border border-slate-200 bg-[#f8fbff] p-4 text-sm font-semibold leading-6 text-slate-700">
-                    <span className="mr-2 text-cyan-700">✓</span>
+                    <span className="mr-2 text-blue-700">✓</span>
                     {point}
                   </div>
                 ))}
@@ -149,7 +149,7 @@ export default async function CatalogDetailPage({ params }) {
       <section className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8 lg:py-12">
         <div className="grid gap-6 lg:grid-cols-2">
           <section className="rounded-[1.7rem] border border-slate-200 bg-white p-6 shadow-sm sm:p-8">
-            <p className="mb-3 text-xs font-black uppercase tracking-[0.2em] text-cyan-700">
+            <p className="mb-3 text-xs font-black uppercase tracking-[0.2em] text-blue-700">
               Cocok untuk
             </p>
             <h2 className="mb-5 text-3xl font-black tracking-[-0.03em] text-slate-950">
@@ -165,7 +165,7 @@ export default async function CatalogDetailPage({ params }) {
           </section>
 
           <section className="rounded-[1.7rem] border border-slate-200 bg-white p-6 shadow-sm sm:p-8">
-            <p className="mb-3 text-xs font-black uppercase tracking-[0.2em] text-cyan-700">
+            <p className="mb-3 text-xs font-black uppercase tracking-[0.2em] text-blue-700">
               Yang perlu dicek
             </p>
             <h2 className="mb-5 text-3xl font-black tracking-[-0.03em] text-slate-950">
@@ -195,7 +195,7 @@ export default async function CatalogDetailPage({ params }) {
                 <div key={useCase} className="grid gap-3 border-b border-slate-200 bg-[#f8fbff] p-5 last:border-b-0 lg:grid-cols-[0.8fr_1.2fr_1.2fr]">
                   <div className="font-black text-slate-950">{useCase}</div>
                   <div className="text-sm leading-6 text-slate-600">{fit}</div>
-                  <div className="text-sm leading-6 text-cyan-800">{note}</div>
+                  <div className="text-sm leading-6 text-blue-800">{note}</div>
                 </div>
               ))}
             </div>
@@ -215,7 +215,7 @@ export default async function CatalogDetailPage({ params }) {
             <div className="grid gap-4 lg:grid-cols-4">
               {item.pricingBands.map((band) => (
                 <article key={band.label} className="rounded-[1.45rem] border border-slate-200 bg-[#f8fbff] p-5">
-                  <p className="text-xs font-black uppercase tracking-[0.18em] text-cyan-700">{band.label}</p>
+                  <p className="text-xs font-black uppercase tracking-[0.18em] text-blue-700">{band.label}</p>
                   <h3 className="mt-3 text-xl font-black text-slate-950">{band.title}</h3>
                   <p className="mt-3 text-sm leading-6 text-slate-600">{band.value}</p>
                   <div className="mt-5 flex flex-wrap gap-2">
@@ -241,7 +241,7 @@ export default async function CatalogDetailPage({ params }) {
                 </div>
               </div>
 
-              <div className="rounded-[1.45rem] border border-amber-200 bg-amber-50 p-5">
+              <div className="rounded-[1.45rem] border border-blue-200 bg-blue-50 p-5">
                 <h3 className="text-xl font-black text-slate-950">Admin cek rincian harga</h3>
                 <p className="mt-3 text-sm leading-7 text-slate-700">{item.pricingNote}</p>
                 <WhatsappLink
@@ -261,7 +261,7 @@ export default async function CatalogDetailPage({ params }) {
       <section className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8 lg:py-14">
         <div className="grid gap-7 lg:grid-cols-[0.9fr_1.1fr] lg:items-start">
           <div>
-            <p className="mb-3 text-xs font-black uppercase tracking-[0.24em] text-cyan-700">
+            <p className="mb-3 text-xs font-black uppercase tracking-[0.24em] text-blue-700">
               Panduan PK
             </p>
             <h2 className="mb-4 text-3xl font-black tracking-[-0.03em] text-slate-950 sm:text-4xl lg:text-5xl">
@@ -276,7 +276,7 @@ export default async function CatalogDetailPage({ params }) {
             <div className="divide-y divide-slate-200">
               {pkGuide.map(([pk, area, note]) => (
                 <div key={pk} className="grid grid-cols-[70px_1fr] gap-4 px-5 py-4 sm:grid-cols-[0.8fr_1fr_1.4fr] sm:items-center">
-                  <div className="text-xl font-black text-cyan-700">{pk}</div>
+                  <div className="text-xl font-black text-blue-700">{pk}</div>
                   <div className="text-sm font-black text-slate-950 sm:text-base">{area}</div>
                   <div className="col-start-2 text-sm leading-6 text-slate-600 sm:col-auto">{note}</div>
                 </div>
@@ -288,7 +288,7 @@ export default async function CatalogDetailPage({ params }) {
 
       <section className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8 lg:py-14">
         <div className="rounded-[1.7rem] border border-slate-200 bg-white p-6 text-center shadow-[0_18px_50px_rgba(15,39,66,0.08)] sm:p-8 lg:p-10">
-          <p className="mb-3 text-xs font-black uppercase tracking-[0.24em] text-cyan-700">
+          <p className="mb-3 text-xs font-black uppercase tracking-[0.24em] text-blue-700">
             Brand & kategori lain
           </p>
           <h2 className="mx-auto mb-5 max-w-3xl text-3xl font-black tracking-[-0.03em] text-slate-950 sm:text-4xl">
@@ -297,7 +297,7 @@ export default async function CatalogDetailPage({ params }) {
 
           <div className="mb-6 flex flex-wrap justify-center gap-2.5">
             {brandLinks.map(([label, href]) => (
-              <Link key={href} href={href} className="rounded-full border border-slate-200 bg-[#f8fbff] px-4 py-2 text-sm font-bold text-slate-700 transition hover:border-cyan-200 hover:bg-cyan-50 hover:text-cyan-800">
+              <Link key={href} href={href} className="rounded-full border border-slate-200 bg-[#f8fbff] px-4 py-2 text-sm font-bold text-slate-700 transition hover:border-blue-200 hover:bg-blue-50 hover:text-blue-800">
                 {label}
               </Link>
             ))}
@@ -305,7 +305,7 @@ export default async function CatalogDetailPage({ params }) {
 
           <div className="flex flex-wrap justify-center gap-2.5">
             {relatedItems.map((relatedItem) => (
-              <Link key={relatedItem.slug} href={relatedItem.path} className="rounded-full border border-slate-200 bg-white px-4 py-2 text-sm font-bold text-slate-600 transition hover:border-cyan-200 hover:bg-cyan-50 hover:text-cyan-800">
+              <Link key={relatedItem.slug} href={relatedItem.path} className="rounded-full border border-slate-200 bg-white px-4 py-2 text-sm font-bold text-slate-600 transition hover:border-blue-200 hover:bg-blue-50 hover:text-blue-800">
                 {relatedItem.label}
               </Link>
             ))}

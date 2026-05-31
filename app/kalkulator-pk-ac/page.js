@@ -116,7 +116,7 @@ export default function KalkulatorPkAcPage() {
           </section>
         </div>
 
-        <section className="mt-12 rounded-3xl border border-cyan-100 bg-white p-6 text-slate-950 shadow-[0_18px_55px_rgba(15,39,66,0.08)]">
+        <section className="mt-12 rounded-3xl border border-blue-100 bg-white p-6 text-slate-950 shadow-[0_18px_55px_rgba(15,39,66,0.08)]">
           <h2 className="text-2xl font-black">Mau cek hasil PK ke admin?</h2>
           <p className="mt-4 max-w-3xl text-sm leading-6 text-slate-600">
             Kirim ukuran ruangan, tinggi plafon jika tahu, daya listrik, kota, budget, dan kebutuhan unit

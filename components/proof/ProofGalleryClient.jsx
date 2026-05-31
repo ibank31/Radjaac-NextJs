@@ -350,20 +350,20 @@ export default function ProofGalleryClient() {
   return (
     <main className="relative overflow-hidden bg-white text-slate-950">
       <div className="pointer-events-none fixed inset-0 -z-10 overflow-hidden">
-        <div className="absolute left-[-160px] top-[-220px] h-[420px] w-[420px] rounded-full bg-cyan-100/70 blur-[120px]" />
+        <div className="absolute left-[-160px] top-[-220px] h-[420px] w-[420px] rounded-full bg-blue-100/70 blur-[120px]" />
         <div className="absolute bottom-[-220px] right-[-160px] h-[420px] w-[420px] rounded-full bg-slate-100 blur-[120px]" />
       </div>
 
       <section className="mx-auto max-w-7xl px-5 pb-6 pt-10 lg:px-8 lg:pb-8 lg:pt-14">
         <div className="mx-auto max-w-3xl text-center">
-          <div className="mb-7 inline-flex items-center gap-2 rounded-full border border-cyan-200 bg-white px-5 py-3 text-sm font-bold uppercase tracking-wide text-cyan-800 shadow-sm">
+          <div className="mb-7 inline-flex items-center gap-2 rounded-full border border-blue-200 bg-white px-5 py-3 text-sm font-bold uppercase tracking-wide text-blue-800 shadow-sm">
             <span aria-hidden="true">▣</span>
             Gallery RADJA AC Purwokerto
           </div>
 
           <h1 className="mb-6 text-4xl font-black leading-tight tracking-[-0.04em] text-slate-950 sm:text-5xl lg:text-6xl">
             Daripada cuma percaya tulisan —{" "}
-            <span className="text-cyan-700">lihat dulu foto aslinya.</span>
+            <span className="text-blue-700">lihat dulu foto aslinya.</span>
           </h1>
 
           <p className="mx-auto max-w-2xl text-base leading-9 text-slate-600 sm:text-lg">
@@ -379,9 +379,9 @@ export default function ProofGalleryClient() {
           {galleryCategories.map((item) => (
             <article
               key={item.title}
-              className="rounded-[28px] border border-slate-200 bg-white p-5 text-center shadow-sm transition hover:-translate-y-0.5 hover:border-cyan-200 hover:bg-cyan-50/40"
+              className="rounded-[28px] border border-slate-200 bg-white p-5 text-center shadow-sm transition hover:-translate-y-0.5 hover:border-blue-200 hover:bg-blue-50/40"
             >
-              <div className="mx-auto mb-5 flex h-14 w-14 items-center justify-center rounded-3xl border border-cyan-100 bg-cyan-50 text-2xl font-black text-cyan-800">
+              <div className="mx-auto mb-5 flex h-14 w-14 items-center justify-center rounded-3xl border border-blue-100 bg-blue-50 text-2xl font-black text-blue-800">
                 {item.icon}
               </div>
               <h2 className="mb-4 text-base font-black text-slate-950">{item.title}</h2>
@@ -393,7 +393,7 @@ export default function ProofGalleryClient() {
 
       <section className="mx-auto max-w-5xl px-5 py-8 lg:px-8 lg:py-10">
         <div className="mb-7 text-center">
-          <p className="mb-4 text-xs font-semibold uppercase tracking-[0.35em] text-cyan-700">
+          <p className="mb-4 text-xs font-semibold uppercase tracking-[0.35em] text-blue-700">
             Video Aktivitas
           </p>
           <h2 className="mb-4 text-3xl font-black leading-tight tracking-[-0.04em] text-slate-950 sm:text-4xl">
@@ -423,7 +423,7 @@ export default function ProofGalleryClient() {
                   Browser Anda tidak mendukung pemutar video.
                 </video>
 
-                <span className="pointer-events-none absolute left-2 top-2 rounded-full bg-white/90 px-2 py-1 text-[8px] font-bold text-cyan-800 shadow-sm sm:text-[10px]">
+                <span className="pointer-events-none absolute left-2 top-2 rounded-full bg-white/90 px-2 py-1 text-[8px] font-bold text-blue-800 shadow-sm sm:text-[10px]">
                   {item.category}
                 </span>
                 <span className="pointer-events-none absolute right-2 top-2 flex h-9 w-9 items-center justify-center rounded-full bg-white/90 text-sm font-black text-slate-950 shadow-lg sm:h-10 sm:w-10">
@@ -442,7 +442,7 @@ export default function ProofGalleryClient() {
 
       <section className="mx-auto max-w-7xl px-5 pb-14 pt-7 lg:px-8 lg:pb-20 lg:pt-10">
         <div className="mb-7 text-center">
-          <p className="mb-4 text-xs font-semibold uppercase tracking-[0.35em] text-cyan-700">
+          <p className="mb-4 text-xs font-semibold uppercase tracking-[0.35em] text-blue-700">
             Foto Aktivitas
           </p>
           <h2 className="mx-auto mb-5 max-w-4xl text-3xl font-black leading-tight tracking-[-0.04em] text-slate-950 sm:text-4xl lg:text-5xl">
@@ -466,8 +466,8 @@ export default function ProofGalleryClient() {
                   onClick={() => setActiveFilter(filter)}
                   className={`shrink-0 rounded-full border px-5 py-3 text-sm font-bold shadow-sm transition ${
                     isActive
-                      ? "border-cyan-200 bg-cyan-50 text-cyan-900"
-                      : "border-slate-200 bg-white text-slate-700 hover:border-cyan-200 hover:bg-cyan-50 hover:text-cyan-800"
+                      ? "border-blue-200 bg-blue-50 text-blue-900"
+                      : "border-slate-200 bg-white text-slate-700 hover:border-blue-200 hover:bg-blue-50 hover:text-blue-800"
                   }`}
                 >
                   {filter}
@@ -484,7 +484,7 @@ export default function ProofGalleryClient() {
               href={item.image}
               target="_blank"
               rel="noreferrer"
-              className="group overflow-hidden rounded-[24px] border border-slate-200 bg-white shadow-sm transition hover:-translate-y-0.5 hover:border-cyan-200 hover:shadow-lg"
+              className="group overflow-hidden rounded-[24px] border border-slate-200 bg-white shadow-sm transition hover:-translate-y-0.5 hover:border-blue-200 hover:shadow-lg"
             >
               <div className="relative aspect-[4/5] overflow-hidden bg-slate-200">
                 <Image
@@ -494,7 +494,7 @@ export default function ProofGalleryClient() {
                   sizes="(min-width: 1280px) 20vw, (min-width: 1024px) 25vw, (min-width: 640px) 33vw, 50vw"
                   className="object-cover transition duration-500 group-hover:scale-105"
                 />
-                <span className="absolute left-3 top-3 rounded-full border border-cyan-100 bg-white/95 px-3 py-1.5 text-[11px] font-bold text-cyan-800 shadow-sm">
+                <span className="absolute left-3 top-3 rounded-full border border-blue-100 bg-white/95 px-3 py-1.5 text-[11px] font-bold text-blue-800 shadow-sm">
                   {item.category}
                 </span>
               </div>
@@ -505,7 +505,7 @@ export default function ProofGalleryClient() {
           ))}
         </div>
 
-        <div className="mx-auto mt-10 max-w-3xl rounded-[28px] border border-cyan-200 bg-cyan-50 p-6 text-center shadow-sm">
+        <div className="mx-auto mt-10 max-w-3xl rounded-[28px] border border-blue-200 bg-blue-50 p-6 text-center shadow-sm">
           <h2 className="text-2xl font-black tracking-[-0.03em] text-slate-950">
             Mau cek unit dari stok aktif?
           </h2>

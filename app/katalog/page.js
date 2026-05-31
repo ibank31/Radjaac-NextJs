@@ -62,7 +62,7 @@ const brandLinks = [
 function SectionTitle({ eyebrow, title, description }) {
   return (
     <div className="mx-auto mb-8 max-w-3xl text-center">
-      <p className="mb-3 text-xs font-black uppercase tracking-[0.24em] text-cyan-700">{eyebrow}</p>
+      <p className="mb-3 text-xs font-black uppercase tracking-[0.24em] text-blue-700">{eyebrow}</p>
       <h2 className="mb-4 text-3xl font-black tracking-[-0.03em] text-slate-950 sm:text-4xl lg:text-5xl">{title}</h2>
       {description ? <p className="mx-auto max-w-2xl text-sm leading-7 text-slate-600 sm:text-base">{description}</p> : null}
     </div>
@@ -72,18 +72,18 @@ function SectionTitle({ eyebrow, title, description }) {
 export default function KatalogPage() {
   return (
     <main className="min-h-screen overflow-hidden bg-[#f7fbff] text-slate-950">
-      <section className="relative overflow-hidden border-b border-cyan-100 bg-[linear-gradient(180deg,#f8fdff_0%,#eefbff_100%)] px-4 pb-10 pt-12 sm:px-6 lg:px-8 lg:pb-14 lg:pt-18">
+      <section className="relative overflow-hidden border-b border-blue-100 bg-[linear-gradient(180deg,#f8fdff_0%,#eefbff_100%)] px-4 pb-10 pt-12 sm:px-6 lg:px-8 lg:pb-14 lg:pt-18">
         <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_top_left,rgba(34,211,238,0.16),transparent_34%),radial-gradient(circle_at_bottom_right,rgba(15,23,42,0.08),transparent_32%)]" />
 
         <div className="relative mx-auto grid max-w-7xl items-center gap-9 lg:grid-cols-2 lg:gap-16">
           <div>
-            <p className="mb-5 inline-flex rounded-full border border-cyan-100 bg-white/80 px-4 py-2 text-xs font-black uppercase tracking-[0.18em] text-cyan-800 shadow-sm backdrop-blur">
+            <p className="mb-5 inline-flex rounded-full border border-blue-100 bg-white/80 px-4 py-2 text-xs font-black uppercase tracking-[0.18em] text-blue-800 shadow-sm backdrop-blur">
               Katalog AC RADJA AC
             </p>
 
             <h1 className="mb-5 max-w-2xl text-3xl font-black leading-tight tracking-[-0.04em] text-slate-950 sm:text-4xl md:text-5xl xl:text-6xl">
               Belum tahu mau pilih AC apa?
-              <span className="block text-cyan-700">Mulai dari kebutuhan ruangannya dulu.</span>
+              <span className="block text-blue-700">Mulai dari kebutuhan ruangannya dulu.</span>
             </h1>
 
             <p className="mb-6 max-w-xl text-sm leading-7 text-slate-600 sm:text-base">
@@ -110,11 +110,11 @@ export default function KatalogPage() {
 
           <div className="mx-auto w-full max-w-[430px] rounded-[1.7rem] border border-slate-200 bg-white p-4 shadow-[0_22px_60px_rgba(15,39,66,0.10)] lg:mr-0">
             <div className="rounded-[1.35rem] border border-slate-200 bg-[#f8fbff] p-4">
-              <p className="mb-4 text-xs font-black uppercase tracking-[0.18em] text-cyan-700">Mulai dari kebutuhan ruangan</p>
+              <p className="mb-4 text-xs font-black uppercase tracking-[0.18em] text-blue-700">Mulai dari kebutuhan ruangan</p>
               <div className="space-y-3">
                 {heroCards.map(([title, note], index) => (
                   <div key={title} className="flex items-center gap-3 rounded-2xl border border-slate-200 bg-white p-4 shadow-sm">
-                    <span className="flex h-9 w-9 shrink-0 items-center justify-center rounded-xl bg-cyan-50 text-sm font-black text-cyan-800">
+                    <span className="flex h-9 w-9 shrink-0 items-center justify-center rounded-xl bg-blue-50 text-sm font-black text-blue-800">
                       {index + 1}
                     </span>
                     <div>
@@ -124,7 +124,7 @@ export default function KatalogPage() {
                   </div>
                 ))}
               </div>
-              <div className="mt-4 rounded-2xl border border-cyan-100 bg-cyan-50 p-4">
+              <div className="mt-4 rounded-2xl border border-blue-100 bg-blue-50 p-4">
                 <p className="text-sm font-black text-slate-950">Mulai dari data ruangan</p>
                 <p className="mt-1 text-xs leading-5 text-slate-600">Kirim ukuran ruangan, daya listrik, dan lokasi. Admin cocokkan kategori AC, kapasitas PK, dan stok yang tersedia.</p>
               </div>
@@ -146,12 +146,12 @@ export default function KatalogPage() {
             ))}
           </div>
 
-          <div className="mt-5 rounded-[1.35rem] border border-cyan-100 bg-cyan-50 p-4">
-            <p className="mb-3 text-center text-xs font-black uppercase tracking-[0.18em] text-cyan-800">Paket standar termasuk</p>
+          <div className="mt-5 rounded-[1.35rem] border border-blue-100 bg-blue-50 p-4">
+            <p className="mb-3 text-center text-xs font-black uppercase tracking-[0.18em] text-blue-800">Paket standar termasuk</p>
             <div className="grid gap-2 sm:grid-cols-2 lg:grid-cols-4">
               {packageIncludes.map((item) => (
                 <div key={item} className="flex items-center gap-2 text-sm font-semibold text-slate-700">
-                  <span className="flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-cyan-600 text-xs font-black text-white">✓</span>
+                  <span className="flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-blue-600 text-xs font-black text-white">✓</span>
                   {item}
                 </div>
               ))}
@@ -169,13 +169,13 @@ export default function KatalogPage() {
 
         <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-4">
           {categories.map(([label, href, text], index) => (
-            <Link key={href} href={href} className="rounded-[1.45rem] border border-slate-200 bg-white p-5 text-center shadow-sm transition hover:-translate-y-1 hover:border-cyan-200 hover:shadow-[0_18px_45px_rgba(15,39,66,0.10)]">
-              <div className="mx-auto mb-4 flex h-12 w-12 items-center justify-center rounded-2xl border border-cyan-100 bg-cyan-50 text-lg font-black text-cyan-800">
+            <Link key={href} href={href} className="rounded-[1.45rem] border border-slate-200 bg-white p-5 text-center shadow-sm transition hover:-translate-y-1 hover:border-blue-200 hover:shadow-[0_18px_45px_rgba(15,39,66,0.10)]">
+              <div className="mx-auto mb-4 flex h-12 w-12 items-center justify-center rounded-2xl border border-blue-100 bg-blue-50 text-lg font-black text-blue-800">
                 {index + 1}
               </div>
               <h3 className="mb-3 text-lg font-black text-slate-950">{label}</h3>
               <p className="text-sm leading-6 text-slate-600">{text}</p>
-              <div className="mt-4 text-xs font-black uppercase tracking-[0.14em] text-cyan-700">Cek Pilihan</div>
+              <div className="mt-4 text-xs font-black uppercase tracking-[0.14em] text-blue-700">Cek Pilihan</div>
             </Link>
           ))}
         </div>
@@ -184,7 +184,7 @@ export default function KatalogPage() {
       <section id="panduan-pk" className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8 lg:py-14">
         <div className="grid gap-7 lg:grid-cols-[0.9fr_1.1fr] lg:items-start">
           <div>
-            <p className="mb-3 text-xs font-black uppercase tracking-[0.24em] text-cyan-700">Panduan PK</p>
+            <p className="mb-3 text-xs font-black uppercase tracking-[0.24em] text-blue-700">Panduan PK</p>
             <h2 className="mb-4 text-3xl font-black tracking-[-0.03em] text-slate-950 sm:text-4xl lg:text-5xl">Kira-kira ruangan ini butuh berapa PK?</h2>
             <p className="text-sm leading-7 text-slate-600 sm:text-base">
               Tabel ini hanya patokan awal. Ruangan lantai atas, kena matahari langsung, dinding tipis, atau banyak orang di dalamnya bisa butuh kapasitas lebih dari perkiraan luas ruang saja.
@@ -195,7 +195,7 @@ export default function KatalogPage() {
             <div className="divide-y divide-slate-200">
               {pkGuide.map(([pk, area, note]) => (
                 <div key={pk} className="grid grid-cols-[70px_1fr] gap-4 px-5 py-4 sm:grid-cols-[0.8fr_1fr_1.4fr] sm:items-center">
-                  <div className="text-xl font-black text-cyan-700">{pk}</div>
+                  <div className="text-xl font-black text-blue-700">{pk}</div>
                   <div className="text-sm font-black text-slate-950 sm:text-base">{area}</div>
                   <div className="col-start-2 text-sm leading-6 text-slate-600 sm:col-auto">{note}</div>
                 </div>
@@ -213,7 +213,7 @@ export default function KatalogPage() {
           </p>
           <div className="flex flex-wrap justify-center gap-2.5">
             {brandLinks.map(([label, href]) => (
-              <Link key={href} href={href} className="rounded-full border border-slate-200 bg-[#f8fbff] px-4 py-2 text-sm font-bold text-slate-700 transition hover:border-cyan-200 hover:bg-cyan-50 hover:text-cyan-800">
+              <Link key={href} href={href} className="rounded-full border border-slate-200 bg-[#f8fbff] px-4 py-2 text-sm font-bold text-slate-700 transition hover:border-blue-200 hover:bg-blue-50 hover:text-blue-800">
                 {label}
               </Link>
             ))}

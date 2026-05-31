@@ -179,14 +179,10 @@ const certificates = [
   },
 ];
 
-function SectionBadge({ children, tone = "cyan" }) {
-  const color =
-    tone === "amber"
-      ? "border-amber-200 bg-amber-50 text-amber-800"
-      : "border-cyan-200 bg-cyan-50 text-cyan-800";
-
+function SectionBadge({ children }) {
   return (
-    <p className={`inline-flex rounded-full border px-4 py-2 text-xs font-black uppercase tracking-[0.2em] ${color}`}>
+    <p className="inline-flex items-center gap-2 rounded-full border border-brand-red/20 bg-brand-red/5 px-4 py-1.5 text-[11px] font-bold uppercase tracking-[0.18em] text-brand-red">
+      <span className="h-1.5 w-1.5 rounded-full bg-brand-red" aria-hidden="true" />
       {children}
     </p>
   );
@@ -206,19 +202,19 @@ function ArrowLink({ href, children, className = "" }) {
 
 function HomeHero() {
   return (
-    <section className="relative overflow-hidden border-b border-cyan-100 bg-[linear-gradient(180deg,#f8fdff_0%,#eefbff_100%)] px-4 pb-10 pt-10 sm:pt-14 lg:pb-14">
-      <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_top_left,rgba(34,211,238,0.18),transparent_34%),radial-gradient(circle_at_bottom_right,rgba(15,23,42,0.08),transparent_32%)]" />
+    <section className="relative overflow-hidden border-b border-blue-100 bg-[linear-gradient(180deg,#f8fdff_0%,#eefbff_100%)] px-4 pb-10 pt-10 sm:pt-14 lg:pb-14">
+      <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_top_left,rgba(73,132,184,0.18),transparent_36%),radial-gradient(circle_at_bottom_right,rgba(14,42,71,0.08),transparent_34%)]" />
 
       <div className="relative mx-auto grid max-w-7xl gap-8 lg:grid-cols-[0.95fr_1.05fr] lg:items-center">
         <div>
-          <div className="mb-5 inline-flex max-w-full items-center gap-2 rounded-full border border-cyan-100 bg-white/80 px-3.5 py-2 text-[11px] font-black uppercase tracking-[0.16em] text-cyan-800 shadow-sm backdrop-blur">
-            <span className="h-2 w-2 shrink-0 rounded-full bg-cyan-500" />
+          <div className="mb-5 inline-flex max-w-full items-center gap-2 rounded-full border border-blue-100 bg-white/80 px-3.5 py-2 text-[11px] font-black uppercase tracking-[0.16em] text-blue-800 shadow-sm backdrop-blur">
+            <span className="h-2 w-2 shrink-0 rounded-full bg-blue-500" />
             <span className="leading-5">Cek stok, konsultasi PK, pengiriman & pemasangan</span>
           </div>
 
-          <h1 className="max-w-3xl text-4xl font-black tracking-[-0.04em] text-slate-950 sm:text-5xl lg:text-6xl">
+          <h1 className="max-w-3xl text-4xl font-extrabold tracking-[-0.03em] text-navy sm:text-5xl lg:text-6xl">
             Beli AC dimulai dari kebutuhan ruangan, stok, dan biaya pemasangan.
-            <span className="block text-cyan-700">
+            <span className="block text-brand-blue">
               PK, stok, dan biaya pasang harus jelas dulu.
             </span>
           </h1>
@@ -229,7 +225,7 @@ function HomeHero() {
 
           <div className="mt-7 flex flex-col gap-3 sm:flex-row sm:flex-wrap">
             <WhatsappLink
-              className="inline-flex w-full items-center justify-center rounded-full bg-[#25D366] px-6 py-4 text-sm font-black text-slate-950 shadow-[0_18px_42px_rgba(37,211,102,0.20)] transition hover:-translate-y-0.5 hover:bg-[#20BA5A] sm:w-auto"
+              className="inline-flex w-full items-center justify-center rounded-full bg-red-600 px-7 py-4 text-base font-black text-white shadow-xl shadow-red-600/20 transition hover:-translate-y-0.5 hover:bg-red-700 sm:w-auto"
               source="Homepage Hero"
               intent="konsultasi AC yang cocok, cek PK, stok, pengiriman, dan pemasangan"
             >
@@ -238,14 +234,14 @@ function HomeHero() {
 
             <ArrowLink
               href={routes.katalog}
-              className="border border-slate-200 bg-white text-slate-900 shadow-sm hover:bg-slate-50"
+              className="border border-navy/20 bg-white text-navy shadow-sm hover:border-navy/40 hover:bg-surface-soft"
             >
               Lihat Pilihan AC
             </ArrowLink>
 
             <ArrowLink
               href={routes.pengadaanAc}
-              className="border border-cyan-200 bg-cyan-50 text-cyan-900 hover:bg-cyan-100"
+              className="border border-brand-blue/30 bg-brand-blue-tint text-navy hover:bg-brand-blue/15"
             >
               Pengadaan AC
             </ArrowLink>
@@ -257,7 +253,7 @@ function HomeHero() {
         </div>
 
         <div className="relative hidden sm:block">
-          <div className="absolute -inset-4 rounded-[1.7rem] bg-cyan-200/30 blur-3xl" />
+          <div className="absolute -inset-4 rounded-[1.7rem] bg-blue-200/30 blur-3xl" />
           <div className="relative overflow-hidden rounded-[1.7rem] border border-white bg-white p-2 shadow-[0_22px_60px_rgba(15,39,66,0.12)]">
             <Image
               src="/photos/showroom/showroom-multibrand-radja-ac-purwokerto-01.webp"
@@ -279,26 +275,26 @@ function HomeTrust() {
     <section className="mx-auto max-w-7xl px-4 py-10">
       <div className="mx-auto mb-8 max-w-3xl text-center">
         <SectionBadge tone="amber">Bukan Sekadar Klaim</SectionBadge>
-        <h2 className="mt-4 text-3xl font-black tracking-tight text-slate-950 sm:text-4xl">
+        <h2 className="mt-4 text-3xl font-black tracking-tight text-blue-950 sm:text-4xl">
           Ada showroom, stok fisik, dan bukti aktivitas toko
         </h2>
       </div>
 
-      <div className="overflow-hidden rounded-[1.7rem] border border-amber-200 bg-[linear-gradient(135deg,#fffaf2_0%,#ffffff_58%,#eef7ff_100%)] p-6 shadow-[0_24px_70px_rgba(15,39,66,0.08)] sm:p-8">
+      <div className="overflow-hidden rounded-[1.7rem] border border-blue-200 bg-[linear-gradient(135deg,#fffaf2_0%,#ffffff_58%,#eef7ff_100%)] p-6 shadow-[0_24px_70px_rgba(15,39,66,0.08)] sm:p-8">
         <div className="grid gap-7 lg:grid-cols-[0.7fr_1.3fr] lg:items-center">
           <div>
-            <div className="mb-5 flex h-14 w-14 items-center justify-center rounded-2xl border border-amber-200 bg-white text-2xl text-amber-700 shadow-sm">
+            <div className="mb-5 flex h-14 w-14 items-center justify-center rounded-2xl border border-blue-200 bg-white text-2xl text-blue-700 shadow-sm">
               ✓
             </div>
-            <p className="mb-2 text-xs font-black uppercase tracking-[0.24em] text-amber-800">
+            <p className="mb-2 text-xs font-black uppercase tracking-[0.24em] text-blue-800">
               Proshop Gree Resmi
             </p>
-            <h3 className="text-2xl font-black tracking-tight text-slate-950 sm:text-3xl">
+            <h3 className="text-2xl font-black tracking-tight text-blue-950 sm:text-3xl">
               RADJA AC tercantum sebagai Proshop resmi Gree Indonesia
             </h3>
           </div>
 
-          <div className="border-t border-amber-200 pt-6 lg:border-l lg:border-t-0 lg:pl-8 lg:pt-0">
+          <div className="border-t border-blue-200 pt-6 lg:border-l lg:border-t-0 lg:pl-8 lg:pt-0">
             <p className="text-sm leading-7 text-slate-700 sm:text-base">
               Selain konsultasi brand lain, RADJA AC juga dikenal melalui aktivitas showroom, stok fisik,
               pengiriman, dan pemasangan. Untuk Gree, RADJA AC tercantum sebagai Proshop resmi Gree
@@ -308,7 +304,7 @@ function HomeTrust() {
 
             <ArrowLink
               href={routes.brandGree}
-              className="mt-5 border border-amber-300 bg-white text-amber-900 shadow-sm hover:bg-amber-50"
+              className="mt-5 border border-blue-300 bg-white text-blue-900 shadow-sm hover:bg-blue-50"
             >
               Lihat AC Gree di RADJA AC
             </ArrowLink>
@@ -326,7 +322,7 @@ function HomeTrust() {
             <p className="mb-3 text-xs font-black uppercase tracking-[0.28em] text-[#1565C0]">
               Dokumen Resmi
             </p>
-            <h3 className="mb-3 text-2xl font-black tracking-tight text-slate-950 sm:text-3xl">
+            <h3 className="mb-3 text-2xl font-black tracking-tight text-blue-950 sm:text-3xl">
               Sertifikat Authorized Dealer — bukan sekadar klaim toko
             </h3>
             <p className="max-w-xl text-sm leading-7 text-slate-600 sm:text-base">
@@ -349,7 +345,7 @@ function HomeTrust() {
                   />
                 </div>
                 <figcaption className="mt-3 text-center">
-                  <span className="inline-flex items-center justify-center gap-1.5 text-sm font-black text-slate-950 sm:text-base">
+                  <span className="inline-flex items-center justify-center gap-1.5 text-sm font-black text-blue-950 sm:text-base">
                     <span className="text-[#1565C0]" aria-hidden="true">✓</span>
                     {item.brand}
                   </span>
@@ -375,7 +371,7 @@ function HomePriceEstimate() {
         <div className="mb-7 grid gap-5 lg:grid-cols-[0.9fr_1.1fr] lg:items-end">
           <div>
             <SectionBadge>Estimasi Budget AC + Pasang</SectionBadge>
-            <h2 className="mt-4 text-3xl font-black tracking-tight text-slate-950 sm:text-4xl">
+            <h2 className="mt-4 text-3xl font-black tracking-tight text-blue-950 sm:text-4xl">
               Pilih AC dari budget awal
             </h2>
           </div>
@@ -391,10 +387,10 @@ function HomePriceEstimate() {
               key={item.budget}
               className="rounded-[1.6rem] border border-slate-200 bg-slate-50 p-5 text-center transition hover:-translate-y-0.5 hover:bg-white hover:shadow-lg"
             >
-              <div className="mx-auto mb-4 flex h-11 w-11 items-center justify-center rounded-2xl border border-blue-100 bg-blue-50 font-black text-cyan-700">
+              <div className="mx-auto mb-4 flex h-11 w-11 items-center justify-center rounded-2xl border border-blue-100 bg-blue-50 font-black text-blue-700">
                 ✓
               </div>
-              <h3 className="mb-4 text-3xl font-black text-slate-950">{item.budget}</h3>
+              <h3 className="mb-4 text-3xl font-black text-blue-950">{item.budget}</h3>
               <p className="rounded-2xl border border-blue-100 bg-white px-4 py-4 text-sm font-semibold leading-7 text-slate-700">
                 {item.brands}
               </p>
@@ -409,7 +405,7 @@ function HomePriceEstimate() {
           <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
             {packageIncludes.map((item) => (
               <div key={item} className="flex items-center gap-2 text-sm font-semibold text-slate-700">
-                <span className="flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-cyan-600 text-xs font-black text-white">
+                <span className="flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-blue-600 text-xs font-black text-white">
                   ✓
                 </span>
                 {item}
@@ -418,14 +414,14 @@ function HomePriceEstimate() {
           </div>
         </div>
 
-        <div className="mt-6 rounded-[1.4rem] border border-amber-200 bg-amber-50 px-4 py-4 text-sm leading-7 text-amber-900">
+        <div className="mt-6 rounded-[1.4rem] border border-blue-200 bg-blue-50 px-4 py-4 text-sm leading-7 text-blue-900">
           <strong>Catatan:</strong> harga menyesuaikan merek, PK, stok, promo, panjang pipa, posisi outdoor,
           dan kebutuhan instalasi tambahan. Admin cek semuanya sebelum pemasangan.
         </div>
 
         <div className="mt-6 flex justify-center">
           <WhatsappLink
-            className="inline-flex w-full items-center justify-center rounded-full bg-[#25D366] px-5 py-3 text-sm font-black text-slate-950 shadow-[0_10px_24px_rgba(37,211,102,0.18)] transition hover:-translate-y-0.5 hover:bg-[#20BA5A] sm:w-auto"
+            className="inline-flex w-full items-center justify-center rounded-full bg-red-600 px-6 py-4 text-sm font-black text-white shadow-lg shadow-red-600/20 transition hover:-translate-y-0.5 hover:bg-red-700 sm:w-auto"
             source="Home Price Estimate"
             intent="cek estimasi budget AC dan pemasangan"
           >
@@ -443,10 +439,10 @@ function HomePaymentTrust() {
       <div className="rounded-[1.75rem] border border-slate-200 bg-white p-5 shadow-sm">
         <div className="grid gap-4 md:grid-cols-3 md:items-center">
           <div>
-            <p className="text-xs font-black uppercase tracking-[0.2em] text-cyan-700">
+            <p className="text-xs font-black uppercase tracking-[0.2em] text-blue-700">
               Alur Pembelian Aman
             </p>
-            <h2 className="mt-2 text-xl font-black text-slate-950">
+            <h2 className="mt-2 text-xl font-black text-blue-950">
               Kirim ukuran ruangan, daya listrik, dan lokasi. Admin cek unit, budget, dan kebutuhan pemasangan.
             </h2>
           </div>
@@ -467,11 +463,11 @@ function HomePaymentTrust() {
 function HomeSalesLanding() {
   return (
     <section className="mx-auto max-w-7xl px-4 py-10">
-      <div className="overflow-hidden rounded-[1.7rem] border border-cyan-200 bg-cyan-50 p-6 shadow-[0_22px_60px_rgba(15,39,66,0.08)] sm:p-8 lg:p-10">
+      <div className="overflow-hidden rounded-[1.7rem] border border-blue-200 bg-blue-50 p-6 shadow-[0_22px_60px_rgba(15,39,66,0.08)] sm:p-8 lg:p-10">
         <div className="grid gap-8 lg:grid-cols-[0.9fr_1.1fr] lg:items-center">
           <div>
             <SectionBadge>Cek Dulu Sebelum Deal</SectionBadge>
-            <h2 className="mt-4 text-3xl font-black tracking-tight text-slate-950 sm:text-4xl lg:text-5xl">
+            <h2 className="mt-4 text-3xl font-black tracking-tight text-blue-950 sm:text-4xl lg:text-5xl">
               Beli AC yang pas itu bukan cuma soal harga awal
             </h2>
             <p className="mt-5 max-w-2xl text-sm leading-7 text-slate-600 sm:text-base">
@@ -482,7 +478,7 @@ function HomeSalesLanding() {
 
             <div className="mt-6 flex flex-col gap-3 sm:flex-row sm:flex-wrap">
               <WhatsappLink
-                className="inline-flex items-center justify-center rounded-full bg-[#25D366] px-6 py-4 font-black text-slate-950 transition hover:bg-[#20BA5A]"
+                className="inline-flex items-center justify-center rounded-full bg-red-600 px-6 py-4 font-black text-white shadow-lg shadow-red-600/20 transition hover:-translate-y-0.5 hover:bg-red-700"
                 source="Home Sales Landing"
                 intent="minta rekomendasi AC sesuai ruangan dan budget"
               >
@@ -490,13 +486,13 @@ function HomeSalesLanding() {
               </WhatsappLink>
               <ArrowLink
                 href={routes.katalog}
-                className="border border-cyan-200 bg-white text-slate-900 hover:bg-cyan-100"
+                className="border border-blue-200 bg-white text-slate-900 hover:bg-blue-100"
               >
                 Lihat Pilihan AC
               </ArrowLink>
               <ArrowLink
                 href={routes.buktiPengirimanProyek}
-                className="border border-cyan-200 bg-white text-cyan-900 hover:bg-cyan-100"
+                className="border border-blue-200 bg-white text-blue-900 hover:bg-blue-100"
               >
                 Lihat Gallery
               </ArrowLink>
@@ -505,11 +501,11 @@ function HomeSalesLanding() {
 
           <div className="grid gap-4 md:grid-cols-3 lg:grid-cols-1">
             {salesPoints.map((item) => (
-              <div key={item.title} className="rounded-[1.5rem] border border-cyan-100 bg-white p-5 shadow-sm">
-                <div className="mb-3 flex h-10 w-10 items-center justify-center rounded-2xl bg-cyan-50 text-sm font-black text-cyan-800">
+              <div key={item.title} className="rounded-[1.5rem] border border-blue-100 bg-white p-5 shadow-sm">
+                <div className="mb-3 flex h-10 w-10 items-center justify-center rounded-2xl bg-blue-50 text-sm font-black text-blue-800">
                   {item.icon}
                 </div>
-                <h3 className="mb-2 font-black text-slate-950">{item.title}</h3>
+                <h3 className="mb-2 font-black text-blue-950">{item.title}</h3>
                 <p className="text-sm leading-6 text-slate-600">{item.description}</p>
               </div>
             ))}
@@ -525,7 +521,7 @@ function HomeCategory() {
     <section className="mx-auto max-w-7xl px-4 py-10">
       <div className="mb-6">
         <SectionBadge>Kategori Produk</SectionBadge>
-        <h2 className="mt-4 text-3xl font-black tracking-tight text-slate-950 sm:text-4xl">
+        <h2 className="mt-4 text-3xl font-black tracking-tight text-blue-950 sm:text-4xl">
           Pilih dari jenis ruangan
         </h2>
         <p className="mt-3 max-w-2xl text-sm leading-7 text-slate-600 sm:text-base">
@@ -539,14 +535,14 @@ function HomeCategory() {
           <Link
             key={item.title}
             href={item.href}
-            className="rounded-[1.5rem] border border-slate-200 bg-white p-4 text-center shadow-sm transition hover:-translate-y-0.5 hover:border-cyan-200 hover:bg-cyan-50 sm:p-6"
+            className="rounded-[1.5rem] border border-slate-200 bg-white p-4 text-center shadow-sm transition hover:-translate-y-0.5 hover:border-blue-200 hover:bg-blue-50 sm:p-6"
           >
-            <div className="mx-auto mb-4 flex h-12 w-12 items-center justify-center rounded-2xl border border-cyan-100 bg-cyan-50 text-xl font-black text-cyan-800 sm:h-14 sm:w-14">
+            <div className="mx-auto mb-4 flex h-12 w-12 items-center justify-center rounded-2xl border border-blue-100 bg-blue-50 text-xl font-black text-blue-800 sm:h-14 sm:w-14">
               {item.icon}
             </div>
-            <h3 className="mb-2 text-base font-black text-slate-950 sm:text-lg">{item.title}</h3>
+            <h3 className="mb-2 text-base font-black text-blue-950 sm:text-lg">{item.title}</h3>
             <p className="text-xs leading-6 text-slate-600 sm:text-sm">{item.desc}</p>
-            <div className="mt-4 text-cyan-700" aria-hidden="true">
+            <div className="mt-4 text-blue-700" aria-hidden="true">
               →
             </div>
           </Link>
@@ -562,14 +558,14 @@ function HomeBrands() {
       <div className="mb-6 flex items-end justify-between gap-4">
         <div>
           <SectionBadge>Brand Tersedia</SectionBadge>
-          <h2 className="mt-4 text-3xl font-black tracking-tight text-slate-950 sm:text-4xl">
+          <h2 className="mt-4 text-3xl font-black tracking-tight text-blue-950 sm:text-4xl">
             Tiap brand punya karakter sendiri
           </h2>
         </div>
 
         <ArrowLink
           href={routes.brandLainnya}
-          className="hidden border border-cyan-200 bg-white text-cyan-900 hover:bg-cyan-50 sm:inline-flex"
+          className="hidden border border-blue-200 bg-white text-blue-900 hover:bg-blue-50 sm:inline-flex"
         >
           Lihat Brand Lainnya
         </ArrowLink>
@@ -586,7 +582,7 @@ function HomeBrands() {
           <Link
             key={brand.name}
             href={brand.href}
-            className="group rounded-[1.5rem] border border-slate-200 bg-white px-4 py-5 text-center shadow-sm transition hover:-translate-y-0.5 hover:border-cyan-200 hover:bg-cyan-50"
+            className="group rounded-[1.5rem] border border-slate-200 bg-white px-4 py-5 text-center shadow-sm transition hover:-translate-y-0.5 hover:border-blue-200 hover:bg-blue-50"
           >
             <div className="flex h-12 items-center justify-center">
               <Image
@@ -604,7 +600,7 @@ function HomeBrands() {
             <p className="mt-3 mb-3 flex min-h-[40px] items-center justify-center text-xs leading-5 text-slate-500">
               {brand.tagline}
             </p>
-            <div className="text-xs font-black text-cyan-700">
+            <div className="text-xs font-black text-blue-700">
               Cek Unit & Budget →
             </div>
           </Link>
@@ -614,10 +610,10 @@ function HomeBrands() {
       <div className="rounded-[1.75rem] border border-slate-200 bg-white p-5 shadow-sm sm:p-6">
         <div className="mb-5 flex flex-col gap-2 sm:flex-row sm:items-end sm:justify-between">
           <div>
-            <p className="mb-2 text-xs font-black uppercase tracking-[0.2em] text-cyan-700">
+            <p className="mb-2 text-xs font-black uppercase tracking-[0.2em] text-blue-700">
               Brand Lainnya
             </p>
-            <h3 className="text-xl font-black text-slate-950">
+            <h3 className="text-xl font-black text-blue-950">
               Brand lain bisa dicek berdasarkan stok aktif dan kebutuhan
             </h3>
           </div>
@@ -650,7 +646,7 @@ function HomeWhyChoose() {
     <section className="mx-auto max-w-7xl px-4 py-12">
       <div className="mx-auto mb-10 max-w-3xl text-center">
         <SectionBadge>Cara Kami Kerja</SectionBadge>
-        <h2 className="mt-4 text-3xl font-black tracking-tight text-slate-950 sm:text-4xl">
+        <h2 className="mt-4 text-3xl font-black tracking-tight text-blue-950 sm:text-4xl">
           Stok dicek, PK dihitung, pasang dijelaskan — sebelum pembelian
         </h2>
         <p className="mx-auto mt-4 max-w-2xl text-sm leading-7 text-slate-600">
@@ -663,12 +659,12 @@ function HomeWhyChoose() {
         {whyChooseItems.map((item) => (
           <div
             key={item.title}
-            className="rounded-[1.75rem] border border-slate-200 bg-white p-5 text-center shadow-sm transition hover:-translate-y-0.5 hover:border-cyan-200 hover:bg-cyan-50 sm:p-6"
+            className="rounded-[1.75rem] border border-slate-200 bg-white p-5 text-center shadow-sm transition hover:-translate-y-0.5 hover:border-blue-200 hover:bg-blue-50 sm:p-6"
           >
-            <div className="mx-auto mb-5 flex h-14 w-14 items-center justify-center rounded-2xl border border-cyan-100 bg-cyan-50 text-xl font-black text-cyan-800 sm:h-16 sm:w-16">
+            <div className="mx-auto mb-5 flex h-14 w-14 items-center justify-center rounded-2xl border border-blue-100 bg-blue-50 text-xl font-black text-blue-800 sm:h-16 sm:w-16">
               {item.icon}
             </div>
-            <h3 className="mb-3 text-base font-black leading-snug text-slate-950 sm:text-lg">{item.title}</h3>
+            <h3 className="mb-3 text-base font-black leading-snug text-blue-950 sm:text-lg">{item.title}</h3>
             <p className="text-xs leading-6 text-slate-600 sm:text-sm sm:leading-7">{item.desc}</p>
           </div>
         ))}
@@ -687,23 +683,25 @@ function HomeClosingCta() {
 
   return (
     <section className="mx-auto max-w-7xl px-4 pb-14 pt-8">
-      <div className="rounded-[1.6rem] border border-slate-200 bg-white p-6 shadow-[0_18px_50px_rgba(15,39,66,0.08)] sm:p-8 lg:p-10">
-        <div className="grid gap-7 lg:grid-cols-[1.05fr_0.95fr] lg:items-center">
+      <div className="relative overflow-hidden rounded-[2rem] bg-[linear-gradient(135deg,#0e2a47_0%,#15395a_55%,#1f4f78_100%)] p-6 shadow-[0_30px_70px_rgba(14,42,71,0.30)] sm:p-8 lg:p-12">
+        <div className="pointer-events-none absolute -right-16 -top-16 h-64 w-64 rounded-full bg-brand-blue/20 blur-3xl" />
+        <div className="relative grid gap-8 lg:grid-cols-[1.05fr_0.95fr] lg:items-center">
           <div>
-            <p className="mb-3 text-xs font-black uppercase tracking-[0.22em] text-cyan-700">
+            <span className="inline-flex items-center gap-2 rounded-full border border-white/20 bg-white/10 px-4 py-1.5 text-[11px] font-bold uppercase tracking-[0.18em] text-white">
+              <span className="h-1.5 w-1.5 rounded-full bg-brand-red" aria-hidden="true" />
               Siap konsultasi?
-            </p>
-            <h2 className="max-w-2xl text-3xl font-black tracking-[-0.03em] text-slate-950 sm:text-4xl">
+            </span>
+            <h2 className="mt-4 max-w-2xl text-balance text-3xl font-extrabold tracking-[-0.02em] text-white sm:text-4xl">
               Kirim ukuran ruangan dan kebutuhan AC.
             </h2>
-            <p className="mt-4 max-w-2xl text-sm leading-7 text-slate-600 sm:text-base">
+            <p className="mt-4 max-w-2xl text-sm leading-7 text-white/80 sm:text-base">
               Admin RADJA AC membaca ukuran ruangan, daya listrik, estimasi budget, alamat pengiriman, dan kebutuhan pemasangan sebelum memberi arahan.
             </p>
           </div>
 
-          <div className="rounded-[1.35rem] border border-slate-200 bg-slate-50 p-4 sm:p-5">
+          <div className="rounded-[1.5rem] border border-white/15 bg-white/5 p-5 backdrop-blur">
             <WhatsappLink
-              className="inline-flex w-full items-center justify-center rounded-full bg-[#25D366] px-6 py-4 text-sm font-black text-slate-950 shadow-[0_14px_34px_rgba(37,211,102,0.20)] transition hover:-translate-y-0.5 hover:bg-[#20BA5A]"
+              className="inline-flex w-full items-center justify-center rounded-full bg-red-600 px-6 py-4 text-sm font-black text-white shadow-lg shadow-red-600/20 transition hover:-translate-y-0.5 hover:bg-red-700"
               source="Homepage Closing CTA"
               intent="konsultasi kebutuhan AC dari homepage"
             >
@@ -712,7 +710,8 @@ function HomeClosingCta() {
 
             <div className="mt-4 grid grid-cols-1 gap-2 sm:grid-cols-2">
               {checklist.map((item) => (
-                <div key={item} className="rounded-2xl border border-slate-200 bg-white px-4 py-3 text-sm font-bold text-slate-700">
+                <div key={item} className="flex items-center gap-2 rounded-2xl border border-white/15 bg-white/5 px-4 py-3 text-sm font-semibold text-white/90">
+                  <span className="flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-brand-red text-[10px] font-bold text-white" aria-hidden="true">✓</span>
                   {item}
                 </div>
               ))}
@@ -726,7 +725,7 @@ function HomeClosingCta() {
 
 export default function HomepageLegacyParity() {
   return (
-    <main className="overflow-hidden bg-[#f7fbff] text-slate-950">
+    <main className="overflow-hidden bg-background text-navy">
       <HomeHero />
       <HomeTrust />
       <HomePriceEstimate />

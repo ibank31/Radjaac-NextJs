@@ -99,7 +99,7 @@ const areaPageLinkOverrides = {
 function SectionTitle({ eyebrow, title, description }) {
   return (
     <div className="mx-auto mb-9 max-w-3xl text-center">
-      <p className="mb-3 text-xs font-black uppercase tracking-[0.28em] text-cyan-700">{eyebrow}</p>
+      <p className="mb-3 text-xs font-black uppercase tracking-[0.28em] text-blue-700">{eyebrow}</p>
       <h2 className="mb-4 text-3xl font-black tracking-tight text-slate-950 sm:text-4xl lg:text-5xl">{title}</h2>
       {description ? <p className="mx-auto max-w-2xl text-sm leading-7 text-slate-600 sm:text-base">{description}</p> : null}
     </div>
@@ -173,19 +173,19 @@ export default async function AreaPage({ params }) {
 
   return (
     <main className="min-h-screen overflow-hidden bg-[#f7fbff] text-slate-950">
-      <section className="relative overflow-hidden border-b border-cyan-100 bg-[linear-gradient(180deg,#f8fdff_0%,#eefbff_100%)] px-4 pb-10 pt-12 sm:px-6 lg:px-8 lg:pb-16 lg:pt-20">
+      <section className="relative overflow-hidden border-b border-blue-100 bg-[linear-gradient(180deg,#f8fdff_0%,#eefbff_100%)] px-4 pb-10 pt-12 sm:px-6 lg:px-8 lg:pb-16 lg:pt-20">
         <div className="grid items-center gap-10 lg:grid-cols-[1.04fr_0.96fr] lg:gap-16">
           <div>
-            <Link href={routes.jualAc} className="mb-5 inline-flex text-sm font-black text-cyan-700 transition hover:text-slate-950">
+            <Link href={routes.jualAc} className="mb-5 inline-flex text-sm font-black text-blue-700 transition hover:text-slate-950">
               ← Kembali ke Jual AC
             </Link>
-            <div className="mb-5 inline-flex rounded-full border border-cyan-100 bg-cyan-50 px-4 py-2 text-sm text-cyan-700">
+            <div className="mb-5 inline-flex rounded-full border border-blue-100 bg-blue-50 px-4 py-2 text-sm text-blue-700">
               {item.eyebrow}
             </div>
             <h1 className="mb-3 max-w-3xl text-3xl font-black leading-[1.05] tracking-[-0.035em] sm:text-4xl md:text-5xl xl:text-6xl">
               {item.h1}
             </h1>
-            <p className="mb-5 max-w-2xl text-sm font-bold leading-6 text-cyan-700">
+            <p className="mb-5 max-w-2xl text-sm font-bold leading-6 text-blue-700">
               Cek stok, budget, PK, dan jadwal sebelum pembelian.
             </p>
             <p className="mb-6 max-w-2xl text-sm leading-7 text-slate-600 sm:text-base">{item.intro}</p>
@@ -209,7 +209,7 @@ export default async function AreaPage({ params }) {
             <div className="text-center text-xs leading-6 text-slate-400 sm:text-sm lg:text-left">
               Area terkait: {relatedAreas.map((area, index) => (
                 <span key={area.slug}>
-                  <Link href={area.path} className="font-semibold text-cyan-700/80 hover:text-cyan-700">{area.areaName}</Link>{index < relatedAreas.length - 1 ? <span>, </span> : null}
+                  <Link href={area.path} className="font-semibold text-blue-700/80 hover:text-blue-700">{area.areaName}</Link>{index < relatedAreas.length - 1 ? <span>, </span> : null}
                 </span>
               ))}
             </div>
@@ -232,7 +232,7 @@ export default async function AreaPage({ params }) {
       </section>
 
       <section id="estimasi-budget" className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8 lg:py-12">
-        <div className="rounded-[1.7rem] border border-cyan-100 bg-cyan-50 p-5 sm:p-6 lg:p-8">
+        <div className="rounded-[1.7rem] border border-blue-100 bg-blue-50 p-5 sm:p-6 lg:p-8">
           <h2 className="mb-3 text-center text-2xl font-black tracking-tight text-slate-950 sm:text-3xl">Estimasi Budget AC + Pasang</h2>
           <p className="mx-auto mb-4 max-w-2xl text-center text-sm leading-7 text-slate-600">Gunakan tabel ini sebagai patokan awal. Angka akhir tetap mengikuti brand, PK, stok, alamat, dan kondisi pemasangan di area {item.areaName}.</p>
           <div className="mx-auto mb-4 grid max-w-5xl gap-3 sm:grid-cols-3">
@@ -240,14 +240,14 @@ export default async function AreaPage({ params }) {
               <div key={budget} className="rounded-[22px] border border-slate-200 bg-[#f7fbff]/45 p-4 text-center">
                 <p className="mb-3 text-2xl font-black text-slate-950">{brands}</p>
                 <p className="rounded-2xl border border-slate-200 bg-white px-3 py-3 text-sm font-semibold leading-6 text-slate-600">{description}</p>
-                <p className="mt-3 text-xs font-bold uppercase tracking-[0.16em] text-cyan-700/80">{budget}</p>
+                <p className="mt-3 text-xs font-bold uppercase tracking-[0.16em] text-blue-700/80">{budget}</p>
               </div>
             ))}
           </div>
-          <div className="mx-auto mb-4 max-w-5xl rounded-[22px] border border-cyan-100 bg-cyan-50 p-4">
-            <p className="mb-3 text-center text-xs font-black uppercase tracking-[0.18em] text-cyan-700">Paket standar termasuk</p>
+          <div className="mx-auto mb-4 max-w-5xl rounded-[22px] border border-blue-100 bg-blue-50 p-4">
+            <p className="mb-3 text-center text-xs font-black uppercase tracking-[0.18em] text-blue-700">Paket standar termasuk</p>
             <div className="grid gap-2 sm:grid-cols-2 lg:grid-cols-4">
-              {packageIncludes.map((packageItem) => <div key={packageItem} className="flex items-center gap-2 text-sm font-semibold text-slate-600"><span className="flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-cyan-600 text-xs font-black text-white">✓</span>{packageItem}</div>)}
+              {packageIncludes.map((packageItem) => <div key={packageItem} className="flex items-center gap-2 text-sm font-semibold text-slate-600"><span className="flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-blue-600 text-xs font-black text-white">✓</span>{packageItem}</div>)}
             </div>
           </div>
           <div className="mt-5 flex justify-center">
@@ -259,33 +259,33 @@ export default async function AreaPage({ params }) {
       <section className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8 lg:py-12">
         <SectionTitle eyebrow="KEBUTUHAN BANYAK UNIT" title={`Butuh AC banyak unit di ${item.areaName}? Jangan cari stok satu-satu.`} description={`Untuk toko, kost, ruko, kantor, rumah banyak ruangan, atau proyek ringan di ${item.areaName}, RADJA AC mengecek stok, menyusun pilihan brand, estimasi budget, pengiriman, dan opsi pemasangan.`} />
         <div className="grid gap-5 md:grid-cols-3">
-          {bulkCards.map(([title, description]) => <div key={title} className="rounded-[1.45rem] border border-slate-200 bg-white p-6 text-center"><div className="mx-auto mb-5 flex h-12 w-12 items-center justify-center rounded-2xl bg-cyan-50 text-2xl text-cyan-700">✓</div><h2 className="mb-3 text-xl font-black text-slate-950">{title}</h2><p className="text-sm leading-7 text-slate-600">{description}</p></div>)}
+          {bulkCards.map(([title, description]) => <div key={title} className="rounded-[1.45rem] border border-slate-200 bg-white p-6 text-center"><div className="mx-auto mb-5 flex h-12 w-12 items-center justify-center rounded-2xl bg-blue-50 text-2xl text-blue-700">✓</div><h2 className="mb-3 text-xl font-black text-slate-950">{title}</h2><p className="text-sm leading-7 text-slate-600">{description}</p></div>)}
         </div>
       </section>
 
       <section className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8 lg:py-12">
         <SectionTitle eyebrow="KONSULTASI PEMBELIAN" title="Budget murah tidak ada artinya kalau PK salah dan biaya pasang belum dihitung" description="Yang sering jadi masalah: PK tidak sesuai ruangan, biaya pasang belum jelas, atau stok kosong saat mau beli. RADJA AC kerja sebaliknya — stok dicek dulu, kebutuhan dihitung, estimasi dijelaskan sebelum pembelian." />
         <div className="grid gap-5 md:grid-cols-3">
-          {valueItems.map(([title, description]) => <div key={title} className="rounded-[1.45rem] border border-slate-200 bg-white p-6 text-center"><div className="mx-auto mb-5 flex h-12 w-12 items-center justify-center rounded-2xl bg-cyan-50 text-2xl text-cyan-700">✓</div><h2 className="mb-3 text-xl font-black text-slate-950">{title}</h2><p className="text-sm leading-7 text-slate-600">{description}</p></div>)}
+          {valueItems.map(([title, description]) => <div key={title} className="rounded-[1.45rem] border border-slate-200 bg-white p-6 text-center"><div className="mx-auto mb-5 flex h-12 w-12 items-center justify-center rounded-2xl bg-blue-50 text-2xl text-blue-700">✓</div><h2 className="mb-3 text-xl font-black text-slate-950">{title}</h2><p className="text-sm leading-7 text-slate-600">{description}</p></div>)}
         </div>
       </section>
 
       <section className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8 lg:py-12">
         <div className="grid gap-8 lg:grid-cols-[0.9fr_1.1fr] lg:items-start">
-          <div><div className="mb-4 inline-flex rounded-full border border-cyan-100 bg-cyan-50 px-4 py-2 text-sm font-semibold text-cyan-700">ALUR BELI AC</div><h2 className="mb-5 text-3xl font-black tracking-tight sm:text-4xl lg:text-5xl">Cek kebutuhan dulu, baru kunci stok dan jadwal</h2><p className="mb-6 text-sm leading-7 text-slate-600 sm:text-base">Mulai dari area dan ukuran ruangan. Admin cek stok, cocokkan PK, jelaskan estimasi, lalu susun jadwal setelah data cocok.</p><WhatsappLink className="inline-flex items-center justify-center rounded-full bg-[#25D366] px-6 py-4 font-bold text-slate-950 transition hover:bg-[#20BA5A]" source={`${item.label} - Alur Beli`} intent={item.waIntent} area={item.waArea}>Cek AC untuk Area Ini</WhatsappLink></div>
-          <div className="grid gap-4">{processSteps.map(([title, description], index) => <div key={title} className="rounded-[1.45rem] border border-slate-200 bg-white p-5"><div className="mb-3 flex items-center gap-3"><span className="flex h-9 w-9 items-center justify-center rounded-full bg-cyan-300 text-sm font-black text-slate-950">{index + 1}</span><h3 className="text-lg font-black text-slate-950">{title}</h3></div><p className="text-sm leading-7 text-slate-600">{description}</p></div>)}</div>
+          <div><div className="mb-4 inline-flex rounded-full border border-blue-100 bg-blue-50 px-4 py-2 text-sm font-semibold text-blue-700">ALUR BELI AC</div><h2 className="mb-5 text-3xl font-black tracking-tight sm:text-4xl lg:text-5xl">Cek kebutuhan dulu, baru kunci stok dan jadwal</h2><p className="mb-6 text-sm leading-7 text-slate-600 sm:text-base">Mulai dari area dan ukuran ruangan. Admin cek stok, cocokkan PK, jelaskan estimasi, lalu susun jadwal setelah data cocok.</p><WhatsappLink className="inline-flex items-center justify-center rounded-full bg-[#25D366] px-6 py-4 font-bold text-slate-950 transition hover:bg-[#20BA5A]" source={`${item.label} - Alur Beli`} intent={item.waIntent} area={item.waArea}>Cek AC untuk Area Ini</WhatsappLink></div>
+          <div className="grid gap-4">{processSteps.map(([title, description], index) => <div key={title} className="rounded-[1.45rem] border border-slate-200 bg-white p-5"><div className="mb-3 flex items-center gap-3"><span className="flex h-9 w-9 items-center justify-center rounded-full bg-blue-300 text-sm font-black text-slate-950">{index + 1}</span><h3 className="text-lg font-black text-slate-950">{title}</h3></div><p className="text-sm leading-7 text-slate-600">{description}</p></div>)}</div>
         </div>
       </section>
 
       <section className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8 lg:py-12">
         <SectionTitle eyebrow="PILIHAN AC" title="Mulai dari brand atau kebutuhan" description="Saat memilih merek, mulai dari ukuran ruangan, daya listrik, budget, dan jam pemakaian." />
-        <div className="mb-5 grid grid-cols-2 gap-4 lg:grid-cols-3">{brandLinks.map(([title, href]) => <Link key={href} href={href} className="group rounded-[22px] border border-slate-200 bg-white p-4 transition hover:-translate-y-1 hover:border-cyan-200"><h3 className="mb-2 text-lg font-black text-slate-950">{title}</h3><span className="inline-flex items-center gap-2 text-xs font-bold text-cyan-700 sm:text-sm">Lihat pilihan →</span></Link>)}</div>
-        <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-4">{categoryLinks.map(([title, href, description]) => <Link key={href} href={href} className="rounded-[1.35rem] border border-slate-200 bg-white p-5 text-center transition hover:-translate-y-1 hover:border-cyan-200"><h3 className="mb-3 text-base font-black text-slate-950 sm:text-lg">{title}</h3><p className="text-xs leading-6 text-slate-500">{description}</p></Link>)}</div>
+        <div className="mb-5 grid grid-cols-2 gap-4 lg:grid-cols-3">{brandLinks.map(([title, href]) => <Link key={href} href={href} className="group rounded-[22px] border border-slate-200 bg-white p-4 transition hover:-translate-y-1 hover:border-blue-200"><h3 className="mb-2 text-lg font-black text-slate-950">{title}</h3><span className="inline-flex items-center gap-2 text-xs font-bold text-blue-700 sm:text-sm">Lihat pilihan →</span></Link>)}</div>
+        <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-4">{categoryLinks.map(([title, href, description]) => <Link key={href} href={href} className="rounded-[1.35rem] border border-slate-200 bg-white p-5 text-center transition hover:-translate-y-1 hover:border-blue-200"><h3 className="mb-3 text-base font-black text-slate-950 sm:text-lg">{title}</h3><p className="text-xs leading-6 text-slate-500">{description}</p></Link>)}</div>
       </section>
 
       <section className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8 lg:py-12">
         <SectionTitle eyebrow="LINK PENTING" title="Halaman pendukung sebelum chat" />
-        <div className="mx-auto flex max-w-4xl flex-wrap justify-center gap-3">{pageLinks.map(([label, href]) => <Link key={href} href={href} className="rounded-full border border-slate-200 bg-white px-4 py-2 text-sm font-black text-slate-700 transition hover:-translate-y-1 hover:border-cyan-300/40 hover:text-cyan-700">{label}</Link>)}</div>
+        <div className="mx-auto flex max-w-4xl flex-wrap justify-center gap-3">{pageLinks.map(([label, href]) => <Link key={href} href={href} className="rounded-full border border-slate-200 bg-white px-4 py-2 text-sm font-black text-slate-700 transition hover:-translate-y-1 hover:border-blue-300/40 hover:text-blue-700">{label}</Link>)}</div>
       </section>
 
       <section className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8 lg:py-12">

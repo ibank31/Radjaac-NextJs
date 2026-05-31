@@ -34,9 +34,9 @@ const nextLinks = [
 export default function GantiAcBaruPurwokertoPage() {
   return (
     <main className="min-h-screen overflow-hidden bg-[#f7fbff] text-slate-950">
-      <section className="relative overflow-hidden border-b border-cyan-100 bg-[linear-gradient(180deg,#f8fdff_0%,#eefbff_100%)] px-4 py-12 lg:py-20">
+      <section className="relative overflow-hidden border-b border-blue-100 bg-[linear-gradient(180deg,#f8fdff_0%,#eefbff_100%)] px-4 py-12 lg:py-20">
         <div className="pointer-events-none absolute inset-0 -z-10 bg-[radial-gradient(circle_at_top_left,rgba(34,211,238,0.18),transparent_32%),radial-gradient(circle_at_bottom_right,rgba(37,211,102,0.12),transparent_28%)]" />
-        <p className="text-sm font-bold uppercase tracking-[0.22em] text-cyan-700">
+        <p className="text-sm font-bold uppercase tracking-[0.22em] text-blue-700">
           Ganti AC Baru
         </p>
         <h1 className="mt-4 max-w-4xl text-4xl font-black tracking-tight text-slate-950 md:text-5xl">
@@ -66,7 +66,7 @@ export default function GantiAcBaruPurwokertoPage() {
           </Link>
         </div>
 
-        <section className="mt-12 rounded-[1.45rem] border border-cyan-100 bg-cyan-50 p-6">
+        <section className="mt-12 rounded-[1.45rem] border border-blue-100 bg-blue-50 p-6">
           <h2 className="text-2xl font-black text-slate-950">Catatan penting</h2>
           <p className="mt-4 max-w-3xl text-sm leading-6 text-slate-600">
             RADJA AC berfokus membantu pembelian AC baru. Untuk perbaikan, cuci AC, atau bongkar-pasang
@@ -103,15 +103,15 @@ export default function GantiAcBaruPurwokertoPage() {
         <section className="mt-8 rounded-[1.45rem] border border-slate-200 bg-white p-6">
           <h2 className="text-xl font-black text-slate-950">Arah pilihan AC baru</h2>
           <div className="mt-5 grid gap-4 md:grid-cols-3">
-            <Link href={routes.kalkulatorPkAc} className="rounded-2xl border border-slate-200 bg-[#f7fbff]/45 p-4 text-sm leading-6 text-slate-600 transition hover:border-cyan-200">
+            <Link href={routes.kalkulatorPkAc} className="rounded-2xl border border-slate-200 bg-[#f7fbff]/45 p-4 text-sm leading-6 text-slate-600 transition hover:border-blue-200">
               <strong className="block text-slate-950">Cek kebutuhan PK</strong>
               Mulai dari ukuran ruangan, tinggi plafon, dan daya listrik.
             </Link>
-            <Link href={routes.katalogAcLowWatt} className="rounded-2xl border border-slate-200 bg-[#f7fbff]/45 p-4 text-sm leading-6 text-slate-600 transition hover:border-cyan-200">
+            <Link href={routes.katalogAcLowWatt} className="rounded-2xl border border-slate-200 bg-[#f7fbff]/45 p-4 text-sm leading-6 text-slate-600 transition hover:border-blue-200">
               <strong className="block text-slate-950">Pertimbangkan low watt</strong>
               Cocok jika daya listrik terbatas atau ingin pilihan yang lebih ringan.
             </Link>
-            <Link href={routes.katalogAcInverter} className="rounded-2xl border border-slate-200 bg-[#f7fbff]/45 p-4 text-sm leading-6 text-slate-600 transition hover:border-cyan-200">
+            <Link href={routes.katalogAcInverter} className="rounded-2xl border border-slate-200 bg-[#f7fbff]/45 p-4 text-sm leading-6 text-slate-600 transition hover:border-blue-200">
               <strong className="block text-slate-950">Bandingkan inverter</strong>
               Cocok untuk ruangan yang sering dipakai lama dan butuh kenyamanan stabil.
             </Link>
@@ -144,7 +144,7 @@ export default function GantiAcBaruPurwokertoPage() {
               <Link
                 key={href}
                 href={href}
-                className="rounded-2xl border border-slate-200 bg-white p-4 text-sm font-bold text-slate-600 transition hover:border-cyan-200 hover:text-cyan-700"
+                className="rounded-2xl border border-slate-200 bg-white p-4 text-sm font-bold text-slate-600 transition hover:border-blue-200 hover:text-blue-700"
               >
                 {label}
               </Link>

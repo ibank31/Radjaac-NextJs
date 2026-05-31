@@ -84,11 +84,11 @@ export default async function ArticleDetailPage({ params }) {
         <section className="relative overflow-hidden border-b border-slate-200 bg-[linear-gradient(135deg,#061727_0%,#0f3f57_48%,#e9fbff_100%)] px-4 pb-12 pt-12 text-white sm:px-6 lg:px-8 lg:pb-16 lg:pt-20">
           <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_top_left,rgba(34,211,238,0.22),transparent_32%),radial-gradient(circle_at_bottom_right,rgba(37,211,102,0.20),transparent_28%)]" />
           <div className="relative mx-auto max-w-5xl">
-            <Link href={routes.artikel} className="mb-7 inline-flex items-center gap-2 rounded-full border border-white/15 bg-white/10 px-4 py-2 text-sm font-black text-cyan-50 backdrop-blur transition hover:bg-white/15">
+            <Link href={routes.artikel} className="mb-7 inline-flex items-center gap-2 rounded-full border border-white/15 bg-white/10 px-4 py-2 text-sm font-black text-blue-50 backdrop-blur transition hover:bg-white/15">
               ← Kembali ke artikel
             </Link>
 
-            <div className="mb-6 flex flex-wrap items-center gap-3 text-sm text-cyan-50">
+            <div className="mb-6 flex flex-wrap items-center gap-3 text-sm text-blue-50">
               <span className="rounded-full border border-white/15 bg-white/12 px-3 py-1 font-bold backdrop-blur">
                 {item.eyebrow}
               </span>
@@ -104,7 +104,7 @@ export default async function ArticleDetailPage({ params }) {
               {item.h1}
             </h1>
 
-            <p className="mt-6 max-w-3xl text-lg leading-8 text-cyan-50/90">
+            <p className="mt-6 max-w-3xl text-lg leading-8 text-blue-50/90">
               {item.intro}
             </p>
 
@@ -124,7 +124,7 @@ export default async function ArticleDetailPage({ params }) {
               </Link>
               <Link
                 href={routes.katalog}
-                className="inline-flex items-center justify-center rounded-full border border-white/20 bg-white px-6 py-4 font-black text-slate-950 shadow-sm transition hover:-translate-y-0.5 hover:bg-cyan-50"
+                className="inline-flex items-center justify-center rounded-full border border-white/20 bg-white px-6 py-4 font-black text-slate-950 shadow-sm transition hover:-translate-y-0.5 hover:bg-blue-50"
               >
                 Lihat Katalog AC
               </Link>
@@ -144,7 +144,7 @@ export default async function ArticleDetailPage({ params }) {
           <div className="space-y-6">
             {item.sections.map((section, index) => (
               <section key={section.heading} className="relative overflow-hidden rounded-[1.7rem] border border-slate-200 bg-white p-6 shadow-[0_16px_45px_rgba(15,39,66,0.07)] sm:p-8">
-                <div className="absolute inset-x-0 top-0 h-1 bg-gradient-to-r from-cyan-500 via-sky-400 to-emerald-400" />
+                <div className="absolute inset-x-0 top-0 h-1 bg-gradient-to-r from-blue-500 via-blue-400 to-emerald-400" />
                 <div className="mb-5 flex items-start gap-4">
                   <span className="flex h-11 w-11 shrink-0 items-center justify-center rounded-2xl bg-slate-950 text-sm font-black text-white">
                     {String(index + 1).padStart(2, "0")}
@@ -165,7 +165,7 @@ export default async function ArticleDetailPage({ params }) {
 
           <section className="mt-10 overflow-hidden rounded-[1.7rem] border border-slate-200 bg-white shadow-[0_18px_55px_rgba(15,39,66,0.08)]">
             <div className="bg-[linear-gradient(135deg,#083449_0%,#0ea5b7_100%)] p-6 text-white sm:p-8">
-              <p className="mb-3 text-xs font-black uppercase tracking-[0.24em] text-cyan-100">
+              <p className="mb-3 text-xs font-black uppercase tracking-[0.24em] text-blue-100">
                 Lanjutkan ke halaman terkait
               </p>
               <h2 className="max-w-3xl text-2xl font-black tracking-[-0.03em] sm:text-3xl">
@@ -177,11 +177,11 @@ export default async function ArticleDetailPage({ params }) {
                 <Link
                   key={href}
                   href={href}
-                  className="group rounded-[1.35rem] border border-slate-200 bg-[#f8fbff] p-5 transition hover:-translate-y-1 hover:border-cyan-200 hover:bg-white hover:shadow-[0_16px_40px_rgba(15,39,66,0.10)]"
+                  className="group rounded-[1.35rem] border border-slate-200 bg-[#f8fbff] p-5 transition hover:-translate-y-1 hover:border-blue-200 hover:bg-white hover:shadow-[0_16px_40px_rgba(15,39,66,0.10)]"
                 >
                   <h3 className="mb-2 text-lg font-black text-slate-950">{label}</h3>
                   <p className="mb-4 text-sm leading-6 text-slate-600">{description}</p>
-                  <span className="inline-flex items-center gap-2 text-sm font-black text-cyan-700 transition group-hover:translate-x-1">
+                  <span className="inline-flex items-center gap-2 text-sm font-black text-blue-700 transition group-hover:translate-x-1">
                     Buka halaman →
                   </span>
                 </Link>
@@ -216,9 +216,9 @@ export default async function ArticleDetailPage({ params }) {
                   <Link
                     key={article.slug}
                     href={article.path}
-                    className="rounded-[1.35rem] border border-slate-200 bg-white p-5 shadow-sm transition hover:-translate-y-1 hover:border-cyan-200 hover:shadow-[0_16px_40px_rgba(15,39,66,0.10)]"
+                    className="rounded-[1.35rem] border border-slate-200 bg-white p-5 shadow-sm transition hover:-translate-y-1 hover:border-blue-200 hover:shadow-[0_16px_40px_rgba(15,39,66,0.10)]"
                   >
-                    <p className="mb-2 text-xs font-bold text-cyan-700">{article.eyebrow}</p>
+                    <p className="mb-2 text-xs font-bold text-blue-700">{article.eyebrow}</p>
                     <h3 className="mb-2 text-lg font-black text-slate-950">{article.h1}</h3>
                     <p className="text-sm leading-6 text-slate-500">{article.description}</p>
                   </Link>
