@@ -33,13 +33,13 @@ export default function ArtikelPage() {
         <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_top_left,rgba(34,211,238,0.22),transparent_34%),radial-gradient(circle_at_bottom_right,rgba(37,211,102,0.22),transparent_30%)]" />
         <div className="relative mx-auto grid max-w-7xl gap-10 lg:grid-cols-[1.05fr_0.95fr] lg:items-center lg:gap-14">
           <div>
-            <p className="inline-flex rounded-full border border-white/15 bg-white/10 px-4 py-2 text-xs font-black uppercase tracking-[0.24em] text-cyan-100 backdrop-blur">
+            <p className="inline-flex rounded-full border border-white/15 bg-white/10 px-4 py-2 text-xs font-black uppercase tracking-[0.24em] text-blue-100 backdrop-blur">
               Artikel RADJA AC
             </p>
             <h1 className="mt-6 max-w-4xl text-4xl font-black leading-tight tracking-[-0.04em] md:text-6xl">
               Panduan beli AC yang tidak bikin bingung sebelum chat admin
             </h1>
-            <p className="mt-6 max-w-3xl text-base leading-8 text-cyan-50/90 sm:text-lg">
+            <p className="mt-6 max-w-3xl text-base leading-8 text-blue-50/90 sm:text-lg">
               Mulai dari PK, ukuran ruangan, daya listrik, inverter vs low watt, instalasi, sampai tanda kapan AC lama perlu dievaluasi. Baca dulu, lalu kirim brief WhatsApp yang lebih jelas.
             </p>
 
@@ -59,7 +59,7 @@ export default function ArtikelPage() {
               </Link>
               <Link
                 href={routes.katalog}
-                className="inline-flex items-center justify-center rounded-full border border-white/20 bg-white px-6 py-4 font-black text-slate-950 shadow-sm transition hover:-translate-y-0.5 hover:bg-cyan-50"
+                className="inline-flex items-center justify-center rounded-full border border-white/20 bg-white px-6 py-4 font-black text-slate-950 shadow-sm transition hover:-translate-y-0.5 hover:bg-blue-50"
               >
                 Lihat Katalog AC
               </Link>
@@ -67,7 +67,7 @@ export default function ArtikelPage() {
           </div>
 
           <aside className="rounded-[2rem] border border-white/20 bg-white/12 p-5 shadow-[0_28px_80px_rgba(2,8,23,0.28)] backdrop-blur sm:p-6 lg:p-7">
-            <p className="text-xs font-black uppercase tracking-[0.22em] text-cyan-100">
+            <p className="text-xs font-black uppercase tracking-[0.22em] text-blue-100">
               Mulai dari masalah user
             </p>
             <h2 className="mt-3 text-2xl font-black tracking-tight text-white sm:text-3xl">
@@ -77,10 +77,10 @@ export default function ArtikelPage() {
               {guideStats.map(([label, text]) => (
                 <div key={label} className="rounded-2xl border border-white/15 bg-white/12 p-4">
                   <div className="flex items-center gap-3">
-                    <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-2xl bg-cyan-300 text-sm font-black text-slate-950">
+                    <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-2xl bg-blue-300 text-sm font-black text-slate-950">
                       {label}
                     </span>
-                    <p className="text-sm font-semibold leading-6 text-cyan-50">{text}</p>
+                    <p className="text-sm font-semibold leading-6 text-blue-50">{text}</p>
                   </div>
                 </div>
               ))}
@@ -102,7 +102,7 @@ export default function ArtikelPage() {
             className="group grid overflow-hidden rounded-[2rem] border border-slate-200 bg-white shadow-[0_22px_70px_rgba(15,39,66,0.10)] transition hover:-translate-y-1 hover:shadow-[0_28px_90px_rgba(15,39,66,0.16)] lg:grid-cols-[1fr_0.82fr]"
           >
             <div className="p-6 sm:p-8 lg:p-10">
-              <p className="mb-4 inline-flex rounded-full border border-cyan-100 bg-cyan-50 px-4 py-2 text-xs font-black uppercase tracking-[0.2em] text-cyan-700">
+              <p className="mb-4 inline-flex rounded-full border border-blue-100 bg-blue-50 px-4 py-2 text-xs font-black uppercase tracking-[0.2em] text-blue-700">
                 Artikel Utama
               </p>
               <h2 className="text-3xl font-black tracking-[-0.03em] text-slate-950 sm:text-4xl">
@@ -111,22 +111,22 @@ export default function ArtikelPage() {
               <p className="mt-5 text-sm leading-7 text-slate-600 sm:text-base">
                 {featuredArticle.intro}
               </p>
-              <span className="mt-7 inline-flex rounded-full bg-slate-950 px-5 py-3 text-sm font-black text-white transition group-hover:bg-cyan-700">
+              <span className="mt-7 inline-flex rounded-full bg-slate-950 px-5 py-3 text-sm font-black text-white transition group-hover:bg-blue-700">
                 Baca panduan →
               </span>
             </div>
             <div className="flex flex-col justify-between bg-[linear-gradient(160deg,#083449_0%,#0ea5b7_100%)] p-6 text-white sm:p-8 lg:p-10">
               <div className="flex flex-wrap gap-2 text-xs">
-                <span className="rounded-full border border-white/20 bg-white/15 px-3 py-1 font-semibold text-cyan-50">
+                <span className="rounded-full border border-white/20 bg-white/15 px-3 py-1 font-semibold text-blue-50">
                   {featuredArticle.eyebrow}
                 </span>
-                <span className="rounded-full border border-white/20 bg-white/15 px-3 py-1 text-cyan-50">
+                <span className="rounded-full border border-white/20 bg-white/15 px-3 py-1 text-blue-50">
                   {featuredArticle.readTime}
                 </span>
               </div>
               <div className="mt-12 rounded-[1.35rem] border border-white/15 bg-white/12 p-5 backdrop-blur">
-                <p className="text-sm font-black text-cyan-50">Tujuan artikel</p>
-                <p className="mt-2 text-sm leading-6 text-cyan-50/90">
+                <p className="text-sm font-black text-blue-50">Tujuan artikel</p>
+                <p className="mt-2 text-sm leading-6 text-blue-50/90">
                   Membantu pembeli mengirim data yang tepat sebelum tanya stok, PK, pengiriman, dan pemasangan.
                 </p>
               </div>
@@ -137,7 +137,7 @@ export default function ArtikelPage() {
 
       <section className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8 lg:py-12">
         <div className="mb-8 max-w-3xl">
-          <p className="mb-3 text-xs font-black uppercase tracking-[0.24em] text-cyan-700">Semua Artikel</p>
+          <p className="mb-3 text-xs font-black uppercase tracking-[0.24em] text-blue-700">Semua Artikel</p>
           <h2 className="text-3xl font-black tracking-[-0.03em] text-slate-950 sm:text-4xl">Pilih panduan sesuai masalah pembelian AC</h2>
         </div>
         <div className="grid gap-5 md:grid-cols-2 lg:grid-cols-3">
@@ -145,11 +145,11 @@ export default function ArtikelPage() {
             <Link
               key={article.slug}
               href={article.path}
-              className="group relative overflow-hidden rounded-[1.55rem] border border-slate-200 bg-white p-6 shadow-sm transition hover:-translate-y-1 hover:border-cyan-200 hover:shadow-[0_22px_60px_rgba(15,39,66,0.12)]"
+              className="group relative overflow-hidden rounded-[1.55rem] border border-slate-200 bg-white p-6 shadow-sm transition hover:-translate-y-1 hover:border-blue-200 hover:shadow-[0_22px_60px_rgba(15,39,66,0.12)]"
             >
-              <div className="absolute inset-x-0 top-0 h-1 bg-gradient-to-r from-cyan-500 via-sky-400 to-emerald-400" />
+              <div className="absolute inset-x-0 top-0 h-1 bg-gradient-to-r from-blue-500 via-blue-400 to-emerald-400" />
               <div className="mb-5 flex items-start justify-between gap-3 text-xs text-slate-500">
-                <span className="rounded-full border border-cyan-100 bg-cyan-50 px-3 py-1 font-bold text-cyan-700">
+                <span className="rounded-full border border-blue-100 bg-blue-50 px-3 py-1 font-bold text-blue-700">
                   {article.eyebrow}
                 </span>
                 <span className="rounded-full border border-slate-200 bg-[#f8fbff] px-3 py-1 font-semibold">
@@ -161,7 +161,7 @@ export default function ArtikelPage() {
               </div>
               <h3 className="text-xl font-black leading-tight text-slate-950">{article.h1}</h3>
               <p className="mt-4 text-sm leading-7 text-slate-600">{article.description}</p>
-              <span className="mt-6 inline-flex text-sm font-black text-cyan-700 transition group-hover:translate-x-1">
+              <span className="mt-6 inline-flex text-sm font-black text-blue-700 transition group-hover:translate-x-1">
                 Baca artikel →
               </span>
             </Link>
@@ -175,7 +175,7 @@ export default function ArtikelPage() {
             <Link
               key={href}
               href={href}
-              className="rounded-[1.45rem] border border-slate-200 bg-white p-6 shadow-sm transition hover:-translate-y-1 hover:border-cyan-200 hover:shadow-[0_18px_45px_rgba(15,39,66,0.10)]"
+              className="rounded-[1.45rem] border border-slate-200 bg-white p-6 shadow-sm transition hover:-translate-y-1 hover:border-blue-200 hover:shadow-[0_18px_45px_rgba(15,39,66,0.10)]"
             >
               <h2 className="text-xl font-black text-slate-950">{title}</h2>
               <p className="mt-3 text-sm leading-6 text-slate-600">{text}</p>

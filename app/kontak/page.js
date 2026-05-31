@@ -46,12 +46,12 @@ const fastLinks = [
 export default function KontakPage() {
   return (
     <main className="min-h-screen overflow-hidden bg-[#f7fbff] text-slate-950">
-      <section className="relative overflow-hidden border-b border-cyan-100 bg-[linear-gradient(180deg,#f8fdff_0%,#eefbff_100%)] px-4 pb-10 pt-12 sm:px-6 lg:px-8 lg:pb-14 lg:pt-20">
+      <section className="relative overflow-hidden border-b border-blue-100 bg-[linear-gradient(180deg,#f8fdff_0%,#eefbff_100%)] px-4 pb-10 pt-12 sm:px-6 lg:px-8 lg:pb-14 lg:pt-20">
         <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_top_left,rgba(34,211,238,0.16),transparent_34%),radial-gradient(circle_at_bottom_right,rgba(15,23,42,0.08),transparent_32%)]" />
 
         <div className="relative mx-auto grid max-w-7xl gap-10 lg:grid-cols-[1fr_0.92fr] lg:items-start lg:gap-16">
           <div>
-            <p className="inline-flex rounded-full border border-cyan-100 bg-white/80 px-4 py-2 text-xs font-black uppercase tracking-[0.2em] text-cyan-800 shadow-sm backdrop-blur">
+            <p className="inline-flex rounded-full border border-blue-100 bg-white/80 px-4 py-2 text-xs font-black uppercase tracking-[0.2em] text-blue-800 shadow-sm backdrop-blur">
               Kontak RADJA AC
             </p>
 
@@ -98,7 +98,7 @@ export default function KontakPage() {
           </div>
 
           <aside className="rounded-[1.7rem] border border-slate-200 bg-white p-5 shadow-[0_22px_60px_rgba(15,39,66,0.10)] sm:p-7">
-            <p className="text-xs font-black uppercase tracking-[0.2em] text-cyan-700">
+            <p className="text-xs font-black uppercase tracking-[0.2em] text-blue-700">
               Nomor WhatsApp
             </p>
 
@@ -110,12 +110,12 @@ export default function KontakPage() {
               Kirim detail sejak pesan pertama agar admin langsung membaca ukuran ruangan, daya listrik, stok, dan kebutuhan pemasangan.
             </p>
 
-            <div className="mt-6 rounded-[1.45rem] border border-cyan-100 bg-cyan-50 p-5">
+            <div className="mt-6 rounded-[1.45rem] border border-blue-100 bg-blue-50 p-5">
               <p className="text-sm font-black text-slate-950">Format pesan yang disarankan:</p>
               <ul className="mt-4 space-y-3">
                 {messageChecklist.map((item) => (
                   <li key={item} className="flex gap-3 text-sm leading-6 text-slate-700">
-                    <span className="mt-1 flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-cyan-600 text-xs font-black text-white">
+                    <span className="mt-1 flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-blue-600 text-xs font-black text-white">
                       ✓
                     </span>
                     <span>{item}</span>
@@ -138,8 +138,8 @@ export default function KontakPage() {
       <section className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8 lg:py-12">
         <div className="grid gap-5 md:grid-cols-3">
           {contactReasons.map(([title, text]) => (
-            <div key={title} className="rounded-[1.55rem] border border-slate-200 bg-white p-6 shadow-sm transition hover:-translate-y-1 hover:border-cyan-200 hover:shadow-[0_18px_45px_rgba(15,39,66,0.10)]">
-              <div className="mb-5 flex h-12 w-12 items-center justify-center rounded-2xl bg-cyan-50 text-2xl text-cyan-700">
+            <div key={title} className="rounded-[1.55rem] border border-slate-200 bg-white p-6 shadow-sm transition hover:-translate-y-1 hover:border-blue-200 hover:shadow-[0_18px_45px_rgba(15,39,66,0.10)]">
+              <div className="mb-5 flex h-12 w-12 items-center justify-center rounded-2xl bg-blue-50 text-2xl text-blue-700">
                 ✓
               </div>
               <h2 className="text-xl font-black tracking-[-0.02em] text-slate-950">{title}</h2>
@@ -153,7 +153,7 @@ export default function KontakPage() {
         <div className="rounded-[1.7rem] border border-slate-200 bg-white p-6 shadow-[0_18px_50px_rgba(15,39,66,0.08)] sm:p-8 lg:p-10">
           <div className="grid gap-8 lg:grid-cols-[0.85fr_1.15fr] lg:items-center">
             <div>
-              <p className="text-xs font-black uppercase tracking-[0.2em] text-cyan-700">
+              <p className="text-xs font-black uppercase tracking-[0.2em] text-blue-700">
                 Jalur cepat konsultasi
               </p>
               <h2 className="mt-4 text-3xl font-black tracking-[-0.03em] text-slate-950 sm:text-4xl">
@@ -169,7 +169,7 @@ export default function KontakPage() {
                 <Link
                   key={href}
                   href={href}
-                  className="rounded-[1.35rem] border border-slate-200 bg-[#f8fbff] p-5 transition hover:-translate-y-1 hover:border-cyan-200 hover:bg-cyan-50"
+                  className="rounded-[1.35rem] border border-slate-200 bg-[#f8fbff] p-5 transition hover:-translate-y-1 hover:border-blue-200 hover:bg-blue-50"
                 >
                   <h3 className="text-base font-black text-slate-950">{title}</h3>
                   <p className="mt-2 text-xs leading-6 text-slate-600">{text}</p>

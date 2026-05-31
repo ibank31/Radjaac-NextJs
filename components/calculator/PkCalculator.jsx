@@ -70,12 +70,12 @@ function Field({ label, children }) {
 }
 
 function inputClassName() {
-  return "w-full rounded-2xl border border-slate-200 bg-white px-4 py-3 text-sm font-bold text-slate-950 outline-none transition focus:border-cyan-400 focus:ring-4 focus:ring-cyan-100";
+  return "w-full rounded-2xl border border-slate-200 bg-white px-4 py-3 text-sm font-bold text-slate-950 outline-none transition focus:border-blue-400 focus:ring-4 focus:ring-blue-100";
 }
 
 function ResultCard({ label, value, highlight = false }) {
   return (
-    <div className={`rounded-3xl border p-4 ${highlight ? "border-cyan-100 bg-cyan-50" : "border-slate-200 bg-white"}`}>
+    <div className={`rounded-3xl border p-4 ${highlight ? "border-blue-100 bg-blue-50" : "border-slate-200 bg-white"}`}>
       <p className="text-xs font-black uppercase tracking-[0.16em] text-slate-500">{label}</p>
       <p className="mt-2 text-2xl font-black text-slate-950">{value}</p>
     </div>
@@ -112,11 +112,11 @@ export default function PkCalculator() {
   const waIntent = `konsultasi hasil kalkulator PK AC: ruangan ${formatNumber(result.area)} m2, estimasi ${result.recommendation.pk}, ${formatNumber(result.estimatedBtu, 0)} BTU, tipe ruang ${roomType}`;
 
   return (
-    <div className="rounded-[2rem] border border-cyan-100 bg-white/95 p-4 shadow-[0_28px_80px_rgba(15,39,66,0.12)] backdrop-blur sm:p-6 lg:p-8">
+    <div className="rounded-[2rem] border border-blue-100 bg-white/95 p-4 shadow-[0_28px_80px_rgba(15,39,66,0.12)] backdrop-blur sm:p-6 lg:p-8">
       <div className="grid gap-6 lg:grid-cols-[0.9fr_1.1fr] lg:items-start">
         <section className="rounded-[1.6rem] border border-slate-200 bg-[linear-gradient(180deg,#ffffff_0%,#f8fbff_100%)] p-5 shadow-sm">
           <div className="mb-5">
-            <p className="text-xs font-black uppercase tracking-[0.18em] text-cyan-700">Isi data ruangan</p>
+            <p className="text-xs font-black uppercase tracking-[0.18em] text-blue-700">Isi data ruangan</p>
             <h2 className="mt-2 text-2xl font-black text-slate-950">Ukur dulu sebelum pilih PK</h2>
           </div>
 
@@ -162,9 +162,9 @@ export default function PkCalculator() {
           </div>
         </section>
 
-        <section className="rounded-[1.6rem] border border-cyan-200 bg-[linear-gradient(180deg,#ecfeff_0%,#f8fbff_100%)] p-5 shadow-[0_18px_50px_rgba(34,211,238,0.12)]">
+        <section className="rounded-[1.6rem] border border-blue-200 bg-[linear-gradient(180deg,#ecfeff_0%,#f8fbff_100%)] p-5 shadow-[0_18px_50px_rgba(34,211,238,0.12)]">
           <div className="mb-5">
-            <p className="text-xs font-black uppercase tracking-[0.18em] text-cyan-800">Estimasi awal</p>
+            <p className="text-xs font-black uppercase tracking-[0.18em] text-blue-800">Estimasi awal</p>
             <h2 className="mt-2 text-2xl font-black text-slate-950">Cek hasil PK ke admin</h2>
           </div>
 
@@ -175,7 +175,7 @@ export default function PkCalculator() {
             <ResultCard label="Listrik/bulan" value={`±${formatCurrency(result.monthlyCost)}`} highlight />
           </div>
 
-          <div className="rounded-3xl border border-cyan-100 bg-white p-5">
+          <div className="rounded-3xl border border-blue-100 bg-white p-5">
             <h3 className="text-xl font-black text-slate-950">
               Estimasi: AC {result.recommendation.pk} untuk ruangan ±{formatNumber(result.area)} m²
             </h3>
@@ -203,9 +203,9 @@ export default function PkCalculator() {
             </WhatsappLink>
           </div>
 
-          <div className="mt-5 rounded-3xl border border-amber-200 bg-amber-50 p-4">
-            <p className="font-black text-amber-950">Sudah keluar hasilnya? Jangan berhenti di sini</p>
-            <p className="mt-2 text-sm leading-7 text-amber-900">
+          <div className="mt-5 rounded-3xl border border-blue-200 bg-blue-50 p-4">
+            <p className="font-black text-blue-950">Sudah keluar hasilnya? Jangan berhenti di sini</p>
+            <p className="mt-2 text-sm leading-7 text-blue-900">
               Kalkulator ini memberi gambaran awal. Kirim hasil hitung agar admin cek stok unit, harga unit, biaya pasang, daya listrik, kondisi MCB, dan posisi pemasangan.
             </p>
           </div>
@@ -213,7 +213,7 @@ export default function PkCalculator() {
       </div>
 
       <section className="mt-6 rounded-[1.6rem] border border-slate-200 bg-slate-50 p-5">
-        <p className="text-xs font-black uppercase tracking-[0.18em] text-cyan-700">Yang sering diabaikan</p>
+        <p className="text-xs font-black uppercase tracking-[0.18em] text-blue-700">Yang sering diabaikan</p>
         <h2 className="mt-2 text-2xl font-black text-slate-950">Empat hal yang bikin orang salah pilih AC</h2>
         <div className="mt-5 grid gap-3 md:grid-cols-2 lg:grid-cols-4">
           {quickTips.map((tip) => (

@@ -27,9 +27,9 @@ const mainLinks = [
 export default function TentangKamiPage() {
   return (
     <main className="min-h-screen overflow-hidden bg-[#f7fbff] text-slate-950">
-      <section className="relative overflow-hidden border-b border-cyan-100 bg-[linear-gradient(180deg,#f8fdff_0%,#eefbff_100%)] px-4 py-12 lg:py-20">
+      <section className="relative overflow-hidden border-b border-blue-100 bg-[linear-gradient(180deg,#f8fdff_0%,#eefbff_100%)] px-4 py-12 lg:py-20">
         <div className="pointer-events-none absolute inset-0 -z-10 bg-[radial-gradient(circle_at_top_left,rgba(34,211,238,0.18),transparent_32%),radial-gradient(circle_at_bottom_right,rgba(59,130,246,0.14),transparent_28%)]" />
-        <p className="text-sm font-bold uppercase tracking-[0.22em] text-cyan-700">
+        <p className="text-sm font-bold uppercase tracking-[0.22em] text-blue-700">
           Tentang RADJA AC
         </p>
         <h1 className="mt-4 max-w-4xl text-4xl font-black tracking-tight text-slate-950 md:text-5xl">
@@ -80,14 +80,14 @@ export default function TentangKamiPage() {
           </section>
         </div>
 
-        <section className="mt-8 rounded-[1.45rem] border border-cyan-100 bg-cyan-50 p-6">
+        <section className="mt-8 rounded-[1.45rem] border border-blue-100 bg-blue-50 p-6">
           <h2 className="text-xl font-black text-slate-950">Mulai dari halaman utama</h2>
           <div className="mt-5 flex flex-wrap gap-3">
             {mainLinks.map(([label, href]) => (
               <Link
                 key={href}
                 href={href}
-                className="rounded-full border border-cyan-100 bg-cyan-50 px-4 py-2 text-sm font-bold text-cyan-700 transition hover:bg-cyan-50"
+                className="rounded-full border border-blue-100 bg-blue-50 px-4 py-2 text-sm font-bold text-blue-700 transition hover:bg-blue-50"
               >
                 {label}
               </Link>

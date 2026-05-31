@@ -43,9 +43,9 @@ const relatedLinks = [
 export default function PengirimanPemasanganPage() {
   return (
     <main className="min-h-screen overflow-hidden bg-[#f7fbff] text-slate-950">
-      <section className="relative overflow-hidden border-b border-cyan-100 bg-[linear-gradient(180deg,#f8fdff_0%,#eefbff_100%)] px-4 py-12 lg:py-20">
+      <section className="relative overflow-hidden border-b border-blue-100 bg-[linear-gradient(180deg,#f8fdff_0%,#eefbff_100%)] px-4 py-12 lg:py-20">
         <div className="pointer-events-none absolute inset-0 -z-10 bg-[radial-gradient(circle_at_top_left,rgba(34,211,238,0.18),transparent_32%),radial-gradient(circle_at_bottom_right,rgba(37,211,102,0.12),transparent_28%)]" />
-        <p className="text-sm font-bold uppercase tracking-[0.22em] text-cyan-700">
+        <p className="text-sm font-bold uppercase tracking-[0.22em] text-blue-700">
           Pengiriman & Pemasangan
         </p>
         <h1 className="mt-4 max-w-4xl text-4xl font-black tracking-tight text-slate-950 md:text-5xl">
@@ -120,7 +120,7 @@ export default function PengirimanPemasanganPage() {
           </div>
         </section>
 
-        <section className="mt-8 rounded-[1.45rem] border border-cyan-100 bg-cyan-50 p-6">
+        <section className="mt-8 rounded-[1.45rem] border border-blue-100 bg-blue-50 p-6">
           <h2 className="text-xl font-black text-slate-950">Bukan sekadar kirim unit</h2>
           <p className="mt-4 max-w-3xl text-sm leading-7 text-slate-700">
             Untuk pembelian AC, pengiriman dan pemasangan perlu dibaca dari kondisi lokasi.
@@ -132,7 +132,7 @@ export default function PengirimanPemasanganPage() {
               <Link
                 key={href}
                 href={href}
-                className="rounded-full border border-cyan-200 bg-white px-4 py-2 text-sm font-bold text-cyan-800 transition hover:border-cyan-300 hover:bg-cyan-100"
+                className="rounded-full border border-blue-200 bg-white px-4 py-2 text-sm font-bold text-blue-800 transition hover:border-blue-300 hover:bg-blue-100"
               >
                 {label}
               </Link>
