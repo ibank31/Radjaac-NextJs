@@ -14,7 +14,7 @@ const heroImages = {
   daikin: "/photos/showroom/display-daikin-new.webp",
   midea: "/photos/brand-proof/midea-midea-showcase.webp",
   hisense: "/photos/showroom/display-hisense-new.webp",
-  sansui: "/photos/brand-proof/sansui-sansui-showcase.webp",
+  sansui: "/photos/display/display-sansui-new.webp",
   samsung: "/photos/product-display/samsung-samsung-inverter.webp",
   sharp: "/photos/product-display/sharp-ac-sharp-bey.webp",
   panasonic: "/photos/showroom/showroom-multibrand-radja-ac-purwokerto-01.webp",

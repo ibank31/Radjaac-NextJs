@@ -11,23 +11,23 @@ export const procurementItems = [
     h1: "Pengadaan AC untuk kost, apartemen, dan hunian banyak kamar",
     eyebrow: "Pengadaan AC",
     intro:
-      "Kebutuhan AC untuk kost, apartemen, kontrakan, atau hunian banyak kamar perlu dihitung lebih rapi daripada pembelian satu unit. RADJA AC bantu cek kebutuhan PK per ruangan, pilihan brand, stok unit, pengiriman, dan opsi pemasangan fleksibel yang bisa dibicarakan terlebih dahulu.",
+      "Untuk kost, apartemen, kontrakan, atau hunian banyak kamar, pembelian AC tidak cukup hanya memilih harga unit. Jumlah kamar, daya listrik, tipe unit, jadwal pengiriman, dan rencana pemasangan perlu dibaca lebih rapi agar pembelian banyak unit tidak berantakan di lapangan.",
     segmentContext:
-      "Untuk kost dan apartemen, kebutuhan tiap kamar bisa berbeda tergantung ukuran ruangan, arah panas, jumlah penghuni, daya listrik, dan target budget. Admin membantu menyusun opsi agar pembelian banyak unit lebih jelas sebelum deal.",
+      "Kost dan apartemen biasanya membutuhkan unit yang mudah dirawat, tipe relatif seragam, dan konsumsi listrik yang masuk akal. Admin RADJA AC membantu membaca kebutuhan dari jumlah kamar, ukuran ruangan, daya listrik per titik, prioritas budget, serta apakah pengiriman atau pemasangan perlu dilakukan bertahap.",
     coordinationNote:
       "Koordinasi lokasi atau survey dapat dibicarakan terlebih dahulu sesuai kebutuhan, jumlah unit, area, dan jadwal. Tidak semua proyek otomatis membutuhkan survey; admin akan bantu cek kebutuhan awal dari data ruangan dan lokasi.",
     commonNeeds: [
-      "AC banyak kamar untuk kost atau kontrakan",
-      "AC unit seragam untuk apartemen atau hunian sewa",
-      "Pilihan AC standard, low watt, atau inverter sesuai daya listrik",
-      "Koordinasi pengiriman dan opsi pemasangan bertahap",
+      "AC banyak kamar untuk kost, kontrakan, mess, atau hunian sewa",
+      "Pilihan unit seragam agar perawatan dan penggantian lebih mudah",
+      "Opsi standard, low watt, atau inverter sesuai daya listrik bangunan",
+      "Pengiriman dan pemasangan bertahap sesuai kesiapan kamar",
     ],
     buyingChecks: [
-      "Jumlah kamar atau ruangan",
-      "Ukuran tiap ruangan dan estimasi PK",
-      "Daya listrik total dan kebutuhan low watt/inverter",
-      "Brand yang tersedia dan bisa dicek stoknya",
-      "Alamat pengiriman, akses lokasi, dan jadwal pemasangan",
+      "Jumlah kamar siap pasang dan kamar yang menyusul",
+      "Ukuran tiap kamar, tinggi plafon, dan paparan panas",
+      "Daya listrik per kamar atau per lantai",
+      "Target tipe unit: hemat budget, low watt, atau inverter",
+      "Akses lokasi, titik outdoor, dan jadwal pekerjaan bertahap",
     ],
     suggestedLinks: [
       ["AC 1/2 PK", routes.katalogAcSetengahPk],
@@ -49,23 +49,23 @@ export const procurementItems = [
     h1: "Pengadaan AC untuk hotel, guest house, homestay, dan penginapan",
     eyebrow: "Pengadaan AC",
     intro:
-      "AC untuk hotel, guest house, homestay, atau villa harus mempertimbangkan kenyamanan tamu, ukuran kamar, durasi pemakaian, daya listrik, dan kesiapan unit. RADJA AC bantu cek kebutuhan PK, brand, stok, pengiriman, dan opsi pemasangan fleksibel sebelum pembelian.",
+      "Untuk hotel, guest house, homestay, atau villa, AC berpengaruh langsung ke kenyamanan tamu. Pemilihan unit perlu mempertimbangkan ukuran kamar, tingkat kebisingan, durasi pemakaian, daya listrik, kesiapan stok, dan jadwal pekerjaan agar operasional tidak terganggu.",
     segmentContext:
-      "Kebutuhan penginapan biasanya bukan hanya soal jumlah unit, tapi juga konsistensi tipe, efisiensi listrik, kenyamanan kamar, dan koordinasi jadwal agar operasional tidak terganggu.",
+      "Kebutuhan penginapan biasanya menuntut unit yang nyaman, mudah dijelaskan ke tamu bila ada maintenance, dan tidak mengganggu okupansi. Admin membantu menyiapkan opsi berdasarkan kategori kamar, area publik, jadwal kosong kamar, serta kebutuhan pengiriman atau pemasangan bertahap.",
     coordinationNote:
       "Koordinasi lokasi atau survey dapat dibicarakan terlebih dahulu sesuai jumlah unit, area, jadwal, dan kebutuhan proyek. Admin bisa mulai dari data kamar, foto lokasi, atau daftar kebutuhan awal.",
     commonNeeds: [
-      "AC kamar hotel, guest house, homestay, atau villa",
-      "AC area resepsionis, ruang tunggu, atau ruang bersama",
-      "Pilihan inverter untuk ruangan yang sering dipakai lama",
-      "Koordinasi pengiriman dan opsi pemasangan sesuai jadwal operasional",
+      "AC kamar tamu hotel, guest house, homestay, atau villa",
+      "AC lobby, resepsionis, ruang tunggu, dan area bersama",
+      "Pilihan unit yang nyaman untuk pemakaian lama dan tamu berganti",
+      "Koordinasi pekerjaan agar tidak mengganggu okupansi kamar",
     ],
     buyingChecks: [
-      "Jumlah kamar dan area umum",
-      "Ukuran ruangan dan estimasi PK",
-      "Jam pemakaian harian dan kebutuhan inverter",
-      "Brand, stok, dan keseragaman tipe unit",
-      "Jadwal pengiriman dan opsi pemasangan",
+      "Jumlah kamar aktif, kamar cadangan, dan area publik",
+      "Ukuran kamar, posisi outdoor, dan potensi suara indoor",
+      "Durasi pemakaian harian dan prioritas hemat listrik",
+      "Kebutuhan tipe seragam atau kombinasi beberapa tipe",
+      "Jadwal pekerjaan agar tidak bentrok dengan tamu menginap",
     ],
     suggestedLinks: [
       ["AC Inverter", routes.katalogAcInverter],
@@ -87,23 +87,23 @@ export const procurementItems = [
     h1: "Pengadaan AC untuk kontraktor, developer, dan kebutuhan proyek",
     eyebrow: "Pengadaan AC",
     intro:
-      "Untuk kontraktor, developer, dan kebutuhan proyek, pembelian AC perlu disiapkan dari jumlah unit, kapasitas PK, pilihan brand, ketersediaan stok, pengiriman, serta opsi pemasangan fleksibel. RADJA AC bantu koordinasi kebutuhan awal sebelum pembelian.",
+      "Untuk kontraktor, developer, dan proyek bangunan, kebutuhan AC biasanya terkait RAB, BOQ, jumlah titik, deadline pekerjaan, dan koordinasi lapangan. RADJA AC membantu cek pilihan unit, kapasitas PK, stok, pengiriman, serta opsi pemasangan berdasarkan data proyek yang dikirim.",
     segmentContext:
-      "Kebutuhan proyek bisa mencakup rumah contoh, ruko, klinik, kantor, ruang usaha, atau beberapa titik pemasangan. Admin membantu menyusun kebutuhan berdasarkan ruangan, jumlah unit, jadwal, dan pilihan brand yang tersedia.",
+      "Kebutuhan kontraktor dan developer sering membutuhkan alternatif brand sesuai budget, kesiapan unit, dan jadwal kirim. Admin dapat mulai dari daftar titik AC, ukuran ruangan, gambar sederhana, BOQ/RAB awal, atau foto lokasi untuk membantu membaca kebutuhan sebelum penawaran dibicarakan.",
     coordinationNote:
       "Koordinasi lokasi atau survey dapat dibicarakan terlebih dahulu sesuai kebutuhan proyek, lokasi, jumlah unit, akses pekerjaan, dan jadwal. Detail teknis tetap dikonfirmasi sebelum pembelian atau pemasangan.",
     commonNeeds: [
-      "AC untuk rumah proyek, ruko, kantor, klinik, atau ruang usaha",
-      "Pembelian banyak unit dengan koordinasi pengiriman",
-      "Pilihan brand sesuai kebutuhan proyek dan budget",
-      "Opsi pemasangan yang dibicarakan berdasarkan lokasi dan jadwal",
+      "AC untuk rumah contoh, ruko, kantor, klinik, dan ruang usaha",
+      "Pengadaan banyak unit berdasarkan daftar titik atau BOQ awal",
+      "Alternatif brand sesuai budget, stok, dan spesifikasi proyek",
+      "Koordinasi pengiriman dan pemasangan mengikuti timeline lapangan",
     ],
     buyingChecks: [
-      "Jumlah titik AC dan tipe ruangan",
-      "Estimasi kapasitas PK per titik",
-      "Ketersediaan daya listrik dan kebutuhan tipe unit",
-      "Brand, stok, dan jadwal pengiriman",
-      "Kebutuhan koordinasi lokasi, akses, dan opsi pemasangan",
+      "Jumlah titik AC, tipe ruangan, dan prioritas pekerjaan",
+      "Estimasi kapasitas PK per titik berdasarkan fungsi ruang",
+      "Ketersediaan daya listrik dan batasan teknis lokasi",
+      "Brand pembanding untuk RAB, budget, dan kesiapan stok",
+      "Akses lokasi, jadwal proyek, dan kebutuhan dokumentasi pengiriman",
     ],
     suggestedLinks: [
       ["AC Kantor & Komersial", routes.katalogAcKantorKomersial],

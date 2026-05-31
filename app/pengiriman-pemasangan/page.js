@@ -8,16 +8,36 @@ import WhatsappLink from "@/components/ui/WhatsappLink";
 export const metadata = buildMetadata(staticPageMetadata.pengirimanPemasangan);
 
 const processSteps = [
-  "Kirim kebutuhan ruangan, kota, dan brand yang diminati.",
-  "Admin bantu cek stok, rekomendasi PK, dan opsi unit.",
-  "Pengiriman unit dikonfirmasi berdasarkan alamat, jumlah unit, dan jadwal.",
-  "Opsi pemasangan fleksibel dibicarakan terlebih dahulu sesuai area, titik pemasangan, jumlah unit, dan kebutuhan teknis.",
+  "Kirim ukuran ruangan, kota, jumlah unit, brand yang diminati, dan kebutuhan unit saja atau sekalian pemasangan.",
+  "Admin bantu cek stok, rekomendasi PK, opsi tipe unit, serta gambaran kebutuhan teknis awal.",
+  "Alamat pengiriman, akses lokasi, jumlah unit, dan jadwal dikonfirmasi sebelum unit dikirim.",
+  "Opsi pemasangan dibicarakan berdasarkan titik indoor, posisi outdoor, jalur pipa, listrik, dan kesiapan lokasi.",
 ];
 
 const notes = [
-  "Pengiriman dan opsi pemasangan fleksibel dikonfirmasi terlebih dahulu sesuai lokasi, jumlah unit, jadwal, dan kondisi teknis.",
-  "Untuk kebutuhan banyak unit atau proyek, koordinasi lokasi atau survey bisa dibicarakan sesuai kebutuhan, lokasi, jumlah unit, dan jadwal.",
   "Biaya, jadwal, akses lokasi, dan kebutuhan material tambahan harus dikonfirmasi sebelum deal.",
+  "Panjang pipa tambahan, bracket, bobok tembok, jalur listrik, akses tinggi, atau pemindahan titik dapat membuat kebutuhan berubah.",
+  "Untuk banyak unit atau proyek, koordinasi lokasi atau survey bisa dibicarakan sesuai kebutuhan, jumlah unit, area, dan jadwal.",
+];
+
+const siteChecks = [
+  "Ukuran ruangan, tinggi plafon, arah panas, dan perkiraan jumlah orang di ruangan.",
+  "Titik indoor yang diinginkan dan kemungkinan jalur pipa menuju outdoor.",
+  "Posisi outdoor: balkon, dinding luar, dak, lantai bawah, atau area khusus.",
+  "Kesiapan listrik, stop kontak, MCB, dan kebutuhan jalur tambahan bila ada.",
+];
+
+const photoBriefs = [
+  "Foto ruangan dari sudut lebar.",
+  "Foto calon titik indoor.",
+  "Foto area outdoor atau balkon.",
+  "Foto panel listrik / MCB bila daya listrik masih ragu.",
+];
+
+const relatedLinks = [
+  ["Bukti Pengiriman Proyek", routes.buktiPengirimanProyek],
+  ["Katalog AC", routes.katalog],
+  ["Pengadaan AC", routes.pengadaanAc],
 ];
 
 export default function PengirimanPemasanganPage() {
@@ -75,6 +95,50 @@ export default function PengirimanPemasanganPage() {
             </ul>
           </section>
         </div>
+
+        <section className="mt-8 grid gap-6 lg:grid-cols-2">
+          <div className="rounded-[1.45rem] border border-slate-200 bg-white p-6">
+            <h2 className="text-xl font-black text-slate-950">Yang dicek sebelum pemasangan</h2>
+            <ul className="mt-5 space-y-3 text-sm leading-6 text-slate-600">
+              {siteChecks.map((item) => (
+                <li key={item} className="rounded-2xl border border-slate-200 bg-[#f7fbff]/45 p-4">
+                  {item}
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          <div className="rounded-[1.45rem] border border-slate-200 bg-white p-6">
+            <h2 className="text-xl font-black text-slate-950">Foto yang sebaiknya dikirim</h2>
+            <ul className="mt-5 space-y-3 text-sm leading-6 text-slate-600">
+              {photoBriefs.map((item) => (
+                <li key={item} className="rounded-2xl border border-slate-200 bg-[#f7fbff]/45 p-4">
+                  {item}
+                </li>
+              ))}
+            </ul>
+          </div>
+        </section>
+
+        <section className="mt-8 rounded-[1.45rem] border border-cyan-100 bg-cyan-50 p-6">
+          <h2 className="text-xl font-black text-slate-950">Bukan sekadar kirim unit</h2>
+          <p className="mt-4 max-w-3xl text-sm leading-7 text-slate-700">
+            Untuk pembelian AC, pengiriman dan pemasangan perlu dibaca dari kondisi lokasi.
+            Admin RADJA AC akan membantu cek kebutuhan awal supaya pembeli tidak hanya melihat harga unit,
+            tetapi juga memahami kemungkinan kebutuhan pipa, bracket, posisi outdoor, akses kerja, dan jadwal.
+          </p>
+          <div className="mt-5 flex flex-wrap gap-3">
+            {relatedLinks.map(([label, href]) => (
+              <Link
+                key={href}
+                href={href}
+                className="rounded-full border border-cyan-200 bg-white px-4 py-2 text-sm font-bold text-cyan-800 transition hover:border-cyan-300 hover:bg-cyan-100"
+              >
+                {label}
+              </Link>
+            ))}
+          </div>
+        </section>
 
         <section className="mt-8 rounded-[1.45rem] border border-slate-200 bg-white p-6">
           <h2 className="text-xl font-black text-slate-950">Garansi & bantuan klaim</h2>
