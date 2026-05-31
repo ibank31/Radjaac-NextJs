@@ -48,7 +48,7 @@ const processSteps = [
   ["Ceritakan kebutuhan ruangan", "Sampaikan ukuran ruangan, lokasi, daya listrik, jumlah unit, dan preferensi brand jika ada."],
   ["Cek PK dan tipe AC", "Admin membaca ukuran ruangan, daya listrik, pola pemakaian, lalu cocokkan tipe standard, low watt, atau inverter."],
   ["Cek stok dan area pengiriman", "Admin cek stok unit, harga, pengiriman, dan opsi pemasangan dari data lokasi terbaru."],
-  ["Deal setelah jelas", "Pembelian dilakukan setelah unit, jadwal, alamat, dan kebutuhan tambahan sudah dikonfirmasi."],
+  ["Beli setelah jelas", "Pembelian dilakukan setelah unit, jadwal, alamat, dan kebutuhan tambahan sudah dicek."],
 ];
 
 const proofImages = [
@@ -335,8 +335,8 @@ export default function JualAcPage() {
                 Mulai dari Banyumas, Purwokerto, Sokaraja, dan area Jawa prioritas.
               </h2>
               <p className="mt-5 text-base leading-8 text-slate-700">
-                Untuk alamat pengiriman dan opsi pemasangan, admin tetap perlu
-                konfirmasi lokasi, stok, jumlah unit, dan jadwal.
+                Untuk alamat pengiriman dan opsi pemasangan, admin tetap cek
+                lokasi, stok, jumlah unit, dan jadwal.
               </p>
             </div>
 
