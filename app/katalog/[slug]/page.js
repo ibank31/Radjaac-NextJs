@@ -182,6 +182,27 @@ export default async function CatalogDetailPage({ params }) {
         </div>
       </section>
 
+      {item.useCases?.length ? (
+        <section className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8 lg:py-12">
+          <div className="rounded-[1.7rem] border border-slate-200 bg-white p-6 shadow-sm sm:p-8">
+            <SectionTitle
+              eyebrow="Use case"
+              title={`Kapan pilih ${item.label}?`}
+              description="Gunakan tabel ini sebagai patokan awal. Keputusan akhir tetap perlu cek ukuran ruangan, daya listrik, panas ruangan, stok, dan kebutuhan pemasangan."
+            />
+            <div className="overflow-hidden rounded-[1.35rem] border border-slate-200">
+              {item.useCases.map(([useCase, fit, note]) => (
+                <div key={useCase} className="grid gap-3 border-b border-slate-200 bg-[#f8fbff] p-5 last:border-b-0 lg:grid-cols-[0.8fr_1.2fr_1.2fr]">
+                  <div className="font-black text-slate-950">{useCase}</div>
+                  <div className="text-sm leading-6 text-slate-600">{fit}</div>
+                  <div className="text-sm leading-6 text-cyan-800">{note}</div>
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+      ) : null}
+
       {item.pricingBands?.length ? (
         <section className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8 lg:py-14">
           <div className="rounded-[1.7rem] border border-slate-200 bg-white p-6 shadow-[0_18px_50px_rgba(15,39,66,0.08)] sm:p-8 lg:p-10">

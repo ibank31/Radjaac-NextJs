@@ -7,8 +7,11 @@ import WhatsappLink from "@/components/ui/WhatsappLink";
 export const metadata = buildMetadata(staticPageMetadata.katalog);
 
 const categories = [
-  ["AC Split Rumah", routes.katalogAcSplitRumah, "Kamar tidur, ruang keluarga, kost, kontrakan, dan rumah harian."],
   ["AC 1/2 PK", routes.katalogAcSetengahPk, "Untuk kamar kecil, kost, kontrakan, atau ruang kerja kecil."],
+  ["AC 1 PK", routes.katalogAcSatuPk, "Untuk kamar besar, ruang kerja, ruang tamu kecil, atau toko kecil."],
+  ["AC 1.5 PK", routes.katalogAcSatuSetengahPk, "Untuk ruang keluarga, kantor kecil, toko, atau cafe kecil."],
+  ["AC 2 PK", routes.katalogAcDuaPk, "Untuk ruang besar, kantor, ruko, meeting room, dan usaha."],
+  ["AC Split Rumah", routes.katalogAcSplitRumah, "Kamar tidur, ruang keluarga, kost, kontrakan, dan rumah harian."],
   ["AC Inverter", routes.katalogAcInverter, "Untuk pemakaian lama dan suhu lebih stabil."],
   ["AC Low Watt", routes.katalogAcLowWatt, "Untuk daya listrik terbatas dan kebutuhan hemat daya."],
   ["AC Kantor & Komersial", routes.katalogAcKantorKomersial, "Untuk toko, ruko, cafe, kantor, showroom, gedung, dan proyek."],
@@ -164,7 +167,7 @@ export default function KatalogPage() {
       <section id="kategori-katalog" className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8 lg:py-14">
         <SectionTitle eyebrow="Kategori AC" title="Pilih dari jenis ruangan dan cara pakai AC" description="Mulai dari kamar, ruang keluarga, kantor, toko, atau kebutuhan banyak unit. Setelah itu baru cocokkan PK, daya listrik, brand, dan stok." />
 
-        <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-5">
+        <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-4">
           {categories.map(([label, href, text], index) => (
             <Link key={href} href={href} className="rounded-[1.45rem] border border-slate-200 bg-white p-5 text-center shadow-sm transition hover:-translate-y-1 hover:border-cyan-200 hover:shadow-[0_18px_45px_rgba(15,39,66,0.10)]">
               <div className="mx-auto mb-4 flex h-12 w-12 items-center justify-center rounded-2xl border border-cyan-100 bg-cyan-50 text-lg font-black text-cyan-800">
