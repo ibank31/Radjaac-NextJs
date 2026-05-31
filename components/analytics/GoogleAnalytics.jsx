@@ -5,9 +5,18 @@ import { usePathname } from "next/navigation";
 import { Suspense, useEffect } from "react";
 
 const GA_MEASUREMENT_ID = process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID;
+const PRODUCTION_HOSTNAME = "www.radjaac.com";
+
+function isProductionHostname() {
+  return typeof window !== "undefined" && window.location.hostname === PRODUCTION_HOSTNAME;
+}
 
 function sendGaPageView(path) {
-  if (!GA_MEASUREMENT_ID || typeof window === "undefined" || typeof window.gtag !== "function") {
+  if (
+    !GA_MEASUREMENT_ID ||
+    !isProductionHostname() ||
+    typeof window.gtag !== "function"
+  ) {
     return;
   }
 
@@ -24,7 +33,7 @@ function GoogleAnalyticsPageView() {
   const pathname = usePathname();
 
   useEffect(() => {
-    if (!GA_MEASUREMENT_ID || !pathname) {
+    if (!GA_MEASUREMENT_ID || !isProductionHostname() || !pathname) {
       return;
     }
 
@@ -36,7 +45,7 @@ function GoogleAnalyticsPageView() {
 
 function GoogleAnalyticsEvents() {
   useEffect(() => {
-    if (!GA_MEASUREMENT_ID || typeof window === "undefined") {
+    if (!GA_MEASUREMENT_ID || !isProductionHostname()) {
       return;
     }
 
@@ -87,7 +96,7 @@ function GoogleAnalyticsEvents() {
 }
 
 export default function GoogleAnalytics() {
-  if (!GA_MEASUREMENT_ID) {
+  if (!GA_MEASUREMENT_ID || !isProductionHostname()) {
     return null;
   }
 
