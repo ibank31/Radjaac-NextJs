@@ -221,7 +221,7 @@ export default async function CatalogDetailPage({ params }) {
               </div>
 
               <div className="rounded-[1.45rem] border border-amber-200 bg-amber-50 p-5">
-                <h3 className="text-xl font-black text-slate-950">Harga final tetap dikonfirmasi</h3>
+                <h3 className="text-xl font-black text-slate-950">Admin cek rincian harga</h3>
                 <p className="mt-3 text-sm leading-7 text-slate-700">{item.pricingNote}</p>
                 <WhatsappLink
                   className="mt-5 inline-flex rounded-full bg-[#25D366] px-5 py-3 text-sm font-black text-slate-950 shadow-[0_14px_34px_rgba(37,211,102,0.18)] transition hover:-translate-y-0.5 hover:bg-[#20BA5A]"

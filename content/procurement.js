@@ -91,7 +91,7 @@ export const procurementItems = [
     segmentContext:
       "Kebutuhan kontraktor dan developer sering membutuhkan alternatif brand sesuai budget, kesiapan unit, dan jadwal kirim. Admin mulai dari daftar titik AC, ukuran ruangan, gambar sederhana, BOQ/RAB awal, atau foto lokasi sebelum penawaran dibahas.",
     coordinationNote:
-      "Koordinasi lokasi atau survey dibahas sejak awal berdasarkan kebutuhan proyek, lokasi, jumlah unit, akses pekerjaan, dan jadwal. Detail teknis tetap dikonfirmasi sebelum pembelian atau pemasangan.",
+      "Koordinasi lokasi atau survey dibahas sejak awal berdasarkan kebutuhan proyek, lokasi, jumlah unit, akses pekerjaan, dan jadwal. Admin cek detail teknis sebelum pembelian atau pemasangan.",
     commonNeeds: [
       "AC untuk rumah contoh, ruko, kantor, klinik, dan ruang usaha",
       "Pengadaan banyak unit berdasarkan daftar titik atau BOQ awal",

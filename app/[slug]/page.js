@@ -115,7 +115,7 @@ export default async function AreaPage({ params }) {
     ["Kirim info awal", `Sebutkan area ${item.areaName}, ukuran ruangan, daya listrik, jumlah unit, budget, dan brand yang diminati.`],
     ["Admin cek & rekomendasikan", "Stok dicek, PK dicocokkan, pilihan brand dibandingkan, dan estimasi dijelaskan."],
     ["Foto lokasi bila perlu", "Foto titik indoor dan outdoor membantu memperkirakan jalur pipa dan posisi outdoor."],
-    ["Jadwal dikunci setelah cocok", "Setelah stok, estimasi, alamat, dan kebutuhan jelas, pengiriman atau opsi pemasangan dikoordinasikan."],
+    ["Jadwal disusun setelah data cocok", "Setelah stok, estimasi, alamat, dan kebutuhan jelas, admin susun pengiriman atau opsi pemasangan."],
   ];
 
   const faqItems = [
@@ -125,7 +125,7 @@ export default async function AreaPage({ params }) {
         ? "RADJA AC berbasis di Pamijen, Sokaraja, Banyumas dan melayani area Purwokerto. Kirim kebutuhan agar admin mengecek stok aktif."
         : `RADJA AC berbasis di Banyumas. Untuk area ${item.areaName}, admin cek PK, stok, pengiriman unit, dan kebutuhan pemasangan berdasarkan data awal.`,
     ],
-    [`Berapa estimasi budget AC untuk area ${item.areaName}?`, "Estimasi awal mulai dari 3 jutaan untuk unit + pemasangan standar tertentu. Finalnya bergantung brand, PK, stok, alamat, dan kondisi pemasangan."],
+    [`Berapa estimasi budget AC untuk area ${item.areaName}?`, "Estimasi awal mulai dari 3 jutaan untuk unit + pemasangan standar tertentu. Admin cek rincian dari brand, PK, stok, alamat, dan kondisi pemasangan."],
     ["Belum tahu butuh berapa PK?", "Kirim ukuran ruangan, daya listrik, jumlah orang, dan pola pemakaian. Admin cocokkan kapasitas PK dari data itu."],
     ["Beli unit AC tanpa pemasangan", "Kirim tipe unit, alamat pengiriman, dan jumlah unit. Admin cek stok aktif dan skema pengiriman."],
     ["Brand apa saja yang tersedia?", "Admin cek Gree, Daikin, Midea, Hisense, Sharp, Panasonic, Samsung, Aqua, TCL, dan brand lain dari stok aktif."],
@@ -233,7 +233,7 @@ export default async function AreaPage({ params }) {
 
       <section className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8 lg:py-12">
         <div className="grid gap-8 lg:grid-cols-[0.9fr_1.1fr] lg:items-start">
-          <div><div className="mb-4 inline-flex rounded-full border border-cyan-100 bg-cyan-50 px-4 py-2 text-sm font-semibold text-cyan-700">ALUR BELI AC</div><h2 className="mb-5 text-3xl font-black tracking-tight sm:text-4xl lg:text-5xl">Cek kebutuhan dulu, baru kunci stok dan jadwal</h2><p className="mb-6 text-sm leading-7 text-slate-600 sm:text-base">Mulai dari area dan ukuran ruangan. Admin cek stok, arahkan PK, jelaskan estimasi, lalu jadwal dikunci setelah cocok.</p><WhatsappLink className="inline-flex items-center justify-center rounded-full bg-[#25D366] px-6 py-4 font-bold text-slate-950 transition hover:bg-[#20BA5A]" source={`${item.label} - Alur Beli`} intent={item.waIntent} area={item.waArea}>Cek AC untuk Area Ini</WhatsappLink></div>
+          <div><div className="mb-4 inline-flex rounded-full border border-cyan-100 bg-cyan-50 px-4 py-2 text-sm font-semibold text-cyan-700">ALUR BELI AC</div><h2 className="mb-5 text-3xl font-black tracking-tight sm:text-4xl lg:text-5xl">Cek kebutuhan dulu, baru kunci stok dan jadwal</h2><p className="mb-6 text-sm leading-7 text-slate-600 sm:text-base">Mulai dari area dan ukuran ruangan. Admin cek stok, cocokkan PK, jelaskan estimasi, lalu susun jadwal setelah data cocok.</p><WhatsappLink className="inline-flex items-center justify-center rounded-full bg-[#25D366] px-6 py-4 font-bold text-slate-950 transition hover:bg-[#20BA5A]" source={`${item.label} - Alur Beli`} intent={item.waIntent} area={item.waArea}>Cek AC untuk Area Ini</WhatsappLink></div>
           <div className="grid gap-4">{processSteps.map(([title, description], index) => <div key={title} className="rounded-[1.45rem] border border-slate-200 bg-white p-5"><div className="mb-3 flex items-center gap-3"><span className="flex h-9 w-9 items-center justify-center rounded-full bg-cyan-300 text-sm font-black text-slate-950">{index + 1}</span><h3 className="text-lg font-black text-slate-950">{title}</h3></div><p className="text-sm leading-7 text-slate-600">{description}</p></div>)}</div>
         </div>
       </section>

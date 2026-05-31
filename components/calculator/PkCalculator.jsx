@@ -183,7 +183,7 @@ export default function PkCalculator() {
               Kebutuhan sekitar ±{formatNumber(result.estimatedBtu, 0)} BTU/h. Estimasi pemakaian listrik ±{formatNumber(result.dailyKwh)} kWh/hari atau ±{formatNumber(result.monthlyKwh)} kWh/bulan.
             </p>
             <p className="mt-3 text-sm leading-7 text-slate-500">
-              Kondisi ruang: {result.selectedCondition.note} Angka ini hanya gambaran awal. Daya listrik, MCB, posisi indoor-outdoor, panjang pipa, tipe AC, dan stok tetap perlu dikonfirmasi.
+              Kondisi ruang: {result.selectedCondition.note} Angka ini patokan awal. Admin tetap cek daya listrik, MCB, posisi indoor-outdoor, panjang pipa, tipe AC, dan stok.
             </p>
           </div>
 

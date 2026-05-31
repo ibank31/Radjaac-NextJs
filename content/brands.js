@@ -14,7 +14,7 @@ export const brandItems = [
     intro:
       "Gree menjadi salah satu brand utama di RADJA AC. Admin cek kebutuhan PK, pilihan standard, low watt, atau inverter, stok unit, area pengiriman, dan opsi pemasangan sebelum pembelian.",
     trustNote:
-      "RADJA AC memiliki dukungan Proshop Gree. Stok, tipe, dan ketentuan garansi unit tetap dikonfirmasi oleh admin berdasarkan kondisi terbaru.",
+      "RADJA AC memiliki dukungan Proshop Gree. Admin cek stok, tipe, dan ketentuan garansi unit dari data terbaru.",
     certificateHolder: "RADJA AC / Proshop Gree",
     variants: ["Standard", "Low watt", "Inverter"],
     suitableFor: ["Rumah", "Kamar", "Kost", "Kantor", "Hotel", "Proyek"],
@@ -98,7 +98,7 @@ export const brandItems = [
     intro:
       "AC Sansui original tersedia dalam opsi standard, low watt, atau inverter mengikuti stok aktif. Admin cek PK, daya listrik, budget, area pengiriman, dan pemasangan sebelum deal.",
     trustNote:
-      "Dokumen brand Sansui tercatat atas nama CV. Prima Sedaya, yang merupakan bagian dari operasional RADJA AC. Stok, tipe, harga, dan ketentuan garansi tetap dikonfirmasi admin berdasarkan kondisi terbaru.",
+      "Dokumen brand Sansui tercatat atas nama CV. Prima Sedaya, yang merupakan bagian dari operasional RADJA AC. Admin cek stok, tipe, harga, dan ketentuan garansi dari data terbaru.",
     certificateHolder: "CV. Prima Sedaya",
     variants: ["Standard", "Low watt", "Inverter"],
     suitableFor: ["Rumah", "Kamar", "Kost", "Kontrakan", "Kantor", "Proyek"],
@@ -182,7 +182,7 @@ export const brandItems = [
     intro:
       "Ariston dikenal lewat pendekatan home comfort. Untuk AC Ariston original, admin cek stok aktif Ariston, kapasitas PK, daya listrik, budget, lokasi pengiriman, dan pemasangan sebelum pembelian.",
     trustNote:
-      "Foto display Ariston di showroom RADJA AC digunakan sebagai bukti visual produk dan konteks brand yang pernah ditampilkan. Stok, tipe, harga, fitur per model, garansi unit, pengiriman, dan opsi pemasangan tetap dikonfirmasi admin sebelum pembelian. Garansi unit mengikuti ketentuan brand.",
+      "Foto display Ariston di showroom RADJA AC digunakan sebagai bukti visual produk dan konteks brand yang pernah ditampilkan. Admin cek stok, tipe, harga, fitur per model, garansi unit, pengiriman, dan opsi pemasangan sebelum pembelian. Garansi unit mengikuti ketentuan brand.",
     certificateHolder: "",
     variants: ["Sesuai stok", "Standard", "Low watt", "Inverter"],
     suitableFor: ["Rumah", "Kamar", "Kost", "Usaha", "Kantor", "Ruang kerja"],

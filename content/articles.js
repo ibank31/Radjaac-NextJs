@@ -37,7 +37,7 @@ export const articleItems = [
       {
         heading: "Pastikan kebutuhan pemasangan dijelaskan dari awal",
         body: [
-          "Saat tanya harga AC, pastikan apakah penawaran sudah termasuk pipa standar, kabel, bracket, selang pembuangan, vacuum, ongkir, dan jasa pasang. Jika titik indoor dan outdoor berjauhan, kebutuhan tambahan perlu dikonfirmasi.",
+          "Saat tanya harga AC, pastikan apakah penawaran sudah termasuk pipa standar, kabel, bracket, selang pembuangan, vacuum, ongkir, dan jasa pasang. Jika titik indoor dan outdoor berjauhan, admin perlu cek kebutuhan tambahan.",
           "Minta penjelasan paket sejak awal agar total biaya lebih jelas. Ini lebih aman daripada hanya membandingkan harga unit yang terlihat murah tetapi belum termasuk kebutuhan instalasi di lokasi.",
         ],
       },

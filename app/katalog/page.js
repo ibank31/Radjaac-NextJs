@@ -156,7 +156,7 @@ export default function KatalogPage() {
           </div>
 
           <p className="mx-auto mt-4 max-w-2xl text-center text-xs leading-6 text-slate-500 sm:text-sm">
-            Harga menyesuaikan merek, PK, stok, promo, alamat pengiriman, panjang pipa, posisi outdoor, dan kebutuhan pemasangan tambahan. Semua dikonfirmasi dulu sebelum deal.
+            Admin cek harga dari merek, PK, stok, promo, alamat pengiriman, panjang pipa, posisi outdoor, dan kebutuhan pemasangan tambahan sebelum pembelian.
           </p>
         </div>
       </section>

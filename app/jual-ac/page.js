@@ -47,7 +47,7 @@ const packagePricingBands = [
 const processSteps = [
   ["Ceritakan kebutuhan ruangan", "Sampaikan ukuran ruangan, lokasi, daya listrik, jumlah unit, dan preferensi brand jika ada."],
   ["Cek PK dan tipe AC", "Admin membaca ukuran ruangan, daya listrik, pola pemakaian, lalu cocokkan tipe standard, low watt, atau inverter."],
-  ["Cek stok dan area pengiriman", "Stok unit, harga, pengiriman, dan opsi pemasangan dikonfirmasi admin berdasarkan kondisi terbaru."],
+  ["Cek stok dan area pengiriman", "Admin cek stok unit, harga, pengiriman, dan opsi pemasangan dari data lokasi terbaru."],
   ["Deal setelah jelas", "Pembelian dilakukan setelah unit, jadwal, alamat, dan kebutuhan tambahan sudah dikonfirmasi."],
 ];
 
@@ -187,7 +187,7 @@ export default function JualAcPage() {
                 Cocok untuk pembeli satuan yang ingin gambaran awal sebelum chat. Paket standar dapat mencakup pipa 2 meter, kabel 5 meter, bracket 1 set, duct tape 1 roll, free selang drain, dan free vacuum.
               </p>
               <p className="mt-4 text-sm leading-7 text-slate-600">
-                Harga akhir tetap dikonfirmasi admin sesuai brand, tipe, stok, area pemasangan, panjang pipa tambahan, titik outdoor, akses lokasi, dan kebutuhan material tambahan.
+                Admin cek rincian harga dari brand, tipe, stok, area pemasangan, panjang pipa tambahan, titik outdoor, akses lokasi, dan kebutuhan material tambahan.
               </p>
             </div>
 

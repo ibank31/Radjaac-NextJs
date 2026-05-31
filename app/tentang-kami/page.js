@@ -75,7 +75,7 @@ export default function TentangKamiPage() {
               {legalEntityCopy}
             </p>
             <p className="mt-3 rounded-2xl border border-slate-200 bg-[#f7fbff]/45 p-4 text-sm leading-6 text-slate-600">
-              Dokumen brand tertentu mengikuti kerja sama dan ketentuan brand. Informasi detail tetap dikonfirmasi admin.
+              Dokumen brand tertentu mengikuti kerja sama dan ketentuan brand. Admin cek informasi detail sebelum pembelian.
             </p>
           </section>
         </div>

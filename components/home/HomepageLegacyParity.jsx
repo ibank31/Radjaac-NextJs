@@ -303,7 +303,7 @@ function HomeTrust() {
               Selain konsultasi brand lain, RADJA AC juga dikenal melalui aktivitas showroom, stok fisik,
               pengiriman, dan pemasangan. Untuk Gree, RADJA AC tercantum sebagai Proshop resmi Gree
               Indonesia. Untuk stok, harga, tipe unit, dan jadwal pemasangan, tetap konfirmasi admin dulu
-              agar informasi yang diterima berdasarkan kondisi terbaru.
+              agar admin memberi informasi dari stok dan jadwal terbaru.
             </p>
 
             <ArrowLink
@@ -380,7 +380,7 @@ function HomePriceEstimate() {
             </h2>
           </div>
           <p className="text-sm leading-7 text-slate-600 sm:text-base">
-            Gambaran awal supaya Anda tahu budget segini dapat pilihan merek apa saja. Harga final tetap
+            Gambaran awal supaya Anda tahu budget segini dapat pilihan merek apa saja. Rincian harga
             mengikuti tipe unit, stok, promo, dan kondisi pemasangan di lokasi.
           </p>
         </div>
@@ -420,7 +420,7 @@ function HomePriceEstimate() {
 
         <div className="mt-6 rounded-[1.4rem] border border-amber-200 bg-amber-50 px-4 py-4 text-sm leading-7 text-amber-900">
           <strong>Catatan:</strong> harga menyesuaikan merek, PK, stok, promo, panjang pipa, posisi outdoor,
-          dan kebutuhan instalasi tambahan. Semua dikonfirmasi dulu sebelum pemasangan.
+          dan kebutuhan instalasi tambahan. Admin cek semuanya sebelum pemasangan.
         </div>
 
         <div className="mt-6 flex justify-center">

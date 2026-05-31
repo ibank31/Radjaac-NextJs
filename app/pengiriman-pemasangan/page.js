@@ -15,7 +15,7 @@ const processSteps = [
 ];
 
 const notes = [
-  "Biaya, jadwal, akses lokasi, dan kebutuhan material tambahan harus dikonfirmasi sebelum deal.",
+  "Admin cek biaya, jadwal, akses lokasi, dan kebutuhan material tambahan sebelum pembelian.",
   "Panjang pipa tambahan, bracket, bobok tembok, jalur listrik, akses tinggi, atau pemindahan titik dapat membuat kebutuhan berubah.",
   "Untuk banyak unit atau proyek, koordinasi lokasi atau survey dibahas berdasarkan kebutuhan, jumlah unit, area, dan jadwal.",
 ];

@@ -28,7 +28,7 @@ const contactReasons = [
     "Admin membaca kapasitas AC dari ukuran ruangan, pemakaian, daya listrik, dan kondisi lokasi.",
   ],
   [
-    "Stok dikonfirmasi dulu",
+    "Stok dicek dulu",
     "Tipe, brand, harga, dan ketersediaan unit dicek sebelum Anda lanjut ke pembelian.",
   ],
   [

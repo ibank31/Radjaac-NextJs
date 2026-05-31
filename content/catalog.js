@@ -90,7 +90,7 @@ export const catalogItems = [
       },
     ],
     pricingNote:
-      "Harga final dikonfirmasi admin sesuai brand, tipe, stok, promo, area pemasangan, panjang pipa tambahan, posisi outdoor, akses lokasi, dan kebutuhan material tambahan.",
+      "Admin cek rincian harga dari brand, tipe, stok, promo, area pemasangan, panjang pipa tambahan, posisi outdoor, akses lokasi, dan kebutuhan material tambahan.",
     ctaLabel: "Tanya AC 1/2 PK yang Cocok",
     waIntent: "konsultasi AC 1/2 PK",
     waCategory: "AC 1/2 PK",

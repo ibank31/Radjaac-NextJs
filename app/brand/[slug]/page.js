@@ -123,7 +123,7 @@ export default async function BrandDetailPage({ params }) {
 
             <p className="mb-4 max-w-2xl text-sm leading-7 text-slate-600 sm:text-base">{item.intro}</p>
             <p className="mb-6 max-w-2xl text-sm leading-7 text-slate-500 sm:text-base">
-              Stok, tipe, harga, pengiriman, dan opsi pemasangan dikonfirmasi admin sebelum pembelian.
+              Admin cek stok, tipe, harga, pengiriman, dan opsi pemasangan sebelum pembelian.
             </p>
 
             <div className="mb-4 flex flex-col gap-3 sm:flex-row sm:flex-wrap">
@@ -192,7 +192,7 @@ export default async function BrandDetailPage({ params }) {
 
             <div className="grid gap-3 sm:grid-cols-2">
               <div className="rounded-[1.35rem] border border-slate-200 bg-white px-5 py-4 text-sm font-bold text-slate-700 shadow-sm">
-                Stok dikonfirmasi admin
+                Stok dicek admin
               </div>
               <div className="rounded-[1.35rem] border border-slate-200 bg-white px-5 py-4 text-sm font-bold text-slate-700 shadow-sm">
                 Garansi unit mengikuti ketentuan brand
@@ -246,7 +246,7 @@ export default async function BrandDetailPage({ params }) {
                 </div>
 
                 <div className="mt-6 rounded-2xl border border-amber-200 bg-amber-50 px-4 py-4 text-sm leading-7 text-amber-900">
-                  Status, tipe unit, harga, promo, ketersediaan stok, dan ketentuan garansi tetap dikonfirmasi
+                  Admin cek status, tipe unit, harga, promo, ketersediaan stok, dan ketentuan garansi
                   admin mengikuti kondisi terbaru.
                 </div>
 
@@ -329,7 +329,7 @@ export default async function BrandDetailPage({ params }) {
             </div>
 
             <p className="mt-4 text-xs leading-6 text-slate-500">
-              Estimasi bukan harga final. Admin tetap cek stok, tipe, harga, pengiriman, dan kebutuhan pemasangan terbaru.
+              Estimasi jadi patokan awal. Admin cek stok, tipe, harga, pengiriman, dan kebutuhan pemasangan terbaru.
             </p>
           </div>
         </div>
