@@ -65,13 +65,13 @@ export default function PengadaanAcPage() {
             </div>
 
             <h1 className="max-w-4xl text-4xl font-black tracking-tight text-blue-950 sm:text-5xl lg:text-6xl">
-              Butuh AC Banyak Unit untuk Hotel, Kost, Kantor, atau Proyek?
+              Pengadaan AC banyak unit untuk hotel, kost, kantor, ruko, dan proyek
             </h1>
 
             <p className="mt-6 max-w-2xl text-lg leading-8 text-slate-600">
-              RADJA AC cek kebutuhan PK, pilihan brand, ketersediaan unit,
-              pengiriman, dan kebutuhan pemasangan berdasarkan lokasi, jumlah ruangan,
-              daya listrik, serta timeline proyek.
+              RADJA AC membantu membaca brief pengadaan dari jumlah ruang, fungsi bangunan,
+              kapasitas PK, daya listrik, lokasi pengiriman, dan target timeline sebelum admin
+              memberi arahan unit, stok, dan opsi pemasangan.
             </p>
 
             <div className="mt-9 flex flex-col gap-3 sm:flex-row">
@@ -94,9 +94,9 @@ export default function PengadaanAcPage() {
 
             <div className="mt-10 grid gap-3 sm:grid-cols-3">
               {[
-                ["Cek PK awal", "Bantu baca kebutuhan dari ukuran dan fungsi ruangan."],
-                ["Multi-brand", "Pilihan brand dibaca dari kebutuhan proyek."],
-                ["Brief jelas", "Pesan WA berisi data proyek, bukan chat kosong."],
+                ["Brief dulu", "Lokasi, jumlah ruang, dan timeline dibaca sebelum rekomendasi."],
+                ["PK & tipe unit", "Kapasitas dipilih dari fungsi ruang, daya listrik, dan kondisi bangunan."],
+                ["Stok dikonfirmasi", "Brand dan tipe unit tetap dicek ulang dari kebutuhan proyek."],
               ].map(([title, desc]) => (
                 <div
                   key={title}
@@ -115,35 +115,35 @@ export default function PengadaanAcPage() {
                 <div className="mb-6 flex items-start justify-between gap-4">
                   <div>
                     <p className="text-sm font-black uppercase tracking-[0.2em] text-blue-900">
-                      Digital Showroom
+                      Brief Proyek
                     </p>
                     <h2 className="mt-2 text-2xl font-black text-blue-950">
-                      Brief Pengadaan
+                      Data yang dibaca sebelum opsi unit disusun
                     </h2>
                   </div>
                   <span className="rounded-full bg-red-50 px-4 py-2 text-xs font-black text-red-600">
-                    B2B
+                    Banyak Unit
                   </span>
                 </div>
 
                 <div className="rounded-[1.5rem] border border-blue-100 bg-white p-5 shadow-inner">
-                  <div className="h-20 rounded-2xl bg-slate-50 shadow-inner">
-                    <div className="mx-auto h-2 w-28 rounded-b-full bg-blue-100" />
-                    <div className="mx-auto mt-7 h-2 w-44 rounded-full bg-blue-200" />
-                  </div>
-
-                  <div className="mt-5 grid grid-cols-3 gap-3 text-center">
-                    <div className="rounded-2xl bg-blue-50 p-3">
-                      <p className="text-xs font-semibold text-slate-500">Unit</p>
-                      <p className="mt-1 font-black text-blue-950">Multi</p>
+                  <p className="text-sm font-black uppercase tracking-[0.18em] text-slate-400">
+                    Contoh brief awal
+                  </p>
+                  <div className="mt-4 grid gap-3">
+                    <div className="rounded-2xl bg-blue-50 p-4">
+                      <p className="text-xs font-semibold text-slate-500">Bangunan</p>
+                      <p className="mt-1 font-black text-blue-950">Hotel / kantor / ruko / cafe / proyek</p>
                     </div>
-                    <div className="rounded-2xl bg-blue-50 p-3">
-                      <p className="text-xs font-semibold text-slate-500">Tipe</p>
-                      <p className="mt-1 font-black text-blue-950">PK</p>
-                    </div>
-                    <div className="rounded-2xl bg-red-50 p-3">
-                      <p className="text-xs font-semibold text-slate-500">CTA</p>
-                      <p className="mt-1 font-black text-red-600">WA</p>
+                    <div className="grid gap-3 sm:grid-cols-2">
+                      <div className="rounded-2xl bg-slate-50 p-4">
+                        <p className="text-xs font-semibold text-slate-500">Jumlah</p>
+                        <p className="mt-1 font-black text-blue-950">Unit & ruangan</p>
+                      </div>
+                      <div className="rounded-2xl bg-red-50 p-4">
+                        <p className="text-xs font-semibold text-slate-500">Target</p>
+                        <p className="mt-1 font-black text-red-600">Kirim / pasang</p>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -163,16 +163,12 @@ export default function PengadaanAcPage() {
                 </div>
 
                 <div className="mt-6 rounded-2xl bg-blue-950 p-5 text-white">
-                  <p className="text-sm font-semibold text-blue-100">Pesan otomatis</p>
-                  <p className="mt-1 text-lg font-black">Lokasi • unit • ruangan • daya • timeline</p>
+                  <p className="text-sm font-semibold text-blue-100">Format pesan yang membantu</p>
+                  <p className="mt-1 text-lg font-black">Lokasi • jumlah unit • fungsi ruang • daya • timeline</p>
                 </div>
               </div>
             </div>
 
-            <div className="absolute -bottom-6 right-6 rounded-3xl border border-blue-100 bg-white px-5 py-4 shadow-xl">
-              <p className="text-sm font-black text-blue-950">White / Blue / Red</p>
-              <p className="mt-1 text-xs text-slate-500">Clean premium palette</p>
-            </div>
           </div>
         </div>
       </section>
@@ -186,7 +182,7 @@ export default function PengadaanAcPage() {
                   Brand yang bisa dikonsultasikan
                 </p>
                 <p className="mt-1 text-sm text-slate-500">
-                  Ketersediaan tipe dan unit tetap dicek berdasarkan kebutuhan dan area.
+                  Brand, tipe, dan kapasitas tetap dicek dari brief proyek, stok aktif, dan area pengiriman.
                 </p>
               </div>
 
@@ -213,12 +209,12 @@ export default function PengadaanAcPage() {
                 Kebutuhan proyek
               </p>
               <h2 className="mt-3 text-3xl font-black tracking-tight text-blue-950 sm:text-5xl">
-                Terlihat seperti showroom, tetap fokus ke WhatsApp lead.
+                Pilih segmen pengadaan supaya kebutuhan lebih cepat dipahami.
               </h2>
             </div>
             <p className="text-lg leading-8 text-slate-600">
-              Untuk pembelian banyak unit, yang paling penting adalah data kebutuhan yang jelas:
-              lokasi, jumlah unit, ukuran ruangan, daya listrik, dan timeline.
+              Setiap segmen punya cara hitung berbeda. Kantor, ruko, cafe, hotel, kost, dan proyek perlu dibaca dari fungsi ruang,
+              jumlah titik, daya listrik, akses pemasangan, serta target waktu pengiriman.
             </p>
           </div>
 
@@ -238,7 +234,7 @@ export default function PengadaanAcPage() {
                     href={item.href}
                     className="mt-6 inline-flex font-bold text-red-600 transition group-hover:translate-x-1"
                   >
-                    Lihat detail segmen →
+                    Buka halaman segmen →
                   </Link>
                 ) : (
                   <WhatsappLink
@@ -298,11 +294,11 @@ export default function PengadaanAcPage() {
                 Siap cek kebutuhan?
               </p>
               <h2 className="mt-3 text-3xl font-black tracking-tight text-white sm:text-5xl">
-                Kirim data pengadaan, admin menyusun opsi awal.
+                Kirim data pengadaan, lalu opsi awal disusun dari kebutuhan.
               </h2>
               <p className="mt-5 max-w-2xl text-lg leading-8 text-blue-100">
                 RADJA AC berbasis di Banyumas dan membantu kebutuhan AC multi-brand
-                untuk rumah usaha, kantor, toko, hotel, kost, dan proyek.
+                untuk kantor, ruko, cafe, hotel, kost, rumah usaha, dan proyek.
               </p>
             </div>
 
