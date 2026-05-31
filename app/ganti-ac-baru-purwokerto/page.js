@@ -70,7 +70,7 @@ export default function GantiAcBaruPurwokertoPage() {
           <h2 className="text-2xl font-black text-slate-950">Catatan penting</h2>
           <p className="mt-4 max-w-3xl text-sm leading-6 text-slate-600">
             RADJA AC berfokus membantu pembelian AC baru. Untuk perbaikan, cuci AC, atau bongkar-pasang
-            service murni, admin akan mengarahkan pembicaraan berdasarkan kebutuhan dan ketersediaan informasi.
+            service murni, admin akan cek kebutuhan dan ketersediaan informasi sebelum membahas pilihan unit baru.
             Jika tujuan Anda adalah mengganti unit lama dengan unit baru, kirim data ruangan agar pilihan
             AC bisa dicek lebih rapi.
           </p>
@@ -119,11 +119,11 @@ export default function GantiAcBaruPurwokertoPage() {
         </section>
 
         <section className="mt-12 rounded-[1.45rem] border border-[#25D366]/20 bg-[#25D366]/10 p-6 text-slate-950">
-          <h2 className="text-2xl font-black">Mau diarahkan pilihan unit baru?</h2>
+          <h2 className="text-2xl font-black">Mau cek pilihan unit baru?</h2>
           <p className="mt-4 max-w-3xl text-sm leading-6 text-slate-600">
             Kirim kondisi singkat AC lama, ukuran ruangan, daya listrik, lokasi, budget, dan kebutuhan
             unit saja atau sekalian opsi pemasangan. Admin RADJA AC cocokkan pilihan AC baru yang
-            masuk akal sebelum Anda deal.
+            masuk akal sebelum pembelian.
           </p>
           <div className="mt-6">
             <WhatsappLink

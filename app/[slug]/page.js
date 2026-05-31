@@ -113,7 +113,7 @@ export default async function AreaPage({ params }) {
 
   const processSteps = [
     ["Kirim info awal", `Sebutkan area ${item.areaName}, ukuran ruangan, daya listrik, jumlah unit, budget, dan brand yang diminati.`],
-    ["Admin cek & rekomendasikan", "Stok dicek, PK diarahkan, pilihan brand dibandingkan, dan estimasi dijelaskan."],
+    ["Admin cek & rekomendasikan", "Stok dicek, PK dicocokkan, pilihan brand dibandingkan, dan estimasi dijelaskan."],
     ["Foto lokasi bila perlu", "Foto titik indoor dan outdoor membantu memperkirakan jalur pipa dan posisi outdoor."],
     ["Jadwal dikunci setelah cocok", "Setelah stok, estimasi, alamat, dan kebutuhan jelas, pengiriman atau opsi pemasangan dikoordinasikan."],
   ];

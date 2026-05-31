@@ -12,7 +12,7 @@ export const brandItems = [
     h1: "AC Gree original melalui Proshop Gree RADJA AC",
     eyebrow: "Brand AC",
     intro:
-      "Gree menjadi salah satu brand utama di RADJA AC. Admin mengarahkan kebutuhan PK, pilihan standard, low watt, atau inverter, stok unit, area pengiriman, dan opsi pemasangan sebelum Anda deal.",
+      "Gree menjadi salah satu brand utama di RADJA AC. Admin cek kebutuhan PK, pilihan standard, low watt, atau inverter, stok unit, area pengiriman, dan opsi pemasangan sebelum pembelian.",
     trustNote:
       "RADJA AC memiliki dukungan Proshop Gree. Stok, tipe, dan ketentuan garansi unit tetap dikonfirmasi oleh admin berdasarkan kondisi terbaru.",
     certificateHolder: "RADJA AC / Proshop Gree",
@@ -33,7 +33,7 @@ export const brandItems = [
     h1: "AC Daikin original untuk rumah, usaha, kantor, dan proyek",
     eyebrow: "Brand AC",
     intro:
-      "Daikin banyak dipilih untuk kebutuhan rumah, kantor, usaha, dan proyek. Admin RADJA AC mengarahkan tipe yang sesuai berdasarkan ukuran ruangan, daya listrik, budget, stok unit, dan opsi pemasangan.",
+      "Daikin banyak dipilih untuk kebutuhan rumah, kantor, usaha, dan proyek. Admin RADJA AC cocokkan tipe berdasarkan ukuran ruangan, daya listrik, budget, stok unit, dan opsi pemasangan.",
     trustNote:
       "Dokumen brand Daikin tercatat atas nama RADJA AC. Garansi unit mengikuti ketentuan resmi brand yang tertera pada kemasan, kartu garansi, atau dokumen garansi unit.",
     certificateHolder: "RADJA AC",
@@ -54,7 +54,7 @@ export const brandItems = [
     h1: "AC Midea original untuk rumah, kost, usaha, kantor, hotel, dan proyek",
     eyebrow: "Brand AC",
     intro:
-      "Midea menjadi pilihan untuk pembeli yang mencari AC original dengan pilihan tipe rumah, kost, usaha, kantor, hotel, dan proyek. Admin mengarahkan kebutuhan PK, daya listrik, stok, dan opsi pemasangan.",
+      "Midea menjadi pilihan untuk pembeli yang mencari AC original dengan pilihan tipe rumah, kost, usaha, kantor, hotel, dan proyek. Admin cek kebutuhan PK, daya listrik, stok, dan opsi pemasangan.",
     trustNote:
       "Dokumen brand Midea tercatat atas nama CV. Prima Sedaya, yang merupakan bagian dari operasional RADJA AC.",
     certificateHolder: "CV. Prima Sedaya",
@@ -203,7 +203,7 @@ export const brandItems = [
     h1: "Brand AC lainnya yang bisa dicek melalui RADJA AC",
     eyebrow: "Brand AC",
     intro:
-      "Selain Gree, Daikin, Midea, dan Hisense, RADJA AC juga dapat mengarahkan pilihan brand lain berdasarkan stok aktif, kebutuhan ruangan, budget, dan area pengiriman.",
+      "Selain Gree, Daikin, Midea, dan Hisense, RADJA AC juga cek pilihan brand lain berdasarkan stok aktif, kebutuhan ruangan, budget, dan area pengiriman.",
     trustNote:
       "Untuk brand lain, stok, tipe, harga, garansi unit, dan opsi pemasangan dikonfirmasi oleh admin sebelum pembelian.",
     certificateHolder: "",

@@ -175,7 +175,7 @@ export const articleItems = [
         heading: "Cek kapasitas PK sebelum menambah biaya",
         body: [
           "AC sering terasa kurang dingin saat kapasitas PK tidak sesuai luas dan kondisi ruangan. Jika unit terlalu kecil untuk ruangan besar, mesin bekerja berat, ruangan lambat dingin, dan konsumsi listrik terasa kurang efisien.",
-          "Sebelum menambah biaya ke unit lama, cek ukuran ruangan, jumlah orang, sumber panas, arah matahari, dan daya listrik rumah. Dari data ini, pilihan AC standard, low watt, atau inverter bisa diarahkan lebih tepat.",
+          "Sebelum menambah biaya ke unit lama, cek ukuran ruangan, jumlah orang, sumber panas, arah matahari, dan daya listrik rumah. Dari data ini, pilihan AC standard, low watt, atau inverter bisa dicocokkan lebih tepat.",
         ],
       },
       {
