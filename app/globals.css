@@ -1,8 +1,49 @@
 @import "tailwindcss";
 
+/* ------------------------------------------------------------------ */
+/* RADJA AC — Design System                                            */
+/* Premium Local HVAC Showroom + B2B Procurement Trust                 */
+/* Palette: Navy / Soft Blue / White / Red accent                      */
+/* ------------------------------------------------------------------ */
+
 :root {
-  --background: #020617;
-  --foreground: #f8fafc;
+  /* Surfaces */
+  --background: #f6f9fc;     /* off-white page background */
+  --surface: #ffffff;        /* card / panel surface */
+  --surface-soft: #eef4fb;   /* soft blue support surface */
+
+  /* Brand */
+  --navy: #0e2a47;           /* deep navy — trust, headings, B2B */
+  --navy-soft: #1f4f78;      /* secondary navy */
+  --blue: #4984b8;           /* brand soft blue */
+  --blue-tint: #e7f0f9;      /* light blue tint */
+  --red: #d62828;            /* brand accent + primary CTA */
+  --red-dark: #b91f1f;
+  --whatsapp: #25d366;
+  --whatsapp-dark: #1eb155;
+
+  /* Text */
+  --foreground: #0e2a47;
+  --muted: #5b6b7c;
+
+  --radius: 1.75rem;
+}
+
+@theme inline {
+  --font-sans: "Plus Jakarta Sans", "Plus Jakarta Sans Fallback", ui-sans-serif,
+    system-ui, sans-serif;
+
+  --color-background: var(--background);
+  --color-surface: var(--surface);
+  --color-surface-soft: var(--surface-soft);
+  --color-navy: var(--navy);
+  --color-navy-soft: var(--navy-soft);
+  --color-brand-blue: var(--blue);
+  --color-brand-blue-tint: var(--blue-tint);
+  --color-brand-red: var(--red);
+  --color-brand-red-dark: var(--red-dark);
+  --color-whatsapp: var(--whatsapp);
+  --color-whatsapp-dark: var(--whatsapp-dark);
 }
 
 * {
@@ -11,14 +52,16 @@
 
 html {
   scroll-behavior: smooth;
-  background: #020617;
+  background: var(--background);
 }
 
 body {
   margin: 0;
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
 }
 
 a {

@@ -42,7 +42,7 @@ const trustHighlights = [
 
 export default function Footer() {
   return (
-    <footer className="border-t border-white/10 bg-[linear-gradient(180deg,#3f75a4_0%,#2f6f9e_48%,#1f4f78_100%)] text-white shadow-[inset_0_14px_34px_rgba(15,23,42,0.16)]">
+    <footer className="border-t border-white/10 bg-[linear-gradient(180deg,#1f4f78_0%,#15395a_50%,#0e2a47_100%)] text-white shadow-[inset_0_14px_34px_rgba(15,23,42,0.16)]">
       <div className="mx-auto grid max-w-7xl gap-8 px-4 py-12 lg:grid-cols-[1fr_1.9fr] lg:py-14">
         <div>
           <div className="inline-flex rounded-full border border-white/15 bg-white/10 px-3.5 py-1.5 text-[11px] font-black uppercase tracking-[0.18em] text-white shadow-sm">
