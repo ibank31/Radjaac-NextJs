@@ -72,7 +72,7 @@ export default function PengadaanAcPage() {
             </div>
 
             <h1 className="max-w-4xl text-4xl font-black tracking-tight text-blue-950 sm:text-5xl lg:text-6xl">
-              Pengadaan AC Banyak Unit dengan Tampilan Lebih Rapi dan Premium.
+              Butuh AC Banyak Unit untuk Hotel, Kost, Kantor, atau Proyek?
             </h1>
 
             <p className="mt-6 max-w-2xl text-lg leading-8 text-slate-600">
