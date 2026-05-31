@@ -1,3 +1,11 @@
+<!--
+CURRENT STATUS NOTE (2026-05-31):
+This document is retained as historical audit context.
+For current migration readiness, use:
+docs/audit/MIGRATION_READINESS_CURRENT.md
+Do not treat old BLOCKER/PENDING/Hold/FINAL-MISSING labels here as current status without re-audit.
+-->
+
 # Legacy Redirect Plan
 
 Status: working implementation plan
