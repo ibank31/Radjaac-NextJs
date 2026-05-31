@@ -7,7 +7,7 @@ export const catalogItems = [
     label: "AC 1/2 PK",
     title: "AC 1/2 PK | Konsultasi Kamar, Kost, Cek Stok & Pemasangan",
     description:
-      "Konsultasi AC 1/2 PK untuk kamar, kost, ruang kerja, dan kebutuhan rumah. RADJA AC bantu cek ukuran ruangan, daya listrik, stok unit, pengiriman, dan opsi pemasangan.",
+      "Konsultasi AC 1/2 PK untuk kamar, kost, ruang kerja, dan kebutuhan rumah. RADJA AC mengarahkan ukuran ruangan, daya listrik, stok unit, pengiriman, dan opsi pemasangan.",
     h1: "AC 1/2 PK untuk kamar, kost, dan ruang kerja",
     eyebrow: "Katalog Kapasitas",
     intro:
@@ -55,7 +55,7 @@ export const catalogItems = [
           "Aqua",
         ],
         value:
-          "Cocok untuk kamar, kost, kontrakan, dan ruang kecil dengan budget efisien. Tetap cek ukuran ruangan, daya listrik, stok, dan titik pemasangan sebelum deal.",
+          "Cocok untuk kamar, kost, kontrakan, dan ruang kecil dengan budget efisien. Cek ukuran ruangan, daya listrik, stok, dan titik pemasangan sebelum deal.",
       },
       {
         label: "4 jutaan",
@@ -83,10 +83,10 @@ export const catalogItems = [
       },
       {
         label: "Unit only",
-        title: "Window dan portable sesuai stok",
+        title: "Window dan portable berdasarkan stok aktif",
         brands: ["Reiwa Window", "Reiwa Portable 1 PK"],
         value:
-          "Untuk kebutuhan unit khusus tanpa paket pemasangan standar. Cocok jika pembeli memang mencari window AC atau portable AC sesuai stok terbaru.",
+          "Untuk kebutuhan unit khusus tanpa paket pemasangan standar. Cocok jika pembeli memang mencari window AC atau portable AC berdasarkan stok aktif.",
       },
     ],
     pricingNote:
@@ -186,7 +186,7 @@ export const catalogItems = [
     h1: "AC kantor dan komersial untuk toko, ruko, cafe, klinik, showroom, kantor, hotel, dan proyek",
     eyebrow: "Katalog Komersial",
     intro:
-      "Kebutuhan AC komersial biasanya tidak cukup hanya melihat PK. Jenis ruangan, jumlah orang, bukaan pintu, jam operasional, plafon, dan jumlah unit perlu dipertimbangkan sejak awal.",
+      "Kebutuhan AC komersial biasanya perlu membaca PK, jenis ruangan, dan pola pemakaian. Jenis ruangan, jumlah orang, bukaan pintu, jam operasional, plafon, dan jumlah unit perlu dipertimbangkan sejak awal.",
     bestFor: [
       "Toko dan ruko",
       "Cafe dan restoran",

@@ -102,13 +102,13 @@ export default async function AreaPage({ params }) {
   const bulkCards = [
     ["Rumah & Kamar", `Cek AC untuk kamar tidur, ruang keluarga, dan rumah tinggal di ${item.areaName}.`],
     ["Toko, Ruko & Usaha", `Bantu pilih AC untuk ruang usaha, area pelanggan, dan kantor kecil di ${item.areaName}.`],
-    ["Kost & Banyak Unit", "Untuk banyak kamar, admin bantu cek daya listrik, pilihan unit, stok, dan jadwal bertahap."],
+    ["Kost & Banyak Unit", "Untuk banyak kamar, admin membaca daya listrik, pilihan unit, stok, dan jadwal bertahap."],
   ];
 
   const valueItems = [
-    ["Cek stok & budget dulu", "Admin bantu cek unit yang tersedia, opsi brand, dan estimasi awal sebelum Anda konfirmasi."],
+    ["Cek stok & budget dulu", "Admin mengarahkan unit yang tersedia, opsi brand, dan estimasi awal sebelum Anda konfirmasi."],
     ["Bantu pilih PK", "Ukuran ruangan, daya listrik, jumlah orang, panas matahari, dan jam pemakaian ikut dipertimbangkan."],
-    ["Pemasangan sesuai lokasi", "Panjang pipa, posisi outdoor, akses lokasi, dan tambahan material dibahas di awal."],
+    ["Pemasangan berdasarkan lokasi", "Panjang pipa, posisi outdoor, akses lokasi, dan tambahan material dibahas di awal."],
   ];
 
   const processSteps = [
@@ -122,13 +122,13 @@ export default async function AreaPage({ params }) {
     [
       `Apakah RADJA AC punya toko fisik di ${item.areaName}?`,
       isPurwokerto
-        ? "RADJA AC berbasis di Pamijen, Sokaraja, Banyumas dan melayani area Purwokerto. Chat dulu agar admin bisa cek stok yang ready."
+        ? "RADJA AC berbasis di Pamijen, Sokaraja, Banyumas dan melayani area Purwokerto. Kirim kebutuhan agar admin mengecek stok aktif."
         : `RADJA AC berbasis di Banyumas. Untuk area ${item.areaName}, admin membantu konsultasi PK, cek stok, pengiriman unit, dan opsi pemasangan sesuai konfirmasi.`,
     ],
     [`Berapa estimasi budget AC untuk area ${item.areaName}?`, "Estimasi awal mulai dari 3 jutaan untuk unit + pemasangan standar tertentu. Finalnya bergantung brand, PK, stok, alamat, dan kondisi pemasangan."],
     ["Saya belum tahu butuh berapa PK, bisa dibantu?", "Bisa. Kirim ukuran ruangan, daya listrik, jumlah orang, dan pola pemakaian. Admin bantu arahkan PK yang masuk akal."],
-    ["Bisa beli unit AC tanpa pemasangan?", "Bisa dibahas dengan admin. Kebutuhan unit saja, pengiriman, atau opsi pemasangan akan dikonfirmasi sesuai stok dan alamat."],
-    ["Brand apa saja yang bisa dicek?", "Admin dapat membantu cek Gree, Daikin, Midea, Hisense, Sharp, Panasonic, Samsung, Aqua, TCL, dan brand lain sesuai stok terbaru."],
+    ["Bisa beli unit AC tanpa pemasangan?", "Bisa dibahas dengan admin. Kebutuhan unit saja, pengiriman, atau opsi pemasangan akan dikonfirmasi berdasarkan stok aktif dan alamat."],
+    ["Brand apa saja yang bisa dicek?", "Admin dapat mengarahkan Gree, Daikin, Midea, Hisense, Sharp, Panasonic, Samsung, Aqua, TCL, dan brand lain berdasarkan stok aktif."],
     [`Bisa untuk kost, kantor, toko, atau proyek di ${item.areaName}?`, "Bisa. Untuk banyak unit, kirim jumlah ruangan, ukuran ruangan, daya listrik, target budget, timeline, dan lokasi."],
   ];
 
@@ -160,7 +160,7 @@ export default async function AreaPage({ params }) {
               </Link>
             </div>
             <p className="mb-5 max-w-2xl text-center text-sm leading-6 text-slate-500 lg:text-left">
-              Chat dulu tidak wajib langsung deal. Kirim ukuran ruangan, daya listrik, budget, lokasi, dan jumlah unit.
+              Mulai konsultasi dari data ruangan. Kirim ukuran ruangan, daya listrik, budget, lokasi, dan jumlah unit.
             </p>
             <div className="mb-5 flex flex-wrap justify-center gap-2 text-sm text-slate-600 lg:justify-start">
               {heroChips.map((chip) => <span key={chip} className="rounded-full border border-slate-200 bg-white px-3 py-1">{chip}</span>)}
@@ -216,7 +216,7 @@ export default async function AreaPage({ params }) {
       </section>
 
       <section className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8 lg:py-12">
-        <SectionTitle eyebrow="KEBUTUHAN BANYAK UNIT" title={`Butuh AC banyak unit di ${item.areaName}? Jangan cari stok satu-satu.`} description={`Untuk toko, kost, ruko, kantor, rumah banyak ruangan, atau proyek ringan di ${item.areaName}, RADJA AC bantu cek stok, pilihan brand, estimasi budget, pengiriman, dan opsi pemasangan.`} />
+        <SectionTitle eyebrow="KEBUTUHAN BANYAK UNIT" title={`Butuh AC banyak unit di ${item.areaName}? Jangan cari stok satu-satu.`} description={`Untuk toko, kost, ruko, kantor, rumah banyak ruangan, atau proyek ringan di ${item.areaName}, RADJA AC mengecek stok, menyusun pilihan brand, estimasi budget, pengiriman, dan opsi pemasangan.`} />
         <div className="grid gap-5 md:grid-cols-3">
           {bulkCards.map(([title, description]) => <div key={title} className="rounded-[1.45rem] border border-slate-200 bg-white p-6 text-center"><div className="mx-auto mb-5 flex h-12 w-12 items-center justify-center rounded-2xl bg-cyan-50 text-2xl text-cyan-700">✓</div><h2 className="mb-3 text-xl font-black text-slate-950">{title}</h2><p className="text-sm leading-7 text-slate-600">{description}</p></div>)}
         </div>
@@ -231,13 +231,13 @@ export default async function AreaPage({ params }) {
 
       <section className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8 lg:py-12">
         <div className="grid gap-8 lg:grid-cols-[0.9fr_1.1fr] lg:items-start">
-          <div><div className="mb-4 inline-flex rounded-full border border-cyan-100 bg-cyan-50 px-4 py-2 text-sm font-semibold text-cyan-700">ALUR BELI AC</div><h2 className="mb-5 text-3xl font-black tracking-tight sm:text-4xl lg:text-5xl">Cek kebutuhan dulu, baru kunci stok dan jadwal</h2><p className="mb-6 text-sm leading-7 text-slate-600 sm:text-base">Mulai dari area dan ukuran ruangan, admin bantu cek stok, arahkan PK, jelaskan estimasi, lalu jadwal dikunci setelah cocok.</p><WhatsappLink className="inline-flex items-center justify-center rounded-full bg-[#25D366] px-6 py-4 font-bold text-slate-950 transition hover:bg-[#20BA5A]" source={`${item.label} - Alur Beli`} intent={item.waIntent} area={item.waArea}>Cek Budget, Stok & Jadwal</WhatsappLink></div>
+          <div><div className="mb-4 inline-flex rounded-full border border-cyan-100 bg-cyan-50 px-4 py-2 text-sm font-semibold text-cyan-700">ALUR BELI AC</div><h2 className="mb-5 text-3xl font-black tracking-tight sm:text-4xl lg:text-5xl">Cek kebutuhan dulu, baru kunci stok dan jadwal</h2><p className="mb-6 text-sm leading-7 text-slate-600 sm:text-base">Mulai dari area dan ukuran ruangan, admin mengecek stok, mengarahkan PK, jelaskan estimasi, lalu jadwal dikunci setelah cocok.</p><WhatsappLink className="inline-flex items-center justify-center rounded-full bg-[#25D366] px-6 py-4 font-bold text-slate-950 transition hover:bg-[#20BA5A]" source={`${item.label} - Alur Beli`} intent={item.waIntent} area={item.waArea}>Cek Budget, Stok & Jadwal</WhatsappLink></div>
           <div className="grid gap-4">{processSteps.map(([title, description], index) => <div key={title} className="rounded-[1.45rem] border border-slate-200 bg-white p-5"><div className="mb-3 flex items-center gap-3"><span className="flex h-9 w-9 items-center justify-center rounded-full bg-cyan-300 text-sm font-black text-slate-950">{index + 1}</span><h3 className="text-lg font-black text-slate-950">{title}</h3></div><p className="text-sm leading-7 text-slate-600">{description}</p></div>)}</div>
         </div>
       </section>
 
       <section className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8 lg:py-12">
-        <SectionTitle eyebrow="PILIHAN AC" title="Mulai dari brand atau kebutuhan" description="Jika belum yakin memilih merek, mulai dari ukuran ruangan, daya listrik, budget, dan jam pemakaian." />
+        <SectionTitle eyebrow="PILIHAN AC" title="Mulai dari brand atau kebutuhan" description="Saat memilih merek, mulai dari ukuran ruangan, daya listrik, budget, dan jam pemakaian." />
         <div className="mb-5 grid grid-cols-2 gap-4 lg:grid-cols-3">{brandLinks.map(([title, href]) => <Link key={href} href={href} className="group rounded-[22px] border border-slate-200 bg-white p-4 transition hover:-translate-y-1 hover:border-cyan-200"><h3 className="mb-2 text-lg font-black text-slate-950">{title}</h3><span className="inline-flex items-center gap-2 text-xs font-bold text-cyan-700 sm:text-sm">Lihat pilihan →</span></Link>)}</div>
         <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-4">{categoryLinks.map(([title, href, description]) => <Link key={href} href={href} className="rounded-[1.35rem] border border-slate-200 bg-white p-5 text-center transition hover:-translate-y-1 hover:border-cyan-200"><h3 className="mb-3 text-base font-black text-slate-950 sm:text-lg">{title}</h3><p className="text-xs leading-6 text-slate-500">{description}</p></Link>)}</div>
       </section>
@@ -253,7 +253,7 @@ export default async function AreaPage({ params }) {
       </section>
 
       <section className="mx-auto max-w-7xl px-4 pb-16 pt-8 sm:px-6 lg:px-8 lg:pb-20 lg:pt-10">
-        <div className="rounded-[1.7rem] border border-[#25D366]/20 bg-[#25D366]/10 p-6 text-center sm:p-10"><h2 className="mx-auto mb-5 max-w-3xl text-3xl font-black tracking-tight sm:text-4xl">Mau cek AC untuk area {item.areaName}? Mulai dari sini.</h2><p className="mx-auto mb-7 max-w-2xl text-sm leading-7 text-slate-600">Sebutkan area/kecamatan, ukuran ruangan, daya listrik, jumlah unit, dan budget awal. Admin bantu cek stok dan estimasi sebelum deal.</p><WhatsappLink className="inline-flex items-center justify-center rounded-full bg-[#25D366] px-6 py-4 font-bold text-slate-950 shadow-[0_18px_50px_rgba(37,211,102,0.2)] transition hover:-translate-y-0.5 hover:bg-[#20BA5A]" source={`${item.label} - Final CTA`} intent={item.waIntent} area={item.waArea}>Cek Stok & Budget Sekarang</WhatsappLink></div>
+        <div className="rounded-[1.7rem] border border-[#25D366]/20 bg-[#25D366]/10 p-6 text-center sm:p-10"><h2 className="mx-auto mb-5 max-w-3xl text-3xl font-black tracking-tight sm:text-4xl">Mau cek AC untuk area {item.areaName}? Mulai dari sini.</h2><p className="mx-auto mb-7 max-w-2xl text-sm leading-7 text-slate-600">Sebutkan area/kecamatan, ukuran ruangan, daya listrik, jumlah unit, dan budget awal. Admin mengecek stok dan estimasi sebelum deal.</p><WhatsappLink className="inline-flex items-center justify-center rounded-full bg-[#25D366] px-6 py-4 font-bold text-slate-950 shadow-[0_18px_50px_rgba(37,211,102,0.2)] transition hover:-translate-y-0.5 hover:bg-[#20BA5A]" source={`${item.label} - Final CTA`} intent={item.waIntent} area={item.waArea}>Cek Stok & Budget Sekarang</WhatsappLink></div>
       </section>
     </main>
   );

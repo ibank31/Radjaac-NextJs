@@ -38,8 +38,8 @@ const roomTypes = ["Kamar tidur", "Ruang keluarga", "Ruang kerja", "Toko kecil",
 const quickTips = [
   "Jangan asal ambil 1/2 PK karena paling murah. Kalau ruangan terlalu besar, AC bekerja keras terus dan tetap susah dingin.",
   "Plafon tinggi, kaca besar, atau dinding kena matahari langsung bisa membuat kebutuhan BTU naik.",
-  "Kalau AC sering menyala lama setiap hari, inverter bisa dipertimbangkan, bukan hanya melihat harga unit awal.",
-  "Daya listrik rumah dan MCB tetap perlu dicek sebelum deal agar pilihan PK tidak mengganggu pemakaian listrik lain.",
+  "Kalau AC sering menyala lama setiap hari, inverter menjadi pilihan, bukan hanya melihat harga unit awal.",
+  "Daya listrik rumah dan MCB tetap perlu dicek sebelum deal agar pilihan PK selaras dengan pemakaian listrik lain.",
 ];
 
 function formatNumber(value, maximumFractionDigits = 1) {

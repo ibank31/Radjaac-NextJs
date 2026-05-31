@@ -21,7 +21,7 @@ export const businessPolicies = {
     summary:
       "Jika ada kendala pada unit, konsumen dapat menghubungi RADJA AC untuk dibantu proses klaim ke brand terkait sesuai ketentuan garansi brand.",
     publicCopy:
-      "Jika ada kendala pada unit, RADJA AC dapat membantu mengarahkan proses klaim ke brand terkait sesuai ketentuan garansi brand.",
+      "Jika ada kendala pada unit, RADJA AC mengarahkan mengarahkan proses klaim ke brand terkait sesuai ketentuan garansi brand.",
   },
 
   legalEntity: {

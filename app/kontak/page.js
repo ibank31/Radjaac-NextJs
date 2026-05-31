@@ -60,7 +60,7 @@ export default function KontakPage() {
             </h1>
 
             <p className="mt-6 max-w-3xl text-base leading-8 text-slate-600 sm:text-lg">
-              RADJA AC berbasis di {siteConfig.businessBase}. Admin bantu cek kebutuhan AC untuk rumah, kost, toko, kantor, hotel, sampai pengadaan banyak unit sebelum Anda deal.
+              RADJA AC berbasis di {siteConfig.businessBase}. Admin mengarahkan kebutuhan AC untuk rumah, kost, toko, kantor, hotel, sampai pengadaan banyak unit sebelum Anda deal.
             </p>
 
             <div className="mt-8 flex flex-col gap-3 sm:flex-row sm:flex-wrap">
@@ -107,7 +107,7 @@ export default function KontakPage() {
             </p>
 
             <p className="mt-4 text-sm leading-7 text-slate-600">
-              Supaya admin bisa menjawab lebih tepat, kirim detail kebutuhan sejak pesan pertama.
+              Supaya admin menjawab lebih tepat, kirim detail kebutuhan sejak pesan pertama.
             </p>
 
             <div className="mt-6 rounded-[1.45rem] border border-cyan-100 bg-cyan-50 p-5">
@@ -194,7 +194,7 @@ export default function KontakPage() {
             Siap cek stok dan rekomendasi AC?
           </h2>
           <p className="mx-auto mb-7 max-w-2xl text-sm leading-7 text-slate-700">
-            Kirim ukuran ruangan, daya listrik, lokasi, jumlah unit, budget, dan brand yang diminati. Admin RADJA AC bantu cek opsi yang masuk akal sebelum deal.
+            Kirim ukuran ruangan, daya listrik, lokasi, jumlah unit, budget, dan brand yang diminati. Admin RADJA AC menyusun opsi yang masuk akal sebelum deal.
           </p>
           <WhatsappLink
             className="inline-flex items-center justify-center rounded-full bg-[#25D366] px-6 py-4 font-black text-slate-950 shadow-[0_14px_34px_rgba(37,211,102,0.20)] transition hover:-translate-y-0.5 hover:bg-[#20BA5A]"

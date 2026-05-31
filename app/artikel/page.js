@@ -141,7 +141,7 @@ export default function ArtikelPage() {
       <section className="mx-auto max-w-7xl px-4 pb-16 pt-8 sm:px-6 lg:px-8 lg:pb-20">
         <div className="rounded-[1.7rem] border border-[#25D366]/20 bg-[#25D366]/10 p-6 text-center sm:p-10">
           <h2 className="mx-auto mb-5 max-w-3xl text-3xl font-black tracking-tight sm:text-4xl">
-            Sudah baca tapi masih ragu pilih AC?
+            Sudah baca? Lanjutkan dengan data ruangan
           </h2>
           <p className="mx-auto mb-7 max-w-2xl text-sm leading-7 text-slate-600">
             Kirim ukuran ruangan, daya listrik, kota, budget, dan brand yang diminati. Admin RADJA AC bantu arahkan pilihan sebelum Anda deal.

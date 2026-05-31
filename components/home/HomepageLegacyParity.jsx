@@ -82,7 +82,7 @@ const salesPoints = [
   {
     title: "Stok kosong setelah transfer itu nyata",
     description:
-      "Banyak yang sudah transfer, ternyata unit tidak ada. Di sini stok dicek dulu, baru konfirmasi — bukan katalog online yang belum tentu ready.",
+      "Banyak yang sudah transfer, ternyata unit tidak ada. Di sini stok dicek dulu, baru konfirmasi — bukan katalog online yang stoknya kosong.",
     icon: "✓",
   },
   {
@@ -217,14 +217,14 @@ function HomeHero() {
           </div>
 
           <h1 className="max-w-3xl text-4xl font-black tracking-[-0.04em] text-slate-950 sm:text-5xl lg:text-6xl">
-            Beli AC jangan cuma lihat harga unit.
+            Beli AC dimulai dari kebutuhan ruangan, stok, dan biaya pemasangan.
             <span className="block text-cyan-700">
               PK, stok, dan biaya pasang harus jelas dulu.
             </span>
           </h1>
 
           <p className="mt-5 max-w-2xl text-base leading-8 text-slate-600 sm:text-lg">
-            RADJA AC membantu pembelian AC original multi-brand untuk rumah, usaha, properti, dan proyek. Admin bantu cek PK, stok, pengiriman, dan opsi pemasangan sebelum Anda deal.
+            RADJA AC membantu pembelian AC original multi-brand untuk rumah, usaha, properti, dan proyek. Admin mengarahkan PK, stok, pengiriman, dan opsi pemasangan sebelum Anda deal.
           </p>
 
           <div className="mt-7 flex flex-col gap-3 sm:flex-row sm:flex-wrap">
@@ -252,7 +252,7 @@ function HomeHero() {
           </div>
 
           <p className="mt-5 max-w-2xl text-sm leading-7 text-slate-500">
-            Kirim ukuran ruangan, daya listrik, alamat/kota tujuan, dan jumlah unit. Admin bantu cek kebutuhan dari awal.
+            Kirim ukuran ruangan, daya listrik, alamat/kota tujuan, dan jumlah unit. Admin mengarahkan kebutuhan dari awal.
           </p>
         </div>
 
@@ -303,7 +303,7 @@ function HomeTrust() {
               Selain konsultasi brand lain, RADJA AC juga dikenal melalui aktivitas showroom, stok fisik,
               pengiriman, dan pemasangan. Untuk Gree, RADJA AC tercantum sebagai Proshop resmi Gree
               Indonesia. Untuk stok, harga, tipe unit, dan jadwal pemasangan, tetap konfirmasi admin dulu
-              agar informasi yang diterima sesuai kondisi terbaru.
+              agar informasi yang diterima berdasarkan kondisi terbaru.
             </p>
 
             <ArrowLink
@@ -578,7 +578,7 @@ function HomeBrands() {
       <p className="mb-7 max-w-3xl text-sm leading-7 text-slate-600 sm:text-base">
         Gree punya value kuat dan RADJA AC tercantum sebagai Proshop Gree resmi. Daikin cocok untuk
         ketenangan jangka panjang, Midea populer karena harga masuk, Hisense modern, Sansui untuk kebutuhan
-        ekonomis, dan brand lain bisa dicek sesuai stok. Belum yakin pilih yang mana? Chat dulu — admin
+        ekonomis, dan brand lain bisa dicek berdasarkan stok aktif. Belum yakin pilih yang mana? Chat dulu — admin
         bantu arahkan sesuai ruangan dan listrik.
       </p>
 
@@ -619,11 +619,11 @@ function HomeBrands() {
               Brand Lainnya
             </p>
             <h3 className="text-xl font-black text-slate-950">
-              Brand lain bisa dicek sesuai stok dan kebutuhan
+              Brand lain bisa dicek berdasarkan stok aktif dan kebutuhan
             </h3>
           </div>
           <p className="text-sm text-slate-500 sm:text-right">
-            Mau cari brand tertentu? Chat dulu, nanti admin bantu cek.
+            Mau cari brand tertentu? Chat dulu, nanti admin mengarahkan.
           </p>
         </div>
 
@@ -698,7 +698,7 @@ function HomeClosingCta() {
               Kirim ukuran ruangan dan kebutuhan AC Anda.
             </h2>
             <p className="mt-4 max-w-2xl text-sm leading-7 text-slate-600 sm:text-base">
-              Admin RADJA AC bantu cek rekomendasi PK, opsi brand, estimasi budget, pengiriman, dan opsi pemasangan. Tidak perlu langsung deal — tanya dulu tidak apa-apa.
+              Admin RADJA AC mengarahkan rekomendasi PK, opsi brand, estimasi budget, pengiriman, dan opsi pemasangan. Tidak perlu langsung deal — mulai konsultasi dari data ruangan.
             </p>
           </div>
 

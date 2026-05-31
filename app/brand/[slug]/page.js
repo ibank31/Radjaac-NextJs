@@ -96,10 +96,10 @@ export default async function BrandDetailPage({ params }) {
     : ["Cek stok dulu", "Rekomendasi PK", "Pengiriman unit", "Opsi pemasangan"];
 
   const faqItems = [
-    [`Apakah RADJA AC menyediakan ${item.label} original?`, `RADJA AC membantu cek pilihan ${item.label} original sesuai stok terbaru. Tipe, harga, pengiriman, opsi pemasangan, dan garansi unit tetap dikonfirmasi admin sebelum pembelian.`],
+    [`Apakah RADJA AC menyediakan ${item.label} original?`, `RADJA AC mengarahkan pilihan ${item.label} original berdasarkan stok aktif. Tipe, harga, pengiriman, opsi pemasangan, dan garansi unit tetap dikonfirmasi admin sebelum pembelian.`],
     [`Berapa harga ${item.label} terbaru?`, "Harga mengikuti kapasitas PK, tipe unit, stok, promo, alamat pengiriman, dan kebutuhan pemasangan. Kirim kebutuhan lewat WhatsApp agar admin cek estimasi terbaru."],
-    [`${item.label} cocok untuk ruangan apa?`, "Kecocokan tergantung ukuran ruangan, tinggi plafon, paparan panas matahari, daya listrik, dan pola pemakaian."],
-    ["Bisa beli unit saja tanpa pemasangan?", "Bisa dibahas. Kebutuhan unit saja, pengiriman, atau opsi pemasangan akan dikonfirmasi sesuai stok, alamat, jumlah unit, dan jadwal."],
+    [`${item.label} cocok untuk ruangan apa?`, "Kecocokan ditentukan oleh ukuran ruangan, tinggi plafon, paparan panas matahari, daya listrik, dan pola pemakaian."],
+    ["Beli unit saja tanpa pemasangan", "Silakan dibahas dengan admin. Kebutuhan unit saja, pengiriman, atau opsi pemasangan akan dikonfirmasi berdasarkan stok aktif, alamat, jumlah unit, dan jadwal."],
     ["Apa saja data yang perlu dikirim ke admin?", "Kirim ukuran ruangan, daya listrik, jenis ruangan, jumlah unit, preferensi tipe, lokasi, dan foto titik indoor-outdoor bila ingin opsi pemasangan."],
   ];
 
@@ -225,7 +225,7 @@ export default async function BrandDetailPage({ params }) {
                 </h2>
 
                 <p className="mt-5 max-w-2xl text-sm leading-7 text-slate-600 sm:text-base">
-                  RADJA AC memiliki dukungan Proshop Gree. Untuk pembelian AC Gree, admin membantu cek pilihan
+                  RADJA AC memiliki dukungan Proshop Gree. Untuk pembelian AC Gree, admin mengarahkan pilihan
                   standard, low watt, inverter, kapasitas PK, stok unit, pengiriman, opsi pemasangan, dan alur
                   bantuan klaim sesuai ketentuan brand.
                 </p>
@@ -376,7 +376,7 @@ export default async function BrandDetailPage({ params }) {
 
       {item.otherBrands?.length ? (
         <section className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8 lg:py-14">
-          <SectionTitle eyebrow="Brand yang Bisa Dicek" title="Pilihan multi-brand sesuai stok terbaru" />
+          <SectionTitle eyebrow="Brand yang Bisa Dicek" title="Pilihan multi-brand berdasarkan stok aktif" />
           <div className="flex flex-wrap justify-center gap-3">
             {item.otherBrands.map((brand) => (
               <span key={brand} className="rounded-full border border-slate-200 bg-white px-4 py-2 text-sm font-bold text-slate-700 shadow-sm">
@@ -443,7 +443,7 @@ export default async function BrandDetailPage({ params }) {
             Mau cek stok {item.label} terbaru?
           </h2>
           <p className="mx-auto mb-7 max-w-2xl text-sm leading-7 text-slate-700">
-            Kirim ukuran ruangan, daya listrik, lokasi, budget, dan kebutuhan pemasangan. Admin bantu cek stok, tipe, estimasi, pengiriman, dan opsi pemasangan sebelum deal.
+            Kirim ukuran ruangan, daya listrik, lokasi, budget, dan kebutuhan pemasangan. Admin mengecek stok, tipe, estimasi, pengiriman, dan opsi pemasangan sebelum deal.
           </p>
           <WhatsappLink
             className="inline-flex items-center justify-center rounded-full bg-[#25D366] px-6 py-4 font-black text-slate-950 shadow-[0_18px_42px_rgba(37,211,102,0.20)] transition hover:-translate-y-0.5 hover:bg-[#20BA5A]"

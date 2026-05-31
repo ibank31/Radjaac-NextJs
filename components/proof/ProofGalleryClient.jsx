@@ -484,8 +484,8 @@ export default function ProofGalleryClient() {
             Mau cek stok hari ini?
           </h2>
           <p className="mx-auto mt-3 max-w-2xl text-sm leading-7 text-slate-600">
-            Kirim kebutuhan ruangan, jumlah unit, brand yang diminati, dan lokasi pengiriman. Admin bantu cek
-            stok, opsi unit, pengiriman, dan kebutuhan pemasangan sesuai kondisi.
+            Kirim kebutuhan ruangan, jumlah unit, brand yang diminati, dan lokasi pengiriman. Admin mengarahkan
+            stok, opsi unit, pengiriman, dan kebutuhan pemasangan berdasarkan kondisi.
           </p>
           <WhatsappLink
             className="mt-6 inline-flex w-full items-center justify-center rounded-full bg-[#25D366] px-6 py-4 text-sm font-black text-slate-950 shadow-[0_10px_24px_rgba(37,211,102,0.18)] transition hover:-translate-y-0.5 hover:bg-[#20BA5A] sm:w-auto"

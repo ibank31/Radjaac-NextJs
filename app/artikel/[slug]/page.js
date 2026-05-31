@@ -30,7 +30,7 @@ const moneyLinksBySlug = {
     ["AC Split Rumah", routes.katalogAcSplitRumah, "Panduan pilihan AC untuk kamar tidur, ruang keluarga, kos, dan rumah tinggal."],
   ],
   "panduan-instalasi-ac-baru": [
-    ["Pengiriman & Pemasangan", routes.pengirimanPemasangan, "Lihat informasi pemasangan AC baru yang rapi dan sesuai kondisi lokasi."],
+    ["Pengiriman & Pemasangan", routes.pengirimanPemasangan, "Lihat informasi pemasangan AC baru yang rapi dan berdasarkan kondisi lokasi."],
     ["AC 1/2 PK", routes.katalogAcSetengahPk, "Pahami harga unit vs paket pasang sebelum memilih AC kamar atau kos."],
   ],
   "ac-kurang-dingin-belum-tentu-freon-habis": [
@@ -183,10 +183,10 @@ export default async function ArticleDetailPage({ params }) {
             WA
           </div>
           <h2 className="mb-3 text-2xl font-black tracking-tight sm:text-3xl">
-            Masih bingung pilih AC?
+            Mulai pilih AC dari data ruangan
           </h2>
           <p className="mx-auto mb-6 max-w-2xl text-sm leading-7 text-slate-600">
-            Chat RADJA AC untuk cek stok, tanya rekomendasi PK, dan pilih tipe AC yang sesuai kebutuhan ruangan.
+            Chat RADJA AC untuk cek stok, tanya rekomendasi PK, dan pilih tipe AC berdasarkan kebutuhan ruangan.
           </p>
           <WhatsappLink
             className="inline-flex items-center justify-center rounded-full bg-[#25D366] px-6 py-4 font-bold text-slate-950 transition hover:bg-[#20BA5A]"

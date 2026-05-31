@@ -144,9 +144,9 @@ export default async function ProcurementDetailPage({ params }) {
           </section>
 
           <section className="mt-12 rounded-[1.7rem] border border-[#25D366]/20 bg-[#25D366]/10 p-6 shadow-[0_18px_50px_rgba(15,39,66,0.08)]">
-            <h2 className="text-2xl font-black text-slate-950">Belum yakin kebutuhan proyeknya?</h2>
+            <h2 className="text-2xl font-black text-slate-950">Siapkan brief proyek sebelum konsultasi</h2>
             <p className="mt-4 max-w-3xl text-sm leading-7 text-slate-700">
-              Kirim jumlah ruangan, ukuran ruangan, lokasi, estimasi jumlah unit, daya listrik, brand yang diminati, dan kebutuhan unit saja atau opsi pemasangan. Admin RADJA AC bantu cek pilihan yang paling masuk akal.
+              Kirim jumlah ruangan, ukuran ruangan, lokasi, estimasi jumlah unit, daya listrik, brand yang diminati, dan kebutuhan unit saja atau opsi pemasangan. Admin RADJA AC menyusun pilihan yang paling masuk akal.
             </p>
 
             <div className="mt-6 flex flex-wrap gap-3">

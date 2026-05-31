@@ -25,7 +25,7 @@ const projectTypes = [
   {
     label: "Proyek",
     title: "Bangunan & renovasi",
-    desc: "Kirim data ruangan, jumlah unit, lokasi, dan timeline untuk dibantu cek opsi awal.",
+    desc: "Kirim data ruangan, jumlah unit, lokasi, dan timeline untuk disusun opsi awalnya.",
   },
 ];
 
@@ -45,7 +45,7 @@ const capacityRows = [
 ];
 
 function getWhatsappHref(context) {
-  const message = `Halo RADJA AC, saya mau konsultasi pengadaan AC. Kebutuhan: ${context}. Lokasi: [isi kota]. Jumlah unit/ruangan: [isi jumlah]. Ukuran ruangan: [isi ukuran]. Daya listrik: [isi daya]. Timeline: [isi timeline]. Bisa bantu cek opsi unit?`;
+  const message = `Halo RADJA AC, saya mau konsultasi pengadaan AC. Kebutuhan: ${context}. Lokasi: [isi kota]. Jumlah unit/ruangan: [isi jumlah]. Ukuran ruangan: [isi ukuran]. Daya listrik: [isi daya]. Timeline: [isi timeline]. Tolong susunkan opsi unit yang sesuai.`;
   const number = process.env.NEXT_PUBLIC_WHATSAPP_NUMBER;
 
   if (!number) {
@@ -76,7 +76,7 @@ export default function PengadaanAcPage() {
             </h1>
 
             <p className="mt-6 max-w-2xl text-lg leading-8 text-slate-600">
-              RADJA AC bantu cek kebutuhan PK, opsi brand, ketersediaan unit,
+              RADJA AC mengarahkan kebutuhan PK, opsi brand, ketersediaan unit,
               pengiriman, dan kebutuhan pemasangan berdasarkan lokasi, jumlah ruangan,
               daya listrik, serta timeline proyek.
             </p>
@@ -104,7 +104,7 @@ export default function PengadaanAcPage() {
             <div className="mt-10 grid gap-3 sm:grid-cols-3">
               {[
                 ["Cek PK awal", "Bantu baca kebutuhan dari ukuran dan fungsi ruangan."],
-                ["Multi-brand", "Pilihan brand dikonsultasikan sesuai kebutuhan."],
+                ["Multi-brand", "Pilihan brand dikonsultasikan berdasarkan kebutuhan."],
                 ["Lead rapi", "Pesan WA berisi data proyek, bukan chat kosong."],
               ].map(([title, desc]) => (
                 <div
@@ -195,7 +195,7 @@ export default function PengadaanAcPage() {
                   Brand yang bisa dikonsultasikan
                 </p>
                 <p className="mt-1 text-sm text-slate-500">
-                  Ketersediaan tipe dan unit tetap dicek sesuai kebutuhan dan area.
+                  Ketersediaan tipe dan unit tetap dicek berdasarkan kebutuhan dan area.
                 </p>
               </div>
 
@@ -267,7 +267,7 @@ export default function PengadaanAcPage() {
                   Panduan kapasitas awal
                 </p>
                 <h2 className="mt-3 text-3xl font-black tracking-tight text-blue-950 sm:text-4xl">
-                  Bingung mulai dari 1/2 PK, 1 PK, atau tipe komersial?
+                  Pilih kapasitas dari ukuran dan fungsi ruangan.
                 </h2>
                 <p className="mt-4 text-lg leading-8 text-slate-600">
                   Tabel ini hanya panduan awal. Admin tetap perlu cek ukuran ruangan,
@@ -300,7 +300,7 @@ export default function PengadaanAcPage() {
                 Siap cek kebutuhan?
               </p>
               <h2 className="mt-3 text-3xl font-black tracking-tight text-white sm:text-5xl">
-                Kirim data pengadaan, admin bantu cek opsi awal.
+                Kirim data pengadaan, admin menyusun opsi awal.
               </h2>
               <p className="mt-5 max-w-2xl text-lg leading-8 text-blue-100">
                 RADJA AC berbasis di Banyumas dan membantu kebutuhan AC multi-brand

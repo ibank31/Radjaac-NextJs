@@ -10,9 +10,9 @@ export const metadata = buildMetadata(staticPageMetadata.tentangKami);
 
 const values = [
   "Fokus pada penjualan AC original multi-brand.",
-  "Admin membantu cek kebutuhan PK, daya listrik, pilihan brand, stok, pengiriman, dan opsi pemasangan.",
+  "Admin mengarahkan kebutuhan PK, daya listrik, pilihan brand, stok, pengiriman, dan opsi pemasangan.",
   "Informasi stok, harga, pengiriman, dan pemasangan dikonfirmasi sebelum pembelian.",
-  "Pembelian satuan hingga pengadaan ratusan unit bisa dibicarakan sesuai kebutuhan proyek, lokasi, jumlah unit, stok, dan jadwal.",
+  "Pembelian satuan hingga pengadaan ratusan unit dibahas berdasarkan kebutuhan proyek, lokasi, jumlah unit, stok, dan jadwal.",
 ];
 
 const mainLinks = [
@@ -38,7 +38,7 @@ export default function TentangKamiPage() {
         <p className="mt-6 max-w-3xl text-lg leading-8 text-slate-600">
           {siteConfig.name} berbasis di {siteConfig.businessBase}. Fokus utama kami adalah membantu pembeli
           memilih AC yang sesuai untuk rumah, kost, toko, kantor, hotel, dan proyek melalui konsultasi PK,
-          cek stok, pengiriman unit, opsi pemasangan fleksibel, pembelian satuan hingga pengadaan ratusan unit, garansi pemasangan 1 bulan, dan bantuan klaim unit sesuai ketentuan brand.
+          cek stok, pengiriman unit, kebutuhan pemasangan, pembelian satuan hingga pengadaan ratusan unit, garansi pemasangan 1 bulan, dan bantuan klaim unit sesuai ketentuan brand.
         </p>
 
         <div className="mt-8 flex flex-col gap-3 sm:flex-row">
@@ -75,7 +75,7 @@ export default function TentangKamiPage() {
               {legalEntityCopy}
             </p>
             <p className="mt-3 rounded-2xl border border-slate-200 bg-[#f7fbff]/45 p-4 text-sm leading-6 text-slate-600">
-              Dokumen brand tertentu dapat berbeda sesuai kerja sama dan ketentuan brand. Informasi detail tetap dikonfirmasi admin.
+              Dokumen brand tertentu mengikuti kerja sama dan ketentuan brand. Informasi detail tetap dikonfirmasi admin.
             </p>
           </section>
         </div>

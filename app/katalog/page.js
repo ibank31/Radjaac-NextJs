@@ -21,7 +21,7 @@ const heroCards = [
 ];
 
 const budgetPackages = [
-  ["Mulai 3 jutaan", "Opsi standard/value sesuai stok terbaru"],
+  ["Mulai 3 jutaan", "Opsi standard/value berdasarkan stok aktif"],
   ["3–4 jutaan", "Pilihan populer untuk rumah dan toko kecil"],
   ["Mulai 4 jutaan", "Inverter, kapasitas lebih besar, atau brand premium"],
 ];
@@ -101,7 +101,7 @@ export default function KatalogPage() {
             </div>
 
             <p className="mt-4 max-w-xl text-sm leading-6 text-slate-500">
-              Chat dulu tidak harus langsung beli. Kirim ukuran ruangan, daya listrik, lokasi, dan budget — admin bantu cek stok, kisaran harga, pengiriman, dan opsi pemasangan.
+              Mulai konsultasi dari data ruangan. Kirim ukuran ruangan, daya listrik, lokasi, dan budget — admin mengecek stok, kisaran harga, pengiriman, dan opsi pemasangan.
             </p>
           </div>
 
@@ -122,7 +122,7 @@ export default function KatalogPage() {
                 ))}
               </div>
               <div className="mt-4 rounded-2xl border border-cyan-100 bg-cyan-50 p-4">
-                <p className="text-sm font-black text-slate-950">Belum yakin mulai dari mana?</p>
+                <p className="text-sm font-black text-slate-950">Mulai dari data ruangan</p>
                 <p className="mt-1 text-xs leading-5 text-slate-600">Kirim ukuran ruangan, daya listrik, dan lokasi. Admin bantu arahkan kategori dan tipe yang paling masuk akal.</p>
               </div>
             </div>
@@ -206,7 +206,7 @@ export default function KatalogPage() {
         <div className="rounded-[1.7rem] border border-slate-200 bg-white p-6 text-center shadow-[0_18px_50px_rgba(15,39,66,0.08)] sm:p-8 lg:p-10">
           <h2 className="mx-auto mb-5 max-w-3xl text-3xl font-black tracking-[-0.03em] text-slate-950 sm:text-4xl">Brand tinggal disesuaikan dengan kebutuhan dan budget</h2>
           <p className="mx-auto mb-4 max-w-2xl text-sm leading-7 text-slate-600 sm:text-base">
-            RADJA AC membantu cek pilihan dari berbagai brand sesuai stok terbaru. Tidak perlu langsung putuskan brand; mulai dari kebutuhan ruangan dan budget.
+            RADJA AC mengarahkan pilihan dari berbagai brand berdasarkan stok aktif. mulai dari kebutuhan ruangan dan budget.
           </p>
           <div className="flex flex-wrap justify-center gap-2.5">
             {brandLinks.map(([label, href]) => (
@@ -220,7 +220,7 @@ export default function KatalogPage() {
 
       <section className="mx-auto max-w-7xl px-4 pb-16 pt-8 sm:px-6 lg:px-8 lg:pb-20 lg:pt-14">
         <div className="rounded-[1.7rem] border border-[#25D366]/20 bg-[#25D366]/10 p-6 text-center shadow-[0_18px_50px_rgba(15,39,66,0.08)] sm:p-10 lg:p-14">
-          <h2 className="mx-auto mb-5 max-w-3xl text-3xl font-black tracking-[-0.03em] text-slate-950 sm:text-4xl lg:text-5xl">Masih bingung mulai dari mana?</h2>
+          <h2 className="mx-auto mb-5 max-w-3xl text-3xl font-black tracking-[-0.03em] text-slate-950 sm:text-4xl lg:text-5xl">Mulai dari data ruangan</h2>
           <p className="mx-auto mb-6 max-w-2xl leading-7 text-slate-700">
             Kirim ukuran ruangan, daya listrik, lokasi pengiriman, dan perkiraan budget. Admin RADJA AC bantu arahkan kategori, brand, dan tipe AC yang paling masuk akal.
           </p>

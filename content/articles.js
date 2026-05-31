@@ -23,7 +23,7 @@ export const articleItems = [
       {
         heading: "Cek daya listrik sebelum memilih tipe AC",
         body: [
-          "Daya listrik rumah ikut menentukan pilihan AC. Untuk daya terbatas, AC low watt bisa dipertimbangkan. Untuk pemakaian rutin beberapa jam setiap hari, AC inverter bisa lebih nyaman karena suhu cenderung stabil.",
+          "Daya listrik rumah ikut menentukan pilihan AC. Untuk daya terbatas, AC low watt menjadi pilihan. Untuk pemakaian rutin beberapa jam setiap hari, AC inverter bisa lebih nyaman karena suhu cenderung stabil.",
           "Low watt atau inverter bukan pengganti hitungan PK. Tipe hemat listrik tetap perlu disesuaikan dengan ukuran ruangan dan kondisi pemakaian.",
         ],
       },
@@ -87,7 +87,7 @@ export const articleItems = [
       {
         heading: "Cek daya listrik sebelum menentukan unit",
         body: [
-          "Selain ukuran ruangan, daya listrik rumah wajib dicek. Untuk rumah dengan daya terbatas, pilihan low watt atau tipe tertentu bisa dipertimbangkan.",
+          "Selain ukuran ruangan, daya listrik rumah wajib dicek. Untuk rumah dengan daya terbatas, pilihan low watt atau tipe tertentu menjadi pilihan.",
           "Pilihan final sebaiknya tidak hanya dari PK, tapi juga dari tipe AC, pola pemakaian, dan kesiapan listrik.",
         ],
       },
@@ -158,7 +158,7 @@ export const articleItems = [
     title: "AC Kurang Dingin? Cek Layak Pakai atau Ganti Baru",
     description:
       "AC kurang dingin tidak selalu berarti freon habis. Cek kapasitas PK, usia unit, pemakaian, daya listrik, dan kapan lebih masuk akal mempertimbangkan AC baru.",
-    h1: "AC kurang dingin belum tentu freon habis",
+    h1: "AC kurang dingin: cek penyebab sebelum tambah freon",
     eyebrow: "Edukasi AC",
     readTime: "6 menit baca",
     intro:
@@ -189,7 +189,7 @@ export const articleItems = [
         heading: "Checklist sebelum membeli AC pengganti",
         body: [
           "Siapkan ukuran ruangan, daya listrik, lokasi indoor dan outdoor, kebiasaan pemakaian, budget, dan merek yang diminati. Data ini membantu memilih AC dengan PK dan fitur yang sesuai.",
-          "Untuk rumah dengan daya terbatas, AC low watt bisa dipertimbangkan. Untuk pemakaian lama setiap hari, AC inverter sering lebih nyaman. Untuk toko, kantor, kost, atau banyak ruangan, stok dan jadwal pemasangan perlu dicek lebih awal.",
+          "Untuk rumah dengan daya terbatas, AC low watt menjadi pilihan. Untuk pemakaian lama setiap hari, AC inverter sering lebih nyaman. Untuk toko, kantor, kost, atau banyak ruangan, stok dan jadwal pemasangan perlu dicek lebih awal.",
         ],
       },
     ],
@@ -233,7 +233,7 @@ export const articleItems = [
         heading: "Outdoor butuh sirkulasi udara yang baik",
         body: [
           "Outdoor AC membutuhkan ruang buang panas yang cukup. Jika outdoor terlalu tertutup, terlalu dekat dinding, atau terkena panas berlebih tanpa sirkulasi, performa pendinginan bisa turun dan unit bekerja lebih berat.",
-          "Sebelum menentukan AC, cek apakah lokasi outdoor aman, mudah dijangkau untuk perawatan, dan memungkinkan jalur pipa yang wajar. Untuk rumah bertingkat, ruko, atau area sempit, titik outdoor sebaiknya dibahas sejak awal.",
+          "Sebelum menentukan AC, cek apakah lokasi outdoor aman, mudah dijangkau untuk perawatan, dan mendukung jalur pipa yang wajar. Untuk rumah bertingkat, ruko, atau area sempit, titik outdoor sebaiknya dibahas sejak awal.",
         ],
       },
       {
@@ -276,7 +276,7 @@ export const articleItems = [
       {
         heading: "Perhatikan daya listrik dan pola pemakaian",
         body: [
-          "Untuk kamar yang dipakai setiap malam, kenyamanan dan kestabilan suhu penting diperhatikan. AC inverter bisa dipertimbangkan jika pemakaian rutin dan budget memungkinkan.",
+          "Untuk kamar yang dipakai setiap malam, kenyamanan dan kestabilan suhu penting diperhatikan. AC inverter menjadi pilihan jika pemakaian rutin dan budget tersedia.",
           "Kalau daya listrik rumah terbatas, AC low watt bisa menjadi pilihan yang lebih aman. Namun, tetap pastikan kapasitasnya cukup agar AC tidak bekerja terlalu berat.",
         ],
       },

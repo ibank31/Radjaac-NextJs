@@ -53,11 +53,11 @@ export default function Footer() {
           </p>
 
           <p className="mt-3 max-w-md text-sm leading-7 text-white/90">
-            Kurasi AC original untuk rumah, usaha, properti, dan proyek. Admin membantu cek PK, stok, pengiriman, opsi pemasangan, dan kebutuhan banyak unit dengan alur yang jelas.
+            Kurasi AC original untuk rumah, usaha, properti, dan proyek. Admin mengarahkan PK, stok, pengiriman, opsi pemasangan, dan kebutuhan banyak unit dengan alur yang jelas.
           </p>
 
           <p className="mt-3 text-sm leading-7 text-white/80">
-            Berbasis di Sokaraja, Banyumas. Estimasi akhir dikonfirmasi sesuai stok, area pengiriman, dan kondisi pemasangan.
+            Berbasis di Sokaraja, Banyumas. Estimasi akhir dikonfirmasi berdasarkan stok aktif, area pengiriman, dan kondisi pemasangan.
           </p>
 
           <div className="mt-5 flex flex-wrap gap-2">

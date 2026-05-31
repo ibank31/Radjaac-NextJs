@@ -9,7 +9,7 @@ export const metadata = buildMetadata(staticPageMetadata.pengirimanPemasangan);
 
 const processSteps = [
   "Kirim ukuran ruangan, kota, jumlah unit, brand yang diminati, dan kebutuhan unit saja atau sekalian pemasangan.",
-  "Admin bantu cek stok, rekomendasi PK, opsi tipe unit, serta gambaran kebutuhan teknis awal.",
+  "Admin mengecek stok, rekomendasi PK, opsi tipe unit, serta gambaran kebutuhan teknis awal.",
   "Alamat pengiriman, akses lokasi, jumlah unit, dan jadwal dikonfirmasi sebelum unit dikirim.",
   "Opsi pemasangan dibicarakan berdasarkan titik indoor, posisi outdoor, jalur pipa, listrik, dan kesiapan lokasi.",
 ];
@@ -17,12 +17,12 @@ const processSteps = [
 const notes = [
   "Biaya, jadwal, akses lokasi, dan kebutuhan material tambahan harus dikonfirmasi sebelum deal.",
   "Panjang pipa tambahan, bracket, bobok tembok, jalur listrik, akses tinggi, atau pemindahan titik dapat membuat kebutuhan berubah.",
-  "Untuk banyak unit atau proyek, koordinasi lokasi atau survey bisa dibicarakan sesuai kebutuhan, jumlah unit, area, dan jadwal.",
+  "Untuk banyak unit atau proyek, koordinasi lokasi atau survey dibahas berdasarkan kebutuhan, jumlah unit, area, dan jadwal.",
 ];
 
 const siteChecks = [
   "Ukuran ruangan, tinggi plafon, arah panas, dan perkiraan jumlah orang di ruangan.",
-  "Titik indoor yang diinginkan dan kemungkinan jalur pipa menuju outdoor.",
+  "Titik indoor yang diinginkan dan rencana jalur pipa menuju outdoor.",
   "Posisi outdoor: balkon, dinding luar, dak, lantai bawah, atau area khusus.",
   "Kesiapan listrik, stop kontak, MCB, dan kebutuhan jalur tambahan bila ada.",
 ];
@@ -31,7 +31,7 @@ const photoBriefs = [
   "Foto ruangan dari sudut lebar.",
   "Foto calon titik indoor.",
   "Foto area outdoor atau balkon.",
-  "Foto panel listrik / MCB bila daya listrik masih ragu.",
+  "Foto panel listrik / MCB untuk membaca kesiapan daya.",
 ];
 
 const relatedLinks = [
@@ -49,11 +49,11 @@ export default function PengirimanPemasanganPage() {
           Pengiriman & Pemasangan
         </p>
         <h1 className="mt-4 max-w-4xl text-4xl font-black tracking-tight text-slate-950 md:text-5xl">
-          Pengiriman unit, opsi pemasangan fleksibel, dan garansi pemasangan AC
+          Pengiriman unit, kebutuhan pemasangan, dan garansi pemasangan AC
         </h1>
         <p className="mt-6 max-w-3xl text-lg leading-8 text-slate-600">
           RADJA AC membantu pembelian AC original multi-brand dengan proses yang jelas: cek kebutuhan PK,
-          cek stok, konfirmasi alamat pengiriman, opsi pemasangan fleksibel, garansi pemasangan 1 bulan, dan bantuan klaim unit sesuai ketentuan brand.
+          cek stok, konfirmasi alamat pengiriman, kebutuhan pemasangan, garansi pemasangan 1 bulan, dan bantuan klaim unit sesuai ketentuan brand.
         </p>
 
         <div className="mt-8 flex flex-col gap-3 sm:flex-row">
@@ -124,8 +124,8 @@ export default function PengirimanPemasanganPage() {
           <h2 className="text-xl font-black text-slate-950">Bukan sekadar kirim unit</h2>
           <p className="mt-4 max-w-3xl text-sm leading-7 text-slate-700">
             Untuk pembelian AC, pengiriman dan pemasangan perlu dibaca dari kondisi lokasi.
-            Admin RADJA AC akan membantu cek kebutuhan awal supaya pembeli tidak hanya melihat harga unit,
-            tetapi juga memahami kemungkinan kebutuhan pipa, bracket, posisi outdoor, akses kerja, dan jadwal.
+            Admin RADJA AC akan mengarahkan kebutuhan awal supaya pembeli tidak hanya melihat harga unit,
+            tetapi juga memahami kebutuhan pipa, bracket, posisi outdoor, akses kerja, dan jadwal.
           </p>
           <div className="mt-5 flex flex-wrap gap-3">
             {relatedLinks.map(([label, href]) => (
@@ -155,7 +155,7 @@ export default function PengirimanPemasanganPage() {
           <h2 className="text-2xl font-black">Butuh cek pengiriman atau pemasangan?</h2>
           <p className="mt-4 max-w-3xl text-sm leading-6 text-slate-600">
             Kirim kota, alamat area, jumlah unit, tipe ruangan, dan kebutuhan unit saja atau sekalian opsi pemasangan.
-            Admin RADJA AC bantu cek kemungkinan pengiriman dan pemasangannya.
+            Admin RADJA AC mengarahkan rencana pengiriman dan pemasangannya.
           </p>
         </section>
       </section>

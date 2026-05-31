@@ -7,15 +7,15 @@ export const procurementItems = [
     label: "Kost & Apartemen",
     title: "Pengadaan AC Kost & Apartemen | Cek PK, Stok, Pengiriman & Pemasangan",
     description:
-      "Pengadaan AC untuk kost, apartemen, kontrakan, dan hunian banyak kamar, dari pembelian bertahap sampai kebutuhan banyak unit. RADJA AC bantu cek PK per ruangan, brand, stok, pengiriman, opsi pemasangan fleksibel, garansi pemasangan 1 bulan, dan bantuan klaim unit sesuai ketentuan brand.",
+      "Pengadaan AC untuk kost, apartemen, kontrakan, dan hunian banyak kamar, dari pembelian bertahap sampai kebutuhan banyak unit. RADJA AC mengarahkan PK per ruangan, brand, stok, pengiriman, kebutuhan pemasangan, garansi pemasangan 1 bulan, dan bantuan klaim unit sesuai ketentuan brand.",
     h1: "Pengadaan AC untuk kost, apartemen, dan hunian banyak kamar",
     eyebrow: "Pengadaan AC",
     intro:
-      "Untuk kost, apartemen, kontrakan, atau hunian banyak kamar, pembelian AC tidak cukup hanya memilih harga unit. Jumlah kamar, daya listrik, tipe unit, jadwal pengiriman, dan rencana pemasangan perlu dibaca lebih rapi agar pembelian banyak unit tidak berantakan di lapangan.",
+      "Untuk kost, apartemen, kontrakan, atau hunian banyak kamar, pembelian AC perlu membaca harga unit, jumlah kamar, daya listrik, dan rencana pemasangan. Jumlah kamar, daya listrik, tipe unit, jadwal pengiriman, dan rencana pemasangan perlu dibaca lebih rapi agar pembelian banyak unit tertata di lapangan.",
     segmentContext:
       "Kost dan apartemen biasanya membutuhkan unit yang mudah dirawat, tipe relatif seragam, dan konsumsi listrik yang masuk akal. Admin RADJA AC membantu membaca kebutuhan dari jumlah kamar, ukuran ruangan, daya listrik per titik, prioritas budget, serta apakah pengiriman atau pemasangan perlu dilakukan bertahap.",
     coordinationNote:
-      "Koordinasi lokasi atau survey dapat dibicarakan terlebih dahulu sesuai kebutuhan, jumlah unit, area, dan jadwal. Tidak semua proyek otomatis membutuhkan survey; admin akan bantu cek kebutuhan awal dari data ruangan dan lokasi.",
+      "Koordinasi lokasi atau survey dibahas sejak awal berdasarkan kebutuhan, jumlah unit, area, dan jadwal. admin membaca kebutuhan awal dari data ruangan dan lokasi.",
     commonNeeds: [
       "AC banyak kamar untuk kost, kontrakan, mess, atau hunian sewa",
       "Pilihan unit seragam agar perawatan dan penggantian lebih mudah",
@@ -45,20 +45,20 @@ export const procurementItems = [
     label: "Hotel & Guest House",
     title: "Pengadaan AC Hotel & Guest House | Cek PK, Brand, Pengiriman & Pemasangan",
     description:
-      "Pengadaan AC untuk hotel, guest house, homestay, villa, dan penginapan, termasuk kebutuhan banyak kamar. RADJA AC bantu cek PK, brand, stok, pengiriman, opsi pemasangan fleksibel, garansi pemasangan 1 bulan, dan bantuan klaim unit sesuai ketentuan brand.",
+      "Pengadaan AC untuk hotel, guest house, homestay, villa, dan penginapan, termasuk kebutuhan banyak kamar. RADJA AC mengarahkan PK, brand, stok, pengiriman, kebutuhan pemasangan, garansi pemasangan 1 bulan, dan bantuan klaim unit sesuai ketentuan brand.",
     h1: "Pengadaan AC untuk hotel, guest house, homestay, dan penginapan",
     eyebrow: "Pengadaan AC",
     intro:
       "Untuk hotel, guest house, homestay, atau villa, AC berpengaruh langsung ke kenyamanan tamu. Pemilihan unit perlu mempertimbangkan ukuran kamar, tingkat kebisingan, durasi pemakaian, daya listrik, kesiapan stok, dan jadwal pekerjaan agar operasional tidak terganggu.",
     segmentContext:
-      "Kebutuhan penginapan biasanya menuntut unit yang nyaman, mudah dijelaskan ke tamu bila ada maintenance, dan tidak mengganggu okupansi. Admin membantu menyiapkan opsi berdasarkan kategori kamar, area publik, jadwal kosong kamar, serta kebutuhan pengiriman atau pemasangan bertahap.",
+      "Kebutuhan penginapan biasanya menuntut unit yang nyaman, mudah dijelaskan ke tamu bila ada maintenance, dan menjaga okupansi tetap tertata. Admin membantu menyiapkan opsi berdasarkan kategori kamar, area publik, jadwal kosong kamar, serta kebutuhan pengiriman atau pemasangan bertahap.",
     coordinationNote:
-      "Koordinasi lokasi atau survey dapat dibicarakan terlebih dahulu sesuai jumlah unit, area, jadwal, dan kebutuhan proyek. Admin bisa mulai dari data kamar, foto lokasi, atau daftar kebutuhan awal.",
+      "Koordinasi lokasi atau survey dibahas sejak awal sesuai jumlah unit, area, jadwal, dan kebutuhan proyek. Admin memulai dari data kamar, foto lokasi, atau daftar kebutuhan awal.",
     commonNeeds: [
       "AC kamar tamu hotel, guest house, homestay, atau villa",
       "AC lobby, resepsionis, ruang tunggu, dan area bersama",
       "Pilihan unit yang nyaman untuk pemakaian lama dan tamu berganti",
-      "Koordinasi pekerjaan agar tidak mengganggu okupansi kamar",
+      "Koordinasi pekerjaan agar menjaga okupansi tetap tertata kamar",
     ],
     buyingChecks: [
       "Jumlah kamar aktif, kamar cadangan, dan area publik",
@@ -83,15 +83,15 @@ export const procurementItems = [
     label: "Kontraktor & Developer",
     title: "Pengadaan AC Kontraktor & Developer | Cek Kebutuhan Proyek AC",
     description:
-      "Pengadaan AC untuk kontraktor, developer, kantor proyek, ruko, klinik, dan kebutuhan banyak unit hingga ratusan unit. RADJA AC bantu cek PK, brand, stok, pengiriman, opsi pemasangan fleksibel, garansi pemasangan 1 bulan, dan bantuan klaim unit sesuai ketentuan brand.",
+      "Pengadaan AC untuk kontraktor, developer, kantor proyek, ruko, klinik, dan kebutuhan banyak unit hingga ratusan unit. RADJA AC mengarahkan PK, brand, stok, pengiriman, kebutuhan pemasangan, garansi pemasangan 1 bulan, dan bantuan klaim unit sesuai ketentuan brand.",
     h1: "Pengadaan AC untuk kontraktor, developer, dan kebutuhan proyek",
     eyebrow: "Pengadaan AC",
     intro:
-      "Untuk kontraktor, developer, dan proyek bangunan, kebutuhan AC biasanya terkait RAB, BOQ, jumlah titik, deadline pekerjaan, dan koordinasi lapangan. RADJA AC membantu cek pilihan unit, kapasitas PK, stok, pengiriman, serta opsi pemasangan berdasarkan data proyek yang dikirim.",
+      "Untuk kontraktor, developer, dan proyek bangunan, kebutuhan AC biasanya terkait RAB, BOQ, jumlah titik, deadline pekerjaan, dan koordinasi lapangan. RADJA AC mengarahkan pilihan unit, kapasitas PK, stok, pengiriman, serta opsi pemasangan berdasarkan data proyek yang dikirim.",
     segmentContext:
       "Kebutuhan kontraktor dan developer sering membutuhkan alternatif brand sesuai budget, kesiapan unit, dan jadwal kirim. Admin dapat mulai dari daftar titik AC, ukuran ruangan, gambar sederhana, BOQ/RAB awal, atau foto lokasi untuk membantu membaca kebutuhan sebelum penawaran dibicarakan.",
     coordinationNote:
-      "Koordinasi lokasi atau survey dapat dibicarakan terlebih dahulu sesuai kebutuhan proyek, lokasi, jumlah unit, akses pekerjaan, dan jadwal. Detail teknis tetap dikonfirmasi sebelum pembelian atau pemasangan.",
+      "Koordinasi lokasi atau survey dibahas sejak awal berdasarkan kebutuhan proyek, lokasi, jumlah unit, akses pekerjaan, dan jadwal. Detail teknis tetap dikonfirmasi sebelum pembelian atau pemasangan.",
     commonNeeds: [
       "AC untuk rumah contoh, ruko, kantor, klinik, dan ruang usaha",
       "Pengadaan banyak unit berdasarkan daftar titik atau BOQ awal",

@@ -12,7 +12,7 @@ export const staticPageMetadata = {
   jualAc: {
     title: "Jual AC Original Multi-Brand | Cek Stok, Konsultasi PK & Pengiriman — RADJA AC",
     description:
-      "Mulai pembelian AC dari kebutuhan ruangan, daya listrik, budget, dan lokasi. RADJA AC bantu cek stok, konsultasi PK, pengiriman unit, dan opsi pemasangan.",
+      "Mulai pembelian AC dari kebutuhan ruangan, daya listrik, budget, dan lokasi. RADJA AC mengecek stok, mengarahkan konsultasi PK, pengiriman unit, dan opsi pemasangan.",
     path: routes.jualAc,
     image: "/photos/display/display-gree-residential-ac-radja-ac.webp",
   },
@@ -20,7 +20,7 @@ export const staticPageMetadata = {
   katalog: {
     title: "Katalog AC Original | Split, Inverter, Low Watt & Komersial — RADJA AC",
     description:
-      "Lihat pilihan AC split, inverter, low watt, AC 1/2 PK, dan AC kantor komersial. RADJA AC bantu cek stok, tipe, PK, pengiriman, dan opsi pemasangan.",
+      "Lihat pilihan AC split, inverter, low watt, AC 1/2 PK, dan AC kantor komersial. RADJA AC mengecek stok, tipe, PK, pengiriman, dan opsi pemasangan.",
     path: routes.katalog,
   },
 
@@ -34,7 +34,7 @@ export const staticPageMetadata = {
   pengadaanAc: {
     title: "Supplier AC Partai Besar | Proyek, Hotel, Kost & Gedung — RADJA AC",
     description:
-      "RADJA AC membantu pengadaan AC banyak unit hingga kebutuhan ratusan unit untuk proyek, hotel, guest house, kost, kantor, ruko, gedung, kontraktor, dan developer. Cek PK, stok, pengiriman, opsi pemasangan fleksibel, garansi pemasangan 1 bulan, dan bantuan klaim unit sesuai ketentuan brand.",
+      "RADJA AC membantu pengadaan AC banyak unit hingga kebutuhan ratusan unit untuk proyek, hotel, guest house, kost, kantor, ruko, gedung, kontraktor, dan developer. Cek PK, stok, pengiriman, kebutuhan pemasangan, garansi pemasangan 1 bulan, dan bantuan klaim unit sesuai ketentuan brand.",
     path: routes.pengadaanAc,
   },
 
@@ -49,14 +49,14 @@ export const staticPageMetadata = {
   pengirimanPemasangan: {
     title: "Pengiriman & Pemasangan AC Baru | RADJA AC",
     description:
-      "Informasi pengiriman unit AC baru, opsi pemasangan fleksibel, garansi pemasangan 1 bulan, dan bantuan klaim unit dari RADJA AC. Konsultasikan pilihan unit, kebutuhan PK, alamat pengiriman, dan kondisi lokasi sebelum deal.",
+      "Informasi pengiriman unit AC baru, kebutuhan pemasangan, garansi pemasangan 1 bulan, dan bantuan klaim unit dari RADJA AC. Konsultasikan pilihan unit, kebutuhan PK, alamat pengiriman, dan kondisi lokasi sebelum deal.",
     path: routes.pengirimanPemasangan,
   },
 
   tentangKami: {
     title: "Tentang RADJA AC | Showroom Banyumas, Stok AC & Konsultasi PK",
     description:
-      "Profil RADJA AC sebagai penyedia AC original multi-brand berbasis di Pamijen, Sokaraja, Banyumas. Melayani pembelian satuan hingga pengadaan ratusan unit, konsultasi PK, cek stok, pengiriman unit, opsi pemasangan fleksibel, dan bantuan klaim unit sesuai ketentuan brand.",
+      "Profil RADJA AC sebagai penyedia AC original multi-brand berbasis di Pamijen, Sokaraja, Banyumas. Melayani pembelian satuan hingga pengadaan ratusan unit, konsultasi PK, cek stok, pengiriman unit, kebutuhan pemasangan, dan bantuan klaim unit sesuai ketentuan brand.",
     path: routes.tentangKami,
   },
 
@@ -70,7 +70,7 @@ export const staticPageMetadata = {
   gantiAcBaruPurwokerto: {
     title: "Ganti AC Baru Purwokerto | Cek Unit Baru, PK & Opsi Pemasangan",
     description:
-      "Butuh ganti AC baru di Purwokerto dan sekitarnya? RADJA AC bantu cek unit baru, kebutuhan PK, stok, pengiriman, dan opsi pemasangan sesuai lokasi.",
+      "Butuh ganti AC baru di Purwokerto dan sekitarnya? RADJA AC mengarahkan unit baru, kebutuhan PK, stok, pengiriman, dan opsi pemasangan berdasarkan lokasi.",
     path: routes.gantiAcBaruPurwokerto,
   },
 };

@@ -110,14 +110,14 @@ export default function KalkulatorPkAcPage() {
               </p>
               <p className="rounded-2xl bg-slate-50 p-4">
                 Untuk kebutuhan banyak unit, lanjutkan ke pengadaan AC agar data ruangan dan jumlah unit
-                bisa dibicarakan lebih rapi.
+                dibahas lebih rapi.
               </p>
             </div>
           </section>
         </div>
 
         <section className="mt-12 rounded-3xl bg-white p-6 text-slate-950">
-          <h2 className="text-2xl font-black">Mau dibantu cek kebutuhan PK?</h2>
+          <h2 className="text-2xl font-black">Mau diarahkan kebutuhan PK?</h2>
           <p className="mt-4 max-w-3xl text-sm leading-6 text-slate-300">
             Kirim ukuran ruangan, tinggi plafon jika tahu, daya listrik, kota, budget, dan kebutuhan unit
             saja atau sekalian opsi pemasangan. Admin RADJA AC bantu arahkan pilihan yang masuk akal.
