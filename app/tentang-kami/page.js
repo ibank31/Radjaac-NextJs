@@ -10,7 +10,7 @@ export const metadata = buildMetadata(staticPageMetadata.tentangKami);
 
 const values = [
   "Fokus pada penjualan AC original multi-brand, termasuk Proshop Gree RADJA AC.",
-  "Admin mengarahkan kebutuhan PK, daya listrik, pilihan brand, stok, pengiriman, dan opsi pemasangan.",
+  "Admin cek kebutuhan PK, daya listrik, pilihan brand, stok, pengiriman, dan opsi pemasangan.",
   "Informasi stok, harga, pengiriman, dan pemasangan dikonfirmasi sebelum pembelian.",
   "Pembelian satuan hingga pengadaan ratusan unit dibahas berdasarkan kebutuhan proyek, lokasi, jumlah unit, stok, dan jadwal.",
 ];

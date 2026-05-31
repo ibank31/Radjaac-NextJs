@@ -484,7 +484,7 @@ export default function ProofGalleryClient() {
             Mau cek unit dari stok aktif?
           </h2>
           <p className="mx-auto mt-3 max-w-2xl text-sm leading-7 text-slate-600">
-            Kirim kebutuhan ruangan, jumlah unit, brand yang diminati, dan lokasi pengiriman. Admin mengarahkan
+            Kirim kebutuhan ruangan, jumlah unit, brand yang diminati, dan lokasi pengiriman. Admin cek
             stok, opsi unit, pengiriman, dan kebutuhan pemasangan berdasarkan kondisi.
           </p>
           <WhatsappLink

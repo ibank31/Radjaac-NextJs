@@ -60,7 +60,7 @@ export default function KontakPage() {
             </h1>
 
             <p className="mt-6 max-w-3xl text-base leading-8 text-slate-600 sm:text-lg">
-              RADJA AC berbasis di {siteConfig.businessBase}. Admin mengarahkan kebutuhan AC untuk rumah, kost, toko, kantor, hotel, sampai pengadaan banyak unit sebelum Anda deal.
+              RADJA AC berbasis di {siteConfig.businessBase}. Admin cek kebutuhan AC untuk rumah, kost, toko, kantor, hotel, sampai pengadaan banyak unit sebelum pembelian.
             </p>
 
             <div className="mt-8 flex flex-col gap-3 sm:flex-row sm:flex-wrap">
@@ -201,7 +201,7 @@ export default function KontakPage() {
             source="Halaman Kontak - Final CTA"
             intent="cek stok dan konsultasi AC dari halaman kontak"
           >
-            Chat Admin Sekarang
+            Kirim Data Kebutuhan
           </WhatsappLink>
         </div>
       </section>
