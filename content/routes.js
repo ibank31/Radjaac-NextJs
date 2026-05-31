@@ -41,6 +41,8 @@ export const routes = {
   pengadaanKostApartemen: "/pengadaan-ac/kost-apartemen-skala-besar",
   pengadaanHotelGuestHouse: "/pengadaan-ac/hotel-guest-house",
   pengadaanKontraktorDeveloper: "/pengadaan-ac/kontraktor-developer",
+  pengadaanGedungKantorRuko: "/pengadaan-ac/gedung-kantor-ruko",
+  pengadaanCafeResto: "/pengadaan-ac/cafe-resto",
 
   pengirimanPemasangan: "/pengiriman-pemasangan",
   buktiPengirimanProyek: "/bukti-pengiriman-proyek",
@@ -97,6 +99,8 @@ export const sitemapRoutes = [
   { path: routes.pengadaanKostApartemen, priority: 0.75 },
   { path: routes.pengadaanHotelGuestHouse, priority: 0.75 },
   { path: routes.pengadaanKontraktorDeveloper, priority: 0.75 },
+  { path: routes.pengadaanGedungKantorRuko, priority: 0.75 },
+  { path: routes.pengadaanCafeResto, priority: 0.75 },
 
   { path: routes.pengirimanPemasangan, priority: 0.7 },
   { path: routes.buktiPengirimanProyek, priority: 0.7 },

@@ -9,24 +9,28 @@ const brands = ["Daikin", "Gree", "Panasonic", "Sharp", "LG", "Samsung", "Midea"
 
 const projectTypes = [
   {
-    label: "Kantor",
-    title: "Ruang kerja & meeting",
-    desc: "Bantu cek kebutuhan AC untuk ruang kerja, meeting room, lobby kecil, dan area operasional.",
+    label: "Kantor / Ruko",
+    title: "Gedung, kantor & ruko",
+    desc: "Untuk ruang kerja, meeting room, lobby kecil, showroom, dan ruko yang butuh koordinasi unit serta jadwal pekerjaan.",
+    href: routes.pengadaanGedungKantorRuko,
+  },
+  {
+    label: "Cafe / Resto",
+    title: "Cafe, resto & ruang makan",
+    desc: "Untuk area pelanggan, ruang makan, kaca besar, plafon tinggi, atau lokasi usaha kuliner yang butuh pendinginan merata.",
+    href: routes.pengadaanCafeResto,
   },
   {
     label: "Hotel / Kost",
-    title: "Banyak kamar",
+    title: "Hotel, guest house & banyak kamar",
     desc: "Cocok untuk kebutuhan banyak unit dengan pertimbangan daya listrik, jadwal kirim, dan opsi pemasangan.",
-  },
-  {
-    label: "Retail",
-    title: "Toko, ruko & klinik",
-    desc: "Bantu pilih tipe AC untuk area publik yang perlu nyaman, bersih, dan tampil rapi.",
+    href: routes.pengadaanHotelGuestHouse,
   },
   {
     label: "Proyek",
-    title: "Bangunan & renovasi",
+    title: "Kontraktor & developer",
     desc: "Kirim data ruangan, jumlah unit, lokasi, dan timeline untuk disusun opsi awalnya.",
+    href: routes.pengadaanKontraktorDeveloper,
   },
 ];
 
@@ -228,14 +232,23 @@ export default function PengadaanAcPage() {
                 </span>
                 <h3 className="mt-5 text-xl font-black text-blue-950">{item.title}</h3>
                 <p className="mt-3 text-sm leading-6 text-slate-600">{item.desc}</p>
-                <WhatsappLink
-                  className="mt-6 inline-flex font-bold text-red-600 transition group-hover:translate-x-1"
-                  source={`Pengadaan AC - ${item.label}`}
-                  intent={`konsultasi pengadaan AC untuk ${item.title}`}
-                  pageType="b2b"
-                >
-                  Konsultasikan kebutuhan →
-                </WhatsappLink>
+                {item.href ? (
+                  <Link
+                    href={item.href}
+                    className="mt-6 inline-flex font-bold text-red-600 transition group-hover:translate-x-1"
+                  >
+                    Lihat detail segmen →
+                  </Link>
+                ) : (
+                  <WhatsappLink
+                    className="mt-6 inline-flex font-bold text-red-600 transition group-hover:translate-x-1"
+                    source={`Pengadaan AC - ${item.label}`}
+                    intent={`konsultasi pengadaan AC untuk ${item.title}`}
+                    pageType="b2b"
+                  >
+                    Konsultasikan kebutuhan →
+                  </WhatsappLink>
+                )}
               </article>
             ))}
           </div>
