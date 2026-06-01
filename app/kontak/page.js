@@ -10,7 +10,7 @@ export const metadata = buildMetadata(staticPageMetadata.kontak);
 const quickNeeds = [
   "Rekomendasi PK sesuai ukuran ruangan",
   "Cek stok unit dan pilihan brand",
-  "Estimasi budget unit dan opsi pemasangan",
+  "Estimasi anggaran unit dan opsi pemasangan",
   "Pengiriman untuk rumah, toko, kantor, kost, hotel, atau proyek",
 ];
 
@@ -18,14 +18,14 @@ const messageChecklist = [
   "Ukuran ruangan, misalnya 3x4 meter",
   "Daya listrik rumah atau tempat usaha",
   "Lokasi pengiriman atau pemasangan",
-  "Budget dan brand yang diminati bila sudah ada",
+  "Anggaran dan brand yang diminati bila sudah ada",
   "Jumlah unit kalau untuk kantor, kost, hotel, atau proyek",
 ];
 
 const contactReasons = [
   [
     "Tidak perlu nebak PK sendiri",
-    "Admin membaca kapasitas AC dari ukuran ruangan, pemakaian, daya listrik, dan kondisi lokasi.",
+    "Tim RADJA AC membaca kapasitas AC dari ukuran ruangan, pemakaian, daya listrik, dan kondisi lokasi.",
   ],
   [
     "Stok dicek dulu",
@@ -56,7 +56,7 @@ export default function KontakPage() {
             </p>
 
             <h1 className="mt-6 max-w-4xl text-4xl font-black leading-tight tracking-[-0.04em] text-slate-950 md:text-6xl">
-              Mau beli AC? Kirim ukuran ruangan, daya listrik, lokasi, dan jumlah unit ke admin.
+              Mau beli AC? Kirim ukuran ruangan, daya listrik, lokasi, dan jumlah unit ke RADJA AC.
             </h1>
 
             <p className="mt-6 max-w-3xl text-base leading-8 text-slate-600 sm:text-lg">
@@ -107,7 +107,7 @@ export default function KontakPage() {
             </p>
 
             <p className="mt-4 text-sm leading-7 text-slate-600">
-              Kirim detail sejak pesan pertama agar admin langsung membaca ukuran ruangan, daya listrik, stok, dan kebutuhan pemasangan.
+              Kirim detail sejak pesan pertama agar tim langsung membaca ukuran ruangan, daya listrik, stok, dan kebutuhan pemasangan.
             </p>
 
             <div className="mt-6 rounded-[1.45rem] border border-blue-100 bg-blue-50 p-5">
@@ -127,7 +127,7 @@ export default function KontakPage() {
             <WhatsappLink
               className="mt-6 inline-flex w-full items-center justify-center rounded-full bg-[#25D366] px-6 py-4 text-sm font-black text-slate-950 shadow-[0_14px_34px_rgba(37,211,102,0.20)] transition hover:-translate-y-0.5 hover:bg-[#20BA5A]"
               source="Halaman Kontak - Card Nomor WA"
-              intent="mengirim detail kebutuhan AC untuk dicek admin"
+              intent="mengirim detail kebutuhan AC untuk dicek tim RADJA AC"
             >
               Kirim Detail Kebutuhan Sekarang
             </WhatsappLink>
@@ -194,7 +194,7 @@ export default function KontakPage() {
             Siap cek stok dan rekomendasi AC?
           </h2>
           <p className="mx-auto mb-7 max-w-2xl text-sm leading-7 text-slate-700">
-            Kirim ukuran ruangan, daya listrik, lokasi, jumlah unit, budget, dan brand yang diminati. Admin RADJA AC menyusun opsi yang masuk akal sebelum pembelian.
+            Kirim ukuran ruangan, daya listrik, lokasi, jumlah unit, anggaran, dan brand yang diminati. Tim RADJA AC menyusun opsi yang masuk akal sebelum pembelian.
           </p>
           <WhatsappLink
             className="inline-flex items-center justify-center rounded-full bg-[#25D366] px-6 py-4 font-black text-slate-950 shadow-[0_14px_34px_rgba(37,211,102,0.20)] transition hover:-translate-y-0.5 hover:bg-[#20BA5A]"

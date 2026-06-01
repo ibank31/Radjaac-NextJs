@@ -10,7 +10,7 @@ export const metadata = buildMetadata(staticPageMetadata.tentangKami);
 
 const values = [
   "Fokus pada penjualan AC original multi-brand, termasuk Proshop Gree RADJA AC.",
-  "Admin cek kebutuhan PK, daya listrik, pilihan brand, stok, pengiriman, dan opsi pemasangan.",
+  "Tim RADJA AC cek kebutuhan PK, daya listrik, pilihan brand, stok, pengiriman, dan opsi pemasangan.",
   "Informasi stok, harga, pengiriman, dan pemasangan dikonfirmasi sebelum pembelian.",
   "Pembelian satuan hingga pengadaan ratusan unit dibahas berdasarkan kebutuhan proyek, lokasi, jumlah unit, stok, dan jadwal.",
 ];
@@ -75,7 +75,7 @@ export default function TentangKamiPage() {
               {legalEntityCopy}
             </p>
             <p className="mt-3 rounded-2xl border border-slate-200 bg-[#f7fbff]/45 p-4 text-sm leading-6 text-slate-600">
-              Dokumen brand tertentu mengikuti kerja sama dan ketentuan brand. Admin cek informasi detail sebelum pembelian.
+              Dokumen brand tertentu mengikuti kerja sama dan ketentuan brand. Tim RADJA AC mengecek informasi detail sebelum pembelian.
             </p>
           </section>
         </div>

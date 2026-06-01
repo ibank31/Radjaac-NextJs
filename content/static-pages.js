@@ -12,7 +12,7 @@ export const staticPageMetadata = {
   jualAc: {
     title: "Jual AC Original Multi-Brand | Cek Stok, Konsultasi PK & Pengiriman — RADJA AC",
     description:
-      "Mulai pembelian AC dari kebutuhan ruangan, daya listrik, budget, dan lokasi. RADJA AC cek stok, kebutuhan PK, pengiriman unit, dan pemasangan.",
+      "Mulai pembelian AC dari kebutuhan ruangan, daya listrik, anggaran, dan lokasi. RADJA AC cek stok, kebutuhan PK, pengiriman unit, dan pemasangan.",
     path: routes.jualAc,
     image: "/photos/display/display-gree-residential-ac-radja-ac.webp",
   },
@@ -63,7 +63,7 @@ export const staticPageMetadata = {
   kalkulatorPkAc: {
     title: "Kalkulator PK AC | Estimasi Kebutuhan Ruangan Sebelum Order — RADJA AC",
     description:
-      "Gunakan kalkulator PK AC sebagai panduan awal sebelum membeli unit. Cek ukuran ruangan, kondisi panas, daya listrik, dan kebutuhan kapasitas AC bersama admin RADJA AC.",
+      "Gunakan kalkulator PK AC sebagai panduan awal sebelum membeli unit. Cek ukuran ruangan, kondisi panas, daya listrik, dan kebutuhan kapasitas AC bersama tim RADJA AC.",
     path: routes.kalkulatorPkAc,
   },
 
