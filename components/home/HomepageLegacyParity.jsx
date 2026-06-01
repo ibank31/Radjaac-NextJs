@@ -466,7 +466,7 @@ function HomeSalesLanding() {
       <div className="overflow-hidden rounded-[1.7rem] border border-blue-200 bg-blue-50 p-6 shadow-[0_22px_60px_rgba(15,39,66,0.08)] sm:p-8 lg:p-10">
         <div className="grid gap-8 lg:grid-cols-[0.9fr_1.1fr] lg:items-center">
           <div>
-            <SectionBadge>Cek Dulu Sebelum Deal</SectionBadge>
+            <SectionBadge>Cek Dulu Sebelum Beli</SectionBadge>
             <h2 className="mt-4 text-3xl font-black tracking-tight text-blue-950 sm:text-4xl lg:text-5xl">
               Beli AC yang pas itu bukan cuma soal harga awal
             </h2>

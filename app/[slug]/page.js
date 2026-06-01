@@ -161,8 +161,8 @@ export default async function AreaPage({ params }) {
     [
       `Apakah RADJA AC punya toko fisik di ${item.areaName}?`,
       isPurwokerto
-        ? "RADJA AC berbasis di Pamijen, Sokaraja, Banyumas dan melayani area Purwokerto. Kirim kebutuhan agar admin mengecek stok aktif."
-        : `RADJA AC berbasis di Banyumas. Untuk area ${item.areaName}, admin cek PK, stok, pengiriman unit, dan kebutuhan pemasangan berdasarkan data awal.`,
+        ? "Showroom dan gudang RADJA AC berada di Pamijen, Sokaraja, Banyumas dan melayani area Purwokerto. Kirim kebutuhan agar tim mengecek stok aktif."
+        : `Showroom dan gudang RADJA AC berada di Banyumas. Untuk area ${item.areaName}, tim cek PK, stok, pengiriman unit, dan kebutuhan pemasangan berdasarkan data awal.`,
     ],
     [`Berapa estimasi budget AC untuk area ${item.areaName}?`, "Estimasi awal mulai dari 3 jutaan untuk unit + pemasangan standar tertentu. Admin cek rincian dari brand, PK, stok, alamat, dan kondisi pemasangan."],
     ["Belum tahu butuh berapa PK?", "Kirim ukuran ruangan, daya listrik, jumlah orang, dan pola pemakaian. Admin cocokkan kapasitas PK dari data itu."],

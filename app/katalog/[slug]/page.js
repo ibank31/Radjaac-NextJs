@@ -292,7 +292,7 @@ export default async function CatalogDetailPage({ params }) {
             Brand & kategori lain
           </p>
           <h2 className="mx-auto mb-5 max-w-3xl text-3xl font-black tracking-[-0.03em] text-slate-950 sm:text-4xl">
-            Bandingkan dengan kategori dan brand lain sebelum deal
+            Bandingkan dengan kategori dan brand lain sebelum pembelian
           </h2>
 
           <div className="mb-6 flex flex-wrap justify-center gap-2.5">

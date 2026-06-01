@@ -328,7 +328,7 @@ export default function PengadaanAcPage() {
               Kirim data proyek, tim susun opsi awal dari kebutuhan.
             </h2>
             <p className="mt-5 max-w-2xl text-base leading-8 text-white/70 sm:text-lg">
-              RADJA AC berbasis di Banyumas, melayani kebutuhan AC banyak unit untuk kost, hotel,
+              Showroom dan gudang RADJA AC berada di Banyumas, melayani kebutuhan AC banyak unit untuk kost, hotel,
               kantor, ruko, cafe, dan proyek konstruksi.
             </p>
           </div>
