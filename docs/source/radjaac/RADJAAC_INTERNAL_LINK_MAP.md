@@ -1,3 +1,29 @@
+# Current Repo Status Note
+
+Internal link map ini tetap relevan, tetapi area aktif repo sudah bertambah.
+
+Area Banyumas ring yang sekarang harus diperhitungkan:
+
+- Purwokerto
+- Banyumas
+- Sokaraja
+- Ajibarang
+- Baturraden
+- Wangon
+- Karanglewas
+- Kembaran
+- Patikraja
+- Rawalo
+
+Aturan aktif:
+- Homepage tidak perlu link ke semua kecamatan.
+- Hub link ke turunan prioritas.
+- Turunan link balik ke hub dan 2–4 area tetangga.
+- Jangan semua halaman link ke semua halaman.
+- Internal link harus menuju URL final, bukan redirect source.
+
+Cek `content/routes.js`, `content/areas.js`, dan sitemap sebelum patch internal link.
+
 # RADJAAC_INTERNAL_LINK_MAP.md
 
 ## Status

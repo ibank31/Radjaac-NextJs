@@ -1,3 +1,18 @@
+# Current Repo Status Note
+
+Status terbaru repo mengungguli detail lama di dokumen ini.
+
+Implementasi aktif saat ini:
+- Repo memakai gtag langsung, bukan GTM container.
+- Event aktif: `whatsapp_click`.
+- Event lead utama: `generate_lead`.
+- `components/ui/WhatsappLink.jsx` mengirim event langsung dan memakai `data-wa-direct="true"` untuk mencegah double count dari listener global.
+- `components/analytics/GoogleAnalytics.jsx` tetap menjadi fallback global listener untuk link WhatsApp biasa.
+- Jangan memakai `purchase` sebagai patokan klik WhatsApp.
+- Istilah lama seperti `wa_click`, `wa_click_sticky`, dan `wa_click_after_calc` hanya dianggap referensi historis, bukan standar aktif.
+
+Gunakan `docs/RADJA_WORKFLOW.md` sebagai pegangan operasional terbaru.
+
 # RADJAAC_WHATSAPP_CONVERSION_SYSTEM.md
 
 ## RADJAAC WhatsApp Conversion System
@@ -10,14 +25,14 @@ Needs monthly refresh
 
 ### Fungsi Dokumen
 
-Dokumen ini menetapkan standar CTA WhatsApp, prefilled message, data kualifikasi lead, dan tracking GA4/GTM agar semua page type di RADJA AC mendorong user ke chat yang lebih jelas maksudnya. Google Analytics mendukung custom event dan custom parameter melalui Google tag atau GTM, dan parameter baru menjadi benar-benar reportable setelah didaftarkan sebagai custom dimension atau metric. Untuk traffic acquisition, Google juga tetap menggunakan standar UTM pada URL campaign masuk. citeturn28view0turn28view2turn28view1
+Dokumen ini menetapkan standar CTA WhatsApp, prefilled message, data kualifikasi lead, dan tracking GA4/gtag agar semua page type di RADJA AC mendorong user ke chat yang lebih jelas maksudnya. Google Analytics mendukung custom event dan custom parameter melalui Google tag; GTM hanya dianggap referensi umum/historis karena repo aktif memakai gtag langsung. Parameter baru menjadi benar-benar reportable setelah didaftarkan sebagai custom dimension atau metric. Untuk traffic acquisition, Google juga tetap menggunakan standar UTM pada URL campaign masuk. citeturn28view0turn28view2turn28view1
 
 ### Prinsip Utama
 
 - Gunakan **satu primary WhatsApp pathway** sitewide, kecuali owner punya keputusan resmi lain.
 - CTA harus menyebut **aksi dan konteks**, bukan sekadar “Hubungi Kami”.
 - Prefilled message harus meminta data yang cukup untuk mengkualifikasi lead, tetapi tidak terlalu panjang.
-- `wa_source` dan `wa_label` sebaiknya ditangkap sebagai **event parameters** di GA4/GTM, bukan dibebankan ke user.
+- `wa_source` dan `wa_label` sebaiknya ditangkap sebagai **event parameters** di GA4/gtag, bukan dibebankan ke user.
 - Artikel edukasi harus menjadi feeder ke money page atau konsultasi, bukan membuat user berputar-putar.
 
 ### Tabel Keputusan
@@ -45,8 +60,8 @@ Dokumen ini menetapkan standar CTA WhatsApp, prefilled message, data kualifikasi
 
 ### Aturan untuk Assistant/Codex
 
-- Simpan `wa_source`, `wa_label`, `page_type`, dan `intent_type` sebagai atribut HTML/dataLayer agar GTM dapat mengirimnya sebagai parameter event ke GA4. GA4 memang mendukung custom event parameters, tetapi agar terbaca di report/exploration, param tersebut harus didaftarkan sebagai custom dimensions. citeturn28view0turn28view2
-- Gunakan satu event utama: `wa_click`.
+- Simpan `wa_source`, `wa_label`, `page_type`, dan `intent_type` sebagai atribut HTML/dataLayer agar gtag dapat mengirimnya sebagai parameter event ke GA4. GA4 memang mendukung custom event parameters, tetapi agar terbaca di report/exploration, param tersebut harus didaftarkan sebagai custom dimensions. citeturn28view0turn28view2
+- Gunakan event aktif: `whatsapp_click`, lalu kirim `generate_lead` sebagai event lead utama.
 - Param minimum event: `wa_source`, `wa_label`, `page_type`, `intent_type`.
 - Param tambahan per context:
   - area: `city_target`
@@ -68,13 +83,15 @@ Dokumen ini menetapkan standar CTA WhatsApp, prefilled message, data kualifikasi
 
 ### Contoh Implementasi
 
-**Standar event GA4/GTM**
+**Catatan implementasi aktif:** repo saat ini hanya wajib mengirim `whatsapp_click` dan `generate_lead`. Varian placement seperti sticky atau after-calc adalah opsi masa depan jika memang diimplementasikan di source.
+
+**Standar event GA4/gtag**
 
 | Event Name | Trigger | Parameters | Tujuan |
 |---|---|---|---|
-| `wa_click` | klik link ke WhatsApp | `wa_source`, `wa_label`, `page_type`, `intent_type`, `city_target`, `brand_target`, `segment_target`, `pk_estimate_band` | Membaca sumber dan niat lead |
-| `wa_click_sticky` | klik CTA sticky mobile | semua param di atas + `placement=sticky` | Membandingkan performa sticky CTA |
-| `wa_click_after_calc` | klik CTA sesudah kalkulator | semua param di atas + `calc_result` | Menghubungkan kalkulator dengan lead |
+| `whatsapp_click` | klik link ke WhatsApp | `wa_source`, `wa_label`, `page_type`, `intent_type`, `city_target`, `brand_target`, `segment_target`, `pk_estimate_band` | Membaca sumber dan niat lead |
+| `whatsapp_click_sticky` | klik CTA sticky mobile | semua param di atas + `placement=sticky` | Membandingkan performa sticky CTA |
+| `whatsapp_click_after_calc` | klik CTA sesudah kalkulator | semua param di atas + `calc_result` | Menghubungkan kalkulator dengan lead |
 
 **Contoh markup CTA**
 
@@ -90,7 +107,7 @@ Dokumen ini menetapkan standar CTA WhatsApp, prefilled message, data kualifikasi
 </a>
 ```
 
-Markup seperti ini cocok dengan cara GA4 menerima custom event parameters melalui Google tag atau GTM. citeturn28view0
+Markup seperti ini harus disesuaikan dengan implementasi repo aktif yang mengirim event melalui gtag langsung. citeturn28view0
 
 **Pembacaan kualitas lead**
 
