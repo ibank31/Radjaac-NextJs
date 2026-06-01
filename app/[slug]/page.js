@@ -155,7 +155,7 @@ export default async function AreaPage({ params }) {
 
   const heroChips = isPurwokerto
     ? ["Showroom Pamijen", "Stok dicek hari ini", "Unit + pemasangan", "Mulai 3 jutaan"]
-    : ["Cek stok dulu", "Area dicek", "Opsi pasang dicek", "Brief via WhatsApp"];
+    : ["Cek stok dulu", "COD / DP / Transfer", "Area pengiriman dicek", "Konsultasi pemasangan"];
 
   const bulkCards = [
     ["Rumah & Kamar", `Cek AC untuk kamar tidur, ruang keluarga, dan rumah tinggal di ${item.areaName}.`],
