@@ -66,7 +66,7 @@ export default function Footer() {
           </div>
 
           <p className="mt-3 max-w-md text-sm leading-7 text-white/85">
-            AC original untuk rumah, usaha, properti, dan proyek. Admin cek PK, stok, pengiriman, pemasangan, dan kebutuhan banyak unit dari data ruangan yang dikirim.
+            AC original untuk rumah, usaha, properti, dan proyek. Tim RADJA AC cek PK, stok, pengiriman, pemasangan, dan kebutuhan banyak unit dari data ruangan yang dikirim.
           </p>
 
           <p className="mt-3 text-sm leading-7 text-white/75">
