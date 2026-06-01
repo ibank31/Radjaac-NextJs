@@ -81,7 +81,7 @@ function GoogleAnalyticsEvents() {
 
       const isWhatsAppLink = url.hostname === "wa.me" || url.hostname === "api.whatsapp.com";
 
-      if (!isWhatsAppLink || typeof window.gtag !== "function") {
+      if (!isWhatsAppLink || link.dataset.waDirect === "true" || typeof window.gtag !== "function") {
         return;
       }
 
