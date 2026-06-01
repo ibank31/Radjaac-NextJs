@@ -70,7 +70,7 @@ export default function KalkulatorPkAcPage() {
             source="Kalkulator PK AC"
             intent="kirim ukuran ruangan dan daya listrik untuk cek kebutuhan PK AC"
           >
-            Kirim Data Ruangan ke Admin
+            Kirim Data Ruangan ke RADJA AC
           </WhatsappLink>
           <Link
             href={routes.katalog}
@@ -117,10 +117,10 @@ export default function KalkulatorPkAcPage() {
         </div>
 
         <section className="mt-12 rounded-3xl border border-blue-100 bg-white p-6 text-slate-950 shadow-[0_18px_55px_rgba(15,39,66,0.08)]">
-          <h2 className="text-2xl font-black">Mau cek hasil PK ke admin?</h2>
+          <h2 className="text-2xl font-black">Mau cek hasil PK ke tim RADJA AC?</h2>
           <p className="mt-4 max-w-3xl text-sm leading-6 text-slate-600">
-            Kirim ukuran ruangan, tinggi plafon jika tahu, daya listrik, kota, budget, dan kebutuhan unit
-            saja atau sekalian opsi pemasangan. Admin RADJA AC cocokkan pilihan dari ukuran ruangan, daya listrik, dan stok.
+            Kirim ukuran ruangan, tinggi plafon jika tahu, daya listrik, kota, anggaran, dan kebutuhan unit
+            saja atau sekalian opsi pemasangan. Tim RADJA AC cocokkan pilihan dari ukuran ruangan, daya listrik, dan stok.
           </p>
           <div className="mt-6">
             <WhatsappLink

@@ -26,7 +26,7 @@ export const procurementItems = [
       "Jumlah kamar siap pasang dan kamar yang menyusul",
       "Ukuran tiap kamar, tinggi plafon, dan paparan panas",
       "Daya listrik per kamar atau per lantai",
-      "Target tipe unit: hemat budget, low watt, atau inverter",
+      "Target tipe unit: hemat anggaran, low watt, atau inverter",
       "Akses lokasi, titik outdoor, timeline kebutuhan, dan jadwal pekerjaan bertahap",
     ],
     suggestedLinks: [
@@ -89,7 +89,7 @@ export const procurementItems = [
     intro:
       "Untuk kontraktor, developer, dan proyek bangunan, kebutuhan AC biasanya terkait RAB, BOQ, jumlah titik, deadline pekerjaan, dan koordinasi lapangan. RADJA AC membantu menyusun opsi unit, kapasitas PK, stok, pengiriman, serta pemasangan dari data proyek yang dikirim.",
     segmentContext:
-      "Kebutuhan kontraktor dan developer sering memerlukan alternatif brand sesuai budget, kesiapan unit, dan jadwal kirim. Proses dimulai dari daftar titik AC, ukuran ruangan, gambar sederhana, BOQ/RAB awal, atau foto lokasi sebelum penawaran dibahas.",
+      "Kebutuhan kontraktor dan developer sering memerlukan alternatif brand sesuai anggaran, kesiapan unit, dan jadwal kirim. Proses dimulai dari daftar titik AC, ukuran ruangan, gambar sederhana, BOQ/RAB awal, atau foto lokasi sebelum penawaran dibahas.",
     coordinationNote:
       "Koordinasi lokasi atau survey dibahas sejak awal berdasarkan kebutuhan proyek, lokasi, jumlah unit, akses pekerjaan, dan jadwal. Detail teknis dicek sebelum pembelian atau pemasangan diputuskan.",
     commonNeeds: [
@@ -102,7 +102,7 @@ export const procurementItems = [
       "Jumlah titik AC, tipe ruangan, dan prioritas pekerjaan",
       "Estimasi kapasitas PK per titik berdasarkan fungsi ruang",
       "Ketersediaan daya listrik dan batasan teknis lokasi",
-      "Brand pembanding untuk RAB, budget, dan kesiapan stok",
+      "Brand pembanding untuk RAB, anggaran, dan kesiapan stok",
       "Akses lokasi, jadwal proyek, dan kebutuhan dokumentasi pengiriman",
     ],
     suggestedLinks: [

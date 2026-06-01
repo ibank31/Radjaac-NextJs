@@ -1,7 +1,7 @@
 import { buildWhatsAppUrl } from "@/lib/whatsapp";
 
 export default function WhatsappLink({
-  children = "Chat Admin RADJA AC",
+  children = "Chat Tim RADJA AC",
   className = "",
   intent = "konsultasi beli AC",
   source = "Website RADJA AC",

@@ -37,7 +37,7 @@ export default function ArtikelPage() {
               Artikel RADJA AC
             </p>
             <h1 className="mt-6 max-w-4xl text-4xl font-black leading-tight tracking-[-0.04em] md:text-6xl">
-              Panduan beli AC yang tidak bikin bingung sebelum chat admin
+              Panduan beli AC yang tidak bikin bingung sebelum chat RADJA AC
             </h1>
             <p className="mt-6 max-w-3xl text-base leading-8 text-blue-50/90 sm:text-lg">
               Mulai dari PK, ukuran ruangan, daya listrik, inverter vs low watt, instalasi, sampai tanda kapan AC lama perlu dievaluasi. Baca dulu, lalu kirim brief WhatsApp yang lebih jelas.
@@ -88,7 +88,7 @@ export default function ArtikelPage() {
             <div className="mt-5 rounded-2xl bg-white p-4 text-slate-950">
               <p className="text-sm font-black">Brief WA yang bagus berisi:</p>
               <p className="mt-2 text-sm leading-6 text-slate-600">
-                ukuran ruangan, daya listrik, kota, budget awal, jumlah unit, dan butuh pemasangan atau tidak.
+                ukuran ruangan, daya listrik, kota, anggaran awal, jumlah unit, dan butuh pemasangan atau tidak.
               </p>
             </div>
           </aside>
@@ -190,7 +190,7 @@ export default function ArtikelPage() {
             Sudah baca? Lanjutkan dengan data ruangan
           </h2>
           <p className="mx-auto mb-7 max-w-2xl text-sm leading-7 text-slate-600">
-            Kirim ukuran ruangan, daya listrik, kota, budget, dan brand yang diminati. Admin RADJA AC cocokkan pilihan dari data itu.
+            Kirim ukuran ruangan, daya listrik, kota, anggaran, dan brand yang diminati. Tim RADJA AC cocokkan pilihan dari data itu.
           </p>
           <WhatsappLink
             className="inline-flex items-center justify-center rounded-full bg-[#25D366] px-6 py-4 font-black text-slate-950 shadow-[0_16px_40px_rgba(37,211,102,0.20)] transition hover:-translate-y-0.5 hover:bg-[#20BA5A]"

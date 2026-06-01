@@ -23,7 +23,7 @@ const heroCards = [
   ["Low watt", "Daya terbatas atau MCB sering turun"],
 ];
 
-const budgetPackages = [
+const anggaranPackages = [
   ["Mulai 3 jutaan", "Opsi standard/value berdasarkan stok aktif"],
   ["3–4 jutaan", "Pilihan populer untuk rumah dan toko kecil"],
   ["Mulai 4 jutaan", "Inverter, kapasitas lebih besar, atau brand premium"],
@@ -87,7 +87,7 @@ export default function KatalogPage() {
             </h1>
 
             <p className="mb-6 max-w-xl text-sm leading-7 text-slate-600 sm:text-base">
-              Kamar kecil, ruang keluarga, kost, toko, kantor, dan banyak unit punya hitungan berbeda. Kirim ukuran ruangan dan daya listrik; admin cek PK, stok, pengiriman, dan pemasangan sebelum lanjut pembelian.
+              Kamar kecil, ruang keluarga, kost, toko, kantor, dan banyak unit punya hitungan berbeda. Kirim ukuran ruangan dan daya listrik; tim RADJA AC cek PK, stok, pengiriman, dan pemasangan sebelum lanjut pembelian.
             </p>
 
             <div className="flex flex-col gap-3 sm:flex-row sm:flex-wrap">
@@ -104,7 +104,7 @@ export default function KatalogPage() {
             </div>
 
             <p className="mt-4 max-w-xl text-sm leading-6 text-slate-500">
-              Mulai konsultasi dari data ruangan. Kirim ukuran ruangan, daya listrik, lokasi, dan budget — admin mengecek stok, kisaran harga, pengiriman, dan opsi pemasangan.
+              Mulai konsultasi dari data ruangan. Kirim ukuran ruangan, daya listrik, lokasi, dan anggaran — tim RADJA AC mengecek stok, kisaran harga, pengiriman, dan opsi pemasangan.
             </p>
           </div>
 
@@ -126,7 +126,7 @@ export default function KatalogPage() {
               </div>
               <div className="mt-4 rounded-2xl border border-blue-100 bg-blue-50 p-4">
                 <p className="text-sm font-black text-slate-950">Mulai dari data ruangan</p>
-                <p className="mt-1 text-xs leading-5 text-slate-600">Kirim ukuran ruangan, daya listrik, dan lokasi. Admin cocokkan kategori AC, kapasitas PK, dan stok yang tersedia.</p>
+                <p className="mt-1 text-xs leading-5 text-slate-600">Kirim ukuran ruangan, daya listrik, dan lokasi. Tim RADJA AC mencocokkan kategori AC, kapasitas PK, dan stok yang tersedia.</p>
               </div>
             </div>
           </div>
@@ -135,12 +135,12 @@ export default function KatalogPage() {
 
       <section className="mx-auto max-w-7xl px-4 py-7 sm:px-6 lg:px-8 lg:py-10">
         <div className="rounded-[1.7rem] border border-slate-200 bg-white p-5 shadow-[0_18px_50px_rgba(15,39,66,0.08)] sm:p-6 lg:p-7">
-          <SectionTitle eyebrow="Estimasi Budget AC + Pasang" title="Pilih AC dari budget, PK, dan kondisi ruangan" description="Gunakan sebagai patokan awal. Admin cek angka dari tipe unit, stok, promo, alamat, dan kebutuhan pemasangan." />
+          <SectionTitle eyebrow="Estimasi Anggaran AC + Pasang" title="Pilih AC dari anggaran, PK, dan kondisi ruangan" description="Gunakan sebagai patokan awal. Tim RADJA AC cek angka dari tipe unit, stok, promo, alamat, dan kebutuhan pemasangan." />
 
           <div className="grid gap-3 md:grid-cols-3">
-            {budgetPackages.map(([budget, note]) => (
-              <div key={budget} className="rounded-[1.35rem] border border-slate-200 bg-[#f8fbff] p-4 text-center">
-                <p className="mb-3 text-2xl font-black text-slate-950">{budget}</p>
+            {anggaranPackages.map(([anggaran, note]) => (
+              <div key={anggaran} className="rounded-[1.35rem] border border-slate-200 bg-[#f8fbff] p-4 text-center">
+                <p className="mb-3 text-2xl font-black text-slate-950">{anggaran}</p>
                 <p className="rounded-2xl border border-slate-200 bg-white px-3 py-3 text-sm font-semibold leading-6 text-slate-600">{note}</p>
               </div>
             ))}
@@ -159,7 +159,7 @@ export default function KatalogPage() {
           </div>
 
           <p className="mx-auto mt-4 max-w-2xl text-center text-xs leading-6 text-slate-500 sm:text-sm">
-            Admin cek harga dari merek, PK, stok, promo, alamat pengiriman, panjang pipa, posisi outdoor, dan kebutuhan pemasangan tambahan sebelum pembelian.
+            Tim RADJA AC cek harga dari merek, PK, stok, promo, alamat pengiriman, panjang pipa, posisi outdoor, dan kebutuhan pemasangan tambahan sebelum pembelian.
           </p>
         </div>
       </section>
@@ -207,9 +207,9 @@ export default function KatalogPage() {
 
       <section className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8 lg:py-14">
         <div className="rounded-[1.7rem] border border-slate-200 bg-white p-6 text-center shadow-[0_18px_50px_rgba(15,39,66,0.08)] sm:p-8 lg:p-10">
-          <h2 className="mx-auto mb-5 max-w-3xl text-3xl font-black tracking-[-0.03em] text-slate-950 sm:text-4xl">Brand tinggal disesuaikan dengan kebutuhan dan budget</h2>
+          <h2 className="mx-auto mb-5 max-w-3xl text-3xl font-black tracking-[-0.03em] text-slate-950 sm:text-4xl">Brand tinggal disesuaikan dengan kebutuhan dan anggaran</h2>
           <p className="mx-auto mb-4 max-w-2xl text-sm leading-7 text-slate-600 sm:text-base">
-            Pilihan brand dibaca dari ukuran ruangan, daya listrik, budget, dan stok aktif.
+            Pilihan brand dibaca dari ukuran ruangan, daya listrik, anggaran, dan stok aktif.
           </p>
           <div className="flex flex-wrap justify-center gap-2.5">
             {brandLinks.map(([label, href]) => (
@@ -225,7 +225,7 @@ export default function KatalogPage() {
         <div className="rounded-[1.7rem] border border-[#25D366]/20 bg-[#25D366]/10 p-6 text-center shadow-[0_18px_50px_rgba(15,39,66,0.08)] sm:p-10 lg:p-14">
           <h2 className="mx-auto mb-5 max-w-3xl text-3xl font-black tracking-[-0.03em] text-slate-950 sm:text-4xl lg:text-5xl">Mulai dari data ruangan</h2>
           <p className="mx-auto mb-6 max-w-2xl leading-7 text-slate-700">
-            Kirim ukuran ruangan, daya listrik, lokasi pengiriman, dan perkiraan budget. Admin RADJA AC cocokkan kategori, brand, dan tipe AC yang tersedia.
+            Kirim ukuran ruangan, daya listrik, lokasi pengiriman, dan perkiraan anggaran. Tim RADJA AC cocokkan kategori, brand, dan tipe AC yang tersedia.
           </p>
           <WhatsappLink
             className="inline-flex items-center justify-center rounded-full bg-[#25D366] px-6 py-4 font-black text-slate-950 shadow-[0_14px_34px_rgba(37,211,102,0.20)] transition hover:-translate-y-0.5 hover:bg-[#20BA5A]"

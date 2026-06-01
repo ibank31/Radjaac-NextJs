@@ -96,11 +96,11 @@ export default async function BrandDetailPage({ params }) {
     : ["Cek stok dulu", "Rekomendasi PK", "Pengiriman unit", "Opsi pemasangan"];
 
   const faqItems = [
-    [`Apakah RADJA AC menyediakan ${item.label} original?`, `RADJA AC menyediakan ${item.label} original. Admin cek tipe, harga, stok, pengiriman, pemasangan, dan garansi unit sebelum pembelian.`],
-    [`Berapa harga ${item.label} terbaru?`, "Harga mengikuti kapasitas PK, tipe unit, stok, promo, alamat pengiriman, dan kebutuhan pemasangan. Kirim kebutuhan lewat WhatsApp agar admin cek estimasi terbaru."],
+    [`Apakah RADJA AC menyediakan ${item.label} original?`, `RADJA AC menyediakan ${item.label} original. Tim RADJA AC cek tipe, harga, stok, pengiriman, pemasangan, dan garansi unit sebelum pembelian.`],
+    [`Berapa harga ${item.label} terbaru?`, "Harga mengikuti kapasitas PK, tipe unit, stok, promo, alamat pengiriman, dan kebutuhan pemasangan. Kirim kebutuhan lewat WhatsApp agar tim RADJA AC cek estimasi terbaru."],
     [`${item.label} cocok untuk ruangan apa?`, "Kecocokan ditentukan oleh ukuran ruangan, tinggi plafon, paparan panas matahari, daya listrik, dan pola pemakaian."],
-    ["Beli unit saja tanpa pemasangan", "Kirim tipe unit, alamat, jumlah unit, dan kebutuhan pengiriman. Admin cek stok aktif dan jadwal."],
-    ["Apa saja data yang perlu dikirim ke admin?", "Kirim ukuran ruangan, daya listrik, jenis ruangan, jumlah unit, preferensi tipe, lokasi, dan foto titik indoor-outdoor bila ingin opsi pemasangan."],
+    ["Beli unit saja tanpa pemasangan", "Kirim tipe unit, alamat, jumlah unit, dan kebutuhan pengiriman. Tim RADJA AC cek stok aktif dan jadwal."],
+    ["Apa saja data yang perlu dikirim ke tim RADJA AC?", "Kirim ukuran ruangan, daya listrik, jenis ruangan, jumlah unit, preferensi tipe, lokasi, dan foto titik indoor-outdoor bila ingin opsi pemasangan."],
   ];
 
   return (
@@ -123,7 +123,7 @@ export default async function BrandDetailPage({ params }) {
 
             <p className="mb-4 max-w-2xl text-sm leading-7 text-slate-600 sm:text-base">{item.intro}</p>
             <p className="mb-6 max-w-2xl text-sm leading-7 text-slate-500 sm:text-base">
-              Admin cek stok, tipe, harga, pengiriman, dan opsi pemasangan sebelum pembelian.
+              Tim RADJA AC cek stok, tipe, harga, pengiriman, dan opsi pemasangan sebelum pembelian.
             </p>
 
             <div className="mb-4 flex flex-col gap-3 sm:flex-row sm:flex-wrap">
@@ -192,7 +192,7 @@ export default async function BrandDetailPage({ params }) {
 
             <div className="grid gap-3 sm:grid-cols-2">
               <div className="rounded-[1.35rem] border border-slate-200 bg-white px-5 py-4 text-sm font-bold text-slate-700 shadow-sm">
-                Stok dicek admin
+                Stok dicek tim RADJA AC
               </div>
               <div className="rounded-[1.35rem] border border-slate-200 bg-white px-5 py-4 text-sm font-bold text-slate-700 shadow-sm">
                 Garansi unit mengikuti ketentuan brand
@@ -227,7 +227,7 @@ export default async function BrandDetailPage({ params }) {
                 </h2>
 
                 <p className="mt-5 max-w-2xl text-sm leading-7 text-slate-600 sm:text-base">
-                  RADJA AC memiliki dukungan Proshop Gree. Untuk pembelian AC Gree, admin cek pilihan
+                  RADJA AC memiliki dukungan Proshop Gree. Untuk pembelian AC Gree, tim RADJA AC cek pilihan
                   standard, low watt, inverter, kapasitas PK, stok unit, pengiriman, opsi pemasangan, dan alur
                   bantuan klaim sesuai ketentuan brand.
                 </p>
@@ -246,7 +246,7 @@ export default async function BrandDetailPage({ params }) {
                 </div>
 
                 <div className="mt-6 rounded-2xl border border-blue-200 bg-blue-50 px-4 py-4 text-sm leading-7 text-blue-900">
-                  Admin cek status, tipe unit, harga, promo, ketersediaan stok, dan ketentuan garansi
+                  Tim RADJA AC cek status, tipe unit, harga, promo, ketersediaan stok, dan ketentuan garansi
                   dari data terbaru.
                 </div>
 
@@ -280,7 +280,7 @@ export default async function BrandDetailPage({ params }) {
         <SectionTitle
           eyebrow="Garansi & Bantuan Klaim"
           title={`Beli ${item.label}, jangan berhenti di unit saja`}
-          description="Garansi unit mengikuti ketentuan resmi brand. Untuk opsi pemasangan, kebutuhan material, pengiriman, dan bantuan awal klaim, admin akan menjelaskan alurnya sebelum pembelian."
+          description="Garansi unit mengikuti ketentuan resmi brand. Untuk opsi pemasangan, kebutuhan material, pengiriman, dan bantuan awal klaim, tim RADJA AC akan menjelaskan alurnya sebelum pembelian."
         />
 
         <div className="grid gap-5 md:grid-cols-3">
@@ -322,14 +322,14 @@ export default async function BrandDetailPage({ params }) {
                 <div key={variant} className="rounded-2xl border border-slate-200 bg-[#f8fbff] p-4">
                   <div className="mb-1 text-sm font-black text-blue-700">{item.name} {variant}</div>
                   <p className="text-sm leading-6 text-slate-600">
-                    Kecocokan tipe ini dibaca dari ukuran ruangan, daya listrik, jam pemakaian, budget, dan stok terbaru.
+                    Kecocokan tipe ini dibaca dari ukuran ruangan, daya listrik, jam pemakaian, anggaran, dan stok terbaru.
                   </p>
                 </div>
               ))}
             </div>
 
             <p className="mt-4 text-xs leading-6 text-slate-500">
-              Estimasi jadi patokan awal. Admin cek stok, tipe, harga, pengiriman, dan kebutuhan pemasangan terbaru.
+              Estimasi jadi patokan awal. Tim RADJA AC cek stok, tipe, harga, pengiriman, dan kebutuhan pemasangan terbaru.
             </p>
           </div>
         </div>
@@ -348,7 +348,7 @@ export default async function BrandDetailPage({ params }) {
               <p className="mb-3 text-xs font-black uppercase tracking-[0.18em] text-blue-700">Tipe {item.name}</p>
               <h3 className="mb-3 text-2xl font-black text-slate-950">{variant}</h3>
               <p className="text-sm leading-7 text-slate-600">
-                Cek kecocokan {variant.toLowerCase()} berdasarkan ruangan, daya listrik, budget, dan stok terbaru.
+                Cek kecocokan {variant.toLowerCase()} berdasarkan ruangan, daya listrik, anggaran, dan stok terbaru.
               </p>
               <WhatsappLink
                 className="mt-5 inline-flex rounded-full bg-[#25D366] px-5 py-3 text-sm font-black text-slate-950 shadow-[0_14px_34px_rgba(37,211,102,0.18)] transition hover:-translate-y-0.5 hover:bg-[#20BA5A]"
@@ -364,7 +364,7 @@ export default async function BrandDetailPage({ params }) {
       </section>
 
       <section className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8 lg:py-14">
-        <SectionTitle eyebrow="Checklist Sebelum Chat" title="Agar admin bisa cek stok dan estimasi lebih cepat" />
+        <SectionTitle eyebrow="Checklist Sebelum Chat" title="Agar tim RADJA AC bisa cek stok dan estimasi lebih cepat" />
 
         <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
           {checklist.map((point) => (
@@ -445,7 +445,7 @@ export default async function BrandDetailPage({ params }) {
             Mau cek stok {item.label} terbaru?
           </h2>
           <p className="mx-auto mb-7 max-w-2xl text-sm leading-7 text-slate-700">
-            Kirim ukuran ruangan, daya listrik, lokasi, budget, dan kebutuhan pemasangan. Admin mengecek stok, tipe, estimasi, pengiriman, dan opsi pemasangan sebelum pembelian.
+            Kirim ukuran ruangan, daya listrik, lokasi, anggaran, dan kebutuhan pemasangan. Tim RADJA AC mengecek stok, tipe, estimasi, pengiriman, dan opsi pemasangan sebelum pembelian.
           </p>
           <WhatsappLink
             className="inline-flex items-center justify-center rounded-full bg-[#25D366] px-6 py-4 font-black text-slate-950 shadow-[0_18px_42px_rgba(37,211,102,0.20)] transition hover:-translate-y-0.5 hover:bg-[#20BA5A]"
