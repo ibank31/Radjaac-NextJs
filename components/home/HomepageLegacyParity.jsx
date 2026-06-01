@@ -53,17 +53,17 @@ const whyChooseItems = [
   },
 ];
 
-const budgetPackages = [
+const pricePackages = [
   {
-    budget: "3 Jutaan",
+    range: "3 Jutaan",
     brands: "Hisense • Aqua • Midea • Sharp • LG • TCL • Polytron",
   },
   {
-    budget: "4 Jutaan",
+    range: "4 Jutaan",
     brands: "Daikin Standard • Gree • Panasonic • Mitsubishi • Samsung • Midea Inverter",
   },
   {
-    budget: "5 Jutaan+",
+    range: "5 Jutaan+",
     brands: "Daikin Inverter • Gree Inverter",
   },
 ];
@@ -382,15 +382,15 @@ function HomePriceEstimate() {
         </div>
 
         <div className="grid gap-4 md:grid-cols-3">
-          {budgetPackages.map((item) => (
+          {pricePackages.map((item) => (
             <div
-              key={item.budget}
+              key={item.range}
               className="rounded-[1.6rem] border border-slate-200 bg-slate-50 p-5 text-center transition hover:-translate-y-0.5 hover:bg-white hover:shadow-lg"
             >
               <div className="mx-auto mb-4 flex h-11 w-11 items-center justify-center rounded-2xl border border-blue-100 bg-blue-50 font-black text-blue-700">
                 ✓
               </div>
-              <h3 className="mb-4 text-3xl font-black text-blue-950">{item.budget}</h3>
+              <h3 className="mb-4 text-3xl font-black text-blue-950">{item.range}</h3>
               <p className="rounded-2xl border border-blue-100 bg-white px-4 py-4 text-sm font-semibold leading-7 text-slate-700">
                 {item.brands}
               </p>
@@ -574,7 +574,7 @@ function HomeBrands() {
       <p className="mb-7 max-w-3xl text-sm leading-7 text-slate-600 sm:text-base">
         Gree punya value kuat dan RADJA AC tercantum sebagai Proshop Gree resmi. Daikin cocok untuk
         ketenangan jangka panjang, Midea populer karena harga masuk, Hisense modern, Sansui untuk kebutuhan
-        ekonomis, dan brand lain dicek dari stok aktif. Kirim ukuran ruangan dan daya listrik — admin cocokkan pilihan dari data itu.
+        ekonomis, dan brand lain dicek dari stok aktif. Kirim ukuran ruangan dan daya listrik — tim RADJA AC mencocokkan pilihan dari data itu.
       </p>
 
       <div className="mb-8 grid grid-cols-2 gap-4 md:grid-cols-4 lg:grid-cols-8">
