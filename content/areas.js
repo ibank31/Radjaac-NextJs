@@ -195,6 +195,388 @@ export const areaItems = [
       ],
     },
     {
+      slug: "jual-ac-wangon",
+      path: routes.jualAcWangon,
+      areaName: "Wangon",
+      label: "Jual AC Wangon",
+      title: "Jual AC Wangon untuk Rumah, Toko & Usaha — RADJA AC",
+      description:
+        "Butuh AC untuk rumah, toko, ruko, kantor kecil, atau usaha di Wangon? RADJA AC cek kebutuhan PK, stok, pengiriman unit, dan opsi pemasangan via WhatsApp.",
+      h1: "Jual AC Wangon untuk Rumah, Toko & Usaha",
+      eyebrow: "Area Banyumas Barat & Jalur Selatan",
+      intro:
+        "Butuh AC di Wangon untuk rumah, toko, warung, ruko, kantor kecil, atau ruang usaha? Tim RADJA AC cek ukuran ruangan, daya listrik, pilihan brand, stok unit, pengiriman, dan opsi pemasangan sebelum pembelian.",
+      localContext:
+        "Wangon berada di jalur penting Banyumas bagian barat dan selatan, dengan kebutuhan AC dari rumah tinggal, toko, warung, ruko, kantor kecil, sampai usaha harian. Karena kebutuhan kamar, ruang keluarga, dan tempat usaha berbeda, tim RADJA AC akan membaca ukuran ruangan, daya listrik, jumlah unit, anggaran, serta kebutuhan unit saja atau opsi pemasangan.",
+      coverageNote:
+        "Showroom dan gudang RADJA AC berada di Pamijen, Sokaraja, Banyumas. Untuk area Wangon, pengiriman unit dan opsi pemasangan dikonfirmasi dari alamat detail, stok, jumlah unit, akses lokasi, dan jadwal.",
+      commonNeeds: [
+        "AC rumah tinggal, kamar tidur, dan ruang keluarga",
+        "AC toko, warung, ruko, dan ruang usaha kecil",
+        "AC kontrakan, rumah sewa, dan bangunan pinggir jalan utama",
+        "Pembelian beberapa unit untuk usaha lokal atau proyek ringan",
+      ],
+      buyingChecks: [
+        "Alamat detail area Wangon untuk estimasi pengiriman",
+        "Ukuran ruangan, tinggi plafon, dan kondisi panas matahari",
+        "Daya listrik dan kebutuhan standard, low watt, atau inverter",
+        "Jumlah unit, anggaran, preferensi brand, dan kebutuhan pemasangan",
+      ],
+      relatedLinks: [
+        ["Jual AC Purwokerto", routes.jualAcPurwokerto],
+        ["Jual AC Banyumas", routes.jualAcBanyumas],
+        ["Jual AC Ajibarang", routes.jualAcAjibarang],
+        ["Katalog AC", routes.katalog],
+        ["Kalkulator PK AC", routes.kalkulatorPkAc],
+        ["AC Low Watt", routes.katalogAcLowWatt],
+        ["AC Gree", routes.brandGree],
+        ["Kontak RADJA AC", routes.kontak],
+      ],
+      ctaLabel: "Chat WhatsApp untuk cek stok AC Wangon",
+      waIntent: "cek stok AC Wangon dengan data ukuran ruangan daya listrik jumlah unit dan kebutuhan pemasangan",
+      waArea: "Wangon",
+      keywordVariants: [
+        "jual AC Wangon",
+        "toko AC Wangon",
+        "beli AC Wangon",
+        "pengiriman AC Wangon",
+        "pemasangan AC Wangon",
+        "AC rumah Wangon",
+        "AC toko Wangon",
+        "AC ruko Wangon",
+      ],
+      nearbyAreaLinks: [
+        ["Ajibarang", routes.jualAcAjibarang],
+        ["Rawalo", routes.jualAcRawalo],
+        ["Patikraja", routes.jualAcPatikraja],
+        ["Banyumas", routes.jualAcBanyumas],
+      ],
+      trustBullets: [
+        "Wangon dilayani dari showroom dan gudang RADJA AC di Pamijen, Sokaraja, Banyumas.",
+        "Bukti aktivitas RADJA AC bisa dicek melalui dokumentasi pengiriman, stok fisik, dan pemasangan.",
+        "Untuk area Wangon, kebutuhan AC dicek dari alamat detail, ukuran ruangan, daya listrik, jumlah unit, dan opsi pemasangan.",
+      ],
+      localFaq: [
+        [
+          "Apakah RADJA AC melayani pengiriman AC ke Wangon?",
+          "Area Wangon bisa dikonsultasikan melalui WhatsApp. Tim RADJA AC akan mengecek alamat detail, stok unit, pengiriman, dan opsi pemasangan sebelum pembelian.",
+        ],
+        [
+          "Data apa yang perlu dikirim untuk cek AC Wangon?",
+          "Kirim ukuran ruangan, daya listrik, jumlah unit, alamat area Wangon, kebutuhan unit saja atau pemasangan, dan preferensi brand bila ada.",
+        ],
+        [
+          "Apakah bisa beli AC untuk toko atau ruko di Wangon?",
+          "Bisa dikonsultasikan. Untuk toko, ruko, warung, atau ruang usaha, tim RADJA AC akan mengecek ukuran ruangan, jam pemakaian, daya listrik, dan kebutuhan pemasangan.",
+        ],
+      ],
+    },
+    {
+      slug: "jual-ac-karanglewas",
+      path: routes.jualAcKaranglewas,
+      areaName: "Karanglewas",
+      label: "Jual AC Karanglewas",
+      title: "Jual AC Karanglewas untuk Rumah, Kost & Usaha — RADJA AC",
+      description:
+        "Butuh AC untuk rumah, kost, toko, kantor kecil, atau usaha di Karanglewas? RADJA AC cek kebutuhan PK, stok, pengiriman unit, dan opsi pemasangan via WhatsApp.",
+      h1: "Jual AC Karanglewas untuk Rumah, Kost & Usaha",
+      eyebrow: "Area Ring Purwokerto",
+      intro:
+        "Butuh AC di Karanglewas untuk rumah, kamar, kost, toko, kantor kecil, atau usaha? Tim RADJA AC cek ukuran ruangan, daya listrik, pilihan brand, stok unit, pengiriman, dan opsi pemasangan sebelum pembelian.",
+      localContext:
+        "Karanglewas termasuk area ring Purwokerto yang banyak berhubungan dengan kebutuhan rumah tinggal, perumahan, kost, toko, dan usaha harian. Agar pilihan AC tidak asal dari harga awal saja, tim RADJA AC membaca ukuran ruangan, daya listrik, pola pemakaian, jumlah unit, dan kebutuhan pemasangan.",
+      coverageNote:
+        "Showroom dan gudang RADJA AC berada di Pamijen, Sokaraja, Banyumas. Untuk area Karanglewas, pengiriman unit dan opsi pemasangan dikonfirmasi dari alamat detail, stok, jumlah unit, dan jadwal.",
+      commonNeeds: [
+        "AC rumah tinggal, kamar tidur, dan ruang keluarga",
+        "AC kost, kontrakan, dan rumah sewa",
+        "AC toko, kantor kecil, dan ruang usaha",
+        "Pembelian beberapa unit untuk rumah banyak ruangan atau usaha lokal",
+      ],
+      buyingChecks: [
+        "Alamat detail area Karanglewas untuk estimasi pengiriman",
+        "Ukuran ruangan, tinggi plafon, dan paparan panas matahari",
+        "Daya listrik dan kebutuhan standard, low watt, atau inverter",
+        "Jumlah unit, anggaran, preferensi brand, dan kebutuhan pemasangan",
+      ],
+      relatedLinks: [
+        ["Jual AC Purwokerto", routes.jualAcPurwokerto],
+        ["Jual AC Baturraden", routes.jualAcBaturraden],
+        ["Katalog AC", routes.katalog],
+        ["Kalkulator PK AC", routes.kalkulatorPkAc],
+        ["AC Split Rumah", routes.katalogAcSplitRumah],
+        ["AC Inverter", routes.katalogAcInverter],
+        ["AC Daikin", routes.brandDaikin],
+        ["Kontak RADJA AC", routes.kontak],
+      ],
+      ctaLabel: "Chat WhatsApp untuk cek stok AC Karanglewas",
+      waIntent: "cek stok AC Karanglewas dengan data ukuran ruangan daya listrik jumlah unit dan kebutuhan pemasangan",
+      waArea: "Karanglewas",
+      keywordVariants: [
+        "jual AC Karanglewas",
+        "toko AC Karanglewas",
+        "beli AC Karanglewas",
+        "pengiriman AC Karanglewas",
+        "pemasangan AC Karanglewas",
+        "AC rumah Karanglewas",
+        "AC kost Karanglewas",
+      ],
+      nearbyAreaLinks: [
+        ["Purwokerto", routes.jualAcPurwokerto],
+        ["Baturraden", routes.jualAcBaturraden],
+        ["Kembaran", routes.jualAcKembaran],
+        ["Sokaraja", routes.jualAcSokaraja],
+      ],
+      trustBullets: [
+        "Karanglewas dilayani dari showroom dan gudang RADJA AC di Pamijen, Sokaraja, Banyumas.",
+        "Pembeli bisa melihat bukti aktivitas RADJA AC melalui dokumentasi pengiriman, stok fisik, dan pemasangan.",
+        "Untuk area Karanglewas, kebutuhan AC dicek dari ukuran ruangan, daya listrik, alamat detail, jumlah unit, dan opsi pemasangan.",
+      ],
+      localFaq: [
+        [
+          "Apakah RADJA AC melayani pengiriman AC ke Karanglewas?",
+          "Area Karanglewas bisa dikonsultasikan melalui WhatsApp. Tim RADJA AC akan mengecek alamat detail, stok unit, pengiriman, dan opsi pemasangan sebelum pembelian.",
+        ],
+        [
+          "Data apa yang perlu dikirim untuk cek AC Karanglewas?",
+          "Kirim ukuran ruangan, daya listrik, jumlah unit, alamat area Karanglewas, kebutuhan unit saja atau pemasangan, dan preferensi brand bila ada.",
+        ],
+        [
+          "Apakah bisa cek AC untuk kost atau rumah di Karanglewas?",
+          "Bisa dikonsultasikan. Tim RADJA AC akan membaca ukuran kamar, daya listrik, jumlah unit, jam pemakaian, dan kebutuhan pemasangan.",
+        ],
+      ],
+    },
+    {
+      slug: "jual-ac-kembaran",
+      path: routes.jualAcKembaran,
+      areaName: "Kembaran",
+      label: "Jual AC Kembaran",
+      title: "Jual AC Kembaran untuk Rumah, Kost & Usaha — RADJA AC",
+      description:
+        "Butuh AC untuk rumah, kost, kontrakan, toko, atau usaha di Kembaran? RADJA AC cek kebutuhan PK, stok, pengiriman unit, dan opsi pemasangan via WhatsApp.",
+      h1: "Jual AC Kembaran untuk Rumah, Kost & Usaha",
+      eyebrow: "Area Kampus & Hunian Banyumas",
+      intro:
+        "Butuh AC di Kembaran untuk rumah, kost, kontrakan, toko, atau usaha? Tim RADJA AC cek ukuran ruangan, daya listrik, pilihan brand, stok unit, pengiriman, dan opsi pemasangan sebelum pembelian.",
+      localContext:
+        "Kembaran punya kebutuhan AC dari rumah tinggal, kost, kontrakan, toko, dan ruang usaha. Untuk pemakaian kamar harian atau banyak kamar, pilihan AC perlu dibaca dari ukuran ruangan, daya listrik, pola pemakaian, jumlah unit, anggaran, dan kebutuhan pemasangan.",
+      coverageNote:
+        "Showroom dan gudang RADJA AC berada di Pamijen, Sokaraja, Banyumas. Untuk area Kembaran, pengiriman unit dan opsi pemasangan dikonfirmasi dari alamat detail, stok, jumlah unit, dan jadwal.",
+      commonNeeds: [
+        "AC rumah tinggal, kamar tidur, dan ruang keluarga",
+        "AC kost, kontrakan, dan rumah sewa",
+        "AC toko, kantor kecil, dan ruang usaha",
+        "Pembelian beberapa unit untuk kamar sewa atau bangunan banyak ruangan",
+      ],
+      buyingChecks: [
+        "Alamat detail area Kembaran untuk estimasi pengiriman",
+        "Ukuran ruangan, jumlah kamar, dan jam pemakaian",
+        "Daya listrik dan kebutuhan standard, low watt, atau inverter",
+        "Jumlah unit, anggaran, preferensi brand, dan kebutuhan pemasangan",
+      ],
+      relatedLinks: [
+        ["Jual AC Purwokerto", routes.jualAcPurwokerto],
+        ["Jual AC Sokaraja", routes.jualAcSokaraja],
+        ["Katalog AC", routes.katalog],
+        ["Kalkulator PK AC", routes.kalkulatorPkAc],
+        ["AC Low Watt", routes.katalogAcLowWatt],
+        ["Pengadaan AC Kost & Apartemen", routes.pengadaanKostApartemen],
+        ["AC Gree", routes.brandGree],
+        ["Kontak RADJA AC", routes.kontak],
+      ],
+      ctaLabel: "Chat WhatsApp untuk cek stok AC Kembaran",
+      waIntent: "cek stok AC Kembaran dengan data ukuran ruangan daya listrik jumlah unit dan kebutuhan pemasangan",
+      waArea: "Kembaran",
+      keywordVariants: [
+        "jual AC Kembaran",
+        "toko AC Kembaran",
+        "beli AC Kembaran",
+        "pengiriman AC Kembaran",
+        "pemasangan AC Kembaran",
+        "AC kost Kembaran",
+        "AC kontrakan Kembaran",
+      ],
+      nearbyAreaLinks: [
+        ["Purwokerto", routes.jualAcPurwokerto],
+        ["Sokaraja", routes.jualAcSokaraja],
+        ["Karanglewas", routes.jualAcKaranglewas],
+        ["Banyumas", routes.jualAcBanyumas],
+      ],
+      trustBullets: [
+        "Kembaran dilayani dari showroom dan gudang RADJA AC di Pamijen, Sokaraja, Banyumas.",
+        "Untuk kost, kontrakan, atau bangunan banyak kamar, jumlah ruangan dan daya listrik perlu dicek sejak awal.",
+        "Bukti aktivitas RADJA AC bisa dicek melalui dokumentasi pengiriman, stok fisik, dan pemasangan.",
+      ],
+      localFaq: [
+        [
+          "Apakah RADJA AC melayani pengiriman AC ke Kembaran?",
+          "Area Kembaran bisa dikonsultasikan melalui WhatsApp. Tim RADJA AC akan mengecek alamat detail, stok unit, pengiriman, dan opsi pemasangan sebelum pembelian.",
+        ],
+        [
+          "Apakah bisa cek AC untuk kost di Kembaran?",
+          "Bisa dikonsultasikan. Kirim jumlah kamar, ukuran ruangan, daya listrik, kebutuhan unit saja atau pemasangan, dan target anggaran.",
+        ],
+        [
+          "Data apa yang perlu dikirim untuk cek AC Kembaran?",
+          "Kirim ukuran ruangan, daya listrik, jumlah unit, alamat area Kembaran, kebutuhan unit saja atau pemasangan, dan preferensi brand bila ada.",
+        ],
+      ],
+    },
+    {
+      slug: "jual-ac-patikraja",
+      path: routes.jualAcPatikraja,
+      areaName: "Patikraja",
+      label: "Jual AC Patikraja",
+      title: "Jual AC Patikraja untuk Rumah, Toko & Usaha — RADJA AC",
+      description:
+        "Butuh AC untuk rumah, toko, kantor kecil, atau usaha di Patikraja? RADJA AC cek kebutuhan PK, stok, pengiriman unit, dan opsi pemasangan via WhatsApp.",
+      h1: "Jual AC Patikraja untuk Rumah, Toko & Usaha",
+      eyebrow: "Area Selatan Purwokerto",
+      intro:
+        "Butuh AC di Patikraja untuk rumah, toko, kantor kecil, atau usaha? Tim RADJA AC cek ukuran ruangan, daya listrik, pilihan brand, stok unit, pengiriman, dan opsi pemasangan sebelum pembelian.",
+      localContext:
+        "Patikraja menjadi area selatan Purwokerto dengan kebutuhan AC dari rumah tinggal, toko, ruang usaha, dan bangunan keluarga. Agar pilihan unit tidak asal, tim RADJA AC membaca ukuran ruangan, daya listrik, pola pemakaian, jumlah unit, alamat detail, dan kebutuhan pemasangan.",
+      coverageNote:
+        "Showroom dan gudang RADJA AC berada di Pamijen, Sokaraja, Banyumas. Untuk area Patikraja, pengiriman unit dan opsi pemasangan dikonfirmasi dari alamat detail, stok, jumlah unit, akses lokasi, dan jadwal.",
+      commonNeeds: [
+        "AC rumah tinggal, kamar tidur, dan ruang keluarga",
+        "AC toko, kantor kecil, dan ruang usaha",
+        "AC kontrakan, rumah sewa, atau bangunan keluarga",
+        "Pembelian beberapa unit untuk usaha lokal atau proyek ringan",
+      ],
+      buyingChecks: [
+        "Alamat detail area Patikraja untuk estimasi pengiriman",
+        "Ukuran ruangan, tinggi plafon, dan kondisi panas matahari",
+        "Daya listrik dan kebutuhan standard, low watt, atau inverter",
+        "Jumlah unit, anggaran, preferensi brand, dan kebutuhan pemasangan",
+      ],
+      relatedLinks: [
+        ["Jual AC Purwokerto", routes.jualAcPurwokerto],
+        ["Jual AC Banyumas", routes.jualAcBanyumas],
+        ["Katalog AC", routes.katalog],
+        ["Kalkulator PK AC", routes.kalkulatorPkAc],
+        ["AC Split Rumah", routes.katalogAcSplitRumah],
+        ["AC Low Watt", routes.katalogAcLowWatt],
+        ["AC Sharp", routes.brandSharp],
+        ["Kontak RADJA AC", routes.kontak],
+      ],
+      ctaLabel: "Chat WhatsApp untuk cek stok AC Patikraja",
+      waIntent: "cek stok AC Patikraja dengan data ukuran ruangan daya listrik jumlah unit dan kebutuhan pemasangan",
+      waArea: "Patikraja",
+      keywordVariants: [
+        "jual AC Patikraja",
+        "toko AC Patikraja",
+        "beli AC Patikraja",
+        "pengiriman AC Patikraja",
+        "pemasangan AC Patikraja",
+        "AC rumah Patikraja",
+        "AC toko Patikraja",
+      ],
+      nearbyAreaLinks: [
+        ["Banyumas", routes.jualAcBanyumas],
+        ["Rawalo", routes.jualAcRawalo],
+        ["Purwokerto", routes.jualAcPurwokerto],
+        ["Wangon", routes.jualAcWangon],
+      ],
+      trustBullets: [
+        "Patikraja dilayani dari showroom dan gudang RADJA AC di Pamijen, Sokaraja, Banyumas.",
+        "Untuk area Patikraja, kebutuhan AC dicek dari alamat detail, ukuran ruangan, daya listrik, jumlah unit, dan opsi pemasangan.",
+        "Bukti aktivitas RADJA AC bisa dicek melalui dokumentasi pengiriman, stok fisik, dan pemasangan.",
+      ],
+      localFaq: [
+        [
+          "Apakah RADJA AC melayani pengiriman AC ke Patikraja?",
+          "Area Patikraja bisa dikonsultasikan melalui WhatsApp. Tim RADJA AC akan mengecek alamat detail, stok unit, pengiriman, dan opsi pemasangan sebelum pembelian.",
+        ],
+        [
+          "Data apa yang perlu dikirim untuk cek AC Patikraja?",
+          "Kirim ukuran ruangan, daya listrik, jumlah unit, alamat area Patikraja, kebutuhan unit saja atau pemasangan, dan preferensi brand bila ada.",
+        ],
+        [
+          "Apakah bisa cek AC untuk rumah atau toko di Patikraja?",
+          "Bisa dikonsultasikan. Tim RADJA AC akan membaca ukuran ruangan, jam pemakaian, daya listrik, dan kebutuhan pemasangan.",
+        ],
+      ],
+    },
+    {
+      slug: "jual-ac-rawalo",
+      path: routes.jualAcRawalo,
+      areaName: "Rawalo",
+      label: "Jual AC Rawalo",
+      title: "Jual AC Rawalo untuk Rumah, Toko & Usaha — RADJA AC",
+      description:
+        "Butuh AC untuk rumah, toko, kantor kecil, atau usaha di Rawalo? RADJA AC cek kebutuhan PK, stok, pengiriman unit, dan opsi pemasangan via WhatsApp.",
+      h1: "Jual AC Rawalo untuk Rumah, Toko & Usaha",
+      eyebrow: "Area Selatan Banyumas",
+      intro:
+        "Butuh AC di Rawalo untuk rumah, toko, kantor kecil, atau usaha? Tim RADJA AC cek ukuran ruangan, daya listrik, pilihan brand, stok unit, pengiriman, dan opsi pemasangan sebelum pembelian.",
+      localContext:
+        "Rawalo berada di area selatan Banyumas dengan kebutuhan AC untuk rumah tinggal, toko, ruang usaha, dan bangunan keluarga. Untuk menghindari salah pilih kapasitas, tim RADJA AC akan membaca ukuran ruangan, daya listrik, jumlah unit, anggaran, alamat detail, serta kebutuhan unit saja atau opsi pemasangan.",
+      coverageNote:
+        "Showroom dan gudang RADJA AC berada di Pamijen, Sokaraja, Banyumas. Untuk area Rawalo, pengiriman unit dan opsi pemasangan dikonfirmasi dari alamat detail, stok, jumlah unit, akses lokasi, dan jadwal.",
+      commonNeeds: [
+        "AC rumah tinggal, kamar tidur, dan ruang keluarga",
+        "AC toko, kantor kecil, dan ruang usaha",
+        "AC kontrakan, rumah sewa, atau bangunan keluarga",
+        "Pembelian beberapa unit untuk usaha lokal atau proyek ringan",
+      ],
+      buyingChecks: [
+        "Alamat detail area Rawalo untuk estimasi pengiriman",
+        "Ukuran ruangan, tinggi plafon, dan kondisi panas matahari",
+        "Daya listrik dan kebutuhan standard, low watt, atau inverter",
+        "Jumlah unit, anggaran, preferensi brand, dan kebutuhan pemasangan",
+      ],
+      relatedLinks: [
+        ["Jual AC Banyumas", routes.jualAcBanyumas],
+        ["Jual AC Purwokerto", routes.jualAcPurwokerto],
+        ["Jual AC Wangon", routes.jualAcWangon],
+        ["Katalog AC", routes.katalog],
+        ["Kalkulator PK AC", routes.kalkulatorPkAc],
+        ["AC Low Watt", routes.katalogAcLowWatt],
+        ["AC Gree", routes.brandGree],
+        ["Kontak RADJA AC", routes.kontak],
+      ],
+      ctaLabel: "Chat WhatsApp untuk cek stok AC Rawalo",
+      waIntent: "cek stok AC Rawalo dengan data ukuran ruangan daya listrik jumlah unit dan kebutuhan pemasangan",
+      waArea: "Rawalo",
+      keywordVariants: [
+        "jual AC Rawalo",
+        "toko AC Rawalo",
+        "beli AC Rawalo",
+        "pengiriman AC Rawalo",
+        "pemasangan AC Rawalo",
+        "AC rumah Rawalo",
+        "AC toko Rawalo",
+      ],
+      nearbyAreaLinks: [
+        ["Banyumas", routes.jualAcBanyumas],
+        ["Patikraja", routes.jualAcPatikraja],
+        ["Wangon", routes.jualAcWangon],
+        ["Ajibarang", routes.jualAcAjibarang],
+      ],
+      trustBullets: [
+        "Rawalo dilayani dari showroom dan gudang RADJA AC di Pamijen, Sokaraja, Banyumas.",
+        "Untuk area Rawalo, kebutuhan AC dicek dari alamat detail, ukuran ruangan, daya listrik, jumlah unit, dan opsi pemasangan.",
+        "Bukti aktivitas RADJA AC bisa dicek melalui dokumentasi pengiriman, stok fisik, dan pemasangan.",
+      ],
+      localFaq: [
+        [
+          "Apakah RADJA AC melayani pengiriman AC ke Rawalo?",
+          "Area Rawalo bisa dikonsultasikan melalui WhatsApp. Tim RADJA AC akan mengecek alamat detail, stok unit, pengiriman, dan opsi pemasangan sebelum pembelian.",
+        ],
+        [
+          "Data apa yang perlu dikirim untuk cek AC Rawalo?",
+          "Kirim ukuran ruangan, daya listrik, jumlah unit, alamat area Rawalo, kebutuhan unit saja atau pemasangan, dan preferensi brand bila ada.",
+        ],
+        [
+          "Apakah bisa cek AC untuk rumah atau toko di Rawalo?",
+          "Bisa dikonsultasikan. Tim RADJA AC akan membaca ukuran ruangan, jam pemakaian, daya listrik, dan kebutuhan pemasangan.",
+        ],
+      ],
+    },
+
+    {
       slug: "jual-ac-baturraden",
       path: routes.jualAcBaturraden,
       areaName: "Baturraden",
