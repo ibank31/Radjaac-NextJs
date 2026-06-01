@@ -401,7 +401,7 @@ export default function ProofGalleryClient() {
           </h2>
           <p className="mx-auto max-w-2xl text-base leading-8 text-slate-600">
             Video ini diambil langsung dari aktivitas toko — bukan konten promosi. Untuk stok hari ini
-            tetap chat admin dulu, karena unit bisa cepat berubah.
+            tetap chat tim RADJA AC dulu, karena unit bisa cepat berubah.
           </p>
         </div>
 
@@ -510,7 +510,7 @@ export default function ProofGalleryClient() {
             Mau cek unit dari stok aktif?
           </h2>
           <p className="mx-auto mt-3 max-w-2xl text-sm leading-7 text-slate-600">
-            Kirim kebutuhan ruangan, jumlah unit, brand yang diminati, dan lokasi pengiriman. Admin cek
+            Kirim kebutuhan ruangan, jumlah unit, brand yang diminati, dan lokasi pengiriman. Tim RADJA AC cek
             stok, opsi unit, pengiriman, dan kebutuhan pemasangan dari lokasi dan jumlah unit.
           </p>
           <WhatsappLink

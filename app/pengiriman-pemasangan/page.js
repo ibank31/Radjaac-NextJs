@@ -9,13 +9,13 @@ export const metadata = buildMetadata(staticPageMetadata.pengirimanPemasangan);
 
 const processSteps = [
   "Kirim ukuran ruangan, kota, jumlah unit, brand yang diminati, dan kebutuhan unit saja atau sekalian pemasangan.",
-  "Admin mengecek stok, rekomendasi PK, opsi tipe unit, serta gambaran kebutuhan teknis awal.",
+  "Tim RADJA AC mengecek stok, rekomendasi PK, opsi tipe unit, serta gambaran kebutuhan teknis awal.",
   "Alamat pengiriman, akses lokasi, jumlah unit, dan jadwal dikonfirmasi sebelum unit dikirim.",
   "Opsi pemasangan dibicarakan berdasarkan titik indoor, posisi outdoor, jalur pipa, listrik, dan kesiapan lokasi.",
 ];
 
 const notes = [
-  "Admin cek biaya, jadwal, akses lokasi, dan kebutuhan material tambahan sebelum pembelian.",
+  "Tim RADJA AC cek biaya, jadwal, akses lokasi, dan kebutuhan material tambahan sebelum pembelian.",
   "Panjang pipa tambahan, bracket, bobok tembok, jalur listrik, akses tinggi, atau pemindahan titik dapat membuat kebutuhan berubah.",
   "Untuk banyak unit atau proyek, koordinasi lokasi atau survey dibahas berdasarkan kebutuhan, jumlah unit, area, dan jadwal.",
 ];
@@ -124,7 +124,7 @@ export default function PengirimanPemasanganPage() {
           <h2 className="text-xl font-black text-slate-950">Bukan sekadar kirim unit</h2>
           <p className="mt-4 max-w-3xl text-sm leading-7 text-slate-700">
             Untuk pembelian AC, pengiriman dan pemasangan perlu dibaca dari kondisi lokasi.
-            Admin RADJA AC membaca kebutuhan awal supaya pembeli melihat unit, posisi pemasangan, dan kebutuhan material sejak awal,
+            Tim RADJA AC membaca kebutuhan awal supaya pembeli melihat unit, posisi pemasangan, dan kebutuhan material sejak awal,
             tetapi juga memahami kebutuhan pipa, bracket, posisi outdoor, akses kerja, dan jadwal.
           </p>
           <div className="mt-5 flex flex-wrap gap-3">
@@ -155,7 +155,7 @@ export default function PengirimanPemasanganPage() {
           <h2 className="text-2xl font-black">Butuh cek pengiriman atau pemasangan?</h2>
           <p className="mt-4 max-w-3xl text-sm leading-6 text-slate-600">
             Kirim kota, alamat area, jumlah unit, tipe ruangan, dan kebutuhan unit saja atau sekalian opsi pemasangan.
-            Admin RADJA AC cek alamat, akses lokasi, jadwal kirim, dan kebutuhan pemasangan.
+            Tim RADJA AC cek alamat, akses lokasi, jadwal kirim, dan kebutuhan pemasangan.
           </p>
           <div className="mt-6">
             <WhatsappLink

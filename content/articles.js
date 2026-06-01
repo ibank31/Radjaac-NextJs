@@ -31,13 +31,13 @@ export const articleItems = [
         heading: "Bandingkan brand berdasarkan kebutuhan",
         body: [
           "Brand premium, brand ekonomis, dan brand value-for-money punya kelebihan masing-masing. Ada yang kuat di reputasi, ada yang menarik di harga, dan ada yang cocok untuk pemakaian rutin.",
-          "Cara paling aman adalah menyebutkan ukuran ruangan, daya listrik, budget, dan pola pemakaian. Dari sana pilihan brand bisa dipersempit tanpa menebak-nebak.",
+          "Cara paling aman adalah menyebutkan ukuran ruangan, daya listrik, anggaran, dan pola pemakaian. Dari sana pilihan brand bisa dipersempit tanpa menebak-nebak.",
         ],
       },
       {
         heading: "Pastikan kebutuhan pemasangan dijelaskan dari awal",
         body: [
-          "Saat tanya harga AC, pastikan apakah penawaran sudah termasuk pipa standar, kabel, bracket, selang pembuangan, vacuum, ongkir, dan jasa pasang. Jika titik indoor dan outdoor berjauhan, admin perlu cek kebutuhan tambahan.",
+          "Saat tanya harga AC, pastikan apakah penawaran sudah termasuk pipa standar, kabel, bracket, selang pembuangan, vacuum, ongkir, dan jasa pasang. Jika titik indoor dan outdoor berjauhan, tim RADJA AC perlu cek kebutuhan tambahan.",
           "Minta penjelasan paket sejak awal agar total biaya lebih jelas. Ini lebih aman daripada hanya membandingkan harga unit yang terlihat murah tetapi belum termasuk kebutuhan instalasi di lokasi.",
         ],
       },
@@ -111,7 +111,7 @@ export const articleItems = [
     eyebrow: "Panduan Tipe AC",
     readTime: "7 menit baca",
     intro:
-      "AC inverter dan low watt sama-sama sering disebut hemat listrik, tapi fungsinya tidak sama. Pilihan unit dibaca dari daya listrik, durasi pemakaian, ukuran ruangan, dan budget.",
+      "AC inverter dan low watt sama-sama sering disebut hemat listrik, tapi fungsinya tidak sama. Pilihan unit dibaca dari daya listrik, durasi pemakaian, ukuran ruangan, dan anggaran.",
     sections: [
       {
         heading: "Jangan pilih AC hanya dari klaim hemat",
@@ -137,7 +137,7 @@ export const articleItems = [
       {
         heading: "AC standard tetap masuk akal untuk kondisi tertentu",
         body: [
-          "Tidak semua pembeli harus mengambil inverter atau low watt. AC standard masih bisa masuk akal untuk pemakaian sederhana, budget awal lebih ketat, dan ruangan yang tidak terlalu berat.",
+          "Tidak semua pembeli harus mengambil inverter atau low watt. AC standard masih bisa masuk akal untuk pemakaian sederhana, anggaran awal lebih ketat, dan ruangan yang tidak terlalu berat.",
           "Yang penting jangan asal ambil standard hanya karena harga awal lebih ringan. Pastikan kapasitas PK, paket pemasangan, dan daya listrik tetap sesuai.",
         ],
       },
@@ -188,7 +188,7 @@ export const articleItems = [
       {
         heading: "Checklist sebelum membeli AC pengganti",
         body: [
-          "Siapkan ukuran ruangan, daya listrik, lokasi indoor dan outdoor, kebiasaan pemakaian, budget, dan merek yang diminati. Data ini membantu memilih AC dengan PK dan fitur yang sesuai.",
+          "Siapkan ukuran ruangan, daya listrik, lokasi indoor dan outdoor, kebiasaan pemakaian, anggaran, dan merek yang diminati. Data ini membantu memilih AC dengan PK dan fitur yang sesuai.",
           "Untuk rumah dengan daya terbatas, AC low watt menjadi pilihan. Untuk pemakaian lama setiap hari, AC inverter sering lebih nyaman. Untuk toko, kantor, kost, atau banyak ruangan, stok dan jadwal pemasangan perlu dicek lebih awal.",
         ],
       },
@@ -219,7 +219,7 @@ export const articleItems = [
         heading: "Kenapa instalasi perlu dipikirkan sebelum membeli AC?",
         body: [
           "AC yang kapasitasnya sudah benar tetap bisa kurang nyaman jika titik indoor, outdoor, pipa, atau pembuangan air tidak direncanakan dengan baik. Instalasi yang kurang tepat bisa membuat ruangan lama dingin, suara lebih mengganggu, air menetes, atau tampilan ruangan kurang rapi.",
-          "Sebelum membeli AC, lebih aman jika pembeli sudah menyiapkan ukuran ruangan, foto calon titik indoor, foto area outdoor, dan informasi daya listrik. Data sederhana ini membantu admin memberi arahan unit dan opsi pemasangan yang lebih masuk akal.",
+          "Sebelum membeli AC, lebih aman jika pembeli sudah menyiapkan ukuran ruangan, foto calon titik indoor, foto area outdoor, dan informasi daya listrik. Data sederhana ini membantu tim RADJA AC memberi arahan unit dan opsi pemasangan yang lebih masuk akal.",
         ],
       },
       {
@@ -276,7 +276,7 @@ export const articleItems = [
       {
         heading: "Perhatikan daya listrik dan pola pemakaian",
         body: [
-          "Untuk kamar yang dipakai setiap malam, kenyamanan dan kestabilan suhu penting diperhatikan. AC inverter menjadi pilihan jika pemakaian rutin dan budget tersedia.",
+          "Untuk kamar yang dipakai setiap malam, kenyamanan dan kestabilan suhu penting diperhatikan. AC inverter menjadi pilihan jika pemakaian rutin dan anggaran tersedia.",
           "Kalau daya listrik rumah terbatas, AC low watt bisa menjadi pilihan yang lebih aman. Namun, tetap pastikan kapasitasnya cukup agar AC tidak bekerja terlalu berat.",
         ],
       },
@@ -284,13 +284,13 @@ export const articleItems = [
         heading: "Jangan abaikan posisi pemasangan",
         body: [
           "Posisi indoor sebaiknya tidak langsung terhalang lemari, tirai, atau plafon terlalu dekat. Outdoor juga perlu sirkulasi udara yang baik agar performa pendinginan tidak turun.",
-          "Sebelum membeli, foto ruangan dan titik pemasangan bisa dikirim ke admin agar rekomendasi unit dan opsi pemasangannya lebih tepat.",
+          "Sebelum membeli, foto ruangan dan titik pemasangan bisa dikirim ke tim RADJA AC agar rekomendasi unit dan opsi pemasangannya lebih tepat.",
         ],
       },
       {
         heading: "Mulai dari kalkulator PK sebelum tanya stok",
         body: [
-          "Untuk kamar 3x4, cek kebutuhan PK dulu sebelum memilih brand. Setelah kapasitasnya lebih jelas, barulah bandingkan tipe standard, low watt, atau inverter sesuai budget dan daya listrik.",
+          "Untuk kamar 3x4, cek kebutuhan PK dulu sebelum memilih brand. Setelah kapasitasnya lebih jelas, barulah bandingkan tipe standard, low watt, atau inverter sesuai anggaran dan daya listrik.",
           "Data yang paling membantu adalah ukuran ruangan, tinggi plafon, arah panas matahari, daya listrik, dan apakah AC dipakai hanya malam hari atau hampir sepanjang hari.",
         ],
       },
