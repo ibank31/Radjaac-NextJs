@@ -39,8 +39,6 @@ const legacyRedirects = [
   { source: "/service-ac-purwokerto/", destination: "/ganti-ac-baru-purwokerto", permanent: true },
   { source: "/cuci-ac-purwokerto", destination: "/ganti-ac-baru-purwokerto", permanent: true },
   { source: "/cuci-ac-purwokerto/", destination: "/ganti-ac-baru-purwokerto", permanent: true },
-  { source: "/jual-ac-ajibarang", destination: "/jual-ac-purwokerto", permanent: true },
-  { source: "/jual-ac-ajibarang/", destination: "/jual-ac-purwokerto", permanent: true },
   { source: "/jual-ac-wangon", destination: "/jual-ac-purwokerto", permanent: true },
   { source: "/jual-ac-wangon/", destination: "/jual-ac-purwokerto", permanent: true },
   { source: "/jual-ac-cilongok", destination: "/jual-ac-purwokerto", permanent: true },
