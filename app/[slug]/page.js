@@ -131,8 +131,27 @@ export default async function AreaPage({ params }) {
   if (!item) notFound();
 
   const isPurwokerto = item.slug === "jual-ac-purwokerto";
-  const relatedAreas = areaItems.filter((areaItem) => areaItem.slug !== item.slug).slice(0, 5);
+  const relatedAreas = item.nearbyAreaLinks?.length
+    ? item.nearbyAreaLinks.map(([areaName, path]) => ({ areaName, path }))
+    : areaItems.filter((areaItem) => areaItem.slug !== item.slug).slice(0, 5);
   const pageLinks = areaPageLinkOverrides[item.slug] ?? (item.relatedLinks?.length ? item.relatedLinks : primaryLinks);
+  const keywordVariants =
+    item.keywordVariants ?? [
+      `jual AC ${item.areaName}`,
+      `toko AC ${item.areaName}`,
+      `beli AC ${item.areaName}`,
+      `pengiriman AC ${item.areaName}`,
+      `pemasangan AC ${item.areaName}`,
+    ];
+  const trustBullets =
+    item.trustBullets ?? [
+      "Showroom dan gudang RADJA AC berada di Pamijen, Sokaraja, Banyumas.",
+      "Ada dokumentasi pengiriman, stok fisik, dan aktivitas pemasangan sebagai bukti operasional.",
+      "Kebutuhan PK, daya listrik, stok, pengiriman, dan opsi pemasangan dicek sebelum pembelian.",
+    ];
+  const paymentNote =
+    item.paymentNote ??
+    "Pembayaran fleksibel: COD, DP, atau transfer. Detail pembayaran dikonfirmasi bersama tim RADJA AC sebelum pengiriman atau pemasangan.";
 
   const heroChips = isPurwokerto
     ? ["Showroom Pamijen", "Stok dicek hari ini", "Unit + pemasangan", "Mulai 3 jutaan"]
@@ -158,6 +177,11 @@ export default async function AreaPage({ params }) {
   ];
 
   const faqItems = [
+    ...(item.localFaq ?? []),
+    [
+      `Apakah pembayaran AC ${item.areaName} bisa COD, DP, atau transfer?`,
+      "Bisa dikonsultasikan. Pembayaran fleksibel melalui COD, DP, atau transfer, dengan detail yang dikonfirmasi bersama tim RADJA AC sebelum pengiriman atau pemasangan.",
+    ],
     [
       `Apakah RADJA AC punya toko fisik di ${item.areaName}?`,
       isPurwokerto
@@ -289,8 +313,44 @@ export default async function AreaPage({ params }) {
       </section>
 
       <section className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8 lg:py-12">
-        <SectionTitle eyebrow="FAQ" title={`Pertanyaan umum jual AC ${item.areaName}`} />
-        <div className="grid gap-5 md:grid-cols-2">{faqItems.map(([question, answer]) => <div key={question} className="rounded-[1.45rem] border border-slate-200 bg-white p-6"><h3 className="mb-3 font-bold text-slate-950">{question}</h3><p className="text-sm leading-7 text-slate-600">{answer}</p></div>)}</div>
+        <div className="rounded-[1.7rem] border border-slate-200 bg-white p-6 shadow-sm sm:p-8">
+          <div className="grid gap-6 lg:grid-cols-[1.05fr_0.95fr] lg:items-start">
+            <div>
+              <div className="mb-4 inline-flex rounded-full border border-blue-100 bg-blue-50 px-4 py-2 text-xs font-black uppercase tracking-[0.16em] text-blue-700">
+                TRUST & PEMBAYARAN
+              </div>
+              <h2 className="mb-4 text-2xl font-black tracking-tight text-slate-950 sm:text-3xl">
+                Bukti aktivitas RADJA AC dan pembayaran yang bisa dikonfirmasi dulu
+              </h2>
+              <p className="mb-5 text-sm leading-7 text-slate-600 sm:text-base">{paymentNote}</p>
+              <Link href={routes.buktiPengirimanProyek} className="inline-flex items-center justify-center rounded-full border border-slate-200 bg-slate-50 px-5 py-3 text-sm font-black text-slate-950 transition hover:bg-slate-100">
+                Lihat Bukti Pengiriman
+              </Link>
+            </div>
+            <div className="grid gap-3">
+              {trustBullets.map((point) => (
+                <div key={point} className="rounded-[1.15rem] border border-slate-200 bg-[#f8fbff] p-4 text-sm font-semibold leading-6 text-slate-700">
+                  {point}
+                </div>
+              ))}
+            </div>
+          </div>
+          <div className="mt-6 rounded-[1.25rem] border border-blue-100 bg-blue-50/50 p-4">
+            <h3 className="mb-3 text-sm font-black uppercase tracking-[0.14em] text-blue-700">Kebutuhan lokal yang sering dicek</h3>
+            <div className="flex flex-wrap gap-2">
+              {keywordVariants.map((keyword) => (
+                <span key={keyword} className="rounded-full bg-white px-3 py-2 text-xs font-bold text-slate-700 shadow-sm">
+                  {keyword}
+                </span>
+              ))}
+            </div>
+          </div>
+        </div>
+
+        <div className="mt-10">
+          <SectionTitle eyebrow="FAQ" title={`Pertanyaan umum jual AC ${item.areaName}`} />
+          <div className="grid gap-5 md:grid-cols-2">{faqItems.map(([question, answer]) => <div key={question} className="rounded-[1.45rem] border border-slate-200 bg-white p-6"><h3 className="mb-3 font-bold text-slate-950">{question}</h3><p className="text-sm leading-7 text-slate-600">{answer}</p></div>)}</div>
+        </div>
       </section>
 
       <section className="mx-auto max-w-7xl px-4 pb-16 pt-8 sm:px-6 lg:px-8 lg:pb-20 lg:pt-10">

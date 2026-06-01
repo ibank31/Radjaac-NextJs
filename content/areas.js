@@ -159,6 +159,40 @@ export const areaItems = [
       ctaLabel: "Chat WhatsApp untuk cek stok AC Ajibarang",
       waIntent: "cek stok AC Ajibarang dengan data ukuran ruangan daya listrik jumlah unit dan kebutuhan pemasangan",
       waArea: "Ajibarang",
+      keywordVariants: [
+        "jual AC Ajibarang",
+        "toko AC Ajibarang",
+        "beli AC Ajibarang",
+        "pengiriman AC Ajibarang",
+        "pemasangan AC Ajibarang",
+        "AC untuk rumah dan toko Ajibarang",
+        "AC ruko Ajibarang",
+      ],
+      nearbyAreaLinks: [
+        ["Purwokerto", routes.jualAcPurwokerto],
+        ["Banyumas", routes.jualAcBanyumas],
+        ["Baturraden", routes.jualAcBaturraden],
+        ["Sokaraja", routes.jualAcSokaraja],
+      ],
+      trustBullets: [
+        "Ajibarang dilayani dari showroom dan gudang RADJA AC di Pamijen, Sokaraja, Banyumas.",
+        "Pembeli bisa melihat bukti aktivitas RADJA AC melalui dokumentasi pengiriman, stok fisik, dan pemasangan.",
+        "Untuk area Ajibarang, kebutuhan AC dicek dari alamat detail, ukuran ruangan, daya listrik, jumlah unit, dan opsi pemasangan.",
+      ],
+      localFaq: [
+        [
+          "Apakah RADJA AC melayani pengiriman AC ke Ajibarang?",
+          "Area Ajibarang bisa dikonsultasikan melalui WhatsApp. Tim RADJA AC akan mengecek alamat detail, stok unit, pengiriman, dan opsi pemasangan sebelum pembelian.",
+        ],
+        [
+          "Data apa yang perlu dikirim untuk cek AC Ajibarang?",
+          "Kirim ukuran ruangan, daya listrik, jumlah unit, alamat area Ajibarang, kebutuhan unit saja atau pemasangan, dan preferensi brand bila ada.",
+        ],
+        [
+          "Apakah bisa beli AC untuk toko atau ruko di Ajibarang?",
+          "Bisa dikonsultasikan. Untuk toko, ruko, atau ruang usaha, tim RADJA AC akan mengecek ukuran ruangan, jam pemakaian, daya listrik, dan kebutuhan pemasangan.",
+        ],
+      ],
     },
     {
       slug: "jual-ac-baturraden",
@@ -201,6 +235,42 @@ export const areaItems = [
       ctaLabel: "Chat WhatsApp untuk cek stok AC Baturraden",
       waIntent: "cek stok AC Baturraden atau Baturaden dengan data ukuran ruangan daya listrik jumlah unit dan kebutuhan pemasangan",
       waArea: "Baturraden",
+      keywordVariants: [
+        "jual AC Baturraden",
+        "jual AC Baturaden",
+        "toko AC Baturraden",
+        "beli AC Baturraden",
+        "pengiriman AC Baturraden",
+        "pemasangan AC Baturraden",
+        "AC villa Baturraden",
+        "AC homestay Baturraden",
+        "AC guest house Baturraden",
+      ],
+      nearbyAreaLinks: [
+        ["Purwokerto", routes.jualAcPurwokerto],
+        ["Banyumas", routes.jualAcBanyumas],
+        ["Sokaraja", routes.jualAcSokaraja],
+        ["Ajibarang", routes.jualAcAjibarang],
+      ],
+      trustBullets: [
+        "Baturraden atau Baturaden dilayani dari showroom dan gudang RADJA AC di Pamijen, Sokaraja, Banyumas.",
+        "Untuk villa, homestay, guest house, atau penginapan, jumlah kamar dan pola pemakaian perlu dibaca sebelum memilih unit.",
+        "Bukti aktivitas RADJA AC bisa dicek melalui dokumentasi pengiriman, stok fisik, dan pemasangan.",
+      ],
+      localFaq: [
+        [
+          "Apakah RADJA AC melayani pengiriman AC ke Baturraden atau Baturaden?",
+          "Area Baturraden atau Baturaden bisa dikonsultasikan melalui WhatsApp. Tim RADJA AC akan mengecek alamat, akses lokasi, stok unit, pengiriman, dan opsi pemasangan.",
+        ],
+        [
+          "AC apa yang cocok untuk villa, homestay, atau guest house di Baturraden?",
+          "Pilihan AC perlu dilihat dari ukuran kamar, jumlah unit, daya listrik, jam pemakaian, dan kebutuhan pemasangan. Tim RADJA AC membantu mengecek data itu sebelum memberi arahan.",
+        ],
+        [
+          "Data apa yang perlu dikirim untuk cek AC Baturraden?",
+          "Kirim alamat detail, jumlah ruangan, ukuran ruangan, daya listrik, jumlah unit, kebutuhan unit saja atau pemasangan, dan timeline pengiriman.",
+        ],
+      ],
     },
 
   {
