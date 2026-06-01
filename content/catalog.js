@@ -7,7 +7,7 @@ export const catalogItems = [
     label: "AC 1/2 PK",
     title: "AC 1/2 PK | Konsultasi Kamar, Kost, Cek Stok & Pemasangan",
     description:
-      "Konsultasi AC 1/2 PK untuk kamar, kost, ruang kerja, dan kebutuhan rumah. Admin membaca ukuran ruangan, daya listrik, stok unit, pengiriman, dan kebutuhan pemasangan.",
+      "Konsultasi AC 1/2 PK untuk kamar, kost, ruang kerja, dan kebutuhan rumah. Tim RADJA AC membaca ukuran ruangan, daya listrik, stok unit, pengiriman, dan kebutuhan pemasangan.",
     h1: "AC 1/2 PK untuk kamar, kost, dan ruang kerja",
     eyebrow: "Katalog Kapasitas",
     intro:
@@ -31,8 +31,8 @@ export const catalogItems = [
       "Kabel 5 meter",
       "Bracket 1 set",
       "Duct tape 1 roll",
-      "Free selang drain",
-      "Free vacuum",
+      "Selang drain",
+      "Vacuum AC",
     ],
     pricingBands: [
       {
@@ -55,7 +55,7 @@ export const catalogItems = [
           "Aqua",
         ],
         value:
-          "Cocok untuk kamar, kost, kontrakan, dan ruang kecil dengan budget efisien. Cek ukuran ruangan, daya listrik, stok, dan titik pemasangan sebelum deal.",
+          "Cocok untuk kamar, kost, kontrakan, dan ruang kecil dengan anggaran efisien. Cek ukuran ruangan, daya listrik, stok, dan titik pemasangan sebelum transaksi.",
       },
       {
         label: "4 jutaan",
@@ -90,7 +90,7 @@ export const catalogItems = [
       },
     ],
     pricingNote:
-      "Admin cek rincian harga dari brand, tipe, stok, promo, area pemasangan, panjang pipa tambahan, posisi outdoor, akses lokasi, dan kebutuhan material tambahan.",
+      "Rincian harga dicek dari brand, tipe, stok, promo, area pemasangan, panjang pipa tambahan, posisi outdoor, akses lokasi, dan kebutuhan material tambahan.",
     ctaLabel: "Tanya AC 1/2 PK yang Cocok",
     waIntent: "konsultasi AC 1/2 PK",
     waCategory: "AC 1/2 PK",
@@ -105,7 +105,7 @@ export const catalogItems = [
     h1: "AC 1 PK untuk kamar besar, ruang kerja, dan ruang tamu kecil",
     eyebrow: "Katalog Kapasitas",
     intro:
-      "AC 1 PK sering jadi pilihan saat 1/2 PK terasa kurang untuk kamar besar, ruang kerja, ruang tamu kecil, kost premium, atau toko kecil. Admin tetap membaca ukuran ruangan, tinggi plafon, paparan panas, daya listrik, dan pola pemakaian sebelum menyarankan unit.",
+      "AC 1 PK sering jadi pilihan saat 1/2 PK terasa kurang untuk kamar besar, ruang kerja, ruang tamu kecil, kost premium, atau toko kecil. Kebutuhan tetap dibaca dari ukuran ruangan, tinggi plafon, paparan panas, daya listrik, dan pola pemakaian sebelum unit disarankan.",
     bestFor: [
       "Kamar utama atau kamar besar",
       "Ruang kerja pribadi",
@@ -146,9 +146,9 @@ export const catalogItems = [
     ],
     concerns: [
       "Daya listrik dan MCB cukup atau tidak",
-      "Noise dan kenyamanan untuk pemakaian lama",
+      "Kebisingan dan kenyamanan untuk pemakaian lama",
       "Apakah split 1.5 PK cukup atau perlu 2 PK",
-      "Pilihan brand, stok, dan pemasangan outdoor",
+      "Pilihan brand, stok, dan posisi outdoor",
     ],
     useCases: [
       ["Ruang keluarga", "Cocok untuk area harian yang lebih luas dari kamar tidur.", "Cek jumlah orang dan paparan panas siang."],
@@ -169,7 +169,7 @@ export const catalogItems = [
     h1: "AC 2 PK untuk kantor, ruko, ruang besar, dan kebutuhan usaha",
     eyebrow: "Katalog Kapasitas",
     intro:
-      "AC 2 PK mulai masuk kebutuhan ruangan besar dan usaha: ruang tamu besar, kantor, meeting room, ruko, toko, atau area pelanggan. Sebelum memilih unit, admin perlu mengecek daya listrik, ukuran ruangan, tinggi plafon, jumlah orang, posisi outdoor, dan kebutuhan pemasangan.",
+      "AC 2 PK mulai masuk kebutuhan ruangan besar dan usaha: ruang tamu besar, kantor, meeting room, ruko, toko, atau area pelanggan. Sebelum memilih unit, perlu mengecek daya listrik, ukuran ruangan, tinggi plafon, jumlah orang, posisi outdoor, dan kebutuhan pemasangan.",
     bestFor: [
       "Ruang tamu besar",
       "Kantor dan meeting room",
@@ -180,7 +180,7 @@ export const catalogItems = [
       "Daya listrik dan kebutuhan jalur listrik",
       "Panjang pipa dan posisi outdoor",
       "Apakah cukup split 2 PK atau perlu cassette/komersial",
-      "Budget unit, pemasangan, dan material tambahan",
+      "Anggaran unit, pemasangan, dan material tambahan",
     ],
     useCases: [
       ["Ruang tamu besar", "Cocok jika ruangan lebih luas, banyak orang, atau sering dipakai siang hari.", "Cek tinggi plafon, bukaan, dan panas matahari."],
@@ -201,7 +201,7 @@ export const catalogItems = [
     h1: "AC split rumah untuk kamar, ruang keluarga, dan pemakaian rutin",
     eyebrow: "Katalog Rumah",
     intro:
-      "AC split rumah cocok untuk kebutuhan harian seperti kamar tidur, ruang keluarga, kost, kontrakan, dan rumah tinggal. Admin RADJA AC membaca kategori AC dari ukuran ruangan, daya listrik, budget, dan pola pemakaian.",
+      "AC split rumah cocok untuk kebutuhan harian seperti kamar tidur, ruang keluarga, kost, kontrakan, dan rumah tinggal. Pilihan AC dibaca dari ukuran ruangan, daya listrik, anggaran, dan pola pemakaian.",
     bestFor: [
       "Kamar tidur",
       "Ruang keluarga",
@@ -211,7 +211,7 @@ export const catalogItems = [
     concerns: [
       "PK yang sesuai dengan ukuran ruangan",
       "Daya listrik rumah",
-      "Budget dan pilihan brand",
+      "Anggaran dan pilihan brand",
       "Estimasi pengiriman dan opsi pemasangan",
     ],
     ctaLabel: "Tanya AC untuk Rumah",
@@ -228,7 +228,7 @@ export const catalogItems = [
     h1: "AC inverter untuk pemakaian lama dan kebutuhan hemat listrik",
     eyebrow: "Katalog Tipe",
     intro:
-      "AC inverter cocok untuk ruangan yang sering dipakai lama. Pilihan unit tetap dibaca dari ukuran ruangan, jam pemakaian rutin, daya listrik, budget, dan brand yang tersedia.",
+      "AC inverter cocok untuk ruangan yang sering dipakai lama. Pilihan unit tetap dibaca dari ukuran ruangan, jam pemakaian rutin, daya listrik, anggaran, dan brand yang tersedia.",
     bestFor: [
       "Kamar dengan pemakaian lama",
       "Rumah harian",
@@ -255,7 +255,7 @@ export const catalogItems = [
     h1: "AC low watt untuk rumah dengan daya listrik terbatas",
     eyebrow: "Katalog Hemat Daya",
     intro:
-      "AC low watt sering dipilih untuk rumah dengan daya listrik terbatas. Admin perlu mengecek ukuran ruangan, daya listrik, MCB jika diketahui, dan kebutuhan pemakaian agar pilihan AC tetap masuk akal.",
+      "AC low watt sering dipilih untuk rumah dengan daya listrik terbatas. Ukuran ruangan, daya listrik, MCB jika diketahui, dan kebutuhan pemakaian perlu dicek agar pilihan AC tetap masuk akal.",
     bestFor: [
       "Rumah daya listrik terbatas",
       "Kamar tidur",
@@ -282,7 +282,7 @@ export const catalogItems = [
     h1: "AC kantor dan komersial untuk toko, ruko, cafe, klinik, showroom, kantor, hotel, dan proyek",
     eyebrow: "Katalog Komersial",
     intro:
-      "Untuk AC komersial, kirim jenis ruangan, jumlah orang, bukaan pintu, jam operasional, tinggi plafon, dan jumlah unit. Data ini dipakai untuk membaca PK dan tipe AC.",
+      "Untuk AC komersial, kirim jenis ruangan, jumlah orang, bukaan pintu, jam operasional, tinggi plafon, dan jumlah unit. Data ini dipakai untuk membaca kebutuhan PK, tipe AC, pengiriman, dan opsi pemasangan.",
     bestFor: [
       "Toko dan ruko",
       "Cafe dan restoran",
