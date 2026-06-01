@@ -1,3 +1,16 @@
+# Current Repo Status Note
+
+Dokumen ini sekarang dipakai sebagai referensi strategi, bukan roadmap literal.
+
+Beberapa item roadmap lama sudah selesai atau berubah status:
+- Tracking WhatsApp sudah memakai `whatsapp_click` dan `generate_lead`, bukan `wa_click`.
+- Area Banyumas ring sudah bertambah dan sebagian sudah live.
+- Template area sudah memiliki trust/payment, keyword variants, nearby links, local FAQ, dan hero chip pembayaran.
+- Keputusan ekspansi terbaru ada di `docs/RADJA_GROWTH_STRATEGY.md`.
+- Workflow kerja terbaru ada di `docs/RADJA_WORKFLOW.md`.
+
+Jangan mengikuti urutan 30/60/90 hari secara buta. Audit source repo, live production, GSC, dan GA4 sebelum eksekusi.
+
 # RADJAAC_ROADMAP_90_DAYS.md
 
 ## RADJAAC Roadmap Ninety Days
@@ -32,7 +45,7 @@ Dokumen ini menetapkan urutan kerja 30/60/90 hari untuk RADJA AC berdasarkan kon
 | Hari awal–bulan pertama | Buat katalog kapasitas berikutnya | `katalog/ac-1-pk` | Menangkap demand sizing yang sudah tampak di artikel | Katalog template final | Halaman live | URL `ac-1-pk` live dan mendapatkan link dari kalkulator + artikel sizing |
 | Hari awal–bulan pertama | Audit GSC pasca-redirect | semua target redirect utama | Memastikan source lama normal sebagai `Page with redirect` dan target final tidak bermasalah | GSC access | Status board redirect | Tidak ada request indexing ke source redirect |
 | Hari awal–bulan pertama | Audit sitemap dan URL Inspection | semua Priority 1 URL | Memastikan hanya canonical final yang didorong | Sitemap rule | Daftar final request indexing | Sitemap bersih dari redirect source |
-| Hari awal–bulan pertama | Implementasi tracking WhatsApp | semua CTA utama | Membaca lead source dengan rapi | GTM/GA4 access | Event `wa_click` + custom params | Event masuk di Realtime/DebugView dan param utama terisi |
+| Hari awal–bulan pertama | Implementasi tracking WhatsApp | semua CTA utama | Membaca lead source dengan rapi | GA4/gtag access | Event `whatsapp_click` + `generate_lead` | Event masuk di Realtime/DebugView dan param utama terisi |
 | Bulan kedua | Update artikel feeder yang sudah live | `artikel/ac-1-pk-untuk-ruangan-berapa`, `artikel/cara-memilih-ac-untuk-kamar-3x4`, `artikel/ac-inverter-vs-low-watt`, `artikel/panduan-instalasi-ac-baru` | Mengalirkan traffic edukasi ke money page yang benar | `katalog/ac-1-pk` live | Internal link + CTA baru | Naik klik/WA click dari artikel feeder |
 | Bulan kedua | Buat artikel biaya pasang dan material | cluster biaya | Menangkap intent biaya tanpa memakan katalog | CTA model retail/B2B | Artikel live | Artikel ranking dan mengalir ke katalog/B2B |
 | Bulan kedua | Tambah B2B kedua | `pengadaan-ac/gedung-perkantoran` atau `instansi-pemerintah` | Memperkuat demand non-hotel/non-kost | Trust proof + CTA B2B | Halaman live | Query B2B bertambah dan lead brief lebih lengkap |

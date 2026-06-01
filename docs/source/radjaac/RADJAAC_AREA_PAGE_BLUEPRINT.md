@@ -1,3 +1,22 @@
+# Current Repo Status Note
+
+Blueprint ini tetap relevan, tetapi template area aktif sudah berkembang.
+
+Field/elemen aktif yang harus diperhitungkan sekarang:
+
+- `keywordVariants`
+- `nearbyAreaLinks`
+- `localFaq`
+- `trustBullets`
+- `paymentNote`
+- trust/payment section
+- hero chips termasuk `COD / DP / Transfer`
+- WA source/intent/area
+- sitemap dan live 200
+
+Untuk checklist operasional terbaru, baca `docs/RADJA_WORKFLOW.md`.
+Untuk arah ekspansi area, baca `docs/RADJA_GROWTH_STRATEGY.md`.
+
 # RADJAAC_AREA_PAGE_BLUEPRINT.md
 
 ## RADJAAC_AREA_PAGE_BLUEPRINT.md
