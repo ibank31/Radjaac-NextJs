@@ -49,14 +49,14 @@ export const staticPageMetadata = {
   pengirimanPemasangan: {
     title: "Pengiriman & Pemasangan AC Baru | RADJA AC",
     description:
-      "Informasi pengiriman unit AC baru, kebutuhan pemasangan, garansi pemasangan 1 bulan, dan bantuan klaim unit dari RADJA AC. Konsultasikan pilihan unit, kebutuhan PK, alamat pengiriman, dan kondisi lokasi sebelum deal.",
+      "Informasi pengiriman unit AC baru, kebutuhan pemasangan, garansi pemasangan 1 bulan, dan bantuan klaim unit dari RADJA AC. Konsultasikan pilihan unit, kebutuhan PK, alamat pengiriman, dan kondisi lokasi sebelum pembelian.",
     path: routes.pengirimanPemasangan,
   },
 
   tentangKami: {
     title: "Tentang RADJA AC | Showroom Banyumas, Stok AC & Konsultasi PK",
     description:
-      "Profil RADJA AC sebagai penyedia AC original multi-brand berbasis di Pamijen, Sokaraja, Banyumas. Melayani pembelian satuan hingga pengadaan ratusan unit, konsultasi PK, cek stok, pengiriman unit, kebutuhan pemasangan, dan bantuan klaim unit sesuai ketentuan brand.",
+      "Profil RADJA AC sebagai penyedia AC original multi-brand dengan showroom dan gudang di Pamijen, Sokaraja, Banyumas. Melayani pembelian satuan hingga pengadaan ratusan unit, konsultasi PK, cek stok, pengiriman unit, kebutuhan pemasangan, dan bantuan klaim unit sesuai ketentuan brand.",
     path: routes.tentangKami,
   },
 

@@ -70,7 +70,7 @@ export default function Footer() {
           </p>
 
           <p className="mt-3 text-sm leading-7 text-white/75">
-            Berbasis di Sokaraja, Banyumas. Admin cek stok aktif, area pengiriman, dan kondisi pemasangan sebelum memberi rincian pembelian.
+            Showroom dan gudang berada di Sokaraja, Banyumas. Tim RADJA AC cek stok aktif, area pengiriman, dan kondisi pemasangan sebelum memberi rincian pembelian.
           </p>
 
           <div className="mt-5 flex flex-wrap gap-2">

@@ -36,7 +36,7 @@ export default function TentangKamiPage() {
           Website resmi penjualan AC original multi-brand
         </h1>
         <p className="mt-6 max-w-3xl text-lg leading-8 text-slate-600">
-          {siteConfig.name} berbasis di {siteConfig.businessBase}. Fokus utama kami adalah membantu pembeli
+          Showroom dan gudang {siteConfig.name} berada di {siteConfig.businessBase}. Fokus utama kami adalah membantu pembeli
           memilih AC yang sesuai untuk rumah, kost, toko, kantor, hotel, dan proyek melalui konsultasi PK,
           cek stok, pengiriman unit, kebutuhan pemasangan, pembelian satuan hingga pengadaan ratusan unit, garansi pemasangan 1 bulan, dan bantuan klaim unit sesuai ketentuan brand.
         </p>
