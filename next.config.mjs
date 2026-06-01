@@ -49,8 +49,6 @@ const legacyRedirects = [
   { source: "/jual-ac-jatilawang/", destination: "/jual-ac-purwokerto", permanent: true },
   { source: "/instalasi-profesional", destination: "/pengiriman-pemasangan", permanent: true },
   { source: "/instalasi-profesional/", destination: "/pengiriman-pemasangan", permanent: true },
-  { source: "/artikel/sharp-bey-purwokerto", destination: "/brand/sharp", permanent: true },
-  { source: "/artikel/sharp-bey-purwokerto/", destination: "/brand/sharp", permanent: true },
   {
     source: "/artikel/harga-ac-1-2-pk-purwokerto-pemasangan",
     destination: "/katalog/ac-1-2-pk",
