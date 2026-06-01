@@ -72,7 +72,7 @@ export const brandItems = [
     title: "AC Hisense Original | Cek Stok, Tipe & Konsultasi PK — RADJA AC",
     description:
       "RADJA AC menyediakan AC Hisense original. Cek stok Hisense standard dan inverter, rekomendasi PK, pengiriman, opsi pemasangan, dan bantuan klaim sesuai ketentuan brand.",
-    h1: "AC Hisense original untuk rumah, kost, usaha, dan kebutuhan hemat budget",
+    h1: "AC Hisense original untuk rumah, kost, usaha, dan kebutuhan anggaran efisien",
     eyebrow: "Brand AC",
     intro:
       "Hisense menjadi pilihan untuk pembeli yang mencari AC original dengan pilihan standard maupun inverter. Tim RADJA AC mengecek stok, membaca kebutuhan PK, daya listrik, pengiriman, dan opsi pemasangan.",
@@ -113,7 +113,7 @@ export const brandItems = [
     label: "AC Sharp",
     title: "AC Sharp Original | Cek Stok, Tipe & Konsultasi PK — RADJA AC",
     description:
-      "RADJA AC menyediakan AC Sharp original. Admin cek stok aktif, kebutuhan ruangan, daya listrik, pengiriman, pemasangan, dan alur klaim sesuai ketentuan brand.",
+      "RADJA AC menyediakan AC Sharp original. Stok aktif, kebutuhan ruangan, daya listrik, pengiriman, pemasangan, dan alur klaim dicek sesuai ketentuan brand.",
     h1: "AC Sharp original untuk rumah, kost, usaha, kantor, hotel, dan proyek",
     eyebrow: "Brand AC",
     intro:
@@ -134,7 +134,7 @@ export const brandItems = [
     label: "AC Samsung",
     title: "AC Samsung Original | Cek Stok, Tipe & Konsultasi PK — RADJA AC",
     description:
-      "RADJA AC menyediakan AC Samsung original. Admin cek stok aktif, kebutuhan ruangan, daya listrik, pengiriman, pemasangan, dan alur klaim sesuai ketentuan brand.",
+      "RADJA AC menyediakan AC Samsung original. Stok aktif, kebutuhan ruangan, daya listrik, pengiriman, pemasangan, dan alur klaim dicek sesuai ketentuan brand.",
     h1: "AC Samsung original untuk rumah, kantor, hotel, dan proyek",
     eyebrow: "Brand AC",
     intro:
@@ -155,7 +155,7 @@ export const brandItems = [
     label: "AC Panasonic",
     title: "AC Panasonic Original | Cek Stok, Tipe & Konsultasi PK — RADJA AC",
     description:
-      "RADJA AC menyediakan AC Panasonic original. Admin cek stok aktif, kebutuhan ruangan, daya listrik, pengiriman, pemasangan, dan alur klaim sesuai ketentuan brand.",
+      "RADJA AC menyediakan AC Panasonic original. Stok aktif, kebutuhan ruangan, daya listrik, pengiriman, pemasangan, dan alur klaim dicek sesuai ketentuan brand.",
     h1: "AC Panasonic original untuk rumah, usaha, kantor, hotel, dan proyek",
     eyebrow: "Brand AC",
     intro:
@@ -176,7 +176,7 @@ export const brandItems = [
     label: "AC Ariston",
     title: "AC Ariston Original | Cek Stok, PK & Opsi Pemasangan — RADJA AC",
     description:
-      "RADJA AC menyediakan AC Ariston original. Admin cek stok aktif, kebutuhan ruangan, daya listrik, pengiriman, pemasangan, dan garansi unit sesuai ketentuan brand.",
+      "RADJA AC menyediakan AC Ariston original. Stok aktif, kebutuhan ruangan, daya listrik, pengiriman, pemasangan, dan garansi unit dicek sesuai ketentuan brand.",
     h1: "AC Ariston original untuk kenyamanan rumah, usaha, dan ruang kerja",
     eyebrow: "Brand AC",
     intro:
