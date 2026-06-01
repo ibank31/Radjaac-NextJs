@@ -11,6 +11,22 @@ function isProductionHostname() {
   return typeof window !== "undefined" && window.location.hostname === PRODUCTION_HOSTNAME;
 }
 
+
+function isInternalTestSession() {
+  if (typeof window === "undefined") {
+    return false;
+  }
+
+  const params = new URLSearchParams(window.location.search);
+  const testParam = params.get("radja_test");
+
+  if (testParam === "1" || testParam === "true") {
+    window.sessionStorage?.setItem("radja_internal_test", "1");
+    return true;
+  }
+
+  return window.sessionStorage?.getItem("radja_internal_test") === "1";
+}
 function sendGaPageView(path) {
   if (
     !GA_MEASUREMENT_ID ||
@@ -69,6 +85,8 @@ function GoogleAnalyticsEvents() {
         return;
       }
 
+      const isInternalTest = isInternalTestSession();
+
       window.gtag("event", "whatsapp_click", {
         event_category: "lead",
         event_label: link.dataset.waLabel || link.textContent?.trim() || "WhatsApp link",
@@ -79,6 +97,8 @@ function GoogleAnalyticsEvents() {
         brand_target: link.dataset.brandTarget || "",
         category_target: link.dataset.categoryTarget || "",
         page_type: link.dataset.pageType || "unknown",
+        traffic_type: isInternalTest ? "internal" : "external",
+        is_internal_test: isInternalTest ? "true" : "false",
         link_hostname: url.hostname,
         link_pathname: url.pathname,
         page_path: window.location.pathname,
