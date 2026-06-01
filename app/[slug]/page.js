@@ -24,7 +24,7 @@ const categoryLinks = [
   ["AC Kantor & Komersial", routes.katalogAcKantorKomersial, "Untuk ruko, cafe, kantor, showroom, gedung, dan proyek."],
 ];
 
-const budgetPackages = [
+const pricePackages = [
   ["Hemat", "Mulai 3 jutaan", "Untuk kamar kecil, kost, atau ruangan sederhana."],
   ["Populer", "3–4 jutaan", "Untuk rumah, toko kecil, dan pemakaian harian normal."],
   ["Inverter / Premium", "Mulai 4 jutaan", "Untuk pemakaian panjang atau ruangan lebih besar."],
@@ -193,7 +193,7 @@ export default async function AreaPage({ params }) {
               <WhatsappLink className="inline-flex items-center justify-center rounded-full bg-[#25D366] px-6 py-4 font-bold text-slate-950 shadow-[0_18px_50px_rgba(37,211,102,0.2)] transition hover:-translate-y-0.5 hover:bg-[#20BA5A]" source={item.label} intent={item.waIntent} area={item.waArea}>
                 {item.ctaLabel ?? `Cek AC ${item.areaName}`}
               </WhatsappLink>
-              <a href="#estimasi-budget" className="inline-flex items-center justify-center rounded-full border border-slate-200 bg-white px-6 py-4 font-black text-slate-900 shadow-sm transition hover:bg-slate-50">
+              <a href="#estimasi-anggaran" className="inline-flex items-center justify-center rounded-full border border-slate-200 bg-white px-6 py-4 font-black text-slate-900 shadow-sm transition hover:bg-slate-50">
                 Lihat Estimasi Anggaran
               </a>
               <Link href={routes.katalog} className="inline-flex items-center justify-center rounded-full border border-slate-200 bg-white px-6 py-4 font-black text-slate-900 shadow-sm transition hover:bg-slate-50">
@@ -231,16 +231,16 @@ export default async function AreaPage({ params }) {
         </div>
       </section>
 
-      <section id="estimasi-budget" className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8 lg:py-12">
+      <section id="estimasi-anggaran" className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8 lg:py-12">
         <div className="rounded-[1.7rem] border border-blue-100 bg-blue-50 p-5 sm:p-6 lg:p-8">
           <h2 className="mb-3 text-center text-2xl font-black tracking-tight text-slate-950 sm:text-3xl">Estimasi Anggaran AC + Pasang</h2>
           <p className="mx-auto mb-4 max-w-2xl text-center text-sm leading-7 text-slate-600">Gunakan tabel ini sebagai patokan awal. Angka akhir tetap mengikuti brand, PK, stok, alamat, dan kondisi pemasangan di area {item.areaName}.</p>
           <div className="mx-auto mb-4 grid max-w-5xl gap-3 sm:grid-cols-3">
-            {budgetPackages.map(([budget, brands, description]) => (
-              <div key={budget} className="rounded-[22px] border border-slate-200 bg-[#f7fbff]/45 p-4 text-center">
+            {pricePackages.map(([priceRange, brands, description]) => (
+              <div key={priceRange} className="rounded-[22px] border border-slate-200 bg-[#f7fbff]/45 p-4 text-center">
                 <p className="mb-3 text-2xl font-black text-slate-950">{brands}</p>
                 <p className="rounded-2xl border border-slate-200 bg-white px-3 py-3 text-sm font-semibold leading-6 text-slate-600">{description}</p>
-                <p className="mt-3 text-xs font-bold uppercase tracking-[0.16em] text-blue-700/80">{budget}</p>
+                <p className="mt-3 text-xs font-bold uppercase tracking-[0.16em] text-blue-700/80">{priceRange}</p>
               </div>
             ))}
           </div>
@@ -251,7 +251,7 @@ export default async function AreaPage({ params }) {
             </div>
           </div>
           <div className="mt-5 flex justify-center">
-            <WhatsappLink className="inline-flex w-full items-center justify-center rounded-full bg-[#25D366] px-5 py-3 text-sm font-black text-slate-950 transition hover:bg-[#20BA5A] sm:w-auto" source={`${item.label} - Estimasi Budget`} intent={item.waIntent} area={item.waArea}>Cek Anggaran Area Ini</WhatsappLink>
+            <WhatsappLink className="inline-flex w-full items-center justify-center rounded-full bg-[#25D366] px-5 py-3 text-sm font-black text-slate-950 transition hover:bg-[#20BA5A] sm:w-auto" source={`${item.label} - Estimasi Anggaran`} intent={item.waIntent} area={item.waArea}>Cek Anggaran Area Ini</WhatsappLink>
           </div>
         </div>
       </section>
