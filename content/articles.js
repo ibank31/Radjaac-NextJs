@@ -52,6 +52,45 @@ export const articleItems = [
     ],
   },
   {
+    slug: "sharp-bey-purwokerto",
+    path: routes.artikelSharpBeyPurwokerto,
+    title: "Sharp BEY Purwokerto | Cek Stok, PK & Opsi Pemasangan",
+    description:
+      "Catatan singkat sebelum memilih AC Sharp seri BEY di Purwokerto: cek kebutuhan PK, daya listrik, stok aktif, pengiriman, dan opsi pemasangan melalui RADJA AC.",
+    h1: "Sharp BEY Purwokerto: cek stok, PK, dan kebutuhan pemasangan",
+    category: "Brand",
+    readTime: "4 menit baca",
+    excerpt:
+      "Sharp BEY bisa masuk shortlist pembeli yang mencari AC Sharp untuk kamar, kost, rumah, atau usaha kecil. Pilihan akhir tetap perlu cek stok, PK, daya listrik, dan kebutuhan pemasangan.",
+    sections: [
+      {
+        heading: "Mulai dari kebutuhan ruangan, bukan hanya nama model",
+        body: [
+          "Sebelum memilih Sharp BEY, kirim ukuran ruangan, daya listrik, jumlah unit, dan lokasi. Tim RADJA AC mengecek apakah kapasitas PK, tipe unit, dan stok yang tersedia sesuai dengan kebutuhan.",
+        ],
+      },
+      {
+        heading: "Cek stok dan tipe yang tersedia",
+        body: [
+          "Ketersediaan tipe Sharp bisa berubah mengikuti stok aktif. Karena itu, halaman ini menjadi shortlist awal, sedangkan konfirmasi tipe, harga, promo, pengiriman, dan opsi pemasangan tetap dilakukan lewat WhatsApp.",
+        ],
+      },
+      {
+        heading: "Hitung kebutuhan pemasangan sejak awal",
+        body: [
+          "Total pembelian tidak hanya dipengaruhi harga unit. Panjang pipa, posisi outdoor, akses lokasi, kebutuhan bracket, dan material tambahan perlu dicek sebelum jadwal pemasangan disusun.",
+        ],
+      },
+      {
+        heading: "Bandingkan dengan brand atau tipe lain bila perlu",
+        body: [
+          "Jika Sharp BEY belum cocok dengan kebutuhan ruangan atau stok, tim RADJA AC bisa membantu cek alternatif AC Sharp lain atau brand lain berdasarkan anggaran, daya listrik, dan penggunaan harian.",
+        ],
+      },
+    ],
+  },
+
+  {
     slug: "ac-1-pk-untuk-ruangan-berapa",
     path: routes.artikelAcSatuPkUntukRuanganBerapa,
     title: "AC 1 PK untuk Ruangan Berapa? | Panduan Kapasitas AC",
