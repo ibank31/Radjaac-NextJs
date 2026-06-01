@@ -118,6 +118,91 @@ export const areaItems = [
     waIntent: "cek stok AC Sokaraja dengan data ukuran ruangan daya listrik jumlah unit dan kebutuhan pemasangan",
     waArea: "Sokaraja",
   },
+    {
+      slug: "jual-ac-ajibarang",
+      path: routes.jualAcAjibarang,
+      areaName: "Ajibarang",
+      label: "Jual AC Ajibarang",
+      title: "Jual AC Ajibarang untuk Rumah, Toko & Usaha — RADJA AC",
+      description:
+        "Butuh AC untuk rumah, toko, ruko, kantor kecil, atau usaha di Ajibarang? RADJA AC cek kebutuhan PK, stok, pengiriman unit, dan opsi pemasangan via WhatsApp.",
+      h1: "Jual AC Ajibarang untuk Rumah, Toko & Usaha",
+      eyebrow: "Area Banyumas Barat",
+      intro:
+        "Butuh AC di Ajibarang untuk rumah, toko, ruko, kantor kecil, atau usaha? Tim RADJA AC cek ukuran ruangan, daya listrik, pilihan brand, stok unit, pengiriman, dan opsi pemasangan sebelum pembelian.",
+      localContext:
+        "Ajibarang adalah salah satu area Banyumas barat dengan aktivitas rumah tinggal, toko, ruko, pasar, dan usaha harian. Kebutuhan AC untuk kamar, ruang keluarga, toko, dan ruang usaha bisa berbeda, jadi tim RADJA AC akan membaca ukuran ruangan, daya listrik, jumlah unit, anggaran, serta kebutuhan unit saja atau opsi pemasangan.",
+      coverageNote:
+        "Showroom dan gudang RADJA AC berada di Pamijen, Sokaraja, Banyumas. Untuk area Ajibarang, pengiriman unit dan opsi pemasangan perlu dikonfirmasi dari alamat detail, jumlah unit, stok, dan jadwal.",
+      commonNeeds: [
+        "AC rumah tinggal, kamar tidur, dan ruang keluarga",
+        "AC toko, ruko, kantor kecil, dan ruang usaha",
+        "AC untuk kontrakan, rumah sewa, atau usaha harian",
+        "Pembelian beberapa unit untuk usaha lokal atau proyek ringan",
+      ],
+      buyingChecks: [
+        "Alamat detail area Ajibarang untuk estimasi pengiriman",
+        "Ukuran ruangan, tinggi plafon, dan kondisi panas matahari",
+        "Daya listrik dan kebutuhan standard, low watt, atau inverter",
+        "Jumlah unit, preferensi brand, anggaran, dan kebutuhan pemasangan",
+      ],
+      relatedLinks: [
+        ["Jual AC Purwokerto", routes.jualAcPurwokerto],
+        ["Jual AC Banyumas", routes.jualAcBanyumas],
+        ["Katalog AC", routes.katalog],
+        ["Kalkulator PK AC", routes.kalkulatorPkAc],
+        ["AC Split Rumah", routes.katalogAcSplitRumah],
+        ["AC Low Watt", routes.katalogAcLowWatt],
+        ["AC Gree", routes.brandGree],
+        ["Kontak RADJA AC", routes.kontak],
+      ],
+      ctaLabel: "Chat WhatsApp untuk cek stok AC Ajibarang",
+      waIntent: "cek stok AC Ajibarang dengan data ukuran ruangan daya listrik jumlah unit dan kebutuhan pemasangan",
+      waArea: "Ajibarang",
+    },
+    {
+      slug: "jual-ac-baturraden",
+      path: routes.jualAcBaturraden,
+      areaName: "Baturraden",
+      label: "Jual AC Baturraden",
+      title: "Jual AC Baturraden untuk Rumah, Villa & Penginapan — RADJA AC",
+      description:
+        "Butuh AC untuk rumah, villa, homestay, guest house, atau usaha di Baturraden? RADJA AC cek kebutuhan PK, stok, pengiriman unit, dan opsi pemasangan via WhatsApp.",
+      h1: "Jual AC Baturraden untuk Rumah, Villa & Penginapan",
+      eyebrow: "Area Wisata Banyumas",
+      intro:
+        "Butuh AC di Baturraden atau Baturaden untuk rumah, villa, homestay, guest house, atau ruang usaha? Tim RADJA AC cek kebutuhan PK, daya listrik, pilihan brand, stok unit, pengiriman, dan opsi pemasangan dari data lokasi.",
+      localContext:
+        "Baturraden dikenal sebagai area wisata dan hunian di wilayah Banyumas. Kebutuhan AC untuk rumah tinggal, villa, penginapan, homestay, atau ruang usaha tidak selalu sama dengan kamar rumah biasa, sehingga tim RADJA AC perlu membaca ukuran ruangan, jumlah titik, pola pemakaian, daya listrik, dan kebutuhan pemasangan sebelum memberi arahan.",
+      coverageNote:
+        "Showroom dan gudang RADJA AC berada di Pamijen, Sokaraja, Banyumas. Untuk area Baturraden atau Baturaden, pengiriman unit dan opsi pemasangan dikonfirmasi berdasarkan alamat, jumlah unit, akses lokasi, stok, dan jadwal.",
+      commonNeeds: [
+        "AC rumah tinggal, kamar tidur, dan ruang keluarga",
+        "AC villa, homestay, guest house, dan kamar sewa",
+        "AC cafe, toko, ruang usaha, dan area tamu",
+        "Kebutuhan beberapa unit untuk penginapan atau usaha hospitality",
+      ],
+      buyingChecks: [
+        "Alamat detail Baturraden atau Baturaden untuk estimasi pengiriman",
+        "Jumlah kamar atau ruangan yang akan memakai AC",
+        "Ukuran ruangan, daya listrik, dan jam pemakaian",
+        "Kebutuhan unit saja, pengiriman, atau opsi pemasangan",
+      ],
+      relatedLinks: [
+        ["Jual AC Purwokerto", routes.jualAcPurwokerto],
+        ["Jual AC Banyumas", routes.jualAcBanyumas],
+        ["Jual AC Sokaraja", routes.jualAcSokaraja],
+        ["Kalkulator PK AC", routes.kalkulatorPkAc],
+        ["AC Inverter", routes.katalogAcInverter],
+        ["Pengadaan AC Hotel & Guest House", routes.pengadaanHotelGuestHouse],
+        ["AC Daikin", routes.brandDaikin],
+        ["Kontak RADJA AC", routes.kontak],
+      ],
+      ctaLabel: "Chat WhatsApp untuk cek stok AC Baturraden",
+      waIntent: "cek stok AC Baturraden atau Baturaden dengan data ukuran ruangan daya listrik jumlah unit dan kebutuhan pemasangan",
+      waArea: "Baturraden",
+    },
+
   {
     slug: "jual-ac-yogyakarta",
     path: routes.jualAcYogyakarta,
