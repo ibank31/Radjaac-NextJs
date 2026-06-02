@@ -74,11 +74,11 @@ export const routes = {
 
 export const sitemapRoutes = [
   { path: routes.home, priority: 1.0 },
-  { path: routes.jualAc, priority: 0.9 },
+  { path: routes.jualAc, priority: 0.9, lastModified: "2026-06-02" },
   { path: routes.jualAcPurwokerto, priority: 0.9 },
   { path: routes.jualAcBanyumas, priority: 0.85 },
-  { path: routes.jualAcJatilawang, priority: 0.7 },
-  { path: routes.jualAcCilongok, priority: 0.7 },
+  { path: routes.jualAcJatilawang, priority: 0.7, lastModified: "2026-06-02" },
+  { path: routes.jualAcCilongok, priority: 0.7, lastModified: "2026-06-02" },
   { path: routes.jualAcSokaraja, priority: 0.85 },
   { path: routes.jualAcAjibarang, priority: 0.78 },
   { path: routes.jualAcBaturraden, priority: 0.78 },
