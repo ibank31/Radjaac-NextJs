@@ -76,7 +76,7 @@ export const brandItems = [
     h1: "AC Midea original untuk rumah, kost, usaha, kantor, hotel, dan proyek",
     eyebrow: "Brand AC Midea",
     intro:
-      "Midea menjadi pilihan untuk pembeli yang mencari AC original untuk rumah, kamar tidur, kost, kontrakan, toko, kantor kecil, hotel, dan proyek. Tim RADJA AC mengecek kebutuhan PK, daya listrik, stok Midea FT, AF, inverter, lokasi pengiriman, dan opsi pemasangan sebelum pembelian. Untuk area Purwokerto, Banyumas, Sokaraja, dan sekitarnya, kebutuhan bisa dikirim lewat WhatsApp agar stok dan opsi pemasangan dicek lebih dulu.",
+      "Midea menjadi pilihan untuk pembeli yang mencari AC original untuk rumah, kamar tidur, kost, kontrakan, toko, kantor/ruko, hotel, dan proyek. Tim RADJA AC mengecek kebutuhan PK, daya listrik, stok Midea FT, AF, inverter, lokasi pengiriman, dan opsi pemasangan sebelum pembelian. Untuk area Purwokerto, Banyumas, Sokaraja, dan sekitarnya, kebutuhan bisa dikirim lewat WhatsApp agar stok dan opsi pemasangan dicek lebih dulu.",
     trustNote:
       "Dokumen brand Midea tercatat atas nama CV. Prima Sedaya, yang merupakan bagian dari operasional RADJA AC. Stok, tipe, harga, promo, pengiriman, opsi pemasangan, dan garansi unit tetap dicek mengikuti kondisi terbaru serta ketentuan resmi brand.",
     certificateHolder: "CV. Prima Sedaya",
