@@ -25,7 +25,7 @@ export const areaItems = [
     label: "Jual AC Purwokerto",
     title: "Jual AC Purwokerto | Cek Stok, PK & Opsi Pemasangan — RADJA AC",
     description:
-      "Butuh toko AC Purwokerto untuk rumah, kost, toko, kantor, hotel, guest house, hospitality, atau banyak unit? RADJA AC bantu cek PK, stok, pengiriman, dan opsi pemasangan via WhatsApp.",
+      "Butuh AC Purwokerto untuk rumah, kost, toko, kantor, hotel, guest house, atau banyak unit? RADJA AC bantu cek PK, stok, pengiriman, dan opsi pemasangan.",
     h1: "Jual AC Purwokerto dengan cek stok, PK, dan opsi pemasangan",
     eyebrow: "Area Utama Purwokerto",
     intro:
@@ -46,7 +46,9 @@ export const areaItems = [
       "Jumlah unit, preferensi brand, dan target anggaran",
       "Alamat Purwokerto, kebutuhan unit saja, pengiriman, atau opsi pemasangan",
     ],
-    relatedLinks: [
+        paymentNote:
+      "Pembayaran fleksibel bisa dikonsultasikan: DP, COD, atau transfer setelah kebutuhan unit, pengiriman, dan opsi pemasangan jelas.",
+relatedLinks: [
       ["Jual AC Banyumas", routes.jualAcBanyumas],
       ["Jual AC Sokaraja", routes.jualAcSokaraja],
       ["Katalog AC", routes.katalog],
@@ -125,7 +127,9 @@ export const areaItems = [
       "Daya listrik dan kebutuhan standard, low watt, atau inverter",
       "Jumlah unit, preferensi brand, anggaran, dan kebutuhan pemasangan",
     ],
-    relatedLinks: [
+        paymentNote:
+      "Pembayaran fleksibel bisa dikonsultasikan: DP, COD, atau transfer setelah kebutuhan unit, pengiriman, dan opsi pemasangan jelas.",
+relatedLinks: [
       ["Jual AC Purwokerto", routes.jualAcPurwokerto],
       ["Jual AC Sokaraja", routes.jualAcSokaraja],
       ["Katalog AC", routes.katalog],
@@ -203,7 +207,9 @@ export const areaItems = [
       "Daya listrik dan kebutuhan standard, low watt, atau inverter",
       "Jumlah unit, preferensi brand, anggaran, dan kebutuhan pemasangan",
     ],
-    relatedLinks: [
+        paymentNote:
+      "Pembayaran fleksibel bisa dikonsultasikan: DP, COD, atau transfer setelah kebutuhan unit, pengiriman, dan opsi pemasangan jelas.",
+relatedLinks: [
       ["Jual AC Purwokerto", routes.jualAcPurwokerto],
       ["Jual AC Banyumas", routes.jualAcBanyumas],
       ["Katalog AC", routes.katalog],
@@ -1048,7 +1054,9 @@ export const areaItems = [
       "Pembelian beberapa unit untuk usaha lokal, proyek, pengadaan, atau kebutuhan banyak unit",
     ],
     buyingChecks: defaultBuyingChecks,
-    relatedLinks: defaultRelatedLinks,
+        paymentNote:
+      "Pembayaran fleksibel bisa dikonsultasikan: DP, COD, atau transfer setelah kebutuhan unit, pengiriman, dan opsi pemasangan jelas.",
+relatedLinks: defaultRelatedLinks,
     ctaLabel: "Chat WhatsApp untuk cek stok AC Purbalingga",
     waIntent: "cek stok AC Purbalingga dengan data ukuran ruangan daya listrik jumlah unit dan kebutuhan pemasangan",
     waArea: "Purbalingga",
@@ -1556,7 +1564,9 @@ export const areaItems = [
       "Pilihan standard, low watt, atau inverter sesuai kebutuhan",
       "Kebutuhan unit saja, pengiriman, atau opsi pemasangan sesuai alamat",
     ],
-    relatedLinks: [
+        paymentNote:
+      "Pembayaran fleksibel bisa dikonsultasikan: DP, COD, atau transfer setelah kebutuhan unit, pengiriman, dan opsi pemasangan jelas.",
+relatedLinks: [
       ["Jual AC Purwokerto", routes.jualAcPurwokerto],
       ["Jual AC Banyumas", routes.jualAcBanyumas],
       ["Jual AC Cilacap", routes.jualAcCilacap],
@@ -1637,7 +1647,9 @@ export const areaItems = [
       "Daya listrik serta pilihan standard, low watt, atau inverter",
       "Kebutuhan unit saja, pengiriman, atau opsi pemasangan sesuai alamat",
     ],
-    relatedLinks: [
+        paymentNote:
+      "Pembayaran fleksibel bisa dikonsultasikan: DP, COD, atau transfer setelah kebutuhan unit, pengiriman, dan opsi pemasangan jelas.",
+relatedLinks: [
       ["Jual AC Purwokerto", routes.jualAcPurwokerto],
       ["Jual AC Banyumas", routes.jualAcBanyumas],
       ["Jual AC Kebumen", routes.jualAcKebumen],

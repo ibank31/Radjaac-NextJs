@@ -101,7 +101,7 @@ export const catalogItems = [
     label: "AC 1 PK",
     title: "AC 1 PK | Cocok untuk Ruangan Berapa & Pilihan Unit — RADJA AC",
     description:
-      "Konsultasi AC 1 PK untuk kamar besar, ruang kerja, ruang tamu kecil, kost, dan toko kecil. Cek ukuran ruangan, daya listrik, pilihan inverter/low watt, stok, pengiriman, dan opsi pemasangan.",
+      "Konsultasi AC 1 PK untuk kamar besar, ruang kerja, ruang tamu kecil, kost, dan toko kecil. Cek ukuran ruangan, daya listrik, stok, pengiriman, dan opsi pemasangan.",
     h1: "AC 1 PK untuk kamar besar, ruang kerja, dan ruang tamu kecil",
     eyebrow: "Katalog Kapasitas",
     intro:
@@ -278,7 +278,7 @@ export const catalogItems = [
     label: "AC Kantor & Komersial",
     title: "AC Kantor & Komersial | Untuk Usaha, Showroom & Banyak Unit — RADJA AC",
     description:
-      "Konsultasi AC kantor dan komersial untuk toko, ruko, cafe, klinik, showroom, kantor, hotel, proyek, dan kebutuhan banyak unit. Cek PK, tipe unit, stok, pengiriman, dan opsi pemasangan.",
+      "Konsultasi AC kantor dan komersial untuk toko, ruko, cafe, klinik, showroom, hotel, proyek, dan banyak unit. Cek PK, tipe unit, stok, pengiriman, dan opsi pemasangan.",
     h1: "AC kantor & komersial untuk toko, ruko, cafe, hotel, dan proyek",
     eyebrow: "Katalog Komersial",
     intro:

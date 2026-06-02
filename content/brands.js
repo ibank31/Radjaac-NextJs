@@ -8,7 +8,7 @@ export const brandItems = [
     label: "AC Gree",
     title: "AC Gree Original | Cek Stok, Tipe & Konsultasi PK — RADJA AC",
     description:
-      "RADJA AC menyediakan AC Gree original melalui Proshop Gree. Cek stok Gree standard, low watt, inverter, rekomendasi PK, pengiriman, opsi pemasangan, dan bantuan klaim sesuai ketentuan brand.",
+      "RADJA AC menyediakan AC Gree original melalui Proshop Gree. Cek stok standard, low watt, inverter, rekomendasi PK, pengiriman, pemasangan, dan bantuan klaim.",
     h1: "AC Gree original melalui Proshop Gree RADJA AC",
     eyebrow: "Brand AC",
     intro:
@@ -29,7 +29,7 @@ export const brandItems = [
     label: "AC Daikin",
     title: "AC Daikin Original | Cek Stok, Tipe & Konsultasi PK — RADJA AC",
     description:
-      "RADJA AC menyediakan AC Daikin original untuk rumah, kantor, usaha, hotel, dan proyek. Cek stok Daikin standard/inverter, rekomendasi PK, pengiriman, opsi pemasangan, dan garansi sesuai ketentuan brand.",
+      "RADJA AC menyediakan AC Daikin original untuk rumah, kantor, usaha, hotel, dan proyek. Cek stok standard/inverter, rekomendasi PK, pengiriman, pemasangan, dan garansi.",
     h1: "AC Daikin original untuk rumah, kantor, usaha, hotel, dan proyek",
     eyebrow: "Brand AC Daikin",
     intro:
@@ -72,7 +72,7 @@ export const brandItems = [
     label: "AC Midea",
     title: "AC Midea Original | Cek Stok, Tipe & Konsultasi PK — RADJA AC",
     description:
-      "RADJA AC menyediakan AC Midea original untuk rumah, kost, toko, kantor, usaha, hotel, dan proyek. Cek stok Midea FT/AF/inverter, rekomendasi PK, pengiriman, opsi pemasangan, dan garansi sesuai ketentuan brand.",
+      "RADJA AC menyediakan AC Midea original untuk rumah, kost, toko, kantor, usaha, hotel, dan proyek. Cek stok FT/AF/inverter, rekomendasi PK, pengiriman, pemasangan, dan garansi.",
     h1: "AC Midea original untuk rumah, kost, usaha, kantor, hotel, dan proyek",
     eyebrow: "Brand AC Midea",
     intro:
@@ -243,7 +243,7 @@ export const brandItems = [
     label: "Brand AC Lainnya",
     title: "Brand AC Lainnya | Cek Stok & Konsultasi Unit Original — RADJA AC",
     description:
-      "Cek pilihan brand AC lainnya di RADJA AC seperti Sharp, Panasonic, Sansui, Samsung, LG, TCL, Ariston, Modena, Aqua, Polytron, Toshiba, Akari, Mitsubishi, Reiwa, dan lainnya berdasarkan stok aktif.",
+      "Cek pilihan brand AC lainnya di RADJA AC seperti Sharp, Panasonic, Sansui, Samsung, LG, TCL, Ariston, Modena, Aqua, Polytron, Toshiba, Akari, dan lainnya berdasarkan stok aktif.",
     h1: "Brand AC original lainnya yang bisa dicek melalui RADJA AC",
     eyebrow: "Brand AC",
     intro:
