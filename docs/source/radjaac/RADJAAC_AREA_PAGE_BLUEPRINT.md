@@ -33,7 +33,7 @@ Blueprint ini memakai prinsip people-first content, title/H1 yang sinkron, serta
 
 - Fungsi utama halaman area adalah **money page lokal yang aman**, bukan halaman artikel.
 - Intent utama yang ditangkap: `jual AC [kota]`, `beli AC [kota]`, `toko AC [kota]`, `AC [kota]`, tetapi dijawab dengan copy yang jujur.
-- Target user utama: rumah, kost, properti sewa, dan bangunan banyak kamar, toko/ruko, kantor/ruko, pengelola usaha, dan buyer proyek, pengadaan, partai besar, dan banyak unit.
+- Target user utama: rumah, kost, properti sewa, bangunan banyak kamar, toko/ruko, kantor/ruko, pengelola usaha, buyer proyek, pengadaan, partai besar, dan banyak unit.
 - Satu halaman area wajib punya blok unik yang benar-benar relevan dengan kota tersebut.
 - Halaman area harus mendorong user ke **WhatsApp dengan brief yang lebih lengkap**, bukan sekadar klik kosong.
 
@@ -45,7 +45,7 @@ Blueprint ini memakai prinsip people-first content, title/H1 yang sinkron, serta
 | H1 pattern | Menyamakan intent + value proposition | `Jual AC {Kota} | Cek Stok, Konsultasi PK, Pengiriman & Opsi Pemasangan` | H1 jangan generik seperti “Toko AC Purwokerto” di halaman area luar |
 | Title pattern | CTR + konsistensi SERP | `Jual AC {Kota} | Cek Stok, Konsultasi PK & Opsi Pasang` | Jaga erat dengan H1 agar Google tidak rewrite ke judul generik |
 | Meta pattern | Memperjelas value prop | `Butuh AC untuk rumah, kost, toko, kantor, atau proyek di {Kota}? RADJA AC bantu cek stok, konsultasi PK, pengiriman unit, dan opsi pemasangan via WhatsApp.` | Jangan tulis harga pasti jika stok/harga berubah |
-| Opening copy | Menjelaskan posisi bisnis | “RADJA AC berbasis di Banyumas dan melayani kebutuhan AC area {Kota} untuk cek stok, rekomendasi PK, pengiriman unit, dan opsi pemasangan sesuai kebutuhan.” | Ini adalah pola copy aman untuk semua kota target |
+| Opening copy | Menjelaskan posisi bisnis | “Showroom dan gudang RADJA AC ada di Banyumas. Untuk area {Kota}, RADJA AC membantu cek stok, rekomendasi PK, pengiriman unit, dan opsi pemasangan sesuai kebutuhan.” | Ini adalah pola copy aman untuk semua kota target |
 | Blok “Siapa yang Cocok” | Menyaring lead | Rumah; kost; toko/ruko; kantor; hotel, guest house, dan hospitality; proyek banyak unit | Kota berbeda harus memberi urutan use case yang berbeda |
 | Blok “Cara Order” | Menggerakkan WA | 1) Kirim ukuran ruangan 2) Kirim daya listrik 3) Pilih butuh pasang/tidak 4) Cek stok dan estimasi | Tujuannya menaikkan kualitas lead WA |
 | Blok brand/kategori | Membantu user memilih | Link ke ` /katalog`, ` /katalog/ac-inverter`, ` /katalog/ac-low-watt`, ` /brand/daikin`, ` /brand/gree`, ` /brand/midea` | Pilih link sesuai demand kota |
@@ -78,12 +78,12 @@ Blueprint ini memakai prinsip people-first content, title/H1 yang sinkron, serta
 | URL | H1 | Title | Meta Lead | CTA Utama | Sudut Unik |
 |---|---|---|---|---|---|
 | `/jual-ac-semarang` | `Jual AC Semarang | Cek Stok, Konsultasi PK, Pengiriman & Opsi Pemasangan` | `Jual AC Semarang | Cek Stok, Konsultasi PK & Opsi Pasang` | Fokus rumah, kantor/ruko, developer, dan pengadaan banyak unit area Semarang | `Chat WA untuk cek stok AC Semarang` | Tekankan kantor, ruko, proyek, pengadaan, banyak unit, hotel, guest house, dan hospitality |
-| `/jual-ac-yogyakarta` | `Jual AC Yogyakarta | Untuk Kost, Hotel, Rumah & Usaha` | `Jual AC Yogyakarta | Cek Stok, Konsultasi PK & Opsi Pasang` | Cocok untuk kost, guest house, rumah, cafe, dan kebutuhan banyak unit area Yogyakarta | `Chat WA: kirim jumlah kamar/ruangan` | Tekankan kost, guest house, hotel, guest house, hospitality, dan kampus |
+| `/jual-ac-yogyakarta` | `Jual AC Yogyakarta | Untuk Kost, Hotel, Rumah & Usaha` | `Jual AC Yogyakarta | Cek Stok, Konsultasi PK & Opsi Pasang` | Cocok untuk kost, guest house, rumah, cafe, dan kebutuhan banyak unit area Yogyakarta | `Chat WA: kirim jumlah kamar/ruangan` | Tekankan kost, hotel, guest house, hospitality, dan kampus |
 | `/jual-ac-solo` | `Jual AC Solo | Rumah, Kost, Hotel & Kantor` | `Jual AC Solo | Cek Stok AC, Konsultasi PK & Opsi Pasang` | Untuk rumah baru, kost, kantor, ruko, toko, dan hospitality area Solo | `Chat WA: tanya rekomendasi PK Solo` | Tekankan kost, hotel, guest house, hospitality, toko, dan kantor |
 | `/jual-ac-cilacap` | `Jual AC Cilacap | Cek Stok, Harga Unit & Opsi Pemasangan` | `Jual AC Cilacap | Konsultasi PK, Cek Stok & Opsi Pasang` | Untuk rumah, toko/usaha, kantor, dan kebutuhan banyak unit area Cilacap | `Chat WA: kirim kecamatan di Cilacap` | Tekankan lead cepat, logistik dekat, kebutuhan usaha |
 | `/jual-ac-kebumen` | `Jual AC Kebumen | Konsultasi PK, Cek Stok & Opsi Pasang` | `Jual AC Kebumen | Cek Stok AC untuk Rumah, Kost & Usaha` | Untuk rumah, kost dan properti sewa, toko, ruko, dan kantor area Kebumen | `Chat WA: kirim ukuran ruangan Kebumen` | Tekankan rumah, kost, usaha, toko, dan ruko, keputusan cepat |
 
 **Pola copy aman yang dipakai di semua area page**
 
-- Dipakai: `RADJA AC berbasis di Banyumas dan melayani kebutuhan AC area {Kota} untuk konsultasi PK, cek stok unit, pengiriman, dan opsi pemasangan sesuai kebutuhan rumah, kost, toko, kantor, atau proyek.`
+- Dipakai: `Showroom dan gudang RADJA AC ada di Banyumas. Untuk area {Kota}, RADJA AC membantu konsultasi PK, cek stok unit, pengiriman, dan opsi pemasangan sesuai kebutuhan rumah, kost, toko, kantor, proyek, pengadaan, atau banyak unit.`
 - Jangan dipakai: `RADJA AC adalah toko AC {Kota} terdekat`, `cabang resmi {Kota}`, atau frasa lain yang mengesankan lokasi fisik yang tidak ada.
