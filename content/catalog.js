@@ -276,7 +276,7 @@ export const catalogItems = [
     slug: "ac-kantor-komersial",
     path: routes.katalogAcKantorKomersial,
     label: "AC Kantor & Komersial",
-    title: "AC Kantor & Komersial | Untuk Ruang Usaha, Showroom & Banyak Unit — RADJA AC",
+    title: "AC Kantor & Komersial | Untuk Usaha, Showroom & Banyak Unit — RADJA AC",
     description:
       "Konsultasi AC kantor dan komersial untuk toko, ruko, cafe, klinik, showroom, kantor, hotel, proyek, dan kebutuhan banyak unit. Cek PK, tipe unit, stok, pengiriman, dan opsi pemasangan.",
     h1: "AC kantor & komersial untuk toko, ruko, cafe, hotel, dan proyek",

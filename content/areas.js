@@ -1060,7 +1060,7 @@ export const areaItems = [
     label: "Jual AC Cilacap",
     title: "Jual AC Cilacap | Cek Stok, Konsultasi PK & Opsi Pemasangan — RADJA AC",
     description:
-      "Butuh AC untuk rumah, toko, kantor, usaha, proyek, pengadaan, atau banyak unit di Cilacap? RADJA AC bantu konsultasi PK, cek stok, pengiriman unit, dan opsi pemasangan via WhatsApp.",
+      "Butuh AC untuk rumah, toko, kantor, proyek, atau banyak unit di Cilacap? RADJA AC bantu cek PK, stok, pengiriman, opsi pemasangan, dan pembayaran fleksibel.",
     h1: "Jual AC Cilacap untuk rumah, toko, kantor, usaha, dan banyak unit",
     eyebrow: "Layanan AC Area Cilacap",
     intro:
@@ -1145,7 +1145,7 @@ export const areaItems = [
     label: "Jual AC Kroya",
     title: "Jual AC Kroya untuk Rumah, Toko & Usaha — RADJA AC",
     description:
-      "Butuh AC untuk rumah, toko, ruko, kantor, usaha, atau banyak unit di Kroya? RADJA AC bantu cek kebutuhan PK, stok unit, pengiriman, opsi pemasangan, dan pembayaran fleksibel via WhatsApp.",
+      "Butuh AC untuk rumah, toko, ruko, kantor, atau banyak unit di Kroya? RADJA AC bantu cek PK, stok, pengiriman, opsi pemasangan, dan pembayaran fleksibel.",
     h1: "Jual AC Kroya untuk Rumah, Toko & Usaha",
     eyebrow: "Area Cilacap",
     intro:
@@ -1223,7 +1223,7 @@ export const areaItems = [
     label: "Jual AC Majenang",
     title: "Jual AC Majenang untuk Rumah, Toko & Banyak Unit — RADJA AC",
     description:
-      "Butuh AC untuk rumah, toko, kantor, usaha, atau banyak unit di Majenang? RADJA AC bantu cek kebutuhan PK, stok unit, pengiriman, opsi pemasangan, dan pembayaran fleksibel via WhatsApp.",
+      "Butuh AC untuk rumah, toko, kantor, usaha, atau banyak unit di Majenang? RADJA AC bantu cek PK, stok, pengiriman, opsi pemasangan, dan pembayaran fleksibel.",
     h1: "Jual AC Majenang untuk Rumah, Toko & Banyak Unit",
     eyebrow: "Area Cilacap Barat",
     intro:
@@ -1301,7 +1301,7 @@ export const areaItems = [
     label: "Jual AC Sidareja",
     title: "Jual AC Sidareja untuk Rumah, Ruko & Usaha — RADJA AC",
     description:
-      "Butuh AC untuk rumah, ruko, toko, kantor, usaha, atau banyak unit di Sidareja? RADJA AC bantu cek kebutuhan PK, stok unit, pengiriman, opsi pemasangan, dan pembayaran fleksibel via WhatsApp.",
+      "Butuh AC untuk rumah, ruko, toko, kantor, atau banyak unit di Sidareja? RADJA AC bantu cek PK, stok, pengiriman, opsi pemasangan, dan pembayaran fleksibel.",
     h1: "Jual AC Sidareja untuk Rumah, Ruko & Usaha",
     eyebrow: "Area Cilacap Barat",
     intro:
@@ -1379,7 +1379,7 @@ export const areaItems = [
     label: "Jual AC Kesugihan",
     title: "Jual AC Kesugihan untuk Rumah, Kantor & Proyek — RADJA AC",
     description:
-      "Butuh AC untuk rumah, kantor, usaha, proyek, atau banyak unit di Kesugihan? RADJA AC bantu cek kebutuhan PK, stok unit, pengiriman, opsi pemasangan, dan pembayaran fleksibel via WhatsApp.",
+      "Butuh AC untuk rumah, kantor, proyek, atau banyak unit di Kesugihan? RADJA AC bantu cek PK, stok, pengiriman, opsi pemasangan, dan pembayaran fleksibel.",
     h1: "Jual AC Kesugihan untuk Rumah, Kantor & Proyek",
     eyebrow: "Area Cilacap",
     intro:
@@ -1457,7 +1457,7 @@ export const areaItems = [
     label: "Jual AC Adipala",
     title: "Jual AC Adipala untuk Rumah, Toko & Usaha — RADJA AC",
     description:
-      "Butuh AC untuk rumah, toko, kantor, usaha, atau banyak unit di Adipala? RADJA AC bantu cek kebutuhan PK, stok unit, pengiriman, opsi pemasangan, dan pembayaran fleksibel via WhatsApp.",
+      "Butuh AC untuk rumah, toko, kantor, usaha, atau banyak unit di Adipala? RADJA AC bantu cek PK, stok, pengiriman, opsi pemasangan, dan pembayaran fleksibel.",
     h1: "Jual AC Adipala untuk Rumah, Toko & Usaha",
     eyebrow: "Area Cilacap",
     intro:
@@ -1535,7 +1535,7 @@ export const areaItems = [
     label: "Jual AC Kebumen",
     title: "Jual AC Kebumen | Cek Stok, Konsultasi PK & Opsi Pemasangan — RADJA AC",
     description:
-      "Butuh AC untuk rumah, kost, kontrakan, properti sewa, toko, ruko, kantor, atau usaha di Kebumen? RADJA AC bantu konsultasi PK, cek stok unit, pengiriman, dan opsi pemasangan via WhatsApp.",
+      "Butuh AC untuk rumah, kost, kontrakan, toko, ruko, kantor, atau usaha di Kebumen? RADJA AC bantu cek PK, stok, pengiriman, dan opsi pemasangan.",
     h1: "Jual AC Kebumen untuk rumah, kost, kontrakan, properti sewa, toko, ruko, dan kantor",
     eyebrow: "Layanan AC Area Kebumen",
     intro:
@@ -1616,7 +1616,7 @@ export const areaItems = [
     label: "Jual AC Tegal",
     title: "Jual AC Tegal & Slawi | Cek Stok, Pengiriman & Opsi Pemasangan — RADJA AC",
     description:
-      "Butuh AC untuk rumah, toko, kantor, usaha, proyek, pengadaan, atau banyak unit di Tegal dan Slawi? RADJA AC bantu cek stok, konsultasi PK, pengiriman unit, dan opsi pemasangan via WhatsApp.",
+      "Butuh AC untuk rumah, toko, kantor, proyek, atau banyak unit di Tegal dan Slawi? RADJA AC bantu cek PK, stok, pengiriman, dan opsi pemasangan.",
     h1: "Jual AC Tegal dan Slawi untuk rumah, toko, kantor, usaha, proyek, dan banyak unit",
     eyebrow: "Layanan AC Area Tegal & Slawi",
     intro:
