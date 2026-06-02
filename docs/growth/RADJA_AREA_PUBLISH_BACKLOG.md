@@ -1,4 +1,4 @@
-# RADJA AC Area Publish Backlog
+Operational publishing guide:\n- docs/growth/staged-area-publishing/README.md\n\n# RADJA AC Area Publish Backlog
 
 Status: staged planning, not live.
 
