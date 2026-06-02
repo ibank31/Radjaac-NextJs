@@ -109,3 +109,36 @@ Catatan:
 - Foto di draft adalah generic proof RADJA AC, bukan bukti toko/cabang/showroom di area tersebut.
 - Saat publish, caption harus tetap jujur.
 - Draft belum live sampai dipindahkan ke `content/areas.js` dan route ditambahkan ke `content/routes.js`.
+
+## Ready Child Draft Area
+
+Source draft teknis:
+- content/area-child-drafts.js
+
+Child draft belum live dan belum masuk sitemap.
+
+| Parent | Child Area | Slug | Priority | Status | Publish Gate |
+|---|---|---|---:|---|---|
+| Banyumas | Sumbang | jual-ac-sumbang | P1 | ready-child | Setelah core Banyumas/Purwokerto stabil atau ada sinyal query Sumbang |
+| Banyumas | Kedungbanteng | jual-ac-kedungbanteng | P1 | ready-child | Setelah core Banyumas/Purwokerto stabil atau ada sinyal query Kedungbanteng |
+| Banyumas | Kalibagor | jual-ac-kalibagor | P1 | ready-child | Setelah Banyumas/Sokaraja stabil atau ada sinyal query Kalibagor |
+| Banyumas | Kebasen | jual-ac-kebasen | P1 | ready-child | Setelah Banyumas selatan stabil atau ada sinyal query Kebasen |
+| Banyumas | Somagede | jual-ac-somagede | P2 | ready-child | Setelah Banyumas/Kalibagor stabil atau ada sinyal query Somagede |
+| Purbalingga | Bobotsari | jual-ac-bobotsari | P2 | ready-child | Setelah Purbalingga stabil atau ada sinyal query Bobotsari |
+| Purbalingga | Kalimanah | jual-ac-kalimanah | P2 | ready-child | Setelah Purbalingga stabil atau ada sinyal query Kalimanah |
+| Purbalingga | Kutasari | jual-ac-kutasari | P2 | ready-child | Setelah Purbalingga stabil atau ada sinyal query Kutasari |
+| Tegal | Slawi | jual-ac-slawi | P2 | ready-child | Setelah Tegal stabil atau ada sinyal query Slawi |
+| Tegal | Adwerna | jual-ac-adwerna | P2 | ready-child | Setelah Tegal stabil atau ada sinyal query Adwerna |
+| Tegal | Talang | jual-ac-talang | P2 | ready-child | Setelah Tegal stabil atau ada sinyal query Talang |
+| Kebumen | Gombong | jual-ac-gombong | P2 | ready-child | Setelah Kebumen stabil atau ada sinyal query Gombong |
+| Kebumen | Karanganyar Kebumen | jual-ac-karanganyar-kebumen | P2 | ready-child | Setelah Kebumen stabil atau ada sinyal query Karanganyar Kebumen |
+| Kebumen | Kutowinangun | jual-ac-kutowinangun | P2 | ready-child | Setelah Kebumen stabil atau ada sinyal query Kutowinangun |
+| Banjarnegara | Mandiraja | jual-ac-mandiraja | P2 | ready-child | Setelah Banjarnegara stabil atau ada sinyal query Mandiraja |
+| Banjarnegara | Klampok | jual-ac-klampok | P2 | ready-child | Setelah Banjarnegara stabil atau ada sinyal query Klampok |
+| Banjarnegara | Bawang Banjarnegara | jual-ac-bawang-banjarnegara | P2 | ready-child | Setelah Banjarnegara stabil atau ada sinyal query Bawang Banjarnegara |
+
+Child publish rule:
+- Parent/hub harus sudah live.
+- Child harus mendapat internal link dari parent/hub atau area relevan.
+- Jangan publish semua child dalam satu batch.
+- Jangan request indexing massal.
