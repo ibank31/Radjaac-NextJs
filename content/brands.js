@@ -27,7 +27,7 @@ export const brandItems = [
     path: routes.brandDaikin,
     name: "Daikin",
     label: "AC Daikin",
-    title: "AC Daikin Original | Cek Stok Standard, Inverter & PK — RADJA AC",
+    title: "AC Daikin Original | Cek Stok, Tipe & Konsultasi PK — RADJA AC",
     description:
       "RADJA AC menyediakan AC Daikin original untuk rumah, kantor, usaha, hotel, dan proyek. Cek stok Daikin standard/inverter, rekomendasi PK, pengiriman, opsi pemasangan, dan garansi sesuai ketentuan brand.",
     h1: "AC Daikin original untuk rumah, kantor, usaha, hotel, dan proyek",
@@ -70,7 +70,7 @@ export const brandItems = [
     path: routes.brandMidea,
     name: "Midea",
     label: "AC Midea",
-    title: "AC Midea Original | Cek Stok FT, AF, Inverter & PK — RADJA AC",
+    title: "AC Midea Original | Cek Stok, Tipe & Konsultasi PK — RADJA AC",
     description:
       "RADJA AC menyediakan AC Midea original untuk rumah, kost, toko, kantor, usaha, hotel, dan proyek. Cek stok Midea FT/AF/inverter, rekomendasi PK, pengiriman, opsi pemasangan, dan garansi sesuai ketentuan brand.",
     h1: "AC Midea original untuk rumah, kost, usaha, kantor, hotel, dan proyek",
@@ -218,7 +218,7 @@ export const brandItems = [
     path: routes.brandAriston,
     name: "Ariston",
     label: "AC Ariston",
-    title: "AC Ariston Original | Cek Stok, PK & Opsi Pemasangan — RADJA AC",
+    title: "AC Ariston Original | Cek Stok, Tipe & Konsultasi PK — RADJA AC",
     description:
       "RADJA AC menyediakan AC Ariston original. Stok aktif, kebutuhan ruangan, daya listrik, pengiriman, pemasangan, dan garansi unit dicek sesuai ketentuan brand.",
     h1: "AC Ariston original untuk kenyamanan rumah, usaha, dan ruang kerja",
@@ -241,7 +241,7 @@ export const brandItems = [
     path: routes.brandLainnya,
     name: "Brand Lainnya",
     label: "Brand AC Lainnya",
-    title: "Brand AC Original Lainnya | Cek Stok, Tipe & Konsultasi PK — RADJA AC",
+    title: "Brand AC Lainnya | Cek Stok & Konsultasi Unit Original — RADJA AC",
     description:
       "Cek pilihan brand AC lainnya di RADJA AC seperti Sharp, Panasonic, Sansui, Samsung, LG, TCL, Ariston, Modena, Aqua, Polytron, Toshiba, Akari, Mitsubishi, Reiwa, dan lainnya berdasarkan stok aktif.",
     h1: "Brand AC original lainnya yang bisa dicek melalui RADJA AC",

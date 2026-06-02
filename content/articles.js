@@ -93,7 +93,7 @@ export const articleItems = [
   {
     slug: "ac-1-pk-untuk-ruangan-berapa",
     path: routes.artikelAcSatuPkUntukRuanganBerapa,
-    title: "AC 1 PK untuk Ruangan Berapa? | Panduan Kapasitas AC",
+    title: "AC 1 PK Cocok untuk Ruangan Berapa? | Panduan Sebelum Order — RADJA AC",
     description:
       "Panduan memilih AC 1 PK untuk kamar dan ruang keluarga. Cek ukuran ruangan, BTU, kondisi panas, daya listrik, dan kapan perlu naik atau turun kapasitas.",
     h1: "AC 1 PK cocok untuk ruangan berapa?",
