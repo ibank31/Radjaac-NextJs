@@ -79,3 +79,33 @@ Area ditahan kalau:
 8. Live check 200/canonical/sitemap.
 9. Request indexing hanya terbatas bila perlu.
 10. Tunggu 7–14 hari sebelum batch berikutnya.
+
+## Publish-Ready Draft Level
+
+Draft area dianggap publish-ready tahap 2 jika data di `content/area-drafts.js` sudah memiliki:
+
+- title dan meta description,
+- H1 dan intro,
+- localContext dan coverageNote,
+- keywordVariants dan seoFocus,
+- commonNeeds dan buyingChecks,
+- paymentNote,
+- nearbyAreaLinks,
+- relatedLinks,
+- FAQ lokal,
+- CTA WhatsApp,
+- draftHeroImage,
+- draftProofImages,
+- incomingInternalLinkPlan,
+- outgoingInternalLinkPlan,
+- plannedRouteKey,
+- canonicalPath,
+- sitemapPlan,
+- publishChecklist,
+- publishGate,
+- safetyNotes.
+
+Catatan:
+- Foto di draft adalah generic proof RADJA AC, bukan bukti toko/cabang/showroom di area tersebut.
+- Saat publish, caption harus tetap jujur.
+- Draft belum live sampai dipindahkan ke `content/areas.js` dan route ditambahkan ke `content/routes.js`.

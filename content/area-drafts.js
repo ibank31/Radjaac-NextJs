@@ -1,3 +1,7 @@
+// STAGED AREA DRAFTS ONLY.
+// Do not import this file into app routes, sitemap, or live components.
+// To publish an area, move one item into content/areas.js and add the final route intentionally.
+
 const defaultDraftRelatedLinks = [
   ["Jual AC", "/jual-ac"],
   ["Katalog AC", "/katalog"],
@@ -84,6 +88,82 @@ function createRegionalAreaDraft({
     publishPriority: priority,
     draftType: "regional-area",
     publishGate,
+    plannedRouteKey: slug
+      .replace(/^jual-ac-/, "jualAc")
+      .replace(/-([a-z])/g, (_, char) => char.toUpperCase()),
+    pageType: "area",
+    canonicalPath: `/${slug}`,
+    sitemapPlan: {
+      includeWhenPublished: true,
+      changeFrequency: "weekly",
+      priority: priority === "P1" ? 0.75 : 0.7,
+    },
+    seoFocus: {
+      primaryKeyword: `jual AC ${areaName}`,
+      secondaryKeywords: [
+        `AC rumah ${areaName}`,
+        `AC toko ${areaName}`,
+        `AC kantor ${areaName}`,
+        `cek stok AC ${areaName}`,
+        `pengiriman AC ${areaName}`,
+        `opsi pemasangan AC ${areaName}`,
+      ],
+      buyerIntent:
+        "Pembeli mencari AC baru untuk rumah, toko, kantor, usaha, atau banyak unit dengan kebutuhan cek PK, stok, pengiriman, dan opsi pemasangan.",
+    },
+    draftHeroImage: {
+      src: "/photos/showroom/showroom-multibrand-radja-ac-purwokerto-01.webp",
+      alt: `Showroom dan gudang RADJA AC sebagai referensi konsultasi AC ${areaName}`,
+      caption: "Dokumentasi showroom dan gudang RADJA AC di Banyumas.",
+      usageNote:
+        "Generic proof. Jangan ditulis sebagai foto toko, cabang, atau showroom fisik di area draft.",
+    },
+    draftProofImages: [
+      {
+        src: "/photos/stock/gudang-stok-ac-radja-ac-purwokerto-01.webp",
+        alt: `Dokumentasi stok AC RADJA AC untuk konsultasi kebutuhan AC ${areaName}`,
+        caption: "Dokumentasi stok unit AC RADJA AC.",
+      },
+      {
+        src: "/photos/delivery/radja-ac-persiapan-pengiriman.webp",
+        alt: `Dokumentasi persiapan pengiriman AC RADJA AC untuk kebutuhan area ${areaName}`,
+        caption: "Dokumentasi persiapan pengiriman unit AC RADJA AC.",
+      },
+      {
+        src: "/photos/installation/material-instalasi-ac-radja-ac-01.webp",
+        alt: `Dokumentasi material instalasi AC RADJA AC untuk kebutuhan pemasangan area ${areaName}`,
+        caption: "Dokumentasi material instalasi AC RADJA AC.",
+      },
+    ],
+    incomingInternalLinkPlan: [
+      "/jual-ac",
+      "/katalog",
+      "/kalkulator-pk-ac",
+      ...nearbyAreaLinks.map(([, href]) => href),
+    ],
+    outgoingInternalLinkPlan: [
+      "/jual-ac",
+      "/katalog",
+      "/katalog/ac-1-2-pk",
+      "/katalog/ac-low-watt",
+      "/katalog/ac-inverter",
+      "/kalkulator-pk-ac",
+      "/pengadaan-ac",
+      "/kontak",
+      ...nearbyAreaLinks.map(([, href]) => href),
+    ],
+    publishChecklist: [
+      "Tambah route final di content/routes.js.",
+      "Pindahkan draft item ke content/areas.js.",
+      "Pastikan plannedRouteKey dipakai konsisten.",
+      "Cek nearbyAreaLinks tidak menuju URL draft yang belum live.",
+      "Pasang internal link masuk dari hub atau area relevan bila masuk akal.",
+      "Pastikan title, description, h1, localContext, coverageNote, FAQ, CTA, dan paymentNote tetap aman.",
+      "Pastikan tidak ada klaim toko/cabang/showroom lokal palsu.",
+      "Jalankan npm run check.",
+      "Live check 200, canonical, sitemap, dan cache header.",
+      "Request indexing hanya terbatas bila halaman prioritas dan live test bisa diindeks.",
+    ],
     safetyNotes: [
       "Belum live dan belum masuk sitemap.",
       "Jangan klaim toko, cabang, atau showroom lokal.",
