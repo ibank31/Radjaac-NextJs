@@ -807,18 +807,12 @@ export const areaItems = [
     coverageNote:
       "Showroom dan gudang RADJA AC berada di Banyumas. Kebutuhan AC area Yogyakarta dilayani dengan konsultasi PK, cek stok unit, pengiriman, serta opsi pemasangan sesuai alamat, jumlah unit, dan jadwal.",
     keywordVariants: [
-      "jual AC Yogyakarta",
-      "toko AC Yogyakarta",
-      "AC kost Yogyakarta",
-      "AC guest house Yogyakarta",
-      "AC homestay Yogyakarta",
-      "AC hotel Yogyakarta",
-      "AC kantor Yogyakarta",
-      "AC cafe Yogyakarta",
-      "pengadaan AC Yogyakarta",
-      "AC inverter Yogyakarta",
-      "AC low watt Yogyakarta",
-      "konsultasi PK AC Yogyakarta",
+      "AC kamar kost",
+      "AC guest house dan homestay",
+      "AC cafe dan ruang usaha",
+      "AC rumah tinggal dan kontrakan",
+      "Banyak unit untuk bangunan sewa",
+      "Cek PK dari ukuran kamar",
     ],
     nearbyAreaLinks: [
       ["Jual AC Semarang", routes.jualAcSemarang],
@@ -893,16 +887,12 @@ export const areaItems = [
     coverageNote:
       "Showroom dan gudang RADJA AC berada di Banyumas. Kebutuhan AC area Semarang dilayani dengan konsultasi PK, cek stok unit, pengiriman, serta opsi pemasangan sesuai alamat, jumlah unit, dan jadwal pekerjaan.",
     keywordVariants: [
-      "jual AC Semarang",
-      "toko AC Semarang",
-      "AC kantor Semarang",
-      "AC ruko Semarang",
-      "AC hotel Semarang",
-      "pengadaan AC Semarang",
-      "AC proyek Semarang",
-      "AC inverter Semarang",
-      "AC low watt Semarang",
-      "konsultasi PK AC Semarang",
+      "AC ruko dan toko",
+      "AC kantor dan ruang meeting",
+      "AC hotel dan guest house",
+      "AC proyek banyak titik",
+      "AC untuk ruang usaha padat aktivitas",
+      "Cek PK untuk ruangan panas perkotaan",
     ],
     nearbyAreaLinks: [
       ["Jual AC Yogyakarta", routes.jualAcYogyakarta],
@@ -976,6 +966,45 @@ export const areaItems = [
       "Solo memiliki kebutuhan AC dari rumah, kost, toko, kantor, sampai hospitality. Agar tidak hanya mengejar harga awal yang terlihat ringan, tim RADJA AC akan mengecek ukuran ruangan, daya listrik, pola pemakaian, jumlah unit, dan kebutuhan unit saja atau opsi pemasangan.",
     coverageNote:
       "Showroom dan gudang RADJA AC berada di Banyumas. Kebutuhan AC area Solo dilayani dengan konsultasi PK, cek stok unit, pengiriman, dan opsi pemasangan sesuai lokasi, jumlah unit, serta jadwal.",
+    keywordVariants: [
+      "AC rumah dan kamar tidur",
+      "AC kost dan kontrakan",
+      "AC toko, ruko, dan kantor",
+      "AC hotel dan guest house",
+      "Banyak unit untuk usaha",
+      "Cek PK sebelum pilih unit",
+    ],
+    nearbyAreaLinks: [
+      ["Jual AC Semarang", routes.jualAcSemarang],
+      ["Jual AC Yogyakarta", routes.jualAcYogyakarta],
+      ["Jual AC Kebumen", routes.jualAcKebumen],
+      ["Jual AC Banjarnegara", routes.jualAcBanjarnegara],
+      ["Jual AC Tegal", routes.jualAcTegal],
+    ],
+    trustBullets: [
+      "Cek kebutuhan PK untuk rumah, kost, hotel, guest house, toko, ruko, dan kantor",
+      "Cek stok brand seperti Gree, Daikin, Midea, Hisense, Sharp, Samsung, dan lainnya",
+      "Opsi pengiriman dan pemasangan dikonfirmasi berdasarkan alamat, jumlah unit, dan jadwal",
+      "Cocok untuk pembelian satu unit maupun banyak unit untuk usaha atau proyek",
+    ],
+    localFaq: [
+      [
+        "Apakah RADJA AC punya toko fisik di Solo?",
+        "Showroom dan gudang RADJA AC berada di Banyumas. Untuk kebutuhan AC Solo, tim membantu cek stok, kapasitas PK, pengiriman, dan opsi pemasangan berdasarkan alamat serta jumlah unit.",
+      ],
+      [
+        "Bisa konsultasi AC untuk kost, hotel, toko, atau kantor di Solo?",
+        "Bisa. Kirim ukuran ruangan, jumlah titik, daya listrik, preferensi brand, target anggaran, dan timeline agar tim RADJA AC menyiapkan arahan awal.",
+      ],
+      [
+        "Apa yang perlu disiapkan sebelum beli AC untuk area Solo?",
+        "Siapkan ukuran ruangan, tinggi plafon, daya listrik, jumlah unit, tipe bangunan, preferensi brand, dan apakah butuh unit saja atau opsi pemasangan.",
+      ],
+      [
+        "Apakah pembayaran bisa COD, DP, atau transfer?",
+        "Skema pembayaran fleksibel bisa dikonsultasikan. Detail COD, DP, atau transfer dikonfirmasi bersama tim RADJA AC sesuai kebutuhan unit, pengiriman, dan pemasangan.",
+      ],
+    ],
     commonNeeds: [
       "AC rumah dan kamar tidur",
       "AC kost, kontrakan, homestay, hotel, guest house, atau kebutuhan hospitality",
