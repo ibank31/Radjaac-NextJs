@@ -57,3 +57,13 @@ Build wajib jika mengubah:
 - komponen shared yang dipakai banyak halaman
 
 Build tidak wajib untuk audit/docs-only.
+
+## Cache Header Final
+
+Deployment memakai Cloudflare Pages. Static asset cache header final dikelola lewat `public/_headers`, bukan `next.config.mjs headers()`.
+
+Aturan final:
+- HTML pages tetap `Cache-Control: public, max-age=0, must-revalidate`.
+- Static assets seperti `/photos/*`, `/images/*`, `/icons/*`, `/brand-logos/*`, dan `/ui/*` memakai `Cache-Control: public, max-age=31536000, immutable`.
+- Jangan menambahkan rule `/brand/*` karena itu akan ikut men-cache HTML brand pages seperti `/brand/gree`.
+- Setelah mengubah `_headers`, cek live HTML dan asset dengan `curl -I`.

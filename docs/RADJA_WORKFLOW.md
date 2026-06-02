@@ -40,7 +40,7 @@ Source repo terbaru dan bukti live production adalah sumber kebenaran utama.
 
 Urutan kebenaran:
 1. Source repo terbaru: `app/`, `content/`, `components/`, `lib/`, `next.config.mjs`
-2. Bukti runtime: `radja-fast`, build, PR checks, live HTTP, live HTML, sitemap, GA4 Realtime, GSC export
+2. Bukti runtime: `npm run check`, build output, live HTTP, live HTML, sitemap, GA4 Realtime, GSC export
 3. Dokumen aktif di `docs/`
 4. Chat lama atau dokumen lama yang sudah dihapus dari working tree hanya dianggap histori Git
 
@@ -48,35 +48,37 @@ Jika dokumen bertentangan dengan source repo atau live production, source repo d
 
 ## Workflow Wajib
 
-Default kerja:
+Default kerja saat ini:
 1. Audit source dan/atau live
 2. Tentukan scope
-3. Patch kecil di branch
-4. Jalankan `radja-fast`
-5. Jalankan build hanya jika kritis
-6. Commit
-7. PR
-8. Tunggu checks hijau
-9. Merge
-10. Sync main
-11. Live check
-12. Data check jika menyangkut GA4/GSC/tracking
+3. Patch kecil
+4. Jalankan `npm run check`
+5. Commit
+6. Push `main`
+7. Tunggu deploy selesai
+8. Live check
+9. Data check jika menyangkut GA4/GSC/tracking
+
+Catatan: workflow branch/PR boleh dipakai untuk perubahan besar, tetapi kerja Termux harian saat ini memakai commit kecil langsung ke `main` setelah `npm run check` hijau.
 
 ## Build Policy
 
-Build wajib jika:
+`npm run check` wajib jika:
 - tambah route baru
 - ubah template global
 - ubah analytics/tracking
 - ubah sitemap/routes
 - ubah `next.config.mjs`
+- ubah `public/_headers`
 - ubah komponen yang dipakai banyak halaman
+- sebelum push final
 
-Build tidak wajib untuk:
-- audit
-- dokumentasi
+`npm run check` tidak wajib untuk:
+- audit tanpa perubahan file
 - grep/check
-- perubahan teks kecil yang tidak mengubah struktur render besar
+- dokumentasi murni
+
+Namun jika dokumentasi ikut di-commit bersama perubahan source, jalankan `npm run check` sebelum push.
 
 ## Area Page Checklist
 
@@ -180,6 +182,20 @@ Setelah keyword itu muncul, assistant wajib:
 Versi keras reset keyword:
 
 `STOP. SOURCE REPO TERBARU YANG MENANG. BACA RADJA_WORKFLOW DULU.`
+
+## Final QA Status Terbaru
+
+Status terakhir yang sudah selesai:
+- Fase technical hygiene/performance selesai.
+- Fase content/on-page SEO selesai.
+- Fase indexing readiness selesai.
+- Fase conversion/tracking QA selesai.
+- Fase final live QA selesai.
+- `npm run check` hijau.
+- Build menghasilkan 71/71 static/SSG pages.
+- HTML critical pages memakai `Cache-Control: public, max-age=0, must-revalidate`.
+- Static assets di `public/_headers` memakai `Cache-Control: public, max-age=31536000, immutable`.
+- Jangan mengembalikan cache asset ke `next.config.mjs headers()` tanpa audit Cloudflare Pages.
 
 ## Owner Idea Handling
 

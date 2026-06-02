@@ -53,6 +53,8 @@ Area lokal dan regional yang sudah ada di source repo terbaru:
 - `/jual-ac-purwokerto`
 - `/jual-ac-banyumas`
 - `/jual-ac-sokaraja`
+- `/jual-ac-jatilawang`
+- `/jual-ac-cilongok`
 - `/jual-ac-ajibarang`
 - `/jual-ac-baturraden`
 - `/jual-ac-wangon`
@@ -65,11 +67,17 @@ Area lokal dan regional yang sudah ada di source repo terbaru:
 - `/jual-ac-solo`
 - `/jual-ac-purbalingga`
 - `/jual-ac-cilacap`
+- `/jual-ac-kroya`
+- `/jual-ac-majenang`
+- `/jual-ac-sidareja`
+- `/jual-ac-kesugihan`
+- `/jual-ac-adipala`
 - `/jual-ac-kebumen`
 - `/jual-ac-tegal`
 - `/jual-ac-banjarnegara`
 
 Kalau daftar ini berubah, cek `content/routes.js`, `content/areas.js`, sitemap live, dan live 200.
+
 
 ## Retail Area Priority
 
@@ -91,7 +99,7 @@ Prioritas dekat:
 1. Pertahankan Purwokerto/Banyumas/Sokaraja sebagai fondasi trust.
 2. Perkuat Banyumas ring: Ajibarang, Baturraden, Wangon, Karanglewas, Kembaran, Patikraja, Rawalo.
 3. Polish regional yang sudah live sebelum membuat banyak kota baru.
-4. Audit/polish Cilacap setelah struktur internal link dan audit safety siap.
+4. Cilacap sudah live sebagai hub regional; child Cilacap seperti Kroya, Majenang, Sidareja, Kesugihan, dan Adipala harus tetap diperlakukan sebagai child, bukan semua dipromosikan setara homepage.
 
 ## B2B-First Priority
 

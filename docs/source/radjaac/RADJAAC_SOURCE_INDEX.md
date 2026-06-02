@@ -61,4 +61,4 @@ Dokumen ini menjadi peta baca source RADJA AC agar assistant/Codex masuk dari fi
 - Sudah cek source repo aktif.
 - Sudah pastikan tidak ada klaim toko/cabang/showroom lokal palsu.
 - Sudah pastikan CTA WhatsApp membawa source/intent yang jelas.
-- Sudah rencanakan verifikasi: diff, scan, `radja-fast`, lint/build bila perlu.
+- Sudah rencanakan verifikasi: diff, scan, `npm run check`, dan live check bila perlu.

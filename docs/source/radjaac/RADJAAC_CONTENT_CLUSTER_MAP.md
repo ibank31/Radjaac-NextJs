@@ -15,7 +15,7 @@ Dokumen ini menetapkan sistem cluster agar RADJA AC tidak kembali ke pola artike
 - Query yang sudah jelas transaksional atau lokal uang—misalnya “jual AC [kota]”, “toko AC [kota]”, “harga AC brand [kota]”, “pengadaan AC hotel”, “AC untuk kost banyak unit”—harus ditangkap oleh money page, bukan artikel.
 - Artikel kapasitas dan listrik harus diarahkan ke kalkulator PK dan katalog yang sesuai, supaya edukasi berhenti di shortlist produk, bukan berhenti di artikel semata.
 - Untuk cluster brand, hanya artikel **model-specific**, **comparison**, atau **decision-support** yang boleh hidup. Artikel generik brand-intent harus merge/redirect ke brand page.
-- Trust/proof lebih kuat jika dibuat sebagai page permanen seperti `/gallery` atau `/bukti-pengiriman-proyek`, bukan artikel timeline acak. Existing gallery dan about page sudah memberi pondasi yang tepat. citeturn28search2turn28search3
+- Trust/proof lebih kuat jika dibuat sebagai page permanen seperti `/bukti-pengiriman-proyek`, bukan artikel timeline acak. Existing proof page dan about page sudah memberi pondasi yang tepat. citeturn28search2turn28search3
 
 ## Tabel Keputusan
 
@@ -30,7 +30,7 @@ Dokumen ini menetapkan sistem cluster agar RADJA AC tidak kembali ke pola artike
 | Brand | `/brand/{brand}` | `/brand/{brand}` | Cek stok brand via WhatsApp | Artikel brand generik harus redirect ke brand page |
 | B2B / proyek | `/pengadaan-ac` | `/pengadaan-ac/{segmen}` | Kirim data jumlah unit, tipe ruangan, lokasi proyek | Artikel hanya mendukung proses shortlist dan pengajuan data |
 | Area Jawa | `/jual-ac-{area}` | `/jual-ac-{area}` | Chat untuk cek stok, ongkir, opsi pemasangan | Query lokal uang **bukan** artikel |
-| Trust / proof | `/gallery`, `/tentang-kami` | Mendukung semua money page | Lihat bukti lalu chat admin | Proof page menjadi lapisan trust, bukan tujuan akhir |
+| Trust / proof | `/bukti-pengiriman-proyek`, `/tentang-kami` | Mendukung semua money page | Lihat bukti lalu chat admin | Proof page menjadi lapisan trust, bukan tujuan akhir |
 
 ### Keputusan Artikel per Cluster
 
@@ -64,7 +64,7 @@ Dokumen ini menetapkan sistem cluster agar RADJA AC tidak kembali ke pola artike
 | Area Jawa | `/artikel/jual-ac-banyumas-konsultasi-pk-stok-pasang` | Redirect | `/jual-ac-banyumas` | Intent lokal uang | Chat admin area Banyumas | Tinggi | Artikel ini terlalu dekat dengan area page. citeturn5search6turn34search9 |
 | Area Jawa | `/artikel/toko-ac-purwokerto-yang-bisa-konsultasi-pk` | Redirect | `/jual-ac-purwokerto` | Intent lokal uang / toko | Chat admin Purwokerto | Tinggi | Ini cannibal dengan area money page Purwokerto. citeturn7search1turn24search11 |
 | Area Jawa | **Jangan buat artikel** `jual ac semarang`, `toko ac yogyakarta`, `harga ac solo`, `jual ac kebumen` | Do not create | `/jual-ac-{area}` | Intent lokal uang | Cek stok, pengiriman, opsi pemasangan | Sangat tinggi | Query seperti ini harus ditangkap area page, bukan artikel |
-| Trust / proof | `/gallery` | Keep | Mendukung semua money page | Verifikasi showroom, stok, pengiriman, pemasangan | Lihat bukti lalu chat admin | Rendah | Existing proof page yang sehat. citeturn28search2 |
+| Trust / proof | `/bukti-pengiriman-proyek` | Keep | Mendukung semua money page | Verifikasi showroom, stok, pengiriman, pemasangan | Lihat bukti lalu chat admin | Rendah | Existing proof page yang sehat. citeturn28search2 |
 | Trust / proof | `/tentang-kami` | Keep | Mendukung semua money page | Verifikasi identitas bisnis & sertifikat | Lihat profil lalu konsultasi | Rendah | Existing page berisi sertifikasi dealer. citeturn28search3 |
 | Trust / proof | `/bukti-pengiriman-proyek` | Create as page | `/pengadaan-ac` dan subsegment | Proof proyek & banyak unit | Kirim data proyek | Rendah | Lebih baik page permanen daripada artikel |
 | Service symptom | `/artikel/ac-kurang-dingin-belum-tentu-freon-habis` | Update | `/kontak` atau sales consult yang relevan | Troubleshooting ringan | Kirim gejala via WhatsApp | Sedang | Tetap boleh hidup, tapi jangan diperbanyak jadi cluster service. citeturn9search5 |
