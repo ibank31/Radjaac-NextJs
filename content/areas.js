@@ -1058,7 +1058,7 @@ export const areaItems = [
     path: routes.jualAcCilacap,
     areaName: "Cilacap",
     label: "Jual AC Cilacap",
-    title: "Jual AC Cilacap | Cek Stok, Pengiriman & Opsi Pemasangan — RADJA AC",
+    title: "Jual AC Cilacap | Cek Stok, Konsultasi PK & Opsi Pemasangan — RADJA AC",
     description:
       "Butuh AC untuk rumah, toko, kantor, usaha, proyek, pengadaan, atau banyak unit di Cilacap? RADJA AC bantu konsultasi PK, cek stok, pengiriman unit, dan opsi pemasangan via WhatsApp.",
     h1: "Jual AC Cilacap untuk rumah, toko, kantor, usaha, dan banyak unit",
@@ -1139,7 +1139,7 @@ export const areaItems = [
     path: routes.jualAcKebumen,
     areaName: "Kebumen",
     label: "Jual AC Kebumen",
-    title: "Jual AC Kebumen | Konsultasi PK, Cek Stok & Opsi Pasang — RADJA AC",
+    title: "Jual AC Kebumen | Cek Stok, Konsultasi PK & Opsi Pemasangan — RADJA AC",
     description:
       "Butuh AC untuk rumah, kost, kontrakan, properti sewa, toko, ruko, kantor, atau usaha di Kebumen? RADJA AC bantu konsultasi PK, cek stok unit, pengiriman, dan opsi pemasangan via WhatsApp.",
     h1: "Jual AC Kebumen untuk rumah, kost, kontrakan, properti sewa, toko, ruko, dan kantor",
