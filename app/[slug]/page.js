@@ -3,8 +3,10 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { routes } from "@/content/routes";
 import { buildMetadata } from "@/lib/seo";
+import { breadcrumbSchema, faqSchema } from "@/lib/schema";
 import { areaItems, getAreaItem } from "@/content/areas";
 import WhatsappLink from "@/components/ui/WhatsappLink";
+import JsonLd from "@/components/seo/JsonLd";
 
 export const dynamicParams = false;
 
@@ -195,8 +197,18 @@ export default async function AreaPage({ params }) {
     [`Bisa untuk kost, kantor, toko, atau proyek di ${item.areaName}?`, "Bisa. Untuk banyak unit, kirim jumlah ruangan, ukuran ruangan, daya listrik, target anggaran, timeline, dan lokasi."],
   ];
 
+  const structuredData = [
+    breadcrumbSchema([
+      ["Beranda", routes.home],
+      ["Jual AC", routes.jualAc],
+      [item.label, item.path],
+    ]),
+    faqSchema(faqItems),
+  ];
+
   return (
     <main className="min-h-screen overflow-hidden bg-[#f7fbff] text-slate-950">
+      <JsonLd data={structuredData} />
       <section className="relative overflow-hidden border-b border-blue-100 bg-[linear-gradient(180deg,#f8fdff_0%,#eefbff_100%)] px-4 pb-10 pt-12 sm:px-6 lg:px-8 lg:pb-16 lg:pt-20">
         <div className="grid items-center gap-10 lg:grid-cols-[1.04fr_0.96fr] lg:gap-16">
           <div>

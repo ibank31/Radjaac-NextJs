@@ -3,9 +3,11 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { routes } from "@/content/routes";
 import { buildMetadata } from "@/lib/seo";
+import { breadcrumbSchema, faqSchema } from "@/lib/schema";
 import { brandItems, featuredBrandItems, getBrandItem } from "@/content/brands";
 import { warrantyHighlights } from "@/content/policies";
 import WhatsappLink from "@/components/ui/WhatsappLink";
+import JsonLd from "@/components/seo/JsonLd";
 
 export const dynamicParams = false;
 
@@ -108,8 +110,18 @@ export default async function BrandDetailPage({ params }) {
     ...(item.localFaq ?? []),
   ];
 
+  const structuredData = [
+    breadcrumbSchema([
+      ["Beranda", routes.home],
+      ["Brand AC", routes.brandLainnya],
+      [item.label, item.path],
+    ]),
+    faqSchema(faqItems),
+  ];
+
   return (
     <main className="min-h-screen overflow-hidden bg-[#f7fbff] text-slate-950">
+      <JsonLd data={structuredData} />
       <section className="relative overflow-hidden border-b border-blue-100 bg-[linear-gradient(180deg,#f8fdff_0%,#eefbff_100%)] px-4 pb-10 pt-12 sm:px-6 lg:px-8 lg:pb-16 lg:pt-20">
         <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_top_left,rgba(34,211,238,0.16),transparent_34%),radial-gradient(circle_at_bottom_right,rgba(15,23,42,0.08),transparent_32%)]" />
 

@@ -4,11 +4,9 @@ import { absoluteSiteUrl } from "@/lib/url";
 export const dynamic = "force-static";
 
 export default function sitemap() {
-  const lastModified = new Date();
-
-  return sitemapRoutes.map(({ path, priority }) => ({
+  return sitemapRoutes.map(({ path, priority, lastModified }) => ({
     url: absoluteSiteUrl(path),
-    lastModified,
+    ...(lastModified ? { lastModified: new Date(lastModified) } : {}),
     changeFrequency: "weekly",
     priority,
   }));
