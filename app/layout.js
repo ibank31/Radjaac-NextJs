@@ -1,4 +1,5 @@
 import "./globals.css";
+import { Plus_Jakarta_Sans } from "next/font/google";
 import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
 import FloatingWhatsapp from "@/components/layout/FloatingWhatsapp";
@@ -8,12 +9,18 @@ import { buildMetadata } from "@/lib/seo";
 import { siteConfig } from "@/content/site";
 import { sitewideSchemas } from "@/lib/schema";
 
+const plusJakartaSans = Plus_Jakarta_Sans({
+  subsets: ["latin"],
+  display: "swap",
+  variable: "--font-sans",
+});
+
 export const metadata = buildMetadata();
 
 export default function RootLayout({ children }) {
   return (
     <html lang={siteConfig.language}>
-      <body>
+      <body className={plusJakartaSans.variable}>
         <JsonLd data={sitewideSchemas()} />
         <GoogleAnalytics />
         <Header />
