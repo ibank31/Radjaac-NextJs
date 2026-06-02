@@ -1255,6 +1255,8 @@ relatedLinks: defaultRelatedLinks,
       "Daya listrik serta pilihan standard, low watt, atau inverter",
       "Kebutuhan unit saja, pengiriman, atau opsi pemasangan sesuai alamat",
     ],
+    paymentNote:
+      "Pembayaran fleksibel bisa dikonsultasikan: DP, COD, atau transfer setelah kebutuhan unit, alamat, pengiriman, dan opsi pemasangan jelas.",
     relatedLinks: [
       ["Jual AC Kroya", routes.jualAcKroya],
       ["Jual AC Majenang", routes.jualAcMajenang],
@@ -1909,7 +1911,7 @@ relatedLinks: [
     ],
     localFaq: [
       [
-        "Apakah RADJA AC punya toko fisik di Banjarnegara?",
+        "Apakah RADJA AC punya lokasi fisik untuk kebutuhan Banjarnegara?",
         "Showroom dan gudang RADJA AC berada di Banyumas. Untuk kebutuhan AC Banjarnegara, tim membantu cek stok, kapasitas PK, pengiriman, dan opsi pemasangan berdasarkan alamat serta jumlah unit.",
       ],
       [
@@ -1937,6 +1939,8 @@ relatedLinks: [
       "Daya listrik dan kebutuhan low watt atau inverter",
       "Alamat pengiriman dan kebutuhan opsi pemasangan",
     ],
+    paymentNote:
+      "Pembayaran fleksibel bisa dikonsultasikan: DP, COD, atau transfer setelah kebutuhan unit, alamat, pengiriman, dan opsi pemasangan jelas.",
     relatedLinks: defaultRelatedLinks,
     ctaLabel: "Chat WhatsApp untuk cek stok AC Banjarnegara",
     waIntent: "cek stok AC Banjarnegara dengan data ukuran ruangan daya listrik jumlah unit dan kebutuhan pemasangan",
