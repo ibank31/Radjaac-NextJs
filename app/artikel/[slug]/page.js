@@ -100,7 +100,7 @@ export default async function ArticleDetailPage({ params }) {
               </span>
             </div>
 
-            <h1 className="max-w-5xl text-4xl font-black leading-tight tracking-[-0.04em] sm:text-5xl lg:text-6xl">
+            <h1 className="max-w-5xl text-3xl font-black leading-tight tracking-[-0.035em] sm:text-4xl lg:text-5xl">
               {item.h1}
             </h1>
 

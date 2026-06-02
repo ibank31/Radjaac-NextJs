@@ -63,7 +63,7 @@ function SectionTitle({ eyebrow, title, description }) {
   return (
     <div className="mx-auto mb-8 max-w-3xl text-center">
       <p className="mb-3 text-xs font-black uppercase tracking-[0.24em] text-blue-700">{eyebrow}</p>
-      <h2 className="mb-4 text-3xl font-black tracking-[-0.03em] text-slate-950 sm:text-4xl lg:text-5xl">{title}</h2>
+      <h2 className="mb-4 text-2xl font-black tracking-[-0.025em] text-slate-950 sm:text-3xl lg:text-4xl">{title}</h2>
       {description ? <p className="mx-auto max-w-2xl text-sm leading-7 text-slate-600 sm:text-base">{description}</p> : null}
     </div>
   );
@@ -81,7 +81,7 @@ export default function KatalogPage() {
               Katalog AC RADJA AC
             </p>
 
-            <h1 className="mb-5 max-w-2xl text-3xl font-black leading-tight tracking-[-0.04em] text-slate-950 sm:text-4xl md:text-5xl xl:text-6xl">
+            <h1 className="mb-5 max-w-2xl text-2xl font-black leading-tight tracking-[-0.03em] text-slate-950 sm:text-3xl md:text-4xl xl:text-5xl">
               Belum tahu mau pilih AC apa?
               <span className="block text-blue-700">Mulai dari kebutuhan ruangannya dulu.</span>
             </h1>
@@ -185,7 +185,7 @@ export default function KatalogPage() {
         <div className="grid gap-7 lg:grid-cols-[0.9fr_1.1fr] lg:items-start">
           <div>
             <p className="mb-3 text-xs font-black uppercase tracking-[0.24em] text-blue-700">Panduan PK</p>
-            <h2 className="mb-4 text-3xl font-black tracking-[-0.03em] text-slate-950 sm:text-4xl lg:text-5xl">Kira-kira ruangan ini butuh berapa PK?</h2>
+            <h2 className="mb-4 text-2xl font-black tracking-[-0.025em] text-slate-950 sm:text-3xl lg:text-4xl">Kira-kira ruangan ini butuh berapa PK?</h2>
             <p className="text-sm leading-7 text-slate-600 sm:text-base">
               Tabel ini hanya patokan awal. Ruangan lantai atas, kena matahari langsung, dinding tipis, atau banyak orang di dalamnya bisa butuh kapasitas lebih dari perkiraan luas ruang saja.
             </p>
@@ -207,7 +207,7 @@ export default function KatalogPage() {
 
       <section className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8 lg:py-14">
         <div className="rounded-[1.7rem] border border-slate-200 bg-white p-6 text-center shadow-[0_18px_50px_rgba(15,39,66,0.08)] sm:p-8 lg:p-10">
-          <h2 className="mx-auto mb-5 max-w-3xl text-3xl font-black tracking-[-0.03em] text-slate-950 sm:text-4xl">Brand tinggal disesuaikan dengan kebutuhan dan anggaran</h2>
+          <h2 className="mx-auto mb-5 max-w-3xl text-2xl font-black tracking-[-0.025em] text-slate-950 sm:text-3xl">Brand tinggal disesuaikan dengan kebutuhan dan anggaran</h2>
           <p className="mx-auto mb-4 max-w-2xl text-sm leading-7 text-slate-600 sm:text-base">
             Pilihan brand dibaca dari ukuran ruangan, daya listrik, anggaran, dan stok aktif.
           </p>
@@ -223,7 +223,7 @@ export default function KatalogPage() {
 
       <section className="mx-auto max-w-7xl px-4 pb-16 pt-8 sm:px-6 lg:px-8 lg:pb-20 lg:pt-14">
         <div className="rounded-[1.7rem] border border-[#25D366]/20 bg-[#25D366]/10 p-6 text-center shadow-[0_18px_50px_rgba(15,39,66,0.08)] sm:p-10 lg:p-14">
-          <h2 className="mx-auto mb-5 max-w-3xl text-3xl font-black tracking-[-0.03em] text-slate-950 sm:text-4xl lg:text-5xl">Mulai dari data ruangan</h2>
+          <h2 className="mx-auto mb-5 max-w-3xl text-2xl font-black tracking-[-0.025em] text-slate-950 sm:text-3xl lg:text-4xl">Mulai dari data ruangan</h2>
           <p className="mx-auto mb-6 max-w-2xl leading-7 text-slate-700">
             Kirim ukuran ruangan, daya listrik, lokasi pengiriman, dan perkiraan anggaran. Tim RADJA AC cocokkan kategori, brand, dan tipe AC yang tersedia.
           </p>

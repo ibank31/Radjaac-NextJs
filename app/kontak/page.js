@@ -55,7 +55,7 @@ export default function KontakPage() {
               Kontak RADJA AC
             </p>
 
-            <h1 className="mt-6 max-w-4xl text-4xl font-black leading-tight tracking-[-0.04em] text-slate-950 md:text-6xl">
+            <h1 className="mt-6 max-w-4xl text-3xl font-black leading-tight tracking-[-0.035em] text-slate-950 md:text-5xl">
               Mau beli AC? Kirim ukuran ruangan, daya listrik, lokasi, dan jumlah unit ke RADJA AC.
             </h1>
 

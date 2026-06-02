@@ -55,7 +55,7 @@ function SectionTitle({ eyebrow, title, description }) {
   return (
     <div className="mx-auto mb-9 max-w-3xl text-center">
       <p className="mb-3 text-xs font-black uppercase tracking-[0.24em] text-blue-700">{eyebrow}</p>
-      <h2 className="mb-4 text-3xl font-black tracking-[-0.03em] text-slate-950 sm:text-4xl lg:text-5xl">{title}</h2>
+      <h2 className="mb-4 text-2xl font-black tracking-[-0.025em] text-slate-950 sm:text-3xl lg:text-4xl">{title}</h2>
       {description ? <p className="mx-auto max-w-2xl text-sm leading-7 text-slate-600 sm:text-base">{description}</p> : null}
     </div>
   );
@@ -131,7 +131,7 @@ export default async function BrandDetailPage({ params }) {
               <span className="h-2 w-2 rounded-full bg-[#4984B8]" /> {item.eyebrow}
             </div>
 
-            <h1 className="mb-3 max-w-3xl text-3xl font-black leading-[1.08] tracking-[-0.04em] text-slate-950 sm:text-4xl md:text-5xl xl:text-6xl">
+            <h1 className="mb-3 max-w-3xl text-2xl font-black leading-[1.1] tracking-[-0.03em] text-slate-950 sm:text-3xl md:text-4xl xl:text-5xl">
               {item.h1}
             </h1>
             <p className="mb-5 max-w-2xl text-sm font-bold leading-6 text-blue-700">
@@ -194,7 +194,7 @@ export default async function BrandDetailPage({ params }) {
               Status & Kejelasan Brand
             </div>
 
-            <h2 className="mb-4 max-w-2xl text-3xl font-black leading-tight tracking-[-0.03em] text-slate-950 sm:text-4xl lg:text-5xl">
+            <h2 className="mb-4 max-w-2xl text-2xl font-black leading-tight tracking-[-0.025em] text-slate-950 sm:text-3xl lg:text-4xl">
               Cek {item.label} dengan stok, tipe, dan garansi yang jelas
             </h2>
 
@@ -241,7 +241,7 @@ export default async function BrandDetailPage({ params }) {
                   Proshop Gree
                 </div>
 
-                <h2 className="max-w-2xl text-3xl font-black leading-tight tracking-[-0.03em] text-slate-950 sm:text-4xl lg:text-5xl">
+                <h2 className="max-w-2xl text-2xl font-black leading-tight tracking-[-0.025em] text-slate-950 sm:text-3xl lg:text-4xl">
                   RADJA AC sebagai Proshop Gree untuk cek stok dan konsultasi AC Gree
                 </h2>
 
@@ -317,7 +317,7 @@ export default async function BrandDetailPage({ params }) {
         <div className="grid gap-6 lg:grid-cols-[0.95fr_1.05fr]">
           <div className="rounded-[1.7rem] border border-slate-200 bg-white p-6 shadow-sm sm:p-8">
             <div className="mb-3 text-sm font-black uppercase tracking-[0.2em] text-blue-700">Kapasitas PK</div>
-            <h2 className="mb-4 text-3xl font-black tracking-[-0.03em] text-slate-950 sm:text-4xl">Jangan pilih {item.label} hanya dari nama brand</h2>
+            <h2 className="mb-4 text-2xl font-black tracking-[-0.025em] text-slate-950 sm:text-3xl">Jangan pilih {item.label} hanya dari nama brand</h2>
             <p className="mb-5 text-sm leading-7 text-slate-600 sm:text-base">
               Kapasitas tetap mengikuti ukuran ruangan, daya listrik, posisi ruangan, dan pola pemakaian. Tabel ini hanya panduan awal.
             </p>
@@ -335,7 +335,7 @@ export default async function BrandDetailPage({ params }) {
 
           <div className="rounded-[1.7rem] border border-slate-200 bg-white p-6 shadow-sm sm:p-8">
             <div className="mb-3 text-sm font-black uppercase tracking-[0.2em] text-blue-700">Pilihan Awal</div>
-            <h2 className="mb-4 text-3xl font-black tracking-[-0.03em] text-slate-950 sm:text-4xl">Standard, low watt, atau inverter?</h2>
+            <h2 className="mb-4 text-2xl font-black tracking-[-0.025em] text-slate-950 sm:text-3xl">Standard, low watt, atau inverter?</h2>
 
             <div className="grid gap-3">
               {item.variants.map((variant) => (
@@ -461,7 +461,7 @@ export default async function BrandDetailPage({ params }) {
 
       <section className="mx-auto max-w-7xl px-4 pb-16 pt-8 sm:px-6 lg:px-8 lg:pb-20">
         <div className="rounded-[1.7rem] border border-[#25D366]/20 bg-[#25D366]/10 p-6 text-center shadow-[0_18px_50px_rgba(15,39,66,0.08)] sm:p-10">
-          <h2 className="mx-auto mb-5 max-w-3xl text-3xl font-black tracking-[-0.03em] text-slate-950 sm:text-4xl">
+          <h2 className="mx-auto mb-5 max-w-3xl text-2xl font-black tracking-[-0.025em] text-slate-950 sm:text-3xl">
             Mau cek stok {item.label} terbaru?
           </h2>
           <p className="mx-auto mb-7 max-w-2xl text-sm leading-7 text-slate-700">

@@ -65,7 +65,7 @@ export default async function ProcurementDetailPage({ params }) {
               {item.eyebrow}
             </div>
 
-            <h1 className="max-w-4xl text-4xl font-black tracking-[-0.045em] text-blue-950 sm:text-5xl lg:text-6xl">
+            <h1 className="max-w-4xl text-3xl font-black tracking-[-0.04em] text-blue-950 sm:text-4xl lg:text-5xl">
               {item.h1}
             </h1>
 
@@ -164,7 +164,7 @@ export default async function ProcurementDetailPage({ params }) {
           <div className="grid gap-8 lg:grid-cols-[0.8fr_1.2fr] lg:items-start">
             <div>
               <p className="text-sm font-black uppercase tracking-[0.2em] text-red-600">Koordinasi proyek</p>
-              <h2 className="mt-3 text-3xl font-black tracking-tight text-blue-950 sm:text-5xl">
+              <h2 className="mt-3 text-2xl font-black tracking-tight text-blue-950 sm:text-4xl">
                 Pendekatan disesuaikan dengan kondisi segmen.
               </h2>
             </div>
@@ -180,7 +180,7 @@ export default async function ProcurementDetailPage({ params }) {
         <div className="mx-auto max-w-7xl px-5 py-16 sm:px-6 lg:px-8">
           <div className="mb-8 max-w-3xl">
             <p className="text-sm font-black uppercase tracking-[0.2em] text-red-600">Garansi & bantuan klaim</p>
-            <h2 className="mt-3 text-3xl font-black tracking-tight text-blue-950 sm:text-4xl">
+            <h2 className="mt-3 text-2xl font-black tracking-tight text-blue-950 sm:text-3xl">
               Setelah unit dikirim, support tetap jelas.
             </h2>
           </div>
@@ -199,7 +199,7 @@ export default async function ProcurementDetailPage({ params }) {
         <div className="mx-auto max-w-7xl px-5 py-16 sm:px-6 lg:px-8">
           <div className="mb-8 max-w-3xl">
             <p className="text-sm font-black uppercase tracking-[0.2em] text-red-600">Link terkait</p>
-            <h2 className="mt-3 text-3xl font-black tracking-tight text-blue-950 sm:text-4xl">
+            <h2 className="mt-3 text-2xl font-black tracking-tight text-blue-950 sm:text-3xl">
               Lanjutkan ke katalog atau segmen pengadaan lain.
             </h2>
           </div>
@@ -231,7 +231,7 @@ export default async function ProcurementDetailPage({ params }) {
         <div className="relative mx-auto grid max-w-7xl gap-10 px-5 py-16 sm:px-6 lg:grid-cols-[1fr_0.82fr] lg:items-center lg:px-8">
           <div>
             <p className="text-sm font-black uppercase tracking-[0.2em] text-white/40">Mulai pengadaan</p>
-            <h2 className="mt-4 text-3xl font-black tracking-tight text-white sm:text-5xl">
+            <h2 className="mt-4 text-2xl font-black tracking-tight text-white sm:text-4xl">
               Kirim data proyek, tim susun opsi awal dari kebutuhan.
             </h2>
             <p className="mt-5 max-w-2xl text-base leading-8 text-white/70 sm:text-lg">

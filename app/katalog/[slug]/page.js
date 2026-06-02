@@ -61,7 +61,7 @@ function SectionTitle({ eyebrow, title, description }) {
       <p className="mb-3 text-xs font-black uppercase tracking-[0.24em] text-blue-700">
         {eyebrow}
       </p>
-      <h2 className="mb-4 text-3xl font-black tracking-[-0.03em] text-slate-950 sm:text-4xl lg:text-5xl">
+      <h2 className="mb-4 text-2xl font-black tracking-[-0.025em] text-slate-950 sm:text-3xl lg:text-4xl">
         {title}
       </h2>
       {description ? (
@@ -105,7 +105,7 @@ export default async function CatalogDetailPage({ params }) {
                 {item.eyebrow}
               </p>
 
-              <h1 className="mb-5 max-w-4xl text-4xl font-black leading-tight tracking-[-0.04em] text-slate-950 md:text-6xl">
+              <h1 className="mb-5 max-w-4xl text-3xl font-black leading-tight tracking-[-0.035em] text-slate-950 md:text-5xl">
                 {item.h1}
               </h1>
 
@@ -272,7 +272,7 @@ export default async function CatalogDetailPage({ params }) {
             <p className="mb-3 text-xs font-black uppercase tracking-[0.24em] text-blue-700">
               Panduan PK
             </p>
-            <h2 className="mb-4 text-3xl font-black tracking-[-0.03em] text-slate-950 sm:text-4xl lg:text-5xl">
+            <h2 className="mb-4 text-2xl font-black tracking-[-0.025em] text-slate-950 sm:text-3xl lg:text-4xl">
               Cek kapasitas sebelum pilih kategori
             </h2>
             <p className="text-sm leading-7 text-slate-600 sm:text-base">
@@ -299,7 +299,7 @@ export default async function CatalogDetailPage({ params }) {
           <p className="mb-3 text-xs font-black uppercase tracking-[0.24em] text-blue-700">
             Brand & kategori lain
           </p>
-          <h2 className="mx-auto mb-5 max-w-3xl text-3xl font-black tracking-[-0.03em] text-slate-950 sm:text-4xl">
+          <h2 className="mx-auto mb-5 max-w-3xl text-2xl font-black tracking-[-0.025em] text-slate-950 sm:text-3xl">
             Bandingkan dengan kategori dan brand lain sebelum pembelian
           </h2>
 
@@ -323,7 +323,7 @@ export default async function CatalogDetailPage({ params }) {
 
       <section className="mx-auto max-w-7xl px-4 pb-16 pt-8 sm:px-6 lg:px-8 lg:pb-20">
         <div className="rounded-[1.7rem] border border-[#25D366]/20 bg-[#25D366]/10 p-6 text-center shadow-[0_18px_50px_rgba(15,39,66,0.08)] sm:p-10 lg:p-14">
-          <h2 className="mx-auto mb-5 max-w-3xl text-3xl font-black tracking-[-0.03em] text-slate-950 sm:text-4xl">
+          <h2 className="mx-auto mb-5 max-w-3xl text-2xl font-black tracking-[-0.025em] text-slate-950 sm:text-3xl">
             Cocokkan kategori dengan data ruangan
           </h2>
           <p className="mx-auto mb-6 max-w-2xl leading-7 text-slate-700">

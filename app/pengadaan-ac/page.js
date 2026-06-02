@@ -91,7 +91,7 @@ export default function PengadaanAcPage() {
               Layanan Pengadaan B2B
             </div>
 
-            <h1 className="max-w-4xl text-4xl font-black tracking-[-0.045em] text-blue-950 sm:text-5xl lg:text-6xl">
+            <h1 className="max-w-4xl text-3xl font-black tracking-[-0.04em] text-blue-950 sm:text-4xl lg:text-5xl">
               AC untuk hotel, kost, kantor, ruko, cafe, dan proyek? Mulai dari brief.
             </h1>
 
@@ -183,7 +183,7 @@ export default function PengadaanAcPage() {
           <div className="mb-8 grid gap-5 lg:grid-cols-[0.8fr_1.2fr] lg:items-end">
             <div>
               <p className="text-sm font-black uppercase tracking-[0.2em] text-red-600">Dokumentasi</p>
-              <h2 className="mt-3 text-3xl font-black tracking-tight text-blue-950 sm:text-5xl">
+              <h2 className="mt-3 text-2xl font-black tracking-tight text-blue-950 sm:text-4xl">
                 Ada aktivitas pengiriman, stok, dan pemasangan yang bisa dilihat.
               </h2>
             </div>
@@ -213,7 +213,7 @@ export default function PengadaanAcPage() {
         <div className="mx-auto max-w-7xl px-5 py-16 sm:px-6 lg:px-8">
           <div className="mb-10 max-w-3xl">
             <p className="text-sm font-black uppercase tracking-[0.2em] text-red-600">Segmen yang dilayani</p>
-            <h2 className="mt-3 text-3xl font-black tracking-tight text-blue-950 sm:text-5xl">
+            <h2 className="mt-3 text-2xl font-black tracking-tight text-blue-950 sm:text-4xl">
               Kebutuhan berbeda, pendekatan berbeda.
             </h2>
             <p className="mt-4 text-base leading-8 text-slate-600 sm:text-lg">
@@ -249,7 +249,7 @@ export default function PengadaanAcPage() {
         <div className="mx-auto max-w-7xl px-5 py-16 sm:px-6 lg:px-8">
           <div className="mb-10 max-w-3xl">
             <p className="text-sm font-black uppercase tracking-[0.2em] text-red-600">Cara kerja</p>
-            <h2 className="mt-3 text-3xl font-black tracking-tight text-blue-950 sm:text-5xl">
+            <h2 className="mt-3 text-2xl font-black tracking-tight text-blue-950 sm:text-4xl">
               Tidak ada form. Cukup WA dengan data yang tepat.
             </h2>
             <p className="mt-4 text-base leading-8 text-slate-600 sm:text-lg">
@@ -278,7 +278,7 @@ export default function PengadaanAcPage() {
         <div className="mx-auto max-w-7xl px-5 py-16 sm:px-6 lg:px-8">
           <div className="mb-10 max-w-3xl">
             <p className="text-sm font-black uppercase tracking-[0.2em] text-red-600">Panduan awal kapasitas</p>
-            <h2 className="mt-3 text-3xl font-black tracking-tight text-blue-950 sm:text-5xl">
+            <h2 className="mt-3 text-2xl font-black tracking-tight text-blue-950 sm:text-4xl">
               Estimasi PK dari ukuran dan fungsi ruangan.
             </h2>
           </div>
@@ -325,7 +325,7 @@ export default function PengadaanAcPage() {
         <div className="relative mx-auto grid max-w-7xl gap-10 px-5 py-16 sm:px-6 lg:grid-cols-[1fr_0.82fr] lg:items-center lg:px-8">
           <div>
             <p className="text-sm font-black uppercase tracking-[0.2em] text-white/40">Mulai pengadaan</p>
-            <h2 className="mt-4 text-3xl font-black tracking-tight text-white sm:text-5xl">
+            <h2 className="mt-4 text-2xl font-black tracking-tight text-white sm:text-4xl">
               Kirim data proyek, tim susun opsi awal dari kebutuhan.
             </h2>
             <p className="mt-5 max-w-2xl text-base leading-8 text-white/70 sm:text-lg">

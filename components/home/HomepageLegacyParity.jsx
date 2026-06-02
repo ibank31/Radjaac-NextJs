@@ -212,7 +212,7 @@ function HomeHero() {
             <span className="leading-5">Cek stok, konsultasi PK, pengiriman & pemasangan</span>
           </div>
 
-          <h1 className="max-w-3xl text-4xl font-extrabold tracking-[-0.03em] text-navy sm:text-5xl lg:text-6xl">
+          <h1 className="max-w-3xl text-3xl font-extrabold tracking-[-0.025em] text-navy sm:text-4xl lg:text-5xl">
             Beli AC lebih aman kalau PK, stok, dan pemasangan dicek dari awal.
             <span className="block text-brand-blue">
               Untuk rumah, usaha, dan proyek di Banyumas.
@@ -276,7 +276,7 @@ function HomeTrust() {
     <section className="mx-auto max-w-7xl px-4 py-10">
       <div className="mx-auto mb-8 max-w-3xl text-center">
         <SectionBadge tone="amber">Bukan Sekadar Klaim</SectionBadge>
-        <h2 className="mt-4 text-3xl font-black tracking-tight text-blue-950 sm:text-4xl">
+        <h2 className="mt-4 text-2xl font-black tracking-tight text-blue-950 sm:text-3xl">
           Ada showroom, stok fisik, dan bukti aktivitas toko
         </h2>
       </div>
@@ -373,7 +373,7 @@ function HomePriceEstimate() {
         <div className="mb-7 grid gap-5 lg:grid-cols-[0.9fr_1.1fr] lg:items-end">
           <div>
             <SectionBadge>Estimasi Anggaran AC + Pasang</SectionBadge>
-            <h2 className="mt-4 text-3xl font-black tracking-tight text-blue-950 sm:text-4xl">
+            <h2 className="mt-4 text-2xl font-black tracking-tight text-blue-950 sm:text-3xl">
               Pilih AC dari anggaran awal
             </h2>
           </div>
@@ -469,7 +469,7 @@ function HomeSalesLanding() {
         <div className="grid gap-8 lg:grid-cols-[0.9fr_1.1fr] lg:items-center">
           <div>
             <SectionBadge>Cek Dulu Sebelum Beli</SectionBadge>
-            <h2 className="mt-4 text-3xl font-black tracking-tight text-blue-950 sm:text-4xl lg:text-5xl">
+            <h2 className="mt-4 text-2xl font-black tracking-tight text-blue-950 sm:text-3xl lg:text-4xl">
               Beli AC yang pas itu bukan cuma soal harga awal
             </h2>
             <p className="mt-5 max-w-2xl text-sm leading-7 text-slate-600 sm:text-base">
@@ -523,7 +523,7 @@ function HomeCategory() {
     <section className="mx-auto max-w-7xl px-4 py-10">
       <div className="mb-6">
         <SectionBadge>Kategori Produk</SectionBadge>
-        <h2 className="mt-4 text-3xl font-black tracking-tight text-blue-950 sm:text-4xl">
+        <h2 className="mt-4 text-2xl font-black tracking-tight text-blue-950 sm:text-3xl">
           Pilih dari jenis ruangan
         </h2>
         <p className="mt-3 max-w-2xl text-sm leading-7 text-slate-600 sm:text-base">
@@ -560,7 +560,7 @@ function HomeBrands() {
       <div className="mb-6 flex items-end justify-between gap-4">
         <div>
           <SectionBadge>Brand Tersedia</SectionBadge>
-          <h2 className="mt-4 text-3xl font-black tracking-tight text-blue-950 sm:text-4xl">
+          <h2 className="mt-4 text-2xl font-black tracking-tight text-blue-950 sm:text-3xl">
             Tiap brand punya karakter sendiri
           </h2>
         </div>
@@ -649,7 +649,7 @@ function HomeWhyChoose() {
     <section className="mx-auto max-w-7xl px-4 py-12">
       <div className="mx-auto mb-10 max-w-3xl text-center">
         <SectionBadge>Cara Kami Kerja</SectionBadge>
-        <h2 className="mt-4 text-3xl font-black tracking-tight text-blue-950 sm:text-4xl">
+        <h2 className="mt-4 text-2xl font-black tracking-tight text-blue-950 sm:text-3xl">
           Stok dicek, PK dihitung, pasang dijelaskan — sebelum pembelian
         </h2>
         <p className="mx-auto mt-4 max-w-2xl text-sm leading-7 text-slate-600">

@@ -48,7 +48,7 @@ export default function PengirimanPemasanganPage() {
         <p className="text-sm font-bold uppercase tracking-[0.22em] text-blue-700">
           Pengiriman & Pemasangan
         </p>
-        <h1 className="mt-4 max-w-4xl text-4xl font-black tracking-tight text-slate-950 md:text-5xl">
+        <h1 className="mt-4 max-w-4xl text-3xl font-black tracking-tight text-slate-950 md:text-4xl">
           Pengiriman unit, kebutuhan pemasangan, dan garansi pemasangan AC
         </h1>
         <p className="mt-6 max-w-3xl text-lg leading-8 text-slate-600">

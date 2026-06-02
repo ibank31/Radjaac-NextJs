@@ -361,7 +361,7 @@ export default function ProofGalleryClient() {
             Gallery RADJA AC Purwokerto
           </div>
 
-          <h1 className="mb-6 text-4xl font-black leading-tight tracking-[-0.04em] text-slate-950 sm:text-5xl lg:text-6xl">
+          <h1 className="mb-6 text-3xl font-black leading-tight tracking-[-0.035em] text-slate-950 sm:text-4xl lg:text-5xl">
             Daripada cuma percaya tulisan —{" "}
             <span className="text-blue-700">lihat dulu foto aslinya.</span>
           </h1>
@@ -445,7 +445,7 @@ export default function ProofGalleryClient() {
           <p className="mb-4 text-xs font-semibold uppercase tracking-[0.35em] text-blue-700">
             Foto Aktivitas
           </p>
-          <h2 className="mx-auto mb-5 max-w-4xl text-3xl font-black leading-tight tracking-[-0.04em] text-slate-950 sm:text-4xl lg:text-5xl">
+          <h2 className="mx-auto mb-5 max-w-4xl text-2xl font-black leading-tight tracking-[-0.035em] text-slate-950 sm:text-3xl lg:text-4xl">
             Showroom, gudang, stok, display, dan pengiriman
           </h2>
           <p className="mx-auto max-w-2xl text-base leading-8 text-slate-600">

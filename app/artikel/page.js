@@ -36,7 +36,7 @@ export default function ArtikelPage() {
             <p className="inline-flex rounded-full border border-white/15 bg-white/10 px-4 py-2 text-xs font-black uppercase tracking-[0.24em] text-blue-100 backdrop-blur">
               Artikel RADJA AC
             </p>
-            <h1 className="mt-6 max-w-4xl text-4xl font-black leading-tight tracking-[-0.04em] md:text-6xl">
+            <h1 className="mt-6 max-w-4xl text-3xl font-black leading-tight tracking-[-0.035em] md:text-5xl">
               Panduan beli AC yang tidak bikin bingung sebelum chat RADJA AC
             </h1>
             <p className="mt-6 max-w-3xl text-base leading-8 text-blue-50/90 sm:text-lg">

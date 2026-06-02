@@ -102,7 +102,7 @@ function SectionTitle({ eyebrow, title, description }) {
   return (
     <div className="mx-auto mb-9 max-w-3xl text-center">
       <p className="mb-3 text-xs font-black uppercase tracking-[0.28em] text-blue-700">{eyebrow}</p>
-      <h2 className="mb-4 text-3xl font-black tracking-tight text-slate-950 sm:text-4xl lg:text-5xl">{title}</h2>
+      <h2 className="mb-4 text-2xl font-black tracking-tight text-slate-950 sm:text-3xl lg:text-4xl">{title}</h2>
       {description ? <p className="mx-auto max-w-2xl text-sm leading-7 text-slate-600 sm:text-base">{description}</p> : null}
     </div>
   );
@@ -218,7 +218,7 @@ export default async function AreaPage({ params }) {
             <div className="mb-5 inline-flex rounded-full border border-blue-100 bg-blue-50 px-4 py-2 text-sm text-blue-700">
               {item.eyebrow}
             </div>
-            <h1 className="mb-3 max-w-3xl text-3xl font-black leading-[1.05] tracking-[-0.035em] sm:text-4xl md:text-5xl xl:text-6xl">
+            <h1 className="mb-3 max-w-3xl text-2xl font-black leading-[1.08] tracking-[-0.03em] sm:text-3xl md:text-4xl xl:text-5xl">
               {item.h1}
             </h1>
             <p className="mb-5 max-w-2xl text-sm font-bold leading-6 text-blue-700">
@@ -308,7 +308,7 @@ export default async function AreaPage({ params }) {
 
       <section className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8 lg:py-12">
         <div className="grid gap-8 lg:grid-cols-[0.9fr_1.1fr] lg:items-start">
-          <div><div className="mb-4 inline-flex rounded-full border border-blue-100 bg-blue-50 px-4 py-2 text-sm font-semibold text-blue-700">ALUR BELI AC</div><h2 className="mb-5 text-3xl font-black tracking-tight sm:text-4xl lg:text-5xl">Cek kebutuhan dulu, baru kunci stok dan jadwal</h2><p className="mb-6 text-sm leading-7 text-slate-600 sm:text-base">Mulai dari area dan ukuran ruangan. Tim RADJA AC cek stok, cocokkan PK, jelaskan estimasi, lalu susun jadwal setelah data cocok.</p><WhatsappLink className="inline-flex items-center justify-center rounded-full bg-[#25D366] px-6 py-4 font-bold text-slate-950 transition hover:bg-[#20BA5A]" source={`${item.label} - Alur Beli`} intent={item.waIntent} area={item.waArea}>Cek AC untuk Area Ini</WhatsappLink></div>
+          <div><div className="mb-4 inline-flex rounded-full border border-blue-100 bg-blue-50 px-4 py-2 text-sm font-semibold text-blue-700">ALUR BELI AC</div><h2 className="mb-5 text-2xl font-black tracking-tight sm:text-3xl lg:text-4xl">Cek kebutuhan dulu, baru kunci stok dan jadwal</h2><p className="mb-6 text-sm leading-7 text-slate-600 sm:text-base">Mulai dari area dan ukuran ruangan. Tim RADJA AC cek stok, cocokkan PK, jelaskan estimasi, lalu susun jadwal setelah data cocok.</p><WhatsappLink className="inline-flex items-center justify-center rounded-full bg-[#25D366] px-6 py-4 font-bold text-slate-950 transition hover:bg-[#20BA5A]" source={`${item.label} - Alur Beli`} intent={item.waIntent} area={item.waArea}>Cek AC untuk Area Ini</WhatsappLink></div>
           <div className="grid gap-4">{processSteps.map(([title, description], index) => <div key={title} className="rounded-[1.45rem] border border-slate-200 bg-white p-5"><div className="mb-3 flex items-center gap-3"><span className="flex h-9 w-9 items-center justify-center rounded-full bg-blue-300 text-sm font-black text-slate-950">{index + 1}</span><h3 className="text-lg font-black text-slate-950">{title}</h3></div><p className="text-sm leading-7 text-slate-600">{description}</p></div>)}</div>
         </div>
       </section>
@@ -366,7 +366,7 @@ export default async function AreaPage({ params }) {
       </section>
 
       <section className="mx-auto max-w-7xl px-4 pb-16 pt-8 sm:px-6 lg:px-8 lg:pb-20 lg:pt-10">
-        <div className="rounded-[1.7rem] border border-[#25D366]/20 bg-[#25D366]/10 p-6 text-center sm:p-10"><h2 className="mx-auto mb-5 max-w-3xl text-3xl font-black tracking-tight sm:text-4xl">Cari AC untuk area {item.areaName}? Mulai dari data ruangan.</h2><p className="mx-auto mb-7 max-w-2xl text-sm leading-7 text-slate-600">Sebutkan area/kecamatan, ukuran ruangan, daya listrik, jumlah unit, dan anggaran awal. Tim RADJA AC mengecek stok dan estimasi sebelum pembelian.</p><WhatsappLink className="inline-flex items-center justify-center rounded-full bg-[#25D366] px-6 py-4 font-bold text-slate-950 shadow-[0_18px_50px_rgba(37,211,102,0.2)] transition hover:-translate-y-0.5 hover:bg-[#20BA5A]" source={`${item.label} - Final CTA`} intent={item.waIntent} area={item.waArea}>Kirim Data Ruangan</WhatsappLink></div>
+        <div className="rounded-[1.7rem] border border-[#25D366]/20 bg-[#25D366]/10 p-6 text-center sm:p-10"><h2 className="mx-auto mb-5 max-w-3xl text-2xl font-black tracking-tight sm:text-3xl">Cari AC untuk area {item.areaName}? Mulai dari data ruangan.</h2><p className="mx-auto mb-7 max-w-2xl text-sm leading-7 text-slate-600">Sebutkan area/kecamatan, ukuran ruangan, daya listrik, jumlah unit, dan anggaran awal. Tim RADJA AC mengecek stok dan estimasi sebelum pembelian.</p><WhatsappLink className="inline-flex items-center justify-center rounded-full bg-[#25D366] px-6 py-4 font-bold text-slate-950 shadow-[0_18px_50px_rgba(37,211,102,0.2)] transition hover:-translate-y-0.5 hover:bg-[#20BA5A]" source={`${item.label} - Final CTA`} intent={item.waIntent} area={item.waArea}>Kirim Data Ruangan</WhatsappLink></div>
       </section>
     </main>
   );
