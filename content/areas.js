@@ -260,6 +260,86 @@ relatedLinks: [
     ],
   },
     {
+      slug: "jual-ac-jatilawang",
+      path: routes.jualAcJatilawang,
+      areaName: "Jatilawang",
+      label: "Jual AC Jatilawang",
+      title: "Jual AC Jatilawang untuk Rumah, Toko & Usaha — RADJA AC",
+      description:
+        "Butuh AC untuk rumah, toko, ruko, kantor, atau usaha di Jatilawang? RADJA AC bantu cek PK, stok, pengiriman, opsi pemasangan, dan pembayaran fleksibel.",
+      h1: "Jual AC Jatilawang untuk Rumah, Toko & Usaha",
+      eyebrow: "Area Banyumas",
+      intro:
+        "Butuh AC di Jatilawang untuk rumah, toko, ruko, kantor, ruang usaha, atau beberapa unit? Tim RADJA AC bantu cek kebutuhan PK, daya listrik, stok brand, pengiriman, dan opsi pemasangan dari data awal.",
+      localContext:
+        "Jatilawang termasuk area Banyumas yang cocok untuk kebutuhan rumah tinggal, toko, ruko, kantor kecil, ruang usaha, dan pembelian beberapa unit. Kirim ukuran ruangan, jumlah unit, daya listrik, alamat, anggaran awal, serta kebutuhan unit saja atau opsi pemasangan.",
+      coverageNote:
+        "Showroom dan gudang RADJA AC berada di Banyumas. Kebutuhan AC area Jatilawang dilayani dengan konsultasi PK, cek stok unit, pengiriman, serta opsi pemasangan sesuai alamat, jumlah unit, dan jadwal.",
+      keywordVariants: [
+        "AC rumah Jatilawang",
+        "AC toko dan ruko Jatilawang",
+        "AC kantor kecil Jatilawang",
+        "AC usaha Jatilawang",
+        "Banyak unit area Jatilawang",
+        "Cek PK AC Jatilawang",
+      ],
+      nearbyAreaLinks: [
+        ["Jual AC Banyumas", routes.jualAcBanyumas],
+        ["Jual AC Purwokerto", routes.jualAcPurwokerto],
+        ["Jual AC Wangon", routes.jualAcWangon],
+        ["Jual AC Ajibarang", routes.jualAcAjibarang],
+        ["Jual AC Rawalo", routes.jualAcRawalo],
+      ],
+      trustBullets: [
+        "Cek kebutuhan PK dari ukuran ruangan, daya listrik, dan pola pemakaian",
+        "Cek stok brand seperti Gree, Daikin, Midea, Hisense, Sharp, Samsung, dan lainnya",
+        "Opsi pengiriman dan pemasangan dikonfirmasi berdasarkan alamat Jatilawang dan jumlah unit",
+        "Cocok untuk rumah, toko, ruko, kantor kecil, usaha, dan pembelian beberapa unit",
+      ],
+      localFaq: [
+        [
+          "Apakah RADJA AC punya toko fisik di Jatilawang?",
+          "Showroom dan gudang RADJA AC berada di Banyumas. Untuk kebutuhan AC Jatilawang, tim membantu cek stok, kapasitas PK, pengiriman, dan opsi pemasangan berdasarkan alamat serta jumlah unit.",
+        ],
+        [
+          "Bisa konsultasi AC untuk toko, ruko, atau kantor di Jatilawang?",
+          "Bisa. Kirim ukuran ruangan, jumlah titik, daya listrik, preferensi brand, target anggaran, dan timeline agar tim RADJA AC menyiapkan arahan awal.",
+        ],
+        [
+          "Apa yang perlu dikirim untuk cek AC Jatilawang?",
+          "Siapkan alamat atau area detail, ukuran ruangan, daya listrik, jumlah unit, tipe bangunan, preferensi brand, dan apakah butuh unit saja atau opsi pemasangan.",
+        ],
+        [
+          "Apakah pembayaran bisa COD, DP, atau transfer?",
+          "Skema pembayaran fleksibel dapat dikonsultasikan. Detail COD, DP, atau transfer dikonfirmasi bersama tim RADJA AC sesuai kebutuhan unit, pengiriman, dan pemasangan.",
+        ],
+      ],
+      commonNeeds: [
+        "AC rumah tinggal dan kamar tidur",
+        "AC toko, ruko, kantor kecil, dan ruang usaha",
+        "AC untuk beberapa ruangan atau beberapa titik",
+        "Pembelian unit untuk usaha lokal dan kebutuhan banyak unit",
+      ],
+      buyingChecks: [
+        "Alamat detail area Jatilawang",
+        "Ukuran ruangan dan estimasi kebutuhan PK",
+        "Daya listrik serta pilihan standard, low watt, atau inverter",
+        "Kebutuhan unit saja, pengiriman, atau opsi pemasangan",
+      ],
+      paymentNote:
+        "Pembayaran fleksibel bisa dikonsultasikan: DP, COD, atau transfer setelah kebutuhan unit, pengiriman, dan opsi pemasangan jelas.",
+      relatedLinks: [
+        ["Jual AC Banyumas", routes.jualAcBanyumas],
+        ["Jual AC Purwokerto", routes.jualAcPurwokerto],
+        ["Kalkulator PK AC", routes.kalkulatorPkAc],
+        ["AC Low Watt", routes.katalogAcLowWatt],
+        ["Kontak RADJA AC", routes.kontak],
+      ],
+      ctaLabel: "Chat WhatsApp untuk cek AC Jatilawang",
+      waIntent: "cek stok AC Jatilawang dengan data alamat ukuran ruangan daya listrik jumlah unit dan kebutuhan pemasangan",
+      waArea: "Jatilawang",
+    },
+    {
       slug: "jual-ac-ajibarang",
       path: routes.jualAcAjibarang,
       areaName: "Ajibarang",
