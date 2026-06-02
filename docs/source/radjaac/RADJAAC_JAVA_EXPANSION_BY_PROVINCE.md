@@ -122,7 +122,7 @@ Kompetitor kota besar menampilkan bukti kedalaman kategori dan brand dengan cuku
 
 **Risiko terbesar ekspansi Pulau Jawa**
 
-Risiko paling besar bukan “kurang banyak halaman”, tetapi **terlalu cepat memperluas halaman ketika template inti masih salah**. Saat halaman Yogyakarta, Cilacap, Kebumen, Tegal, hingga homepage masih terbaca sebagai “Toko AC Purwokerto”, Google bisa bingung terhadap intent kota dan kualitas ekspansi non-lokal. Risiko besar lain adalah memaksa retail page ke metro yang sudah dipenuhi dealer resmi dan kontraktor beralamat jelas. citeturn34view0turn34view1turn34view3turn34view4turn35view1turn24view3turn18view4turn17view3
+Risiko paling besar bukan “kurang banyak halaman”, tetapi **terlalu cepat memperluas halaman ketika template inti belum stabil**. Status terkini: template area sudah diperbaiki agar tidak Purwokerto-sentris; ekspansi tetap harus bertahap melalui hub kabupaten/kota dan child kecamatan yang punya konteks unik. Risiko besar lain adalah memaksa retail page ke metro yang sudah dipenuhi dealer resmi dan kontraktor beralamat jelas. citeturn34view0turn34view1turn34view3turn34view4turn35view1turn24view3turn18view4turn17view3
 
 **Aturan agar ekspansi tidak merusak SEO lokal Purwokerto/Banyumas**
 
