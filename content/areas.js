@@ -847,6 +847,49 @@ export const areaItems = [
       "Semarang cocok untuk kebutuhan rumah, kantor, ruko, toko, hotel, proyek, pengadaan, dan banyak unit. Karena banyak kebutuhan komersial melibatkan beberapa ruangan atau deadline pekerjaan, siapkan data jumlah unit, ukuran ruangan, tipe bangunan, daya listrik, dan timeline sejak awal.",
     coverageNote:
       "Showroom dan gudang RADJA AC berada di Banyumas. Kebutuhan AC area Semarang dilayani dengan konsultasi PK, cek stok unit, pengiriman, serta opsi pemasangan sesuai alamat, jumlah unit, dan jadwal pekerjaan.",
+    keywordVariants: [
+      "jual AC Semarang",
+      "toko AC Semarang",
+      "AC kantor Semarang",
+      "AC ruko Semarang",
+      "AC hotel Semarang",
+      "pengadaan AC Semarang",
+      "AC proyek Semarang",
+      "AC inverter Semarang",
+      "AC low watt Semarang",
+      "konsultasi PK AC Semarang",
+    ],
+    nearbyAreaLinks: [
+      ["Jual AC Yogyakarta", routes.jualAcYogyakarta],
+      ["Jual AC Solo", routes.jualAcSolo],
+      ["Jual AC Tegal", routes.jualAcTegal],
+      ["Jual AC Kebumen", routes.jualAcKebumen],
+      ["Jual AC Banjarnegara", routes.jualAcBanjarnegara],
+    ],
+    trustBullets: [
+      "Cek kebutuhan PK dari ukuran ruangan, fungsi bangunan, dan jam pemakaian",
+      "Cek stok brand seperti Gree, Daikin, Midea, Hisense, Sharp, Samsung, dan lainnya",
+      "Opsi pengiriman dan pemasangan dikonfirmasi berdasarkan alamat serta jumlah unit",
+      "Cocok untuk kebutuhan rumah, ruko, kantor, hotel, usaha, dan proyek banyak titik",
+    ],
+    localFaq: [
+      [
+        "Apakah RADJA AC punya toko fisik di Semarang?",
+        "Showroom dan gudang RADJA AC berada di Banyumas. Untuk kebutuhan AC Semarang, tim membantu cek stok, kapasitas PK, pengiriman, serta opsi pemasangan berdasarkan alamat dan jumlah unit.",
+      ],
+      [
+        "Bisa konsultasi AC untuk kantor, ruko, hotel, atau proyek di Semarang?",
+        "Bisa. Kirim ukuran ruangan, jumlah titik, tipe bangunan, daya listrik, preferensi brand, dan timeline pekerjaan agar tim RADJA AC menyiapkan arahan awal.",
+      ],
+      [
+        "Brand AC apa saja yang bisa dicek untuk Semarang?",
+        "Tim RADJA AC bisa membantu cek stok brand seperti Gree, Daikin, Midea, Hisense, Sharp, Samsung, Panasonic, Aqua, TCL, dan brand lain sesuai ketersediaan.",
+      ],
+      [
+        "Apakah pembayaran bisa COD, DP, atau transfer?",
+        "Skema pembayaran fleksibel dapat dikonsultasikan. Detail COD, DP, atau transfer dikonfirmasi bersama tim RADJA AC sesuai kebutuhan unit, pengiriman, dan pemasangan.",
+      ],
+    ],
     commonNeeds: [
       "AC rumah tinggal dan ruang keluarga",
       "AC kantor, ruko, toko, klinik, dan ruang usaha",
