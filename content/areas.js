@@ -340,6 +340,86 @@ relatedLinks: [
       waArea: "Jatilawang",
     },
     {
+      slug: "jual-ac-cilongok",
+      path: routes.jualAcCilongok,
+      areaName: "Cilongok",
+      label: "Jual AC Cilongok",
+      title: "Jual AC Cilongok untuk Rumah, Toko & Usaha — RADJA AC",
+      description:
+        "Butuh AC untuk rumah, toko, ruko, kantor, atau usaha di Cilongok? RADJA AC bantu cek PK, stok, pengiriman, opsi pemasangan, dan pembayaran fleksibel.",
+      h1: "Jual AC Cilongok untuk Rumah, Toko & Usaha",
+      eyebrow: "Area Banyumas",
+      intro:
+        "Butuh AC di Cilongok untuk rumah, toko, ruko, kantor, ruang usaha, atau beberapa unit? Tim RADJA AC bantu cek kebutuhan PK, daya listrik, stok brand, pengiriman, dan opsi pemasangan dari data awal.",
+      localContext:
+        "Cilongok termasuk area Banyumas yang cocok untuk kebutuhan rumah tinggal, toko, ruko, kantor kecil, ruang usaha, dan pembelian beberapa unit. Kirim ukuran ruangan, jumlah unit, daya listrik, alamat, anggaran awal, serta kebutuhan unit saja atau opsi pemasangan.",
+      coverageNote:
+        "Showroom dan gudang RADJA AC berada di Banyumas. Kebutuhan AC area Cilongok dilayani dengan konsultasi PK, cek stok unit, pengiriman, serta opsi pemasangan sesuai alamat, jumlah unit, dan jadwal.",
+      keywordVariants: [
+        "AC rumah Cilongok",
+        "AC toko dan ruko Cilongok",
+        "AC kantor kecil Cilongok",
+        "AC usaha Cilongok",
+        "Banyak unit area Cilongok",
+        "Cek PK AC Cilongok",
+      ],
+      nearbyAreaLinks: [
+        ["Jual AC Banyumas", routes.jualAcBanyumas],
+        ["Jual AC Purwokerto", routes.jualAcPurwokerto],
+        ["Jual AC Ajibarang", routes.jualAcAjibarang],
+        ["Jual AC Karanglewas", routes.jualAcKaranglewas],
+        ["Jual AC Jatilawang", routes.jualAcJatilawang],
+      ],
+      trustBullets: [
+        "Cek kebutuhan PK dari ukuran ruangan, daya listrik, dan pola pemakaian",
+        "Cek stok brand seperti Gree, Daikin, Midea, Hisense, Sharp, Samsung, dan lainnya",
+        "Opsi pengiriman dan pemasangan dikonfirmasi berdasarkan alamat Cilongok dan jumlah unit",
+        "Cocok untuk rumah, toko, ruko, kantor kecil, usaha, dan pembelian beberapa unit",
+      ],
+      localFaq: [
+        [
+          "Apakah RADJA AC punya toko fisik di Cilongok?",
+          "Showroom dan gudang RADJA AC berada di Banyumas. Untuk kebutuhan AC Cilongok, tim membantu cek stok, kapasitas PK, pengiriman, dan opsi pemasangan berdasarkan alamat serta jumlah unit.",
+        ],
+        [
+          "Bisa konsultasi AC untuk toko, ruko, atau kantor di Cilongok?",
+          "Bisa. Kirim ukuran ruangan, jumlah titik, daya listrik, preferensi brand, target anggaran, dan timeline agar tim RADJA AC menyiapkan arahan awal.",
+        ],
+        [
+          "Apa yang perlu dikirim untuk cek AC Cilongok?",
+          "Siapkan alamat atau area detail, ukuran ruangan, daya listrik, jumlah unit, tipe bangunan, preferensi brand, dan apakah butuh unit saja atau opsi pemasangan.",
+        ],
+        [
+          "Apakah pembayaran bisa COD, DP, atau transfer?",
+          "Skema pembayaran fleksibel dapat dikonsultasikan. Detail COD, DP, atau transfer dikonfirmasi bersama tim RADJA AC sesuai kebutuhan unit, pengiriman, dan pemasangan.",
+        ],
+      ],
+      commonNeeds: [
+        "AC rumah tinggal dan kamar tidur",
+        "AC toko, ruko, kantor kecil, dan ruang usaha",
+        "AC untuk beberapa ruangan atau beberapa titik",
+        "Pembelian unit untuk usaha lokal dan kebutuhan banyak unit",
+      ],
+      buyingChecks: [
+        "Alamat detail area Cilongok",
+        "Ukuran ruangan dan estimasi kebutuhan PK",
+        "Daya listrik serta pilihan standard, low watt, atau inverter",
+        "Kebutuhan unit saja, pengiriman, atau opsi pemasangan",
+      ],
+      paymentNote:
+        "Pembayaran fleksibel bisa dikonsultasikan: DP, COD, atau transfer setelah kebutuhan unit, pengiriman, dan opsi pemasangan jelas.",
+      relatedLinks: [
+        ["Jual AC Banyumas", routes.jualAcBanyumas],
+        ["Jual AC Purwokerto", routes.jualAcPurwokerto],
+        ["Kalkulator PK AC", routes.kalkulatorPkAc],
+        ["AC Low Watt", routes.katalogAcLowWatt],
+        ["Kontak RADJA AC", routes.kontak],
+      ],
+      ctaLabel: "Chat WhatsApp untuk cek AC Cilongok",
+      waIntent: "cek stok AC Cilongok dengan data alamat ukuran ruangan daya listrik jumlah unit dan kebutuhan pemasangan",
+      waArea: "Cilongok",
+    },
+    {
       slug: "jual-ac-ajibarang",
       path: routes.jualAcAjibarang,
       areaName: "Ajibarang",
