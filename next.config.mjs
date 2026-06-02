@@ -108,7 +108,28 @@ const legacyRedirects = [
   },
 ];
 
+const staticAssetHeaders = [
+  "/photos/:path*",
+  "/images/:path*",
+  "/icons/:path*",
+  "/brand-logos/:path*",
+  "/brand/:path*",
+  "/ui/:path*",
+].map((source) => ({
+  source,
+  headers: [
+    {
+      key: "Cache-Control",
+      value: "public, max-age=31536000, immutable",
+    },
+  ],
+}));
+
 const nextConfig = {
+  async headers() {
+    return staticAssetHeaders;
+  },
+
   async redirects() {
     return legacyRedirects;
   },
