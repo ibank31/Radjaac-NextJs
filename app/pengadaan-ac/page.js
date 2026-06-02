@@ -72,7 +72,7 @@ const processSteps = [
 
 const capacityRows = [
   ["Kamar tidur kecil", "1/2 PK", "Cek paparan panas dan insulasi dinding"],
-  ["Kamar sedang / ruang kerja", "1 PK", "Umum untuk hunian, kost, dan kantor kecil"],
+  ["Kamar sedang / ruang kerja", "1 PK", "Umum untuk hunian, kost, kantor, atau ruko"],
   ["Ruang keluarga / ruko kecil", "1.5–2 PK", "Perlu cek tinggi plafon dan jumlah penghuni"],
   ["Area komersial luas", "Cassette / FS", "Perlu brief layout dan kebutuhan proyek lengkap"],
 ];
