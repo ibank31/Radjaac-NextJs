@@ -24,11 +24,11 @@ Dokumen ini menjadi acuan ekspansi Pulau Jawa untuk memilih provinsi, kota, jeni
 
 | Provinsi | Peluang Utama | Kota Tier 1 | Kota Tier 2 | B2B Priority | Risiko Utama | Strategi |
 |---|---|---|---|---|---|---|
-| Jawa Tengah | Retail regional + kantor/ruko + proyek ringan | Purwokerto, Semarang, Solo, Cilacap, Kebumen, Tegal citeturn21search0turn5search9turn24view1turn2search19turn3search0turn3search1 | Purbalingga, Banjarnegara, Magelang, Pekalongan, Salatiga citeturn3search2turn3search3turn4search0turn29view0turn5search5 | Semarang, Solo, Pekalongan citeturn20search8turn24view1turn29view0 | Kompetisi Semarang/Solo, copy-paste area page, snippet Purwokerto | Provinsi pertama; retail-first + B2B support |
-| DI Yogyakarta | Retail + hotel/kost + kantor + proyek ringan | Yogyakarta citeturn6search0turn18view2 | Sleman, Bantul citeturn6search15turn6search19 | Yogyakarta, Sleman/Bantul untuk hotel-kost-gedung citeturn25search15turn7search17 | Kompetitor lokal kuat, risk thin bila 5 kabupaten dibuat semua | Satu page Yogya yang sangat kuat, kabupaten sebagai coverage dulu |
+| Jawa Tengah | Retail regional + supplier AC original multi-brand + kantor/ruko + proyek, pengadaan, dan banyak unit | Purwokerto, Semarang, Solo, Cilacap, Kebumen, Tegal citeturn21search0turn5search9turn24view1turn2search19turn3search0turn3search1 | Purbalingga, Banjarnegara, Magelang, Pekalongan, Salatiga citeturn3search2turn3search3turn4search0turn29view0turn5search5 | Semarang, Solo, Pekalongan citeturn20search8turn24view1turn29view0 | Kompetisi Semarang/Solo, copy-paste area page, snippet Purwokerto | Provinsi pertama; retail-first + B2B support |
+| DI Yogyakarta | Retail + hotel/kost + kantor/ruko + proyek, pengadaan, dan banyak unit | Yogyakarta citeturn6search0turn18view2 | Sleman, Bantul citeturn6search15turn6search19 | Yogyakarta, Sleman/Bantul untuk hotel-kost-gedung citeturn25search15turn7search17 | Kompetitor lokal kuat, risiko konten kurang kuat bila 5 kabupaten dibuat semua | Satu page Yogya yang sangat kuat, kabupaten sebagai coverage dulu |
 | Jawa Barat | Gateway retail terpilih + B2B komersial/industri | Bandung, Bekasi, Bogor dalam arti “provinsi aktif”, bukan immediate retail rollout citeturn24view3turn17view2turn8search2 | Cirebon, Karawang, Purwakarta, Depok citeturn9search14turn9search2turn10search12turn8search5 | Bandung, Bekasi, Karawang, Purwakarta citeturn29view1turn30view1turn9search10turn17view7 | Dealer resmi padat, SERP sangat matang, logistik barat | Masuk sesudah Jateng/DIY; B2B-first untuk kota inti |
 | Banten | B2B dan komersial yang dekat ke koridor Jabodetabek | Tangerang, Tangerang Selatan, Serang dalam arti “masuk provinsi”, bukan retail langsung citeturn18view4turn27search8turn24view5 | Cilegon citeturn14search2 | Tangerang, Tangsel, Cilegon, Serang citeturn17view5turn27search4turn28search1turn24view5 | Kompetisi dealer resmi, klaim lokal palsu, expectation proyek | B2B-first; retail ditahan |
-| DKI Jakarta | B2B/proyek, kantor, apartemen, gedung, kontraktor | Tidak ada retail Tier 1 untuk fase ini | Semua wilayah retail ditahan | Jakarta Barat, Jakarta Selatan, Jakarta Utara, Jakarta Timur, Jakarta Pusat citeturn29view2turn33search6turn16search9turn32search2turn32search10 | Kompetisi level metro, showroom banyak, trust gap tinggi | Hanya B2B/proyek setelah asset cukup |
+| DKI Jakarta | B2B, proyek, kantor, apartemen, gedung, kontraktor, dan pengadaan | Tidak ada retail Tier 1 untuk fase ini | Semua wilayah retail ditahan | Jakarta Barat, Jakarta Selatan, Jakarta Utara, Jakarta Timur, Jakarta Pusat citeturn29view2turn33search6turn16search9turn32search2turn32search10 | Kompetisi level metro, showroom banyak, trust gap tinggi | Hanya B2B/proyek setelah asset cukup |
 | Jawa Timur | B2B/proyek dan komersial kota besar | Tidak ada retail Tier 1 untuk fase ini | Malang sebagai hybrid nanti; lainnya ditahan citeturn24view0 | Surabaya, Malang, Sidoarjo, Gresik citeturn17view3turn24view0turn11search1turn11search2 | Jarak, dealer matang, proyek expectation tinggi | B2B-only setelah fondasi barat/central kuat |
 
 **Urutan ekspansi kota**
@@ -37,22 +37,22 @@ Dokumen ini menjadi acuan ekspansi Pulau Jawa untuk memilih provinsi, kota, jeni
 |---|---|---|---|---|---|---|---|
 | Purwokerto | Tier 1 | Retail inti + local defense | `/jual-ac-purwokerto` | toko fisik, cek stok, pemasangan, basis nyata | `Chat stok AC Purwokerto` | cannibalization lokal | Sekarang |
 | Banyumas | Tier 2 lokal | Retail support | `/jual-ac-banyumas` bila ada | kabupaten coverage dari basis fisik | `Chat kebutuhan AC Banyumas` | tumpang tindih dengan Purwokerto | Sekarang, tapi polish ringan |
-| Sokaraja | Tier 2 lokal | Trust page, bukan ekspansi | `/jual-ac-sokaraja` | basis showroom/gudang | `Chat showroom Sokaraja` | thin content | Sekarang untuk trust |
-| Semarang | Tier 1 | Retail + kantor + proyek ringan | `/jual-ac-semarang` | kirim unit, konsultasi PK, opsi pemasangan | `Cek stok AC ke Semarang` | kompetisi tinggi | Sekarang |
-| Yogyakarta | Tier 1 | Retail + hotel/kost + kantor | `/jual-ac-yogyakarta` | rumah-kost-hotel-gedung kecil | `Konsultasi AC area Yogya` | local specialists kuat | Sekarang |
-| Solo | Tier 1 | Retail + kantor + toko + kost | `/jual-ac-solo` | multi-brand, rumah sampai usaha | `Cek stok AC Solo` | dealer resmi kuat | Setelah Semarang |
-| Cilacap | Tier 1 | Retail regional | `/jual-ac-cilacap` | unit original + pengiriman + opsi pasang | `Tanya stok AC Cilacap` | price-only leads | Sekarang |
-| Kebumen | Tier 1 | Retail regional | `/jual-ac-kebumen` | rumah, toko, kost kecil | `Chat kebutuhan AC Kebumen` | lead murah | Sekarang |
-| Tegal | Tier 1 | Retail regional | `/jual-ac-tegal` | rumah, cafe, toko, banyak unit | `Cek stok AC Tegal` | harga-only query | Sekarang |
-| Purbalingga | Tier 2 | Retail regional | `/jual-ac-purbalingga` | rumah dan usaha kecil | `Chat AC Purbalingga` | butuh copy unik | Setelah ring utama |
-| Banjarnegara | Tier 2 | Retail regional | `/jual-ac-banjarnegara` | unit only + banyak unit | `Tanya AC Banjarnegara` | volume lebih sempit | Setelah ring utama |
-| Magelang | Tier 2 | Retail + proyek ringan | `/jual-ac-magelang` | AC baru original, bukan AC bekas/service | `Konsultasi AC Magelang` | banyak SERP service | Setelah ring utama |
+| Sokaraja | Tier 2 lokal | Trust page, bukan ekspansi | `/jual-ac-sokaraja` | basis showroom/gudang | `Chat showroom Sokaraja` | konten kurang kuat | Sekarang untuk trust |
+| Semarang | Tier 1 | Retail + kantor/ruko + proyek, pengadaan, partai besar, dan banyak unit | `/jual-ac-semarang` | kirim unit, konsultasi PK, opsi pemasangan | `Cek stok AC ke Semarang` | kompetisi tinggi | Sekarang |
+| Yogyakarta | Tier 1 | Retail + hotel/kost + kantor/ruko + pengadaan | `/jual-ac-yogyakarta` | rumah, kost, hotel, guest house, gedung, proyek, dan banyak unit | `Konsultasi AC area Yogya` | local specialists kuat | Sekarang |
+| Solo | Tier 1 | Retail + kantor/ruko + toko + kost | `/jual-ac-solo` | multi-brand, rumah sampai usaha | `Cek stok AC Solo` | dealer resmi kuat | Setelah Semarang |
+| Cilacap | Tier 1 | Retail regional + supplier AC original multi-brand | `/jual-ac-cilacap` | unit original + pengiriman + opsi pasang | `Tanya stok AC Cilacap` | calon pembeli butuh estimasi cepat dan jelas | Sekarang |
+| Kebumen | Tier 1 | Retail regional + supplier AC original multi-brand | `/jual-ac-kebumen` | rumah, toko, kost dan properti sewa | `Chat kebutuhan AC Kebumen` | lead yang butuh estimasi cepat dan jelas | Sekarang |
+| Tegal | Tier 1 | Retail regional + supplier AC original multi-brand | `/jual-ac-tegal` | rumah, cafe, toko, banyak unit | `Cek stok AC Tegal` | query yang butuh estimasi cepat dan jelas | Sekarang |
+| Purbalingga | Tier 2 | Retail regional + supplier AC original multi-brand | `/jual-ac-purbalingga` | rumah, toko, ruko, usaha, dan banyak unit | `Chat AC Purbalingga` | butuh copy unik | Setelah ring utama |
+| Banjarnegara | Tier 2 | Retail regional + supplier AC original multi-brand | `/jual-ac-banjarnegara` | supplier unit original, pengadaan, partai besar, dan banyak unit | `Tanya AC Banjarnegara` | volume pencarian lebih terbatas | Setelah ring utama |
+| Magelang | Tier 2 | Retail + proyek, pengadaan, dan banyak unit | `/jual-ac-magelang` | AC baru original, bukan AC bekas/service | `Konsultasi AC Magelang` | banyak SERP service | Setelah ring utama |
 | Pekalongan | Tier 2 | Retail + kantor/ruko | `/jual-ac-pekalongan` | multi-brand original + kirim unit | `Cek stok AC Pekalongan` | ada dealer resmi | Setelah ring utama |
 | Salatiga | Tier 3 | Area pengiriman atau page nanti | `/jual-ac-salatiga` nanti | coverage Semarang-Solo corridor | `Chat area Salatiga` | tidak sekuat kota inti | Nanti |
 | Sleman | Tier 3 | Coverage Yogyakarta | sebut di `/jual-ac-yogyakarta` | area layanan Yogya utara | `Kebutuhan AC Sleman via WA` | duplikasi Yogya | Jangan page dulu |
 | Bantul | Tier 3 | Coverage Yogyakarta | sebut di `/jual-ac-yogyakarta` | area hotel/kost/rumah | `Kebutuhan AC Bantul via WA` | duplikasi Yogya | Jangan page dulu |
-| Kulon Progo | Tier 3 | Coverage Yogyakarta | sebut di `/jual-ac-yogyakarta` | pengiriman + opsi pasang | `Kebutuhan AC Kulon Progo` | thin content | Jangan page dulu |
-| Gunungkidul | Watchlist | Coverage Yogyakarta | sebut di `/jual-ac-yogyakarta` | only mention coverage | `Tanya area Gunungkidul` | thin tinggi | Tunda |
+| Kulon Progo | Tier 3 | Coverage Yogyakarta | sebut di `/jual-ac-yogyakarta` | pengiriman + opsi pasang | `Kebutuhan AC Kulon Progo` | konten kurang kuat | Jangan page dulu |
+| Gunungkidul | Watchlist | Coverage Yogyakarta | sebut di `/jual-ac-yogyakarta` | coverage area saja | `Tanya area Gunungkidul` | risiko konten kurang kuat | Tunda |
 | Bandung | B2B-only | Kantor, ruko, proyek, retail nanti | B2B page dulu | komersial/proyek, bukan toko lokal | `Kirim data proyek Bandung` | kompetisi retail berat | 90 hari+ |
 | Bekasi | B2B-only | Kantor, apartemen, proyek | B2B page dulu | supplier/pengadaan, bukan retail lokal | `Kirim kebutuhan proyek Bekasi` | dealer resmi padat | 90 hari+ |
 | Bogor | Watchlist B2B | kantor/ruko/perumahan | B2B page atau coverage | pengiriman + konsultasi | `Chat kebutuhan AC Bogor` | kompetisi lokal | 90 hari+ |
@@ -60,8 +60,8 @@ Dokumen ini menjadi acuan ekspansi Pulau Jawa untuk memilih provinsi, kota, jeni
 | Karawang | B2B-only | pabrik, gudang, kantor, proyek | B2B page dulu | komersial/industri | `Kirim data proyek Karawang` | kompetitor lokal siap | 6 bulan |
 | Purwakarta | B2B-only | proyek dan maintenance | B2B page dulu | contractor/maintenance angle | `Kirim kebutuhan AC Purwakarta` | company-profile competitor kuat | 6 bulan |
 | Tangerang | B2B-only | apartemen, ruko, kantor, proyek | B2B page dulu | pengadaan dan distribusi | `Tanya pengadaan AC Tangerang` | AC Wahana/Symphony kuat | 90 hari+ |
-| Tangerang Selatan | B2B-only | apartemen, SOHO, kantor | B2B page dulu | proyek kecil-menengah | `Kirim kebutuhan AC Tangsel` | dealer Bintaro/Serpong kuat | 90 hari+ |
-| Serang | Tier 3 / B2B hybrid | retail nanti + kantor/proyek | `/jual-ac-serang` nanti atau B2B dulu | kirim unit + pengadaan | `Chat AC Serang` | dealer resmi ada | 6 bulan |
+| Tangerang Selatan | B2B-only | apartemen, SOHO, kantor | B2B page dulu | proyek, pengadaan, dan banyak unit | `Kirim kebutuhan AC Tangsel` | dealer Bintaro/Serpong kuat | 90 hari+ |
+| Serang | Tier 3 / B2B hybrid | retail nanti + kantor/proyek | `/jual-ac-serang` nanti atau B2B dulu | supplier AC, kirim unit, pengadaan, dan banyak unit | `Chat AC Serang` | dealer resmi ada | 6 bulan |
 | Cilegon | B2B-only | industri, kantor, proyek | B2B page dulu | pengadaan partai dan komersial | `Kirim data proyek Cilegon` | ekspektasi industrial | 6 bulan |
 | Jakarta Barat | B2B-only | ruko, kantor, proyek | B2B page dulu | supplier dan project support | `Kirim kebutuhan AC Jakarta Barat` | kompetisi showroom berat | 6 bulan |
 | Jakarta Selatan | B2B-only | apartemen, kantor, premium residential | B2B page dulu | konsultasi dan pengadaan | `Kirim kebutuhan AC Jakarta Selatan` | dealer lama/matang | 6 bulan |
@@ -69,7 +69,7 @@ Dokumen ini menjadi acuan ekspansi Pulau Jawa untuk memilih provinsi, kota, jeni
 | Jakarta Timur | B2B-only | kantor, pergudangan, proyek | B2B page dulu | supplier + teknis proyek | `Kirim kebutuhan AC Jakarta Timur` | kompetisi metro | 6 bulan |
 | Jakarta Pusat | B2B-only | kantor dan instansi | B2B page dulu | tender-ready, gedung kantor | `Kirim brief pengadaan AC` | trust gap besar | 6 bulan |
 | Surabaya | B2B-only | proyek, distributor, komersial | B2B page dulu | pengadaan, cassette, floor standing, VRV | `Kirim data proyek Surabaya` | distributor besar sangat kuat | 6 bulan |
-| Malang | B2B-only | proyek, gedung, sekolah, rumah sakit kecil | B2B page dulu | HVAC/proyek ringan | `Kirim kebutuhan AC Malang` | dealer resmi kuat | 6 bulan |
+| Malang | B2B-only | proyek, gedung, sekolah, rumah sakit kecil | B2B page dulu | HVAC/proyek, pengadaan, dan banyak unit | `Kirim kebutuhan AC Malang` | dealer resmi kuat | 6 bulan |
 | Sidoarjo | Watchlist B2B | proyek area timur | B2B coverage | ikuti cluster Surabaya | `Konsultasi proyek Sidoarjo` | spillover market | 6 bulan |
 | Gresik | Watchlist B2B | komersial/proyek | B2B coverage | ikuti cluster Surabaya | `Konsultasi proyek Gresik` | spillover market | 6 bulan |
 
@@ -165,7 +165,7 @@ Halaman `/jual-ac-purwokerto` harus tetap menjadi halaman lokal utama. Banyumas 
 **Contoh positioning by province**
 
 - Jawa Tengah: `konsultasi PK, cek stok, pengiriman unit, dan opsi pemasangan untuk rumah, toko, kost, kantor, dan banyak unit`
-- DIY: `konsultasi AC untuk rumah, kost, guest house, hotel kecil, kantor, dan pengadaan unit`
+- DIY: `konsultasi AC untuk rumah, kost, guest house, hotel, guest house, hospitality, kantor/ruko, proyek, pengadaan, dan banyak unit`
 - Jawa Barat/Banten: `pengadaan unit AC original multi-brand untuk kantor, ruko, proyek, dan pengiriman unit area kota target`
 - DKI/Jatim: `supplier/pengadaan AC multi-brand dengan konsultasi spesifikasi, cek stok, pengiriman unit, dan koordinasi instalasi`
 

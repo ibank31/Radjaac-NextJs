@@ -2,6 +2,38 @@
 
 Dokumen ini adalah pintu utama untuk kerja teknis, SEO, tracking, GSC, dan deploy RADJA AC.
 
+## Urutan Baca Wajib Assistant / Codex
+
+Setiap sesi kerja RADJA AC wajib dimulai dari urutan ini:
+
+1. `docs/RADJA_WORKFLOW.md`
+2. `docs/source/radjaac/RADJAAC_DO_NOT_VIOLATE_RULES.md`
+3. `docs/RADJA_GROWTH_STRATEGY.md`
+4. File source sesuai task:
+   - Area page: `docs/source/radjaac/RADJAAC_AREA_PAGE_BLUEPRINT.md`
+   - Title/meta: `docs/source/radjaac/RADJAAC_TITLE_META_LIBRARY.md`
+   - Trust/proof: `docs/source/radjaac/RADJAAC_TRUST_ASSET_MAP.md`
+   - GSC/indexing: `docs/source/radjaac/RADJAAC_GSC_DECISION_PLAYBOOK.md`
+   - Katalog: `docs/source/radjaac/RADJAAC_KATALOG_CAPACITY_MAP.md`
+   - Redirect: `docs/source/radjaac/RADJAAC_REDIRECT_LEGACY_MAP.md`
+   - Market/kompetitor/ekspansi: `RADJAAC_MARKET_MAP_JAWA.md`, `RADJAAC_SERP_AREA_COMPETITOR_MAP.md`, `RADJAAC_JAVA_EXPANSION_BY_PROVINCE.md`
+5. Baru cek source repo aktif: `content/`, `app/`, `components/`, `lib/`, routes, sitemap, dan live 200 bila relevan.
+6. Baru patch kecil, lalu verifikasi.
+
+Aturan ini wajib karena `RADJAAC_DO_NOT_VIOLATE_RULES.md` memuat guardrail positioning utama. Jangan mulai dari file strategi area/market tanpa membaca guardrail tersebut.
+
+
+## Guardrail Positioning Singkat
+
+RADJA AC harus diposisikan kuat dan tetap jujur sebagai supplier AC original multi-brand untuk rumah, toko, ruko, kantor, hotel, guest house, hospitality, kontraktor, developer, proyek, pengadaan, partai besar, dan banyak unit.
+
+Jangan memakai framing yang membuat RADJA AC terlihat kecil, defensif, atau hanya cocok untuk order kecil. Daftar istilah yang wajib dihindari ada di `RADJAAC_DO_NOT_VIOLATE_RULES.md`.
+
+Klaim kuat harus berbasis bukti: Proshop Gree, sertifikat Authorized Dealer yang tersedia, showroom/gudang nyata, stok fisik, dokumentasi pengiriman, dan dokumentasi pemasangan.
+
+Untuk copy user-facing, gunakan kalimat familiar seperti `Showroom dan gudang RADJA AC ada di Banyumas` atau `RADJA AC melayani pengiriman dan opsi pemasangan dari Banyumas`.
+
+
 ## Source of Truth
 
 Source repo terbaru dan bukti live production adalah sumber kebenaran utama.
