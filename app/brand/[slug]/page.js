@@ -95,12 +95,17 @@ export default async function BrandDetailPage({ params }) {
     ? ["Proshop Gree", "Cek stok dulu", "Standard / low watt / inverter", "Bantu klaim sesuai ketentuan"]
     : ["Cek stok dulu", "Rekomendasi PK", "Pengiriman unit", "Opsi pemasangan"];
 
+  const pageRelatedLinks = item.relatedLinks?.length
+    ? [...item.relatedLinks, ...relatedLinks]
+    : relatedLinks;
+
   const faqItems = [
     [`Apakah RADJA AC menyediakan ${item.label} original?`, `RADJA AC menyediakan ${item.label} original. Tim RADJA AC cek tipe, harga, stok, pengiriman, pemasangan, dan garansi unit sebelum pembelian.`],
     [`Berapa harga ${item.label} terbaru?`, "Harga mengikuti kapasitas PK, tipe unit, stok, promo, alamat pengiriman, dan kebutuhan pemasangan. Kirim kebutuhan lewat WhatsApp agar tim RADJA AC cek estimasi terbaru."],
     [`${item.label} cocok untuk ruangan apa?`, "Kecocokan ditentukan oleh ukuran ruangan, tinggi plafon, paparan panas matahari, daya listrik, dan pola pemakaian."],
     ["Beli unit saja tanpa pemasangan", "Kirim tipe unit, alamat, jumlah unit, dan kebutuhan pengiriman. Tim RADJA AC cek stok aktif dan jadwal."],
     ["Apa saja data yang perlu dikirim ke tim RADJA AC?", "Kirim ukuran ruangan, daya listrik, jenis ruangan, jumlah unit, preferensi tipe, lokasi, dan foto titik indoor-outdoor bila ingin opsi pemasangan."],
+    ...(item.localFaq ?? []),
   ];
 
   return (
@@ -392,7 +397,7 @@ export default async function BrandDetailPage({ params }) {
       <section className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8 lg:py-14">
         <SectionTitle eyebrow="Halaman Terkait" title="Lanjutkan dari brand ke kebutuhan ruangan" />
         <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
-          {relatedLinks.map(([title, href]) => (
+          {pageRelatedLinks.map(([title, href]) => (
             <Link key={href} href={href} className="rounded-[1.35rem] border border-slate-200 bg-white p-5 shadow-sm transition hover:-translate-y-1 hover:border-blue-200 hover:bg-blue-50">
               <h3 className="text-lg font-black text-slate-950">{title}</h3>
             </Link>
