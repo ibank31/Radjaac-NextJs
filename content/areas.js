@@ -1207,6 +1207,12 @@ relatedLinks: [
       "Purbalingga adalah area regional dekat showroom dan gudang RADJA AC dengan kebutuhan AC rumah, kost, toko, kantor, dan usaha harian. Agar arahan tidak asal, tim RADJA AC akan meminta ukuran ruangan, daya listrik, anggaran, lokasi detail, dan kebutuhan unit saja atau opsi pemasangan.",
     coverageNote:
       "Showroom dan gudang RADJA AC berada di Banyumas. Kebutuhan AC area Purbalingga dilayani dengan konsultasi PK, cek stok unit, pengiriman, dan opsi pemasangan sesuai alamat, jumlah unit, serta jadwal.",
+    nearbyAreaLinks: [
+      ["Jual AC Banyumas", routes.jualAcBanyumas],
+      ["Jual AC Purwokerto", routes.jualAcPurwokerto],
+      ["Jual AC Sokaraja", routes.jualAcSokaraja],
+      ["Jual AC Banjarnegara", routes.jualAcBanjarnegara],
+    ],
     commonNeeds: [
       "AC rumah tinggal dan kamar tidur",
       "AC kost, kontrakan, dan rumah sewa",
