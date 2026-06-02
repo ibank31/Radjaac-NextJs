@@ -1314,6 +1314,45 @@ export const areaItems = [
       "Banjarnegara termasuk area regional yang perlu ditangani dengan data awal yang jelas. Kirim ukuran ruangan, lokasi detail, jumlah unit, daya listrik, anggaran, dan kebutuhan unit saja atau opsi pemasangan agar tim RADJA AC menyusun pilihan AC yang masuk akal.",
     coverageNote:
       "Showroom dan gudang RADJA AC berada di Banyumas. Kebutuhan AC area Banjarnegara dilayani dengan konsultasi PK, cek stok unit, pengiriman, dan opsi pemasangan sesuai alamat, jumlah unit, serta jadwal.",
+    keywordVariants: [
+      "AC rumah dan kamar tidur",
+      "AC toko dan ruang usaha",
+      "AC kantor kecil",
+      "AC kost dan rumah sewa",
+      "Beberapa unit untuk usaha lokal",
+      "Cek PK dari ukuran ruangan",
+    ],
+    nearbyAreaLinks: [
+      ["Jual AC Purwokerto", routes.jualAcPurwokerto],
+      ["Jual AC Banyumas", routes.jualAcBanyumas],
+      ["Jual AC Purbalingga", routes.jualAcPurbalingga],
+      ["Jual AC Kebumen", routes.jualAcKebumen],
+      ["Jual AC Semarang", routes.jualAcSemarang],
+    ],
+    trustBullets: [
+      "Cek kebutuhan PK dari ukuran ruangan, daya listrik, dan pola pemakaian harian",
+      "Cek stok brand seperti Gree, Daikin, Midea, Hisense, Sharp, Samsung, dan lainnya",
+      "Opsi pengiriman dan pemasangan dikonfirmasi berdasarkan alamat Banjarnegara dan jumlah unit",
+      "Cocok untuk rumah, kost, toko, kantor kecil, usaha lokal, dan kebutuhan beberapa unit",
+    ],
+    localFaq: [
+      [
+        "Apakah RADJA AC punya toko fisik di Banjarnegara?",
+        "Showroom dan gudang RADJA AC berada di Banyumas. Untuk kebutuhan AC Banjarnegara, tim membantu cek stok, kapasitas PK, pengiriman, dan opsi pemasangan berdasarkan alamat serta jumlah unit.",
+      ],
+      [
+        "Bisa konsultasi AC untuk rumah, kost, toko, atau kantor di Banjarnegara?",
+        "Bisa. Kirim ukuran ruangan, daya listrik, lokasi detail, jumlah unit, preferensi brand, dan apakah butuh unit saja atau opsi pemasangan.",
+      ],
+      [
+        "Apa yang perlu disiapkan sebelum cek stok AC Banjarnegara?",
+        "Siapkan ukuran ruangan, daya listrik, tipe bangunan, anggaran awal, jumlah unit, dan alamat pengiriman agar tim RADJA AC bisa memberi arahan yang lebih tepat.",
+      ],
+      [
+        "Apakah pembayaran bisa COD, DP, atau transfer?",
+        "Skema pembayaran fleksibel dapat dikonsultasikan. Detail COD, DP, atau transfer dikonfirmasi bersama tim RADJA AC sesuai kebutuhan unit, pengiriman, dan pemasangan.",
+      ],
+    ],
     commonNeeds: [
       "AC rumah tinggal dan kamar tidur",
       "AC kost, kontrakan, dan rumah sewa",
