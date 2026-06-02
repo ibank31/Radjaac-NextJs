@@ -806,6 +806,51 @@ export const areaItems = [
       "Yogyakarta kuat untuk kebutuhan kost, guest house, homestay, rumah tinggal, cafe, kantor atau ruko, dan bangunan banyak kamar. Karena pola pemakaian kamar sewa, rumah, dan usaha berbeda, tim RADJA AC perlu data jumlah kamar, ukuran ruangan, daya listrik, timeline, dan butuh pemasangan atau tidak.",
     coverageNote:
       "Showroom dan gudang RADJA AC berada di Banyumas. Kebutuhan AC area Yogyakarta dilayani dengan konsultasi PK, cek stok unit, pengiriman, serta opsi pemasangan sesuai alamat, jumlah unit, dan jadwal.",
+    keywordVariants: [
+      "jual AC Yogyakarta",
+      "toko AC Yogyakarta",
+      "AC kost Yogyakarta",
+      "AC guest house Yogyakarta",
+      "AC homestay Yogyakarta",
+      "AC hotel Yogyakarta",
+      "AC kantor Yogyakarta",
+      "AC cafe Yogyakarta",
+      "pengadaan AC Yogyakarta",
+      "AC inverter Yogyakarta",
+      "AC low watt Yogyakarta",
+      "konsultasi PK AC Yogyakarta",
+    ],
+    nearbyAreaLinks: [
+      ["Jual AC Semarang", routes.jualAcSemarang],
+      ["Jual AC Solo", routes.jualAcSolo],
+      ["Jual AC Kebumen", routes.jualAcKebumen],
+      ["Jual AC Cilacap", routes.jualAcCilacap],
+      ["Jual AC Banjarnegara", routes.jualAcBanjarnegara],
+    ],
+    trustBullets: [
+      "Cek kebutuhan PK untuk kamar kost, guest house, homestay, rumah, cafe, dan kantor",
+      "Cek stok brand seperti Gree, Daikin, Midea, Hisense, Sharp, Samsung, dan lainnya",
+      "Opsi pengiriman dan pemasangan dikonfirmasi berdasarkan alamat, jumlah unit, dan jadwal",
+      "Cocok untuk pembelian satu unit maupun kebutuhan banyak kamar atau banyak titik",
+    ],
+    localFaq: [
+      [
+        "Apakah RADJA AC punya toko fisik di Yogyakarta?",
+        "Showroom dan gudang RADJA AC berada di Banyumas. Untuk kebutuhan AC Yogyakarta, tim membantu cek stok, kapasitas PK, pengiriman, dan opsi pemasangan berdasarkan alamat serta jumlah unit.",
+      ],
+      [
+        "Bisa konsultasi AC untuk kost, guest house, atau homestay di Yogyakarta?",
+        "Bisa. Kirim jumlah kamar, ukuran ruangan, daya listrik, target anggaran, preferensi brand, dan timeline agar tim RADJA AC menyiapkan arahan awal.",
+      ],
+      [
+        "AC apa yang cocok untuk kamar kost atau guest house?",
+        "Pilihan awal biasanya dilihat dari ukuran kamar, intensitas pemakaian, daya listrik, dan target biaya listrik. Tim RADJA AC bisa bantu bandingkan standard, low watt, atau inverter.",
+      ],
+      [
+        "Apakah pembayaran bisa COD, DP, atau transfer?",
+        "Skema pembayaran fleksibel bisa dikonsultasikan. Detail COD, DP, atau transfer dikonfirmasi bersama tim RADJA AC sesuai kebutuhan unit, pengiriman, dan pemasangan.",
+      ],
+    ],
     commonNeeds: [
       "AC kost, guest house, homestay, dan kamar sewa",
       "AC rumah tinggal, kontrakan, dan ruang keluarga",
