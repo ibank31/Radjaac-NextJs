@@ -34,6 +34,8 @@ Dokumen ini menjadi peta baca source RADJA AC agar assistant/Codex masuk dari fi
 5. Source repo aktif:
    - `content/routes.js`
    - `content/areas.js`
+- `content/area-drafts.js` staged hub/kabupaten drafts, not live
+- `content/area-child-drafts.js` staged child/kecamatan drafts, not live
    - `content/brands.js`
    - `content/procurement.js`
    - `content/static-pages.js`
@@ -62,3 +64,18 @@ Dokumen ini menjadi peta baca source RADJA AC agar assistant/Codex masuk dari fi
 - Sudah pastikan tidak ada klaim toko/cabang/showroom lokal palsu.
 - Sudah pastikan CTA WhatsApp membawa source/intent yang jelas.
 - Sudah rencanakan verifikasi: diff, scan, `npm run check`, dan live check bila perlu.
+
+## Staged Draft Warning
+
+`content/area-drafts.js` dan `content/area-child-drafts.js` adalah staging data.
+
+Jangan import file tersebut ke app, sitemap, route generator, atau komponen live tanpa keputusan publish eksplisit. Jika di-import, halaman draft bisa tidak sengaja menjadi live dan masuk indexing flow.
+
+Cara publish yang benar:
+1. pilih maksimal 3–5 draft,
+2. tambah route final di `content/routes.js`,
+3. pindahkan item ke `content/areas.js`,
+4. cek parent/nearby/internal link,
+5. jalankan `npm run check`,
+6. push,
+7. live check.

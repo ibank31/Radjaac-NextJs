@@ -197,6 +197,20 @@ Status terakhir yang sudah selesai:
 - Static assets di `public/_headers` memakai `Cache-Control: public, max-age=31536000, immutable`.
 - Jangan mengembalikan cache asset ke `next.config.mjs headers()` tanpa audit Cloudflare Pages.
 
+## Staged Area Draft Rules
+
+Repo sekarang punya staging data untuk halaman area yang belum live:
+- `content/area-drafts.js`
+- `content/area-child-drafts.js`
+
+Aturan wajib:
+- File draft tidak boleh di-import ke `app/`, sitemap, route generator, atau komponen live.
+- Draft belum live, belum masuk sitemap, dan belum boleh direquest indexing.
+- Publish area hanya dengan cara sadar: tambah route di `content/routes.js`, pindahkan item ke `content/areas.js`, cek internal link, lalu jalankan `npm run check`.
+- Publish maksimal 3–5 area per batch.
+- Child area tidak boleh publish sebelum parent/hub live dan stabil.
+- Setelah publish, live check 200/canonical/sitemap/cache sebelum request indexing terbatas.
+
 ## Owner Idea Handling
 
 Ide dari owner adalah arah dasar, bukan instruksi final otomatis.
