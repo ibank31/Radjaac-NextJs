@@ -342,6 +342,7 @@ function HomeTrust() {
                     alt={`Sertifikat Authorized Dealer ${item.brand} RADJA AC`}
                     width={260}
                     height={180}
+                    sizes="(min-width: 1024px) 220px, 50vw"
                     className="h-[96px] w-full rounded-[12px] object-contain object-center sm:h-[112px]"
                   />
                 </div>
@@ -591,6 +592,7 @@ function HomeBrands() {
                 alt={`Logo ${brand.name}`}
                 width={148}
                 height={56}
+                sizes="148px"
                 className={
                   brand.name === "Sansui"
                     ? "max-h-11 w-auto object-contain brightness-0"

@@ -224,6 +224,7 @@ export default async function BrandDetailPage({ params }) {
               alt={secondaryImageAlt}
               width={900}
               height={640}
+              sizes="(min-width: 1024px) 540px, 100vw"
               className="w-full rounded-[1.35rem] object-cover"
             />
           </div>
@@ -286,6 +287,7 @@ export default async function BrandDetailPage({ params }) {
                   alt="Showroom Proshop Gree RADJA AC"
                   width={900}
                   height={720}
+                  sizes="(min-width: 1024px) 520px, 100vw"
                   className="h-full min-h-[320px] w-full rounded-[1.45rem] object-cover"
                 />
               </div>

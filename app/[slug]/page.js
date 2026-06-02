@@ -258,7 +258,7 @@ export default async function AreaPage({ params }) {
             <div className="mt-3 grid grid-cols-2 gap-2.5 sm:gap-3">
               {proofImages.map(([label, src, alt]) => (
                 <div key={src} className="group relative overflow-hidden rounded-[18px] border border-slate-200 bg-white shadow-[0_18px_45px_rgba(8,20,47,0.24)] sm:rounded-[22px]">
-                  <Image src={src} alt={alt} width={420} height={300} className="h-[118px] w-full object-cover transition duration-300 group-hover:scale-105 sm:h-[140px] lg:h-[136px]" />
+                  <Image src={src} alt={alt} width={420} height={300} sizes="(min-width: 1024px) 250px, 50vw" className="h-[118px] w-full object-cover transition duration-300 group-hover:scale-105 sm:h-[140px] lg:h-[136px]" />
                   <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-slate-950/70 to-transparent px-2 pb-2 pt-7 text-center text-[11px] font-black text-white sm:text-xs">{label}</div>
                 </div>
               ))}

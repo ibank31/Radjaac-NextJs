@@ -197,7 +197,7 @@ export default function PengadaanAcPage() {
             {proofImages.map((item) => (
               <figure key={item.image} className="overflow-hidden rounded-[1.6rem] border border-slate-200 bg-white shadow-sm">
                 <div className="relative">
-                  <Image src={item.image} alt={item.title} width={520} height={420} className="h-52 w-full object-cover" />
+                  <Image src={item.image} alt={item.title} width={520} height={420} sizes="(min-width: 1024px) 360px, 100vw" className="h-52 w-full object-cover" />
                   <span className="absolute left-4 top-4 rounded-full bg-white/90 px-3 py-1 text-xs font-black text-blue-950 shadow-sm">
                     {item.label}
                   </span>

@@ -316,6 +316,7 @@ export default function JualAcPage() {
                     alt={image.alt}
                     width={420}
                     height={520}
+                    sizes="(min-width: 1024px) 360px, 100vw"
                     className="h-72 w-full rounded-2xl object-cover"
                   />
                 </div>
