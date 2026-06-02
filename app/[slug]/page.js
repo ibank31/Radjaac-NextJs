@@ -7,6 +7,7 @@ import { breadcrumbSchema, faqSchema } from "@/lib/schema";
 import { areaItems, getAreaItem } from "@/content/areas";
 import WhatsappLink from "@/components/ui/WhatsappLink";
 import JsonLd from "@/components/seo/JsonLd";
+import SectionTitle from "@/components/area/SectionTitle";
 
 export const dynamicParams = false;
 
@@ -97,16 +98,6 @@ const areaPageLinkOverrides = {
     ["Kontak RADJA AC", routes.kontak],
   ],
 };
-
-function SectionTitle({ eyebrow, title, description }) {
-  return (
-    <div className="mx-auto mb-9 max-w-3xl text-center">
-      <p className="mb-3 text-xs font-black uppercase tracking-[0.28em] text-blue-700">{eyebrow}</p>
-      <h2 className="mb-4 text-2xl font-black tracking-tight text-slate-950 sm:text-3xl lg:text-4xl">{title}</h2>
-      {description ? <p className="mx-auto max-w-2xl text-sm leading-7 text-slate-600 sm:text-base">{description}</p> : null}
-    </div>
-  );
-}
 
 export function generateStaticParams() {
   return areaItems.map((item) => ({ slug: item.slug }));
