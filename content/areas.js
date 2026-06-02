@@ -949,7 +949,7 @@ export const areaItems = [
     intro:
       "Butuh AC di Cilacap untuk rumah, toko, kantor, usaha, proyek ringan, atau banyak unit? Tim RADJA AC membantu cek kebutuhan PK, daya listrik, pilihan brand, stok unit, pengiriman, dan opsi pemasangan berdasarkan kecamatan serta kebutuhan unit.",
     localContext:
-      "Cilacap termasuk area regional Tier 1 untuk kebutuhan rumah, toko/usaha, kantor, proyek ringan, dan pembelian banyak unit. Agar konsultasi tidak berhenti di tanya harga, kirim kecamatan di Cilacap, ukuran ruangan, jumlah unit, daya listrik, anggaran, preferensi brand, serta kebutuhan unit saja atau opsi pemasangan sejak awal.",
+      "Cilacap termasuk area regional prioritas untuk kebutuhan rumah, toko/usaha, kantor, proyek ringan, dan pembelian banyak unit. Agar konsultasi tidak berhenti di tanya harga, kirim kecamatan di Cilacap, ukuran ruangan, jumlah unit, daya listrik, anggaran, preferensi brand, serta kebutuhan unit saja atau opsi pemasangan sejak awal.",
     coverageNote:
       "Showroom dan gudang RADJA AC berada di Banyumas. Kebutuhan AC area Cilacap dilayani dengan konsultasi PK, cek stok unit, pengiriman, serta opsi pemasangan yang dikonfirmasi berdasarkan alamat, jumlah unit, akses lokasi, stok, dan jadwal pekerjaan.",
     commonNeeds: [
