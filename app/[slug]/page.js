@@ -8,6 +8,7 @@ import { areaItems, getAreaItem } from "@/content/areas";
 import WhatsappLink from "@/components/ui/WhatsappLink";
 import JsonLd from "@/components/seo/JsonLd";
 import SectionTitle from "@/components/area/SectionTitle";
+import AreaFaq from "@/components/area/AreaFaq";
 import {
   areaPageLinkOverrides,
   brandLinks,
@@ -272,10 +273,7 @@ export default async function AreaPage({ params }) {
           </div>
         </div>
 
-        <div className="mt-10">
-          <SectionTitle eyebrow="FAQ" title={`Pertanyaan umum jual AC ${item.areaName}`} />
-          <div className="grid gap-5 md:grid-cols-2">{faqItems.map(([question, answer]) => <div key={question} className="rounded-[1.45rem] border border-slate-200 bg-white p-6"><h3 className="mb-3 font-bold text-slate-950">{question}</h3><p className="text-sm leading-7 text-slate-600">{answer}</p></div>)}</div>
-        </div>
+        <AreaFaq areaName={item.areaName} faqItems={faqItems} />
       </section>
 
       <section className="mx-auto max-w-7xl px-4 pb-16 pt-8 sm:px-6 lg:px-8 lg:pb-20 lg:pt-10">
