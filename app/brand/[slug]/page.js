@@ -179,6 +179,7 @@ export default async function BrandDetailPage({ params }) {
                 width={900}
                 height={1100}
                 className="h-[390px] w-full rounded-[1.35rem] object-cover object-center sm:h-[520px] lg:h-[600px]"
+                sizes="(min-width: 1024px) 500px, 100vw"
                 priority
               />
             </div>

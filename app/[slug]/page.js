@@ -253,7 +253,7 @@ export default async function AreaPage({ params }) {
 
           <div className="relative mx-auto w-full max-w-[520px] lg:mr-0">
             <div className="overflow-hidden rounded-[1.7rem] border border-slate-200 bg-[#f7fbff]/75 p-3 shadow-[0_30px_90px_rgba(8,20,47,0.42)]">
-              <Image src="/photos/showroom/showroom-multibrand-radja-ac-purwokerto-01.webp" alt={`Showroom RADJA AC untuk konsultasi jual AC ${item.areaName}`} width={900} height={1100} className="h-[340px] w-full rounded-[1.35rem] object-cover object-center sm:h-[430px]" priority />
+              <Image src="/photos/showroom/showroom-multibrand-radja-ac-purwokerto-01.webp" alt={`Showroom RADJA AC untuk konsultasi jual AC ${item.areaName}`} width={900} height={1100} className="h-[340px] w-full rounded-[1.35rem] object-cover object-center sm:h-[430px]" sizes="(min-width: 1024px) 520px, 100vw" priority />
             </div>
             <div className="mt-3 grid grid-cols-2 gap-2.5 sm:gap-3">
               {proofImages.map(([label, src, alt]) => (

@@ -260,6 +260,7 @@ function HomeHero() {
               alt="Showroom RADJA AC — AC original multi-brand untuk rumah, usaha, dan proyek"
               width={900}
               height={720}
+              sizes="(min-width: 1024px) 560px, 100vw"
               priority
               className="h-[310px] w-full rounded-[1.5rem] object-cover object-center sm:h-[390px] lg:h-[500px]"
             />

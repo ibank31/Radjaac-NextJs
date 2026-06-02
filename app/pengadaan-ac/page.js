@@ -139,6 +139,7 @@ export default function PengadaanAcPage() {
                 alt="Showroom RADJA AC untuk konsultasi pengadaan AC banyak unit"
                 width={900}
                 height={720}
+                sizes="(min-width: 1024px) 560px, 100vw"
                 priority
                 className="h-[320px] w-full object-cover sm:h-[420px] lg:h-[520px]"
               />

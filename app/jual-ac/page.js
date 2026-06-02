@@ -123,6 +123,7 @@ export default function JualAcPage() {
                 width={900}
                 height={1100}
                 className="h-[360px] w-full rounded-[1.5rem] object-cover sm:h-[460px] lg:h-[520px]"
+                sizes="(min-width: 1024px) 560px, 100vw"
                 priority
               />
             </div>
