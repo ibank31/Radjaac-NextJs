@@ -244,7 +244,7 @@ export const brandItems = [
     title: "Brand AC Original Lainnya | Cek Stok, Tipe & Konsultasi PK — RADJA AC",
     description:
       "Cek pilihan brand AC lainnya di RADJA AC seperti Sharp, Panasonic, Sansui, Samsung, LG, TCL, Ariston, Modena, Aqua, Polytron, Toshiba, Akari, Mitsubishi, Reiwa, dan lainnya berdasarkan stok aktif.",
-    h1: "Brand AC lainnya yang bisa dicek melalui RADJA AC",
+    h1: "Brand AC original lainnya yang bisa dicek melalui RADJA AC",
     eyebrow: "Brand AC",
     intro:
       "Selain Gree, Daikin, Midea, dan Hisense, RADJA AC juga membantu cek pilihan brand lain berdasarkan stok aktif, kebutuhan ruangan, anggaran, dan area pengiriman.",

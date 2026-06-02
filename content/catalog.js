@@ -279,7 +279,7 @@ export const catalogItems = [
     title: "AC Kantor & Komersial | Konsultasi Toko, Ruko, Cafe, Kantor & Proyek",
     description:
       "Konsultasi AC kantor dan komersial untuk toko, ruko, cafe, klinik, showroom, kantor, hotel, proyek, dan kebutuhan banyak unit. Cek PK, tipe unit, stok, pengiriman, dan opsi pemasangan.",
-    h1: "AC kantor dan komersial untuk toko, ruko, cafe, klinik, showroom, kantor, hotel, dan proyek",
+    h1: "AC kantor & komersial untuk toko, ruko, cafe, hotel, dan proyek",
     eyebrow: "Katalog Komersial",
     intro:
       "Untuk AC komersial, kirim jenis ruangan, jumlah orang, bukaan pintu, jam operasional, tinggi plafon, dan jumlah unit. Data ini dipakai untuk membaca kebutuhan PK, tipe AC, pengiriman, dan opsi pemasangan.",
