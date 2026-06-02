@@ -119,6 +119,7 @@ export default async function CatalogDetailPage({ params }) {
                   source={`Katalog ${item.label}`}
                   intent={item.waIntent}
                   category={item.waCategory}
+            pageType="catalog"
                 >
                   {item.ctaLabel}
                 </WhatsappLink>
@@ -257,6 +258,7 @@ export default async function CatalogDetailPage({ params }) {
                   source={`Katalog ${item.label} - Pricing Band`}
                   intent="cek estimasi paket AC 1/2 PK dan pemasangan standar"
                   category={item.waCategory}
+                  pageType="catalog"
                 >
                   Cek Estimasi via WhatsApp
                 </WhatsappLink>
@@ -334,6 +336,7 @@ export default async function CatalogDetailPage({ params }) {
             source={`Katalog ${item.label} - Final CTA`}
             intent={item.waIntent}
             category={item.waCategory}
+            pageType="catalog"
           >
             Kirim Data Ruangan
           </WhatsappLink>

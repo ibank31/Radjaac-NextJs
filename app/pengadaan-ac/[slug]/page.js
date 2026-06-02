@@ -79,6 +79,7 @@ export default async function ProcurementDetailPage({ params }) {
                 source={item.label}
                 intent={item.waIntent}
                 category={item.waProjectType}
+              pageType="procurement"
               >
                 Kirim Brief via WhatsApp
               </WhatsappLink>
@@ -255,6 +256,7 @@ export default async function ProcurementDetailPage({ params }) {
               source={`${item.label} - Final CTA`}
               intent={item.waIntent}
               category={item.waProjectType}
+              pageType="procurement"
             >
               Kirim Data via WhatsApp
             </WhatsappLink>

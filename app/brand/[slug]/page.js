@@ -149,6 +149,7 @@ export default async function BrandDetailPage({ params }) {
                 source={`Brand ${item.name}`}
                 intent={item.waIntent}
                 brand={item.waBrand}
+            pageType="brand"
               >
                 {item.ctaLabel}
               </WhatsappLink>
@@ -275,6 +276,7 @@ export default async function BrandDetailPage({ params }) {
                     source="Brand Gree Proshop Section"
                     intent="cek stok dan konsultasi AC Gree melalui Proshop Gree"
                     brand="Gree"
+                    pageType="brand"
                   >
                     Cek Unit Gree Proshop
                   </WhatsappLink>
@@ -375,6 +377,7 @@ export default async function BrandDetailPage({ params }) {
                 source={`Brand ${item.name} - ${variant}`}
                 intent={`cek stok AC ${item.name} ${variant}`}
                 brand={item.waBrand}
+                pageType="brand"
               >
                 Cek Stok {variant}
               </WhatsappLink>
@@ -472,6 +475,7 @@ export default async function BrandDetailPage({ params }) {
             source={`Brand ${item.name} - Final CTA`}
             intent={item.waIntent}
             brand={item.waBrand}
+            pageType="brand"
           >
             Cek Unit Brand Ini
           </WhatsappLink>
