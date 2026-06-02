@@ -963,7 +963,7 @@ relatedLinks: [
     label: "Jual AC Yogyakarta",
     title: "Jual AC Yogyakarta untuk Kost, Guest House & Usaha — RADJA AC",
     description:
-      "Butuh AC untuk rumah, kost, guest house, hotel, kantor, atau proyek di Yogyakarta? RADJA AC cek stok, kebutuhan PK, pengiriman unit, dan opsi pemasangan via WhatsApp.",
+      "Butuh AC untuk rumah, kost, hotel, kantor, atau proyek di Yogyakarta? RADJA AC cek stok, kebutuhan PK, pengiriman unit, dan opsi pemasangan via WhatsApp.",
     h1: "Jual AC Yogyakarta untuk Kost, Guest House & Usaha",
     eyebrow: "Layanan AC Area DIY",
     intro:
@@ -1232,7 +1232,7 @@ relatedLinks: defaultRelatedLinks,
     path: routes.jualAcCilacap,
     areaName: "Cilacap",
     label: "Jual AC Cilacap",
-    title: "Jual AC Cilacap | Cek Stok, Konsultasi PK & Opsi Pemasangan — RADJA AC",
+    title: "Jual AC Cilacap | Cek Stok, PK & Pemasangan — RADJA AC",
     description:
       "Butuh AC untuk rumah, toko, kantor, proyek, atau banyak unit di Cilacap? RADJA AC bantu cek PK, stok, pengiriman, opsi pemasangan, dan pembayaran fleksibel.",
     h1: "Jual AC Cilacap untuk rumah, toko, kantor, usaha, dan banyak unit",
@@ -1707,7 +1707,7 @@ relatedLinks: defaultRelatedLinks,
     path: routes.jualAcKebumen,
     areaName: "Kebumen",
     label: "Jual AC Kebumen",
-    title: "Jual AC Kebumen | Cek Stok, Konsultasi PK & Opsi Pemasangan — RADJA AC",
+    title: "Jual AC Kebumen | Cek Stok, PK & Pemasangan — RADJA AC",
     description:
       "Butuh AC untuk rumah, kost, kontrakan, toko, ruko, kantor, atau usaha di Kebumen? RADJA AC bantu cek PK, stok, pengiriman, dan opsi pemasangan.",
     h1: "Jual AC Kebumen untuk rumah, kost, kontrakan, properti sewa, toko, ruko, dan kantor",
@@ -1790,7 +1790,7 @@ relatedLinks: [
     path: routes.jualAcTegal,
     areaName: "Tegal",
     label: "Jual AC Tegal",
-    title: "Jual AC Tegal & Slawi | Cek Stok, Pengiriman & Opsi Pemasangan — RADJA AC",
+    title: "Jual AC Tegal & Slawi | Cek Stok & Pengiriman — RADJA AC",
     description:
       "Butuh AC untuk rumah, toko, kantor, proyek, atau banyak unit di Tegal dan Slawi? RADJA AC bantu cek PK, stok, pengiriman, dan opsi pemasangan.",
     h1: "Jual AC Tegal dan Slawi untuk rumah, toko, kantor, usaha, proyek, dan banyak unit",
