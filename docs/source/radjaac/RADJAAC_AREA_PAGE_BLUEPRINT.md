@@ -33,7 +33,7 @@ Blueprint ini memakai prinsip people-first content, title/H1 yang sinkron, serta
 
 - Fungsi utama halaman area adalah **money page lokal yang aman**, bukan halaman artikel.
 - Intent utama yang ditangkap: `jual AC [kota]`, `beli AC [kota]`, `toko AC [kota]`, `AC [kota]`, tetapi dijawab dengan copy yang jujur.
-- Target user utama: rumah, kost kecil–menengah, toko/ruko, kantor kecil, pengelola usaha, dan buyer proyek ringan.
+- Target user utama: rumah, kost, properti sewa, dan bangunan banyak kamar, toko/ruko, kantor/ruko, pengelola usaha, dan buyer proyek, pengadaan, partai besar, dan banyak unit.
 - Satu halaman area wajib punya blok unik yang benar-benar relevan dengan kota tersebut.
 - Halaman area harus mendorong user ke **WhatsApp dengan brief yang lebih lengkap**, bukan sekadar klik kosong.
 
@@ -46,7 +46,7 @@ Blueprint ini memakai prinsip people-first content, title/H1 yang sinkron, serta
 | Title pattern | CTR + konsistensi SERP | `Jual AC {Kota} | Cek Stok, Konsultasi PK & Opsi Pasang` | Jaga erat dengan H1 agar Google tidak rewrite ke judul generik |
 | Meta pattern | Memperjelas value prop | `Butuh AC untuk rumah, kost, toko, kantor, atau proyek di {Kota}? RADJA AC bantu cek stok, konsultasi PK, pengiriman unit, dan opsi pemasangan via WhatsApp.` | Jangan tulis harga pasti jika stok/harga berubah |
 | Opening copy | Menjelaskan posisi bisnis | “RADJA AC berbasis di Banyumas dan melayani kebutuhan AC area {Kota} untuk cek stok, rekomendasi PK, pengiriman unit, dan opsi pemasangan sesuai kebutuhan.” | Ini adalah pola copy aman untuk semua kota target |
-| Blok “Siapa yang Cocok” | Menyaring lead | Rumah; kost; toko/ruko; kantor; hotel kecil/guest house; proyek banyak unit | Kota berbeda harus memberi urutan use case yang berbeda |
+| Blok “Siapa yang Cocok” | Menyaring lead | Rumah; kost; toko/ruko; kantor; hotel, guest house, dan hospitality; proyek banyak unit | Kota berbeda harus memberi urutan use case yang berbeda |
 | Blok “Cara Order” | Menggerakkan WA | 1) Kirim ukuran ruangan 2) Kirim daya listrik 3) Pilih butuh pasang/tidak 4) Cek stok dan estimasi | Tujuannya menaikkan kualitas lead WA |
 | Blok brand/kategori | Membantu user memilih | Link ke ` /katalog`, ` /katalog/ac-inverter`, ` /katalog/ac-low-watt`, ` /brand/daikin`, ` /brand/gree`, ` /brand/midea` | Pilih link sesuai demand kota |
 | Blok pengiriman/pemasangan | Menjawab pertanyaan paling sensitif | Jelaskan unit only, pengiriman, dan opsi pemasangan terkoordinasi | Jangan janji teknisi lokal permanen jika belum ada |
@@ -54,7 +54,7 @@ Blueprint ini memakai prinsip people-first content, title/H1 yang sinkron, serta
 | FAQ wajib | Menutup keberatan | “Apakah RADJA AC punya toko fisik di {Kota}?”, “Bisa bantu pilih PK?”, “Bisa kirim tanpa pasang?”, “Bisa untuk banyak unit?”, “Brand apa saja tersedia?”, “Harga tergantung apa?” | FAQ harus terlihat di halaman, bukan markup kosong |
 | Internal link wajib | Mengarahkan user ke money page lain | Minimal ke ` /kalkulator-pk-ac`, ` /katalog`, 2–3 brand page, 1 kategori, dan 1 halaman B2B yang relevan | Wajib berbeda sesuai kota |
 | CTA pattern | Menghasilkan lead berkualitas | CTA utama: `Chat WhatsApp untuk cek stok AC {Kota}`; CTA sekunder: `Kirim ukuran ruangan & daya listrik` | Satu primary CTA yang dominan, bukan lima CTA sejajar |
-| Aturan anti-thin content | Menjaga kualitas | Tiap area page wajib punya: opening unik, demand kota unik, use case unik, FAQ unik, link unik, dan CTA unik | Struktur boleh sama; isi bisnisnya harus beda |
+| Aturan anti-konten lemah | Menjaga kualitas | Tiap area page wajib punya: opening unik, demand kota unik, use case unik, FAQ unik, link unik, dan CTA unik | Struktur boleh sama; isi bisnisnya harus beda |
 
 **Aturan untuk Assistant/Codex**
 
@@ -77,11 +77,11 @@ Blueprint ini memakai prinsip people-first content, title/H1 yang sinkron, serta
 
 | URL | H1 | Title | Meta Lead | CTA Utama | Sudut Unik |
 |---|---|---|---|---|---|
-| `/jual-ac-semarang` | `Jual AC Semarang | Cek Stok, Konsultasi PK, Pengiriman & Opsi Pemasangan` | `Jual AC Semarang | Cek Stok, Konsultasi PK & Opsi Pasang` | Fokus rumah, kantor/ruko, developer, dan pengadaan banyak unit area Semarang | `Chat WA untuk cek stok AC Semarang` | Tekankan kantor, ruko, proyek ringan, dan hotel kecil |
-| `/jual-ac-yogyakarta` | `Jual AC Yogyakarta | Untuk Kost, Hotel, Rumah & Usaha` | `Jual AC Yogyakarta | Cek Stok, Konsultasi PK & Opsi Pasang` | Cocok untuk kost, guest house, rumah, cafe, dan kebutuhan banyak unit area Yogyakarta | `Chat WA: kirim jumlah kamar/ruangan` | Tekankan kost, guest house, hotel kecil, kampus |
-| `/jual-ac-solo` | `Jual AC Solo | Rumah, Kost, Hotel Kecil & Kantor` | `Jual AC Solo | Cek Stok AC, Konsultasi PK & Opsi Pasang` | Untuk rumah baru, kost, kantor kecil, toko, dan hospitality area Solo | `Chat WA: tanya rekomendasi PK Solo` | Tekankan kost, hotel kecil, toko, kantor |
+| `/jual-ac-semarang` | `Jual AC Semarang | Cek Stok, Konsultasi PK, Pengiriman & Opsi Pemasangan` | `Jual AC Semarang | Cek Stok, Konsultasi PK & Opsi Pasang` | Fokus rumah, kantor/ruko, developer, dan pengadaan banyak unit area Semarang | `Chat WA untuk cek stok AC Semarang` | Tekankan kantor, ruko, proyek, pengadaan, banyak unit, hotel, guest house, dan hospitality |
+| `/jual-ac-yogyakarta` | `Jual AC Yogyakarta | Untuk Kost, Hotel, Rumah & Usaha` | `Jual AC Yogyakarta | Cek Stok, Konsultasi PK & Opsi Pasang` | Cocok untuk kost, guest house, rumah, cafe, dan kebutuhan banyak unit area Yogyakarta | `Chat WA: kirim jumlah kamar/ruangan` | Tekankan kost, guest house, hotel, guest house, hospitality, dan kampus |
+| `/jual-ac-solo` | `Jual AC Solo | Rumah, Kost, Hotel & Kantor` | `Jual AC Solo | Cek Stok AC, Konsultasi PK & Opsi Pasang` | Untuk rumah baru, kost, kantor, ruko, toko, dan hospitality area Solo | `Chat WA: tanya rekomendasi PK Solo` | Tekankan kost, hotel, guest house, hospitality, toko, dan kantor |
 | `/jual-ac-cilacap` | `Jual AC Cilacap | Cek Stok, Harga Unit & Opsi Pemasangan` | `Jual AC Cilacap | Konsultasi PK, Cek Stok & Opsi Pasang` | Untuk rumah, toko/usaha, kantor, dan kebutuhan banyak unit area Cilacap | `Chat WA: kirim kecamatan di Cilacap` | Tekankan lead cepat, logistik dekat, kebutuhan usaha |
-| `/jual-ac-kebumen` | `Jual AC Kebumen | Konsultasi PK, Cek Stok & Opsi Pasang` | `Jual AC Kebumen | Cek Stok AC untuk Rumah, Kost & Usaha` | Untuk rumah, kost kecil, toko, ruko, dan kantor area Kebumen | `Chat WA: kirim ukuran ruangan Kebumen` | Tekankan rumah, kost, usaha kecil, keputusan cepat |
+| `/jual-ac-kebumen` | `Jual AC Kebumen | Konsultasi PK, Cek Stok & Opsi Pasang` | `Jual AC Kebumen | Cek Stok AC untuk Rumah, Kost & Usaha` | Untuk rumah, kost dan properti sewa, toko, ruko, dan kantor area Kebumen | `Chat WA: kirim ukuran ruangan Kebumen` | Tekankan rumah, kost, usaha, toko, dan ruko, keputusan cepat |
 
 **Pola copy aman yang dipakai di semua area page**
 

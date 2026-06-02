@@ -17,6 +17,18 @@ Aturan keras ini dikunci oleh tiga sumber risiko utama: pedoman Google Business 
 - Semua perubahan besar harus memikirkan redirect, sitemap, indexing, internal link, dan dampak ke lead WA.
 - Assistant/Codex boleh mempercepat eksekusi, tetapi tidak boleh mengubah arah bisnis.
 
+## Aturan Positioning RADJA AC
+
+- Jangan memakai bahasa yang membuat RADJA AC terlihat kecil, defensif, atau hanya cocok untuk order kecil.
+- Hindari istilah user-facing dan source-planning seperti `proyek kecil`, `proyek ringan`, `lead murah`, `harga-only`, `SERP lemah`, `thin content`, atau framing yang merendahkan kapasitas RADJA AC.
+- Gunakan bahasa yang lebih kuat dan tetap jujur: `supplier AC original multi-brand`, `pengadaan`, `partai besar`, `banyak unit`, `proyek`, `hotel`, `guest house`, `hospitality`, `kantor`, `ruko`, `kontraktor`, dan `developer`.
+- Klaim kuat harus berbasis bukti: Proshop Gree, sertifikat Authorized Dealer yang tersedia, showroom/gudang nyata, stok fisik, dokumentasi pengiriman, dan dokumentasi pemasangan.
+- RADJA AC boleh diposisikan sebagai supplier AC original multi-brand untuk rumah, toko, ruko, kantor, hotel, kontraktor, developer, proyek, pengadaan, partai besar, dan banyak unit.
+- Untuk copy user-facing, jangan memakai kata `berbasis`; gunakan kalimat yang lebih familiar seperti `Showroom dan gudang RADJA AC ada di Banyumas` atau `RADJA AC melayani pengiriman dan opsi pemasangan dari Banyumas`.
+- Jangan menulis `distributor resmi` atau `dealer resmi {kota}` bila bukti resminya belum spesifik untuk klaim tersebut. Untuk brand yang sudah punya bukti, gunakan wording aman seperti `didukung Proshop Gree` atau `dokumen/sertifikat Authorized Dealer tersedia`.
+- Jangan membuat RADJA AC terlihat lebih kecil dari kompetitor. Jika menyebut kompetitor besar, respons positioning RADJA AC harus tetap percaya diri: supplier multi-brand, stok fisik, pengadaan, pengiriman, opsi pemasangan, dan bukti aktivitas nyata.
+
+
 **Tabel Keputusan**
 
 | Area | Keputusan Keras | Owner Utama | Trigger Audit |

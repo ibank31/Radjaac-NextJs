@@ -141,7 +141,7 @@ Area yang lebih aman disebut sebagai coverage dulu:
 
 Jangan buat halaman tipis untuk area coverage-only. Sebut di halaman induk yang lebih kuat jika relevan.
 
-## Do Not Build Yet
+## Tunda Build
 
 Jangan dibuat dulu kecuali ada data GSC/lead/proof yang kuat:
 - retail Jakarta generik
@@ -191,7 +191,7 @@ Sebelum ekspansi, tambah area, atau membuat halaman baru, assistant wajib mengec
 - GSC pages/queries jika tersedia
 - GA4 `whatsapp_click` dan `generate_lead` jika relevan
 - proof/trust yang mendukung klaim area
-- risiko doorway, thin content, dan klaim lokal palsu
+- risiko doorway, konten kurang kuat, dan klaim lokal palsu
 - apakah ide sudah tercakup di source strategy lama atau belum
 
 Jika ide owner belum ada di dokumen/source:
@@ -235,7 +235,7 @@ Gunakan gabungan:
 Keputusan page:
 - build jika intent jelas, proof cukup, dan page bisa unik
 - polish jika URL sudah live tapi belum kuat
-- hold jika risiko thin/copy tinggi
+- hold jika risiko konten kurang kuat/copy tinggi
 - B2B-first jika kota besar/kompetitif
 - coverage-only jika area terlalu kecil atau terlalu jauh
 - redirect jika URL lama sudah kalah intent dengan halaman final
