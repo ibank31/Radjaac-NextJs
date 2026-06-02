@@ -24,18 +24,42 @@ const catalogLinks = [
   ["AC Kantor & Komersial", routes.katalogAcKantorKomersial, "Untuk toko, ruko, cafe, klinik, kantor, gedung, proyek, dan showroom"],
 ];
 
-const areaLinks = [
-  ["Purwokerto", routes.jualAcPurwokerto],
-  ["Banyumas", routes.jualAcBanyumas],
-  ["Sokaraja", routes.jualAcSokaraja],
-  ["Yogyakarta", routes.jualAcYogyakarta],
-  ["Semarang", routes.jualAcSemarang],
-  ["Solo", routes.jualAcSolo],
-  ["Purbalingga", routes.jualAcPurbalingga],
-  ["Cilacap", routes.jualAcCilacap],
-  ["Kebumen", routes.jualAcKebumen],
-  ["Tegal", routes.jualAcTegal],
-  ["Banjarnegara", routes.jualAcBanjarnegara],
+const areaLinkGroups = [
+  {
+    title: "Banyumas dan sekitarnya",
+    description: "Untuk rumah, toko, kost, ruko, kantor kecil, dan kebutuhan beberapa unit di area Banyumas.",
+    links: [
+      ["Banyumas", routes.jualAcBanyumas],
+      ["Purwokerto", routes.jualAcPurwokerto],
+      ["Sokaraja", routes.jualAcSokaraja],
+      ["Jatilawang", routes.jualAcJatilawang],
+      ["Cilongok", routes.jualAcCilongok],
+    ],
+  },
+  {
+    title: "Cilacap prioritas",
+    description: "Untuk kebutuhan rumah, usaha, proyek, dan banyak unit di hub Cilacap serta kecamatan utama.",
+    links: [
+      ["Cilacap", routes.jualAcCilacap],
+      ["Kroya", routes.jualAcKroya],
+      ["Majenang", routes.jualAcMajenang],
+      ["Sidareja", routes.jualAcSidareja],
+      ["Kesugihan", routes.jualAcKesugihan],
+      ["Adipala", routes.jualAcAdipala],
+    ],
+  },
+  {
+    title: "Regional Jawa prioritas",
+    description: "Untuk pembelian unit, pengiriman, opsi pemasangan, dan kebutuhan banyak unit di area regional.",
+    links: [
+      ["Kebumen", routes.jualAcKebumen],
+      ["Tegal", routes.jualAcTegal],
+      ["Banjarnegara", routes.jualAcBanjarnegara],
+      ["Yogyakarta", routes.jualAcYogyakarta],
+      ["Semarang", routes.jualAcSemarang],
+      ["Solo", routes.jualAcSolo],
+    ],
+  },
 ];
 
 const packagePricingBands = [
@@ -342,15 +366,23 @@ export default function JualAcPage() {
               </p>
             </div>
 
-            <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
-              {areaLinks.map(([label, href]) => (
-                <Link
-                  key={href}
-                  href={href}
-                  className="rounded-2xl bg-white px-5 py-4 text-sm font-black text-slate-950 shadow-sm transition hover:-translate-y-1 hover:shadow-lg"
-                >
-                  Jual AC {label}
-                </Link>
+            <div className="grid gap-4 lg:grid-cols-3">
+              {areaLinkGroups.map((group) => (
+                <div key={group.title} className="rounded-3xl bg-white p-5 shadow-sm">
+                  <p className="text-sm font-black text-slate-950">{group.title}</p>
+                  <p className="mt-2 text-sm leading-6 text-slate-600">{group.description}</p>
+                  <div className="mt-4 flex flex-wrap gap-2">
+                    {group.links.map(([label, href]) => (
+                      <Link
+                        key={href}
+                        href={href}
+                        className="rounded-full border border-slate-200 px-4 py-2 text-xs font-black text-slate-800 transition hover:border-blue-300 hover:bg-blue-50 hover:text-blue-800"
+                      >
+                        Jual AC {label}
+                      </Link>
+                    ))}
+                  </div>
+                </div>
               ))}
             </div>
           </div>
