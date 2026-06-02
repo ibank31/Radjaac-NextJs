@@ -77,7 +77,7 @@ function ResultCard({ label, value, highlight = false }) {
   return (
     <div className={`rounded-3xl border p-4 ${highlight ? "border-blue-100 bg-blue-50" : "border-slate-200 bg-white"}`}>
       <p className="text-xs font-black uppercase tracking-[0.16em] text-slate-500">{label}</p>
-      <p className="mt-2 text-2xl font-black text-slate-950">{value}</p>
+      <p className="mt-2 text-xl font-black text-slate-950 sm:text-2xl">{value}</p>
     </div>
   );
 }

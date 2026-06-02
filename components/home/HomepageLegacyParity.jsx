@@ -219,7 +219,7 @@ function HomeHero() {
             </span>
           </h1>
 
-          <p className="mt-5 max-w-2xl text-base leading-8 text-slate-600 sm:text-lg">
+          <p className="mt-5 max-w-2xl text-sm leading-7 text-slate-600 sm:text-base">
             RADJA AC melayani pembelian AC original multi-brand untuk rumah, usaha, properti, dan proyek. Kebutuhan PK, stok, pengiriman, dan pemasangan dibaca sebelum pembelian.
           </p>
 

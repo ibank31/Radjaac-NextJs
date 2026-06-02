@@ -104,7 +104,7 @@ export default async function ArticleDetailPage({ params }) {
               {item.h1}
             </h1>
 
-            <p className="mt-6 max-w-3xl text-lg leading-8 text-blue-50/90">
+            <p className="mt-6 max-w-3xl text-sm leading-7 text-blue-50/90 sm:text-base">
               {item.intro}
             </p>
 

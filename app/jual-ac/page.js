@@ -79,7 +79,7 @@ export default function JualAcPage() {
             <h1 className="mt-7 max-w-4xl text-2xl font-black tracking-tight sm:text-3xl lg:text-5xl">
               Beli AC dimulai dari ukuran ruangan, daya listrik, stok unit, dan kebutuhan pemasangan.
             </h1>
-            <p className="mt-6 max-w-2xl text-base leading-8 text-slate-600 sm:text-lg">
+            <p className="mt-6 max-w-2xl text-sm leading-7 text-slate-600 sm:text-base">
               RADJA AC melayani pembelian AC original multi-brand untuk rumah, kost, toko,
               kantor, hotel, proyek, dan pengadaan banyak unit. Tim RADJA AC cek kebutuhan PK, pilihan brand,
               stok unit, area pengiriman, dan opsi pemasangan sebelum pembelian.
@@ -108,7 +108,7 @@ export default function JualAcPage() {
                 ["Pengiriman", "Koordinasi unit, alamat, jadwal, dan opsi pemasangan"],
               ].map(([title, text]) => (
                 <div key={title} className="rounded-3xl border border-slate-200 bg-white/80 p-5 shadow-sm">
-                  <p className="text-lg font-black">{title}</p>
+                  <p className="text-base font-black sm:text-lg">{title}</p>
                   <p className="mt-2 text-sm leading-6 text-slate-600">{text}</p>
                 </div>
               ))}
@@ -131,7 +131,7 @@ export default function JualAcPage() {
               <p className="text-xs font-black uppercase tracking-[0.22em] text-slate-500">
                 Fokus konsultasi
               </p>
-              <p className="mt-2 text-2xl font-black">PK, brand, stok, dan kebutuhan ruangan</p>
+              <p className="mt-2 text-xl font-black sm:text-2xl">PK, brand, stok, dan kebutuhan ruangan</p>
               <p className="mt-2 text-sm leading-6 text-slate-600">
                 Cocok untuk pembeli satuan, kantor, hotel, proyek, dan pengadaan banyak unit yang perlu cek PK, stok, dan koordinasi pengiriman.
               </p>
@@ -149,7 +149,7 @@ export default function JualAcPage() {
             <h2 className="mt-4 text-2xl font-black tracking-tight text-slate-950 sm:text-3xl">
               Tidak semua ruangan cocok dengan AC yang sama.
             </h2>
-            <p className="mt-5 text-base leading-8 text-slate-600">
+            <p className="mt-5 text-sm leading-7 text-slate-600">
               Kebutuhan kamar tidur, kost, toko, ruko, cafe, kantor, dan proyek
               berbeda. Mulai dari kategori AC dulu, lalu tim RADJA AC mengecek stok dan menyusun opsi
               yang tersedia.
@@ -163,7 +163,7 @@ export default function JualAcPage() {
                 href={href}
                 className="group rounded-3xl border border-slate-200 bg-white p-6 shadow-sm transition hover:-translate-y-1 hover:border-blue-300 hover:shadow-xl"
               >
-                <p className="text-lg font-black text-slate-950">{label}</p>
+                <p className="text-base font-black text-slate-950 sm:text-lg">{label}</p>
                 <p className="mt-3 text-sm leading-6 text-slate-600">{text}</p>
                 <p className="mt-5 text-sm font-black text-blue-700 group-hover:text-blue-900">
                   Lihat kategori →
@@ -184,7 +184,7 @@ export default function JualAcPage() {
               <h2 className="mt-4 text-2xl font-black tracking-tight text-slate-950 sm:text-3xl">
                 Paket AC 1/2 PK + pemasangan mulai Rp3 jutaan.
               </h2>
-              <p className="mt-5 text-base leading-8 text-slate-700">
+              <p className="mt-5 text-sm leading-7 text-slate-700">
                 Cocok untuk pembeli satuan yang ingin gambaran awal sebelum chat. Paket standar dapat mencakup pipa 2 meter, kabel 5 meter, bracket 1 set, duct tape 1 roll, free selang drain, dan free vacuum.
               </p>
               <p className="mt-4 text-sm leading-7 text-slate-600">
@@ -231,7 +231,7 @@ export default function JualAcPage() {
             <h2 className="mt-4 text-2xl font-black tracking-tight text-slate-950 sm:text-3xl">
               Cek pilihan brand berdasarkan stok aktif, kebutuhan PK, dan anggaran.
             </h2>
-            <p className="mt-5 text-base leading-8 text-slate-600">
+            <p className="mt-5 text-sm leading-7 text-slate-600">
               RADJA AC menyediakan pilihan AC Gree, Daikin, Midea, Hisense,
               Sharp, Panasonic, Samsung, Sansui, dan brand lain berdasarkan stok aktif.
               Garansi unit mengikuti ketentuan resmi brand.
@@ -245,7 +245,7 @@ export default function JualAcPage() {
                 href={href}
                 className="rounded-3xl border border-slate-200 bg-white p-6 shadow-sm transition hover:-translate-y-1 hover:shadow-xl"
               >
-                <p className="text-xl font-black text-slate-950">AC {label}</p>
+                <p className="text-lg font-black text-slate-950 sm:text-xl">AC {label}</p>
                 <p className="mt-3 text-sm leading-6 text-slate-600">{text}</p>
                 <p className="mt-5 text-sm font-black text-blue-700">Cek halaman brand →</p>
               </Link>
@@ -263,7 +263,7 @@ export default function JualAcPage() {
             <h2 className="mt-4 text-2xl font-black tracking-tight text-slate-950 sm:text-3xl">
               Lebih aman kalau kebutuhan dicek sebelum memilih unit.
             </h2>
-            <p className="mt-5 text-base leading-8 text-slate-600">
+            <p className="mt-5 text-sm leading-7 text-slate-600">
               Tujuan konsultasi bukan memaksa brand tertentu, tapi memperjelas
               kebutuhan: ukuran ruangan, daya listrik, pemakaian, jumlah unit,
               alamat pengiriman, dan opsi pemasangan.
@@ -277,7 +277,7 @@ export default function JualAcPage() {
                   {index + 1}
                 </div>
                 <div>
-                  <p className="text-lg font-black text-slate-950">{title}</p>
+                  <p className="text-base font-black text-slate-950 sm:text-lg">{title}</p>
                   <p className="mt-2 text-sm leading-6 text-slate-600">{text}</p>
                 </div>
               </div>
@@ -296,7 +296,7 @@ export default function JualAcPage() {
               <h2 className="mt-4 text-2xl font-black tracking-tight sm:text-3xl">
                 Showroom, stok, pengiriman, dan material pemasangan tersedia di dokumentasi.
               </h2>
-              <p className="mt-5 text-base leading-8 text-slate-600">
+              <p className="mt-5 text-sm leading-7 text-slate-600">
                 Lihat dokumentasi RADJA AC sebelum konsultasi: display unit,
                 pengiriman, stok, material, dan aktivitas lapangan yang relevan.
               </p>
@@ -336,7 +336,7 @@ export default function JualAcPage() {
               <h2 className="mt-4 text-2xl font-black tracking-tight text-slate-950 sm:text-3xl">
                 Mulai dari Banyumas, Purwokerto, Sokaraja, dan area Jawa prioritas.
               </h2>
-              <p className="mt-5 text-base leading-8 text-slate-700">
+              <p className="mt-5 text-sm leading-7 text-slate-700">
                 Untuk alamat pengiriman dan opsi pemasangan, tim RADJA AC tetap cek
                 lokasi, stok, jumlah unit, dan jadwal.
               </p>
@@ -365,7 +365,7 @@ export default function JualAcPage() {
           <h2 className="mt-4 text-2xl font-black tracking-tight text-slate-950 sm:text-3xl">
             Butuh AC untuk rumah, kantor, hotel, atau proyek?
           </h2>
-          <p className="mx-auto mt-5 max-w-2xl text-base leading-8 text-slate-600">
+          <p className="mx-auto mt-5 max-w-2xl text-sm leading-7 text-slate-600">
             Kirim ukuran ruangan, lokasi, daya listrik, jumlah unit, dan brand yang diminati. Tim RADJA AC menyusun opsi untuk pembelian satuan sampai pengadaan banyak unit.
           </p>
           <div className="mt-8 flex flex-col justify-center gap-3 sm:flex-row">

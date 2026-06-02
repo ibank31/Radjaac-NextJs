@@ -140,7 +140,7 @@ export default function KatalogPage() {
           <div className="grid gap-3 md:grid-cols-3">
             {anggaranPackages.map(([anggaran, note]) => (
               <div key={anggaran} className="rounded-[1.35rem] border border-slate-200 bg-[#f8fbff] p-4 text-center">
-                <p className="mb-3 text-2xl font-black text-slate-950">{anggaran}</p>
+                <p className="mb-3 text-xl font-black text-slate-950 sm:text-2xl">{anggaran}</p>
                 <p className="rounded-2xl border border-slate-200 bg-white px-3 py-3 text-sm font-semibold leading-6 text-slate-600">{note}</p>
               </div>
             ))}

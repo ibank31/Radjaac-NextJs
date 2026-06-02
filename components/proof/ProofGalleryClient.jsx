@@ -366,7 +366,7 @@ export default function ProofGalleryClient() {
             <span className="text-blue-700">lihat dulu foto aslinya.</span>
           </h1>
 
-          <p className="mx-auto max-w-2xl text-base leading-9 text-slate-600 sm:text-lg">
+          <p className="mx-auto max-w-2xl text-sm leading-7 text-slate-600 sm:text-base">
             Foto di halaman ini adalah dokumentasi asli aktivitas RADJA AC: showroom di Pamijen Sokaraja,
             stok di gudang, display produk, pengiriman, dan pemasangan. Bukan foto dari internet. Bukan
             ilustrasi. Ini kondisi nyata toko kami sehari-hari.
@@ -399,7 +399,7 @@ export default function ProofGalleryClient() {
           <h2 className="mb-4 text-3xl font-black leading-tight tracking-[-0.04em] text-slate-950 sm:text-4xl">
             Lihat langsung stok dan pengiriman RADJA AC
           </h2>
-          <p className="mx-auto max-w-2xl text-base leading-8 text-slate-600">
+          <p className="mx-auto max-w-2xl text-sm leading-7 text-slate-600">
             Video ini diambil langsung dari aktivitas toko — bukan konten promosi. Untuk stok hari ini
             tetap chat tim RADJA AC dulu, karena unit bisa cepat berubah.
           </p>
@@ -448,7 +448,7 @@ export default function ProofGalleryClient() {
           <h2 className="mx-auto mb-5 max-w-4xl text-2xl font-black leading-tight tracking-[-0.035em] text-slate-950 sm:text-3xl lg:text-4xl">
             Showroom, gudang, stok, display, dan pengiriman
           </h2>
-          <p className="mx-auto max-w-2xl text-base leading-8 text-slate-600">
+          <p className="mx-auto max-w-2xl text-sm leading-7 text-slate-600">
             Pilih kategori untuk melihat bagian yang paling relevan. Foto ini bukan pemanis — ini dokumentasi
             nyata kondisi toko AC Purwokerto kami dari waktu ke waktu.
           </p>

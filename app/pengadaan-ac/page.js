@@ -95,7 +95,7 @@ export default function PengadaanAcPage() {
               AC untuk hotel, kost, kantor, ruko, cafe, dan proyek? Mulai dari brief.
             </h1>
 
-            <p className="mt-6 max-w-2xl text-base leading-8 text-slate-600 sm:text-lg">
+            <p className="mt-6 max-w-2xl text-sm leading-7 text-slate-600 sm:text-base">
               Kirim data ruangan, jumlah unit, lokasi, dan timeline. Tim RADJA AC cek kebutuhan PK,
               pilihan brand yang tersedia, opsi pengiriman, dan jadwal pemasangan sesuai kondisi nyata proyek.
             </p>
@@ -187,7 +187,7 @@ export default function PengadaanAcPage() {
                 Ada aktivitas pengiriman, stok, dan pemasangan yang bisa dilihat.
               </h2>
             </div>
-            <p className="text-base leading-8 text-slate-600 sm:text-lg">
+            <p className="text-sm leading-7 text-slate-600 sm:text-base">
               Foto dipakai sebagai bukti pendukung aktivitas RADJA AC. Ketersediaan tipe, jumlah unit,
               jadwal pengiriman, dan opsi pemasangan tetap dikonfirmasi dari brief proyek.
             </p>
@@ -216,7 +216,7 @@ export default function PengadaanAcPage() {
             <h2 className="mt-3 text-2xl font-black tracking-tight text-blue-950 sm:text-4xl">
               Kebutuhan berbeda, pendekatan berbeda.
             </h2>
-            <p className="mt-4 text-base leading-8 text-slate-600 sm:text-lg">
+            <p className="mt-4 text-sm leading-7 text-slate-600 sm:text-base">
               Setiap tipe proyek punya tantangan teknis yang berbeda. Pilih segmen yang paling sesuai untuk mendapatkan info yang relevan.
             </p>
           </div>
@@ -252,7 +252,7 @@ export default function PengadaanAcPage() {
             <h2 className="mt-3 text-2xl font-black tracking-tight text-blue-950 sm:text-4xl">
               Tidak ada form. Cukup WA dengan data yang tepat.
             </h2>
-            <p className="mt-4 text-base leading-8 text-slate-600 sm:text-lg">
+            <p className="mt-4 text-sm leading-7 text-slate-600 sm:text-base">
               Proses pengadaan dimulai dari brief yang jelas. Semakin lengkap data awal, semakin cepat tim bisa menyusun opsi.
             </p>
           </div>
@@ -328,7 +328,7 @@ export default function PengadaanAcPage() {
             <h2 className="mt-4 text-2xl font-black tracking-tight text-white sm:text-4xl">
               Kirim data proyek, tim susun opsi awal dari kebutuhan.
             </h2>
-            <p className="mt-5 max-w-2xl text-base leading-8 text-white/70 sm:text-lg">
+            <p className="mt-5 max-w-2xl text-sm leading-7 text-white/70 sm:text-base">
               Showroom dan gudang RADJA AC berada di Banyumas, melayani kebutuhan AC banyak unit untuk kost, hotel,
               kantor, ruko, cafe, dan proyek konstruksi.
             </p>

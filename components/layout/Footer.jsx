@@ -60,7 +60,7 @@ export default function Footer() {
               />
             </span>
             <div>
-              <p className="text-2xl font-black tracking-[-0.03em] text-white">RADJA AC</p>
+              <p className="text-xl font-black tracking-[-0.03em] text-white sm:text-2xl">RADJA AC</p>
               <p className="mt-1 text-xs font-black uppercase tracking-[0.16em] text-white/70">Sokaraja, Banyumas</p>
             </div>
           </div>

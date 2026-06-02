@@ -59,7 +59,7 @@ export default function KontakPage() {
               Mau beli AC? Kirim ukuran ruangan, daya listrik, lokasi, dan jumlah unit ke RADJA AC.
             </h1>
 
-            <p className="mt-6 max-w-3xl text-base leading-8 text-slate-600 sm:text-lg">
+            <p className="mt-6 max-w-3xl text-sm leading-7 text-slate-600 sm:text-base">
               Showroom dan gudang RADJA AC berada di {siteConfig.businessBase}. Tim RADJA AC cek kebutuhan AC untuk rumah, kost, toko, kantor, hotel, sampai pengadaan banyak unit sebelum pembelian.
             </p>
 

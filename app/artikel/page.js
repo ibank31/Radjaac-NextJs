@@ -39,7 +39,7 @@ export default function ArtikelPage() {
             <h1 className="mt-6 max-w-4xl text-3xl font-black leading-tight tracking-[-0.035em] md:text-5xl">
               Panduan beli AC yang tidak bikin bingung sebelum chat RADJA AC
             </h1>
-            <p className="mt-6 max-w-3xl text-base leading-8 text-blue-50/90 sm:text-lg">
+            <p className="mt-6 max-w-3xl text-sm leading-7 text-blue-50/90 sm:text-base">
               Mulai dari PK, ukuran ruangan, daya listrik, inverter vs low watt, instalasi, sampai tanda kapan AC lama perlu dievaluasi. Baca dulu, lalu kirim brief WhatsApp yang lebih jelas.
             </p>
 

@@ -42,7 +42,7 @@ export default function GantiAcBaruPurwokertoPage() {
         <h1 className="mt-4 max-w-4xl text-3xl font-black tracking-tight text-slate-950 md:text-4xl">
           Ganti AC baru di Purwokerto saat unit lama sudah tidak nyaman dipakai
         </h1>
-        <p className="mt-6 max-w-3xl text-lg leading-8 text-slate-600">
+        <p className="mt-6 max-w-3xl text-sm leading-7 text-slate-600 sm:text-base">
           Jika AC lama mulai sering bermasalah, kurang dingin, boros listrik, atau sudah tidak sesuai
           kebutuhan ruangan, RADJA AC mencocokkan pilihan AC baru yang lebih masuk akal.
           Fokus halaman ini adalah konsultasi pembelian unit baru, cek kebutuhan PK, stok, daya listrik,

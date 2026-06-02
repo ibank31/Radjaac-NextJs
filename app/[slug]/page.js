@@ -274,7 +274,7 @@ export default async function AreaPage({ params }) {
           <div className="mx-auto mb-4 grid max-w-5xl gap-3 sm:grid-cols-3">
             {pricePackages.map(([priceRange, brands, description]) => (
               <div key={priceRange} className="rounded-[22px] border border-slate-200 bg-[#f7fbff]/45 p-4 text-center">
-                <p className="mb-3 text-2xl font-black text-slate-950">{brands}</p>
+                <p className="mb-3 text-xl font-black text-slate-950 sm:text-2xl">{brands}</p>
                 <p className="rounded-2xl border border-slate-200 bg-white px-3 py-3 text-sm font-semibold leading-6 text-slate-600">{description}</p>
                 <p className="mt-3 text-xs font-bold uppercase tracking-[0.16em] text-blue-700/80">{priceRange}</p>
               </div>

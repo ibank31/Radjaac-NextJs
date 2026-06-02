@@ -69,7 +69,7 @@ export default async function ProcurementDetailPage({ params }) {
               {item.h1}
             </h1>
 
-            <p className="mt-6 max-w-2xl text-base leading-8 text-slate-600 sm:text-lg">
+            <p className="mt-6 max-w-2xl text-sm leading-7 text-slate-600 sm:text-base">
               {item.intro}
             </p>
 
@@ -169,8 +169,8 @@ export default async function ProcurementDetailPage({ params }) {
               </h2>
             </div>
             <div className="rounded-[1.7rem] border border-blue-100 bg-white p-6 shadow-sm">
-              <p className="text-base leading-8 text-slate-700">{item.segmentContext}</p>
-              <p className="mt-4 text-base leading-8 text-slate-700">{item.coordinationNote}</p>
+              <p className="text-sm leading-7 text-slate-700">{item.segmentContext}</p>
+              <p className="mt-4 text-sm leading-7 text-slate-700">{item.coordinationNote}</p>
             </div>
           </div>
         </div>
@@ -234,7 +234,7 @@ export default async function ProcurementDetailPage({ params }) {
             <h2 className="mt-4 text-2xl font-black tracking-tight text-white sm:text-4xl">
               Kirim data proyek, tim susun opsi awal dari kebutuhan.
             </h2>
-            <p className="mt-5 max-w-2xl text-base leading-8 text-white/70 sm:text-lg">
+            <p className="mt-5 max-w-2xl text-sm leading-7 text-white/70 sm:text-base">
               Siapkan brief singkat untuk {item.label.toLowerCase()}. Data awal membantu proses cek PK, stok,
               brand, pengiriman, dan opsi pemasangan lebih rapi.
             </p>

@@ -109,7 +109,7 @@ export default async function CatalogDetailPage({ params }) {
                 {item.h1}
               </h1>
 
-              <p className="mb-6 max-w-3xl text-base leading-8 text-slate-600 sm:text-lg">
+              <p className="mb-6 max-w-3xl text-sm leading-7 text-slate-600 sm:text-base">
                 {item.intro}
               </p>
 

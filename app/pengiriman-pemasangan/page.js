@@ -51,7 +51,7 @@ export default function PengirimanPemasanganPage() {
         <h1 className="mt-4 max-w-4xl text-3xl font-black tracking-tight text-slate-950 md:text-4xl">
           Pengiriman unit, kebutuhan pemasangan, dan garansi pemasangan AC
         </h1>
-        <p className="mt-6 max-w-3xl text-lg leading-8 text-slate-600">
+        <p className="mt-6 max-w-3xl text-sm leading-7 text-slate-600 sm:text-base">
           RADJA AC membantu pembelian AC original multi-brand dari data teknis yang nyata: ukuran ruangan, kebutuhan PK,
           cek stok, konfirmasi alamat pengiriman, kebutuhan pemasangan, garansi pemasangan 1 bulan, dan bantuan klaim unit sesuai ketentuan brand.
         </p>
