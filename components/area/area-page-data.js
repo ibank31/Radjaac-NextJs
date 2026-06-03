@@ -17,9 +17,21 @@ export const categoryLinks = [
 ];
 
 export const pricePackages = [
-  ["Hemat", "Mulai 3 jutaan", "Untuk kamar kecil, kost, atau ruangan sederhana."],
-  ["Populer", "3–4 jutaan", "Untuk rumah, toko kecil, dan pemakaian harian normal."],
-  ["Inverter / Premium", "Mulai 4 jutaan", "Untuk pemakaian panjang atau ruangan lebih besar."],
+  [
+    "Mulai 3 jutaan",
+    "Midea FT/AF, Hisense, Sharp BEY, Sansui, Ariston, TCL",
+    "Untuk kamar kecil, kost, kontrakan, toko kecil, dan kebutuhan AC awal. Stok, PK, alamat, dan pemasangan tetap dicek dulu.",
+  ],
+  [
+    "3–4 jutaan",
+    "Gree Standard/Low Watt, Daikin STC/STP, Midea Inverter, Panasonic, Samsung",
+    "Untuk rumah harian, ruang keluarga kecil, toko, dan pemakaian rutin. Cocok kalau ingin brand lebih kuat atau opsi hemat daya.",
+  ],
+  [
+    "Mulai 4 jutaan",
+    "Gree Inverter, Daikin Inverter, dan opsi inverter lebih tinggi",
+    "Untuk pemakaian lebih lama, kamar utama, ruang kerja, atau kebutuhan suhu lebih stabil. Tetap perlu cek ukuran ruangan dan daya listrik.",
+  ],
 ];
 
 export const packageIncludes = [
