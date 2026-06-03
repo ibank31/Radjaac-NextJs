@@ -24,6 +24,9 @@ export const routes = {
   jualAcKesugihan: "/jual-ac-kesugihan",
   jualAcAdipala: "/jual-ac-adipala",
   jualAcKebumen: "/jual-ac-kebumen",
+  jualAcGombong: "/jual-ac-gombong",
+  jualAcKaranganyarKebumen: "/jual-ac-karanganyar-kebumen",
+  jualAcKutowinangun: "/jual-ac-kutowinangun",
   jualAcTegal: "/jual-ac-tegal",
   jualAcBanjarnegara: "/jual-ac-banjarnegara",
 
@@ -98,6 +101,9 @@ export const sitemapRoutes = [
   { path: routes.jualAcKesugihan, priority: 0.7 },
   { path: routes.jualAcAdipala, priority: 0.7 },
   { path: routes.jualAcKebumen, priority: 0.8 },
+  { path: routes.jualAcGombong, priority: 0.65 },
+  { path: routes.jualAcKaranganyarKebumen, priority: 0.65 },
+  { path: routes.jualAcKutowinangun, priority: 0.65 },
   { path: routes.jualAcTegal, priority: 0.75 },
   { path: routes.jualAcBanjarnegara, priority: 0.75 },
 
