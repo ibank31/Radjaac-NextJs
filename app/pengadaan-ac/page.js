@@ -7,57 +7,64 @@ import WhatsappLink from "@/components/ui/WhatsappLink";
 
 export const metadata = buildMetadata(staticPageMetadata.pengadaanAc);
 
-const brands = ["Daikin", "Gree", "Panasonic", "Sharp", "LG", "Samsung", "Midea"];
+const brands = ["Daikin", "Gree", "Midea", "Hisense", "Sharp", "Samsung", "Panasonic", "Ariston", "Sansui"];
 
 const projectTypes = [
   {
-    label: "Kantor / Ruko",
-    title: "Gedung, Kantor & Ruko",
-    desc: "Untuk ruang kerja, meeting room, showroom, dan ruko. Tantangan utama: koordinasi jadwal pemasangan yang tidak mengganggu operasional dan pemilihan unit yang sesuai layout ruangan.",
-    painTags: ["Jadwal non-disruptif", "Layout ruang kerja", "Multi-unit"],
-    href: routes.pengadaanGedungKantorRuko,
+    label: "Kost / Apartemen",
+    title: "Kost, Apartemen & Hunian Banyak Kamar",
+    desc: "Untuk banyak kamar, kontrakan, mess, atau apartemen sewa. Fokus utama: jumlah unit, daya listrik per kamar, pilihan 1/2 PK, low watt, inverter, dan pengiriman bertahap.",
+    painTags: ["Banyak kamar", "Daya per titik", "Pengiriman bertahap"],
+    href: routes.pengadaanKostApartemen,
   },
   {
-    label: "Cafe / Resto",
-    title: "Cafe, Resto & Ruang Makan",
-    desc: "Area pelanggan, ruang makan, atau lokasi kuliner dengan kaca besar dan plafon tinggi butuh hitungan kapasitas lebih cermat agar pendinginan merata tanpa pemborosan daya.",
-    painTags: ["Plafon tinggi", "Beban panas besar", "Kenyamanan tamu"],
-    href: routes.pengadaanCafeResto,
-  },
-  {
-    label: "Hotel / Kost",
-    title: "Hotel, Guest House & Kost",
-    desc: "Banyak kamar dengan daya listrik terbatas per unit. Perlu pertimbangan total beban daya, jadwal kirim bertahap, dan unit yang mudah dioperasikan penghuni.",
-    painTags: ["Daya per kamar", "Volume unit besar", "Pengiriman bertahap"],
+    label: "Hotel / Guest House",
+    title: "Hotel, Guest House & Penginapan",
+    desc: "Untuk kamar tamu, lobby, ruang makan, meeting room, dan area penginapan. Fokus utama: kenyamanan tamu, suara unit, jam pemakaian, dan jadwal pekerjaan yang tidak mengganggu okupansi.",
+    painTags: ["Kenyamanan tamu", "Jam pemakaian", "Area berbeda"],
     href: routes.pengadaanHotelGuestHouse,
   },
   {
     label: "Proyek",
     title: "Kontraktor & Developer",
-    desc: "Kirim data ruangan, jumlah unit, lokasi proyek, dan timeline pengerjaan. Tim menyusun opsi awal berdasarkan spesifikasi yang diberikan, termasuk kebutuhan cassette atau floor standing.",
-    painTags: ["Timeline ketat", "Cassette / FS", "Koordinasi lapangan"],
+    desc: "Untuk proyek bangunan, rumah contoh, ruko, kantor proyek, klinik, dan banyak unit. Kirim BOQ/RAB awal, daftar titik, lokasi, dan timeline agar opsi brand, stok, dan pengiriman bisa dicek.",
+    painTags: ["BOQ / RAB", "Timeline proyek", "Supply bertahap"],
     href: routes.pengadaanKontraktorDeveloper,
+  },
+  {
+    label: "Kantor / Ruko",
+    title: "Gedung, Kantor & Ruko",
+    desc: "Untuk ruang kerja, meeting room, area pelanggan, showroom kecil, dan ruko. Fokus utama: layout ruangan, jumlah orang, jam operasional, titik indoor/outdoor, dan batasan downtime.",
+    painTags: ["Layout ruang", "Jam operasional", "Multi-unit"],
+    href: routes.pengadaanGedungKantorRuko,
+  },
+  {
+    label: "Cafe / Resto",
+    title: "Cafe, Resto & Ruang Makan",
+    desc: "Untuk area pelanggan, ruang makan, kasir, dan usaha kuliner. Kaca besar, plafon tinggi, pintu sering terbuka, dan jam ramai perlu dihitung agar pilihan unit lebih realistis.",
+    painTags: ["Plafon tinggi", "Beban panas", "Kenyamanan pelanggan"],
+    href: routes.pengadaanCafeResto,
   },
 ];
 
 const proofImages = [
   {
-    title: "Showroom RADJA AC 31 Mei 2026",
+    title: "Showroom dan gudang RADJA AC di Banyumas",
     label: "Showroom",
     image: "/images/gallery/showroom-31-5-2026.webp",
   },
   {
-    title: "Pengiriman Ariston dan Daikin",
+    title: "Dokumentasi pengiriman unit AC RADJA AC",
     label: "Pengiriman",
     image: "/photos/delivery/pengiriman-ariston-daikin.webp",
   },
   {
-    title: "Pengiriman AC Ariston",
+    title: "Dokumentasi persiapan pengiriman AC",
     label: "Pengiriman",
     image: "/photos/delivery/pengiriman-ac-ariston.webp",
   },
   {
-    title: "Stok AC Sansui dan Gree RADJA AC",
+    title: "Dokumentasi stok AC RADJA AC",
     label: "Stok",
     image: "/images/gallery/stock-sansui-gree.webp",
   },
@@ -92,20 +99,20 @@ export default function PengadaanAcPage() {
             </div>
 
             <h1 className="max-w-4xl text-3xl font-black tracking-[-0.04em] text-blue-950 sm:text-4xl lg:text-5xl">
-              AC untuk hotel, kost, kantor, ruko, cafe, dan proyek? Mulai dari brief.
+              Pengadaan AC untuk banyak unit, usaha, dan proyek? Mulai dari brief yang jelas.
             </h1>
 
             <p className="mt-6 max-w-2xl text-sm leading-7 text-slate-600 sm:text-base">
-              Kirim data ruangan, jumlah unit, lokasi, dan timeline. Tim RADJA AC cek kebutuhan PK,
-              pilihan brand yang tersedia, opsi pengiriman, dan jadwal pemasangan sesuai kondisi nyata proyek.
+              Kirim jenis bangunan, jumlah ruangan, jumlah unit, lokasi, daya listrik, dan timeline.
+              Tim RADJA AC bantu cek kebutuhan PK, pilihan brand, stok unit, pengiriman, dan opsi pemasangan sesuai data awal.
             </p>
 
             <div className="mt-8 flex flex-col gap-3 sm:flex-row sm:flex-wrap">
               <WhatsappLink
                 className="inline-flex items-center justify-center rounded-2xl bg-red-600 px-7 py-4 text-base font-black text-white shadow-xl shadow-red-600/20 transition hover:-translate-y-0.5 hover:bg-red-700"
                 source="Pengadaan AC - Hero"
-                intent="pengadaan AC proyek atau banyak unit"
-                pageType="b2b"
+                intent="kirim brief pengadaan AC dengan data bangunan jumlah ruangan jumlah unit lokasi timeline dan kebutuhan pemasangan"
+                pageType="procurement"
               >
                 Kirim Brief via WhatsApp
               </WhatsappLink>
@@ -120,9 +127,9 @@ export default function PengadaanAcPage() {
 
             <div className="mt-10 grid gap-3 sm:grid-cols-3">
               {[
-                ["Bantu hitung PK", "Estimasi kapasitas dari ukuran ruangan, fungsi, dan kondisi bangunan."],
-                ["Multi-brand", "Daikin, Gree, Panasonic, Sharp, Samsung, LG, Midea dibaca dari kebutuhan."],
-                ["Koordinasi pengiriman", "Pengiriman ke Banyumas dan sekitar bisa diatur sesuai timeline proyek."],
+                ["Bantu hitung PK", "Estimasi kapasitas dari ukuran ruangan, fungsi, jumlah orang, dan kondisi bangunan."],
+                ["Multi-brand", "Daikin, Gree, Midea, Hisense, Sharp, Samsung, Panasonic, Ariston, dan Sansui dibaca dari kebutuhan."],
+                ["Koordinasi pengiriman", "Pengiriman unit dan opsi pemasangan dikonfirmasi dari lokasi, jumlah unit, dan timeline proyek."],
               ].map(([title, desc]) => (
                 <div key={title} className="rounded-3xl border border-slate-200 bg-white p-5 shadow-sm">
                   <div className="text-base font-black text-blue-950">{title}</div>
@@ -217,7 +224,7 @@ export default function PengadaanAcPage() {
               Kebutuhan berbeda, pendekatan berbeda.
             </h2>
             <p className="mt-4 text-sm leading-7 text-slate-600 sm:text-base">
-              Setiap tipe proyek punya tantangan teknis yang berbeda. Pilih segmen yang paling sesuai untuk mendapatkan info yang relevan.
+              Setiap segmen punya kebutuhan berbeda: kost perlu cek daya per kamar, hotel perlu kenyamanan tamu, kontraktor perlu BOQ/timeline, kantor perlu layout, dan cafe perlu membaca beban panas area pelanggan.
             </p>
           </div>
 
@@ -338,11 +345,11 @@ export default function PengadaanAcPage() {
             <h3 className="text-xl font-black text-blue-950">Data yang perlu dikirim</h3>
             <ul className="mt-5 space-y-3 text-sm leading-6 text-slate-600">
               {[
-                ["Lokasi proyek", "kota atau area pengiriman"],
-                ["Jumlah unit / ruangan", "estimasi total kebutuhan"],
-                ["Ukuran dan fungsi ruangan", "untuk hitung estimasi PK"],
-                ["Daya listrik", "total atau per titik jika tersedia"],
-                ["Timeline", "kapan unit atau pemasangan dibutuhkan"],
+                ["Jenis bangunan", "kost, hotel, kantor, ruko, cafe, toko, atau proyek"],
+                ["Lokasi proyek", "kota, area pengiriman, dan akses lokasi"],
+                ["Jumlah unit / ruangan", "estimasi total kebutuhan sekarang atau bertahap"],
+                ["Ukuran dan fungsi ruangan", "untuk cek estimasi PK dan tipe unit"],
+                ["Daya listrik dan timeline", "total/per titik serta kapan unit dibutuhkan"],
               ].map(([title, desc]) => (
                 <li key={title} className="flex gap-3">
                   <span className="mt-0.5 flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-green-100 text-xs font-black text-green-700">✓</span>
@@ -353,8 +360,8 @@ export default function PengadaanAcPage() {
             <WhatsappLink
               className="mt-6 inline-flex w-full justify-center rounded-2xl bg-red-600 px-6 py-4 font-black text-white shadow-lg shadow-red-600/20 transition hover:-translate-y-0.5 hover:bg-red-700"
               source="Pengadaan AC - Final CTA"
-              intent="kirim data lengkap pengadaan AC"
-              pageType="b2b"
+              intent="kirim data lengkap pengadaan AC jenis bangunan jumlah ruangan jumlah unit lokasi daya listrik timeline dan kebutuhan pemasangan"
+              pageType="procurement"
             >
               Kirim Data via WhatsApp
             </WhatsappLink>
