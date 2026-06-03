@@ -183,6 +183,30 @@ Versi keras reset keyword:
 
 `STOP. SOURCE REPO TERBARU YANG MENANG. BACA RADJA_WORKFLOW DULU.`
 
+## Staged Draft Audit
+
+Repo sekarang punya staged draft yang sengaja belum live:
+
+- `content/area-drafts.js`
+- `content/area-child-drafts.js`
+- `content/procurement-next.js`
+
+File staged ini tidak boleh di-import ke `app/`, sitemap, route generator, atau komponen live kecuali memang sedang publish batch secara sadar.
+
+Setiap mengubah staged draft, jalankan:
+
+`npm run audit:staged`
+
+Audit ini mengecek:
+- staged draft tetap tidak live,
+- slug area draft tidak collision dengan route live,
+- `procurement-next.js` tetap dianggap staged replacement,
+- field wajib lengkap,
+- risky wording tidak muncul,
+- asset path yang ditulis literal masih ada.
+
+Untuk staged/docs-only, `npm run check` tidak wajib. Untuk publish ke live route/content, `npm run check` tetap wajib.
+
 ## Final QA Status Terbaru
 
 Status terakhir yang sudah selesai:

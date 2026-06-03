@@ -12,6 +12,14 @@ Source repo and live production always beat old docs or chat history.
 Default verification before commit:
 npm run check
 
+For staged draft changes, run:
+npm run audit:staged
+
+Staged draft files:
+- content/area-drafts.js
+- content/area-child-drafts.js
+- content/procurement-next.js
+
 Do not:
 - add pages before checking strategy and source data,
 - make fake local showroom/cabang claims,

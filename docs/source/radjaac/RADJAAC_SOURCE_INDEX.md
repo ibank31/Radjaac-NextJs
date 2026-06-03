@@ -38,6 +38,7 @@ Dokumen ini menjadi peta baca source RADJA AC agar assistant/Codex masuk dari fi
 - `content/area-child-drafts.js` staged child/kecamatan drafts, not live
    - `content/brands.js`
    - `content/procurement.js`
+   - `content/procurement-next.js` sebagai staged replacement untuk polish child pengadaan, belum live
    - `content/static-pages.js`
    - `app/`
    - `components/`
@@ -63,7 +64,7 @@ Dokumen ini menjadi peta baca source RADJA AC agar assistant/Codex masuk dari fi
 - Sudah cek source repo aktif.
 - Sudah pastikan tidak ada klaim toko/cabang/showroom lokal palsu.
 - Sudah pastikan CTA WhatsApp membawa source/intent yang jelas.
-- Sudah rencanakan verifikasi: diff, scan, `npm run check`, dan live check bila perlu.
+- Sudah rencanakan verifikasi: diff, scan, `npm run audit:staged` untuk staged draft, `npm run check` untuk perubahan live, dan live check bila perlu.
 
 ## Staged Draft Warning
 
