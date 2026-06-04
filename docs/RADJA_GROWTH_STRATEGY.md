@@ -1,12 +1,13 @@
 # RADJA AC Growth Strategy
 
-Dokumen ini adalah strategi pertumbuhan aktif RADJA AC untuk SEO lokal, ekspansi area, B2B/proyek, dan lead WhatsApp.
+Dokumen ini adalah strategi pertumbuhan aktif RADJA AC untuk SEO lokal, ekspansi area, B2B/proyek, katalog, dan lead WhatsApp.
 
 Source repo terbaru tetap menjadi sumber kebenaran teknis. Dokumen ini mengarahkan prioritas ekspansi, bukan menggantikan audit source, GSC, GA4, atau live production.
 
 ## Misi Besar
 
 RADJA AC membangun website sebagai mesin lead untuk:
+
 - pembelian AC rumah dan usaha
 - katalog AC multi-brand
 - area lokal dan regional
@@ -18,6 +19,7 @@ Fokus utama bukan sekadar traffic, tetapi lead berkualitas yang masuk melalui Wh
 ## Basis Authority
 
 Basis kepercayaan RADJA AC tetap:
+
 - Purwokerto
 - Banyumas
 - Sokaraja
@@ -29,6 +31,82 @@ Basis kepercayaan RADJA AC tetap:
 - opsi pemasangan yang dikonfirmasi
 
 Homepage tetap brand hub. Jangan mengubah homepage menjadi city-money-page tunggal.
+
+## Kondisi Aktif Pasca Migrasi — 2026-06-04
+
+Migrasi Next.js dan technical SEO dasar sudah stabil berdasarkan repo/live/GSC sample:
+
+- URL utama final memakai `https://www.radjaac.com/...`.
+- Sitemap berisi URL final, bukan legacy redirect.
+- Robots, canonical, HTTPS, dan www final sehat pada audit owner.
+- GSC URL Inspection membantah klaim `de-index total`.
+- Sampel money page utama sudah indexed.
+- Live curl owner menunjukkan halaman kritis bukan SPA lama.
+- GA4 memakai gtag langsung dengan event `whatsapp_click` dan `generate_lead`.
+
+Implikasi strategi:
+
+- Tidak perlu freeze total.
+- Jangan ekspansi besar serentak.
+- Prioritas 2–4 minggu pertama adalah stabilisasi sinyal Google, query mapping, CTR, dan kualitas lead WA.
+- Halaman baru tetap boleh, tetapi hanya batch kecil dan harus mengikuti jadwal post-migration.
+
+## Post-Migration Growth Schedule
+
+### H+0 sampai H+7
+
+Fokus growth bukan tambah halaman, tetapi memastikan fondasi terbaca Google dan lead tracking stabil.
+
+Boleh:
+
+- polish copy kecil pada halaman prioritas
+- tambah internal link kontekstual bila benar-benar membantu user
+- request indexing terbatas untuk URL final www yang baru diedit penting
+- validasi GA4 Realtime/DebugView
+- cek GSC URL Inspection untuk URL prioritas
+
+Tahan:
+
+- publish banyak area page
+- publish banyak katalog page
+- metro jauh retail generik
+- artikel transaksional baru yang memakan money page
+
+### H+7 sampai H+14
+
+Boleh publish 1–2 halaman maksimal jika memenuhi decision gates.
+
+Prioritas:
+
+1. polish URL yang sudah live tetapi belum kuat
+2. satu katalog buyer-intent P1 bila template dan internal link siap
+3. satu area Tier 1 bila copy unik dan proof cukup
+
+Jangan publish jika hanya karena “toko AC” terasa jauh di SERP. Ranking head-term lokal butuh waktu, recrawl, CTR, dan authority; bukan diselesaikan dengan menambah puluhan URL.
+
+### H+14 sampai H+30
+
+Boleh publish 2–3 halaman per batch dengan jeda 7–10 hari.
+
+Setelah setiap batch:
+
+- live check 200/canonical/sitemap
+- cek tidak ada route/redirect collision
+- request indexing terbatas untuk target final penting
+- pantau GSC pages/queries
+- pantau GA4 lead event dan kualitas chat WA
+
+Jika muncul issue canonical, redirect, not indexed yang menyentuh money page, hentikan batch berikutnya dan polish dulu.
+
+### H+30 ke atas
+
+Boleh naik ke 3–5 halaman per batch jika:
+
+- GSC mulai memberi sinyal query/page
+- GA4 `generate_lead` stabil
+- halaman existing tidak saling kanibal
+- internal link tetap natural
+- proof/trust dan operasional mendukung
 
 ## Prinsip Ekspansi
 
@@ -45,11 +123,12 @@ Ekspansi memakai dua cincin:
    - DKI Jakarta
    - Jawa Timur
 
-Kota besar jauh penting, tetapi tidak boleh diserang dengan retail page biasa sebelum trust, proof, B2B assets, dan data lead cukup kuat.
+Kota besar jauh penting, tetapi tidak boleh diserang dengan retail page biasa sebelum trust, proof, B2B assets, data GSC, dan data lead cukup kuat.
 
 ## Area Aktif Saat Ini
 
 Area lokal dan regional yang sudah ada di source repo terbaru:
+
 - `/jual-ac-purwokerto`
 - `/jual-ac-banyumas`
 - `/jual-ac-sokaraja`
@@ -78,10 +157,10 @@ Area lokal dan regional yang sudah ada di source repo terbaru:
 
 Kalau daftar ini berubah, cek `content/routes.js`, `content/areas.js`, sitemap live, dan live 200.
 
-
 ## Retail Area Priority
 
 Kota yang layak untuk retail-area page atau polish serius:
+
 - Purwokerto
 - Banyumas
 - Sokaraja
@@ -96,14 +175,17 @@ Kota yang layak untuk retail-area page atau polish serius:
 - Magelang
 
 Prioritas dekat:
+
 1. Pertahankan Purwokerto/Banyumas/Sokaraja sebagai fondasi trust.
 2. Perkuat Banyumas ring: Ajibarang, Baturraden, Wangon, Karanglewas, Kembaran, Patikraja, Rawalo.
 3. Polish regional yang sudah live sebelum membuat banyak kota baru.
 4. Cilacap sudah live sebagai hub regional; child Cilacap seperti Kroya, Majenang, Sidareja, Kesugihan, dan Adipala harus tetap diperlakukan sebagai child, bukan semua dipromosikan setara homepage.
+5. Jika ingin menambah area baru setelah jadwal stabilisasi, Magelang lebih aman daripada metro jauh karena masih sesuai cincin dekat.
 
 ## B2B-First Priority
 
 Kota besar yang lebih aman masuk lewat B2B/proyek dulu:
+
 - Bandung
 - Bekasi
 - Tangerang
@@ -120,6 +202,7 @@ Kota besar yang lebih aman masuk lewat B2B/proyek dulu:
 - Cilegon
 
 Untuk kota ini, jangan membuat retail page generik yang seolah-olah RADJA AC punya toko lokal di sana. Gunakan angle:
+
 - pengadaan unit AC original
 - kantor/ruko/proyek
 - hotel/guest house/kost banyak unit
@@ -131,6 +214,7 @@ Untuk kota ini, jangan membuat retail page generik yang seolah-olah RADJA AC pun
 ## Coverage-Only / Mention Dulu
 
 Area yang lebih aman disebut sebagai coverage dulu:
+
 - Sleman
 - Bantul
 - Kulon Progo
@@ -152,6 +236,7 @@ Jangan buat halaman tipis untuk area coverage-only. Sebut di halaman induk yang 
 ## Tunda Build
 
 Jangan dibuat dulu kecuali ada data GSC/lead/proof yang kuat:
+
 - retail Jakarta generik
 - retail Surabaya generik
 - retail Bandung generik
@@ -163,6 +248,7 @@ Jangan dibuat dulu kecuali ada data GSC/lead/proof yang kuat:
 ## Positioning Aman
 
 Untuk area tanpa toko fisik RADJA AC, gunakan framing:
+
 - cek stok
 - konsultasi PK
 - pengiriman unit
@@ -171,6 +257,7 @@ Untuk area tanpa toko fisik RADJA AC, gunakan framing:
 - pembayaran fleksibel COD, DP, atau transfer
 
 Jangan gunakan framing palsu:
+
 - toko AC [kota] bila tidak ada toko fisik di kota itu
 - cabang [kota]
 - showroom [kota]
@@ -181,6 +268,7 @@ Jangan gunakan framing palsu:
 ## Syarat Sebelum Ekspansi Jauh
 
 Sebelum masuk kota besar jauh seperti Bandung, Jakarta, Tangerang, Surabaya:
+
 - tracking WA harus stabil
 - `generate_lead` terbaca di GA4
 - area inti punya data GSC
@@ -193,6 +281,7 @@ Sebelum masuk kota besar jauh seperti Bandung, Jakarta, Tangerang, Surabaya:
 ## Decision Gates
 
 Sebelum ekspansi, tambah area, atau membuat halaman baru, assistant wajib mengecek:
+
 - source repo terbaru
 - halaman yang sudah live
 - sitemap dan internal link
@@ -201,25 +290,30 @@ Sebelum ekspansi, tambah area, atau membuat halaman baru, assistant wajib mengec
 - proof/trust yang mendukung klaim area
 - risiko doorway, konten kurang kuat, dan klaim lokal palsu
 - apakah ide sudah tercakup di source strategy lama atau belum
+- jadwal post-migration: H+0–H+7, H+7–H+14, H+14–H+30, atau H+30+
 
 Jika ide owner belum ada di dokumen/source:
+
 - jangan langsung eksekusi
 - audit source dan live dulu
 - cari sumber/data tambahan jika menyangkut pasar, kompetitor, SERP, tren, atau kondisi yang bisa berubah
 - baru putuskan: build, polish, hold, B2B-first, coverage-only, redirect, atau wait
 
 Ekspansi boleh lanjut jika:
+
 - intent buyer jelas
 - halaman bisa unik
 - internal link siap
 - trust/proof cukup
 - tracking lead bisa diukur
 - risiko klaim lokal rendah
+- batch sesuai jadwal stabilisasi
 
 Ekspansi harus ditahan jika:
+
 - hanya swap nama area
 - template inti belum bersih
-- GSC/GA4 belum memberi sinyal cukup
+- GSC/GA4 belum memberi sinyal cukup untuk skala batch besar
 - operasional/proof belum mendukung
 - kota terlalu jauh dan lebih cocok B2B-first
 - perubahan melebar tanpa verifikasi
@@ -229,6 +323,7 @@ Ekspansi harus ditahan jika:
 Jangan memilih next page hanya dari feeling.
 
 Gunakan gabungan:
+
 - GSC queries
 - GSC pages
 - indexed/not indexed status
@@ -241,7 +336,8 @@ Gunakan gabungan:
 - kesiapan proof/trust
 
 Keputusan page:
-- build jika intent jelas, proof cukup, dan page bisa unik
+
+- build jika intent jelas, proof cukup, page bisa unik, dan batch sesuai jadwal
 - polish jika URL sudah live tapi belum kuat
 - hold jika risiko konten kurang kuat/copy tinggi
 - B2B-first jika kota besar/kompetitif
@@ -251,19 +347,22 @@ Keputusan page:
 ## Roadmap Aktif
 
 Fokus saat ini:
+
 1. Jaga Purwokerto/Banyumas/Sokaraja sebagai fondasi.
 2. Pastikan area Banyumas ring live, aman, dan terhubung.
 3. Pantau GSC dan GA4 setelah tracking WA beres.
-4. Perkuat internal link untuk halaman prioritas.
-5. Audit/polish Cilacap dengan checklist penuh sebelum ekspansi area baru.
-6. Jangan ekspansi metro besar sebelum data GSC + WA lead lebih matang.
+4. Perkuat internal link untuk halaman prioritas hanya secara kontekstual.
+5. Polish halaman regional yang sudah live sebelum ekspansi area baru besar.
+6. Tambah halaman baru mengikuti jadwal post-migration, bukan karena panik ranking.
+7. Jangan ekspansi metro besar sebelum data GSC + WA lead lebih matang.
 
 ## Prinsip Berhenti
 
 Jangan lanjut ekspansi kalau:
-- template inti belum bersih
+
 - GSC belum memberi sinyal
 - WA tracking belum terbaca
 - internal link belum jelas
 - halaman baru hanya copy nama area
 - bukti/trust belum cukup untuk klaim area jauh
+- batch sebelumnya belum diverifikasi live/GSC
