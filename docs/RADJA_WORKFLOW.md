@@ -22,7 +22,6 @@ Setiap sesi kerja RADJA AC wajib dimulai dari urutan ini:
 
 Aturan ini wajib karena `RADJAAC_DO_NOT_VIOLATE_RULES.md` memuat guardrail positioning utama. Jangan mulai dari file strategi area/market tanpa membaca guardrail tersebut.
 
-
 ## Guardrail Positioning Singkat
 
 RADJA AC harus diposisikan kuat dan tetap jujur sebagai supplier AC original multi-brand untuk rumah, toko, ruko, kantor, hotel, guest house, hospitality, kontraktor, developer, proyek, pengadaan, partai besar, dan banyak unit.
@@ -33,26 +32,37 @@ Klaim kuat harus berbasis bukti: Proshop Gree, sertifikat Authorized Dealer yang
 
 Untuk copy user-facing, gunakan kalimat familiar seperti `Showroom dan gudang RADJA AC ada di Banyumas` atau `RADJA AC melayani pengiriman dan opsi pemasangan dari Banyumas`.
 
-
 ## Source of Truth
 
 Source repo terbaru dan bukti live production adalah sumber kebenaran utama.
 
 Urutan kebenaran:
+
 1. Source repo terbaru: `app/`, `content/`, `components/`, `lib/`, `next.config.mjs`
-2. Bukti runtime: `npm run check`, build output, live HTTP, live HTML, sitemap, GA4 Realtime, GSC export
+2. Bukti runtime: `npm run check`, build output, live HTTP, live HTML, sitemap, GA4 Realtime, GSC export / URL Inspection
 3. Dokumen aktif di `docs/`
-4. Chat lama atau dokumen lama yang sudah dihapus dari working tree hanya dianggap histori Git
+4. Chat lama, AI audit eksternal, atau dokumen lama yang sudah dihapus dari working tree hanya dianggap histori
 
 Jika dokumen bertentangan dengan source repo atau live production, source repo dan live production yang menang.
+
+Untuk audit rendering/indexing modern Next.js, bukti kuat adalah:
+
+- `curl` header dan HTML mentah dari terminal owner
+- GSC URL Inspection live
+- build output `npm run check`
+- sitemap/robots live
+- repo aktif
+
+Parser AI eksternal, webpage parser tanpa header, dan `site:` operator tidak boleh dipakai sebagai sumber keputusan utama. Jika parser AI berkata halaman kosong/CSR/SPA lama tetapi `curl` menunjukkan `__next_f`, `_next/static`, canonical, title, dan HTTP 200, maka live curl yang menang.
 
 ## Workflow Wajib
 
 Default kerja saat ini:
+
 1. Audit source dan/atau live
 2. Tentukan scope
 3. Patch kecil
-4. Jalankan `npm run check`
+4. Jalankan `npm run check` bila wajib
 5. Commit
 6. Push `main`
 7. Tunggu deploy selesai
@@ -64,6 +74,7 @@ Catatan: workflow branch/PR boleh dipakai untuk perubahan besar, tetapi kerja Te
 ## Build Policy
 
 `npm run check` wajib jika:
+
 - tambah route baru
 - ubah template global
 - ubah analytics/tracking
@@ -71,18 +82,158 @@ Catatan: workflow branch/PR boleh dipakai untuk perubahan besar, tetapi kerja Te
 - ubah `next.config.mjs`
 - ubah `public/_headers`
 - ubah komponen yang dipakai banyak halaman
-- sebelum push final
+- sebelum push final untuk perubahan source
 
 `npm run check` tidak wajib untuk:
+
 - audit tanpa perubahan file
 - grep/check
 - dokumentasi murni
 
 Namun jika dokumentasi ikut di-commit bersama perubahan source, jalankan `npm run check` sebelum push.
 
+## Status Repo / Live Terbaru — 2026-06-04
+
+Status terakhir yang sudah selesai:
+
+- Fase technical hygiene/performance selesai.
+- Fase content/on-page SEO selesai.
+- Fase indexing readiness selesai.
+- Fase conversion/tracking QA selesai.
+- Fase final live QA selesai.
+- `npm run check` hijau pada perubahan source terakhir.
+- Build terbaru setelah 404 branded menghasilkan 74/74 static/SSG pages.
+- HTML critical pages memakai `Cache-Control: public, max-age=0, must-revalidate`.
+- Static assets di `public/_headers` memakai `Cache-Control: public, max-age=31536000, immutable`.
+- Homepage, robots, sitemap, dan money page utama HTTP 200.
+- GSC URL Inspection 2026-06-04 menunjukkan homepage dan sampel money page utama sudah indexed.
+- Klaim `de-index total` tidak berlaku untuk kondisi repo/live saat ini.
+- Live curl owner menunjukkan `/kontak`, `/jual-ac-purwokerto`, `/katalog/ac-inverter`, dan `/pengadaan-ac` sudah Next.js, canonical www, tidak `noindex`, dan bukan SPA lama.
+- Internal link live sudah cukup untuk hub utama; jangan menambah link hanya demi jumlah. Internal link baru harus kontekstual, intent-fit, dan tidak terlihat spam.
+- Non-www saat audit redirect ke `https://www.radjaac.com/`; redirect 307 ke www boleh dirapikan menjadi 301 di provider layer, tetapi bukan blocker indexing.
+- Jangan mengembalikan cache asset ke `next.config.mjs headers()` tanpa audit Cloudflare Pages.
+
+## Post-Migration SEO Schedule
+
+Website tidak perlu freeze total. Yang perlu adalah **freeze perubahan besar** sampai data GSC/GA4 cukup, sambil tetap boleh melakukan polish kecil yang aman.
+
+### H+0 sampai H+7 setelah migrasi / patch besar
+
+Fokus:
+
+- live check 200/canonical/robots/sitemap/cache untuk URL prioritas
+- cek GSC URL Inspection untuk sampel money page
+- request indexing terbatas untuk URL final www yang baru diedit penting
+- validasi GA4 `whatsapp_click` dan `generate_lead`
+- pantau apakah ada error baru di Page Indexing
+
+Boleh dilakukan:
+
+- perbaikan typo/copy kecil
+- internal link kontekstual 1–3 link pada halaman relevan
+- update docs
+- 404/UX kecil
+- verifikasi redirect legacy
+
+Jangan dilakukan:
+
+- publish batch area besar
+- publish banyak katalog sekaligus
+- ubah struktur URL besar
+- request indexing massal
+- purge CDN massal tanpa bukti
+- patch robots/sitemap/canonical karena asumsi dari parser AI
+
+### H+7 sampai H+14
+
+Boleh publish maksimal 1–2 halaman jika semua syarat terpenuhi:
+
+- page bisa unik, bukan swap nama
+- target keyword dan intent jelas
+- internal link masuk dan keluar siap
+- sitemap/routes benar
+- CTA WA jelas
+- proof/trust cukup
+- `npm run check` hijau
+- live 200/canonical setelah deploy
+
+Prioritas publish jika memang perlu:
+
+1. polish halaman yang sudah live tapi belum kuat
+2. katalog P1 yang sangat dekat dengan buyer intent
+3. satu area Tier 1 yang sudah ada di strategi dan punya copy unik
+
+### H+14 sampai H+30
+
+Boleh publish 2–3 halaman per batch dengan jeda 7–10 hari. Setelah tiap batch:
+
+- live check semua URL
+- cek sitemap
+- request indexing terbatas hanya untuk target final penting
+- pantau GSC pages/queries
+- jangan lanjut batch berikutnya jika muncul canonical/redirect/indexing issue baru
+
+### H+30 ke atas
+
+Boleh naik ke 3–5 halaman per batch jika:
+
+- GSC mulai memberi query/page signal
+- GA4 event WA stabil
+- tidak ada technical blocker baru
+- proof/trust dan operasional mendukung
+- halaman tidak copy-paste
+
+Metro jauh seperti Jakarta, Bandung, Tangerang, Surabaya tetap B2B-first dan tidak dibuat sebagai retail generik sampai data/trust/proof siap.
+
+## GSC Rules
+
+Status GSC terbaru 2026-06-04:
+
+- Klaim `de-index total` sudah terbantahkan oleh URL Inspection.
+- Homepage dan sampel money page utama sudah `URL ada di Google` dan `Halaman diindeks`.
+- URL yang terverifikasi indexed:
+  - `/`
+  - `/jual-ac-purwokerto`
+  - `/jual-ac-banyumas`
+  - `/katalog`
+  - `/brand/gree`
+  - `/brand/daikin`
+  - `/pengadaan-ac`
+  - `/kontak`
+- Crawl diizinkan, page fetch berhasil, indexing diizinkan, canonical user mengarah ke URL `https://www.radjaac.com/...`, dan Google memilih URL yang diperiksa.
+- `robots.txt`, sitemap, canonical, HTTPS, dan www final sudah sehat pada audit ini.
+
+Aturan tetap:
+
+- Jangan panik karena `Not indexed`.
+- Jangan patch robots, sitemap, canonical, layout metadata, atau Cloudflare/Vercel routing karena asumsi.
+- Jangan request indexing massal.
+- Request indexing hanya untuk URL final prioritas yang belum indexed atau baru diedit penting.
+- Audit URL penting dulu dengan URL Inspection dan live check.
+- Jika URL sudah indexed, fokus berikutnya adalah query, CTR, posisi, intent, dan internal link kontekstual.
+
+## Redirect + Sitemap Rules
+
+- Route aktif tidak boleh menjadi redirect source.
+- URL final harus masuk sitemap jika ingin index.
+- URL legacy diarahkan ke target paling relevan.
+- Internal link harus mengarah ke URL final, bukan URL redirect.
+- Jika URL lama dihidupkan jadi page final, hapus redirect source-nya.
+- Redirect permanen idealnya 301. Jika provider saat ini memberi 307 non-www ke www tetapi canonical dan GSC sudah benar, itu hygiene task, bukan emergency blocker.
+
+## Internal Link Rules
+
+- Homepage tidak perlu link ke semua kecamatan.
+- Hub link ke turunan prioritas.
+- Turunan link balik ke hub dan 2–4 area tetangga.
+- Jangan semua halaman link ke semua halaman.
+- Tambahan internal link harus muncul di konteks yang membantu user, bukan blok keyword spam.
+- Tambahkan internal link bila ada alasan: page target butuh crawl/discovery, query-page mapping salah, atau user memang butuh rujukan tersebut.
+
 ## Area Page Checklist
 
 Halaman area baru wajib punya:
+
 - Title/H1 keyword utama
 - Description buyer intent
 - Intro area
@@ -103,6 +254,7 @@ Jangan membuat halaman area yang hanya swap nama area.
 ## Claim Safety
 
 Hindari:
+
 - termurah
 - ready semua
 - stok pasti
@@ -111,6 +263,7 @@ Hindari:
 - pemasangan pasti semua area
 
 Gunakan:
+
 - cek stok dulu
 - ketersediaan dikonfirmasi
 - area pengiriman dicek
@@ -126,6 +279,7 @@ GA4 Measurement ID aktif:
 Repo memakai gtag langsung, bukan GTM container.
 
 Event lead utama:
+
 - `whatsapp_click`
 - `generate_lead`
 
@@ -136,46 +290,6 @@ Buka URL dengan `?radja_test=1`, klik WhatsApp, lalu cek GA4 Realtime/DebugView.
 
 Jangan memakai `purchase` sebagai patokan klik WhatsApp.
 
-## GSC Rules
-
-Status GSC terbaru 2026-06-04:
-- Klaim `de-index total` sudah terbantahkan oleh URL Inspection.
-- Homepage dan sampel money page utama sudah `URL ada di Google` dan `Halaman diindeks`.
-- URL yang terverifikasi indexed:
-  - `/`
-  - `/jual-ac-purwokerto`
-  - `/jual-ac-banyumas`
-  - `/katalog`
-  - `/brand/gree`
-  - `/brand/daikin`
-  - `/pengadaan-ac`
-  - `/kontak`
-- Crawl diizinkan, page fetch berhasil, indexing diizinkan, canonical user mengarah ke URL `https://www.radjaac.com/...`, dan Google memilih URL yang diperiksa.
-- `robots.txt`, sitemap, canonical, HTTPS, dan www final sudah sehat pada audit ini.
-
-Aturan tetap:
-- Jangan panik karena `Not indexed`.
-- Jangan patch robots, sitemap, canonical, layout metadata, atau Cloudflare/Vercel routing karena asumsi.
-- Jangan request indexing massal.
-- Request indexing hanya untuk URL final prioritas yang belum indexed atau baru diedit penting.
-- Audit URL penting dulu dengan URL Inspection dan live check.
-- Jika URL sudah indexed, fokus berikutnya adalah query, CTR, posisi, intent, dan internal link kontekstual.
-
-## Redirect + Sitemap Rules
-
-- Route aktif tidak boleh menjadi redirect source.
-- URL final harus masuk sitemap jika ingin index.
-- URL legacy diarahkan ke target paling relevan.
-- Internal link harus mengarah ke URL final, bukan URL redirect.
-- Jika URL lama dihidupkan jadi page final, hapus redirect source-nya.
-
-## Internal Link Rules
-
-- Homepage tidak perlu link ke semua kecamatan.
-- Hub link ke turunan prioritas.
-- Turunan link balik ke hub dan 2–4 area tetangga.
-- Jangan semua halaman link ke semua halaman.
-
 ## Reset Keyword
 
 Jika sesi mulai panjang, konteks membingungkan, atau assistant terlihat lupa aturan kerja, owner dapat memakai reset keyword:
@@ -183,6 +297,7 @@ Jika sesi mulai panjang, konteks membingungkan, atau assistant terlihat lupa atu
 `BACA RADJA_WORKFLOW DULU`
 
 Setelah keyword itu muncul, assistant wajib:
+
 - berhenti memberi patch panjang
 - baca `docs/RADJA_WORKFLOW.md`
 - baca `docs/RADJA_GROWTH_STRATEGY.md` jika menyangkut ekspansi, area, SEO, GSC, atau growth
@@ -209,6 +324,7 @@ Setiap mengubah staged draft, jalankan:
 `npm run audit:staged`
 
 Audit ini mengecek:
+
 - staged draft tetap tidak live,
 - slug area draft tidak collision dengan route live,
 - `procurement-next.js` tetap dianggap staged replacement,
@@ -218,36 +334,19 @@ Audit ini mengecek:
 
 Untuk staged/docs-only, `npm run check` tidak wajib. Untuk publish ke live route/content, `npm run check` tetap wajib.
 
-## Final QA Status Terbaru
-
-Status terakhir yang sudah selesai:
-- Fase technical hygiene/performance selesai.
-- Fase content/on-page SEO selesai.
-- Fase indexing readiness selesai.
-- Fase conversion/tracking QA selesai.
-- Fase final live QA selesai.
-- `npm run check` hijau.
-- Build menghasilkan 71/71 static/SSG pages.
-- HTML critical pages memakai `Cache-Control: public, max-age=0, must-revalidate`.
-- Static assets di `public/_headers` memakai `Cache-Control: public, max-age=31536000, immutable`.
-- Live audit 2026-06-04 menunjukkan homepage, robots, sitemap, dan money page utama HTTP 200.
-- GSC URL Inspection 2026-06-04 menunjukkan homepage dan sampel money page utama sudah indexed.
-- Klaim `de-index total` tidak berlaku untuk kondisi repo/live saat ini.
-- Internal link live sudah cukup untuk hub utama; jangan menambah link hanya demi jumlah. Internal link baru harus kontekstual, intent-fit, dan tidak terlihat spam.
-- Non-www saat audit redirect ke `https://www.radjaac.com/`; redirect 307 ke www boleh dirapikan menjadi 301 nanti, tetapi bukan blocker indexing.
-- Jangan mengembalikan cache asset ke `next.config.mjs headers()` tanpa audit Cloudflare Pages.
-
 ## Staged Area Draft Rules
 
 Repo sekarang punya staging data untuk halaman area yang belum live:
+
 - `content/area-drafts.js`
 - `content/area-child-drafts.js`
 
 Aturan wajib:
+
 - File draft tidak boleh di-import ke `app/`, sitemap, route generator, atau komponen live.
 - Draft belum live, belum masuk sitemap, dan belum boleh direquest indexing.
 - Publish area hanya dengan cara sadar: tambah route di `content/routes.js`, pindahkan item ke `content/areas.js`, cek internal link, lalu jalankan `npm run check`.
-- Publish maksimal 3–5 area per batch.
+- Publish maksimal 1–2 area pada H+7–H+14, 2–3 area pada H+14–H+30, dan 3–5 area hanya setelah H+30 jika GSC/GA4 stabil.
 - Child area tidak boleh publish sebelum parent/hub live dan stabil.
 - Setelah publish, live check 200/canonical/sitemap/cache sebelum request indexing terbatas.
 
@@ -256,6 +355,7 @@ Aturan wajib:
 Ide dari owner adalah arah dasar, bukan instruksi final otomatis.
 
 Tugas assistant:
+
 - memahami tujuan bisnis di balik ide
 - mengecek source repo terbaru dan kondisi live
 - mencari risiko teknis, SEO, tracking, GSC, conversion, dan operasional
@@ -270,6 +370,7 @@ Jangan percaya asumsi owner atau assistant tanpa bukti source/live/data.
 ## Communication Rule
 
 Sebelum patch besar:
+
 - tujuan
 - scope
 - risiko
@@ -277,6 +378,7 @@ Sebelum patch besar:
 - rollback
 
 Setelah patch:
+
 - file berubah
 - hasil safety
 - build/check jika ada
