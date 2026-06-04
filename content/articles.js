@@ -4,14 +4,14 @@ export const articleItems = [
   {
     slug: "panduan-beli-ac-baru",
     path: routes.artikelPanduanBeliAcBaru,
-    title: "Panduan Beli AC Baru | Cek Ruangan, PK, Daya & Pemasangan",
+    title: "Panduan Beli AC Baru | Cek Ruangan, PK, Daya & Anggaran",
     description:
-      "Panduan beli AC baru agar tidak salah pilih: cek ukuran ruangan, daya listrik, PK, tipe AC, brand, garansi, stok, dan kebutuhan pemasangan.",
-    h1: "Panduan beli AC baru sebelum order unit dan pemasangan",
+      "Panduan beli AC baru agar tidak salah pilih: cek ukuran ruangan, daya listrik, PK, tipe AC, brand, garansi, stok, dan estimasi anggaran.",
+    h1: "Panduan beli AC baru sebelum pilih unit, PK, dan anggaran",
     eyebrow: "Panduan Beli AC",
     readTime: "6 menit baca",
     intro:
-      "Beli AC baru sebaiknya tidak dimulai dari merek atau harga paling rendah. Pembeli perlu cek ukuran ruangan, daya listrik, kapasitas PK, tipe AC, garansi, stok unit, dan kebutuhan pemasangan agar pilihan unit lebih masuk akal.",
+      "Beli AC baru sebaiknya tidak dimulai dari merek atau harga paling rendah. Pembeli perlu cek ukuran ruangan, daya listrik, kapasitas PK, tipe AC, garansi, stok unit, dan estimasi anggaran agar pilihan unit lebih masuk akal.",
     sections: [
       {
         heading: "Mulai dari ukuran ruangan dan kebutuhan PK",
