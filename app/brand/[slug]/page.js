@@ -51,6 +51,26 @@ const relatedLinks = [
   ["Kontak RADJA AC", routes.kontak],
 ];
 
+function uniquePairsBySecondValue(items) {
+  const seen = new Set();
+
+  return items.filter(([, value]) => {
+    if (seen.has(value)) return false;
+    seen.add(value);
+    return true;
+  });
+}
+
+function uniquePairsByFirstValue(items) {
+  const seen = new Set();
+
+  return items.filter(([value]) => {
+    if (seen.has(value)) return false;
+    seen.add(value);
+    return true;
+  });
+}
+
 function SectionTitle({ eyebrow, title, description }) {
   return (
     <div className="mx-auto mb-9 max-w-3xl text-center">
@@ -97,18 +117,19 @@ export default async function BrandDetailPage({ params }) {
     ? ["Proshop Gree", "Cek stok dulu", "Standard / low watt / inverter", "Bantu klaim sesuai ketentuan"]
     : ["Cek stok dulu", "Rekomendasi PK", "Pengiriman unit", "Opsi pemasangan"];
 
-  const pageRelatedLinks = item.relatedLinks?.length
-    ? [...item.relatedLinks, ...relatedLinks]
-    : relatedLinks;
+  const pageRelatedLinks = uniquePairsBySecondValue([
+    ...(item.relatedLinks ?? []),
+    ...relatedLinks,
+  ]);
 
-  const faqItems = [
+  const faqItems = uniquePairsByFirstValue([
+    ...(item.localFaq ?? []),
     [`Apakah RADJA AC menyediakan ${item.label} original?`, `RADJA AC menyediakan ${item.label} original. Tim RADJA AC cek tipe, harga, stok, pengiriman, pemasangan, dan garansi unit sebelum pembelian.`],
     [`Berapa harga ${item.label} terbaru?`, "Harga mengikuti kapasitas PK, tipe unit, stok, promo, alamat pengiriman, dan kebutuhan pemasangan. Kirim kebutuhan lewat WhatsApp agar tim RADJA AC cek estimasi terbaru."],
     [`${item.label} cocok untuk ruangan apa?`, "Kecocokan ditentukan oleh ukuran ruangan, tinggi plafon, paparan panas matahari, daya listrik, dan pola pemakaian."],
     ["Beli unit saja tanpa pemasangan", "Kirim tipe unit, alamat, jumlah unit, dan kebutuhan pengiriman. Tim RADJA AC cek stok aktif dan jadwal."],
     ["Apa saja data yang perlu dikirim ke tim RADJA AC?", "Kirim ukuran ruangan, daya listrik, jenis ruangan, jumlah unit, preferensi tipe, lokasi, dan foto titik indoor-outdoor bila ingin opsi pemasangan."],
-    ...(item.localFaq ?? []),
-  ];
+  ]);
 
   const structuredData = [
     breadcrumbSchema([
