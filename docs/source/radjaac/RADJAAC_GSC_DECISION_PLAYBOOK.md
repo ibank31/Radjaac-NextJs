@@ -6,11 +6,25 @@ File: `RADJAAC_GSC_DECISION_PLAYBOOK.md`
 
 ### Status
 
-Needs quarterly refresh
+Active. Last aligned with live owner audit and URL Inspection on 2026-06-04.
 
 ### Fungsi Dokumen
 
-Dokumen ini menjadi SOP membaca Google Search Console untuk RADJA AC setelah restruktur template, redirect legacy, penambahan halaman area, penambahan katalog, dan ekspansi halaman B2B. Dasarnya: **tidak semua “Not indexed” adalah masalah**, redirect source memang tidak diindeks, URL Inspection dipakai untuk URL spesifik, request indexing hanya untuk sedikit URL prioritas, dan submit sitemap hanyalah sinyal, bukan jaminan indexing. GSC Performance dipakai untuk membaca klik, impresi, CTR, dan average position per query maupun per page. citeturn20search0turn21view4turn17view3turn29view0turn17view0
+Dokumen ini menjadi SOP membaca Google Search Console untuk RADJA AC setelah migrasi Next.js, redirect legacy, penambahan halaman area, katalog, dan ekspansi B2B. Dasarnya: tidak semua `Not indexed` adalah masalah, redirect source memang tidak diindeks, URL Inspection dipakai untuk URL spesifik, request indexing hanya untuk sedikit URL prioritas, dan sitemap hanyalah sinyal discovery, bukan jaminan ranking/indexing cepat.
+
+GSC Performance harus dibaca sebagai pasangan query–page: klik, impresi, CTR, average position, dan landing page yang dipilih Google.
+
+### Source of Truth untuk GSC / Rendering
+
+Urutan kebenaran saat menilai indexing/rendering RADJA AC:
+
+1. GSC URL Inspection live untuk URL final `https://www.radjaac.com/...`.
+2. `curl` terminal owner: status code, redirect chain, canonical, title, HTML marker Next.js seperti `__next_f`, `_next/static`, dan `next-size-adjust`.
+3. Sitemap/robots live.
+4. Source repo terbaru.
+5. AI parser eksternal, webpage parser tanpa header, dan `site:` operator hanya sebagai sinyal lemah.
+
+Jika parser AI menyebut halaman kosong/CSR/SPA lama tetapi `curl` dan GSC menunjukkan HTTP 200, canonical www, title spesifik, dan Next.js marker, maka parser AI dianggap false positive.
 
 ### Current GSC Status — 2026-06-04
 
@@ -30,93 +44,126 @@ URL Inspection menunjukkan URL berikut sudah `URL ada di Google` dan `Halaman di
 Temuan umum:
 
 - Sitemap terdeteksi: `https://www.radjaac.com/sitemap.xml`.
+- Robots live sehat: allow crawl dan menunjuk sitemap.
 - Crawl diizinkan.
 - Pengambilan halaman berhasil.
 - Pengindeksan diizinkan.
-- Canonical yang dinyatakan user mengarah ke URL `https://www.radjaac.com/...`.
-- Canonical yang dipilih Google adalah URL yang diperiksa.
+- Canonical user mengarah ke URL `https://www.radjaac.com/...`.
+- Canonical yang dipilih Google pada URL indexed adalah URL yang diperiksa.
 - HTTPS valid.
 - Beberapa URL memiliki Breadcrumb/FAQ enhancement valid.
+- Non-www redirect ke www berjalan; status 307 boleh dirapikan menjadi 301, tetapi bukan blocker indexing selama canonical/GSC final sudah benar.
 
 Keputusan operasional:
 
-- Jangan patch robots, sitemap, canonical, layout metadata, atau routing karena asumsi de-index.
+- Jangan patch robots, sitemap, canonical, layout metadata, cache, atau routing karena asumsi de-index.
 - Jangan request indexing ulang untuk URL yang sudah indexed kecuali setelah edit substansial.
 - Request indexing hanya untuk URL final prioritas yang belum indexed atau baru dipublish/diedit besar.
-- `site:` operator tidak boleh menjadi sumber keputusan utama; GSC URL Inspection dan live check lebih kuat.
+- `site:` operator tidak boleh menjadi sumber keputusan utama.
 - Internal link baru harus kontekstual. Jangan menambah link hanya untuk mengejar jumlah link.
-- Untuk saat ini, fokus setelah indexing adalah query, CTR, posisi, canonical anomalies, dan landing page mapping.
+- Fokus setelah indexing adalah query, CTR, posisi, canonical anomalies, dan landing page mapping.
+
+### Post-Migration GSC Schedule
+
+#### H+0 sampai H+7
+
+- Inspect sampel URL final prioritas.
+- Validasi sitemap/robots/canonical.
+- Request indexing hanya untuk URL final www yang baru diedit penting.
+- Jangan request indexing URL non-www, legacy redirect, atau source 301/307/308.
+- Jangan memutuskan halaman baru dari data 24 jam.
+
+#### H+7 sampai H+14
+
+- Baca GSC Pages dan Queries untuk URL prioritas.
+- Jika ada URL prioritas belum indexed, cek live HTTP, canonical, sitemap, internal link, dan uniqueness.
+- Boleh publish 1–2 halaman jika teknis stabil dan halaman unik.
+- Jangan publish batch besar hanya karena ranking head term masih jauh.
+
+#### H+14 sampai H+30
+
+- Gunakan window awal 14–28 hari untuk melihat query-to-page mapping.
+- Polish title/H1/intro/CTA untuk halaman yang mulai impresi tetapi CTR rendah.
+- Tambahkan 2–3 internal link kontekstual bila query-page mapping salah atau page butuh penguatan discovery.
+- Boleh publish 2–3 halaman per batch, jeda 7–10 hari, jika tidak ada issue indexing baru.
+
+#### H+30 ke atas
+
+- Gunakan window 28 hari sebagai dasar keputusan rutin.
+- Batch boleh naik 3–5 halaman bila GSC/GA4 stabil.
+- Metro jauh tetap B2B-first sampai proof/trust dan lead data cukup.
 
 ### Prinsip Utama
 
-- Baca GSC **berdasarkan pasangan query–page**, bukan query saja dan bukan page saja.
-- Perlakukan redirect lama yang disengaja sebagai **normal**, selama target akhirnya benar dan internal link sudah diarahkan ke target final. citeturn21view4turn4view0turn4view1turn4view2turn4view3turn4view4turn2view4turn2view5
-- Jangan spam request indexing. Google menyatakan ada kuota, dan request berulang untuk URL yang sama **tidak mempercepat crawl**. citeturn17view3
-- Jika CTR rendah pada halaman prioritas, audit bukan hanya `<title>`, tetapi juga **main visual title / H1 / hero copy**, karena Google bisa menyusun title link dari beberapa sumber saat sinyal title utama tidak jelas. citeturn17view5turn2view0turn2view1turn2view2turn2view3
-- Gunakan threshold internal 28 hari sebagai dasar keputusan. Ini **asumsi operasional**, bukan aturan Google.
+- Baca GSC berdasarkan pasangan query–page, bukan query saja dan bukan page saja.
+- Perlakukan redirect lama yang disengaja sebagai normal, selama target akhirnya benar dan internal link sudah diarahkan ke target final.
+- Jangan spam request indexing; request berulang untuk URL yang sama tidak mempercepat crawl.
+- Jika CTR rendah pada halaman prioritas, audit bukan hanya `<title>`, tetapi juga H1, hero copy, intro, dan CTA pertama.
+- Gunakan threshold internal 28 hari sebagai dasar keputusan strategis. Ini asumsi operasional RADJA AC, bukan aturan Google.
+- Data 24 jam cocok untuk debugging awal, bukan keputusan ekspansi.
 
 ### Tabel Keputusan
 
-| GSC Signal | Artinya untuk RADJA AC | Normal/Bahaya | Tindakan | Prioritas | Catatan |
-|---|---|---|---|---|---|
-| `URL is on Google` | URL prioritas sudah eligible tampil di Google | Normal | Pantau query, CTR, dan posisi; tidak perlu request indexing ulang kecuali baru edit besar | Tinggi bila money page | URL Inspection “on Google” bukan jaminan selalu tampil untuk semua pencarian. citeturn9search1turn20search1 |
-| `Page with redirect` pada URL legacy | Source lama tidak akan diindeks; yang penting target akhirnya benar | Normal jika sengaja | Biarkan 301 aktif, hapus semua internal link ke source, inspect target saja, jangan request indexing source | Tinggi bila source masih sering dicrawl | Google menjelaskan URL redirect non-canonical tidak diindeks; RADJA AC sudah memperlihatkan pola ini pada legacy artikel 1/2 PK, low watt, brand, Purwokerto, kost, dan pengadaan proyek. citeturn21view4turn4view0turn4view1turn4view2turn4view3turn4view4turn2view4turn2view5 |
-| `Crawled - currently not indexed` pada money page baru/baru dipoles | Google sudah crawl, tapi belum memilih index | Waspada, bukan panik | Tunggu dulu; jika bertahan >14 hari pada URL prioritas, tambah internal link, perjelas intent, audit title/H1/body utama, lalu inspect live URL satu kali | Tinggi untuk halaman area/katalog/B2B utama | Google menyebut status ini bisa diindeks di masa depan dan **tidak perlu resubmit** untuk crawl. citeturn21view0 |
-| `Discovered - currently not indexed` | Google tahu URL, tapi belum crawl | Waspada | Kurangi deploy serentak, pastikan link internal crawlable, pastikan sitemap akurat, jangan request indexing massal | Sedang–tinggi | Google menyebut ini biasanya karena crawl dijadwalkan ulang agar tidak membebani site. citeturn21view1turn17view4turn22view0 |
-| `Duplicate without user-selected canonical` | Ada URL mirip tanpa canonical yang jelas | Waspada | Tetapkan canonical, rapikan internal link, bedakan konten secara substansial atau merge | Tinggi jika terjadi pada area/brand/katalog | Google menyebut ini bukan error bila memang duplicate, tetapi harus dibetulkan jika canonical yang dipilih salah. citeturn21view2turn17view2 |
-| `Duplicate, Google chose different canonical than user` | RADJA AC memilih canonical A, Google memilih B | Bahaya bila mengenai money page | Inspect ketiga URL: current, user canonical, Google canonical; lalu samakan internal link, sitemap, dan konten dengan target canonical final | Tinggi | Jika URL pilihan user tidak mirip dengan current page, Google tidak akan memilihnya. citeturn21view2turn17view2 |
-| `Alternate page with proper canonical` | Halaman alternate sudah menunjuk canonical dengan benar | Normal | Tidak perlu tindakan, kecuali canonical target salah | Rendah | Google menyebut “there is nothing you need to do.” citeturn21view3 |
-| `Not found (404)` | URL tidak ada | Normal atau bahaya tergantung kasus | Jika benar-benar dihapus tanpa pengganti, biarkan 404; jika ada pengganti, pasang 301; selalu hapus internal link yang masih mengarah ke 404 | Sedang–tinggi | Google menyebut 404 tidak selalu masalah; jika page moved, gunakan 301. citeturn21view5 |
-| Impressions tinggi, CTR rendah pada page prioritas | Relevansi awal ada, tapi snippet/title/hero belum cukup meyakinkan | Waspada | Polish title, meta description, H1, intro hero, CTA pertama; cek apakah Google me-rewrite title | Tinggi | GSC Performance memberi klik/impresi/CTR/posisi; Google menyarankan title utama jelas dan meta description unik/deskriptif. citeturn29view0turn17view5turn17view6 |
-| Posisi rata-rata 8–20 dengan impresi mulai konsisten | Halaman punya peluang naik tanpa perlu bikin URL baru | Peluang | Tambah 2–3 internal link kontekstual, tambahkan section yang menjawab query, perkuat CTA yang sesuai intent | Tinggi | Link internal crawlable dan anchor text membantu Google memahami relevansi. citeturn17view4turn29view0 |
-| Query area muncul di artikel atau brand, bukan area page | Mapping intent salah atau belum kuat | Bahaya ringan | Perkuat link ke area page yang benar; jika artikel/brand duplikatif, pertimbangkan merge/redirect | Tinggi | Gunakan dimensi Queries dan Pages bersama-sama; query bisa bervariasi menurut lokasi, device, dan history. citeturn29view0 |
-| Query brand muncul di artikel brand lokal, bukan brand page | Risiko cannibalization brand | Bahaya ringan | Audit apakah artikel brand masih perlu hidup; jika intent murni komersial, arahkan authority ke `brand/{brand}` | Tinggi | Di RADJA AC, brand article lama seperti Midea/Daikin terlihat publik sebagai redirect ke brand page; pola ini sebaiknya dipertahankan. citeturn4view2turn4view3 |
-| Query sizing muncul di artikel sizing dan kalkulator bersamaan | Bisa sehat bila intent dibedakan | Normal–waspada | Pertahankan artikel jika edukatif, kalkulator untuk tool intent; keduanya harus mengarah ke katalog/call to WhatsApp | Sedang | RADJA AC sudah punya kalkulator PK dan artikel sizing seperti `AC 1 PK untuk ruangan berapa` serta `kamar 3x4`. citeturn3search1turn25search13turn25search14 |
-| Indexed SERP title/snippet masih versi lama/lokal | Google belum recrawl penuh atau memilih source title lama | Waspada | Bandingkan indexed vs live di URL Inspection; request indexing target satu kali; tunggu 7–14 hari; jangan rollback mendadak | Sedang–tinggi | Google menyatakan title link bisa dibuat dari banyak sumber; RADJA AC saat ini masih memperlihatkan mismatch antara snippet lama dan title live pada beberapa halaman/redirect. citeturn17view5turn3search2turn3search14turn4view2turn4view3 |
-| Banyak page type menampilkan heading visual yang sama | Template ambiguity; rawan title rewrite dan CTR lemah | Bahaya template | Audit global main heading, hero copy, dan first visible title per template family | Tinggi | Homepage, katalog, low watt, Gree, Midea, kontak, tentang kami, dan proof view publik sama-sama menampilkan heading teratas yang sama. citeturn0view0turn2view0turn2view1turn2view2turn2view3turn30view0turn30view1turn30view2 |
+| GSC Signal | Artinya untuk RADJA AC | Normal/Bahaya | Tindakan | Prioritas |
+|---|---|---|---|---|
+| `URL is on Google` | URL prioritas eligible tampil | Normal | Pantau query, CTR, posisi; jangan request ulang kecuali edit besar | Tinggi bila money page |
+| `Page with redirect` pada URL legacy | Source lama tidak akan diindeks | Normal jika sengaja | Biarkan redirect, hapus internal link ke source, inspect target final saja | Tinggi bila source masih muncul |
+| `Crawled - currently not indexed` pada money page baru | Google sudah crawl tapi belum memilih index | Waspada, bukan panik | Tunggu; jika >14 hari pada URL prioritas, audit intent, uniqueness, canonical, internal link | Tinggi |
+| `Discovered - currently not indexed` | Google tahu URL tapi belum crawl | Waspada | Pastikan sitemap/link internal; jangan deploy massal; jangan request massal | Sedang–tinggi |
+| `Duplicate without user-selected canonical` | Ada URL mirip tanpa canonical jelas | Waspada | Tetapkan canonical/redirect, rapikan internal link, bedakan atau merge konten | Tinggi |
+| `Duplicate, Google chose different canonical than user` | Google memilih canonical lain | Bahaya pada money page | Inspect current, user canonical, Google canonical; samakan internal link/sitemap/konten | Tinggi |
+| `Alternate page with proper canonical` | Alternate sudah benar | Normal | Tidak perlu tindakan kecuali target canonical salah | Rendah |
+| `Not found (404)` | URL tidak ada | Tergantung | Biarkan jika memang hilang; 301 jika ada pengganti; hapus internal link | Sedang |
+| Impressions tinggi, CTR rendah | Relevansi awal ada, snippet kurang meyakinkan | Waspada | Polish title/meta/H1/hero/CTA; cek title rewrite | Tinggi |
+| Posisi rata-rata 8–20 dan impresi konsisten | Ada peluang naik tanpa URL baru | Peluang | Tambah internal link kontekstual + section yang menjawab query | Tinggi |
+| Query area muncul di artikel/brand, bukan area page | Mapping intent salah | Bahaya ringan | Perkuat area page, relink, redirect artikel bila duplikatif | Tinggi |
+| Query brand muncul di artikel brand lokal | Risiko cannibalization brand | Bahaya ringan | Arahkan authority ke `brand/{brand}` | Tinggi |
+| Query sizing muncul di artikel dan kalkulator | Bisa sehat bila intent beda | Normal–waspada | Artikel edukatif, kalkulator tool intent; keduanya link ke katalog/WA | Sedang |
+| Indexed title/snippet masih versi lama | Google belum recrawl penuh atau memilih source lama | Waspada | Bandingkan indexed vs live; request target satu kali jika baru edit; tunggu 7–14 hari | Sedang |
+| Audit lama menyebut template/heading ambigu | Historical unless reverified | Jangan dianggap aktif otomatis | Cek ulang live HTML/GSC sebelum patch template | Sedang |
 
 ### Aturan untuk Assistant/Codex
 
-- Gunakan `URL Inspection` hanya untuk URL final yang memang ingin diindeks atau sedang di-debug.
-- Jika sebuah URL sudah `301` ke target final, **jangan** menjadikannya target internal link, target request indexing, atau kandidat sitemap.
-- Jika query baru muncul satu kali atau impresinya sangat kecil, masukkan ke watchlist; **jangan langsung bikin halaman baru**.
+- Gunakan URL Inspection hanya untuk URL final yang ingin diindeks atau sedang di-debug.
+- Jika URL sudah redirect, jangan jadikan target internal link, request indexing, atau sitemap.
+- Jika query baru muncul satu kali atau impresinya sangat kecil, masukkan watchlist; jangan langsung bikin halaman baru.
 - Jika query konsisten tetapi landing page salah, betulkan dulu internal link, canonical, title/H1, dan body intent sebelum membuat URL baru.
-- Template-level fix lebih diprioritaskan daripada edit mikro pada banyak URL, terutama selama heading utama antar-template masih belum jelas pembedaannya. citeturn17view5turn2view0turn2view1turn2view2turn2view3
-- Gunakan window analisis 28 hari untuk keputusan eksekusi; data 24 jam cocok untuk debugging awal, bukan keputusan strategis. citeturn29view0
+- Template-level fix diprioritaskan hanya jika masalah template terbukti live, bukan dari audit/parser lama.
+- Gunakan window 28 hari untuk keputusan eksekusi; data 24 jam hanya untuk debugging.
 
 ### Jangan Dilakukan
 
-- Jangan panik terhadap fluktuasi 1–3 minggu sesudah redirect atau request indexing; Google menyebut recrawl/reindex perlu waktu dan request berulang tidak mempercepat proses. citeturn17view3turn18view4
+- Jangan panik terhadap fluktuasi 1–3 minggu sesudah redirect, deploy, atau request indexing.
 - Jangan request indexing URL source yang sudah redirect.
 - Jangan menilai query area/brand/B2B hanya dari satu hari data.
 - Jangan menyimpulkan “page jelek” hanya dari status `Crawled - currently not indexed` tanpa audit intent, internal link, dan uniqueness.
-- Jangan membiarkan artikel komersial baru memakan page target seperti area page, brand page, katalog page, atau B2B page.
+- Jangan membiarkan artikel komersial baru memakan page target seperti area, brand, katalog, atau B2B.
+- Jangan patch berdasarkan AI parser yang tidak membaca HTTP header/streamed HTML.
 
-### Contoh Implementasi
-
-**Checklist mingguan GSC**
+### Checklist Mingguan GSC
 
 | Item | Fokus | Keputusan |
 |---|---|---|
-| Performance → Queries | Query prioritas: `jual ac purwokerto`, `jual ac banyumas`, `jual ac yogyakarta`, `ac low watt`, `ac inverter`, `ac daikin`, `ac gree`, `pengadaan ac`, `kalkulator pk ac` | Jika impresi konsisten naik, cek page target |
-| Performance → Pages | `home`, katalog utama, brand utama, B2B utama, area utama | Jika CTR rendah, polish title/H1/hero |
-| Page Indexing | Semua reason baru pada money pages | Debug hanya reason yang menyentuh page prioritas |
+| Performance → Queries | `jual ac purwokerto`, `jual ac banyumas`, `jual ac yogyakarta`, `ac low watt`, `ac inverter`, `ac daikin`, `ac gree`, `pengadaan ac`, `kalkulator pk ac` | Jika impresi konsisten naik, cek page target |
+| Performance → Pages | home, katalog utama, brand utama, B2B utama, area utama | Jika CTR rendah, polish title/H1/hero |
+| Page Indexing | Reason baru pada money pages | Debug hanya reason yang menyentuh page prioritas |
 | URL Inspection | URL yang baru diedit minggu itu | Live test + request indexing seperlunya |
 
-**Checklist bulanan GSC**
+### Checklist Bulanan GSC
 
 | Item | Fokus | Keputusan |
 |---|---|---|
 | Query-to-page map | Area vs brand vs katalog vs B2B vs artikel | Cegah cannibalization |
-| Redirect hygiene | Legacy URL masih muncul atau tidak | Pastikan semua internal link sudah final |
-| Indexed count by template family | Area, brand, katalog, B2B, artikel | Lihat template keluarga mana yang tertahan |
+| Redirect hygiene | Legacy URL masih muncul atau tidak | Pastikan internal link sudah final |
+| Indexed count by template family | Area, brand, katalog, B2B, artikel | Lihat template mana yang tertahan |
 | CTR review | Halaman posisi bagus tetapi CTR lemah | Perbaiki snippet promise |
 | Canonical review | Duplicate/canonical issues | Samakan sitemap + internal link + canonical |
 
-**URL prioritas untuk URL Inspection**
+### URL prioritas untuk URL Inspection
 
 - `/`
 - `/jual-ac-purwokerto`
+- `/jual-ac-banyumas`
 - `/katalog`
 - `/katalog/ac-1-2-pk`
 - `/katalog/ac-low-watt`
@@ -132,20 +179,23 @@ Keputusan operasional:
 - `/kontak`
 - `/bukti-pengiriman-proyek`
 
-**URL yang tidak perlu request indexing**
+### URL yang tidak perlu request indexing
 
-- `artikel/harga-ac-1-2-pk-purwokerto-pemasangan`
-- `artikel/ac-low-watt-listrik-900-1300-watt-purwokerto`
-- `artikel/harga-ac-midea-purwokerto`
-- `artikel/harga-ac-daikin-purwokerto`
-- `artikel/toko-ac-purwokerto-yang-bisa-konsultasi-pk`
-- `artikel/jual-ac-banyumas-konsultasi-pk-stok-pasang`
-- `pengadaan-ac-proyek`
-- `gallery`  
-Semua URL di atas sudah atau terlihat publik sebagai redirect menuju target final. citeturn4view0turn4view1turn4view2turn4view3turn4view4turn4view5turn2view5turn30view1
+- `/artikel/harga-ac-1-2-pk-purwokerto-pemasangan`
+- `/artikel/ac-low-watt-listrik-900-1300-watt-purwokerto`
+- `/artikel/harga-ac-midea-purwokerto`
+- `/artikel/harga-ac-daikin-purwokerto`
+- `/artikel/toko-ac-purwokerto-yang-bisa-konsultasi-pk`
+- `/artikel/jual-ac-banyumas-konsultasi-pk-stok-pasang`
+- `/pengadaan-ac-proyek`
+- `/gallery`
+- `/portfolio`
 
-**Metrik minimum pengambilan keputusan**  
-*Semua angka di bawah adalah asumsi operasional RADJA AC, untuk dikalibrasi ulang setelah data live tersedia.*
+Semua URL di atas adalah legacy/redirect context. Inspect target final, bukan source legacy.
+
+### Metrik Minimum Pengambilan Keputusan
+
+Semua angka di bawah adalah asumsi operasional RADJA AC, untuk dikalibrasi ulang setelah data live tersedia.
 
 | Trigger | Threshold 28 hari | Keputusan |
 |---|---|---|
@@ -155,7 +205,7 @@ Semua URL di atas sudah atau terlihat publik sebagai redirect menuju target fina
 | Cannibalization review | Satu query masuk ke ≥ 2 URL, masing-masing ≥ 30 impresi | Audit merge, redirect, atau relink |
 | Redirect/merge article | Artikel dan money page berburu intent yang sama 100% | Pilih satu target final |
 
-**Pembacaan query family**
+### Pembacaan Query Family
 
 | Family Query | Target ideal | Jika landing salah | Tindakan |
 |---|---|---|---|
