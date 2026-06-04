@@ -12,6 +12,41 @@ Needs quarterly refresh
 
 Dokumen ini menjadi SOP membaca Google Search Console untuk RADJA AC setelah restruktur template, redirect legacy, penambahan halaman area, penambahan katalog, dan ekspansi halaman B2B. Dasarnya: **tidak semua “Not indexed” adalah masalah**, redirect source memang tidak diindeks, URL Inspection dipakai untuk URL spesifik, request indexing hanya untuk sedikit URL prioritas, dan submit sitemap hanyalah sinyal, bukan jaminan indexing. GSC Performance dipakai untuk membaca klik, impresi, CTR, dan average position per query maupun per page. citeturn20search0turn21view4turn17view3turn29view0turn17view0
 
+### Current GSC Status — 2026-06-04
+
+Klaim `de-index total` tidak berlaku untuk kondisi RADJA AC saat audit ini.
+
+URL Inspection menunjukkan URL berikut sudah `URL ada di Google` dan `Halaman diindeks`:
+
+- `https://www.radjaac.com/`
+- `https://www.radjaac.com/jual-ac-purwokerto`
+- `https://www.radjaac.com/jual-ac-banyumas`
+- `https://www.radjaac.com/katalog`
+- `https://www.radjaac.com/brand/gree`
+- `https://www.radjaac.com/brand/daikin`
+- `https://www.radjaac.com/pengadaan-ac`
+- `https://www.radjaac.com/kontak`
+
+Temuan umum:
+
+- Sitemap terdeteksi: `https://www.radjaac.com/sitemap.xml`.
+- Crawl diizinkan.
+- Pengambilan halaman berhasil.
+- Pengindeksan diizinkan.
+- Canonical yang dinyatakan user mengarah ke URL `https://www.radjaac.com/...`.
+- Canonical yang dipilih Google adalah URL yang diperiksa.
+- HTTPS valid.
+- Beberapa URL memiliki Breadcrumb/FAQ enhancement valid.
+
+Keputusan operasional:
+
+- Jangan patch robots, sitemap, canonical, layout metadata, atau routing karena asumsi de-index.
+- Jangan request indexing ulang untuk URL yang sudah indexed kecuali setelah edit substansial.
+- Request indexing hanya untuk URL final prioritas yang belum indexed atau baru dipublish/diedit besar.
+- `site:` operator tidak boleh menjadi sumber keputusan utama; GSC URL Inspection dan live check lebih kuat.
+- Internal link baru harus kontekstual. Jangan menambah link hanya untuk mengejar jumlah link.
+- Untuk saat ini, fokus setelah indexing adalah query, CTR, posisi, canonical anomalies, dan landing page mapping.
+
 ### Prinsip Utama
 
 - Baca GSC **berdasarkan pasangan query–page**, bukan query saja dan bukan page saja.
@@ -80,22 +115,22 @@ Dokumen ini menjadi SOP membaca Google Search Console untuk RADJA AC setelah res
 
 **URL prioritas untuk URL Inspection**
 
-- `home`
-- `jual-ac-purwokerto`
-- `katalog`
-- `katalog/ac-1-2-pk`
-- `katalog/ac-low-watt`
-- `katalog/ac-inverter`
-- `pengadaan-ac`
-- `pengadaan-ac/kontraktor-developer`
-- `pengadaan-ac/hotel-guest-house`
-- `pengadaan-ac/kost-apartemen-skala-besar`
-- `brand/daikin`
-- `brand/gree`
-- `brand/midea`
-- `kalkulator-pk-ac`
-- `kontak`
-- `bukti-pengiriman-proyek`
+- `/`
+- `/jual-ac-purwokerto`
+- `/katalog`
+- `/katalog/ac-1-2-pk`
+- `/katalog/ac-low-watt`
+- `/katalog/ac-inverter`
+- `/pengadaan-ac`
+- `/pengadaan-ac/kontraktor-developer`
+- `/pengadaan-ac/hotel-guest-house`
+- `/pengadaan-ac/kost-apartemen-skala-besar`
+- `/brand/daikin`
+- `/brand/gree`
+- `/brand/midea`
+- `/kalkulator-pk-ac`
+- `/kontak`
+- `/bukti-pengiriman-proyek`
 
 **URL yang tidak perlu request indexing**
 

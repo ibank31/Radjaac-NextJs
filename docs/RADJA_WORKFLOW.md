@@ -138,17 +138,28 @@ Jangan memakai `purchase` sebagai patokan klik WhatsApp.
 
 ## GSC Rules
 
-Jangan panik karena not indexed.
+Status GSC terbaru 2026-06-04:
+- Klaim `de-index total` sudah terbantahkan oleh URL Inspection.
+- Homepage dan sampel money page utama sudah `URL ada di Google` dan `Halaman diindeks`.
+- URL yang terverifikasi indexed:
+  - `/`
+  - `/jual-ac-purwokerto`
+  - `/jual-ac-banyumas`
+  - `/katalog`
+  - `/brand/gree`
+  - `/brand/daikin`
+  - `/pengadaan-ac`
+  - `/kontak`
+- Crawl diizinkan, page fetch berhasil, indexing diizinkan, canonical user mengarah ke URL `https://www.radjaac.com/...`, dan Google memilih URL yang diperiksa.
+- `robots.txt`, sitemap, canonical, HTTPS, dan www final sudah sehat pada audit ini.
 
-`Ditemukan - saat ini tidak diindeks`:
-Google tahu URL, tapi belum crawl. Cek sitemap/internal link, lalu tunggu.
-
-`Di-crawl - saat ini tidak diindeks`:
-Google sudah crawl. Cek kualitas, canonical, duplikasi, internal link, dan intent.
-
-Jangan request indexing massal.
-Jangan validasi ulang karena panik.
-Audit URL penting dulu.
+Aturan tetap:
+- Jangan panik karena `Not indexed`.
+- Jangan patch robots, sitemap, canonical, layout metadata, atau Cloudflare/Vercel routing karena asumsi.
+- Jangan request indexing massal.
+- Request indexing hanya untuk URL final prioritas yang belum indexed atau baru diedit penting.
+- Audit URL penting dulu dengan URL Inspection dan live check.
+- Jika URL sudah indexed, fokus berikutnya adalah query, CTR, posisi, intent, dan internal link kontekstual.
 
 ## Redirect + Sitemap Rules
 
@@ -219,6 +230,11 @@ Status terakhir yang sudah selesai:
 - Build menghasilkan 71/71 static/SSG pages.
 - HTML critical pages memakai `Cache-Control: public, max-age=0, must-revalidate`.
 - Static assets di `public/_headers` memakai `Cache-Control: public, max-age=31536000, immutable`.
+- Live audit 2026-06-04 menunjukkan homepage, robots, sitemap, dan money page utama HTTP 200.
+- GSC URL Inspection 2026-06-04 menunjukkan homepage dan sampel money page utama sudah indexed.
+- Klaim `de-index total` tidak berlaku untuk kondisi repo/live saat ini.
+- Internal link live sudah cukup untuk hub utama; jangan menambah link hanya demi jumlah. Internal link baru harus kontekstual, intent-fit, dan tidak terlihat spam.
+- Non-www saat audit redirect ke `https://www.radjaac.com/`; redirect 307 ke www boleh dirapikan menjadi 301 nanti, tetapi bukan blocker indexing.
 - Jangan mengembalikan cache asset ke `next.config.mjs headers()` tanpa audit Cloudflare Pages.
 
 ## Staged Area Draft Rules
