@@ -1,53 +1,111 @@
 # RADJAAC_KATALOG_CAPACITY_MAP.md
 
-## RADJAAC_KATALOG_CAPACITY_MAP.md
+## Status
 
-**Status**  
-Needs quarterly refresh
+Active roadmap with post-migration gate. Refreshed 2026-06-04.
 
-**Fungsi Dokumen**  
+## Fungsi Dokumen
+
 Menentukan halaman katalog kapasitas/tipe yang harus dibangun setelah struktur katalog dasar yang sekarang ada, sekaligus membagi jelas mana intent yang harus dimiliki katalog, mana yang harus dimiliki kalkulator PK, dan mana yang sebaiknya ditangani artikel pendukung.
 
-RADJA AC sudah punya fondasi problem-solving yang bagus melalui ` /kalkulator-pk-ac` dan artikel seputar ukuran ruangan/kapasitas, sementara katalog komersial yang ada sudah mulai menyebut kebutuhan cassette dan ruang usaha. Itu berarti langkah berikutnya bukan menambah artikel transaksional, tetapi memecah katalog ke halaman exact-capacity dan commercial-type yang lebih dekat ke lead WA. Pada saat yang sama, tipe komersial seperti cassette, floor standing, dan VRV/VRF memang sudah ditawarkan oleh banyak pemain lokal di kota besar, sehingga RADJA AC perlu naik ke sana secara bertahap dan kredibel. citeturn22search14turn23search10turn23search2turn20search4turn20search7turn18search10turn18search17turn19search11
+RADJA AC sudah punya fondasi problem-solving melalui `/kalkulator-pk-ac` dan artikel seputar ukuran ruangan/kapasitas. Katalog komersial yang ada juga mulai menampung kebutuhan kantor, usaha, dan banyak unit. Langkah berikutnya bukan menambah artikel transaksional, tetapi memecah katalog ke halaman exact-capacity dan commercial-type yang lebih dekat ke lead WhatsApp — dengan jadwal bertahap agar tidak mengganggu stabilisasi GSC pasca migrasi.
 
-**Prinsip Utama**
+## Kondisi Repo Saat Ini
 
-- Head term transaksi kapasitas harus dimiliki **katalog**, bukan artikel.
-- ` /kalkulator-pk-ac` harus memegang intent diagnostik: “butuh PK berapa”, “ruangan segini cocok AC apa”.
-- Artikel harus mendukung intent berbasis masalah, bukan memakan keyword transaksional katalog.
-- ` /katalog/ac-1-2-pk` dipertahankan sebagai parent/hub, lalu exact-capacity page menjadi child yang lebih spesifik.
+Katalog dasar yang sudah live perlu dipertahankan sebagai fondasi:
+
+- `/katalog`
+- `/katalog/ac-1-2-pk`
+- `/katalog/ac-1-pk`
+- `/katalog/ac-1-5-pk`
+- `/katalog/ac-2-pk`
+- `/katalog/ac-split-rumah`
+- `/katalog/ac-inverter`
+- `/katalog/ac-low-watt`
+- `/katalog/ac-kantor-komersial`
+
+Jika daftar ini berubah, cek `content/routes.js`, data katalog, sitemap, dan live 200/canonical.
+
+## Prinsip Utama
+
+- Head term transaksi kapasitas harus dimiliki katalog, bukan artikel.
+- `/kalkulator-pk-ac` memegang intent diagnostik: “butuh PK berapa”, “ruangan segini cocok AC apa”.
+- Artikel mendukung intent berbasis masalah, bukan memakan keyword transaksi katalog.
+- Exact-capacity page harus mengarah ke lead WA berkualitas, bukan sekadar halaman daftar keyword.
 - Untuk tipe komersial besar, publish hanya jika stok, penawaran, dan alur survey memang siap.
+- Pasca migrasi, publish katalog baru mengikuti jadwal H+7/H+14/H+30 dari `RADJA_WORKFLOW.md`.
 
-**Tabel Keputusan**
+## Post-Migration Katalog Gate
 
-| Halaman | URL | Primary Keyword | Secondary Keyword | Intent | Target User | Ruangan/Kebutuhan Cocok | Buyer Concern | CTA | Internal Link Masuk | Internal Link Keluar | Supporting Article | Risiko Cannibalization | Prioritas |
-|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| AC 1 PK | `/katalog/ac-1-pk` | AC 1 PK | jual AC 1 PK; AC 1 PK inverter; AC 1 PK low watt | Transaksional | Rumah; kost; toko kecil | Kamar besar; ruang kerja; ruang tamu kecil | PK pas/tidak; listrik; pilihan inverter/standard | `WA: cek stok AC 1 PK` | `/katalog`, `/katalog/ac-1-2-pk`, `/kalkulator-pk-ac`, artikel ukuran kamar | brand pages, `/kalkulator-pk-ac` | `AC 1 PK untuk kamar berapa m2?` | Tinggi dengan artikel “harga AC 1 PK” | P1 |
-| AC 1.5 PK | `/katalog/ac-1-5-pk` | AC 1.5 PK | jual AC 1.5 PK; AC 1 5 PK inverter | Transaksional | Rumah; kantor/ruko; cafe dan ruang usaha | Ruang keluarga; ruangan 18–24 m2; kantor | Daya listrik; noise; brand | `WA: cek stok AC 1.5 PK` | `/katalog`, `/kalkulator-pk-ac`, area page rumah/usaha | brand pages, `/kalkulator-pk-ac`, pengadaan segment pages | `AC 1.5 PK cocok untuk ruangan apa?` | Tinggi dengan artikel kapasitas ruangan | P1 |
-| AC 2 PK | `/katalog/ac-2-pk` | AC 2 PK | jual AC 2 PK; AC 2 PK untuk kantor | Transaksional | Rumah besar; kantor; ruko | Ruang tamu besar; meeting room; ruko | Daya listrik; harga; pasang; pipa/outdoor | `WA: cek stok AC 2 PK` | `/katalog`, `/kalkulator-pk-ac`, `/katalog/ac-kantor-komersial` | brand pages, `/kalkulator-pk-ac`, `/pengadaan-ac/gedung-kantor-ruko` | `AC 2 PK untuk ruang ukuran berapa?` | Tinggi dengan artikel “AC kantor” | P1 |
-| AC Cassette | `/katalog/ac-cassette` | AC cassette | AC cassette kantor; AC cassette cafe | Transaksional + solution page | Kantor; cafe; resto; showroom | Ruang komersial dengan plafon | Estetika; kapasitas; maintenance; distribusi udara | `WA: konsultasi AC cassette` | `/katalog/ac-kantor-komersial`, B2B kantor/cafe | brand pages, pengadaan segment pages, `/kalkulator-pk-ac` | `Cassette vs split untuk kantor/cafe` | Tinggi dengan `ac-kantor-komersial` | P1 |
-| AC 3–4 PK | `/katalog/ac-3-4-pk` | AC 3 PK 4 PK | AC 3 PK untuk usaha; AC 4 PK komersial | Transaksional | Usaha; kantor; ruangan besar | Ruang usaha besar; aula kecil; ruang rapat besar | Tipe unit; kebutuhan listrik; pasang; ukuran outdoor | `WA: cek opsi AC 3–4 PK` | `/katalog/ac-kantor-komersial`, B2B kantor/cafe | `/katalog/ac-cassette`, `/katalog/ac-floor-standing` | `AC 3 PK atau 4 PK cocok untuk ruang apa?` | Sedang dengan page komersial umum | P2 |
-| AC Floor Standing | `/katalog/ac-floor-standing` | AC floor standing | AC standing floor; AC standing untuk aula | Transaksional + solution page | Aula; resto; mushola; showroom | Ruang besar tanpa layout split ideal | Tampilan; kapasitas; airflow; lokasi unit | `WA: konsultasi AC floor standing` | `/katalog/ac-kantor-komersial`, artikel komersial besar | `/pengadaan-ac/cafe-resto`, `/pengadaan-ac/gedung-kantor-ruko` | `Kapan pilih floor standing daripada cassette?` | Sedang | P2 |
-| AC Multi Split | `/katalog/ac-multi-split` | AC multi split | multi split inverter; AC 1 outdoor banyak indoor | Komersial/premium | Rumah premium; usaha, toko, dan ruko | Banyak ruang dengan outdoor terbatas | Harga; kompleksitas pasang; service | `WA: cek kebutuhan multi split` | Brand premium; artikel efisiensi ruang outdoor | `/brand/daikin`, `/brand/panasonic`, `/kalkulator-pk-ac` | `Multi split vs split biasa` | Rendah–Sedang | P3 |
-| AC VRV/VRF | `/katalog/ac-vrv-vrf` | AC VRV VRF | VRF untuk gedung; VRV untuk proyek | Commercial-intent berat | Proyek gedung; kantor besar | Gedung multi-ruang | Survey; spek; partner; after-sales | `WA: kirim layout/proyek dulu` | Hanya dari B2B proyek dan artikel teknis | `/pengadaan-ac/kontraktor-developer` | `VRV/VRF vs split untuk proyek` | Tinggi bila proof belum ada | P3 bersyarat |
+### H+0 sampai H+7
 
-**Aturan untuk Assistant/Codex**
+Tidak publish katalog baru kecuali emergency. Fokus:
 
-- Setelah ` /katalog/ac-1-2-pk`, urutan build adalah: `ac-1-pk`, `ac-1-5-pk`, `ac-2-pk`, `ac-cassette`, `ac-3-4-pk`, `ac-floor-standing`, `ac-multi-split`, lalu `ac-vrv-vrf` bila siap.
-- ` /katalog/ac-1-2-pk` diposisikan sebagai **parent chooser**, bukan halaman final untuk semua kapasitas.
-- Hasil akhir ` /kalkulator-pk-ac` wajib mengarah ke **1 rekomendasi katalog utama** + 1–2 alternatif.
+- validasi katalog existing indexed/crawlable
+- cek canonical dan sitemap
+- cek internal link dari homepage, katalog hub, area, dan artikel edukasi
+- polish copy kecil jika ada mismatch title/H1/CTA
+
+### H+7 sampai H+14
+
+Boleh publish maksimal 1 katalog P1 jika:
+
+- intent sangat jelas
+- internal link masuk/keluar siap
+- CTA WA spesifik
+- tidak memakan artikel/kalkulator
+- `npm run check` hijau
+- live 200/canonical setelah deploy
+
+### H+14 sampai H+30
+
+Boleh publish 1–2 katalog per batch dengan jeda 7–10 hari. Jangan publish semua P1 sekaligus.
+
+### H+30 ke atas
+
+Boleh naik ke 2–3 katalog per batch jika GSC/GA4 stabil dan halaman existing tidak saling kanibal.
+
+## Tabel Keputusan
+
+| Halaman | URL | Primary Keyword | Intent | Target User | CTA | Internal Link Masuk | Internal Link Keluar | Risiko Cannibalization | Prioritas |
+|---|---|---|---|---|---|---|---|---|---|
+| AC 1 PK | `/katalog/ac-1-pk` | AC 1 PK | Transaksional kapasitas | Rumah; kost; toko kecil | `WA: cek stok AC 1 PK` | `/katalog`, `/katalog/ac-1-2-pk`, `/kalkulator-pk-ac`, artikel sizing | brand pages, `/kalkulator-pk-ac` | Tinggi dengan artikel harga AC 1 PK | Live / polish |
+| AC 1.5 PK | `/katalog/ac-1-5-pk` | AC 1.5 PK | Transaksional kapasitas | Rumah; kantor/ruko; cafe kecil | `WA: cek stok AC 1.5 PK` | `/katalog`, `/kalkulator-pk-ac`, area page rumah/usaha | brand pages, B2B pages, kalkulator | Sedang dengan artikel kapasitas ruangan | Live / polish |
+| AC 2 PK | `/katalog/ac-2-pk` | AC 2 PK | Transaksional kapasitas | Rumah besar; kantor; ruko | `WA: cek stok AC 2 PK` | `/katalog`, `/kalkulator-pk-ac`, `/katalog/ac-kantor-komersial` | brand pages, `/pengadaan-ac/gedung-kantor-ruko` | Sedang dengan page kantor umum | Live / polish |
+| AC Cassette | `/katalog/ac-cassette` | AC cassette | Transaksional komersial | Kantor; cafe; resto; showroom | `WA: konsultasi AC cassette` | `/katalog/ac-kantor-komersial`, B2B kantor/cafe | brand pages, pengadaan segment pages | Tinggi dengan `ac-kantor-komersial` | P1 next, gated |
+| AC 3–4 PK | `/katalog/ac-3-4-pk` | AC 3 PK 4 PK | Transaksional kapasitas besar | Usaha; kantor; ruangan besar | `WA: cek opsi AC 3–4 PK` | `/katalog/ac-kantor-komersial`, B2B kantor/cafe | `/katalog/ac-cassette`, `/katalog/ac-floor-standing` | Sedang dengan komersial umum | P2 |
+| AC Floor Standing | `/katalog/ac-floor-standing` | AC floor standing | Transaksional komersial | Aula; resto; mushola; showroom | `WA: konsultasi AC floor standing` | `/katalog/ac-kantor-komersial`, artikel komersial besar | B2B cafe/resto, gedung kantor/ruko | Sedang | P2 |
+| AC Multi Split | `/katalog/ac-multi-split` | AC multi split | Komersial/premium | Rumah premium; ruko; banyak ruang | `WA: cek kebutuhan multi split` | Brand premium; artikel outdoor terbatas | `/brand/daikin`, `/brand/panasonic`, kalkulator | Rendah–Sedang | P3 |
+| AC VRV/VRF | `/katalog/ac-vrv-vrf` | AC VRV VRF | Commercial-intent berat | Proyek gedung; kantor besar | `WA: kirim layout/proyek dulu` | Hanya dari B2B proyek dan artikel teknis | `/pengadaan-ac/kontraktor-developer` | Tinggi bila proof belum ada | P3 bersyarat |
+
+## Urutan Build yang Aman
+
+Karena `ac-1-pk`, `ac-1-5-pk`, dan `ac-2-pk` sudah live, urutan berikutnya bukan mengulang build kapasitas dasar, tetapi:
+
+1. Polish `ac-1-pk`, `ac-1-5-pk`, `ac-2-pk` bila GSC menunjukkan impresi/CTR butuh perbaikan.
+2. Build `/katalog/ac-cassette` sebagai P1 gated jika operasional siap.
+3. Build `/katalog/ac-3-4-pk` atau `/katalog/ac-floor-standing` setelah cassette atau bila GSC/lead menunjukkan demand.
+4. Tahan `/katalog/ac-multi-split` sampai ada demand/proof cukup.
+5. Tahan `/katalog/ac-vrv-vrf` sampai ada capability, survey flow, dan partner/proof yang benar-benar siap.
+
+## Aturan untuk Assistant/Codex
+
+- Jangan membuat artikel head-term seperti “harga AC 1 PK”, “jual AC 2 PK”, atau “harga AC cassette” jika katalog untuk head-term itu sedang atau sudah dibangun.
+- Jangan biarkan `/kalkulator-pk-ac` mencoba ranking untuk semua keyword transaksi kapasitas.
+- Hasil kalkulator harus mengarah ke 1 rekomendasi katalog utama + 1–2 alternatif.
 - Exact-capacity page wajib punya CTA stok/WA, tabel use case, dan link ke kalkulator.
-- `ac-cassette` harus dipisah dari `ac-kantor-komersial`; page komersial yang lama menjadi hub, bukan semua-in-one.
+- `ac-cassette` harus dipisah dari `ac-kantor-komersial`; page komersial lama menjadi hub, bukan semua-in-one.
+- Jangan publish katalog baru tanpa sitemap, canonical, internal link, dan `npm run check` hijau.
 
-**Jangan Dilakukan**
+## Jangan Dilakukan
 
-- Jangan membuat artikel head-term seperti “harga AC 1 PK”, “jual AC 2 PK”, atau “harga AC cassette” jika katalog untuk head-term itu sedang dibangun.
-- Jangan biarkan ` /kalkulator-pk-ac` mencoba ranking untuk semua keyword transaksi kapasitas.
+- Jangan publish semua katalog P1 sekaligus pasca migrasi.
 - Jangan publish `VRV/VRF` kalau real process-nya belum siap.
-- Jangan mengubur `cassette` dan `floor standing` hanya sebagai paragraf di halaman komersial umum.
-- Jangan campur intent rumah dan komersial besar dalam satu katalog kapasitas.
+- Jangan mengubur `cassette` dan `floor standing` hanya sebagai paragraf di halaman komersial umum selamanya; jadikan roadmap gated.
+- Jangan campur intent rumah dan komersial besar dalam satu halaman kapasitas.
+- Jangan memakai harga pasti jika stok/harga tidak dipelihara.
 
-**Contoh Implementasi**
+## Contoh Implementasi
 
 | Kebutuhan | Halaman Tujuan | Artikel Pendukung yang Aman | Artikel yang Harus Dihindari |
 |---|---|---|---|
