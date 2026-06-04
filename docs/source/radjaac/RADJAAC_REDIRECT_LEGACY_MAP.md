@@ -1,89 +1,102 @@
-<!--
-CURRENT STATUS NOTE (2026-05-31):
-This document is retained as historical audit context.
-For current migration readiness, use:
-docs/audit/MIGRATION_READINESS_CURRENT.md
-Do not treat old BLOCKER/PENDING/Hold/FINAL-MISSING labels here as current status without re-audit.
--->
-
 # RADJAAC_REDIRECT_LEGACY_MAP.md
 
 ## Status
 
-Needs monthly refresh
+Active redirect hygiene map. Refreshed for current repo/live state on 2026-06-04.
 
 ## Fungsi Dokumen
 
-Dokumen ini menjadi peta URL lama, canonical target, dan tindakan teknis agar Google tidak bingung soal halaman mana yang harus dianggap final. Audit publik memverifikasi bahwa beberapa redirect penting memang sudah aktif: artikel harga AC 1/2 PK mengarah ke katalog 1/2 PK, artikel low watt lama mengarah ke katalog low watt, beberapa artikel brand lama mengarah ke brand page resmi, artikel kost lama mengarah ke B2B kost/apartemen, dan legacy B2B `/pengadaan-ac-proyek` mengarah ke `/pengadaan-ac`. Google menyebut redirect sebagai sinyal canonical yang kuat, sitemap seharusnya berisi URL canonical yang dipilih, dan linking internal sebaiknya langsung menunjuk ke canonical URL. Jika halaman diubah, Google menyediakan URL Inspection / request indexing untuk target yang dikelola, tetapi butuh waktu recrawl dan reindex. citeturn6view0turn6view1turn6view2turn6view3turn8view0turn8view1turn8view2turn8view3turn20view7turn33view1turn20view5turn20view6
+Dokumen ini menjadi peta URL lama, canonical target, dan tindakan teknis agar Google tidak bingung soal halaman mana yang final. Redirect legacy dipakai untuk mengalirkan sinyal dari URL lama ke target yang lebih relevan, bukan untuk dijadikan navigasi internal.
+
+Source repo/live terbaru mengalahkan catatan audit lama. Jika ada audit lama menyebut BLOCKER/PENDING/Hold/FINAL-MISSING, jangan dianggap aktif tanpa cek ulang `curl`, sitemap, dan source repo.
 
 ## Prinsip Utama
 
-- Semua URL lama yang intent-nya sudah ditangkap lebih baik oleh satu canonical page harus di-301, bukan dibiarkan bersaing.
-- Sitemap hanya berisi target canonical yang ingin dimunculkan di hasil pencarian. URL redirect tidak masuk sitemap. citeturn20view6turn33view1
-- Request indexing hanya untuk target final atau halaman yang diperbarui; bukan untuk URL lama yang sudah redirect. citeturn20view5turn15view0
-- Trailing slash dan non-trailing slash harus diperlakukan konsisten; jika versi lama masih hidup, arahkan ke target final yang sama.
+- Semua URL lama yang intent-nya sudah ditangkap lebih baik oleh satu canonical page harus redirect permanen ke target paling relevan.
+- Sitemap hanya berisi target canonical yang ingin dimunculkan di hasil pencarian. URL redirect tidak masuk sitemap.
+- Request indexing hanya untuk target final atau halaman yang diperbarui; bukan untuk URL lama yang sudah redirect.
+- Trailing slash dan non-trailing slash harus diperlakukan konsisten.
 - Query yang sekarang sudah punya money page tidak boleh dibiarkan tetap hidup sebagai artikel lama dengan intent yang sama.
-- Jika satu topik punya dua slug aktif atau terindeks, pilih satu canonical yang jelas dan beri redirect ke sisanya.
+- Jika satu topik punya dua slug aktif, pilih keputusan berdasarkan intent nyata, bukan kemiripan judul saja.
+- Internal link harus langsung ke target final, bukan ke source redirect.
+
+## Current Live Notes — 2026-06-04
+
+Audit owner menunjukkan:
+
+- Sitemap live bersih dari known legacy URL.
+- Legacy sample seperti `/toko-ac-terdekat`, `/daikin-purwokerto`, `/gree-purwokerto`, `/midea-purwokerto`, `/ac-inverter-purwokerto`, `/ac-low-watt-purwokerto`, `/pengadaan-ac-proyek`, `/gallery`, dan `/portfolio` menuju target final yang relevan.
+- URL final yang diuji sudah Next.js, canonical www, dan HTTP 200 setelah redirect.
+- Jangan request indexing source legacy. Inspect target final saja.
 
 ## Tabel Keputusan
 
 | Legacy URL | Target URL | Status | Alasan | Internal Link Action | Sitemap Action | GSC Action | Prioritas |
 |---|---|---|---|---|---|---|---|
-| `/artikel/harga-ac-1-2-pk-purwokerto-pemasangan` | `/katalog/ac-1-2-pk` | Already redirected | Intent produk + kapasitas lebih tepat di katalog 1/2 PK; redirect terverifikasi saat audit | Remove internal link | Hanya target di sitemap | Check target only; do not request legacy | Tinggi |
-| `/artikel/ac-low-watt-listrik-900-1300-watt-purwokerto` | `/katalog/ac-low-watt` | Already redirected | Intent kategori lebih tepat di katalog low watt; redirect terverifikasi saat audit | Remove internal link | Hanya target di sitemap | Check target only; do not request legacy | Tinggi |
-| `/artikel/ac-low-watt-listrik-900-1300-watt-purwokerto/` | `/katalog/ac-low-watt` | Should redirect or confirm | Pastikan trailing slash dan non-trailing slash menuju target final yang sama | Remove internal link | Hanya target di sitemap | Inspect target; no request pada versi legacy | Tinggi |
-| `/artikel/harga-ac-daikin-purwokerto` | `/brand/daikin` | Already redirected | Intent brand generik lebih tepat di brand hub; redirect terverifikasi | Remove internal link | Hanya target di sitemap | Check target only | Tinggi |
-| `/artikel/daikin-inverter-purwokerto` | `/brand/daikin` | Already redirected | Artikel generik brand kacau dengan brand hub; redirect terverifikasi | Remove internal link | Hanya target di sitemap | Check target only | Tinggi |
-| `/artikel/harga-ac-gree-purwokerto` | `/brand/gree` | Already redirected | Brand-intent harus konsolidasi ke brand page | Remove internal link | Hanya target di sitemap | Check target only | Tinggi |
-| `/artikel/harga-ac-midea-purwokerto` | `/brand/midea` | Already redirected | Brand-intent harus konsolidasi ke brand page | Remove internal link | Hanya target di sitemap | Check target only | Tinggi |
-| `/artikel/ac-untuk-kost-purwokerto` | `/pengadaan-ac/kost-apartemen-skala-besar` | Already redirected | Intent banyak unit lebih tepat di B2B page; redirect terverifikasi | Remove internal link | Hanya target di sitemap | Check target only | Tinggi |
-| `/pengadaan-ac-proyek` | `/pengadaan-ac` | Already redirected | Legacy B2B hub lama sudah diganti canonical umum; redirect terverifikasi | Remove internal link | Hanya target di sitemap | Check target only | Tinggi |
-| `/artikel/beli-ac-baru-purwokerto-panduan-sebelum-order` | `/artikel/panduan-beli-ac-baru` **atau** canonical buying-guide final | Should normalize | Konteks user menyebut target canonical buying guide, tetapi audit publik justru menampilkan `/artikel/panduan-instalasi-ac-baru`; harus dipilih satu slug final | Update internal links hanya ke slug final | Hanya slug final di sitemap | Inspect slug final; do not request dua slug | Tinggi |
-| `/artikel/panduan-instalasi-ac-baru` | `/artikel/panduan-beli-ac-baru` **atau** tetap live sebagai canonical tunggal | Update content / normalize | Audit publik menampilkan slug ini sebagai buying-guide article; jangan biarkan dua slug serupa bersaing | Pilih satu target tunggal | Hanya canonical final di sitemap | Request indexing hanya untuk canonical final setelah keputusan | Tinggi |
-| `/artikel/jual-ac-banyumas-konsultasi-pk-stok-pasang` | `/jual-ac-banyumas` | Should redirect | Intent lokal uang harus masuk ke area money page Banyumas, bukan artikel | Remove internal link | Jangan masukkan legacy ke sitemap | Inspect target; request indexing target setelah 301 dibuat | Tinggi |
-| `/artikel/toko-ac-purwokerto-yang-bisa-konsultasi-pk` | `/jual-ac-purwokerto` | Should redirect | Query “toko AC Purwokerto” terlalu dekat dengan area money page Purwokerto dan berisiko cannibal | Remove internal link | Jangan masukkan legacy ke sitemap | Inspect target; request indexing target setelah 301 dibuat | Tinggi |
-| `/artikel/samsung-inverter-purwokerto` | `/brand/samsung` | Should redirect | Intent brand generik, bukan model-specific; saat ini terlalu dekat dengan brand page | Remove internal link | Jangan masukkan legacy ke sitemap | Inspect target setelah redirect | Sedang |
-| `/artikel/sharp-bey-purwokerto` | `/artikel/sharp-bey-purwokerto` | Keep live | Masih layak jika memang model-specific dan sempit | Keep contextual links only | Boleh di sitemap jika canonical & indexable | Check content quality | Sedang |
-| `/artikel/ac-1-pk-untuk-ruangan-berapa` | `/artikel/ac-1-pk-untuk-ruangan-berapa` | Keep live | Intent edukasi sizing, tidak identik dengan katalog | Keep live, link ke katalog | Boleh tetap di sitemap | Update setelah katalog 1 PK live | Sedang |
-| `/artikel/cara-memilih-ac-untuk-kamar-3x4` | `/artikel/cara-memilih-ac-untuk-kamar-3x4` | Keep live | Intent edukasi sizing dan ruangan spesifik | Keep live, link ke kalkulator & katalog | Boleh tetap di sitemap | Update jika CTA lemah | Sedang |
-| `/artikel/ac-inverter-vs-low-watt` | `/artikel/ac-inverter-vs-low-watt` | Keep live | Intent komparasi sehat | Keep live, link ke dua katalog | Boleh tetap di sitemap | Update berkala | Sedang |
-| `/artikel/ac-kurang-dingin-belum-tentu-freon-habis` | `/artikel/ac-kurang-dingin-belum-tentu-freon-habis` | Update content | Boleh hidup sebagai trust/education, tetapi bisa melenceng ke intent service | Kurangi internal link prominence | Boleh di sitemap bila relevan | Check if useful; do not over-index cluster service | Rendah |
+| `/toko-ac-terdekat` | `/jual-ac-purwokerto` | Redirect active | Intent toko/AC lokal paling tepat ke money page Purwokerto | Link internal hanya ke target final | Legacy tidak masuk sitemap | Inspect target only | Tinggi |
+| `/instalasi-ac-banyumas` | `/jual-ac-purwokerto` | Redirect active | Legacy instalasi lokal ditangkap oleh halaman lokal utama + opsi pemasangan | Remove legacy internal link | Legacy tidak masuk sitemap | Inspect target only | Tinggi |
+| `/instalasi-profesional` | `/pengiriman-pemasangan` | Redirect active | Intent pemasangan umum lebih tepat ke page pengiriman/pemasangan | Link ke target final | Legacy tidak masuk sitemap | Inspect target only | Tinggi |
+| `/daikin-purwokerto` | `/brand/daikin` | Redirect active | Brand intent harus konsolidasi ke brand page | Link ke brand final | Legacy tidak masuk sitemap | Inspect target only | Tinggi |
+| `/gree-purwokerto` | `/brand/gree` | Redirect active | Brand intent harus konsolidasi ke brand page | Link ke brand final | Legacy tidak masuk sitemap | Inspect target only | Tinggi |
+| `/midea-purwokerto` | `/brand/midea` | Redirect active | Brand intent harus konsolidasi ke brand page | Link ke brand final | Legacy tidak masuk sitemap | Inspect target only | Tinggi |
+| `/ac-inverter-purwokerto` | `/katalog/ac-inverter` | Redirect active | Intent kategori lebih tepat di katalog inverter | Link ke katalog final | Legacy tidak masuk sitemap | Inspect target only | Tinggi |
+| `/ac-low-watt-purwokerto` | `/katalog/ac-low-watt` | Redirect active | Intent kategori lebih tepat di katalog low watt | Link ke katalog final | Legacy tidak masuk sitemap | Inspect target only | Tinggi |
+| `/pengadaan-ac-proyek` | `/pengadaan-ac` | Redirect active | Legacy B2B hub lama diganti canonical umum | Link ke B2B final | Legacy tidak masuk sitemap | Inspect target only | Tinggi |
+| `/gallery` | `/bukti-pengiriman-proyek` | Redirect active | Proof/gallery lama diganti proof page final | Link ke proof final | Legacy tidak masuk sitemap | Inspect target only | Tinggi |
+| `/portfolio` | `/bukti-pengiriman-proyek` | Redirect active | Portfolio lama paling relevan ke proof page | Link ke proof final | Legacy tidak masuk sitemap | Inspect target only | Tinggi |
+| `/artikel/harga-ac-1-2-pk-purwokerto-pemasangan` | `/katalog/ac-1-2-pk` | Redirect active / keep consolidated | Intent produk + kapasitas lebih tepat di katalog 1/2 PK | Remove legacy internal link | Hanya target di sitemap | Inspect target only | Tinggi |
+| `/artikel/ac-low-watt-listrik-900-1300-watt-purwokerto` | `/katalog/ac-low-watt` | Redirect active / keep consolidated | Intent kategori lebih tepat di katalog low watt | Remove legacy internal link | Hanya target di sitemap | Inspect target only | Tinggi |
+| `/artikel/harga-ac-daikin-purwokerto` | `/brand/daikin` | Redirect active / keep consolidated | Brand-intent harus ke brand page | Remove legacy internal link | Hanya target di sitemap | Inspect target only | Tinggi |
+| `/artikel/harga-ac-gree-purwokerto` | `/brand/gree` | Redirect active / keep consolidated | Brand-intent harus ke brand page | Remove legacy internal link | Hanya target di sitemap | Inspect target only | Tinggi |
+| `/artikel/harga-ac-midea-purwokerto` | `/brand/midea` | Redirect active / keep consolidated | Brand-intent harus ke brand page | Remove legacy internal link | Hanya target di sitemap | Inspect target only | Tinggi |
+| `/artikel/ac-untuk-kost-purwokerto` | `/pengadaan-ac/kost-apartemen-skala-besar` | Redirect active / keep consolidated | Intent banyak unit lebih tepat di B2B kost/apartemen | Remove legacy internal link | Hanya target di sitemap | Inspect target only | Tinggi |
+| `/artikel/jual-ac-banyumas-konsultasi-pk-stok-pasang` | `/jual-ac-banyumas` | Redirect / no indexing source | Intent lokal uang harus ke area money page Banyumas | Remove legacy internal link | Jangan masuk sitemap | Inspect target only | Tinggi |
+| `/artikel/toko-ac-purwokerto-yang-bisa-konsultasi-pk` | `/jual-ac-purwokerto` | Redirect / no indexing source | Query “toko AC Purwokerto” terlalu dekat dengan area money page | Remove legacy internal link | Jangan masuk sitemap | Inspect target only | Tinggi |
+| `/artikel/samsung-inverter-purwokerto` | `/brand/samsung` | Redirect if not model-specific | Intent brand generik lebih tepat di brand page | Remove legacy internal link jika redirect | Jangan legacy sitemap | Inspect target after decision | Sedang |
+| `/artikel/sharp-bey-purwokerto` | Keep live | Model-specific / article intent sempit | Masih layak bila tidak memakan brand/money page | Keep contextual link only | Boleh di sitemap jika canonical/indexable | Monitor content quality | Sedang |
+| `/artikel/ac-1-pk-untuk-ruangan-berapa` | Keep live | Edukasi sizing | Intent edukasi, bukan transaksi katalog | Link ke kalkulator/katalog | Boleh sitemap | Monitor cannibalization | Sedang |
+| `/artikel/cara-memilih-ac-untuk-kamar-3x4` | Keep live | Edukasi ruangan spesifik | Intent edukasi dan lead warming | Link ke kalkulator/katalog | Boleh sitemap | Monitor CTA | Sedang |
+| `/artikel/ac-inverter-vs-low-watt` | Keep live | Komparasi sehat | Mendukung dua katalog berbeda | Link ke low watt + inverter | Boleh sitemap | Update berkala | Sedang |
+| `/artikel/ac-kurang-dingin-belum-tentu-freon-habis` | Keep/update cautiously | Edukasi/trust, bukan service cluster utama | Jangan terlalu dominan sebagai service intent | Link secukupnya ke konsultasi/kalkulator | Boleh sitemap jika relevan | Monitor intent | Rendah |
+| `/artikel/panduan-beli-ac-baru` | Keep live | Buying guide | Fokus keputusan beli unit, PK, daya, brand, anggaran, stok | Link ke katalog/kalkulator | Boleh sitemap | Monitor CTR/lead | Tinggi |
+| `/artikel/panduan-instalasi-ac-baru` | Keep live if install intent remains clear | Installation guide | Fokus indoor/outdoor, pipa, drainase, listrik, titik pemasangan | Link ke pengiriman-pemasangan/katalog terkait | Boleh sitemap | Jangan merge kecuali konten kembali duplikatif | Sedang |
 
-Audit publik juga memperlihatkan bahwa URL lama yang sebenarnya sudah redirect kadang masih muncul sebagai hasil pencarian atau snippet. Itu tidak otomatis berarti redirect gagal; lebih sering berarti Google belum memproses ulang seluruh sinyal dan title/snippet. Karena itu workflow proyek harus fokus pada target final, sitemap canonical, dan internal links bersih. citeturn5search2turn2search16turn5search15turn7search0turn20view5turn20view7turn33view0
+## Keputusan Khusus: Dua Artikel Panduan AC Baru
+
+Jangan otomatis merge `/artikel/panduan-beli-ac-baru` dan `/artikel/panduan-instalasi-ac-baru`.
+
+Keputusan saat ini:
+
+- `/artikel/panduan-beli-ac-baru` tetap hidup sebagai buying guide: ukuran ruangan, PK, daya listrik, tipe AC, brand, garansi, stok, dan anggaran.
+- `/artikel/panduan-instalasi-ac-baru` tetap hidup sebagai installation guide: posisi indoor, outdoor, jalur pipa, drainase, listrik, dan kesiapan titik pemasangan.
+
+Merge/redirect hanya dilakukan jika audit konten terbaru membuktikan keduanya kembali mengejar intent yang sama 100%. Selama intent berbeda, lebih aman mempertahankan keduanya dan menguatkan internal link ke money page yang tepat.
 
 ## Aturan untuk Assistant/Codex
 
 - Setiap kali membuat redirect baru, update tiga hal sekaligus: internal links, sitemap, dan daftar URL untuk URL Inspection target.
 - Jangan pernah menjadikan URL redirect sebagai tujuan link di navigation, body copy, breadcrumb, CTA, atau widget related posts.
 - Jika ada dua slug untuk tema yang sama, pilih satu canonical berdasarkan peran bisnis dan intent. Yang kalah harus redirect, bukan sekadar canonical tag.
-- Jika URL lama masih muncul di SERP, jangan panik dan jangan request indexing halaman lama. Inspect target final dan pastikan internal links sudah menunjuk ke target itu. citeturn20view5turn33view1
+- Jika URL lama masih muncul di SERP, jangan panik dan jangan request indexing halaman lama. Inspect target final dan pastikan internal links sudah menunjuk ke target itu.
 - Untuk trailing slash issues, canonical dan redirect harus konsisten; jangan biarkan dua versi 200 OK.
 - Tambahkan redirect map ke source proyek sebelum deploy batch baru, agar tidak ada orphan rewrite.
+- AI/parser audit lama tidak boleh mengalahkan curl/live/GSC.
 
 ## Jangan Dilakukan
 
-- Jangan menghapus URL lama tanpa 301 redirect.
+- Jangan menghapus URL lama tanpa redirect ke target paling relevan.
 - Jangan request indexing URL lama yang sudah redirect.
 - Jangan memasukkan URL redirect ke sitemap XML.
 - Jangan membiarkan artikel lokal uang tetap hidup kalau area page sudah ada.
-- Jangan memelihara slug buying-guide ganda.
+- Jangan memelihara slug buying-guide ganda jika intent-nya identik, tetapi jangan merge dua artikel yang intent-nya sudah jelas berbeda.
 - Jangan menunda pembersihan internal links setelah redirect; redirect tidak boleh dijadikan solusi permanen untuk navigasi internal.
 - Jangan mengarahkan banyak legacy URL ke homepage jika ada target yang lebih relevan.
 
-## Contoh Implementasi
+## Workflow GSC setelah Redirect Baru
 
-Contoh keputusan slug buying-guide:
-
-- **Pilih satu canonical final:** `/artikel/panduan-beli-ac-baru`
-- **301 dari:** `/artikel/beli-ac-baru-purwokerto-panduan-sebelum-order`
-- **301 dari:** `/artikel/panduan-instalasi-ac-baru` bila memang kontennya adalah buying guide yang sama
-- **Perbarui internal links:** semua artikel, katalog, dan CTA yang sebelumnya menuju slug lama
-
-Contoh workflow GSC setelah redirect baru:
-
-- Jalankan 301
-- Ganti semua internal link ke target final
-- Pastikan source legacy tidak ada di sitemap
-- Inspect target final
-- Request indexing target final jika konten target juga diupdate
-- Pantau Coverage + Performance selama beberapa minggu. Google menjelaskan bahwa perubahan besar butuh waktu recrawl/reindex dan fluktuasi sementara itu normal. citeturn33view0turn20view5
+1. Jalankan redirect.
+2. Ganti semua internal link ke target final.
+3. Pastikan source legacy tidak ada di sitemap.
+4. Inspect target final.
+5. Request indexing target final jika konten target juga diupdate penting.
+6. Pantau Coverage + Performance selama beberapa minggu.
