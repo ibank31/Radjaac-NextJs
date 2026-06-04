@@ -186,13 +186,13 @@ relatedLinks: [
     label: "Jual AC Sokaraja",
     title: "Jual AC Sokaraja | Dekat Showroom & Gudang RADJA AC — RADJA AC",
     description:
-      "Butuh AC di Sokaraja dekat showroom RADJA AC? Cek stok, kebutuhan PK, pengiriman unit, opsi pemasangan, atau kebutuhan banyak unit via WhatsApp.",
+      "Butuh AC di Sokaraja dekat showroom dan gudang RADJA AC? Cek stok, kebutuhan PK, pengiriman unit, opsi pemasangan, atau kebutuhan banyak unit via WhatsApp.",
     h1: "Jual AC Sokaraja dekat showroom dan gudang RADJA AC",
     eyebrow: "Area Showroom & Gudang RADJA AC",
     intro:
       "Showroom dan gudang RADJA AC berada di Pamijen, Sokaraja, Banyumas. Pembelian AC original untuk rumah, kost, toko, kantor, usaha, dan kebutuhan banyak unit bisa dimulai dari cek PK, stok, pengiriman, dan opsi pemasangan.",
     localContext:
-      "Sokaraja adalah area showroom dan gudang RADJA AC, sehingga halaman ini menjadi trust page sekaligus money page lokal. Calon pembeli di Sokaraja dan sekitarnya bisa mulai dari cek ukuran ruangan, daya listrik, pilihan brand, stok unit, pengiriman, dan kebutuhan pemasangan sebelum datang atau melanjutkan pembelian.",
+      "Showroom dan gudang RADJA AC berada di Pamijen, Sokaraja. Calon pembeli di Sokaraja dan sekitarnya bisa mulai dari cek ukuran ruangan, daya listrik, pilihan brand, stok unit, pengiriman, dan kebutuhan pemasangan sebelum datang atau melanjutkan pembelian.",
     coverageNote:
       "Untuk Sokaraja, Pamijen, dan area sekitar, tim RADJA AC mengecek stok, alamat, jadwal, kebutuhan material, akses lokasi, dan opsi pemasangan agar estimasi lebih rapi sejak awal.",
     commonNeeds: [
@@ -251,7 +251,7 @@ relatedLinks: [
       ],
       [
         "Apakah RADJA AC melayani pemasangan AC di Sokaraja?",
-        "Opsi pemasangan area Sokaraja bisa dikonsultasikan. Tim RADJA AC akan mengecek alamat, titik indoor-outdoor, kebutuhan material, stok unit, dan jadwal.",
+        "Opsi pemasangan area Sokaraja bisa dikonsultasikan. Tim RADJA AC akan mengecek alamat, posisi indoor dan outdoor, kebutuhan material, stok unit, dan jadwal.",
       ],
       [
         "Bisa beli AC untuk rumah, toko, kost, atau kantor di Sokaraja?",
