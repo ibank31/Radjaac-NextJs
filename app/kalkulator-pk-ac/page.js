@@ -45,6 +45,7 @@ const checkFactors = [
   "Jumlah orang yang sering berada di ruangan",
   "Perangkat panas seperti komputer, kulkas, atau alat masak dekat ruangan",
   "Daya listrik rumah dan MCB jika diketahui",
+  "Jumlah ruangan atau jumlah unit jika untuk kost, kantor, usaha, atau proyek",
   "Kebutuhan unit saja atau sekalian opsi pemasangan",
 ];
 
@@ -100,6 +101,10 @@ export default function KalkulatorPkAcPage() {
             <h2 className="text-xl font-black text-slate-950">Lanjutkan hasil cek ke pilihan AC</h2>
             <div className="mt-5 space-y-3 text-sm leading-6 text-slate-600">
               <p className="rounded-2xl bg-slate-50 p-4">
+                Hasil kalkulator adalah estimasi awal. Ruangan panas, plafon tinggi, pintu sering terbuka,
+                banyak orang, atau perangkat panas bisa membuat kebutuhan PK naik.
+              </p>
+              <p className="rounded-2xl bg-slate-50 p-4">
                 Untuk ruangan kecil, mulai dari halaman AC 1/2 PK lalu konfirmasi ukuran dan daya listrik.
               </p>
               <p className="rounded-2xl bg-slate-50 p-4">
@@ -119,8 +124,9 @@ export default function KalkulatorPkAcPage() {
         <section className="mt-12 rounded-3xl border border-blue-100 bg-white p-6 text-slate-950 shadow-[0_18px_55px_rgba(15,39,66,0.08)]">
           <h2 className="text-2xl font-black">Mau cek hasil PK ke tim RADJA AC?</h2>
           <p className="mt-4 max-w-3xl text-sm leading-6 text-slate-600">
-            Kirim ukuran ruangan, tinggi plafon jika tahu, daya listrik, kota, anggaran, dan kebutuhan unit
-            saja atau sekalian opsi pemasangan. Tim RADJA AC cocokkan pilihan dari ukuran ruangan, daya listrik, dan stok.
+            Kirim ukuran ruangan, tinggi plafon jika tahu, daya listrik, kota, anggaran, jumlah unit, dan kebutuhan unit
+            saja atau sekalian opsi pemasangan. Tim RADJA AC cocokkan pilihan dari ukuran ruangan, daya listrik,
+            stok brand, garansi unit, opsi pembayaran, pengiriman, dan kebutuhan pemasangan.
           </p>
           <div className="mt-6">
             <WhatsappLink
@@ -138,6 +144,9 @@ export default function KalkulatorPkAcPage() {
           <div className="mt-5 grid gap-3 md:grid-cols-3">
             {[
               ["AC 1/2 PK", routes.katalogAcSetengahPk],
+              ["AC 1 PK", routes.katalogAcSatuPk],
+              ["AC 1.5 PK", routes.katalogAcSatuSetengahPk],
+              ["AC 2 PK", routes.katalogAcDuaPk],
               ["AC Low Watt", routes.katalogAcLowWatt],
               ["AC Inverter", routes.katalogAcInverter],
               ["Pengadaan AC Banyak Unit", routes.pengadaanAc],
