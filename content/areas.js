@@ -273,7 +273,7 @@ export const areaItems = [
       intro:
         "Butuh AC di Jatilawang untuk rumah, toko, ruko, kantor, ruang usaha, atau beberapa unit? Tim RADJA AC bantu cek kebutuhan PK, daya listrik, stok brand, pengiriman, dan opsi pemasangan dari data awal.",
       localContext:
-        "Jatilawang termasuk area Banyumas yang cocok untuk kebutuhan rumah tinggal, toko, ruko, kantor kecil, ruang usaha, dan pembelian beberapa unit. Kirim ukuran ruangan, jumlah unit, daya listrik, alamat, anggaran awal, serta kebutuhan unit saja atau opsi pemasangan.",
+        "Jatilawang berada di jalur Banyumas bagian barat-selatan dengan kebutuhan AC untuk rumah tinggal, toko, ruko, kantor kecil, ruang usaha, dan beberapa unit. Kirim ukuran ruangan, jumlah unit, daya listrik, alamat detail, anggaran awal, serta kebutuhan unit saja atau opsi pemasangan.",
       coverageNote:
         "Showroom dan gudang RADJA AC berada di Banyumas. Kebutuhan AC area Jatilawang dilayani dengan konsultasi PK, cek stok unit, pengiriman, serta opsi pemasangan sesuai alamat, jumlah unit, dan jadwal.",
       keywordVariants: [
@@ -334,6 +334,8 @@ export const areaItems = [
         ["Jual AC Purwokerto", routes.jualAcPurwokerto],
         ["Kalkulator PK AC", routes.kalkulatorPkAc],
         ["AC Low Watt", routes.katalogAcLowWatt],
+        ["Pengiriman & Pemasangan", routes.pengirimanPemasangan],
+        ["Bukti Pengiriman & Proyek", routes.buktiPengirimanProyek],
         ["Kontak RADJA AC", routes.kontak],
       ],
       ctaLabel: "Chat WhatsApp untuk cek AC Jatilawang",
@@ -353,7 +355,7 @@ export const areaItems = [
       intro:
         "Butuh AC di Cilongok untuk rumah, toko, ruko, kantor, ruang usaha, atau beberapa unit? Tim RADJA AC bantu cek kebutuhan PK, daya listrik, stok brand, pengiriman, dan opsi pemasangan dari data awal.",
       localContext:
-        "Cilongok termasuk area Banyumas yang cocok untuk kebutuhan rumah tinggal, toko, ruko, kantor kecil, ruang usaha, dan pembelian beberapa unit. Kirim ukuran ruangan, jumlah unit, daya listrik, alamat, anggaran awal, serta kebutuhan unit saja atau opsi pemasangan.",
+        "Cilongok cocok untuk kebutuhan AC rumah tinggal, kamar, kost, kontrakan, toko kecil, dan ruang usaha. Karena pilihan AC sering dipengaruhi daya listrik dan ukuran ruangan, kirim jumlah unit, daya listrik, alamat detail, anggaran awal, serta kebutuhan unit saja atau opsi pemasangan.",
       coverageNote:
         "Showroom dan gudang RADJA AC berada di Banyumas. Kebutuhan AC area Cilongok dilayani dengan konsultasi PK, cek stok unit, pengiriman, serta opsi pemasangan sesuai alamat, jumlah unit, dan jadwal.",
       keywordVariants: [
@@ -414,6 +416,8 @@ export const areaItems = [
         ["Jual AC Purwokerto", routes.jualAcPurwokerto],
         ["Kalkulator PK AC", routes.kalkulatorPkAc],
         ["AC Low Watt", routes.katalogAcLowWatt],
+        ["Pengiriman & Pemasangan", routes.pengirimanPemasangan],
+        ["Bukti Pengiriman & Proyek", routes.buktiPengirimanProyek],
         ["Kontak RADJA AC", routes.kontak],
       ],
       ctaLabel: "Chat WhatsApp untuk cek AC Cilongok",
@@ -532,6 +536,8 @@ export const areaItems = [
         ["Kalkulator PK AC", routes.kalkulatorPkAc],
         ["AC Low Watt", routes.katalogAcLowWatt],
         ["AC Gree", routes.brandGree],
+        ["Pengiriman & Pemasangan", routes.pengirimanPemasangan],
+        ["Bukti Pengiriman & Proyek", routes.buktiPengirimanProyek],
         ["Kontak RADJA AC", routes.kontak],
       ],
       ctaLabel: "Chat WhatsApp untuk cek stok AC Wangon",
