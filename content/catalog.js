@@ -224,11 +224,11 @@ export const catalogItems = [
     label: "AC Inverter",
     title: "AC Inverter | Untuk Pemakaian Lama & Hemat Tarikan Listrik — RADJA AC",
     description:
-      "Konsultasi AC inverter untuk pemakaian lama, kamar, rumah, kantor, dan kebutuhan hemat listrik. Cek ukuran ruangan, jam pemakaian, daya listrik, stok, dan opsi pemasangan.",
+      "Konsultasi AC inverter untuk pemakaian lama, kamar, rumah, kantor, dan kebutuhan hemat listrik. Cek ukuran ruangan, jam pemakaian, daya listrik, stok, garansi, pembayaran, dan opsi pemasangan.",
     h1: "AC inverter untuk pemakaian lama dan kebutuhan hemat listrik",
     eyebrow: "Katalog Tipe",
     intro:
-      "AC inverter cocok untuk ruangan yang sering dipakai lama. Pilihan unit tetap dibaca dari ukuran ruangan, jam pemakaian rutin, daya listrik, anggaran, dan brand yang tersedia.",
+      "AC inverter cocok untuk ruangan yang sering dipakai lama karena kerja kompresornya lebih stabil saat suhu sudah tercapai. Pilihan unit tetap dibaca dari ukuran ruangan, jam pemakaian rutin, daya listrik, anggaran, stok brand, opsi pemasangan, garansi unit, dan opsi pembayaran.",
     bestFor: [
       "Kamar dengan pemakaian lama",
       "Rumah harian",
@@ -240,6 +240,24 @@ export const catalogItems = [
       "Harga awal dibanding AC standard",
       "Daya listrik dan efisiensi",
       "Brand dan stok unit yang tersedia",
+      "Opsi pemasangan, garansi unit, dan pembayaran",
+    ],
+    useCases: [
+      [
+        "Kamar tidur pemakaian malam",
+        "Cocok jika AC dipakai berjam-jam dan pintu ruangan sering tertutup.",
+        "Cek ukuran kamar, daya listrik, target suhu, dan kebiasaan pemakaian.",
+      ],
+      [
+        "Ruang kerja atau kantor kecil",
+        "Cocok untuk pemakaian lama dengan kebutuhan suhu yang lebih stabil.",
+        "Cek jumlah orang, perangkat elektronik, jam operasional, dan posisi outdoor.",
+      ],
+      [
+        "Pemakaian sebentar",
+        "Belum tentu perlu inverter jika AC hanya dipakai singkat atau tidak rutin.",
+        "Bandingkan dengan AC standard atau low watt dari anggaran dan pola pemakaian.",
+      ],
     ],
     ctaLabel: "Tanya AC Inverter",
     waIntent: "konsultasi AC inverter",

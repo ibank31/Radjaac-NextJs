@@ -23,6 +23,7 @@ const checklist = [
   "Jam pemakaian dan jumlah orang di ruangan",
   "Anggaran, preferensi brand, dan pilihan tipe",
   "Alamat pengiriman dan kebutuhan pemasangan",
+  "Opsi pembayaran yang ingin dikonfirmasi: DP, transfer, atau COD",
 ];
 
 const brandLinks = [
@@ -119,7 +120,7 @@ export default async function CatalogDetailPage({ params }) {
                   source={`Katalog ${item.label}`}
                   intent={item.waIntent}
                   category={item.waCategory}
-            pageType="catalog"
+                  pageType="catalog"
                 >
                   {item.ctaLabel}
                 </WhatsappLink>
