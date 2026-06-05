@@ -4,6 +4,7 @@ import { routes } from "@/content/routes";
 import { buildMetadata } from "@/lib/seo";
 import { staticPageMetadata } from "@/content/static-pages";
 import WhatsappLink from "@/components/ui/WhatsappLink";
+import { warrantyHighlights } from "@/content/policies";
 
 export const metadata = buildMetadata(staticPageMetadata.jualAc);
 
@@ -101,7 +102,7 @@ export default function JualAcPage() {
               Jual AC Original Multi-Brand
             </p>
             <h1 className="mt-7 max-w-4xl text-2xl font-black tracking-tight sm:text-3xl lg:text-5xl">
-              Beli AC dimulai dari ukuran ruangan, daya listrik, stok unit, dan kebutuhan pemasangan.
+              Beli AC original multi-brand dimulai dari ukuran ruangan, daya listrik, stok unit, dan kebutuhan pemasangan.
             </h1>
             <p className="mt-6 max-w-2xl text-sm leading-7 text-slate-600 sm:text-base">
               RADJA AC melayani pembelian AC original multi-brand untuk rumah, kost, toko,
@@ -310,6 +311,33 @@ export default function JualAcPage() {
         </div>
       </section>
 
+      <section className="bg-white">
+        <div className="mx-auto max-w-7xl px-6 pb-20 lg:px-8">
+          <div className="rounded-[2rem] border border-slate-200 bg-slate-50 p-8 sm:p-10">
+            <p className="text-sm font-black uppercase tracking-[0.22em] text-blue-700">
+              Garansi & bantuan klaim
+            </p>
+            <h2 className="mt-4 text-2xl font-black tracking-tight text-slate-950 sm:text-3xl">
+              Garansi unit mengikuti ketentuan brand, pemasangan dijelaskan dari awal.
+            </h2>
+            <p className="mt-5 max-w-3xl text-sm leading-7 text-slate-600">
+              Tim RADJA AC menjelaskan garansi unit, garansi pemasangan yang berlaku, kebutuhan material,
+              dan alur bantuan awal klaim sebelum pembelian atau jadwal pemasangan dikonfirmasi.
+            </p>
+            <div className="mt-7 grid gap-4 md:grid-cols-3">
+              {warrantyHighlights.map((point) => (
+                <div
+                  key={point}
+                  className="rounded-3xl border border-slate-200 bg-white p-5 text-sm font-semibold leading-7 text-slate-700"
+                >
+                  {point}
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+      </section>
+
       <section className="bg-[#f7fbff] text-slate-950">
         <div className="mx-auto max-w-7xl px-6 py-20 lg:px-8">
           <div className="grid gap-12 lg:grid-cols-[0.9fr_1.1fr]">
@@ -358,11 +386,10 @@ export default function JualAcPage() {
                 Area layanan
               </p>
               <h2 className="mt-4 text-2xl font-black tracking-tight text-slate-950 sm:text-3xl">
-                Mulai dari Banyumas, Purwokerto, Sokaraja, dan area Jawa prioritas.
+                Pengiriman dan opsi pemasangan dicek berdasarkan lokasi tujuan.
               </h2>
               <p className="mt-5 text-sm leading-7 text-slate-700">
-                Untuk alamat pengiriman dan opsi pemasangan, tim RADJA AC tetap cek
-                lokasi, stok, jumlah unit, dan jadwal.
+                RADJA AC melayani dari basis Banyumas untuk area sekitar dan beberapa area Jawa prioritas. Tim RADJA AC tetap cek lokasi, stok, jumlah unit, dan jadwal sebelum pembelian.
               </p>
             </div>
 
