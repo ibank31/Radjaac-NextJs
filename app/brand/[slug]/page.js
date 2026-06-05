@@ -32,6 +32,7 @@ const checklist = [
   "Jumlah unit dan kapasitas PK yang dibutuhkan",
   "Preferensi standard, low watt, atau inverter",
   "Alamat pengiriman dan kebutuhan pemasangan",
+  "Opsi pembayaran yang ingin dikonfirmasi: DP, transfer, atau COD",
 ];
 
 const pkGuide = [
@@ -161,7 +162,7 @@ export default async function BrandDetailPage({ params }) {
 
             <p className="mb-4 max-w-2xl text-sm leading-7 text-slate-600 sm:text-base">{item.intro}</p>
             <p className="mb-6 max-w-2xl text-sm leading-7 text-slate-500 sm:text-base">
-              Tim RADJA AC cek stok, tipe, harga, pengiriman, dan opsi pemasangan sebelum pembelian.
+              Tim RADJA AC cek stok, tipe, harga, pengiriman, opsi pemasangan, garansi unit, dan opsi pembayaran sebelum pembelian.
             </p>
 
             <div className="mb-4 flex flex-col gap-3 sm:flex-row sm:flex-wrap">
@@ -170,7 +171,7 @@ export default async function BrandDetailPage({ params }) {
                 source={`Brand ${item.name}`}
                 intent={item.waIntent}
                 brand={item.waBrand}
-            pageType="brand"
+                pageType="brand"
               >
                 {item.ctaLabel}
               </WhatsappLink>
@@ -237,6 +238,9 @@ export default async function BrandDetailPage({ params }) {
               <div className="rounded-[1.35rem] border border-slate-200 bg-white px-5 py-4 text-sm font-bold text-slate-700 shadow-sm">
                 Garansi unit mengikuti ketentuan brand
               </div>
+              <div className="rounded-[1.35rem] border border-slate-200 bg-white px-5 py-4 text-sm font-bold text-slate-700 shadow-sm">
+                Pembayaran dikonfirmasi sebelum pengiriman/pemasangan
+              </div>
             </div>
           </div>
 
@@ -287,8 +291,8 @@ export default async function BrandDetailPage({ params }) {
                 </div>
 
                 <div className="mt-6 rounded-2xl border border-blue-200 bg-blue-50 px-4 py-4 text-sm leading-7 text-blue-900">
-                  Tim RADJA AC cek status, tipe unit, harga, promo, ketersediaan stok, dan ketentuan garansi
-                  dari data terbaru.
+                  Tim RADJA AC cek status, tipe unit, harga, promo, ketersediaan stok, ketentuan garansi,
+                  dan opsi pembayaran dari data terbaru.
                 </div>
 
                 <div className="mt-6">
