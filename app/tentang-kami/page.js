@@ -12,6 +12,7 @@ const values = [
   "Fokus pada penjualan AC original multi-brand, termasuk Proshop Gree RADJA AC.",
   "Tim RADJA AC cek kebutuhan PK, daya listrik, pilihan brand, stok, pengiriman, dan opsi pemasangan.",
   "Informasi stok, harga, pengiriman, dan pemasangan dikonfirmasi sebelum pembelian.",
+  "Pembayaran seperti DP, transfer, atau COD dikonfirmasi setelah unit, stok, pengiriman, dan opsi pemasangan jelas.",
   "Pembelian satuan hingga pengadaan ratusan unit dibahas berdasarkan kebutuhan proyek, lokasi, jumlah unit, stok, dan jadwal.",
 ];
 
@@ -21,6 +22,7 @@ const mainLinks = [
   ["Brand Gree", routes.brandGree],
   ["Brand Daikin", routes.brandDaikin],
   ["Pengadaan AC", routes.pengadaanAc],
+  ["Bukti Pengiriman", routes.buktiPengirimanProyek],
   ["Kontak", routes.kontak],
 ];
 
@@ -36,9 +38,9 @@ export default function TentangKamiPage() {
           Website resmi penjualan AC original multi-brand
         </h1>
         <p className="mt-6 max-w-3xl text-sm leading-7 text-slate-600 sm:text-base">
-          Showroom dan gudang {siteConfig.name} berada di {siteConfig.businessBase}. Fokus utama kami adalah membantu pembeli
-          memilih AC yang sesuai untuk rumah, kost, toko, kantor, hotel, dan proyek melalui konsultasi PK,
-          cek stok, pengiriman unit, kebutuhan pemasangan, pembelian satuan hingga pengadaan ratusan unit, garansi pemasangan 1 bulan, dan bantuan klaim unit sesuai ketentuan brand.
+          Showroom dan gudang {siteConfig.name} berada di {siteConfig.businessBase}. Fokus kami adalah membantu pembeli
+          memilih AC original multi-brand untuk rumah, kost, toko, kantor, hotel, dan proyek. Kebutuhan PK,
+          stok, pengiriman unit, pemasangan, garansi pemasangan 1 bulan, bantuan klaim unit, pembayaran, dan pengadaan banyak unit dibahas sebelum pembelian.
         </p>
 
         <div className="mt-8 flex flex-col gap-3 sm:flex-row">
