@@ -54,11 +54,12 @@ export const proofImages = [
 export const primaryLinks = [
   ["Katalog AC", routes.katalog],
   ["Kalkulator PK AC", routes.kalkulatorPkAc],
+  ["Pengiriman & Pemasangan", routes.pengirimanPemasangan],
   ["AC Gree", routes.brandGree],
   ["AC Daikin", routes.brandDaikin],
   ["Pengadaan AC", routes.pengadaanAc],
   ["Bukti Pengiriman", routes.buktiPengirimanProyek],
-  ["Kontak", routes.kontak],
+  ["Kontak RADJA AC", routes.kontak],
 ];
 
 export const areaPageLinkOverrides = {

@@ -9,8 +9,8 @@ export default function AreaFinalCta({ item }) {
         </h2>
         <p className="mx-auto mb-7 max-w-2xl text-sm leading-7 text-slate-600">
           Sebutkan area/kecamatan, ukuran ruangan, daya listrik, jumlah unit,
-          dan anggaran awal. Tim RADJA AC mengecek stok dan estimasi sebelum
-          pembelian.
+          anggaran awal, serta kebutuhan pengiriman atau pemasangan. Tim RADJA AC
+          mengecek stok, estimasi, dan opsi pembayaran sebelum pembelian.
         </p>
         <WhatsappLink
           className="inline-flex items-center justify-center rounded-full bg-[#25D366] px-6 py-4 font-bold text-slate-950 shadow-[0_18px_50px_rgba(37,211,102,0.2)] transition hover:-translate-y-0.5 hover:bg-[#20BA5A]"
