@@ -213,14 +213,14 @@ function HomeHero() {
           </div>
 
           <h1 className="max-w-3xl text-3xl font-extrabold tracking-[-0.025em] text-navy sm:text-4xl lg:text-5xl">
-            Beli AC lebih aman kalau PK, stok, dan pemasangan dicek dari awal.
+            Beli AC original multi-brand lebih aman kalau PK, stok, dan pemasangan dicek dari awal.
             <span className="block text-brand-blue">
-              Untuk rumah, usaha, dan proyek di Banyumas.
+              Untuk rumah, usaha, proyek, dan pengadaan banyak unit.
             </span>
           </h1>
 
           <p className="mt-5 max-w-2xl text-sm leading-7 text-slate-600 sm:text-base">
-            RADJA AC melayani pembelian AC original multi-brand untuk rumah, usaha, properti, dan proyek. Kebutuhan PK, stok, pengiriman, dan pemasangan dibaca sebelum pembelian.
+            RADJA AC membantu pembelian AC original multi-brand untuk rumah, kost, toko, kantor, hotel, usaha, dan proyek. Showroom dan gudang RADJA AC ada di Banyumas; stok, kebutuhan PK, pengiriman, dan opsi pemasangan dikonfirmasi sebelum pembelian.
           </p>
 
           <div className="mt-7 flex flex-col gap-3 sm:flex-row sm:flex-wrap">
@@ -277,7 +277,7 @@ function HomeTrust() {
       <div className="mx-auto mb-8 max-w-3xl text-center">
         <SectionBadge tone="amber">Bukan Sekadar Klaim</SectionBadge>
         <h2 className="mt-4 text-2xl font-black tracking-tight text-blue-950 sm:text-3xl">
-          Ada showroom, stok fisik, dan bukti aktivitas toko
+          Ada showroom, stok fisik, dan bukti operasional nyata
         </h2>
       </div>
 
@@ -297,7 +297,7 @@ function HomeTrust() {
 
           <div className="border-t border-blue-200 pt-6 lg:border-l lg:border-t-0 lg:pl-8 lg:pt-0">
             <p className="text-sm leading-7 text-slate-700 sm:text-base">
-              Selain konsultasi brand lain, RADJA AC juga dikenal melalui aktivitas showroom, stok fisik,
+              Selain konsultasi brand lain, RADJA AC juga dikenal melalui showroom, stok fisik,
               pengiriman, dan pemasangan. Untuk Gree, RADJA AC tercantum sebagai Proshop resmi Gree
               Indonesia. Untuk stok, harga, tipe unit, dan jadwal pemasangan, tetap konfirmasi dulu
               agar informasi mengikuti stok dan jadwal terbaru.
@@ -374,7 +374,7 @@ function HomePriceEstimate() {
           <div>
             <SectionBadge>Estimasi Anggaran AC + Pasang</SectionBadge>
             <h2 className="mt-4 text-2xl font-black tracking-tight text-blue-950 sm:text-3xl">
-              Pilih AC dari anggaran awal
+              Mulai pilih AC dari kisaran anggaran dan kebutuhan ruangan
             </h2>
           </div>
           <p className="text-sm leading-7 text-slate-600 sm:text-base">
@@ -524,7 +524,7 @@ function HomeCategory() {
       <div className="mb-6">
         <SectionBadge>Kategori Produk</SectionBadge>
         <h2 className="mt-4 text-2xl font-black tracking-tight text-blue-950 sm:text-3xl">
-          Pilih dari jenis ruangan
+          Pilih AC berdasarkan jenis ruangan dan pemakaian
         </h2>
         <p className="mt-3 max-w-2xl text-sm leading-7 text-slate-600 sm:text-base">
           Kamar kost, rumah, toko yang pintunya sering buka, dan kantor hitungannya berbeda. Mulai dari
@@ -561,7 +561,7 @@ function HomeBrands() {
         <div>
           <SectionBadge>Brand Tersedia</SectionBadge>
           <h2 className="mt-4 text-2xl font-black tracking-tight text-blue-950 sm:text-3xl">
-            Tiap brand punya karakter sendiri
+            Pilih brand AC sesuai ruangan, anggaran, dan pola pemakaian
           </h2>
         </div>
 
@@ -653,8 +653,8 @@ function HomeWhyChoose() {
           Stok dicek, PK dihitung, pasang dijelaskan — sebelum pembelian
         </h2>
         <p className="mx-auto mt-4 max-w-2xl text-sm leading-7 text-slate-600">
-          Bukan soal promosi. Ini yang kami lakukan di setiap order — supaya tidak ada yang kaget di
-          belakang, baik soal harga maupun hasil akhir pemasangan.
+          Fokusnya bukan sekadar promo, tapi memastikan unit, PK, dan pemasangan sesuai kondisi lokasi.
+          Ini yang kami lakukan di setiap order supaya tidak ada yang kaget di belakang, baik soal harga maupun hasil akhir pemasangan.
         </p>
       </div>
 
