@@ -12,6 +12,7 @@ const quickNeeds = [
   "Cek stok unit dan pilihan brand",
   "Estimasi anggaran unit dan opsi pemasangan",
   "Pengiriman untuk rumah, toko, kantor, kost, hotel, atau proyek",
+  "Konfirmasi garansi, pembayaran, pengiriman, dan pemasangan",
 ];
 
 const messageChecklist = [
@@ -20,6 +21,7 @@ const messageChecklist = [
   "Lokasi pengiriman atau pemasangan",
   "Anggaran dan brand yang diminati bila sudah ada",
   "Jumlah unit kalau untuk kantor, kost, hotel, atau proyek",
+  "Opsi pembayaran yang ingin dikonfirmasi: DP, transfer, atau COD",
 ];
 
 const contactReasons = [
@@ -35,11 +37,16 @@ const contactReasons = [
     "Biaya lebih jelas dari awal",
     "Pengiriman, pipa, titik outdoor, dan opsi pemasangan dibahas sejak awal agar tidak menggantung.",
   ],
+  [
+    "Pembayaran dan pemasangan dikonfirmasi",
+    "Pembayaran, pengiriman, garansi, dan opsi pemasangan dibahas setelah kebutuhan unit dan lokasi jelas.",
+  ],
 ];
 
 const fastLinks = [
   ["Lihat Katalog AC", routes.katalog, "Mulai dari kategori AC rumah, inverter, low watt, dan komersial."],
   ["Hitung PK AC", routes.kalkulatorPkAc, "Cek kapasitas sebelum memilih unit."],
+  ["Pengiriman & Pemasangan", routes.pengirimanPemasangan, "Cek kebutuhan lokasi, material, garansi pasang, dan jadwal."],
   ["Pengadaan Banyak Unit", routes.pengadaanAc, "Untuk kost, hotel, kantor, kontraktor, developer, dan proyek."],
 ];
 
