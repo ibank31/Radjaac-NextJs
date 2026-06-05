@@ -82,12 +82,12 @@ export default function KatalogPage() {
             </p>
 
             <h1 className="mb-5 max-w-2xl text-2xl font-black leading-tight tracking-[-0.03em] text-slate-950 sm:text-3xl md:text-4xl xl:text-5xl">
-              Belum tahu mau pilih AC apa?
+              Katalog AC original untuk rumah, usaha, dan banyak unit.
               <span className="block text-blue-700">Mulai dari kebutuhan ruangannya dulu.</span>
             </h1>
 
             <p className="mb-6 max-w-xl text-sm leading-7 text-slate-600 sm:text-base">
-              Kamar kecil, ruang keluarga, kost, toko, kantor, dan banyak unit punya hitungan berbeda. Kirim ukuran ruangan dan daya listrik; tim RADJA AC cek PK, stok, pengiriman, dan pemasangan sebelum lanjut pembelian.
+              Di katalog ini, pilihan AC bisa dilihat dari kebutuhan kamar kecil, ruang keluarga, kost, toko, kantor, sampai banyak unit. Kirim ukuran ruangan dan daya listrik; tim RADJA AC cek PK, stok, pengiriman, dan opsi pemasangan sebelum lanjut pembelian.
             </p>
 
             <div className="flex flex-col gap-3 sm:flex-row sm:flex-wrap">
@@ -207,9 +207,9 @@ export default function KatalogPage() {
 
       <section className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8 lg:py-14">
         <div className="rounded-[1.7rem] border border-slate-200 bg-white p-6 text-center shadow-[0_18px_50px_rgba(15,39,66,0.08)] sm:p-8 lg:p-10">
-          <h2 className="mx-auto mb-5 max-w-3xl text-2xl font-black tracking-[-0.025em] text-slate-950 sm:text-3xl">Brand tinggal disesuaikan dengan kebutuhan dan anggaran</h2>
+          <h2 className="mx-auto mb-5 max-w-3xl text-2xl font-black tracking-[-0.025em] text-slate-950 sm:text-3xl">Brand AC original disesuaikan dengan kebutuhan, anggaran, dan stok aktif</h2>
           <p className="mx-auto mb-4 max-w-2xl text-sm leading-7 text-slate-600 sm:text-base">
-            Pilihan brand dibaca dari ukuran ruangan, daya listrik, anggaran, dan stok aktif.
+            Pilihan brand dibaca dari ukuran ruangan, daya listrik, anggaran, stok aktif, dan ketentuan garansi unit dari masing-masing brand.
           </p>
           <div className="flex flex-wrap justify-center gap-2.5">
             {brandLinks.map(([label, href]) => (
