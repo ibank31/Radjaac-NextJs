@@ -1961,9 +1961,9 @@ export const areaItems = [
       "title": "Jual AC Gombong untuk Rumah, Toko & Usaha — RADJA AC",
       "description": "Butuh AC untuk rumah, toko, kantor, usaha, atau banyak unit di Gombong? RADJA AC bantu cek PK, stok, pengiriman unit, opsi pemasangan, dan pembayaran fleksibel via WhatsApp.",
       "h1": "Jual AC Gombong untuk Rumah, Toko & Usaha",
-      "eyebrow": "Child Area Kebumen",
+      "eyebrow": "Area Kebumen",
       "intro": "Butuh AC di Gombong untuk rumah, kamar, toko, kantor, usaha, atau banyak unit? Tim RADJA AC membantu cek kebutuhan PK, daya listrik, pilihan brand, stok unit, pengiriman, dan opsi pemasangan berdasarkan data awal.",
-      "localContext": "Gombong disiapkan sebagai child area dari Kebumen. Gombong cocok sebagai child Kebumen karena punya intent lokal cukup jelas untuk rumah, toko, kantor, dan usaha. Kirim lokasi detail, ukuran ruangan, daya listrik, jumlah unit, anggaran, dan kebutuhan unit saja atau opsi pemasangan agar tim RADJA AC bisa menyusun rekomendasi yang masuk akal.",
+      "localContext": "Gombong berada di wilayah Kebumen dengan kebutuhan AC untuk rumah, toko, kantor kecil, ruko, usaha lokal, dan beberapa unit. Kirim lokasi detail, ukuran ruangan, daya listrik, jumlah unit, anggaran, dan kebutuhan unit saja atau opsi pemasangan agar tim RADJA AC bisa menyusun rekomendasi yang masuk akal.",
       "coverageNote": "Showroom dan gudang RADJA AC berada di Banyumas. Kebutuhan AC area Gombong dilayani dengan konsultasi PK, cek stok unit, pengiriman, dan opsi pemasangan sesuai alamat, jumlah unit, akses lokasi, serta jadwal.",
       "keywordVariants": [
           "AC untuk kamar dan ruang keluarga di Gombong",
@@ -1994,7 +1994,7 @@ export const areaItems = [
           ]
       ],
       "trustBullets": [
-          "Gombong diposisikan sebagai child area Kebumen dengan intent lokal yang cukup kuat untuk rumah, toko, ruko, kantor kecil, dan usaha.",
+          "Gombong diposisikan sebagai area Kebumen dengan kebutuhan AC rumah, toko, ruko, kantor kecil, dan usaha lokal.",
           "Kebutuhan AC dibaca dari ukuran ruangan, daya listrik, jumlah unit, stok aktif, dan alamat detail.",
           "Pengiriman dan opsi pemasangan dikonfirmasi berdasarkan lokasi, akses pekerjaan, jumlah unit, dan jadwal yang memungkinkan.",
           "Tidak ada klaim toko/cabang/showroom lokal di Gombong; konsultasi diarahkan sebagai layanan cek stok dan pengiriman RADJA AC."
@@ -2072,9 +2072,9 @@ export const areaItems = [
       "title": "Jual AC Karanganyar Kebumen untuk Rumah, Toko & Usaha — RADJA AC",
       "description": "Butuh AC untuk rumah, toko, kantor, usaha, atau banyak unit di Karanganyar Kebumen? RADJA AC bantu cek PK, stok, pengiriman unit, opsi pemasangan, dan pembayaran fleksibel via WhatsApp.",
       "h1": "Jual AC Karanganyar Kebumen untuk Rumah, Toko & Usaha",
-      "eyebrow": "Child Area Kebumen",
+      "eyebrow": "Area Kebumen",
       "intro": "Butuh AC di Karanganyar Kebumen untuk rumah, kamar, toko, kantor, usaha, atau banyak unit? Tim RADJA AC membantu cek kebutuhan PK, daya listrik, pilihan brand, stok unit, pengiriman, dan opsi pemasangan berdasarkan data awal.",
-      "localContext": "Karanganyar Kebumen disiapkan sebagai child area dari Kebumen. Karanganyar Kebumen disiapkan sebagai child Kebumen dengan penamaan aman agar tidak bentrok dengan Karanganyar lain. Kirim lokasi detail, ukuran ruangan, daya listrik, jumlah unit, anggaran, dan kebutuhan unit saja atau opsi pemasangan agar tim RADJA AC bisa menyusun rekomendasi yang masuk akal.",
+      "localContext": "Karanganyar Kebumen memakai penamaan area yang jelas agar tidak tertukar dengan Karanganyar di daerah lain. Untuk kebutuhan AC rumah, toko, kantor kecil, usaha, atau beberapa unit, kirim lokasi detail, ukuran ruangan, daya listrik, jumlah unit, anggaran, dan kebutuhan unit saja atau opsi pemasangan agar tim RADJA AC bisa menyusun rekomendasi yang masuk akal.",
       "coverageNote": "Showroom dan gudang RADJA AC berada di Banyumas. Kebutuhan AC area Karanganyar Kebumen dilayani dengan konsultasi PK, cek stok unit, pengiriman, dan opsi pemasangan sesuai alamat, jumlah unit, akses lokasi, serta jadwal.",
       "keywordVariants": [
           "AC untuk rumah area Karanganyar Kebumen",
@@ -2108,7 +2108,7 @@ export const areaItems = [
           "Karanganyar Kebumen memakai penamaan aman agar tidak bentrok dengan Karanganyar lain.",
           "Kebutuhan AC cocok dimulai dari cek ukuran ruangan, daya listrik, jumlah unit, stok aktif, dan alamat detail.",
           "Pengiriman serta opsi pemasangan dikonfirmasi berdasarkan lokasi, akses pekerjaan, dan jadwal.",
-          "Tidak ada klaim toko/cabang/showroom lokal; halaman ini disiapkan sebagai child area dari Kebumen."
+          "Tidak ada klaim toko/cabang/showroom lokal; kebutuhan area Karanganyar Kebumen dikonsultasikan melalui WhatsApp berdasarkan alamat detail."
       ],
       "localFaq": [
           [
@@ -2183,9 +2183,9 @@ export const areaItems = [
       "title": "Jual AC Kutowinangun untuk Rumah, Toko & Usaha — RADJA AC",
       "description": "Butuh AC untuk rumah, toko, kantor, usaha, atau banyak unit di Kutowinangun? RADJA AC bantu cek PK, stok, pengiriman unit, opsi pemasangan, dan pembayaran fleksibel via WhatsApp.",
       "h1": "Jual AC Kutowinangun untuk Rumah, Toko & Usaha",
-      "eyebrow": "Child Area Kebumen",
+      "eyebrow": "Area Kebumen",
       "intro": "Butuh AC di Kutowinangun untuk rumah, kamar, toko, kantor, usaha, atau banyak unit? Tim RADJA AC membantu cek kebutuhan PK, daya listrik, pilihan brand, stok unit, pengiriman, dan opsi pemasangan berdasarkan data awal.",
-      "localContext": "Kutowinangun disiapkan sebagai child area dari Kebumen. Kutowinangun disiapkan sebagai child Kebumen untuk kebutuhan AC rumah, toko, kantor kecil, dan usaha lokal. Kirim lokasi detail, ukuran ruangan, daya listrik, jumlah unit, anggaran, dan kebutuhan unit saja atau opsi pemasangan agar tim RADJA AC bisa menyusun rekomendasi yang masuk akal.",
+      "localContext": "Kutowinangun berada di wilayah Kebumen dengan kebutuhan AC untuk rumah, toko, kantor kecil, warung, usaha lokal, properti sewa, atau beberapa unit. Kirim lokasi detail, ukuran ruangan, daya listrik, jumlah unit, anggaran, dan kebutuhan unit saja atau opsi pemasangan agar tim RADJA AC bisa menyusun rekomendasi yang masuk akal.",
       "coverageNote": "Showroom dan gudang RADJA AC berada di Banyumas. Kebutuhan AC area Kutowinangun dilayani dengan konsultasi PK, cek stok unit, pengiriman, dan opsi pemasangan sesuai alamat, jumlah unit, akses lokasi, serta jadwal.",
       "keywordVariants": [
           "AC untuk kamar dan rumah area Kutowinangun",
@@ -2216,7 +2216,7 @@ export const areaItems = [
           ]
       ],
       "trustBullets": [
-          "Kutowinangun diposisikan sebagai child area Kebumen untuk kebutuhan AC rumah, toko, kantor kecil, dan usaha lokal.",
+          "Kutowinangun diposisikan sebagai area Kebumen untuk kebutuhan AC rumah, toko, kantor kecil, warung, dan usaha lokal.",
           "Kebutuhan AC dibaca dari ukuran ruangan, daya listrik, stok aktif, jumlah unit, dan alamat detail.",
           "Pengiriman dan opsi pemasangan dikonfirmasi berdasarkan lokasi, akses pekerjaan, dan jadwal yang memungkinkan.",
           "Tidak ada klaim toko/cabang/showroom lokal di Kutowinangun; konsultasi dilakukan melalui WhatsApp website."
@@ -2228,7 +2228,7 @@ export const areaItems = [
           ],
           [
               "Apakah ada toko RADJA AC di Kutowinangun?",
-              "Tidak ada klaim toko atau cabang lokal di Kutowinangun. Halaman ini disiapkan sebagai child area Kebumen untuk konsultasi cek stok, pengiriman, dan opsi pemasangan."
+              "Tidak ada klaim toko atau cabang lokal di Kutowinangun. Kebutuhan AC Kutowinangun dikonsultasikan melalui WhatsApp untuk cek stok, pengiriman, dan opsi pemasangan berdasarkan alamat detail."
           ],
           [
               "Bisa cek AC untuk toko, warung, atau kantor kecil di Kutowinangun?",
