@@ -245,6 +245,13 @@ function HomeHero() {
             >
               Pengadaan AC
             </ArrowLink>
+
+            <ArrowLink
+              href={routes.jualAc}
+              className="border border-blue-200 bg-white text-blue-900 hover:bg-blue-50"
+            >
+              Cek Area Jual AC
+            </ArrowLink>
           </div>
 
           <p className="mt-5 max-w-2xl text-sm leading-7 text-slate-500">
