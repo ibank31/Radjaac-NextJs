@@ -304,14 +304,21 @@ export const articleItems = [
           "Daya listrik dan jalur MCB perlu dicek agar sesuai dengan kebutuhan unit. Pembeli yang ragu antara AC standard, low watt, atau inverter sebaiknya menyampaikan daya listrik rumah saat konsultasi.",
         ],
       },
+      {
+        heading: "Cek biaya tambahan, garansi pasang, dan pembayaran",
+        body: [
+          "Kebutuhan seperti pipa tambahan, bracket, bobok tembok, akses tinggi, pemindahan titik, atau material tambahan bisa memengaruhi total biaya pemasangan. Karena itu, kondisi lokasi sebaiknya dibahas sebelum jadwal dipastikan.",
+          "Untuk pemasangan yang dikerjakan melalui RADJA AC, garansi pemasangan mengikuti ketentuan yang berlaku. Garansi unit mengikuti ketentuan resmi brand, sedangkan pembayaran seperti DP, transfer, atau COD dikonfirmasi setelah unit, alamat, dan opsi pemasangan jelas.",
+        ],
+      },
     ],
     ctaLabel: "Konsultasi AC Baru & Opsi Pemasangan",
     waIntent: "konsultasi beli AC baru dan opsi pemasangan",
     relatedLinks: [
+      ["Jual AC", routes.jualAc],
       ["Katalog AC", routes.katalog],
       ["Kalkulator PK AC", routes.kalkulatorPkAc],
       ["Pengiriman & Pemasangan", routes.pengirimanPemasangan],
-      ["Jual AC Purwokerto", routes.jualAcPurwokerto],
       ["Kontak RADJA AC", routes.kontak],
     ],
   },
