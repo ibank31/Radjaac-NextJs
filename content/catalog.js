@@ -124,11 +124,11 @@ export const catalogItems = [
     label: "AC 1 PK",
     title: "AC 1 PK | Cocok untuk Ruangan Berapa & Pilihan Unit — RADJA AC",
     description:
-      "Konsultasi AC 1 PK untuk kamar besar, ruang kerja, ruang tamu kecil, kost, dan toko kecil. Cek ukuran ruangan, daya listrik, stok, pengiriman, dan opsi pemasangan.",
+      "Konsultasi AC 1 PK untuk kamar besar, ruang kerja, ruang tamu kecil, kost, dan toko kecil. Cek ukuran ruangan, daya listrik, stok, garansi, pembayaran, pengiriman, dan opsi pemasangan.",
     h1: "AC 1 PK untuk kamar besar, ruang kerja, dan ruang tamu kecil",
     eyebrow: "Katalog Kapasitas",
     intro:
-      "AC 1 PK sering jadi pilihan saat 1/2 PK terasa kurang untuk kamar besar, ruang kerja, ruang tamu kecil, kost premium, atau toko kecil. Kebutuhan tetap dibaca dari ukuran ruangan, tinggi plafon, paparan panas, daya listrik, dan pola pemakaian sebelum unit disarankan.",
+      "AC 1 PK sering jadi pilihan saat 1/2 PK terasa kurang untuk kamar besar, ruang kerja, ruang tamu kecil, kost premium, atau toko kecil. Kebutuhan tetap dibaca dari ukuran ruangan, tinggi plafon, paparan panas, daya listrik, pola pemakaian, stok brand, opsi pemasangan, garansi unit, dan opsi pembayaran sebelum unit disarankan.",
     bestFor: [
       "Kamar utama atau kamar besar",
       "Ruang kerja pribadi",
@@ -140,11 +140,29 @@ export const catalogItems = [
       "Daya listrik rumah dan beban perangkat lain",
       "Pilihan standard, low watt, atau inverter",
       "Stok brand dan kebutuhan pemasangan",
+      "Garansi unit, pembayaran, dan biaya tambahan pemasangan",
     ],
     useCases: [
-      ["Kamar besar", "Cocok jika kamar lebih luas dari kamar kecil standar dan pintu sering tertutup.", "Kirim ukuran ruang, tinggi plafon, dan posisi panas matahari."],
-      ["Ruang kerja", "Cocok untuk pemakaian lama dengan kebutuhan suhu stabil.", "Pertimbangkan inverter jika dipakai berjam-jam setiap hari."],
-      ["Toko kecil", "Cocok untuk area pelanggan yang tidak terlalu luas.", "Cek bukaan pintu dan jumlah orang yang sering keluar-masuk."],
+      [
+        "Kamar besar",
+        "Cocok jika kamar lebih luas dari kamar kecil standar dan pintu sering tertutup.",
+        "Kirim ukuran ruang, tinggi plafon, posisi panas matahari, dan jam pemakaian.",
+      ],
+      [
+        "Ruang kerja",
+        "Cocok untuk pemakaian lama dengan kebutuhan suhu yang lebih stabil.",
+        "Pertimbangkan inverter jika dipakai berjam-jam setiap hari dan daya listrik mendukung.",
+      ],
+      [
+        "Toko kecil atau ruang tamu kecil",
+        "Cocok untuk area yang tidak terlalu luas, terutama jika pintu tidak terlalu sering terbuka.",
+        "Cek bukaan pintu, jumlah orang, panas lampu, dan posisi outdoor sebelum memilih unit.",
+      ],
+      [
+        "Ruangan panas atau plafon tinggi",
+        "Belum tentu cukup jika ruangan panas, plafon tinggi, atau banyak orang.",
+        "Bandingkan dengan 1.5 PK setelah ukuran dan kondisi ruangan jelas.",
+      ],
     ],
     ctaLabel: "Cek Stok AC 1 PK",
     waIntent: "cek stok AC 1 PK untuk kamar besar ruang kerja atau toko kecil",
