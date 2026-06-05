@@ -425,13 +425,13 @@ export default function JualAcPage() {
             Butuh AC untuk rumah, kantor, hotel, atau proyek?
           </h2>
           <p className="mx-auto mt-5 max-w-2xl text-sm leading-7 text-slate-600">
-            Kirim ukuran ruangan, lokasi, daya listrik, jumlah unit, dan brand yang diminati. Tim RADJA AC menyusun opsi untuk pembelian satuan sampai pengadaan banyak unit.
+            Kirim ukuran ruangan, lokasi, daya listrik, jumlah unit, brand yang diminati, serta kebutuhan pengiriman atau pemasangan. Tim RADJA AC menyusun opsi untuk pembelian satuan sampai pengadaan banyak unit.
           </p>
           <div className="mt-8 flex flex-col justify-center gap-3 sm:flex-row">
             <WhatsappLink
               className="inline-flex items-center justify-center rounded-full bg-slate-950 px-7 py-4 text-sm font-black text-white transition hover:bg-slate-800"
               source="Halaman Jual AC"
-              intent="konsultasi memilih AC original multi-brand dari halaman jual AC"
+              intent="konsultasi memilih AC original multi-brand dari halaman jual AC dengan data ruangan daya listrik jumlah unit pengiriman pemasangan dan opsi pembayaran"
             >
               Cek AC dari Data Ruangan
             </WhatsappLink>
