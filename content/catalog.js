@@ -174,11 +174,11 @@ export const catalogItems = [
     label: "AC 1.5 PK",
     title: "AC 1.5 PK | Untuk Ruangan Lebih Besar — RADJA AC",
     description:
-      "Konsultasi AC 1.5 PK untuk ruang keluarga, kantor kecil, cafe kecil, toko, dan ruangan sekitar 18–24 m². Cek daya listrik, brand, stok, pengiriman, dan opsi pemasangan.",
+      "Konsultasi AC 1.5 PK untuk ruang keluarga, kantor kecil, cafe kecil, toko, dan ruangan sekitar 18–24 m². Cek daya listrik, brand, stok, garansi, pembayaran, pengiriman, dan opsi pemasangan.",
     h1: "AC 1.5 PK untuk ruang keluarga, kantor kecil, cafe kecil, dan toko",
     eyebrow: "Katalog Kapasitas",
     intro:
-      "AC 1.5 PK cocok saat ruangan mulai lebih besar dari kamar biasa, misalnya ruang keluarga, kantor kecil, toko, atau cafe kecil. Pilihan akhir tetap perlu membaca luas ruang, tinggi plafon, bukaan pintu, jumlah orang, daya listrik, dan jam pemakaian.",
+      "AC 1.5 PK cocok saat ruangan mulai lebih besar dari kamar biasa, misalnya ruang keluarga, kantor kecil, toko, atau cafe kecil. Pilihan akhir tetap perlu membaca luas ruang, tinggi plafon, bukaan pintu, jumlah orang, daya listrik, jam pemakaian, stok brand, opsi pemasangan, garansi unit, dan opsi pembayaran.",
     bestFor: [
       "Ruang keluarga",
       "Kantor kecil atau ruang meeting kecil",
@@ -190,11 +190,29 @@ export const catalogItems = [
       "Kebisingan dan kenyamanan untuk pemakaian lama",
       "Apakah split 1.5 PK cukup atau perlu 2 PK",
       "Pilihan brand, stok, dan posisi outdoor",
+      "Garansi unit, pembayaran, dan biaya tambahan pemasangan",
     ],
     useCases: [
-      ["Ruang keluarga", "Cocok untuk area harian yang lebih luas dari kamar tidur.", "Cek jumlah orang dan paparan panas siang."],
-      ["Kantor kecil", "Cocok untuk ruang kerja beberapa orang atau meeting room kecil.", "Kirim perkiraan jumlah orang dan jam operasional."],
-      ["Toko/cafe kecil", "Cocok untuk area pelanggan yang tertutup dan tidak terlalu sering terbuka.", "Cek bukaan pintu, panas lampu, dan jumlah pengunjung."],
+      [
+        "Ruang keluarga",
+        "Cocok untuk area harian yang lebih luas dari kamar tidur.",
+        "Cek jumlah orang, paparan panas siang, tinggi plafon, dan jam pemakaian.",
+      ],
+      [
+        "Kantor kecil atau meeting room",
+        "Cocok untuk ruang kerja beberapa orang atau meeting room kecil.",
+        "Kirim perkiraan jumlah orang, jam operasional, daya listrik, dan posisi outdoor.",
+      ],
+      [
+        "Toko atau cafe kecil",
+        "Cocok untuk area pelanggan yang tertutup dan tidak terlalu sering terbuka.",
+        "Cek bukaan pintu, panas lampu, jumlah pengunjung, dan kebutuhan pemasangan.",
+      ],
+      [
+        "Ruangan lebih panas atau lebih ramai",
+        "Belum tentu cukup jika ruangan sering terbuka, banyak orang, atau panas siang cukup berat.",
+        "Bandingkan dengan 2 PK setelah ukuran dan kondisi ruangan jelas.",
+      ],
     ],
     ctaLabel: "Cek Stok AC 1.5 PK",
     waIntent: "cek stok AC 1.5 PK untuk ruang keluarga kantor kecil toko atau cafe kecil",
@@ -206,11 +224,11 @@ export const catalogItems = [
     label: "AC 2 PK",
     title: "AC 2 PK | Untuk Ruang Keluarga, Ruko & Kantor — RADJA AC",
     description:
-      "Konsultasi AC 2 PK untuk ruang tamu besar, kantor, meeting room, ruko, toko, dan kebutuhan usaha. Cek daya listrik, tipe unit, stok, pengiriman, dan opsi pemasangan.",
+      "Konsultasi AC 2 PK untuk ruang tamu besar, kantor, meeting room, ruko, toko, dan kebutuhan usaha. Cek daya listrik, tipe unit, stok, garansi, pembayaran, pengiriman, dan opsi pemasangan.",
     h1: "AC 2 PK untuk kantor, ruko, ruang besar, dan kebutuhan usaha",
     eyebrow: "Katalog Kapasitas",
     intro:
-      "AC 2 PK mulai masuk kebutuhan ruangan besar dan usaha: ruang tamu besar, kantor, meeting room, ruko, toko, atau area pelanggan. Sebelum memilih unit, perlu mengecek daya listrik, ukuran ruangan, tinggi plafon, jumlah orang, posisi outdoor, dan kebutuhan pemasangan.",
+      "AC 2 PK mulai masuk kebutuhan ruangan besar dan usaha: ruang tamu besar, kantor, meeting room, ruko, toko, atau area pelanggan. Sebelum memilih unit, perlu mengecek daya listrik, ukuran ruangan, tinggi plafon, jumlah orang, posisi outdoor, kebutuhan material, stok brand, opsi pemasangan, garansi unit, dan opsi pembayaran.",
     bestFor: [
       "Ruang tamu besar",
       "Kantor dan meeting room",
@@ -222,11 +240,29 @@ export const catalogItems = [
       "Panjang pipa dan posisi outdoor",
       "Apakah cukup split 2 PK atau perlu cassette/komersial",
       "Anggaran unit, pemasangan, dan material tambahan",
+      "Garansi unit, pembayaran, dan koordinasi pemasangan",
     ],
     useCases: [
-      ["Ruang tamu besar", "Cocok jika ruangan lebih luas, banyak orang, atau sering dipakai siang hari.", "Cek tinggi plafon, bukaan, dan panas matahari."],
-      ["Kantor/meeting room", "Cocok untuk ruang kerja yang butuh suhu stabil.", "Kirim jumlah orang, jam operasional, dan ukuran ruang."],
-      ["Ruko/toko", "Cocok untuk area usaha tertutup dengan pelanggan.", "Cek pintu sering terbuka, lampu panas, dan lokasi outdoor."],
+      [
+        "Ruang tamu besar",
+        "Cocok jika ruangan lebih luas, banyak orang, atau sering dipakai siang hari.",
+        "Cek tinggi plafon, bukaan, panas matahari, dan daya listrik.",
+      ],
+      [
+        "Kantor atau meeting room",
+        "Cocok untuk ruang kerja yang butuh suhu stabil selama jam operasional.",
+        "Kirim jumlah orang, jam operasional, ukuran ruang, dan posisi outdoor.",
+      ],
+      [
+        "Ruko, toko, atau showroom",
+        "Cocok untuk area usaha tertutup dengan pelanggan.",
+        "Cek pintu sering terbuka, panas lampu, jumlah orang, dan kebutuhan material tambahan.",
+      ],
+      [
+        "Banyak unit atau proyek kecil",
+        "Perlu koordinasi stok, pengiriman, jadwal, dan kemungkinan pemasangan bertahap.",
+        "Kirim jumlah unit, daftar ruangan, lokasi, timeline, dan skema pembayaran yang ingin dibahas.",
+      ],
     ],
     ctaLabel: "Cek Stok AC 2 PK",
     waIntent: "cek stok AC 2 PK untuk kantor ruko ruang besar atau usaha",
