@@ -269,11 +269,11 @@ export const catalogItems = [
     label: "AC Low Watt",
     title: "AC Low Watt | Untuk Daya Listrik Terbatas — RADJA AC",
     description:
-      "Konsultasi AC low watt untuk rumah dengan daya listrik terbatas. Cek ukuran ruangan, daya listrik, MCB, pilihan brand, stok, pengiriman, dan opsi pemasangan.",
+      "Konsultasi AC low watt untuk rumah dengan daya listrik terbatas. Cek ukuran ruangan, daya listrik, MCB, pilihan brand, stok, garansi, pembayaran, pengiriman, dan opsi pemasangan.",
     h1: "AC low watt untuk rumah dengan daya listrik terbatas",
     eyebrow: "Katalog Hemat Daya",
     intro:
-      "AC low watt sering dipilih untuk rumah dengan daya listrik terbatas. Ukuran ruangan, daya listrik, MCB jika diketahui, dan kebutuhan pemakaian perlu dicek agar pilihan AC tetap masuk akal.",
+      "AC low watt sering dipilih saat daya listrik rumah terbatas atau MCB mudah turun. Pilihan unit tetap harus dibaca dari ukuran ruangan, PK yang dibutuhkan, daya listrik, MCB, jam pemakaian, stok brand, opsi pemasangan, garansi unit, dan opsi pembayaran.",
     bestFor: [
       "Rumah daya listrik terbatas",
       "Kamar tidur",
@@ -285,6 +285,24 @@ export const catalogItems = [
       "MCB sering turun atau tidak",
       "Kecocokan PK dengan ukuran ruangan",
       "Pilihan brand low watt yang tersedia",
+      "Opsi pemasangan, garansi unit, dan pembayaran",
+    ],
+    useCases: [
+      [
+        "Rumah 900–1300 watt",
+        "Cocok dipertimbangkan jika daya listrik terbatas dan beban perangkat lain perlu dihitung.",
+        "Kirim daya listrik, MCB, dan perangkat besar yang sering menyala bersamaan.",
+      ],
+      [
+        "Kamar tidur atau kost",
+        "Cocok untuk ruangan kecil sampai sedang yang membutuhkan tarikan listrik lebih ringan.",
+        "Tetap cek ukuran ruangan agar PK tidak terlalu kecil dan AC tidak bekerja terlalu berat.",
+      ],
+      [
+        "Ruangan lebih besar",
+        "Belum tentu cukup jika ruangan besar, panas, atau sering terbuka.",
+        "Bandingkan dengan kapasitas PK lebih besar, inverter, atau pilihan standard sesuai kondisi lokasi.",
+      ],
     ],
     ctaLabel: "Tanya AC Low Watt",
     waIntent: "konsultasi AC low watt",
