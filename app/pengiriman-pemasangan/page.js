@@ -17,6 +17,7 @@ const processSteps = [
 const notes = [
   "Tim RADJA AC cek biaya, jadwal, akses lokasi, dan kebutuhan material tambahan sebelum pembelian.",
   "Panjang pipa tambahan, bracket, bobok tembok, jalur listrik, akses tinggi, atau pemindahan titik dapat membuat kebutuhan berubah.",
+  "Pembayaran seperti DP, transfer, atau COD dapat dikonfirmasi setelah unit, alamat, jadwal pengiriman, dan opsi pemasangan jelas.",
   "Untuk banyak unit atau proyek, koordinasi lokasi atau survey dibahas berdasarkan kebutuhan, jumlah unit, area, dan jadwal.",
 ];
 
@@ -124,8 +125,8 @@ export default function PengirimanPemasanganPage() {
           <h2 className="text-xl font-black text-slate-950">Bukan sekadar kirim unit</h2>
           <p className="mt-4 max-w-3xl text-sm leading-7 text-slate-700">
             Untuk pembelian AC, pengiriman dan pemasangan perlu dibaca dari kondisi lokasi.
-            Tim RADJA AC membaca kebutuhan awal supaya pembeli melihat unit, posisi pemasangan, dan kebutuhan material sejak awal,
-            tetapi juga memahami kebutuhan pipa, bracket, posisi outdoor, akses kerja, dan jadwal.
+            Tim RADJA AC membantu membaca kebutuhan awal agar pembeli memahami estimasi pengiriman, posisi pemasangan,
+            kebutuhan pipa/bracket, titik outdoor, akses kerja, material tambahan, dan jadwal sebelum order dijalankan.
           </p>
           <div className="mt-5 flex flex-wrap gap-3">
             {relatedLinks.map(([label, href]) => (
