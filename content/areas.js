@@ -1035,7 +1035,7 @@ relatedLinks: [
       ["Kontak RADJA AC", routes.kontak],
     ],
     ctaLabel: "Chat WhatsApp untuk cek pengiriman AC Yogyakarta",
-    waIntent: "cek stok AC Yogyakarta dengan data area ukuran ruangan daya listrik jumlah unit anggaran preferensi brand dan kebutuhan pemasangan",
+    waIntent: "cek pengiriman dan stok AC Yogyakarta dengan data area ukuran ruangan daya listrik jumlah unit anggaran preferensi brand dan kebutuhan pemasangan",
     waArea: "Yogyakarta",
   },
   {
@@ -1117,7 +1117,7 @@ relatedLinks: [
       ["Kontak RADJA AC", routes.kontak],
     ],
     ctaLabel: "Chat WhatsApp untuk cek pengiriman AC Semarang",
-    waIntent: "cek stok AC Semarang dengan data area ukuran ruangan daya listrik jumlah unit anggaran preferensi brand dan kebutuhan pemasangan",
+    waIntent: "cek pengiriman dan stok AC Semarang dengan data area ukuran ruangan daya listrik jumlah unit anggaran preferensi brand dan kebutuhan pemasangan",
     waArea: "Semarang",
   },
   {
@@ -1194,7 +1194,7 @@ relatedLinks: [
       ["Kontak RADJA AC", routes.kontak],
     ],
     ctaLabel: "Chat WhatsApp untuk cek pengiriman AC Solo",
-    waIntent: "cek stok AC Solo dengan data area ukuran ruangan daya listrik jumlah unit anggaran preferensi brand dan kebutuhan pemasangan",
+    waIntent: "cek pengiriman dan stok AC Solo dengan data area ukuran ruangan daya listrik jumlah unit anggaran preferensi brand dan kebutuhan pemasangan",
     waArea: "Solo",
   },
   {
@@ -1230,7 +1230,7 @@ relatedLinks: [
       "Pembayaran fleksibel bisa dikonsultasikan: DP, COD, atau transfer setelah kebutuhan unit, pengiriman, dan opsi pemasangan jelas.",
 relatedLinks: defaultRelatedLinks,
     ctaLabel: "Chat WhatsApp untuk cek pengiriman AC Purbalingga",
-    waIntent: "cek stok AC Purbalingga dengan data area ukuran ruangan daya listrik jumlah unit anggaran preferensi brand dan kebutuhan pemasangan",
+    waIntent: "cek pengiriman dan stok AC Purbalingga dengan data area ukuran ruangan daya listrik jumlah unit anggaran preferensi brand dan kebutuhan pemasangan",
     waArea: "Purbalingga",
   },
   {
@@ -1949,7 +1949,7 @@ relatedLinks: [
       "Pembayaran fleksibel bisa dikonsultasikan: DP, COD, atau transfer setelah kebutuhan unit, alamat, pengiriman, dan opsi pemasangan jelas.",
     relatedLinks: defaultRelatedLinks,
     ctaLabel: "Chat WhatsApp untuk cek pengiriman AC Banjarnegara",
-    waIntent: "cek stok AC Banjarnegara dengan data area ukuran ruangan daya listrik jumlah unit anggaran preferensi brand dan kebutuhan pemasangan",
+    waIntent: "cek pengiriman dan stok AC Banjarnegara dengan data area ukuran ruangan daya listrik jumlah unit anggaran preferensi brand dan kebutuhan pemasangan",
     waArea: "Banjarnegara",
   },
   {
