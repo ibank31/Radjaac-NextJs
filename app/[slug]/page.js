@@ -52,7 +52,8 @@ export default async function AreaPage({ params }) {
   const relatedAreas = item.nearbyAreaLinks?.length
     ? item.nearbyAreaLinks.map(([areaName, path]) => ({ areaName, path }))
     : areaItems.filter((areaItem) => areaItem.slug !== item.slug).slice(0, 5);
-  const pageLinks = areaPageLinkOverrides[item.slug] ?? (item.relatedLinks?.length ? item.relatedLinks : primaryLinks);
+  const rawPageLinks = areaPageLinkOverrides[item.slug] ?? (item.relatedLinks?.length ? item.relatedLinks : primaryLinks);
+  const pageLinks = rawPageLinks.slice(0, 15);
   const keywordVariants =
     item.keywordVariants ?? [
       `jual AC ${item.areaName}`,
