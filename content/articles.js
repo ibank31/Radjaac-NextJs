@@ -362,14 +362,21 @@ export const articleItems = [
           "Data yang paling membantu adalah ukuran ruangan, tinggi plafon, arah panas matahari, daya listrik, dan apakah AC dipakai hanya malam hari atau hampir sepanjang hari.",
         ],
       },
+      {
+        heading: "Cek stok, pemasangan, garansi, dan pembayaran",
+        body: [
+          "Setelah kapasitas PK lebih jelas, cek stok AC 1/2 PK atau opsi lain yang sesuai, pilihan brand, garansi unit, dan kebutuhan pemasangan. Posisi indoor-outdoor, panjang pipa, akses lokasi, dan material tambahan bisa memengaruhi total biaya.",
+          "Pembayaran seperti DP, transfer, atau COD bisa dikonfirmasi setelah pilihan unit, alamat pengiriman, jadwal, dan opsi pemasangan jelas. Jadi rekomendasi untuk kamar 3x4 sebaiknya tetap dilanjutkan dengan data ruangan dan daya listrik yang lengkap.",
+        ],
+      },
     ],
     ctaLabel: "Konsultasi AC Kamar 3x4",
     waIntent: "konsultasi memilih AC untuk kamar 3x4",
     relatedLinks: [
       ["Kalkulator PK AC", routes.kalkulatorPkAc],
       ["AC 1/2 PK", routes.katalogAcSetengahPk],
-      ["AC Split Rumah", routes.katalogAcSplitRumah],
       ["AC Low Watt", routes.katalogAcLowWatt],
+      ["AC Inverter", routes.katalogAcInverter],
       ["Kontak RADJA AC", routes.kontak],
     ],
   },
