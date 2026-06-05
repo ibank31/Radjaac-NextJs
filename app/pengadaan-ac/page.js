@@ -175,12 +175,17 @@ export default function PengadaanAcPage() {
       <section className="border-b border-slate-100 bg-white">
         <div className="mx-auto flex max-w-7xl flex-col gap-4 px-5 py-5 sm:px-6 lg:flex-row lg:items-center lg:px-8">
           <p className="text-xs font-black uppercase tracking-[0.18em] text-slate-400">Brand tersedia</p>
-          <div className="flex flex-wrap gap-2">
-            {brands.map((brand) => (
-              <span key={brand} className="rounded-full border border-slate-200 bg-slate-50 px-4 py-2 text-sm font-black text-slate-500">
-                {brand}
-              </span>
-            ))}
+          <div>
+            <div className="flex flex-wrap gap-2">
+              {brands.map((brand) => (
+                <span key={brand} className="rounded-full border border-slate-200 bg-slate-50 px-4 py-2 text-sm font-black text-slate-500">
+                  {brand}
+                </span>
+              ))}
+            </div>
+            <p className="mt-3 max-w-3xl text-sm leading-6 text-slate-500">
+              Pilihan brand disesuaikan dengan jumlah unit, anggaran, stok aktif, garansi unit, dan pola pemakaian tiap ruangan.
+            </p>
           </div>
         </div>
       </section>
@@ -275,6 +280,47 @@ export default function PengadaanAcPage() {
                     →
                   </span>
                 ) : null}
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      <section className="bg-[#F8FAFC]">
+        <div className="mx-auto max-w-7xl px-5 py-16 sm:px-6 lg:px-8">
+          <div className="mb-10 max-w-3xl">
+            <p className="text-sm font-black uppercase tracking-[0.2em] text-red-600">Garansi, pembayaran & konfirmasi</p>
+            <h2 className="mt-3 text-2xl font-black tracking-tight text-blue-950 sm:text-4xl">
+              Detail garansi, pembayaran, dan pemasangan dibahas sebelum order dijalankan.
+            </h2>
+            <p className="mt-4 text-sm leading-7 text-slate-600 sm:text-base">
+              Untuk pengadaan banyak unit, tim RADJA AC membantu cek stok, pilihan brand, jadwal pengiriman, opsi pemasangan,
+              garansi unit, dan skema pembayaran dari data proyek.
+            </p>
+          </div>
+
+          <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-4">
+            {[
+              [
+                "Garansi unit & klaim brand",
+                "Garansi unit mengikuti ketentuan resmi brand. Jika ada kendala unit, RADJA AC membantu arahan awal klaim sesuai jalur garansi brand.",
+              ],
+              [
+                "Garansi pemasangan",
+                "Untuk pemasangan yang dikerjakan melalui RADJA AC, garansi pemasangan mengikuti ketentuan yang berlaku.",
+              ],
+              [
+                "Pembayaran proyek",
+                "Untuk pengadaan banyak unit, skema pembayaran seperti DP, transfer, atau pembayaran bertahap bisa dibahas setelah jumlah unit, stok, jadwal pengiriman, dan opsi pemasangan jelas.",
+              ],
+              [
+                "Pemasangan & pengiriman",
+                "Opsi pemasangan dan pengiriman dikonfirmasi dari lokasi proyek, jumlah titik, akses bangunan, material tambahan, dan timeline.",
+              ],
+            ].map(([title, desc]) => (
+              <div key={title} className="rounded-[1.5rem] border border-slate-200 bg-white p-6 shadow-sm">
+                <h3 className="font-black text-blue-950">{title}</h3>
+                <p className="mt-3 text-sm leading-7 text-slate-600">{desc}</p>
               </div>
             ))}
           </div>
