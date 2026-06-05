@@ -187,6 +187,13 @@ export const articleItems = [
           "Yang penting jangan asal ambil standard hanya karena harga awal lebih ringan. Pastikan kapasitas PK, paket pemasangan, dan daya listrik tetap sesuai.",
         ],
       },
+      {
+        heading: "Cek stok, garansi, pembayaran, dan pemasangan sebelum memilih",
+        body: [
+          "Setelah tahu kecenderungan tipe yang cocok, cek lagi stok brand, kapasitas PK, garansi unit, dan kebutuhan pemasangan. Pilihan inverter atau low watt tetap perlu disesuaikan dengan lokasi indoor-outdoor, panjang pipa, daya listrik, dan pola pemakaian.",
+          "Pembayaran seperti DP, transfer, atau COD bisa dikonfirmasi setelah pilihan unit, alamat pengiriman, jadwal, dan opsi pemasangan jelas. Jadi keputusan akhir sebaiknya tidak hanya dari label hemat listrik, tapi dari data ruangan dan kebutuhan pembelian.",
+        ],
+      },
     ],
     ctaLabel: "Cek Pilihan Inverter / Low Watt",
     waIntent: "konsultasi memilih AC inverter low watt atau standard",
