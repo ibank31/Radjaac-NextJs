@@ -314,11 +314,11 @@ export const catalogItems = [
     label: "AC Kantor & Komersial",
     title: "AC Kantor & Komersial | Untuk Usaha, Showroom & Banyak Unit — RADJA AC",
     description:
-      "Konsultasi AC kantor dan komersial untuk toko, ruko, cafe, klinik, showroom, hotel, proyek, dan banyak unit. Cek PK, tipe unit, stok, pengiriman, dan opsi pemasangan.",
+      "Konsultasi AC kantor dan komersial untuk toko, ruko, cafe, klinik, showroom, hotel, proyek, dan banyak unit. Cek PK, tipe unit, stok, garansi, pembayaran, pengiriman, dan opsi pemasangan.",
     h1: "AC kantor & komersial untuk toko, ruko, cafe, hotel, dan proyek",
     eyebrow: "Katalog Komersial",
     intro:
-      "Untuk AC komersial, kirim jenis ruangan, jumlah orang, bukaan pintu, jam operasional, tinggi plafon, dan jumlah unit. Data ini dipakai untuk membaca kebutuhan PK, tipe AC, pengiriman, dan opsi pemasangan.",
+      "Untuk AC kantor dan komersial, kebutuhan dibaca dari jenis ruangan, jumlah orang, bukaan pintu, jam operasional, tinggi plafon, jumlah unit, dan timeline. Data ini dipakai untuk membaca kebutuhan PK, tipe AC, stok, pengiriman, opsi pemasangan, garansi unit, dan opsi pembayaran.",
     bestFor: [
       "Toko dan ruko",
       "Cafe dan restoran",
@@ -327,9 +327,27 @@ export const catalogItems = [
     ],
     concerns: [
       "Jumlah ruang dan estimasi unit",
-      "Jam operasional",
+      "Jam operasional dan pintu sering terbuka",
       "Tipe unit split, cassette, atau opsi komersial lain",
       "Koordinasi pengiriman dan pemasangan",
+      "Garansi unit, pembayaran, dan pemasangan bertahap",
+    ],
+    useCases: [
+      [
+        "Toko, ruko, atau showroom",
+        "Cocok untuk area pelanggan yang butuh suhu stabil saat operasional.",
+        "Cek bukaan pintu, jumlah orang, panas lampu, dan posisi outdoor.",
+      ],
+      [
+        "Kantor, klinik, atau ruang tunggu",
+        "Cocok untuk ruangan kerja atau layanan yang dipakai beberapa jam setiap hari.",
+        "Kirim jumlah ruangan, jam operasional, daya listrik, dan kebutuhan pemasangan.",
+      ],
+      [
+        "Hotel, proyek, atau banyak unit",
+        "Perlu koordinasi stok, pengiriman, jadwal, dan kemungkinan pemasangan bertahap.",
+        "Kirim jumlah unit, daftar ruangan, timeline, lokasi, dan skema pembayaran yang ingin dibahas.",
+      ],
     ],
     ctaLabel: "Konsultasi AC Usaha / Kantor",
     waIntent: "konsultasi AC kantor dan komersial",
