@@ -23,9 +23,32 @@ export const catalogItems = [
       "Daya listrik dan MCB rumah",
       "Pilihan standard, low watt, atau inverter",
       "Unit saja atau sekalian opsi pemasangan",
+      "Garansi unit, pembayaran, dan biaya tambahan pemasangan",
+    ],
+    useCases: [
+      [
+        "Kamar tidur kecil",
+        "Cocok untuk kamar kecil yang pintunya sering tertutup dan pemakaiannya rutin.",
+        "Kirim ukuran kamar, tinggi plafon jika ada, dan posisi panas matahari.",
+      ],
+      [
+        "Kamar kost atau kontrakan",
+        "Cocok untuk kebutuhan kost, kontrakan, atau ruangan compact dengan anggaran efisien.",
+        "Cek daya listrik, MCB, jumlah unit, dan opsi pemasangan sejak awal.",
+      ],
+      [
+        "Ruang kerja pribadi",
+        "Cocok untuk ruang kerja kecil yang dipakai beberapa jam setiap hari.",
+        "Pertimbangkan low watt atau inverter jika daya terbatas atau pemakaian cukup lama.",
+      ],
+      [
+        "Ruangan panas atau sering terbuka",
+        "Belum tentu cukup jika ruangan terkena panas langsung, banyak orang, atau pintu sering terbuka.",
+        "Bandingkan dengan 3/4 PK atau 1 PK setelah ukuran dan kondisi ruangan jelas.",
+      ],
     ],
     pricingIntro:
-      "Estimasi paket AC 1/2 PK + pemasangan standar tersedia mulai Rp3 jutaan. Pilihan 3 jutaan, 4 jutaan, hingga 5 jutaan bergantung pada brand, tipe standard/low watt/inverter, stok, dan kebutuhan lokasi.",
+      "Estimasi paket AC 1/2 PK + pemasangan standar tersedia mulai Rp3 jutaan. Pilihan 3 jutaan, 4 jutaan, hingga 5 jutaan bergantung pada brand, tipe standard/low watt/inverter, stok, garansi unit, opsi pembayaran, dan kebutuhan lokasi.",
     standardPackage: [
       "Pipa 2 meter",
       "Kabel 5 meter",
@@ -90,7 +113,7 @@ export const catalogItems = [
       },
     ],
     pricingNote:
-      "Rincian harga dicek dari brand, tipe, stok, promo, area pemasangan, panjang pipa tambahan, posisi outdoor, akses lokasi, dan kebutuhan material tambahan.",
+      "Rincian harga dicek dari brand, tipe, stok, promo, garansi unit, opsi pembayaran, area pemasangan, panjang pipa tambahan, posisi outdoor, akses lokasi, dan kebutuhan material tambahan.",
     ctaLabel: "Tanya AC 1/2 PK yang Cocok",
     waIntent: "konsultasi AC 1/2 PK",
     waCategory: "AC 1/2 PK",
