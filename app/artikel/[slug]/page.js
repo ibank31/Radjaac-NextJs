@@ -21,7 +21,9 @@ const moneyLinksBySlug = {
   ],
   "ac-1-pk-untuk-ruangan-berapa": [
     ["Kalkulator PK AC", routes.kalkulatorPkAc, "Hitung estimasi kebutuhan PK sebelum memilih 3/4 PK, 1 PK, atau 1.5 PK."],
-    ["AC Split Rumah", routes.katalogAcSplitRumah, "Lihat pilihan AC untuk kamar, ruang keluarga, kos, dan toko kecil."],
+    ["AC 1 PK", routes.katalogAcSatuPk, "Lihat pilihan AC 1 PK untuk kamar besar, ruang kerja, ruang tamu kecil, atau toko kecil."],
+    ["AC 1.5 PK", routes.katalogAcSatuSetengahPk, "Bandingkan jika ruangan panas, lebih besar, atau sering dipakai banyak orang."],
+    ["Pengiriman & Pemasangan", routes.pengirimanPemasangan, "Cek kebutuhan lokasi, material, garansi pasang, dan jadwal sebelum order."],
   ],
   "ac-inverter-vs-low-watt": [
     ["AC Inverter", routes.katalogAcInverter, "Cek pilihan AC inverter untuk pemakaian rutin dan suhu stabil."],

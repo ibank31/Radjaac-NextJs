@@ -137,12 +137,20 @@ export const articleItems = [
           "Pilihan final sebaiknya tidak hanya dari PK, tapi juga dari tipe AC, pola pemakaian, dan kesiapan listrik.",
         ],
       },
+      {
+        heading: "Lanjutkan ke stok, pemasangan, garansi, dan pembayaran",
+        body: [
+          "Setelah estimasi PK lebih jelas, cek stok AC 1 PK, pilihan standard/low watt/inverter, garansi unit, dan kebutuhan pemasangan. Posisi indoor-outdoor, panjang pipa, akses lokasi, dan material tambahan bisa memengaruhi total biaya.",
+          "Pembayaran seperti DP, transfer, atau COD bisa dikonfirmasi setelah pilihan unit, alamat pengiriman, jadwal, dan opsi pemasangan jelas. Jadi hasil hitung PK sebaiknya dilanjutkan dengan data ruangan dan kebutuhan pembelian yang lengkap.",
+        ],
+      },
     ],
     ctaLabel: "Cek PK AC via WhatsApp",
     waIntent: "konsultasi AC 1 PK dan kebutuhan PK ruangan",
     relatedLinks: [
       ["Kalkulator PK AC", routes.kalkulatorPkAc],
-      ["AC Split Rumah", routes.katalogAcSplitRumah],
+      ["AC 1 PK", routes.katalogAcSatuPk],
+      ["AC 1.5 PK", routes.katalogAcSatuSetengahPk],
       ["AC 1/2 PK", routes.katalogAcSetengahPk],
       ["Kontak RADJA AC", routes.kontak],
     ],
