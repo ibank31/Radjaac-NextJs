@@ -15,7 +15,7 @@ const galleryCategories = [
   {
     title: "Gudang",
     icon: "▤",
-    description: "Stok unit indoor, outdoor, dan berbagai brand yang kami punya di gudang.",
+    description: "Dokumentasi stok unit indoor, outdoor, dan beberapa brand di gudang. Ketersediaan tipe tetap dikonfirmasi sebelum pembelian.",
   },
   {
     title: "Display Produk",
@@ -358,7 +358,7 @@ export default function ProofGalleryClient() {
         <div className="mx-auto max-w-3xl text-center">
           <div className="mb-7 inline-flex items-center gap-2 rounded-full border border-blue-200 bg-white px-5 py-3 text-sm font-bold uppercase tracking-wide text-blue-800 shadow-sm">
             <span aria-hidden="true">▣</span>
-            Gallery RADJA AC Purwokerto
+            Dokumentasi RADJA AC
           </div>
 
           <h1 className="mb-6 text-3xl font-black leading-tight tracking-[-0.035em] text-slate-950 sm:text-4xl lg:text-5xl">
@@ -368,8 +368,8 @@ export default function ProofGalleryClient() {
 
           <p className="mx-auto max-w-2xl text-sm leading-7 text-slate-600 sm:text-base">
             Foto di halaman ini adalah dokumentasi asli aktivitas RADJA AC: showroom di Pamijen Sokaraja,
-            stok di gudang, display produk, pengiriman, dan pemasangan. Bukan foto dari internet. Bukan
-            ilustrasi. Ini kondisi nyata toko kami sehari-hari.
+            stok gudang, display produk, pengiriman, material instalasi, dan pemasangan. Dokumentasi ini
+            membantu calon pembeli melihat aktivitas RADJA AC sebelum konsultasi pembelian satuan maupun pengadaan banyak unit.
           </p>
         </div>
       </section>
@@ -450,7 +450,7 @@ export default function ProofGalleryClient() {
           </h2>
           <p className="mx-auto max-w-2xl text-sm leading-7 text-slate-600">
             Pilih kategori untuk melihat bagian yang paling relevan. Foto ini bukan pemanis — ini dokumentasi
-            nyata kondisi toko AC Purwokerto kami dari waktu ke waktu.
+            nyata aktivitas RADJA AC dari waktu ke waktu.
           </p>
         </div>
 
@@ -513,13 +513,27 @@ export default function ProofGalleryClient() {
             Kirim kebutuhan ruangan, jumlah unit, brand yang diminati, dan lokasi pengiriman. Tim RADJA AC cek
             stok, opsi unit, pengiriman, dan kebutuhan pemasangan dari lokasi dan jumlah unit.
           </p>
-          <WhatsappLink
-            className="mt-6 inline-flex w-full items-center justify-center rounded-full bg-[#25D366] px-6 py-4 text-sm font-black text-slate-950 shadow-[0_10px_24px_rgba(37,211,102,0.18)] transition hover:-translate-y-0.5 hover:bg-[#20BA5A] sm:w-auto"
-            source="Bukti Pengiriman Closing"
-            intent="cek stok setelah melihat gallery RADJA AC"
-          >
-            Cek Stok Setelah Lihat Bukti
-          </WhatsappLink>
+          <div className="mt-6 flex flex-col justify-center gap-3 sm:flex-row sm:flex-wrap">
+            <WhatsappLink
+              className="inline-flex w-full items-center justify-center rounded-full bg-[#25D366] px-6 py-4 text-sm font-black text-slate-950 shadow-[0_10px_24px_rgba(37,211,102,0.18)] transition hover:-translate-y-0.5 hover:bg-[#20BA5A] sm:w-auto"
+              source="Bukti Pengiriman Closing"
+              intent="cek stok setelah melihat gallery RADJA AC"
+            >
+              Cek Stok Setelah Lihat Bukti
+            </WhatsappLink>
+            <Link
+              href={routes.katalog}
+              className="inline-flex w-full items-center justify-center rounded-full border border-slate-200 bg-white px-6 py-4 text-sm font-black text-slate-950 transition hover:bg-slate-50 sm:w-auto"
+            >
+              Lihat Katalog AC
+            </Link>
+            <Link
+              href={routes.pengadaanAc}
+              className="inline-flex w-full items-center justify-center rounded-full border border-blue-200 bg-blue-100 px-6 py-4 text-sm font-black text-blue-950 transition hover:bg-blue-200 sm:w-auto"
+            >
+              Pengadaan Banyak Unit
+            </Link>
+          </div>
         </div>
       </section>
     </main>
