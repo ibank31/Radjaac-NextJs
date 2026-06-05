@@ -12,7 +12,7 @@ export const brandItems = [
     h1: "AC Gree original melalui Proshop Gree RADJA AC",
     eyebrow: "Brand AC",
     intro:
-      "Gree menjadi salah satu brand utama di RADJA AC. Tim RADJA AC membaca kebutuhan PK, pilihan standard, low watt, atau inverter, stok unit, area pengiriman, dan opsi pemasangan sebelum pembelian.",
+      "Gree menjadi salah satu brand utama di RADJA AC. Tim RADJA AC membaca kebutuhan PK, pilihan standard, low watt, atau inverter, stok unit, pengiriman, opsi pemasangan, garansi unit, dan opsi pembayaran sebelum pembelian.",
     trustNote:
       "RADJA AC memiliki dukungan Proshop Gree. Stok, tipe, dan ketentuan garansi unit dicek dari data terbaru.",
     certificateHolder: "RADJA AC / Proshop Gree",
@@ -33,7 +33,7 @@ export const brandItems = [
     h1: "AC Daikin original untuk rumah, kantor, usaha, hotel, dan proyek",
     eyebrow: "Brand AC Daikin",
     intro:
-      "Daikin banyak dipilih untuk kebutuhan rumah, kamar, kantor, usaha, hotel, dan proyek. Tim RADJA AC mencocokkan tipe Daikin berdasarkan ukuran ruangan, daya listrik, anggaran, stok unit, lokasi pengiriman, dan opsi pemasangan. Untuk area Purwokerto, Banyumas, Sokaraja, dan sekitarnya, kebutuhan bisa dikirim lewat WhatsApp agar stok dan opsi pemasangan dicek lebih dulu.",
+      "Daikin banyak dipilih untuk kebutuhan rumah, kamar, kantor, usaha, hotel, dan proyek. Tim RADJA AC mencocokkan tipe Daikin berdasarkan ukuran ruangan, daya listrik, anggaran, stok unit, lokasi pengiriman, opsi pemasangan, garansi unit, dan opsi pembayaran. Kebutuhan pembelian satuan maupun banyak unit bisa dikirim lewat WhatsApp agar stok dan alur pengiriman dikonfirmasi lebih dulu.",
     trustNote:
       "Dokumen brand Daikin tercatat atas nama RADJA AC. Stok, tipe, harga, promo, pengiriman, opsi pemasangan, dan garansi unit tetap dicek mengikuti kondisi terbaru serta ketentuan resmi brand yang tertera pada kemasan, kartu garansi, atau dokumen garansi unit.",
     certificateHolder: "RADJA AC",
@@ -76,7 +76,7 @@ export const brandItems = [
     h1: "AC Midea original untuk rumah, kost, usaha, kantor, hotel, dan proyek",
     eyebrow: "Brand AC Midea",
     intro:
-      "Midea menjadi pilihan untuk pembeli yang mencari AC original untuk rumah, kamar tidur, kost, kontrakan, toko, kantor/ruko, hotel, dan proyek. Tim RADJA AC mengecek kebutuhan PK, daya listrik, stok Midea FT, AF, inverter, lokasi pengiriman, dan opsi pemasangan sebelum pembelian. Untuk area Purwokerto, Banyumas, Sokaraja, dan sekitarnya, kebutuhan bisa dikirim lewat WhatsApp agar stok dan opsi pemasangan dicek lebih dulu.",
+      "Midea menjadi pilihan untuk pembeli yang mencari AC original untuk rumah, kamar tidur, kost, kontrakan, toko, kantor/ruko, hotel, dan proyek. Tim RADJA AC mengecek kebutuhan PK, daya listrik, stok Midea FT, AF, inverter, lokasi pengiriman, opsi pemasangan, garansi unit, dan opsi pembayaran sebelum pembelian. Kebutuhan pembelian satuan maupun banyak unit bisa dikirim lewat WhatsApp agar stok dan alur pengiriman dikonfirmasi lebih dulu.",
     trustNote:
       "Dokumen brand Midea tercatat atas nama CV. Prima Sedaya, yang merupakan bagian dari operasional RADJA AC. Stok, tipe, harga, promo, pengiriman, opsi pemasangan, dan garansi unit tetap dicek mengikuti kondisi terbaru serta ketentuan resmi brand.",
     certificateHolder: "CV. Prima Sedaya",
@@ -119,7 +119,7 @@ export const brandItems = [
     h1: "AC Hisense original untuk rumah, kost, usaha, dan kebutuhan anggaran efisien",
     eyebrow: "Brand AC",
     intro:
-      "Hisense menjadi pilihan untuk pembeli yang mencari AC original dengan pilihan standard maupun inverter. Tim RADJA AC mengecek stok, membaca kebutuhan PK, daya listrik, pengiriman, dan opsi pemasangan.",
+      "Hisense menjadi pilihan untuk pembeli yang mencari AC original dengan pilihan standard maupun inverter. Tim RADJA AC mengecek stok, kebutuhan PK, daya listrik, pengiriman, opsi pemasangan, garansi unit, dan opsi pembayaran sebelum pembelian.",
     trustNote:
       "Dokumen brand Hisense tercatat atas nama CV. Prima Sedaya, yang merupakan bagian dari operasional RADJA AC.",
     certificateHolder: "CV. Prima Sedaya",
@@ -140,7 +140,7 @@ export const brandItems = [
     h1: "AC Sansui original untuk rumah, kost, usaha, kantor, hotel, dan proyek",
     eyebrow: "Brand AC",
     intro:
-      "AC Sansui original tersedia dalam opsi standard, low watt, atau inverter mengikuti stok aktif. PK, daya listrik, anggaran, area pengiriman, dan pemasangan dicek sebelum pembelian.",
+      "AC Sansui original tersedia dalam opsi standard, low watt, atau inverter mengikuti stok aktif. PK, daya listrik, anggaran, pengiriman, opsi pemasangan, garansi unit, dan opsi pembayaran dicek sebelum pembelian.",
     trustNote:
       "Dokumen brand Sansui tercatat atas nama CV. Prima Sedaya, yang merupakan bagian dari operasional RADJA AC. Stok, tipe, harga, dan ketentuan garansi dicek dari data terbaru.",
     certificateHolder: "CV. Prima Sedaya",
@@ -161,7 +161,7 @@ export const brandItems = [
     h1: "AC Sharp original untuk rumah, kost, usaha, kantor, hotel, dan proyek",
     eyebrow: "Brand AC",
     intro:
-      "AC Sharp original banyak dipakai untuk rumah, kamar, kost, kontrakan, dan usaha. Tipe yang tersedia dicek dari ukuran ruangan, daya listrik, anggaran, stok, dan pemasangan.",
+      "AC Sharp original banyak dipakai untuk rumah, kamar, kost, kontrakan, dan usaha. Tipe yang tersedia dicek dari ukuran ruangan, daya listrik, anggaran, stok, pengiriman, opsi pemasangan, garansi unit, dan opsi pembayaran.",
     trustNote:
       "Untuk AC Sharp, stok, tipe, harga, garansi unit, dan opsi pemasangan dicek sebelum pembelian. Garansi unit mengikuti ketentuan resmi brand yang tertera pada kemasan, kartu garansi, atau dokumen garansi unit.",
     certificateHolder: "",
@@ -182,7 +182,7 @@ export const brandItems = [
     h1: "AC Samsung original untuk rumah, kantor, hotel, dan proyek",
     eyebrow: "Brand AC",
     intro:
-      "Samsung bisa masuk untuk rumah, ruang kerja, kantor, usaha, dan proyek. PK, daya listrik, anggaran, stok, dan pemasangan dicek sebelum pembelian.",
+      "Samsung bisa masuk untuk rumah, ruang kerja, kantor, usaha, dan proyek. PK, daya listrik, anggaran, stok, pengiriman, opsi pemasangan, garansi unit, dan opsi pembayaran dicek sebelum pembelian.",
     trustNote:
       "Untuk AC Samsung, stok, tipe, harga, garansi unit, dan opsi pemasangan dicek sebelum pembelian. Garansi unit mengikuti ketentuan resmi brand yang tertera pada kemasan, kartu garansi, atau dokumen garansi unit.",
     certificateHolder: "",
@@ -203,7 +203,7 @@ export const brandItems = [
     h1: "AC Panasonic original untuk rumah, usaha, kantor, hotel, dan proyek",
     eyebrow: "Brand AC",
     intro:
-      "Panasonic bisa dipakai untuk rumah, kamar, usaha, kantor, dan proyek. Tipe dicek dari ukuran ruangan, daya listrik, anggaran, stok, dan pemasangan.",
+      "Panasonic bisa dipakai untuk rumah, kamar, usaha, kantor, dan proyek. Tipe dicek dari ukuran ruangan, daya listrik, anggaran, stok, pengiriman, opsi pemasangan, garansi unit, dan opsi pembayaran.",
     trustNote:
       "Untuk AC Panasonic, stok, tipe, harga, garansi unit, dan opsi pemasangan dicek sebelum pembelian. Garansi unit mengikuti ketentuan resmi brand yang tertera pada kemasan, kartu garansi, atau dokumen garansi unit.",
     certificateHolder: "",
@@ -224,7 +224,7 @@ export const brandItems = [
     h1: "AC Ariston original untuk kenyamanan rumah, usaha, dan ruang kerja",
     eyebrow: "Brand AC",
     intro:
-      "Ariston dikenal lewat pendekatan home comfort. Untuk AC Ariston original, stok aktif Ariston, kapasitas PK, daya listrik, anggaran, lokasi pengiriman, dan pemasangan dicek sebelum pembelian.",
+      "Ariston dikenal lewat pendekatan home comfort. Untuk AC Ariston original, stok aktif Ariston, kapasitas PK, daya listrik, anggaran, lokasi pengiriman, opsi pemasangan, garansi unit, dan opsi pembayaran dicek sebelum pembelian.",
     trustNote:
       "Foto display Ariston di showroom RADJA AC digunakan sebagai bukti visual produk dan konteks brand yang pernah ditampilkan. Stok, tipe, harga, fitur per model, garansi unit, pengiriman, dan opsi pemasangan dicek sebelum pembelian. Garansi unit mengikuti ketentuan brand.",
     certificateHolder: "",
@@ -247,7 +247,7 @@ export const brandItems = [
     h1: "Brand AC original lainnya yang bisa dicek melalui RADJA AC",
     eyebrow: "Brand AC",
     intro:
-      "Selain Gree, Daikin, Midea, dan Hisense, RADJA AC juga membantu cek pilihan brand lain berdasarkan stok aktif, kebutuhan ruangan, anggaran, dan area pengiriman.",
+      "Selain Gree, Daikin, Midea, dan Hisense, RADJA AC juga membantu cek pilihan brand lain berdasarkan stok aktif, kebutuhan ruangan, anggaran, pengiriman, opsi pemasangan, garansi unit, dan opsi pembayaran.",
     trustNote:
       "Untuk brand lain, stok, tipe, harga, garansi unit, dan opsi pemasangan dicek sebelum pembelian.",
     certificateHolder: "",
