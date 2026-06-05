@@ -41,6 +41,13 @@ export const articleItems = [
           "Minta penjelasan paket sejak awal agar total biaya lebih jelas. Ini lebih aman daripada hanya membandingkan harga unit yang terlihat murah tetapi belum termasuk kebutuhan instalasi di lokasi.",
         ],
       },
+      {
+        heading: "Cek garansi, stok, pembayaran, dan bantuan klaim",
+        body: [
+          "Garansi unit mengikuti ketentuan resmi brand, sedangkan garansi pemasangan mengikuti pekerjaan pemasangan yang dikerjakan melalui RADJA AC. Karena stok, harga, dan promo bisa berubah, konfirmasi tipe unit perlu dilakukan sebelum pembelian.",
+          "Pembayaran seperti DP, transfer, atau COD bisa dikonfirmasi setelah pilihan unit, alamat pengiriman, jadwal, dan opsi pemasangan jelas. Jika ada kendala unit, tim RADJA AC membantu arahan awal klaim sesuai jalur garansi brand.",
+        ],
+      },
     ],
     ctaLabel: "Konsultasi Beli AC Baru",
     waIntent: "konsultasi beli AC baru setelah membaca panduan",

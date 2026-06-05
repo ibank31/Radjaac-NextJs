@@ -14,8 +14,10 @@ const defaultMoneyLinks = [
 
 const moneyLinksBySlug = {
   "panduan-beli-ac-baru": [
+    ["Jual AC", routes.jualAc, "Mulai dari halaman penjualan utama untuk cek AC original multi-brand."],
     ["Katalog AC", routes.katalog, "Lihat kategori AC rumah, low watt, inverter, dan kebutuhan komersial."],
     ["Kalkulator PK AC", routes.kalkulatorPkAc, "Cek estimasi kebutuhan PK sebelum memilih unit."],
+    ["Pengiriman & Pemasangan", routes.pengirimanPemasangan, "Pahami kebutuhan lokasi, material, garansi pasang, dan jadwal sebelum order."],
   ],
   "ac-1-pk-untuk-ruangan-berapa": [
     ["Kalkulator PK AC", routes.kalkulatorPkAc, "Hitung estimasi kebutuhan PK sebelum memilih 3/4 PK, 1 PK, atau 1.5 PK."],
@@ -197,7 +199,8 @@ export default async function ArticleDetailPage({ params }) {
               Mulai pilih AC dari data ruangan
             </h2>
             <p className="mx-auto mb-6 max-w-2xl text-sm leading-7 text-slate-600">
-              Kirim data ruangan untuk cek stok, rekomendasi PK, dan pilihan tipe AC yang sesuai.
+              Kirim data ruangan, daya listrik, anggaran, jumlah unit, dan kebutuhan pemasangan untuk cek stok,
+              rekomendasi PK, pilihan tipe AC, garansi, pembayaran, dan pengiriman.
             </p>
             <WhatsappLink
               className="inline-flex items-center justify-center rounded-full bg-[#25D366] px-6 py-4 font-black text-slate-950 shadow-[0_16px_40px_rgba(37,211,102,0.20)] transition hover:-translate-y-0.5 hover:bg-[#20BA5A]"
