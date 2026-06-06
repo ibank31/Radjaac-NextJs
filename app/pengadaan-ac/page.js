@@ -125,9 +125,10 @@ export default function PengadaanAcPage() {
               </Link>
             </div>
 
-            <div className="mt-10 grid gap-3 sm:grid-cols-3">
+            <div className="mt-10 grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
               {[
                 ["Bantu hitung PK", "Estimasi kapasitas dari ukuran ruangan, fungsi, jumlah orang, dan kondisi bangunan."],
+                ["Opsi harga proyek", "Untuk pengambilan beberapa unit, tim bantu cek opsi harga lebih kompetitif berdasarkan jumlah unit, brand, stok aktif, dan kebutuhan pengiriman."],
                 ["Multi-brand", "Daikin, Gree, Midea, Hisense, Sharp, Samsung, Panasonic, Ariston, dan Sansui dibaca dari kebutuhan."],
                 ["Koordinasi pengiriman", "Pengiriman unit dan opsi pemasangan dikonfirmasi dari lokasi, jumlah unit, dan timeline proyek."],
               ].map(([title, desc]) => (
