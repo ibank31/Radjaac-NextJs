@@ -13,7 +13,7 @@ export const procurementItems = [
     intro:
       "Untuk kost, apartemen, kontrakan, atau hunian banyak kamar, pengadaan AC perlu membaca jumlah kamar, daya listrik, tipe unit, dan kesiapan pemasangan. Data ini membantu pembelian banyak unit lebih tertata, baik untuk kebutuhan langsung maupun pemasangan bertahap.",
     segmentContext:
-      "Untuk kost dan apartemen, unit biasanya perlu mudah dirawat, tipenya seragam, dan konsumsi listriknya masuk akal. Tim RADJA AC membaca jumlah kamar, ukuran ruangan, daya listrik per titik, prioritas anggaran, serta rencana pengiriman atau pemasangan bertahap.",
+      "Untuk kost dan apartemen, unit biasanya perlu mudah dirawat, tipenya seragam, dan konsumsi listriknya masuk akal. Untuk kebutuhan banyak kamar, opsi harga proyek bisa dibahas berdasarkan jumlah unit, tipe 1/2 PK atau low watt, pilihan brand, stok aktif, serta rencana pengiriman atau pemasangan bertahap.",
     coordinationNote:
       "Koordinasi lokasi atau survey dibahas sejak awal berdasarkan jumlah unit, area, akses pekerjaan, dan jadwal. Data ruangan dan lokasi membantu proses cek kebutuhan sebelum unit dipilih.",
     commonNeeds: [
@@ -51,7 +51,7 @@ export const procurementItems = [
     intro:
       "Untuk hotel, guest house, homestay, atau villa, AC berpengaruh langsung ke kenyamanan tamu. Pemilihan unit perlu mempertimbangkan ukuran kamar, tingkat kebisingan, durasi pemakaian, daya listrik, kesiapan stok, dan jadwal pekerjaan agar operasional tidak terganggu.",
     segmentContext:
-      "Untuk penginapan, AC harus nyaman untuk tamu dan jadwal pekerjaan perlu menyesuaikan okupansi. Opsi awal disusun dari kategori kamar, area publik, jadwal kamar kosong, serta kebutuhan pengiriman atau pemasangan bertahap.",
+      "Untuk penginapan, AC harus nyaman untuk tamu dan jadwal pekerjaan perlu menyesuaikan okupansi. Opsi harga proyek bisa dicek berdasarkan jumlah kamar, tipe unit, standar kenyamanan, pilihan brand, stok aktif, serta jadwal pekerjaan agar tidak mengganggu operasional.",
     coordinationNote:
       "Koordinasi lokasi atau survey dibahas sejak awal sesuai jumlah unit, area, jadwal, dan kebutuhan proyek. Kirim data kamar, foto lokasi, atau daftar kebutuhan awal.",
     commonNeeds: [
@@ -89,7 +89,7 @@ export const procurementItems = [
     intro:
       "Untuk kontraktor, developer, dan proyek bangunan, kebutuhan AC biasanya terkait RAB, BOQ, jumlah titik, deadline pekerjaan, dan koordinasi lapangan. RADJA AC membantu menyusun opsi unit, kapasitas PK, stok, pengiriman, serta pemasangan dari data proyek yang dikirim.",
     segmentContext:
-      "Kebutuhan kontraktor dan developer sering memerlukan alternatif brand sesuai anggaran, kesiapan unit, dan jadwal kirim. Proses dimulai dari daftar titik AC, ukuran ruangan, gambar sederhana, BOQ/RAB awal, atau foto lokasi sebelum penawaran dibahas.",
+      "Kebutuhan kontraktor dan developer sering memerlukan alternatif brand sesuai anggaran, kesiapan unit, dan jadwal kirim. Penawaran bisa disusun dari daftar titik AC, ukuran ruangan, gambar sederhana, BOQ/RAB awal, spesifikasi brand, stok aktif, timeline proyek, dan kebutuhan supply bertahap.",
     coordinationNote:
       "Koordinasi lokasi atau survey dibahas sejak awal berdasarkan kebutuhan proyek, lokasi, jumlah unit, akses pekerjaan, dan jadwal. Detail teknis dicek sebelum pembelian atau pemasangan diputuskan.",
     commonNeeds: [
@@ -127,7 +127,7 @@ export const procurementItems = [
     intro:
       "Untuk kantor, gedung, dan ruko, kebutuhan AC tidak cukup dilihat dari luas ruangan saja. Perlu membaca fungsi ruang, jumlah orang, tinggi plafon, posisi indoor/outdoor, jam kerja, batasan downtime, serta apakah pekerjaan perlu dilakukan bertahap atau di luar jam operasional.",
     segmentContext:
-      "Segmen kantor dan ruko biasanya membutuhkan keputusan yang cepat tetapi tetap rapi secara teknis. Tim RADJA AC membantu menyusun pilihan unit dari layout ruangan, jumlah titik, kebutuhan split atau komersial ringan, kondisi plafon, dan akses pemasangan.",
+      "Segmen kantor dan ruko biasanya membutuhkan keputusan yang cepat tetapi tetap rapi secara teknis. Opsi harga banyak unit bisa dicek berdasarkan layout ruangan, jumlah titik, kebutuhan split atau komersial ringan, stok aktif, jam operasional, dan kebutuhan pekerjaan bertahap.",
     coordinationNote:
       "Kirim layout sederhana, foto ruangan, perkiraan titik indoor/outdoor, jumlah ruang, daya listrik, lokasi proyek, dan target timeline. Koordinasi pekerjaan weekend atau bertahap bisa dibahas dari data awal.",
     commonNeeds: [
@@ -168,7 +168,7 @@ export const procurementItems = [
     intro:
       "Untuk cafe dan resto, AC perlu dibaca dari kenyamanan pelanggan, luas area, tinggi plafon, kaca besar, pintu yang sering terbuka, jam operasional, dan estetika ruangan. Opsi unit disusun lebih realistis setelah kondisi area dipahami.",
     segmentContext:
-      "Cafe dan resto sering punya tantangan berbeda dari rumah: banyak orang, panas lampu, bukaan pintu, kaca besar, area semi-terbuka, dan kebutuhan tampilan rapi. Karena itu brief awal perlu memuat foto area, ukuran, plafon, jumlah titik, dan jam operasional.",
+      "Cafe dan resto sering punya tantangan berbeda dari rumah: banyak orang, panas lampu, bukaan pintu, kaca besar, area semi-terbuka, dan kebutuhan tampilan rapi. Opsi harga proyek bisa dibahas berdasarkan jumlah titik AC, luas area, beban panas ruangan, pilihan brand, stok aktif, dan timeline opening atau renovasi.",
     coordinationNote:
       "Kirim foto area makan, ukuran ruangan, tinggi plafon, kondisi open/semi-open, titik indoor/outdoor yang diinginkan, lokasi usaha, dan timeline opening atau renovasi. Opsi unit dan kebutuhan pemasangan dicek dari data awal tersebut.",
     commonNeeds: [
