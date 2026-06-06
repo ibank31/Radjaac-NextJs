@@ -223,6 +223,16 @@ const galleryItems = [
     image: "/photos/delivery/radja-ac-pengiriman-stok-aqua-truk-putih.webp",
   },
   {
+    title: "Pengiriman Banyak Unit AC Aqua",
+    category: "Pengiriman",
+    image: "/photos/delivery/pengiriman-banyak-unit-ac-aqua-radja-ac-2026-06.webp",
+  },
+  {
+    title: "Truk RADJA AC Muat Banyak Unit AC Aqua",
+    category: "Pengiriman",
+    image: "/photos/delivery/truk-radja-ac-muat-banyak-unit-ac-aqua-2026-06.webp",
+  },
+  {
     title: "Showroom Multibrand RADJA AC",
     category: "Showroom",
     image: "/photos/showroom/showroom-multibrand-radja-ac-purwokerto-01.webp",
