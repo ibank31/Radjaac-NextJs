@@ -29,6 +29,9 @@ export const routes = {
   jualAcKutowinangun: "/jual-ac-kutowinangun",
   jualAcTegal: "/jual-ac-tegal",
   jualAcBanjarnegara: "/jual-ac-banjarnegara",
+  jualAcSumbang: "/jual-ac-sumbang",
+  jualAcKedungbanteng: "/jual-ac-kedungbanteng",
+  jualAcKalibagor: "/jual-ac-kalibagor",
 
   katalog: "/katalog",
   katalogAcSetengahPk: "/katalog/ac-1-2-pk",
@@ -106,6 +109,9 @@ export const sitemapRoutes = [
   { path: routes.jualAcKutowinangun, priority: 0.65 },
   { path: routes.jualAcTegal, priority: 0.75 },
   { path: routes.jualAcBanjarnegara, priority: 0.75 },
+  { path: routes.jualAcSumbang, priority: 0.65, lastModified: "2026-06-07" },
+  { path: routes.jualAcKedungbanteng, priority: 0.65, lastModified: "2026-06-07" },
+  { path: routes.jualAcKalibagor, priority: 0.65, lastModified: "2026-06-07" },
 
   { path: routes.katalog, priority: 0.85 },
   { path: routes.kalkulatorPkAc, priority: 0.9 },
