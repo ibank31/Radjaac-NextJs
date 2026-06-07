@@ -223,6 +223,11 @@ const galleryItems = [
     image: "/photos/delivery/radja-ac-pengiriman-stok-aqua-truk-putih.webp",
   },
   {
+    title: "Pengiriman AC Midea RADJA AC",
+    category: "Pengiriman",
+    image: "/photos/delivery/pengiriman-midea-7-7-26.webp",
+  },
+  {
     title: "Pengiriman Banyak Unit AC Aqua",
     category: "Pengiriman",
     image: "/photos/delivery/pengiriman-banyak-unit-ac-aqua-radja-ac-2026-06.webp",
