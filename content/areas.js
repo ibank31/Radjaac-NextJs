@@ -2323,7 +2323,16 @@ export const areaItems = [
   },
   {
     slug: "jual-ac-sumbang",
+    path: routes.jualAcSumbang,
     areaName: "Sumbang",
+    label: "Jual AC Sumbang",
+    title: "Jual AC Sumbang untuk Rumah, Kost & Usaha — RADJA AC",
+    description:
+      "Butuh AC untuk rumah, kost, toko, kantor kecil, atau usaha di Sumbang? RADJA AC cek kebutuhan PK, stok, pengiriman unit, dan opsi pemasangan via WhatsApp.",
+    h1: "Jual AC Sumbang untuk Rumah, Kost & Usaha",
+    eyebrow: "Area Banyumas Utara / Timur",
+    intro:
+      "Butuh AC di Sumbang untuk rumah, kost, kontrakan, toko, kantor kecil, atau usaha? Tim RADJA AC cek ukuran ruangan, daya listrik, pilihan brand, stok unit, pengiriman, dan opsi pemasangan sebelum pembelian.",
     parentAreaName: "Banyumas",
     parentAreaPath: routes.jualAcBanyumas,
     priority: "P1",
@@ -2394,7 +2403,16 @@ export const areaItems = [
   },
   {
     slug: "jual-ac-kedungbanteng",
+    path: routes.jualAcKedungbanteng,
     areaName: "Kedungbanteng",
+    label: "Jual AC Kedungbanteng",
+    title: "Jual AC Kedungbanteng untuk Rumah, Villa & Usaha — RADJA AC",
+    description:
+      "Butuh AC untuk rumah, villa, homestay, toko, kantor kecil, atau usaha di Kedungbanteng? RADJA AC cek PK, stok, pengiriman, dan opsi pemasangan.",
+    h1: "Jual AC Kedungbanteng untuk Rumah, Villa & Usaha",
+    eyebrow: "Area Banyumas Utara-Barat",
+    intro:
+      "Butuh AC di Kedungbanteng untuk rumah, villa, homestay kecil, toko, kantor kecil, atau usaha lokal? Tim RADJA AC membantu cek ukuran ruangan, daya listrik, stok, pilihan brand, pengiriman, dan opsi pemasangan dari data awal.",
     parentAreaName: "Banyumas",
     parentAreaPath: routes.jualAcBanyumas,
     priority: "P1",
@@ -2465,7 +2483,16 @@ export const areaItems = [
   },
   {
     slug: "jual-ac-kalibagor",
+    path: routes.jualAcKalibagor,
     areaName: "Kalibagor",
+    label: "Jual AC Kalibagor",
+    title: "Jual AC Kalibagor untuk Rumah, Toko & Usaha — RADJA AC",
+    description:
+      "Butuh AC untuk rumah, toko, kantor kecil, ruko, atau usaha di Kalibagor? RADJA AC cek kebutuhan PK, stok, pengiriman unit, dan opsi pemasangan via WhatsApp.",
+    h1: "Jual AC Kalibagor untuk Rumah, Toko & Usaha",
+    eyebrow: "Jalur Banyumas - Sokaraja",
+    intro:
+      "Butuh AC di Kalibagor untuk rumah, toko, kantor kecil, ruko, atau usaha? Tim RADJA AC cek ukuran ruangan, daya listrik, pilihan brand, stok unit, pengiriman, dan opsi pemasangan sebelum pembelian.",
     parentAreaName: "Banyumas",
     parentAreaPath: routes.jualAcBanyumas,
     priority: "P1",
