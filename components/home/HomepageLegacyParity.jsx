@@ -6,25 +6,25 @@ import WhatsappLink from "@/components/ui/WhatsappLink";
 const categoryItems = [
   {
     title: "AC Split Rumah",
-    desc: "Untuk kamar, ruang keluarga, kontrakan, dan rumah tinggal.",
+    desc: "Buat kamar, ruang keluarga, kamar kost, kontrakan, dan rumah tinggal.",
     href: routes.katalogAcSplitRumah,
     icon: "⌂",
   },
   {
     title: "AC Inverter",
-    desc: "Untuk pemakaian lama, suhu stabil, dan listrik lebih terkontrol.",
+    desc: "Buat pemakaian lama setiap hari. Listrik lebih hemat, suhu lebih stabil.",
     href: routes.katalogAcInverter,
     icon: "⚡",
   },
   {
     title: "AC Low Watt",
-    desc: "Untuk rumah atau kos dengan daya listrik terbatas.",
+    desc: "Buat rumah atau kost dengan daya listrik terbatas.",
     href: routes.katalogAcLowWatt,
     icon: "◌",
   },
   {
-    title: "AC Kantor & Komersial",
-    desc: "Untuk toko, kantor, cafe, proyek, dan kebutuhan banyak unit.",
+    title: "AC Toko, Kantor & Proyek",
+    desc: "Buat toko, ruko, kantor, cafe, dan pembelian banyak unit sekaligus.",
     href: routes.katalogAcKantorKomersial,
     icon: "▦",
   },
@@ -32,44 +32,45 @@ const categoryItems = [
 
 const whyChooseItems = [
   {
-    title: "PK jangan asal nebak",
-    desc: "Kamar kecil, ruang tamu, kos, dan toko butuh hitungan berbeda. Salah PK bisa bikin AC kerja berat.",
+    title: "PK jangan asal tebak",
+    desc: "Kamar kost, ruang tamu, toko, dan kantor butuh hitungan PK berbeda. Salah PK — AC kerja berat, tagihan naik, ruangan tidak dingin.",
     icon: "★",
   },
   {
-    title: "Murah saja belum cukup",
-    desc: "Yang perlu dicek bukan cuma harga unit, tapi juga stok, tipe, garansi, dan kebutuhan pemasangan.",
+    title: "Jangan pilih AC dari harga saja",
+    desc: "Yang perlu dicek: stok ada apa tidak, tipe unitnya cocok apa tidak, garansinya jelas apa tidak, biaya pasang berapa.",
     icon: "☏",
   },
   {
     title: "Titik pasang ikut dihitung",
-    desc: "Panjang pipa, posisi outdoor, jalur kabel, dan akses lokasi bisa mempengaruhi biaya akhir.",
+    desc: "Panjang pipa, posisi outdoor, jalur kabel, dan akses lokasi menentukan biaya akhir. Ini dijelaskan sebelum jadwal pasang.",
     icon: "⌁",
   },
   {
-    title: "Cocok untuk pembeli lokal",
-    desc: "Melayani Purwokerto, Banyumas, Sokaraja, dan area sekitar. Bisa konsultasi dulu sebelum datang atau OTW.",
+    title: "Beli satuan sampai banyak unit",
+    desc: "Radja AC tangani pembelian rumah tangga, toko, kantor, dan proyek dari Sokaraja, Banyumas. Stok dan jadwal dikunci sebelum bayar.",
     icon: "⌖",
   },
 ];
 
 const pricePackages = [
   {
-    range: "3 Jutaan",
+    range: "Mulai 3 Jutaan",
     brands: "Hisense • Aqua • Midea • Sharp • LG • TCL • Polytron",
   },
   {
-    range: "4 Jutaan",
+    range: "Mulai 4 Jutaan",
     brands: "Daikin Standard • Gree • Panasonic • Mitsubishi • Samsung • Midea Inverter",
   },
   {
-    range: "5 Jutaan+",
+    range: "Mulai 5 Jutaan",
     brands: "Daikin Inverter • Gree Inverter",
   },
 ];
 
 const packageIncludes = [
-  "Unit AC + instalasi standar",
+  "Unit AC",
+  "Instalasi standar",
   "Pipa 2 meter",
   "Kabel 5 meter",
   "Bracket 1 set",
@@ -80,21 +81,21 @@ const packageIncludes = [
 
 const salesPoints = [
   {
-    title: "Stok dan tipe unit dicek sebelum transaksi",
+    title: "Stok dan tipe unit dicek duluan",
     description:
-      "Sebelum pembelian, tipe unit dan ketersediaan stok dikonfirmasi dulu agar pilihan AC sesuai kebutuhan dan kondisi terbaru.",
+      "Sebelum bayar, Radja AC cek dulu apakah unitnya tersedia. Bukan janjikan stok yang belum pasti.",
     icon: "✓",
   },
   {
-    title: "PK salah, ruangan susah dingin",
+    title: "PK salah, ruangan tidak dingin",
     description:
-      "Kamar 3x3 dan toko yang pintunya sering buka-tutup butuh PK berbeda. Salah pilih, AC kerja berat, listrik lebih boros, ruangan tetap panas.",
+      "Kamar 3x3 dan toko yang pintunya sering buka punya hitungan PK berbeda. Salah pilih — AC kerja keras, tagihan listrik naik, ruangan tetap gerah.",
     icon: "PK",
   },
   {
-    title: "Biaya pemasangan perlu dibaca dari lokasi",
+    title: "Biaya pemasangan tergantung kondisi lokasi",
     description:
-      "Panjang pipa, posisi outdoor, akses lokasi, dan material tambahan bisa memengaruhi biaya akhir. Detail ini dibahas sebelum jadwal pemasangan.",
+      "Panjang pipa, posisi outdoor, akses lokasi, dan material tambahan ikut menentukan biaya akhir. Radja AC jelaskan ini sebelum jadwal pasang dikunci.",
     icon: "Rp",
   },
 ];
@@ -103,49 +104,49 @@ const mainBrands = [
   {
     name: "Daikin",
     href: routes.brandDaikin,
-    tagline: "Premium & bergaransi",
+    tagline: "Tahan lama, banyak pilihan PK",
     logo: "/brand-logos/daikin-logo.webp",
   },
   {
     name: "Gree",
     href: routes.brandGree,
-    tagline: "Value kuat & efisien",
+    tagline: "Value bagus, Proshop resmi Purwokerto",
     logo: "/brand-logos/gree-logo.webp",
   },
   {
     name: "Midea",
     href: routes.brandMidea,
-    tagline: "Modern & praktis",
+    tagline: "Modern, harga masuk, stok tersedia",
     logo: "/brand-logos/midea-logo.webp",
   },
   {
     name: "Hisense",
     href: routes.brandHisense,
-    tagline: "Fitur modern harian",
+    tagline: "Fitur lengkap untuk harian",
     logo: "/brand-logos/hisense-logo.png",
   },
   {
     name: "Sansui",
     href: routes.brandSansui,
-    tagline: "Simple & ekonomis",
+    tagline: "Simpel, ekonomis, cocok buat kost",
     logo: "/brand-logos/sansui-logo.png",
   },
   {
     name: "Sharp",
     href: routes.brandSharp,
-    tagline: "Value for money",
+    tagline: "Awet, banyak dikenal di pasaran",
     logo: "/brand-logos/sharp-logo.webp",
   },
   {
     name: "Panasonic",
     href: routes.brandPanasonic,
-    tagline: "Nyaman & efisien",
+    tagline: "Nyaman dan hemat listrik",
     logo: "/brand-logos/panasonic-logo.webp",
   },
   {
     name: "Ariston",
     href: routes.brandAriston,
-    tagline: "Home comfort",
+    tagline: "Buat kebutuhan rumah harian",
     logo: "/brand-logos/ariston-logo.webp",
   },
 ];
@@ -200,6 +201,15 @@ function ArrowLink({ href, children, className = "" }) {
   );
 }
 
+function BrandName() {
+  return (
+    <strong className="font-black italic tracking-tight">
+      <span className="text-brand-red">Radja</span>{" "}
+      <span className="text-brand-blue">AC</span>
+    </strong>
+  );
+}
+
 function HomeHero() {
   return (
     <section className="relative overflow-hidden border-b border-blue-100 bg-[linear-gradient(180deg,#f8fdff_0%,#eefbff_100%)] px-4 pb-10 pt-10 sm:pt-14 lg:pb-14">
@@ -209,18 +219,15 @@ function HomeHero() {
         <div>
           <div className="mb-5 inline-flex max-w-full items-center gap-2 rounded-full border border-blue-100 bg-white/80 px-3.5 py-2 text-[11px] font-black uppercase tracking-[0.16em] text-blue-800 shadow-sm backdrop-blur">
             <span className="h-2 w-2 shrink-0 rounded-full bg-blue-500" />
-            <span className="leading-5">Cek stok, konsultasi PK, pengiriman & pemasangan</span>
+            <span className="leading-5">Showroom & gudang fisik · Pamijen, Sokaraja</span>
           </div>
 
           <h1 className="max-w-3xl text-3xl font-extrabold tracking-[-0.025em] text-navy sm:text-4xl lg:text-5xl">
-            Beli AC original multi-brand lebih aman kalau PK, stok, dan pemasangan dicek dari awal.
-            <span className="block text-brand-blue">
-              Untuk rumah, usaha, proyek, dan pengadaan banyak unit.
-            </span>
+            Jual AC original multi-brand untuk rumah, usaha, dan proyek. Cek PK, stok, dan biaya pasang sebelum beli.
           </h1>
 
           <p className="mt-5 max-w-2xl text-sm leading-7 text-slate-600 sm:text-base">
-            RADJA AC membantu pembelian AC original multi-brand untuk rumah, kost, toko, kantor, hotel, usaha, dan proyek. Showroom dan gudang RADJA AC ada di Banyumas; stok, kebutuhan PK, pengiriman, dan opsi pemasangan dikonfirmasi sebelum pembelian.
+            <BrandName /> melayani pembelian AC untuk kamar, rumah, kost, toko, ruko, kantor, hotel, dan proyek. Gudang dan showroom ada di Pamijen, Sokaraja, Banyumas. Sebelum beli, kirim ukuran ruangan, daya listrik, lokasi, dan jumlah unit — <BrandName /> hitung PK yang pas, cek stok, lalu jelaskan total biaya termasuk pasang.
           </p>
 
           <div className="mt-7 flex flex-col gap-3 sm:flex-row sm:flex-wrap">
@@ -229,33 +236,33 @@ function HomeHero() {
               source="Homepage Hero"
               intent="konsultasi AC yang cocok, cek PK, stok, pengiriman, dan pemasangan"
             >
-              Kirim Ukuran Ruangan
+              Cek Stok & Hitung PK
             </WhatsappLink>
 
             <ArrowLink
               href={routes.katalog}
               className="border border-navy/20 bg-white text-navy shadow-sm hover:border-navy/40 hover:bg-surface-soft"
             >
-              Lihat Pilihan AC
+              Lihat Katalog AC
             </ArrowLink>
 
             <ArrowLink
               href={routes.pengadaanAc}
               className="border border-brand-blue/30 bg-brand-blue-tint text-navy hover:bg-brand-blue/15"
             >
-              Pengadaan AC
+              Pengadaan Banyak Unit
             </ArrowLink>
 
             <ArrowLink
               href={routes.jualAc}
               className="border border-blue-200 bg-white text-blue-900 hover:bg-blue-50"
             >
-              Cek Area Jual AC
+              Area Jual AC
             </ArrowLink>
           </div>
 
           <p className="mt-5 max-w-2xl text-sm leading-7 text-slate-500">
-            Kirim ukuran ruangan, daya listrik, alamat atau kota tujuan, dan jumlah unit agar kebutuhan bisa dibaca dari awal.
+            Kirim ukuran ruangan, daya listrik, lokasi, jumlah unit, dan budget. <BrandName /> hitung PK, cek stok, lalu jelaskan biaya kirim dan pasang.
           </p>
         </div>
 
@@ -264,7 +271,7 @@ function HomeHero() {
           <div className="relative overflow-hidden rounded-[1.7rem] border border-white bg-white p-2 shadow-[0_22px_60px_rgba(15,39,66,0.12)]">
             <Image
               src="/photos/showroom/showroom-multibrand-radja-ac-purwokerto-01.webp"
-              alt="Showroom RADJA AC — AC original multi-brand untuk rumah, usaha, dan proyek"
+              alt="Showroom Radja AC — jual AC original multi-brand, Sokaraja Banyumas"
               width={900}
               height={720}
               sizes="(min-width: 1024px) 560px, 100vw"
@@ -282,9 +289,9 @@ function HomeTrust() {
   return (
     <section className="mx-auto max-w-7xl px-4 py-10">
       <div className="mx-auto mb-8 max-w-3xl text-center">
-        <SectionBadge tone="amber">Bukan Sekadar Klaim</SectionBadge>
+        <SectionBadge tone="amber">Bukti Operasional</SectionBadge>
         <h2 className="mt-4 text-2xl font-black tracking-tight text-blue-950 sm:text-3xl">
-          Ada showroom, stok fisik, dan bukti operasional nyata
+          Showroom ada, stok fisik ada, sertifikat resmi ada, dokumentasi pekerjaan ada.
         </h2>
       </div>
 
@@ -295,26 +302,23 @@ function HomeTrust() {
               ✓
             </div>
             <p className="mb-2 text-xs font-black uppercase tracking-[0.24em] text-blue-800">
-              Proshop Gree Resmi
+              PROSHOP GREE
             </p>
             <h3 className="text-2xl font-black tracking-tight text-blue-950 sm:text-3xl">
-              RADJA AC tercantum sebagai Proshop resmi Gree Indonesia
+              <BrandName /> terdaftar resmi sebagai Proshop Gree Purwokerto
             </h3>
           </div>
 
           <div className="border-t border-blue-200 pt-6 lg:border-l lg:border-t-0 lg:pl-8 lg:pt-0">
             <p className="text-sm leading-7 text-slate-700 sm:text-base">
-              Selain konsultasi brand lain, RADJA AC juga dikenal melalui showroom, stok fisik,
-              pengiriman, dan pemasangan. Untuk Gree, RADJA AC tercantum sebagai Proshop resmi Gree
-              Indonesia. Untuk stok, harga, tipe unit, dan jadwal pemasangan, tetap konfirmasi dulu
-              agar informasi mengikuti stok dan jadwal terbaru.
+              Ini bukan toko online tanpa bukti fisik. <BrandName /> punya showroom, gudang, stok fisik, dan pembeli dapat datang melihat unit. Untuk Gree, <BrandName /> terdaftar sebagai <strong className="font-black text-brand-red">Proshop Gree Radja AC Purwokerto</strong>. Stok, tipe, harga, jadwal kirim, dan biaya pasang dijelaskan di awal agar transaksi jelas.
             </p>
 
             <ArrowLink
               href={routes.brandGree}
               className="mt-5 border border-blue-300 bg-white text-blue-900 shadow-sm hover:bg-blue-50"
             >
-              Lihat AC Gree di RADJA AC
+              Lihat AC Gree
             </ArrowLink>
           </div>
         </div>
@@ -328,15 +332,13 @@ function HomeTrust() {
             </div>
 
             <p className="mb-3 text-xs font-black uppercase tracking-[0.28em] text-[#1565C0]">
-              Dokumen Resmi
+              Sertifikat Resmi
             </p>
             <h3 className="mb-3 text-2xl font-black tracking-tight text-blue-950 sm:text-3xl">
-              Sertifikat Authorized Dealer — bukan sekadar klaim toko
+              Beli AC harus jelas asal-usulnya, garansinya, dan dokumennya
             </h3>
             <p className="max-w-xl text-sm leading-7 text-slate-600 sm:text-base">
-              Sertifikat brand menjadi salah satu bukti pendukung bahwa pembelian unit AC perlu jelas
-              asal-usul, garansi, dan dokumennya. Untuk stok dan tipe unit terbaru, tetap konfirmasi
-              RADJA AC sebelum pembelian.
+              <BrandName /> memegang sertifikat authorized dealer untuk brand yang tercantum. Ini penting karena asal unit jelas, garansi punya jalur klaim, dan pembeli tahu dokumen brand yang mendukung transaksi.
             </p>
           </div>
 
@@ -346,7 +348,7 @@ function HomeTrust() {
                 <div className="rounded-[18px] border border-slate-200 bg-white p-2 shadow-[0_14px_34px_rgba(15,39,66,0.08)]">
                   <Image
                     src={item.image}
-                    alt={`Sertifikat Authorized Dealer ${item.brand} RADJA AC`}
+                    alt={`Sertifikat Authorized Dealer ${item.brand} Radja AC`}
                     width={260}
                     height={180}
                     sizes="(min-width: 1024px) 220px, 50vw"
@@ -379,14 +381,13 @@ function HomePriceEstimate() {
       <div className="overflow-hidden rounded-[1.7rem] border border-blue-100 bg-white p-5 shadow-[0_22px_60px_rgba(15,39,66,0.08)] sm:p-8">
         <div className="mb-7 grid gap-5 lg:grid-cols-[0.9fr_1.1fr] lg:items-end">
           <div>
-            <SectionBadge>Estimasi Anggaran AC + Pasang</SectionBadge>
+            <SectionBadge>Estimasi Budget</SectionBadge>
             <h2 className="mt-4 text-2xl font-black tracking-tight text-blue-950 sm:text-3xl">
-              Mulai pilih AC dari kisaran anggaran dan kebutuhan ruangan
+              Kisaran harga AC + pasang di Banyumas
             </h2>
           </div>
           <p className="text-sm leading-7 text-slate-600 sm:text-base">
-            Gambaran awal untuk melihat kisaran anggaran dan pilihan merek yang mungkin sesuai. Rincian harga
-            mengikuti tipe unit, stok, promo, dan kondisi pemasangan di lokasi.
+            Harga akhir mengikuti merek, PK, kondisi lokasi, dan panjang pipa. Kisaran ini membantu pembeli menyiapkan budget sebelum chat.
           </p>
         </div>
 
@@ -409,7 +410,7 @@ function HomePriceEstimate() {
 
         <div className="mt-6 rounded-[1.5rem] border border-blue-100 bg-blue-50 p-5">
           <p className="mb-4 text-sm font-black uppercase tracking-[0.18em] text-slate-500">
-            Paket standar termasuk
+            Paket standar sudah termasuk:
           </p>
           <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
             {packageIncludes.map((item) => (
@@ -424,8 +425,7 @@ function HomePriceEstimate() {
         </div>
 
         <div className="mt-6 rounded-[1.4rem] border border-blue-200 bg-blue-50 px-4 py-4 text-sm leading-7 text-blue-900">
-          <strong>Catatan:</strong> harga menyesuaikan merek, PK, stok, promo, panjang pipa, posisi outdoor,
-          dan kebutuhan instalasi tambahan. Detailnya dicek sebelum pemasangan dijadwalkan.
+          <strong>Catatan:</strong> Harga dapat berubah mengikuti merek, PK, promo aktif, panjang pipa, posisi outdoor, dan kondisi lokasi pasang. Detail biaya dijelaskan sebelum jadwal pasang dikunci.
         </div>
 
         <div className="mt-6 flex justify-center">
@@ -434,7 +434,7 @@ function HomePriceEstimate() {
             source="Home Price Estimate"
             intent="cek estimasi anggaran AC dan pemasangan"
           >
-            Cek Anggaran dari Data Ruangan
+            Hitung Budget dari Ukuran Ruangan
           </WhatsappLink>
         </div>
       </div>
@@ -449,15 +449,15 @@ function HomePaymentTrust() {
         <div className="grid gap-4 md:grid-cols-3 md:items-center">
           <div>
             <p className="text-xs font-black uppercase tracking-[0.2em] text-blue-700">
-              Alur Pembelian Aman
+              Beli AC di Radja AC — Alurnya Simpel
             </p>
             <h2 className="mt-2 text-xl font-black text-blue-950">
-              Kirim ukuran ruangan, daya listrik, dan lokasi. Unit, anggaran, dan kebutuhan pemasangan dicek dari data awal.
+              Kirim data ruangan. PK dihitung, stok dicek, biaya pasang dijelaskan. Baru beli.
             </h2>
           </div>
 
           <div className="md:col-span-2 grid gap-3 sm:grid-cols-3">
-            {["Cek kebutuhan PK", "Konfirmasi stok & brand", "Bahas pengiriman/pasang"].map((item) => (
+            {["Hitung PK yang pas", "Cek stok dan pilih brand", "Konfirmasi kirim dan pasang"].map((item) => (
               <div key={item} className="rounded-2xl bg-slate-50 p-4 text-sm font-bold text-slate-700">
                 {item}
               </div>
@@ -475,14 +475,12 @@ function HomeSalesLanding() {
       <div className="overflow-hidden rounded-[1.7rem] border border-blue-200 bg-blue-50 p-6 shadow-[0_22px_60px_rgba(15,39,66,0.08)] sm:p-8 lg:p-10">
         <div className="grid gap-8 lg:grid-cols-[0.9fr_1.1fr] lg:items-center">
           <div>
-            <SectionBadge>Cek Dulu Sebelum Beli</SectionBadge>
+            <SectionBadge>Jangan Salah Beli AC</SectionBadge>
             <h2 className="mt-4 text-2xl font-black tracking-tight text-blue-950 sm:text-3xl lg:text-4xl">
-              Beli AC yang pas itu bukan cuma soal harga awal
+              Murah di awal bisa mahal di belakang kalau salah pilih
             </h2>
             <p className="mt-5 max-w-2xl text-sm leading-7 text-slate-600 sm:text-base">
-              Yang sering jadi masalah bukan harga unitnya — tapi PK tidak sesuai ruangan, stok ternyata
-              kosong, ongkir belum dihitung, atau biaya pemasangan berbeda dari perkiraan. Tim RADJA AC membantu
-              cek dari awal supaya pembelian satuan maupun pengadaan banyak unit lebih jelas.
+              Kebanyakan masalah beli AC bukan soal unitnya — tapi PK terlalu kecil buat ruangan, stok belum dikunci, ongkir belum dihitung, dan biaya pasang belum jelas. <BrandName /> jelaskan semua itu di awal, untuk beli satuan maupun banyak unit.
             </p>
 
             <div className="mt-6 flex flex-col gap-3 sm:flex-row sm:flex-wrap">
@@ -491,13 +489,13 @@ function HomeSalesLanding() {
                 source="Home Sales Landing"
                 intent="minta rekomendasi AC sesuai ruangan dan anggaran"
               >
-                Minta Rekomendasi AC
+                Minta Pilihan AC
               </WhatsappLink>
               <ArrowLink
                 href={routes.katalog}
                 className="border border-blue-200 bg-white text-slate-900 hover:bg-blue-100"
               >
-                Lihat Pilihan AC
+                Lihat Katalog AC
               </ArrowLink>
               <ArrowLink
                 href={routes.buktiPengirimanProyek}
@@ -529,13 +527,12 @@ function HomeCategory() {
   return (
     <section className="mx-auto max-w-7xl px-4 py-10">
       <div className="mb-6">
-        <SectionBadge>Kategori Produk</SectionBadge>
+        <SectionBadge>Kategori AC</SectionBadge>
         <h2 className="mt-4 text-2xl font-black tracking-tight text-blue-950 sm:text-3xl">
-          Pilih AC berdasarkan jenis ruangan dan pemakaian
+          AC buat apa? Kamar, toko, kantor, atau banyak unit punya hitungan beda
         </h2>
         <p className="mt-3 max-w-2xl text-sm leading-7 text-slate-600 sm:text-base">
-          Kamar kost, rumah, toko yang pintunya sering buka, dan kantor hitungannya berbeda. Mulai dari
-          kategori yang paling dekat dengan kondisi lokasi.
+          Kamar kost 3x3, ruang tamu 4x5, toko yang pintunya jarang tutup, kantor — semua butuh PK yang beda. Pilih kategori yang paling sesuai dulu, baru cocokkan dengan daya listrik dan kondisi ruangan.
         </p>
       </div>
 
@@ -566,9 +563,9 @@ function HomeBrands() {
     <section className="mx-auto max-w-7xl px-4 py-10" id="brand-lainnya">
       <div className="mb-6 flex items-end justify-between gap-4">
         <div>
-          <SectionBadge>Brand Tersedia</SectionBadge>
+          <SectionBadge>Brand AC</SectionBadge>
           <h2 className="mt-4 text-2xl font-black tracking-tight text-blue-950 sm:text-3xl">
-            Pilih brand AC sesuai ruangan, anggaran, dan pola pemakaian
+            Beli AC merek apa? Cek stok, budget, dan kecocokan ruangan dulu
           </h2>
         </div>
 
@@ -576,14 +573,12 @@ function HomeBrands() {
           href={routes.brandLainnya}
           className="hidden border border-blue-200 bg-white text-blue-900 hover:bg-blue-50 sm:inline-flex"
         >
-          Lihat Brand Lainnya
+          Lihat Semua Brand
         </ArrowLink>
       </div>
 
       <p className="mb-7 max-w-3xl text-sm leading-7 text-slate-600 sm:text-base">
-        Gree punya value kuat dan RADJA AC tercantum sebagai Proshop Gree resmi. Daikin cocok untuk
-        ketenangan jangka panjang, Midea populer karena harga masuk, Hisense modern, Sansui untuk kebutuhan
-        ekonomis, dan brand lain dicek dari stok aktif. Kirim ukuran ruangan dan daya listrik — tim RADJA AC mencocokkan pilihan dari data itu.
+        <BrandName /> jual AC original dari banyak merek — beli satuan sampai banyak unit. Gree kuat di value dan ada dukungan Proshop resmi. Daikin banyak dipilih untuk pemakaian jangka panjang. Midea masuk di budget tengah. Hisense punya pilihan fitur modern. Sansui ekonomis. Brand lain dikonfirmasi dari stok aktif. Kirim ukuran ruangan dan daya listrik — <BrandName /> cocokkan pilihan dari data tersebut.
       </p>
 
       <div className="mb-8 grid grid-cols-2 gap-4 md:grid-cols-4 lg:grid-cols-8">
@@ -611,7 +606,7 @@ function HomeBrands() {
               {brand.tagline}
             </p>
             <div className="text-xs font-black text-blue-700">
-              Cek Unit & Anggaran →
+              Cek Unit & Budget →
             </div>
           </Link>
         ))}
@@ -624,11 +619,11 @@ function HomeBrands() {
               Brand Lainnya
             </p>
             <h3 className="text-xl font-black text-blue-950">
-              Brand lain bisa dicek berdasarkan stok aktif dan kebutuhan
+              Cari merek yang tidak ada di atas? Tanya langsung
             </h3>
           </div>
           <p className="text-sm text-slate-500 sm:text-right">
-            Cari brand tertentu? Kirim nama brand dan ukuran ruangan ke RADJA AC.
+            LG · Samsung · Aqua · Polytron · TCL · Mitsubishi · Toshiba · Modena · Bestlife · Akari · FLife · Reiwa
           </p>
         </div>
 
@@ -655,13 +650,12 @@ function HomeWhyChoose() {
   return (
     <section className="mx-auto max-w-7xl px-4 py-12">
       <div className="mx-auto mb-10 max-w-3xl text-center">
-        <SectionBadge>Cara Kami Kerja</SectionBadge>
+        <SectionBadge>Cara Kerja Radja AC</SectionBadge>
         <h2 className="mt-4 text-2xl font-black tracking-tight text-blue-950 sm:text-3xl">
-          Stok dicek, PK dihitung, pasang dijelaskan — sebelum pembelian
+          Stok dikunci, PK dihitung, biaya pasang dijelaskan — sebelum uang keluar
         </h2>
         <p className="mx-auto mt-4 max-w-2xl text-sm leading-7 text-slate-600">
-          Fokusnya bukan sekadar promo, tapi memastikan unit, PK, dan pemasangan sesuai kondisi lokasi.
-          Ini yang kami lakukan di setiap order supaya tidak ada yang kaget di belakang, baik soal harga maupun hasil akhir pemasangan.
+          Promo boleh menarik. Tapi kalau unit tidak cocok ruangan, semua sia-sia. <BrandName /> cek stok dulu, hitung PK, jelaskan biaya pasang — baru pembeli lanjut bayar.
         </p>
       </div>
 
@@ -699,13 +693,13 @@ function HomeClosingCta() {
           <div>
             <span className="inline-flex items-center gap-2 rounded-full border border-white/20 bg-white/10 px-4 py-1.5 text-[11px] font-bold uppercase tracking-[0.18em] text-white">
               <span className="h-1.5 w-1.5 rounded-full bg-brand-red" aria-hidden="true" />
-              Siap konsultasi?
+              Siap Beli AC?
             </span>
             <h2 className="mt-4 max-w-2xl text-balance text-3xl font-extrabold tracking-[-0.02em] text-white sm:text-4xl">
-              Kirim ukuran ruangan dan kebutuhan AC.
+              Kirim data ruangan. <BrandName /> hitung PK dan jelaskan biaya totalnya.
             </h2>
             <p className="mt-4 max-w-2xl text-sm leading-7 text-white/80 sm:text-base">
-              Tim RADJA AC membaca ukuran ruangan, daya listrik, estimasi anggaran, alamat pengiriman, dan kebutuhan pemasangan sebelum memberi arahan.
+              Kirim ukuran ruangan, daya listrik, lokasi kirim, jumlah unit, dan kebutuhan pasang ke <BrandName />. Setelah itu PK dihitung, stok dicek, lalu pilihan unit dan biaya lengkap dijelaskan.
             </p>
           </div>
 
@@ -715,7 +709,7 @@ function HomeClosingCta() {
               source="Homepage Closing CTA"
               intent="konsultasi kebutuhan AC dari homepage"
             >
-              Kirim Ukuran Ruangan
+              Cek Stok & Hitung PK
             </WhatsappLink>
 
             <div className="mt-4 grid grid-cols-1 gap-2 sm:grid-cols-2">
