@@ -3,6 +3,10 @@ import { notFound } from "next/navigation";
 import { routes } from "@/content/routes";
 import { articleItems, getArticleItem } from "@/content/articles";
 import { buildMetadata } from "@/lib/seo";
+import { breadcrumbSchema } from "@/lib/schema";
+import { siteConfig } from "@/content/site";
+import { absoluteSiteUrl } from "@/lib/url";
+import JsonLd from "@/components/seo/JsonLd";
 import WhatsappLink from "@/components/ui/WhatsappLink";
 
 export const dynamicParams = false;
@@ -84,8 +88,39 @@ export default async function ArticleDetailPage({ params }) {
   const moneyLinks = moneyLinksBySlug[item.slug] || item.relatedLinks?.map(([label, href]) => [label, href, "Buka halaman terkait untuk lanjut dari artikel ke kebutuhan pembelian."]) || defaultMoneyLinks;
   const keywords = item.keywords?.length ? item.keywords : [item.eyebrow, "AC", "RADJA AC"];
 
+  const articleUrl = absoluteSiteUrl(item.path);
+  const structuredData = [
+    breadcrumbSchema([
+      ["Beranda", routes.home],
+      ["Artikel", routes.artikel],
+      [item.h1, item.path],
+    ]),
+    {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "@id": `${articleUrl}#article`,
+      mainEntityOfPage: articleUrl,
+      url: articleUrl,
+      headline: item.h1,
+      description: item.description,
+      inLanguage: siteConfig.language,
+      articleSection: item.eyebrow,
+      image: [absoluteSiteUrl("/og/radjaac-showroom-og.webp")],
+      ...(item.keywords?.length ? { keywords: item.keywords.join(", ") } : {}),
+      author: {
+        "@type": "Organization",
+        name: siteConfig.name,
+        url: siteConfig.baseUrl,
+      },
+      publisher: {
+        "@id": `${siteConfig.baseUrl}/#organization`,
+      },
+    },
+  ];
+
   return (
     <main className="min-h-screen overflow-hidden bg-[#f4f8fb] text-slate-950">
+      <JsonLd data={structuredData} />
       <article>
         <section className="relative overflow-hidden border-b border-slate-200 bg-[linear-gradient(135deg,#061727_0%,#0f3f57_48%,#e9fbff_100%)] px-4 pb-12 pt-12 text-white sm:px-6 lg:px-8 lg:pb-16 lg:pt-20">
           <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_top_left,rgba(34,211,238,0.22),transparent_32%),radial-gradient(circle_at_bottom_right,rgba(37,211,102,0.20),transparent_28%)]" />
