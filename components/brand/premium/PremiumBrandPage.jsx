@@ -256,7 +256,7 @@ export default function PremiumBrandPage({ content, item, faqItems, structuredDa
                     <p className="mt-1 text-sm font-semibold text-slate-800">{product.fit}</p>
                   </div>
                   <div>
-                    <p className={`${typography.eyebrow} text-blue-700`}>Fokus utama</p>
+                    <p className={`${typography.eyebrow} text-blue-700`}>{products.priorityLabel ?? "Fokus utama"}</p>
                     <p className="mt-1 text-sm font-semibold text-slate-800">{product.priority}</p>
                   </div>
                 </div>

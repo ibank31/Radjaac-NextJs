@@ -14,6 +14,9 @@ import GreeBrandPage from "@/components/brand/premium/GreeBrandPage";
 import MideaBrandPage from "@/components/brand/premium/MideaBrandPage";
 import HisenseBrandPage from "@/components/brand/premium/HisenseBrandPage";
 import SansuiBrandPage from "@/components/brand/premium/SansuiBrandPage";
+import SharpBrandPage from "@/components/brand/premium/SharpBrandPage";
+import SamsungBrandPage from "@/components/brand/premium/SamsungBrandPage";
+import PanasonicBrandPage from "@/components/brand/premium/PanasonicBrandPage";
 
 export const dynamicParams = false;
 
@@ -23,6 +26,9 @@ const premiumBrandPages = {
   midea: MideaBrandPage,
   hisense: HisenseBrandPage,
   sansui: SansuiBrandPage,
+  sharp: SharpBrandPage,
+  samsung: SamsungBrandPage,
+  panasonic: PanasonicBrandPage,
 };
 
 const heroImages = {

@@ -336,6 +336,48 @@ export const brandItems = [
     ctaLabel: "Cek Stok AC Sharp",
     waIntent: "cek stok dan konsultasi AC Sharp",
     waBrand: "Sharp",
+    localFaq: [
+      [
+        "Apakah RADJA AC jual AC Sharp?",
+        "Ya. Sharp termasuk brand yang ada di daftar supplier RADJA AC. Untuk tipe dan stok yang ready hari ini, langsung cek via WhatsApp — stok bisa berubah mengikuti ketersediaan supplier.",
+      ],
+      [
+        "Berapa harga AC Sharp Original sekarang?",
+        "Estimasi awal untuk Sharp 1/2 PK mulai 3,5 jutaan sudah termasuk unit dan pemasangan standar. Harga final dikonfirmasi admin setelah cek stok tipe Sharp, kapasitas PK, kondisi lokasi, dan tambahan material jika ada.",
+      ],
+      [
+        "Sharp cocok untuk kamar, kost, atau kontrakan?",
+        "Cocok untuk dipertimbangkan. Sharp BEY adalah tipe yang paling sering ditanya untuk kamar atau kost. Tapi sebelum deal, admin perlu tahu ukuran ruangan dan daya listrik supaya rekomendasinya tidak asal — salah PK bisa bikin AC kerja keras dan tagihan listrik membengkak.",
+      ],
+      [
+        "Bingung pilih Sharp, Panasonic, Midea, atau Gree — bisa dibantu?",
+        "Bisa. Kalau bingung di antara beberapa brand, admin RADJA AC bisa bantu bandingkan sesuai budget, ukuran ruangan, daya listrik, dan pola pemakaian. Sharp biasanya cocok untuk yang ingin brand familiar dan tidak mau eksperimental.",
+      ],
+      [
+        "Apakah tersedia AC Sharp inverter atau low watt?",
+        "Stok Sharp low watt dan inverter mengikuti ketersediaan supplier. Cek langsung via WhatsApp agar admin bisa pastikan tipe yang ready dan harga terbaru hari ini — jangan sampai sudah deal ternyata stok kosong.",
+      ],
+      [
+        "Sharp yang dijual hanya 1/2 PK, atau ada yang lebih besar?",
+        "Ada. RADJA AC juga melayani Sharp dari 3/4 PK, 1 PK, 1.5 PK, sampai 2 PK sesuai stok. Untuk kapasitas di atas 1/2 PK, admin bantu cek harga dan ketersediaan tipe lewat WhatsApp.",
+      ],
+      [
+        "Kalau beli AC Sharp, bisa sekalian dipasang?",
+        "Bisa. Pemasangan tersedia untuk area yang dikonfirmasi. Estimasi biaya pasang dikonfirmasi setelah admin tahu kondisi lokasi, panjang pipa, posisi outdoor, dan kebutuhan material tambahan jika ada.",
+      ],
+      [
+        "Berapa lama garansi teknisi setelah pemasangan AC Sharp?",
+        "Garansi teknisi 1 bulan untuk pekerjaan pemasangan. Kalau ada kendala pada unit AC, RADJA AC bisa bantu arahan proses klaim garansi ke brand terkait sesuai ketentuan resmi Sharp.",
+      ],
+      [
+        "Kalau unit Sharp bermasalah setelah dipasang, RADJA AC bisa bantu?",
+        "Bisa bantu arahkan. RADJA AC bisa bantu koordinasi awal proses klaim ke Sharp sesuai syarat garansi resmi — selama kartu garansi, nota pembelian, nomor seri unit, dan bukti kendala tersedia.",
+      ],
+      [
+        "Bagaimana cara cek stok dan harga AC Sharp terbaru di RADJA AC?",
+        "Klik tombol WhatsApp di halaman ini. Kirimkan info ruangan, lokasi, dan kebutuhan Anda. Admin RADJA AC akan cek stok AC Sharp Original yang ready, harga terbaru, dan estimasi pemasangan — tidak harus langsung deal.",
+      ],
+    ],
   },
   {
     slug: "samsung",
@@ -357,6 +399,40 @@ export const brandItems = [
     ctaLabel: "Cek Stok AC Samsung",
     waIntent: "cek stok dan konsultasi AC Samsung",
     waBrand: "Samsung",
+    localFaq: [
+      [
+        "Apakah RADJA AC menjual AC Samsung inverter?",
+        "Ya. Samsung inverter tersedia di daftar supplier RADJA AC untuk paket unit + pemasangan standar di area yang dikonfirmasi. Stok dicek dulu sebelum deal.",
+      ],
+      [
+        "Berapa harga AC Samsung?",
+        "Samsung inverter ½ PK mulai 4 jutaan, sudah termasuk unit dan pemasangan standar. Untuk ¾ PK ke atas, admin langsung cek stok dan harga via WhatsApp.",
+      ],
+      [
+        "Apakah Samsung inverter cocok untuk kamar tidur?",
+        "Cocok untuk dipertimbangkan. Tapi sebelum deal, perlu dicek ukuran kamar, daya listrik, paparan matahari, dan jam pemakaian — supaya PK yang dipilih tidak terlalu kecil dan AC tidak kerja keras terus.",
+      ],
+      [
+        "Apakah RADJA AC hanya melayani Samsung 1/2 PK?",
+        "Tidak. RADJA AC juga melayani kebutuhan Samsung 3/4 PK, 1 PK, 1.5 PK, hingga 2 PK sesuai stok. Untuk kapasitas di atas 1/2 PK, admin bantu cek harga dan ketersediaan stok via WhatsApp.",
+      ],
+      [
+        "Apakah pembelian AC Samsung bisa dibantu pemasangan?",
+        "Bisa. Pembelian unit Samsung bisa dilanjutkan dengan pemasangan di area yang dikonfirmasi — tergantung kondisi lokasi, titik indoor-outdoor, kebutuhan material tambahan, dan jadwal teknisi.",
+      ],
+      [
+        "Apakah ada garansi teknisi setelah pemasangan?",
+        "Ada. RADJA AC memberikan garansi teknisi 1 bulan untuk kendala yang berhubungan dengan pekerjaan pemasangan atau instalasi. Bukan untuk kerusakan unit yang terlepas dari pekerjaan pasang.",
+      ],
+      [
+        "Kalau unit Samsung bermasalah setelah dipasang, bisa dibantu klaim?",
+        "Bisa dibantu arahannya. RADJA AC bisa bantu arahan proses klaim garansi ke Samsung sesuai ketentuan resmi, selama dokumen pembelian, kartu garansi, nomor seri, dan bukti kendala tersedia.",
+      ],
+      [
+        "Bagaimana cara cek stok AC Samsung terbaru?",
+        "Klik tombol WhatsApp di halaman ini. Kirim ukuran ruangan, daya listrik, lokasi, dan budget — admin RADJA AC bantu cek stok Samsung yang ready, rekomendasi PK, estimasi harga, dan opsi pemasangan.",
+      ],
+    ],
   },
   {
     slug: "panasonic",
@@ -378,6 +454,48 @@ export const brandItems = [
     ctaLabel: "Cek Stok AC Panasonic",
     waIntent: "cek stok dan konsultasi AC Panasonic",
     waBrand: "Panasonic",
+    localFaq: [
+      [
+        "Apakah RADJA AC jual AC Panasonic original?",
+        "Ya. Panasonic termasuk brand yang ada di daftar supplier RADJA AC. Untuk tipe dan stok yang ready hari ini, langsung cek via WhatsApp — ketersediaan bisa berubah mengikuti supplier.",
+      ],
+      [
+        "Berapa harga AC Panasonic sekarang?",
+        "Panasonic standard ½ PK mulai 4 jutaan, sudah termasuk unit dan pemasangan standar. Untuk ¾ PK ke atas, admin langsung cek stok dan harga via WhatsApp.",
+      ],
+      [
+        "Apakah stok AC Panasonic selalu tersedia?",
+        "Tidak selalu. Stok dan tipe Panasonic bisa berubah mengikuti ketersediaan supplier. Sebaiknya chat WhatsApp dulu untuk cek unit yang sedang ready dan harga terbaru hari ini — jangan sampai sudah siap deal ternyata stok kosong.",
+      ],
+      [
+        "Bingung pilih Panasonic, Sharp, Midea, atau Daikin — bisa dibantu?",
+        "Bisa. Kalau bingung di antara beberapa brand, admin RADJA AC bisa bantu bandingkan sesuai budget, ukuran ruangan, daya listrik, dan pola pemakaian. Panasonic biasanya cocok untuk yang ingin brand familiar, kesan awet, dan tidak mau eksperimental.",
+      ],
+      [
+        "Panasonic yang dijual hanya 1/2 PK, atau ada yang lebih besar?",
+        "Ada. RADJA AC juga melayani Panasonic dari 3/4 PK, 1 PK, 1.5 PK, sampai 2 PK sesuai stok. Untuk kapasitas di atas 1/2 PK, admin bantu cek harga dan ketersediaan tipe lewat WhatsApp.",
+      ],
+      [
+        "Bisa konsultasi PK dulu sebelum beli Panasonic?",
+        "Bisa. Kirim ukuran ruangan, daya listrik, lokasi pemasangan, dan budget. Admin RADJA AC akan bantu rekomendasikan kapasitas yang lebih tepat — bukan asal jawab 1 PK untuk semua ruangan.",
+      ],
+      [
+        "Kalau beli AC Panasonic, bisa sekalian dipasang?",
+        "Bisa. Pemasangan tersedia untuk area Purwokerto, Banyumas, Sokaraja, dan sekitarnya. Estimasi biaya pasang dikonfirmasi setelah admin tahu kondisi lokasi, panjang pipa, posisi outdoor, dan kebutuhan material tambahan jika ada.",
+      ],
+      [
+        "Berapa lama garansi teknisi setelah pemasangan AC Panasonic?",
+        "Garansi teknisi 1 bulan untuk pekerjaan pemasangan. Kalau ada kendala pada unit AC, RADJA AC bisa bantu arahan proses klaim garansi ke brand terkait sesuai ketentuan resmi Panasonic.",
+      ],
+      [
+        "Kalau unit Panasonic bermasalah setelah dipasang, RADJA AC bisa bantu?",
+        "Bisa bantu arahkan. RADJA AC bisa bantu koordinasi awal proses klaim ke Panasonic sesuai syarat garansi resmi — selama kartu garansi, nota pembelian, nomor seri unit, dan bukti kendala tersedia.",
+      ],
+      [
+        "Bagaimana cara cek stok dan harga AC Panasonic terbaru di RADJA AC?",
+        "Klik tombol WhatsApp di halaman ini. Kirimkan info ruangan, lokasi, dan kebutuhan Anda. Admin RADJA AC akan cek stok AC Panasonic yang ready, harga terbaru, pengiriman, dan opsi pemasangan — tidak harus langsung deal.",
+      ],
+    ],
   },
   {
     slug: "ariston",
