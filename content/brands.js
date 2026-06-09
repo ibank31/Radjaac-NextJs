@@ -74,16 +74,40 @@ export const brandItems = [
     ],
     localFaq: [
       [
-        "Apakah bisa cek AC Daikin untuk area Purwokerto, Banyumas, dan Sokaraja?",
-        "Bisa. Kirim ukuran ruangan, daya listrik, jumlah unit, alamat area, dan kebutuhan unit saja atau pemasangan. Tim RADJA AC akan mengecek stok Daikin, tipe yang cocok, pengiriman, dan opsi pemasangan.",
+        "Apakah RADJA AC menjual AC Daikin original bergaransi?",
+        "Ya. Kami jual AC Daikin original untuk kebutuhan rumah, kost, toko, kantor, hotel, dan proyek. Garansi unit mengikuti ketentuan resmi Daikin dan kartu garansi produk — bukan garansi toko semata.",
       ],
       [
         "Berapa harga AC Daikin terbaru?",
-        "Harga AC Daikin mengikuti kapasitas PK, tipe unit, stok, promo, alamat pengiriman, dan kebutuhan pemasangan. Estimasi terbaru dikonfirmasi lewat WhatsApp setelah kebutuhan ruangan dan lokasi jelas.",
+        "Daikin standard atau low watt ½ PK mulai 4 jutaan, sudah termasuk unit dan pemasangan standar. Daikin inverter ½ PK mulai 5 jutaan dengan paket yang sama. Untuk ¾ PK ke atas, admin langsung cek stok dan harga via WhatsApp.",
       ],
       [
-        "Pilih Daikin standard atau inverter?",
-        "Pilihan standard atau inverter dibaca dari ukuran ruangan, durasi pemakaian, daya listrik, anggaran, dan stok aktif. Untuk pemakaian lama, inverter bisa dipertimbangkan, tetapi tetap perlu cocok dengan kebutuhan PK.",
+        "Kenapa Daikin lebih mahal dari brand lain?",
+        "Daikin memang sedikit lebih premium dari brand ekonomis. Yang banyak dikejar pembeli: spare part mudah dicari, jaringan teknisi dan layanan purna jual Daikin relatif mudah ditemukan, dan unit-nya dikenal tahan lama. Kalau budget lebih ketat, admin bisa bantu bandingkan dengan Gree, Midea, atau Hisense yang stoknya juga kami sediakan.",
+      ],
+      [
+        "Apakah RADJA AC hanya jual Daikin ½ PK?",
+        "Tidak. Kami juga layani Daikin di atas ½ PK — ¾ PK, 1 PK, 1.5 PK, sampai 2 PK sesuai stok. Untuk kapasitas lebih besar, admin bantu cek harga terbaru dan stok yang ready lewat WhatsApp.",
+      ],
+      [
+        "Apakah pembelian AC Daikin bisa dibantu pemasangan?",
+        "Bisa. Pembelian Daikin bisa lanjut dibantu opsi pemasangan by konfirmasi. Titik indoor-outdoor, panjang pipa, tambahan material, alamat tujuan, dan jadwal teknisi dikonfirmasi sebelum hari pemasangan.",
+      ],
+      [
+        "Apakah ada garansi teknisi setelah pemasangan?",
+        "Ada. Garansi teknisi 1 bulan untuk kendala yang berkaitan dengan pekerjaan pemasangan atau instalasi — bukan kerusakan unit akibat pemakaian.",
+      ],
+      [
+        "Kalau unit Daikin bermasalah setelah dipasang, toko bisa bantu?",
+        "Bisa. RADJA AC bantu arahan awal dan koordinasi proses klaim sesuai ketentuan garansi Daikin — selama dokumen pembelian, kartu garansi, nomor seri, dan bukti kendala tersedia.",
+      ],
+      [
+        "Apakah bisa konsultasi ukuran PK dulu sebelum beli?",
+        "Bisa, dan memang sebaiknya begitu. Kirim ukuran ruangan, tinggi plafon kalau ada, daya listrik, dan fungsi ruangan. Admin bantu rekomendasikan kapasitas Daikin yang masuk akal — tidak harus langsung deal.",
+      ],
+      [
+        "Bagaimana cara cek stok dan harga Daikin terbaru?",
+        "Klik tombol WhatsApp di halaman ini. Kirim ukuran ruangan, daya listrik, dan kebutuhan — admin bantu cek stok yang ready, harga terkini, dan estimasi pemasangan.",
       ],
     ],
   },

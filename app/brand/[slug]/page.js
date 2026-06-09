@@ -9,8 +9,13 @@ import { warrantyHighlights } from "@/content/policies";
 import { typography } from "@/lib/typography";
 import WhatsappLink from "@/components/ui/WhatsappLink";
 import JsonLd from "@/components/seo/JsonLd";
+import DaikinBrandPage from "@/components/brand/premium/DaikinBrandPage";
 
 export const dynamicParams = false;
+
+const premiumBrandPages = {
+  daikin: DaikinBrandPage,
+};
 
 const heroImages = {
   gree: "/photos/showroom/display-gree-new.webp",
@@ -124,14 +129,21 @@ export default async function BrandDetailPage({ params }) {
     ...relatedLinks,
   ]);
 
-  const faqItems = uniquePairsByFirstValue([
-    ...(item.localFaq ?? []),
+  const PremiumPage = premiumBrandPages[item.slug];
+
+  const genericFaqItems = [
     [`Apakah RADJA AC menyediakan ${item.label} original?`, `RADJA AC menyediakan ${item.label} original. Tim RADJA AC cek tipe, harga, stok, pengiriman, pemasangan, dan garansi unit sebelum pembelian.`],
     [`Berapa harga ${item.label} terbaru?`, "Harga mengikuti kapasitas PK, tipe unit, stok, promo, alamat pengiriman, dan kebutuhan pemasangan. Kirim kebutuhan lewat WhatsApp agar tim RADJA AC cek estimasi terbaru."],
     [`${item.label} cocok untuk ruangan apa?`, "Kecocokan ditentukan oleh ukuran ruangan, tinggi plafon, paparan panas matahari, daya listrik, dan pola pemakaian."],
     ["Beli unit saja tanpa pemasangan", "Kirim tipe unit, alamat, jumlah unit, dan kebutuhan pengiriman. Tim RADJA AC cek stok aktif dan jadwal."],
     ["Apa saja data yang perlu dikirim ke tim RADJA AC?", "Kirim ukuran ruangan, daya listrik, jenis ruangan, jumlah unit, preferensi tipe, lokasi, dan foto titik indoor-outdoor bila ingin opsi pemasangan."],
-  ]);
+  ];
+
+  // Premium brand pages curate their own FAQ via item.localFaq so the visible FAQ
+  // and faqSchema stay in sync with the reference. Other brands keep the generic appends.
+  const faqItems = uniquePairsByFirstValue(
+    PremiumPage ? [...(item.localFaq ?? [])] : [...(item.localFaq ?? []), ...genericFaqItems],
+  );
 
   const structuredData = [
     breadcrumbSchema([
@@ -141,6 +153,10 @@ export default async function BrandDetailPage({ params }) {
     ]),
     faqSchema(faqItems),
   ];
+
+  if (PremiumPage) {
+    return <PremiumPage item={item} faqItems={faqItems} structuredData={structuredData} />;
+  }
 
   return (
     <main className="min-h-screen overflow-hidden bg-[#f7fbff] text-slate-950">
