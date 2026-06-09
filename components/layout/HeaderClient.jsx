@@ -87,21 +87,23 @@ function DesktopDropdown({ item, pathname }) {
         </span>
       </button>
 
-      <div className="invisible absolute left-0 top-full z-50 mt-3 min-w-64 rounded-[1.6rem] border border-blue-100 bg-white/95 p-3 opacity-0 shadow-[0_24px_70px_rgba(15,23,42,0.14)] backdrop-blur-xl transition group-hover:visible group-hover:opacity-100">
-        <div className="grid gap-1">
-          {item.items.map((subItem) => {
-            const subActive = isPathActive(pathname, subItem.href, subItem.exact);
+      <div className="invisible absolute left-0 top-full z-50 pt-3 opacity-0 transition group-hover:visible group-hover:opacity-100 group-focus-within:visible group-focus-within:opacity-100">
+        <div className="min-w-64 rounded-[1.6rem] border border-blue-100 bg-white/95 p-3 shadow-[0_24px_70px_rgba(15,23,42,0.14)] backdrop-blur-xl">
+          <div className="grid gap-1">
+            {item.items.map((subItem) => {
+              const subActive = isPathActive(pathname, subItem.href, subItem.exact);
 
-            return (
-              <Link
-                key={subItem.href}
-                href={subItem.href}
-                className={dropdownItemClass(subActive)}
-              >
-                {subItem.label}
-              </Link>
-            );
-          })}
+              return (
+                <Link
+                  key={subItem.href}
+                  href={subItem.href}
+                  className={dropdownItemClass(subActive)}
+                >
+                  {subItem.label}
+                </Link>
+              );
+            })}
+          </div>
         </div>
       </div>
     </div>
