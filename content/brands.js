@@ -23,24 +23,36 @@ export const brandItems = [
     waBrand: "Gree",
     localFaq: [
       [
-        "Apakah Radja AC menyediakan AC Gree original?",
-        "Ya. Radja AC terdaftar sebagai Proshop Gree Purwokerto. Stok fisik ada di gudang Sokaraja dan bisa dicek sebelum beli.",
+        "Apakah RADJA AC benar-benar Proshop Gree resmi?",
+        "Ya. RADJA AC tercantum di website resmi Gree Indonesia sebagai Proshop Gree. Ini bukan klaim toko semata — statusnya bisa dicek langsung di website Gree. Showroom dan stok fisik berada di Pamijen, Sokaraja, dekat RS Margono.",
       ],
       [
         "Berapa harga AC Gree terbaru?",
-        "Harga tergantung kapasitas PK, tipe unit, promo aktif, dan lokasi pengiriman. Kirim ukuran ruangan lewat WhatsApp untuk estimasi yang sesuai kondisi terkini.",
+        "Gree standard atau low watt ½ PK mulai 4 jutaan, sudah termasuk unit dan pemasangan standar. Gree inverter ½ PK mulai 5 jutaan dengan paket yang sama. Untuk ¾ PK ke atas, admin langsung cek stok dan harga via WhatsApp.",
       ],
       [
-        "AC Gree cocok untuk ruangan apa?",
-        "Semua ukuran ruangan bisa, tergantung PK yang dipilih. Lihat tabel panduan PK di halaman ini, atau kirim ukuran ruangan agar Radja AC bantu hitungkan.",
+        "Apa bedanya Gree standard, low watt, dan inverter?",
+        "Singkatnya: standard untuk pemakaian normal dengan listrik cukup, low watt untuk rumah 900–1300 VA supaya MCB tidak sering turun, dan inverter untuk AC yang nyala lama setiap hari — suhu lebih stabil, listrik lebih efisien jangka panjang. Admin bisa bantu pilih yang paling masuk akal sesuai kondisi ruangan dan daya listrik Anda.",
       ],
       [
-        "Bisa beli unit saja tanpa pemasangan?",
-        "Bisa. Kirim tipe unit, jumlah, dan alamat pengiriman. Radja AC cek stok dan jadwal kirim.",
+        "Apakah RADJA AC hanya jual Gree ½ PK?",
+        "Tidak. Kami juga layani kebutuhan AC Gree dari ¾ PK, 1 PK, 1.5 PK, sampai 2 PK sesuai stok. Untuk kapasitas lebih besar, admin bantu cek harga dan unit yang benar-benar ready.",
       ],
       [
-        "Data apa yang perlu dikirim ke Radja AC?",
-        "Ukuran ruangan, daya listrik, jenis ruangan, jumlah unit, preferensi tipe, lokasi, dan foto titik indoor-outdoor kalau butuh pemasangan.",
+        "Apakah beli AC Gree bisa sekalian pasang?",
+        "Bisa. Pembelian AC Gree bisa lanjut dibantu opsi pemasangan by konfirmasi. Titik indoor-outdoor, panjang pipa, tambahan material, alamat tujuan, dan jadwal teknisi dikonfirmasi sebelum hari pemasangan.",
+      ],
+      [
+        "Apakah ada garansi teknisi setelah pemasangan?",
+        "Ada. Garansi teknisi 1 bulan berlaku untuk kendala yang berkaitan dengan pekerjaan pemasangan atau instalasi — bukan kerusakan unit akibat pemakaian.",
+      ],
+      [
+        "Kalau unit Gree bermasalah setelah dipasang, bisa dibantu?",
+        "Bisa. RADJA AC bantu arahan awal dan koordinasi proses klaim sesuai ketentuan garansi Gree — selama dokumen pembelian, kartu garansi, nomor seri, dan bukti kendala tersedia.",
+      ],
+      [
+        "Bagaimana cara cek stok dan harga AC Gree terbaru?",
+        "Klik tombol WhatsApp di halaman ini. Kirim ukuran ruangan, daya listrik, dan kebutuhan — admin bantu cek stok yang benar-benar ready hari ini, harga terkini, dan estimasi pemasangan.",
       ],
     ],
   },
@@ -141,16 +153,44 @@ export const brandItems = [
     ],
     localFaq: [
       [
-        "Apakah bisa cek AC Midea untuk area Purwokerto, Banyumas, dan Sokaraja?",
-        "Bisa. Kirim ukuran ruangan, daya listrik, jumlah unit, alamat area, dan kebutuhan unit saja atau pemasangan. Tim RADJA AC akan mengecek stok Midea, tipe yang cocok, pengiriman, dan opsi pemasangan.",
+        "Apakah RADJA AC jual AC Midea original?",
+        "Ya. RADJA AC menjual AC Midea original untuk kebutuhan rumah, kost, kontrakan, kantor, toko, usaha, dan proyek. Kami dealer resmi Midea dan stok bisa dicek sebelum Anda deal.",
       ],
       [
         "Berapa harga AC Midea terbaru?",
-        "Harga AC Midea mengikuti kapasitas PK, tipe unit, stok, promo, alamat pengiriman, dan kebutuhan pemasangan. Estimasi terbaru dikonfirmasi lewat WhatsApp setelah kebutuhan ruangan dan lokasi jelas.",
+        "Midea standard ½ PK mulai 3 jutaan, sudah termasuk unit dan pemasangan standar. Midea inverter ½ PK mulai 4 jutaan dengan paket yang sama. Untuk ¾ PK ke atas atau beli beberapa unit, admin langsung cek stok dan harga via WhatsApp.",
       ],
       [
-        "AC Midea cocok untuk kamar, kost, atau toko?",
-        "Bisa dikonsultasikan. Tim RADJA AC membaca ukuran ruangan, daya listrik, jam pemakaian, jumlah unit, dan kebutuhan pemasangan sebelum memberi arahan tipe Midea yang cocok.",
+        "Midea cocok untuk siapa? Bukan buat yang butuh premium?",
+        "Midea posisinya di tengah — bukan murahan, tapi juga bukan kelas premium seperti Daikin. Cocok untuk pembeli yang mau fitur cukup modern, harga lebih masuk akal, dan pemakaian harian untuk kamar, rumah, kost, kontrakan, atau toko kecil. Kalau butuh kelas premium, kami juga ada Daikin.",
+      ],
+      [
+        "Bingung pilih Midea, Gree, atau Daikin — bisa dibantu?",
+        "Bisa. Kirim ukuran ruangan, daya listrik, dan budget ke admin RADJA AC. Kami bantu bandingkan pilihan yang paling realistis sesuai kondisi Anda — tanpa harus langsung deal dulu.",
+      ],
+      [
+        "Apakah Midea tersedia standard, low watt, dan inverter?",
+        "Tersedia — tapi stok bisa berbeda setiap saat. Sebelum memutuskan, cek dulu via WhatsApp supaya tahu tipe mana yang ready hari ini, berapa harganya, dan apakah ada pilihan lain yang lebih pas.",
+      ],
+      [
+        "Apakah Midea 1/2 PK cukup untuk kamar kost atau kontrakan?",
+        "Untuk kamar ukuran 9–12 m², 1/2 PK biasanya sudah cukup. Tapi kalau kamarnya menghadap barat, plafon rendah, atau sering dipakai banyak orang, admin bisa bantu cek apakah perlu naik ke 3/4 PK.",
+      ],
+      [
+        "Beli AC Midea di sini bisa sekalian dipasang?",
+        "Bisa. Pembelian AC Midea bisa dilanjutkan dengan opsi pemasangan by konfirmasi. Biaya pasang disesuaikan kondisi lokasi, titik indoor-outdoor, panjang pipa, alamat tujuan, dan tambahan material jika ada — dikomunikasikan sebelum Anda setuju.",
+      ],
+      [
+        "Ada garansi teknisi setelah AC Midea dipasang?",
+        "Ada. RADJA AC memberikan garansi teknisi 1 bulan untuk kendala yang berkaitan dengan pekerjaan pemasangan atau instalasi. Kalau ada kendala pada unit AC, RADJA AC bisa bantu arahan proses klaim garansi ke Midea sesuai ketentuan resmi.",
+      ],
+      [
+        "Kalau unit Midea bermasalah setelah dipasang, toko bisa bantu klaim?",
+        "Bisa dibantu arahkan. RADJA AC bisa bantu koordinasi proses klaim ke Midea selama dokumen pembelian, kartu garansi, nomor seri unit, dan bukti kendala tersedia. Penggantian unit sendiri mengikuti ketentuan resmi Midea — bukan ditanggung toko.",
+      ],
+      [
+        "Bagaimana cara cek stok AC Midea hari ini?",
+        "Klik tombol WhatsApp di halaman ini. Kirim tipe yang diminati, kapasitas PK, dan lokasi pemasangan. Admin bantu cek stok yang ready, harga terbaru, dan estimasi pemasangan sebelum Anda memutuskan.",
       ],
     ],
   },
@@ -174,6 +214,44 @@ export const brandItems = [
     ctaLabel: "Cek Stok AC Hisense",
     waIntent: "cek stok dan konsultasi AC Hisense",
     waBrand: "Hisense",
+    localFaq: [
+      [
+        "Apakah RADJA AC jual AC Hisense original?",
+        "Ya. RADJA AC menjual AC Hisense original untuk kebutuhan rumah, kost, kontrakan, kantor, toko, usaha, dan proyek. Stok bisa dicek sebelum Anda deal.",
+      ],
+      [
+        "Berapa harga AC Hisense?",
+        "Hisense standard ½ PK mulai 3 jutaan, sudah termasuk unit dan pemasangan standar. Hisense inverter ½ PK mulai 4 jutaan dengan paket yang sama. Untuk ¾ PK ke atas, admin langsung cek stok dan harga via WhatsApp.",
+      ],
+      [
+        "Hisense itu cocok untuk siapa? Beda sama Daikin atau Midea?",
+        "Hisense posisinya sebagai alternatif modern yang tidak overpay. Lebih terasa premium dibanding beberapa brand entry-level, tapi harganya masih lebih masuk dibanding Daikin. Kalau Anda mau fitur modern dan tampilan yang tidak murahan tanpa budget terlalu besar, Hisense layak dipertimbangkan. Admin bisa bantu bandingkan dengan Midea atau Gree sesuai kondisi Anda.",
+      ],
+      [
+        "Apakah Hisense tersedia tipe standard dan inverter?",
+        "Tersedia — tapi stok bisa berbeda setiap saat. Sebelum memutuskan, sebaiknya cek dulu via WhatsApp supaya tahu tipe mana yang ready hari ini dan harganya berapa.",
+      ],
+      [
+        "Apakah Hisense cocok untuk toko kecil atau kantor?",
+        "Cocok. Hisense bisa jadi pilihan untuk toko kecil, kantor kecil, atau usaha rumahan yang butuh AC yang terasa modern dan dingin konsisten tanpa merusak anggaran operasional. Kapasitas disesuaikan luas ruangan.",
+      ],
+      [
+        "Beli AC Hisense di RADJA AC bisa sekalian dipasang?",
+        "Bisa. Pembelian AC Hisense bisa dilanjutkan dengan pemasangan area yang dikonfirmasi. Biaya pasang disesuaikan kondisi lokasi, titik indoor-outdoor, panjang pipa, dan tambahan material jika ada — dikomunikasikan sebelum Anda setuju.",
+      ],
+      [
+        "Ada garansi teknisi setelah AC Hisense dipasang?",
+        "Ada. RADJA AC memberikan garansi teknisi 1 bulan untuk kendala yang berkaitan dengan pekerjaan pemasangan atau instalasi. Kalau ada kendala pada unit AC, RADJA AC bisa bantu arahan proses klaim garansi ke Hisense sesuai ketentuan resmi.",
+      ],
+      [
+        "Kalau unit Hisense bermasalah setelah dipasang, toko bisa bantu klaim?",
+        "Bisa dibantu arahkan. RADJA AC bisa bantu koordinasi proses klaim ke Hisense selama dokumen pembelian, kartu garansi, nomor seri unit, dan bukti kendala tersedia. Penggantian unit mengikuti ketentuan resmi Hisense — bukan ditanggung toko.",
+      ],
+      [
+        "Bagaimana cara cek stok AC Hisense hari ini?",
+        "Klik tombol WhatsApp di halaman ini. Kirim tipe yang diminati, kapasitas PK, dan lokasi pemasangan. Admin bantu cek stok yang ready, harga terbaru, dan estimasi pemasangan sebelum Anda memutuskan.",
+      ],
+    ],
   },
   {
     slug: "sansui",
@@ -195,6 +273,48 @@ export const brandItems = [
     ctaLabel: "Cek Stok AC Sansui",
     waIntent: "cek stok dan konsultasi AC Sansui",
     waBrand: "Sansui",
+    localFaq: [
+      [
+        "Apakah RADJA AC jual AC Sansui original?",
+        "Ya. RADJA AC menyediakan pilihan AC Sansui original untuk kebutuhan rumah, kost, kontrakan, toko kecil, dan usaha area yang dikonfirmasi. Stok bisa dicek sebelum Anda deal.",
+      ],
+      [
+        "Berapa harga AC Sansui?",
+        "Sansui standard ½ PK mulai 3 jutaan, sudah termasuk unit dan pemasangan standar. Sansui inverter ½ PK mulai 4 jutaan dengan paket yang sama. Untuk ¾ PK ke atas, admin langsung cek stok dan harga via WhatsApp.",
+      ],
+      [
+        "Sansui ini AC murahan atau masih layak dipakai?",
+        "Sansui bukan AC murahan — tapi memang posisinya di segmen budget-friendly. Layak dipakai untuk kebutuhan harian kamar, kost, kontrakan, atau toko kecil selama PK-nya dipilih sesuai ukuran ruangan. Yang bikin AC tidak memuaskan biasanya bukan mereknya, tapi PK-nya yang salah. Admin bisa bantu hitung sebelum Anda deal.",
+      ],
+      [
+        "Apa beda Sansui Deluxe, Standard, dan Standard Basic?",
+        "Sansui Deluxe tampilannya lebih rapi dan cocok untuk kamar atau ruang keluarga yang penampilan unitnya diperhatikan. Standard pilihan tengah untuk kebutuhan harian yang seimbang. Standard Basic untuk yang prioritasnya fungsi utama AC dengan budget paling efisien. Semua tipe tetap perlu dicek stoknya sebelum deal.",
+      ],
+      [
+        "Kalau budget saya mepet, apa Sansui sudah cukup?",
+        "Tergantung kebutuhan dan ukuran ruangannya. Sansui bisa jadi pilihan yang cukup masuk akal untuk kamar, kost, atau kontrakan sederhana. Tapi kalau ternyata budget ada ruang naik sedikit, admin bisa bantu bandingkan dengan Midea atau Hisense yang fiturnya lebih lengkap di harga yang tidak terlalu jauh.",
+      ],
+      [
+        "Apakah Sansui cocok untuk kamar kost atau kontrakan?",
+        "Cocok. Sansui bisa jadi pilihan praktis untuk kamar kost, kontrakan, atau rumah sederhana yang butuh AC fungsional. Yang penting kapasitas PK-nya disesuaikan ukuran ruangan dulu — jangan asal ambil yang paling kecil karena terlihat lebih murah.",
+      ],
+      [
+        "Beli AC Sansui di RADJA AC bisa sekalian dipasang?",
+        "Bisa. Pembelian AC Sansui bisa dilanjutkan dengan pemasangan area yang dikonfirmasi. Biaya pasang disesuaikan kondisi lokasi, titik indoor-outdoor, panjang pipa, dan tambahan material jika ada — dikomunikasikan sebelum Anda setuju.",
+      ],
+      [
+        "Ada garansi teknisi setelah AC Sansui dipasang?",
+        "Ada. RADJA AC memberikan garansi teknisi 1 bulan untuk kendala yang berkaitan dengan pekerjaan pemasangan atau instalasi. Kalau ada kendala pada unit AC, RADJA AC bisa bantu arahan proses klaim garansi ke Sansui sesuai ketentuan resmi.",
+      ],
+      [
+        "Kalau unit Sansui bermasalah setelah dipasang, toko bisa bantu klaim?",
+        "Bisa dibantu arahkan. RADJA AC bisa bantu koordinasi proses klaim ke Sansui selama dokumen pembelian, kartu garansi, nomor seri unit, dan bukti kendala tersedia. Penggantian unit mengikuti ketentuan resmi Sansui — bukan ditanggung toko.",
+      ],
+      [
+        "Bagaimana cara cek stok AC Sansui hari ini?",
+        "Klik tombol WhatsApp di halaman ini. Kirim tipe yang diminati, kapasitas PK yang dibutuhkan, dan lokasi pemasangan. Admin bantu cek stok yang ready, harga terbaru, dan estimasi pemasangan sebelum Anda memutuskan.",
+      ],
+    ],
   },
   {
     slug: "sharp",

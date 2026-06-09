@@ -10,11 +10,19 @@ import { typography } from "@/lib/typography";
 import WhatsappLink from "@/components/ui/WhatsappLink";
 import JsonLd from "@/components/seo/JsonLd";
 import DaikinBrandPage from "@/components/brand/premium/DaikinBrandPage";
+import GreeBrandPage from "@/components/brand/premium/GreeBrandPage";
+import MideaBrandPage from "@/components/brand/premium/MideaBrandPage";
+import HisenseBrandPage from "@/components/brand/premium/HisenseBrandPage";
+import SansuiBrandPage from "@/components/brand/premium/SansuiBrandPage";
 
 export const dynamicParams = false;
 
 const premiumBrandPages = {
   daikin: DaikinBrandPage,
+  gree: GreeBrandPage,
+  midea: MideaBrandPage,
+  hisense: HisenseBrandPage,
+  sansui: SansuiBrandPage,
 };
 
 const heroImages = {
