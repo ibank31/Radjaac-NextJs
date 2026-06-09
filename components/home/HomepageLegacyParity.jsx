@@ -400,7 +400,7 @@ function HomePriceEstimate() {
               <div className="mx-auto mb-4 flex h-11 w-11 items-center justify-center rounded-2xl border border-blue-100 bg-blue-50 font-black text-blue-700">
                 ✓
               </div>
-              <h3 className="mb-4 text-2xl font-extrabold text-blue-950">{item.range}</h3>
+              <h3 className="mb-3 text-xl font-extrabold leading-tight text-blue-950 sm:text-[1.35rem]">{item.range}</h3>
               <p className="rounded-2xl border border-blue-100 bg-white px-4 py-4 text-sm font-semibold leading-7 text-slate-700">
                 {item.brands}
               </p>

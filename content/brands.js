@@ -6,21 +6,43 @@ export const brandItems = [
     path: routes.brandGree,
     name: "Gree",
     label: "AC Gree",
-    title: "AC Gree Original | Cek Stok, Tipe & Konsultasi PK — RADJA AC",
+    title: "AC Gree Original Purwokerto | Proshop Gree Radja AC",
     description:
-      "RADJA AC menyediakan AC Gree original melalui Proshop Gree. Cek stok standard, low watt, inverter, rekomendasi PK, pengiriman, pemasangan, dan bantuan klaim.",
-    h1: "AC Gree original melalui Proshop Gree RADJA AC",
-    eyebrow: "Brand AC",
+      "AC Gree original melalui Proshop resmi Radja AC Purwokerto. Cek stok fisik, tipe standard, low watt, inverter, rekomendasi PK, harga, biaya pasang, pengiriman, dan garansi sebelum beli.",
+    h1: "AC Gree original melalui Proshop resmi Radja AC Purwokerto",
+    eyebrow: "Proshop Gree",
     intro:
-      "Gree menjadi salah satu brand utama di RADJA AC. Tim RADJA AC membaca kebutuhan PK, pilihan standard, low watt, atau inverter, stok unit, pengiriman, opsi pemasangan, garansi unit, dan opsi pembayaran sebelum pembelian.",
+      "Gree standard, low watt, dan inverter tersedia untuk kamar, rumah, kost, toko, kantor, hotel, sampai pengadaan banyak unit. Radja AC terdaftar sebagai Proshop Gree Purwokerto — stok fisik ada, unit bisa dicek langsung. Kirim ukuran ruangan, daya listrik, lokasi, dan jumlah unit. Radja AC hitung PK, cek stok, lalu kasih tahu harga, biaya pasang, pengiriman, dan garansinya.",
     trustNote:
-      "RADJA AC memiliki dukungan Proshop Gree. Stok, tipe, dan ketentuan garansi unit dicek dari data terbaru.",
-    certificateHolder: "RADJA AC / Proshop Gree",
+      "Radja AC terdaftar sebagai Proshop Gree Radja AC Purwokerto. Unit yang dijual original, jalur garansinya jelas, dan stok bisa dicek sebelum bayar. Ukuran ruangan dihitung dulu, tipe yang cocok dipilih dari situ, baru harga dan jadwal pasang dikasih tahu.",
+    certificateHolder: "Radja AC / Proshop Gree",
     variants: ["Standard", "Low watt", "Inverter"],
     suitableFor: ["Rumah", "Kamar", "Kost", "Kantor", "Hotel", "Proyek"],
     ctaLabel: "Cek Stok AC Gree",
-    waIntent: "cek stok dan konsultasi AC Gree",
+    waIntent: "cek stok AC Gree berdasarkan ukuran ruangan daya listrik jumlah unit lokasi dan kebutuhan pasang",
     waBrand: "Gree",
+    localFaq: [
+      [
+        "Apakah Radja AC menyediakan AC Gree original?",
+        "Ya. Radja AC terdaftar sebagai Proshop Gree Purwokerto. Stok fisik ada di gudang Sokaraja dan bisa dicek sebelum beli.",
+      ],
+      [
+        "Berapa harga AC Gree terbaru?",
+        "Harga tergantung kapasitas PK, tipe unit, promo aktif, dan lokasi pengiriman. Kirim ukuran ruangan lewat WhatsApp untuk estimasi yang sesuai kondisi terkini.",
+      ],
+      [
+        "AC Gree cocok untuk ruangan apa?",
+        "Semua ukuran ruangan bisa, tergantung PK yang dipilih. Lihat tabel panduan PK di halaman ini, atau kirim ukuran ruangan agar Radja AC bantu hitungkan.",
+      ],
+      [
+        "Bisa beli unit saja tanpa pemasangan?",
+        "Bisa. Kirim tipe unit, jumlah, dan alamat pengiriman. Radja AC cek stok dan jadwal kirim.",
+      ],
+      [
+        "Data apa yang perlu dikirim ke Radja AC?",
+        "Ukuran ruangan, daya listrik, jenis ruangan, jumlah unit, preferensi tipe, lokasi, dan foto titik indoor-outdoor kalau butuh pemasangan.",
+      ],
+    ],
   },
   {
     slug: "daikin",
