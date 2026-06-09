@@ -30,7 +30,7 @@ export const daikinPremiumContent = {
   urgentCta: {
     eyebrow: "Stok & harga bisa berubah sewaktu-waktu",
     title: "Cek unit Daikin yang ready sebelum OTW showroom.",
-    body: "Chat tidak harus langsung beli. Kirim ukuran ruangan, daya listrik, dan lokasi — admin bantu cek tipe Daikin yang paling masuk akal, harga terakhir, jadwal pengiriman, dan opsi pemasangan. Stok dan harga dikonfirmasi langsung, bukan dari katalog online yang belum tentu up to date.",
+    body: "Chat tidak harus langsung beli. Kirim ukuran ruangan, daya listrik, dan lokasi — admin bantu cek tipe Daikin yang sesuai dengan ukuran ruangan dan daya listrik, harga terakhir, jadwal pengiriman, dan opsi pemasangan. Stok dan harga dikonfirmasi langsung, bukan dari katalog online yang belum tentu up to date.",
     buttonLabel: "Tanya Admin Dulu",
   },
 
@@ -125,7 +125,7 @@ export const daikinPremiumContent = {
     eyebrow: "Pilihan Produk",
     title: "Standard, low watt, atau inverter — mana yang lebih cocok?",
     description:
-      "Tidak semua orang butuh inverter, tidak semua ruangan cocok low watt. Kirim kondisi ruangan dan daya listrik — admin bantu cek stok Daikin yang ready dan rekomendasikan tipe yang paling masuk akal untuk situasi Anda.",
+      "Tidak semua orang butuh inverter, tidak semua ruangan cocok low watt. Kirim kondisi ruangan dan daya listrik — admin bantu cek stok Daikin yang ready dan rekomendasikan tipe yang sesuai untuk situasi Anda.",
   },
 
   products: [
@@ -136,7 +136,7 @@ export const daikinPremiumContent = {
       fit: "Kamar utama, ruang keluarga, kantor kecil",
       priority: "Suhu stabil, listrik lebih efisien jangka panjang",
       description:
-        "Kalau AC-nya nyala lebih dari 6–8 jam sehari, inverter biasanya lebih masuk akal. Suhu tidak naik-turun terus, dan konsumsi listrik lebih terkontrol dibanding yang non-inverter. Daikin inverter cocok untuk kamar utama atau ruang yang sering dipakai.",
+        "Kalau AC menyala lebih dari 6–8 jam sehari, inverter biasanya lebih hemat listrik dalam pemakaian jangka panjang. Suhu tidak naik-turun terus, dan konsumsi listrik lebih terkontrol dibanding yang non-inverter. Daikin inverter cocok untuk kamar utama atau ruang yang sering dipakai.",
       highlights: ["Suhu stabil", "Efisien harian", "Jangka panjang"],
       cta: "Cek Stok Daikin Inverter",
     },
@@ -153,12 +153,12 @@ export const daikinPremiumContent = {
     },
     {
       title: "Daikin Standard",
-      badge: "Pilihan aman",
+      badge: "Standard",
       image: "/photos/product-display/daikin-ac-daikin-standar.webp",
       fit: "Kamar tidur, toko kecil, ruang santai",
       priority: "Pendinginan harian yang simpel, perawatan mudah",
       description:
-        "Tidak semua orang butuh inverter. Kalau AC tidak nyala terlalu lama dan listrik cukup, Daikin standard bisa jadi pilihan yang lebih efisien dari sisi harga awal. Tetap berkualitas Daikin, perawatannya pun tidak ribet.",
+        "Tidak semua orang butuh inverter. Kalau AC tidak nyala terlalu lama dan listrik cukup, Daikin standard cocok untuk kebutuhan pendinginan harian dengan biaya awal yang lebih ringan dibanding inverter. Tetap berkualitas Daikin, perawatannya pun tidak ribet.",
       highlights: ["Simpel", "Andal harian", "Perawatan mudah"],
       cta: "Cek Stok Daikin Standard",
     },
@@ -198,7 +198,7 @@ export const daikinPremiumContent = {
   pkCta: {
     title: "Sudah tahu ukuran ruangannya?",
     description:
-      "Kirim ukuran dan daya listrik — admin bantu cek PK Daikin yang masuk akal sebelum Anda beli. Tidak harus langsung deal.",
+      "Kirim ukuran dan daya listrik — admin bantu cek PK Daikin yang sesuai dengan ruangan Anda sebelum Anda beli. Tidak harus langsung deal.",
     buttonLabel: "Konsultasi PK Daikin",
   },
 
@@ -223,7 +223,7 @@ export const daikinPremiumContent = {
     },
     {
       title: "Daikin Inverter",
-      description: "Kapan inverter lebih masuk akal? Baca panduan pemakaian dan perbandingannya.",
+      description: "Kapan inverter lebih efisien dibanding standard? Baca panduan pemakaian dan perbandingannya.",
       href: routes.katalogAcInverter,
     },
     {

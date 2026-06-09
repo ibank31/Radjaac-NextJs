@@ -13,7 +13,7 @@ export const sansuiPremiumContent = {
     titleLead: "AC Sansui Original",
     titleHighlight: "Yang Penting Dingin, PK Tetap Harus Pas",
     paragraphs: [
-      "Sansui pilihan masuk akal kalau budget memang terbatas — untuk kamar, kost, kontrakan, rumah sederhana, atau toko kecil. Tapi walau harga lebih ringan, ukuran PK tetap harus dihitung sesuai ruangan. Kalau sedang cari AC Sansui Original, admin RADJA AC bisa bantu cek stok yang ready, kisaran harga, dan estimasi pemasangan hari ini.",
+      "Sansui cocok kalau budget memang terbatas — untuk kamar, kost, kontrakan, rumah sederhana, atau toko kecil. Tapi walau harga lebih ringan, ukuran PK tetap harus dihitung sesuai ruangan. Kalau sedang cari AC Sansui Original, admin RADJA AC bisa bantu cek stok yang ready, kisaran harga, dan estimasi pemasangan hari ini.",
     ],
     primaryCtaLabel: "Cek Stok & Harga Sansui Sekarang",
     secondaryCtaLabel: "Lihat Pilihan Sansui",
@@ -32,7 +32,7 @@ export const sansuiPremiumContent = {
   statusBlock: {
     placement: "afterWarranty",
     badge: "Sertifikat Resmi Sansui",
-    title: "Sansui bukan AC murahan — ini pilihan realistis untuk budget yang terbatas",
+    title: "Sansui bukan AC murahan — ini AC fungsional dengan harga yang sesuai untuk budget terbatas",
     paragraphs: [
       "Yang bikin AC tidak memuaskan bukan cuma mereknya — sering kali PK-nya yang salah atau pemasangannya yang asal. Di RADJA AC, walau pilihan Anda Sansui dengan budget terbatas, kami tetap bantu hitung PK yang sesuai ruangan, jelaskan biaya pasang sebelum deal, dan pastikan hasilnya memang dingin sesuai harapan.",
     ],
@@ -87,7 +87,7 @@ export const sansuiPremiumContent = {
       [
         "Sansui Standard ½ PK",
         "Mulai 3 jutaan",
-        "Unit + pasang standar. Pilihan realistis untuk yang butuh AC fungsional sekarang tanpa membuat budget terlalu berat.",
+        "Unit + pasang standar. AC fungsional untuk kebutuhan harian dengan budget yang tetap terkontrol.",
       ],
       [
         "Sansui Inverter ½ PK",
@@ -106,10 +106,10 @@ export const sansuiPremiumContent = {
     eyebrow: "Kenapa Sansui?",
     title: "Sansui cocok untuk yang butuh AC dingin dulu, bukan brand dulu",
     description:
-      "Untuk pembeli kebutuhan rumah, usaha, dan proyek yang prioritasnya memang budget, Sansui bisa jadi pilihan yang masuk akal — asal PK-nya tetap dihitung benar dan pemasangannya dikerjakan dengan benar. Admin siap bantu dari awal sampai deal.",
+      "Untuk pembeli kebutuhan rumah, usaha, dan proyek yang prioritasnya memang budget, Sansui cocok — asal PK-nya tetap dihitung benar dan pemasangannya dikerjakan dengan benar. Admin siap bantu dari awal sampai deal.",
     cards: [
       {
-        title: "Budget mepet tapi tetap harus dingin — Sansui bisa jadi jawabannya",
+        title: "Budget mepet tapi tetap harus dingin — Sansui solusi AC fungsional",
         description:
           "Sansui cocok untuk yang butuh AC fungsional tanpa harga yang memberatkan. Yang penting dingin, stabil, dan PK-nya tetap sesuai ruangan — bukan asal ambil yang paling murah.",
       },
@@ -131,14 +131,14 @@ export const sansuiPremiumContent = {
     eyebrow: "Rekomendasi Produk",
     title: "Pilihan AC Sansui Original: Deluxe, Standard, atau Basic?",
     description:
-      "Masing-masing tipe Sansui punya kecocokannya sendiri tergantung kebutuhan dan budget. Masih bingung mau yang mana? Ceritakan kondisi ruangan dan budget ke admin — kami bantu pilihkan yang paling masuk akal.",
+      "Masing-masing tipe Sansui punya kecocokannya sendiri tergantung kebutuhan dan budget. Masih bingung mau yang mana? Ceritakan kondisi ruangan dan budget ke admin — kami bantu pilihkan yang paling sesuai dengan ruangan dan budget Anda.",
     items: [
       {
         title: "Sansui Deluxe",
         badge: "Deluxe",
         image: "/photos/product-display/sansui-ac-sansui-deluxe.webp",
         fit: "Kamar tidur, ruang keluarga kecil, rumah sederhana",
-        priority: "Tampilan lebih rapi, tetap di jalur budget masuk akal",
+        priority: "Tampilan lebih rapi, harga tetap terkontrol",
         description:
           "Buat yang mau AC Sansui tapi penampilan unit juga dipertimbangkan — Sansui Deluxe tampil lebih rapi untuk kamar atau ruang keluarga tanpa harus lompat ke kelas premium. Stok dicek dulu sebelum konfirmasi.",
         highlights: ["Deluxe", "Tampil rapi", "Harian"],
@@ -173,7 +173,7 @@ export const sansuiPremiumContent = {
     eyebrow: "Sebelum Beli",
     title: "Walau Sansui pilihan budget, tetap kirim info ini sebelum deal",
     description:
-      "AC murah tapi PK salah tidak ada bedanya dengan buang uang dua kali. Kirim data di bawah ini ke admin RADJA AC, kami bantu rekomendasikan tipe dan kapasitas Sansui yang paling masuk untuk kondisi ruangan Anda.",
+      "AC murah tapi PK salah tidak ada bedanya dengan buang uang dua kali. Kirim data di bawah ini ke admin RADJA AC, kami bantu rekomendasikan tipe dan kapasitas Sansui yang sesuai untuk kondisi ruangan Anda.",
     items: [
       "Ukuran ruangan kira-kira (panjang × lebar) dan tinggi plafon jika ada",
       "Daya listrik rumah, kost, toko, atau tempat usaha",

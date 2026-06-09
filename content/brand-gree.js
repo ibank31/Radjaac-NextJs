@@ -94,19 +94,19 @@ export const greePremiumContent = {
 
   character: {
     eyebrow: "Kenapa Banyak Pilih Gree",
-    title: "Gree bukan yang termurah — tapi harganya masuk, dan kualitasnya terbukti",
+    title: "Gree bukan yang termurah, tetapi kualitas dan pilihan tipenya membuat brand ini banyak digunakan di berbagai kebutuhan.",
     description:
       "Gree salah satu produsen AC terbesar di dunia. Banyak pembeli memilih Gree karena harga kompetitif, pilihan tipe lengkap, dan garansi resmi yang jelas. Cocok untuk pembeli yang mau AC bagus tapi tidak mau overpay — dan tidak mau ambil risiko beli brand yang spare part-nya susah dicari.",
     cards: [
       {
         title: "Harga kompetitif, bukan berarti murahan",
         description:
-          "Gree bukan brand kelas bawah. Mereka salah satu produsen AC terbesar di dunia — dengan pilihan standard, low watt, dan inverter yang harganya masih masuk akal untuk banyak kebutuhan. Itulah kenapa Gree banyak dicari.",
+          "Gree adalah salah satu produsen AC terbesar di dunia dengan pilihan standard, low watt, dan inverter untuk berbagai kebutuhan. Itulah kenapa Gree banyak dicari.",
       },
       {
         title: "Pilihan tipe lebih lengkap dari brand lain",
         description:
-          "Standard, low watt, inverter — stok Gree di RADJA AC lebih bervariasi. Mau cari AC Gree yang pas untuk rumah, kost, toko, kantor kecil, atau proyek? Admin bantu cek yang paling masuk akal.",
+          "Standard, low watt, inverter — stok Gree di RADJA AC lebih bervariasi. Mau cari AC Gree yang pas untuk rumah, kost, toko, kantor kecil, atau proyek? Admin bantu cek yang paling sesuai.",
       },
       {
         title: "Cocok untuk rumah, toko, sampai ruko",
@@ -189,7 +189,7 @@ export const greePremiumContent = {
     cta: {
       title: "Sudah tahu ukuran ruangannya?",
       description:
-        "Kirim ukuran dan daya listrik — admin bantu cek PK Gree yang masuk akal sebelum Anda beli. Tidak harus langsung deal.",
+        "Kirim ukuran dan daya listrik — admin bantu cek PK Gree yang sesuai dengan ruangan Anda sebelum Anda beli. Tidak harus langsung deal.",
       buttonLabel: "Konsultasi PK Gree",
     },
   },
@@ -212,7 +212,7 @@ export const greePremiumContent = {
       },
       {
         title: "AC Inverter",
-        description: "Kapan inverter lebih masuk akal? Bandingkan pilihan dari berbagai brand untuk pemakaian rutin.",
+        description: "Kapan inverter lebih efisien? Bandingkan pilihan dari berbagai brand untuk pemakaian rutin.",
         href: routes.katalogAcInverter,
       },
       {

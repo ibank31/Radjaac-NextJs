@@ -14,7 +14,7 @@ export const mideaPremiumContent = {
     titleLead: "AC Midea Original",
     titleHighlight: "Stok Dicek Hari Ini, Harga Jelas Sebelum Deal",
     paragraphs: [
-      "Midea pilihan realistis untuk rumah, kamar, kost, kontrakan, atau toko kecil — harga lebih ramah, fitur cukup modern, dan pilihan tipe lengkap. Kalau sedang cari AC Midea original, admin RADJA AC bisa bantu cek stok yang ready, kisaran harga, alamat pengiriman, dan opsi pemasangan hari ini.",
+      "Midea cocok untuk rumah, kamar, kost, kontrakan, atau toko yang membutuhkan AC dengan fitur modern dan harga yang tetap terjangkau. Kalau sedang cari AC Midea original, admin RADJA AC bisa bantu cek stok yang ready, kisaran harga, alamat pengiriman, dan opsi pemasangan hari ini.",
     ],
     primaryCtaLabel: "Cek Stok & Harga Midea Sekarang",
     secondaryCtaLabel: "Lihat Pilihan Midea",
@@ -33,7 +33,7 @@ export const mideaPremiumContent = {
   statusBlock: {
     placement: "afterWarranty",
     badge: "Authorized Dealer Midea",
-    title: "Midea bukan asal murah — ini pilihan realistis untuk pembeli yang paham kebutuhan",
+    title: "Midea menghadirkan fitur modern dengan harga yang tetap terjangkau untuk kebutuhan sehari-hari.",
     paragraphs: [
       "Di antara Daikin yang premium dan brand yang harga pertamanya menggoda tapi purna jualnya tidak jelas, Midea ada di tengah. Fiturnya sudah cukup — standard, low watt, inverter semuanya ada. Harganya lebih masuk untuk pembeli yang budget-nya tidak tak terbatas tapi tetap mau unit yang bisa diandalkan.",
     ],
@@ -77,7 +77,7 @@ export const mideaPremiumContent = {
       [
         "Midea Standard ½ PK",
         "Mulai 3 jutaan",
-        "Sudah termasuk unit + pemasangan standar. Pilihan paling realistis kalau mau AC baru sekarang tanpa drama budget.",
+        "Cocok untuk yang ingin memasang AC baru dengan budget yang tetap terkontrol.",
       ],
       [
         "Midea Inverter ½ PK",
@@ -96,12 +96,12 @@ export const mideaPremiumContent = {
     eyebrow: "Kenapa Midea?",
     title: "Midea banyak dicari karena posisinya pas — bukan termurah, bukan yang paling mahal",
     description:
-      "Banyak pembeli rumahan memilih Midea karena harganya masuk akal tapi unit tidak terasa murahan. Kalau Anda belum yakin Midea yang cocok atau ada brand lain yang lebih pas, admin bisa bantu bandingkan.",
+      "Banyak pembeli rumahan memilih Midea karena harganya kompetitif dan fiturnya sudah modern untuk kebutuhan harian. Kalau Anda belum yakin Midea yang cocok atau ada brand lain yang lebih pas, admin bisa bantu bandingkan.",
     cards: [
       {
         title: "Harga lebih masuk, fitur tidak ketinggalan",
         description:
-          "Midea bukan brand asal murah. Fiturnya sudah cukup modern untuk kebutuhan harian — kamar tidur, kost, kontrakan, sampai toko kecil. Harganya hanya lebih ramah di kantong dibanding kelas premium.",
+          "Midea menghadirkan fitur modern untuk kebutuhan harian, mulai dari kamar tidur hingga toko. Harganya hanya lebih ramah di kantong dibanding kelas premium.",
       },
       {
         title: "Ada pilihan low watt kalau daya listrik terbatas",
@@ -111,7 +111,7 @@ export const mideaPremiumContent = {
       {
         title: "Bingung Midea, Gree, atau Daikin? Admin bisa bantu bandingkan",
         description:
-          "Kirim ukuran ruangan, daya listrik, dan budget. Admin RADJA AC bantu arahkan mana yang lebih masuk — Midea, Gree, Hisense, atau Daikin — tanpa harus langsung deal.",
+          "Kirim ukuran ruangan, daya listrik, dan budget. Admin RADJA AC bantu bandingkan mana yang lebih sesuai — Midea, Gree, Hisense, atau Daikin — tanpa harus langsung deal.",
       },
     ],
   },
@@ -121,7 +121,7 @@ export const mideaPremiumContent = {
     eyebrow: "Pilihan Tipe",
     title: "Pilihan AC Midea: standard, low watt, atau inverter?",
     description:
-      "Masing-masing tipe Midea ada kecocokannya sendiri tergantung ruangan, daya listrik, dan pola pemakaian. Kalau masih bingung mau yang mana, ceritakan kondisi ruangan ke admin — kami bantu pilihkan yang paling masuk.",
+      "Masing-masing tipe Midea ada kecocokannya sendiri tergantung ruangan, daya listrik, dan pola pemakaian. Kalau masih bingung mau yang mana, ceritakan kondisi ruangan ke admin — kami bantu pilihkan yang paling sesuai.",
     items: [
       {
         title: "Midea Standard",
@@ -152,7 +152,7 @@ export const mideaPremiumContent = {
         fit: "Kamar utama, ruang keluarga, kantor kecil, pemakaian panjang",
         priority: "Suhu lebih stabil, tagihan listrik lebih bisa diprediksi",
         description:
-          "Untuk kamar yang AC-nya nyala hampir tiap hari atau ruang keluarga yang penghuninya banyak, Midea inverter lebih masuk akal jangka panjang. Stok dan harga dicek via WhatsApp.",
+          "Untuk kamar yang AC-nya nyala hampir tiap hari atau ruang keluarga yang penghuninya banyak, Midea inverter lebih efisien jangka panjang. Stok dan harga dicek via WhatsApp.",
         highlights: ["Inverter", "Suhu stabil", "Jangka panjang"],
         cta: "Cek Stok Midea Inverter",
       },
@@ -163,7 +163,7 @@ export const mideaPremiumContent = {
     eyebrow: "Sebelum Beli",
     title: "Supaya tidak salah PK — kirim info ini sebelum deal",
     description:
-      "Midea salah PK sama saja sia-sia — AC tidak dingin maksimal atau tagihan listrik membengkak. Kirim data di bawah ini ke admin RADJA AC, kami bantu rekomendasikan tipe dan kapasitas yang paling masuk untuk kondisi ruangan Anda.",
+      "Midea salah PK sama saja sia-sia — AC tidak dingin maksimal atau tagihan listrik membengkak. Kirim data di bawah ini ke admin RADJA AC, kami bantu rekomendasikan tipe dan kapasitas yang sesuai untuk kondisi ruangan Anda.",
     items: [
       "Ukuran ruangan kira-kira (panjang × lebar) dan tinggi plafon jika ada",
       "Daya listrik rumah, kost, toko, atau tempat usaha",

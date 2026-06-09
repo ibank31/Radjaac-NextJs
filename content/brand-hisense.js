@@ -77,7 +77,7 @@ export const hisensePremiumContent = {
       [
         "Hisense Standard ½ PK",
         "Mulai 3 jutaan",
-        "Unit + pasang standar. Budget 3 jutaan dan ingin langsung punya AC baru — Hisense jadi pilihan realistis untuk kamar, kost, kontrakan, dan rumah.",
+        "Hisense cocok untuk kamar, kost, kontrakan, dan rumah yang membutuhkan AC dengan fitur modern dan harga yang tetap terjangkau.",
       ],
       [
         "Hisense Inverter ½ PK",
@@ -96,7 +96,7 @@ export const hisensePremiumContent = {
     eyebrow: "Kenapa Hisense?",
     title: "Hisense menarik karena posisinya pas — modern tapi tidak perlu overpay",
     description:
-      "Pembeli di rumah, usaha, dan proyek yang tidak mau bayar mahal untuk nama brand tapi juga tidak mau AC yang terasa murahan — Hisense sering jadi jawaban yang masuk akal. Kalau masih bimbang, admin bisa bantu bandingkan dengan Midea, Gree, atau Daikin.",
+      "Pembeli di rumah, usaha, dan proyek yang tidak mau bayar mahal untuk nama brand tapi juga tidak mau AC yang terasa murahan — Hisense sering jadi pilihan yang sesuai. Kalau masih bimbang, admin bisa bantu bandingkan dengan Midea, Gree, atau Daikin.",
     cards: [
       {
         title: "Fitur modern, harga tidak overpay",
@@ -111,7 +111,7 @@ export const hisensePremiumContent = {
       {
         title: "Bingung Hisense vs Midea vs Gree? Admin bisa bantu bedakan",
         description:
-          "Kirim ukuran ruangan, daya listrik, dan budget. Admin RADJA AC bantu bandingkan mana yang paling masuk — Hisense, Midea, Gree, atau Daikin — sebelum Anda memutuskan.",
+          "Kirim ukuran ruangan, daya listrik, dan budget. Admin RADJA AC bantu bandingkan mana yang paling sesuai — Hisense, Midea, Gree, atau Daikin — sebelum Anda memutuskan.",
       },
     ],
   },
@@ -121,7 +121,7 @@ export const hisensePremiumContent = {
     eyebrow: "Pilihan Tipe",
     title: "Pilihan AC Hisense Original: standard, inverter, atau untuk usaha?",
     description:
-      "Masing-masing tipe Hisense punya kecocokannya sendiri tergantung ruangan, daya listrik, dan pola pemakaian. Masih bingung mau yang mana? Ceritakan kondisi ruangan ke admin — kami bantu arahkan pilihan yang paling masuk.",
+      "Masing-masing tipe Hisense punya kecocokannya sendiri tergantung ruangan, daya listrik, dan pola pemakaian. Masih bingung mau yang mana? Ceritakan kondisi ruangan ke admin — kami bantu arahkan pilihan yang paling sesuai.",
     items: [
       {
         title: "Hisense Standard",
@@ -141,7 +141,7 @@ export const hisensePremiumContent = {
         fit: "Kamar utama, ruang keluarga, kantor kecil, pemakaian panjang",
         priority: "Suhu lebih stabil, konsumsi listrik lebih bisa diprediksi",
         description:
-          "Untuk ruangan yang AC-nya nyala panjang setiap hari — kamar utama, ruang keluarga, atau kantor kecil — Hisense inverter lebih masuk akal jangka panjang. Stok dan harga dikonfirmasi admin.",
+          "Untuk ruangan yang AC-nya nyala panjang setiap hari — kamar utama, ruang keluarga, atau kantor kecil — Hisense inverter lebih efisien jangka panjang. Stok dan harga dikonfirmasi admin.",
         highlights: ["Inverter", "Suhu stabil", "Efisien"],
         cta: "Cek Stok Hisense Inverter",
       },
@@ -152,7 +152,7 @@ export const hisensePremiumContent = {
         fit: "Toko kecil, ruang kerja, usaha rumahan, dan kantor kecil",
         priority: "AC modern untuk ruangan usaha tanpa budget yang memberatkan",
         description:
-          "Toko kecil atau kantor kecil butuh AC yang dingin konsisten, tidak sering minta servis, dan tidak merusak anggaran operasional. Hisense bisa jadi pilihan yang realistis untuk itu.",
+          "Toko kecil atau kantor kecil butuh AC yang dingin konsisten, tidak sering minta servis, dan tidak merusak anggaran operasional. Hisense adalah pilihan yang sesuai untuk itu.",
         highlights: ["Toko", "Kantor", "Usaha"],
         cta: "Cek Hisense untuk Usaha",
       },
@@ -163,7 +163,7 @@ export const hisensePremiumContent = {
     eyebrow: "Sebelum Beli",
     title: "Supaya AC Hisense tidak salah PK — kirim info ini sebelum deal",
     description:
-      "Hisense salah PK sama saja rugi dua kali — AC tidak maksimal atau tagihan listrik jebol. Kirim data di bawah ini ke admin RADJA AC, kami bantu rekomendasikan tipe dan kapasitas yang paling masuk untuk kondisi ruangan Anda.",
+      "Hisense salah PK sama saja rugi dua kali — AC tidak maksimal atau tagihan listrik jebol. Kirim data di bawah ini ke admin RADJA AC, kami bantu rekomendasikan tipe dan kapasitas yang sesuai untuk kondisi ruangan Anda.",
     items: [
       "Ukuran ruangan kira-kira (panjang × lebar) dan tinggi plafon jika ada",
       "Daya listrik rumah, kost, toko, atau tempat usaha",

@@ -10,7 +10,7 @@ export const panasonicPremiumContent = {
     titleLead: "AC Panasonic",
     titleHighlight: "Brand Familiar, Stok Dicek Dulu",
     paragraph:
-      "Kalau Anda sedang cari AC Panasonic karena ingin brand yang familiar dan terasa aman untuk jangka panjang, admin RADJA AC bisa bantu cek stok yang ready hari ini, pilihan tipe, kisaran harga, pengiriman, dan opsi pemasangan by konfirmasi.",
+      "Kalau Anda sedang cari AC Panasonic karena ingin brand yang familiar dan sudah percaya brand ini untuk jangka panjang, admin RADJA AC bisa bantu cek stok yang ready hari ini, pilihan tipe, kisaran harga, pengiriman, dan opsi pemasangan by konfirmasi.",
     primaryCtaLabel: "Cek Stok & Harga Panasonic Sekarang",
     secondaryCtaLabel: "Lihat Pilihan Panasonic",
     secondaryCtaHref: "#rekomendasi",
@@ -82,9 +82,9 @@ export const panasonicPremiumContent = {
   character: {
     title: "Panasonic bukan yang termurah, bukan yang paling premium — tapi sudah teruji kenal nama",
     description:
-      "Banyak pembeli Purwokerto pilih Panasonic bukan karena spec paling canggih, tapi karena sudah percaya nama brandnya untuk jangka panjang. Tapi pilihan yang aman tetap harus diikuti dengan cek PK yang tepat — bukan asal pilih yang paling murah.",
+      "Banyak pembeli Purwokerto pilih Panasonic bukan karena spec paling canggih, tapi karena sudah percaya nama brandnya untuk jangka panjang. Tapi brand yang sudah teruji tetap harus diikuti dengan cek PK yang tepat — bukan asal pilih yang paling murah.",
     items: [
-      "Panasonic sudah dikenal lama di Indonesia — bukan brand baru yang perlu dibuktikan dulu. Untuk pembeli yang ingin AC rumah dengan kesan stabil dan awet, Panasonic jadi pilihan yang terasa masuk akal.",
+      "Panasonic sudah lama dikenal di Indonesia dan banyak dipilih untuk rumah, kantor, dan kebutuhan komersial. Untuk pembeli yang ingin AC rumah dengan kesan stabil dan awet, Panasonic jadi pilihan yang sesuai untuk kebutuhan tersebut.",
       "Cocok untuk kamar, ruang keluarga, kantor kecil, kost, dan kontrakan — selama kapasitas PK, daya listrik, dan kondisi ruangan sudah dicek dulu supaya tidak salah pilih.",
       "Stok AC Panasonic bisa berubah mengikuti supplier. Sebelum deal, admin RADJA AC selalu cek dulu tipe yang ready hari ini — bukan jawab dari katalog lama.",
       "Bingung antara Panasonic, Sharp, Midea, Gree, atau Daikin? Admin RADJA AC bisa bantu bandingkan sesuai budget, daya listrik, ukuran ruangan, dan pola pemakaian Anda.",
@@ -102,13 +102,13 @@ export const panasonicPremiumContent = {
         title: "Panasonic untuk Kamar",
         badge: "Kamar",
         description:
-          "Untuk kamar tidur, kamar anak, atau kost di Purwokerto-Banyumas — Panasonic bisa jadi pilihan yang aman. Tapi cek dulu ukuran ruangan dan daya listrik sebelum pilih PK, supaya AC tidak kerja terlalu keras dan MCB tidak gampang turun.",
+          "Untuk kamar tidur, kamar anak, atau kost di Purwokerto-Banyumas — Panasonic cocok untuk kamar tidur dan kost. Tapi cek dulu ukuran ruangan dan daya listrik sebelum pilih PK, supaya AC tidak kerja terlalu keras dan MCB tidak gampang turun.",
       },
       {
         title: "Panasonic untuk Rumah Harian",
         badge: "Rumah",
         description:
-          "Untuk ruang keluarga, rumah tinggal, atau penggunaan harian yang butuh brand yang sudah familiar — Panasonic terasa nyaman untuk jangka panjang. Stok dan harga dikonfirmasi admin sebelum Anda putuskan.",
+          "Untuk ruang keluarga, rumah tinggal, atau penggunaan harian yang butuh brand yang sudah familiar — Panasonic sudah dikenal luas — stok dan harga dikonfirmasi admin sebelum Anda putuskan.",
       },
       {
         title: "Cek Stok Panasonic Dulu",
@@ -145,7 +145,7 @@ export const panasonicPremiumContent = {
       {
         title: "Rumah & Kantor Kecil",
         description:
-          "Untuk ruang keluarga, kantor kecil, atau usaha rumahan di Purwokerto-Banyumas yang ingin brand yang sudah lama dikenal — Panasonic masuk akal untuk jangka panjang. Yang penting stok dicek dulu, harga pasang dikonfirmasi, dan PK tidak asal rekomendasikan.",
+          "Untuk ruang keluarga, kantor kecil, atau usaha rumahan di Purwokerto-Banyumas yang ingin brand yang sudah lama dikenal — Panasonic banyak dipilih untuk penggunaan jangka panjang — yang penting stok dicek dulu, harga pasang dikonfirmasi, dan PK tidak asal direkomendasikan.",
       },
     ],
   },

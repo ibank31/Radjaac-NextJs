@@ -27,19 +27,24 @@ const catalogLinks = [
 
 const areaLinkGroups = [
   {
-    title: "Banyumas dan sekitarnya",
-    description: "Untuk rumah, toko, kost, ruko, kantor kecil, dan kebutuhan beberapa unit di area Banyumas.",
+    title: "Banyumas & Purwokerto",
+    description: "Untuk rumah, toko, kost, ruko, kantor kecil, dan kebutuhan beberapa unit di Banyumas dan area sekitarnya.",
     links: [
       ["Banyumas", routes.jualAcBanyumas],
       ["Purwokerto", routes.jualAcPurwokerto],
       ["Sokaraja", routes.jualAcSokaraja],
+      ["Ajibarang", routes.jualAcAjibarang],
+      ["Baturraden", routes.jualAcBaturraden],
+      ["Karanglewas", routes.jualAcKaranglewas],
+      ["Kembaran", routes.jualAcKembaran],
+      ["Wangon", routes.jualAcWangon],
       ["Jatilawang", routes.jualAcJatilawang],
       ["Cilongok", routes.jualAcCilongok],
     ],
   },
   {
-    title: "Cilacap prioritas",
-    description: "Untuk kebutuhan rumah, usaha, proyek, dan banyak unit di hub Cilacap serta kecamatan utama.",
+    title: "Cilacap & Sekitarnya",
+    description: "Untuk kebutuhan rumah, usaha, proyek, dan banyak unit di Cilacap serta kecamatan utama.",
     links: [
       ["Cilacap", routes.jualAcCilacap],
       ["Kroya", routes.jualAcKroya],
@@ -50,9 +55,10 @@ const areaLinkGroups = [
     ],
   },
   {
-    title: "Regional Jawa prioritas",
+    title: "Regional Prioritas",
     description: "Untuk pembelian unit, pengiriman, opsi pemasangan, dan kebutuhan banyak unit di area regional.",
     links: [
+      ["Purbalingga", routes.jualAcPurbalingga],
       ["Kebumen", routes.jualAcKebumen],
       ["Tegal", routes.jualAcTegal],
       ["Banjarnegara", routes.jualAcBanjarnegara],

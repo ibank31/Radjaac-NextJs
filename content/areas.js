@@ -88,7 +88,7 @@ export const areaItems = [
     localFaq: [
       [
         "Apakah RADJA AC melayani pembelian AC di Purwokerto?",
-        "Ya, kebutuhan AC Purwokerto bisa dikonsultasikan melalui WhatsApp. Tim RADJA AC akan mengecek ukuran ruangan, daya listrik, stok unit, pengiriman, dan opsi pemasangan sebelum pembelian.",
+        "Silakan konsultasikan kebutuhan AC Purwokerto melalui WhatsApp. Tim RADJA AC akan mengecek ukuran ruangan, daya listrik, stok unit, pengiriman, dan opsi pemasangan sebelum pembelian.",
       ],
       [
         "Apakah bisa datang ke showroom sebelum membeli AC?",
@@ -168,7 +168,7 @@ export const areaItems = [
     localFaq: [
       [
         "Apakah RADJA AC melayani pembelian AC area Banyumas?",
-        "Ya, kebutuhan AC area Banyumas bisa dikonsultasikan melalui WhatsApp. Tim RADJA AC mengecek stok unit, ukuran ruangan, daya listrik, pengiriman, dan opsi pemasangan sebelum pembelian.",
+        "Silakan konsultasikan kebutuhan AC Banyumas melalui WhatsApp. Tim RADJA AC mengecek stok unit, ukuran ruangan, daya listrik, pengiriman, dan opsi pemasangan sebelum pembelian.",
       ],
       [
         "Apakah showroom RADJA AC berada di Banyumas?",
@@ -252,7 +252,7 @@ export const areaItems = [
       ],
       [
         "Apakah RADJA AC melayani pemasangan AC di Sokaraja?",
-        "Opsi pemasangan area Sokaraja bisa dikonsultasikan. Tim RADJA AC akan mengecek alamat, posisi indoor dan outdoor, kebutuhan material, stok unit, dan jadwal.",
+        "Silakan konsultasikan opsi pemasangan area Sokaraja melalui WhatsApp. Tim RADJA AC akan mengecek alamat, posisi indoor dan outdoor, kebutuhan material, stok unit, dan jadwal.",
       ],
       [
         "Bisa beli AC untuk rumah, toko, kost, atau kantor di Sokaraja?",
@@ -488,7 +488,7 @@ export const areaItems = [
       localFaq: [
         [
           "Apakah RADJA AC melayani pengiriman AC ke Ajibarang?",
-          "Area Ajibarang bisa dikonsultasikan melalui WhatsApp. Tim RADJA AC akan mengecek alamat detail, stok unit, pengiriman, dan opsi pemasangan sebelum pembelian.",
+          "Silakan konsultasikan kebutuhan AC Ajibarang melalui WhatsApp. Tim RADJA AC akan mengecek alamat detail, stok unit, pengiriman, dan opsi pemasangan sebelum pembelian.",
         ],
         [
           "Data apa yang perlu dikirim untuk cek AC Ajibarang?",
@@ -567,7 +567,7 @@ export const areaItems = [
       localFaq: [
         [
           "Apakah RADJA AC melayani pengiriman AC ke Wangon?",
-          "Area Wangon bisa dikonsultasikan melalui WhatsApp. Tim RADJA AC akan mengecek alamat detail, stok unit, pengiriman, dan opsi pemasangan sebelum pembelian.",
+          "Silakan konsultasikan kebutuhan AC Wangon melalui WhatsApp. Tim RADJA AC akan mengecek alamat detail, stok unit, pengiriman, dan opsi pemasangan sebelum pembelian.",
         ],
         [
           "Data apa yang perlu dikirim untuk cek AC Wangon?",
@@ -643,7 +643,7 @@ export const areaItems = [
       localFaq: [
         [
           "Apakah RADJA AC melayani pengiriman AC ke Karanglewas?",
-          "Area Karanglewas bisa dikonsultasikan melalui WhatsApp. Tim RADJA AC akan mengecek alamat detail, stok unit, pengiriman, dan opsi pemasangan sebelum pembelian.",
+          "Silakan konsultasikan kebutuhan AC Karanglewas melalui WhatsApp. Tim RADJA AC akan mengecek alamat detail, stok unit, pengiriman, dan opsi pemasangan sebelum pembelian.",
         ],
         [
           "Data apa yang perlu dikirim untuk cek AC Karanglewas?",
@@ -721,7 +721,7 @@ export const areaItems = [
       localFaq: [
         [
           "Apakah RADJA AC melayani pengiriman AC ke Kembaran?",
-          "Area Kembaran bisa dikonsultasikan melalui WhatsApp. Tim RADJA AC akan mengecek alamat detail, stok unit, pengiriman, dan opsi pemasangan sebelum pembelian.",
+          "Silakan konsultasikan kebutuhan AC Kembaran melalui WhatsApp. Tim RADJA AC akan mengecek alamat detail, stok unit, pengiriman, dan opsi pemasangan sebelum pembelian.",
         ],
         [
           "Apakah bisa cek AC untuk kost di Kembaran?",
@@ -797,7 +797,7 @@ export const areaItems = [
       localFaq: [
         [
           "Apakah RADJA AC melayani pengiriman AC ke Patikraja?",
-          "Area Patikraja bisa dikonsultasikan melalui WhatsApp. Tim RADJA AC akan mengecek alamat detail, stok unit, pengiriman, dan opsi pemasangan sebelum pembelian.",
+          "Silakan konsultasikan kebutuhan AC Patikraja melalui WhatsApp. Tim RADJA AC akan mengecek alamat detail, stok unit, pengiriman, dan opsi pemasangan sebelum pembelian.",
         ],
         [
           "Data apa yang perlu dikirim untuk cek AC Patikraja?",
@@ -873,7 +873,7 @@ export const areaItems = [
       localFaq: [
         [
           "Apakah RADJA AC melayani pengiriman AC ke Rawalo?",
-          "Area Rawalo bisa dikonsultasikan melalui WhatsApp. Tim RADJA AC akan mengecek alamat detail, stok unit, pengiriman, dan opsi pemasangan sebelum pembelian.",
+          "Silakan konsultasikan kebutuhan AC Rawalo melalui WhatsApp. Tim RADJA AC akan mengecek alamat detail, stok unit, pengiriman, dan opsi pemasangan sebelum pembelian.",
         ],
         [
           "Data apa yang perlu dikirim untuk cek AC Rawalo?",
@@ -954,7 +954,7 @@ export const areaItems = [
       localFaq: [
         [
           "Apakah RADJA AC melayani pengiriman AC ke Baturraden atau Baturaden?",
-          "Area Baturraden atau Baturaden bisa dikonsultasikan melalui WhatsApp. Tim RADJA AC akan mengecek alamat, akses lokasi, stok unit, pengiriman, dan opsi pemasangan.",
+          "Silakan konsultasikan kebutuhan AC Baturraden atau Baturaden melalui WhatsApp. Tim RADJA AC akan mengecek alamat, akses lokasi, stok unit, pengiriman, dan opsi pemasangan.",
         ],
         [
           "AC apa yang cocok untuk villa, homestay, atau guest house di Baturraden?",
@@ -1325,7 +1325,7 @@ export const areaItems = [
     localFaq: [
       [
         "Apakah RADJA AC melayani pembelian AC ke Cilacap?",
-        "Area Cilacap bisa dikonsultasikan melalui WhatsApp. Tim RADJA AC akan mengecek kecamatan atau alamat detail, stok unit, kebutuhan PK, pengiriman, dan opsi pemasangan sebelum pembelian.",
+        "Silakan konsultasikan kebutuhan AC Cilacap melalui WhatsApp. Tim RADJA AC akan mengecek kecamatan atau alamat detail, stok unit, kebutuhan PK, pengiriman, dan opsi pemasangan sebelum pembelian.",
       ],
       [
         "Apakah RADJA AC punya lokasi fisik di Cilacap?",
@@ -1814,7 +1814,7 @@ export const areaItems = [
     localFaq: [
       [
         "Apakah RADJA AC melayani pembelian AC ke Kebumen?",
-        "Area Kebumen bisa dikonsultasikan melalui WhatsApp. Tim RADJA AC akan mengecek ukuran ruangan, daya listrik, jumlah unit, stok unit, pengiriman, dan opsi pemasangan sebelum pembelian.",
+        "Silakan konsultasikan kebutuhan AC Kebumen melalui WhatsApp. Tim RADJA AC akan mengecek ukuran ruangan, daya listrik, jumlah unit, stok unit, pengiriman, dan opsi pemasangan sebelum pembelian.",
       ],
       [
         "Apakah RADJA AC punya lokasi fisik di Kebumen?",
@@ -1902,7 +1902,7 @@ export const areaItems = [
     localFaq: [
       [
         "Apakah RADJA AC melayani pembelian AC ke Tegal dan Slawi?",
-        "Area Tegal dan Slawi bisa dikonsultasikan melalui WhatsApp. Tim RADJA AC akan mengecek area detail, ukuran ruangan, daya listrik, jumlah unit, stok unit, pengiriman, dan opsi pemasangan sebelum pembelian.",
+        "Silakan konsultasikan kebutuhan AC Tegal dan Slawi melalui WhatsApp. Tim RADJA AC akan mengecek area detail, ukuran ruangan, daya listrik, jumlah unit, stok unit, pengiriman, dan opsi pemasangan sebelum pembelian.",
       ],
       [
         "Apakah RADJA AC punya lokasi fisik di Tegal atau Slawi?",

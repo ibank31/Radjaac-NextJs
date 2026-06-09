@@ -68,7 +68,7 @@ export const sharpPremiumContent = {
       [
         "Sharp Standard ½ PK",
         "Mulai 3 jutaan",
-        "Unit + pasang standar. Brand yang sudah sangat familiar di Indonesia — pilihan aman untuk rumah, kamar, kost, dan toko kecil.",
+        "Unit + pasang standar. Brand yang sudah dikenal luas di Indonesia untuk rumah, kamar, kost, toko, dan ruang usaha.",
       ],
       [
         "¾ PK sampai 2 PK",
@@ -82,12 +82,12 @@ export const sharpPremiumContent = {
     eyebrow: "Kenapa Sharp",
     title: "Sharp bukan yang termurah, bukan yang paling premium — tapi sudah teruji kenal nama",
     description:
-      "Banyak orang pilih Sharp bukan karena spec paling canggih, tapi karena sudah percaya nama brandnya. Sharp jadi pilihan aman untuk pembeli yang tidak mau ambil risiko dengan brand yang belum dikenal — dan itu memang pilihan yang wajar.",
+      "Banyak orang pilih Sharp bukan karena spec paling canggih, tapi karena sudah percaya nama brandnya. Sharp jadi pilihan yang sudah dikenal luas untuk pembeli yang mengutamakan brand dengan dukungan produk yang mudah ditemukan.",
     cards: [
       {
         title: "Nama besar yang sudah lama dikenal",
         description:
-          "Sharp bukan brand baru. Banyak orang sudah kenal Sharp dari lemari es, TV, sampai elektronik rumah lainnya — jadi wajar kalau AC Sharp jadi pilihan yang terasa aman dan familiar.",
+          "Sharp bukan brand baru. Banyak orang sudah kenal Sharp dari lemari es, TV, sampai elektronik rumah lainnya — jadi Sharp jadi pilihan yang sudah dikenal luas untuk rumah, kamar, kost, dan toko kecil.",
       },
       {
         title: "Pas untuk kamar, kos, rumah, dan toko kecil",
@@ -138,7 +138,7 @@ export const sharpPremiumContent = {
         fit: "Ruang keluarga, toko kecil, usaha rumahan, dan ruko",
         priority: "Brand familiar untuk pemakaian harian yang tidak eksperimental",
         description:
-          "Untuk rumah atau toko kecil yang ingin brand yang sudah dikenal — bukan yang paling murah, tapi juga tidak perlu yang paling premium — Sharp bisa jadi pilihan yang masuk akal. Stok dan harga dikonfirmasi dulu sebelum deal.",
+          "Untuk rumah atau toko kecil yang ingin brand yang sudah dikenal — bukan yang paling murah, tapi juga tidak perlu yang paling premium — Sharp cocok. Stok dan harga dikonfirmasi dulu sebelum deal.",
         highlights: ["Rumah", "Toko kecil", "Familiar"],
         cta: "Cek Sharp untuk Rumah/Toko",
       },
