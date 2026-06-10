@@ -113,6 +113,13 @@ Status terakhir yang sudah selesai:
 - Non-www saat audit redirect ke `https://www.radjaac.com/`; redirect 307 ke www boleh dirapikan menjadi 301 di provider layer, tetapi bukan blocker indexing.
 - Jangan mengembalikan cache asset ke `next.config.mjs headers()` tanpa audit Cloudflare Pages.
 
+### Update 2026-06-10 — Area lokal & sistem cluster
+
+- Child area `jual-ac-sumbang`, `jual-ac-kedungbanteng`, dan `jual-ac-kalibagor` sudah dipromosikan ke `content/areas.js` (live) dengan konten lokal yang ditulis ulang (landmark nyata, localBenefits, localCases, FAQ berbasis lokasi). Ketiganya sudah dihapus dari `content/area-child-drafts.js` agar tidak jadi duplikat basi dan tidak memicu slug collision di `npm run audit:staged`.
+- Sistem konten area sekarang berlapis: `content/area-content-templates.js` (`resolveAreaContent` + cluster: residential/trade/industrial/education/hospitality/urban) sebagai base, dan data lokal per item di `content/areas.js` sebagai prioritas. Cluster dipetakan di `areaClusterMap`.
+- Renderer `app/[slug]/page.js` merender `localContext`, `localLandmarks`, `localBenefits`, `localCases`, `clusterType` (buyerGuide + clusterFaq), `localFaq`, `keywordVariants`, dan `trustBullets`. `commonNeeds`/`buyingChecks` TIDAK dirender (hanya data perencanaan).
+- Staged draft (`area-drafts.js`, `area-child-drafts.js`, `procurement-next.js`) sudah ditulis ulang ke standar live: tiap area punya localContext unik, 5 landmark, 3 benefit, 3 case, clusterType, dan FAQ lokal. `procurement-next.js` di-merge agar tetap punya `faqs` + `relatedSegments` + bukti konkret seperti live.
+
 ## Post-Migration SEO Schedule
 
 Website tidak perlu freeze total. Yang perlu adalah **freeze perubahan besar** sampai data GSC/GA4 cukup, sambil tetap boleh melakukan polish kecil yang aman.
@@ -237,19 +244,23 @@ Halaman area baru wajib punya:
 - Title/H1 keyword utama
 - Description buyer intent
 - Intro area
-- Local context unik
+- Local context unik (`localContext`) — bukan template, berisi geografi/ekonomi/iklim/tipe pembeli
+- Minimal 5 `localLandmarks` nyata
+- Minimal 3 `localBenefits` spesifik lokasi
+- Minimal 3 `localCases` (use case nyata)
+- `clusterType` benar (residential/trade/industrial/education/hospitality/urban) di `areaClusterMap` atau pada item
 - Common needs unik
 - Buying checks unik
-- Keyword variants
-- Curated nearby links
-- Custom local FAQ
+- Keyword variants (semantik + entity lokal)
+- Curated nearby links (semua menuju URL live, bukan draft)
+- Custom local FAQ berbasis lokasi (TANPA FAQ generik "punya toko fisik di {Kota}?")
 - WA area/source/intent
 - Trust/payment mengikuti template
 - Sitemap
 - Live 200
 - Safety scan 0
 
-Jangan membuat halaman area yang hanya swap nama area.
+Jangan membuat halaman area yang hanya swap nama area. Standar kualitas mengacu ke halaman live terbaru (Purwokerto, Banyumas, Sokaraja, Yogyakarta, Semarang, Solo) dan child yang sudah dipromosikan (Sumbang, Kedungbanteng, Kalibagor).
 
 ## Claim Safety
 

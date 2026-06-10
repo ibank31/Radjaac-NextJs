@@ -1,21 +1,27 @@
 # Current Repo Status Note
 
-Blueprint ini tetap relevan, tetapi template area aktif sudah berkembang.
+Blueprint ini tetap relevan, tetapi template area aktif sudah berkembang jauh. Halaman area live terbaru (mis. Purwokerto, Banyumas, Sokaraja, Yogyakarta, Semarang, Solo, dan child Sumbang/Kedungbanteng/Kalibagor) kini memakai lapisan konten lokal unik + cluster, bukan lagi pola swap nama kota.
 
 Field/elemen aktif yang harus diperhitungkan sekarang:
 
-- `keywordVariants`
-- `nearbyAreaLinks`
-- `localFaq`
-- `trustBullets`
-- `paymentNote`
-- trust/payment section
-- hero chips termasuk `COD / DP / Transfer`
+- `localContext` — paragraf konteks lokal unik (geografi, ekonomi, iklim, tipe pembeli). WAJIB, bukan template.
+- `localLandmarks` — minimal 5 landmark nyata, dirender sebagai chip "Landmark & titik lokal".
+- `localBenefits` — minimal 3 alasan spesifik kenapa kebutuhan AC muncul di area itu.
+- `localCases` — minimal 3 use case `[judul, detail]` nyata.
+- `clusterType` — `residential | trade | industrial | education | hospitality | urban`. Dipetakan di `areaClusterMap` (content/areas.js) atau di-set langsung pada item; dipakai `resolveAreaContent()` di `content/area-content-templates.js` untuk buyerGuide + clusterFaq.
+- `localFaq` — FAQ berbasis lokasi (lihat aturan FAQ yang diperbarui di bawah).
+- `keywordVariants` (semantik + entity lokal), `nearbyAreaLinks`, `trustBullets`, `paymentNote`
+- `eyebrow` reposisi lokal (mis. "Jalur Banyumas - Sokaraja", "Area Banyumas Utara / Timur")
+- trust/payment section, hero chips termasuk `COD / DP / Transfer`
 - WA source/intent/area
 - sitemap dan live 200
 
+Renderer (`app/[slug]/page.js`) TIDAK merender `commonNeeds` dan `buyingChecks`; keduanya hanya data perencanaan. Yang tampil ke user adalah field di atas.
+
 Untuk checklist operasional terbaru, baca `docs/RADJA_WORKFLOW.md`.
 Untuk arah ekspansi area, baca `docs/RADJA_GROWTH_STRATEGY.md`.
+
+> Catatan FAQ (memperbarui baris "FAQ wajib" di tabel bawah): JANGAN memakai FAQ generik seperti "Apakah RADJA AC punya toko fisik di {Kota}?" yang bisa dipakai di semua kota. Halaman live terbaru sudah membuangnya. FAQ wajib spesifik lokasi: pengiriman dari Banyumas ke area itu, iklim/landmark/ekonomi lokal (mis. "Wonosobo dingin, masih perlu AC?", "AC untuk showroom mebel Jepara?"), DP/COD/transfer. FAQ yang bisa berlaku di kota mana pun dianggap gagal.
 
 # RADJAAC_AREA_PAGE_BLUEPRINT.md
 
@@ -51,7 +57,7 @@ Blueprint ini memakai prinsip people-first content, title/H1 yang sinkron, serta
 | Blok brand/kategori | Membantu user memilih | Link ke ` /katalog`, ` /katalog/ac-inverter`, ` /katalog/ac-low-watt`, ` /brand/daikin`, ` /brand/gree`, ` /brand/midea` | Pilih link sesuai demand kota |
 | Blok pengiriman/pemasangan | Menjawab pertanyaan paling sensitif | Jelaskan unit only, pengiriman, dan opsi pemasangan terkoordinasi | Jangan janji teknisi lokal permanen jika belum ada |
 | Trust proof | Menambah kepercayaan | Basis Banyumas, foto stok/gudang, foto pengiriman/pemasangan yang nyata, jam layanan, merek resmi yang dijual | Jangan pakai testimonial/proyek palsu |
-| FAQ wajib | Menutup keberatan | “Apakah RADJA AC punya toko fisik di {Kota}?”, “Bisa bantu pilih PK?”, “Bisa kirim tanpa pasang?”, “Bisa untuk banyak unit?”, “Brand apa saja tersedia?”, “Harga tergantung apa?” | FAQ harus terlihat di halaman, bukan markup kosong |
+| FAQ wajib | Menutup keberatan dengan konteks lokal | FAQ spesifik lokasi: pengiriman Banyumas→{Kota}, iklim/landmark/ekonomi lokal (kos kampus, showroom, penginapan wisata, jalur Pantura), serta DP/COD/transfer. **DIPERBARUI: hindari** FAQ generik “punya toko fisik di {Kota}?” yang berlaku di semua kota | FAQ harus terlihat di halaman, tidak bisa ditukar nama kotanya, bukan markup kosong |
 | Internal link wajib | Mengarahkan user ke money page lain | Minimal ke ` /kalkulator-pk-ac`, ` /katalog`, 2–3 brand page, 1 kategori, dan 1 halaman B2B yang relevan | Wajib berbeda sesuai kota |
 | CTA pattern | Menghasilkan lead berkualitas | CTA utama: `Chat WhatsApp untuk cek stok AC {Kota}`; CTA sekunder: `Kirim ukuran ruangan & daya listrik` | Satu primary CTA yang dominan, bukan lima CTA sejajar |
 | Aturan anti-konten lemah | Menjaga kualitas | Tiap area page wajib punya: opening unik, demand kota unik, use case unik, FAQ unik, link unik, dan CTA unik | Struktur boleh sama; isi bisnisnya harus beda |

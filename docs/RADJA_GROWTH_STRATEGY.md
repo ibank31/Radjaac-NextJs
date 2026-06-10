@@ -154,6 +154,11 @@ Area lokal dan regional yang sudah ada di source repo terbaru:
 - `/jual-ac-kebumen`
 - `/jual-ac-tegal`
 - `/jual-ac-banjarnegara`
+- `/jual-ac-sumbang` (child Banyumas, promoted 2026-06)
+- `/jual-ac-kedungbanteng` (child Banyumas, promoted 2026-06)
+- `/jual-ac-kalibagor` (child Banyumas, promoted 2026-06)
+
+Standar konten area sekarang: tiap halaman wajib punya `localContext` unik, minimal 5 `localLandmarks`, 3 `localBenefits`, 3 `localCases`, `clusterType` yang benar, dan `localFaq` berbasis lokasi (lihat `docs/source/radjaac/RADJAAC_AREA_PAGE_BLUEPRINT.md`). Cluster dipetakan di `areaClusterMap` (content/areas.js). Staged draft (Magelang, Salatiga, Pekalongan, Pemalang, Brebes, Wonosobo, Temanggung, Kudus, Jepara, Demak, dan child Kebasen/Somagede/Bobotsari/Kalimanah/Kutasari/Slawi/Adiwerna/Talang/Mandiraja/Klampok/Bawang Banjarnegara) sudah ditulis ulang ke standar ini tetapi belum live.
 
 Kalau daftar ini berubah, cek `content/routes.js`, `content/areas.js`, sitemap live, dan live 200.
 
@@ -232,6 +237,8 @@ Area yang lebih aman disebut sebagai coverage dulu:
 - Mojokerto
 
 Jangan buat halaman tipis untuk area coverage-only. Sebut di halaman induk yang lebih kuat jika relevan.
+
+> Catatan 2026-06-10: Kudus dan Jepara kini punya draft regional yang sudah ditulis ulang ke standar konten lokal (Kudus = cluster industrial/kretek, Jepara = cluster industrial/mebel). Keduanya tidak lagi sekadar coverage-only karena punya pembeda intent B2B yang jelas, tetapi tetap ditahan sampai ada sinyal GSC/lead dan kapasitas batch. Putuskan publish per data, bukan otomatis.
 
 ## Tunda Build
 
