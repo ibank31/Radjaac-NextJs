@@ -23,6 +23,23 @@ export const areaItems = [
     slug: "jual-ac-purwokerto",
     path: routes.jualAcPurwokerto,
     areaName: "Purwokerto",
+    localLandmarks: [
+      "Kampus UNSOED (Universitas Jenderal Soedirman)",
+      "Alun-alun Purwokerto",
+      "Stasiun Purwokerto",
+      "Terminal Bulupitu",
+      "RSUD Prof. Dr. Margono Soekarjo",
+    ],
+    localBenefits: [
+      "Banyak kamar kos di sekitar kampus butuh AC hemat daya dengan skema banyak unit",
+      "Hotel, guest house, dan ruko komersial perlu kapasitas untuk pemakaian panjang",
+      "Pilihan low watt membantu kos dan kontrakan dengan daya listrik terbatas",
+    ],
+    localCases: [
+      ["Kos & kontrakan mahasiswa", "Pemilihan AC hemat daya untuk banyak kamar di sekitar kampus UNSOED."],
+      ["Hotel, guest house & ruko", "AC ruang publik dan kamar dengan pemakaian harian panjang di pusat kota."],
+      ["Rumah & kantor kota", "AC kamar dan ruang kerja dengan kapasitas sesuai luas ruangan."],
+    ],
     label: "Jual AC Purwokerto",
     title: "Jual AC Purwokerto | Cek Stok, PK & Opsi Pemasangan — RADJA AC",
     description:
@@ -675,6 +692,23 @@ export const areaItems = [
       slug: "jual-ac-kembaran",
       path: routes.jualAcKembaran,
       areaName: "Kembaran",
+      localLandmarks: [
+        "Kawasan kampus UNSOED sisi timur (Karangwangkal)",
+        "Jalur Purwokerto–Sokaraja via Kembaran",
+        "Kawasan kos dan hunian Kembaran",
+        "Pasar dan area usaha lokal",
+        "Perumahan di ring timur Purwokerto",
+      ],
+      localBenefits: [
+        "Banyak kamar kos dan rumah sewa membutuhkan AC hemat daya per kamar",
+        "Skema banyak unit memudahkan pemilik kos menyiapkan AC bertahap",
+        "Pilihan low watt sesuai untuk hunian dengan daya listrik standar",
+      ],
+      localCases: [
+        ["Kos & rumah sewa dekat kampus", "Pemilihan AC hemat daya untuk banyak kamar kecil dengan kapasitas seragam."],
+        ["Rumah tinggal ring timur", "AC kamar tidur dan ruang keluarga sesuai ukuran dan pola pemakaian."],
+        ["Toko & usaha lokal", "AC ruang usaha kecil di jalur Kembaran–Sokaraja."],
+      ],
       label: "Jual AC Kembaran",
       title: "Jual AC Kembaran untuk Rumah, Kost & Usaha — RADJA AC",
       description:
@@ -2660,6 +2694,61 @@ export const areaItems = [
 
 ];
 
+// Maps each area slug to a content cluster. Keeping this as a central map
+// (rather than a field per item) makes cluster assignment scalable and easy
+// to audit. An item may still set its own `clusterType` to override the map.
+export const areaClusterMap = {
+  // Hospitality & wisata
+  "jual-ac-baturraden": "hospitality",
+  "jual-ac-banjarnegara": "hospitality",
+  // Kos & pendidikan
+  "jual-ac-purwokerto": "education",
+  "jual-ac-kembaran": "education",
+  // Residential
+  "jual-ac-banyumas": "residential",
+  "jual-ac-karanglewas": "residential",
+  "jual-ac-sumbang": "residential",
+  "jual-ac-kedungbanteng": "residential",
+  "jual-ac-cilongok": "residential",
+  "jual-ac-patikraja": "residential",
+  // Perdagangan & transit
+  "jual-ac-sokaraja": "trade",
+  "jual-ac-kalibagor": "trade",
+  "jual-ac-rawalo": "trade",
+  "jual-ac-ajibarang": "trade",
+  "jual-ac-wangon": "trade",
+  "jual-ac-jatilawang": "trade",
+  "jual-ac-kebumen": "trade",
+  "jual-ac-gombong": "trade",
+  "jual-ac-karanganyar-kebumen": "trade",
+  "jual-ac-kutowinangun": "trade",
+  "jual-ac-kroya": "trade",
+  "jual-ac-majenang": "trade",
+  "jual-ac-sidareja": "trade",
+  "jual-ac-kesugihan": "trade",
+  "jual-ac-adipala": "trade",
+  // Industri & pengadaan
+  "jual-ac-purbalingga": "industrial",
+  "jual-ac-cilacap": "industrial",
+  "jual-ac-tegal": "industrial",
+  "jual-ac-semarang": "industrial",
+  // Kota besar & hospitality urban
+  "jual-ac-yogyakarta": "urban",
+  "jual-ac-solo": "urban",
+};
+
 export function getAreaItem(slug) {
-  return areaItems.find((item) => item.slug === slug);
+  const item = areaItems.find((entry) => entry.slug === slug);
+  if (!item) return undefined;
+
+  // Normalize the item: resolve clusterType and activate any dormant
+  // *Override fields so child-area content is no longer ignored.
+  return {
+    ...item,
+    clusterType: item.clusterType ?? areaClusterMap[item.slug] ?? "trade",
+    keywordVariants: item.keywordVariants ?? item.keywordVariantsOverride,
+    trustBullets: item.trustBullets ?? item.trustBulletsOverride,
+    localFaq: item.localFaq ?? item.localFaqOverride,
+    relatedLinks: item.relatedLinks ?? item.relatedLinksOverride,
+  };
 }
