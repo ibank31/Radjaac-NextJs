@@ -3,7 +3,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { routes } from "@/content/routes";
 import { buildMetadata } from "@/lib/seo";
-import { breadcrumbSchema, faqSchema } from "@/lib/schema";
+import { breadcrumbSchema, faqSchema, serviceSchema } from "@/lib/schema";
 import { areaItems, getAreaItem } from "@/content/areas";
 import WhatsappLink from "@/components/ui/WhatsappLink";
 import JsonLd from "@/components/seo/JsonLd";
@@ -120,6 +120,13 @@ export default async function AreaPage({ params }) {
       ["Jual AC", routes.jualAc],
       [item.label, item.path],
     ]),
+    serviceSchema({
+      name: item.label,
+      description: item.description,
+      url: item.path,
+      serviceType: "Penjualan & pemasangan AC",
+      areaServed: item.areaName,
+    }),
     faqSchema(faqItems),
   ];
 

@@ -2,7 +2,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { routes } from "@/content/routes";
 import { buildMetadata } from "@/lib/seo";
-import { breadcrumbSchema } from "@/lib/schema";
+import { breadcrumbSchema, serviceSchema } from "@/lib/schema";
 import { catalogItems, getCatalogItem } from "@/content/catalog";
 import WhatsappLink from "@/components/ui/WhatsappLink";
 import JsonLd from "@/components/seo/JsonLd";
@@ -83,11 +83,19 @@ export default async function CatalogDetailPage({ params }) {
   }
 
   const relatedItems = catalogItems.filter((catalogItem) => catalogItem.slug !== item.slug);
-  const structuredData = breadcrumbSchema([
-    ["Beranda", routes.home],
-    ["Katalog AC", routes.katalog],
-    [item.label, item.path],
-  ]);
+  const structuredData = [
+    breadcrumbSchema([
+      ["Beranda", routes.home],
+      ["Katalog AC", routes.katalog],
+      [item.label, item.path],
+    ]),
+    serviceSchema({
+      name: item.label,
+      description: item.description,
+      url: item.path,
+      serviceType: "Penjualan AC",
+    }),
+  ];
 
   return (
     <main className="min-h-screen overflow-hidden bg-[#f7fbff] text-slate-950">

@@ -2,9 +2,11 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { routes } from "@/content/routes";
 import { buildMetadata } from "@/lib/seo";
+import { serviceSchema } from "@/lib/schema";
 import { procurementItems, getProcurementItem } from "@/content/procurement";
 import { warrantyHighlights } from "@/content/policies";
 import WhatsappLink from "@/components/ui/WhatsappLink";
+import JsonLd from "@/components/seo/JsonLd";
 
 export const dynamicParams = false;
 
@@ -48,8 +50,16 @@ export default async function ProcurementDetailPage({ params }) {
 
   const relatedItems = procurementItems.filter((procurementItem) => procurementItem.slug !== item.slug);
 
+  const structuredData = serviceSchema({
+    name: item.label,
+    description: item.description,
+    url: item.path,
+    serviceType: "Pengadaan AC",
+  });
+
   return (
     <main className="min-h-screen bg-white text-slate-800">
+      <JsonLd data={structuredData} />
       <section className="relative overflow-hidden border-b border-blue-100 bg-[linear-gradient(155deg,#ffffff_0%,#f1f5ff_52%,#e0f0ff_100%)]">
         <div className="pointer-events-none absolute -right-32 -top-24 h-[30rem] w-[30rem] rounded-full bg-blue-300/10 blur-3xl" />
         <div className="pointer-events-none absolute -left-28 bottom-0 h-80 w-80 rounded-full bg-red-200/20 blur-3xl" />

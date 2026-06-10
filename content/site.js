@@ -7,6 +7,30 @@ export const siteConfig = {
   whatsappDisplay: "+62 882-0082-46099",
   businessBase: "Pamijen, Sokaraja, Banyumas",
   provinceBase: "Jawa Tengah",
+  addressLocality: "Sokaraja",
+  postalCode: "53181",
+  countryCode: "ID",
+  // Approximate town-level coordinates for the Sokaraja, Banyumas service base.
+  // Replace with exact showroom coordinates when available.
+  geo: {
+    latitude: -7.4286,
+    longitude: 109.2735,
+  },
+  // Administrative areas actively served (mirrors area pages in content/routes).
+  areaServed: [
+    "Banyumas",
+    "Purwokerto",
+    "Sokaraja",
+    "Cilacap",
+    "Purbalingga",
+    "Kebumen",
+    "Banjarnegara",
+    "Tegal",
+    "Yogyakarta",
+    "Semarang",
+    "Solo",
+    "Jawa Tengah",
+  ],
   language: "id-ID",
   locale: "id_ID",
   positioning:
