@@ -10,12 +10,8 @@ export const siteConfig = {
   addressLocality: "Sokaraja",
   postalCode: "53181",
   countryCode: "ID",
-  // Approximate town-level coordinates for the Sokaraja, Banyumas service base.
-  // Replace with exact showroom coordinates when available.
-  geo: {
-    latitude: -7.4286,
-    longitude: 109.2735,
-  },
+  // NOTE: geo coordinates intentionally omitted. Do not add approximate/town-level
+  // coordinates to schema; only add verified showroom coordinates when available.
   // Administrative areas actively served (mirrors area pages in content/routes).
   areaServed: [
     "Banyumas",
