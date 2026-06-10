@@ -40,6 +40,11 @@ const areaLinkGroups = [
       ["Wangon", routes.jualAcWangon],
       ["Jatilawang", routes.jualAcJatilawang],
       ["Cilongok", routes.jualAcCilongok],
+      ["Patikraja", routes.jualAcPatikraja],
+      ["Rawalo", routes.jualAcRawalo],
+      ["Sumbang", routes.jualAcSumbang],
+      ["Kedungbanteng", routes.jualAcKedungbanteng],
+      ["Kalibagor", routes.jualAcKalibagor],
     ],
   },
   {
@@ -60,6 +65,9 @@ const areaLinkGroups = [
     links: [
       ["Purbalingga", routes.jualAcPurbalingga],
       ["Kebumen", routes.jualAcKebumen],
+      ["Gombong", routes.jualAcGombong],
+      ["Karanganyar (Kebumen)", routes.jualAcKaranganyarKebumen],
+      ["Kutowinangun", routes.jualAcKutowinangun],
       ["Tegal", routes.jualAcTegal],
       ["Banjarnegara", routes.jualAcBanjarnegara],
       ["Yogyakarta", routes.jualAcYogyakarta],
