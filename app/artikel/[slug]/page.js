@@ -8,6 +8,7 @@ import { siteConfig } from "@/content/site";
 import { absoluteSiteUrl } from "@/lib/url";
 import JsonLd from "@/components/seo/JsonLd";
 import WhatsappLink from "@/components/ui/WhatsappLink";
+import { typography } from "@/lib/typography";
 
 export const dynamicParams = false;
 
@@ -141,7 +142,7 @@ export default async function ArticleDetailPage({ params }) {
               </span>
             </div>
 
-            <h1 className="max-w-5xl text-[1.65rem] font-extrabold leading-tight tracking-[-0.025em] sm:text-[2rem] lg:text-[2.5rem]">
+            <h1 className={`max-w-5xl ${typography.pageTitle}`}>
               {item.h1}
             </h1>
 
@@ -190,7 +191,7 @@ export default async function ArticleDetailPage({ params }) {
                   <span className="flex h-11 w-11 shrink-0 items-center justify-center rounded-2xl bg-slate-950 text-sm font-bold text-white">
                     {String(index + 1).padStart(2, "0")}
                   </span>
-                  <h2 className="pt-1 text-xl font-extrabold tracking-[-0.025em] text-slate-950 sm:text-2xl">
+                  <h2 className={`pt-1 ${typography.sectionTitle} text-slate-950`}>
                     {section.heading}
                   </h2>
                 </div>
@@ -206,10 +207,10 @@ export default async function ArticleDetailPage({ params }) {
 
           <section className="mt-10 overflow-hidden rounded-[1.7rem] border border-slate-200 bg-white shadow-[0_18px_55px_rgba(15,39,66,0.08)]">
             <div className="bg-[linear-gradient(135deg,#083449_0%,#0ea5b7_100%)] p-6 text-white sm:p-8">
-              <p className="mb-3 text-xs font-semibold uppercase tracking-[0.12em] text-blue-100">
+              <p className={`mb-3 ${typography.eyebrow} text-blue-100`}>
                 Lanjutkan ke halaman terkait
               </p>
-              <h2 className="max-w-3xl text-xl font-extrabold tracking-[-0.025em] sm:text-2xl">
+              <h2 className={`max-w-3xl ${typography.sectionTitle}`}>
                 Pilih halaman lanjutan sesuai kebutuhan ruangan
               </h2>
             </div>
@@ -220,7 +221,7 @@ export default async function ArticleDetailPage({ params }) {
                   href={href}
                   className="group rounded-[1.35rem] border border-slate-200 bg-[#f8fbff] p-5 transition hover:-translate-y-1 hover:border-blue-200 hover:bg-white hover:shadow-[0_16px_40px_rgba(15,39,66,0.10)]"
                 >
-                  <h3 className="mb-2 text-lg font-bold text-slate-950">{label}</h3>
+                  <h3 className={`mb-2 ${typography.cardTitle} text-slate-950`}>{label}</h3>
                   <p className="mb-4 text-sm leading-6 text-slate-600">{description}</p>
                   <span className="inline-flex items-center gap-2 text-sm font-semibold text-blue-700 transition group-hover:translate-x-1">
                     Buka halaman →
@@ -234,7 +235,7 @@ export default async function ArticleDetailPage({ params }) {
             <div className="mx-auto mb-4 flex h-12 w-12 items-center justify-center rounded-2xl bg-[#25D366] text-sm font-bold text-slate-950">
               WA
             </div>
-            <h2 className="mb-3 text-xl font-extrabold tracking-[-0.025em] text-slate-950 sm:text-2xl">
+            <h2 className={`mb-3 ${typography.sectionTitle} text-slate-950`}>
               Mulai pilih AC dari data ruangan
             </h2>
             <p className="mx-auto mb-6 max-w-2xl text-sm leading-7 text-slate-600">
@@ -252,7 +253,7 @@ export default async function ArticleDetailPage({ params }) {
 
           {relatedArticles.length > 0 ? (
             <section className="mt-12">
-              <h2 className="mb-5 text-xl font-extrabold tracking-[-0.025em] text-slate-950">Artikel terkait</h2>
+              <h2 className={`mb-5 ${typography.sectionTitle} text-slate-950`}>Artikel terkait</h2>
               <div className="grid gap-4 sm:grid-cols-2">
                 {relatedArticles.map((article) => (
                   <Link
@@ -261,7 +262,7 @@ export default async function ArticleDetailPage({ params }) {
                     className="rounded-[1.35rem] border border-slate-200 bg-white p-5 shadow-sm transition hover:-translate-y-1 hover:border-blue-200 hover:shadow-[0_16px_40px_rgba(15,39,66,0.10)]"
                   >
                     <p className="mb-2 text-xs font-bold text-blue-700">{article.eyebrow}</p>
-                    <h3 className="mb-2 text-lg font-bold text-slate-950">{article.h1}</h3>
+                    <h3 className={`mb-2 ${typography.cardTitle} text-slate-950`}>{article.h1}</h3>
                     <p className="text-sm leading-6 text-slate-500">{article.description}</p>
                   </Link>
                 ))}

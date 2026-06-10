@@ -300,7 +300,7 @@ export default async function BrandDetailPage({ params }) {
           {warrantyHighlights.map((point) => (
             <div key={point} className="rounded-[1.55rem] border border-slate-200 bg-white p-6 shadow-sm">
               <div className="mb-5 flex h-12 w-12 items-center justify-center rounded-2xl border border-blue-100 bg-blue-50 text-blue-700">✓</div>
-              <h3 className={`text-base ${typography.button} text-slate-950`}>{point}</h3>
+              <h3 className={`${typography.cardTitle} text-slate-950`}>{point}</h3>
             </div>
           ))}
         </div>
@@ -310,7 +310,7 @@ export default async function BrandDetailPage({ params }) {
         <div className="mx-auto max-w-3xl">
           <div className="rounded-[1.7rem] border border-slate-200 bg-white p-6 shadow-sm sm:p-8">
             <div className={`mb-3 ${typography.eyebrow} text-blue-700`}>Kapasitas PK</div>
-            <h2 className="mb-4 text-xl font-extrabold tracking-[-0.018em] text-slate-950 sm:text-2xl">{item.label}: cek PK dari ukuran ruangan, bukan dari nama brand saja</h2>
+            <h2 className={`mb-4 ${typography.sectionTitle} text-slate-950`}>{item.label}: cek PK dari ukuran ruangan, bukan dari nama brand saja</h2>
             <p className="mb-5 text-sm leading-7 text-slate-600 sm:text-base">
               Kapasitas tetap mengikuti ukuran ruangan, daya listrik, posisi ruangan, dan pola pemakaian. Tabel ini hanya panduan awal.
             </p>
@@ -390,7 +390,7 @@ export default async function BrandDetailPage({ params }) {
         <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
           {pageRelatedLinks.map(([title, href]) => (
             <Link key={href} href={href} className="rounded-[1.35rem] border border-slate-200 bg-white p-5 shadow-sm transition hover:-translate-y-1 hover:border-blue-200 hover:bg-blue-50">
-              <h3 className={`text-base ${typography.button} text-slate-950`}>{title}</h3>
+              <h3 className={`${typography.cardTitle} text-slate-950`}>{title}</h3>
             </Link>
           ))}
         </div>
@@ -401,7 +401,7 @@ export default async function BrandDetailPage({ params }) {
         <div className="grid gap-5 md:grid-cols-2">
           {faqItems.map(([question, answer]) => (
             <div key={question} className="rounded-[1.55rem] border border-slate-200 bg-white p-6 shadow-sm">
-              <h3 className="mb-3 font-extrabold text-slate-950">{question}</h3>
+              <h3 className={`mb-3 ${typography.cardTitle} text-slate-950`}>{question}</h3>
               <p className="text-sm leading-7 text-slate-600">{answer}</p>
             </div>
           ))}
@@ -437,7 +437,7 @@ export default async function BrandDetailPage({ params }) {
 
       <section className="mx-auto max-w-7xl px-4 pb-16 pt-8 sm:px-6 lg:px-8 lg:pb-20">
         <div className="rounded-[1.7rem] border border-[#25D366]/20 bg-[#25D366]/10 p-6 text-center shadow-[0_18px_50px_rgba(15,39,66,0.08)] sm:p-10">
-          <h2 className="mx-auto mb-5 max-w-3xl text-xl font-extrabold tracking-[-0.018em] text-slate-950 sm:text-2xl">
+          <h2 className={`mx-auto mb-5 max-w-3xl ${typography.sectionTitle} text-slate-950`}>
             Mau cek stok {item.label} terbaru?
           </h2>
           <p className="mx-auto mb-7 max-w-2xl text-sm leading-7 text-slate-700">

@@ -5,6 +5,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { routes } from "@/content/routes";
 import WhatsappLink from "@/components/ui/WhatsappLink";
+import { typography } from "@/lib/typography";
 
 const galleryCategories = [
   {
@@ -371,12 +372,12 @@ export default function ProofGalleryClient() {
 
       <section className="mx-auto max-w-7xl px-5 pb-6 pt-10 lg:px-8 lg:pb-8 lg:pt-14">
         <div className="mx-auto max-w-3xl text-center">
-          <div className="mb-7 inline-flex items-center gap-2 rounded-full border border-blue-200 bg-white px-5 py-3 text-xs font-semibold uppercase tracking-[0.12em] text-blue-800 shadow-sm">
+          <div className={`mb-7 inline-flex items-center gap-2 rounded-full border border-blue-200 bg-white px-5 py-3 ${typography.eyebrow} text-blue-800 shadow-sm`}>
             <span aria-hidden="true">▣</span>
             Dokumentasi RADJA AC
           </div>
 
-          <h1 className="mb-6 text-3xl font-extrabold leading-tight tracking-[-0.035em] text-slate-950 sm:text-4xl lg:text-[2.5rem]">
+          <h1 className={`mb-6 ${typography.heroTitle} text-slate-950`}>
             Daripada cuma percaya tulisan —{" "}
             <span className="text-blue-700">lihat dulu foto aslinya.</span>
           </h1>
@@ -399,7 +400,7 @@ export default function ProofGalleryClient() {
               <div className="mx-auto mb-5 flex h-14 w-14 items-center justify-center rounded-3xl border border-blue-100 bg-blue-50 text-2xl font-extrabold text-blue-800">
                 {item.icon}
               </div>
-              <h2 className="mb-4 text-base font-extrabold text-slate-950">{item.title}</h2>
+              <h2 className={`mb-4 ${typography.sectionTitle} text-slate-950`}>{item.title}</h2>
               <p className="text-sm leading-8 text-slate-600">{item.description}</p>
             </article>
           ))}
@@ -408,10 +409,10 @@ export default function ProofGalleryClient() {
 
       <section className="mx-auto max-w-5xl px-5 py-8 lg:px-8 lg:py-10">
         <div className="mb-7 text-center">
-          <p className="mb-4 text-xs font-semibold uppercase tracking-[0.12em] text-blue-700">
+          <p className={`mb-4 ${typography.eyebrow} text-blue-700`}>
             Video Aktivitas
           </p>
-          <h2 className="mb-4 text-xl font-extrabold leading-tight tracking-[-0.04em] text-slate-950 sm:text-2xl">
+          <h2 className={`mb-4 ${typography.sectionTitle} text-slate-950`}>
             Lihat langsung stok dan pengiriman RADJA AC
           </h2>
           <p className="mx-auto max-w-2xl text-sm leading-7 text-slate-600">
@@ -446,7 +447,7 @@ export default function ProofGalleryClient() {
                 </span>
               </div>
               <div className="p-3 sm:p-4">
-                <h3 className="line-clamp-2 text-[11px] font-bold leading-5 text-slate-950 sm:text-sm">
+                <h3 className={`line-clamp-2 ${typography.cardTitle} text-slate-950`}>
                   {item.title}
                 </h3>
               </div>
@@ -457,10 +458,10 @@ export default function ProofGalleryClient() {
 
       <section className="mx-auto max-w-7xl px-5 pb-14 pt-7 lg:px-8 lg:pb-20 lg:pt-10">
         <div className="mb-7 text-center">
-          <p className="mb-4 text-xs font-semibold uppercase tracking-[0.12em] text-blue-700">
+          <p className={`mb-4 ${typography.eyebrow} text-blue-700`}>
             Foto Aktivitas
           </p>
-          <h2 className="mx-auto mb-5 max-w-4xl text-xl font-extrabold leading-tight tracking-[-0.035em] text-slate-950 sm:text-2xl lg:text-[1.75rem]">
+          <h2 className={`mx-auto mb-5 max-w-4xl ${typography.sectionTitle} text-slate-950`}>
             Showroom, gudang, stok, display, dan pengiriman
           </h2>
           <p className="mx-auto max-w-2xl text-sm leading-7 text-slate-600">
@@ -514,14 +515,14 @@ export default function ProofGalleryClient() {
                 </span>
               </div>
               <div className="p-4">
-                <h3 className="text-sm font-bold leading-6 text-slate-950">{item.title}</h3>
+                <h3 className={`${typography.cardTitle} text-slate-950`}>{item.title}</h3>
               </div>
             </a>
           ))}
         </div>
 
         <div className="mx-auto mt-10 max-w-3xl rounded-[28px] border border-blue-200 bg-blue-50 p-6 text-center shadow-sm">
-          <h2 className="text-2xl font-extrabold tracking-[-0.03em] text-slate-950">
+          <h2 className={`${typography.sectionTitle} text-slate-950`}>
             Mau cek unit dari stok aktif?
           </h2>
           <p className="mx-auto mt-3 max-w-2xl text-sm leading-7 text-slate-600">

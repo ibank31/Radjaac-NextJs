@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { routes } from "@/content/routes";
 import WhatsappLink from "@/components/ui/WhatsappLink";
+import { typography } from "@/lib/typography";
 
 const recoveryLinks = [
   {
@@ -32,11 +33,11 @@ export default function NotFound() {
         <div className="overflow-hidden rounded-[2rem] border border-blue-100 bg-white shadow-[0_24px_70px_rgba(15,39,66,0.10)]">
           <div className="grid gap-0 lg:grid-cols-[0.95fr_1.05fr]">
             <div className="bg-[linear-gradient(135deg,#0e2a47_0%,#15395a_55%,#1f4f78_100%)] p-7 text-white sm:p-10">
-              <p className="inline-flex rounded-full border border-white/20 bg-white/10 px-4 py-1.5 text-xs font-semibold uppercase tracking-[0.12em] text-white/90">
+              <p className={`inline-flex rounded-full border border-white/20 bg-white/10 px-4 py-1.5 ${typography.eyebrow} text-white/90`}>
                 Halaman tidak ditemukan
               </p>
 
-              <h1 className="mt-5 text-4xl font-extrabold tracking-[-0.04em] sm:text-[2.5rem]">
+              <h1 className={`mt-5 ${typography.heroTitle}`}>
                 404
               </h1>
 
@@ -68,11 +69,11 @@ export default function NotFound() {
             </div>
 
             <div className="p-6 sm:p-8 lg:p-10">
-              <p className="text-xs font-semibold uppercase tracking-[0.12em] text-blue-700">
+              <p className={`${typography.eyebrow} text-blue-700`}>
                 Arahkan ke halaman utama
               </p>
 
-              <h2 className="mt-3 text-2xl font-extrabold tracking-tight text-blue-950">
+              <h2 className={`mt-3 ${typography.sectionTitle} text-blue-950`}>
                 Pilih jalur yang paling dekat dengan kebutuhan Anda
               </h2>
 

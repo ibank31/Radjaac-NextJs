@@ -6,6 +6,7 @@ import { legalEntityCopy, warrantyHighlights } from "@/content/policies";
 import { buildMetadata } from "@/lib/seo";
 import { staticPageMetadata } from "@/content/static-pages";
 import WhatsappLink from "@/components/ui/WhatsappLink";
+import { typography } from "@/lib/typography";
 
 export const metadata = buildMetadata(staticPageMetadata.tentangKami);
 
@@ -72,10 +73,10 @@ export default function TentangKamiPage() {
 
         <div className="mx-auto grid max-w-7xl items-center gap-10 lg:grid-cols-[1.05fr_0.95fr]">
           <div>
-            <p className="text-xs font-semibold uppercase tracking-[0.12em] text-blue-700">
+            <p className={`${typography.eyebrow} text-blue-700`}>
               Tentang RADJA AC
             </p>
-            <h1 className="mt-4 max-w-4xl text-[1.65rem] font-extrabold tracking-tight text-slate-950 md:text-[2.1rem]">
+            <h1 className={`mt-4 max-w-4xl ${typography.pageTitle} text-slate-950`}>
               Website resmi penjualan AC original multi-brand
             </h1>
             <p className="mt-6 max-w-3xl text-sm leading-7 text-slate-600 sm:text-base">
@@ -121,10 +122,10 @@ export default function TentangKamiPage() {
       {/* STATUS RESMI */}
       <section className="mx-auto max-w-7xl px-4 py-12 lg:py-16">
         <div className="max-w-3xl">
-          <p className="text-xs font-semibold uppercase tracking-[0.12em] text-blue-700">
+          <p className={`${typography.eyebrow} text-blue-700`}>
             Status Resmi
           </p>
-          <h2 className="mt-4 text-xl font-extrabold tracking-tight text-slate-950 md:text-2xl">
+          <h2 className={`mt-4 ${typography.sectionTitle} text-slate-950`}>
             Proshop Gree resmi dan sertifikat authorized dealer
           </h2>
           <p className="mt-4 text-sm leading-7 text-slate-600 sm:text-base">
@@ -138,10 +139,10 @@ export default function TentangKamiPage() {
             <div className="mb-4 flex h-14 w-14 items-center justify-center rounded-2xl border border-blue-200 bg-white text-2xl font-extrabold text-blue-700 shadow-sm" aria-hidden="true">
               ✓
             </div>
-            <p className="mb-2 text-xs font-semibold uppercase tracking-[0.12em] text-blue-800">
+            <p className={`mb-2 ${typography.eyebrow} text-blue-800`}>
               Proshop Gree
             </p>
-            <h3 className="text-xl font-bold tracking-tight text-slate-950">
+            <h3 className={`${typography.cardTitle} text-slate-950`}>
               Proshop Gree resmi dengan bukti fisik
             </h3>
             <p className="mt-3 text-sm leading-7 text-slate-600">
@@ -157,7 +158,7 @@ export default function TentangKamiPage() {
           </div>
 
           <div className="rounded-[1.45rem] border border-slate-200 bg-white p-6 shadow-sm">
-            <p className="mb-5 text-xs font-semibold uppercase tracking-[0.12em] text-[#1565C0]">
+            <p className={`mb-5 ${typography.eyebrow} text-[#1565C0]`}>
               Sertifikat Authorized Dealer
             </p>
             <div className="grid grid-cols-2 gap-x-4 gap-y-7 sm:grid-cols-4">
@@ -192,10 +193,10 @@ export default function TentangKamiPage() {
       {/* OPERATIONAL PROOF */}
       <section className="mx-auto max-w-7xl px-4 pb-12 lg:pb-16">
         <div className="max-w-3xl">
-          <p className="text-xs font-semibold uppercase tracking-[0.12em] text-blue-700">
+          <p className={`${typography.eyebrow} text-blue-700`}>
             Bukti Operasional
           </p>
-          <h2 className="mt-4 text-xl font-extrabold tracking-tight text-slate-950 md:text-2xl">
+          <h2 className={`mt-4 ${typography.sectionTitle} text-slate-950`}>
             Showroom, gudang, stok, dan pengiriman yang nyata
           </h2>
           <p className="mt-4 text-sm leading-7 text-slate-600 sm:text-base">
@@ -243,7 +244,7 @@ export default function TentangKamiPage() {
       <section className="mx-auto max-w-7xl px-4 pb-12 lg:pb-16">
         <div className="grid gap-6 lg:grid-cols-2">
           <section className="rounded-[1.45rem] border border-slate-200 bg-white p-6 shadow-sm">
-            <h2 className="text-xl font-extrabold text-slate-950">Cara kerja kami</h2>
+            <h2 className={`${typography.sectionTitle} text-slate-950`}>Cara kerja kami</h2>
             <ul className="mt-5 space-y-3 text-sm leading-6 text-slate-600">
               {values.map((value) => (
                 <li key={value} className="rounded-2xl border border-slate-200 bg-[#f7fbff]/45 p-4">
@@ -254,12 +255,12 @@ export default function TentangKamiPage() {
           </section>
 
           <section className="rounded-[1.45rem] border border-slate-200 bg-white p-6 shadow-sm">
-            <h2 className="text-xl font-extrabold text-slate-950">Legalitas & garansi</h2>
+            <h2 className={`${typography.sectionTitle} text-slate-950`}>Legalitas & garansi</h2>
             <p className="mt-5 rounded-2xl border border-slate-200 bg-[#f7fbff]/45 p-4 text-sm leading-6 text-slate-600">
               {legalEntityCopy}
             </p>
 
-            <p className="mt-5 text-xs font-semibold uppercase tracking-[0.12em] text-blue-800">
+            <p className={`mt-5 ${typography.eyebrow} text-blue-800`}>
               Ketentuan garansi
             </p>
             <ul className="mt-3 space-y-3 text-sm leading-6 text-slate-600">
@@ -280,7 +281,7 @@ export default function TentangKamiPage() {
       {/* FINAL CTA */}
       <section className="mx-auto max-w-7xl px-4 pb-16 lg:pb-20">
         <div className="mx-auto max-w-3xl rounded-[28px] border border-blue-200 bg-blue-50 p-6 text-center shadow-sm sm:p-8">
-          <h2 className="text-2xl font-extrabold tracking-[-0.03em] text-slate-950">
+          <h2 className={`${typography.sectionTitle} text-slate-950`}>
             Siap memilih AC original multi-brand?
           </h2>
           <p className="mx-auto mt-3 max-w-2xl text-sm leading-7 text-slate-600">

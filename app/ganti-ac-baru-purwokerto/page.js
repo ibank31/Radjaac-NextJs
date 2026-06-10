@@ -3,6 +3,7 @@ import { routes } from "@/content/routes";
 import { buildMetadata } from "@/lib/seo";
 import { staticPageMetadata } from "@/content/static-pages";
 import WhatsappLink from "@/components/ui/WhatsappLink";
+import { typography } from "@/lib/typography";
 
 export const metadata = buildMetadata(staticPageMetadata.gantiAcBaruPurwokerto);
 
@@ -36,10 +37,10 @@ export default function GantiAcBaruPurwokertoPage() {
     <main className="min-h-screen overflow-hidden bg-[#f7fbff] text-slate-950">
       <section className="relative overflow-hidden border-b border-blue-100 bg-[linear-gradient(180deg,#f8fdff_0%,#eefbff_100%)] px-4 py-12 lg:py-20">
         <div className="pointer-events-none absolute inset-0 -z-10 bg-[radial-gradient(circle_at_top_left,rgba(34,211,238,0.18),transparent_32%),radial-gradient(circle_at_bottom_right,rgba(37,211,102,0.12),transparent_28%)]" />
-        <p className="text-xs font-semibold uppercase tracking-[0.12em] text-blue-700">
+        <p className={`${typography.eyebrow} text-blue-700`}>
           Ganti AC Baru
         </p>
-        <h1 className="mt-4 max-w-4xl text-2xl font-extrabold tracking-tight text-slate-950 sm:text-3xl md:text-[2.1rem]">
+        <h1 className={`mt-4 max-w-4xl ${typography.pageTitle} text-slate-950`}>
           Ganti AC baru di Purwokerto saat unit lama sudah tidak nyaman dipakai
         </h1>
         <p className="mt-6 max-w-3xl text-sm leading-7 text-slate-600 sm:text-base">
@@ -67,7 +68,7 @@ export default function GantiAcBaruPurwokertoPage() {
         </div>
 
         <section className="mt-12 rounded-[1.45rem] border border-blue-100 bg-blue-50 p-6">
-          <h2 className="text-2xl font-extrabold text-slate-950">Catatan penting</h2>
+          <h2 className={`${typography.sectionTitle} text-slate-950`}>Catatan penting</h2>
           <p className="mt-4 max-w-3xl text-sm leading-6 text-slate-600">
             RADJA AC berfokus membantu pembelian AC baru. Untuk perbaikan, cuci AC, atau bongkar-pasang
             service murni, tim RADJA AC akan cek kebutuhan dan ketersediaan informasi sebelum membahas pilihan unit baru.
@@ -78,7 +79,7 @@ export default function GantiAcBaruPurwokertoPage() {
 
         <div className="mt-8 grid gap-6 lg:grid-cols-2">
           <section className="rounded-[1.45rem] border border-slate-200 bg-white p-6">
-            <h2 className="text-xl font-extrabold text-slate-950">Kapan mulai pertimbangkan ganti unit?</h2>
+            <h2 className={`${typography.sectionTitle} text-slate-950`}>Kapan mulai pertimbangkan ganti unit?</h2>
             <ul className="mt-5 space-y-3 text-sm leading-6 text-slate-600">
               {decisionChecks.map((point) => (
                 <li key={point} className="rounded-2xl border border-slate-200 bg-[#f7fbff]/45 p-4">
@@ -89,7 +90,7 @@ export default function GantiAcBaruPurwokertoPage() {
           </section>
 
           <section className="rounded-[1.45rem] border border-slate-200 bg-white p-6">
-            <h2 className="text-xl font-extrabold text-slate-950">Data yang sebaiknya dikirim ke tim RADJA AC</h2>
+            <h2 className={`${typography.sectionTitle} text-slate-950`}>Data yang sebaiknya dikirim ke tim RADJA AC</h2>
             <ul className="mt-5 space-y-3 text-sm leading-6 text-slate-600">
               {prepareData.map((point) => (
                 <li key={point} className="rounded-2xl border border-slate-200 bg-[#f7fbff]/45 p-4">
@@ -101,7 +102,7 @@ export default function GantiAcBaruPurwokertoPage() {
         </div>
 
         <section className="mt-8 rounded-[1.45rem] border border-slate-200 bg-white p-6">
-          <h2 className="text-xl font-extrabold text-slate-950">Arah pilihan AC baru</h2>
+          <h2 className={`${typography.sectionTitle} text-slate-950`}>Arah pilihan AC baru</h2>
           <div className="mt-5 grid gap-4 md:grid-cols-3">
             <Link href={routes.kalkulatorPkAc} className="rounded-2xl border border-slate-200 bg-[#f7fbff]/45 p-4 text-sm leading-6 text-slate-600 transition hover:border-blue-200">
               <strong className="block text-slate-950">Cek kebutuhan PK</strong>
@@ -119,7 +120,7 @@ export default function GantiAcBaruPurwokertoPage() {
         </section>
 
         <section className="mt-12 rounded-[1.45rem] border border-[#25D366]/20 bg-[#25D366]/10 p-6 text-slate-950">
-          <h2 className="text-2xl font-extrabold">Mau cek pilihan unit baru?</h2>
+          <h2 className={`${typography.sectionTitle}`}>Mau cek pilihan unit baru?</h2>
           <p className="mt-4 max-w-3xl text-sm leading-6 text-slate-600">
             Kirim kondisi singkat AC lama, ukuran ruangan, daya listrik, lokasi, anggaran, dan kebutuhan
             unit saja atau sekalian opsi pemasangan. Tim RADJA AC cocokkan pilihan AC baru yang
@@ -138,7 +139,7 @@ export default function GantiAcBaruPurwokertoPage() {
         </section>
 
         <section className="mt-12">
-          <h2 className="text-xl font-extrabold text-slate-950">Lanjutkan ke halaman terkait</h2>
+          <h2 className={`${typography.sectionTitle} text-slate-950`}>Lanjutkan ke halaman terkait</h2>
           <div className="mt-5 grid gap-3 md:grid-cols-3">
             {nextLinks.map(([label, href]) => (
               <Link

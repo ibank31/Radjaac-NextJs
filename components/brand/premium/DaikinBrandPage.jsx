@@ -135,7 +135,7 @@ export default function DaikinBrandPage({ item, faqItems, structuredData }) {
           {warrantyTrust.map((card) => (
             <div key={card.title} className="rounded-[1.55rem] border border-slate-200 bg-white p-6 shadow-sm">
               <div className="mb-5 flex h-12 w-12 items-center justify-center rounded-2xl border border-blue-100 bg-blue-50 text-blue-700">✓</div>
-              <h3 className={`mb-3 text-base ${typography.button} text-slate-950`}>{card.title}</h3>
+              <h3 className={`mb-3 ${typography.cardTitle} text-slate-950`}>{card.title}</h3>
               <p className="text-sm leading-7 text-slate-600">{card.description}</p>
             </div>
           ))}
@@ -291,7 +291,7 @@ export default function DaikinBrandPage({ item, faqItems, structuredData }) {
         <SectionHeading eyebrow={pkSection.eyebrow} title={pkSection.title} description={pkSection.description} />
 
         <div className="overflow-hidden rounded-[1.7rem] border border-slate-200 bg-white shadow-sm">
-          <div className="hidden grid-cols-[0.8fr_1fr_1.4fr] border-b border-slate-100 bg-blue-50 px-5 py-3 text-xs font-semibold uppercase tracking-[0.12em] text-blue-700 sm:grid">
+          <div className={`hidden grid-cols-[0.8fr_1fr_1.4fr] border-b border-slate-100 bg-blue-50 px-5 py-3 ${typography.eyebrow} text-blue-700 sm:grid`}>
             <span>Kapasitas</span>
             <span>Estimasi Ruangan</span>
             <span>Cocok Untuk</span>
@@ -334,7 +334,7 @@ export default function DaikinBrandPage({ item, faqItems, structuredData }) {
               href={link.href}
               className="group rounded-[1.35rem] border border-slate-200 bg-white p-5 shadow-sm transition hover:-translate-y-1 hover:border-blue-200 hover:bg-blue-50"
             >
-              <h3 className={`mb-2 text-base ${typography.button} text-slate-950`}>{link.title}</h3>
+              <h3 className={`mb-2 ${typography.cardTitle} text-slate-950`}>{link.title}</h3>
               <p className="mb-4 text-sm leading-6 text-slate-600">{link.description}</p>
               <span className="inline-flex items-center gap-2 text-sm font-bold text-blue-700 group-hover:text-blue-800">
                 Lihat panduan <span aria-hidden="true">→</span>
@@ -367,7 +367,7 @@ export default function DaikinBrandPage({ item, faqItems, structuredData }) {
         <div className="grid gap-5 md:grid-cols-2">
           {faqItems.map(([question, answer]) => (
             <div key={question} className="rounded-[1.55rem] border border-slate-200 bg-white p-6 shadow-sm">
-              <h3 className="mb-3 font-extrabold text-slate-950">{question}</h3>
+              <h3 className={`mb-3 ${typography.cardTitle} text-slate-950`}>{question}</h3>
               <p className="text-sm leading-7 text-slate-600">{answer}</p>
             </div>
           ))}

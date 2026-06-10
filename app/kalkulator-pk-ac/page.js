@@ -4,6 +4,7 @@ import { buildMetadata } from "@/lib/seo";
 import { staticPageMetadata } from "@/content/static-pages";
 import WhatsappLink from "@/components/ui/WhatsappLink";
 import PkCalculator from "@/components/calculator/PkCalculator";
+import { typography } from "@/lib/typography";
 
 export const metadata = buildMetadata(staticPageMetadata.kalkulatorPkAc);
 
@@ -53,10 +54,10 @@ export default function KalkulatorPkAcPage() {
   return (
     <main className="bg-[linear-gradient(180deg,#f7fbff_0%,#eef8ff_42%,#ffffff_100%)]">
       <section className="mx-auto max-w-7xl px-4 py-14 lg:py-20">
-        <p className="text-xs font-semibold uppercase tracking-[0.12em] text-slate-500">
+        <p className={`${typography.eyebrow} text-slate-500`}>
           Kalkulator PK AC
         </p>
-        <h1 className="mt-4 max-w-4xl text-2xl font-extrabold tracking-tight text-slate-950 md:text-4xl">
+        <h1 className={`mt-4 max-w-4xl ${typography.pageTitle} text-slate-950`}>
           Kalkulator PK AC untuk estimasi kebutuhan ruangan sebelum order
         </h1>
         <p className="mt-6 max-w-3xl text-sm leading-7 text-slate-600 sm:text-base">
@@ -87,7 +88,7 @@ export default function KalkulatorPkAcPage() {
 
         <div className="mt-8 grid gap-6 lg:grid-cols-2">
           <section className="rounded-3xl border border-slate-200 p-6">
-            <h2 className="text-xl font-extrabold text-slate-950">Data yang sebaiknya disiapkan</h2>
+            <h2 className={`${typography.sectionTitle} text-slate-950`}>Data yang sebaiknya disiapkan</h2>
             <ul className="mt-5 space-y-3 text-sm leading-6 text-slate-600">
               {checkFactors.map((factor) => (
                 <li key={factor} className="rounded-2xl bg-slate-50 p-4">
@@ -98,7 +99,7 @@ export default function KalkulatorPkAcPage() {
           </section>
 
           <section className="rounded-3xl border border-slate-200 p-6">
-            <h2 className="text-xl font-extrabold text-slate-950">Lanjutkan hasil cek ke pilihan AC</h2>
+            <h2 className={`${typography.sectionTitle} text-slate-950`}>Lanjutkan hasil cek ke pilihan AC</h2>
             <div className="mt-5 space-y-3 text-sm leading-6 text-slate-600">
               <p className="rounded-2xl bg-slate-50 p-4">
                 Hasil kalkulator adalah estimasi awal. Ruangan panas, plafon tinggi, pintu sering terbuka,
@@ -122,7 +123,7 @@ export default function KalkulatorPkAcPage() {
         </div>
 
         <section className="mt-12 rounded-3xl border border-blue-100 bg-white p-6 text-slate-950 shadow-[0_18px_55px_rgba(15,39,66,0.08)]">
-          <h2 className="text-2xl font-extrabold">Mau cek hasil PK ke tim RADJA AC?</h2>
+          <h2 className={`${typography.sectionTitle}`}>Mau cek hasil PK ke tim RADJA AC?</h2>
           <p className="mt-4 max-w-3xl text-sm leading-6 text-slate-600">
             Kirim ukuran ruangan, tinggi plafon jika tahu, daya listrik, kota, anggaran, jumlah unit, dan kebutuhan unit
             saja atau sekalian opsi pemasangan. Tim RADJA AC cocokkan pilihan dari ukuran ruangan, daya listrik,
@@ -140,7 +141,7 @@ export default function KalkulatorPkAcPage() {
         </section>
 
         <section className="mt-12">
-          <h2 className="text-xl font-extrabold text-slate-950">Lanjutkan ke halaman terkait</h2>
+          <h2 className={`${typography.sectionTitle} text-slate-950`}>Lanjutkan ke halaman terkait</h2>
           <div className="mt-5 grid gap-3 md:grid-cols-3">
             {[
               ["AC 1/2 PK", routes.katalogAcSetengahPk],

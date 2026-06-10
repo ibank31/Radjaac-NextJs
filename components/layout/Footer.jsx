@@ -2,6 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { routes } from "@/content/routes";
 import WhatsappLink from "@/components/ui/WhatsappLink";
+import { typography } from "@/lib/typography";
 
 const footerGroups = [
   {
@@ -82,7 +83,7 @@ export default function Footer() {
     <footer className="border-t border-white/10 bg-[linear-gradient(180deg,#1f4f78_0%,#15395a_50%,#0e2a47_100%)] text-white shadow-[inset_0_14px_34px_rgba(15,23,42,0.16)]">
       <div className="mx-auto grid max-w-7xl gap-8 px-4 py-12 lg:grid-cols-[1fr_1.9fr] lg:py-14">
         <div>
-          <div className="inline-flex rounded-full border border-white/15 bg-white/10 px-3.5 py-1.5 text-[11px] font-semibold uppercase tracking-[0.12em] text-white shadow-sm">
+          <div className={`inline-flex rounded-full border border-white/15 bg-white/10 px-3.5 py-1.5 ${typography.eyebrow} text-white shadow-sm`}>
             AC Original Multi-Brand
           </div>
 
@@ -98,7 +99,7 @@ export default function Footer() {
             </span>
             <div>
               <p className="text-xl font-bold tracking-[-0.03em] text-white sm:text-2xl">RADJA AC</p>
-              <p className="mt-1 text-xs font-semibold uppercase tracking-[0.12em] text-white/70">Sokaraja, Banyumas</p>
+              <p className={`mt-1 ${typography.eyebrow} text-white/70`}>Sokaraja, Banyumas</p>
             </div>
           </div>
 
@@ -130,7 +131,7 @@ export default function Footer() {
         <div className="grid gap-4 sm:grid-cols-3">
           {footerGroups.map((group) => (
             <div key={group.title} className="rounded-[1.2rem] border border-white/15 bg-white/10 p-4 shadow-sm backdrop-blur">
-              <div className="inline-flex rounded-full border border-white/15 bg-white/10 px-3 py-1.5 text-[11px] font-semibold uppercase tracking-[0.12em] text-white shadow-sm">
+              <div className={`inline-flex rounded-full border border-white/15 bg-white/10 px-3 py-1.5 ${typography.eyebrow} text-white shadow-sm`}>
                 {group.title}
               </div>
 

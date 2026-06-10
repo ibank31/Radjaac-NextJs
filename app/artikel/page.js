@@ -3,6 +3,7 @@ import { routes } from "@/content/routes";
 import { articleItems } from "@/content/articles";
 import { buildMetadata } from "@/lib/seo";
 import WhatsappLink from "@/components/ui/WhatsappLink";
+import { typography } from "@/lib/typography";
 
 export const metadata = buildMetadata({
   title: "Artikel Panduan Beli AC | RADJA AC",
@@ -33,10 +34,10 @@ export default function ArtikelPage() {
         <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_top_left,rgba(34,211,238,0.22),transparent_34%),radial-gradient(circle_at_bottom_right,rgba(37,211,102,0.22),transparent_30%)]" />
         <div className="relative mx-auto grid max-w-7xl gap-10 lg:grid-cols-[1.05fr_0.95fr] lg:items-center lg:gap-14">
           <div>
-            <p className="inline-flex rounded-full border border-white/15 bg-white/10 px-4 py-2 text-xs font-semibold uppercase tracking-[0.12em] text-blue-100 backdrop-blur">
+            <p className={`inline-flex rounded-full border border-white/15 bg-white/10 px-4 py-2 ${typography.eyebrow} text-blue-100 backdrop-blur`}>
               Artikel RADJA AC
             </p>
-            <h1 className="mt-6 max-w-4xl text-[1.65rem] font-extrabold leading-tight tracking-[-0.025em] md:text-[2.4rem]">
+            <h1 className={`mt-6 max-w-4xl ${typography.pageTitle}`}>
               Panduan beli AC yang tidak bikin bingung sebelum chat RADJA AC
             </h1>
             <p className="mt-6 max-w-3xl text-sm leading-7 text-blue-50/90 sm:text-base">
@@ -67,10 +68,10 @@ export default function ArtikelPage() {
           </div>
 
           <aside className="rounded-[2rem] border border-white/20 bg-white/12 p-5 shadow-[0_28px_80px_rgba(2,8,23,0.28)] backdrop-blur sm:p-6 lg:p-7">
-            <p className="text-xs font-semibold uppercase tracking-[0.12em] text-blue-100">
+            <p className={`${typography.eyebrow} text-blue-100`}>
               Mulai dari masalah user
             </p>
-            <h2 className="text-2xl font-extrabold tracking-tight text-white sm:text-[1.75rem]">
+            <h2 className={`${typography.sectionTitle} text-white`}>
               Baca singkat, lalu ambil keputusan lebih cepat.
             </h2>
             <div className="mt-5 grid gap-3">
@@ -102,10 +103,10 @@ export default function ArtikelPage() {
             className="group grid overflow-hidden rounded-[2rem] border border-slate-200 bg-white shadow-[0_22px_70px_rgba(15,39,66,0.10)] transition hover:-translate-y-1 hover:shadow-[0_28px_90px_rgba(15,39,66,0.16)] lg:grid-cols-[1fr_0.82fr]"
           >
             <div className="p-6 sm:p-8 lg:p-10">
-              <p className="mb-4 inline-flex rounded-full border border-blue-100 bg-blue-50 px-4 py-2 text-xs font-semibold uppercase tracking-[0.12em] text-blue-700">
+              <p className={`mb-4 inline-flex rounded-full border border-blue-100 bg-blue-50 px-4 py-2 ${typography.eyebrow} text-blue-700`}>
                 Artikel Utama
               </p>
-              <h2 className="text-2xl font-extrabold tracking-[-0.03em] text-slate-950 sm:text-3xl">
+              <h2 className={`${typography.sectionTitle} text-slate-950`}>
                 {featuredArticle.h1}
               </h2>
               <p className="mt-5 text-sm leading-7 text-slate-600 sm:text-base">
@@ -137,8 +138,8 @@ export default function ArtikelPage() {
 
       <section className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8 lg:py-12">
         <div className="mb-8 max-w-3xl">
-          <p className="mb-3 text-xs font-semibold uppercase tracking-[0.12em] text-blue-700">Semua Artikel</p>
-          <h2 className="text-xl font-extrabold tracking-[-0.025em] text-slate-950 sm:text-2xl">Pilih panduan sesuai masalah pembelian AC</h2>
+          <p className={`mb-3 ${typography.eyebrow} text-blue-700`}>Semua Artikel</p>
+          <h2 className={`${typography.sectionTitle} text-slate-950`}>Pilih panduan sesuai masalah pembelian AC</h2>
         </div>
         <div className="grid gap-5 md:grid-cols-2 lg:grid-cols-3">
           {otherArticles.map((article, index) => (
@@ -159,7 +160,7 @@ export default function ArtikelPage() {
               <div className="mb-4 flex h-10 w-10 items-center justify-center rounded-2xl bg-slate-950 text-sm font-bold text-white">
                 {String(index + 1).padStart(2, "0")}
               </div>
-              <h3 className="text-xl font-bold leading-tight text-slate-950">{article.h1}</h3>
+              <h3 className={`${typography.cardTitle} text-slate-950`}>{article.h1}</h3>
               <p className="mt-4 text-sm leading-7 text-slate-600">{article.description}</p>
               <span className="mt-6 inline-flex text-sm font-semibold text-blue-700 transition group-hover:translate-x-1">
                 Baca artikel →
@@ -177,7 +178,7 @@ export default function ArtikelPage() {
               href={href}
               className="rounded-[1.45rem] border border-slate-200 bg-white p-6 shadow-sm transition hover:-translate-y-1 hover:border-blue-200 hover:shadow-[0_18px_45px_rgba(15,39,66,0.10)]"
             >
-              <h2 className="text-xl font-extrabold text-slate-950">{title}</h2>
+              <h2 className={`${typography.sectionTitle} text-slate-950`}>{title}</h2>
               <p className="mt-3 text-sm leading-6 text-slate-600">{text}</p>
             </Link>
           ))}
@@ -186,7 +187,7 @@ export default function ArtikelPage() {
 
       <section className="mx-auto max-w-7xl px-4 pb-16 pt-8 sm:px-6 lg:px-8 lg:pb-20">
         <div className="rounded-[2rem] border border-[#25D366]/20 bg-[linear-gradient(135deg,rgba(37,211,102,0.14),rgba(34,211,238,0.10))] p-6 text-center shadow-[0_20px_60px_rgba(15,39,66,0.08)] sm:p-10">
-          <h2 className="mx-auto mb-5 max-w-3xl text-2xl font-extrabold tracking-[-0.025em] text-slate-950 sm:text-3xl">
+          <h2 className={`mx-auto mb-5 max-w-3xl ${typography.sectionTitle} text-slate-950`}>
             Sudah baca? Lanjutkan dengan data ruangan
           </h2>
           <p className="mx-auto mb-7 max-w-2xl text-sm leading-7 text-slate-600">

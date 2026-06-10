@@ -1,4 +1,5 @@
 import SectionTitle from "@/components/area/SectionTitle";
+import { typography } from "@/lib/typography";
 
 export default function AreaFaq({ areaName, faqItems }) {
   return (
@@ -10,7 +11,7 @@ export default function AreaFaq({ areaName, faqItems }) {
             key={question}
             className="rounded-[1.45rem] border border-slate-200 bg-white p-6"
           >
-            <h3 className="mb-3 font-bold text-slate-950">{question}</h3>
+            <h3 className={`mb-3 ${typography.cardTitle} text-slate-950`}>{question}</h3>
             <p className="text-sm leading-7 text-slate-600">{answer}</p>
           </div>
         ))}

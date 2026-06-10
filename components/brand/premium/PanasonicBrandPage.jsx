@@ -81,7 +81,7 @@ export default function PanasonicBrandPage({ item, faqItems, structuredData }) {
           {warranty.cards.map((card) => (
             <div key={card.title} className="rounded-[1.55rem] border border-slate-200 bg-white p-6 shadow-sm">
               <div className="mb-5 flex h-12 w-12 items-center justify-center rounded-2xl border border-blue-100 bg-blue-50 text-blue-700">✓</div>
-              <h3 className={`mb-3 text-base ${typography.button} text-slate-950`}>{card.title}</h3>
+              <h3 className={`mb-3 ${typography.cardTitle} text-slate-950`}>{card.title}</h3>
               <p className="text-sm leading-7 text-slate-600">{card.description}</p>
             </div>
           ))}
@@ -192,7 +192,7 @@ export default function PanasonicBrandPage({ item, faqItems, structuredData }) {
         <div className="mx-auto grid max-w-4xl gap-4">
           {faqItems.map(([question, answer]) => (
             <article key={question} className="rounded-[1.55rem] border border-slate-200 bg-white p-6 shadow-sm">
-              <h3 className="mb-2 font-extrabold text-slate-950">{question}</h3>
+              <h3 className={`mb-2 ${typography.cardTitle} text-slate-950`}>{question}</h3>
               <p className="text-sm leading-7 text-slate-600">{answer}</p>
             </article>
           ))}

@@ -6,6 +6,7 @@ import { useState } from "react";
 import { usePathname } from "next/navigation";
 import { routes } from "@/content/routes";
 import WhatsappLink from "@/components/ui/WhatsappLink";
+import { typography } from "@/lib/typography";
 
 const navItems = [
   { label: "Beranda", href: routes.home, exact: true },
@@ -189,7 +190,7 @@ export default function HeaderClient() {
             <span className="text-lg font-bold tracking-[-0.02em] text-slate-950">
               RADJA AC
             </span>
-            <span className="text-[11px] font-semibold uppercase tracking-[0.12em] text-slate-500">
+            <span className={`${typography.eyebrow} text-slate-500`}>
               AC Original untuk Rumah, Usaha & Proyek
             </span>
           </span>

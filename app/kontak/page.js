@@ -4,6 +4,7 @@ import { siteConfig } from "@/content/site";
 import { buildMetadata } from "@/lib/seo";
 import { staticPageMetadata } from "@/content/static-pages";
 import WhatsappLink from "@/components/ui/WhatsappLink";
+import { typography } from "@/lib/typography";
 
 export const metadata = buildMetadata(staticPageMetadata.kontak);
 
@@ -58,11 +59,11 @@ export default function KontakPage() {
 
         <div className="relative mx-auto grid max-w-7xl gap-10 lg:grid-cols-[1fr_0.92fr] lg:items-start lg:gap-16">
           <div>
-            <p className="inline-flex rounded-full border border-blue-100 bg-white/80 px-4 py-2 text-xs font-semibold uppercase tracking-[0.12em] text-blue-800 shadow-sm backdrop-blur">
+            <p className={`inline-flex rounded-full border border-blue-100 bg-white/80 px-4 py-2 ${typography.eyebrow} text-blue-800 shadow-sm backdrop-blur`}>
               Kontak RADJA AC
             </p>
 
-            <h1 className="mt-6 max-w-4xl text-3xl font-extrabold leading-tight tracking-[-0.035em] text-slate-950 md:text-[2.4rem]">
+            <h1 className={`mt-6 max-w-4xl ${typography.pageTitle} text-slate-950`}>
               Mau beli AC? Kirim ukuran ruangan, daya listrik, lokasi, dan jumlah unit ke RADJA AC.
             </h1>
 
@@ -105,7 +106,7 @@ export default function KontakPage() {
           </div>
 
           <aside className="rounded-[1.7rem] border border-slate-200 bg-white p-5 shadow-[0_22px_60px_rgba(15,39,66,0.10)] sm:p-7">
-            <p className="text-xs font-semibold uppercase tracking-[0.12em] text-blue-700">
+            <p className={`${typography.eyebrow} text-blue-700`}>
               Nomor WhatsApp
             </p>
 
@@ -149,7 +150,7 @@ export default function KontakPage() {
               <div className="mb-5 flex h-12 w-12 items-center justify-center rounded-2xl bg-blue-50 text-2xl text-blue-700">
                 ✓
               </div>
-              <h2 className="text-xl font-extrabold tracking-[-0.02em] text-slate-950">{title}</h2>
+              <h2 className={`${typography.sectionTitle} text-slate-950`}>{title}</h2>
               <p className="mt-3 text-sm leading-7 text-slate-600">{text}</p>
             </div>
           ))}
@@ -160,10 +161,10 @@ export default function KontakPage() {
         <div className="rounded-[1.7rem] border border-slate-200 bg-white p-6 shadow-[0_18px_50px_rgba(15,39,66,0.08)] sm:p-8 lg:p-10">
           <div className="grid gap-8 lg:grid-cols-[0.85fr_1.15fr] lg:items-center">
             <div>
-              <p className="text-xs font-semibold uppercase tracking-[0.12em] text-blue-700">
+              <p className={`${typography.eyebrow} text-blue-700`}>
                 Jalur cepat konsultasi
               </p>
-              <h2 className="mt-4 text-xl font-extrabold tracking-[-0.03em] text-slate-950 sm:text-2xl">
+              <h2 className={`mt-4 ${typography.sectionTitle} text-slate-950`}>
                 Belum tahu mau pilih AC apa? Mulai dari chat, bukan dari nebak-nebak katalog.
               </h2>
               <p className="mt-5 text-sm leading-7 text-slate-600 sm:text-base">
@@ -178,7 +179,7 @@ export default function KontakPage() {
                   href={href}
                   className="rounded-[1.35rem] border border-slate-200 bg-[#f8fbff] p-5 transition hover:-translate-y-1 hover:border-blue-200 hover:bg-blue-50"
                 >
-                  <h3 className="text-base font-bold text-slate-950">{title}</h3>
+                  <h3 className={`${typography.cardTitle} text-slate-950`}>{title}</h3>
                   <p className="mt-2 text-xs leading-6 text-slate-600">{text}</p>
                 </Link>
               ))}
@@ -197,7 +198,7 @@ export default function KontakPage() {
 
       <section className="mx-auto max-w-7xl px-4 pb-16 pt-8 sm:px-6 lg:px-8 lg:pb-20">
         <div className="rounded-[1.7rem] border border-[#25D366]/20 bg-[#25D366]/10 p-6 text-center shadow-[0_18px_50px_rgba(15,39,66,0.08)] sm:p-10">
-          <h2 className="mx-auto mb-5 max-w-3xl text-xl font-extrabold tracking-[-0.03em] text-slate-950 sm:text-2xl">
+          <h2 className={`mx-auto mb-5 max-w-3xl ${typography.sectionTitle} text-slate-950`}>
             Siap cek stok dan rekomendasi AC?
           </h2>
           <p className="mx-auto mb-7 max-w-2xl text-sm leading-7 text-slate-700">

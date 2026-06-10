@@ -4,6 +4,7 @@ import { useMemo, useState } from "react";
 import Link from "next/link";
 import WhatsappLink from "@/components/ui/WhatsappLink";
 import { routes } from "@/content/routes";
+import { typography } from "@/lib/typography";
 
 const DEFAULT_TARIFF = 1444.7;
 
@@ -61,7 +62,7 @@ function getRecommendation(btu) {
 function Field({ label, children }) {
   return (
     <label className="block">
-      <span className="mb-2 block text-xs font-semibold uppercase tracking-[0.12em] text-slate-500">
+      <span className={`mb-2 block ${typography.eyebrow} text-slate-500`}>
         {label}
       </span>
       {children}
@@ -76,7 +77,7 @@ function inputClassName() {
 function ResultCard({ label, value, highlight = false }) {
   return (
     <div className={`rounded-3xl border p-4 ${highlight ? "border-blue-100 bg-blue-50" : "border-slate-200 bg-white"}`}>
-      <p className="text-xs font-semibold uppercase tracking-[0.12em] text-slate-500">{label}</p>
+      <p className={`${typography.eyebrow} text-slate-500`}>{label}</p>
       <p className="mt-2 text-xl font-bold text-slate-950 sm:text-2xl">{value}</p>
     </div>
   );
@@ -116,8 +117,8 @@ export default function PkCalculator() {
       <div className="grid gap-6 lg:grid-cols-[0.9fr_1.1fr] lg:items-start">
         <section className="rounded-[1.6rem] border border-slate-200 bg-[linear-gradient(180deg,#ffffff_0%,#f8fbff_100%)] p-5 shadow-sm">
           <div className="mb-5">
-            <p className="text-xs font-semibold uppercase tracking-[0.12em] text-blue-700">Isi data ruangan</p>
-            <h2 className="mt-2 text-2xl font-extrabold text-slate-950">Ukur dulu sebelum pilih PK</h2>
+            <p className={`${typography.eyebrow} text-blue-700`}>Isi data ruangan</p>
+            <h2 className={`mt-2 ${typography.sectionTitle} text-slate-950`}>Ukur dulu sebelum pilih PK</h2>
           </div>
 
           <div className="grid grid-cols-2 gap-4">
@@ -164,8 +165,8 @@ export default function PkCalculator() {
 
         <section className="rounded-[1.6rem] border border-blue-200 bg-[linear-gradient(180deg,#ecfeff_0%,#f8fbff_100%)] p-5 shadow-[0_18px_50px_rgba(34,211,238,0.12)]">
           <div className="mb-5">
-            <p className="text-xs font-semibold uppercase tracking-[0.12em] text-blue-800">Estimasi awal</p>
-            <h2 className="mt-2 text-2xl font-extrabold text-slate-950">Cek hasil PK ke tim RADJA AC</h2>
+            <p className={`${typography.eyebrow} text-blue-800`}>Estimasi awal</p>
+            <h2 className={`mt-2 ${typography.sectionTitle} text-slate-950`}>Cek hasil PK ke tim RADJA AC</h2>
           </div>
 
           <div className="mb-5 grid grid-cols-2 gap-3 xl:grid-cols-4">
@@ -176,7 +177,7 @@ export default function PkCalculator() {
           </div>
 
           <div className="rounded-3xl border border-blue-100 bg-white p-5">
-            <h3 className="text-xl font-bold text-slate-950">
+            <h3 className={`${typography.cardTitle} text-slate-950`}>
               Estimasi: AC {result.recommendation.pk} untuk ruangan ±{formatNumber(result.area)} m²
             </h3>
             <p className="mt-3 text-sm leading-7 text-slate-600">
@@ -213,8 +214,8 @@ export default function PkCalculator() {
       </div>
 
       <section className="mt-6 rounded-[1.6rem] border border-slate-200 bg-slate-50 p-5">
-        <p className="text-xs font-semibold uppercase tracking-[0.12em] text-blue-700">Yang sering diabaikan</p>
-        <h2 className="mt-2 text-2xl font-extrabold text-slate-950">Empat hal yang bikin orang salah pilih AC</h2>
+        <p className={`${typography.eyebrow} text-blue-700`}>Yang sering diabaikan</p>
+        <h2 className={`mt-2 ${typography.sectionTitle} text-slate-950`}>Empat hal yang bikin orang salah pilih AC</h2>
         <div className="mt-5 grid gap-3 md:grid-cols-2 lg:grid-cols-4">
           {quickTips.map((tip) => (
             <div key={tip} className="rounded-2xl border border-slate-200 bg-white p-4 text-sm leading-7 text-slate-600">

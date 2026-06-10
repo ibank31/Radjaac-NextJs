@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { typography } from "@/lib/typography";
 
 /**
  * RADJA AC shared design-system primitives.
@@ -31,7 +32,7 @@ export const cardHoverClass =
 export function Eyebrow({ children, className = "" }) {
   return (
     <span
-      className={`inline-flex items-center gap-2 rounded-full border border-brand-red/20 bg-brand-red/5 px-4 py-1.5 text-[11px] font-semibold uppercase tracking-[0.12em] text-brand-red ${className}`}
+      className={`inline-flex items-center gap-2 rounded-full border border-brand-red/20 bg-brand-red/5 px-4 py-1.5 ${typography.eyebrow} text-brand-red ${className}`}
     >
       <span className="h-1.5 w-1.5 rounded-full bg-brand-red" aria-hidden="true" />
       {children}
@@ -55,7 +56,7 @@ export function SectionHeader({
     <div className={`flex max-w-3xl flex-col gap-4 ${alignment} ${className}`}>
       {eyebrow ? <Eyebrow>{eyebrow}</Eyebrow> : null}
       {title ? (
-        <h2 className="text-balance text-xl font-extrabold tracking-tight text-navy sm:text-2xl lg:text-[1.75rem]">
+        <h2 className={`text-balance ${typography.sectionTitle} text-navy`}>
           {title}
         </h2>
       ) : null}

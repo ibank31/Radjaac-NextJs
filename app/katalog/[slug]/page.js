@@ -6,6 +6,7 @@ import { breadcrumbSchema, serviceSchema } from "@/lib/schema";
 import { catalogItems, getCatalogItem } from "@/content/catalog";
 import WhatsappLink from "@/components/ui/WhatsappLink";
 import JsonLd from "@/components/seo/JsonLd";
+import { typography } from "@/lib/typography";
 
 export const dynamicParams = false;
 
@@ -59,10 +60,10 @@ export async function generateMetadata({ params }) {
 function SectionTitle({ eyebrow, title, description }) {
   return (
     <div className="mx-auto mb-8 max-w-3xl text-center">
-      <p className="mb-3 text-xs font-semibold uppercase tracking-[0.12em] text-blue-700">
+      <p className={`mb-3 ${typography.eyebrow} text-blue-700`}>
         {eyebrow}
       </p>
-      <h2 className="mb-4 text-xl font-extrabold tracking-[-0.025em] text-slate-950 sm:text-2xl lg:text-[1.75rem]">
+      <h2 className={`mb-4 ${typography.sectionTitle} text-slate-950`}>
         {title}
       </h2>
       {description ? (
@@ -110,11 +111,11 @@ export default async function CatalogDetailPage({ params }) {
 
           <div className="grid gap-10 lg:grid-cols-[1fr_0.88fr] lg:items-start lg:gap-16">
             <div>
-              <p className="mb-5 inline-flex rounded-full border border-blue-100 bg-white/80 px-4 py-2 text-xs font-semibold uppercase tracking-[0.12em] text-blue-800 shadow-sm backdrop-blur">
+              <p className={`mb-5 inline-flex rounded-full border border-blue-100 bg-white/80 px-4 py-2 ${typography.eyebrow} text-blue-800 shadow-sm backdrop-blur`}>
                 {item.eyebrow}
               </p>
 
-              <h1 className="mb-5 max-w-4xl text-3xl font-extrabold leading-tight tracking-[-0.035em] text-slate-950 md:text-[2.4rem]">
+              <h1 className={`mb-5 max-w-4xl ${typography.pageTitle} text-slate-950`}>
                 {item.h1}
               </h1>
 
@@ -144,10 +145,10 @@ export default async function CatalogDetailPage({ params }) {
             </div>
 
             <aside className="rounded-[1.7rem] border border-slate-200 bg-white p-5 shadow-[0_22px_60px_rgba(15,39,66,0.10)] sm:p-6">
-              <p className="mb-3 text-xs font-semibold uppercase tracking-[0.12em] text-blue-700">
+              <p className={`mb-3 ${typography.eyebrow} text-blue-700`}>
                 Sebelum pilih unit
               </p>
-              <h2 className="text-2xl font-extrabold tracking-[-0.03em] text-slate-950">
+              <h2 className={`${typography.sectionTitle} text-slate-950`}>
                 Data singkat yang membantu tim RADJA AC.
               </h2>
 
@@ -167,10 +168,10 @@ export default async function CatalogDetailPage({ params }) {
       <section className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8 lg:py-12">
         <div className="grid gap-6 lg:grid-cols-2">
           <section className="rounded-[1.7rem] border border-slate-200 bg-white p-6 shadow-sm sm:p-8">
-            <p className="mb-3 text-xs font-semibold uppercase tracking-[0.12em] text-blue-700">
+            <p className={`mb-3 ${typography.eyebrow} text-blue-700`}>
               Cocok untuk
             </p>
-            <h2 className="mb-5 text-2xl font-extrabold tracking-[-0.03em] text-slate-950">
+            <h2 className={`mb-5 ${typography.sectionTitle} text-slate-950`}>
               Kebutuhan yang paling dekat
             </h2>
             <ul className="space-y-3">
@@ -183,10 +184,10 @@ export default async function CatalogDetailPage({ params }) {
           </section>
 
           <section className="rounded-[1.7rem] border border-slate-200 bg-white p-6 shadow-sm sm:p-8">
-            <p className="mb-3 text-xs font-semibold uppercase tracking-[0.12em] text-blue-700">
+            <p className={`mb-3 ${typography.eyebrow} text-blue-700`}>
               Yang perlu dicek
             </p>
-            <h2 className="mb-5 text-2xl font-extrabold tracking-[-0.03em] text-slate-950">
+            <h2 className={`mb-5 ${typography.sectionTitle} text-slate-950`}>
               Jangan hanya lihat harga unit
             </h2>
             <ul className="space-y-3">
@@ -233,8 +234,8 @@ export default async function CatalogDetailPage({ params }) {
             <div className="grid gap-4 lg:grid-cols-4">
               {item.pricingBands.map((band) => (
                 <article key={band.label} className="rounded-[1.45rem] border border-slate-200 bg-[#f8fbff] p-5">
-                  <p className="text-xs font-semibold uppercase tracking-[0.12em] text-blue-700">{band.label}</p>
-                  <h3 className="mt-3 text-xl font-bold text-slate-950">{band.title}</h3>
+                  <p className={`${typography.eyebrow} text-blue-700`}>{band.label}</p>
+                  <h3 className={`mt-3 ${typography.cardTitle} text-slate-950`}>{band.title}</h3>
                   <p className="mt-3 text-sm leading-6 text-slate-600">{band.value}</p>
                   <div className="mt-5 flex flex-wrap gap-2">
                     {band.brands.map((brand) => (
@@ -249,7 +250,7 @@ export default async function CatalogDetailPage({ params }) {
 
             <div className="mt-6 grid gap-4 lg:grid-cols-[0.9fr_1.1fr]">
               <div className="rounded-[1.45rem] border border-slate-200 bg-[#f8fbff] p-5">
-                <h3 className="text-xl font-bold text-slate-950">Paket standar dapat mencakup</h3>
+                <h3 className={`${typography.cardTitle} text-slate-950`}>Paket standar dapat mencakup</h3>
                 <div className="mt-4 grid gap-2 sm:grid-cols-2">
                   {item.standardPackage.map((point) => (
                     <div key={point} className="rounded-2xl border border-slate-200 bg-white px-4 py-3 text-sm font-semibold text-slate-700">
@@ -260,7 +261,7 @@ export default async function CatalogDetailPage({ params }) {
               </div>
 
               <div className="rounded-[1.45rem] border border-blue-200 bg-blue-50 p-5">
-                <h3 className="text-xl font-bold text-slate-950">Tim RADJA AC cek rincian harga</h3>
+                <h3 className={`${typography.cardTitle} text-slate-950`}>Tim RADJA AC cek rincian harga</h3>
                 <p className="mt-3 text-sm leading-7 text-slate-700">{item.pricingNote}</p>
                 <WhatsappLink
                   className="mt-5 inline-flex rounded-full bg-[#25D366] px-5 py-3 text-sm font-bold text-slate-950 shadow-[0_14px_34px_rgba(37,211,102,0.18)] transition hover:-translate-y-0.5 hover:bg-[#20BA5A]"
@@ -280,10 +281,10 @@ export default async function CatalogDetailPage({ params }) {
       <section className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8 lg:py-14">
         <div className="grid gap-7 lg:grid-cols-[0.9fr_1.1fr] lg:items-start">
           <div>
-            <p className="mb-3 text-xs font-semibold uppercase tracking-[0.12em] text-blue-700">
+            <p className={`mb-3 ${typography.eyebrow} text-blue-700`}>
               Panduan PK
             </p>
-            <h2 className="mb-4 text-xl font-extrabold tracking-[-0.025em] text-slate-950 sm:text-2xl lg:text-[1.75rem]">
+            <h2 className={`mb-4 ${typography.sectionTitle} text-slate-950`}>
               Cek kapasitas sebelum pilih kategori
             </h2>
             <p className="text-sm leading-7 text-slate-600 sm:text-base">
@@ -307,10 +308,10 @@ export default async function CatalogDetailPage({ params }) {
 
       <section className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8 lg:py-14">
         <div className="rounded-[1.7rem] border border-slate-200 bg-white p-6 text-center shadow-[0_18px_50px_rgba(15,39,66,0.08)] sm:p-8 lg:p-10">
-          <p className="mb-3 text-xs font-semibold uppercase tracking-[0.12em] text-blue-700">
+          <p className={`mb-3 ${typography.eyebrow} text-blue-700`}>
             Brand & kategori lain
           </p>
-          <h2 className="mx-auto mb-5 max-w-3xl text-xl font-extrabold tracking-[-0.025em] text-slate-950 sm:text-2xl">
+          <h2 className={`mx-auto mb-5 max-w-3xl ${typography.sectionTitle} text-slate-950`}>
             Bandingkan dengan kategori dan brand lain sebelum pembelian
           </h2>
 
@@ -334,7 +335,7 @@ export default async function CatalogDetailPage({ params }) {
 
       <section className="mx-auto max-w-7xl px-4 pb-16 pt-8 sm:px-6 lg:px-8 lg:pb-20">
         <div className="rounded-[1.7rem] border border-[#25D366]/20 bg-[#25D366]/10 p-6 text-center shadow-[0_18px_50px_rgba(15,39,66,0.08)] sm:p-10 lg:p-14">
-          <h2 className="mx-auto mb-5 max-w-3xl text-xl font-extrabold tracking-[-0.025em] text-slate-950 sm:text-2xl">
+          <h2 className={`mx-auto mb-5 max-w-3xl ${typography.sectionTitle} text-slate-950`}>
             Cocokkan kategori dengan data ruangan
           </h2>
           <p className="mx-auto mb-6 max-w-2xl leading-7 text-slate-700">

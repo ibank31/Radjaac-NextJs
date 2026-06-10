@@ -2,6 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { routes } from "@/content/routes";
 import WhatsappLink from "@/components/ui/WhatsappLink";
+import { typography } from "@/lib/typography";
 
 const categoryItems = [
   {
@@ -182,7 +183,7 @@ const certificates = [
 
 function SectionBadge({ children }) {
   return (
-    <p className="inline-flex items-center gap-2 rounded-full border border-brand-red/20 bg-brand-red/5 px-4 py-1.5 text-[11px] font-semibold uppercase tracking-[0.12em] text-brand-red">
+    <p className={`inline-flex items-center gap-2 rounded-full border border-brand-red/20 bg-brand-red/5 px-4 py-1.5 ${typography.eyebrow} text-brand-red`}>
       <span className="h-1.5 w-1.5 rounded-full bg-brand-red" aria-hidden="true" />
       {children}
     </p>
@@ -217,12 +218,12 @@ function HomeHero() {
 
       <div className="relative mx-auto grid max-w-7xl gap-8 lg:grid-cols-[0.95fr_1.05fr] lg:items-center">
         <div>
-          <div className="mb-5 inline-flex max-w-full items-center gap-2 rounded-full border border-blue-100 bg-white/80 px-3.5 py-2 text-[11px] font-semibold uppercase tracking-[0.12em] text-blue-800 shadow-sm backdrop-blur">
+          <div className={`mb-5 inline-flex max-w-full items-center gap-2 rounded-full border border-blue-100 bg-white/80 px-3.5 py-2 ${typography.eyebrow} text-blue-800 shadow-sm backdrop-blur`}>
             <span className="h-2 w-2 shrink-0 rounded-full bg-blue-500" />
             <span className="leading-5">Showroom & gudang fisik · Pamijen, Sokaraja</span>
           </div>
 
-          <h1 className="max-w-3xl text-2xl font-extrabold leading-tight tracking-[-0.015em] text-navy sm:text-[2.15rem] lg:text-[2.65rem]">
+          <h1 className={`max-w-3xl ${typography.heroTitle} text-navy`}>
             Jual AC original multi-brand untuk rumah, usaha, dan proyek. Cek PK, stok, dan biaya pasang sebelum beli.
           </h1>
 
@@ -290,7 +291,7 @@ function HomeTrust() {
     <section className="mx-auto max-w-7xl px-4 py-10">
       <div className="mx-auto mb-8 max-w-3xl text-center">
         <SectionBadge tone="amber">Bukti Operasional</SectionBadge>
-        <h2 className="mt-4 text-xl font-extrabold tracking-tight text-blue-950 sm:text-2xl">
+        <h2 className={`mt-4 ${typography.sectionTitle} text-blue-950`}>
           Showroom ada, stok fisik ada, sertifikat resmi ada, dokumentasi pekerjaan ada.
         </h2>
       </div>
@@ -301,10 +302,10 @@ function HomeTrust() {
             <div className="mb-5 flex h-14 w-14 items-center justify-center rounded-2xl border border-blue-200 bg-white text-2xl text-blue-700 shadow-sm">
               ✓
             </div>
-            <p className="mb-2 text-xs font-semibold uppercase tracking-[0.12em] text-blue-800">
+            <p className={`mb-2 ${typography.eyebrow} text-blue-800`}>
               PROSHOP GREE
             </p>
-            <h3 className="text-xl font-extrabold tracking-tight text-blue-950 sm:text-2xl">
+            <h3 className={`${typography.cardTitle} text-blue-950`}>
               <BrandName /> terdaftar resmi sebagai Proshop Gree Purwokerto
             </h3>
           </div>
@@ -331,10 +332,10 @@ function HomeTrust() {
               ✓
             </div>
 
-            <p className="mb-3 text-xs font-semibold uppercase tracking-[0.12em] text-[#1565C0]">
+            <p className={`mb-3 ${typography.eyebrow} text-[#1565C0]`}>
               Sertifikat Resmi
             </p>
-            <h3 className="mb-3 text-xl font-extrabold tracking-tight text-blue-950 sm:text-2xl">
+            <h3 className={`mb-3 ${typography.cardTitle} text-blue-950`}>
               Beli AC harus jelas asal-usulnya, garansinya, dan dokumennya
             </h3>
             <p className="max-w-xl text-sm leading-7 text-slate-600 sm:text-base">
@@ -382,7 +383,7 @@ function HomePriceEstimate() {
         <div className="mb-7 grid gap-5 lg:grid-cols-[0.9fr_1.1fr] lg:items-end">
           <div>
             <SectionBadge>Estimasi Budget</SectionBadge>
-            <h2 className="mt-4 text-xl font-extrabold tracking-tight text-blue-950 sm:text-2xl">
+            <h2 className={`mt-4 ${typography.sectionTitle} text-blue-950`}>
               Kisaran harga AC + pasang di Banyumas
             </h2>
           </div>
@@ -400,7 +401,7 @@ function HomePriceEstimate() {
               <div className="mx-auto mb-4 flex h-11 w-11 items-center justify-center rounded-2xl border border-blue-100 bg-blue-50 font-bold text-blue-700">
                 ✓
               </div>
-              <h3 className="mb-3 text-xl font-extrabold leading-tight text-blue-950 sm:text-[1.35rem]">{item.range}</h3>
+              <h3 className={`mb-3 ${typography.cardTitle} text-blue-950`}>{item.range}</h3>
               <p className="rounded-2xl border border-blue-100 bg-white px-4 py-4 text-sm font-semibold leading-7 text-slate-700">
                 {item.brands}
               </p>
@@ -409,7 +410,7 @@ function HomePriceEstimate() {
         </div>
 
         <div className="mt-6 rounded-[1.5rem] border border-blue-100 bg-blue-50 p-5">
-          <p className="mb-4 text-xs font-semibold uppercase tracking-[0.12em] text-slate-500">
+          <p className={`mb-4 ${typography.eyebrow} text-slate-500`}>
             Paket standar sudah termasuk:
           </p>
           <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
@@ -448,10 +449,10 @@ function HomePaymentTrust() {
       <div className="rounded-[1.75rem] border border-slate-200 bg-white p-5 shadow-sm">
         <div className="grid gap-4 md:grid-cols-3 md:items-center">
           <div>
-            <p className="text-xs font-semibold uppercase tracking-[0.12em] text-blue-700">
+            <p className={`${typography.eyebrow} text-blue-700`}>
               Beli AC di Radja AC — Alurnya Simpel
             </p>
-            <h2 className="mt-2 text-xl font-extrabold text-blue-950">
+            <h2 className={`mt-2 ${typography.sectionTitle} text-blue-950`}>
               Kirim data ruangan. PK dihitung, stok dicek, biaya pasang dijelaskan. Baru beli.
             </h2>
           </div>
@@ -476,7 +477,7 @@ function HomeSalesLanding() {
         <div className="grid gap-8 lg:grid-cols-[0.9fr_1.1fr] lg:items-center">
           <div>
             <SectionBadge>Jangan Salah Beli AC</SectionBadge>
-            <h2 className="mt-4 text-xl font-extrabold tracking-tight text-blue-950 sm:text-2xl lg:text-[1.85rem]">
+            <h2 className={`mt-4 ${typography.sectionTitle} text-blue-950`}>
               Murah di awal bisa mahal di belakang kalau salah pilih
             </h2>
             <p className="mt-5 max-w-2xl text-sm leading-7 text-slate-600 sm:text-base">
@@ -512,7 +513,7 @@ function HomeSalesLanding() {
                 <div className="mb-3 flex h-10 w-10 items-center justify-center rounded-2xl bg-blue-50 text-sm font-bold text-blue-800">
                   {item.icon}
                 </div>
-                <h3 className="mb-2 font-bold text-blue-950">{item.title}</h3>
+                <h3 className={`mb-2 ${typography.cardTitle} text-blue-950`}>{item.title}</h3>
                 <p className="text-sm leading-6 text-slate-600">{item.description}</p>
               </div>
             ))}
@@ -528,7 +529,7 @@ function HomeCategory() {
     <section className="mx-auto max-w-7xl px-4 py-10">
       <div className="mb-6">
         <SectionBadge>Kategori AC</SectionBadge>
-        <h2 className="mt-4 text-xl font-extrabold tracking-tight text-blue-950 sm:text-2xl">
+        <h2 className={`mt-4 ${typography.sectionTitle} text-blue-950`}>
           AC buat apa? Kamar, toko, kantor, atau banyak unit punya hitungan beda
         </h2>
         <p className="mt-3 max-w-2xl text-sm leading-7 text-slate-600 sm:text-base">
@@ -546,7 +547,7 @@ function HomeCategory() {
             <div className="mx-auto mb-4 flex h-12 w-12 items-center justify-center rounded-2xl border border-blue-100 bg-blue-50 text-xl font-bold text-blue-800 sm:h-14 sm:w-14">
               {item.icon}
             </div>
-            <h3 className="mb-2 text-base font-bold text-blue-950 sm:text-lg">{item.title}</h3>
+            <h3 className={`mb-2 ${typography.cardTitle} text-blue-950`}>{item.title}</h3>
             <p className="text-xs leading-6 text-slate-600 sm:text-sm">{item.desc}</p>
             <div className="mt-4 text-blue-700" aria-hidden="true">
               →
@@ -564,7 +565,7 @@ function HomeBrands() {
       <div className="mb-6 flex items-end justify-between gap-4">
         <div>
           <SectionBadge>Brand AC</SectionBadge>
-          <h2 className="mt-4 text-xl font-extrabold tracking-tight text-blue-950 sm:text-2xl">
+          <h2 className={`mt-4 ${typography.sectionTitle} text-blue-950`}>
             Beli AC merek apa? Cek stok, budget, dan kecocokan ruangan dulu
           </h2>
         </div>
@@ -615,10 +616,10 @@ function HomeBrands() {
       <div className="rounded-[1.75rem] border border-slate-200 bg-white p-5 shadow-sm sm:p-6">
         <div className="mb-5 flex flex-col gap-2 sm:flex-row sm:items-end sm:justify-between">
           <div>
-            <p className="mb-2 text-xs font-semibold uppercase tracking-[0.12em] text-blue-700">
+            <p className={`mb-2 ${typography.eyebrow} text-blue-700`}>
               Brand Lainnya
             </p>
-            <h3 className="text-xl font-bold text-blue-950">
+            <h3 className={`${typography.cardTitle} text-blue-950`}>
               Cari merek yang tidak ada di atas? Tanya langsung
             </h3>
           </div>
@@ -651,7 +652,7 @@ function HomeWhyChoose() {
     <section className="mx-auto max-w-7xl px-4 py-12">
       <div className="mx-auto mb-10 max-w-3xl text-center">
         <SectionBadge>Cara Kerja Radja AC</SectionBadge>
-        <h2 className="mt-4 text-xl font-extrabold tracking-tight text-blue-950 sm:text-2xl">
+        <h2 className={`mt-4 ${typography.sectionTitle} text-blue-950`}>
           Stok dikunci, PK dihitung, biaya pasang dijelaskan — sebelum uang keluar
         </h2>
         <p className="mx-auto mt-4 max-w-2xl text-sm leading-7 text-slate-600">
@@ -668,7 +669,7 @@ function HomeWhyChoose() {
             <div className="mx-auto mb-5 flex h-14 w-14 items-center justify-center rounded-2xl border border-blue-100 bg-blue-50 text-xl font-bold text-blue-800 sm:h-16 sm:w-16">
               {item.icon}
             </div>
-            <h3 className="mb-3 text-base font-bold leading-snug text-blue-950 sm:text-lg">{item.title}</h3>
+            <h3 className={`mb-3 ${typography.cardTitle} text-blue-950`}>{item.title}</h3>
             <p className="text-xs leading-6 text-slate-600 sm:text-sm sm:leading-7">{item.desc}</p>
           </div>
         ))}
@@ -691,11 +692,11 @@ function HomeClosingCta() {
         <div className="pointer-events-none absolute -right-16 -top-16 h-64 w-64 rounded-full bg-brand-blue/20 blur-3xl" />
         <div className="relative grid gap-8 lg:grid-cols-[1.05fr_0.95fr] lg:items-center">
           <div>
-            <span className="inline-flex items-center gap-2 rounded-full border border-white/20 bg-white/10 px-4 py-1.5 text-[11px] font-semibold uppercase tracking-[0.12em] text-white">
+            <span className={`inline-flex items-center gap-2 rounded-full border border-white/20 bg-white/10 px-4 py-1.5 ${typography.eyebrow} text-white`}>
               <span className="h-1.5 w-1.5 rounded-full bg-brand-red" aria-hidden="true" />
               Siap Beli AC?
             </span>
-            <h2 className="mt-4 max-w-2xl text-balance text-[1.65rem] font-extrabold leading-tight tracking-[-0.02em] text-white sm:text-[2rem]">
+            <h2 className={`mt-4 max-w-2xl text-balance ${typography.sectionTitle} text-white`}>
               Kirim data ruangan. <BrandName /> hitung PK dan jelaskan biaya totalnya.
             </h2>
             <p className="mt-4 max-w-2xl text-sm leading-7 text-white/80 sm:text-base">

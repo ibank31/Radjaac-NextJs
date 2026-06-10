@@ -4,6 +4,7 @@ import { buildMetadata } from "@/lib/seo";
 import { staticPageMetadata } from "@/content/static-pages";
 import { warrantyHighlights } from "@/content/policies";
 import WhatsappLink from "@/components/ui/WhatsappLink";
+import { typography } from "@/lib/typography";
 
 export const metadata = buildMetadata(staticPageMetadata.pengirimanPemasangan);
 
@@ -46,10 +47,10 @@ export default function PengirimanPemasanganPage() {
     <main className="min-h-screen overflow-hidden bg-[#f7fbff] text-slate-950">
       <section className="relative overflow-hidden border-b border-blue-100 bg-[linear-gradient(180deg,#f8fdff_0%,#eefbff_100%)] px-4 py-12 lg:py-20">
         <div className="pointer-events-none absolute inset-0 -z-10 bg-[radial-gradient(circle_at_top_left,rgba(34,211,238,0.18),transparent_32%),radial-gradient(circle_at_bottom_right,rgba(37,211,102,0.12),transparent_28%)]" />
-        <p className="text-xs font-semibold uppercase tracking-[0.12em] text-blue-700">
+        <p className={`${typography.eyebrow} text-blue-700`}>
           Pengiriman & Pemasangan
         </p>
-        <h1 className="mt-4 max-w-4xl text-2xl font-extrabold tracking-tight text-slate-950 md:text-4xl">
+        <h1 className={`mt-4 max-w-4xl ${typography.pageTitle} text-slate-950`}>
           Pengiriman unit, kebutuhan pemasangan, dan garansi pemasangan AC
         </h1>
         <p className="mt-6 max-w-3xl text-sm leading-7 text-slate-600 sm:text-base">
@@ -75,7 +76,7 @@ export default function PengirimanPemasanganPage() {
 
         <div className="mt-12 grid gap-6 lg:grid-cols-2">
           <section className="rounded-[1.45rem] border border-slate-200 bg-white p-6">
-            <h2 className="text-xl font-extrabold text-slate-950">Alur koordinasi</h2>
+            <h2 className={`${typography.sectionTitle} text-slate-950`}>Alur koordinasi</h2>
             <ul className="mt-5 space-y-3 text-sm leading-6 text-slate-600">
               {processSteps.map((step) => (
                 <li key={step} className="rounded-2xl border border-slate-200 bg-[#f7fbff]/45 p-4">
@@ -86,7 +87,7 @@ export default function PengirimanPemasanganPage() {
           </section>
 
           <section className="rounded-[1.45rem] border border-slate-200 bg-white p-6">
-            <h2 className="text-xl font-extrabold text-slate-950">Catatan penting</h2>
+            <h2 className={`${typography.sectionTitle} text-slate-950`}>Catatan penting</h2>
             <ul className="mt-5 space-y-3 text-sm leading-6 text-slate-600">
               {notes.map((note) => (
                 <li key={note} className="rounded-2xl border border-slate-200 bg-[#f7fbff]/45 p-4">
@@ -99,7 +100,7 @@ export default function PengirimanPemasanganPage() {
 
         <section className="mt-8 grid gap-6 lg:grid-cols-2">
           <div className="rounded-[1.45rem] border border-slate-200 bg-white p-6">
-            <h2 className="text-xl font-extrabold text-slate-950">Yang dicek sebelum pemasangan</h2>
+            <h2 className={`${typography.sectionTitle} text-slate-950`}>Yang dicek sebelum pemasangan</h2>
             <ul className="mt-5 space-y-3 text-sm leading-6 text-slate-600">
               {siteChecks.map((item) => (
                 <li key={item} className="rounded-2xl border border-slate-200 bg-[#f7fbff]/45 p-4">
@@ -110,7 +111,7 @@ export default function PengirimanPemasanganPage() {
           </div>
 
           <div className="rounded-[1.45rem] border border-slate-200 bg-white p-6">
-            <h2 className="text-xl font-extrabold text-slate-950">Foto yang dikirim sebelum cek pemasangan</h2>
+            <h2 className={`${typography.sectionTitle} text-slate-950`}>Foto yang dikirim sebelum cek pemasangan</h2>
             <ul className="mt-5 space-y-3 text-sm leading-6 text-slate-600">
               {photoBriefs.map((item) => (
                 <li key={item} className="rounded-2xl border border-slate-200 bg-[#f7fbff]/45 p-4">
@@ -122,7 +123,7 @@ export default function PengirimanPemasanganPage() {
         </section>
 
         <section className="mt-8 rounded-[1.45rem] border border-blue-100 bg-blue-50 p-6">
-          <h2 className="text-xl font-extrabold text-slate-950">Bukan sekadar kirim unit</h2>
+          <h2 className={`${typography.sectionTitle} text-slate-950`}>Bukan sekadar kirim unit</h2>
           <p className="mt-4 max-w-3xl text-sm leading-7 text-slate-700">
             Untuk pembelian AC, pengiriman dan pemasangan perlu dibaca dari kondisi lokasi.
             Tim RADJA AC membantu membaca kebutuhan awal agar pembeli memahami estimasi pengiriman, posisi pemasangan,
@@ -142,7 +143,7 @@ export default function PengirimanPemasanganPage() {
         </section>
 
         <section className="mt-8 rounded-[1.45rem] border border-slate-200 bg-white p-6">
-          <h2 className="text-xl font-extrabold text-slate-950">Garansi & bantuan klaim</h2>
+          <h2 className={`${typography.sectionTitle} text-slate-950`}>Garansi & bantuan klaim</h2>
           <ul className="mt-5 grid gap-3 text-sm leading-6 text-slate-600 md:grid-cols-3">
             {warrantyHighlights.map((point) => (
               <li key={point} className="rounded-2xl border border-slate-200 bg-[#f7fbff]/45 p-4">
@@ -153,7 +154,7 @@ export default function PengirimanPemasanganPage() {
         </section>
 
         <section className="mt-12 rounded-[1.45rem] border border-[#25D366]/20 bg-[#25D366]/10 p-6 text-slate-950">
-          <h2 className="text-2xl font-extrabold">Butuh cek pengiriman atau pemasangan?</h2>
+          <h2 className={`${typography.sectionTitle}`}>Butuh cek pengiriman atau pemasangan?</h2>
           <p className="mt-4 max-w-3xl text-sm leading-6 text-slate-600">
             Kirim kota, alamat area, jumlah unit, tipe ruangan, dan kebutuhan unit saja atau sekalian opsi pemasangan.
             Tim RADJA AC cek alamat, akses lokasi, jadwal kirim, dan kebutuhan pemasangan.

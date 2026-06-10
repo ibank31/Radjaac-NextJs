@@ -3,6 +3,7 @@ import { routes } from "@/content/routes";
 import { buildMetadata } from "@/lib/seo";
 import { staticPageMetadata } from "@/content/static-pages";
 import WhatsappLink from "@/components/ui/WhatsappLink";
+import { typography } from "@/lib/typography";
 
 export const metadata = buildMetadata(staticPageMetadata.katalog);
 
@@ -62,8 +63,8 @@ const brandLinks = [
 function SectionTitle({ eyebrow, title, description }) {
   return (
     <div className="mx-auto mb-8 max-w-3xl text-center">
-      <p className="mb-3 text-xs font-semibold uppercase tracking-[0.12em] text-blue-700">{eyebrow}</p>
-      <h2 className="mb-4 text-xl font-extrabold tracking-[-0.015em] text-slate-950 sm:text-2xl">{title}</h2>
+      <p className={`mb-3 ${typography.eyebrow} text-blue-700`}>{eyebrow}</p>
+      <h2 className={`mb-4 ${typography.sectionTitle} text-slate-950`}>{title}</h2>
       {description ? <p className="mx-auto max-w-2xl text-sm leading-7 text-slate-600 sm:text-base">{description}</p> : null}
     </div>
   );
@@ -77,11 +78,11 @@ export default function KatalogPage() {
 
         <div className="relative mx-auto grid max-w-7xl items-center gap-9 lg:grid-cols-2 lg:gap-16">
           <div>
-            <p className="mb-5 inline-flex rounded-full border border-blue-100 bg-white/80 px-4 py-2 text-xs font-semibold uppercase tracking-[0.12em] text-blue-800 shadow-sm backdrop-blur">
+            <p className={`mb-5 inline-flex rounded-full border border-blue-100 bg-white/80 px-4 py-2 ${typography.eyebrow} text-blue-800 shadow-sm backdrop-blur`}>
               Katalog AC RADJA AC
             </p>
 
-            <h1 className="mb-5 max-w-2xl text-[1.65rem] font-extrabold leading-tight tracking-[-0.025em] text-slate-950 sm:text-[2rem] md:text-[2.25rem] xl:text-[2.6rem]">
+            <h1 className={`mb-5 max-w-2xl ${typography.pageTitle} text-slate-950`}>
               Katalog AC original untuk rumah, usaha, dan banyak unit.
               <span className="block text-blue-700">Mulai dari kebutuhan ruangannya dulu.</span>
             </h1>
@@ -110,7 +111,7 @@ export default function KatalogPage() {
 
           <div className="mx-auto w-full max-w-[430px] rounded-[1.7rem] border border-slate-200 bg-white p-4 shadow-[0_22px_60px_rgba(15,39,66,0.10)] lg:mr-0">
             <div className="rounded-[1.35rem] border border-slate-200 bg-[#f8fbff] p-4">
-              <p className="mb-4 text-xs font-semibold uppercase tracking-[0.12em] text-blue-700">Mulai dari kebutuhan ruangan</p>
+              <p className={`mb-4 ${typography.eyebrow} text-blue-700`}>Mulai dari kebutuhan ruangan</p>
               <div className="space-y-3">
                 {heroCards.map(([title, note], index) => (
                   <div key={title} className="flex items-center gap-3 rounded-2xl border border-slate-200 bg-white p-4 shadow-sm">
@@ -118,7 +119,7 @@ export default function KatalogPage() {
                       {index + 1}
                     </span>
                     <div>
-                      <h3 className="text-sm font-bold text-slate-950">{title}</h3>
+                      <h3 className={`${typography.cardTitle} text-slate-950`}>{title}</h3>
                       <p className="mt-0.5 text-xs leading-5 text-slate-500">{note}</p>
                     </div>
                   </div>
@@ -147,7 +148,7 @@ export default function KatalogPage() {
           </div>
 
           <div className="mt-5 rounded-[1.35rem] border border-blue-100 bg-blue-50 p-4">
-            <p className="mb-3 text-center text-xs font-semibold uppercase tracking-[0.12em] text-blue-800">Paket standar termasuk</p>
+            <p className={`mb-3 text-center ${typography.eyebrow} text-blue-800`}>Paket standar termasuk</p>
             <div className="grid gap-2 sm:grid-cols-2 lg:grid-cols-4">
               {packageIncludes.map((item) => (
                 <div key={item} className="flex items-center gap-2 text-sm font-semibold text-slate-700">
@@ -173,9 +174,9 @@ export default function KatalogPage() {
               <div className="mx-auto mb-4 flex h-12 w-12 items-center justify-center rounded-2xl border border-blue-100 bg-blue-50 text-lg font-bold text-blue-800">
                 {index + 1}
               </div>
-              <h3 className="mb-3 text-lg font-bold text-slate-950">{label}</h3>
+              <h3 className={`mb-3 ${typography.cardTitle} text-slate-950`}>{label}</h3>
               <p className="text-sm leading-6 text-slate-600">{text}</p>
-              <div className="mt-4 text-xs font-semibold uppercase tracking-[0.12em] text-blue-700">Cek Pilihan</div>
+              <div className={`mt-4 ${typography.eyebrow} text-blue-700`}>Cek Pilihan</div>
             </Link>
           ))}
         </div>
@@ -184,8 +185,8 @@ export default function KatalogPage() {
       <section id="panduan-pk" className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8 lg:py-14">
         <div className="grid gap-7 lg:grid-cols-[0.9fr_1.1fr] lg:items-start">
           <div>
-            <p className="mb-3 text-xs font-semibold uppercase tracking-[0.12em] text-blue-700">Panduan PK</p>
-            <h2 className="mb-4 text-xl font-extrabold tracking-[-0.015em] text-slate-950 sm:text-2xl">Kira-kira ruangan ini butuh berapa PK?</h2>
+            <p className={`mb-3 ${typography.eyebrow} text-blue-700`}>Panduan PK</p>
+            <h2 className={`mb-4 ${typography.sectionTitle} text-slate-950`}>Kira-kira ruangan ini butuh berapa PK?</h2>
             <p className="text-sm leading-7 text-slate-600 sm:text-base">
               Tabel ini hanya patokan awal. Ruangan lantai atas, kena matahari langsung, dinding tipis, atau banyak orang di dalamnya bisa butuh kapasitas lebih dari perkiraan luas ruang saja.
             </p>
@@ -207,7 +208,7 @@ export default function KatalogPage() {
 
       <section className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8 lg:py-14">
         <div className="rounded-[1.7rem] border border-slate-200 bg-white p-6 text-center shadow-[0_18px_50px_rgba(15,39,66,0.08)] sm:p-8 lg:p-10">
-          <h2 className="mx-auto mb-5 max-w-3xl text-xl font-extrabold tracking-[-0.025em] text-slate-950 sm:text-2xl">Brand AC original disesuaikan dengan kebutuhan, anggaran, dan stok aktif</h2>
+          <h2 className={`mx-auto mb-5 max-w-3xl ${typography.sectionTitle} text-slate-950`}>Brand AC original disesuaikan dengan kebutuhan, anggaran, dan stok aktif</h2>
           <p className="mx-auto mb-4 max-w-2xl text-sm leading-7 text-slate-600 sm:text-base">
             Pilihan brand dibaca dari ukuran ruangan, daya listrik, anggaran, stok aktif, dan ketentuan garansi unit dari masing-masing brand.
           </p>
@@ -223,7 +224,7 @@ export default function KatalogPage() {
 
       <section className="mx-auto max-w-7xl px-4 pb-16 pt-8 sm:px-6 lg:px-8 lg:pb-20 lg:pt-14">
         <div className="rounded-[1.7rem] border border-[#25D366]/20 bg-[#25D366]/10 p-6 text-center shadow-[0_18px_50px_rgba(15,39,66,0.08)] sm:p-10 lg:p-14">
-          <h2 className="mx-auto mb-5 max-w-3xl text-xl font-extrabold tracking-[-0.015em] text-slate-950 sm:text-2xl">Mulai dari data ruangan</h2>
+          <h2 className={`mx-auto mb-5 max-w-3xl ${typography.sectionTitle} text-slate-950`}>Mulai dari data ruangan</h2>
           <p className="mx-auto mb-6 max-w-2xl leading-7 text-slate-700">
             Kirim ukuran ruangan, daya listrik, lokasi pengiriman, dan perkiraan anggaran. Tim RADJA AC cocokkan kategori, brand, dan tipe AC yang tersedia.
           </p>
