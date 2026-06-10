@@ -1221,6 +1221,7 @@ export const areaItems = [
       "Cek PK dari ukuran kamar",
     ],
     nearbyAreaLinks: [
+      ["Jual AC Magelang", routes.jualAcMagelang],
       ["Jual AC Semarang", routes.jualAcSemarang],
       ["Jual AC Solo", routes.jualAcSolo],
       ["Jual AC Kebumen", routes.jualAcKebumen],
@@ -1325,6 +1326,9 @@ export const areaItems = [
       ["Jual AC Tegal", routes.jualAcTegal],
       ["Jual AC Kebumen", routes.jualAcKebumen],
       ["Jual AC Banjarnegara", routes.jualAcBanjarnegara],
+      ["Jual AC Magelang", routes.jualAcMagelang],
+      ["Jual AC Pekalongan", routes.jualAcPekalongan],
+      ["Jual AC Salatiga", routes.jualAcSalatiga],
     ],
     trustBullets: [
       "Mulai dari rekap jumlah ruang, kapasitas per ruang, daya listrik, dan timeline proyek",
@@ -1424,6 +1428,8 @@ export const areaItems = [
       ["Jual AC Kebumen", routes.jualAcKebumen],
       ["Jual AC Banjarnegara", routes.jualAcBanjarnegara],
       ["Jual AC Tegal", routes.jualAcTegal],
+      ["Jual AC Magelang", routes.jualAcMagelang],
+      ["Jual AC Salatiga", routes.jualAcSalatiga],
     ],
     trustBullets: [
       "Cek kebutuhan PK untuk kamar hotel, ruang pelanggan retail, resto, dan kost",
@@ -2333,6 +2339,7 @@ export const areaItems = [
       ["Banyumas", routes.jualAcBanyumas],
       ["Purwokerto", routes.jualAcPurwokerto],
       ["Banjarnegara", routes.jualAcBanjarnegara],
+      ["Pekalongan", routes.jualAcPekalongan],
     ],
     trustBullets: [
       "Showroom dan gudang Radja AC ada di Banyumas.",
@@ -3130,6 +3137,306 @@ export const areaItems = [
       ["Kontak Radja AC", routes.kontak],
     ],
   },
+  {
+    slug: "jual-ac-magelang",
+    path: routes.jualAcMagelang,
+    areaName: "Magelang",
+    localLandmarks: [
+      "Candi Borobudur dan kawasan wisata sekitarnya",
+      "Candi Mendut dan Pawon",
+      "Gunung Tidar",
+      "Akademi Militer (Akmil) Magelang",
+      "Alun-alun dan pusat Kota Magelang",
+    ],
+    localBenefits: [
+      "Homestay, guest house, dan hotel sekitar Borobudur butuh AC kamar tamu yang seragam dan nyaman saat musim kunjungan ramai",
+      "Udara Magelang yang sejuk membuat banyak rumah memilih AC selektif per kamar, bukan seluruh ruangan",
+      "Resto dan kafe wisata perlu ruang adem untuk rombongan pengunjung yang datang saat akhir pekan",
+    ],
+    localCases: [
+      ["Homestay & hotel kawasan Borobudur", "Pengadaan AC kamar tamu seragam yang mudah dirawat saat okupansi wisata naik."],
+      ["Rumah di kota & Mertoyudan", "AC kamar tertentu yang panas saat siang, menyesuaikan udara sejuk Magelang."],
+      ["Resto & kafe wisata", "AC ruang pelanggan agar rombongan wisata betah saat akhir pekan ramai."],
+    ],
+    localFaq: [
+      [
+        "Magelang kan sejuk, rumah masih perlu AC?",
+        "Banyak yang pasang selektif—kamar yang panas saat siang atau kamar anak—bukan seluruh rumah. Sebutkan ruangan dan ukurannya untuk arahan PK dan stok.",
+      ],
+      [
+        "AC untuk homestay atau hotel dekat Borobudur, pilih apa?",
+        "Kamar tamu yang dipakai menginap lebih nyaman dengan unit yang tenang dan seragam; inverter cocok bila kamar terisi hampir tiap malam. Kirim jumlah kamar dan ukurannya untuk arahan.",
+      ],
+      [
+        "Bisa pengadaan AC banyak kamar untuk penginapan kawasan wisata Magelang?",
+        "Bisa. Kirim jumlah kamar, ukuran, daya listrik, dan target musim ramai agar tim menyiapkan unit seragam, stok, pengiriman, dan opsi pemasangan bertahap.",
+      ],
+      [
+        "Pengiriman AC ke Magelang dari Banyumas bagaimana?",
+        "Showroom dan gudang Radja AC ada di Banyumas; untuk Magelang unit dikirim ke alamat lalu dipasang, dengan pembayaran DP, COD, atau transfer setelah stok dipastikan.",
+      ],
+    ],
+    label: "Jual AC Magelang",
+    title: "Jual AC Magelang untuk Penginapan, Rumah & Usaha Wisata — Radja AC",
+    description:
+      "Butuh AC untuk homestay, hotel, rumah, kafe, atau banyak unit di Magelang dan kawasan Borobudur? Radja AC bantu cek PK, stok, pengiriman unit, dan opsi pemasangan via WhatsApp.",
+    h1: "Jual AC Magelang untuk Penginapan, Rumah & Usaha Wisata",
+    eyebrow: "Area Kawasan Borobudur & Magelang",
+    intro:
+      "Butuh AC di Magelang untuk homestay, hotel, rumah, kafe wisata, atau banyak kamar penginapan? Tim Radja AC cek ukuran kamar, daya listrik, jumlah unit, stok, pengiriman, dan opsi pemasangan sebelum unit dipilih.",
+    localContext:
+      "Magelang memadukan kota berhawa sejuk di kaki Gunung Tidar dengan kawasan wisata Borobudur dan Mendut yang ramai sepanjang tahun. Permintaan AC paling banyak datang dari homestay, guest house, dan hotel di sekitar candi, resto serta kafe wisata, dan rumah di pusat kota maupun Mertoyudan. Karena udaranya relatif sejuk, banyak pemilik rumah memasang AC selektif di kamar tertentu, sedangkan penginapan justru butuh kamar tamu yang adem dan seragam saat musim kunjungan naik. Tim Radja AC mengecek jumlah kamar, ukuran ruangan, daya listrik, dan jadwal sebelum unit dikirim dari Banyumas.",
+    coverageNote:
+      "Showroom dan gudang Radja AC berada di Banyumas. Kebutuhan AC area Magelang dilayani dengan konsultasi PK, cek stok unit, pengiriman, dan opsi pemasangan sesuai alamat, jumlah unit, akses lokasi, dan jadwal.",
+    commonNeeds: [
+      "AC kamar tamu homestay, guest house, dan hotel kawasan Borobudur",
+      "AC rumah tinggal dan kamar tertentu di kota Magelang dan Mertoyudan",
+      "AC resto, kafe, dan ruang usaha wisata",
+      "Pengadaan beberapa unit untuk penginapan atau kebutuhan banyak kamar",
+    ],
+    buyingChecks: [
+      "Jumlah kamar atau ruangan yang akan memakai AC",
+      "Ukuran ruangan, tinggi plafon, dan paparan panas saat siang",
+      "Daya listrik per titik atau daya listrik total bangunan",
+      "Target musim ramai, alamat Magelang, pengiriman, dan opsi pemasangan",
+    ],
+    paymentNote:
+      "Pembayaran fleksibel bisa dikonsultasikan: DP, COD, atau transfer setelah kebutuhan unit, alamat, pengiriman, dan opsi pemasangan jelas.",
+    relatedLinks: [
+      ["Jual AC Yogyakarta", routes.jualAcYogyakarta],
+      ["Jual AC Semarang", routes.jualAcSemarang],
+      ["Pengadaan AC Hotel & Guest House", routes.pengadaanHotelGuestHouse],
+      ["AC Inverter", routes.katalogAcInverter],
+      ["Kalkulator PK AC", routes.kalkulatorPkAc],
+      ["Katalog AC", routes.katalog],
+      ["Kontak Radja AC", routes.kontak],
+    ],
+    ctaLabel: "Chat WhatsApp untuk cek stok AC Magelang",
+    waIntent: "cek stok AC Magelang dengan data jumlah kamar ukuran ruangan daya listrik jumlah unit alamat dan kebutuhan pemasangan",
+    waArea: "Magelang",
+    keywordVariants: [
+      "jual AC Magelang",
+      "AC homestay Borobudur",
+      "AC hotel dan guest house Magelang",
+      "AC rumah Magelang",
+      "AC kafe dan resto wisata Magelang",
+      "cek stok AC Magelang",
+      "pengiriman AC Magelang",
+      "AC banyak unit penginapan Magelang",
+    ],
+    nearbyAreaLinks: [
+      ["Jual AC Semarang", routes.jualAcSemarang],
+      ["Jual AC Yogyakarta", routes.jualAcYogyakarta],
+      ["Jual AC Solo", routes.jualAcSolo],
+      ["Jual AC Purwokerto", routes.jualAcPurwokerto],
+    ],
+    trustBullets: [
+      "Magelang dilayani dari showroom dan gudang Radja AC di Banyumas dengan pengiriman unit ke alamat.",
+      "Kebutuhan AC dibaca dari jumlah kamar, ukuran ruangan, daya listrik, jumlah unit, dan stok aktif.",
+      "Pengiriman dan opsi pemasangan dikonfirmasi dari data lokasi, akses pekerjaan, dan jadwal.",
+      "Tanpa klaim toko atau cabang lokal; konsultasi diarahkan ke basis Radja AC di Banyumas.",
+    ],
+  },
+  {
+    slug: "jual-ac-pekalongan",
+    path: routes.jualAcPekalongan,
+    areaName: "Pekalongan",
+    localLandmarks: [
+      "Kampung Batik Kauman dan Pesindon",
+      "International Batik Center (IBC)",
+      "Pasar Grosir Batik Setono",
+      "Jalur Pantura Pekalongan",
+      "Pantai Pasir Kencana",
+    ],
+    localBenefits: [
+      "Showroom dan toko batik yang ramai pembeli butuh ruang adem agar pengunjung betah memilih",
+      "Iklim Pantura yang panas-lembap membuat AC dipakai jam panjang dan PK perlu dihitung dari luas",
+      "Udara lembap mempercepat filter kotor, jadi pemilihan unit dan jadwal perawatan jadi pertimbangan",
+    ],
+    localCases: [
+      ["Showroom & grosir batik", "AC ruang pamer dan toko grosir agar pembeli nyaman saat jam ramai."],
+      ["Ruko & kantor dagang", "AC ruang kerja dan layanan dengan pemakaian jam panjang di kota panas."],
+      ["Rumah pesisir", "AC kamar yang gerah karena udara Pantura, dengan pilihan sesuai daya listrik rumah."],
+    ],
+    localFaq: [
+      [
+        "AC untuk showroom atau toko batik Pekalongan yang ramai, pilih apa?",
+        "Ruang pamer yang sering buka pintu dan penuh pembeli butuh kapasitas sesuai luas dan lalu lalang. Kirim ukuran toko dan jam ramai untuk perkiraan PK.",
+      ],
+      [
+        "Pekalongan kan panas dan lembap, PK perlu lebih besar?",
+        "Sering iya—beban panas pesisir membuat ruangan lebih cepat gerah, jadi kapasitas dihitung dari luas, tinggi plafon, dan bukaan. Sebutkan ukuran ruang untuk arahan.",
+      ],
+      [
+        "AC sering dipakai seharian di toko, perawatannya bagaimana di Pekalongan?",
+        "Udara lembap pesisir mempercepat filter kotor, jadi pembersihan lebih rutin membantu. Pilih kapasitas yang sesuai beban agar unit tidak bekerja terlalu keras.",
+      ],
+      [
+        "Pengiriman AC ke Pekalongan dari Banyumas bagaimana?",
+        "Unit dikirim dari gudang Banyumas ke alamat Pekalongan lalu dipasang, dengan pembayaran DP, COD, atau transfer setelah stok dipastikan.",
+      ],
+    ],
+    label: "Jual AC Pekalongan",
+    title: "Jual AC Pekalongan untuk Toko Batik, Ruko & Usaha — Radja AC",
+    description:
+      "Butuh AC untuk showroom batik, ruko grosir, kantor, rumah, atau banyak unit di Pekalongan? Radja AC bantu cek PK, stok, pengiriman, dan opsi pemasangan via WhatsApp.",
+    h1: "Jual AC Pekalongan untuk Toko Batik, Ruko & Usaha",
+    eyebrow: "Area Pantura — Kota Batik Pekalongan",
+    intro:
+      "Butuh AC di Pekalongan untuk showroom batik, ruko grosir, kantor, rumah, atau usaha tepi jalan? Tim Radja AC cek luas ruang, jam buka, daya listrik, stok, pengiriman, dan opsi pemasangan sebelum unit dipilih.",
+    localContext:
+      "Pekalongan adalah Kota Batik di jalur Pantura yang panas dan lembap, dengan denyut ekonomi dari sentra serta grosir batik, ruko dagang, dan pasar tekstil. Karena pesisir terasa gerah hampir sepanjang hari, AC banyak dipakai untuk showroom batik, ruko grosir, kantor, dan rumah. Toko batik yang ramai pembeli dan sering buka-tutup pintu butuh kapasitas yang dihitung dari luas dan lalu lalang, sementara udara lembap pesisir membuat perawatan filter perlu lebih sering. Tim Radja AC mengecek luas ruang usaha, jam buka, dan jumlah unit sebelum unit dikirim dari Banyumas.",
+    coverageNote:
+      "Showroom dan gudang Radja AC berada di Banyumas. Kebutuhan AC area Pekalongan dilayani dengan konsultasi PK, cek stok unit, pengiriman, dan opsi pemasangan sesuai alamat, jumlah unit, akses lokasi, dan jadwal.",
+    commonNeeds: [
+      "AC showroom batik, ruko grosir, dan toko di pusat dagang Pekalongan",
+      "AC kantor dan ruang layanan dengan pemakaian jam panjang",
+      "AC rumah dan kamar yang gerah karena udara pesisir",
+      "Pengadaan beberapa unit untuk usaha, grosir, atau kebutuhan banyak unit",
+    ],
+    buyingChecks: [
+      "Luas ruang usaha, tinggi plafon, dan jumlah pengunjung",
+      "Jam buka dan beban panas pesisir",
+      "Daya listrik dan kebutuhan standard, low watt, atau inverter",
+      "Alamat Pekalongan, pengiriman, dan kebutuhan opsi pemasangan",
+    ],
+    paymentNote:
+      "Pembayaran fleksibel bisa dikonsultasikan: DP, COD, atau transfer setelah kebutuhan unit, alamat, pengiriman, dan opsi pemasangan jelas.",
+    relatedLinks: [
+      ["Jual AC Tegal", routes.jualAcTegal],
+      ["Jual AC Semarang", routes.jualAcSemarang],
+      ["Pengadaan AC Kantor & Ruko", routes.pengadaanGedungKantorRuko],
+      ["AC Kantor & Komersial", routes.katalogAcKantorKomersial],
+      ["Kalkulator PK AC", routes.kalkulatorPkAc],
+      ["Katalog AC", routes.katalog],
+      ["Kontak Radja AC", routes.kontak],
+    ],
+    ctaLabel: "Chat WhatsApp untuk cek stok AC Pekalongan",
+    waIntent: "cek stok AC Pekalongan dengan data luas ruang usaha jam buka daya listrik jumlah unit alamat dan kebutuhan pemasangan",
+    waArea: "Pekalongan",
+    keywordVariants: [
+      "jual AC Pekalongan",
+      "AC toko batik Pekalongan",
+      "AC ruko grosir Pekalongan",
+      "AC rumah Pekalongan",
+      "AC kantor Pekalongan",
+      "cek stok AC Pekalongan",
+      "pengiriman AC Pekalongan",
+      "AC banyak unit Pekalongan",
+    ],
+    nearbyAreaLinks: [
+      ["Jual AC Tegal", routes.jualAcTegal],
+      ["Jual AC Semarang", routes.jualAcSemarang],
+      ["Jual AC Purwokerto", routes.jualAcPurwokerto],
+      ["Jual AC Banyumas", routes.jualAcBanyumas],
+    ],
+    trustBullets: [
+      "Pekalongan dilayani dari showroom dan gudang Radja AC di Banyumas dengan pengiriman unit ke alamat.",
+      "Kebutuhan AC dibaca dari luas ruang usaha, jam buka, daya listrik, jumlah unit, dan stok aktif.",
+      "Pengiriman dan opsi pemasangan dikonfirmasi dari data lokasi, akses pekerjaan, dan jadwal.",
+      "Tanpa klaim toko atau cabang lokal; konsultasi diarahkan ke basis Radja AC di Banyumas.",
+    ],
+  },
+  {
+    slug: "jual-ac-salatiga",
+    path: routes.jualAcSalatiga,
+    areaName: "Salatiga",
+    localLandmarks: [
+      "Universitas Kristen Satya Wacana (UKSW)",
+      "UIN Salatiga",
+      "Kaki Gunung Merbabu",
+      "Jalur transit Semarang–Solo",
+      "Sentra kuliner dan kafe Salatiga",
+    ],
+    localBenefits: [
+      "Kos dan rumah sewa di sekitar UKSW dan UIN cari AC kamar hemat daya supaya kamar cepat terisi",
+      "Udara Salatiga yang sejuk membuat AC dipakai selektif—kamar yang penuh saat siang atau ruang kerja",
+      "Kafe dan resto yang ramai mahasiswa tetap butuh ruang adem meski kota relatif dingin",
+    ],
+    localCases: [
+      ["Kos & rumah sewa mahasiswa", "AC kamar hemat daya tipe seragam, dipasang bertahap mengikuti hunian."],
+      ["Kafe & resto sekitar kampus", "AC ruang pelanggan agar betah saat jam ramai meski kota sejuk."],
+      ["Rumah & ruang kerja", "AC kamar atau ruang tertentu yang panas saat siang, bukan seluruh rumah."],
+    ],
+    localFaq: [
+      [
+        "Salatiga kan dingin, kos masih perlu AC?",
+        "Kamar ber-AC tetap lebih cepat laku karena siang bisa tetap gerah. Banyak yang pilih low watt agar daya per kamar aman. Sebutkan jumlah kamar dan daya listrik total untuk cek unit dan stok.",
+      ],
+      [
+        "AC kos dekat UKSW supaya hemat listrik, pilih apa?",
+        "Untuk banyak kamar, low watt tipe seragam menjaga daya dan memudahkan perawatan. Kirim daya total bangunan dan jumlah kamar untuk arahan unit.",
+      ],
+      [
+        "AC untuk kafe atau resto di Salatiga yang ramai mahasiswa?",
+        "Ruang yang penuh saat jam makan butuh kapasitas sesuai luas dan jumlah kursi. Sebutkan ukuran ruang dan jam ramai untuk perkiraan PK.",
+      ],
+      [
+        "Pengiriman AC ke Salatiga dari Banyumas bagaimana?",
+        "Unit dikirim dari gudang Banyumas ke alamat Salatiga lalu dipasang, dengan pembayaran DP, COD, atau transfer setelah stok dipastikan.",
+      ],
+    ],
+    label: "Jual AC Salatiga",
+    title: "Jual AC Salatiga untuk Kos, Rumah & Usaha — Radja AC",
+    description:
+      "Butuh AC untuk kos, rumah, kafe, kantor, atau banyak kamar di Salatiga? Radja AC bantu cek PK, daya listrik, stok, pengiriman, dan opsi pemasangan via WhatsApp.",
+    h1: "Jual AC Salatiga untuk Kos, Rumah & Usaha",
+    eyebrow: "Area Salatiga — Koridor Semarang–Solo",
+    intro:
+      "Butuh AC di Salatiga untuk kos mahasiswa, rumah, kafe, kantor, atau banyak kamar sewa? Tim Radja AC cek jumlah kamar, daya listrik, ukuran ruangan, stok, pengiriman, dan opsi pemasangan sebelum unit dipilih.",
+    localContext:
+      "Salatiga adalah kota kecil berhawa sejuk di kaki Gunung Merbabu, dikenal sebagai kota pendidikan dengan UKSW dan UIN Salatiga serta banyak kos dan rumah sewa mahasiswa. Karena udaranya cenderung dingin, kebutuhan AC di sini selektif: kamar kos atau kafe yang penuh saat siang, ruang kerja, dan kamar tertentu di rumah. Banyak pemilik kos memasang AC agar kamar lebih cepat terisi, dengan pilihan low watt yang menyesuaikan daya listrik per kamar. Tim Radja AC mengecek jumlah kamar, daya total bangunan, dan ukuran ruangan sebelum unit dikirim dari Banyumas.",
+    coverageNote:
+      "Showroom dan gudang Radja AC berada di Banyumas. Kebutuhan AC area Salatiga dilayani dengan konsultasi PK, cek stok unit, pengiriman, dan opsi pemasangan sesuai alamat, jumlah unit, akses lokasi, dan jadwal.",
+    commonNeeds: [
+      "AC kamar kos dan rumah sewa mahasiswa sekitar UKSW dan UIN",
+      "AC kamar dan ruang kerja di rumah yang panas saat siang",
+      "AC kafe dan resto yang ramai mahasiswa",
+      "Pengadaan beberapa unit untuk kos atau properti sewa",
+    ],
+    buyingChecks: [
+      "Jumlah kamar kos dan daya listrik total bangunan",
+      "Ukuran kamar dan paparan panas saat siang",
+      "Pilihan low watt atau inverter sesuai daya",
+      "Alamat Salatiga, pengiriman, dan kebutuhan opsi pemasangan",
+    ],
+    paymentNote:
+      "Pembayaran fleksibel bisa dikonsultasikan: DP, COD, atau transfer setelah kebutuhan unit, alamat, pengiriman, dan opsi pemasangan jelas.",
+    relatedLinks: [
+      ["Jual AC Semarang", routes.jualAcSemarang],
+      ["Jual AC Solo", routes.jualAcSolo],
+      ["Pengadaan AC Kost & Apartemen", routes.pengadaanKostApartemen],
+      ["AC Low Watt", routes.katalogAcLowWatt],
+      ["Kalkulator PK AC", routes.kalkulatorPkAc],
+      ["Katalog AC", routes.katalog],
+      ["Kontak Radja AC", routes.kontak],
+    ],
+    ctaLabel: "Chat WhatsApp untuk cek stok AC Salatiga",
+    waIntent: "cek stok AC Salatiga dengan data jumlah kamar daya listrik ukuran ruangan jumlah unit alamat dan kebutuhan pemasangan",
+    waArea: "Salatiga",
+    keywordVariants: [
+      "jual AC Salatiga",
+      "AC kos Salatiga",
+      "AC kamar dekat UKSW",
+      "AC rumah Salatiga",
+      "AC kafe Salatiga",
+      "cek stok AC Salatiga",
+      "pengiriman AC Salatiga",
+      "AC low watt Salatiga",
+    ],
+    nearbyAreaLinks: [
+      ["Jual AC Semarang", routes.jualAcSemarang],
+      ["Jual AC Solo", routes.jualAcSolo],
+      ["Jual AC Yogyakarta", routes.jualAcYogyakarta],
+      ["Jual AC Purwokerto", routes.jualAcPurwokerto],
+    ],
+    trustBullets: [
+      "Salatiga dilayani dari showroom dan gudang Radja AC di Banyumas dengan pengiriman unit ke alamat.",
+      "Kebutuhan AC dibaca dari jumlah kamar, daya listrik total, ukuran ruangan, jumlah unit, dan stok aktif.",
+      "Pengiriman dan opsi pemasangan dikonfirmasi dari data lokasi, akses pekerjaan, dan jadwal.",
+      "Tanpa klaim toko atau cabang lokal; konsultasi diarahkan ke basis Radja AC di Banyumas.",
+    ],
+  },
 
 ];
 
@@ -3140,8 +3447,10 @@ export const areaClusterMap = {
   // Hospitality & wisata
   "jual-ac-baturraden": "hospitality",
   "jual-ac-banjarnegara": "hospitality",
+  "jual-ac-magelang": "hospitality",
   // Kos & pendidikan (Kembaran = kos kecil/rumah sewa/kontrakan sekitar kampus)
   "jual-ac-kembaran": "education",
+  "jual-ac-salatiga": "education",
   // Residential
   "jual-ac-banyumas": "residential",
   "jual-ac-karanglewas": "residential",
@@ -3160,6 +3469,7 @@ export const areaClusterMap = {
   "jual-ac-gombong": "trade",
   "jual-ac-karanganyar-kebumen": "trade",
   "jual-ac-kutowinangun": "trade",
+  "jual-ac-pekalongan": "trade",
   "jual-ac-kroya": "trade",
   "jual-ac-majenang": "trade",
   "jual-ac-sidareja": "trade",

@@ -52,13 +52,20 @@ Area ditahan kalau:
 - belum punya internal link yang masuk akal,
 - risiko klaim lokal terlalu tinggi.
 
+## Published (Live) — Batch 2026-06-10
+
+Dipublish ke `content/areas.js` + `content/routes.js` + `sitemapRoutes` + `areaClusterMap` + hub `/jual-ac` + Footer + reciprocal `nearbyAreaLinks`:
+
+| Area | Slug | clusterType | Inbound internal |
+|---|---|---|---|
+| Magelang | jual-ac-magelang | hospitality | Yogyakarta, Semarang, Solo, hub, footer |
+| Pekalongan | jual-ac-pekalongan | trade | Tegal, Semarang, hub, footer |
+| Salatiga | jual-ac-salatiga | education | Semarang, Solo, hub, footer |
+
 ## Ready Draft Area
 
 | Area | Slug | Priority | Status | Type | Publish Gate |
 |---|---|---:|---|---|---|
-| Magelang | jual-ac-magelang | P2 | ready | regional area | Setelah core Banyumas ring stabil atau ada sinyal query/impression Magelang |
-| Salatiga | jual-ac-salatiga | P2 | ready | regional area | Setelah Semarang/Solo punya sinyal GSC yang cukup atau ada lead regional terkait Salatiga |
-| Pekalongan | jual-ac-pekalongan | P2 | ready | regional Pantura | Setelah Tegal atau area Pantura mulai menunjukkan impression/query relevan |
 | Pemalang | jual-ac-pemalang | P2 | ready | regional Pantura | Setelah Tegal stabil atau ada sinyal GSC/lead untuk Pemalang/Pantura |
 | Brebes | jual-ac-brebes | P2 | ready | regional Pantura | Setelah Tegal mendapat data yang cukup atau ada query/lead area Brebes |
 | Wonosobo | jual-ac-wonosobo | P2 | ready | regional mountain area | Setelah Banjarnegara/Purwokerto stabil atau ada sinyal query Wonosobo |
@@ -119,20 +126,14 @@ Child draft belum live dan belum masuk sitemap.
 
 | Parent | Child Area | Slug | Priority | Status | Publish Gate |
 |---|---|---|---:|---|---|
-| Banyumas | Sumbang | jual-ac-sumbang | P1 | ready-child | Setelah core Banyumas/Purwokerto stabil atau ada sinyal query Sumbang |
-| Banyumas | Kedungbanteng | jual-ac-kedungbanteng | P1 | ready-child | Setelah core Banyumas/Purwokerto stabil atau ada sinyal query Kedungbanteng |
-| Banyumas | Kalibagor | jual-ac-kalibagor | P1 | ready-child | Setelah Banyumas/Sokaraja stabil atau ada sinyal query Kalibagor |
 | Banyumas | Kebasen | jual-ac-kebasen | P1 | ready-child | Setelah Banyumas selatan stabil atau ada sinyal query Kebasen |
 | Banyumas | Somagede | jual-ac-somagede | P2 | ready-child | Setelah Banyumas/Kalibagor stabil atau ada sinyal query Somagede |
 | Purbalingga | Bobotsari | jual-ac-bobotsari | P2 | ready-child | Setelah Purbalingga stabil atau ada sinyal query Bobotsari |
 | Purbalingga | Kalimanah | jual-ac-kalimanah | P2 | ready-child | Setelah Purbalingga stabil atau ada sinyal query Kalimanah |
 | Purbalingga | Kutasari | jual-ac-kutasari | P2 | ready-child | Setelah Purbalingga stabil atau ada sinyal query Kutasari |
 | Tegal | Slawi | jual-ac-slawi | P2 | ready-child | Setelah Tegal stabil atau ada sinyal query Slawi |
-| Tegal | Adwerna | jual-ac-adwerna | P2 | ready-child | Setelah Tegal stabil atau ada sinyal query Adwerna |
+| Tegal | Adiwerna | jual-ac-adiwerna | P2 | ready-child | Setelah Tegal stabil atau ada sinyal query Adiwerna |
 | Tegal | Talang | jual-ac-talang | P2 | ready-child | Setelah Tegal stabil atau ada sinyal query Talang |
-| Kebumen | Gombong | jual-ac-gombong | P2 | ready-child | Setelah Kebumen stabil atau ada sinyal query Gombong |
-| Kebumen | Karanganyar Kebumen | jual-ac-karanganyar-kebumen | P2 | ready-child | Setelah Kebumen stabil atau ada sinyal query Karanganyar Kebumen |
-| Kebumen | Kutowinangun | jual-ac-kutowinangun | P2 | ready-child | Setelah Kebumen stabil atau ada sinyal query Kutowinangun |
 | Banjarnegara | Mandiraja | jual-ac-mandiraja | P2 | ready-child | Setelah Banjarnegara stabil atau ada sinyal query Mandiraja |
 | Banjarnegara | Klampok | jual-ac-klampok | P2 | ready-child | Setelah Banjarnegara stabil atau ada sinyal query Klampok |
 | Banjarnegara | Bawang Banjarnegara | jual-ac-bawang-banjarnegara | P2 | ready-child | Setelah Banjarnegara stabil atau ada sinyal query Bawang Banjarnegara |
@@ -142,3 +143,8 @@ Child publish rule:
 - Child harus mendapat internal link dari parent/hub atau area relevan.
 - Jangan publish semua child dalam satu batch.
 - Jangan request indexing massal.
+
+Catatan sinkronisasi 2026-06-10:
+- Sumbang, Kedungbanteng, dan Kalibagor sudah LIVE di `content/areas.js` (dihapus dari tabel child draft).
+- Ejaan diperbaiki: Adwerna → Adiwerna (slug `jual-ac-adiwerna`).
+- Gombong, Karanganyar Kebumen, dan Kutowinangun dihapus dari tabel ready-child karena SUDAH LIVE di `content/areas.js` — ditulis dengan gaya quoted-key (`"slug": "jual-ac-gombong"`) sehingga sempat tidak terdeteksi oleh grep `slug:` biasa. Route, sitemapRoutes, hub `/jual-ac`, dan areaClusterMap untuk ketiganya valid dan dipertahankan; tidak ada URL 404 dan tidak ada pembersihan yang diperlukan.
