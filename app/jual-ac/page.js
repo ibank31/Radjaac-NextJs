@@ -115,7 +115,7 @@ export default function JualAcPage() {
             <p className="inline-flex rounded-full border border-blue-100 bg-white/80 px-4 py-2 text-xs font-black uppercase tracking-[0.24em] text-blue-800 shadow-sm backdrop-blur">
               Jual AC Original Multi-Brand
             </p>
-            <h1 className="mt-7 max-w-4xl text-2xl font-black tracking-tight sm:text-3xl lg:text-5xl">
+            <h1 className="mt-7 max-w-4xl text-[1.65rem] font-extrabold tracking-tight sm:text-[2rem] lg:text-[2.6rem]">
               Beli AC original multi-brand dimulai dari ukuran ruangan, daya listrik, stok unit, dan kebutuhan pemasangan.
             </h1>
             <p className="mt-6 max-w-2xl text-sm leading-7 text-slate-600 sm:text-base">
@@ -182,10 +182,10 @@ export default function JualAcPage() {
       <section className="mx-auto max-w-7xl px-6 py-20 lg:px-8">
         <div className="grid gap-12 lg:grid-cols-[0.8fr_1.2fr]">
           <div>
-            <p className="text-sm font-black uppercase tracking-[0.22em] text-blue-700">
+            <p className="text-xs font-semibold uppercase tracking-[0.12em] text-blue-700">
               Pilih dari jenis ruangan
             </p>
-            <h2 className="mt-4 text-2xl font-black tracking-tight text-slate-950 sm:text-3xl">
+            <h2 className="mt-4 text-xl font-extrabold tracking-tight text-slate-950 sm:text-2xl">
               Tidak semua ruangan cocok dengan AC yang sama.
             </h2>
             <p className="mt-5 text-sm leading-7 text-slate-600">
@@ -217,10 +217,10 @@ export default function JualAcPage() {
         <div className="mx-auto max-w-7xl px-6 py-16 lg:px-8">
           <div className="grid gap-10 lg:grid-cols-[0.78fr_1.22fr] lg:items-start">
             <div>
-              <p className="text-sm font-black uppercase tracking-[0.22em] text-blue-800">
+              <p className="text-xs font-semibold uppercase tracking-[0.12em] text-blue-800">
                 Estimasi paket 1/2 PK
               </p>
-              <h2 className="mt-4 text-2xl font-black tracking-tight text-slate-950 sm:text-3xl">
+              <h2 className="mt-4 text-xl font-extrabold tracking-tight text-slate-950 sm:text-2xl">
                 Paket AC 1/2 PK + pemasangan mulai Rp3 jutaan.
               </h2>
               <p className="mt-5 text-sm leading-7 text-slate-700">
@@ -264,10 +264,10 @@ export default function JualAcPage() {
       <section className="bg-slate-50">
         <div className="mx-auto max-w-7xl px-6 py-20 lg:px-8">
           <div className="max-w-3xl">
-            <p className="text-sm font-black uppercase tracking-[0.22em] text-blue-700">
+            <p className="text-xs font-semibold uppercase tracking-[0.12em] text-blue-700">
               Brand AC
             </p>
-            <h2 className="mt-4 text-2xl font-black tracking-tight text-slate-950 sm:text-3xl">
+            <h2 className="mt-4 text-xl font-extrabold tracking-tight text-slate-950 sm:text-2xl">
               Cek pilihan brand berdasarkan stok aktif, kebutuhan PK, dan anggaran.
             </h2>
             <p className="mt-5 text-sm leading-7 text-slate-600">
@@ -296,10 +296,10 @@ export default function JualAcPage() {
       <section className="mx-auto max-w-7xl px-6 py-20 lg:px-8">
         <div className="grid gap-12 lg:grid-cols-[1fr_1fr]">
           <div>
-            <p className="text-sm font-black uppercase tracking-[0.22em] text-blue-700">
+            <p className="text-xs font-semibold uppercase tracking-[0.12em] text-blue-700">
               Alur beli AC
             </p>
-            <h2 className="mt-4 text-2xl font-black tracking-tight text-slate-950 sm:text-3xl">
+            <h2 className="mt-4 text-xl font-extrabold tracking-tight text-slate-950 sm:text-2xl">
               Lebih aman kalau kebutuhan dicek sebelum memilih unit.
             </h2>
             <p className="mt-5 text-sm leading-7 text-slate-600">
@@ -328,10 +328,10 @@ export default function JualAcPage() {
       <section className="bg-white">
         <div className="mx-auto max-w-7xl px-6 pb-20 lg:px-8">
           <div className="rounded-[2rem] border border-slate-200 bg-slate-50 p-8 sm:p-10">
-            <p className="text-sm font-black uppercase tracking-[0.22em] text-blue-700">
+            <p className="text-xs font-semibold uppercase tracking-[0.12em] text-blue-700">
               Garansi & bantuan klaim
             </p>
-            <h2 className="mt-4 text-2xl font-black tracking-tight text-slate-950 sm:text-3xl">
+            <h2 className="mt-4 text-xl font-extrabold tracking-tight text-slate-950 sm:text-2xl">
               Garansi unit mengikuti ketentuan brand, pemasangan dijelaskan dari awal.
             </h2>
             <p className="mt-5 max-w-3xl text-sm leading-7 text-slate-600">
@@ -356,7 +356,7 @@ export default function JualAcPage() {
         <div className="mx-auto max-w-7xl px-6 py-20 lg:px-8">
           <div className="grid gap-12 lg:grid-cols-[0.9fr_1.1fr]">
             <div>
-              <p className="text-sm font-black uppercase tracking-[0.22em] text-blue-700">
+              <p className="text-xs font-semibold uppercase tracking-[0.12em] text-blue-700">
                 Bukti aktivitas
               </p>
               <h2 className="mt-4 text-2xl font-black tracking-tight sm:text-3xl">
@@ -396,10 +396,10 @@ export default function JualAcPage() {
         <div className="rounded-[2rem] bg-blue-50 p-8 sm:p-10 lg:p-12">
           <div className="grid gap-10 lg:grid-cols-[0.85fr_1.15fr]">
             <div>
-              <p className="text-sm font-black uppercase tracking-[0.22em] text-blue-800">
+              <p className="text-xs font-semibold uppercase tracking-[0.12em] text-blue-800">
                 Area layanan
               </p>
-              <h2 className="mt-4 text-2xl font-black tracking-tight text-slate-950 sm:text-3xl">
+              <h2 className="mt-4 text-xl font-extrabold tracking-tight text-slate-950 sm:text-2xl">
                 Pengiriman dan opsi pemasangan dicek berdasarkan lokasi tujuan.
               </h2>
               <p className="mt-5 text-sm leading-7 text-slate-700">
@@ -432,10 +432,10 @@ export default function JualAcPage() {
 
       <section className="mx-auto max-w-4xl px-6 pb-20 lg:px-8">
         <div className="rounded-[2rem] border border-slate-200 bg-white p-8 text-center shadow-xl sm:p-10">
-          <p className="text-sm font-black uppercase tracking-[0.22em] text-blue-700">
+          <p className="text-xs font-semibold uppercase tracking-[0.12em] text-blue-700">
             Kirim Ukuran Ruangan
           </p>
-          <h2 className="mt-4 text-2xl font-black tracking-tight text-slate-950 sm:text-3xl">
+          <h2 className="mt-4 text-xl font-extrabold tracking-tight text-slate-950 sm:text-2xl">
             Butuh AC untuk rumah, kantor, hotel, atau proyek?
           </h2>
           <p className="mx-auto mt-5 max-w-2xl text-sm leading-7 text-slate-600">

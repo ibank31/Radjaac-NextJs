@@ -36,7 +36,7 @@ export default function ArtikelPage() {
             <p className="inline-flex rounded-full border border-white/15 bg-white/10 px-4 py-2 text-xs font-black uppercase tracking-[0.24em] text-blue-100 backdrop-blur">
               Artikel RADJA AC
             </p>
-            <h1 className="mt-6 max-w-4xl text-3xl font-black leading-tight tracking-[-0.035em] md:text-5xl">
+            <h1 className="mt-6 max-w-4xl text-[1.65rem] font-extrabold leading-tight tracking-[-0.025em] md:text-[2.4rem]">
               Panduan beli AC yang tidak bikin bingung sebelum chat RADJA AC
             </h1>
             <p className="mt-6 max-w-3xl text-sm leading-7 text-blue-50/90 sm:text-base">
@@ -70,7 +70,7 @@ export default function ArtikelPage() {
             <p className="text-xs font-black uppercase tracking-[0.22em] text-blue-100">
               Mulai dari masalah user
             </p>
-            <h2 className="mt-3 text-2xl font-black tracking-tight text-white sm:text-3xl">
+            <h2 className="text-2xl font-extrabold tracking-tight text-white sm:text-[1.75rem]">
               Baca singkat, lalu ambil keputusan lebih cepat.
             </h2>
             <div className="mt-5 grid gap-3">
@@ -105,7 +105,7 @@ export default function ArtikelPage() {
               <p className="mb-4 inline-flex rounded-full border border-blue-100 bg-blue-50 px-4 py-2 text-xs font-black uppercase tracking-[0.2em] text-blue-700">
                 Artikel Utama
               </p>
-              <h2 className="text-3xl font-black tracking-[-0.03em] text-slate-950 sm:text-4xl">
+              <h2 className="text-2xl font-extrabold tracking-[-0.03em] text-slate-950 sm:text-3xl">
                 {featuredArticle.h1}
               </h2>
               <p className="mt-5 text-sm leading-7 text-slate-600 sm:text-base">
@@ -138,7 +138,7 @@ export default function ArtikelPage() {
       <section className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8 lg:py-12">
         <div className="mb-8 max-w-3xl">
           <p className="mb-3 text-xs font-black uppercase tracking-[0.24em] text-blue-700">Semua Artikel</p>
-          <h2 className="text-3xl font-black tracking-[-0.03em] text-slate-950 sm:text-4xl">Pilih panduan sesuai masalah pembelian AC</h2>
+          <h2 className="text-xl font-extrabold tracking-[-0.025em] text-slate-950 sm:text-2xl">Pilih panduan sesuai masalah pembelian AC</h2>
         </div>
         <div className="grid gap-5 md:grid-cols-2 lg:grid-cols-3">
           {otherArticles.map((article, index) => (
@@ -186,7 +186,7 @@ export default function ArtikelPage() {
 
       <section className="mx-auto max-w-7xl px-4 pb-16 pt-8 sm:px-6 lg:px-8 lg:pb-20">
         <div className="rounded-[2rem] border border-[#25D366]/20 bg-[linear-gradient(135deg,rgba(37,211,102,0.14),rgba(34,211,238,0.10))] p-6 text-center shadow-[0_20px_60px_rgba(15,39,66,0.08)] sm:p-10">
-          <h2 className="mx-auto mb-5 max-w-3xl text-3xl font-black tracking-[-0.03em] text-slate-950 sm:text-4xl">
+          <h2 className="mx-auto mb-5 max-w-3xl text-2xl font-extrabold tracking-[-0.025em] text-slate-950 sm:text-3xl">
             Sudah baca? Lanjutkan dengan data ruangan
           </h2>
           <p className="mx-auto mb-7 max-w-2xl text-sm leading-7 text-slate-600">

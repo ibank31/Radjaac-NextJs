@@ -58,7 +58,7 @@ function isDropdownActive(pathname, item) {
 
 function navLinkClass(active) {
   return [
-    "rounded-full px-3.5 py-2 text-sm font-bold transition",
+    "rounded-full px-3.5 py-2 text-sm font-semibold transition",
     active
       ? "bg-brand-blue-tint text-navy shadow-sm ring-1 ring-brand-blue/20"
       : "text-slate-700 hover:bg-brand-blue-tint/60 hover:text-navy",
@@ -67,7 +67,7 @@ function navLinkClass(active) {
 
 function dropdownItemClass(active) {
   return [
-    "rounded-2xl px-4 py-3 text-sm font-bold transition",
+    "rounded-2xl px-4 py-3 text-sm font-medium transition",
     active
       ? "bg-blue-50 text-blue-800 ring-1 ring-blue-100"
       : "text-slate-700 hover:bg-blue-50/80 hover:text-blue-800",
@@ -117,7 +117,7 @@ function MobileNavItem({ item, pathname, onNavigate }) {
 
     return (
       <details className={`group rounded-2xl border ${active ? "border-blue-100 bg-blue-50" : "border-slate-100 bg-white"}`}>
-        <summary className="list-none cursor-pointer px-4 py-3 text-sm font-black text-slate-800 marker:hidden">
+        <summary className="list-none cursor-pointer px-4 py-3 text-sm font-semibold text-slate-800 marker:hidden">
           <span className="flex items-center justify-between">
             <span className={active ? "text-blue-800" : "text-slate-800"}>{item.label}</span>
             <span className="text-xs leading-none text-slate-400">⌄</span>
@@ -133,7 +133,7 @@ function MobileNavItem({ item, pathname, onNavigate }) {
                 key={subItem.href}
                 href={subItem.href}
                 className={[
-                  "rounded-xl px-3 py-2 text-sm font-bold transition",
+                  "rounded-xl px-3 py-2 text-sm font-medium transition",
                   subActive
                     ? "bg-blue-50 text-blue-800 ring-1 ring-blue-100"
                     : "text-slate-600 hover:bg-blue-50 hover:text-blue-800",
@@ -155,7 +155,7 @@ function MobileNavItem({ item, pathname, onNavigate }) {
     <Link
       href={item.href}
       className={[
-        "rounded-2xl border px-4 py-3 text-sm font-black transition",
+        "rounded-2xl border px-4 py-3 text-sm font-semibold transition",
         active
           ? "border-blue-100 bg-blue-50 text-blue-800 ring-1 ring-blue-100"
           : "border-slate-100 bg-white text-slate-800 hover:bg-blue-50/80 hover:text-blue-800",

@@ -135,7 +135,7 @@ export default function PengadaanAcPage() {
 
         <div className="relative mx-auto grid max-w-7xl gap-12 px-5 py-14 sm:px-6 lg:grid-cols-[1.04fr_0.96fr] lg:px-8 lg:py-20">
           <div className="flex flex-col justify-center">
-            <div className="mb-6 inline-flex w-fit items-center gap-3 rounded-full border border-blue-100 bg-white px-4 py-2 text-xs font-black uppercase tracking-[0.16em] text-blue-900 shadow-sm">
+            <div className="mb-6 inline-flex w-fit items-center gap-3 rounded-full border border-blue-100 bg-white px-4 py-2 text-xs font-semibold uppercase tracking-[0.12em] text-blue-900 shadow-sm">
               <span className="h-2.5 w-2.5 rounded-full bg-red-600" />
               Supplier AC Banyak Unit
             </div>
@@ -222,7 +222,7 @@ export default function PengadaanAcPage() {
       <section className="border-b border-slate-100 bg-white">
         <div className="mx-auto flex max-w-7xl flex-col gap-4 px-5 py-6 sm:px-6 lg:px-8">
           <div className="flex flex-col gap-3 lg:flex-row lg:items-center lg:gap-6">
-            <p className="text-xs font-black uppercase tracking-[0.18em] text-slate-400">Authorized Dealer</p>
+            <p className="text-xs font-semibold uppercase tracking-[0.12em] text-slate-400">Authorized Dealer</p>
             <div className="flex flex-wrap gap-2">
               {authorizedBrands.map((brand) => (
                 <span key={brand} className="rounded-full border border-blue-200 bg-blue-50 px-4 py-2 text-sm font-black text-blue-900">
@@ -232,7 +232,7 @@ export default function PengadaanAcPage() {
             </div>
           </div>
           <div className="flex flex-col gap-3 lg:flex-row lg:items-center lg:gap-6">
-            <p className="text-xs font-black uppercase tracking-[0.18em] text-slate-400">Brand lain (stok aktif)</p>
+            <p className="text-xs font-semibold uppercase tracking-[0.12em] text-slate-400">Brand lain (stok aktif)</p>
             <div className="flex flex-wrap gap-2">
               {stockBrands.map((brand) => (
                 <span key={brand} className="rounded-full border border-slate-200 bg-slate-50 px-4 py-2 text-sm font-black text-slate-500">
@@ -252,8 +252,8 @@ export default function PengadaanAcPage() {
         <div className="mx-auto max-w-7xl px-5 py-14 sm:px-6 lg:px-8">
           <div className="mb-8 grid gap-5 lg:grid-cols-[0.8fr_1.2fr] lg:items-end">
             <div>
-              <p className="text-sm font-black uppercase tracking-[0.2em] text-red-600">Bukti operasional</p>
-              <h2 className="mt-3 text-2xl font-black tracking-tight text-blue-950 sm:text-4xl">
+              <p className="text-xs font-semibold uppercase tracking-[0.12em] text-red-600">Bukti operasional</p>
+              <h2 className="mt-3 text-xl font-extrabold tracking-tight text-blue-950 sm:text-2xl">
                 Gudang, pengiriman, dan pemasangan yang bisa dilihat fotonya.
               </h2>
             </div>
@@ -288,8 +288,8 @@ export default function PengadaanAcPage() {
       <section className="bg-[#F8FAFC]">
         <div className="mx-auto max-w-7xl px-5 py-16 sm:px-6 lg:px-8">
           <div className="mb-10 max-w-3xl">
-            <p className="text-sm font-black uppercase tracking-[0.2em] text-red-600">Segmen yang dilayani</p>
-            <h2 className="mt-3 text-2xl font-black tracking-tight text-blue-950 sm:text-4xl">
+            <p className="text-xs font-semibold uppercase tracking-[0.12em] text-red-600">Segmen yang dilayani</p>
+            <h2 className="mt-3 text-xl font-extrabold tracking-tight text-blue-950 sm:text-2xl">
               Lima segmen yang sering order AC banyak unit.
             </h2>
             <p className="mt-4 text-sm leading-7 text-slate-600 sm:text-base">
@@ -304,7 +304,7 @@ export default function PengadaanAcPage() {
                 <span className="inline-flex rounded-full bg-blue-50 px-3 py-1 text-xs font-black uppercase tracking-[0.08em] text-blue-900">
                   {item.label}
                 </span>
-                <h3 className="mt-5 text-xl font-black text-blue-950">{item.title}</h3>
+                <h3 className="mt-5 text-xl font-bold text-blue-950">{item.title}</h3>
                 <p className="mt-3 text-sm leading-7 text-slate-600">{item.desc}</p>
                 <div className="mt-5 flex flex-wrap gap-2">
                   {item.painTags.map((tag) => (
@@ -325,8 +325,8 @@ export default function PengadaanAcPage() {
       <section className="bg-white">
         <div className="mx-auto max-w-7xl px-5 py-16 sm:px-6 lg:px-8">
           <div className="mb-10 max-w-3xl">
-            <p className="text-sm font-black uppercase tracking-[0.2em] text-red-600">Cara order</p>
-            <h2 className="mt-3 text-2xl font-black tracking-tight text-blue-950 sm:text-4xl">
+            <p className="text-xs font-semibold uppercase tracking-[0.12em] text-red-600">Cara order</p>
+            <h2 className="mt-3 text-xl font-extrabold tracking-tight text-blue-950 sm:text-2xl">
               Tidak ada form. Cukup WhatsApp dengan data yang tepat.
             </h2>
             <p className="mt-4 text-sm leading-7 text-slate-600 sm:text-base">
@@ -355,8 +355,8 @@ export default function PengadaanAcPage() {
       <section className="bg-[#F8FAFC]">
         <div className="mx-auto max-w-7xl px-5 py-16 sm:px-6 lg:px-8">
           <div className="mb-10 max-w-3xl">
-            <p className="text-sm font-black uppercase tracking-[0.2em] text-red-600">Garansi, pembayaran & pengiriman</p>
-            <h2 className="mt-3 text-2xl font-black tracking-tight text-blue-950 sm:text-4xl">
+            <p className="text-xs font-semibold uppercase tracking-[0.12em] text-red-600">Garansi, pembayaran & pengiriman</p>
+            <h2 className="mt-3 text-xl font-extrabold tracking-tight text-blue-950 sm:text-2xl">
               Garansi, pembayaran, dan pengiriman dikunci sejak awal.
             </h2>
             <p className="mt-4 text-sm leading-7 text-slate-600 sm:text-base">
@@ -400,15 +400,15 @@ export default function PengadaanAcPage() {
       <section className="bg-[#F8FAFC]">
         <div className="mx-auto max-w-7xl px-5 pb-16 sm:px-6 lg:px-8">
           <div className="mb-10 max-w-3xl">
-            <p className="text-sm font-black uppercase tracking-[0.2em] text-red-600">Panduan awal kapasitas</p>
-            <h2 className="mt-3 text-2xl font-black tracking-tight text-blue-950 sm:text-4xl">
+            <p className="text-xs font-semibold uppercase tracking-[0.12em] text-red-600">Panduan awal kapasitas</p>
+            <h2 className="mt-3 text-xl font-extrabold tracking-tight text-blue-950 sm:text-2xl">
               Estimasi PK dari ukuran dan fungsi ruangan.
             </h2>
           </div>
 
           <div className="grid gap-8 lg:grid-cols-[0.8fr_1.2fr]">
             <div className="rounded-[1.7rem] border border-blue-100 bg-white p-6 shadow-sm">
-              <h3 className="text-lg font-black text-blue-950">Ini hanya estimasi awal</h3>
+              <h3 className="text-lg font-bold text-blue-950">Ini hanya estimasi awal</h3>
               <p className="mt-3 text-sm leading-7 text-slate-600">
                 Angka PK yang tepat bergantung pada faktor yang tidak bisa dihitung dari tabel saja. RADJA AC cek kondisi ini saat order:
               </p>
@@ -446,8 +446,8 @@ export default function PengadaanAcPage() {
       <section className="bg-white">
         <div className="mx-auto max-w-7xl px-5 py-16 sm:px-6 lg:px-8">
           <div className="mb-8 max-w-3xl">
-            <p className="text-sm font-black uppercase tracking-[0.2em] text-red-600">Katalog & brand</p>
-            <h2 className="mt-3 text-2xl font-black tracking-tight text-blue-950 sm:text-4xl">
+            <p className="text-xs font-semibold uppercase tracking-[0.12em] text-red-600">Katalog & brand</p>
+            <h2 className="mt-3 text-xl font-extrabold tracking-tight text-blue-950 sm:text-2xl">
               Jelajahi katalog PK dan brand sebelum kirim kebutuhan.
             </h2>
             <p className="mt-4 text-sm leading-7 text-slate-600 sm:text-base">

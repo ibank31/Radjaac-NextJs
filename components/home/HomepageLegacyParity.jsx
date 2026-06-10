@@ -182,7 +182,7 @@ const certificates = [
 
 function SectionBadge({ children }) {
   return (
-    <p className="inline-flex items-center gap-2 rounded-full border border-brand-red/20 bg-brand-red/5 px-4 py-1.5 text-[11px] font-bold uppercase tracking-[0.18em] text-brand-red">
+    <p className="inline-flex items-center gap-2 rounded-full border border-brand-red/20 bg-brand-red/5 px-4 py-1.5 text-[11px] font-semibold uppercase tracking-[0.12em] text-brand-red">
       <span className="h-1.5 w-1.5 rounded-full bg-brand-red" aria-hidden="true" />
       {children}
     </p>
@@ -193,7 +193,7 @@ function ArrowLink({ href, children, className = "" }) {
   return (
     <Link
       href={href}
-      className={`inline-flex items-center justify-center gap-2 rounded-full px-5 py-3 text-sm font-black transition ${className}`}
+      className={`inline-flex items-center justify-center gap-2 rounded-full px-5 py-3 text-sm font-semibold transition ${className}`}
     >
       {children}
       <span aria-hidden="true">→</span>
@@ -476,7 +476,7 @@ function HomeSalesLanding() {
         <div className="grid gap-8 lg:grid-cols-[0.9fr_1.1fr] lg:items-center">
           <div>
             <SectionBadge>Jangan Salah Beli AC</SectionBadge>
-            <h2 className="mt-4 text-2xl font-extrabold tracking-tight text-blue-950 sm:text-3xl lg:text-[2.35rem]">
+            <h2 className="mt-4 text-xl font-extrabold tracking-tight text-blue-950 sm:text-2xl lg:text-[1.85rem]">
               Murah di awal bisa mahal di belakang kalau salah pilih
             </h2>
             <p className="mt-5 max-w-2xl text-sm leading-7 text-slate-600 sm:text-base">
@@ -695,7 +695,7 @@ function HomeClosingCta() {
               <span className="h-1.5 w-1.5 rounded-full bg-brand-red" aria-hidden="true" />
               Siap Beli AC?
             </span>
-            <h2 className="mt-4 max-w-2xl text-balance text-[2rem] font-extrabold leading-tight tracking-[-0.02em] text-white sm:text-[2.5rem]">
+            <h2 className="mt-4 max-w-2xl text-balance text-[1.65rem] font-extrabold leading-tight tracking-[-0.02em] text-white sm:text-[2rem]">
               Kirim data ruangan. <BrandName /> hitung PK dan jelaskan biaya totalnya.
             </h2>
             <p className="mt-4 max-w-2xl text-sm leading-7 text-white/80 sm:text-base">

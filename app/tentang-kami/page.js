@@ -72,10 +72,10 @@ export default function TentangKamiPage() {
 
         <div className="mx-auto grid max-w-7xl items-center gap-10 lg:grid-cols-[1.05fr_0.95fr]">
           <div>
-            <p className="text-sm font-bold uppercase tracking-[0.22em] text-blue-700">
+            <p className="text-xs font-semibold uppercase tracking-[0.12em] text-blue-700">
               Tentang RADJA AC
             </p>
-            <h1 className="mt-4 max-w-4xl text-3xl font-black tracking-tight text-slate-950 md:text-4xl">
+            <h1 className="mt-4 max-w-4xl text-[1.65rem] font-extrabold tracking-tight text-slate-950 md:text-[2.1rem]">
               Website resmi penjualan AC original multi-brand
             </h1>
             <p className="mt-6 max-w-3xl text-sm leading-7 text-slate-600 sm:text-base">
@@ -121,10 +121,10 @@ export default function TentangKamiPage() {
       {/* STATUS RESMI */}
       <section className="mx-auto max-w-7xl px-4 py-12 lg:py-16">
         <div className="max-w-3xl">
-          <p className="text-sm font-bold uppercase tracking-[0.22em] text-blue-700">
+          <p className="text-xs font-semibold uppercase tracking-[0.12em] text-blue-700">
             Status Resmi
           </p>
-          <h2 className="mt-4 text-2xl font-black tracking-tight text-slate-950 md:text-3xl">
+          <h2 className="mt-4 text-xl font-extrabold tracking-tight text-slate-950 md:text-2xl">
             Proshop Gree resmi dan sertifikat authorized dealer
           </h2>
           <p className="mt-4 text-sm leading-7 text-slate-600 sm:text-base">
@@ -192,10 +192,10 @@ export default function TentangKamiPage() {
       {/* OPERATIONAL PROOF */}
       <section className="mx-auto max-w-7xl px-4 pb-12 lg:pb-16">
         <div className="max-w-3xl">
-          <p className="text-sm font-bold uppercase tracking-[0.22em] text-blue-700">
+          <p className="text-xs font-semibold uppercase tracking-[0.12em] text-blue-700">
             Bukti Operasional
           </p>
-          <h2 className="mt-4 text-2xl font-black tracking-tight text-slate-950 md:text-3xl">
+          <h2 className="mt-4 text-xl font-extrabold tracking-tight text-slate-950 md:text-2xl">
             Showroom, gudang, stok, dan pengiriman yang nyata
           </h2>
           <p className="mt-4 text-sm leading-7 text-slate-600 sm:text-base">

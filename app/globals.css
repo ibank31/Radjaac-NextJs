@@ -27,6 +27,19 @@
   --muted: #5b6b7c;
 
   --radius: 1.75rem;
+
+  /* ── Typography Scale ──────────────────────────────────────
+   * Digunakan sebagai panduan; Tailwind classes tetap primary.
+   * font-weight hierarchy:
+   *   900 (black)     → H1 hero only
+   *   800 (extrabold) → H2 section headings
+   *   700 (bold)      → H3 card titles, primary CTAs
+   *   600 (semibold)  → eyebrow labels, nav items, secondary CTAs
+   *   500 (medium)    → body emphasis, chips, badges
+   *   400 (normal)    → body text (leading-7 or leading-8)
+   * ─────────────────────────────────────────────────────── */
+  --text-eyebrow-tracking: 0.12em;
+  --text-heading-tracking: -0.02em;
 }
 
 @theme inline {

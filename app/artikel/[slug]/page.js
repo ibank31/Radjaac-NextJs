@@ -141,7 +141,7 @@ export default async function ArticleDetailPage({ params }) {
               </span>
             </div>
 
-            <h1 className="max-w-5xl text-3xl font-black leading-tight tracking-[-0.035em] sm:text-4xl lg:text-5xl">
+            <h1 className="max-w-5xl text-[1.65rem] font-extrabold leading-tight tracking-[-0.025em] sm:text-[2rem] lg:text-[2.5rem]">
               {item.h1}
             </h1>
 
@@ -190,7 +190,7 @@ export default async function ArticleDetailPage({ params }) {
                   <span className="flex h-11 w-11 shrink-0 items-center justify-center rounded-2xl bg-slate-950 text-sm font-black text-white">
                     {String(index + 1).padStart(2, "0")}
                   </span>
-                  <h2 className="pt-1 text-2xl font-black tracking-[-0.03em] text-slate-950 sm:text-3xl">
+                  <h2 className="pt-1 text-xl font-extrabold tracking-[-0.025em] text-slate-950 sm:text-2xl">
                     {section.heading}
                   </h2>
                 </div>
@@ -209,7 +209,7 @@ export default async function ArticleDetailPage({ params }) {
               <p className="mb-3 text-xs font-black uppercase tracking-[0.24em] text-blue-100">
                 Lanjutkan ke halaman terkait
               </p>
-              <h2 className="max-w-3xl text-2xl font-black tracking-[-0.03em] sm:text-3xl">
+              <h2 className="max-w-3xl text-xl font-extrabold tracking-[-0.025em] sm:text-2xl">
                 Pilih halaman lanjutan sesuai kebutuhan ruangan
               </h2>
             </div>
@@ -234,7 +234,7 @@ export default async function ArticleDetailPage({ params }) {
             <div className="mx-auto mb-4 flex h-12 w-12 items-center justify-center rounded-2xl bg-[#25D366] text-sm font-black text-slate-950">
               WA
             </div>
-            <h2 className="mb-3 text-2xl font-black tracking-[-0.03em] text-slate-950 sm:text-3xl">
+            <h2 className="mb-3 text-xl font-extrabold tracking-[-0.025em] text-slate-950 sm:text-2xl">
               Mulai pilih AC dari data ruangan
             </h2>
             <p className="mx-auto mb-6 max-w-2xl text-sm leading-7 text-slate-600">
@@ -252,7 +252,7 @@ export default async function ArticleDetailPage({ params }) {
 
           {relatedArticles.length > 0 ? (
             <section className="mt-12">
-              <h2 className="mb-5 text-2xl font-black tracking-[-0.03em] text-slate-950">Artikel terkait</h2>
+              <h2 className="mb-5 text-xl font-extrabold tracking-[-0.025em] text-slate-950">Artikel terkait</h2>
               <div className="grid gap-4 sm:grid-cols-2">
                 {relatedArticles.map((article) => (
                   <Link
