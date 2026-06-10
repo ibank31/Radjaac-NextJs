@@ -12,8 +12,9 @@ import SectionTitle from "@/components/area/SectionTitle";
 import AreaFaq from "@/components/area/AreaFaq";
 import AreaFinalCta from "@/components/area/AreaFinalCta";
 import AreaProcess from "@/components/area/AreaProcess";
-import {
 import { typography } from "@/lib/typography";
+
+import {
   areaPageLinkOverrides,
   brandLinks,
   categoryLinks,
