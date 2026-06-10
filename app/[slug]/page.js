@@ -98,21 +98,8 @@ export default async function AreaPage({ params }) {
 
   const faqItems = [
     ...(item.localFaq ?? []),
-    [
-      `Apakah pembayaran AC ${item.areaName} bisa COD, DP, atau transfer?`,
-      "Bisa dikonsultasikan. Pembayaran fleksibel melalui COD, DP, atau transfer, dengan detail yang dikonfirmasi bersama tim RADJA AC sebelum pengiriman atau pemasangan.",
-    ],
-    [
-      `Apakah RADJA AC punya toko fisik di ${item.areaName}?`,
-      isPurwokerto
-        ? "Showroom dan gudang RADJA AC berada di Pamijen, Sokaraja, Banyumas dan melayani area Purwokerto. Kirim kebutuhan agar tim mengecek stok aktif."
-        : `Showroom dan gudang RADJA AC berada di Banyumas. Untuk area ${item.areaName}, tim cek PK, stok, pengiriman unit, dan kebutuhan pemasangan berdasarkan data awal.`,
-    ],
-    [`Berapa estimasi anggaran AC untuk area ${item.areaName}?`, "Estimasi awal mulai dari 3 jutaan untuk unit + pemasangan standar tertentu. Tim RADJA AC cek rincian dari brand, PK, stok, alamat, dan kondisi pemasangan."],
-    ["Belum tahu butuh berapa PK?", "Kirim ukuran ruangan, daya listrik, jumlah orang, dan pola pemakaian. Tim RADJA AC mencocokkan kapasitas PK dari data itu."],
-    ["Beli unit AC tanpa pemasangan", "Kirim tipe unit, alamat pengiriman, dan jumlah unit. Tim RADJA AC cek stok aktif dan skema pengiriman."],
-    ["Brand apa saja yang tersedia?", "Tim RADJA AC cek Gree, Daikin, Midea, Hisense, Sharp, Panasonic, Samsung, Aqua, TCL, dan brand lain dari stok aktif."],
-    [`Bisa untuk kost, kantor, toko, atau proyek di ${item.areaName}?`, "Bisa. Untuk banyak unit, kirim jumlah ruangan, ukuran ruangan, daya listrik, target anggaran, timeline, dan lokasi."],
+    ["Belum tahu butuh berapa PK?", "Kirim ukuran ruangan, daya listrik, jumlah orang, dan pola pemakaian; kapasitas PK dicocokkan dari data itu."],
+    ["Brand AC apa saja yang tersedia?", "Stok bisa dicek untuk Gree, Daikin, Midea, Hisense, Sharp, Panasonic, Samsung, Aqua, TCL, dan brand lain sesuai ketersediaan."],
   ];
 
   const areaContent = resolveAreaContent(item);
