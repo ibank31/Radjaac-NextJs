@@ -31,14 +31,28 @@ export const areaItems = [
       "RSUD Prof. Dr. Margono Soekarjo",
     ],
     localBenefits: [
-      "Banyak kamar kos di sekitar kampus butuh AC hemat daya dengan skema banyak unit",
-      "Hotel, guest house, dan ruko komersial perlu kapasitas untuk pemakaian panjang",
-      "Pilihan low watt membantu kos dan kontrakan dengan daya listrik terbatas",
+      "Kos mahasiswa di sekitar UNSOED butuh banyak unit hemat daya dengan tipe seragam",
+      "Hotel, guest house, ruko, dan kantor di pusat kota perlu kapasitas untuk ruang publik dan pemakaian panjang",
+      "Pusat perdagangan yang padat dan panas membutuhkan PK yang dihitung dari luas dan lalu lalang pengunjung",
     ],
     localCases: [
-      ["Kos & kontrakan mahasiswa", "Pemilihan AC hemat daya untuk banyak kamar di sekitar kampus UNSOED."],
-      ["Hotel, guest house & ruko", "AC ruang publik dan kamar dengan pemakaian harian panjang di pusat kota."],
-      ["Rumah & kantor kota", "AC kamar dan ruang kerja dengan kapasitas sesuai luas ruangan."],
+      ["Kos & rumah sewa sekitar UNSOED", "Banyak unit hemat daya dengan tipe seragam untuk hunian mahasiswa."],
+      ["Hotel, guest house & perkantoran", "AC ruang publik dan kamar dengan pemakaian harian panjang di pusat kota."],
+      ["Toko, ruko & pusat perdagangan", "AC area pelanggan yang ramai dengan kapasitas sesuai luas dan pengunjung."],
+    ],
+    localFaq: [
+      [
+        "Berapa unit AC untuk kos banyak kamar dekat UNSOED?",
+        "Tergantung jumlah kamar dan daya listrik total bangunan. Kirim jumlah kamar dan daya agar tim bantu cek pilihan unit hemat daya dengan tipe seragam.",
+      ],
+      [
+        "AC untuk hotel, guest house, atau kantor di pusat kota Purwokerto?",
+        "Bisa. Kirim jumlah ruang atau kamar, ukuran, jam pemakaian, dan preferensi brand agar tim menyiapkan kapasitas dan pilihan untuk ruang publik.",
+      ],
+      [
+        "AC untuk toko atau ruko di pusat perdagangan Purwokerto?",
+        "Ditentukan dari luas, jumlah pengunjung, dan pintu yang sering terbuka. Kirim ukuran ruang usaha untuk perkiraan PK.",
+      ],
     ],
     label: "Jual AC Purwokerto",
     title: "Jual AC Purwokerto | Cek Stok, PK & Opsi Pemasangan — RADJA AC",
@@ -49,7 +63,7 @@ export const areaItems = [
     intro:
       "Butuh beli AC di Purwokerto untuk rumah, kost, toko, kantor, hotel, guest house, hospitality, atau banyak unit? Tim RADJA AC membantu membaca kebutuhan PK, daya listrik, pilihan brand, stok unit, pengiriman, dan opsi pemasangan sebelum pembelian.",
     localContext:
-      "Purwokerto menjadi area utama permintaan RADJA AC untuk kamar tidur, ruang keluarga, kost, kontrakan, toko, ruko, kantor, klinik, hotel, guest house, hospitality, serta pembelian beberapa unit. Karena tiap ruangan punya beban panas, ukuran, daya listrik, dan pola pemakaian berbeda, tim RADJA AC tidak langsung menebak unit, tetapi mengecek data ruangan, anggaran, brand, dan alamat terlebih dahulu.",
+      "Purwokerto adalah pusat kota dan kawasan kampus Banyumas: ada kampus UNSOED dengan ribuan kos mahasiswa, pusat perdagangan, hotel, ruko, dan perkantoran. Permintaan AC datang dari kos dan rumah sewa di sekitar kampus, hotel dan guest house, toko serta ruko di pusat perdagangan, dan kantor yang beroperasi seharian. Karena beban panas tiap ruang berbeda, tim RADJA AC mengecek ukuran ruangan, daya listrik, jam pemakaian, jumlah unit, dan alamat sebelum menentukan unit.",
     coverageNote:
       "Showroom dan gudang RADJA AC berada di Pamijen, Sokaraja, Banyumas. Untuk kebutuhan Purwokerto, stok unit, jadwal pengiriman, opsi pemasangan, dan kebutuhan material dikonfirmasi berdasarkan alamat serta kondisi lokasi.",
     commonNeeds: [
@@ -700,14 +714,28 @@ export const areaItems = [
         "Perumahan di ring timur Purwokerto",
       ],
       localBenefits: [
-        "Banyak kamar kos dan rumah sewa membutuhkan AC hemat daya per kamar",
-        "Skema banyak unit memudahkan pemilik kos menyiapkan AC bertahap",
-        "Pilihan low watt sesuai untuk hunian dengan daya listrik standar",
+        "Kos kecil dan kontrakan dengan banyak kamar membutuhkan unit hemat daya per kamar",
+        "Rumah sewa dan hunian warga dengan daya listrik terbatas cocok memakai low watt",
+        "Tipe unit seragam memudahkan pemilik kos merawat dan menambah AC bertahap",
       ],
       localCases: [
-        ["Kos & rumah sewa dekat kampus", "Pemilihan AC hemat daya untuk banyak kamar kecil dengan kapasitas seragam."],
-        ["Rumah tinggal ring timur", "AC kamar tidur dan ruang keluarga sesuai ukuran dan pola pemakaian."],
-        ["Toko & usaha lokal", "AC ruang usaha kecil di jalur Kembaran–Sokaraja."],
+        ["Kos kecil & kontrakan", "Banyak kamar kecil dengan unit hemat daya dan tipe seragam."],
+        ["Rumah sewa & hunian warga", "AC kamar untuk hunian dengan daya listrik standar."],
+        ["Penambahan unit bertahap", "Pemilik kos menambah AC per kamar mengikuti anggaran."],
+      ],
+      localFaq: [
+        [
+          "AC untuk kos kecil banyak kamar di Kembaran, pakai apa?",
+          "Untuk banyak kamar kecil, unit kapasitas kecil yang hemat daya biasanya cocok, tetapi tetap dicek dari daya listrik total bangunan. Kirim jumlah kamar dan daya untuk arahan.",
+        ],
+        [
+          "Bisa pasang AC bertahap untuk rumah sewa atau kontrakan di Kembaran?",
+          "Bisa. Banyak pemilik memasang per kamar secara bertahap. Kirim jumlah kamar dan target agar tim menyiapkan tipe seragam dan jadwal.",
+        ],
+        [
+          "AC low watt cukup untuk hunian Kembaran dengan daya terbatas?",
+          "Sering cocok untuk daya standar, tergantung jumlah unit yang menyala bersamaan. Kirim daya listrik dan jumlah unit agar dicek kecocokannya.",
+        ],
       ],
       label: "Jual AC Kembaran",
       title: "Jual AC Kembaran untuk Rumah, Kost & Usaha — RADJA AC",
@@ -718,7 +746,7 @@ export const areaItems = [
       intro:
         "Butuh AC di Kembaran untuk rumah, kost, kontrakan, toko, atau usaha? Tim RADJA AC cek ukuran ruangan, daya listrik, pilihan brand, stok unit, pengiriman, dan opsi pemasangan sebelum pembelian.",
       localContext:
-        "Kembaran punya kebutuhan AC dari rumah tinggal, kost, kontrakan, toko, dan ruang usaha. Untuk pemakaian kamar harian atau banyak kamar, pilihan AC perlu dibaca dari ukuran ruangan, daya listrik, pola pemakaian, jumlah unit, anggaran, dan kebutuhan pemasangan.",
+        "Kembaran adalah ring hunian di timur Purwokerto, dekat sisi kampus UNSOED Karangwangkal, dengan banyak kos kecil, rumah sewa, dan kontrakan. Permintaan AC umumnya berupa kamar-kamar kecil di kos dan kontrakan serta rumah tinggal warga, dengan daya listrik yang terbatas. Pemilik kos sering memasang AC per kamar secara bertahap, sehingga efisiensi daya dan tipe unit seragam jadi pertimbangan utama.",
       coverageNote:
         "Showroom dan gudang RADJA AC berada di Pamijen, Sokaraja, Banyumas. Untuk area Kembaran, pengiriman unit dan opsi pemasangan dikonfirmasi dari alamat detail, stok, jumlah unit, dan jadwal.",
       commonNeeds: [
@@ -1159,14 +1187,14 @@ export const areaItems = [
       "Kawasan pergudangan serta industri ringan",
     ],
     localBenefits: [
-      "Kapasitas PK perlu dihitung cermat karena udara pesisir yang panas dan lembap",
-      "Pilihan inverter membantu efisiensi untuk pemakaian kantor dan rumah seharian",
-      "Cocok untuk kebutuhan banyak unit di apartemen, kantor, dan ruko",
+      "Pengadaan banyak unit untuk kantor dan proyek lebih rapi dengan spesifikasi seragam",
+      "Kawasan industri dan perkantoran butuh kapasitas konsisten untuk pemakaian seharian",
+      "Dokumentasi kebutuhan dan estimasi memudahkan pengajuan internal perusahaan",
     ],
     localCases: [
-      ["Kantor & ruko", "AC ruang kerja dan area pelanggan dengan kapasitas dihitung dari luas dan jumlah orang."],
-      ["Apartemen & rumah", "Unit inverter untuk pemakaian harian di iklim kota yang panas."],
-      ["Pengadaan banyak unit", "Penyediaan beberapa unit untuk kantor, hotel, atau proyek dengan jadwal bertahap."],
+      ["Kantor & kawasan industri", "AC ruang kerja dan kantor pabrik dengan kapasitas dihitung dari luas dan jumlah staf."],
+      ["Pengadaan proyek banyak titik", "Penyediaan unit spesifikasi seragam dengan stok dan jadwal pemasangan bertahap."],
+      ["Gudang & mess pekerja", "AC ruang penunjang dan mess sesuai jumlah penghuni dan beban ruang."],
     ],
     label: "Jual AC Semarang",
     title: "Jual AC Semarang untuk Ruko, Kantor, Hotel & Proyek — RADJA AC",
@@ -1177,16 +1205,16 @@ export const areaItems = [
     intro:
       "Butuh AC untuk rumah, kantor, ruko, toko, hotel, developer, atau proyek di Semarang? RADJA AC cek kebutuhan PK, stok unit, pilihan brand, pengiriman, dan opsi pemasangan dari brief yang dikirim.",
     localContext:
-      "Semarang cocok untuk kebutuhan rumah, kantor, ruko, toko, hotel, proyek, pengadaan, dan banyak unit. Karena banyak kebutuhan komersial melibatkan beberapa ruangan atau deadline pekerjaan, siapkan data jumlah unit, ukuran ruangan, tipe bangunan, daya listrik, dan timeline sejak awal.",
+      "Semarang sebagai ibukota provinsi adalah pusat perkantoran, kawasan industri, dan pergudangan, dengan kebutuhan AC berskala kantor, ruang kerja, mess pekerja, dan pengadaan proyek banyak unit. Banyak permintaan datang dari perusahaan dan kontraktor yang butuh spesifikasi seragam, dokumentasi kebutuhan, dan jadwal pemasangan bertahap, sehingga tim RADJA AC mulai dari rekap jumlah ruang, kapasitas per ruang, daya listrik, dan timeline pekerjaan.",
     coverageNote:
       "Showroom dan gudang RADJA AC berada di Banyumas. Kebutuhan AC area Semarang dilayani dengan konsultasi PK, cek stok unit, pengiriman, serta opsi pemasangan sesuai alamat, jumlah unit, dan jadwal pekerjaan.",
     keywordVariants: [
-      "AC ruko dan toko",
-      "AC kantor dan ruang meeting",
-      "AC hotel dan guest house",
-      "AC proyek banyak titik",
-      "AC untuk ruang usaha padat aktivitas",
-      "Cek PK untuk ruangan panas perkotaan",
+      "AC kantor dan ruang kerja Semarang",
+      "AC kawasan industri Semarang",
+      "pengadaan AC proyek Semarang",
+      "AC banyak unit spesifikasi seragam",
+      "AC gudang dan mess pekerja",
+      "kontraktor dan developer AC Semarang",
     ],
     nearbyAreaLinks: [
       ["Jual AC Yogyakarta", routes.jualAcYogyakarta],
@@ -1196,27 +1224,27 @@ export const areaItems = [
       ["Jual AC Banjarnegara", routes.jualAcBanjarnegara],
     ],
     trustBullets: [
-      "Cek kebutuhan PK dari ukuran ruangan, fungsi bangunan, dan jam pemakaian",
-      "Cek stok brand seperti Gree, Daikin, Midea, Hisense, Sharp, Samsung, dan lainnya",
-      "Opsi pengiriman dan pemasangan dikonfirmasi berdasarkan alamat serta jumlah unit",
-      "Cocok untuk kebutuhan rumah, ruko, kantor, hotel, usaha, dan proyek banyak titik",
+      "Mulai dari rekap jumlah ruang, kapasitas per ruang, daya listrik, dan timeline proyek",
+      "Spesifikasi unit seragam untuk memudahkan perawatan, sparepart, dan administrasi",
+      "Pengiriman dan pemasangan bertahap dikonfirmasi sesuai kesiapan lokasi proyek",
+      "Cocok untuk kantor, kawasan industri, gudang, mess, dan pengadaan banyak titik",
     ],
     localFaq: [
       [
-        "Apakah RADJA AC punya toko fisik di Semarang?",
-        "Showroom dan gudang RADJA AC berada di Banyumas. Untuk kebutuhan AC Semarang, tim membantu cek stok, kapasitas PK, pengiriman, serta opsi pemasangan berdasarkan alamat dan jumlah unit.",
+        "Bisa pengadaan AC banyak unit untuk kantor atau proyek di Semarang?",
+        "Bisa. Kirim rekap jumlah ruang, luas, daya listrik, dan timeline agar tim menyusun unit spesifikasi seragam, stok, pengiriman, dan jadwal pemasangan bertahap.",
       ],
       [
-        "Bisa konsultasi AC untuk kantor, ruko, hotel, atau proyek di Semarang?",
-        "Bisa. Kirim ukuran ruangan, jumlah titik, tipe bangunan, daya listrik, preferensi brand, dan timeline pekerjaan agar tim RADJA AC menyiapkan arahan awal.",
+        "Apakah bisa minta spesifikasi unit seragam untuk proyek di Semarang?",
+        "Bisa, dan justru disarankan untuk proyek agar perawatan serta sparepart lebih mudah. Tim cek ketersediaan stok sesuai kebutuhan.",
       ],
       [
-        "Brand AC apa saja yang bisa dicek untuk Semarang?",
-        "Tim RADJA AC bisa membantu cek stok brand seperti Gree, Daikin, Midea, Hisense, Sharp, Samsung, Panasonic, Aqua, TCL, dan brand lain sesuai ketersediaan.",
+        "Bagaimana jadwal pemasangan banyak titik di kawasan industri Semarang?",
+        "Disusun bertahap mengikuti kesiapan lokasi dan stok. Kirim target waktu agar tim menyiapkan urutan pengiriman dan pemasangan.",
       ],
       [
-        "Apakah pembayaran bisa COD, DP, atau transfer?",
-        "Skema pembayaran fleksibel dapat dikonsultasikan. Detail COD, DP, atau transfer dikonfirmasi bersama tim RADJA AC sesuai kebutuhan unit, pengiriman, dan pemasangan.",
+        "Apakah RADJA AC melayani pengiriman ke Semarang dari Banyumas?",
+        "Ya. Showroom dan gudang berada di Banyumas; untuk Semarang tim mengatur pengiriman unit dan opsi pemasangan sesuai alamat dan jumlah unit.",
       ],
     ],
     commonNeeds: [
@@ -1258,14 +1286,14 @@ export const areaItems = [
       "Perkantoran serta area kost mahasiswa",
     ],
     localBenefits: [
-      "Suhu kota yang panas membuat pemilihan PK yang tepat penting agar ruangan cepat dingin",
-      "Pilihan inverter dan low watt menyesuaikan pola pemakaian rumah dan usaha",
-      "Mendukung kebutuhan banyak unit untuk hotel, kost, dan kantor",
+      "Hotel, guest house, dan penginapan wisata butuh unit kamar seragam dengan pemakaian malam panjang",
+      "Toko batik, retail, dan resto memerlukan kapasitas untuk ruang pelanggan yang ramai di kota panas",
+      "Kost di sekitar kampus cocok memakai unit hemat daya dengan banyak kamar",
     ],
     localCases: [
-      ["Usaha kuliner & resto", "AC ruang pelanggan agar nyaman di kota yang panas."],
-      ["Hotel & kost", "Pengadaan beberapa unit kamar dengan kapasitas yang seragam."],
-      ["Rumah & kantor", "Pemilihan unit harian yang efisien sesuai luas ruangan."],
+      ["Hotel & penginapan wisata", "Unit kamar dengan kapasitas seragam untuk okupansi wisata budaya."],
+      ["Toko batik, retail & resto", "AC ruang pelanggan agar nyaman di pusat dagang dan kuliner yang panas."],
+      ["Kost & rumah kota", "AC hunian dan kost dengan pilihan efisien sesuai daya dan pemakaian."],
     ],
     label: "Jual AC Solo",
     title: "Jual AC Solo untuk Rumah, Kost, Hotel & Usaha — RADJA AC",
@@ -1276,16 +1304,16 @@ export const areaItems = [
     intro:
       "Butuh AC di Solo untuk rumah, kost, hotel, toko, kantor, atau usaha? Tim RADJA AC cek PK, daya listrik, brand, stok, pengiriman, dan pemasangan sebelum unit dipilih.",
     localContext:
-      "Solo memiliki kebutuhan AC dari rumah, kost, toko, kantor, sampai hospitality. Agar tidak hanya mengejar harga awal yang terlihat ringan, tim RADJA AC akan mengecek ukuran ruangan, daya listrik, pola pemakaian, jumlah unit, dan kebutuhan unit saja atau opsi pemasangan.",
+      "Solo (Surakarta) adalah kota budaya dan dagang yang panas, dengan denyut dari hotel dan penginapan wisata, retail, toko batik, kuliner, kost, dan kampus. Permintaan AC banyak datang dari kamar hotel dan guest house, ruang pelanggan toko batik dan retail, resto, serta kost di sekitar kampus. Karena ruang publik dan kamar tamu dipakai lama, tim RADJA AC mengecek luas ruangan, jam pemakaian, jumlah kamar, dan efisiensi sebelum memilih unit.",
     coverageNote:
       "Showroom dan gudang RADJA AC berada di Banyumas. Kebutuhan AC area Solo dilayani dengan konsultasi PK, cek stok unit, pengiriman, dan opsi pemasangan sesuai lokasi, jumlah unit, serta jadwal.",
     keywordVariants: [
-      "AC rumah dan kamar tidur",
-      "AC kost dan kontrakan",
-      "AC toko, ruko, dan kantor",
-      "AC hotel dan guest house",
-      "Banyak unit untuk usaha",
-      "Cek PK sebelum pilih unit",
+      "AC hotel dan guest house Solo",
+      "AC toko batik dan retail Solo",
+      "AC resto dan kuliner Solo",
+      "AC kost dekat kampus Solo",
+      "AC hunian kota Solo",
+      "cek PK untuk ruang pelanggan",
     ],
     nearbyAreaLinks: [
       ["Jual AC Semarang", routes.jualAcSemarang],
@@ -1295,27 +1323,27 @@ export const areaItems = [
       ["Jual AC Tegal", routes.jualAcTegal],
     ],
     trustBullets: [
-      "Cek kebutuhan PK untuk rumah, kost, hotel, guest house, toko, ruko, dan kantor",
-      "Cek stok brand seperti Gree, Daikin, Midea, Hisense, Sharp, Samsung, dan lainnya",
-      "Opsi pengiriman dan pemasangan dikonfirmasi berdasarkan alamat, jumlah unit, dan jadwal",
-      "Cocok untuk pembelian satu unit maupun banyak unit untuk usaha atau proyek",
+      "Cek kebutuhan PK untuk kamar hotel, ruang pelanggan retail, resto, dan kost",
+      "Unit kamar seragam memudahkan perawatan untuk hotel dan penginapan wisata",
+      "Opsi pengiriman dan pemasangan dikonfirmasi sesuai alamat, jumlah kamar, dan jadwal",
+      "Cocok untuk hospitality, retail, toko batik, kuliner, dan hunian kota",
     ],
     localFaq: [
       [
-        "Apakah RADJA AC punya toko fisik di Solo?",
-        "Showroom dan gudang RADJA AC berada di Banyumas. Untuk kebutuhan AC Solo, tim membantu cek stok, kapasitas PK, pengiriman, dan opsi pemasangan berdasarkan alamat serta jumlah unit.",
+        "AC untuk kamar hotel atau guest house wisata di Solo, pilih apa?",
+        "Untuk kamar yang dipakai malam panjang, inverter umumnya lebih efisien dan unit seragam memudahkan perawatan. Kirim jumlah kamar dan ukuran untuk arahan.",
       ],
       [
-        "Bisa konsultasi AC untuk kost, hotel, toko, atau kantor di Solo?",
-        "Bisa. Kirim ukuran ruangan, jumlah titik, daya listrik, preferensi brand, target anggaran, dan timeline agar tim RADJA AC menyiapkan arahan awal.",
+        "AC untuk toko batik, retail, atau resto di Solo?",
+        "Ditentukan dari luas ruang pelanggan, jumlah pengunjung, dan pintu yang sering terbuka. Kirim ukuran ruang usaha untuk perkiraan PK.",
       ],
       [
-        "Apa yang perlu disiapkan sebelum beli AC untuk area Solo?",
-        "Siapkan ukuran ruangan, tinggi plafon, daya listrik, jumlah unit, tipe bangunan, preferensi brand, dan apakah butuh unit saja atau opsi pemasangan.",
+        "AC untuk kost dekat kampus di Solo, hemat daya?",
+        "Untuk banyak kamar, unit hemat daya dengan tipe seragam biasanya cocok, dicek dari daya listrik total. Kirim jumlah kamar dan daya untuk arahan.",
       ],
       [
-        "Apakah pembayaran bisa COD, DP, atau transfer?",
-        "Skema pembayaran fleksibel bisa dikonsultasikan. Detail COD, DP, atau transfer dikonfirmasi bersama tim RADJA AC sesuai kebutuhan unit, pengiriman, dan pemasangan.",
+        "Apakah RADJA AC melayani pengiriman ke Solo dari Banyumas?",
+        "Ya. Showroom dan gudang berada di Banyumas; untuk Solo tim mengatur pengiriman unit dan opsi pemasangan sesuai alamat dan jumlah unit.",
       ],
     ],
     commonNeeds: [
@@ -2701,8 +2729,7 @@ export const areaClusterMap = {
   // Hospitality & wisata
   "jual-ac-baturraden": "hospitality",
   "jual-ac-banjarnegara": "hospitality",
-  // Kos & pendidikan
-  "jual-ac-purwokerto": "education",
+  // Kos & pendidikan (Kembaran = kos kecil/rumah sewa/kontrakan sekitar kampus)
   "jual-ac-kembaran": "education",
   // Residential
   "jual-ac-banyumas": "residential",
@@ -2733,6 +2760,8 @@ export const areaClusterMap = {
   "jual-ac-tegal": "industrial",
   "jual-ac-semarang": "industrial",
   // Kota besar & hospitality urban
+  // Purwokerto = pusat kota komersial (UNSOED, hotel, kantor, perdagangan)
+  "jual-ac-purwokerto": "urban",
   "jual-ac-yogyakarta": "urban",
   "jual-ac-solo": "urban",
 };
