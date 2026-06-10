@@ -90,10 +90,10 @@ export default async function CatalogDetailPage({ params }) {
       [item.label, item.path],
     ]),
     serviceSchema({
-      name: item.label,
+      name: `Konsultasi pemilihan ${item.label}`,
       description: item.description,
       url: item.path,
-      serviceType: "Penjualan AC",
+      serviceType: "Konsultasi pemilihan AC",
     }),
   ];
 
