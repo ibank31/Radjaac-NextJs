@@ -31,6 +31,43 @@ const footerGroups = [
       { label: "Artikel Panduan", href: routes.artikel },
     ],
   },
+  {
+    title: "Area Layanan",
+    links: [
+      { label: "Jual AC Purwokerto", href: routes.jualAcPurwokerto },
+      { label: "Jual AC Banyumas", href: routes.jualAcBanyumas },
+      { label: "Jual AC Sokaraja", href: routes.jualAcSokaraja },
+      { label: "Jual AC Baturraden", href: routes.jualAcBaturraden },
+      { label: "Jual AC Karanglewas", href: routes.jualAcKaranglewas },
+      { label: "Jual AC Kembaran", href: routes.jualAcKembaran },
+      { label: "Jual AC Patikraja", href: routes.jualAcPatikraja },
+      { label: "Jual AC Rawalo", href: routes.jualAcRawalo },
+      { label: "Jual AC Purbalingga", href: routes.jualAcPurbalingga },
+      { label: "Jual AC Cilacap", href: routes.jualAcCilacap },
+      { label: "Jual AC Kebumen", href: routes.jualAcKebumen },
+      { label: "Jual AC Semarang", href: routes.jualAcSemarang },
+      { label: "Jual AC Solo", href: routes.jualAcSolo },
+    ],
+  },
+  {
+    title: "Kategori AC",
+    links: [
+      { label: "AC 0.5 PK", href: routes.katalogAcSetengahPk },
+      { label: "AC 1 PK", href: routes.katalogAcSatuPk },
+      { label: "AC 1.5 PK", href: routes.katalogAcSatuSetengahPk },
+      { label: "AC 2 PK", href: routes.katalogAcDuaPk },
+    ],
+  },
+  {
+    title: "Pengadaan",
+    links: [
+      { label: "Cafe & Resto", href: routes.pengadaanCafeResto },
+      { label: "Gedung Kantor", href: routes.pengadaanGedungKantorRuko },
+      { label: "Hotel", href: routes.pengadaanHotelGuestHouse },
+      { label: "Kost", href: routes.pengadaanKostApartemen },
+      { label: "Kontraktor", href: routes.pengadaanKontraktorDeveloper },
+    ],
+  },
 ];
 
 const trustHighlights = [
