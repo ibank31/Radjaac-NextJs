@@ -114,6 +114,11 @@ export default async function AreaPage({ params }) {
     [`Bisa untuk kost, kantor, toko, atau proyek di ${item.areaName}?`, "Bisa. Untuk banyak unit, kirim jumlah ruangan, ukuran ruangan, daya listrik, target anggaran, timeline, dan lokasi."],
   ];
 
+  const hasLocalUniqueContent =
+    Boolean(item.localLandmarks?.length) ||
+    Boolean(item.localCases?.length) ||
+    Boolean(item.localBenefits?.length);
+
   const structuredData = [
     breadcrumbSchema([
       ["Beranda", routes.home],
@@ -190,6 +195,55 @@ export default async function AreaPage({ params }) {
           </div>
         </div>
       </section>
+
+      {hasLocalUniqueContent ? (
+        <section className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8 lg:py-12">
+          <SectionTitle
+            eyebrow={`SEPUTAR ${item.areaName.toUpperCase()}`}
+            title={`Konteks lokal AC di ${item.areaName}`}
+            description={item.localContext}
+          />
+          <div className="grid gap-5 lg:grid-cols-3">
+            {item.localBenefits?.length ? (
+              <div className="rounded-[1.45rem] border border-slate-200 bg-white p-6">
+                <h3 className="mb-4 text-lg font-black text-slate-950">{`Kenapa relevan di ${item.areaName}`}</h3>
+                <ul className="space-y-3">
+                  {item.localBenefits.map((benefit) => (
+                    <li key={benefit} className="rounded-2xl border border-slate-200 bg-[#f8fbff] p-4 text-sm font-semibold leading-6 text-slate-700">
+                      {benefit}
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            ) : null}
+            {item.localCases?.length ? (
+              <div className="rounded-[1.45rem] border border-slate-200 bg-white p-6">
+                <h3 className="mb-4 text-lg font-black text-slate-950">{`Contoh kebutuhan dari ${item.areaName}`}</h3>
+                <ul className="space-y-3">
+                  {item.localCases.map(([caseTitle, caseDetail]) => (
+                    <li key={caseTitle} className="rounded-2xl border border-slate-200 bg-[#f8fbff] p-4 text-sm leading-6 text-slate-700">
+                      <span className="block font-black text-slate-950">{caseTitle}</span>
+                      {caseDetail ? <span className="mt-1 block text-slate-600">{caseDetail}</span> : null}
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            ) : null}
+            {item.localLandmarks?.length ? (
+              <div className="rounded-[1.45rem] border border-slate-200 bg-white p-6">
+                <h3 className="mb-4 text-lg font-black text-slate-950">Area &amp; titik yang sering dilayani</h3>
+                <div className="flex flex-wrap gap-2">
+                  {item.localLandmarks.map((landmark) => (
+                    <span key={landmark} className="rounded-full border border-slate-200 bg-[#f8fbff] px-3 py-2 text-xs font-bold text-slate-700">
+                      {landmark}
+                    </span>
+                  ))}
+                </div>
+              </div>
+            ) : null}
+          </div>
+        </section>
+      ) : null}
 
       <section id="estimasi-anggaran" className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8 lg:py-12">
         <div className="rounded-[1.7rem] border border-blue-100 bg-blue-50 p-5 sm:p-6 lg:p-8">

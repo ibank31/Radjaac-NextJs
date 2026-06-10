@@ -583,6 +583,22 @@ export const areaItems = [
       slug: "jual-ac-karanglewas",
       path: routes.jualAcKaranglewas,
       areaName: "Karanglewas",
+      localLandmarks: [
+        "Kawasan perumahan dan cluster di Karanglewas",
+        "Ruko dan toko di jalur Karanglewas–Purwokerto",
+        "Pasar serta area usaha lokal",
+        "Akses dekat pusat kota Purwokerto",
+      ],
+      localBenefits: [
+        "Dekat basis layanan Banyumas sehingga pengiriman unit dan survei lokasi relatif mudah dijadwalkan",
+        "Cocok untuk rumah dan ruko yang umumnya butuh 1/2–1 PK dengan pemasangan rapi",
+        "Pilihan inverter relevan untuk pemakaian harian di rumah keluarga",
+      ],
+      localCases: [
+        ["Rumah perumahan baru", "Pemasangan AC kamar utama dan ruang keluarga dengan jalur pipa yang rapi."],
+        ["Ruko & toko", "AC untuk area pelanggan dan ruang kerja dengan kapasitas menyesuaikan luas ruangan."],
+        ["Tambah unit bertahap", "Beberapa keluarga menambah unit per kamar secara bertahap sesuai anggaran."],
+      ],
       label: "Jual AC Karanglewas",
       title: "Jual AC Karanglewas untuk Rumah, Kost & Usaha — RADJA AC",
       description:
@@ -737,6 +753,22 @@ export const areaItems = [
       slug: "jual-ac-patikraja",
       path: routes.jualAcPatikraja,
       areaName: "Patikraja",
+      localLandmarks: [
+        "Jalur Purwokerto–Patikraja–Banyumas",
+        "Kawasan dekat aliran Sungai Serayu",
+        "Permukiman dan area persawahan Patikraja",
+        "Ruko serta usaha lokal di sepanjang jalan utama",
+      ],
+      localBenefits: [
+        "Relevan untuk rumah yang terasa panas pada siang hari dan butuh pendinginan kamar",
+        "Pilihan low watt membantu rumah dengan daya listrik terbatas",
+        "Dekat jalur Banyumas sehingga pengiriman unit mudah dijadwalkan",
+      ],
+      localCases: [
+        ["Rumah tinggal", "AC kamar tidur agar tetap nyaman saat siang yang panas."],
+        ["Kost & rumah sewa", "Pemilihan unit hemat daya untuk beberapa kamar sekaligus."],
+        ["Toko & kantor kecil", "AC ruang pelanggan dan ruang kerja dengan kapasitas sesuai luas ruangan."],
+      ],
       label: "Jual AC Patikraja",
       title: "Jual AC Patikraja untuk Rumah, Toko & Usaha — RADJA AC",
       description:
@@ -813,6 +845,22 @@ export const areaItems = [
       slug: "jual-ac-rawalo",
       path: routes.jualAcRawalo,
       areaName: "Rawalo",
+      localLandmarks: [
+        "Jalur Purwokerto–Rawalo–Buntu",
+        "Kawasan Jembatan Serayu Rawalo",
+        "Area pertigaan dan usaha tepi jalan utama",
+        "Permukiman serta persawahan Rawalo",
+      ],
+      localBenefits: [
+        "Cocok untuk toko dan warung di tepi jalur yang ingin ruang lebih nyaman bagi pelanggan",
+        "Pilihan low watt sesuai untuk rumah dengan daya listrik standar",
+        "Posisi di jalur utama memudahkan penjadwalan pengiriman unit",
+      ],
+      localCases: [
+        ["Toko & warung tepi jalan", "AC ruang pelanggan agar betah meski lalu lintas padat dan udara panas."],
+        ["Rumah tinggal", "Pendinginan kamar dengan unit yang hemat daya."],
+        ["Kantor kecil & usaha", "Pemilihan kapasitas AC sesuai luas ruang kerja."],
+      ],
       label: "Jual AC Rawalo",
       title: "Jual AC Rawalo untuk Rumah, Toko & Usaha — RADJA AC",
       description:
@@ -890,6 +938,22 @@ export const areaItems = [
       slug: "jual-ac-baturraden",
       path: routes.jualAcBaturraden,
       areaName: "Baturraden",
+      localLandmarks: [
+        "Kawasan Lokawisata Baturraden",
+        "Area villa, homestay, dan guest house",
+        "Kafe dan resto di jalur wisata Purwokerto–Baturraden",
+        "Permukiman di kaki Gunung Slamet",
+      ],
+      localBenefits: [
+        "Cocok untuk kamar penginapan dan villa yang perlu suhu stabil saat okupansi tinggi",
+        "Pilihan low watt membantu penginapan kecil menjaga daya listrik",
+        "Unit hemat energi relevan untuk kafe dan ruang usaha dengan jam buka panjang",
+      ],
+      localCases: [
+        ["Homestay & villa wisata", "Pemilihan AC kamar dan ruang bersama untuk penginapan yang ramai saat akhir pekan."],
+        ["Kafe & resto jalur wisata", "AC ruang pelanggan agar tetap nyaman walau pengunjung padat."],
+        ["Rumah kawasan sejuk", "Sebagian rumah hanya butuh AC di kamar tertentu, bukan seluruh ruangan."],
+      ],
       label: "Jual AC Baturraden",
       title: "Jual AC Baturraden untuk Rumah, Villa & Penginapan — RADJA AC",
       description:
@@ -1054,6 +1118,22 @@ export const areaItems = [
     slug: "jual-ac-semarang",
     path: routes.jualAcSemarang,
     areaName: "Semarang",
+    localLandmarks: [
+      "Kawasan kota bawah Semarang yang panas dan lembap",
+      "Area perumahan, apartemen, dan ruko komersial",
+      "Perkantoran dan pusat usaha kota",
+      "Kawasan pergudangan serta industri ringan",
+    ],
+    localBenefits: [
+      "Kapasitas PK perlu dihitung cermat karena udara pesisir yang panas dan lembap",
+      "Pilihan inverter membantu efisiensi untuk pemakaian kantor dan rumah seharian",
+      "Cocok untuk kebutuhan banyak unit di apartemen, kantor, dan ruko",
+    ],
+    localCases: [
+      ["Kantor & ruko", "AC ruang kerja dan area pelanggan dengan kapasitas dihitung dari luas dan jumlah orang."],
+      ["Apartemen & rumah", "Unit inverter untuk pemakaian harian di iklim kota yang panas."],
+      ["Pengadaan banyak unit", "Penyediaan beberapa unit untuk kantor, hotel, atau proyek dengan jadwal bertahap."],
+    ],
     label: "Jual AC Semarang",
     title: "Jual AC Semarang untuk Ruko, Kantor, Hotel & Proyek — RADJA AC",
     description:
@@ -1137,6 +1217,22 @@ export const areaItems = [
     slug: "jual-ac-solo",
     path: routes.jualAcSolo,
     areaName: "Solo",
+    localLandmarks: [
+      "Kawasan kota Solo (Surakarta) yang panas",
+      "Sentra kuliner dan area usaha",
+      "Hotel, guest house, dan penginapan",
+      "Perkantoran serta area kost mahasiswa",
+    ],
+    localBenefits: [
+      "Suhu kota yang panas membuat pemilihan PK yang tepat penting agar ruangan cepat dingin",
+      "Pilihan inverter dan low watt menyesuaikan pola pemakaian rumah dan usaha",
+      "Mendukung kebutuhan banyak unit untuk hotel, kost, dan kantor",
+    ],
+    localCases: [
+      ["Usaha kuliner & resto", "AC ruang pelanggan agar nyaman di kota yang panas."],
+      ["Hotel & kost", "Pengadaan beberapa unit kamar dengan kapasitas yang seragam."],
+      ["Rumah & kantor", "Pemilihan unit harian yang efisien sesuai luas ruangan."],
+    ],
     label: "Jual AC Solo",
     title: "Jual AC Solo untuk Rumah, Kost, Hotel & Usaha — RADJA AC",
     description:
