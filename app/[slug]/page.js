@@ -5,6 +5,7 @@ import { routes } from "@/content/routes";
 import { buildMetadata } from "@/lib/seo";
 import { breadcrumbSchema, faqSchema, serviceSchema } from "@/lib/schema";
 import { areaItems, getAreaItem } from "@/content/areas";
+import { resolveAreaContent } from "@/content/area-content-templates";
 import WhatsappLink from "@/components/ui/WhatsappLink";
 import JsonLd from "@/components/seo/JsonLd";
 import SectionTitle from "@/components/area/SectionTitle";
@@ -114,10 +115,7 @@ export default async function AreaPage({ params }) {
     [`Bisa untuk kost, kantor, toko, atau proyek di ${item.areaName}?`, "Bisa. Untuk banyak unit, kirim jumlah ruangan, ukuran ruangan, daya listrik, target anggaran, timeline, dan lokasi."],
   ];
 
-  const hasLocalUniqueContent =
-    Boolean(item.localLandmarks?.length) ||
-    Boolean(item.localCases?.length) ||
-    Boolean(item.localBenefits?.length);
+  const areaContent = resolveAreaContent(item);
 
   const structuredData = [
     breadcrumbSchema([
@@ -196,19 +194,24 @@ export default async function AreaPage({ params }) {
         </div>
       </section>
 
-      {hasLocalUniqueContent ? (
+      {(areaContent.localContext ||
+        areaContent.benefits.length ||
+        areaContent.cases.length ||
+        areaContent.landmarks.length ||
+        areaContent.buyerGuide ||
+        areaContent.clusterFaq.length) ? (
         <section className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8 lg:py-12">
           <SectionTitle
             eyebrow={`SEPUTAR ${item.areaName.toUpperCase()}`}
             title={`Konteks lokal AC di ${item.areaName}`}
-            description={item.localContext}
+            description={areaContent.localContext ?? undefined}
           />
           <div className="grid gap-5 lg:grid-cols-3">
-            {item.localBenefits?.length ? (
+            {areaContent.benefits.length ? (
               <div className="rounded-[1.45rem] border border-slate-200 bg-white p-6">
                 <h3 className="mb-4 text-lg font-black text-slate-950">{`Kenapa relevan di ${item.areaName}`}</h3>
                 <ul className="space-y-3">
-                  {item.localBenefits.map((benefit) => (
+                  {areaContent.benefits.map((benefit) => (
                     <li key={benefit} className="rounded-2xl border border-slate-200 bg-[#f8fbff] p-4 text-sm font-semibold leading-6 text-slate-700">
                       {benefit}
                     </li>
@@ -216,11 +219,11 @@ export default async function AreaPage({ params }) {
                 </ul>
               </div>
             ) : null}
-            {item.localCases?.length ? (
+            {areaContent.cases.length ? (
               <div className="rounded-[1.45rem] border border-slate-200 bg-white p-6">
                 <h3 className="mb-4 text-lg font-black text-slate-950">{`Contoh kebutuhan dari ${item.areaName}`}</h3>
                 <ul className="space-y-3">
-                  {item.localCases.map(([caseTitle, caseDetail]) => (
+                  {areaContent.cases.map(([caseTitle, caseDetail]) => (
                     <li key={caseTitle} className="rounded-2xl border border-slate-200 bg-[#f8fbff] p-4 text-sm leading-6 text-slate-700">
                       <span className="block font-black text-slate-950">{caseTitle}</span>
                       {caseDetail ? <span className="mt-1 block text-slate-600">{caseDetail}</span> : null}
@@ -229,11 +232,11 @@ export default async function AreaPage({ params }) {
                 </ul>
               </div>
             ) : null}
-            {item.localLandmarks?.length ? (
+            {areaContent.landmarks.length ? (
               <div className="rounded-[1.45rem] border border-slate-200 bg-white p-6">
-                <h3 className="mb-4 text-lg font-black text-slate-950">Area &amp; titik yang sering dilayani</h3>
+                <h3 className="mb-4 text-lg font-black text-slate-950">Landmark &amp; titik lokal yang sering dilayani</h3>
                 <div className="flex flex-wrap gap-2">
-                  {item.localLandmarks.map((landmark) => (
+                  {areaContent.landmarks.map((landmark) => (
                     <span key={landmark} className="rounded-full border border-slate-200 bg-[#f8fbff] px-3 py-2 text-xs font-bold text-slate-700">
                       {landmark}
                     </span>
@@ -242,6 +245,37 @@ export default async function AreaPage({ params }) {
               </div>
             ) : null}
           </div>
+
+          {areaContent.buyerGuide ? (
+            <div className="mt-6 rounded-[1.7rem] border border-blue-100 bg-blue-50/60 p-6 sm:p-8">
+              <h3 className="mb-2 text-xl font-black text-slate-950">{areaContent.buyerGuide.title}</h3>
+              {areaContent.buyerGuide.intro ? (
+                <p className="mb-5 max-w-3xl text-sm leading-7 text-slate-600">{areaContent.buyerGuide.intro}</p>
+              ) : null}
+              <div className="grid gap-4 md:grid-cols-3">
+                {areaContent.buyerGuide.points.map(([heading, detail]) => (
+                  <div key={heading} className="rounded-[1.25rem] border border-slate-200 bg-white p-5">
+                    <h4 className="mb-2 text-base font-black text-slate-950">{heading}</h4>
+                    <p className="text-sm leading-6 text-slate-600">{detail}</p>
+                  </div>
+                ))}
+              </div>
+            </div>
+          ) : null}
+
+          {areaContent.clusterFaq.length ? (
+            <div className="mt-6">
+              <h3 className="mb-4 text-lg font-black text-slate-950">{`Pertanyaan seputar AC di ${item.areaName}`}</h3>
+              <div className="grid gap-3 md:grid-cols-2">
+                {areaContent.clusterFaq.map(([question, answer]) => (
+                  <details key={question} className="group rounded-[1.25rem] border border-slate-200 bg-white p-5">
+                    <summary className="cursor-pointer list-none text-sm font-black text-slate-950">{question}</summary>
+                    <p className="mt-2 text-sm leading-6 text-slate-600">{answer}</p>
+                  </details>
+                ))}
+              </div>
+            </div>
+          ) : null}
         </section>
       ) : null}
 
