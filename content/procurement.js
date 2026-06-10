@@ -11,16 +11,16 @@ export const procurementItems = [
     h1: "Pengadaan AC untuk kost, apartemen, dan hunian banyak kamar",
     eyebrow: "Pengadaan AC",
     intro:
-      "Untuk kost, apartemen, kontrakan, atau hunian banyak kamar, pengadaan AC perlu membaca jumlah kamar, daya listrik, tipe unit, dan kesiapan pemasangan. Data ini membantu pembelian banyak unit lebih tertata, baik untuk kebutuhan langsung maupun pemasangan bertahap.",
+      "Untuk kost, apartemen, kontrakan, dan hunian banyak kamar, unit AC disiapkan dari stok gudang RADJA AC di Sokaraja, Banyumas. Cocok untuk owner kost, investor, dan pengelola yang butuh AC banyak kamar dengan tipe seragam, pilihan low watt untuk daya listrik per kamar, dan pengiriman bertahap mengikuti kamar yang siap.",
     segmentContext:
-      "Untuk kost dan apartemen, unit biasanya perlu mudah dirawat, tipenya seragam, dan konsumsi listriknya masuk akal. Untuk kebutuhan banyak kamar, opsi harga proyek bisa dibahas berdasarkan jumlah unit, tipe 1/2 PK atau low watt, pilihan brand, stok aktif, serta rencana pengiriman atau pemasangan bertahap.",
+      "Stok AC 1/2 PK, 1 PK, dan low watt untuk kebutuhan banyak kamar tersedia di gudang dan bisa dikirim sekaligus atau bertahap per lantai. Tipe unit seragam memudahkan perawatan dan penggantian antar kamar. Opsi harga untuk banyak unit dibahas dari jumlah kamar, tipe unit, dan jadwal kirim.",
     coordinationNote:
-      "Koordinasi lokasi atau survey dibahas sejak awal berdasarkan jumlah unit, area, akses pekerjaan, dan jadwal. Data ruangan dan lokasi membantu proses cek kebutuhan sebelum unit dipilih.",
+      "Pengiriman dijadwalkan dari gudang Sokaraja, sekaligus atau bertahap mengikuti kamar yang siap. Pemasangan dikerjakan tim RADJA AC dengan garansi pemasangan 1 bulan, atau unit dikirim untuk dipasang tim sendiri.",
     commonNeeds: [
-      "AC banyak kamar untuk kost, kontrakan, mess, atau hunian sewa",
-      "Pilihan unit seragam agar perawatan dan penggantian lebih mudah",
-      "Opsi standard, low watt, atau inverter sesuai daya listrik bangunan",
-      "Pengiriman dan pemasangan bertahap sesuai kesiapan kamar",
+      "Stok AC banyak kamar untuk kost, kontrakan, mess, atau hunian sewa",
+      "Tipe unit seragam agar perawatan dan penggantian antar kamar lebih mudah",
+      "Pilihan low watt untuk daya listrik per kamar yang terbatas",
+      "Pengiriman dan pemasangan bertahap mengikuti kamar yang siap",
     ],
     buyingChecks: [
       "Jumlah kamar siap pasang dan kamar yang menyusul",
@@ -36,8 +36,26 @@ export const procurementItems = [
       ["Brand Gree", routes.brandGree],
       ["Brand Midea", routes.brandMidea],
     ],
-    waIntent: "konsultasi pengadaan AC kost dan apartemen",
+    waIntent: "kirim jumlah kamar, ukuran kamar, daya listrik per kamar, dan lokasi untuk pengadaan AC kost dan apartemen banyak unit",
     waProjectType: "Kost / Apartemen",
+    faqs: [
+      [
+        "Bisa pengadaan AC untuk kost banyak kamar sekaligus?",
+        "Bisa. Stok AC 1/2 PK, 1 PK, dan low watt tersedia di gudang Sokaraja untuk kebutuhan banyak kamar. Kirim jumlah kamar dan ukurannya, unit disiapkan dari stok aktif.",
+      ],
+      [
+        "Ada AC low watt untuk kost dengan daya listrik per kamar terbatas?",
+        "Ada. Pilihan low watt cocok untuk kamar kost dengan daya per kamar terbatas. Tipe unit seragam juga memudahkan perawatan dan penggantian antar kamar.",
+      ],
+      [
+        "Unit bisa dikirim dan dipasang bertahap per lantai?",
+        "Bisa. Pengiriman dijadwalkan dari gudang sekaligus atau bertahap mengikuti kamar yang siap, lalu pemasangan menyusul sesuai jadwal.",
+      ],
+      [
+        "Bagaimana garansi untuk pemakaian kost?",
+        "Garansi unit mengikuti ketentuan resmi brand. Pemasangan yang dikerjakan tim RADJA AC bergaransi 1 bulan, dan ada bantuan klaim bila terjadi kendala unit.",
+      ],
+    ],
   },
   {
     slug: "hotel-guest-house",
@@ -49,16 +67,16 @@ export const procurementItems = [
     h1: "Pengadaan AC untuk hotel, guest house, homestay, dan penginapan",
     eyebrow: "Pengadaan AC",
     intro:
-      "Untuk hotel, guest house, homestay, atau villa, AC berpengaruh langsung ke kenyamanan tamu. Pemilihan unit perlu mempertimbangkan ukuran kamar, tingkat kebisingan, durasi pemakaian, daya listrik, kesiapan stok, dan jadwal pekerjaan agar operasional tidak terganggu.",
+      "Untuk hotel, guest house, homestay, dan villa, unit AC disiapkan dari stok gudang RADJA AC di Sokaraja, Banyumas. Cocok untuk owner, purchasing, dan chief engineer yang butuh AC kamar hotel dengan suara unit nyaman untuk tamu, brand seragam antar kamar, dan jadwal kerja yang tidak mengganggu okupansi.",
     segmentContext:
-      "Untuk penginapan, AC harus nyaman untuk tamu dan jadwal pekerjaan perlu menyesuaikan okupansi. Opsi harga proyek bisa dicek berdasarkan jumlah kamar, tipe unit, standar kenyamanan, pilihan brand, stok aktif, serta jadwal pekerjaan agar tidak mengganggu operasional.",
+      "Stok unit untuk kamar tamu, lobby, dan area bersama tersedia dan bisa dikirim bertahap mengikuti kesiapan kamar. Brand seragam menjaga kenyamanan antar kamar dan pemakaian lama. Opsi harga untuk banyak unit dibahas dari jumlah kamar, tipe unit, dan jadwal kirim.",
     coordinationNote:
-      "Koordinasi lokasi atau survey dibahas sejak awal sesuai jumlah unit, area, jadwal, dan kebutuhan proyek. Kirim data kamar, foto lokasi, atau daftar kebutuhan awal.",
+      "Pengiriman dijadwalkan dari gudang Sokaraja, bertahap mengikuti kamar yang siap atau saat okupansi rendah. Pemasangan dikerjakan tim RADJA AC dengan garansi pemasangan 1 bulan, diatur agar tidak mengganggu tamu menginap.",
     commonNeeds: [
-      "AC kamar tamu hotel, guest house, homestay, atau villa",
+      "Stok AC kamar tamu hotel, guest house, homestay, atau villa",
       "AC lobby, resepsionis, ruang tunggu, dan area bersama",
-      "Pilihan unit yang nyaman untuk pemakaian lama dan tamu berganti",
-      "Koordinasi pekerjaan agar tidak mengganggu okupansi kamar",
+      "Brand seragam untuk kenyamanan antar kamar dan pemakaian lama",
+      "Pengiriman bertahap dan jadwal pemasangan yang tidak mengganggu okupansi",
     ],
     buyingChecks: [
       "Jumlah kamar aktif, kamar cadangan, dan area publik",
@@ -74,8 +92,26 @@ export const procurementItems = [
       ["Brand Daikin", routes.brandDaikin],
       ["Brand Hisense", routes.brandHisense],
     ],
-    waIntent: "konsultasi pengadaan AC hotel dan guest house",
+    waIntent: "kirim jumlah kamar, tipe kamar, dan target jadwal untuk pengadaan AC hotel dan guest house",
     waProjectType: "Hotel / Guest House",
+    faqs: [
+      [
+        "Bisa supply AC untuk semua kamar hotel dengan brand seragam?",
+        "Bisa. Stok unit tersedia untuk supply brand seragam antar kamar agar kenyamanan konsisten. Kirim jumlah kamar dan tipe kamarnya, unit disiapkan dari stok.",
+      ],
+      [
+        "Unitnya tidak berisik untuk kamar tamu?",
+        "Pilihan unit untuk kamar tamu memperhatikan suara indoor dan pemakaian lama. Sebutkan tipe kamar agar opsi unit yang nyaman disiapkan dari stok aktif.",
+      ],
+      [
+        "Pemasangan bisa diatur agar tidak mengganggu tamu?",
+        "Bisa. Pengiriman dan pemasangan dijadwalkan bertahap mengikuti kamar yang siap atau saat okupansi rendah.",
+      ],
+      [
+        "Garansinya bagaimana untuk pemakaian hotel?",
+        "Garansi unit mengikuti ketentuan resmi brand. Pemasangan oleh tim RADJA AC bergaransi 1 bulan, dengan bantuan klaim bila terjadi kendala unit.",
+      ],
+    ],
   },
   {
     slug: "kontraktor-developer",
@@ -114,6 +150,28 @@ export const procurementItems = [
     ],
     waIntent: "kirim daftar titik AC, jumlah unit, BOQ atau RAB awal, lokasi proyek, dan timeline untuk pengadaan AC proyek",
     waProjectType: "Kontraktor / Developer",
+    faqs: [
+      [
+        "Bisa supply AC banyak unit untuk satu proyek?",
+        "Bisa. Stok banyak unit tersedia di gudang Sokaraja dan bisa dikirim sekaligus atau bertahap mengikuti progres proyek. Kirim daftar titik atau BOQ awal.",
+      ],
+      [
+        "Brand-nya bisa menyesuaikan RAB atau BOQ?",
+        "Bisa. Daikin, Midea, Hisense, dan Sansui tersedia sebagai Authorized Dealer, brand lain mengikuti stok aktif, sehingga pilihan bisa disesuaikan dengan RAB dan anggaran proyek.",
+      ],
+      [
+        "Pengiriman bisa bertahap mengikuti progres lapangan?",
+        "Bisa. Pengiriman pakai armada RADJA AC sendiri, dijadwalkan sekaligus atau bertahap mengikuti progres proyek.",
+      ],
+      [
+        "Pemasangan dikerjakan siapa?",
+        "Pemasangan bisa dikerjakan tim RADJA AC dengan garansi pemasangan 1 bulan, atau unit dikirim untuk dipasang tim lapangan proyek.",
+      ],
+      [
+        "Ada dokumentasi pengiriman dan stok?",
+        "Ada. Aktivitas pengiriman dan stok terdokumentasi lewat foto dan video, dan bisa dilihat di halaman bukti pengiriman.",
+      ],
+    ],
   },
   {
     slug: "gedung-kantor-ruko",
@@ -125,16 +183,16 @@ export const procurementItems = [
     h1: "Pengadaan AC kantor untuk gedung, ruang meeting, dan ruko",
     eyebrow: "Pengadaan AC B2B",
     intro:
-      "Untuk kantor, gedung, dan ruko, kebutuhan AC tidak cukup dilihat dari luas ruangan saja. Perlu membaca fungsi ruang, jumlah orang, tinggi plafon, posisi indoor/outdoor, jam kerja, batasan downtime, serta apakah pekerjaan perlu dilakukan bertahap atau di luar jam operasional.",
+      "Untuk kantor, gedung, dan ruko, unit AC disiapkan dari stok gudang RADJA AC di Sokaraja, Banyumas. Cocok untuk GA, office manager, dan pemilik ruko yang butuh AC ruang kerja, AC ruang meeting, dan area pelanggan dengan pemasangan yang bisa diatur di luar jam kerja.",
     segmentContext:
-      "Segmen kantor dan ruko biasanya membutuhkan keputusan yang cepat tetapi tetap rapi secara teknis. Opsi harga banyak unit bisa dicek berdasarkan layout ruangan, jumlah titik, kebutuhan split atau komersial ringan, stok aktif, jam operasional, dan kebutuhan pekerjaan bertahap.",
+      "Stok unit split dan komersial ringan tersedia untuk ruang kerja, ruang meeting, dan ruko. Pengiriman dan pemasangan bisa diatur bertahap atau di luar jam operasional untuk menekan downtime. Opsi harga untuk banyak unit dibahas dari jumlah titik, tipe unit, dan jadwal kirim.",
     coordinationNote:
-      "Kirim layout sederhana, foto ruangan, perkiraan titik indoor/outdoor, jumlah ruang, daya listrik, lokasi proyek, dan target timeline. Koordinasi pekerjaan weekend atau bertahap bisa dibahas dari data awal.",
+      "Pengiriman dijadwalkan dari gudang Sokaraja. Pemasangan dikerjakan tim RADJA AC dengan garansi pemasangan 1 bulan, diatur akhir pekan atau di luar jam kerja agar aktivitas kantor tidak terganggu.",
     commonNeeds: [
-      "AC untuk ruang kerja, ruang meeting, lobby kecil, dan ruang operasional",
+      "Stok AC untuk ruang kerja, ruang meeting, lobby kecil, dan ruang operasional",
       "AC untuk ruko, showroom kecil, klinik ringan, dan kantor usaha",
       "Pilihan split, inverter, 1.5 PK, 2 PK, atau komersial ringan sesuai fungsi ruang",
-      "Koordinasi pengiriman dan opsi pemasangan agar aktivitas kantor tidak terganggu",
+      "Pemasangan terjadwal di luar jam kerja agar aktivitas kantor tidak terganggu",
     ],
     buyingChecks: [
       "Luas ruangan, tinggi plafon, jumlah orang, dan fungsi tiap ruang",
@@ -153,8 +211,26 @@ export const procurementItems = [
       ["Brand Gree", routes.brandGree],
       ["Kontak", routes.kontak],
     ],
-    waIntent: "konsultasi pengadaan AC kantor gedung dan ruko",
+    waIntent: "kirim layout ruangan kantor atau ruko, jumlah titik, dan jam operasional untuk pengadaan AC kantor",
     waProjectType: "Gedung / Kantor / Ruko",
+    faqs: [
+      [
+        "Bisa pengadaan AC untuk banyak ruang kantor sekaligus?",
+        "Bisa. Stok unit split dan komersial ringan tersedia untuk banyak ruang. Kirim jumlah titik dan fungsi ruangnya, unit disiapkan dari stok aktif.",
+      ],
+      [
+        "Ada AC untuk ruang meeting dengan banyak orang?",
+        "Ada. Untuk ruang meeting, kapasitas dihitung dari luas, tinggi plafon, dan jumlah orang. Pilihan 1.5 PK, 2 PK, atau komersial ringan tersedia.",
+      ],
+      [
+        "Pemasangan bisa di luar jam kerja atau akhir pekan?",
+        "Bisa. Pengiriman dan pemasangan dijadwalkan menyesuaikan jam operasional agar downtime kantor minim.",
+      ],
+      [
+        "Garansi pemasangannya bagaimana?",
+        "Pemasangan oleh tim RADJA AC bergaransi 1 bulan. Garansi unit mengikuti ketentuan resmi brand, dengan bantuan klaim bila terjadi kendala unit.",
+      ],
+    ],
   },
   {
     slug: "cafe-resto",
@@ -166,16 +242,16 @@ export const procurementItems = [
     h1: "AC untuk cafe, pengadaan AC resto, dan ruang makan usaha kuliner",
     eyebrow: "Pengadaan AC B2B",
     intro:
-      "Untuk cafe dan resto, AC perlu dibaca dari kenyamanan pelanggan, luas area, tinggi plafon, kaca besar, pintu yang sering terbuka, jam operasional, dan estetika ruangan. Opsi unit disusun lebih realistis setelah kondisi area dipahami.",
+      "Untuk cafe dan resto, unit AC disiapkan dari stok gudang RADJA AC di Sokaraja, Banyumas. Cocok untuk owner cafe, owner resto, dan kontraktor interior yang butuh pendinginan merata untuk ruang makan, area pelanggan, dan ruang dengan kaca besar atau pintu yang sering terbuka, dengan jadwal yang mengejar opening.",
     segmentContext:
-      "Cafe dan resto sering punya tantangan berbeda dari rumah: banyak orang, panas lampu, bukaan pintu, kaca besar, area semi-terbuka, dan kebutuhan tampilan rapi. Opsi harga proyek bisa dibahas berdasarkan jumlah titik AC, luas area, beban panas ruangan, pilihan brand, stok aktif, dan timeline opening atau renovasi.",
+      "Stok unit untuk ruang makan dan area pelanggan tersedia, termasuk pilihan komersial untuk plafon tinggi dan beban panas tinggi. Pengiriman dan pemasangan bisa dijadwalkan mengejar opening atau renovasi. Opsi harga untuk banyak unit dibahas dari jumlah titik, luas area, dan jadwal kirim.",
     coordinationNote:
-      "Kirim foto area makan, ukuran ruangan, tinggi plafon, kondisi open/semi-open, titik indoor/outdoor yang diinginkan, lokasi usaha, dan timeline opening atau renovasi. Opsi unit dan kebutuhan pemasangan dicek dari data awal tersebut.",
+      "Pengiriman dijadwalkan dari gudang Sokaraja mengikuti timeline opening atau renovasi. Pemasangan dikerjakan tim RADJA AC dengan garansi pemasangan 1 bulan, diatur di luar jam ramai.",
     commonNeeds: [
-      "AC untuk area makan, kasir, ruang tunggu, dan area pelanggan",
-      "Pendinginan lebih merata untuk ruangan dengan banyak orang",
-      "Pertimbangan estetika indoor, posisi outdoor, dan jalur pipa",
-      "Koordinasi pekerjaan agar tidak mengganggu jam operasional cafe/resto",
+      "Stok AC untuk area makan, kasir, ruang tunggu, dan area pelanggan",
+      "Pendinginan merata untuk ruangan dengan banyak orang dan beban panas tinggi",
+      "Pilihan unit untuk plafon tinggi, kaca besar, dan area semi-terbuka",
+      "Pengiriman dan pemasangan dijadwalkan mengejar opening atau renovasi",
     ],
     buyingChecks: [
       "Luas area, tinggi plafon, kaca besar, dan pintu yang sering terbuka",
@@ -193,8 +269,26 @@ export const procurementItems = [
       ["Brand Hisense", routes.brandHisense],
       ["Kontak", routes.kontak],
     ],
-    waIntent: "konsultasi pengadaan AC cafe dan resto",
+    waIntent: "kirim foto area, luas ruangan, tinggi plafon, dan target opening untuk pengadaan AC cafe dan resto",
     waProjectType: "Cafe / Resto",
+    faqs: [
+      [
+        "Bisa pengadaan AC untuk cafe atau resto yang mau opening?",
+        "Bisa. Unit disiapkan dari stok gudang dan pengiriman dijadwalkan mengejar timeline opening. Kirim luas area dan target tanggal buka.",
+      ],
+      [
+        "Ruang makan panas karena kaca besar dan banyak orang, unit apa yang cocok?",
+        "Untuk beban panas tinggi, kapasitas dihitung dari luas, tinggi plafon, dan bukaan. Pilihan unit komersial dan PK lebih besar tersedia dari stok.",
+      ],
+      [
+        "Pemasangan bisa di luar jam ramai?",
+        "Bisa. Pengiriman dan pemasangan dijadwalkan di luar jam operasional atau saat renovasi agar tidak mengganggu pelanggan.",
+      ],
+      [
+        "Garansinya bagaimana?",
+        "Garansi unit mengikuti ketentuan resmi brand. Pemasangan oleh tim RADJA AC bergaransi 1 bulan, dengan bantuan klaim bila terjadi kendala unit.",
+      ],
+    ],
   },
 
 ];
