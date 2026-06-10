@@ -3,7 +3,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { routes } from "@/content/routes";
 import { buildMetadata } from "@/lib/seo";
-import { serviceSchema, faqSchema } from "@/lib/schema";
+import { serviceSchema, faqSchema, breadcrumbSchema } from "@/lib/schema";
 import { procurementItems, getProcurementItem } from "@/content/procurement";
 import { warrantyHighlights, legalEntityCopy } from "@/content/policies";
 import WhatsappLink from "@/components/ui/WhatsappLink";
@@ -84,9 +84,20 @@ export default async function ProcurementDetailPage({ params }) {
 
   const faqStructuredData = item.faqs?.length ? faqSchema(item.faqs) : null;
 
+  const breadcrumbStructuredData = breadcrumbSchema([
+    ["Beranda", routes.home],
+    ["Pengadaan AC", routes.pengadaanAc],
+    [item.label, item.path],
+  ]);
+
+  const relatedSegments = item.relatedSegments?.length
+    ? item.relatedSegments
+    : relatedItems.slice(0, 2).map((relatedItem) => [relatedItem.label, relatedItem.path]);
+
   return (
     <main className="min-h-screen bg-white text-slate-800">
       <JsonLd data={structuredData} />
+      <JsonLd data={breadcrumbStructuredData} />
       {faqStructuredData ? <JsonLd data={faqStructuredData} /> : null}
       <section className="relative overflow-hidden border-b border-blue-100 bg-[linear-gradient(155deg,#ffffff_0%,#f1f5ff_52%,#e0f0ff_100%)]">
         <div className="pointer-events-none absolute -right-32 -top-24 h-[30rem] w-[30rem] rounded-full bg-blue-300/10 blur-3xl" />
@@ -288,9 +299,9 @@ export default async function ProcurementDetailPage({ params }) {
       <section className="bg-[#F8FAFC]">
         <div className="mx-auto max-w-7xl px-5 py-16 sm:px-6 lg:px-8">
           <div className="mb-8 max-w-3xl">
-            <p className="text-sm font-black uppercase tracking-[0.2em] text-red-600">Link terkait</p>
+            <p className="text-sm font-black uppercase tracking-[0.2em] text-red-600">Katalog & brand</p>
             <h2 className="mt-3 text-2xl font-black tracking-tight text-blue-950 sm:text-3xl">
-              Katalog dan segmen pengadaan lain.
+              Cek katalog PK dan brand untuk {item.label.toLowerCase()}.
             </h2>
           </div>
           <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
@@ -303,15 +314,36 @@ export default async function ProcurementDetailPage({ params }) {
                 {label} →
               </Link>
             ))}
-            {relatedItems.slice(0, 3).map((relatedItem) => (
+          </div>
+
+          <div className="mt-10 mb-6 max-w-3xl">
+            <p className="text-sm font-black uppercase tracking-[0.2em] text-red-600">Segmen pengadaan terkait</p>
+            <h3 className="mt-3 text-xl font-black tracking-tight text-blue-950">
+              Segmen lain yang sering dibandingkan.
+            </h3>
+          </div>
+          <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
+            <Link
+              href={routes.pengadaanAc}
+              className="rounded-[1.4rem] border border-blue-100 bg-white p-5 text-sm font-black text-blue-950 shadow-sm transition hover:-translate-y-1 hover:border-blue-200 hover:shadow-lg"
+            >
+              Semua segmen pengadaan AC →
+            </Link>
+            {relatedSegments.map(([label, href]) => (
               <Link
-                key={relatedItem.slug}
-                href={relatedItem.path}
-                className="rounded-[1.4rem] border border-slate-200 bg-white p-5 text-sm font-black text-blue-950 shadow-sm transition hover:-translate-y-1 hover:border-blue-200 hover:shadow-lg"
+                key={href}
+                href={href}
+                className="rounded-[1.4rem] border border-blue-100 bg-white p-5 text-sm font-black text-blue-950 shadow-sm transition hover:-translate-y-1 hover:border-blue-200 hover:shadow-lg"
               >
-                {relatedItem.label} →
+                {label} →
               </Link>
             ))}
+            <Link
+              href={routes.buktiPengirimanProyek}
+              className="rounded-[1.4rem] border border-blue-100 bg-white p-5 text-sm font-black text-blue-950 shadow-sm transition hover:-translate-y-1 hover:border-blue-200 hover:shadow-lg"
+            >
+              Bukti pengiriman & stok →
+            </Link>
           </div>
         </div>
       </section>

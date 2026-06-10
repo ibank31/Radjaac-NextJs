@@ -32,9 +32,9 @@ export const staticPageMetadata = {
   },
 
   pengadaanAc: {
-    title: "Supplier AC Partai Besar | Proyek, Hotel, Kost & Gedung — RADJA AC",
+    title: "Supplier AC Banyak Unit | Pengadaan AC Proyek, Hotel & Kost — RADJA AC",
     description:
-      "RADJA AC membantu pengadaan AC banyak unit untuk proyek, hotel, kost, kantor, ruko, gedung, kontraktor, dan developer. Cek PK, stok, pengiriman, dan opsi pemasangan.",
+      "Supplier AC banyak unit dari gudang RADJA AC di Sokaraja, Banyumas. Stok AC banyak unit, pengiriman AC banyak unit pakai armada sendiri, dan pemasangan bergaransi untuk pengadaan AC proyek, hotel, kost, kantor, ruko, dan cafe.",
     path: routes.pengadaanAc,
   },
 

@@ -4,9 +4,33 @@ import { buildMetadata } from "@/lib/seo";
 import { staticPageMetadata } from "@/content/static-pages";
 import { routes } from "@/content/routes";
 import { legalEntityCopy } from "@/content/policies";
+import { breadcrumbSchema } from "@/lib/schema";
+import JsonLd from "@/components/seo/JsonLd";
 import WhatsappLink from "@/components/ui/WhatsappLink";
 
 export const metadata = buildMetadata(staticPageMetadata.pengadaanAc);
+
+const breadcrumbStructuredData = breadcrumbSchema([
+  ["Beranda", routes.home],
+  ["Pengadaan AC", routes.pengadaanAc],
+]);
+
+const catalogLinks = [
+  ["Katalog AC", routes.katalog],
+  ["AC 1/2 PK", routes.katalogAcSetengahPk],
+  ["AC Low Watt", routes.katalogAcLowWatt],
+  ["AC Inverter", routes.katalogAcInverter],
+  ["AC Kantor & Komersial", routes.katalogAcKantorKomersial],
+  ["Kalkulator PK AC", routes.kalkulatorPkAc],
+];
+
+const brandLinks = [
+  ["Brand Daikin", routes.brandDaikin],
+  ["Brand Midea", routes.brandMidea],
+  ["Brand Hisense", routes.brandHisense],
+  ["Brand Sansui", routes.brandSansui],
+  ["Brand Gree", routes.brandGree],
+];
 
 const authorizedBrands = ["Daikin", "Midea", "Hisense", "Sansui"];
 const stockBrands = ["Gree", "Sharp", "Samsung", "Panasonic", "Ariston"];
@@ -104,6 +128,7 @@ const capacityRows = [
 export default function PengadaanAcPage() {
   return (
     <main className="min-h-screen bg-white text-slate-800">
+      <JsonLd data={breadcrumbStructuredData} />
       <section className="relative overflow-hidden border-b border-blue-100 bg-[linear-gradient(155deg,#ffffff_0%,#f1f5ff_52%,#e0f0ff_100%)]">
         <div className="pointer-events-none absolute -right-32 -top-24 h-[30rem] w-[30rem] rounded-full bg-blue-300/10 blur-3xl" />
         <div className="pointer-events-none absolute -left-28 bottom-0 h-80 w-80 rounded-full bg-red-200/20 blur-3xl" />
@@ -413,6 +438,54 @@ export default function PengadaanAcPage() {
                   <div className="text-sm leading-6 text-slate-600">{note}</div>
                 </div>
               ))}
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="bg-white">
+        <div className="mx-auto max-w-7xl px-5 py-16 sm:px-6 lg:px-8">
+          <div className="mb-8 max-w-3xl">
+            <p className="text-sm font-black uppercase tracking-[0.2em] text-red-600">Katalog & brand</p>
+            <h2 className="mt-3 text-2xl font-black tracking-tight text-blue-950 sm:text-4xl">
+              Jelajahi katalog PK dan brand sebelum kirim kebutuhan.
+            </h2>
+            <p className="mt-4 text-sm leading-7 text-slate-600 sm:text-base">
+              Lihat pilihan kapasitas dan brand yang tersedia di gudang. Untuk order banyak unit, kirim langsung kebutuhannya via WhatsApp.
+            </p>
+          </div>
+
+          <div className="grid gap-8 lg:grid-cols-2">
+            <div>
+              <h3 className="mb-4 text-sm font-black uppercase tracking-[0.16em] text-slate-400">Katalog kapasitas</h3>
+              <div className="flex flex-wrap gap-3">
+                {catalogLinks.map(([label, href]) => (
+                  <Link
+                    key={href}
+                    href={href}
+                    className="rounded-2xl border border-slate-200 bg-white px-4 py-3 text-sm font-black text-blue-950 shadow-sm transition hover:-translate-y-0.5 hover:border-blue-200 hover:shadow-lg"
+                  >
+                    {label} →
+                  </Link>
+                ))}
+              </div>
+            </div>
+            <div>
+              <h3 className="mb-4 text-sm font-black uppercase tracking-[0.16em] text-slate-400">Brand tersedia</h3>
+              <div className="flex flex-wrap gap-3">
+                {brandLinks.map(([label, href]) => (
+                  <Link
+                    key={href}
+                    href={href}
+                    className="rounded-2xl border border-slate-200 bg-white px-4 py-3 text-sm font-black text-blue-950 shadow-sm transition hover:-translate-y-0.5 hover:border-blue-200 hover:shadow-lg"
+                  >
+                    {label} →
+                  </Link>
+                ))}
+              </div>
+              <Link href={routes.buktiPengirimanProyek} className="mt-5 inline-flex font-black text-red-600 transition hover:translate-x-1">
+                Lihat bukti pengiriman & stok →
+              </Link>
             </div>
           </div>
         </div>

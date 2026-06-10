@@ -5,9 +5,9 @@ export const procurementItems = [
     slug: "kost-apartemen-skala-besar",
     path: routes.pengadaanKostApartemen,
     label: "Kost & Apartemen",
-    title: "Pengadaan AC Kost & Apartemen | Cek PK, Stok, Pengiriman & Pemasangan",
+    title: "Pengadaan AC Kost & Apartemen | AC Banyak Kamar & Low Watt — RADJA AC",
     description:
-      "Pengadaan AC untuk kost, apartemen, kontrakan, dan hunian banyak kamar. RADJA AC bantu cek PK per ruangan, opsi brand, stok, pengiriman, pemasangan bertahap, garansi pemasangan 1 bulan, dan bantuan klaim unit.",
+      "Pengadaan AC kost dan apartemen banyak kamar. Stok AC untuk kost, pilihan AC low watt kost, tipe seragam, pengiriman bertahap, dan pemasangan bergaransi 1 bulan dari gudang RADJA AC Sokaraja.",
     h1: "Pengadaan AC untuk kost, apartemen, dan hunian banyak kamar",
     eyebrow: "Pengadaan AC",
     intro:
@@ -56,14 +56,18 @@ export const procurementItems = [
         "Garansi unit mengikuti ketentuan resmi brand. Pemasangan yang dikerjakan tim RADJA AC bergaransi 1 bulan, dan ada bantuan klaim bila terjadi kendala unit.",
       ],
     ],
+    relatedSegments: [
+      ["Pengadaan AC kantor & ruko", routes.pengadaanGedungKantorRuko],
+      ["Supplier AC proyek kontraktor", routes.pengadaanKontraktorDeveloper],
+    ],
   },
   {
     slug: "hotel-guest-house",
     path: routes.pengadaanHotelGuestHouse,
     label: "Hotel & Guest House",
-    title: "Pengadaan AC Hotel & Guest House | Cek PK, Brand, Pengiriman & Pemasangan",
+    title: "Supplier AC Hotel & Pengadaan AC Guest House | AC Kamar Hotel — RADJA AC",
     description:
-      "Pengadaan AC untuk hotel, guest house, homestay, villa, dan penginapan. RADJA AC cek PK, brand, stok, pengiriman, pemasangan, garansi pemasangan 1 bulan, dan bantuan klaim unit.",
+      "Supplier AC hotel dan pengadaan AC guest house. Stok AC kamar hotel, brand seragam antar kamar, pengiriman bertahap, dan pemasangan bergaransi 1 bulan dari gudang RADJA AC Sokaraja, Banyumas.",
     h1: "Pengadaan AC untuk hotel, guest house, homestay, dan penginapan",
     eyebrow: "Pengadaan AC",
     intro:
@@ -112,14 +116,18 @@ export const procurementItems = [
         "Garansi unit mengikuti ketentuan resmi brand. Pemasangan oleh tim RADJA AC bergaransi 1 bulan, dengan bantuan klaim bila terjadi kendala unit.",
       ],
     ],
+    relatedSegments: [
+      ["Supplier AC proyek kontraktor", routes.pengadaanKontraktorDeveloper],
+      ["Pengadaan AC kantor & ruko", routes.pengadaanGedungKantorRuko],
+    ],
   },
   {
     slug: "kontraktor-developer",
     path: routes.pengadaanKontraktorDeveloper,
     label: "Kontraktor & Developer",
-    title: "Supplier AC Proyek untuk Kontraktor & Developer | Stok Banyak Unit",
+    title: "Supplier AC Proyek | Pengadaan AC Kontraktor & Developer — RADJA AC",
     description:
-      "Supplier AC banyak unit untuk kontraktor, developer, kantor proyek, ruko, dan klinik. Stok ready di gudang Sokaraja, pengiriman pakai armada sendiri, pemasangan bergaransi 1 bulan, garansi unit resmi brand, dan bantuan klaim. Authorized Dealer Daikin, Midea, Hisense, dan Sansui.",
+      "Supplier AC proyek untuk kontraktor dan developer. Pengadaan AC kontraktor, AC proyek bangunan, stok banyak unit di gudang Sokaraja, pengiriman pakai armada sendiri, dan pemasangan bergaransi 1 bulan. Authorized Dealer Daikin, Midea, Hisense, dan Sansui.",
     h1: "Supplier AC proyek untuk kontraktor, developer, dan kebutuhan banyak unit",
     eyebrow: "Pengadaan AC Proyek",
     intro:
@@ -172,14 +180,18 @@ export const procurementItems = [
         "Ada. Aktivitas pengiriman dan stok terdokumentasi lewat foto dan video, dan bisa dilihat di halaman bukti pengiriman.",
       ],
     ],
+    relatedSegments: [
+      ["Pengadaan AC kantor & gedung", routes.pengadaanGedungKantorRuko],
+      ["Supplier AC hotel & guest house", routes.pengadaanHotelGuestHouse],
+    ],
   },
   {
     slug: "gedung-kantor-ruko",
     path: routes.pengadaanGedungKantorRuko,
     label: "Gedung, Kantor & Ruko",
-    title: "Pengadaan AC Kantor, Gedung & Ruko | AC Ruko & Ruang Meeting",
+    title: "Pengadaan AC Kantor & Supplier AC Gedung | AC Ruang Meeting — RADJA AC",
     description:
-      "Pengadaan AC kantor untuk gedung, ruko, ruang meeting, showroom kecil, dan ruang usaha. RADJA AC bantu cek kebutuhan PK, tipe unit, stok, pengiriman, pemasangan, dan timeline pekerjaan.",
+      "Pengadaan AC kantor untuk gedung kantor, ruko, dan AC ruang meeting. Supplier AC kantor dengan stok unit, pengiriman, dan pemasangan bergaransi 1 bulan di luar jam kerja dari gudang RADJA AC Sokaraja.",
     h1: "Pengadaan AC kantor untuk gedung, ruang meeting, dan ruko",
     eyebrow: "Pengadaan AC B2B",
     intro:
@@ -231,14 +243,18 @@ export const procurementItems = [
         "Pemasangan oleh tim RADJA AC bergaransi 1 bulan. Garansi unit mengikuti ketentuan resmi brand, dengan bantuan klaim bila terjadi kendala unit.",
       ],
     ],
+    relatedSegments: [
+      ["Supplier AC proyek kontraktor", routes.pengadaanKontraktorDeveloper],
+      ["Pengadaan AC cafe & resto", routes.pengadaanCafeResto],
+    ],
   },
   {
     slug: "cafe-resto",
     path: routes.pengadaanCafeResto,
     label: "Cafe & Resto",
-    title: "AC untuk Cafe & Pengadaan AC Resto | Cek Area, Plafon & Unit",
+    title: "Pengadaan AC Cafe & Resto | AC Ruang Makan Usaha Kuliner — RADJA AC",
     description:
-      "AC untuk cafe, pengadaan AC resto, ruang makan, dapur bersih, dan area usaha kuliner. RADJA AC bantu cek luas area, tinggi plafon, bukaan kaca, jam operasional, stok, pengiriman, dan opsi pemasangan.",
+      "Pengadaan AC cafe dan pengadaan AC resto untuk AC ruang makan dan usaha kuliner. Stok unit, pilihan komersial untuk plafon tinggi dan kaca besar, pengiriman mengejar opening, dan pemasangan bergaransi 1 bulan dari gudang RADJA AC Sokaraja.",
     h1: "AC untuk cafe, pengadaan AC resto, dan ruang makan usaha kuliner",
     eyebrow: "Pengadaan AC B2B",
     intro:
@@ -288,6 +304,10 @@ export const procurementItems = [
         "Garansinya bagaimana?",
         "Garansi unit mengikuti ketentuan resmi brand. Pemasangan oleh tim RADJA AC bergaransi 1 bulan, dengan bantuan klaim bila terjadi kendala unit.",
       ],
+    ],
+    relatedSegments: [
+      ["Pengadaan AC kantor & ruko", routes.pengadaanGedungKantorRuko],
+      ["Supplier AC hotel & guest house", routes.pengadaanHotelGuestHouse],
     ],
   },
 
