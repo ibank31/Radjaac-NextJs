@@ -226,7 +226,7 @@ export default async function CatalogDetailPage({ params }) {
           <div className="rounded-[1.7rem] border border-slate-200 bg-white p-6 shadow-[0_18px_50px_rgba(15,39,66,0.08)] sm:p-8 lg:p-10">
             <SectionTitle
               eyebrow="Estimasi Paket"
-              title="Paket AC 1/2 PK + pemasangan standar"
+              title={`Paket ${item.label} + pemasangan standar`}
               description={item.pricingIntro}
             />
 
@@ -265,7 +265,7 @@ export default async function CatalogDetailPage({ params }) {
                 <WhatsappLink
                   className="mt-5 inline-flex rounded-full bg-[#25D366] px-5 py-3 text-sm font-black text-slate-950 shadow-[0_14px_34px_rgba(37,211,102,0.18)] transition hover:-translate-y-0.5 hover:bg-[#20BA5A]"
                   source={`Katalog ${item.label} - Pricing Band`}
-                  intent="cek estimasi paket AC 1/2 PK dan pemasangan standar"
+                  intent={`cek estimasi paket ${item.label} dan pemasangan standar`}
                   category={item.waCategory}
                   pageType="catalog"
                 >
