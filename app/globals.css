@@ -30,13 +30,13 @@
 
   /* ── Typography Scale ──────────────────────────────────────
    * Digunakan sebagai panduan; Tailwind classes tetap primary.
-   * font-weight hierarchy:
-   *   900 (black)     → H1 hero only
-   *   800 (extrabold) → H2 section headings
-   *   700 (bold)      → H3 card titles, primary CTAs
-   *   600 (semibold)  → eyebrow labels, nav items, secondary CTAs
-   *   500 (medium)    → body emphasis, chips, badges
+   * font-weight hierarchy (bobot tertinggi = extrabold):
+   *   800 (extrabold) → H1 hero + H2 section headings
+   *   700 (bold)      → H3 card titles, stat numbers, primary CTAs
+   *   600 (semibold)  → eyebrow labels, nav items, secondary CTAs, badges
+   *   500 (medium)    → body emphasis, chips
    *   400 (normal)    → body text (leading-7 or leading-8)
+   * font-black (900) sengaja tidak dipakai agar tidak terlalu agresif.
    * ─────────────────────────────────────────────────────── */
   --text-eyebrow-tracking: 0.12em;
   --text-heading-tracking: -0.02em;

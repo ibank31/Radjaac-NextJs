@@ -86,7 +86,7 @@ export default function TentangKamiPage() {
 
             <div className="mt-8 flex flex-col gap-3 sm:flex-row">
               <WhatsappLink
-                className="inline-flex items-center justify-center rounded-full bg-[#25D366] px-6 py-4 text-sm font-black text-slate-950 transition hover:bg-[#20BA5A]"
+                className="inline-flex items-center justify-center rounded-full bg-[#25D366] px-6 py-4 text-sm font-bold text-slate-950 transition hover:bg-[#20BA5A]"
                 source="Tentang Kami"
                 intent="konsultasi pembelian AC original multi-brand"
               >
@@ -94,7 +94,7 @@ export default function TentangKamiPage() {
               </WhatsappLink>
               <Link
                 href={routes.katalog}
-                className="inline-flex items-center justify-center rounded-full border border-slate-200 bg-white px-6 py-4 text-sm font-black text-slate-900 shadow-sm transition hover:bg-slate-50"
+                className="inline-flex items-center justify-center rounded-full border border-slate-200 bg-white px-6 py-4 text-sm font-semibold text-slate-900 shadow-sm transition hover:bg-slate-50"
               >
                 Lihat Katalog AC
               </Link>
@@ -135,13 +135,13 @@ export default function TentangKamiPage() {
 
         <div className="mt-8 grid gap-6 lg:grid-cols-[0.85fr_1.15fr] lg:items-stretch">
           <div className="flex flex-col justify-center rounded-[1.45rem] border border-blue-200 bg-[linear-gradient(135deg,#fffaf2_0%,#ffffff_58%,#eef7ff_100%)] p-6 shadow-sm">
-            <div className="mb-4 flex h-14 w-14 items-center justify-center rounded-2xl border border-blue-200 bg-white text-2xl font-black text-blue-700 shadow-sm" aria-hidden="true">
+            <div className="mb-4 flex h-14 w-14 items-center justify-center rounded-2xl border border-blue-200 bg-white text-2xl font-extrabold text-blue-700 shadow-sm" aria-hidden="true">
               ✓
             </div>
-            <p className="mb-2 text-xs font-bold uppercase tracking-[0.18em] text-blue-800">
+            <p className="mb-2 text-xs font-semibold uppercase tracking-[0.12em] text-blue-800">
               Proshop Gree
             </p>
-            <h3 className="text-xl font-black tracking-tight text-slate-950">
+            <h3 className="text-xl font-bold tracking-tight text-slate-950">
               Proshop Gree resmi dengan bukti fisik
             </h3>
             <p className="mt-3 text-sm leading-7 text-slate-600">
@@ -149,7 +149,7 @@ export default function TentangKamiPage() {
             </p>
             <Link
               href={routes.brandGree}
-              className="mt-5 inline-flex w-fit items-center justify-center gap-2 rounded-full border border-blue-300 bg-white px-5 py-3 text-sm font-black text-blue-900 shadow-sm transition hover:bg-blue-50"
+              className="mt-5 inline-flex w-fit items-center justify-center gap-2 rounded-full border border-blue-300 bg-white px-5 py-3 text-sm font-semibold text-blue-900 shadow-sm transition hover:bg-blue-50"
             >
               Lihat AC Gree
               <span aria-hidden="true">→</span>
@@ -157,7 +157,7 @@ export default function TentangKamiPage() {
           </div>
 
           <div className="rounded-[1.45rem] border border-slate-200 bg-white p-6 shadow-sm">
-            <p className="mb-5 text-xs font-bold uppercase tracking-[0.18em] text-[#1565C0]">
+            <p className="mb-5 text-xs font-semibold uppercase tracking-[0.12em] text-[#1565C0]">
               Sertifikat Authorized Dealer
             </p>
             <div className="grid grid-cols-2 gap-x-4 gap-y-7 sm:grid-cols-4">
@@ -174,7 +174,7 @@ export default function TentangKamiPage() {
                     />
                   </div>
                   <figcaption className="mt-3">
-                    <span className="inline-flex items-center justify-center gap-1.5 text-sm font-black text-slate-950">
+                    <span className="inline-flex items-center justify-center gap-1.5 text-sm font-bold text-slate-950">
                       <span className="text-[#1565C0]" aria-hidden="true">✓</span>
                       {item.brand}
                     </span>
@@ -231,7 +231,7 @@ export default function TentangKamiPage() {
         <div className="mt-6">
           <Link
             href={routes.buktiPengirimanProyek}
-            className="inline-flex items-center justify-center gap-2 rounded-full border border-blue-200 bg-white px-5 py-3 text-sm font-black text-blue-900 shadow-sm transition hover:bg-blue-50"
+            className="inline-flex items-center justify-center gap-2 rounded-full border border-blue-200 bg-white px-5 py-3 text-sm font-semibold text-blue-900 shadow-sm transition hover:bg-blue-50"
           >
             Lihat bukti pengiriman & proyek
             <span aria-hidden="true">→</span>
@@ -243,7 +243,7 @@ export default function TentangKamiPage() {
       <section className="mx-auto max-w-7xl px-4 pb-12 lg:pb-16">
         <div className="grid gap-6 lg:grid-cols-2">
           <section className="rounded-[1.45rem] border border-slate-200 bg-white p-6 shadow-sm">
-            <h2 className="text-xl font-black text-slate-950">Cara kerja kami</h2>
+            <h2 className="text-xl font-extrabold text-slate-950">Cara kerja kami</h2>
             <ul className="mt-5 space-y-3 text-sm leading-6 text-slate-600">
               {values.map((value) => (
                 <li key={value} className="rounded-2xl border border-slate-200 bg-[#f7fbff]/45 p-4">
@@ -254,12 +254,12 @@ export default function TentangKamiPage() {
           </section>
 
           <section className="rounded-[1.45rem] border border-slate-200 bg-white p-6 shadow-sm">
-            <h2 className="text-xl font-black text-slate-950">Legalitas & garansi</h2>
+            <h2 className="text-xl font-extrabold text-slate-950">Legalitas & garansi</h2>
             <p className="mt-5 rounded-2xl border border-slate-200 bg-[#f7fbff]/45 p-4 text-sm leading-6 text-slate-600">
               {legalEntityCopy}
             </p>
 
-            <p className="mt-5 text-xs font-bold uppercase tracking-[0.18em] text-blue-800">
+            <p className="mt-5 text-xs font-semibold uppercase tracking-[0.12em] text-blue-800">
               Ketentuan garansi
             </p>
             <ul className="mt-3 space-y-3 text-sm leading-6 text-slate-600">
@@ -280,7 +280,7 @@ export default function TentangKamiPage() {
       {/* FINAL CTA */}
       <section className="mx-auto max-w-7xl px-4 pb-16 lg:pb-20">
         <div className="mx-auto max-w-3xl rounded-[28px] border border-blue-200 bg-blue-50 p-6 text-center shadow-sm sm:p-8">
-          <h2 className="text-2xl font-black tracking-[-0.03em] text-slate-950">
+          <h2 className="text-2xl font-extrabold tracking-[-0.03em] text-slate-950">
             Siap memilih AC original multi-brand?
           </h2>
           <p className="mx-auto mt-3 max-w-2xl text-sm leading-7 text-slate-600">
@@ -289,7 +289,7 @@ export default function TentangKamiPage() {
           </p>
           <div className="mt-6 flex flex-col justify-center gap-3 sm:flex-row sm:flex-wrap">
             <WhatsappLink
-              className="inline-flex w-full items-center justify-center rounded-full bg-[#25D366] px-6 py-4 text-sm font-black text-slate-950 shadow-[0_10px_24px_rgba(37,211,102,0.18)] transition hover:-translate-y-0.5 hover:bg-[#20BA5A] sm:w-auto"
+              className="inline-flex w-full items-center justify-center rounded-full bg-[#25D366] px-6 py-4 text-sm font-bold text-slate-950 shadow-[0_10px_24px_rgba(37,211,102,0.18)] transition hover:-translate-y-0.5 hover:bg-[#20BA5A] sm:w-auto"
               source="Tentang Kami Closing CTA"
               intent="konsultasi pembelian AC original multi-brand setelah melihat profil RADJA AC"
             >
@@ -297,13 +297,13 @@ export default function TentangKamiPage() {
             </WhatsappLink>
             <Link
               href={routes.katalog}
-              className="inline-flex w-full items-center justify-center rounded-full border border-slate-200 bg-white px-6 py-4 text-sm font-black text-slate-950 transition hover:bg-slate-50 sm:w-auto"
+              className="inline-flex w-full items-center justify-center rounded-full border border-slate-200 bg-white px-6 py-4 text-sm font-semibold text-slate-950 transition hover:bg-slate-50 sm:w-auto"
             >
               Lihat Katalog AC
             </Link>
             <Link
               href={routes.pengadaanAc}
-              className="inline-flex w-full items-center justify-center rounded-full border border-blue-200 bg-blue-100 px-6 py-4 text-sm font-black text-blue-950 transition hover:bg-blue-200 sm:w-auto"
+              className="inline-flex w-full items-center justify-center rounded-full border border-blue-200 bg-blue-100 px-6 py-4 text-sm font-semibold text-blue-950 transition hover:bg-blue-200 sm:w-auto"
             >
               Pengadaan Banyak Unit
             </Link>

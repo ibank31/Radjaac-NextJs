@@ -97,8 +97,8 @@ export default function Footer() {
               />
             </span>
             <div>
-              <p className="text-xl font-black tracking-[-0.03em] text-white sm:text-2xl">RADJA AC</p>
-              <p className="mt-1 text-xs font-black uppercase tracking-[0.16em] text-white/70">Sokaraja, Banyumas</p>
+              <p className="text-xl font-bold tracking-[-0.03em] text-white sm:text-2xl">RADJA AC</p>
+              <p className="mt-1 text-xs font-semibold uppercase tracking-[0.12em] text-white/70">Sokaraja, Banyumas</p>
             </div>
           </div>
 
@@ -119,7 +119,7 @@ export default function Footer() {
           </div>
 
           <WhatsappLink
-            className="mt-6 inline-flex rounded-full bg-[#25D366] px-5 py-3 text-sm font-black text-slate-950 shadow-[0_14px_34px_rgba(37,211,102,0.22)] transition hover:-translate-y-0.5 hover:bg-[#20BA5A]"
+            className="mt-6 inline-flex rounded-full bg-[#25D366] px-5 py-3 text-sm font-bold text-slate-950 shadow-[0_14px_34px_rgba(37,211,102,0.22)] transition hover:-translate-y-0.5 hover:bg-[#20BA5A]"
             source="Footer"
             intent="cek stok, rekomendasi PK, dan opsi pengiriman AC"
           >

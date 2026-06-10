@@ -61,7 +61,7 @@ function getRecommendation(btu) {
 function Field({ label, children }) {
   return (
     <label className="block">
-      <span className="mb-2 block text-xs font-black uppercase tracking-[0.14em] text-slate-500">
+      <span className="mb-2 block text-xs font-semibold uppercase tracking-[0.12em] text-slate-500">
         {label}
       </span>
       {children}
@@ -76,8 +76,8 @@ function inputClassName() {
 function ResultCard({ label, value, highlight = false }) {
   return (
     <div className={`rounded-3xl border p-4 ${highlight ? "border-blue-100 bg-blue-50" : "border-slate-200 bg-white"}`}>
-      <p className="text-xs font-black uppercase tracking-[0.16em] text-slate-500">{label}</p>
-      <p className="mt-2 text-xl font-black text-slate-950 sm:text-2xl">{value}</p>
+      <p className="text-xs font-semibold uppercase tracking-[0.12em] text-slate-500">{label}</p>
+      <p className="mt-2 text-xl font-bold text-slate-950 sm:text-2xl">{value}</p>
     </div>
   );
 }
@@ -116,8 +116,8 @@ export default function PkCalculator() {
       <div className="grid gap-6 lg:grid-cols-[0.9fr_1.1fr] lg:items-start">
         <section className="rounded-[1.6rem] border border-slate-200 bg-[linear-gradient(180deg,#ffffff_0%,#f8fbff_100%)] p-5 shadow-sm">
           <div className="mb-5">
-            <p className="text-xs font-black uppercase tracking-[0.18em] text-blue-700">Isi data ruangan</p>
-            <h2 className="mt-2 text-2xl font-black text-slate-950">Ukur dulu sebelum pilih PK</h2>
+            <p className="text-xs font-semibold uppercase tracking-[0.12em] text-blue-700">Isi data ruangan</p>
+            <h2 className="mt-2 text-2xl font-extrabold text-slate-950">Ukur dulu sebelum pilih PK</h2>
           </div>
 
           <div className="grid grid-cols-2 gap-4">
@@ -164,8 +164,8 @@ export default function PkCalculator() {
 
         <section className="rounded-[1.6rem] border border-blue-200 bg-[linear-gradient(180deg,#ecfeff_0%,#f8fbff_100%)] p-5 shadow-[0_18px_50px_rgba(34,211,238,0.12)]">
           <div className="mb-5">
-            <p className="text-xs font-black uppercase tracking-[0.18em] text-blue-800">Estimasi awal</p>
-            <h2 className="mt-2 text-2xl font-black text-slate-950">Cek hasil PK ke tim RADJA AC</h2>
+            <p className="text-xs font-semibold uppercase tracking-[0.12em] text-blue-800">Estimasi awal</p>
+            <h2 className="mt-2 text-2xl font-extrabold text-slate-950">Cek hasil PK ke tim RADJA AC</h2>
           </div>
 
           <div className="mb-5 grid grid-cols-2 gap-3 xl:grid-cols-4">
@@ -176,7 +176,7 @@ export default function PkCalculator() {
           </div>
 
           <div className="rounded-3xl border border-blue-100 bg-white p-5">
-            <h3 className="text-xl font-black text-slate-950">
+            <h3 className="text-xl font-bold text-slate-950">
               Estimasi: AC {result.recommendation.pk} untuk ruangan ±{formatNumber(result.area)} m²
             </h3>
             <p className="mt-3 text-sm leading-7 text-slate-600">
@@ -190,12 +190,12 @@ export default function PkCalculator() {
           <div className="mt-5 grid gap-3 sm:grid-cols-2">
             <Link
               href={result.recommendation.href}
-              className="inline-flex items-center justify-center rounded-full border border-slate-200 bg-white px-5 py-3 text-sm font-black text-slate-950 transition hover:bg-slate-50"
+              className="inline-flex items-center justify-center rounded-full border border-slate-200 bg-white px-5 py-3 text-sm font-semibold text-slate-950 transition hover:bg-slate-50"
             >
               Lihat pilihan terkait →
             </Link>
             <WhatsappLink
-              className="inline-flex items-center justify-center rounded-full bg-[#25D366] px-5 py-3 text-sm font-black text-slate-950 transition hover:bg-[#20BA5A]"
+              className="inline-flex items-center justify-center rounded-full bg-[#25D366] px-5 py-3 text-sm font-bold text-slate-950 transition hover:bg-[#20BA5A]"
               source="Calculator Result CTA"
               intent={waIntent}
             >
@@ -204,7 +204,7 @@ export default function PkCalculator() {
           </div>
 
           <div className="mt-5 rounded-3xl border border-blue-200 bg-blue-50 p-4">
-            <p className="font-black text-blue-950">Sudah keluar hasilnya? Jangan berhenti di sini</p>
+            <p className="font-bold text-blue-950">Sudah keluar hasilnya? Jangan berhenti di sini</p>
             <p className="mt-2 text-sm leading-7 text-blue-900">
               Kalkulator ini memberi gambaran awal. Kirim hasil hitung agar tim RADJA AC cek stok unit, harga unit, biaya pasang, daya listrik, kondisi MCB, dan posisi pemasangan.
             </p>
@@ -213,8 +213,8 @@ export default function PkCalculator() {
       </div>
 
       <section className="mt-6 rounded-[1.6rem] border border-slate-200 bg-slate-50 p-5">
-        <p className="text-xs font-black uppercase tracking-[0.18em] text-blue-700">Yang sering diabaikan</p>
-        <h2 className="mt-2 text-2xl font-black text-slate-950">Empat hal yang bikin orang salah pilih AC</h2>
+        <p className="text-xs font-semibold uppercase tracking-[0.12em] text-blue-700">Yang sering diabaikan</p>
+        <h2 className="mt-2 text-2xl font-extrabold text-slate-950">Empat hal yang bikin orang salah pilih AC</h2>
         <div className="mt-5 grid gap-3 md:grid-cols-2 lg:grid-cols-4">
           {quickTips.map((tip) => (
             <div key={tip} className="rounded-2xl border border-slate-200 bg-white p-4 text-sm leading-7 text-slate-600">

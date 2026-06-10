@@ -8,7 +8,7 @@ export default function AreaProcess({ item, processSteps }) {
           <div className="mb-4 inline-flex rounded-full border border-blue-100 bg-blue-50 px-4 py-2 text-sm font-semibold text-blue-700">
             ALUR BELI AC
           </div>
-          <h2 className="mb-5 text-2xl font-black tracking-tight sm:text-3xl lg:text-4xl">
+          <h2 className="mb-5 text-xl font-extrabold tracking-tight sm:text-2xl lg:text-[1.75rem]">
             Cek kebutuhan dulu, baru kunci stok dan jadwal
           </h2>
           <p className="mb-6 text-sm leading-7 text-slate-600 sm:text-base">
@@ -34,10 +34,10 @@ export default function AreaProcess({ item, processSteps }) {
               className="rounded-[1.45rem] border border-slate-200 bg-white p-5"
             >
               <div className="mb-3 flex items-center gap-3">
-                <span className="flex h-9 w-9 items-center justify-center rounded-full bg-blue-300 text-sm font-black text-slate-950">
+                <span className="flex h-9 w-9 items-center justify-center rounded-full bg-blue-300 text-sm font-bold text-slate-950">
                   {index + 1}
                 </span>
-                <h3 className="text-lg font-black text-slate-950">{title}</h3>
+                <h3 className="text-lg font-bold text-slate-950">{title}</h3>
               </div>
               <p className="text-sm leading-7 text-slate-600">{description}</p>
             </div>

@@ -4,7 +4,7 @@ export default function AreaFinalCta({ item }) {
   return (
     <section className="mx-auto max-w-7xl px-4 pb-16 pt-8 sm:px-6 lg:px-8 lg:pb-20 lg:pt-10">
       <div className="rounded-[1.7rem] border border-[#25D366]/20 bg-[#25D366]/10 p-6 text-center sm:p-10">
-        <h2 className="mx-auto mb-5 max-w-3xl text-2xl font-black tracking-tight sm:text-3xl">
+        <h2 className="mx-auto mb-5 max-w-3xl text-xl font-extrabold tracking-tight sm:text-2xl">
           Cari AC untuk area {item.areaName}? Mulai dari data ruangan.
         </h2>
         <p className="mx-auto mb-7 max-w-2xl text-sm leading-7 text-slate-600">

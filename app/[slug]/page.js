@@ -126,13 +126,13 @@ export default async function AreaPage({ params }) {
       <section className="relative overflow-hidden border-b border-blue-100 bg-[linear-gradient(180deg,#f8fdff_0%,#eefbff_100%)] px-4 pb-10 pt-12 sm:px-6 lg:px-8 lg:pb-16 lg:pt-20">
         <div className="grid items-center gap-10 lg:grid-cols-[1.04fr_0.96fr] lg:gap-16">
           <div>
-            <Link href={routes.jualAc} className="mb-5 inline-flex text-sm font-black text-blue-700 transition hover:text-slate-950">
+            <Link href={routes.jualAc} className="mb-5 inline-flex text-sm font-semibold text-blue-700 transition hover:text-slate-950">
               ← Kembali ke Jual AC
             </Link>
             <div className="mb-5 inline-flex rounded-full border border-blue-100 bg-blue-50 px-4 py-2 text-sm text-blue-700">
               {item.eyebrow}
             </div>
-            <h1 className="mb-3 max-w-3xl text-2xl font-black leading-[1.08] tracking-[-0.03em] sm:text-3xl md:text-4xl xl:text-5xl">
+            <h1 className="mb-3 max-w-3xl text-2xl font-extrabold leading-[1.08] tracking-[-0.03em] sm:text-3xl md:text-4xl xl:text-[2.6rem]">
               {item.h1}
             </h1>
             <p className="mb-5 max-w-2xl text-sm font-bold leading-6 text-blue-700">
@@ -143,10 +143,10 @@ export default async function AreaPage({ params }) {
               <WhatsappLink className="inline-flex items-center justify-center rounded-full bg-[#25D366] px-6 py-4 font-bold text-slate-950 shadow-[0_18px_50px_rgba(37,211,102,0.2)] transition hover:-translate-y-0.5 hover:bg-[#20BA5A]" source={item.label} intent={item.waIntent} area={item.waArea} pageType="area">
                 {item.ctaLabel ?? `Cek AC ${item.areaName}`}
               </WhatsappLink>
-              <a href="#estimasi-anggaran" className="inline-flex items-center justify-center rounded-full border border-slate-200 bg-white px-6 py-4 font-black text-slate-900 shadow-sm transition hover:bg-slate-50">
+              <a href="#estimasi-anggaran" className="inline-flex items-center justify-center rounded-full border border-slate-200 bg-white px-6 py-4 font-semibold text-slate-900 shadow-sm transition hover:bg-slate-50">
                 Lihat Estimasi Anggaran
               </a>
-              <Link href={routes.katalog} className="inline-flex items-center justify-center rounded-full border border-slate-200 bg-white px-6 py-4 font-black text-slate-900 shadow-sm transition hover:bg-slate-50">
+              <Link href={routes.katalog} className="inline-flex items-center justify-center rounded-full border border-slate-200 bg-white px-6 py-4 font-semibold text-slate-900 shadow-sm transition hover:bg-slate-50">
                 Lihat Katalog AC
               </Link>
             </div>
@@ -173,7 +173,7 @@ export default async function AreaPage({ params }) {
               {proofImages.map(([label, src, alt]) => (
                 <div key={src} className="group relative overflow-hidden rounded-[18px] border border-slate-200 bg-white shadow-[0_18px_45px_rgba(8,20,47,0.24)] sm:rounded-[22px]">
                   <Image src={src} alt={alt} width={420} height={300} sizes="(min-width: 1024px) 250px, 50vw" className="h-[118px] w-full object-cover transition duration-300 group-hover:scale-105 sm:h-[140px] lg:h-[136px]" />
-                  <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-slate-950/70 to-transparent px-2 pb-2 pt-7 text-center text-[11px] font-black text-white sm:text-xs">{label}</div>
+                  <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-slate-950/70 to-transparent px-2 pb-2 pt-7 text-center text-[11px] font-bold text-white sm:text-xs">{label}</div>
                 </div>
               ))}
             </div>
@@ -196,7 +196,7 @@ export default async function AreaPage({ params }) {
           <div className="grid gap-5 lg:grid-cols-3">
             {areaContent.benefits.length ? (
               <div className="rounded-[1.45rem] border border-slate-200 bg-white p-6">
-                <h3 className="mb-4 text-lg font-black text-slate-950">{`Kenapa relevan di ${item.areaName}`}</h3>
+                <h3 className="mb-4 text-lg font-bold text-slate-950">{`Kenapa relevan di ${item.areaName}`}</h3>
                 <ul className="space-y-3">
                   {areaContent.benefits.map((benefit) => (
                     <li key={benefit} className="rounded-2xl border border-slate-200 bg-[#f8fbff] p-4 text-sm font-semibold leading-6 text-slate-700">
@@ -208,11 +208,11 @@ export default async function AreaPage({ params }) {
             ) : null}
             {areaContent.cases.length ? (
               <div className="rounded-[1.45rem] border border-slate-200 bg-white p-6">
-                <h3 className="mb-4 text-lg font-black text-slate-950">{`Contoh kebutuhan dari ${item.areaName}`}</h3>
+                <h3 className="mb-4 text-lg font-bold text-slate-950">{`Contoh kebutuhan dari ${item.areaName}`}</h3>
                 <ul className="space-y-3">
                   {areaContent.cases.map(([caseTitle, caseDetail]) => (
                     <li key={caseTitle} className="rounded-2xl border border-slate-200 bg-[#f8fbff] p-4 text-sm leading-6 text-slate-700">
-                      <span className="block font-black text-slate-950">{caseTitle}</span>
+                      <span className="block font-bold text-slate-950">{caseTitle}</span>
                       {caseDetail ? <span className="mt-1 block text-slate-600">{caseDetail}</span> : null}
                     </li>
                   ))}
@@ -221,7 +221,7 @@ export default async function AreaPage({ params }) {
             ) : null}
             {areaContent.landmarks.length ? (
               <div className="rounded-[1.45rem] border border-slate-200 bg-white p-6">
-                <h3 className="mb-4 text-lg font-black text-slate-950">Landmark &amp; titik lokal yang sering dilayani</h3>
+                <h3 className="mb-4 text-lg font-bold text-slate-950">Landmark &amp; titik lokal yang sering dilayani</h3>
                 <div className="flex flex-wrap gap-2">
                   {areaContent.landmarks.map((landmark) => (
                     <span key={landmark} className="rounded-full border border-slate-200 bg-[#f8fbff] px-3 py-2 text-xs font-bold text-slate-700">
@@ -235,14 +235,14 @@ export default async function AreaPage({ params }) {
 
           {areaContent.buyerGuide ? (
             <div className="mt-6 rounded-[1.7rem] border border-blue-100 bg-blue-50/60 p-6 sm:p-8">
-              <h3 className="mb-2 text-xl font-black text-slate-950">{areaContent.buyerGuide.title}</h3>
+              <h3 className="mb-2 text-xl font-bold text-slate-950">{areaContent.buyerGuide.title}</h3>
               {areaContent.buyerGuide.intro ? (
                 <p className="mb-5 max-w-3xl text-sm leading-7 text-slate-600">{areaContent.buyerGuide.intro}</p>
               ) : null}
               <div className="grid gap-4 md:grid-cols-3">
                 {areaContent.buyerGuide.points.map(([heading, detail]) => (
                   <div key={heading} className="rounded-[1.25rem] border border-slate-200 bg-white p-5">
-                    <h4 className="mb-2 text-base font-black text-slate-950">{heading}</h4>
+                    <h4 className="mb-2 text-base font-bold text-slate-950">{heading}</h4>
                     <p className="text-sm leading-6 text-slate-600">{detail}</p>
                   </div>
                 ))}
@@ -252,11 +252,11 @@ export default async function AreaPage({ params }) {
 
           {areaContent.clusterFaq.length ? (
             <div className="mt-6">
-              <h3 className="mb-4 text-lg font-black text-slate-950">{`Pertanyaan seputar AC di ${item.areaName}`}</h3>
+              <h3 className="mb-4 text-lg font-bold text-slate-950">{`Pertanyaan seputar AC di ${item.areaName}`}</h3>
               <div className="grid gap-3 md:grid-cols-2">
                 {areaContent.clusterFaq.map(([question, answer]) => (
                   <details key={question} className="group rounded-[1.25rem] border border-slate-200 bg-white p-5">
-                    <summary className="cursor-pointer list-none text-sm font-black text-slate-950">{question}</summary>
+                    <summary className="cursor-pointer list-none text-sm font-bold text-slate-950">{question}</summary>
                     <p className="mt-2 text-sm leading-6 text-slate-600">{answer}</p>
                   </details>
                 ))}
@@ -268,25 +268,25 @@ export default async function AreaPage({ params }) {
 
       <section id="estimasi-anggaran" className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8 lg:py-12">
         <div className="rounded-[1.7rem] border border-blue-100 bg-blue-50 p-5 sm:p-6 lg:p-8">
-          <h2 className="mb-3 text-center text-2xl font-black tracking-tight text-slate-950 sm:text-3xl">Estimasi Anggaran AC + Pasang</h2>
+          <h2 className="mb-3 text-center text-xl font-extrabold tracking-tight text-slate-950 sm:text-2xl">Estimasi Anggaran AC + Pasang</h2>
           <p className="mx-auto mb-4 max-w-2xl text-center text-sm leading-7 text-slate-600">Gunakan tabel ini sebagai patokan awal. Angka akhir tetap mengikuti brand, PK, stok, alamat, opsi pembayaran, dan kondisi pemasangan di area {item.areaName}.</p>
           <div className="mx-auto mb-4 grid max-w-5xl gap-3 sm:grid-cols-3">
             {pricePackages.map(([priceRange, brands, description]) => (
               <div key={priceRange} className="rounded-[22px] border border-slate-200 bg-[#f7fbff]/45 p-4 text-center">
-                <p className="mb-3 text-xl font-black text-slate-950 sm:text-2xl">{brands}</p>
+                <p className="mb-3 text-xl font-bold text-slate-950 sm:text-2xl">{brands}</p>
                 <p className="rounded-2xl border border-slate-200 bg-white px-3 py-3 text-sm font-semibold leading-6 text-slate-600">{description}</p>
-                <p className="mt-3 text-xs font-bold uppercase tracking-[0.16em] text-blue-700/80">{priceRange}</p>
+                <p className="mt-3 text-xs font-semibold uppercase tracking-[0.12em] text-blue-700/80">{priceRange}</p>
               </div>
             ))}
           </div>
           <div className="mx-auto mb-4 max-w-5xl rounded-[22px] border border-blue-100 bg-blue-50 p-4">
-            <p className="mb-3 text-center text-xs font-black uppercase tracking-[0.18em] text-blue-700">Paket standar termasuk</p>
+            <p className="mb-3 text-center text-xs font-semibold uppercase tracking-[0.12em] text-blue-700">Paket standar termasuk</p>
             <div className="grid gap-2 sm:grid-cols-2 lg:grid-cols-4">
-              {packageIncludes.map((packageItem) => <div key={packageItem} className="flex items-center gap-2 text-sm font-semibold text-slate-600"><span className="flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-blue-600 text-xs font-black text-white">✓</span>{packageItem}</div>)}
+              {packageIncludes.map((packageItem) => <div key={packageItem} className="flex items-center gap-2 text-sm font-semibold text-slate-600"><span className="flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-blue-600 text-xs font-bold text-white">✓</span>{packageItem}</div>)}
             </div>
           </div>
           <div className="mt-5 flex justify-center">
-            <WhatsappLink className="inline-flex w-full items-center justify-center rounded-full bg-[#25D366] px-5 py-3 text-sm font-black text-slate-950 transition hover:bg-[#20BA5A] sm:w-auto" source={`${item.label} - Estimasi Anggaran`} intent={item.waIntent} area={item.waArea} pageType="area">Cek Anggaran Area Ini</WhatsappLink>
+            <WhatsappLink className="inline-flex w-full items-center justify-center rounded-full bg-[#25D366] px-5 py-3 text-sm font-bold text-slate-950 transition hover:bg-[#20BA5A] sm:w-auto" source={`${item.label} - Estimasi Anggaran`} intent={item.waIntent} area={item.waArea} pageType="area">Cek Anggaran Area Ini</WhatsappLink>
           </div>
         </div>
       </section>
@@ -294,14 +294,14 @@ export default async function AreaPage({ params }) {
       <section className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8 lg:py-12">
         <SectionTitle eyebrow="KEBUTUHAN BANYAK UNIT" title={`Butuh AC banyak unit di ${item.areaName}? Jangan cari stok satu-satu.`} description={`Untuk toko, kost, ruko, kantor, rumah banyak ruangan, proyek, pengadaan, atau kebutuhan banyak unit di ${item.areaName}, RADJA AC mengecek stok, menyusun pilihan brand, estimasi anggaran, pengiriman, dan opsi pemasangan.`} />
         <div className="grid gap-5 md:grid-cols-3">
-          {bulkCards.map(([title, description]) => <div key={title} className="rounded-[1.45rem] border border-slate-200 bg-white p-6 text-center"><div className="mx-auto mb-5 flex h-12 w-12 items-center justify-center rounded-2xl bg-blue-50 text-2xl text-blue-700">✓</div><h2 className="mb-3 text-xl font-black text-slate-950">{title}</h2><p className="text-sm leading-7 text-slate-600">{description}</p></div>)}
+          {bulkCards.map(([title, description]) => <div key={title} className="rounded-[1.45rem] border border-slate-200 bg-white p-6 text-center"><div className="mx-auto mb-5 flex h-12 w-12 items-center justify-center rounded-2xl bg-blue-50 text-2xl text-blue-700">✓</div><h2 className="mb-3 text-xl font-extrabold text-slate-950">{title}</h2><p className="text-sm leading-7 text-slate-600">{description}</p></div>)}
         </div>
       </section>
 
       <section className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8 lg:py-12">
         <SectionTitle eyebrow="KONSULTASI PEMBELIAN" title="Anggaran murah tidak ada artinya kalau PK salah dan biaya pasang belum dihitung" description="Yang sering jadi masalah: PK tidak sesuai ruangan, biaya pasang belum jelas, atau stok kosong saat mau beli. RADJA AC kerja sebaliknya — stok dicek dulu, kebutuhan dihitung, estimasi dijelaskan sebelum pembelian." />
         <div className="grid gap-5 md:grid-cols-3">
-          {valueItems.map(([title, description]) => <div key={title} className="rounded-[1.45rem] border border-slate-200 bg-white p-6 text-center"><div className="mx-auto mb-5 flex h-12 w-12 items-center justify-center rounded-2xl bg-blue-50 text-2xl text-blue-700">✓</div><h2 className="mb-3 text-xl font-black text-slate-950">{title}</h2><p className="text-sm leading-7 text-slate-600">{description}</p></div>)}
+          {valueItems.map(([title, description]) => <div key={title} className="rounded-[1.45rem] border border-slate-200 bg-white p-6 text-center"><div className="mx-auto mb-5 flex h-12 w-12 items-center justify-center rounded-2xl bg-blue-50 text-2xl text-blue-700">✓</div><h2 className="mb-3 text-xl font-extrabold text-slate-950">{title}</h2><p className="text-sm leading-7 text-slate-600">{description}</p></div>)}
         </div>
       </section>
 
@@ -309,27 +309,27 @@ export default async function AreaPage({ params }) {
 
       <section className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8 lg:py-12">
         <SectionTitle eyebrow="PILIHAN AC" title="Mulai dari brand atau kebutuhan" description="Saat memilih merek, mulai dari ukuran ruangan, daya listrik, anggaran, dan jam pemakaian." />
-        <div className="mb-5 grid grid-cols-2 gap-4 lg:grid-cols-3">{brandLinks.map(([title, href]) => <Link key={href} href={href} className="group rounded-[22px] border border-slate-200 bg-white p-4 transition hover:-translate-y-1 hover:border-blue-200"><h3 className="mb-2 text-lg font-black text-slate-950">{title}</h3><span className="inline-flex items-center gap-2 text-xs font-bold text-blue-700 sm:text-sm">Lihat pilihan →</span></Link>)}</div>
-        <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-4">{categoryLinks.map(([title, href, description]) => <Link key={href} href={href} className="rounded-[1.35rem] border border-slate-200 bg-white p-5 text-center transition hover:-translate-y-1 hover:border-blue-200"><h3 className="mb-3 text-base font-black text-slate-950 sm:text-lg">{title}</h3><p className="text-xs leading-6 text-slate-500">{description}</p></Link>)}</div>
+        <div className="mb-5 grid grid-cols-2 gap-4 lg:grid-cols-3">{brandLinks.map(([title, href]) => <Link key={href} href={href} className="group rounded-[22px] border border-slate-200 bg-white p-4 transition hover:-translate-y-1 hover:border-blue-200"><h3 className="mb-2 text-lg font-semibold text-slate-950">{title}</h3><span className="inline-flex items-center gap-2 text-xs font-bold text-blue-700 sm:text-sm">Lihat pilihan →</span></Link>)}</div>
+        <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-4">{categoryLinks.map(([title, href, description]) => <Link key={href} href={href} className="rounded-[1.35rem] border border-slate-200 bg-white p-5 text-center transition hover:-translate-y-1 hover:border-blue-200"><h3 className="mb-3 text-base font-semibold text-slate-950 sm:text-lg">{title}</h3><p className="text-xs leading-6 text-slate-500">{description}</p></Link>)}</div>
       </section>
 
       <section className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8 lg:py-12">
         <SectionTitle eyebrow="LINK PENTING" title="Halaman pendukung sebelum chat" />
-        <div className="mx-auto flex max-w-4xl flex-wrap justify-center gap-3">{pageLinks.map(([label, href]) => <Link key={href} href={href} className="rounded-full border border-slate-200 bg-white px-4 py-2 text-sm font-black text-slate-700 transition hover:-translate-y-1 hover:border-blue-300/40 hover:text-blue-700">{label}</Link>)}</div>
+        <div className="mx-auto flex max-w-4xl flex-wrap justify-center gap-3">{pageLinks.map(([label, href]) => <Link key={href} href={href} className="rounded-full border border-slate-200 bg-white px-4 py-2 text-sm font-semibold text-slate-700 transition hover:-translate-y-1 hover:border-blue-300/40 hover:text-blue-700">{label}</Link>)}</div>
       </section>
 
       <section className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8 lg:py-12">
         <div className="rounded-[1.7rem] border border-slate-200 bg-white p-6 shadow-sm sm:p-8">
           <div className="grid gap-6 lg:grid-cols-[1.05fr_0.95fr] lg:items-start">
             <div>
-              <div className="mb-4 inline-flex rounded-full border border-blue-100 bg-blue-50 px-4 py-2 text-xs font-black uppercase tracking-[0.16em] text-blue-700">
+              <div className="mb-4 inline-flex rounded-full border border-blue-100 bg-blue-50 px-4 py-2 text-xs font-semibold uppercase tracking-[0.12em] text-blue-700">
                 TRUST & PEMBAYARAN
               </div>
-              <h2 className="mb-4 text-2xl font-black tracking-tight text-slate-950 sm:text-3xl">
+              <h2 className="mb-4 text-xl font-extrabold tracking-tight text-slate-950 sm:text-2xl">
                 Bukti aktivitas RADJA AC dan pembayaran yang bisa dikonfirmasi dulu
               </h2>
               <p className="mb-5 text-sm leading-7 text-slate-600 sm:text-base">{paymentNote}</p>
-              <Link href={routes.buktiPengirimanProyek} className="inline-flex items-center justify-center rounded-full border border-slate-200 bg-slate-50 px-5 py-3 text-sm font-black text-slate-950 transition hover:bg-slate-100">
+              <Link href={routes.buktiPengirimanProyek} className="inline-flex items-center justify-center rounded-full border border-slate-200 bg-slate-50 px-5 py-3 text-sm font-semibold text-slate-950 transition hover:bg-slate-100">
                 Lihat Bukti Pengiriman
               </Link>
             </div>
@@ -342,7 +342,7 @@ export default async function AreaPage({ params }) {
             </div>
           </div>
           <div className="mt-6 rounded-[1.25rem] border border-blue-100 bg-blue-50/50 p-4">
-            <h3 className="mb-3 text-sm font-black uppercase tracking-[0.14em] text-blue-700">Kebutuhan lokal yang sering dicek</h3>
+            <h3 className="mb-3 text-xs font-semibold uppercase tracking-[0.12em] text-blue-700">Kebutuhan lokal yang sering dicek</h3>
             <div className="flex flex-wrap gap-2">
               {keywordVariants.map((keyword) => (
                 <span key={keyword} className="rounded-full bg-white px-3 py-2 text-xs font-bold text-slate-700 shadow-sm">

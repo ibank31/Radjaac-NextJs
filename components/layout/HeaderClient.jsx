@@ -186,10 +186,10 @@ export default function HeaderClient() {
             />
           </span>
           <span className="flex flex-col leading-tight">
-            <span className="text-lg font-black tracking-[-0.02em] text-slate-950">
+            <span className="text-lg font-bold tracking-[-0.02em] text-slate-950">
               RADJA AC
             </span>
-            <span className="text-[11px] font-bold uppercase tracking-[0.08em] text-slate-500">
+            <span className="text-[11px] font-semibold uppercase tracking-[0.12em] text-slate-500">
               AC Original untuk Rumah, Usaha & Proyek
             </span>
           </span>

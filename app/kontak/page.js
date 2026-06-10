@@ -58,11 +58,11 @@ export default function KontakPage() {
 
         <div className="relative mx-auto grid max-w-7xl gap-10 lg:grid-cols-[1fr_0.92fr] lg:items-start lg:gap-16">
           <div>
-            <p className="inline-flex rounded-full border border-blue-100 bg-white/80 px-4 py-2 text-xs font-black uppercase tracking-[0.2em] text-blue-800 shadow-sm backdrop-blur">
+            <p className="inline-flex rounded-full border border-blue-100 bg-white/80 px-4 py-2 text-xs font-semibold uppercase tracking-[0.12em] text-blue-800 shadow-sm backdrop-blur">
               Kontak RADJA AC
             </p>
 
-            <h1 className="mt-6 max-w-4xl text-3xl font-black leading-tight tracking-[-0.035em] text-slate-950 md:text-5xl">
+            <h1 className="mt-6 max-w-4xl text-3xl font-extrabold leading-tight tracking-[-0.035em] text-slate-950 md:text-[2.4rem]">
               Mau beli AC? Kirim ukuran ruangan, daya listrik, lokasi, dan jumlah unit ke RADJA AC.
             </h1>
 
@@ -72,7 +72,7 @@ export default function KontakPage() {
 
             <div className="mt-8 flex flex-col gap-3 sm:flex-row sm:flex-wrap">
               <WhatsappLink
-                className="inline-flex items-center justify-center rounded-full bg-[#25D366] px-7 py-4 font-black text-slate-950 shadow-[0_18px_42px_rgba(37,211,102,0.20)] transition hover:-translate-y-0.5 hover:bg-[#20BA5A]"
+                className="inline-flex items-center justify-center rounded-full bg-[#25D366] px-7 py-4 font-bold text-slate-950 shadow-[0_18px_42px_rgba(37,211,102,0.20)] transition hover:-translate-y-0.5 hover:bg-[#20BA5A]"
                 source="Halaman Kontak - Hero"
                 intent="konsultasi pembelian AC, cek PK, stok, pengiriman, dan opsi pemasangan"
               >
@@ -81,14 +81,14 @@ export default function KontakPage() {
 
               <Link
                 href={routes.katalog}
-                className="inline-flex items-center justify-center rounded-full border border-slate-200 bg-white px-7 py-4 font-black text-slate-900 shadow-sm transition hover:bg-slate-50"
+                className="inline-flex items-center justify-center rounded-full border border-slate-200 bg-white px-7 py-4 font-semibold text-slate-900 shadow-sm transition hover:bg-slate-50"
               >
                 Lihat Katalog AC
               </Link>
 
               <Link
                 href={routes.kalkulatorPkAc}
-                className="inline-flex items-center justify-center rounded-full border border-slate-200 bg-white px-7 py-4 font-black text-slate-900 shadow-sm transition hover:bg-slate-50"
+                className="inline-flex items-center justify-center rounded-full border border-slate-200 bg-white px-7 py-4 font-semibold text-slate-900 shadow-sm transition hover:bg-slate-50"
               >
                 Cek Kalkulator PK
               </Link>
@@ -105,11 +105,11 @@ export default function KontakPage() {
           </div>
 
           <aside className="rounded-[1.7rem] border border-slate-200 bg-white p-5 shadow-[0_22px_60px_rgba(15,39,66,0.10)] sm:p-7">
-            <p className="text-xs font-black uppercase tracking-[0.2em] text-blue-700">
+            <p className="text-xs font-semibold uppercase tracking-[0.12em] text-blue-700">
               Nomor WhatsApp
             </p>
 
-            <p className="mt-3 text-3xl font-black tracking-[-0.03em] text-slate-950 sm:text-4xl">
+            <p className="mt-3 text-xl font-extrabold tracking-[-0.03em] text-slate-950 sm:text-2xl">
               {siteConfig.whatsappDisplay}
             </p>
 
@@ -118,11 +118,11 @@ export default function KontakPage() {
             </p>
 
             <div className="mt-6 rounded-[1.45rem] border border-blue-100 bg-blue-50 p-5">
-              <p className="text-sm font-black text-slate-950">Format pesan yang disarankan:</p>
+              <p className="text-sm font-bold text-slate-950">Format pesan yang disarankan:</p>
               <ul className="mt-4 space-y-3">
                 {messageChecklist.map((item) => (
                   <li key={item} className="flex gap-3 text-sm leading-6 text-slate-700">
-                    <span className="mt-1 flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-blue-600 text-xs font-black text-white">
+                    <span className="mt-1 flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-blue-600 text-xs font-bold text-white">
                       ✓
                     </span>
                     <span>{item}</span>
@@ -132,7 +132,7 @@ export default function KontakPage() {
             </div>
 
             <WhatsappLink
-              className="mt-6 inline-flex w-full items-center justify-center rounded-full bg-[#25D366] px-6 py-4 text-sm font-black text-slate-950 shadow-[0_14px_34px_rgba(37,211,102,0.20)] transition hover:-translate-y-0.5 hover:bg-[#20BA5A]"
+              className="mt-6 inline-flex w-full items-center justify-center rounded-full bg-[#25D366] px-6 py-4 text-sm font-bold text-slate-950 shadow-[0_14px_34px_rgba(37,211,102,0.20)] transition hover:-translate-y-0.5 hover:bg-[#20BA5A]"
               source="Halaman Kontak - Card Nomor WA"
               intent="mengirim detail kebutuhan AC untuk dicek tim RADJA AC"
             >
@@ -149,7 +149,7 @@ export default function KontakPage() {
               <div className="mb-5 flex h-12 w-12 items-center justify-center rounded-2xl bg-blue-50 text-2xl text-blue-700">
                 ✓
               </div>
-              <h2 className="text-xl font-black tracking-[-0.02em] text-slate-950">{title}</h2>
+              <h2 className="text-xl font-extrabold tracking-[-0.02em] text-slate-950">{title}</h2>
               <p className="mt-3 text-sm leading-7 text-slate-600">{text}</p>
             </div>
           ))}
@@ -160,10 +160,10 @@ export default function KontakPage() {
         <div className="rounded-[1.7rem] border border-slate-200 bg-white p-6 shadow-[0_18px_50px_rgba(15,39,66,0.08)] sm:p-8 lg:p-10">
           <div className="grid gap-8 lg:grid-cols-[0.85fr_1.15fr] lg:items-center">
             <div>
-              <p className="text-xs font-black uppercase tracking-[0.2em] text-blue-700">
+              <p className="text-xs font-semibold uppercase tracking-[0.12em] text-blue-700">
                 Jalur cepat konsultasi
               </p>
-              <h2 className="mt-4 text-3xl font-black tracking-[-0.03em] text-slate-950 sm:text-4xl">
+              <h2 className="mt-4 text-xl font-extrabold tracking-[-0.03em] text-slate-950 sm:text-2xl">
                 Belum tahu mau pilih AC apa? Mulai dari chat, bukan dari nebak-nebak katalog.
               </h2>
               <p className="mt-5 text-sm leading-7 text-slate-600 sm:text-base">
@@ -178,13 +178,13 @@ export default function KontakPage() {
                   href={href}
                   className="rounded-[1.35rem] border border-slate-200 bg-[#f8fbff] p-5 transition hover:-translate-y-1 hover:border-blue-200 hover:bg-blue-50"
                 >
-                  <h3 className="text-base font-black text-slate-950">{title}</h3>
+                  <h3 className="text-base font-bold text-slate-950">{title}</h3>
                   <p className="mt-2 text-xs leading-6 text-slate-600">{text}</p>
                 </Link>
               ))}
 
               <WhatsappLink
-                className="rounded-[1.35rem] bg-[#25D366] p-5 text-center text-sm font-black text-slate-950 shadow-[0_14px_34px_rgba(37,211,102,0.18)] transition hover:-translate-y-1 hover:bg-[#20BA5A]"
+                className="rounded-[1.35rem] bg-[#25D366] p-5 text-center text-sm font-bold text-slate-950 shadow-[0_14px_34px_rgba(37,211,102,0.18)] transition hover:-translate-y-1 hover:bg-[#20BA5A]"
                 source="Halaman Kontak - Jalur Cepat"
                 intent="konsultasi cepat pembelian AC"
               >
@@ -197,14 +197,14 @@ export default function KontakPage() {
 
       <section className="mx-auto max-w-7xl px-4 pb-16 pt-8 sm:px-6 lg:px-8 lg:pb-20">
         <div className="rounded-[1.7rem] border border-[#25D366]/20 bg-[#25D366]/10 p-6 text-center shadow-[0_18px_50px_rgba(15,39,66,0.08)] sm:p-10">
-          <h2 className="mx-auto mb-5 max-w-3xl text-3xl font-black tracking-[-0.03em] text-slate-950 sm:text-4xl">
+          <h2 className="mx-auto mb-5 max-w-3xl text-xl font-extrabold tracking-[-0.03em] text-slate-950 sm:text-2xl">
             Siap cek stok dan rekomendasi AC?
           </h2>
           <p className="mx-auto mb-7 max-w-2xl text-sm leading-7 text-slate-700">
             Kirim ukuran ruangan, daya listrik, lokasi, jumlah unit, anggaran, dan brand yang diminati. Tim RADJA AC menyusun opsi yang masuk akal sebelum pembelian.
           </p>
           <WhatsappLink
-            className="inline-flex items-center justify-center rounded-full bg-[#25D366] px-6 py-4 font-black text-slate-950 shadow-[0_14px_34px_rgba(37,211,102,0.20)] transition hover:-translate-y-0.5 hover:bg-[#20BA5A]"
+            className="inline-flex items-center justify-center rounded-full bg-[#25D366] px-6 py-4 font-bold text-slate-950 shadow-[0_14px_34px_rgba(37,211,102,0.20)] transition hover:-translate-y-0.5 hover:bg-[#20BA5A]"
             source="Halaman Kontak - Final CTA"
             intent="cek stok dan konsultasi AC dari halaman kontak"
           >

@@ -59,7 +59,7 @@ export default function PanasonicBrandPage({ item, faqItems, structuredData }) {
             >
               {hero.primaryCtaLabel}
             </WhatsappLink>
-            <a href={hero.secondaryCtaHref} className="inline-flex items-center justify-center rounded-full border border-slate-200 bg-white px-6 py-4 font-black text-slate-900 shadow-sm transition hover:bg-slate-50">
+            <a href={hero.secondaryCtaHref} className="inline-flex items-center justify-center rounded-full border border-slate-200 bg-white px-6 py-4 font-semibold text-slate-900 shadow-sm transition hover:bg-slate-50">
               {hero.secondaryCtaLabel}
             </a>
           </div>
@@ -113,7 +113,7 @@ export default function PanasonicBrandPage({ item, faqItems, structuredData }) {
               {price.tiers.map(([label, value, note]) => (
                 <div key={label} className="rounded-2xl border border-slate-200 bg-[#f8fbff] p-4">
                   <div className="mb-1 text-sm font-semibold text-blue-700">{label}</div>
-                  <div className="mb-1 text-2xl font-black text-slate-950">{value}</div>
+                  <div className="mb-1 text-2xl font-extrabold text-slate-950">{value}</div>
                   <p className="text-sm leading-6 text-slate-600">{note}</p>
                 </div>
               ))}

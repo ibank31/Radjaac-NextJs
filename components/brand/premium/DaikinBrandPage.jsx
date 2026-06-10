@@ -71,11 +71,11 @@ export default function DaikinBrandPage({ item, faqItems, structuredData }) {
                 {hero.primaryCtaLabel}
               </WhatsappLink>
 
-              <a href={hero.secondaryCtaHref} className="inline-flex items-center justify-center rounded-full border border-slate-200 bg-white px-6 py-4 font-black text-slate-900 shadow-sm transition hover:bg-slate-50">
+              <a href={hero.secondaryCtaHref} className="inline-flex items-center justify-center rounded-full border border-slate-200 bg-white px-6 py-4 font-semibold text-slate-900 shadow-sm transition hover:bg-slate-50">
                 {hero.secondaryCtaLabel}
               </a>
 
-              <Link href={routes.buktiPengirimanProyek} className="inline-flex items-center justify-center rounded-full border border-slate-200 bg-white px-6 py-4 font-black text-slate-900 shadow-sm transition hover:bg-slate-50">
+              <Link href={routes.buktiPengirimanProyek} className="inline-flex items-center justify-center rounded-full border border-slate-200 bg-white px-6 py-4 font-semibold text-slate-900 shadow-sm transition hover:bg-slate-50">
                 Foto Showroom & Stok
               </Link>
             </div>
@@ -153,7 +153,7 @@ export default function DaikinBrandPage({ item, faqItems, structuredData }) {
             {priceTiers.map(([label, price, note]) => (
               <div key={label} className="rounded-2xl border border-slate-200 bg-[#f8fbff] p-4">
                 <div className="mb-1 text-sm font-semibold text-blue-700">{label}</div>
-                <div className="mb-1 text-2xl font-black text-slate-950">{price}</div>
+                <div className="mb-1 text-2xl font-extrabold text-slate-950">{price}</div>
                 <p className="text-sm leading-6 text-slate-600">{note}</p>
               </div>
             ))}
@@ -167,7 +167,7 @@ export default function DaikinBrandPage({ item, faqItems, structuredData }) {
       <section className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8 lg:py-14">
         <div className="grid items-start gap-8 lg:grid-cols-[0.9fr_1.1fr]">
           <div>
-            <div className="mb-4 inline-flex items-center gap-2 rounded-full border border-amber-200 bg-amber-50 px-4 py-2 text-sm font-black text-amber-700">
+            <div className="mb-4 inline-flex items-center gap-2 rounded-full border border-amber-200 bg-amber-50 px-4 py-2 text-sm font-bold text-amber-700">
               {authorizedDealer.badge}
             </div>
 
@@ -291,7 +291,7 @@ export default function DaikinBrandPage({ item, faqItems, structuredData }) {
         <SectionHeading eyebrow={pkSection.eyebrow} title={pkSection.title} description={pkSection.description} />
 
         <div className="overflow-hidden rounded-[1.7rem] border border-slate-200 bg-white shadow-sm">
-          <div className="hidden grid-cols-[0.8fr_1fr_1.4fr] border-b border-slate-100 bg-blue-50 px-5 py-3 text-xs font-extrabold uppercase tracking-[0.16em] text-blue-700 sm:grid">
+          <div className="hidden grid-cols-[0.8fr_1fr_1.4fr] border-b border-slate-100 bg-blue-50 px-5 py-3 text-xs font-semibold uppercase tracking-[0.12em] text-blue-700 sm:grid">
             <span>Kapasitas</span>
             <span>Estimasi Ruangan</span>
             <span>Cocok Untuk</span>
@@ -300,7 +300,7 @@ export default function DaikinBrandPage({ item, faqItems, structuredData }) {
           <div className="divide-y divide-slate-100">
             {pkGuide.map(([pk, area, note]) => (
               <div key={pk} className="grid gap-2 px-5 py-4 sm:grid-cols-[0.8fr_1fr_1.4fr] sm:items-start sm:gap-4">
-                <div className="text-lg font-black text-blue-700">{pk}</div>
+                <div className="text-lg font-bold text-blue-700">{pk}</div>
                 <div className="text-sm font-bold text-slate-950">{area}</div>
                 <div className="text-sm leading-6 text-slate-600">{note}</div>
               </div>

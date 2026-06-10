@@ -33,7 +33,7 @@ function StatusBlock({ status, item }) {
     <section className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8 lg:py-14">
       <div className="grid items-start gap-8 lg:grid-cols-[0.95fr_1.05fr]">
         <div>
-          <div className="mb-4 inline-flex items-center gap-2 rounded-full border border-amber-200 bg-amber-50 px-4 py-2 text-sm font-black text-amber-700">
+          <div className="mb-4 inline-flex items-center gap-2 rounded-full border border-amber-200 bg-amber-50 px-4 py-2 text-sm font-bold text-amber-700">
             {status.badge}
           </div>
           <h2 className={`mb-4 ${typography.sectionTitle} text-slate-950`}>{status.title}</h2>
@@ -119,12 +119,12 @@ export default function PremiumBrandPage({ content, item, faqItems, structuredDa
                 {hero.primaryCtaLabel}
               </WhatsappLink>
 
-              <a href={hero.secondaryCtaHref} className="inline-flex items-center justify-center rounded-full border border-slate-200 bg-white px-6 py-4 font-black text-slate-900 shadow-sm transition hover:bg-slate-50">
+              <a href={hero.secondaryCtaHref} className="inline-flex items-center justify-center rounded-full border border-slate-200 bg-white px-6 py-4 font-semibold text-slate-900 shadow-sm transition hover:bg-slate-50">
                 {hero.secondaryCtaLabel}
               </a>
 
               {hero.showShowroomLink ? (
-                <Link href={routes.buktiPengirimanProyek} className="inline-flex items-center justify-center rounded-full border border-slate-200 bg-white px-6 py-4 font-black text-slate-900 shadow-sm transition hover:bg-slate-50">
+                <Link href={routes.buktiPengirimanProyek} className="inline-flex items-center justify-center rounded-full border border-slate-200 bg-white px-6 py-4 font-semibold text-slate-900 shadow-sm transition hover:bg-slate-50">
                   Foto Showroom & Stok
                 </Link>
               ) : null}
@@ -202,7 +202,7 @@ export default function PremiumBrandPage({ content, item, faqItems, structuredDa
               {price.tiers.map(([label, value, note]) => (
                 <div key={label} className="rounded-2xl border border-slate-200 bg-[#f8fbff] p-4">
                   <div className="mb-1 text-sm font-semibold text-blue-700">{label}</div>
-                  <div className="mb-1 text-2xl font-black text-slate-950">{value}</div>
+                  <div className="mb-1 text-2xl font-extrabold text-slate-950">{value}</div>
                   <p className="text-sm leading-6 text-slate-600">{note}</p>
                 </div>
               ))}
@@ -301,7 +301,7 @@ export default function PremiumBrandPage({ content, item, faqItems, structuredDa
       <section className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8 lg:py-14">
         <SectionHeading eyebrow={pk.eyebrow} title={pk.title} description={pk.description} />
         <div className="overflow-hidden rounded-[1.7rem] border border-slate-200 bg-white shadow-sm">
-          <div className="hidden grid-cols-[0.8fr_1fr_1.4fr] border-b border-slate-100 bg-blue-50 px-5 py-3 text-xs font-extrabold uppercase tracking-[0.16em] text-blue-700 sm:grid">
+          <div className="hidden grid-cols-[0.8fr_1fr_1.4fr] border-b border-slate-100 bg-blue-50 px-5 py-3 text-xs font-semibold uppercase tracking-[0.12em] text-blue-700 sm:grid">
             <span>Kapasitas</span>
             <span>Estimasi Ruangan</span>
             <span>Cocok Untuk</span>
@@ -309,7 +309,7 @@ export default function PremiumBrandPage({ content, item, faqItems, structuredDa
           <div className="divide-y divide-slate-100">
             {pk.guide.map(([capacity, area, note]) => (
               <div key={capacity} className="grid gap-2 px-5 py-4 sm:grid-cols-[0.8fr_1fr_1.4fr] sm:items-start sm:gap-4">
-                <div className="text-lg font-black text-blue-700">{capacity}</div>
+                <div className="text-lg font-bold text-blue-700">{capacity}</div>
                 <div className="text-sm font-bold text-slate-950">{area}</div>
                 <div className="text-sm leading-6 text-slate-600">{note}</div>
               </div>

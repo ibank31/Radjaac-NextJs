@@ -33,7 +33,7 @@ export default function ArtikelPage() {
         <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_top_left,rgba(34,211,238,0.22),transparent_34%),radial-gradient(circle_at_bottom_right,rgba(37,211,102,0.22),transparent_30%)]" />
         <div className="relative mx-auto grid max-w-7xl gap-10 lg:grid-cols-[1.05fr_0.95fr] lg:items-center lg:gap-14">
           <div>
-            <p className="inline-flex rounded-full border border-white/15 bg-white/10 px-4 py-2 text-xs font-black uppercase tracking-[0.24em] text-blue-100 backdrop-blur">
+            <p className="inline-flex rounded-full border border-white/15 bg-white/10 px-4 py-2 text-xs font-semibold uppercase tracking-[0.12em] text-blue-100 backdrop-blur">
               Artikel RADJA AC
             </p>
             <h1 className="mt-6 max-w-4xl text-[1.65rem] font-extrabold leading-tight tracking-[-0.025em] md:text-[2.4rem]">
@@ -45,7 +45,7 @@ export default function ArtikelPage() {
 
             <div className="mt-8 flex flex-col gap-3 sm:flex-row sm:flex-wrap">
               <WhatsappLink
-                className="inline-flex items-center justify-center rounded-full bg-[#25D366] px-6 py-4 font-black text-slate-950 shadow-[0_18px_50px_rgba(37,211,102,0.24)] transition hover:-translate-y-0.5 hover:bg-[#20BA5A]"
+                className="inline-flex items-center justify-center rounded-full bg-[#25D366] px-6 py-4 font-bold text-slate-950 shadow-[0_18px_50px_rgba(37,211,102,0.24)] transition hover:-translate-y-0.5 hover:bg-[#20BA5A]"
                 source="Artikel Index"
                 intent="konsultasi setelah membaca panduan beli AC"
               >
@@ -53,13 +53,13 @@ export default function ArtikelPage() {
               </WhatsappLink>
               <Link
                 href={routes.kalkulatorPkAc}
-                className="inline-flex items-center justify-center rounded-full border border-white/20 bg-white/10 px-6 py-4 font-black text-white backdrop-blur transition hover:-translate-y-0.5 hover:bg-white/15"
+                className="inline-flex items-center justify-center rounded-full border border-white/20 bg-white/10 px-6 py-4 font-semibold text-white backdrop-blur transition hover:-translate-y-0.5 hover:bg-white/15"
               >
                 Cek Kalkulator PK
               </Link>
               <Link
                 href={routes.katalog}
-                className="inline-flex items-center justify-center rounded-full border border-white/20 bg-white px-6 py-4 font-black text-slate-950 shadow-sm transition hover:-translate-y-0.5 hover:bg-blue-50"
+                className="inline-flex items-center justify-center rounded-full border border-white/20 bg-white px-6 py-4 font-semibold text-slate-950 shadow-sm transition hover:-translate-y-0.5 hover:bg-blue-50"
               >
                 Lihat Katalog AC
               </Link>
@@ -67,7 +67,7 @@ export default function ArtikelPage() {
           </div>
 
           <aside className="rounded-[2rem] border border-white/20 bg-white/12 p-5 shadow-[0_28px_80px_rgba(2,8,23,0.28)] backdrop-blur sm:p-6 lg:p-7">
-            <p className="text-xs font-black uppercase tracking-[0.22em] text-blue-100">
+            <p className="text-xs font-semibold uppercase tracking-[0.12em] text-blue-100">
               Mulai dari masalah user
             </p>
             <h2 className="text-2xl font-extrabold tracking-tight text-white sm:text-[1.75rem]">
@@ -77,7 +77,7 @@ export default function ArtikelPage() {
               {guideStats.map(([label, text]) => (
                 <div key={label} className="rounded-2xl border border-white/15 bg-white/12 p-4">
                   <div className="flex items-center gap-3">
-                    <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-2xl bg-blue-300 text-sm font-black text-slate-950">
+                    <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-2xl bg-blue-300 text-sm font-bold text-slate-950">
                       {label}
                     </span>
                     <p className="text-sm font-semibold leading-6 text-blue-50">{text}</p>
@@ -86,7 +86,7 @@ export default function ArtikelPage() {
               ))}
             </div>
             <div className="mt-5 rounded-2xl bg-white p-4 text-slate-950">
-              <p className="text-sm font-black">Brief WA yang bagus berisi:</p>
+              <p className="text-sm font-bold">Brief WA yang bagus berisi:</p>
               <p className="mt-2 text-sm leading-6 text-slate-600">
                 ukuran ruangan, daya listrik, kota, anggaran awal, jumlah unit, dan butuh pemasangan atau tidak.
               </p>
@@ -102,7 +102,7 @@ export default function ArtikelPage() {
             className="group grid overflow-hidden rounded-[2rem] border border-slate-200 bg-white shadow-[0_22px_70px_rgba(15,39,66,0.10)] transition hover:-translate-y-1 hover:shadow-[0_28px_90px_rgba(15,39,66,0.16)] lg:grid-cols-[1fr_0.82fr]"
           >
             <div className="p-6 sm:p-8 lg:p-10">
-              <p className="mb-4 inline-flex rounded-full border border-blue-100 bg-blue-50 px-4 py-2 text-xs font-black uppercase tracking-[0.2em] text-blue-700">
+              <p className="mb-4 inline-flex rounded-full border border-blue-100 bg-blue-50 px-4 py-2 text-xs font-semibold uppercase tracking-[0.12em] text-blue-700">
                 Artikel Utama
               </p>
               <h2 className="text-2xl font-extrabold tracking-[-0.03em] text-slate-950 sm:text-3xl">
@@ -111,7 +111,7 @@ export default function ArtikelPage() {
               <p className="mt-5 text-sm leading-7 text-slate-600 sm:text-base">
                 {featuredArticle.intro}
               </p>
-              <span className="mt-7 inline-flex rounded-full bg-slate-950 px-5 py-3 text-sm font-black text-white transition group-hover:bg-blue-700">
+              <span className="mt-7 inline-flex rounded-full bg-slate-950 px-5 py-3 text-sm font-bold text-white transition group-hover:bg-blue-700">
                 Baca panduan →
               </span>
             </div>
@@ -125,7 +125,7 @@ export default function ArtikelPage() {
                 </span>
               </div>
               <div className="mt-12 rounded-[1.35rem] border border-white/15 bg-white/12 p-5 backdrop-blur">
-                <p className="text-sm font-black text-blue-50">Tujuan artikel</p>
+                <p className="text-sm font-bold text-blue-50">Tujuan artikel</p>
                 <p className="mt-2 text-sm leading-6 text-blue-50/90">
                   Membantu pembeli mengirim data yang tepat sebelum tanya stok, PK, pengiriman, dan pemasangan.
                 </p>
@@ -137,7 +137,7 @@ export default function ArtikelPage() {
 
       <section className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8 lg:py-12">
         <div className="mb-8 max-w-3xl">
-          <p className="mb-3 text-xs font-black uppercase tracking-[0.24em] text-blue-700">Semua Artikel</p>
+          <p className="mb-3 text-xs font-semibold uppercase tracking-[0.12em] text-blue-700">Semua Artikel</p>
           <h2 className="text-xl font-extrabold tracking-[-0.025em] text-slate-950 sm:text-2xl">Pilih panduan sesuai masalah pembelian AC</h2>
         </div>
         <div className="grid gap-5 md:grid-cols-2 lg:grid-cols-3">
@@ -156,12 +156,12 @@ export default function ArtikelPage() {
                   {article.readTime}
                 </span>
               </div>
-              <div className="mb-4 flex h-10 w-10 items-center justify-center rounded-2xl bg-slate-950 text-sm font-black text-white">
+              <div className="mb-4 flex h-10 w-10 items-center justify-center rounded-2xl bg-slate-950 text-sm font-bold text-white">
                 {String(index + 1).padStart(2, "0")}
               </div>
-              <h3 className="text-xl font-black leading-tight text-slate-950">{article.h1}</h3>
+              <h3 className="text-xl font-bold leading-tight text-slate-950">{article.h1}</h3>
               <p className="mt-4 text-sm leading-7 text-slate-600">{article.description}</p>
-              <span className="mt-6 inline-flex text-sm font-black text-blue-700 transition group-hover:translate-x-1">
+              <span className="mt-6 inline-flex text-sm font-semibold text-blue-700 transition group-hover:translate-x-1">
                 Baca artikel →
               </span>
             </Link>
@@ -177,7 +177,7 @@ export default function ArtikelPage() {
               href={href}
               className="rounded-[1.45rem] border border-slate-200 bg-white p-6 shadow-sm transition hover:-translate-y-1 hover:border-blue-200 hover:shadow-[0_18px_45px_rgba(15,39,66,0.10)]"
             >
-              <h2 className="text-xl font-black text-slate-950">{title}</h2>
+              <h2 className="text-xl font-extrabold text-slate-950">{title}</h2>
               <p className="mt-3 text-sm leading-6 text-slate-600">{text}</p>
             </Link>
           ))}
@@ -193,7 +193,7 @@ export default function ArtikelPage() {
             Kirim ukuran ruangan, daya listrik, kota, anggaran, dan brand yang diminati. Tim RADJA AC cocokkan pilihan dari data itu.
           </p>
           <WhatsappLink
-            className="inline-flex items-center justify-center rounded-full bg-[#25D366] px-6 py-4 font-black text-slate-950 shadow-[0_16px_40px_rgba(37,211,102,0.20)] transition hover:-translate-y-0.5 hover:bg-[#20BA5A]"
+            className="inline-flex items-center justify-center rounded-full bg-[#25D366] px-6 py-4 font-bold text-slate-950 shadow-[0_16px_40px_rgba(37,211,102,0.20)] transition hover:-translate-y-0.5 hover:bg-[#20BA5A]"
             source="Artikel Index - Final CTA"
             intent="konsultasi setelah membaca artikel RADJA AC"
           >

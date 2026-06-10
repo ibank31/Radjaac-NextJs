@@ -203,7 +203,7 @@ function ArrowLink({ href, children, className = "" }) {
 
 function BrandName() {
   return (
-    <strong className="font-black italic tracking-tight">
+    <strong className="font-bold italic tracking-tight">
       <span className="text-brand-red">Radja</span>{" "}
       <span className="text-brand-blue">AC</span>
     </strong>
@@ -217,7 +217,7 @@ function HomeHero() {
 
       <div className="relative mx-auto grid max-w-7xl gap-8 lg:grid-cols-[0.95fr_1.05fr] lg:items-center">
         <div>
-          <div className="mb-5 inline-flex max-w-full items-center gap-2 rounded-full border border-blue-100 bg-white/80 px-3.5 py-2 text-[11px] font-bold uppercase tracking-[0.14em] text-blue-800 shadow-sm backdrop-blur">
+          <div className="mb-5 inline-flex max-w-full items-center gap-2 rounded-full border border-blue-100 bg-white/80 px-3.5 py-2 text-[11px] font-semibold uppercase tracking-[0.12em] text-blue-800 shadow-sm backdrop-blur">
             <span className="h-2 w-2 shrink-0 rounded-full bg-blue-500" />
             <span className="leading-5">Showroom & gudang fisik · Pamijen, Sokaraja</span>
           </div>
@@ -232,7 +232,7 @@ function HomeHero() {
 
           <div className="mt-7 flex flex-col gap-3 sm:flex-row sm:flex-wrap">
             <WhatsappLink
-              className="inline-flex w-full items-center justify-center rounded-full bg-red-600 px-7 py-4 text-base font-black text-white shadow-xl shadow-red-600/20 transition hover:-translate-y-0.5 hover:bg-red-700 sm:w-auto"
+              className="inline-flex w-full items-center justify-center rounded-full bg-red-600 px-7 py-4 text-base font-bold text-white shadow-xl shadow-red-600/20 transition hover:-translate-y-0.5 hover:bg-red-700 sm:w-auto"
               source="Homepage Hero"
               intent="konsultasi AC yang cocok, cek PK, stok, pengiriman, dan pemasangan"
             >
@@ -301,7 +301,7 @@ function HomeTrust() {
             <div className="mb-5 flex h-14 w-14 items-center justify-center rounded-2xl border border-blue-200 bg-white text-2xl text-blue-700 shadow-sm">
               ✓
             </div>
-            <p className="mb-2 text-xs font-bold uppercase tracking-[0.18em] text-blue-800">
+            <p className="mb-2 text-xs font-semibold uppercase tracking-[0.12em] text-blue-800">
               PROSHOP GREE
             </p>
             <h3 className="text-xl font-extrabold tracking-tight text-blue-950 sm:text-2xl">
@@ -311,7 +311,7 @@ function HomeTrust() {
 
           <div className="border-t border-blue-200 pt-6 lg:border-l lg:border-t-0 lg:pl-8 lg:pt-0">
             <p className="text-sm leading-7 text-slate-700 sm:text-base">
-              Ini bukan toko online tanpa bukti fisik. <BrandName /> punya showroom, gudang, stok fisik, dan pembeli dapat datang melihat unit. Untuk Gree, <BrandName /> terdaftar sebagai <strong className="font-black text-brand-red">Proshop Gree Radja AC Purwokerto</strong>. Stok, tipe, harga, jadwal kirim, dan biaya pasang dijelaskan di awal agar transaksi jelas.
+              Ini bukan toko online tanpa bukti fisik. <BrandName /> punya showroom, gudang, stok fisik, dan pembeli dapat datang melihat unit. Untuk Gree, <BrandName /> terdaftar sebagai <strong className="font-bold text-brand-red">Proshop Gree Radja AC Purwokerto</strong>. Stok, tipe, harga, jadwal kirim, dan biaya pasang dijelaskan di awal agar transaksi jelas.
             </p>
 
             <ArrowLink
@@ -327,11 +327,11 @@ function HomeTrust() {
       <div className="mt-8 border-y border-slate-200 bg-white/80 py-8">
         <div className="grid gap-7 lg:grid-cols-[0.8fr_1.2fr] lg:items-start">
           <div>
-            <div className="mb-4 flex h-13 w-13 items-center justify-center rounded-2xl border border-blue-100 bg-blue-50 text-2xl font-black text-[#1565C0]">
+            <div className="mb-4 flex h-13 w-13 items-center justify-center rounded-2xl border border-blue-100 bg-blue-50 text-2xl font-extrabold text-[#1565C0]">
               ✓
             </div>
 
-            <p className="mb-3 text-xs font-bold uppercase tracking-[0.18em] text-[#1565C0]">
+            <p className="mb-3 text-xs font-semibold uppercase tracking-[0.12em] text-[#1565C0]">
               Sertifikat Resmi
             </p>
             <h3 className="mb-3 text-xl font-extrabold tracking-tight text-blue-950 sm:text-2xl">
@@ -356,7 +356,7 @@ function HomeTrust() {
                   />
                 </div>
                 <figcaption className="mt-3 text-center">
-                  <span className="inline-flex items-center justify-center gap-1.5 text-sm font-black text-blue-950 sm:text-base">
+                  <span className="inline-flex items-center justify-center gap-1.5 text-sm font-bold text-blue-950 sm:text-base">
                     <span className="text-[#1565C0]" aria-hidden="true">✓</span>
                     {item.brand}
                   </span>
@@ -397,7 +397,7 @@ function HomePriceEstimate() {
               key={item.range}
               className="rounded-[1.6rem] border border-slate-200 bg-slate-50 p-5 text-center transition hover:-translate-y-0.5 hover:bg-white hover:shadow-lg"
             >
-              <div className="mx-auto mb-4 flex h-11 w-11 items-center justify-center rounded-2xl border border-blue-100 bg-blue-50 font-black text-blue-700">
+              <div className="mx-auto mb-4 flex h-11 w-11 items-center justify-center rounded-2xl border border-blue-100 bg-blue-50 font-bold text-blue-700">
                 ✓
               </div>
               <h3 className="mb-3 text-xl font-extrabold leading-tight text-blue-950 sm:text-[1.35rem]">{item.range}</h3>
@@ -409,13 +409,13 @@ function HomePriceEstimate() {
         </div>
 
         <div className="mt-6 rounded-[1.5rem] border border-blue-100 bg-blue-50 p-5">
-          <p className="mb-4 text-sm font-black uppercase tracking-[0.18em] text-slate-500">
+          <p className="mb-4 text-xs font-semibold uppercase tracking-[0.12em] text-slate-500">
             Paket standar sudah termasuk:
           </p>
           <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
             {packageIncludes.map((item) => (
               <div key={item} className="flex items-center gap-2 text-sm font-semibold text-slate-700">
-                <span className="flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-blue-600 text-xs font-black text-white">
+                <span className="flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-blue-600 text-xs font-bold text-white">
                   ✓
                 </span>
                 {item}
@@ -430,7 +430,7 @@ function HomePriceEstimate() {
 
         <div className="mt-6 flex justify-center">
           <WhatsappLink
-            className="inline-flex w-full items-center justify-center rounded-full bg-red-600 px-6 py-4 text-sm font-black text-white shadow-lg shadow-red-600/20 transition hover:-translate-y-0.5 hover:bg-red-700 sm:w-auto"
+            className="inline-flex w-full items-center justify-center rounded-full bg-red-600 px-6 py-4 text-sm font-bold text-white shadow-lg shadow-red-600/20 transition hover:-translate-y-0.5 hover:bg-red-700 sm:w-auto"
             source="Home Price Estimate"
             intent="cek estimasi anggaran AC dan pemasangan"
           >
@@ -448,10 +448,10 @@ function HomePaymentTrust() {
       <div className="rounded-[1.75rem] border border-slate-200 bg-white p-5 shadow-sm">
         <div className="grid gap-4 md:grid-cols-3 md:items-center">
           <div>
-            <p className="text-xs font-bold uppercase tracking-[0.16em] text-blue-700">
+            <p className="text-xs font-semibold uppercase tracking-[0.12em] text-blue-700">
               Beli AC di Radja AC — Alurnya Simpel
             </p>
-            <h2 className="mt-2 text-xl font-black text-blue-950">
+            <h2 className="mt-2 text-xl font-extrabold text-blue-950">
               Kirim data ruangan. PK dihitung, stok dicek, biaya pasang dijelaskan. Baru beli.
             </h2>
           </div>
@@ -485,7 +485,7 @@ function HomeSalesLanding() {
 
             <div className="mt-6 flex flex-col gap-3 sm:flex-row sm:flex-wrap">
               <WhatsappLink
-                className="inline-flex items-center justify-center rounded-full bg-red-600 px-6 py-4 font-black text-white shadow-lg shadow-red-600/20 transition hover:-translate-y-0.5 hover:bg-red-700"
+                className="inline-flex items-center justify-center rounded-full bg-red-600 px-6 py-4 font-bold text-white shadow-lg shadow-red-600/20 transition hover:-translate-y-0.5 hover:bg-red-700"
                 source="Home Sales Landing"
                 intent="minta rekomendasi AC sesuai ruangan dan anggaran"
               >
@@ -509,10 +509,10 @@ function HomeSalesLanding() {
           <div className="grid gap-4 md:grid-cols-3 lg:grid-cols-1">
             {salesPoints.map((item) => (
               <div key={item.title} className="rounded-[1.5rem] border border-blue-100 bg-white p-5 shadow-sm">
-                <div className="mb-3 flex h-10 w-10 items-center justify-center rounded-2xl bg-blue-50 text-sm font-black text-blue-800">
+                <div className="mb-3 flex h-10 w-10 items-center justify-center rounded-2xl bg-blue-50 text-sm font-bold text-blue-800">
                   {item.icon}
                 </div>
-                <h3 className="mb-2 font-black text-blue-950">{item.title}</h3>
+                <h3 className="mb-2 font-bold text-blue-950">{item.title}</h3>
                 <p className="text-sm leading-6 text-slate-600">{item.description}</p>
               </div>
             ))}
@@ -543,10 +543,10 @@ function HomeCategory() {
             href={item.href}
             className="rounded-[1.5rem] border border-slate-200 bg-white p-4 text-center shadow-sm transition hover:-translate-y-0.5 hover:border-blue-200 hover:bg-blue-50 sm:p-6"
           >
-            <div className="mx-auto mb-4 flex h-12 w-12 items-center justify-center rounded-2xl border border-blue-100 bg-blue-50 text-xl font-black text-blue-800 sm:h-14 sm:w-14">
+            <div className="mx-auto mb-4 flex h-12 w-12 items-center justify-center rounded-2xl border border-blue-100 bg-blue-50 text-xl font-bold text-blue-800 sm:h-14 sm:w-14">
               {item.icon}
             </div>
-            <h3 className="mb-2 text-base font-black text-blue-950 sm:text-lg">{item.title}</h3>
+            <h3 className="mb-2 text-base font-bold text-blue-950 sm:text-lg">{item.title}</h3>
             <p className="text-xs leading-6 text-slate-600 sm:text-sm">{item.desc}</p>
             <div className="mt-4 text-blue-700" aria-hidden="true">
               →
@@ -605,7 +605,7 @@ function HomeBrands() {
             <p className="mt-3 mb-3 flex min-h-[40px] items-center justify-center text-xs leading-5 text-slate-500">
               {brand.tagline}
             </p>
-            <div className="text-xs font-black text-blue-700">
+            <div className="text-xs font-bold text-blue-700">
               Cek Unit & Budget →
             </div>
           </Link>
@@ -615,10 +615,10 @@ function HomeBrands() {
       <div className="rounded-[1.75rem] border border-slate-200 bg-white p-5 shadow-sm sm:p-6">
         <div className="mb-5 flex flex-col gap-2 sm:flex-row sm:items-end sm:justify-between">
           <div>
-            <p className="mb-2 text-xs font-bold uppercase tracking-[0.16em] text-blue-700">
+            <p className="mb-2 text-xs font-semibold uppercase tracking-[0.12em] text-blue-700">
               Brand Lainnya
             </p>
-            <h3 className="text-xl font-black text-blue-950">
+            <h3 className="text-xl font-bold text-blue-950">
               Cari merek yang tidak ada di atas? Tanya langsung
             </h3>
           </div>
@@ -665,10 +665,10 @@ function HomeWhyChoose() {
             key={item.title}
             className="rounded-[1.75rem] border border-slate-200 bg-white p-5 text-center shadow-sm transition hover:-translate-y-0.5 hover:border-blue-200 hover:bg-blue-50 sm:p-6"
           >
-            <div className="mx-auto mb-5 flex h-14 w-14 items-center justify-center rounded-2xl border border-blue-100 bg-blue-50 text-xl font-black text-blue-800 sm:h-16 sm:w-16">
+            <div className="mx-auto mb-5 flex h-14 w-14 items-center justify-center rounded-2xl border border-blue-100 bg-blue-50 text-xl font-bold text-blue-800 sm:h-16 sm:w-16">
               {item.icon}
             </div>
-            <h3 className="mb-3 text-base font-black leading-snug text-blue-950 sm:text-lg">{item.title}</h3>
+            <h3 className="mb-3 text-base font-bold leading-snug text-blue-950 sm:text-lg">{item.title}</h3>
             <p className="text-xs leading-6 text-slate-600 sm:text-sm sm:leading-7">{item.desc}</p>
           </div>
         ))}
@@ -691,7 +691,7 @@ function HomeClosingCta() {
         <div className="pointer-events-none absolute -right-16 -top-16 h-64 w-64 rounded-full bg-brand-blue/20 blur-3xl" />
         <div className="relative grid gap-8 lg:grid-cols-[1.05fr_0.95fr] lg:items-center">
           <div>
-            <span className="inline-flex items-center gap-2 rounded-full border border-white/20 bg-white/10 px-4 py-1.5 text-[11px] font-bold uppercase tracking-[0.18em] text-white">
+            <span className="inline-flex items-center gap-2 rounded-full border border-white/20 bg-white/10 px-4 py-1.5 text-[11px] font-semibold uppercase tracking-[0.12em] text-white">
               <span className="h-1.5 w-1.5 rounded-full bg-brand-red" aria-hidden="true" />
               Siap Beli AC?
             </span>
@@ -705,7 +705,7 @@ function HomeClosingCta() {
 
           <div className="rounded-[1.5rem] border border-white/15 bg-white/5 p-5 backdrop-blur">
             <WhatsappLink
-              className="inline-flex w-full items-center justify-center rounded-full bg-red-600 px-6 py-4 text-sm font-black text-white shadow-lg shadow-red-600/20 transition hover:-translate-y-0.5 hover:bg-red-700"
+              className="inline-flex w-full items-center justify-center rounded-full bg-red-600 px-6 py-4 text-sm font-bold text-white shadow-lg shadow-red-600/20 transition hover:-translate-y-0.5 hover:bg-red-700"
               source="Homepage Closing CTA"
               intent="konsultasi kebutuhan AC dari homepage"
             >

@@ -125,7 +125,7 @@ export default async function ArticleDetailPage({ params }) {
         <section className="relative overflow-hidden border-b border-slate-200 bg-[linear-gradient(135deg,#061727_0%,#0f3f57_48%,#e9fbff_100%)] px-4 pb-12 pt-12 text-white sm:px-6 lg:px-8 lg:pb-16 lg:pt-20">
           <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_top_left,rgba(34,211,238,0.22),transparent_32%),radial-gradient(circle_at_bottom_right,rgba(37,211,102,0.20),transparent_28%)]" />
           <div className="relative mx-auto max-w-5xl">
-            <Link href={routes.artikel} className="mb-7 inline-flex items-center gap-2 rounded-full border border-white/15 bg-white/10 px-4 py-2 text-sm font-black text-blue-50 backdrop-blur transition hover:bg-white/15">
+            <Link href={routes.artikel} className="mb-7 inline-flex items-center gap-2 rounded-full border border-white/15 bg-white/10 px-4 py-2 text-sm font-semibold text-blue-50 backdrop-blur transition hover:bg-white/15">
               ← Kembali ke artikel
             </Link>
 
@@ -151,7 +151,7 @@ export default async function ArticleDetailPage({ params }) {
 
             <div className="mt-8 flex flex-col gap-3 sm:flex-row sm:flex-wrap">
               <WhatsappLink
-                className="inline-flex items-center justify-center rounded-full bg-[#25D366] px-6 py-4 font-black text-slate-950 shadow-[0_18px_50px_rgba(37,211,102,0.24)] transition hover:-translate-y-0.5 hover:bg-[#20BA5A]"
+                className="inline-flex items-center justify-center rounded-full bg-[#25D366] px-6 py-4 font-bold text-slate-950 shadow-[0_18px_50px_rgba(37,211,102,0.24)] transition hover:-translate-y-0.5 hover:bg-[#20BA5A]"
                 source={`Artikel ${item.slug} - Hero`}
                 intent={item.waIntent}
               >
@@ -159,13 +159,13 @@ export default async function ArticleDetailPage({ params }) {
               </WhatsappLink>
               <Link
                 href={routes.kalkulatorPkAc}
-                className="inline-flex items-center justify-center rounded-full border border-white/20 bg-white/10 px-6 py-4 font-black text-white backdrop-blur transition hover:-translate-y-0.5 hover:bg-white/15"
+                className="inline-flex items-center justify-center rounded-full border border-white/20 bg-white/10 px-6 py-4 font-semibold text-white backdrop-blur transition hover:-translate-y-0.5 hover:bg-white/15"
               >
                 Cek Kalkulator PK
               </Link>
               <Link
                 href={routes.katalog}
-                className="inline-flex items-center justify-center rounded-full border border-white/20 bg-white px-6 py-4 font-black text-slate-950 shadow-sm transition hover:-translate-y-0.5 hover:bg-blue-50"
+                className="inline-flex items-center justify-center rounded-full border border-white/20 bg-white px-6 py-4 font-semibold text-slate-950 shadow-sm transition hover:-translate-y-0.5 hover:bg-blue-50"
               >
                 Lihat Katalog AC
               </Link>
@@ -187,7 +187,7 @@ export default async function ArticleDetailPage({ params }) {
               <section key={section.heading} className="relative overflow-hidden rounded-[1.7rem] border border-slate-200 bg-white p-6 shadow-[0_16px_45px_rgba(15,39,66,0.07)] sm:p-8">
                 <div className="absolute inset-x-0 top-0 h-1 bg-gradient-to-r from-blue-500 via-blue-400 to-emerald-400" />
                 <div className="mb-5 flex items-start gap-4">
-                  <span className="flex h-11 w-11 shrink-0 items-center justify-center rounded-2xl bg-slate-950 text-sm font-black text-white">
+                  <span className="flex h-11 w-11 shrink-0 items-center justify-center rounded-2xl bg-slate-950 text-sm font-bold text-white">
                     {String(index + 1).padStart(2, "0")}
                   </span>
                   <h2 className="pt-1 text-xl font-extrabold tracking-[-0.025em] text-slate-950 sm:text-2xl">
@@ -206,7 +206,7 @@ export default async function ArticleDetailPage({ params }) {
 
           <section className="mt-10 overflow-hidden rounded-[1.7rem] border border-slate-200 bg-white shadow-[0_18px_55px_rgba(15,39,66,0.08)]">
             <div className="bg-[linear-gradient(135deg,#083449_0%,#0ea5b7_100%)] p-6 text-white sm:p-8">
-              <p className="mb-3 text-xs font-black uppercase tracking-[0.24em] text-blue-100">
+              <p className="mb-3 text-xs font-semibold uppercase tracking-[0.12em] text-blue-100">
                 Lanjutkan ke halaman terkait
               </p>
               <h2 className="max-w-3xl text-xl font-extrabold tracking-[-0.025em] sm:text-2xl">
@@ -220,9 +220,9 @@ export default async function ArticleDetailPage({ params }) {
                   href={href}
                   className="group rounded-[1.35rem] border border-slate-200 bg-[#f8fbff] p-5 transition hover:-translate-y-1 hover:border-blue-200 hover:bg-white hover:shadow-[0_16px_40px_rgba(15,39,66,0.10)]"
                 >
-                  <h3 className="mb-2 text-lg font-black text-slate-950">{label}</h3>
+                  <h3 className="mb-2 text-lg font-bold text-slate-950">{label}</h3>
                   <p className="mb-4 text-sm leading-6 text-slate-600">{description}</p>
-                  <span className="inline-flex items-center gap-2 text-sm font-black text-blue-700 transition group-hover:translate-x-1">
+                  <span className="inline-flex items-center gap-2 text-sm font-semibold text-blue-700 transition group-hover:translate-x-1">
                     Buka halaman →
                   </span>
                 </Link>
@@ -231,7 +231,7 @@ export default async function ArticleDetailPage({ params }) {
           </section>
 
           <section className="mt-10 rounded-[2rem] border border-[#25D366]/20 bg-[linear-gradient(135deg,rgba(37,211,102,0.14),rgba(34,211,238,0.10))] p-6 text-center shadow-[0_18px_55px_rgba(15,39,66,0.08)] sm:p-8">
-            <div className="mx-auto mb-4 flex h-12 w-12 items-center justify-center rounded-2xl bg-[#25D366] text-sm font-black text-slate-950">
+            <div className="mx-auto mb-4 flex h-12 w-12 items-center justify-center rounded-2xl bg-[#25D366] text-sm font-bold text-slate-950">
               WA
             </div>
             <h2 className="mb-3 text-xl font-extrabold tracking-[-0.025em] text-slate-950 sm:text-2xl">
@@ -242,7 +242,7 @@ export default async function ArticleDetailPage({ params }) {
               rekomendasi PK, pilihan tipe AC, garansi, pembayaran, dan pengiriman.
             </p>
             <WhatsappLink
-              className="inline-flex items-center justify-center rounded-full bg-[#25D366] px-6 py-4 font-black text-slate-950 shadow-[0_16px_40px_rgba(37,211,102,0.20)] transition hover:-translate-y-0.5 hover:bg-[#20BA5A]"
+              className="inline-flex items-center justify-center rounded-full bg-[#25D366] px-6 py-4 font-bold text-slate-950 shadow-[0_16px_40px_rgba(37,211,102,0.20)] transition hover:-translate-y-0.5 hover:bg-[#20BA5A]"
               source={`Artikel ${item.slug} - Bottom CTA`}
               intent={item.waIntent}
             >
@@ -261,7 +261,7 @@ export default async function ArticleDetailPage({ params }) {
                     className="rounded-[1.35rem] border border-slate-200 bg-white p-5 shadow-sm transition hover:-translate-y-1 hover:border-blue-200 hover:shadow-[0_16px_40px_rgba(15,39,66,0.10)]"
                   >
                     <p className="mb-2 text-xs font-bold text-blue-700">{article.eyebrow}</p>
-                    <h3 className="mb-2 text-lg font-black text-slate-950">{article.h1}</h3>
+                    <h3 className="mb-2 text-lg font-bold text-slate-950">{article.h1}</h3>
                     <p className="text-sm leading-6 text-slate-500">{article.description}</p>
                   </Link>
                 ))}

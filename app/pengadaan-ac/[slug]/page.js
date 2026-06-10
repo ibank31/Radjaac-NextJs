@@ -105,16 +105,16 @@ export default async function ProcurementDetailPage({ params }) {
 
         <div className="relative mx-auto grid max-w-7xl gap-12 px-5 py-14 sm:px-6 lg:grid-cols-[1.04fr_0.96fr] lg:px-8 lg:py-20">
           <div className="flex flex-col justify-center">
-            <Link href={routes.pengadaanAc} className="mb-6 inline-flex w-fit text-sm font-black text-blue-900 transition hover:text-red-600">
+            <Link href={routes.pengadaanAc} className="mb-6 inline-flex w-fit text-sm font-semibold text-blue-900 transition hover:text-red-600">
               ← Kembali ke Pengadaan AC
             </Link>
 
-            <div className="mb-6 inline-flex w-fit items-center gap-3 rounded-full border border-blue-100 bg-white px-4 py-2 text-xs font-black uppercase tracking-[0.16em] text-blue-900 shadow-sm">
+            <div className="mb-6 inline-flex w-fit items-center gap-3 rounded-full border border-blue-100 bg-white px-4 py-2 text-xs font-semibold uppercase tracking-[0.12em] text-blue-900 shadow-sm">
               <span className="h-2.5 w-2.5 rounded-full bg-red-600" />
               {item.eyebrow}
             </div>
 
-            <h1 className="max-w-4xl text-3xl font-black tracking-[-0.04em] text-blue-950 sm:text-4xl lg:text-5xl">
+            <h1 className="max-w-4xl text-3xl font-extrabold tracking-[-0.04em] text-blue-950 sm:text-4xl lg:text-[2.5rem]">
               {item.h1}
             </h1>
 
@@ -124,7 +124,7 @@ export default async function ProcurementDetailPage({ params }) {
 
             <div className="mt-8 flex flex-col gap-3 sm:flex-row sm:flex-wrap">
               <WhatsappLink
-                className="inline-flex items-center justify-center rounded-2xl bg-red-600 px-7 py-4 text-base font-black text-white shadow-xl shadow-red-600/20 transition hover:-translate-y-0.5 hover:bg-red-700"
+                className="inline-flex items-center justify-center rounded-2xl bg-red-600 px-7 py-4 text-base font-bold text-white shadow-xl shadow-red-600/20 transition hover:-translate-y-0.5 hover:bg-red-700"
                 source={item.label}
                 intent={item.waIntent}
                 category={item.waProjectType}
@@ -135,7 +135,7 @@ export default async function ProcurementDetailPage({ params }) {
 
               <Link
                 href={routes.buktiPengirimanProyek}
-                className="inline-flex items-center justify-center rounded-2xl border border-slate-300 bg-white px-7 py-4 text-base font-black text-blue-950 shadow-sm transition hover:-translate-y-0.5 hover:border-blue-900"
+                className="inline-flex items-center justify-center rounded-2xl border border-slate-300 bg-white px-7 py-4 text-base font-semibold text-blue-950 shadow-sm transition hover:-translate-y-0.5 hover:border-blue-900"
               >
                 Lihat Bukti Pengiriman
               </Link>
@@ -144,7 +144,7 @@ export default async function ProcurementDetailPage({ params }) {
             <div className="mt-10 grid gap-3 sm:grid-cols-3">
               {heroTrust.map(([title, desc]) => (
                 <div key={title} className="rounded-3xl border border-slate-200 bg-white p-5 shadow-sm">
-                  <div className="text-base font-black text-blue-950">{title}</div>
+                  <div className="text-base font-bold text-blue-950">{title}</div>
                   <p className="mt-2 text-sm leading-6 text-slate-600">{desc}</p>
                 </div>
               ))}
@@ -153,17 +153,17 @@ export default async function ProcurementDetailPage({ params }) {
 
           <div className="rounded-[1.7rem] border border-blue-100 bg-white p-5 shadow-2xl shadow-blue-900/10">
             <div className="mb-4 flex items-center justify-between gap-4 rounded-2xl bg-blue-950 px-5 py-4 text-white">
-              <h2 className="text-sm font-black uppercase tracking-[0.16em]">Alur order banyak unit</h2>
-              <span className="rounded-full bg-red-600 px-3 py-1 text-xs font-black">B2B</span>
+              <h2 className="text-xs font-semibold uppercase tracking-[0.12em]">Alur order banyak unit</h2>
+              <span className="rounded-full bg-red-600 px-3 py-1 text-xs font-bold">B2B</span>
             </div>
             <div className="grid gap-3">
               {processSteps.map(([number, title, desc]) => (
                 <div key={number} className="flex gap-4 rounded-2xl border border-slate-100 bg-slate-50 p-4">
-                  <div className="flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-blue-950 text-xs font-black text-white">
+                  <div className="flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-blue-950 text-xs font-bold text-white">
                     {number}
                   </div>
                   <div>
-                    <h3 className="text-sm font-black text-blue-950">{title}</h3>
+                    <h3 className="text-sm font-bold text-blue-950">{title}</h3>
                     <p className="mt-1 text-xs leading-5 text-slate-600">{desc}</p>
                   </div>
                 </div>
@@ -177,12 +177,12 @@ export default async function ProcurementDetailPage({ params }) {
         <div className="mx-auto max-w-7xl px-5 py-14 sm:px-6 lg:px-8">
           <div className="grid gap-5 lg:grid-cols-2">
             <section className="rounded-[1.7rem] border border-slate-200 bg-white p-6 shadow-sm">
-              <p className="text-sm font-black uppercase tracking-[0.2em] text-red-600">Kebutuhan segmen</p>
-              <h2 className="mt-3 text-2xl font-black tracking-tight text-blue-950">Kebutuhan pengadaan</h2>
+              <p className="text-xs font-semibold uppercase tracking-[0.12em] text-red-600">Kebutuhan segmen</p>
+              <h2 className="mt-3 text-2xl font-extrabold tracking-tight text-blue-950">Kebutuhan pengadaan</h2>
               <ul className="mt-5 space-y-3 text-sm leading-6 text-slate-700">
                 {item.commonNeeds.map((point) => (
                   <li key={point} className="flex gap-3 rounded-2xl border border-slate-100 bg-slate-50 p-4">
-                    <span className="mt-0.5 flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-blue-950 text-xs font-black text-white">✓</span>
+                    <span className="mt-0.5 flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-blue-950 text-xs font-bold text-white">✓</span>
                     <span>{point}</span>
                   </li>
                 ))}
@@ -190,12 +190,12 @@ export default async function ProcurementDetailPage({ params }) {
             </section>
 
             <section className="rounded-[1.7rem] border border-slate-200 bg-white p-6 shadow-sm">
-              <p className="text-sm font-black uppercase tracking-[0.2em] text-red-600">Brief teknis</p>
-              <h2 className="mt-3 text-2xl font-black tracking-tight text-blue-950">Data yang perlu disiapkan</h2>
+              <p className="text-xs font-semibold uppercase tracking-[0.12em] text-red-600">Brief teknis</p>
+              <h2 className="mt-3 text-2xl font-extrabold tracking-tight text-blue-950">Data yang perlu disiapkan</h2>
               <ul className="mt-5 space-y-3 text-sm leading-6 text-slate-700">
                 {item.buyingChecks.map((point) => (
                   <li key={point} className="flex gap-3 rounded-2xl border border-slate-100 bg-slate-50 p-4">
-                    <span className="mt-0.5 flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-red-50 text-xs font-black text-red-700">✓</span>
+                    <span className="mt-0.5 flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-red-50 text-xs font-bold text-red-700">✓</span>
                     <span>{point}</span>
                   </li>
                 ))}
@@ -209,8 +209,8 @@ export default async function ProcurementDetailPage({ params }) {
         <div className="mx-auto max-w-7xl px-5 py-16 sm:px-6 lg:px-8">
           <div className="mb-8 grid gap-5 lg:grid-cols-[0.8fr_1.2fr] lg:items-end">
             <div>
-              <p className="text-sm font-black uppercase tracking-[0.2em] text-red-600">Bukti operasional</p>
-              <h2 className="mt-3 text-2xl font-black tracking-tight text-blue-950 sm:text-4xl">
+              <p className="text-xs font-semibold uppercase tracking-[0.12em] text-red-600">Bukti operasional</p>
+              <h2 className="mt-3 text-xl font-extrabold tracking-tight text-blue-950 sm:text-2xl">
                 Stok dan pengiriman banyak unit yang bisa dilihat fotonya.
               </h2>
             </div>
@@ -225,11 +225,11 @@ export default async function ProcurementDetailPage({ params }) {
               <figure key={proof.image} className="overflow-hidden rounded-[1.6rem] border border-slate-200 bg-white shadow-sm">
                 <div className="relative">
                   <Image src={proof.image} alt={proof.title} width={520} height={420} sizes="(min-width: 1024px) 360px, 100vw" className="h-52 w-full object-cover" />
-                  <span className="absolute left-4 top-4 rounded-full bg-white/90 px-3 py-1 text-xs font-black text-blue-950 shadow-sm">
+                  <span className="absolute left-4 top-4 rounded-full bg-white/90 px-3 py-1 text-xs font-bold text-blue-950 shadow-sm">
                     {proof.label}
                   </span>
                 </div>
-                <figcaption className="p-4 text-sm font-black leading-6 text-blue-950">{proof.title}</figcaption>
+                <figcaption className="p-4 text-sm font-bold leading-6 text-blue-950">{proof.title}</figcaption>
               </figure>
             ))}
           </div>
@@ -240,8 +240,8 @@ export default async function ProcurementDetailPage({ params }) {
         <div className="mx-auto max-w-7xl px-5 py-16 sm:px-6 lg:px-8">
           <div className="grid gap-8 lg:grid-cols-[0.8fr_1.2fr] lg:items-start">
             <div>
-              <p className="text-sm font-black uppercase tracking-[0.2em] text-red-600">Stok, kirim & pasang</p>
-              <h2 className="mt-3 text-2xl font-black tracking-tight text-blue-950 sm:text-4xl">
+              <p className="text-xs font-semibold uppercase tracking-[0.12em] text-red-600">Stok, kirim & pasang</p>
+              <h2 className="mt-3 text-xl font-extrabold tracking-tight text-blue-950 sm:text-2xl">
                 Stok, pengiriman, dan pemasangan dari gudang sendiri.
               </h2>
             </div>
@@ -256,15 +256,15 @@ export default async function ProcurementDetailPage({ params }) {
       <section className="bg-[#F8FAFC]">
         <div className="mx-auto max-w-7xl px-5 py-16 sm:px-6 lg:px-8">
           <div className="mb-8 max-w-3xl">
-            <p className="text-sm font-black uppercase tracking-[0.2em] text-red-600">Garansi & bantuan klaim</p>
-            <h2 className="mt-3 text-2xl font-black tracking-tight text-blue-950 sm:text-3xl">
+            <p className="text-xs font-semibold uppercase tracking-[0.12em] text-red-600">Garansi & bantuan klaim</p>
+            <h2 className="mt-3 text-xl font-extrabold tracking-tight text-blue-950 sm:text-2xl">
               Garansi pemasangan 1 bulan, garansi unit resmi brand, dan bantuan klaim.
             </h2>
           </div>
           <ul className="grid gap-4 text-sm leading-6 text-slate-700 md:grid-cols-3">
             {warrantyHighlights.map((point) => (
               <li key={point} className="rounded-[1.5rem] border border-slate-200 bg-white p-5 shadow-sm">
-                <span className="mb-4 flex h-9 w-9 items-center justify-center rounded-full bg-blue-950 text-xs font-black text-white">✓</span>
+                <span className="mb-4 flex h-9 w-9 items-center justify-center rounded-full bg-blue-950 text-xs font-bold text-white">✓</span>
                 {point}
               </li>
             ))}
@@ -279,15 +279,15 @@ export default async function ProcurementDetailPage({ params }) {
         <section className="bg-white">
           <div className="mx-auto max-w-7xl px-5 py-16 sm:px-6 lg:px-8">
             <div className="mb-8 max-w-3xl">
-              <p className="text-sm font-black uppercase tracking-[0.2em] text-red-600">FAQ pengadaan</p>
-              <h2 className="mt-3 text-2xl font-black tracking-tight text-blue-950 sm:text-3xl">
+              <p className="text-xs font-semibold uppercase tracking-[0.12em] text-red-600">FAQ pengadaan</p>
+              <h2 className="mt-3 text-xl font-extrabold tracking-tight text-blue-950 sm:text-2xl">
                 Pertanyaan yang sering masuk untuk {item.label.toLowerCase()}.
               </h2>
             </div>
             <div className="grid gap-4 md:grid-cols-2">
               {item.faqs.map(([question, answer]) => (
                 <div key={question} className="rounded-[1.5rem] border border-slate-200 bg-white p-6 shadow-sm">
-                  <h3 className="text-base font-black text-blue-950">{question}</h3>
+                  <h3 className="text-base font-bold text-blue-950">{question}</h3>
                   <p className="mt-3 text-sm leading-7 text-slate-600">{answer}</p>
                 </div>
               ))}
@@ -299,8 +299,8 @@ export default async function ProcurementDetailPage({ params }) {
       <section className="bg-[#F8FAFC]">
         <div className="mx-auto max-w-7xl px-5 py-16 sm:px-6 lg:px-8">
           <div className="mb-8 max-w-3xl">
-            <p className="text-sm font-black uppercase tracking-[0.2em] text-red-600">Katalog & brand</p>
-            <h2 className="mt-3 text-2xl font-black tracking-tight text-blue-950 sm:text-3xl">
+            <p className="text-xs font-semibold uppercase tracking-[0.12em] text-red-600">Katalog & brand</p>
+            <h2 className="mt-3 text-xl font-extrabold tracking-tight text-blue-950 sm:text-2xl">
               Cek katalog PK dan brand untuk {item.label.toLowerCase()}.
             </h2>
           </div>
@@ -309,7 +309,7 @@ export default async function ProcurementDetailPage({ params }) {
               <Link
                 key={href}
                 href={href}
-                className="rounded-[1.4rem] border border-slate-200 bg-white p-5 text-sm font-black text-blue-950 shadow-sm transition hover:-translate-y-1 hover:border-blue-200 hover:shadow-lg"
+                className="rounded-[1.4rem] border border-slate-200 bg-white p-5 text-sm font-semibold text-blue-950 shadow-sm transition hover:-translate-y-1 hover:border-blue-200 hover:shadow-lg"
               >
                 {label} →
               </Link>
@@ -317,15 +317,15 @@ export default async function ProcurementDetailPage({ params }) {
           </div>
 
           <div className="mt-10 mb-6 max-w-3xl">
-            <p className="text-sm font-black uppercase tracking-[0.2em] text-red-600">Segmen pengadaan terkait</p>
-            <h3 className="mt-3 text-xl font-black tracking-tight text-blue-950">
+            <p className="text-xs font-semibold uppercase tracking-[0.12em] text-red-600">Segmen pengadaan terkait</p>
+            <h3 className="mt-3 text-xl font-bold tracking-tight text-blue-950">
               Segmen lain yang sering dibandingkan.
             </h3>
           </div>
           <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
             <Link
               href={routes.pengadaanAc}
-              className="rounded-[1.4rem] border border-blue-100 bg-white p-5 text-sm font-black text-blue-950 shadow-sm transition hover:-translate-y-1 hover:border-blue-200 hover:shadow-lg"
+              className="rounded-[1.4rem] border border-blue-100 bg-white p-5 text-sm font-semibold text-blue-950 shadow-sm transition hover:-translate-y-1 hover:border-blue-200 hover:shadow-lg"
             >
               Semua segmen pengadaan AC →
             </Link>
@@ -333,14 +333,14 @@ export default async function ProcurementDetailPage({ params }) {
               <Link
                 key={href}
                 href={href}
-                className="rounded-[1.4rem] border border-blue-100 bg-white p-5 text-sm font-black text-blue-950 shadow-sm transition hover:-translate-y-1 hover:border-blue-200 hover:shadow-lg"
+                className="rounded-[1.4rem] border border-blue-100 bg-white p-5 text-sm font-semibold text-blue-950 shadow-sm transition hover:-translate-y-1 hover:border-blue-200 hover:shadow-lg"
               >
                 {label} →
               </Link>
             ))}
             <Link
               href={routes.buktiPengirimanProyek}
-              className="rounded-[1.4rem] border border-blue-100 bg-white p-5 text-sm font-black text-blue-950 shadow-sm transition hover:-translate-y-1 hover:border-blue-200 hover:shadow-lg"
+              className="rounded-[1.4rem] border border-blue-100 bg-white p-5 text-sm font-semibold text-blue-950 shadow-sm transition hover:-translate-y-1 hover:border-blue-200 hover:shadow-lg"
             >
               Bukti pengiriman & stok →
             </Link>
@@ -352,8 +352,8 @@ export default async function ProcurementDetailPage({ params }) {
         <div className="pointer-events-none absolute -right-24 -top-24 h-96 w-96 rounded-full bg-white/5 blur-3xl" />
         <div className="relative mx-auto grid max-w-7xl gap-10 px-5 py-16 sm:px-6 lg:grid-cols-[1fr_0.82fr] lg:items-center lg:px-8">
           <div>
-            <p className="text-sm font-black uppercase tracking-[0.2em] text-white/40">Mulai order</p>
-            <h2 className="mt-4 text-2xl font-black tracking-tight text-white sm:text-4xl">
+            <p className="text-xs font-semibold uppercase tracking-[0.12em] text-white/40">Mulai order</p>
+            <h2 className="mt-4 text-xl font-extrabold tracking-tight text-white sm:text-2xl">
               Kirim jumlah unit dan lokasi, kami cek stok dan jadwal kirim.
             </h2>
             <p className="mt-5 max-w-2xl text-sm leading-7 text-white/70 sm:text-base">
@@ -363,17 +363,17 @@ export default async function ProcurementDetailPage({ params }) {
           </div>
 
           <div className="rounded-[1.7rem] bg-white p-6 text-slate-950 shadow-2xl">
-            <h3 className="text-xl font-black text-blue-950">Data yang perlu dikirim</h3>
+            <h3 className="text-xl font-bold text-blue-950">Data yang perlu dikirim</h3>
             <ul className="mt-5 space-y-3 text-sm leading-6 text-slate-600">
               {briefChecklist.map(([title, desc]) => (
                 <li key={title} className="flex gap-3">
-                  <span className="mt-0.5 flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-green-100 text-xs font-black text-green-700">✓</span>
+                  <span className="mt-0.5 flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-green-100 text-xs font-bold text-green-700">✓</span>
                   <span><strong className="text-blue-950">{title}</strong> — {desc}</span>
                 </li>
               ))}
             </ul>
             <WhatsappLink
-              className="mt-6 inline-flex w-full justify-center rounded-2xl bg-red-600 px-6 py-4 font-black text-white shadow-lg shadow-red-600/20 transition hover:-translate-y-0.5 hover:bg-red-700"
+              className="mt-6 inline-flex w-full justify-center rounded-2xl bg-red-600 px-6 py-4 font-bold text-white shadow-lg shadow-red-600/20 transition hover:-translate-y-0.5 hover:bg-red-700"
               source={`${item.label} - Final CTA`}
               intent={item.waIntent}
               category={item.waProjectType}

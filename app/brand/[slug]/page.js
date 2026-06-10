@@ -207,11 +207,11 @@ export default async function BrandDetailPage({ params }) {
                 {item.ctaLabel}
               </WhatsappLink>
 
-              <a href="#pilihan-tipe" className="inline-flex items-center justify-center rounded-full border border-slate-200 bg-white px-6 py-4 font-black text-slate-900 shadow-sm transition hover:bg-slate-50">
+              <a href="#pilihan-tipe" className="inline-flex items-center justify-center rounded-full border border-slate-200 bg-white px-6 py-4 font-semibold text-slate-900 shadow-sm transition hover:bg-slate-50">
                 Lihat Pilihan Tipe
               </a>
 
-              <Link href={routes.buktiPengirimanProyek} className="inline-flex items-center justify-center rounded-full border border-slate-200 bg-white px-6 py-4 font-black text-slate-900 shadow-sm transition hover:bg-slate-50">
+              <Link href={routes.buktiPengirimanProyek} className="inline-flex items-center justify-center rounded-full border border-slate-200 bg-white px-6 py-4 font-semibold text-slate-900 shadow-sm transition hover:bg-slate-50">
                 Foto Showroom & Stok
               </Link>
             </div>
@@ -244,7 +244,7 @@ export default async function BrandDetailPage({ params }) {
       <section className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8 lg:py-14">
         <div className="grid items-start gap-7 lg:grid-cols-[0.95fr_1.05fr] lg:gap-10">
           <div>
-            <div className="mb-4 inline-flex rounded-full border border-blue-200 bg-blue-50 px-4 py-2 text-sm font-black text-blue-800">
+            <div className="mb-4 inline-flex rounded-full border border-blue-200 bg-blue-50 px-4 py-2 text-sm font-bold text-blue-800">
               Status & Kejelasan Brand
             </div>
 
@@ -318,7 +318,7 @@ export default async function BrandDetailPage({ params }) {
             <div className="grid gap-3">
               {pkGuide.map(([pk, size, fit]) => (
                 <div key={pk} className="grid gap-2 rounded-2xl border border-slate-200 bg-[#f8fbff] p-4 sm:grid-cols-[0.4fr_0.7fr_1fr]">
-                  <div className="font-black text-blue-700">{pk}</div>
+                  <div className="font-bold text-blue-700">{pk}</div>
                   <div className="text-sm font-bold text-slate-950">{size}</div>
                   <div className="text-sm text-slate-600">{fit}</div>
                 </div>

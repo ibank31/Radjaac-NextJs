@@ -112,7 +112,7 @@ export default function JualAcPage() {
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_left,rgba(56,189,248,0.24),transparent_34%),radial-gradient(circle_at_bottom_right,rgba(34,197,94,0.18),transparent_30%)]" />
         <div className="relative mx-auto grid max-w-7xl gap-12 px-6 py-20 lg:grid-cols-[1.05fr_0.95fr] lg:px-8 lg:py-24">
           <div>
-            <p className="inline-flex rounded-full border border-blue-100 bg-white/80 px-4 py-2 text-xs font-black uppercase tracking-[0.24em] text-blue-800 shadow-sm backdrop-blur">
+            <p className="inline-flex rounded-full border border-blue-100 bg-white/80 px-4 py-2 text-xs font-semibold uppercase tracking-[0.12em] text-blue-800 shadow-sm backdrop-blur">
               Jual AC Original Multi-Brand
             </p>
             <h1 className="mt-7 max-w-4xl text-[1.65rem] font-extrabold tracking-tight sm:text-[2rem] lg:text-[2.6rem]">
@@ -126,7 +126,7 @@ export default function JualAcPage() {
 
             <div className="mt-9 flex flex-col gap-3 sm:flex-row">
               <WhatsappLink
-                className="inline-flex items-center justify-center rounded-full bg-[#25D366] px-7 py-4 text-sm font-black text-slate-950 shadow-[0_18px_42px_rgba(37,211,102,0.20)] transition hover:-translate-y-0.5 hover:bg-[#20BA5A]"
+                className="inline-flex items-center justify-center rounded-full bg-[#25D366] px-7 py-4 text-sm font-bold text-slate-950 shadow-[0_18px_42px_rgba(37,211,102,0.20)] transition hover:-translate-y-0.5 hover:bg-[#20BA5A]"
                 source="Halaman Jual AC"
                 intent="konsultasi pembelian AC original multi-brand, cek PK, stok, pengiriman, dan opsi pemasangan"
               >
@@ -134,7 +134,7 @@ export default function JualAcPage() {
               </WhatsappLink>
               <Link
                 href={routes.katalog}
-                className="inline-flex items-center justify-center rounded-full border border-slate-200 bg-white px-7 py-4 text-sm font-black text-slate-900 shadow-sm transition hover:bg-slate-50"
+                className="inline-flex items-center justify-center rounded-full border border-slate-200 bg-white px-7 py-4 text-sm font-semibold text-slate-900 shadow-sm transition hover:bg-slate-50"
               >
                 Lihat Katalog AC
               </Link>
@@ -147,7 +147,7 @@ export default function JualAcPage() {
                 ["Pengiriman", "Koordinasi unit, alamat, jadwal, dan opsi pemasangan"],
               ].map(([title, text]) => (
                 <div key={title} className="rounded-3xl border border-slate-200 bg-white/80 p-5 shadow-sm">
-                  <p className="text-base font-black sm:text-lg">{title}</p>
+                  <p className="text-base font-bold sm:text-lg">{title}</p>
                   <p className="mt-2 text-sm leading-6 text-slate-600">{text}</p>
                 </div>
               ))}
@@ -167,10 +167,10 @@ export default function JualAcPage() {
               />
             </div>
             <div className="mt-4 rounded-3xl border border-slate-200 bg-white p-6 text-slate-950 shadow-xl lg:absolute lg:-bottom-6 lg:left-6 lg:right-6 lg:mt-0 lg:shadow-2xl">
-              <p className="text-xs font-black uppercase tracking-[0.22em] text-slate-500">
+              <p className="text-xs font-semibold uppercase tracking-[0.12em] text-slate-500">
                 Fokus konsultasi
               </p>
-              <p className="mt-2 text-xl font-black sm:text-2xl">PK, brand, stok, dan kebutuhan ruangan</p>
+              <p className="mt-2 text-xl font-bold sm:text-2xl">PK, brand, stok, dan kebutuhan ruangan</p>
               <p className="mt-2 text-sm leading-6 text-slate-600">
                 Cocok untuk pembeli satuan, kantor, hotel, proyek, dan pengadaan banyak unit yang perlu cek PK, stok, dan koordinasi pengiriman.
               </p>
@@ -202,9 +202,9 @@ export default function JualAcPage() {
                 href={href}
                 className="group rounded-3xl border border-slate-200 bg-white p-6 shadow-sm transition hover:-translate-y-1 hover:border-blue-300 hover:shadow-xl"
               >
-                <p className="text-base font-black text-slate-950 sm:text-lg">{label}</p>
+                <p className="text-base font-bold text-slate-950 sm:text-lg">{label}</p>
                 <p className="mt-3 text-sm leading-6 text-slate-600">{text}</p>
-                <p className="mt-5 text-sm font-black text-blue-700 group-hover:text-blue-900">
+                <p className="mt-5 text-sm font-semibold text-blue-700 group-hover:text-blue-900">
                   Lihat kategori →
                 </p>
               </Link>
@@ -234,8 +234,8 @@ export default function JualAcPage() {
             <div className="grid gap-4 md:grid-cols-3">
               {packagePricingBands.map(([range, title, brands]) => (
                 <div key={range} className="rounded-3xl border border-blue-100 bg-white p-6 shadow-sm">
-                  <p className="text-sm font-black uppercase tracking-[0.18em] text-blue-700">{range}</p>
-                  <h3 className="mt-3 text-xl font-black text-slate-950">{title}</h3>
+                  <p className="text-xs font-semibold uppercase tracking-[0.12em] text-blue-700">{range}</p>
+                  <h3 className="mt-3 text-xl font-bold text-slate-950">{title}</h3>
                   <p className="mt-3 text-sm leading-7 text-slate-600">{brands}</p>
                 </div>
               ))}
@@ -245,12 +245,12 @@ export default function JualAcPage() {
           <div className="mt-8 flex flex-col gap-3 sm:flex-row">
             <Link
               href={routes.katalogAcSetengahPk}
-              className="inline-flex items-center justify-center rounded-full bg-slate-950 px-6 py-4 text-sm font-black text-white transition hover:bg-slate-800"
+              className="inline-flex items-center justify-center rounded-full bg-slate-950 px-6 py-4 text-sm font-semibold text-white transition hover:bg-slate-800"
             >
               Lihat Detail AC 1/2 PK
             </Link>
             <WhatsappLink
-              className="inline-flex items-center justify-center rounded-full bg-[#25D366] px-6 py-4 text-sm font-black text-slate-950 transition hover:bg-[#20BA5A]"
+              className="inline-flex items-center justify-center rounded-full bg-[#25D366] px-6 py-4 text-sm font-bold text-slate-950 transition hover:bg-[#20BA5A]"
               source="Halaman Jual AC - Pricing Band"
               intent="cek estimasi paket AC 1/2 PK dan pemasangan standar"
               category="AC 1/2 PK"
@@ -284,9 +284,9 @@ export default function JualAcPage() {
                 href={href}
                 className="rounded-3xl border border-slate-200 bg-white p-6 shadow-sm transition hover:-translate-y-1 hover:shadow-xl"
               >
-                <p className="text-lg font-black text-slate-950 sm:text-xl">AC {label}</p>
+                <p className="text-lg font-bold text-slate-950 sm:text-xl">AC {label}</p>
                 <p className="mt-3 text-sm leading-6 text-slate-600">{text}</p>
-                <p className="mt-5 text-sm font-black text-blue-700">Cek halaman brand →</p>
+                <p className="mt-5 text-sm font-bold text-blue-700">Cek halaman brand →</p>
               </Link>
             ))}
           </div>
@@ -312,11 +312,11 @@ export default function JualAcPage() {
           <div className="space-y-4">
             {processSteps.map(([title, text], index) => (
               <div key={title} className="flex gap-5 rounded-3xl border border-slate-200 p-6">
-                <div className="flex h-11 w-11 shrink-0 items-center justify-center rounded-full bg-white text-sm font-black text-slate-950">
+                <div className="flex h-11 w-11 shrink-0 items-center justify-center rounded-full bg-white text-sm font-bold text-slate-950">
                   {index + 1}
                 </div>
                 <div>
-                  <p className="text-base font-black text-slate-950 sm:text-lg">{title}</p>
+                  <p className="text-base font-bold text-slate-950 sm:text-lg">{title}</p>
                   <p className="mt-2 text-sm leading-6 text-slate-600">{text}</p>
                 </div>
               </div>
@@ -359,7 +359,7 @@ export default function JualAcPage() {
               <p className="text-xs font-semibold uppercase tracking-[0.12em] text-blue-700">
                 Bukti aktivitas
               </p>
-              <h2 className="mt-4 text-2xl font-black tracking-tight sm:text-3xl">
+              <h2 className="mt-4 text-xl font-extrabold tracking-tight sm:text-2xl">
                 Showroom, stok, pengiriman, dan material pemasangan tersedia di dokumentasi.
               </h2>
               <p className="mt-5 text-sm leading-7 text-slate-600">
@@ -368,7 +368,7 @@ export default function JualAcPage() {
               </p>
               <Link
                 href={routes.buktiPengirimanProyek}
-                className="mt-8 inline-flex rounded-full bg-white px-6 py-4 text-sm font-black text-slate-950 transition hover:bg-slate-200"
+                className="mt-8 inline-flex rounded-full bg-white px-6 py-4 text-sm font-bold text-slate-950 transition hover:bg-slate-200"
               >
                 Lihat Bukti Pengiriman & Proyek
               </Link>
@@ -410,14 +410,14 @@ export default function JualAcPage() {
             <div className="grid gap-4 lg:grid-cols-3">
               {areaLinkGroups.map((group) => (
                 <div key={group.title} className="rounded-3xl bg-white p-5 shadow-sm">
-                  <p className="text-sm font-black text-slate-950">{group.title}</p>
+                  <p className="text-sm font-bold text-slate-950">{group.title}</p>
                   <p className="mt-2 text-sm leading-6 text-slate-600">{group.description}</p>
                   <div className="mt-4 flex flex-wrap gap-2">
                     {group.links.map(([label, href]) => (
                       <Link
                         key={href}
                         href={href}
-                        className="rounded-full border border-slate-200 px-4 py-2 text-xs font-black text-slate-800 transition hover:border-blue-300 hover:bg-blue-50 hover:text-blue-800"
+                        className="rounded-full border border-slate-200 px-4 py-2 text-xs font-semibold text-slate-800 transition hover:border-blue-300 hover:bg-blue-50 hover:text-blue-800"
                       >
                         Jual AC {label}
                       </Link>
@@ -443,7 +443,7 @@ export default function JualAcPage() {
           </p>
           <div className="mt-8 flex flex-col justify-center gap-3 sm:flex-row">
             <WhatsappLink
-              className="inline-flex items-center justify-center rounded-full bg-slate-950 px-7 py-4 text-sm font-black text-white transition hover:bg-slate-800"
+              className="inline-flex items-center justify-center rounded-full bg-slate-950 px-7 py-4 text-sm font-semibold text-white transition hover:bg-slate-800"
               source="Halaman Jual AC"
               intent="konsultasi memilih AC original multi-brand dari halaman jual AC dengan data ruangan daya listrik jumlah unit pengiriman pemasangan dan opsi pembayaran"
             >
@@ -451,7 +451,7 @@ export default function JualAcPage() {
             </WhatsappLink>
             <Link
               href={routes.kontak}
-              className="inline-flex items-center justify-center rounded-full border border-slate-300 px-7 py-4 text-sm font-black text-slate-950 transition hover:bg-slate-50"
+              className="inline-flex items-center justify-center rounded-full border border-slate-300 px-7 py-4 text-sm font-semibold text-slate-950 transition hover:bg-slate-50"
             >
               Lihat Kontak
             </Link>
