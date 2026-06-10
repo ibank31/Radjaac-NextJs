@@ -48,6 +48,9 @@ const footerGroups = [
       { label: "Jual AC Kebumen", href: routes.jualAcKebumen },
       { label: "Jual AC Semarang", href: routes.jualAcSemarang },
       { label: "Jual AC Solo", href: routes.jualAcSolo },
+      { label: "Jual AC Magelang", href: routes.jualAcMagelang },
+      { label: "Jual AC Pekalongan", href: routes.jualAcPekalongan },
+      { label: "Jual AC Salatiga", href: routes.jualAcSalatiga },
     ],
   },
   {

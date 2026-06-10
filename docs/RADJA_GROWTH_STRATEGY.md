@@ -157,6 +157,9 @@ Area lokal dan regional yang sudah ada di source repo terbaru:
 - `/jual-ac-sumbang` (child Banyumas, promoted 2026-06)
 - `/jual-ac-kedungbanteng` (child Banyumas, promoted 2026-06)
 - `/jual-ac-kalibagor` (child Banyumas, promoted 2026-06)
+- `/jual-ac-magelang` (regional Jateng/Borobudur, published 2026-06-10)
+- `/jual-ac-pekalongan` (regional Pantura, published 2026-06-10)
+- `/jual-ac-salatiga` (regional koridor Semarang–Solo, published 2026-06-10)
 
 Standar konten area sekarang: tiap halaman wajib punya `localContext` unik, minimal 5 `localLandmarks`, 3 `localBenefits`, 3 `localCases`, `clusterType` yang benar, dan `localFaq` berbasis lokasi (lihat `docs/source/radjaac/RADJAAC_AREA_PAGE_BLUEPRINT.md`). Cluster dipetakan di `areaClusterMap` (content/areas.js). Staged draft (Magelang, Salatiga, Pekalongan, Pemalang, Brebes, Wonosobo, Temanggung, Kudus, Jepara, Demak, dan child Kebasen/Somagede/Bobotsari/Kalimanah/Kutasari/Slawi/Adiwerna/Talang/Mandiraja/Klampok/Bawang Banjarnegara) sudah ditulis ulang ke standar ini tetapi belum live.
 
