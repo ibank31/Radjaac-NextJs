@@ -24,8 +24,8 @@ export const areaContentTemplates = {
       "Pilihan inverter membantu penginapan yang AC-nya menyala lama pada malam hari",
       "Skema banyak unit dengan kapasitas seragam memudahkan perawatan kamar penginapan",
     ],
-    clusterCases: () => [
-      ["Penginapan, homestay & villa", "Pemilihan AC kamar tamu dengan kapasitas seragam dan perawatan yang mudah."],
+    clusterCases: (area) => [
+      ["Penginapan, homestay & villa", `Pemilihan AC kamar tamu untuk penginapan di ${area} dengan kapasitas seragam dan perawatan yang mudah.`],
       ["Resto & kafe wisata", "AC ruang pelanggan untuk menjaga kenyamanan saat jam ramai akhir pekan."],
       ["Ruang acara & serbaguna", "Pendinginan aula atau ruang pertemuan menyesuaikan jumlah pengunjung."],
     ],
@@ -63,8 +63,8 @@ export const areaContentTemplates = {
       `Skema banyak unit memudahkan pemilik kos di ${area} menyiapkan AC per kamar secara bertahap`,
       "Unit hemat dengan perawatan mudah cocok untuk kamar sewa yang sering berganti penghuni",
     ],
-    clusterCases: () => [
-      ["Kos & rumah sewa", "Pemilihan AC hemat daya untuk banyak kamar kecil dengan kapasitas yang seragam."],
+    clusterCases: (area) => [
+      ["Kos & rumah sewa", `Pemilihan AC hemat daya untuk banyak kamar kecil di ${area} dengan kapasitas yang seragam.`],
       ["Rumah tinggal & keluarga", "AC kamar tidur dan ruang keluarga sesuai ukuran dan pola pemakaian harian."],
       ["Ruang belajar, kantor kecil & usaha", "AC ruang kerja, tempat les, atau usaha dekat kawasan kampus."],
     ],
@@ -102,8 +102,8 @@ export const areaContentTemplates = {
       "Pilihan inverter membantu efisiensi untuk pemakaian harian rumah keluarga",
       `Pemasangan rapi dengan jalur pipa yang ditata sesuai kondisi rumah di ${area}`,
     ],
-    clusterCases: () => [
-      ["Kamar utama & ruang keluarga", "Pemilihan AC sesuai ukuran ruangan dengan pemasangan pipa yang rapi."],
+    clusterCases: (area) => [
+      ["Kamar utama & ruang keluarga", `Pemilihan AC rumah di ${area} sesuai ukuran ruangan dengan pemasangan pipa yang rapi.`],
       ["Rumah baru / perumahan", "Penataan titik indoor-outdoor sejak awal agar instalasi bersih."],
       ["Tambah unit bertahap", "Penambahan AC per kamar mengikuti kebutuhan dan anggaran keluarga."],
     ],
@@ -141,8 +141,8 @@ export const areaContentTemplates = {
       "Unit dipertimbangkan untuk pemakaian jam panjang usaha harian",
       "Perawatan filter diperhatikan karena debu jalur ramai mempercepat unit kotor",
     ],
-    clusterCases: () => [
-      ["Toko & ruko", "AC ruang pelanggan dan ruang kerja dengan kapasitas menyesuaikan luas dan lalu lalang."],
+    clusterCases: (area) => [
+      ["Toko & ruko", `AC ruang pelanggan toko dan ruko di ${area} dengan kapasitas menyesuaikan luas dan lalu lalang.`],
       ["Warung, resto & usaha tepi jalan", "Pendinginan area makan atau pelanggan untuk jam buka panjang."],
       ["Kantor kecil & klinik", "AC ruang layanan dengan suhu stabil sepanjang jam operasional."],
     ],
@@ -180,8 +180,8 @@ export const areaContentTemplates = {
       "Dokumentasi kebutuhan dan estimasi memudahkan pengajuan internal perusahaan",
       "Pertimbangan kondisi lingkungan industri atau pesisir saat memilih unit dan penempatan",
     ],
-    clusterCases: () => [
-      ["Kantor & ruang kerja", "AC ruang kerja dengan kapasitas dihitung dari luas dan jumlah staf."],
+    clusterCases: (area) => [
+      ["Kantor & ruang kerja", `AC ruang kerja dan kantor di ${area} dengan kapasitas dihitung dari luas dan jumlah staf.`],
       ["Pengadaan proyek banyak unit", "Penyediaan unit dengan spesifikasi seragam, stok, dan jadwal bertahap."],
       ["Mess & ruang penunjang", "AC mess atau ruang istirahat pekerja sesuai jumlah penghuni."],
     ],
@@ -219,8 +219,8 @@ export const areaContentTemplates = {
       "Pilihan inverter membantu efisiensi untuk pemakaian seharian",
       "Opsi banyak unit untuk hotel, apartemen, dan area komersial",
     ],
-    clusterCases: () => [
-      ["Kantor & retail", "AC ruang kerja dan area pelanggan dengan kapasitas dihitung dari luas dan jumlah orang."],
+    clusterCases: (area) => [
+      ["Kantor & retail", `AC ruang kerja dan area pelanggan di ${area} dengan kapasitas dihitung dari luas dan jumlah orang.`],
       ["Hotel & apartemen", "Penyediaan unit kamar dengan kapasitas seragam dan pemakaian harian."],
       ["Rumah & kos kota", "AC hunian kota dengan pilihan efisien sesuai daya dan pola pemakaian."],
     ],
