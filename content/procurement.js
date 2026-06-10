@@ -81,22 +81,22 @@ export const procurementItems = [
     slug: "kontraktor-developer",
     path: routes.pengadaanKontraktorDeveloper,
     label: "Kontraktor & Developer",
-    title: "Pengadaan AC Kontraktor & Developer | Cek Kebutuhan Proyek AC",
+    title: "Supplier AC Proyek untuk Kontraktor & Developer | Stok Banyak Unit",
     description:
-      "Pengadaan AC untuk kontraktor, developer, kantor proyek, ruko, klinik, dan kebutuhan banyak unit hingga ratusan unit. RADJA AC cek PK, brand, stok, pengiriman, pemasangan, garansi pemasangan 1 bulan, dan bantuan klaim unit.",
-    h1: "Pengadaan AC untuk kontraktor, developer, dan kebutuhan proyek",
-    eyebrow: "Pengadaan AC",
+      "Supplier AC banyak unit untuk kontraktor, developer, kantor proyek, ruko, dan klinik. Stok ready di gudang Sokaraja, pengiriman pakai armada sendiri, pemasangan bergaransi 1 bulan, garansi unit resmi brand, dan bantuan klaim. Authorized Dealer Daikin, Midea, Hisense, dan Sansui.",
+    h1: "Supplier AC proyek untuk kontraktor, developer, dan kebutuhan banyak unit",
+    eyebrow: "Pengadaan AC Proyek",
     intro:
-      "Untuk kontraktor, developer, dan proyek bangunan, kebutuhan AC biasanya terkait RAB, BOQ, jumlah titik, deadline pekerjaan, dan koordinasi lapangan. RADJA AC membantu menyusun opsi unit, kapasitas PK, stok, pengiriman, serta pemasangan dari data proyek yang dikirim.",
+      "AC proyek butuh stok yang siap, brand yang masuk RAB/BOQ, dan pengiriman yang ikut progres lapangan. RADJA AC menyiapkan unit dari gudang sendiri di Sokaraja, Banyumas. Kirim daftar titik atau BOQ awal, jumlah unit, lokasi, dan timeline; balasannya berisi ketersediaan stok, pilihan brand, dan jadwal kirim.",
     segmentContext:
-      "Kebutuhan kontraktor dan developer sering memerlukan alternatif brand sesuai anggaran, kesiapan unit, dan jadwal kirim. Penawaran bisa disusun dari daftar titik AC, ukuran ruangan, gambar sederhana, BOQ/RAB awal, spesifikasi brand, stok aktif, timeline proyek, dan kebutuhan supply bertahap.",
+      "Stok banyak unit untuk titik AC tersedia di gudang dan bisa dikirim sekaligus maupun bertahap mengikuti progres proyek. Pilihan brand mengikuti RAB/BOQ dan anggaran: Daikin, Midea, Hisense, dan Sansui tersedia sebagai Authorized Dealer, brand lain mengikuti stok aktif. Opsi harga untuk banyak unit dibahas dari jumlah titik, tipe unit, dan jadwal kirim.",
     coordinationNote:
-      "Koordinasi lokasi atau survey dibahas sejak awal berdasarkan kebutuhan proyek, lokasi, jumlah unit, akses pekerjaan, dan jadwal. Detail teknis dicek sebelum pembelian atau pemasangan diputuskan.",
+      "Pengiriman pakai armada RADJA AC sendiri, baik muatan banyak unit sekaligus maupun bertahap mengikuti progres lapangan. Pemasangan bisa dikerjakan tim RADJA AC dengan garansi pemasangan 1 bulan, atau unit dikirim untuk dipasang tim lapangan proyek.",
     commonNeeds: [
-      "AC untuk rumah contoh, ruko, kantor, klinik, dan ruang usaha",
-      "Pengadaan banyak unit berdasarkan daftar titik atau BOQ awal",
-      "Alternatif brand sesuai anggaran, stok, dan spesifikasi proyek",
-      "Koordinasi pengiriman dan pemasangan mengikuti timeline lapangan",
+      "Stok banyak unit untuk rumah contoh, ruko, kantor proyek, klinik, dan ruang usaha",
+      "Supply berdasarkan daftar titik AC atau BOQ/RAB awal",
+      "Pilihan brand mengikuti RAB, anggaran, dan ketersediaan stok",
+      "Pengiriman pakai armada sendiri, sekaligus atau bertahap ikut progres lapangan",
     ],
     buyingChecks: [
       "Jumlah titik AC, tipe ruangan, dan prioritas pekerjaan",
@@ -112,7 +112,7 @@ export const procurementItems = [
       ["Brand Daikin", routes.brandDaikin],
       ["Kontak", routes.kontak],
     ],
-    waIntent: "konsultasi pengadaan AC kontraktor dan developer",
+    waIntent: "kirim daftar titik AC, jumlah unit, BOQ atau RAB awal, lokasi proyek, dan timeline untuk pengadaan AC proyek",
     waProjectType: "Kontraktor / Developer",
   },
   {

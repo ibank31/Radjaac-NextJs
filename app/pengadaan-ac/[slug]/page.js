@@ -1,20 +1,45 @@
+import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { routes } from "@/content/routes";
 import { buildMetadata } from "@/lib/seo";
 import { serviceSchema } from "@/lib/schema";
 import { procurementItems, getProcurementItem } from "@/content/procurement";
-import { warrantyHighlights } from "@/content/policies";
+import { warrantyHighlights, legalEntityCopy } from "@/content/policies";
 import WhatsappLink from "@/components/ui/WhatsappLink";
 import JsonLd from "@/components/seo/JsonLd";
 
 export const dynamicParams = false;
 
 const processSteps = [
-  ["01", "Kirim brief", "Lokasi, jumlah ruangan, estimasi ukuran, daya listrik, dan kapan unit dibutuhkan."],
-  ["02", "Kebutuhan dicek", "Estimasi PK, opsi brand, ketersediaan unit, dan arahan awal dari data proyek."],
-  ["03", "Konfirmasi teknis", "Spesifikasi, jadwal pengiriman, dan kebutuhan instalasi dibahas jika diperlukan."],
-  ["04", "Eksekusi order", "Unit disiapkan dan dikirim sesuai jadwal serta volume yang sudah dikonfirmasi."],
+  ["01", "Kirim jumlah unit & lokasi", "Jumlah unit/titik, jenis bangunan, lokasi, daya listrik, dan kapan unit dibutuhkan."],
+  ["02", "Cek stok & opsi brand", "RADJA AC cek ketersediaan unit di gudang, pilihan brand, dan estimasi PK per ruangan."],
+  ["03", "Konfirmasi & jadwal kirim", "Spesifikasi unit, jadwal pengiriman, dan kebutuhan pemasangan dikunci sebelum order jalan."],
+  ["04", "Kirim & pasang", "Unit dikirim pakai armada RADJA AC; pemasangan bergaransi 1 bulan bila dikerjakan tim kami."],
+];
+
+const heroTrust = [
+  ["Stok banyak unit", "Ready di gudang Sokaraja, restock rutin terdokumentasi."],
+  ["Pengiriman sendiri", "Armada RADJA AC, bisa sekaligus atau bertahap."],
+  ["Pemasangan bergaransi", "Garansi pemasangan 1 bulan bila dikerjakan tim kami."],
+];
+
+const proofImages = [
+  {
+    title: "Satu truk muat banyak unit AC siap kirim",
+    label: "Pengiriman banyak unit",
+    image: "/photos/delivery/truk-radja-ac-muat-banyak-unit-ac-aqua-2026-06.webp",
+  },
+  {
+    title: "Restock unit indoor dan outdoor di gudang",
+    label: "Gudang & restock",
+    image: "/images/gallery/restock-mide-tcl-lg.webp",
+  },
+  {
+    title: "Stok unit beberapa brand siap di gudang",
+    label: "Stok",
+    image: "/images/gallery/stock-sansui-gree.webp",
+  },
 ];
 
 const briefChecklist = [
@@ -91,7 +116,7 @@ export default async function ProcurementDetailPage({ params }) {
                 category={item.waProjectType}
               pageType="procurement"
               >
-                Kirim Brief via WhatsApp
+                Kirim Kebutuhan via WhatsApp
               </WhatsappLink>
 
               <Link
@@ -103,11 +128,7 @@ export default async function ProcurementDetailPage({ params }) {
             </div>
 
             <div className="mt-10 grid gap-3 sm:grid-cols-3">
-              {[
-                ["Brief jelas", "Data ruangan dan timeline dibaca sebelum rekomendasi."],
-                ["PK & brand", "Kapasitas dan opsi unit disusun dari kebutuhan."],
-                ["Koordinasi", "Pengiriman dan pemasangan dibahas sesuai kondisi lokasi."],
-              ].map(([title, desc]) => (
+              {heroTrust.map(([title, desc]) => (
                 <div key={title} className="rounded-3xl border border-slate-200 bg-white p-5 shadow-sm">
                   <div className="text-base font-black text-blue-950">{title}</div>
                   <p className="mt-2 text-sm leading-6 text-slate-600">{desc}</p>
@@ -118,7 +139,7 @@ export default async function ProcurementDetailPage({ params }) {
 
           <div className="rounded-[1.7rem] border border-blue-100 bg-white p-5 shadow-2xl shadow-blue-900/10">
             <div className="mb-4 flex items-center justify-between gap-4 rounded-2xl bg-blue-950 px-5 py-4 text-white">
-              <h2 className="text-sm font-black uppercase tracking-[0.16em]">Alur pengadaan</h2>
+              <h2 className="text-sm font-black uppercase tracking-[0.16em]">Alur order banyak unit</h2>
               <span className="rounded-full bg-red-600 px-3 py-1 text-xs font-black">B2B</span>
             </div>
             <div className="grid gap-3">
@@ -172,11 +193,42 @@ export default async function ProcurementDetailPage({ params }) {
 
       <section className="bg-[#F8FAFC]">
         <div className="mx-auto max-w-7xl px-5 py-16 sm:px-6 lg:px-8">
+          <div className="mb-8 grid gap-5 lg:grid-cols-[0.8fr_1.2fr] lg:items-end">
+            <div>
+              <p className="text-sm font-black uppercase tracking-[0.2em] text-red-600">Bukti operasional</p>
+              <h2 className="mt-3 text-2xl font-black tracking-tight text-blue-950 sm:text-4xl">
+                Stok dan pengiriman banyak unit yang bisa dilihat fotonya.
+              </h2>
+            </div>
+            <p className="text-sm leading-7 text-slate-600 sm:text-base">
+              Foto diambil dari aktivitas gudang dan pengiriman RADJA AC di Sokaraja, Banyumas.
+              Ketersediaan tipe dan jumlah unit dikonfirmasi saat order.
+            </p>
+          </div>
+
+          <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+            {proofImages.map((proof) => (
+              <figure key={proof.image} className="overflow-hidden rounded-[1.6rem] border border-slate-200 bg-white shadow-sm">
+                <div className="relative">
+                  <Image src={proof.image} alt={proof.title} width={520} height={420} sizes="(min-width: 1024px) 360px, 100vw" className="h-52 w-full object-cover" />
+                  <span className="absolute left-4 top-4 rounded-full bg-white/90 px-3 py-1 text-xs font-black text-blue-950 shadow-sm">
+                    {proof.label}
+                  </span>
+                </div>
+                <figcaption className="p-4 text-sm font-black leading-6 text-blue-950">{proof.title}</figcaption>
+              </figure>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      <section className="bg-white">
+        <div className="mx-auto max-w-7xl px-5 py-16 sm:px-6 lg:px-8">
           <div className="grid gap-8 lg:grid-cols-[0.8fr_1.2fr] lg:items-start">
             <div>
-              <p className="text-sm font-black uppercase tracking-[0.2em] text-red-600">Koordinasi proyek</p>
+              <p className="text-sm font-black uppercase tracking-[0.2em] text-red-600">Stok, kirim & pasang</p>
               <h2 className="mt-3 text-2xl font-black tracking-tight text-blue-950 sm:text-4xl">
-                Pendekatan disesuaikan dengan kondisi segmen.
+                Stok, pengiriman, dan pemasangan dari gudang sendiri.
               </h2>
             </div>
             <div className="rounded-[1.7rem] border border-blue-100 bg-white p-6 shadow-sm">
@@ -187,12 +239,12 @@ export default async function ProcurementDetailPage({ params }) {
         </div>
       </section>
 
-      <section className="bg-white">
+      <section className="bg-[#F8FAFC]">
         <div className="mx-auto max-w-7xl px-5 py-16 sm:px-6 lg:px-8">
           <div className="mb-8 max-w-3xl">
             <p className="text-sm font-black uppercase tracking-[0.2em] text-red-600">Garansi & bantuan klaim</p>
             <h2 className="mt-3 text-2xl font-black tracking-tight text-blue-950 sm:text-3xl">
-              Setelah unit dikirim, support tetap jelas.
+              Garansi pemasangan 1 bulan, garansi unit resmi brand, dan bantuan klaim.
             </h2>
           </div>
           <ul className="grid gap-4 text-sm leading-6 text-slate-700 md:grid-cols-3">
@@ -203,15 +255,18 @@ export default async function ProcurementDetailPage({ params }) {
               </li>
             ))}
           </ul>
+          <div className="mt-4 rounded-[1.5rem] border border-blue-100 bg-white p-5 text-sm leading-7 text-slate-600 shadow-sm">
+            Authorized Dealer Daikin, Midea, Hisense, dan Sansui. {legalEntityCopy}
+          </div>
         </div>
       </section>
 
-      <section className="bg-[#F8FAFC]">
+      <section className="bg-white">
         <div className="mx-auto max-w-7xl px-5 py-16 sm:px-6 lg:px-8">
           <div className="mb-8 max-w-3xl">
             <p className="text-sm font-black uppercase tracking-[0.2em] text-red-600">Link terkait</p>
             <h2 className="mt-3 text-2xl font-black tracking-tight text-blue-950 sm:text-3xl">
-              Lanjutkan ke katalog atau segmen pengadaan lain.
+              Katalog dan segmen pengadaan lain.
             </h2>
           </div>
           <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
@@ -241,13 +296,13 @@ export default async function ProcurementDetailPage({ params }) {
         <div className="pointer-events-none absolute -right-24 -top-24 h-96 w-96 rounded-full bg-white/5 blur-3xl" />
         <div className="relative mx-auto grid max-w-7xl gap-10 px-5 py-16 sm:px-6 lg:grid-cols-[1fr_0.82fr] lg:items-center lg:px-8">
           <div>
-            <p className="text-sm font-black uppercase tracking-[0.2em] text-white/40">Mulai pengadaan</p>
+            <p className="text-sm font-black uppercase tracking-[0.2em] text-white/40">Mulai order</p>
             <h2 className="mt-4 text-2xl font-black tracking-tight text-white sm:text-4xl">
-              Kirim data proyek, tim susun opsi awal dari kebutuhan.
+              Kirim jumlah unit dan lokasi, kami cek stok dan jadwal kirim.
             </h2>
             <p className="mt-5 max-w-2xl text-sm leading-7 text-white/70 sm:text-base">
-              Siapkan brief singkat untuk {item.label.toLowerCase()}. Data awal membantu proses cek PK, stok,
-              brand, pengiriman, dan opsi pemasangan lebih rapi.
+              Siapkan brief singkat untuk {item.label.toLowerCase()}. Stok banyak unit siap di gudang Sokaraja, Banyumas,
+              dengan pengiriman pakai armada sendiri dan pemasangan bergaransi 1 bulan.
             </p>
           </div>
 
