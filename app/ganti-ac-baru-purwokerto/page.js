@@ -29,7 +29,7 @@ const nextLinks = [
   ["Kalkulator PK AC", routes.kalkulatorPkAc],
   ["AC Low Watt", routes.katalogAcLowWatt],
   ["AC Inverter", routes.katalogAcInverter],
-  ["Kontak RADJA AC", routes.kontak],
+  ["Kontak Radja AC", routes.kontak],
 ];
 
 export default function GantiAcBaruPurwokertoPage() {
@@ -45,7 +45,7 @@ export default function GantiAcBaruPurwokertoPage() {
         </h1>
         <p className="mt-6 max-w-3xl text-sm leading-7 text-slate-600 sm:text-base">
           Jika AC lama mulai sering bermasalah, kurang dingin, boros listrik, atau sudah tidak sesuai
-          kebutuhan ruangan, RADJA AC mencocokkan pilihan AC baru yang lebih masuk akal.
+          kebutuhan ruangan, Radja AC mencocokkan pilihan AC baru yang lebih masuk akal.
           Fokus halaman ini adalah konsultasi pembelian unit baru, cek kebutuhan PK, stok, daya listrik,
           anggaran, pengiriman, dan opsi pemasangan.
         </p>
@@ -70,8 +70,8 @@ export default function GantiAcBaruPurwokertoPage() {
         <section className="mt-12 rounded-[1.45rem] border border-blue-100 bg-blue-50 p-6">
           <h2 className={`${typography.sectionTitle} text-slate-950`}>Catatan penting</h2>
           <p className="mt-4 max-w-3xl text-sm leading-6 text-slate-600">
-            RADJA AC berfokus membantu pembelian AC baru. Untuk perbaikan, cuci AC, atau bongkar-pasang
-            service murni, tim RADJA AC akan cek kebutuhan dan ketersediaan informasi sebelum membahas pilihan unit baru.
+            Radja AC berfokus membantu pembelian AC baru. Untuk perbaikan, cuci AC, atau bongkar-pasang
+            service murni, tim Radja AC akan cek kebutuhan dan ketersediaan informasi sebelum membahas pilihan unit baru.
             Untuk mengganti unit lama dengan unit baru, kirim data ruangan agar pilihan
             AC bisa dicek lebih rapi.
           </p>
@@ -90,7 +90,7 @@ export default function GantiAcBaruPurwokertoPage() {
           </section>
 
           <section className="rounded-[1.45rem] border border-slate-200 bg-white p-6">
-            <h2 className={`${typography.sectionTitle} text-slate-950`}>Data yang sebaiknya dikirim ke tim RADJA AC</h2>
+            <h2 className={`${typography.sectionTitle} text-slate-950`}>Data yang sebaiknya dikirim ke tim Radja AC</h2>
             <ul className="mt-5 space-y-3 text-sm leading-6 text-slate-600">
               {prepareData.map((point) => (
                 <li key={point} className="rounded-2xl border border-slate-200 bg-[#f7fbff]/45 p-4">
@@ -123,7 +123,7 @@ export default function GantiAcBaruPurwokertoPage() {
           <h2 className={`${typography.sectionTitle}`}>Mau cek pilihan unit baru?</h2>
           <p className="mt-4 max-w-3xl text-sm leading-6 text-slate-600">
             Kirim kondisi singkat AC lama, ukuran ruangan, daya listrik, lokasi, anggaran, dan kebutuhan
-            unit saja atau sekalian opsi pemasangan. Tim RADJA AC cocokkan pilihan AC baru yang
+            unit saja atau sekalian opsi pemasangan. Tim Radja AC cocokkan pilihan AC baru yang
             masuk akal sebelum pembelian.
           </p>
           <div className="mt-6">

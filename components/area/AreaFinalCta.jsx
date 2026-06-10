@@ -10,7 +10,7 @@ export default function AreaFinalCta({ item }) {
         </h2>
         <p className="mx-auto mb-7 max-w-2xl text-sm leading-7 text-slate-600">
           Sebutkan area/kecamatan, ukuran ruangan, daya listrik, jumlah unit,
-          anggaran awal, serta kebutuhan pengiriman atau pemasangan. Tim RADJA AC
+          anggaran awal, serta kebutuhan pengiriman atau pemasangan. Tim Radja AC
           mengecek stok, estimasi, dan opsi pembayaran sebelum pembelian.
         </p>
         <WhatsappLink

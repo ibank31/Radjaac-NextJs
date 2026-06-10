@@ -7,13 +7,13 @@ import { routes } from "@/content/routes";
 export const sansuiPremiumContent = {
   hero: {
     image: "/photos/showroom/display-sansui-new.webp",
-    imageAlt: "Showcase AC Sansui original di showroom RADJA AC",
-    badge: "AC SANSUI ORIGINAL — RADJA AC",
+    imageAlt: "Showcase AC Sansui original di showroom Radja AC",
+    badge: "AC SANSUI ORIGINAL — Radja AC",
     breadcrumbLabel: "Sansui",
     titleLead: "AC Sansui Original",
     titleHighlight: "Yang Penting Dingin, PK Tetap Harus Pas",
     paragraphs: [
-      "Sansui cocok kalau budget memang terbatas — untuk kamar, kost, kontrakan, rumah sederhana, atau toko kecil. Tapi walau harga lebih ringan, ukuran PK tetap harus dihitung sesuai ruangan. Kalau sedang cari AC Sansui Original, admin RADJA AC bisa bantu cek stok yang ready, kisaran harga, dan estimasi pemasangan hari ini.",
+      "Sansui cocok kalau budget memang terbatas — untuk kamar, kost, kontrakan, rumah sederhana, atau toko kecil. Tapi walau harga lebih ringan, ukuran PK tetap harus dihitung sesuai ruangan. Kalau sedang cari AC Sansui Original, admin Radja AC bisa bantu cek stok yang ready, kisaran harga, dan estimasi pemasangan hari ini.",
     ],
     primaryCtaLabel: "Cek Stok & Harga Sansui Sekarang",
     secondaryCtaLabel: "Lihat Pilihan Sansui",
@@ -34,23 +34,23 @@ export const sansuiPremiumContent = {
     badge: "Sertifikat Resmi Sansui",
     title: "Sansui bukan AC murahan — ini AC fungsional dengan harga yang sesuai untuk budget terbatas",
     paragraphs: [
-      "Yang bikin AC tidak memuaskan bukan cuma mereknya — sering kali PK-nya yang salah atau pemasangannya yang asal. Di RADJA AC, walau pilihan Anda Sansui dengan budget terbatas, kami tetap bantu hitung PK yang sesuai ruangan, jelaskan biaya pasang sebelum deal, dan pastikan hasilnya memang dingin sesuai harapan.",
+      "Yang bikin AC tidak memuaskan bukan cuma mereknya — sering kali PK-nya yang salah atau pemasangannya yang asal. Di Radja AC, walau pilihan Anda Sansui dengan budget terbatas, kami tetap bantu hitung PK yang sesuai ruangan, jelaskan biaya pasang sebelum deal, dan pastikan hasilnya memang dingin sesuai harapan.",
     ],
     badgeLabel: "Authorized Dealer",
     image: "/photos/brand-proof/sansui-sertificate-sansui.webp",
-    imageAlt: "Sertifikat resmi dealer Sansui untuk RADJA AC",
+    imageAlt: "Sertifikat resmi dealer Sansui untuk Radja AC",
   },
 
   warranty: {
     eyebrow: "Garansi & Klaim Unit",
     title: "Beli Sansui di sini, garansi teknisi dan urusan klaim unit sudah jelas",
     description:
-      "Garansi teknisi 1 bulan berlaku untuk kendala yang berkaitan dengan pekerjaan pemasangan. Garansi produk mengikuti kartu garansi Sansui di dalam kemasan. Kalau ada kendala pada unit setelah dipasang, RADJA AC bisa bantu arahan proses klaim garansi ke Sansui sesuai ketentuan resmi — bukan diganti toko, tapi dibantu prosesnya.",
+      "Garansi teknisi 1 bulan berlaku untuk kendala yang berkaitan dengan pekerjaan pemasangan. Garansi produk mengikuti kartu garansi Sansui di dalam kemasan. Kalau ada kendala pada unit setelah dipasang, Radja AC bisa bantu arahan proses klaim garansi ke Sansui sesuai ketentuan resmi — bukan diganti toko, tapi dibantu prosesnya.",
     cards: [
       {
         title: "Garansi teknisi 1 bulan",
         description:
-          "Garansi berlaku untuk kendala yang berkaitan langsung dengan pekerjaan pemasangan atau instalasi dari teknisi RADJA AC.",
+          "Garansi berlaku untuk kendala yang berkaitan langsung dengan pekerjaan pemasangan atau instalasi dari teknisi Radja AC.",
       },
       {
         title: "Garansi unit mengikuti ketentuan Sansui",
@@ -60,7 +60,7 @@ export const sansuiPremiumContent = {
       {
         title: "Bantu arahkan klaim ke brand terkait",
         description:
-          "Kalau ada kendala pada unit AC, RADJA AC bisa bantu arahan proses klaim garansi ke Sansui sesuai ketentuan resmi — selama dokumen pembelian dan kartu garansi tersedia.",
+          "Kalau ada kendala pada unit AC, Radja AC bisa bantu arahan proses klaim garansi ke Sansui sesuai ketentuan resmi — selama dokumen pembelian dan kartu garansi tersedia.",
       },
     ],
   },
@@ -70,7 +70,7 @@ export const sansuiPremiumContent = {
       eyebrow: "Kapasitas PK",
       title: "Walau budget mepet, jangan asal ambil 1/2 PK — ruangan tetap menentukan",
       description:
-        "RADJA AC melayani kebutuhan AC Sansui original dari 1/2 PK sampai 2 PK sesuai stok yang tersedia. Untuk kapasitas di atas 1/2 PK, admin bantu cek stok dan harga terbaru via WhatsApp. Ruangan besar tapi PK kecil = AC ngos-ngosan dan listrik boros.",
+        "Radja AC melayani kebutuhan AC Sansui original dari 1/2 PK sampai 2 PK sesuai stok yang tersedia. Untuk kapasitas di atas 1/2 PK, admin bantu cek stok dan harga terbaru via WhatsApp. Ruangan besar tapi PK kecil = AC ngos-ngosan dan listrik boros.",
       options: [
         "1/2 PK untuk kamar kecil, kost, kontrakan, atau ruang kerja",
         "3/4 PK dan 1 PK untuk kamar sedang, ruang keluarga kecil, atau toko kecil",
@@ -116,7 +116,7 @@ export const sansuiPremiumContent = {
       {
         title: "Walau budget hemat, PK tetap tidak boleh asal kecil",
         description:
-          "Banyak yang salah kaprah: mau hemat lalu ambil PK paling kecil. AC malah ngos-ngosan, tidak dingin, dan listrik tetap boros. Admin RADJA AC bantu hitung PK yang tepat dulu sebelum deal.",
+          "Banyak yang salah kaprah: mau hemat lalu ambil PK paling kecil. AC malah ngos-ngosan, tidak dingin, dan listrik tetap boros. Admin Radja AC bantu hitung PK yang tepat dulu sebelum deal.",
       },
       {
         title: "Budget lebih longgar? Admin bisa bantu bandingkan",
@@ -173,7 +173,7 @@ export const sansuiPremiumContent = {
     eyebrow: "Sebelum Beli",
     title: "Walau Sansui pilihan budget, tetap kirim info ini sebelum deal",
     description:
-      "AC murah tapi PK salah tidak ada bedanya dengan buang uang dua kali. Kirim data di bawah ini ke admin RADJA AC, kami bantu rekomendasikan tipe dan kapasitas Sansui yang sesuai untuk kondisi ruangan Anda.",
+      "AC murah tapi PK salah tidak ada bedanya dengan buang uang dua kali. Kirim data di bawah ini ke admin Radja AC, kami bantu rekomendasikan tipe dan kapasitas Sansui yang sesuai untuk kondisi ruangan Anda.",
     items: [
       "Ukuran ruangan kira-kira (panjang × lebar) dan tinggi plafon jika ada",
       "Daya listrik rumah, kost, toko, atau tempat usaha",
@@ -207,7 +207,7 @@ export const sansuiPremiumContent = {
     links: [
       {
         title: "Konsultasi AC Sansui",
-        description: "Sebelum OTW ke showroom, cek stok, harga, brand yang ready, dan kebutuhan pemasangan di RADJA AC.",
+        description: "Sebelum OTW ke showroom, cek stok, harga, brand yang ready, dan kebutuhan pemasangan di Radja AC.",
         href: routes.kontak,
       },
       {
@@ -231,7 +231,7 @@ export const sansuiPremiumContent = {
   closing: {
     title: "Mau beli AC Sansui original? Cek stok dulu, PK dihitung dulu.",
     description:
-      "Chat tidak harus langsung transfer. Kirim ukuran ruangan, daya listrik, lokasi, dan budget — admin RADJA AC bantu cek pilihan Sansui yang ready hari ini, hitung PK yang tepat, dan konfirmasi estimasi harga plus pasang sebelum Anda memutuskan.",
+      "Chat tidak harus langsung transfer. Kirim ukuran ruangan, daya listrik, lokasi, dan budget — admin Radja AC bantu cek pilihan Sansui yang ready hari ini, hitung PK yang tepat, dan konfirmasi estimasi harga plus pasang sebelum Anda memutuskan.",
     buttonLabel: "Cek Stok & Harga Sansui Sekarang",
   },
 

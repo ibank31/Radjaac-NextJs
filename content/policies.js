@@ -3,9 +3,9 @@ export const businessPolicies = {
     label: "Garansi pemasangan",
     duration: "1 bulan",
     summary:
-      "Garansi pemasangan 1 bulan untuk pekerjaan pemasangan yang dikerjakan melalui RADJA AC.",
+      "Garansi pemasangan 1 bulan untuk pekerjaan pemasangan yang dikerjakan melalui Radja AC.",
     publicCopy:
-      "Garansi pemasangan 1 bulan untuk pemasangan yang dikerjakan melalui RADJA AC.",
+      "Garansi pemasangan 1 bulan untuk pemasangan yang dikerjakan melalui Radja AC.",
   },
 
   unitWarranty: {
@@ -19,17 +19,17 @@ export const businessPolicies = {
   claimAssistance: {
     label: "Bantuan klaim unit",
     summary:
-      "Jika ada kendala pada unit, hubungi RADJA AC untuk arahan klaim ke brand terkait sesuai ketentuan garansi brand.",
+      "Jika ada kendala pada unit, hubungi Radja AC untuk arahan klaim ke brand terkait sesuai ketentuan garansi brand.",
     publicCopy:
-      "Jika ada kendala pada unit, RADJA AC membantu proses awal klaim ke brand terkait sesuai ketentuan garansi brand.",
+      "Jika ada kendala pada unit, Radja AC membantu proses awal klaim ke brand terkait sesuai ketentuan garansi brand.",
   },
 
   legalEntity: {
     publicName: "CV. Prima Sedaya",
     relationship:
-      "CV. Prima Sedaya merupakan bagian dari operasional RADJA AC dan boleh disebut di website publik.",
+      "CV. Prima Sedaya merupakan bagian dari operasional Radja AC dan boleh disebut di website publik.",
     publicCopy:
-      "Beberapa dokumen kerja sama atau sertifikat brand dapat tercatat atas nama RADJA AC maupun CV. Prima Sedaya, yang merupakan bagian dari operasional RADJA AC.",
+      "Beberapa dokumen kerja sama atau sertifikat brand dapat tercatat atas nama Radja AC maupun CV. Prima Sedaya, yang merupakan bagian dari operasional Radja AC.",
   },
 };
 

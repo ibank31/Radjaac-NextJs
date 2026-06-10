@@ -7,7 +7,7 @@ const defaultDraftRelatedLinks = [
   ["Katalog AC", "/katalog"],
   ["Kalkulator PK AC", "/kalkulator-pk-ac"],
   ["Pengadaan AC", "/pengadaan-ac"],
-  ["Kontak RADJA AC", "/kontak"],
+  ["Kontak Radja AC", "/kontak"],
 ];
 
 function createRegionalAreaDraft({
@@ -23,13 +23,13 @@ function createRegionalAreaDraft({
     path: `/${slug}`,
     areaName,
     label: `Jual AC ${areaName}`,
-    title: `Jual AC ${areaName} untuk Rumah, Toko & Usaha — RADJA AC`,
-    description: `Butuh AC untuk rumah, toko, kantor, usaha, atau banyak unit di ${areaName}? RADJA AC bantu cek PK, stok, pengiriman unit, opsi pemasangan, dan pembayaran fleksibel via WhatsApp.`,
+    title: `Jual AC ${areaName} untuk Rumah, Toko & Usaha — Radja AC`,
+    description: `Butuh AC untuk rumah, toko, kantor, usaha, atau banyak unit di ${areaName}? Radja AC bantu cek PK, stok, pengiriman unit, opsi pemasangan, dan pembayaran fleksibel via WhatsApp.`,
     h1: `Jual AC ${areaName} untuk Rumah, Toko & Usaha`,
     eyebrow: "Area Regional Bertahap",
-    intro: `Butuh AC di ${areaName} untuk rumah, kamar, toko, kantor, usaha, atau banyak unit? Tim RADJA AC membantu cek kebutuhan PK, daya listrik, pilihan brand, stok unit, pengiriman, dan opsi pemasangan berdasarkan data awal.`,
-    localContext: `${areaName} termasuk area regional yang perlu ditangani dengan data awal yang jelas. ${localAngle} Kirim lokasi detail, ukuran ruangan, daya listrik, jumlah unit, anggaran, dan kebutuhan unit saja atau opsi pemasangan agar tim RADJA AC bisa menyusun rekomendasi yang masuk akal.`,
-    coverageNote: `Showroom dan gudang RADJA AC berada di Banyumas. Kebutuhan AC area ${areaName} dilayani dengan konsultasi PK, cek stok unit, pengiriman, dan opsi pemasangan sesuai alamat, jumlah unit, akses lokasi, serta jadwal.`,
+    intro: `Butuh AC di ${areaName} untuk rumah, kamar, toko, kantor, usaha, atau banyak unit? Tim Radja AC membantu cek kebutuhan PK, daya listrik, pilihan brand, stok unit, pengiriman, dan opsi pemasangan berdasarkan data awal.`,
+    localContext: `${areaName} termasuk area regional yang perlu ditangani dengan data awal yang jelas. ${localAngle} Kirim lokasi detail, ukuran ruangan, daya listrik, jumlah unit, anggaran, dan kebutuhan unit saja atau opsi pemasangan agar tim Radja AC bisa menyusun rekomendasi yang masuk akal.`,
+    coverageNote: `Showroom dan gudang Radja AC berada di Banyumas. Kebutuhan AC area ${areaName} dilayani dengan konsultasi PK, cek stok unit, pengiriman, dan opsi pemasangan sesuai alamat, jumlah unit, akses lokasi, serta jadwal.`,
     keywordVariants: [
       `jual AC ${areaName}`,
       `AC rumah ${areaName}`,
@@ -49,8 +49,8 @@ function createRegionalAreaDraft({
     ],
     localFaq: [
       [
-        `Apakah RADJA AC punya toko fisik di ${areaName}?`,
-        `Showroom dan gudang RADJA AC berada di Banyumas. Untuk kebutuhan AC ${areaName}, tim membantu cek stok, kapasitas PK, pengiriman, dan opsi pemasangan berdasarkan alamat serta jumlah unit.`,
+        `Apakah Radja AC punya toko fisik di ${areaName}?`,
+        `Showroom dan gudang Radja AC berada di Banyumas. Untuk kebutuhan AC ${areaName}, tim membantu cek stok, kapasitas PK, pengiriman, dan opsi pemasangan berdasarkan alamat serta jumlah unit.`,
       ],
       [
         `Bisa konsultasi AC untuk rumah, toko, atau kantor di ${areaName}?`,
@@ -58,11 +58,11 @@ function createRegionalAreaDraft({
       ],
       [
         `Apa yang perlu disiapkan sebelum cek stok AC ${areaName}?`,
-        "Siapkan ukuran ruangan, daya listrik, tipe bangunan, anggaran awal, jumlah unit, dan alamat pengiriman agar tim RADJA AC bisa memberi arahan yang lebih tepat.",
+        "Siapkan ukuran ruangan, daya listrik, tipe bangunan, anggaran awal, jumlah unit, dan alamat pengiriman agar tim Radja AC bisa memberi arahan yang lebih tepat.",
       ],
       [
         "Apakah pembayaran bisa COD, DP, atau transfer?",
-        "Skema pembayaran fleksibel dapat dikonsultasikan. Detail COD, DP, atau transfer dikonfirmasi bersama tim RADJA AC sesuai kebutuhan unit, pengiriman, dan pemasangan.",
+        "Skema pembayaran fleksibel dapat dikonsultasikan. Detail COD, DP, atau transfer dikonfirmasi bersama tim Radja AC sesuai kebutuhan unit, pengiriman, dan pemasangan.",
       ],
     ],
     commonNeeds: [
@@ -113,26 +113,26 @@ function createRegionalAreaDraft({
     },
     draftHeroImage: {
       src: "/photos/showroom/showroom-multibrand-radja-ac-purwokerto-01.webp",
-      alt: `Showroom dan gudang RADJA AC sebagai referensi konsultasi AC ${areaName}`,
-      caption: "Dokumentasi showroom dan gudang RADJA AC di Banyumas.",
+      alt: `Showroom dan gudang Radja AC sebagai referensi konsultasi AC ${areaName}`,
+      caption: "Dokumentasi showroom dan gudang Radja AC di Banyumas.",
       usageNote:
         "Generic proof. Jangan ditulis sebagai foto toko, cabang, atau showroom fisik di area draft.",
     },
     draftProofImages: [
       {
         src: "/photos/stock/gudang-stok-ac-radja-ac-purwokerto-01.webp",
-        alt: `Dokumentasi stok AC RADJA AC untuk konsultasi kebutuhan AC ${areaName}`,
-        caption: "Dokumentasi stok unit AC RADJA AC.",
+        alt: `Dokumentasi stok AC Radja AC untuk konsultasi kebutuhan AC ${areaName}`,
+        caption: "Dokumentasi stok unit AC Radja AC.",
       },
       {
         src: "/photos/delivery/radja-ac-persiapan-pengiriman.webp",
-        alt: `Dokumentasi persiapan pengiriman AC RADJA AC untuk kebutuhan area ${areaName}`,
-        caption: "Dokumentasi persiapan pengiriman unit AC RADJA AC.",
+        alt: `Dokumentasi persiapan pengiriman AC Radja AC untuk kebutuhan area ${areaName}`,
+        caption: "Dokumentasi persiapan pengiriman unit AC Radja AC.",
       },
       {
         src: "/photos/installation/material-instalasi-ac-radja-ac-01.webp",
-        alt: `Dokumentasi material instalasi AC RADJA AC untuk kebutuhan pemasangan area ${areaName}`,
-        caption: "Dokumentasi material instalasi AC RADJA AC.",
+        alt: `Dokumentasi material instalasi AC Radja AC untuk kebutuhan pemasangan area ${areaName}`,
+        caption: "Dokumentasi material instalasi AC Radja AC.",
       },
     ],
     incomingInternalLinkPlan: [

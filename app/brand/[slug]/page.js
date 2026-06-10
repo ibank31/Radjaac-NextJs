@@ -69,7 +69,7 @@ const relatedLinks = [
   ["AC Inverter", routes.katalogAcInverter],
   ["AC Low Watt", routes.katalogAcLowWatt],
   ["Bukti Pengiriman", routes.buktiPengirimanProyek],
-  ["Kontak RADJA AC", routes.kontak],
+  ["Kontak Radja AC", routes.kontak],
 ];
 
 function uniquePairsBySecondValue(items) {
@@ -131,8 +131,8 @@ export default async function BrandDetailPage({ params }) {
     ? "/photos/delivery/pengiriman-ac-ariston.webp"
     : "/photos/showroom/showroom-multibrand-radja-ac-purwokerto-01.webp";
   const secondaryImageAlt = item.slug === "ariston"
-    ? "Pengiriman AC Ariston dan stok unit di RADJA AC"
-    : "Showroom RADJA AC dan stok unit AC multi-brand";
+    ? "Pengiriman AC Ariston dan stok unit di Radja AC"
+    : "Showroom Radja AC dan stok unit AC multi-brand";
   const isGree = item.slug === "gree";
   const chips = isGree
     ? ["Proshop Gree", "Stok dicek sebelum beli", "Standard / low watt / inverter", "Garansi unit resmi"]
@@ -146,11 +146,11 @@ export default async function BrandDetailPage({ params }) {
   const PremiumPage = premiumBrandPages[item.slug];
 
   const genericFaqItems = [
-    [`Apakah RADJA AC menyediakan ${item.label} original?`, `RADJA AC menyediakan ${item.label} original. Tim RADJA AC cek tipe, harga, stok, pengiriman, pemasangan, dan garansi unit sebelum pembelian.`],
-    [`Berapa harga ${item.label} terbaru?`, "Harga mengikuti kapasitas PK, tipe unit, stok, promo, alamat pengiriman, dan kebutuhan pemasangan. Kirim kebutuhan lewat WhatsApp agar tim RADJA AC cek estimasi terbaru."],
+    [`Apakah Radja AC menyediakan ${item.label} original?`, `Radja AC menyediakan ${item.label} original. Tim Radja AC cek tipe, harga, stok, pengiriman, pemasangan, dan garansi unit sebelum pembelian.`],
+    [`Berapa harga ${item.label} terbaru?`, "Harga mengikuti kapasitas PK, tipe unit, stok, promo, alamat pengiriman, dan kebutuhan pemasangan. Kirim kebutuhan lewat WhatsApp agar tim Radja AC cek estimasi terbaru."],
     [`${item.label} cocok untuk ruangan apa?`, "Kecocokan ditentukan oleh ukuran ruangan, tinggi plafon, paparan panas matahari, daya listrik, dan pola pemakaian."],
-    ["Beli unit saja tanpa pemasangan", "Kirim tipe unit, alamat, jumlah unit, dan kebutuhan pengiriman. Tim RADJA AC cek stok aktif dan jadwal."],
-    ["Apa saja data yang perlu dikirim ke tim RADJA AC?", "Kirim ukuran ruangan, daya listrik, jenis ruangan, jumlah unit, preferensi tipe, lokasi, dan foto titik indoor-outdoor bila ingin opsi pemasangan."],
+    ["Beli unit saja tanpa pemasangan", "Kirim tipe unit, alamat, jumlah unit, dan kebutuhan pengiriman. Tim Radja AC cek stok aktif dan jadwal."],
+    ["Apa saja data yang perlu dikirim ke tim Radja AC?", "Kirim ukuran ruangan, daya listrik, jenis ruangan, jumlah unit, preferensi tipe, lokasi, dan foto titik indoor-outdoor bila ingin opsi pemasangan."],
   ];
 
   // Premium brand pages curate their own FAQ via item.localFaq so the visible FAQ
@@ -229,7 +229,7 @@ export default async function BrandDetailPage({ params }) {
             <div className="overflow-hidden rounded-[1.7rem] border border-slate-200 bg-white p-3 shadow-[0_22px_60px_rgba(15,39,66,0.10)]">
               <Image
                 src={heroImage}
-                alt={`Showcase ${item.label} di RADJA AC`}
+                alt={`Showcase ${item.label} di Radja AC`}
                 width={900}
                 height={1100}
                 className="h-[390px] w-full rounded-[1.35rem] object-cover object-center sm:h-[520px] lg:h-[600px]"
@@ -264,7 +264,7 @@ export default async function BrandDetailPage({ params }) {
 
             <div className="grid gap-3 sm:grid-cols-2">
               <div className="rounded-[1.35rem] border border-slate-200 bg-white px-5 py-4 text-sm font-bold text-slate-700 shadow-sm">
-                Stok dicek tim RADJA AC
+                Stok dicek tim Radja AC
               </div>
               <div className="rounded-[1.35rem] border border-slate-200 bg-white px-5 py-4 text-sm font-bold text-slate-700 shadow-sm">
                 Garansi unit mengikuti ketentuan brand
@@ -360,7 +360,7 @@ export default async function BrandDetailPage({ params }) {
       </section>
 
       <section className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8 lg:py-14">
-        <SectionTitle eyebrow="Checklist Sebelum Chat" title="Agar tim RADJA AC bisa cek stok dan estimasi lebih cepat" />
+        <SectionTitle eyebrow="Checklist Sebelum Chat" title="Agar tim Radja AC bisa cek stok dan estimasi lebih cepat" />
 
         <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
           {checklist.map((point) => (
@@ -424,7 +424,7 @@ export default async function BrandDetailPage({ params }) {
 
       {item.slug === "lainnya" ? (
         <section className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8 lg:py-14">
-          <SectionTitle eyebrow="Brand Utama" title="Brand utama RADJA AC" />
+          <SectionTitle eyebrow="Brand Utama" title="Brand utama Radja AC" />
           <div className="flex flex-wrap justify-center gap-3">
             {featuredBrandItems.map((brand) => (
               <Link key={brand.slug} href={brand.path} className="rounded-full border border-slate-200 bg-white px-4 py-2 text-sm font-bold text-slate-700 shadow-sm transition hover:border-blue-200 hover:bg-blue-50 hover:text-blue-800">

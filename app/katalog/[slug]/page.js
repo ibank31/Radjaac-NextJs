@@ -139,7 +139,7 @@ export default async function CatalogDetailPage({ params }) {
                 </Link>
 
                 <Link href={routes.kontak} className="inline-flex items-center justify-center rounded-full border border-slate-200 bg-white px-6 py-4 font-semibold text-slate-900 shadow-sm transition hover:bg-slate-50">
-                  Kontak RADJA AC
+                  Kontak Radja AC
                 </Link>
               </div>
             </div>
@@ -149,7 +149,7 @@ export default async function CatalogDetailPage({ params }) {
                 Sebelum pilih unit
               </p>
               <h2 className={`${typography.sectionTitle} text-slate-950`}>
-                Data singkat yang membantu tim RADJA AC.
+                Data singkat yang membantu tim Radja AC.
               </h2>
 
               <div className="mt-5 grid gap-3">
@@ -261,7 +261,7 @@ export default async function CatalogDetailPage({ params }) {
               </div>
 
               <div className="rounded-[1.45rem] border border-blue-200 bg-blue-50 p-5">
-                <h3 className={`${typography.cardTitle} text-slate-950`}>Tim RADJA AC cek rincian harga</h3>
+                <h3 className={`${typography.cardTitle} text-slate-950`}>Tim Radja AC cek rincian harga</h3>
                 <p className="mt-3 text-sm leading-7 text-slate-700">{item.pricingNote}</p>
                 <WhatsappLink
                   className="mt-5 inline-flex rounded-full bg-[#25D366] px-5 py-3 text-sm font-bold text-slate-950 shadow-[0_14px_34px_rgba(37,211,102,0.18)] transition hover:-translate-y-0.5 hover:bg-[#20BA5A]"
@@ -339,7 +339,7 @@ export default async function CatalogDetailPage({ params }) {
             Cocokkan kategori dengan data ruangan
           </h2>
           <p className="mx-auto mb-6 max-w-2xl leading-7 text-slate-700">
-            Kirim ukuran ruangan, daya listrik, kota, anggaran, dan kebutuhan unit saja atau sekalian pemasangan. Tim RADJA AC cocokkan pilihan AC dari ukuran ruangan, daya listrik, anggaran, dan stok.
+            Kirim ukuran ruangan, daya listrik, kota, anggaran, dan kebutuhan unit saja atau sekalian pemasangan. Tim Radja AC cocokkan pilihan AC dari ukuran ruangan, daya listrik, anggaran, dan stok.
           </p>
           <WhatsappLink
             className="inline-flex items-center justify-center rounded-full bg-[#25D366] px-6 py-4 font-bold text-slate-950 shadow-[0_14px_34px_rgba(37,211,102,0.20)] transition hover:-translate-y-0.5 hover:bg-[#20BA5A]"

@@ -9,13 +9,13 @@ const PRODUCT_IMAGE = "/photos/product-display/sharp-ac-sharp-bey.webp";
 export const sharpPremiumContent = {
   hero: {
     image: HERO_IMAGE,
-    imageAlt: "Showroom RADJA AC — toko AC Sharp Original dengan stok siap cek",
-    badge: "AC SHARP ORIGINAL — RADJA AC",
+    imageAlt: "Showroom Radja AC — toko AC Sharp Original dengan stok siap cek",
+    badge: "AC SHARP ORIGINAL — Radja AC",
     breadcrumbLabel: "Sharp",
     titleLead: "AC Sharp Original",
     titleHighlight: "Brand Familiar, Stok Dicek Dulu",
     paragraphs: [
-      "Kalau Anda sedang cari AC Sharp Original karena sudah kenal nama brandnya, admin RADJA AC bisa bantu cek stok yang ready hari ini, pilihan tipe Sharp, kisaran harga, dan estimasi pemasangan kebutuhan rumah, usaha, dan proyek.",
+      "Kalau Anda sedang cari AC Sharp Original karena sudah kenal nama brandnya, admin Radja AC bisa bantu cek stok yang ready hari ini, pilihan tipe Sharp, kisaran harga, dan estimasi pemasangan kebutuhan rumah, usaha, dan proyek.",
     ],
     primaryCtaLabel: "Cek Stok & Harga Sharp Sekarang",
     secondaryCtaLabel: "Lihat Pilihan Sharp",
@@ -37,12 +37,12 @@ export const sharpPremiumContent = {
     eyebrow: "Garansi & Bantuan Klaim",
     title: "Garansi teknisi jelas, klaim unit dibantu",
     description:
-      "Garansi teknisi 1 bulan untuk pekerjaan pemasangan. Kalau ada kendala pada unit AC, RADJA AC bisa bantu arahan proses klaim garansi ke brand terkait sesuai ketentuan resmi Sharp. Simpan kartu garansi dan nota pembelian sebagai dokumen klaim.",
+      "Garansi teknisi 1 bulan untuk pekerjaan pemasangan. Kalau ada kendala pada unit AC, Radja AC bisa bantu arahan proses klaim garansi ke brand terkait sesuai ketentuan resmi Sharp. Simpan kartu garansi dan nota pembelian sebagai dokumen klaim.",
     cards: [
       {
         title: "Garansi teknisi 1 bulan",
         description:
-          "Garansi pekerjaan pemasangan berlaku 1 bulan. Kalau ada kendala yang berkaitan dengan instalasi dari teknisi, bisa langsung hubungi RADJA AC.",
+          "Garansi pekerjaan pemasangan berlaku 1 bulan. Kalau ada kendala yang berkaitan dengan instalasi dari teknisi, bisa langsung hubungi Radja AC.",
       },
       {
         title: "Garansi unit sesuai ketentuan Sharp",
@@ -52,7 +52,7 @@ export const sharpPremiumContent = {
       {
         title: "Dibantu arahkan klaim ke Sharp",
         description:
-          "Kalau ada kendala pada unit AC setelah dipasang, RADJA AC bisa bantu arahan proses klaim garansi ke brand terkait sesuai ketentuan resmi Sharp.",
+          "Kalau ada kendala pada unit AC setelah dipasang, Radja AC bisa bantu arahan proses klaim garansi ke brand terkait sesuai ketentuan resmi Sharp.",
       },
     ],
   },
@@ -97,7 +97,7 @@ export const sharpPremiumContent = {
       {
         title: "Stok dan harga dikonfirmasi dulu sebelum deal",
         description:
-          "Sebelum Anda putuskan, admin RADJA AC akan cek stok Sharp yang ready hari ini, tipe yang sesuai kebutuhan, kisaran harga, dan estimasi pemasangan — bukan asal jawab dari katalog.",
+          "Sebelum Anda putuskan, admin Radja AC akan cek stok Sharp yang ready hari ini, tipe yang sesuai kebutuhan, kisaran harga, dan estimasi pemasangan — bukan asal jawab dari katalog.",
       },
     ],
   },
@@ -149,7 +149,7 @@ export const sharpPremiumContent = {
     eyebrow: "Sebelum Beli",
     title: "Sebelum deal AC Sharp Original — kirim info ini dulu",
     description:
-      "Supaya rekomendasi tidak asal dan MCB tidak gampang turun setelah AC dipasang, admin RADJA AC perlu tahu beberapa hal dasar dari Anda sebelum konfirmasi harga dan stok Sharp.",
+      "Supaya rekomendasi tidak asal dan MCB tidak gampang turun setelah AC dipasang, admin Radja AC perlu tahu beberapa hal dasar dari Anda sebelum konfirmasi harga dan stok Sharp.",
     items: [
       "Ukuran ruangan kira-kira dan tinggi plafon jika ada",
       "Daya listrik tempat Anda — rumah, kost, toko, atau kantor",
@@ -197,7 +197,7 @@ export const sharpPremiumContent = {
         href: routes.jualAcPurwokerto,
       },
       {
-        title: "Katalog AC RADJA AC",
+        title: "Katalog AC Radja AC",
         description: "Bandingkan brand dan kategori AC sesuai kebutuhan ruangan dan budget Anda.",
         href: routes.katalog,
       },
@@ -207,7 +207,7 @@ export const sharpPremiumContent = {
   closing: {
     title: "Mau beli AC Sharp original? Mulai dari cek stok dulu.",
     description:
-      "Chat tidak harus langsung deal. Kirim ukuran ruangan, daya listrik, lokasi, dan budget awal Anda. Admin RADJA AC bantu cek stok Sharp yang ready hari ini, estimasi harga, dan kebutuhan pemasangan — termasuk kalau Anda masih bingung antara Sharp, Panasonic, Midea, Gree, atau brand lainnya.",
+      "Chat tidak harus langsung deal. Kirim ukuran ruangan, daya listrik, lokasi, dan budget awal Anda. Admin Radja AC bantu cek stok Sharp yang ready hari ini, estimasi harga, dan kebutuhan pemasangan — termasuk kalau Anda masih bingung antara Sharp, Panasonic, Midea, Gree, atau brand lainnya.",
     buttonLabel: "Cek Stok & Harga Sharp Sekarang",
   },
 

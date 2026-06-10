@@ -11,8 +11,8 @@ import { typography } from "@/lib/typography";
 export const metadata = buildMetadata(staticPageMetadata.tentangKami);
 
 const values = [
-  "Fokus pada penjualan AC original multi-brand, termasuk Proshop Gree RADJA AC.",
-  "Tim RADJA AC cek kebutuhan PK, daya listrik, pilihan brand, stok, pengiriman, dan opsi pemasangan.",
+  "Fokus pada penjualan AC original multi-brand, termasuk Proshop Gree Radja AC.",
+  "Tim Radja AC cek kebutuhan PK, daya listrik, pilihan brand, stok, pengiriman, dan opsi pemasangan.",
   "Informasi stok, harga, pengiriman, dan pemasangan dikonfirmasi sebelum pembelian.",
   "Pembayaran seperti DP, transfer, atau COD dikonfirmasi setelah unit, stok, pengiriman, dan opsi pemasangan jelas.",
   "Pembelian satuan hingga pengadaan ratusan unit dibahas berdasarkan kebutuhan proyek, lokasi, jumlah unit, stok, dan jadwal.",
@@ -74,7 +74,7 @@ export default function TentangKamiPage() {
         <div className="mx-auto grid max-w-7xl items-center gap-10 lg:grid-cols-[1.05fr_0.95fr]">
           <div>
             <p className={`${typography.eyebrow} text-blue-700`}>
-              Tentang RADJA AC
+              Tentang Radja AC
             </p>
             <h1 className={`mt-4 max-w-4xl ${typography.pageTitle} text-slate-950`}>
               Website resmi penjualan AC original multi-brand
@@ -292,7 +292,7 @@ export default function TentangKamiPage() {
             <WhatsappLink
               className="inline-flex w-full items-center justify-center rounded-full bg-[#25D366] px-6 py-4 text-sm font-bold text-slate-950 shadow-[0_10px_24px_rgba(37,211,102,0.18)] transition hover:-translate-y-0.5 hover:bg-[#20BA5A] sm:w-auto"
               source="Tentang Kami Closing CTA"
-              intent="konsultasi pembelian AC original multi-brand setelah melihat profil RADJA AC"
+              intent="konsultasi pembelian AC original multi-brand setelah melihat profil Radja AC"
             >
               Konsultasi Pembelian AC
             </WhatsappLink>

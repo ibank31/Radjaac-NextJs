@@ -26,7 +26,7 @@ function trackWhatsappClick({ source, label, intent, area, brand, category, page
   const payload = {
     event_category: "lead",
     event_label: label || "WhatsApp link",
-    wa_source: source || "Website RADJA AC",
+    wa_source: source || "Website Radja AC",
     wa_label: label || "WhatsApp link",
     intent_type: intent || "konsultasi beli AC",
     city_target: area || "",
@@ -57,10 +57,10 @@ function trackWhatsappClick({ source, label, intent, area, brand, category, page
 }
 
 export default function WhatsappLink({
-  children = "Chat Tim RADJA AC",
+  children = "Chat Tim Radja AC",
   className = "",
   intent = "konsultasi beli AC",
-  source = "Website RADJA AC",
+  source = "Website Radja AC",
   area = "",
   brand = "",
   category = "",

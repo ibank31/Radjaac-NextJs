@@ -107,16 +107,16 @@ const proofImages = [
 
 const capabilityCards = [
   ["Stok banyak unit", "Unit indoor dan outdoor berbagai brand ready di gudang Sokaraja, Banyumas. Restock rutin terdokumentasi lewat foto dan video."],
-  ["Pengiriman banyak unit", "Pengiriman pakai armada RADJA AC sendiri, termasuk muatan banyak unit sekaligus maupun pengiriman bertahap mengikuti kesiapan lokasi."],
-  ["Pemasangan bergaransi", "Pemasangan dikerjakan tim RADJA AC dengan garansi pemasangan 1 bulan, atau unit dikirim untuk dipasang tim lapangan sendiri."],
+  ["Pengiriman banyak unit", "Pengiriman pakai armada Radja AC sendiri, termasuk muatan banyak unit sekaligus maupun pengiriman bertahap mengikuti kesiapan lokasi."],
+  ["Pemasangan bergaransi", "Pemasangan dikerjakan tim Radja AC dengan garansi pemasangan 1 bulan, atau unit dikirim untuk dipasang tim lapangan sendiri."],
   ["Authorized Dealer", "Authorized Dealer Daikin, Midea, Hisense, dan Sansui. Garansi unit resmi brand plus bantuan klaim bila ada kendala unit."],
 ];
 
 const processSteps = [
   ["01", "Kirim jumlah unit & lokasi", "Jenis bangunan, jumlah unit/titik, lokasi, daya listrik, dan kapan unit dibutuhkan."],
-  ["02", "Cek stok & opsi brand", "RADJA AC cek ketersediaan unit di gudang, pilihan brand, dan estimasi PK per ruangan."],
+  ["02", "Cek stok & opsi brand", "Radja AC cek ketersediaan unit di gudang, pilihan brand, dan estimasi PK per ruangan."],
   ["03", "Konfirmasi & jadwal kirim", "Spesifikasi unit, jadwal pengiriman, dan kebutuhan pemasangan dikunci sebelum order jalan."],
-  ["04", "Kirim & pasang", "Unit dikirim pakai armada RADJA AC; pemasangan bergaransi 1 bulan bila dikerjakan tim kami."],
+  ["04", "Kirim & pasang", "Unit dikirim pakai armada Radja AC; pemasangan bergaransi 1 bulan bila dikerjakan tim kami."],
 ];
 
 const capacityRows = [
@@ -142,7 +142,7 @@ export default function PengadaanAcPage() {
             </div>
 
             <h1 className={`max-w-4xl ${typography.pageTitle} text-blue-950`}>
-              Pengadaan AC banyak unit langsung dari gudang RADJA AC di Sokaraja, Banyumas.
+              Pengadaan AC banyak unit langsung dari gudang Radja AC di Sokaraja, Banyumas.
             </h1>
 
             <p className="mt-6 max-w-2xl text-sm leading-7 text-slate-600 sm:text-base">
@@ -191,7 +191,7 @@ export default function PengadaanAcPage() {
             <div className="overflow-hidden rounded-[2rem] border border-white bg-white shadow-2xl shadow-blue-900/10">
               <Image
                 src="/photos/delivery/truk-radja-ac-muat-banyak-unit-ac-aqua-2026-06.webp"
-                alt="Armada RADJA AC memuat banyak unit AC untuk pengiriman pengadaan"
+                alt="Armada Radja AC memuat banyak unit AC untuk pengiriman pengadaan"
                 width={900}
                 height={720}
                 sizes="(min-width: 1024px) 560px, 100vw"
@@ -243,7 +243,7 @@ export default function PengadaanAcPage() {
             </div>
           </div>
           <p className="max-w-3xl text-sm leading-6 text-slate-500">
-            Daikin, Midea, Hisense, dan Sansui tercatat sebagai Authorized Dealer atas nama RADJA AC / CV. Prima Sedaya.
+            Daikin, Midea, Hisense, dan Sansui tercatat sebagai Authorized Dealer atas nama Radja AC / CV. Prima Sedaya.
             Brand lain tersedia mengikuti stok aktif di gudang. Garansi unit mengikuti ketentuan resmi tiap brand.
           </p>
         </div>
@@ -259,7 +259,7 @@ export default function PengadaanAcPage() {
               </h2>
             </div>
             <p className="text-sm leading-7 text-slate-600 sm:text-base">
-              Foto dan video diambil dari aktivitas gudang, pengiriman, dan pemasangan RADJA AC.
+              Foto dan video diambil dari aktivitas gudang, pengiriman, dan pemasangan Radja AC.
               Ketersediaan tipe dan jumlah unit dikonfirmasi saat order.
             </p>
           </div>
@@ -370,11 +370,11 @@ export default function PengadaanAcPage() {
             {[
               [
                 "Garansi unit & klaim brand",
-                "Garansi unit mengikuti ketentuan resmi brand. Sebagai Authorized Dealer Daikin, Midea, Hisense, dan Sansui, RADJA AC membantu proses awal klaim bila ada kendala unit.",
+                "Garansi unit mengikuti ketentuan resmi brand. Sebagai Authorized Dealer Daikin, Midea, Hisense, dan Sansui, Radja AC membantu proses awal klaim bila ada kendala unit.",
               ],
               [
                 "Garansi pemasangan 1 bulan",
-                "Pemasangan yang dikerjakan tim RADJA AC bergaransi 1 bulan. Unit juga bisa dikirim untuk dipasang tim lapangan sendiri.",
+                "Pemasangan yang dikerjakan tim Radja AC bergaransi 1 bulan. Unit juga bisa dikirim untuk dipasang tim lapangan sendiri.",
               ],
               [
                 "Pembayaran banyak unit",
@@ -382,7 +382,7 @@ export default function PengadaanAcPage() {
               ],
               [
                 "Pengiriman pakai armada sendiri",
-                "Pengiriman dijadwalkan dari gudang Sokaraja pakai armada RADJA AC, baik banyak unit sekaligus maupun bertahap mengikuti kesiapan lokasi.",
+                "Pengiriman dijadwalkan dari gudang Sokaraja pakai armada Radja AC, baik banyak unit sekaligus maupun bertahap mengikuti kesiapan lokasi.",
               ],
             ].map(([title, desc]) => (
               <div key={title} className="rounded-[1.5rem] border border-slate-200 bg-white p-6 shadow-sm">
@@ -411,7 +411,7 @@ export default function PengadaanAcPage() {
             <div className="rounded-[1.7rem] border border-blue-100 bg-white p-6 shadow-sm">
               <h3 className={`${typography.cardTitle} text-blue-950`}>Ini hanya estimasi awal</h3>
               <p className="mt-3 text-sm leading-7 text-slate-600">
-                Angka PK yang tepat bergantung pada faktor yang tidak bisa dihitung dari tabel saja. RADJA AC cek kondisi ini saat order:
+                Angka PK yang tepat bergantung pada faktor yang tidak bisa dihitung dari tabel saja. Radja AC cek kondisi ini saat order:
               </p>
               <ul className="mt-5 space-y-3 text-sm leading-6 text-slate-600">
                 {[
@@ -501,7 +501,7 @@ export default function PengadaanAcPage() {
               Kirim jumlah unit dan lokasi, kami cek stok dan jadwal kirim.
             </h2>
             <p className="mt-5 max-w-2xl text-sm leading-7 text-white/70 sm:text-base">
-              Showroom dan gudang RADJA AC berada di Pamijen, Sokaraja, Banyumas, dengan stok banyak unit untuk kost, hotel,
+              Showroom dan gudang Radja AC berada di Pamijen, Sokaraja, Banyumas, dengan stok banyak unit untuk kost, hotel,
               kantor, ruko, cafe, dan proyek konstruksi.
             </p>
           </div>

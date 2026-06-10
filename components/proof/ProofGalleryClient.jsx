@@ -11,7 +11,7 @@ const galleryCategories = [
   {
     title: "Showroom",
     icon: "▣",
-    description: "Foto asli display brand dan suasana showroom RADJA AC di Pamijen, Sokaraja.",
+    description: "Foto asli display brand dan suasana showroom Radja AC di Pamijen, Sokaraja.",
   },
   {
     title: "Gudang",
@@ -42,13 +42,13 @@ const galleryFilters = [
 
 const galleryVideos = [
   {
-    title: "Restock Stok AC RADJA AC 26 Mei 2026",
+    title: "Restock Stok AC Radja AC 26 Mei 2026",
     category: "Gudang",
     video: "/images/gallery/restock-video-26-5-2026.mp4",
     thumbnail: "/images/gallery/restock-video-26-5-2026-poster.webp",
   },
   {
-    title: "Pengiriman AC RADJA AC",
+    title: "Pengiriman AC Radja AC",
     category: "Pengiriman",
     video: "/videos/pengiriman-ac-radja-ac-purwokerto-01.mp4",
     thumbnail: "/video-thumbnails/pengiriman-ac-radja-ac-purwokerto-01.webp",
@@ -69,12 +69,12 @@ const galleryVideos = [
 
 const galleryItems = [
   {
-    title: "Stok AC Sansui dan Gree RADJA AC",
+    title: "Stok AC Sansui dan Gree Radja AC",
     category: "Gudang",
     image: "/images/gallery/stock-sansui-gree.webp",
   },
   {
-    title: "Showroom RADJA AC 31 Mei 2026",
+    title: "Showroom Radja AC 31 Mei 2026",
     category: "Showroom",
     image: "/images/gallery/showroom-31-5-2026.webp",
   },
@@ -89,7 +89,7 @@ const galleryItems = [
     image: "/images/gallery/restock-mide-tcl-lg.webp",
   },
   {
-    title: "Pengiriman AC Daikin RADJA AC",
+    title: "Pengiriman AC Daikin Radja AC",
     category: "Pengiriman",
     image: "/photos/delivery/new-armada-radjaac-daikin.webp",
   },
@@ -159,7 +159,7 @@ const galleryItems = [
     image: "/photos/stock/restock-tcl-midea-lg.webp",
   },
   {
-    title: "Depan Proshop Gree RADJA AC",
+    title: "Depan Proshop Gree Radja AC",
     category: "Showroom",
     image: "/photos/showroom/depan-proshop-gree.webp",
   },
@@ -169,7 +169,7 @@ const galleryItems = [
     image: "/photos/showroom/showroom-display-hisense-modena-01.webp",
   },
   {
-    title: "Restock AC Midea RADJA AC",
+    title: "Restock AC Midea Radja AC",
     category: "Gudang",
     image: "/photos/stock/midea-restock.webp",
   },
@@ -189,7 +189,7 @@ const galleryItems = [
     image: "/photos/delivery/pengiriman-sharp-midea.webp",
   },
   {
-    title: "Showroom Gree RADJA AC Purwokerto",
+    title: "Showroom Gree Radja AC Purwokerto",
     category: "Showroom",
     image: "/photos/showroom/showroom-gree-radja-ac-purwokerto-01.webp",
   },
@@ -224,7 +224,7 @@ const galleryItems = [
     image: "/photos/delivery/radja-ac-pengiriman-stok-aqua-truk-putih.webp",
   },
   {
-    title: "Pengiriman AC Midea RADJA AC 7 Juni 2026",
+    title: "Pengiriman AC Midea Radja AC 7 Juni 2026",
     category: "Pengiriman",
     image: "/photos/delivery/pengiriman-midea-2026-06-07.webp",
   },
@@ -234,12 +234,12 @@ const galleryItems = [
     image: "/photos/delivery/pengiriman-banyak-unit-ac-aqua-radja-ac-2026-06.webp",
   },
   {
-    title: "Truk RADJA AC Muat Banyak Unit AC Aqua",
+    title: "Truk Radja AC Muat Banyak Unit AC Aqua",
     category: "Pengiriman",
     image: "/photos/delivery/truk-radja-ac-muat-banyak-unit-ac-aqua-2026-06.webp",
   },
   {
-    title: "Showroom Multibrand RADJA AC",
+    title: "Showroom Multibrand Radja AC",
     category: "Showroom",
     image: "/photos/showroom/showroom-multibrand-radja-ac-purwokerto-01.webp",
   },
@@ -254,7 +254,7 @@ const galleryItems = [
     image: "/photos/display/daikin-cassette-display-radja-ac-01.webp",
   },
   {
-    title: "Persiapan Pengiriman RADJA AC",
+    title: "Persiapan Pengiriman Radja AC",
     category: "Pengiriman",
     image: "/photos/delivery/radja-ac-persiapan-pengiriman.webp",
   },
@@ -269,7 +269,7 @@ const galleryItems = [
     image: "/photos/display/display-outdoor-daikin-radja-ac-01.webp",
   },
   {
-    title: "Stok AC Sharp RADJA AC",
+    title: "Stok AC Sharp Radja AC",
     category: "Pengiriman",
     image: "/photos/delivery/radja-ac-stok-sharp.webp",
   },
@@ -374,7 +374,7 @@ export default function ProofGalleryClient() {
         <div className="mx-auto max-w-3xl text-center">
           <div className={`mb-7 inline-flex items-center gap-2 rounded-full border border-blue-200 bg-white px-5 py-3 ${typography.eyebrow} text-blue-800 shadow-sm`}>
             <span aria-hidden="true">▣</span>
-            Dokumentasi RADJA AC
+            Dokumentasi Radja AC
           </div>
 
           <h1 className={`mb-6 ${typography.heroTitle} text-slate-950`}>
@@ -383,9 +383,9 @@ export default function ProofGalleryClient() {
           </h1>
 
           <p className="mx-auto max-w-2xl text-sm leading-7 text-slate-600 sm:text-base">
-            Foto di halaman ini adalah dokumentasi asli aktivitas RADJA AC: showroom di Pamijen Sokaraja,
+            Foto di halaman ini adalah dokumentasi asli aktivitas Radja AC: showroom di Pamijen Sokaraja,
             stok gudang, display produk, pengiriman, material instalasi, dan pemasangan. Dokumentasi ini
-            membantu calon pembeli melihat aktivitas RADJA AC sebelum konsultasi pembelian satuan maupun pengadaan banyak unit.
+            membantu calon pembeli melihat aktivitas Radja AC sebelum konsultasi pembelian satuan maupun pengadaan banyak unit.
           </p>
         </div>
       </section>
@@ -413,11 +413,11 @@ export default function ProofGalleryClient() {
             Video Aktivitas
           </p>
           <h2 className={`mb-4 ${typography.sectionTitle} text-slate-950`}>
-            Lihat langsung stok dan pengiriman RADJA AC
+            Lihat langsung stok dan pengiriman Radja AC
           </h2>
           <p className="mx-auto max-w-2xl text-sm leading-7 text-slate-600">
             Video ini diambil langsung dari aktivitas toko — bukan konten promosi. Untuk stok hari ini
-            tetap chat tim RADJA AC dulu, karena unit bisa cepat berubah.
+            tetap chat tim Radja AC dulu, karena unit bisa cepat berubah.
           </p>
         </div>
 
@@ -466,7 +466,7 @@ export default function ProofGalleryClient() {
           </h2>
           <p className="mx-auto max-w-2xl text-sm leading-7 text-slate-600">
             Pilih kategori untuk melihat bagian yang paling relevan. Foto ini bukan pemanis — ini dokumentasi
-            nyata aktivitas RADJA AC dari waktu ke waktu.
+            nyata aktivitas Radja AC dari waktu ke waktu.
           </p>
         </div>
 
@@ -526,14 +526,14 @@ export default function ProofGalleryClient() {
             Mau cek unit dari stok aktif?
           </h2>
           <p className="mx-auto mt-3 max-w-2xl text-sm leading-7 text-slate-600">
-            Kirim kebutuhan ruangan, jumlah unit, brand yang diminati, dan lokasi pengiriman. Tim RADJA AC cek
+            Kirim kebutuhan ruangan, jumlah unit, brand yang diminati, dan lokasi pengiriman. Tim Radja AC cek
             stok, opsi unit, pengiriman, dan kebutuhan pemasangan dari lokasi dan jumlah unit.
           </p>
           <div className="mt-6 flex flex-col justify-center gap-3 sm:flex-row sm:flex-wrap">
             <WhatsappLink
               className="inline-flex w-full items-center justify-center rounded-full bg-[#25D366] px-6 py-4 text-sm font-bold text-slate-950 shadow-[0_10px_24px_rgba(37,211,102,0.18)] transition hover:-translate-y-0.5 hover:bg-[#20BA5A] sm:w-auto"
               source="Bukti Pengiriman Closing"
-              intent="cek stok setelah melihat gallery RADJA AC"
+              intent="cek stok setelah melihat gallery Radja AC"
             >
               Cek Stok Setelah Lihat Bukti
             </WhatsappLink>

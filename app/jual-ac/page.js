@@ -86,23 +86,23 @@ const packagePricingBands = [
 
 const processSteps = [
   ["Ceritakan kebutuhan ruangan", "Sampaikan ukuran ruangan, lokasi, daya listrik, jumlah unit, dan preferensi brand jika ada."],
-  ["Cek PK dan tipe AC", "Tim RADJA AC membaca ukuran ruangan, daya listrik, pola pemakaian, lalu cocokkan tipe standard, low watt, atau inverter."],
-  ["Cek stok dan area pengiriman", "Tim RADJA AC cek stok unit, harga, pengiriman, dan opsi pemasangan dari data lokasi terbaru."],
+  ["Cek PK dan tipe AC", "Tim Radja AC membaca ukuran ruangan, daya listrik, pola pemakaian, lalu cocokkan tipe standard, low watt, atau inverter."],
+  ["Cek stok dan area pengiriman", "Tim Radja AC cek stok unit, harga, pengiriman, dan opsi pemasangan dari data lokasi terbaru."],
   ["Beli setelah jelas", "Pembelian dilakukan setelah unit, jadwal, alamat, dan kebutuhan tambahan sudah dicek."],
 ];
 
 const proofImages = [
   {
     src: "/photos/display/display-gree-residential-ac-radja-ac.webp",
-    alt: "Display AC Gree residential di RADJA AC",
+    alt: "Display AC Gree residential di Radja AC",
   },
   {
     src: "/photos/delivery/radja-ac-persiapan-pengiriman.webp",
-    alt: "Persiapan pengiriman unit AC RADJA AC",
+    alt: "Persiapan pengiriman unit AC Radja AC",
   },
   {
     src: "/photos/installation/material-instalasi-ac-radja-ac-01.webp",
-    alt: "Material instalasi AC RADJA AC",
+    alt: "Material instalasi AC Radja AC",
   },
 ];
 
@@ -120,8 +120,8 @@ export default function JualAcPage() {
               Beli AC original multi-brand dimulai dari ukuran ruangan, daya listrik, stok unit, dan kebutuhan pemasangan.
             </h1>
             <p className="mt-6 max-w-2xl text-sm leading-7 text-slate-600 sm:text-base">
-              RADJA AC melayani pembelian AC original multi-brand untuk rumah, kost, toko,
-              kantor, hotel, proyek, dan pengadaan banyak unit. Tim RADJA AC cek kebutuhan PK, pilihan brand,
+              Radja AC melayani pembelian AC original multi-brand untuk rumah, kost, toko,
+              kantor, hotel, proyek, dan pengadaan banyak unit. Tim Radja AC cek kebutuhan PK, pilihan brand,
               stok unit, area pengiriman, dan opsi pemasangan sebelum pembelian.
             </p>
 
@@ -143,7 +143,7 @@ export default function JualAcPage() {
 
             <div className="mt-10 grid gap-4 sm:grid-cols-3">
               {[
-                ["Original", "Unit AC multi-brand berdasarkan stok aktif dan konfirmasi tim RADJA AC"],
+                ["Original", "Unit AC multi-brand berdasarkan stok aktif dan konfirmasi tim Radja AC"],
                 ["Cek PK", "Kirim ukuran ruangan, daya listrik, dan pola pemakaian"],
                 ["Pengiriman", "Koordinasi unit, alamat, jadwal, dan opsi pemasangan"],
               ].map(([title, text]) => (
@@ -159,7 +159,7 @@ export default function JualAcPage() {
             <div className="overflow-hidden rounded-[2rem] border border-slate-200 bg-white/10 p-3 shadow-2xl">
               <Image
                 src="/photos/display/display-gree-residential-ac-radja-ac.webp"
-                alt="Display AC original multi-brand di RADJA AC"
+                alt="Display AC original multi-brand di Radja AC"
                 width={900}
                 height={1100}
                 className="h-[360px] w-full rounded-[1.5rem] object-cover sm:h-[460px] lg:h-[520px]"
@@ -191,7 +191,7 @@ export default function JualAcPage() {
             </h2>
             <p className="mt-5 text-sm leading-7 text-slate-600">
               Kebutuhan kamar tidur, kost, toko, ruko, cafe, kantor, dan proyek
-              berbeda. Mulai dari kategori AC dulu, lalu tim RADJA AC mengecek stok dan menyusun opsi
+              berbeda. Mulai dari kategori AC dulu, lalu tim Radja AC mengecek stok dan menyusun opsi
               yang tersedia.
             </p>
           </div>
@@ -228,7 +228,7 @@ export default function JualAcPage() {
                 Cocok untuk pembeli satuan yang ingin gambaran awal sebelum chat. Paket standar dapat mencakup pipa 2 meter, kabel 5 meter, bracket 1 set, duct tape 1 roll, free selang drain, dan free vacuum.
               </p>
               <p className="mt-4 text-sm leading-7 text-slate-600">
-                Tim RADJA AC cek rincian harga dari brand, tipe, stok, area pemasangan, panjang pipa tambahan, titik outdoor, akses lokasi, dan kebutuhan material tambahan.
+                Tim Radja AC cek rincian harga dari brand, tipe, stok, area pemasangan, panjang pipa tambahan, titik outdoor, akses lokasi, dan kebutuhan material tambahan.
               </p>
             </div>
 
@@ -272,7 +272,7 @@ export default function JualAcPage() {
               Cek pilihan brand berdasarkan stok aktif, kebutuhan PK, dan anggaran.
             </h2>
             <p className="mt-5 text-sm leading-7 text-slate-600">
-              RADJA AC menyediakan pilihan AC Gree, Daikin, Midea, Hisense,
+              Radja AC menyediakan pilihan AC Gree, Daikin, Midea, Hisense,
               Sharp, Panasonic, Samsung, Sansui, dan brand lain berdasarkan stok aktif.
               Garansi unit mengikuti ketentuan resmi brand.
             </p>
@@ -336,7 +336,7 @@ export default function JualAcPage() {
               Garansi unit mengikuti ketentuan brand, pemasangan dijelaskan dari awal.
             </h2>
             <p className="mt-5 max-w-3xl text-sm leading-7 text-slate-600">
-              Tim RADJA AC menjelaskan garansi unit, garansi pemasangan yang berlaku, kebutuhan material,
+              Tim Radja AC menjelaskan garansi unit, garansi pemasangan yang berlaku, kebutuhan material,
               dan alur bantuan awal klaim sebelum pembelian atau jadwal pemasangan dikonfirmasi.
             </p>
             <div className="mt-7 grid gap-4 md:grid-cols-3">
@@ -364,7 +364,7 @@ export default function JualAcPage() {
                 Showroom, stok, pengiriman, dan material pemasangan tersedia di dokumentasi.
               </h2>
               <p className="mt-5 text-sm leading-7 text-slate-600">
-                Lihat dokumentasi RADJA AC sebelum konsultasi: display unit,
+                Lihat dokumentasi Radja AC sebelum konsultasi: display unit,
                 pengiriman, stok, material, dan aktivitas lapangan yang relevan.
               </p>
               <Link
@@ -404,7 +404,7 @@ export default function JualAcPage() {
                 Pengiriman dan opsi pemasangan dicek berdasarkan lokasi tujuan.
               </h2>
               <p className="mt-5 text-sm leading-7 text-slate-700">
-                RADJA AC melayani dari basis Banyumas untuk area sekitar dan beberapa area Jawa prioritas. Tim RADJA AC tetap cek lokasi, stok, jumlah unit, dan jadwal sebelum pembelian.
+                Radja AC melayani dari basis Banyumas untuk area sekitar dan beberapa area Jawa prioritas. Tim Radja AC tetap cek lokasi, stok, jumlah unit, dan jadwal sebelum pembelian.
               </p>
             </div>
 
@@ -440,7 +440,7 @@ export default function JualAcPage() {
             Butuh AC untuk rumah, kantor, hotel, atau proyek?
           </h2>
           <p className="mx-auto mt-5 max-w-2xl text-sm leading-7 text-slate-600">
-            Kirim ukuran ruangan, lokasi, daya listrik, jumlah unit, brand yang diminati, serta kebutuhan pengiriman atau pemasangan. Tim RADJA AC menyusun opsi untuk pembelian satuan sampai pengadaan banyak unit.
+            Kirim ukuran ruangan, lokasi, daya listrik, jumlah unit, brand yang diminati, serta kebutuhan pengiriman atau pemasangan. Tim Radja AC menyusun opsi untuk pembelian satuan sampai pengadaan banyak unit.
           </p>
           <div className="mt-8 flex flex-col justify-center gap-3 sm:flex-row">
             <WhatsappLink

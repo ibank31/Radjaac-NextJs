@@ -37,15 +37,15 @@ export const articleItems = [
       {
         heading: "Pastikan kebutuhan pemasangan dijelaskan dari awal",
         body: [
-          "Saat tanya harga AC, pastikan apakah penawaran sudah termasuk pipa standar, kabel, bracket, selang pembuangan, vacuum, ongkir, dan jasa pasang. Jika titik indoor dan outdoor berjauhan, tim RADJA AC perlu cek kebutuhan tambahan.",
+          "Saat tanya harga AC, pastikan apakah penawaran sudah termasuk pipa standar, kabel, bracket, selang pembuangan, vacuum, ongkir, dan jasa pasang. Jika titik indoor dan outdoor berjauhan, tim Radja AC perlu cek kebutuhan tambahan.",
           "Minta penjelasan paket sejak awal agar total biaya lebih jelas. Ini lebih aman daripada hanya membandingkan harga unit yang terlihat murah tetapi belum termasuk kebutuhan instalasi di lokasi.",
         ],
       },
       {
         heading: "Cek garansi, stok, pembayaran, dan bantuan klaim",
         body: [
-          "Garansi unit mengikuti ketentuan resmi brand, sedangkan garansi pemasangan mengikuti pekerjaan pemasangan yang dikerjakan melalui RADJA AC. Karena stok, harga, dan promo bisa berubah, konfirmasi tipe unit perlu dilakukan sebelum pembelian.",
-          "Pembayaran seperti DP, transfer, atau COD bisa dikonfirmasi setelah pilihan unit, alamat pengiriman, jadwal, dan opsi pemasangan jelas. Jika ada kendala unit, tim RADJA AC membantu arahan awal klaim sesuai jalur garansi brand.",
+          "Garansi unit mengikuti ketentuan resmi brand, sedangkan garansi pemasangan mengikuti pekerjaan pemasangan yang dikerjakan melalui Radja AC. Karena stok, harga, dan promo bisa berubah, konfirmasi tipe unit perlu dilakukan sebelum pembelian.",
+          "Pembayaran seperti DP, transfer, atau COD bisa dikonfirmasi setelah pilihan unit, alamat pengiriman, jadwal, dan opsi pemasangan jelas. Jika ada kendala unit, tim Radja AC membantu arahan awal klaim sesuai jalur garansi brand.",
         ],
       },
     ],
@@ -55,7 +55,7 @@ export const articleItems = [
       ["Katalog AC", routes.katalog],
       ["Kalkulator PK AC", routes.kalkulatorPkAc],
       ["AC Split Rumah", routes.katalogAcSplitRumah],
-      ["Kontak RADJA AC", routes.kontak],
+      ["Kontak Radja AC", routes.kontak],
     ],
   },
   {
@@ -63,7 +63,7 @@ export const articleItems = [
     path: routes.artikelSharpBeyPurwokerto,
     title: "Sharp BEY Purwokerto | Cek Stok, PK & Opsi Pemasangan",
     description:
-      "Catatan singkat sebelum memilih AC Sharp seri BEY di Purwokerto: cek kebutuhan PK, daya listrik, stok aktif, pengiriman, dan opsi pemasangan melalui RADJA AC.",
+      "Catatan singkat sebelum memilih AC Sharp seri BEY di Purwokerto: cek kebutuhan PK, daya listrik, stok aktif, pengiriman, dan opsi pemasangan melalui Radja AC.",
     h1: "Sharp BEY Purwokerto: cek stok, PK, dan kebutuhan pemasangan",
     category: "Brand",
     readTime: "4 menit baca",
@@ -73,7 +73,7 @@ export const articleItems = [
       {
         heading: "Mulai dari kebutuhan ruangan, bukan hanya nama model",
         body: [
-          "Sebelum memilih Sharp BEY, kirim ukuran ruangan, daya listrik, jumlah unit, dan lokasi. Tim RADJA AC mengecek apakah kapasitas PK, tipe unit, dan stok yang tersedia sesuai dengan kebutuhan.",
+          "Sebelum memilih Sharp BEY, kirim ukuran ruangan, daya listrik, jumlah unit, dan lokasi. Tim Radja AC mengecek apakah kapasitas PK, tipe unit, dan stok yang tersedia sesuai dengan kebutuhan.",
         ],
       },
       {
@@ -91,7 +91,7 @@ export const articleItems = [
       {
         heading: "Bandingkan dengan brand atau tipe lain bila perlu",
         body: [
-          "Jika Sharp BEY belum cocok dengan kebutuhan ruangan atau stok, tim RADJA AC bisa membantu cek alternatif AC Sharp lain atau brand lain berdasarkan anggaran, daya listrik, dan penggunaan harian.",
+          "Jika Sharp BEY belum cocok dengan kebutuhan ruangan atau stok, tim Radja AC bisa membantu cek alternatif AC Sharp lain atau brand lain berdasarkan anggaran, daya listrik, dan penggunaan harian.",
         ],
       },
     ],
@@ -100,7 +100,7 @@ export const articleItems = [
   {
     slug: "ac-1-pk-untuk-ruangan-berapa",
     path: routes.artikelAcSatuPkUntukRuanganBerapa,
-    title: "AC 1 PK Cocok untuk Ruangan Berapa? | Panduan Sebelum Order — RADJA AC",
+    title: "AC 1 PK Cocok untuk Ruangan Berapa? | Panduan Sebelum Order — Radja AC",
     description:
       "Panduan memilih AC 1 PK untuk kamar dan ruang keluarga. Cek ukuran ruangan, BTU, kondisi panas, daya listrik, dan kapan perlu naik atau turun kapasitas.",
     h1: "AC 1 PK cocok untuk ruangan berapa?",
@@ -152,7 +152,7 @@ export const articleItems = [
       ["AC 1 PK", routes.katalogAcSatuPk],
       ["AC 1.5 PK", routes.katalogAcSatuSetengahPk],
       ["AC 1/2 PK", routes.katalogAcSetengahPk],
-      ["Kontak RADJA AC", routes.kontak],
+      ["Kontak Radja AC", routes.kontak],
     ],
   },
   {
@@ -209,7 +209,7 @@ export const articleItems = [
       ["AC Inverter", routes.katalogAcInverter],
       ["AC Low Watt", routes.katalogAcLowWatt],
       ["Kalkulator PK AC", routes.kalkulatorPkAc],
-      ["Kontak RADJA AC", routes.kontak],
+      ["Kontak Radja AC", routes.kontak],
     ],
   },
 
@@ -261,7 +261,7 @@ export const articleItems = [
       ["Kalkulator PK AC", routes.kalkulatorPkAc],
       ["AC Low Watt", routes.katalogAcLowWatt],
       ["AC Inverter", routes.katalogAcInverter],
-      ["Kontak RADJA AC", routes.kontak],
+      ["Kontak Radja AC", routes.kontak],
     ],
   },
   {
@@ -280,7 +280,7 @@ export const articleItems = [
         heading: "Kenapa instalasi perlu dipikirkan sebelum membeli AC?",
         body: [
           "AC yang kapasitasnya sudah benar tetap bisa kurang nyaman jika titik indoor, outdoor, pipa, atau pembuangan air tidak direncanakan dengan baik. Instalasi yang kurang tepat bisa membuat ruangan lama dingin, suara lebih mengganggu, air menetes, atau tampilan ruangan kurang rapi.",
-          "Sebelum membeli AC, lebih aman jika pembeli sudah menyiapkan ukuran ruangan, foto calon titik indoor, foto area outdoor, dan informasi daya listrik. Data sederhana ini membantu tim RADJA AC memberi arahan unit dan opsi pemasangan yang lebih masuk akal.",
+          "Sebelum membeli AC, lebih aman jika pembeli sudah menyiapkan ukuran ruangan, foto calon titik indoor, foto area outdoor, dan informasi daya listrik. Data sederhana ini membantu tim Radja AC memberi arahan unit dan opsi pemasangan yang lebih masuk akal.",
         ],
       },
       {
@@ -308,7 +308,7 @@ export const articleItems = [
         heading: "Cek biaya tambahan, garansi pasang, dan pembayaran",
         body: [
           "Kebutuhan seperti pipa tambahan, bracket, bobok tembok, akses tinggi, pemindahan titik, atau material tambahan bisa memengaruhi total biaya pemasangan. Karena itu, kondisi lokasi sebaiknya dibahas sebelum jadwal dipastikan.",
-          "Untuk pemasangan yang dikerjakan melalui RADJA AC, garansi pemasangan mengikuti ketentuan yang berlaku. Garansi unit mengikuti ketentuan resmi brand, sedangkan pembayaran seperti DP, transfer, atau COD dikonfirmasi setelah unit, alamat, dan opsi pemasangan jelas.",
+          "Untuk pemasangan yang dikerjakan melalui Radja AC, garansi pemasangan mengikuti ketentuan yang berlaku. Garansi unit mengikuti ketentuan resmi brand, sedangkan pembayaran seperti DP, transfer, atau COD dikonfirmasi setelah unit, alamat, dan opsi pemasangan jelas.",
         ],
       },
     ],
@@ -319,7 +319,7 @@ export const articleItems = [
       ["Katalog AC", routes.katalog],
       ["Kalkulator PK AC", routes.kalkulatorPkAc],
       ["Pengiriman & Pemasangan", routes.pengirimanPemasangan],
-      ["Kontak RADJA AC", routes.kontak],
+      ["Kontak Radja AC", routes.kontak],
     ],
   },
   {
@@ -352,7 +352,7 @@ export const articleItems = [
         heading: "Jangan abaikan posisi pemasangan",
         body: [
           "Posisi indoor sebaiknya tidak langsung terhalang lemari, tirai, atau plafon terlalu dekat. Outdoor juga perlu sirkulasi udara yang baik agar performa pendinginan tidak turun.",
-          "Sebelum membeli, foto ruangan dan titik pemasangan bisa dikirim ke tim RADJA AC agar rekomendasi unit dan opsi pemasangannya lebih tepat.",
+          "Sebelum membeli, foto ruangan dan titik pemasangan bisa dikirim ke tim Radja AC agar rekomendasi unit dan opsi pemasangannya lebih tepat.",
         ],
       },
       {
@@ -377,7 +377,7 @@ export const articleItems = [
       ["AC 1/2 PK", routes.katalogAcSetengahPk],
       ["AC Low Watt", routes.katalogAcLowWatt],
       ["AC Inverter", routes.katalogAcInverter],
-      ["Kontak RADJA AC", routes.kontak],
+      ["Kontak Radja AC", routes.kontak],
     ],
   },
 ];

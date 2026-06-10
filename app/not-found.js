@@ -20,9 +20,9 @@ const recoveryLinks = [
     description: "Untuk kebutuhan banyak unit, proyek, hotel, kost, kantor, kontraktor, dan developer.",
   },
   {
-    label: "Kontak RADJA AC",
+    label: "Kontak Radja AC",
     href: routes.kontak,
-    description: "Hubungi tim RADJA AC untuk cek stok, rekomendasi PK, pengiriman, dan opsi pemasangan.",
+    description: "Hubungi tim Radja AC untuk cek stok, rekomendasi PK, pengiriman, dan opsi pemasangan.",
   },
 ];
 
@@ -46,7 +46,7 @@ export default function NotFound() {
               </p>
 
               <p className="mt-4 max-w-xl text-sm leading-7 text-white/80">
-                Tidak masalah. Tim RADJA AC tetap bisa membantu cek kebutuhan AC dari ukuran ruangan,
+                Tidak masalah. Tim Radja AC tetap bisa membantu cek kebutuhan AC dari ukuran ruangan,
                 daya listrik, stok unit, pengiriman, dan opsi pemasangan.
               </p>
 
@@ -99,7 +99,7 @@ export default function NotFound() {
 
               <p className="mt-6 rounded-2xl border border-blue-100 bg-blue-50 px-4 py-3 text-sm leading-6 text-blue-950">
                 Jika Anda datang dari link lama, gunakan halaman di atas atau kirim kebutuhan AC ke WhatsApp
-                agar tim RADJA AC bantu arahkan.
+                agar tim Radja AC bantu arahkan.
               </p>
             </div>
           </div>

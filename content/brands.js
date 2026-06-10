@@ -23,8 +23,8 @@ export const brandItems = [
     waBrand: "Gree",
     localFaq: [
       [
-        "Apakah RADJA AC benar-benar Proshop Gree resmi?",
-        "Ya. RADJA AC tercantum di website resmi Gree Indonesia sebagai Proshop Gree. Ini bukan klaim toko semata — statusnya bisa dicek langsung di website Gree. Showroom dan stok fisik berada di Pamijen, Sokaraja, dekat RS Margono.",
+        "Apakah Radja AC benar-benar Proshop Gree resmi?",
+        "Ya. Radja AC tercantum di website resmi Gree Indonesia sebagai Proshop Gree. Ini bukan klaim toko semata — statusnya bisa dicek langsung di website Gree. Showroom dan stok fisik berada di Pamijen, Sokaraja, dekat RS Margono.",
       ],
       [
         "Berapa harga AC Gree terbaru?",
@@ -35,7 +35,7 @@ export const brandItems = [
         "Singkatnya: standard untuk pemakaian normal dengan listrik cukup, low watt untuk rumah 900–1300 VA supaya MCB tidak sering turun, dan inverter untuk AC yang nyala lama setiap hari — suhu lebih stabil, listrik lebih efisien jangka panjang. Admin bisa bantu pilih yang paling masuk akal sesuai kondisi ruangan dan daya listrik Anda.",
       ],
       [
-        "Apakah RADJA AC hanya jual Gree ½ PK?",
+        "Apakah Radja AC hanya jual Gree ½ PK?",
         "Tidak. Kami juga layani kebutuhan AC Gree dari ¾ PK, 1 PK, 1.5 PK, sampai 2 PK sesuai stok. Untuk kapasitas lebih besar, admin bantu cek harga dan unit yang benar-benar ready.",
       ],
       [
@@ -48,7 +48,7 @@ export const brandItems = [
       ],
       [
         "Kalau unit Gree bermasalah setelah dipasang, bisa dibantu?",
-        "Bisa. RADJA AC bantu arahan awal dan koordinasi proses klaim sesuai ketentuan garansi Gree — selama dokumen pembelian, kartu garansi, nomor seri, dan bukti kendala tersedia.",
+        "Bisa. Radja AC bantu arahan awal dan koordinasi proses klaim sesuai ketentuan garansi Gree — selama dokumen pembelian, kartu garansi, nomor seri, dan bukti kendala tersedia.",
       ],
       [
         "Bagaimana cara cek stok dan harga AC Gree terbaru?",
@@ -61,16 +61,16 @@ export const brandItems = [
     path: routes.brandDaikin,
     name: "Daikin",
     label: "AC Daikin",
-    title: "AC Daikin Original | Cek Stok, Tipe & Konsultasi PK — RADJA AC",
+    title: "AC Daikin Original | Cek Stok, Tipe & Konsultasi PK — Radja AC",
     description:
-      "RADJA AC menyediakan AC Daikin original untuk rumah, kantor, usaha, hotel, dan proyek. Cek stok standard/inverter, rekomendasi PK, pengiriman, pemasangan, dan garansi.",
+      "Radja AC menyediakan AC Daikin original untuk rumah, kantor, usaha, hotel, dan proyek. Cek stok standard/inverter, rekomendasi PK, pengiriman, pemasangan, dan garansi.",
     h1: "AC Daikin original untuk rumah, kantor, usaha, hotel, dan proyek",
     eyebrow: "Brand AC Daikin",
     intro:
-      "Daikin banyak dipilih untuk kebutuhan rumah, kamar, kantor, usaha, hotel, dan proyek. Tim RADJA AC mencocokkan tipe Daikin berdasarkan ukuran ruangan, daya listrik, anggaran, stok unit, lokasi pengiriman, opsi pemasangan, garansi unit, dan opsi pembayaran. Kebutuhan pembelian satuan maupun banyak unit bisa dikirim lewat WhatsApp agar stok dan alur pengiriman dikonfirmasi lebih dulu.",
+      "Daikin banyak dipilih untuk kebutuhan rumah, kamar, kantor, usaha, hotel, dan proyek. Tim Radja AC mencocokkan tipe Daikin berdasarkan ukuran ruangan, daya listrik, anggaran, stok unit, lokasi pengiriman, opsi pemasangan, garansi unit, dan opsi pembayaran. Kebutuhan pembelian satuan maupun banyak unit bisa dikirim lewat WhatsApp agar stok dan alur pengiriman dikonfirmasi lebih dulu.",
     trustNote:
-      "Dokumen brand Daikin tercatat atas nama RADJA AC. Stok, tipe, harga, promo, pengiriman, opsi pemasangan, dan garansi unit tetap dicek mengikuti kondisi terbaru serta ketentuan resmi brand yang tertera pada kemasan, kartu garansi, atau dokumen garansi unit.",
-    certificateHolder: "RADJA AC",
+      "Dokumen brand Daikin tercatat atas nama Radja AC. Stok, tipe, harga, promo, pengiriman, opsi pemasangan, dan garansi unit tetap dicek mengikuti kondisi terbaru serta ketentuan resmi brand yang tertera pada kemasan, kartu garansi, atau dokumen garansi unit.",
+    certificateHolder: "Radja AC",
     variants: ["Standard", "Inverter"],
     suitableFor: ["Rumah", "Kamar", "Kantor", "Hotel", "Proyek", "Usaha"],
     ctaLabel: "Cek Stok AC Daikin",
@@ -86,7 +86,7 @@ export const brandItems = [
     ],
     localFaq: [
       [
-        "Apakah RADJA AC menjual AC Daikin original bergaransi?",
+        "Apakah Radja AC menjual AC Daikin original bergaransi?",
         "Ya. Kami jual AC Daikin original untuk kebutuhan rumah, kost, toko, kantor, hotel, dan proyek. Garansi unit mengikuti ketentuan resmi Daikin dan kartu garansi produk — bukan garansi toko semata.",
       ],
       [
@@ -98,7 +98,7 @@ export const brandItems = [
         "Daikin memang sedikit lebih premium dari brand ekonomis. Yang banyak dikejar pembeli: spare part mudah dicari, jaringan teknisi dan layanan purna jual Daikin relatif mudah ditemukan, dan unit-nya dikenal tahan lama. Kalau budget lebih ketat, admin bisa bantu bandingkan dengan Gree, Midea, atau Hisense yang stoknya juga kami sediakan.",
       ],
       [
-        "Apakah RADJA AC hanya jual Daikin ½ PK?",
+        "Apakah Radja AC hanya jual Daikin ½ PK?",
         "Tidak. Kami juga layani Daikin di atas ½ PK — ¾ PK, 1 PK, 1.5 PK, sampai 2 PK sesuai stok. Untuk kapasitas lebih besar, admin bantu cek harga terbaru dan stok yang ready lewat WhatsApp.",
       ],
       [
@@ -111,7 +111,7 @@ export const brandItems = [
       ],
       [
         "Kalau unit Daikin bermasalah setelah dipasang, toko bisa bantu?",
-        "Bisa. RADJA AC bantu arahan awal dan koordinasi proses klaim sesuai ketentuan garansi Daikin — selama dokumen pembelian, kartu garansi, nomor seri, dan bukti kendala tersedia.",
+        "Bisa. Radja AC bantu arahan awal dan koordinasi proses klaim sesuai ketentuan garansi Daikin — selama dokumen pembelian, kartu garansi, nomor seri, dan bukti kendala tersedia.",
       ],
       [
         "Apakah bisa konsultasi ukuran PK dulu sebelum beli?",
@@ -128,15 +128,15 @@ export const brandItems = [
     path: routes.brandMidea,
     name: "Midea",
     label: "AC Midea",
-    title: "AC Midea Original | Cek Stok, Tipe & Konsultasi PK — RADJA AC",
+    title: "AC Midea Original | Cek Stok, Tipe & Konsultasi PK — Radja AC",
     description:
-      "RADJA AC menyediakan AC Midea original untuk rumah, kost, toko, kantor, usaha, hotel, dan proyek. Cek stok FT/AF/inverter, rekomendasi PK, pengiriman, pemasangan, dan garansi.",
+      "Radja AC menyediakan AC Midea original untuk rumah, kost, toko, kantor, usaha, hotel, dan proyek. Cek stok FT/AF/inverter, rekomendasi PK, pengiriman, pemasangan, dan garansi.",
     h1: "AC Midea original untuk rumah, kost, usaha, kantor, hotel, dan proyek",
     eyebrow: "Brand AC Midea",
     intro:
-      "Midea menjadi pilihan untuk pembeli yang mencari AC original untuk rumah, kamar tidur, kost, kontrakan, toko, kantor/ruko, hotel, dan proyek. Tim RADJA AC mengecek kebutuhan PK, daya listrik, stok Midea FT, AF, inverter, lokasi pengiriman, opsi pemasangan, garansi unit, dan opsi pembayaran sebelum pembelian. Kebutuhan pembelian satuan maupun banyak unit bisa dikirim lewat WhatsApp agar stok dan alur pengiriman dikonfirmasi lebih dulu.",
+      "Midea menjadi pilihan untuk pembeli yang mencari AC original untuk rumah, kamar tidur, kost, kontrakan, toko, kantor/ruko, hotel, dan proyek. Tim Radja AC mengecek kebutuhan PK, daya listrik, stok Midea FT, AF, inverter, lokasi pengiriman, opsi pemasangan, garansi unit, dan opsi pembayaran sebelum pembelian. Kebutuhan pembelian satuan maupun banyak unit bisa dikirim lewat WhatsApp agar stok dan alur pengiriman dikonfirmasi lebih dulu.",
     trustNote:
-      "Dokumen brand Midea tercatat atas nama CV. Prima Sedaya, yang merupakan bagian dari operasional RADJA AC. Stok, tipe, harga, promo, pengiriman, opsi pemasangan, dan garansi unit tetap dicek mengikuti kondisi terbaru serta ketentuan resmi brand.",
+      "Dokumen brand Midea tercatat atas nama CV. Prima Sedaya, yang merupakan bagian dari operasional Radja AC. Stok, tipe, harga, promo, pengiriman, opsi pemasangan, dan garansi unit tetap dicek mengikuti kondisi terbaru serta ketentuan resmi brand.",
     certificateHolder: "CV. Prima Sedaya",
     variants: ["FT", "AF", "Inverter"],
     suitableFor: ["Rumah", "Kamar", "Kost", "Kontrakan", "Kantor", "Proyek", "Usaha"],
@@ -153,8 +153,8 @@ export const brandItems = [
     ],
     localFaq: [
       [
-        "Apakah RADJA AC jual AC Midea original?",
-        "Ya. RADJA AC menjual AC Midea original untuk kebutuhan rumah, kost, kontrakan, kantor, toko, usaha, dan proyek. Kami dealer resmi Midea dan stok bisa dicek sebelum Anda deal.",
+        "Apakah Radja AC jual AC Midea original?",
+        "Ya. Radja AC menjual AC Midea original untuk kebutuhan rumah, kost, kontrakan, kantor, toko, usaha, dan proyek. Kami dealer resmi Midea dan stok bisa dicek sebelum Anda deal.",
       ],
       [
         "Berapa harga AC Midea terbaru?",
@@ -166,7 +166,7 @@ export const brandItems = [
       ],
       [
         "Bingung pilih Midea, Gree, atau Daikin — bisa dibantu?",
-        "Bisa. Kirim ukuran ruangan, daya listrik, dan budget ke admin RADJA AC. Kami bantu bandingkan pilihan yang paling realistis sesuai kondisi Anda — tanpa harus langsung deal dulu.",
+        "Bisa. Kirim ukuran ruangan, daya listrik, dan budget ke admin Radja AC. Kami bantu bandingkan pilihan yang paling realistis sesuai kondisi Anda — tanpa harus langsung deal dulu.",
       ],
       [
         "Apakah Midea tersedia standard, low watt, dan inverter?",
@@ -182,11 +182,11 @@ export const brandItems = [
       ],
       [
         "Ada garansi teknisi setelah AC Midea dipasang?",
-        "Ada. RADJA AC memberikan garansi teknisi 1 bulan untuk kendala yang berkaitan dengan pekerjaan pemasangan atau instalasi. Kalau ada kendala pada unit AC, RADJA AC bisa bantu arahan proses klaim garansi ke Midea sesuai ketentuan resmi.",
+        "Ada. Radja AC memberikan garansi teknisi 1 bulan untuk kendala yang berkaitan dengan pekerjaan pemasangan atau instalasi. Kalau ada kendala pada unit AC, Radja AC bisa bantu arahan proses klaim garansi ke Midea sesuai ketentuan resmi.",
       ],
       [
         "Kalau unit Midea bermasalah setelah dipasang, toko bisa bantu klaim?",
-        "Bisa dibantu arahkan. RADJA AC bisa bantu koordinasi proses klaim ke Midea selama dokumen pembelian, kartu garansi, nomor seri unit, dan bukti kendala tersedia. Penggantian unit sendiri mengikuti ketentuan resmi Midea — bukan ditanggung toko.",
+        "Bisa dibantu arahkan. Radja AC bisa bantu koordinasi proses klaim ke Midea selama dokumen pembelian, kartu garansi, nomor seri unit, dan bukti kendala tersedia. Penggantian unit sendiri mengikuti ketentuan resmi Midea — bukan ditanggung toko.",
       ],
       [
         "Bagaimana cara cek stok AC Midea hari ini?",
@@ -199,15 +199,15 @@ export const brandItems = [
     path: routes.brandHisense,
     name: "Hisense",
     label: "AC Hisense",
-    title: "AC Hisense Original | Cek Stok, Tipe & Konsultasi PK — RADJA AC",
+    title: "AC Hisense Original | Cek Stok, Tipe & Konsultasi PK — Radja AC",
     description:
-      "RADJA AC menyediakan AC Hisense original. Cek stok Hisense standard dan inverter, rekomendasi PK, pengiriman, opsi pemasangan, dan bantuan klaim sesuai ketentuan brand.",
+      "Radja AC menyediakan AC Hisense original. Cek stok Hisense standard dan inverter, rekomendasi PK, pengiriman, opsi pemasangan, dan bantuan klaim sesuai ketentuan brand.",
     h1: "AC Hisense original untuk rumah, kost, usaha, dan kebutuhan anggaran efisien",
     eyebrow: "Brand AC",
     intro:
-      "Hisense menjadi pilihan untuk pembeli yang mencari AC original dengan pilihan standard maupun inverter. Tim RADJA AC mengecek stok, kebutuhan PK, daya listrik, pengiriman, opsi pemasangan, garansi unit, dan opsi pembayaran sebelum pembelian.",
+      "Hisense menjadi pilihan untuk pembeli yang mencari AC original dengan pilihan standard maupun inverter. Tim Radja AC mengecek stok, kebutuhan PK, daya listrik, pengiriman, opsi pemasangan, garansi unit, dan opsi pembayaran sebelum pembelian.",
     trustNote:
-      "Dokumen brand Hisense tercatat atas nama CV. Prima Sedaya, yang merupakan bagian dari operasional RADJA AC.",
+      "Dokumen brand Hisense tercatat atas nama CV. Prima Sedaya, yang merupakan bagian dari operasional Radja AC.",
     certificateHolder: "CV. Prima Sedaya",
     variants: ["Standard", "Inverter"],
     suitableFor: ["Rumah", "Kamar", "Kost", "Kantor", "Proyek"],
@@ -216,8 +216,8 @@ export const brandItems = [
     waBrand: "Hisense",
     localFaq: [
       [
-        "Apakah RADJA AC jual AC Hisense original?",
-        "Ya. RADJA AC menjual AC Hisense original untuk kebutuhan rumah, kost, kontrakan, kantor, toko, usaha, dan proyek. Stok bisa dicek sebelum Anda deal.",
+        "Apakah Radja AC jual AC Hisense original?",
+        "Ya. Radja AC menjual AC Hisense original untuk kebutuhan rumah, kost, kontrakan, kantor, toko, usaha, dan proyek. Stok bisa dicek sebelum Anda deal.",
       ],
       [
         "Berapa harga AC Hisense?",
@@ -236,16 +236,16 @@ export const brandItems = [
         "Cocok. Hisense bisa jadi pilihan untuk toko kecil, kantor kecil, atau usaha rumahan yang butuh AC yang terasa modern dan dingin konsisten tanpa merusak anggaran operasional. Kapasitas disesuaikan luas ruangan.",
       ],
       [
-        "Beli AC Hisense di RADJA AC bisa sekalian dipasang?",
+        "Beli AC Hisense di Radja AC bisa sekalian dipasang?",
         "Bisa. Pembelian AC Hisense bisa dilanjutkan dengan pemasangan area yang dikonfirmasi. Biaya pasang disesuaikan kondisi lokasi, titik indoor-outdoor, panjang pipa, dan tambahan material jika ada — dikomunikasikan sebelum Anda setuju.",
       ],
       [
         "Ada garansi teknisi setelah AC Hisense dipasang?",
-        "Ada. RADJA AC memberikan garansi teknisi 1 bulan untuk kendala yang berkaitan dengan pekerjaan pemasangan atau instalasi. Kalau ada kendala pada unit AC, RADJA AC bisa bantu arahan proses klaim garansi ke Hisense sesuai ketentuan resmi.",
+        "Ada. Radja AC memberikan garansi teknisi 1 bulan untuk kendala yang berkaitan dengan pekerjaan pemasangan atau instalasi. Kalau ada kendala pada unit AC, Radja AC bisa bantu arahan proses klaim garansi ke Hisense sesuai ketentuan resmi.",
       ],
       [
         "Kalau unit Hisense bermasalah setelah dipasang, toko bisa bantu klaim?",
-        "Bisa dibantu arahkan. RADJA AC bisa bantu koordinasi proses klaim ke Hisense selama dokumen pembelian, kartu garansi, nomor seri unit, dan bukti kendala tersedia. Penggantian unit mengikuti ketentuan resmi Hisense — bukan ditanggung toko.",
+        "Bisa dibantu arahkan. Radja AC bisa bantu koordinasi proses klaim ke Hisense selama dokumen pembelian, kartu garansi, nomor seri unit, dan bukti kendala tersedia. Penggantian unit mengikuti ketentuan resmi Hisense — bukan ditanggung toko.",
       ],
       [
         "Bagaimana cara cek stok AC Hisense hari ini?",
@@ -258,15 +258,15 @@ export const brandItems = [
     path: routes.brandSansui,
     name: "Sansui",
     label: "AC Sansui",
-    title: "AC Sansui Original | Cek Stok, Tipe & Konsultasi PK — RADJA AC",
+    title: "AC Sansui Original | Cek Stok, Tipe & Konsultasi PK — Radja AC",
     description:
-      "RADJA AC menyediakan AC Sansui original. Stok aktif, kebutuhan ruangan, daya listrik, pengiriman, pemasangan, dan alur klaim dicek sesuai ketentuan brand.",
+      "Radja AC menyediakan AC Sansui original. Stok aktif, kebutuhan ruangan, daya listrik, pengiriman, pemasangan, dan alur klaim dicek sesuai ketentuan brand.",
     h1: "AC Sansui original untuk rumah, kost, usaha, kantor, hotel, dan proyek",
     eyebrow: "Brand AC",
     intro:
       "AC Sansui original tersedia dalam opsi standard, low watt, atau inverter mengikuti stok aktif. PK, daya listrik, anggaran, pengiriman, opsi pemasangan, garansi unit, dan opsi pembayaran dicek sebelum pembelian.",
     trustNote:
-      "Dokumen brand Sansui tercatat atas nama CV. Prima Sedaya, yang merupakan bagian dari operasional RADJA AC. Stok, tipe, harga, dan ketentuan garansi dicek dari data terbaru.",
+      "Dokumen brand Sansui tercatat atas nama CV. Prima Sedaya, yang merupakan bagian dari operasional Radja AC. Stok, tipe, harga, dan ketentuan garansi dicek dari data terbaru.",
     certificateHolder: "CV. Prima Sedaya",
     variants: ["Standard", "Low watt", "Inverter"],
     suitableFor: ["Rumah", "Kamar", "Kost", "Kontrakan", "Kantor", "Proyek"],
@@ -275,8 +275,8 @@ export const brandItems = [
     waBrand: "Sansui",
     localFaq: [
       [
-        "Apakah RADJA AC jual AC Sansui original?",
-        "Ya. RADJA AC menyediakan pilihan AC Sansui original untuk kebutuhan rumah, kost, kontrakan, toko kecil, dan usaha area yang dikonfirmasi. Stok bisa dicek sebelum Anda deal.",
+        "Apakah Radja AC jual AC Sansui original?",
+        "Ya. Radja AC menyediakan pilihan AC Sansui original untuk kebutuhan rumah, kost, kontrakan, toko kecil, dan usaha area yang dikonfirmasi. Stok bisa dicek sebelum Anda deal.",
       ],
       [
         "Berapa harga AC Sansui?",
@@ -299,16 +299,16 @@ export const brandItems = [
         "Cocok. Sansui bisa jadi pilihan praktis untuk kamar kost, kontrakan, atau rumah sederhana yang butuh AC fungsional. Yang penting kapasitas PK-nya disesuaikan ukuran ruangan dulu — jangan asal ambil yang paling kecil karena terlihat lebih murah.",
       ],
       [
-        "Beli AC Sansui di RADJA AC bisa sekalian dipasang?",
+        "Beli AC Sansui di Radja AC bisa sekalian dipasang?",
         "Bisa. Pembelian AC Sansui bisa dilanjutkan dengan pemasangan area yang dikonfirmasi. Biaya pasang disesuaikan kondisi lokasi, titik indoor-outdoor, panjang pipa, dan tambahan material jika ada — dikomunikasikan sebelum Anda setuju.",
       ],
       [
         "Ada garansi teknisi setelah AC Sansui dipasang?",
-        "Ada. RADJA AC memberikan garansi teknisi 1 bulan untuk kendala yang berkaitan dengan pekerjaan pemasangan atau instalasi. Kalau ada kendala pada unit AC, RADJA AC bisa bantu arahan proses klaim garansi ke Sansui sesuai ketentuan resmi.",
+        "Ada. Radja AC memberikan garansi teknisi 1 bulan untuk kendala yang berkaitan dengan pekerjaan pemasangan atau instalasi. Kalau ada kendala pada unit AC, Radja AC bisa bantu arahan proses klaim garansi ke Sansui sesuai ketentuan resmi.",
       ],
       [
         "Kalau unit Sansui bermasalah setelah dipasang, toko bisa bantu klaim?",
-        "Bisa dibantu arahkan. RADJA AC bisa bantu koordinasi proses klaim ke Sansui selama dokumen pembelian, kartu garansi, nomor seri unit, dan bukti kendala tersedia. Penggantian unit mengikuti ketentuan resmi Sansui — bukan ditanggung toko.",
+        "Bisa dibantu arahkan. Radja AC bisa bantu koordinasi proses klaim ke Sansui selama dokumen pembelian, kartu garansi, nomor seri unit, dan bukti kendala tersedia. Penggantian unit mengikuti ketentuan resmi Sansui — bukan ditanggung toko.",
       ],
       [
         "Bagaimana cara cek stok AC Sansui hari ini?",
@@ -321,9 +321,9 @@ export const brandItems = [
     path: routes.brandSharp,
     name: "Sharp",
     label: "AC Sharp",
-    title: "AC Sharp Original | Cek Stok, Tipe & Konsultasi PK — RADJA AC",
+    title: "AC Sharp Original | Cek Stok, Tipe & Konsultasi PK — Radja AC",
     description:
-      "RADJA AC menyediakan AC Sharp original. Stok aktif, kebutuhan ruangan, daya listrik, pengiriman, pemasangan, dan alur klaim dicek sesuai ketentuan brand.",
+      "Radja AC menyediakan AC Sharp original. Stok aktif, kebutuhan ruangan, daya listrik, pengiriman, pemasangan, dan alur klaim dicek sesuai ketentuan brand.",
     h1: "AC Sharp original untuk rumah, kost, usaha, kantor, hotel, dan proyek",
     eyebrow: "Brand AC",
     intro:
@@ -338,8 +338,8 @@ export const brandItems = [
     waBrand: "Sharp",
     localFaq: [
       [
-        "Apakah RADJA AC jual AC Sharp?",
-        "Ya. Sharp termasuk brand yang ada di daftar supplier RADJA AC. Untuk tipe dan stok yang ready hari ini, langsung cek via WhatsApp — stok bisa berubah mengikuti ketersediaan supplier.",
+        "Apakah Radja AC jual AC Sharp?",
+        "Ya. Sharp termasuk brand yang ada di daftar supplier Radja AC. Untuk tipe dan stok yang ready hari ini, langsung cek via WhatsApp — stok bisa berubah mengikuti ketersediaan supplier.",
       ],
       [
         "Berapa harga AC Sharp Original sekarang?",
@@ -351,7 +351,7 @@ export const brandItems = [
       ],
       [
         "Bingung pilih Sharp, Panasonic, Midea, atau Gree — bisa dibantu?",
-        "Bisa. Kalau bingung di antara beberapa brand, admin RADJA AC bisa bantu bandingkan sesuai budget, ukuran ruangan, daya listrik, dan pola pemakaian. Sharp biasanya cocok untuk yang ingin brand familiar dan tidak mau eksperimental.",
+        "Bisa. Kalau bingung di antara beberapa brand, admin Radja AC bisa bantu bandingkan sesuai budget, ukuran ruangan, daya listrik, dan pola pemakaian. Sharp biasanya cocok untuk yang ingin brand familiar dan tidak mau eksperimental.",
       ],
       [
         "Apakah tersedia AC Sharp inverter atau low watt?",
@@ -359,7 +359,7 @@ export const brandItems = [
       ],
       [
         "Sharp yang dijual hanya 1/2 PK, atau ada yang lebih besar?",
-        "Ada. RADJA AC juga melayani Sharp dari 3/4 PK, 1 PK, 1.5 PK, sampai 2 PK sesuai stok. Untuk kapasitas di atas 1/2 PK, admin bantu cek harga dan ketersediaan tipe lewat WhatsApp.",
+        "Ada. Radja AC juga melayani Sharp dari 3/4 PK, 1 PK, 1.5 PK, sampai 2 PK sesuai stok. Untuk kapasitas di atas 1/2 PK, admin bantu cek harga dan ketersediaan tipe lewat WhatsApp.",
       ],
       [
         "Kalau beli AC Sharp, bisa sekalian dipasang?",
@@ -367,15 +367,15 @@ export const brandItems = [
       ],
       [
         "Berapa lama garansi teknisi setelah pemasangan AC Sharp?",
-        "Garansi teknisi 1 bulan untuk pekerjaan pemasangan. Kalau ada kendala pada unit AC, RADJA AC bisa bantu arahan proses klaim garansi ke brand terkait sesuai ketentuan resmi Sharp.",
+        "Garansi teknisi 1 bulan untuk pekerjaan pemasangan. Kalau ada kendala pada unit AC, Radja AC bisa bantu arahan proses klaim garansi ke brand terkait sesuai ketentuan resmi Sharp.",
       ],
       [
-        "Kalau unit Sharp bermasalah setelah dipasang, RADJA AC bisa bantu?",
-        "Bisa bantu arahkan. RADJA AC bisa bantu koordinasi awal proses klaim ke Sharp sesuai syarat garansi resmi — selama kartu garansi, nota pembelian, nomor seri unit, dan bukti kendala tersedia.",
+        "Kalau unit Sharp bermasalah setelah dipasang, Radja AC bisa bantu?",
+        "Bisa bantu arahkan. Radja AC bisa bantu koordinasi awal proses klaim ke Sharp sesuai syarat garansi resmi — selama kartu garansi, nota pembelian, nomor seri unit, dan bukti kendala tersedia.",
       ],
       [
-        "Bagaimana cara cek stok dan harga AC Sharp terbaru di RADJA AC?",
-        "Klik tombol WhatsApp di halaman ini. Kirimkan info ruangan, lokasi, dan kebutuhan Anda. Admin RADJA AC akan cek stok AC Sharp Original yang ready, harga terbaru, dan estimasi pemasangan — tidak harus langsung deal.",
+        "Bagaimana cara cek stok dan harga AC Sharp terbaru di Radja AC?",
+        "Klik tombol WhatsApp di halaman ini. Kirimkan info ruangan, lokasi, dan kebutuhan Anda. Admin Radja AC akan cek stok AC Sharp Original yang ready, harga terbaru, dan estimasi pemasangan — tidak harus langsung deal.",
       ],
     ],
   },
@@ -384,9 +384,9 @@ export const brandItems = [
     path: routes.brandSamsung,
     name: "Samsung",
     label: "AC Samsung",
-    title: "AC Samsung Original | Cek Stok, Tipe & Konsultasi PK — RADJA AC",
+    title: "AC Samsung Original | Cek Stok, Tipe & Konsultasi PK — Radja AC",
     description:
-      "RADJA AC menyediakan AC Samsung original. Stok aktif, kebutuhan ruangan, daya listrik, pengiriman, pemasangan, dan alur klaim dicek sesuai ketentuan brand.",
+      "Radja AC menyediakan AC Samsung original. Stok aktif, kebutuhan ruangan, daya listrik, pengiriman, pemasangan, dan alur klaim dicek sesuai ketentuan brand.",
     h1: "AC Samsung original untuk rumah, kantor, hotel, dan proyek",
     eyebrow: "Brand AC",
     intro:
@@ -401,8 +401,8 @@ export const brandItems = [
     waBrand: "Samsung",
     localFaq: [
       [
-        "Apakah RADJA AC menjual AC Samsung inverter?",
-        "Ya. Samsung inverter tersedia di daftar supplier RADJA AC untuk paket unit + pemasangan standar di area yang dikonfirmasi. Stok dicek dulu sebelum deal.",
+        "Apakah Radja AC menjual AC Samsung inverter?",
+        "Ya. Samsung inverter tersedia di daftar supplier Radja AC untuk paket unit + pemasangan standar di area yang dikonfirmasi. Stok dicek dulu sebelum deal.",
       ],
       [
         "Berapa harga AC Samsung?",
@@ -413,8 +413,8 @@ export const brandItems = [
         "Cocok untuk dipertimbangkan. Tapi sebelum deal, perlu dicek ukuran kamar, daya listrik, paparan matahari, dan jam pemakaian — supaya PK yang dipilih tidak terlalu kecil dan AC tidak kerja keras terus.",
       ],
       [
-        "Apakah RADJA AC hanya melayani Samsung 1/2 PK?",
-        "Tidak. RADJA AC juga melayani kebutuhan Samsung 3/4 PK, 1 PK, 1.5 PK, hingga 2 PK sesuai stok. Untuk kapasitas di atas 1/2 PK, admin bantu cek harga dan ketersediaan stok via WhatsApp.",
+        "Apakah Radja AC hanya melayani Samsung 1/2 PK?",
+        "Tidak. Radja AC juga melayani kebutuhan Samsung 3/4 PK, 1 PK, 1.5 PK, hingga 2 PK sesuai stok. Untuk kapasitas di atas 1/2 PK, admin bantu cek harga dan ketersediaan stok via WhatsApp.",
       ],
       [
         "Apakah pembelian AC Samsung bisa dibantu pemasangan?",
@@ -422,15 +422,15 @@ export const brandItems = [
       ],
       [
         "Apakah ada garansi teknisi setelah pemasangan?",
-        "Ada. RADJA AC memberikan garansi teknisi 1 bulan untuk kendala yang berhubungan dengan pekerjaan pemasangan atau instalasi. Bukan untuk kerusakan unit yang terlepas dari pekerjaan pasang.",
+        "Ada. Radja AC memberikan garansi teknisi 1 bulan untuk kendala yang berhubungan dengan pekerjaan pemasangan atau instalasi. Bukan untuk kerusakan unit yang terlepas dari pekerjaan pasang.",
       ],
       [
         "Kalau unit Samsung bermasalah setelah dipasang, bisa dibantu klaim?",
-        "Bisa dibantu arahannya. RADJA AC bisa bantu arahan proses klaim garansi ke Samsung sesuai ketentuan resmi, selama dokumen pembelian, kartu garansi, nomor seri, dan bukti kendala tersedia.",
+        "Bisa dibantu arahannya. Radja AC bisa bantu arahan proses klaim garansi ke Samsung sesuai ketentuan resmi, selama dokumen pembelian, kartu garansi, nomor seri, dan bukti kendala tersedia.",
       ],
       [
         "Bagaimana cara cek stok AC Samsung terbaru?",
-        "Klik tombol WhatsApp di halaman ini. Kirim ukuran ruangan, daya listrik, lokasi, dan budget — admin RADJA AC bantu cek stok Samsung yang ready, rekomendasi PK, estimasi harga, dan opsi pemasangan.",
+        "Klik tombol WhatsApp di halaman ini. Kirim ukuran ruangan, daya listrik, lokasi, dan budget — admin Radja AC bantu cek stok Samsung yang ready, rekomendasi PK, estimasi harga, dan opsi pemasangan.",
       ],
     ],
   },
@@ -439,9 +439,9 @@ export const brandItems = [
     path: routes.brandPanasonic,
     name: "Panasonic",
     label: "AC Panasonic",
-    title: "AC Panasonic Original | Cek Stok, Tipe & Konsultasi PK — RADJA AC",
+    title: "AC Panasonic Original | Cek Stok, Tipe & Konsultasi PK — Radja AC",
     description:
-      "RADJA AC menyediakan AC Panasonic original. Stok aktif, kebutuhan ruangan, daya listrik, pengiriman, pemasangan, dan alur klaim dicek sesuai ketentuan brand.",
+      "Radja AC menyediakan AC Panasonic original. Stok aktif, kebutuhan ruangan, daya listrik, pengiriman, pemasangan, dan alur klaim dicek sesuai ketentuan brand.",
     h1: "AC Panasonic original untuk rumah, usaha, kantor, hotel, dan proyek",
     eyebrow: "Brand AC",
     intro:
@@ -456,8 +456,8 @@ export const brandItems = [
     waBrand: "Panasonic",
     localFaq: [
       [
-        "Apakah RADJA AC jual AC Panasonic original?",
-        "Ya. Panasonic termasuk brand yang ada di daftar supplier RADJA AC. Untuk tipe dan stok yang ready hari ini, langsung cek via WhatsApp — ketersediaan bisa berubah mengikuti supplier.",
+        "Apakah Radja AC jual AC Panasonic original?",
+        "Ya. Panasonic termasuk brand yang ada di daftar supplier Radja AC. Untuk tipe dan stok yang ready hari ini, langsung cek via WhatsApp — ketersediaan bisa berubah mengikuti supplier.",
       ],
       [
         "Berapa harga AC Panasonic sekarang?",
@@ -469,15 +469,15 @@ export const brandItems = [
       ],
       [
         "Bingung pilih Panasonic, Sharp, Midea, atau Daikin — bisa dibantu?",
-        "Bisa. Kalau bingung di antara beberapa brand, admin RADJA AC bisa bantu bandingkan sesuai budget, ukuran ruangan, daya listrik, dan pola pemakaian. Panasonic biasanya cocok untuk yang ingin brand familiar, kesan awet, dan tidak mau eksperimental.",
+        "Bisa. Kalau bingung di antara beberapa brand, admin Radja AC bisa bantu bandingkan sesuai budget, ukuran ruangan, daya listrik, dan pola pemakaian. Panasonic biasanya cocok untuk yang ingin brand familiar, kesan awet, dan tidak mau eksperimental.",
       ],
       [
         "Panasonic yang dijual hanya 1/2 PK, atau ada yang lebih besar?",
-        "Ada. RADJA AC juga melayani Panasonic dari 3/4 PK, 1 PK, 1.5 PK, sampai 2 PK sesuai stok. Untuk kapasitas di atas 1/2 PK, admin bantu cek harga dan ketersediaan tipe lewat WhatsApp.",
+        "Ada. Radja AC juga melayani Panasonic dari 3/4 PK, 1 PK, 1.5 PK, sampai 2 PK sesuai stok. Untuk kapasitas di atas 1/2 PK, admin bantu cek harga dan ketersediaan tipe lewat WhatsApp.",
       ],
       [
         "Bisa konsultasi PK dulu sebelum beli Panasonic?",
-        "Bisa. Kirim ukuran ruangan, daya listrik, lokasi pemasangan, dan budget. Admin RADJA AC akan bantu rekomendasikan kapasitas yang lebih tepat — bukan asal jawab 1 PK untuk semua ruangan.",
+        "Bisa. Kirim ukuran ruangan, daya listrik, lokasi pemasangan, dan budget. Admin Radja AC akan bantu rekomendasikan kapasitas yang lebih tepat — bukan asal jawab 1 PK untuk semua ruangan.",
       ],
       [
         "Kalau beli AC Panasonic, bisa sekalian dipasang?",
@@ -485,15 +485,15 @@ export const brandItems = [
       ],
       [
         "Berapa lama garansi teknisi setelah pemasangan AC Panasonic?",
-        "Garansi teknisi 1 bulan untuk pekerjaan pemasangan. Kalau ada kendala pada unit AC, RADJA AC bisa bantu arahan proses klaim garansi ke brand terkait sesuai ketentuan resmi Panasonic.",
+        "Garansi teknisi 1 bulan untuk pekerjaan pemasangan. Kalau ada kendala pada unit AC, Radja AC bisa bantu arahan proses klaim garansi ke brand terkait sesuai ketentuan resmi Panasonic.",
       ],
       [
-        "Kalau unit Panasonic bermasalah setelah dipasang, RADJA AC bisa bantu?",
-        "Bisa bantu arahkan. RADJA AC bisa bantu koordinasi awal proses klaim ke Panasonic sesuai syarat garansi resmi — selama kartu garansi, nota pembelian, nomor seri unit, dan bukti kendala tersedia.",
+        "Kalau unit Panasonic bermasalah setelah dipasang, Radja AC bisa bantu?",
+        "Bisa bantu arahkan. Radja AC bisa bantu koordinasi awal proses klaim ke Panasonic sesuai syarat garansi resmi — selama kartu garansi, nota pembelian, nomor seri unit, dan bukti kendala tersedia.",
       ],
       [
-        "Bagaimana cara cek stok dan harga AC Panasonic terbaru di RADJA AC?",
-        "Klik tombol WhatsApp di halaman ini. Kirimkan info ruangan, lokasi, dan kebutuhan Anda. Admin RADJA AC akan cek stok AC Panasonic yang ready, harga terbaru, pengiriman, dan opsi pemasangan — tidak harus langsung deal.",
+        "Bagaimana cara cek stok dan harga AC Panasonic terbaru di Radja AC?",
+        "Klik tombol WhatsApp di halaman ini. Kirimkan info ruangan, lokasi, dan kebutuhan Anda. Admin Radja AC akan cek stok AC Panasonic yang ready, harga terbaru, pengiriman, dan opsi pemasangan — tidak harus langsung deal.",
       ],
     ],
   },
@@ -502,15 +502,15 @@ export const brandItems = [
     path: routes.brandAriston,
     name: "Ariston",
     label: "AC Ariston",
-    title: "AC Ariston Original | Cek Stok, Tipe & Konsultasi PK — RADJA AC",
+    title: "AC Ariston Original | Cek Stok, Tipe & Konsultasi PK — Radja AC",
     description:
-      "RADJA AC menyediakan AC Ariston original. Stok aktif, kebutuhan ruangan, daya listrik, pengiriman, pemasangan, dan garansi unit dicek sesuai ketentuan brand.",
+      "Radja AC menyediakan AC Ariston original. Stok aktif, kebutuhan ruangan, daya listrik, pengiriman, pemasangan, dan garansi unit dicek sesuai ketentuan brand.",
     h1: "AC Ariston original untuk kenyamanan rumah, usaha, dan ruang kerja",
     eyebrow: "Brand AC",
     intro:
       "Ariston dikenal lewat pendekatan home comfort. Untuk AC Ariston original, stok aktif Ariston, kapasitas PK, daya listrik, anggaran, lokasi pengiriman, opsi pemasangan, garansi unit, dan opsi pembayaran dicek sebelum pembelian.",
     trustNote:
-      "Foto display Ariston di showroom RADJA AC digunakan sebagai bukti visual produk dan konteks brand yang pernah ditampilkan. Stok, tipe, harga, fitur per model, garansi unit, pengiriman, dan opsi pemasangan dicek sebelum pembelian. Garansi unit mengikuti ketentuan brand.",
+      "Foto display Ariston di showroom Radja AC digunakan sebagai bukti visual produk dan konteks brand yang pernah ditampilkan. Stok, tipe, harga, fitur per model, garansi unit, pengiriman, dan opsi pemasangan dicek sebelum pembelian. Garansi unit mengikuti ketentuan brand.",
     certificateHolder: "",
     variants: ["Sesuai stok", "Standard", "Low watt", "Inverter"],
     suitableFor: ["Rumah", "Kamar", "Kost", "Usaha", "Kantor", "Ruang kerja"],
@@ -525,13 +525,13 @@ export const brandItems = [
     path: routes.brandLainnya,
     name: "Brand Lainnya",
     label: "Brand AC Lainnya",
-    title: "Brand AC Lainnya | Cek Stok & Konsultasi Unit Original — RADJA AC",
+    title: "Brand AC Lainnya | Cek Stok & Konsultasi Unit Original — Radja AC",
     description:
-      "Cek pilihan brand AC lainnya di RADJA AC seperti Sharp, Panasonic, Sansui, Samsung, LG, TCL, Ariston, Modena, Aqua, Polytron, Toshiba, Akari, dan lainnya berdasarkan stok aktif.",
-    h1: "Brand AC original lainnya yang bisa dicek melalui RADJA AC",
+      "Cek pilihan brand AC lainnya di Radja AC seperti Sharp, Panasonic, Sansui, Samsung, LG, TCL, Ariston, Modena, Aqua, Polytron, Toshiba, Akari, dan lainnya berdasarkan stok aktif.",
+    h1: "Brand AC original lainnya yang bisa dicek melalui Radja AC",
     eyebrow: "Brand AC",
     intro:
-      "Selain Gree, Daikin, Midea, dan Hisense, RADJA AC juga membantu cek pilihan brand lain berdasarkan stok aktif, kebutuhan ruangan, anggaran, pengiriman, opsi pemasangan, garansi unit, dan opsi pembayaran.",
+      "Selain Gree, Daikin, Midea, dan Hisense, Radja AC juga membantu cek pilihan brand lain berdasarkan stok aktif, kebutuhan ruangan, anggaran, pengiriman, opsi pemasangan, garansi unit, dan opsi pembayaran.",
     trustNote:
       "Untuk brand lain, stok, tipe, harga, garansi unit, dan opsi pemasangan dicek sebelum pembelian.",
     certificateHolder: "",
@@ -555,7 +555,7 @@ export const brandItems = [
       "Reiwa",
     ],
     highlightedNote:
-      "Sansui termasuk brand yang dokumennya tercatat atas nama CV. Prima Sedaya, yang merupakan bagian dari operasional RADJA AC.",
+      "Sansui termasuk brand yang dokumennya tercatat atas nama CV. Prima Sedaya, yang merupakan bagian dari operasional Radja AC.",
     ctaLabel: "Cek Brand AC Lainnya",
     waIntent: "cek stok brand AC lainnya",
     waBrand: "Brand lainnya",

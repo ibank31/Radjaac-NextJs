@@ -15,7 +15,7 @@ const defaultRelatedLinks = [
   ["AC Low Watt", routes.katalogAcLowWatt],
   ["AC Inverter", routes.katalogAcInverter],
   ["Bukti Pengiriman & Proyek", routes.buktiPengirimanProyek],
-  ["Kontak RADJA AC", routes.kontak],
+  ["Kontak Radja AC", routes.kontak],
 ];
 
 export const areaItems = [
@@ -55,17 +55,17 @@ export const areaItems = [
       ],
     ],
     label: "Jual AC Purwokerto",
-    title: "Jual AC Purwokerto | Cek Stok, PK & Opsi Pemasangan — RADJA AC",
+    title: "Jual AC Purwokerto | Cek Stok, PK & Opsi Pemasangan — Radja AC",
     description:
-      "Butuh AC Purwokerto untuk rumah, kost, toko, kantor, hotel, guest house, atau banyak unit? RADJA AC bantu cek PK, stok, pengiriman, dan opsi pemasangan.",
+      "Butuh AC Purwokerto untuk rumah, kost, toko, kantor, hotel, guest house, atau banyak unit? Radja AC bantu cek PK, stok, pengiriman, dan opsi pemasangan.",
     h1: "Jual AC Purwokerto dengan cek stok, PK, dan opsi pemasangan",
     eyebrow: "Area Utama Purwokerto",
     intro:
       "Butuh beli AC di Purwokerto untuk rumah, kost, toko, kantor, hotel, guest house, hospitality, atau banyak unit? Mulai dari cek ukuran ruangan, daya listrik, pilihan brand, stok unit, pengiriman, dan opsi pemasangan sebelum pembelian.",
     localContext:
-      "Purwokerto adalah pusat kota dan kawasan kampus Banyumas: ada kampus UNSOED dengan ribuan kos mahasiswa, pusat perdagangan, hotel, ruko, dan perkantoran. Permintaan AC datang dari kos dan rumah sewa di sekitar kampus, hotel dan guest house, toko serta ruko di pusat perdagangan, dan kantor yang beroperasi seharian. Karena beban panas tiap ruang berbeda, tim RADJA AC mengecek ukuran ruangan, daya listrik, jam pemakaian, jumlah unit, dan alamat sebelum menentukan unit.",
+      "Purwokerto adalah pusat kota dan kawasan kampus Banyumas: ada kampus UNSOED dengan ribuan kos mahasiswa, pusat perdagangan, hotel, ruko, dan perkantoran. Permintaan AC datang dari kos dan rumah sewa di sekitar kampus, hotel dan guest house, toko serta ruko di pusat perdagangan, dan kantor yang beroperasi seharian. Karena beban panas tiap ruang berbeda, tim Radja AC mengecek ukuran ruangan, daya listrik, jam pemakaian, jumlah unit, dan alamat sebelum menentukan unit.",
     coverageNote:
-      "Showroom dan gudang RADJA AC berada di Pamijen, Sokaraja, Banyumas. Untuk kebutuhan Purwokerto, stok unit, jadwal pengiriman, opsi pemasangan, dan kebutuhan material dikonfirmasi berdasarkan alamat serta kondisi lokasi.",
+      "Showroom dan gudang Radja AC berada di Pamijen, Sokaraja, Banyumas. Untuk kebutuhan Purwokerto, stok unit, jadwal pengiriman, opsi pemasangan, dan kebutuhan material dikonfirmasi berdasarkan alamat serta kondisi lokasi.",
     commonNeeds: [
       "AC kamar tidur, rumah tinggal, dan ruang keluarga di Purwokerto",
       "AC kost, kontrakan, homestay, dan kamar sewa",
@@ -89,7 +89,7 @@ export const areaItems = [
       ["AC Low Watt", routes.katalogAcLowWatt],
       ["AC Inverter", routes.katalogAcInverter],
       ["Bukti Pengiriman & Proyek", routes.buktiPengirimanProyek],
-      ["Kontak RADJA AC", routes.kontak],
+      ["Kontak Radja AC", routes.kontak],
     ],
     ctaLabel: "Chat WhatsApp untuk cek AC Purwokerto",
     waIntent: "cek stok AC Purwokerto dengan data ukuran ruangan daya listrik jumlah unit alamat dan kebutuhan pemasangan",
@@ -112,9 +112,9 @@ export const areaItems = [
       ["Kembaran", routes.jualAcKembaran],
     ],
     trustBullets: [
-      "Purwokerto dilayani dari showroom dan gudang RADJA AC di Pamijen, Sokaraja, Banyumas.",
+      "Purwokerto dilayani dari showroom dan gudang Radja AC di Pamijen, Sokaraja, Banyumas.",
       "Kebutuhan AC dicek dari ukuran ruangan, daya listrik, jumlah unit, stok aktif, dan opsi pemasangan.",
-      "Pembeli bisa melihat bukti aktivitas RADJA AC melalui dokumentasi showroom, stok fisik, pengiriman, dan pemasangan.",
+      "Pembeli bisa melihat bukti aktivitas Radja AC melalui dokumentasi showroom, stok fisik, pengiriman, dan pemasangan.",
     ],
   },
   {
@@ -126,10 +126,10 @@ export const areaItems = [
       "Museum Wayang Banyumas",
       "Masjid Agung Nur Sulaiman",
       "Pasar Banyumas",
-      "Dekat showroom dan gudang RADJA AC di Pamijen, Sokaraja",
+      "Dekat showroom dan gudang Radja AC di Pamijen, Sokaraja",
     ],
     localBenefits: [
-      "Paling dekat dengan gudang RADJA AC di Sokaraja, jadi pengiriman unit dan survei lokasi paling cepat dijadwalkan",
+      "Paling dekat dengan gudang Radja AC di Sokaraja, jadi pengiriman unit dan survei lokasi paling cepat dijadwalkan",
       "Toko, ruko, dan kantor instansi di pusat kota lama butuh ruang yang adem buat tamu dan staf",
       "Sebagian bangunan lama bersejarah perlu cek daya dan jalur pipa yang rapi sebelum pasang",
     ],
@@ -139,15 +139,15 @@ export const areaItems = [
       ["Banyak unit dekat gudang", "Pembelian beberapa unit yang pengiriman dan pemasangannya cepat karena dekat basis."],
     ],
     label: "Jual AC Banyumas",
-    title: "Jual AC Banyumas | Cek Stok, PK, Pengiriman & Pemasangan — RADJA AC",
+    title: "Jual AC Banyumas | Cek Stok, PK, Pengiriman & Pemasangan — Radja AC",
     description:
-      "Butuh AC area Banyumas untuk rumah, kost, toko, kantor, usaha, atau banyak unit? RADJA AC cek PK, stok, pengiriman unit, dan opsi pemasangan via WhatsApp.",
+      "Butuh AC area Banyumas untuk rumah, kost, toko, kantor, usaha, atau banyak unit? Radja AC cek PK, stok, pengiriman unit, dan opsi pemasangan via WhatsApp.",
     h1: "Jual AC Banyumas untuk rumah, kost, toko, usaha, dan banyak unit",
     eyebrow: "Area Utama Banyumas",
     intro:
-      "RADJA AC melayani kebutuhan AC area Banyumas untuk rumah, kost, kontrakan, toko, kantor atau ruko, usaha, dan banyak unit. Sebelum pembelian, tim RADJA AC mengecek kebutuhan PK, daya listrik, pilihan brand, stok, pengiriman, dan opsi pemasangan.",
+      "Radja AC melayani kebutuhan AC area Banyumas untuk rumah, kost, kontrakan, toko, kantor atau ruko, usaha, dan banyak unit. Sebelum pembelian, tim Radja AC mengecek kebutuhan PK, daya listrik, pilihan brand, stok, pengiriman, dan opsi pemasangan.",
     localContext:
-      "Banyumas adalah kota lama bersejarah sekaligus area paling dekat dengan basis RADJA AC—showroom dan gudang ada di Pamijen, Sokaraja. Pembeli AC di sini banyak dari rumah tinggal, toko dan ruko di pusat kota lama, kantor instansi, serta klinik. Karena dekat gudang, pengiriman unit dan survei lokasi paling cepat dijadwalkan di area ini. Untuk jual AC Banyumas, banyak yang ambil sekalian pemasangan, dengan pembayaran DP, COD, atau transfer setelah stok dipastikan.",
+      "Banyumas adalah kota lama bersejarah sekaligus area paling dekat dengan basis Radja AC—showroom dan gudang ada di Pamijen, Sokaraja. Pembeli AC di sini banyak dari rumah tinggal, toko dan ruko di pusat kota lama, kantor instansi, serta klinik. Karena dekat gudang, pengiriman unit dan survei lokasi paling cepat dijadwalkan di area ini. Untuk jual AC Banyumas, banyak yang ambil sekalian pemasangan, dengan pembayaran DP, COD, atau transfer setelah stok dipastikan.",
     coverageNote:
       "Untuk alamat di area Banyumas, stok unit, pengiriman, jadwal, dan opsi pemasangan tetap dikonfirmasi berdasarkan lokasi detail, jumlah unit, akses pemasangan, dan ketersediaan tim.",
     commonNeeds: [
@@ -173,7 +173,7 @@ export const areaItems = [
       ["AC Low Watt", routes.katalogAcLowWatt],
       ["AC Gree", routes.brandGree],
       ["Bukti Pengiriman & Proyek", routes.buktiPengirimanProyek],
-      ["Kontak RADJA AC", routes.kontak],
+      ["Kontak Radja AC", routes.kontak],
     ],
     ctaLabel: "Chat WhatsApp untuk cek AC Banyumas",
     waIntent: "cek stok AC Banyumas dengan data ukuran ruangan daya listrik jumlah unit alamat dan kebutuhan pemasangan",
@@ -195,14 +195,14 @@ export const areaItems = [
       ["Rawalo", routes.jualAcRawalo],
     ],
     trustBullets: [
-      "Banyumas adalah basis operasional RADJA AC dengan showroom dan gudang di Pamijen, Sokaraja.",
+      "Banyumas adalah basis operasional Radja AC dengan showroom dan gudang di Pamijen, Sokaraja.",
       "Kebutuhan AC dicek dari area detail, ukuran ruangan, daya listrik, jumlah unit, stok aktif, dan opsi pemasangan.",
-      "Bukti aktivitas RADJA AC bisa dicek melalui dokumentasi showroom, stok fisik, pengiriman, dan pemasangan.",
+      "Bukti aktivitas Radja AC bisa dicek melalui dokumentasi showroom, stok fisik, pengiriman, dan pemasangan.",
     ],
     localFaq: [
       [
         "Karena dekat gudang Sokaraja, pengiriman ke Banyumas cepat?",
-        "Banyumas paling dekat dengan showroom dan gudang RADJA AC di Pamijen, Sokaraja, jadi pengiriman unit dan survei lokasi biasanya paling cepat dijadwalkan. Sebutkan alamat dan jumlah unit.",
+        "Banyumas paling dekat dengan showroom dan gudang Radja AC di Pamijen, Sokaraja, jadi pengiriman unit dan survei lokasi biasanya paling cepat dijadwalkan. Sebutkan alamat dan jumlah unit.",
       ],
       [
         "Bangunan lama di kota Banyumas, aman pasang AC dan pipanya rapi?",
@@ -226,7 +226,7 @@ export const areaItems = [
       "Sentra Getuk Goreng Sokaraja",
       "Jalan nasional Sokaraja (Purwokerto–Purbalingga)",
       "Pasar Sokaraja",
-      "Showroom dan gudang RADJA AC di Pamijen",
+      "Showroom dan gudang Radja AC di Pamijen",
       "Deretan toko oleh-oleh dan rumah makan",
     ],
     localBenefits: [
@@ -240,17 +240,17 @@ export const areaItems = [
       ["Datang langsung ke showroom", "Pembeli cek tipe dan stok di Pamijen lalu lanjut pasang di hari yang sama."],
     ],
     label: "Jual AC Sokaraja",
-    title: "Jual AC Sokaraja | Dekat Showroom & Gudang RADJA AC — RADJA AC",
+    title: "Jual AC Sokaraja | Dekat Showroom & Gudang Radja AC — Radja AC",
     description:
-      "Butuh AC di Sokaraja dekat showroom dan gudang RADJA AC? Cek stok, kebutuhan PK, pengiriman unit, opsi pemasangan, atau kebutuhan banyak unit via WhatsApp.",
-    h1: "Jual AC Sokaraja dekat showroom dan gudang RADJA AC",
-    eyebrow: "Area Showroom & Gudang RADJA AC",
+      "Butuh AC di Sokaraja dekat showroom dan gudang Radja AC? Cek stok, kebutuhan PK, pengiriman unit, opsi pemasangan, atau kebutuhan banyak unit via WhatsApp.",
+    h1: "Jual AC Sokaraja dekat showroom dan gudang Radja AC",
+    eyebrow: "Area Showroom & Gudang Radja AC",
     intro:
-      "Showroom dan gudang RADJA AC berada di Pamijen, Sokaraja, Banyumas. Pembelian AC original untuk rumah, kost, toko, kantor, usaha, dan kebutuhan banyak unit bisa dimulai dari cek PK, stok, pengiriman, dan opsi pemasangan.",
+      "Showroom dan gudang Radja AC berada di Pamijen, Sokaraja, Banyumas. Pembelian AC original untuk rumah, kost, toko, kantor, usaha, dan kebutuhan banyak unit bisa dimulai dari cek PK, stok, pengiriman, dan opsi pemasangan.",
     localContext:
-      "Sokaraja adalah koridor kuliner dan dagang yang terkenal dengan getuk goreng, dilalui jalan nasional Purwokerto–Purbalingga—dan di Pamijen, Sokaraja inilah showroom serta gudang RADJA AC berada. Pembeli AC banyak dari toko oleh-oleh dan rumah makan di sepanjang jalan, ruko, serta rumah warga. Karena ini lokasi gudang, pembeli sering datang langsung cek unit lalu pasang di hari yang sama. Untuk jual AC Sokaraja, pembayaran bisa DP, COD, atau transfer, dengan stok yang bisa dicek langsung.",
+      "Sokaraja adalah koridor kuliner dan dagang yang terkenal dengan getuk goreng, dilalui jalan nasional Purwokerto–Purbalingga—dan di Pamijen, Sokaraja inilah showroom serta gudang Radja AC berada. Pembeli AC banyak dari toko oleh-oleh dan rumah makan di sepanjang jalan, ruko, serta rumah warga. Karena ini lokasi gudang, pembeli sering datang langsung cek unit lalu pasang di hari yang sama. Untuk jual AC Sokaraja, pembayaran bisa DP, COD, atau transfer, dengan stok yang bisa dicek langsung.",
     coverageNote:
-      "Untuk Sokaraja, Pamijen, dan area sekitar, tim RADJA AC mengecek stok, alamat, jadwal, kebutuhan material, akses lokasi, dan opsi pemasangan agar estimasi lebih rapi sejak awal.",
+      "Untuk Sokaraja, Pamijen, dan area sekitar, tim Radja AC mengecek stok, alamat, jadwal, kebutuhan material, akses lokasi, dan opsi pemasangan agar estimasi lebih rapi sejak awal.",
     commonNeeds: [
       "AC rumah, kamar tidur, dan ruang keluarga di Sokaraja",
       "AC kost, kontrakan, homestay, dan rumah sewa",
@@ -273,8 +273,8 @@ export const areaItems = [
       ["AC Gree", routes.brandGree],
       ["AC Daikin", routes.brandDaikin],
       ["Bukti Pengiriman & Proyek", routes.buktiPengirimanProyek],
-      ["Tentang RADJA AC", routes.tentangKami],
-      ["Kontak RADJA AC", routes.kontak],
+      ["Tentang Radja AC", routes.tentangKami],
+      ["Kontak Radja AC", routes.kontak],
     ],
     ctaLabel: "Chat WhatsApp untuk cek AC Sokaraja",
     waIntent: "cek stok AC Sokaraja dengan data ukuran ruangan daya listrik jumlah unit alamat dan kebutuhan pemasangan",
@@ -296,13 +296,13 @@ export const areaItems = [
       ["Patikraja", routes.jualAcPatikraja],
     ],
     trustBullets: [
-      "Showroom dan gudang RADJA AC berada di Pamijen, Sokaraja, Banyumas.",
+      "Showroom dan gudang Radja AC berada di Pamijen, Sokaraja, Banyumas.",
       "Pembeli bisa cek stok dan tipe unit terlebih dahulu sebelum datang atau melanjutkan pembelian.",
       "Kebutuhan AC dicek dari ukuran ruangan, daya listrik, jumlah unit, stok aktif, dan opsi pemasangan.",
     ],
     localFaq: [
       [
-        "Showroom dan gudang RADJA AC memang di Sokaraja?",
+        "Showroom dan gudang Radja AC memang di Sokaraja?",
         "Ya, di Pamijen, Sokaraja. Pembeli area Sokaraja bisa datang langsung cek tipe dan stok unit, lalu lanjut pengiriman dan pemasangan—sering bisa di hari yang sama.",
       ],
       [
@@ -341,17 +341,17 @@ export const areaItems = [
         ["Kantor desa & ruang layanan", "Pemilihan unit untuk ruang kerja kecil dengan pengiriman ke alamat Jatilawang."],
       ],
       label: "Jual AC Jatilawang",
-      title: "Jual AC Jatilawang untuk Rumah, Toko & Usaha — RADJA AC",
+      title: "Jual AC Jatilawang untuk Rumah, Toko & Usaha — Radja AC",
       description:
-        "Butuh AC untuk rumah, toko, ruko, kantor, atau usaha di Jatilawang? RADJA AC bantu cek PK, stok, pengiriman, opsi pemasangan, dan pembayaran fleksibel.",
+        "Butuh AC untuk rumah, toko, ruko, kantor, atau usaha di Jatilawang? Radja AC bantu cek PK, stok, pengiriman, opsi pemasangan, dan pembayaran fleksibel.",
       h1: "Jual AC Jatilawang untuk Rumah, Toko & Usaha",
       eyebrow: "Area Banyumas",
       intro:
-        "Butuh AC di Jatilawang untuk rumah, toko, ruko, kantor, ruang usaha, atau beberapa unit? Tim RADJA AC bantu cek kebutuhan PK, daya listrik, stok brand, pengiriman, dan opsi pemasangan dari data awal.",
+        "Butuh AC di Jatilawang untuk rumah, toko, ruko, kantor, ruang usaha, atau beberapa unit? Tim Radja AC bantu cek kebutuhan PK, daya listrik, stok brand, pengiriman, dan opsi pemasangan dari data awal.",
       localContext:
         "Jatilawang ada di jalur selatan Banyumas dekat Wangon dan Rawalo, daerah pertanian dan UMKM rumahan—termasuk sentra gula kelapa—dengan permukiman dan toko di sepanjang jalan utama. Pembeli AC di sini umumnya rumah tinggal yang kamarnya panas saat siang, ditambah warung, toko, dan kantor desa. Karena daya listrik rumahan banyak yang terbatas, jual AC Jatilawang sering mengarah ke pilihan low watt. Unit biasanya dikirim ke alamat lalu dipasang, dengan pembayaran DP, COD, atau transfer setelah stok dipastikan.",
       coverageNote:
-        "Showroom dan gudang RADJA AC berada di Banyumas. Kebutuhan AC area Jatilawang dilayani dengan konsultasi PK, cek stok unit, pengiriman, serta opsi pemasangan sesuai alamat, jumlah unit, dan jadwal.",
+        "Showroom dan gudang Radja AC berada di Banyumas. Kebutuhan AC area Jatilawang dilayani dengan konsultasi PK, cek stok unit, pengiriman, serta opsi pemasangan sesuai alamat, jumlah unit, dan jadwal.",
       keywordVariants: [
         "AC rumah Jatilawang",
         "AC toko dan ruko Jatilawang",
@@ -412,7 +412,7 @@ export const areaItems = [
         ["AC Low Watt", routes.katalogAcLowWatt],
         ["Pengiriman & Pemasangan", routes.pengirimanPemasangan],
         ["Bukti Pengiriman & Proyek", routes.buktiPengirimanProyek],
-        ["Kontak RADJA AC", routes.kontak],
+        ["Kontak Radja AC", routes.kontak],
       ],
       ctaLabel: "Chat WhatsApp untuk cek AC Jatilawang",
       waIntent: "cek stok AC Jatilawang dengan data alamat ukuran ruangan daya listrik jumlah unit dan kebutuhan pemasangan",
@@ -440,17 +440,17 @@ export const areaItems = [
         ["Tambah unit bertahap", "Keluarga menambah AC per kamar mengikuti anggaran."],
       ],
       label: "Jual AC Cilongok",
-      title: "Jual AC Cilongok untuk Rumah, Toko & Usaha — RADJA AC",
+      title: "Jual AC Cilongok untuk Rumah, Toko & Usaha — Radja AC",
       description:
-        "Butuh AC untuk rumah, toko, ruko, kantor, atau usaha di Cilongok? RADJA AC bantu cek PK, stok, pengiriman, opsi pemasangan, dan pembayaran fleksibel.",
+        "Butuh AC untuk rumah, toko, ruko, kantor, atau usaha di Cilongok? Radja AC bantu cek PK, stok, pengiriman, opsi pemasangan, dan pembayaran fleksibel.",
       h1: "Jual AC Cilongok untuk Rumah, Toko & Usaha",
       eyebrow: "Area Banyumas",
       intro:
-        "Butuh AC di Cilongok untuk rumah, toko, ruko, kantor, ruang usaha, atau beberapa unit? Tim RADJA AC bantu cek kebutuhan PK, daya listrik, stok brand, pengiriman, dan opsi pemasangan dari data awal.",
+        "Butuh AC di Cilongok untuk rumah, toko, ruko, kantor, ruang usaha, atau beberapa unit? Tim Radja AC bantu cek kebutuhan PK, daya listrik, stok brand, pengiriman, dan opsi pemasangan dari data awal.",
       localContext:
         "Cilongok ada di sisi barat Banyumas menuju Ajibarang—daerah pertanian dan perdesaan yang dikenal dengan durian dan gula kelapa. Pembeli AC di sini umumnya rumah warga, kos, dan toko kecil di sepanjang jalan desa, dengan daya listrik rumahan yang sering terbatas. Karena itu banyak yang cari AC rumah low watt. Untuk jual AC Cilongok, unit diantar ke alamat lalu dipasang, dengan pembayaran DP, COD, atau transfer setelah stok dipastikan.",
       coverageNote:
-        "Showroom dan gudang RADJA AC berada di Banyumas. Kebutuhan AC area Cilongok dilayani dengan konsultasi PK, cek stok unit, pengiriman, serta opsi pemasangan sesuai alamat, jumlah unit, dan jadwal.",
+        "Showroom dan gudang Radja AC berada di Banyumas. Kebutuhan AC area Cilongok dilayani dengan konsultasi PK, cek stok unit, pengiriman, serta opsi pemasangan sesuai alamat, jumlah unit, dan jadwal.",
       keywordVariants: [
         "AC rumah Cilongok",
         "AC toko dan ruko Cilongok",
@@ -511,7 +511,7 @@ export const areaItems = [
         ["AC Low Watt", routes.katalogAcLowWatt],
         ["Pengiriman & Pemasangan", routes.pengirimanPemasangan],
         ["Bukti Pengiriman & Proyek", routes.buktiPengirimanProyek],
-        ["Kontak RADJA AC", routes.kontak],
+        ["Kontak Radja AC", routes.kontak],
       ],
       ctaLabel: "Chat WhatsApp untuk cek AC Cilongok",
       waIntent: "cek stok AC Cilongok dengan data alamat ukuran ruangan daya listrik jumlah unit dan kebutuhan pemasangan",
@@ -539,17 +539,17 @@ export const areaItems = [
         ["Rumah tinggal", "Pemasangan AC kamar dengan pengiriman unit ke alamat di Ajibarang dan sekitarnya."],
       ],
       label: "Jual AC Ajibarang",
-      title: "Jual AC Ajibarang untuk Rumah, Toko & Usaha — RADJA AC",
+      title: "Jual AC Ajibarang untuk Rumah, Toko & Usaha — Radja AC",
       description:
-        "Butuh AC untuk rumah, toko, ruko, kantor, atau usaha di Ajibarang? RADJA AC cek kebutuhan PK, stok, pengiriman unit, dan opsi pemasangan via WhatsApp.",
+        "Butuh AC untuk rumah, toko, ruko, kantor, atau usaha di Ajibarang? Radja AC cek kebutuhan PK, stok, pengiriman unit, dan opsi pemasangan via WhatsApp.",
       h1: "Jual AC Ajibarang untuk Rumah, Toko & Usaha",
       eyebrow: "Area Banyumas Barat",
       intro:
-        "Butuh AC di Ajibarang untuk rumah, toko, ruko, kantor, atau usaha? Tim RADJA AC cek ukuran ruangan, daya listrik, pilihan brand, stok unit, pengiriman, dan opsi pemasangan sebelum pembelian.",
+        "Butuh AC di Ajibarang untuk rumah, toko, ruko, kantor, atau usaha? Tim Radja AC cek ukuran ruangan, daya listrik, pilihan brand, stok unit, pengiriman, dan opsi pemasangan sebelum pembelian.",
       localContext:
         "Ajibarang adalah pusat dagang dan persimpangan barat Banyumas menuju Bumiayu dan Tegal, dengan Pasar Ajibarang yang ramai sebagai jantung ekonominya. Pembeli AC di sini banyak dari pemilik ruko dan toko di sekitar pasar, apotek dan klinik dekat RSUD Ajibarang, serta rumah tinggal. Toko yang sempit dan penuh barang cepat pengap saat ramai pembeli, sehingga jual AC Ajibarang sering soal mencari unit yang cepat mendinginkan ruang usaha. Banyak yang beli unit sekaligus pemasangan, dengan pembayaran DP atau transfer setelah stok dipastikan.",
       coverageNote:
-        "Showroom dan gudang RADJA AC berada di Pamijen, Sokaraja, Banyumas. Untuk area Ajibarang, pengiriman unit dan opsi pemasangan perlu dikonfirmasi dari alamat detail, jumlah unit, stok, dan jadwal.",
+        "Showroom dan gudang Radja AC berada di Pamijen, Sokaraja, Banyumas. Untuk area Ajibarang, pengiriman unit dan opsi pemasangan perlu dikonfirmasi dari alamat detail, jumlah unit, stok, dan jadwal.",
       commonNeeds: [
         "AC rumah tinggal, kamar tidur, dan ruang keluarga",
         "AC toko, ruko, kantor, dan ruang usaha",
@@ -570,7 +570,7 @@ export const areaItems = [
         ["AC Split Rumah", routes.katalogAcSplitRumah],
         ["AC Low Watt", routes.katalogAcLowWatt],
         ["AC Gree", routes.brandGree],
-        ["Kontak RADJA AC", routes.kontak],
+        ["Kontak Radja AC", routes.kontak],
       ],
       ctaLabel: "Chat WhatsApp untuk cek stok AC Ajibarang",
       waIntent: "cek stok AC Ajibarang dengan data ukuran ruangan daya listrik jumlah unit dan kebutuhan pemasangan",
@@ -591,8 +591,8 @@ export const areaItems = [
         ["Sokaraja", routes.jualAcSokaraja],
       ],
       trustBullets: [
-        "Ajibarang dilayani dari showroom dan gudang RADJA AC di Pamijen, Sokaraja, Banyumas.",
-        "Pembeli bisa melihat bukti aktivitas RADJA AC melalui dokumentasi pengiriman, stok fisik, dan pemasangan.",
+        "Ajibarang dilayani dari showroom dan gudang Radja AC di Pamijen, Sokaraja, Banyumas.",
+        "Pembeli bisa melihat bukti aktivitas Radja AC melalui dokumentasi pengiriman, stok fisik, dan pemasangan.",
         "Untuk area Ajibarang, kebutuhan AC dicek dari alamat detail, ukuran ruangan, daya listrik, jumlah unit, dan opsi pemasangan.",
       ],
       localFaq: [
@@ -632,17 +632,17 @@ export const areaItems = [
         ["Rumah & kos pinggir jalur", "Pemasangan AC kamar dengan pilihan low watt; unit dikirim langsung ke alamat di jalur Wangon."],
       ],
       label: "Jual AC Wangon",
-      title: "Jual AC Wangon untuk Rumah, Toko & Usaha — RADJA AC",
+      title: "Jual AC Wangon untuk Rumah, Toko & Usaha — Radja AC",
       description:
-        "Butuh AC untuk rumah, toko, ruko, kantor, atau usaha di Wangon? RADJA AC cek kebutuhan PK, stok, pengiriman unit, dan opsi pemasangan via WhatsApp.",
+        "Butuh AC untuk rumah, toko, ruko, kantor, atau usaha di Wangon? Radja AC cek kebutuhan PK, stok, pengiriman unit, dan opsi pemasangan via WhatsApp.",
       h1: "Jual AC Wangon untuk Rumah, Toko & Usaha",
       eyebrow: "Area Banyumas Barat & Jalur Selatan",
       intro:
-        "Butuh AC di Wangon untuk rumah, toko, warung, ruko, kantor, atau ruang usaha? Tim RADJA AC cek ukuran ruangan, daya listrik, pilihan brand, stok unit, pengiriman, dan opsi pemasangan sebelum pembelian.",
+        "Butuh AC di Wangon untuk rumah, toko, warung, ruko, kantor, atau ruang usaha? Tim Radja AC cek ukuran ruangan, daya listrik, pilihan brand, stok unit, pengiriman, dan opsi pemasangan sebelum pembelian.",
       localContext:
         "Di Wangon, yang paling sering cari AC adalah pemilik rumah makan, warung, dan toko di sekitar pertigaan jalur nasional selatan—jalur ramai Purwokerto–Cilacap–Bandung. Ruang makan dan toko cepat gerah karena pintu nyaris tidak pernah tertutup dan debu kendaraan membuat filter cepat kotor, sehingga banyak yang mencari unit yang kuat dipakai seharian. Untuk jual AC Wangon, pembeli biasanya minta pengiriman langsung ke lokasi pinggir jalur lalu pemasangan, dengan pembayaran DP dulu dan pelunasan transfer atau COD saat unit datang dan stok dipastikan.",
       coverageNote:
-        "Showroom dan gudang RADJA AC berada di Pamijen, Sokaraja, Banyumas. Untuk area Wangon, pengiriman unit dan opsi pemasangan dikonfirmasi dari alamat detail, stok, jumlah unit, akses lokasi, dan jadwal.",
+        "Showroom dan gudang Radja AC berada di Pamijen, Sokaraja, Banyumas. Untuk area Wangon, pengiriman unit dan opsi pemasangan dikonfirmasi dari alamat detail, stok, jumlah unit, akses lokasi, dan jadwal.",
       commonNeeds: [
         "AC rumah tinggal, kamar tidur, dan ruang keluarga",
         "AC toko, warung, ruko, dan ruang usaha",
@@ -665,7 +665,7 @@ export const areaItems = [
         ["AC Gree", routes.brandGree],
         ["Pengiriman & Pemasangan", routes.pengirimanPemasangan],
         ["Bukti Pengiriman & Proyek", routes.buktiPengirimanProyek],
-        ["Kontak RADJA AC", routes.kontak],
+        ["Kontak Radja AC", routes.kontak],
       ],
       ctaLabel: "Chat WhatsApp untuk cek stok AC Wangon",
       waIntent: "cek stok AC Wangon dengan data ukuran ruangan daya listrik jumlah unit dan kebutuhan pemasangan",
@@ -687,8 +687,8 @@ export const areaItems = [
         ["Banyumas", routes.jualAcBanyumas],
       ],
       trustBullets: [
-        "Wangon dilayani dari showroom dan gudang RADJA AC di Pamijen, Sokaraja, Banyumas.",
-        "Bukti aktivitas RADJA AC bisa dicek melalui dokumentasi pengiriman, stok fisik, dan pemasangan.",
+        "Wangon dilayani dari showroom dan gudang Radja AC di Pamijen, Sokaraja, Banyumas.",
+        "Bukti aktivitas Radja AC bisa dicek melalui dokumentasi pengiriman, stok fisik, dan pemasangan.",
         "Untuk area Wangon, kebutuhan AC dicek dari alamat detail, ukuran ruangan, daya listrik, jumlah unit, dan opsi pemasangan.",
       ],
       localFaq: [
@@ -731,17 +731,17 @@ export const areaItems = [
         ["Tambah unit bertahap", "Beberapa keluarga menambah unit per kamar secara bertahap sesuai anggaran."],
       ],
       label: "Jual AC Karanglewas",
-      title: "Jual AC Karanglewas untuk Rumah, Kost & Usaha — RADJA AC",
+      title: "Jual AC Karanglewas untuk Rumah, Kost & Usaha — Radja AC",
       description:
-        "Butuh AC untuk rumah, kost, toko, kantor, ruko, atau usaha di Karanglewas? RADJA AC cek kebutuhan PK, stok, pengiriman unit, dan opsi pemasangan via WhatsApp.",
+        "Butuh AC untuk rumah, kost, toko, kantor, ruko, atau usaha di Karanglewas? Radja AC cek kebutuhan PK, stok, pengiriman unit, dan opsi pemasangan via WhatsApp.",
       h1: "Jual AC Karanglewas untuk Rumah, Kost & Usaha",
       eyebrow: "Area Ring Purwokerto",
       intro:
-        "Butuh AC di Karanglewas untuk rumah, kamar, kost, toko, kantor, ruko, atau usaha? Tim RADJA AC cek ukuran ruangan, daya listrik, pilihan brand, stok unit, pengiriman, dan opsi pemasangan sebelum pembelian.",
+        "Butuh AC di Karanglewas untuk rumah, kamar, kost, toko, kantor, ruko, atau usaha? Tim Radja AC cek ukuran ruangan, daya listrik, pilihan brand, stok unit, pengiriman, dan opsi pemasangan sebelum pembelian.",
       localContext:
         "Karanglewas adalah ring barat Purwokerto yang berkembang dengan perumahan, ruko, dan toko, dekat pusat kota. Pembeli AC banyak dari rumah perumahan, ruko, dan toko, dengan kebutuhan pemasangan yang rapi. Karena dekat basis layanan Banyumas, pengiriman unit dan survei lokasi mudah dijadwalkan. Untuk jual AC Karanglewas, unit dikirim ke alamat lalu dipasang, dengan pembayaran DP, COD, atau transfer setelah stok dipastikan.",
       coverageNote:
-        "Showroom dan gudang RADJA AC berada di Pamijen, Sokaraja, Banyumas. Untuk area Karanglewas, pengiriman unit dan opsi pemasangan dikonfirmasi dari alamat detail, stok, jumlah unit, dan jadwal.",
+        "Showroom dan gudang Radja AC berada di Pamijen, Sokaraja, Banyumas. Untuk area Karanglewas, pengiriman unit dan opsi pemasangan dikonfirmasi dari alamat detail, stok, jumlah unit, dan jadwal.",
       commonNeeds: [
         "AC rumah tinggal, kamar tidur, dan ruang keluarga",
         "AC kost, kontrakan, dan rumah sewa",
@@ -762,7 +762,7 @@ export const areaItems = [
         ["AC Split Rumah", routes.katalogAcSplitRumah],
         ["AC Inverter", routes.katalogAcInverter],
         ["AC Daikin", routes.brandDaikin],
-        ["Kontak RADJA AC", routes.kontak],
+        ["Kontak Radja AC", routes.kontak],
       ],
       ctaLabel: "Chat WhatsApp untuk cek stok AC Karanglewas",
       waIntent: "cek stok AC Karanglewas dengan data ukuran ruangan daya listrik jumlah unit dan kebutuhan pemasangan",
@@ -783,8 +783,8 @@ export const areaItems = [
         ["Sokaraja", routes.jualAcSokaraja],
       ],
       trustBullets: [
-        "Karanglewas dilayani dari showroom dan gudang RADJA AC di Pamijen, Sokaraja, Banyumas.",
-        "Pembeli bisa melihat bukti aktivitas RADJA AC melalui dokumentasi pengiriman, stok fisik, dan pemasangan.",
+        "Karanglewas dilayani dari showroom dan gudang Radja AC di Pamijen, Sokaraja, Banyumas.",
+        "Pembeli bisa melihat bukti aktivitas Radja AC melalui dokumentasi pengiriman, stok fisik, dan pemasangan.",
         "Untuk area Karanglewas, kebutuhan AC dicek dari ukuran ruangan, daya listrik, alamat detail, jumlah unit, dan opsi pemasangan.",
       ],
       localFaq: [
@@ -838,17 +838,17 @@ export const areaItems = [
         ],
       ],
       label: "Jual AC Kembaran",
-      title: "Jual AC Kembaran untuk Rumah, Kost & Usaha — RADJA AC",
+      title: "Jual AC Kembaran untuk Rumah, Kost & Usaha — Radja AC",
       description:
-        "Butuh AC untuk rumah, kost, kontrakan, toko, atau usaha di Kembaran? RADJA AC cek kebutuhan PK, stok, pengiriman unit, dan opsi pemasangan via WhatsApp.",
+        "Butuh AC untuk rumah, kost, kontrakan, toko, atau usaha di Kembaran? Radja AC cek kebutuhan PK, stok, pengiriman unit, dan opsi pemasangan via WhatsApp.",
       h1: "Jual AC Kembaran untuk Rumah, Kost & Usaha",
       eyebrow: "Area Kampus & Hunian Banyumas",
       intro:
-        "Butuh AC di Kembaran untuk rumah, kost, kontrakan, toko, atau usaha? Tim RADJA AC cek ukuran ruangan, daya listrik, pilihan brand, stok unit, pengiriman, dan opsi pemasangan sebelum pembelian.",
+        "Butuh AC di Kembaran untuk rumah, kost, kontrakan, toko, atau usaha? Tim Radja AC cek ukuran ruangan, daya listrik, pilihan brand, stok unit, pengiriman, dan opsi pemasangan sebelum pembelian.",
       localContext:
         "Kembaran adalah ring hunian di timur Purwokerto, dekat sisi kampus UNSOED Karangwangkal, dengan banyak kos kecil, rumah sewa, dan kontrakan. Permintaan AC umumnya berupa kamar-kamar kecil di kos dan kontrakan serta rumah tinggal warga, dengan daya listrik yang terbatas. Pemilik kos sering memasang AC per kamar secara bertahap, sehingga efisiensi daya dan tipe unit seragam jadi pertimbangan utama.",
       coverageNote:
-        "Showroom dan gudang RADJA AC berada di Pamijen, Sokaraja, Banyumas. Untuk area Kembaran, pengiriman unit dan opsi pemasangan dikonfirmasi dari alamat detail, stok, jumlah unit, dan jadwal.",
+        "Showroom dan gudang Radja AC berada di Pamijen, Sokaraja, Banyumas. Untuk area Kembaran, pengiriman unit dan opsi pemasangan dikonfirmasi dari alamat detail, stok, jumlah unit, dan jadwal.",
       commonNeeds: [
         "AC rumah tinggal, kamar tidur, dan ruang keluarga",
         "AC kost, kontrakan, dan rumah sewa",
@@ -871,7 +871,7 @@ export const areaItems = [
         ["Pengadaan AC Kost & Apartemen", routes.pengadaanKostApartemen],
         ["AC Gree", routes.brandGree],
         ["Bukti Pengiriman & Proyek", routes.buktiPengirimanProyek],
-        ["Kontak RADJA AC", routes.kontak],
+        ["Kontak Radja AC", routes.kontak],
       ],
       ctaLabel: "Chat WhatsApp untuk cek stok AC Kembaran",
       waIntent: "cek stok AC Kembaran dengan data ukuran ruangan daya listrik jumlah unit dan kebutuhan pemasangan",
@@ -892,9 +892,9 @@ export const areaItems = [
         ["Banyumas", routes.jualAcBanyumas],
       ],
       trustBullets: [
-        "Kembaran dilayani dari showroom dan gudang RADJA AC di Pamijen, Sokaraja, Banyumas.",
+        "Kembaran dilayani dari showroom dan gudang Radja AC di Pamijen, Sokaraja, Banyumas.",
         "Untuk kost, kontrakan, atau bangunan banyak kamar, jumlah ruangan dan daya listrik perlu dicek sejak awal.",
-        "Bukti aktivitas RADJA AC bisa dicek melalui dokumentasi pengiriman, stok fisik, dan pemasangan.",
+        "Bukti aktivitas Radja AC bisa dicek melalui dokumentasi pengiriman, stok fisik, dan pemasangan.",
       ],
     },
     {
@@ -918,17 +918,17 @@ export const areaItems = [
         ["Toko & kantor kecil", "AC ruang pelanggan dan ruang kerja dengan kapasitas sesuai luas ruangan."],
       ],
       label: "Jual AC Patikraja",
-      title: "Jual AC Patikraja untuk Rumah, Toko & Usaha — RADJA AC",
+      title: "Jual AC Patikraja untuk Rumah, Toko & Usaha — Radja AC",
       description:
-        "Butuh AC untuk rumah, toko, kantor, ruko, atau usaha di Patikraja? RADJA AC cek kebutuhan PK, stok, pengiriman unit, dan opsi pemasangan via WhatsApp.",
+        "Butuh AC untuk rumah, toko, kantor, ruko, atau usaha di Patikraja? Radja AC cek kebutuhan PK, stok, pengiriman unit, dan opsi pemasangan via WhatsApp.",
       h1: "Jual AC Patikraja untuk Rumah, Toko & Usaha",
       eyebrow: "Area Selatan Purwokerto",
       intro:
-        "Butuh AC di Patikraja untuk rumah, toko, kantor, ruko, atau usaha? Tim RADJA AC cek ukuran ruangan, daya listrik, pilihan brand, stok unit, pengiriman, dan opsi pemasangan sebelum pembelian.",
+        "Butuh AC di Patikraja untuk rumah, toko, kantor, ruko, atau usaha? Tim Radja AC cek ukuran ruangan, daya listrik, pilihan brand, stok unit, pengiriman, dan opsi pemasangan sebelum pembelian.",
       localContext:
         "Patikraja ada di jalur selatan Purwokerto menuju Banyumas, dilewati Sungai Serayu—daerah rumah tinggal, UMKM, toko, dan pertanian yang terasa panas saat siang. Pembeli AC umumnya rumah dan UMKM atau toko di sepanjang jalan utama, dengan daya listrik rumahan. Untuk jual AC Patikraja, unit dikirim ke alamat lalu dipasang, dengan pembayaran DP, COD, atau transfer setelah stok dipastikan.",
       coverageNote:
-        "Showroom dan gudang RADJA AC berada di Pamijen, Sokaraja, Banyumas. Untuk area Patikraja, pengiriman unit dan opsi pemasangan dikonfirmasi dari alamat detail, stok, jumlah unit, akses lokasi, dan jadwal.",
+        "Showroom dan gudang Radja AC berada di Pamijen, Sokaraja, Banyumas. Untuk area Patikraja, pengiriman unit dan opsi pemasangan dikonfirmasi dari alamat detail, stok, jumlah unit, akses lokasi, dan jadwal.",
       commonNeeds: [
         "AC rumah tinggal, kamar tidur, dan ruang keluarga",
         "AC toko, kantor, ruko, dan ruang usaha",
@@ -949,7 +949,7 @@ export const areaItems = [
         ["AC Split Rumah", routes.katalogAcSplitRumah],
         ["AC Low Watt", routes.katalogAcLowWatt],
         ["AC Sharp", routes.brandSharp],
-        ["Kontak RADJA AC", routes.kontak],
+        ["Kontak Radja AC", routes.kontak],
       ],
       ctaLabel: "Chat WhatsApp untuk cek stok AC Patikraja",
       waIntent: "cek stok AC Patikraja dengan data ukuran ruangan daya listrik jumlah unit dan kebutuhan pemasangan",
@@ -970,9 +970,9 @@ export const areaItems = [
         ["Wangon", routes.jualAcWangon],
       ],
       trustBullets: [
-        "Patikraja dilayani dari showroom dan gudang RADJA AC di Pamijen, Sokaraja, Banyumas.",
+        "Patikraja dilayani dari showroom dan gudang Radja AC di Pamijen, Sokaraja, Banyumas.",
         "Untuk area Patikraja, kebutuhan AC dicek dari alamat detail, ukuran ruangan, daya listrik, jumlah unit, dan opsi pemasangan.",
-        "Bukti aktivitas RADJA AC bisa dicek melalui dokumentasi pengiriman, stok fisik, dan pemasangan.",
+        "Bukti aktivitas Radja AC bisa dicek melalui dokumentasi pengiriman, stok fisik, dan pemasangan.",
       ],
       localFaq: [
         [
@@ -1010,17 +1010,17 @@ export const areaItems = [
         ["Kantor kecil & usaha", "Pemilihan kapasitas AC sesuai luas ruang kerja."],
       ],
       label: "Jual AC Rawalo",
-      title: "Jual AC Rawalo untuk Rumah, Toko & Usaha — RADJA AC",
+      title: "Jual AC Rawalo untuk Rumah, Toko & Usaha — Radja AC",
       description:
-        "Butuh AC untuk rumah, toko, kantor, ruko, atau usaha di Rawalo? RADJA AC cek kebutuhan PK, stok, pengiriman unit, dan opsi pemasangan via WhatsApp.",
+        "Butuh AC untuk rumah, toko, kantor, ruko, atau usaha di Rawalo? Radja AC cek kebutuhan PK, stok, pengiriman unit, dan opsi pemasangan via WhatsApp.",
       h1: "Jual AC Rawalo untuk Rumah, Toko & Usaha",
       eyebrow: "Area Selatan Banyumas",
       intro:
-        "Butuh AC di Rawalo untuk rumah, toko, kantor, ruko, atau usaha? Tim RADJA AC cek ukuran ruangan, daya listrik, pilihan brand, stok unit, pengiriman, dan opsi pemasangan sebelum pembelian.",
+        "Butuh AC di Rawalo untuk rumah, toko, kantor, ruko, atau usaha? Tim Radja AC cek ukuran ruangan, daya listrik, pilihan brand, stok unit, pengiriman, dan opsi pemasangan sebelum pembelian.",
       localContext:
-        "Rawalo berada di area selatan Banyumas dengan kebutuhan AC untuk rumah tinggal, toko, ruang usaha, dan bangunan keluarga. Untuk menghindari salah pilih kapasitas, tim RADJA AC akan membaca ukuran ruangan, daya listrik, jumlah unit, anggaran, alamat detail, serta kebutuhan unit saja atau opsi pemasangan.",
+        "Rawalo berada di area selatan Banyumas dengan kebutuhan AC untuk rumah tinggal, toko, ruang usaha, dan bangunan keluarga. Untuk menghindari salah pilih kapasitas, tim Radja AC akan membaca ukuran ruangan, daya listrik, jumlah unit, anggaran, alamat detail, serta kebutuhan unit saja atau opsi pemasangan.",
       coverageNote:
-        "Showroom dan gudang RADJA AC berada di Pamijen, Sokaraja, Banyumas. Untuk area Rawalo, pengiriman unit dan opsi pemasangan dikonfirmasi dari alamat detail, stok, jumlah unit, akses lokasi, dan jadwal.",
+        "Showroom dan gudang Radja AC berada di Pamijen, Sokaraja, Banyumas. Untuk area Rawalo, pengiriman unit dan opsi pemasangan dikonfirmasi dari alamat detail, stok, jumlah unit, akses lokasi, dan jadwal.",
       commonNeeds: [
         "AC rumah tinggal, kamar tidur, dan ruang keluarga",
         "AC toko, kantor, ruko, dan ruang usaha",
@@ -1041,7 +1041,7 @@ export const areaItems = [
         ["Kalkulator PK AC", routes.kalkulatorPkAc],
         ["AC Low Watt", routes.katalogAcLowWatt],
         ["AC Gree", routes.brandGree],
-        ["Kontak RADJA AC", routes.kontak],
+        ["Kontak Radja AC", routes.kontak],
       ],
       ctaLabel: "Chat WhatsApp untuk cek stok AC Rawalo",
       waIntent: "cek stok AC Rawalo dengan data ukuran ruangan daya listrik jumlah unit dan kebutuhan pemasangan",
@@ -1062,9 +1062,9 @@ export const areaItems = [
         ["Ajibarang", routes.jualAcAjibarang],
       ],
       trustBullets: [
-        "Rawalo dilayani dari showroom dan gudang RADJA AC di Pamijen, Sokaraja, Banyumas.",
+        "Rawalo dilayani dari showroom dan gudang Radja AC di Pamijen, Sokaraja, Banyumas.",
         "Untuk area Rawalo, kebutuhan AC dicek dari alamat detail, ukuran ruangan, daya listrik, jumlah unit, dan opsi pemasangan.",
-        "Bukti aktivitas RADJA AC bisa dicek melalui dokumentasi pengiriman, stok fisik, dan pemasangan.",
+        "Bukti aktivitas Radja AC bisa dicek melalui dokumentasi pengiriman, stok fisik, dan pemasangan.",
       ],
       localFaq: [
         [
@@ -1103,17 +1103,17 @@ export const areaItems = [
         ["Rumah kawasan sejuk", "Sebagian rumah hanya butuh AC di kamar tertentu, bukan seluruh ruangan."],
       ],
       label: "Jual AC Baturraden",
-      title: "Jual AC Baturraden untuk Rumah, Villa & Penginapan — RADJA AC",
+      title: "Jual AC Baturraden untuk Rumah, Villa & Penginapan — Radja AC",
       description:
-        "Butuh AC untuk rumah, villa, homestay, guest house, atau usaha di Baturraden? RADJA AC cek kebutuhan PK, stok, pengiriman unit, dan opsi pemasangan via WhatsApp.",
+        "Butuh AC untuk rumah, villa, homestay, guest house, atau usaha di Baturraden? Radja AC cek kebutuhan PK, stok, pengiriman unit, dan opsi pemasangan via WhatsApp.",
       h1: "Jual AC Baturraden untuk Rumah, Villa & Penginapan",
       eyebrow: "Area Wisata Banyumas",
       intro:
-        "Butuh AC di Baturraden atau Baturaden untuk rumah, villa, homestay, guest house, atau ruang usaha? Tim RADJA AC cek kebutuhan PK, daya listrik, pilihan brand, stok unit, pengiriman, dan opsi pemasangan dari data lokasi.",
+        "Butuh AC di Baturraden atau Baturaden untuk rumah, villa, homestay, guest house, atau ruang usaha? Tim Radja AC cek kebutuhan PK, daya listrik, pilihan brand, stok unit, pengiriman, dan opsi pemasangan dari data lokasi.",
       localContext:
-        "Baturraden dikenal sebagai area wisata dan hunian di wilayah Banyumas. Kebutuhan AC untuk rumah tinggal, villa, penginapan, homestay, atau ruang usaha tidak selalu sama dengan kamar rumah biasa, sehingga tim RADJA AC perlu membaca ukuran ruangan, jumlah titik, pola pemakaian, daya listrik, dan kebutuhan pemasangan sebelum memberi arahan.",
+        "Baturraden dikenal sebagai area wisata dan hunian di wilayah Banyumas. Kebutuhan AC untuk rumah tinggal, villa, penginapan, homestay, atau ruang usaha tidak selalu sama dengan kamar rumah biasa, sehingga tim Radja AC perlu membaca ukuran ruangan, jumlah titik, pola pemakaian, daya listrik, dan kebutuhan pemasangan sebelum memberi arahan.",
       coverageNote:
-        "Showroom dan gudang RADJA AC berada di Pamijen, Sokaraja, Banyumas. Untuk area Baturraden atau Baturaden, pengiriman unit dan opsi pemasangan dikonfirmasi berdasarkan alamat, jumlah unit, akses lokasi, stok, dan jadwal.",
+        "Showroom dan gudang Radja AC berada di Pamijen, Sokaraja, Banyumas. Untuk area Baturraden atau Baturaden, pengiriman unit dan opsi pemasangan dikonfirmasi berdasarkan alamat, jumlah unit, akses lokasi, stok, dan jadwal.",
       commonNeeds: [
         "AC rumah tinggal, kamar tidur, dan ruang keluarga",
         "AC villa, homestay, guest house, dan kamar sewa",
@@ -1136,7 +1136,7 @@ export const areaItems = [
         ["Pengadaan AC Hotel & Guest House", routes.pengadaanHotelGuestHouse],
         ["AC Daikin", routes.brandDaikin],
         ["Bukti Pengiriman & Proyek", routes.buktiPengirimanProyek],
-        ["Kontak RADJA AC", routes.kontak],
+        ["Kontak Radja AC", routes.kontak],
       ],
       ctaLabel: "Chat WhatsApp untuk cek stok AC Baturraden",
       waIntent: "cek stok AC Baturraden atau Baturaden dengan data ukuran ruangan daya listrik jumlah unit dan kebutuhan pemasangan",
@@ -1159,9 +1159,9 @@ export const areaItems = [
         ["Ajibarang", routes.jualAcAjibarang],
       ],
       trustBullets: [
-        "Baturraden atau Baturaden dilayani dari showroom dan gudang RADJA AC di Pamijen, Sokaraja, Banyumas.",
+        "Baturraden atau Baturaden dilayani dari showroom dan gudang Radja AC di Pamijen, Sokaraja, Banyumas.",
         "Untuk villa, homestay, guest house, atau penginapan, jumlah kamar dan pola pemakaian perlu dibaca sebelum memilih unit.",
-        "Bukti aktivitas RADJA AC bisa dicek melalui dokumentasi pengiriman, stok fisik, dan pemasangan.",
+        "Bukti aktivitas Radja AC bisa dicek melalui dokumentasi pengiriman, stok fisik, dan pemasangan.",
       ],
       localFaq: [
         [
@@ -1201,17 +1201,17 @@ export const areaItems = [
       ["Kafe & retail wisata", "AC ruang pelanggan supaya pengunjung betah saat ramai."],
     ],
     label: "Jual AC Yogyakarta",
-    title: "Jual AC Yogyakarta untuk Kost, Guest House & Usaha — RADJA AC",
+    title: "Jual AC Yogyakarta untuk Kost, Guest House & Usaha — Radja AC",
     description:
-      "Butuh AC untuk rumah, kost, hotel, kantor, atau proyek di Yogyakarta? RADJA AC cek stok, kebutuhan PK, pengiriman unit, dan opsi pemasangan via WhatsApp.",
+      "Butuh AC untuk rumah, kost, hotel, kantor, atau proyek di Yogyakarta? Radja AC cek stok, kebutuhan PK, pengiriman unit, dan opsi pemasangan via WhatsApp.",
     h1: "Jual AC Yogyakarta untuk Kost, Guest House & Usaha",
     eyebrow: "Layanan AC Area DIY",
     intro:
-      "Butuh AC di Yogyakarta untuk rumah, kost, guest house, hotel, kantor, atau usaha? Tim RADJA AC cek PK, daya listrik, stok, pengiriman, dan pemasangan sebelum unit dipilih.",
+      "Butuh AC di Yogyakarta untuk rumah, kost, guest house, hotel, kantor, atau usaha? Tim Radja AC cek PK, daya listrik, stok, pengiriman, dan pemasangan sebelum unit dipilih.",
     localContext:
       "Yogyakarta adalah kota pelajar dan wisata sekaligus: ada banyak kampus (UGM, UNY, dan lainnya) dengan ribuan kos mahasiswa, plus kawasan wisata seperti Malioboro dan Keraton yang penuh guest house, homestay, dan kafe. Pembeli AC di sini paling banyak pemilik kos yang ingin kamarnya cepat terisi, pengelola guest house dan homestay wisata, serta toko dan kafe. Untuk jual AC Yogyakarta, pengelola banyak kamar biasanya menanyakan stok, jadwal pengiriman, dan tahapan pembayaran (DP lalu transfer) sebelum unit dikirim dan dipasang bertahap.",
     coverageNote:
-      "Showroom dan gudang RADJA AC berada di Banyumas. Kebutuhan AC area Yogyakarta dilayani dengan konsultasi PK, cek stok unit, pengiriman, serta opsi pemasangan sesuai alamat, jumlah unit, dan jadwal.",
+      "Showroom dan gudang Radja AC berada di Banyumas. Kebutuhan AC area Yogyakarta dilayani dengan konsultasi PK, cek stok unit, pengiriman, serta opsi pemasangan sesuai alamat, jumlah unit, dan jadwal.",
     keywordVariants: [
       "AC kamar kost",
       "AC guest house dan homestay",
@@ -1272,8 +1272,8 @@ export const areaItems = [
       ["AC Inverter", routes.katalogAcInverter],
       ["AC Daikin", routes.brandDaikin],
       ["Bukti Pengiriman & Proyek", routes.buktiPengirimanProyek],
-      ["Tentang RADJA AC", routes.tentangKami],
-      ["Kontak RADJA AC", routes.kontak],
+      ["Tentang Radja AC", routes.tentangKami],
+      ["Kontak Radja AC", routes.kontak],
     ],
     ctaLabel: "Chat WhatsApp untuk cek pengiriman AC Yogyakarta",
     waIntent: "cek pengiriman dan stok AC Yogyakarta dengan data area ukuran ruangan daya listrik jumlah unit anggaran preferensi brand dan kebutuhan pemasangan",
@@ -1300,17 +1300,17 @@ export const areaItems = [
       ["Gudang & mess pekerja", "AC ruang penunjang dan mess sesuai jumlah penghuni dan beban ruang."],
     ],
     label: "Jual AC Semarang",
-    title: "Jual AC Semarang untuk Ruko, Kantor, Hotel & Proyek — RADJA AC",
+    title: "Jual AC Semarang untuk Ruko, Kantor, Hotel & Proyek — Radja AC",
     description:
-      "Butuh AC untuk rumah, ruko, kantor, hotel, usaha, atau proyek di Semarang? RADJA AC cek stok, kebutuhan PK, pengiriman unit, dan opsi pemasangan via WhatsApp.",
+      "Butuh AC untuk rumah, ruko, kantor, hotel, usaha, atau proyek di Semarang? Radja AC cek stok, kebutuhan PK, pengiriman unit, dan opsi pemasangan via WhatsApp.",
     h1: "Jual AC Semarang untuk Ruko, Kantor, Hotel & Proyek",
     eyebrow: "Layanan AC Area Jawa Tengah",
     intro:
-      "Butuh AC untuk rumah, kantor, ruko, toko, hotel, developer, atau proyek di Semarang? RADJA AC cek kebutuhan PK, stok unit, pilihan brand, pengiriman, dan opsi pemasangan dari brief yang dikirim.",
+      "Butuh AC untuk rumah, kantor, ruko, toko, hotel, developer, atau proyek di Semarang? Radja AC cek kebutuhan PK, stok unit, pilihan brand, pengiriman, dan opsi pemasangan dari brief yang dikirim.",
     localContext:
-      "Semarang sebagai ibukota provinsi adalah pusat perkantoran, kawasan industri, dan pergudangan, dengan kebutuhan AC berskala kantor, ruang kerja, mess pekerja, dan pengadaan proyek banyak unit. Banyak permintaan datang dari perusahaan dan kontraktor yang butuh spesifikasi seragam, dokumentasi kebutuhan, dan jadwal pemasangan bertahap, sehingga tim RADJA AC mulai dari rekap jumlah ruang, kapasitas per ruang, daya listrik, dan timeline pekerjaan.",
+      "Semarang sebagai ibukota provinsi adalah pusat perkantoran, kawasan industri, dan pergudangan, dengan kebutuhan AC berskala kantor, ruang kerja, mess pekerja, dan pengadaan proyek banyak unit. Banyak permintaan datang dari perusahaan dan kontraktor yang butuh spesifikasi seragam, dokumentasi kebutuhan, dan jadwal pemasangan bertahap, sehingga tim Radja AC mulai dari rekap jumlah ruang, kapasitas per ruang, daya listrik, dan timeline pekerjaan.",
     coverageNote:
-      "Showroom dan gudang RADJA AC berada di Banyumas. Kebutuhan AC area Semarang dilayani dengan konsultasi PK, cek stok unit, pengiriman, serta opsi pemasangan sesuai alamat, jumlah unit, dan jadwal pekerjaan.",
+      "Showroom dan gudang Radja AC berada di Banyumas. Kebutuhan AC area Semarang dilayani dengan konsultasi PK, cek stok unit, pengiriman, serta opsi pemasangan sesuai alamat, jumlah unit, dan jadwal pekerjaan.",
     keywordVariants: [
       "AC kantor dan ruang kerja Semarang",
       "AC kawasan industri Semarang",
@@ -1346,7 +1346,7 @@ export const areaItems = [
         "Disusun bertahap mengikuti kesiapan lokasi dan stok. Kirim target waktu agar tim menyiapkan urutan pengiriman dan pemasangan.",
       ],
       [
-        "Apakah RADJA AC melayani pengiriman ke Semarang dari Banyumas?",
+        "Apakah Radja AC melayani pengiriman ke Semarang dari Banyumas?",
         "Ya. Showroom dan gudang berada di Banyumas; untuk Semarang tim mengatur pengiriman unit dan opsi pemasangan sesuai alamat dan jumlah unit.",
       ],
     ],
@@ -1371,8 +1371,8 @@ export const areaItems = [
       ["AC Daikin", routes.brandDaikin],
       ["AC Gree", routes.brandGree],
       ["Bukti Pengiriman & Proyek", routes.buktiPengirimanProyek],
-      ["Tentang RADJA AC", routes.tentangKami],
-      ["Kontak RADJA AC", routes.kontak],
+      ["Tentang Radja AC", routes.tentangKami],
+      ["Kontak Radja AC", routes.kontak],
     ],
     ctaLabel: "Chat WhatsApp untuk cek pengiriman AC Semarang",
     waIntent: "cek pengiriman dan stok AC Semarang dengan data area ukuran ruangan daya listrik jumlah unit anggaran preferensi brand dan kebutuhan pemasangan",
@@ -1399,17 +1399,17 @@ export const areaItems = [
       ["Kost & rumah kota", "AC hunian dan kost dengan pilihan efisien sesuai daya dan pemakaian."],
     ],
     label: "Jual AC Solo",
-    title: "Jual AC Solo untuk Rumah, Kost, Hotel & Usaha — RADJA AC",
+    title: "Jual AC Solo untuk Rumah, Kost, Hotel & Usaha — Radja AC",
     description:
-      "Butuh AC untuk rumah, kost, toko, kantor, hotel, atau usaha di Solo? RADJA AC cek stok, kebutuhan PK, pengiriman unit, dan opsi pemasangan via WhatsApp.",
+      "Butuh AC untuk rumah, kost, toko, kantor, hotel, atau usaha di Solo? Radja AC cek stok, kebutuhan PK, pengiriman unit, dan opsi pemasangan via WhatsApp.",
     h1: "Jual AC Solo untuk Rumah, Kost, Hotel & Usaha",
     eyebrow: "Layanan AC Area Jawa Tengah",
     intro:
-      "Butuh AC di Solo untuk rumah, kost, hotel, toko, kantor, atau usaha? Tim RADJA AC cek PK, daya listrik, brand, stok, pengiriman, dan pemasangan sebelum unit dipilih.",
+      "Butuh AC di Solo untuk rumah, kost, hotel, toko, kantor, atau usaha? Tim Radja AC cek PK, daya listrik, brand, stok, pengiriman, dan pemasangan sebelum unit dipilih.",
     localContext:
-      "Solo (Surakarta) adalah kota budaya dan dagang yang panas, dengan denyut dari hotel dan penginapan wisata, retail, toko batik, kuliner, kost, dan kampus. Permintaan AC banyak datang dari kamar hotel dan guest house, ruang pelanggan toko batik dan retail, resto, serta kost di sekitar kampus. Karena ruang publik dan kamar tamu dipakai lama, tim RADJA AC mengecek luas ruangan, jam pemakaian, jumlah kamar, dan efisiensi sebelum memilih unit.",
+      "Solo (Surakarta) adalah kota budaya dan dagang yang panas, dengan denyut dari hotel dan penginapan wisata, retail, toko batik, kuliner, kost, dan kampus. Permintaan AC banyak datang dari kamar hotel dan guest house, ruang pelanggan toko batik dan retail, resto, serta kost di sekitar kampus. Karena ruang publik dan kamar tamu dipakai lama, tim Radja AC mengecek luas ruangan, jam pemakaian, jumlah kamar, dan efisiensi sebelum memilih unit.",
     coverageNote:
-      "Showroom dan gudang RADJA AC berada di Banyumas. Kebutuhan AC area Solo dilayani dengan konsultasi PK, cek stok unit, pengiriman, dan opsi pemasangan sesuai lokasi, jumlah unit, serta jadwal.",
+      "Showroom dan gudang Radja AC berada di Banyumas. Kebutuhan AC area Solo dilayani dengan konsultasi PK, cek stok unit, pengiriman, dan opsi pemasangan sesuai lokasi, jumlah unit, serta jadwal.",
     keywordVariants: [
       "AC hotel dan guest house Solo",
       "AC toko batik dan retail Solo",
@@ -1445,7 +1445,7 @@ export const areaItems = [
         "Untuk banyak kamar, unit hemat daya dengan tipe seragam biasanya cocok, dicek dari daya listrik total. Kirim jumlah kamar dan daya untuk arahan.",
       ],
       [
-        "Apakah RADJA AC melayani pengiriman ke Solo dari Banyumas?",
+        "Apakah Radja AC melayani pengiriman ke Solo dari Banyumas?",
         "Ya. Showroom dan gudang berada di Banyumas; untuk Solo tim mengatur pengiriman unit dan opsi pemasangan sesuai alamat dan jumlah unit.",
       ],
     ],
@@ -1465,8 +1465,8 @@ export const areaItems = [
       ["AC Gree", routes.brandGree],
       ["AC Daikin", routes.brandDaikin],
       ["Bukti Pengiriman & Proyek", routes.buktiPengirimanProyek],
-      ["Tentang RADJA AC", routes.tentangKami],
-      ["Kontak RADJA AC", routes.kontak],
+      ["Tentang Radja AC", routes.tentangKami],
+      ["Kontak Radja AC", routes.kontak],
     ],
     ctaLabel: "Chat WhatsApp untuk cek pengiriman AC Solo",
     waIntent: "cek pengiriman dan stok AC Solo dengan data area ukuran ruangan daya listrik jumlah unit anggaran preferensi brand dan kebutuhan pemasangan",
@@ -1512,17 +1512,17 @@ export const areaItems = [
       ],
     ],
     label: "Jual AC Purbalingga",
-    title: "Jual AC Purbalingga untuk Rumah, Kost, Toko & Kantor — RADJA AC",
+    title: "Jual AC Purbalingga untuk Rumah, Kost, Toko & Kantor — Radja AC",
     description:
-      "Butuh AC untuk rumah, kost, toko, kantor, atau usaha di Purbalingga? RADJA AC cek stok, kebutuhan PK, pengiriman unit, dan opsi pemasangan via WhatsApp.",
+      "Butuh AC untuk rumah, kost, toko, kantor, atau usaha di Purbalingga? Radja AC cek stok, kebutuhan PK, pengiriman unit, dan opsi pemasangan via WhatsApp.",
     h1: "Jual AC Purbalingga untuk Rumah, Kost, Toko & Kantor",
     eyebrow: "Area Regional Dekat Banyumas",
     intro:
-      "Butuh AC di Purbalingga untuk rumah, kamar, kost, toko, kantor, atau usaha? Tim RADJA AC cek PK, daya listrik, brand, stok, pengiriman, dan pemasangan sebelum unit dipilih.",
+      "Butuh AC di Purbalingga untuk rumah, kamar, kost, toko, kantor, atau usaha? Tim Radja AC cek PK, daya listrik, brand, stok, pengiriman, dan pemasangan sebelum unit dipilih.",
     localContext:
       "Purbalingga dikenal dengan pabrik-pabriknya—terutama industri rambut palsu, bulu mata, dan knalpot—plus wisata keluarga seperti Owabong, sehingga banyak permintaan AC datang dari kantor pabrik, kos pekerja, toko, dan rumah. Perusahaan biasanya butuh pengadaan AC banyak unit dengan spesifikasi seragam dan faktur, sementara pemilik kos pekerja mencari unit hemat untuk banyak kamar. Untuk jual AC Purbalingga, pembeli rumahan umumnya minta pengiriman lalu pemasangan, dengan pembayaran DP atau transfer setelah stok dipastikan.",
     coverageNote:
-      "Showroom dan gudang RADJA AC berada di Banyumas. Kebutuhan AC area Purbalingga dilayani dengan konsultasi PK, cek stok unit, pengiriman, dan opsi pemasangan sesuai alamat, jumlah unit, serta jadwal.",
+      "Showroom dan gudang Radja AC berada di Banyumas. Kebutuhan AC area Purbalingga dilayani dengan konsultasi PK, cek stok unit, pengiriman, dan opsi pemasangan sesuai alamat, jumlah unit, serta jadwal.",
     nearbyAreaLinks: [
       ["Jual AC Banyumas", routes.jualAcBanyumas],
       ["Jual AC Purwokerto", routes.jualAcPurwokerto],
@@ -1565,17 +1565,17 @@ export const areaItems = [
       ["Rumah tinggal", "Pengiriman unit per kecamatan lalu pemasangan, dengan pilihan unit untuk cuaca lembap."],
     ],
     label: "Jual AC Cilacap",
-    title: "Jual AC Cilacap | Cek Stok, PK & Pemasangan — RADJA AC",
+    title: "Jual AC Cilacap | Cek Stok, PK & Pemasangan — Radja AC",
     description:
-      "Butuh AC untuk rumah, toko, kantor, proyek, atau banyak unit di Cilacap? RADJA AC bantu cek PK, stok, pengiriman, opsi pemasangan, dan pembayaran fleksibel.",
+      "Butuh AC untuk rumah, toko, kantor, proyek, atau banyak unit di Cilacap? Radja AC bantu cek PK, stok, pengiriman, opsi pemasangan, dan pembayaran fleksibel.",
     h1: "Jual AC Cilacap untuk rumah, toko, kantor, usaha, dan banyak unit",
     eyebrow: "Layanan AC Area Cilacap",
     intro:
-      "Butuh AC di Cilacap untuk rumah, toko, kantor, usaha, proyek, pengadaan, atau banyak unit? Tim RADJA AC membantu cek kebutuhan PK, daya listrik, pilihan brand, stok unit, pengiriman, dan opsi pemasangan berdasarkan kecamatan serta kebutuhan unit.",
+      "Butuh AC di Cilacap untuk rumah, toko, kantor, usaha, proyek, pengadaan, atau banyak unit? Tim Radja AC membantu cek kebutuhan PK, daya listrik, pilihan brand, stok unit, pengiriman, dan opsi pemasangan berdasarkan kecamatan serta kebutuhan unit.",
     localContext:
       "Cilacap adalah kota industri dan pelabuhan—ada kilang Pertamina, pabrik semen, PLTU, dan Pelabuhan Tanjung Intan—dengan udara pesisir yang panas dan lembap. Karena itu permintaan terbesar datang dari kantor perusahaan, vendor dan kontraktor proyek, ruko, dan rumah; banyak yang butuh pengadaan AC banyak unit dengan faktur dan jadwal. Udara pesisir yang asin juga membuat unit outdoor lebih cepat berkarat, sehingga pemilihan dan penempatan unit jadi pertimbangan. Untuk jual AC Cilacap, pengiriman dan pemasangan dikonfirmasi per kecamatan, dengan pembayaran DP, transfer, atau termin untuk proyek.",
     coverageNote:
-      "Showroom dan gudang RADJA AC berada di Banyumas. Kebutuhan AC area Cilacap dilayani dengan konsultasi PK, cek stok unit, pengiriman, serta opsi pemasangan yang dikonfirmasi berdasarkan alamat, jumlah unit, akses lokasi, stok, dan jadwal pekerjaan.",
+      "Showroom dan gudang Radja AC berada di Banyumas. Kebutuhan AC area Cilacap dilayani dengan konsultasi PK, cek stok unit, pengiriman, serta opsi pemasangan yang dikonfirmasi berdasarkan alamat, jumlah unit, akses lokasi, stok, dan jadwal pekerjaan.",
     commonNeeds: [
       "AC rumah tinggal, kamar tidur, dan ruang keluarga di Cilacap",
       "AC toko, ruko, kantor, klinik, dan ruang usaha",
@@ -1604,8 +1604,8 @@ export const areaItems = [
       ["AC Daikin", routes.brandDaikin],
       ["AC Gree", routes.brandGree],
       ["Bukti Pengiriman & Proyek", routes.buktiPengirimanProyek],
-      ["Tentang RADJA AC", routes.tentangKami],
-      ["Kontak RADJA AC", routes.kontak],
+      ["Tentang Radja AC", routes.tentangKami],
+      ["Kontak Radja AC", routes.kontak],
     ],
     ctaLabel: "Chat WhatsApp untuk cek pengiriman AC Cilacap",
     waIntent: "cek pengiriman dan stok AC Cilacap dengan data kecamatan ukuran ruangan daya listrik jumlah unit alamat dan kebutuhan pemasangan",
@@ -1631,9 +1631,9 @@ export const areaItems = [
       ["Adipala", routes.jualAcAdipala],
     ],
     trustBullets: [
-      "Cilacap dilayani dari basis showroom dan gudang RADJA AC di Banyumas.",
+      "Cilacap dilayani dari basis showroom dan gudang Radja AC di Banyumas.",
       "Kebutuhan AC dicek dari kecamatan, ukuran ruangan, daya listrik, jumlah unit, stok aktif, dan opsi pemasangan.",
-      "Bukti aktivitas RADJA AC bisa dicek melalui dokumentasi showroom, stok fisik, pengiriman, dan pemasangan.",
+      "Bukti aktivitas Radja AC bisa dicek melalui dokumentasi showroom, stok fisik, pengiriman, dan pemasangan.",
     ],
     localFaq: [
       [
@@ -1676,17 +1676,17 @@ export const areaItems = [
       ["Kantor kecil & usaha", "Pemilihan unit ruang kerja dengan pengiriman ke alamat Kroya."],
     ],
     label: "Jual AC Kroya",
-    title: "Jual AC Kroya untuk Rumah, Toko & Usaha — RADJA AC",
+    title: "Jual AC Kroya untuk Rumah, Toko & Usaha — Radja AC",
     description:
-      "Butuh AC untuk rumah, toko, ruko, kantor, atau banyak unit di Kroya? RADJA AC bantu cek PK, stok, pengiriman, opsi pemasangan, dan pembayaran fleksibel.",
+      "Butuh AC untuk rumah, toko, ruko, kantor, atau banyak unit di Kroya? Radja AC bantu cek PK, stok, pengiriman, opsi pemasangan, dan pembayaran fleksibel.",
     h1: "Jual AC Kroya untuk Rumah, Toko & Usaha",
     eyebrow: "Area Cilacap",
     intro:
-      "Butuh AC di Kroya untuk rumah, toko, ruko, kantor, usaha, atau banyak unit? Tim RADJA AC cek kebutuhan PK, daya listrik, stok brand, pengiriman, dan opsi pemasangan dari data awal yang dikirim.",
+      "Butuh AC di Kroya untuk rumah, toko, ruko, kantor, usaha, atau banyak unit? Tim Radja AC cek kebutuhan PK, daya listrik, stok brand, pengiriman, dan opsi pemasangan dari data awal yang dikirim.",
     localContext:
       "Kroya adalah kota dengan Stasiun Kroya—simpul kereta penting di jalur selatan—jadi denyutnya transit dan dagang. Pembeli AC banyak dari toko dan ruko di sekitar pasar dan stasiun, rumah warga, serta kos. Toko yang ramai di dekat stasiun dan pasar cepat gerah saat siang. Untuk jual AC Kroya, unit dikirim ke alamat lalu dipasang, dengan pembayaran DP, COD, atau transfer setelah stok dipastikan.",
     coverageNote:
-      "Showroom dan gudang RADJA AC berada di Banyumas. Kebutuhan AC area Kroya dilayani dengan konsultasi PK, cek stok unit, pengiriman, serta opsi pemasangan sesuai alamat, jumlah unit, dan jadwal.",
+      "Showroom dan gudang Radja AC berada di Banyumas. Kebutuhan AC area Kroya dilayani dengan konsultasi PK, cek stok unit, pengiriman, serta opsi pemasangan sesuai alamat, jumlah unit, dan jadwal.",
     keywordVariants: [
       "AC rumah Kroya",
       "AC toko dan ruko Kroya",
@@ -1745,7 +1745,7 @@ export const areaItems = [
       ["AC Low Watt", routes.katalogAcLowWatt],
       ["AC Inverter", routes.katalogAcInverter],
       ["Bukti Pengiriman & Proyek", routes.buktiPengirimanProyek],
-      ["Kontak RADJA AC", routes.kontak],
+      ["Kontak Radja AC", routes.kontak],
     ],
     ctaLabel: "Chat WhatsApp untuk cek AC Kroya",
     waIntent: "cek stok AC Kroya dengan data alamat ukuran ruangan daya listrik jumlah unit dan kebutuhan pemasangan",
@@ -1773,17 +1773,17 @@ export const areaItems = [
       ["Kantor & usaha", "Pemilihan unit ruang kerja, dengan pengiriman dijadwalkan ke Cilacap barat."],
     ],
     label: "Jual AC Majenang",
-    title: "Jual AC Majenang untuk Rumah, Toko & Banyak Unit — RADJA AC",
+    title: "Jual AC Majenang untuk Rumah, Toko & Banyak Unit — Radja AC",
     description:
-      "Butuh AC untuk rumah, toko, kantor, usaha, atau banyak unit di Majenang? RADJA AC bantu cek PK, stok, pengiriman, opsi pemasangan, dan pembayaran fleksibel.",
+      "Butuh AC untuk rumah, toko, kantor, usaha, atau banyak unit di Majenang? Radja AC bantu cek PK, stok, pengiriman, opsi pemasangan, dan pembayaran fleksibel.",
     h1: "Jual AC Majenang untuk Rumah, Toko & Banyak Unit",
     eyebrow: "Area Cilacap Barat",
     intro:
-      "Butuh AC di Majenang untuk rumah, toko, kantor, usaha, atau kebutuhan beberapa unit? Tim RADJA AC cek kapasitas PK, daya listrik, stok brand, pengiriman, dan opsi pemasangan dari data awal.",
+      "Butuh AC di Majenang untuk rumah, toko, kantor, usaha, atau kebutuhan beberapa unit? Tim Radja AC cek kapasitas PK, daya listrik, stok brand, pengiriman, dan opsi pemasangan dari data awal.",
     localContext:
       "Majenang adalah kota dagang teramai di Cilacap bagian barat, di jalur menuju Bandung, dengan Pasar Majenang dan deretan ruko sebagai pusat ekonominya. Pembeli AC banyak dari pemilik ruko dan toko, rumah, serta kantor. Karena jauh dari kota Cilacap, pengiriman ke Majenang dijadwalkan tersendiri. Untuk jual AC Majenang, unit dikirim ke alamat lalu dipasang, dengan pembayaran DP, transfer, atau COD setelah stok dipastikan.",
     coverageNote:
-      "Showroom dan gudang RADJA AC berada di Banyumas. Kebutuhan AC area Majenang dilayani dengan konsultasi PK, cek stok unit, pengiriman, serta opsi pemasangan sesuai alamat, jumlah unit, dan jadwal.",
+      "Showroom dan gudang Radja AC berada di Banyumas. Kebutuhan AC area Majenang dilayani dengan konsultasi PK, cek stok unit, pengiriman, serta opsi pemasangan sesuai alamat, jumlah unit, dan jadwal.",
     keywordVariants: [
       "AC rumah Majenang",
       "AC toko Majenang",
@@ -1842,7 +1842,7 @@ export const areaItems = [
       ["AC Low Watt", routes.katalogAcLowWatt],
       ["AC Kantor & Komersial", routes.katalogAcKantorKomersial],
       ["Bukti Pengiriman & Proyek", routes.buktiPengirimanProyek],
-      ["Kontak RADJA AC", routes.kontak],
+      ["Kontak Radja AC", routes.kontak],
     ],
     ctaLabel: "Chat WhatsApp untuk cek AC Majenang",
     waIntent: "cek stok AC Majenang dengan data alamat ukuran ruangan daya listrik jumlah unit dan kebutuhan pemasangan",
@@ -1870,17 +1870,17 @@ export const areaItems = [
       ["Kantor & usaha", "Pemilihan unit ruang kerja dengan pengiriman ke alamat Sidareja."],
     ],
     label: "Jual AC Sidareja",
-    title: "Jual AC Sidareja untuk Rumah, Ruko & Usaha — RADJA AC",
+    title: "Jual AC Sidareja untuk Rumah, Ruko & Usaha — Radja AC",
     description:
-      "Butuh AC untuk rumah, ruko, toko, kantor, atau banyak unit di Sidareja? RADJA AC bantu cek PK, stok, pengiriman, opsi pemasangan, dan pembayaran fleksibel.",
+      "Butuh AC untuk rumah, ruko, toko, kantor, atau banyak unit di Sidareja? Radja AC bantu cek PK, stok, pengiriman, opsi pemasangan, dan pembayaran fleksibel.",
     h1: "Jual AC Sidareja untuk Rumah, Ruko & Usaha",
     eyebrow: "Area Cilacap Barat",
     intro:
-      "Butuh AC di Sidareja untuk rumah, ruko, toko, kantor, usaha, atau kebutuhan beberapa unit? Tim RADJA AC cek kebutuhan PK, daya listrik, stok brand, pengiriman, dan opsi pemasangan dari data awal.",
+      "Butuh AC di Sidareja untuk rumah, ruko, toko, kantor, usaha, atau kebutuhan beberapa unit? Tim Radja AC cek kebutuhan PK, daya listrik, stok brand, pengiriman, dan opsi pemasangan dari data awal.",
     localContext:
       "Sidareja adalah kota kecamatan dagang di Cilacap bagian barat, punya Stasiun Sidareja dan pasar yang jadi pusat kegiatan, dikelilingi area pertanian dan rawa. Pembeli AC umumnya pemilik ruko dan toko, rumah, serta kantor di sepanjang jalur. Karena jauh dari kota Cilacap, pengiriman dijadwalkan tersendiri. Untuk jual AC Sidareja, unit dikirim ke alamat lalu dipasang, dengan pembayaran DP, COD, atau transfer setelah stok dipastikan.",
     coverageNote:
-      "Showroom dan gudang RADJA AC berada di Banyumas. Kebutuhan AC area Sidareja dilayani dengan konsultasi PK, cek stok unit, pengiriman, serta opsi pemasangan sesuai alamat, jumlah unit, dan jadwal.",
+      "Showroom dan gudang Radja AC berada di Banyumas. Kebutuhan AC area Sidareja dilayani dengan konsultasi PK, cek stok unit, pengiriman, serta opsi pemasangan sesuai alamat, jumlah unit, dan jadwal.",
     keywordVariants: [
       "AC rumah Sidareja",
       "AC ruko Sidareja",
@@ -1939,7 +1939,7 @@ export const areaItems = [
       ["AC Split Rumah", routes.katalogAcSplitRumah],
       ["AC Low Watt", routes.katalogAcLowWatt],
       ["Bukti Pengiriman & Proyek", routes.buktiPengirimanProyek],
-      ["Kontak RADJA AC", routes.kontak],
+      ["Kontak Radja AC", routes.kontak],
     ],
     ctaLabel: "Chat WhatsApp untuk cek AC Sidareja",
     waIntent: "cek stok AC Sidareja dengan data alamat ukuran ruangan daya listrik jumlah unit dan kebutuhan pemasangan",
@@ -1967,17 +1967,17 @@ export const areaItems = [
       ["Usaha & pengadaan kecil", "Penyediaan beberapa unit dengan pengiriman dan jadwal pemasangan."],
     ],
     label: "Jual AC Kesugihan",
-    title: "Jual AC Kesugihan untuk Rumah, Kantor & Proyek — RADJA AC",
+    title: "Jual AC Kesugihan untuk Rumah, Kantor & Proyek — Radja AC",
     description:
-      "Butuh AC untuk rumah, kantor, proyek, atau banyak unit di Kesugihan? RADJA AC bantu cek PK, stok, pengiriman, opsi pemasangan, dan pembayaran fleksibel.",
+      "Butuh AC untuk rumah, kantor, proyek, atau banyak unit di Kesugihan? Radja AC bantu cek PK, stok, pengiriman, opsi pemasangan, dan pembayaran fleksibel.",
     h1: "Jual AC Kesugihan untuk Rumah, Kantor & Proyek",
     eyebrow: "Area Cilacap",
     intro:
-      "Butuh AC di Kesugihan untuk rumah, kantor, ruang usaha, proyek, atau kebutuhan beberapa unit? Tim RADJA AC cek kebutuhan PK, daya listrik, stok brand, pengiriman, dan opsi pemasangan berdasarkan data awal.",
+      "Butuh AC di Kesugihan untuk rumah, kantor, ruang usaha, proyek, atau kebutuhan beberapa unit? Tim Radja AC cek kebutuhan PK, daya listrik, stok brand, pengiriman, dan opsi pemasangan berdasarkan data awal.",
     localContext:
       "Kesugihan berada dekat kota dan kawasan industri Cilacap, dan dikenal dengan pondok pesantren besar Al-Ihya Ulumaddin yang punya banyak asrama dan kos santri. Pembeli AC datang dari rumah, kos atau asrama, kantor, serta usaha di sekitar koridor industri. Kos dan asrama banyak kamar biasanya cari unit hemat, sementara usaha dekat kawasan industri kadang butuh pengadaan beberapa unit. Untuk jual AC Kesugihan, unit dikirim ke alamat lalu dipasang, dengan pembayaran DP, transfer, atau COD setelah stok dipastikan.",
     coverageNote:
-      "Showroom dan gudang RADJA AC berada di Banyumas. Kebutuhan AC area Kesugihan dilayani dengan konsultasi PK, cek stok unit, pengiriman, serta opsi pemasangan sesuai alamat, jumlah unit, dan jadwal.",
+      "Showroom dan gudang Radja AC berada di Banyumas. Kebutuhan AC area Kesugihan dilayani dengan konsultasi PK, cek stok unit, pengiriman, serta opsi pemasangan sesuai alamat, jumlah unit, dan jadwal.",
     keywordVariants: [
       "AC rumah Kesugihan",
       "AC kantor Kesugihan",
@@ -2036,7 +2036,7 @@ export const areaItems = [
       ["AC Kantor & Komersial", routes.katalogAcKantorKomersial],
       ["Pengadaan AC Proyek", routes.pengadaanAc],
       ["Bukti Pengiriman & Proyek", routes.buktiPengirimanProyek],
-      ["Kontak RADJA AC", routes.kontak],
+      ["Kontak Radja AC", routes.kontak],
     ],
     ctaLabel: "Chat WhatsApp untuk cek AC Kesugihan",
     waIntent: "cek stok AC Kesugihan dengan data alamat ukuran ruangan daya listrik jumlah unit dan kebutuhan pemasangan",
@@ -2064,17 +2064,17 @@ export const areaItems = [
       ["Penempatan dekat laut", "Pemasangan dengan posisi outdoor yang terlindung agar tidak cepat berkarat."],
     ],
     label: "Jual AC Adipala",
-    title: "Jual AC Adipala untuk Rumah, Toko & Usaha — RADJA AC",
+    title: "Jual AC Adipala untuk Rumah, Toko & Usaha — Radja AC",
     description:
-      "Butuh AC untuk rumah, toko, kantor, usaha, atau banyak unit di Adipala? RADJA AC bantu cek PK, stok, pengiriman, opsi pemasangan, dan pembayaran fleksibel.",
+      "Butuh AC untuk rumah, toko, kantor, usaha, atau banyak unit di Adipala? Radja AC bantu cek PK, stok, pengiriman, opsi pemasangan, dan pembayaran fleksibel.",
     h1: "Jual AC Adipala untuk Rumah, Toko & Usaha",
     eyebrow: "Area Cilacap",
     intro:
-      "Butuh AC di Adipala untuk rumah, toko, kantor, usaha, atau kebutuhan beberapa unit? Tim RADJA AC cek kebutuhan PK, daya listrik, stok brand, pengiriman, dan opsi pemasangan berdasarkan kondisi ruangan.",
+      "Butuh AC di Adipala untuk rumah, toko, kantor, usaha, atau kebutuhan beberapa unit? Tim Radja AC cek kebutuhan PK, daya listrik, stok brand, pengiriman, dan opsi pemasangan berdasarkan kondisi ruangan.",
     localContext:
       "Adipala adalah kecamatan pesisir di Cilacap—ada PLTU Adipala dan pantai selatan—dengan udara yang panas. Pembeli AC umumnya rumah dan toko yang gerah saat siang, kantor, serta vendor sekitar proyek pembangkit. Karena dekat laut, unit outdoor lebih cepat berkarat sehingga penempatannya diperhatikan. Untuk jual AC Adipala, unit dikirim ke alamat lalu dipasang, dengan pembayaran DP, COD, atau transfer setelah stok dipastikan.",
     coverageNote:
-      "Showroom dan gudang RADJA AC berada di Banyumas. Kebutuhan AC area Adipala dilayani dengan konsultasi PK, cek stok unit, pengiriman, serta opsi pemasangan sesuai alamat, jumlah unit, dan jadwal.",
+      "Showroom dan gudang Radja AC berada di Banyumas. Kebutuhan AC area Adipala dilayani dengan konsultasi PK, cek stok unit, pengiriman, serta opsi pemasangan sesuai alamat, jumlah unit, dan jadwal.",
     keywordVariants: [
       "AC rumah Adipala",
       "AC toko Adipala",
@@ -2133,7 +2133,7 @@ export const areaItems = [
       ["AC Low Watt", routes.katalogAcLowWatt],
       ["AC Inverter", routes.katalogAcInverter],
       ["Bukti Pengiriman & Proyek", routes.buktiPengirimanProyek],
-      ["Kontak RADJA AC", routes.kontak],
+      ["Kontak Radja AC", routes.kontak],
     ],
     ctaLabel: "Chat WhatsApp untuk cek AC Adipala",
     waIntent: "cek stok AC Adipala dengan data alamat ukuran ruangan daya listrik jumlah unit dan kebutuhan pemasangan",
@@ -2161,17 +2161,17 @@ export const areaItems = [
       ["Rumah tinggal", "Pemasangan AC kamar dengan unit dikirim ke alamat di Kebumen dan sekitarnya."],
     ],
     label: "Jual AC Kebumen",
-    title: "Jual AC Kebumen | Cek Stok, PK & Pemasangan — RADJA AC",
+    title: "Jual AC Kebumen | Cek Stok, PK & Pemasangan — Radja AC",
     description:
-      "Butuh AC untuk rumah, kost, kontrakan, toko, ruko, kantor, atau usaha di Kebumen? RADJA AC bantu cek PK, stok, pengiriman, dan opsi pemasangan.",
+      "Butuh AC untuk rumah, kost, kontrakan, toko, ruko, kantor, atau usaha di Kebumen? Radja AC bantu cek PK, stok, pengiriman, dan opsi pemasangan.",
     h1: "Jual AC Kebumen untuk rumah, kost, kontrakan, properti sewa, toko, ruko, dan kantor",
     eyebrow: "Layanan AC Area Kebumen",
     intro:
-      "Butuh AC di Kebumen untuk rumah, kamar, kost, kontrakan, properti sewa, toko, ruko, kantor, atau usaha harian? Tim RADJA AC membantu cek kebutuhan PK, daya listrik, pilihan brand, stok unit, pengiriman, dan opsi pemasangan sebelum pembelian.",
+      "Butuh AC di Kebumen untuk rumah, kamar, kost, kontrakan, properti sewa, toko, ruko, kantor, atau usaha harian? Tim Radja AC membantu cek kebutuhan PK, daya listrik, pilihan brand, stok unit, pengiriman, dan opsi pemasangan sebelum pembelian.",
     localContext:
       "Kebumen adalah kota kabupaten bercorak dagang dan pertanian—dikenal dengan genteng Sokka dan pesisir selatannya—dengan pusat pertokoan di sekitar alun-alun. Pembeli AC di sini banyak dari rumah dan kos/kontrakan, properti sewa, serta toko dan ruko di pusat kota. Kos dan rumah sewa biasanya cari unit hemat untuk banyak kamar, sedangkan toko butuh ruang yang adem buat pembeli. Untuk jual AC Kebumen, unit dikirim ke alamat lalu dipasang, dengan pembayaran DP, COD, atau transfer setelah stok dipastikan.",
     coverageNote:
-      "Showroom dan gudang RADJA AC ada di Banyumas. Untuk kebutuhan AC area Kebumen, stok unit, pengiriman, dan opsi pemasangan dikonfirmasi berdasarkan alamat, jumlah unit, akses lokasi, dan jadwal.",
+      "Showroom dan gudang Radja AC ada di Banyumas. Untuk kebutuhan AC area Kebumen, stok unit, pengiriman, dan opsi pemasangan dikonfirmasi berdasarkan alamat, jumlah unit, akses lokasi, dan jadwal.",
     commonNeeds: [
       "AC rumah, kamar tidur, dan ruang keluarga di Kebumen",
       "AC kost, kontrakan, properti sewa, dan rumah sewa",
@@ -2200,8 +2200,8 @@ export const areaItems = [
       ["AC Split Rumah", routes.katalogAcSplitRumah],
       ["AC Gree", routes.brandGree],
       ["Bukti Pengiriman & Proyek", routes.buktiPengirimanProyek],
-      ["Tentang RADJA AC", routes.tentangKami],
-      ["Kontak RADJA AC", routes.kontak],
+      ["Tentang Radja AC", routes.tentangKami],
+      ["Kontak Radja AC", routes.kontak],
     ],
     ctaLabel: "Chat WhatsApp untuk cek pengiriman AC Kebumen",
     waIntent: "cek pengiriman dan stok AC Kebumen dengan data ukuran ruangan daya listrik jumlah unit alamat anggaran dan kebutuhan pemasangan",
@@ -2226,9 +2226,9 @@ export const areaItems = [
       ["Wangon", routes.jualAcWangon],
     ],
     trustBullets: [
-      "Showroom dan gudang RADJA AC ada di Banyumas.",
+      "Showroom dan gudang Radja AC ada di Banyumas.",
       "Kebutuhan AC Kebumen dicek dari ukuran ruangan, daya listrik, jumlah unit, stok aktif, pengiriman, dan opsi pemasangan.",
-      "Bukti aktivitas RADJA AC bisa dicek melalui dokumentasi showroom, stok fisik, pengiriman, dan pemasangan.",
+      "Bukti aktivitas Radja AC bisa dicek melalui dokumentasi showroom, stok fisik, pengiriman, dan pemasangan.",
     ],
     localFaq: [
       [
@@ -2271,17 +2271,17 @@ export const areaItems = [
       ["Kos pekerja & rumah", "AC kos dan rumah dengan pilihan low watt; unit dikirim ke alamat Tegal atau Slawi lalu dipasang."],
     ],
     label: "Jual AC Tegal",
-    title: "Jual AC Tegal & Slawi | Cek Stok & Pengiriman — RADJA AC",
+    title: "Jual AC Tegal & Slawi | Cek Stok & Pengiriman — Radja AC",
     description:
-      "Butuh AC untuk rumah, toko, kantor, proyek, atau banyak unit di Tegal dan Slawi? RADJA AC bantu cek PK, stok, pengiriman, dan opsi pemasangan.",
+      "Butuh AC untuk rumah, toko, kantor, proyek, atau banyak unit di Tegal dan Slawi? Radja AC bantu cek PK, stok, pengiriman, dan opsi pemasangan.",
     h1: "Jual AC Tegal dan Slawi untuk rumah, toko, kantor, usaha, proyek, dan banyak unit",
     eyebrow: "Layanan AC Area Tegal & Slawi",
     intro:
-      "Butuh AC di Tegal atau Slawi untuk rumah, toko, kantor, ruko, usaha, proyek, pengadaan, atau banyak unit? Tim RADJA AC membantu cek kebutuhan PK, daya listrik, pilihan brand, stok unit, pengiriman, dan opsi pemasangan berdasarkan area serta kebutuhan.",
+      "Butuh AC di Tegal atau Slawi untuk rumah, toko, kantor, ruko, usaha, proyek, pengadaan, atau banyak unit? Tim Radja AC membantu cek kebutuhan PK, daya listrik, pilihan brand, stok unit, pengiriman, dan opsi pemasangan berdasarkan area serta kebutuhan.",
     localContext:
       "Tegal dan Slawi terkenal sebagai pusat industri logam—bengkel dan pabrik kecil di Adiwerna dan Talang—plus jalur Pantura yang ramai dagang dan kuliner. Permintaan AC datang dari kantor dan workshop, ruko dan toko di Pantura, kos pekerja, serta rumah; banyak usaha butuh pengadaan beberapa unit sekaligus. Udara Pantura yang panas dan lembap membuat ruang kerja cepat gerah, sehingga jual AC Tegal sering soal mendinginkan ruang usaha yang sibuk. Unit dikirim ke alamat Tegal atau Slawi lalu dipasang, dengan pembayaran DP, transfer, atau termin untuk pengadaan.",
     coverageNote:
-      "Showroom dan gudang RADJA AC ada di Banyumas. Untuk kebutuhan AC area Tegal dan Slawi, stok unit, pengiriman, serta opsi pemasangan dikonfirmasi berdasarkan alamat, jumlah unit, akses lokasi, dan jadwal.",
+      "Showroom dan gudang Radja AC ada di Banyumas. Untuk kebutuhan AC area Tegal dan Slawi, stok unit, pengiriman, serta opsi pemasangan dikonfirmasi berdasarkan alamat, jumlah unit, akses lokasi, dan jadwal.",
     commonNeeds: [
       "AC rumah tinggal, kamar tidur, dan ruang keluarga di Tegal atau Slawi",
       "AC toko, ruko, kantor, dan ruang usaha",
@@ -2308,8 +2308,8 @@ export const areaItems = [
       ["AC Daikin", routes.brandDaikin],
       ["AC Gree", routes.brandGree],
       ["Bukti Pengiriman & Proyek", routes.buktiPengirimanProyek],
-      ["Tentang RADJA AC", routes.tentangKami],
-      ["Kontak RADJA AC", routes.kontak],
+      ["Tentang Radja AC", routes.tentangKami],
+      ["Kontak Radja AC", routes.kontak],
     ],
     ctaLabel: "Chat WhatsApp untuk cek pengiriman AC Tegal",
     waIntent: "cek pengiriman dan stok AC Tegal atau Slawi dengan data area ukuran ruangan daya listrik jumlah unit alamat anggaran dan kebutuhan pemasangan",
@@ -2335,9 +2335,9 @@ export const areaItems = [
       ["Banjarnegara", routes.jualAcBanjarnegara],
     ],
     trustBullets: [
-      "Showroom dan gudang RADJA AC ada di Banyumas.",
+      "Showroom dan gudang Radja AC ada di Banyumas.",
       "Kebutuhan AC Tegal dan Slawi dicek dari area detail, ukuran ruangan, daya listrik, jumlah unit, stok aktif, pengiriman, dan opsi pemasangan.",
-      "Bukti aktivitas RADJA AC bisa dicek melalui dokumentasi showroom, stok fisik, pengiriman, dan pemasangan.",
+      "Bukti aktivitas Radja AC bisa dicek melalui dokumentasi showroom, stok fisik, pengiriman, dan pemasangan.",
     ],
     localFaq: [
       [
@@ -2380,17 +2380,17 @@ export const areaItems = [
       ["Usaha keramik & kuliner", "AC ruang pamer atau ruang makan, dengan unit dikirim lalu dipasang."],
     ],
     label: "Jual AC Banjarnegara",
-    title: "Jual AC Banjarnegara untuk Rumah, Kost, Toko & Usaha — RADJA AC",
+    title: "Jual AC Banjarnegara untuk Rumah, Kost, Toko & Usaha — Radja AC",
     description:
-      "Butuh AC untuk rumah, kost, toko, kantor, atau usaha di Banjarnegara? RADJA AC cek stok, kebutuhan PK, pengiriman unit, dan opsi pemasangan via WhatsApp.",
+      "Butuh AC untuk rumah, kost, toko, kantor, atau usaha di Banjarnegara? Radja AC cek stok, kebutuhan PK, pengiriman unit, dan opsi pemasangan via WhatsApp.",
     h1: "Jual AC Banjarnegara untuk Rumah, Kost, Toko & Usaha",
     eyebrow: "Area Regional Bertahap",
     intro:
-      "Butuh AC di Banjarnegara untuk rumah, kamar, kost, toko, kantor, atau usaha? Tim RADJA AC cek PK, daya listrik, brand, stok, pengiriman, dan pemasangan dari data awal.",
+      "Butuh AC di Banjarnegara untuk rumah, kamar, kost, toko, kantor, atau usaha? Tim Radja AC cek PK, daya listrik, brand, stok, pengiriman, dan pemasangan dari data awal.",
     localContext:
       "Banjarnegara punya dua wajah: kota dataran yang panas di sekitar alun-alun dan sentra keramik Klampok, serta dataran tinggi Dieng yang justru sejuk. Permintaan AC datang dari kota bawah—rumah, kos, toko, dan kantor—sedangkan kawasan Dieng nyaris tidak perlu AC karena dinginnya. Jadi jual AC Banjarnegara fokus ke permukiman dan usaha di dataran rendah yang gerah saat siang. Unit dikirim ke alamat lalu dipasang, dengan pembayaran DP, COD, atau transfer setelah stok dipastikan.",
     coverageNote:
-      "Showroom dan gudang RADJA AC berada di Banyumas. Kebutuhan AC area Banjarnegara dilayani dengan konsultasi PK, cek stok unit, pengiriman, dan opsi pemasangan sesuai alamat, jumlah unit, serta jadwal.",
+      "Showroom dan gudang Radja AC berada di Banyumas. Kebutuhan AC area Banjarnegara dilayani dengan konsultasi PK, cek stok unit, pengiriman, dan opsi pemasangan sesuai alamat, jumlah unit, serta jadwal.",
     keywordVariants: [
       "AC rumah dan kamar tidur",
       "AC toko dan ruang usaha",
@@ -2471,13 +2471,13 @@ export const areaItems = [
         ["Rumah & bangunan lama", "Pengecekan daya listrik dulu, lalu pengiriman unit dan pemasangan ke alamat di Gombong."]
       ],
       "label": "Jual AC Gombong",
-      "title": "Jual AC Gombong untuk Rumah, Toko & Usaha — RADJA AC",
-      "description": "Butuh AC untuk rumah, toko, kantor, usaha, atau banyak unit di Gombong? RADJA AC bantu cek PK, stok, pengiriman unit, opsi pemasangan, dan pembayaran fleksibel via WhatsApp.",
+      "title": "Jual AC Gombong untuk Rumah, Toko & Usaha — Radja AC",
+      "description": "Butuh AC untuk rumah, toko, kantor, usaha, atau banyak unit di Gombong? Radja AC bantu cek PK, stok, pengiriman unit, opsi pemasangan, dan pembayaran fleksibel via WhatsApp.",
       "h1": "Jual AC Gombong untuk Rumah, Toko & Usaha",
       "eyebrow": "Area Kebumen",
-      "intro": "Butuh AC di Gombong untuk rumah, kamar, toko, kantor, usaha, atau banyak unit? Tim RADJA AC membantu cek kebutuhan PK, daya listrik, pilihan brand, stok unit, pengiriman, dan opsi pemasangan berdasarkan data awal.",
+      "intro": "Butuh AC di Gombong untuk rumah, kamar, toko, kantor, usaha, atau banyak unit? Tim Radja AC membantu cek kebutuhan PK, daya listrik, pilihan brand, stok unit, pengiriman, dan opsi pemasangan berdasarkan data awal.",
       "localContext": "Gombong adalah kota dagang dan transit di barat Kebumen, dikenal dengan Benteng Van der Wijck, Stasiun Gombong, dan deretan pertokoan tua di pusat kota. Pembeli AC di sini banyak dari pemilik ruko dan toko di sekitar pasar, klinik dan rumah sakit, hotel kecil, serta rumah. Bangunan lama di pusat kota sering perlu cek daya listrik dulu sebelum menambah unit. Untuk jual AC Gombong, unit dikirim ke alamat lalu dipasang, dengan pembayaran DP, COD, atau transfer setelah stok dipastikan.",
-      "coverageNote": "Showroom dan gudang RADJA AC berada di Banyumas. Kebutuhan AC area Gombong dilayani dengan konsultasi PK, cek stok unit, pengiriman, dan opsi pemasangan sesuai alamat, jumlah unit, akses lokasi, serta jadwal.",
+      "coverageNote": "Showroom dan gudang Radja AC berada di Banyumas. Kebutuhan AC area Gombong dilayani dengan konsultasi PK, cek stok unit, pengiriman, dan opsi pemasangan sesuai alamat, jumlah unit, akses lokasi, serta jadwal.",
       "keywordVariants": [
           "AC untuk kamar dan ruang keluarga di Gombong",
           "Cek pilihan AC untuk toko atau ruko area Gombong",
@@ -2510,7 +2510,7 @@ export const areaItems = [
           "Gombong diposisikan sebagai area Kebumen dengan kebutuhan AC rumah, toko, ruko, kantor kecil, dan usaha lokal.",
           "Kebutuhan AC dibaca dari ukuran ruangan, daya listrik, jumlah unit, stok aktif, dan alamat detail.",
           "Pengiriman dan opsi pemasangan dikonfirmasi berdasarkan lokasi, akses pekerjaan, jumlah unit, dan jadwal yang memungkinkan.",
-          "Tidak ada klaim toko/cabang/showroom lokal di Gombong; konsultasi diarahkan sebagai layanan cek stok dan pengiriman RADJA AC."
+          "Tidak ada klaim toko/cabang/showroom lokal di Gombong; konsultasi diarahkan sebagai layanan cek stok dan pengiriman Radja AC."
       ],
       "localFaq": [
           [
@@ -2569,7 +2569,7 @@ export const areaItems = [
               "/kalkulator-pk-ac"
           ],
           [
-              "Kontak RADJA AC",
+              "Kontak Radja AC",
               "/kontak"
           ]
       ],
@@ -2599,13 +2599,13 @@ export const areaItems = [
         ["Kantor kecil & ruang layanan", "Pemilihan unit untuk ruang kerja dengan pengiriman ke alamat Karanganyar, Kebumen."]
       ],
       "label": "Jual AC Karanganyar Kebumen",
-      "title": "Jual AC Karanganyar Kebumen untuk Rumah, Toko & Usaha — RADJA AC",
-      "description": "Butuh AC untuk rumah, toko, kantor, usaha, atau banyak unit di Karanganyar Kebumen? RADJA AC bantu cek PK, stok, pengiriman unit, opsi pemasangan, dan pembayaran fleksibel via WhatsApp.",
+      "title": "Jual AC Karanganyar Kebumen untuk Rumah, Toko & Usaha — Radja AC",
+      "description": "Butuh AC untuk rumah, toko, kantor, usaha, atau banyak unit di Karanganyar Kebumen? Radja AC bantu cek PK, stok, pengiriman unit, opsi pemasangan, dan pembayaran fleksibel via WhatsApp.",
       "h1": "Jual AC Karanganyar Kebumen untuk Rumah, Toko & Usaha",
       "eyebrow": "Area Kebumen",
-      "intro": "Butuh AC di Karanganyar Kebumen untuk rumah, kamar, toko, kantor, usaha, atau banyak unit? Tim RADJA AC membantu cek kebutuhan PK, daya listrik, pilihan brand, stok unit, pengiriman, dan opsi pemasangan berdasarkan data awal.",
+      "intro": "Butuh AC di Karanganyar Kebumen untuk rumah, kamar, toko, kantor, usaha, atau banyak unit? Tim Radja AC membantu cek kebutuhan PK, daya listrik, pilihan brand, stok unit, pengiriman, dan opsi pemasangan berdasarkan data awal.",
       "localContext": "Karanganyar di sini adalah kecamatan di Kabupaten Kebumen pada jalur Gombong–Kebumen—bukan Karanganyar dekat Solo. Wilayahnya dagang-pertanian, dengan toko, rumah, dan usaha kecil di sepanjang jalur jalan dan rel selatan. Pembeli AC umumnya rumah tinggal dan toko yang gerah saat siang, dengan daya listrik rumahan. Untuk jual AC Karanganyar Kebumen, unit dikirim ke alamat lalu dipasang, dengan pembayaran DP, COD, atau transfer setelah stok dipastikan.",
-      "coverageNote": "Showroom dan gudang RADJA AC berada di Banyumas. Kebutuhan AC area Karanganyar Kebumen dilayani dengan konsultasi PK, cek stok unit, pengiriman, dan opsi pemasangan sesuai alamat, jumlah unit, akses lokasi, serta jadwal.",
+      "coverageNote": "Showroom dan gudang Radja AC berada di Banyumas. Kebutuhan AC area Karanganyar Kebumen dilayani dengan konsultasi PK, cek stok unit, pengiriman, dan opsi pemasangan sesuai alamat, jumlah unit, akses lokasi, serta jadwal.",
       "keywordVariants": [
           "AC untuk rumah area Karanganyar Kebumen",
           "Cek pilihan AC toko, warung, atau ruko kecil",
@@ -2697,7 +2697,7 @@ export const areaItems = [
               "/kalkulator-pk-ac"
           ],
           [
-              "Kontak RADJA AC",
+              "Kontak Radja AC",
               "/kontak"
           ]
       ],
@@ -2727,13 +2727,13 @@ export const areaItems = [
         ["Kantor kecil", "Pemilihan unit ruang kerja dengan pengiriman ke alamat Kutowinangun."]
       ],
       "label": "Jual AC Kutowinangun",
-      "title": "Jual AC Kutowinangun untuk Rumah, Toko & Usaha — RADJA AC",
-      "description": "Butuh AC untuk rumah, toko, kantor, usaha, atau banyak unit di Kutowinangun? RADJA AC bantu cek PK, stok, pengiriman unit, opsi pemasangan, dan pembayaran fleksibel via WhatsApp.",
+      "title": "Jual AC Kutowinangun untuk Rumah, Toko & Usaha — Radja AC",
+      "description": "Butuh AC untuk rumah, toko, kantor, usaha, atau banyak unit di Kutowinangun? Radja AC bantu cek PK, stok, pengiriman unit, opsi pemasangan, dan pembayaran fleksibel via WhatsApp.",
       "h1": "Jual AC Kutowinangun untuk Rumah, Toko & Usaha",
       "eyebrow": "Area Kebumen",
-      "intro": "Butuh AC di Kutowinangun untuk rumah, kamar, toko, kantor, usaha, atau banyak unit? Tim RADJA AC membantu cek kebutuhan PK, daya listrik, pilihan brand, stok unit, pengiriman, dan opsi pemasangan berdasarkan data awal.",
+      "intro": "Butuh AC di Kutowinangun untuk rumah, kamar, toko, kantor, usaha, atau banyak unit? Tim Radja AC membantu cek kebutuhan PK, daya listrik, pilihan brand, stok unit, pengiriman, dan opsi pemasangan berdasarkan data awal.",
       "localContext": "Kutowinangun adalah kecamatan dagang-pertanian di timur Kebumen, di jalur jalan dan rel selatan menuju Prembun. Toko, rumah, dan kantor kecil berjajar di sepanjang jalur, dan pembeli AC umumnya rumah tinggal serta toko yang gerah saat siang dengan daya listrik rumahan. Untuk jual AC Kutowinangun, unit dikirim ke alamat lalu dipasang, dengan pembayaran DP, COD, atau transfer setelah stok dipastikan.",
-      "coverageNote": "Showroom dan gudang RADJA AC berada di Banyumas. Kebutuhan AC area Kutowinangun dilayani dengan konsultasi PK, cek stok unit, pengiriman, dan opsi pemasangan sesuai alamat, jumlah unit, akses lokasi, serta jadwal.",
+      "coverageNote": "Showroom dan gudang Radja AC berada di Banyumas. Kebutuhan AC area Kutowinangun dilayani dengan konsultasi PK, cek stok unit, pengiriman, dan opsi pemasangan sesuai alamat, jumlah unit, akses lokasi, serta jadwal.",
       "keywordVariants": [
           "AC untuk kamar dan rumah area Kutowinangun",
           "Cek pilihan AC toko, warung, atau ruko kecil",
@@ -2825,7 +2825,7 @@ export const areaItems = [
               "/kalkulator-pk-ac"
           ],
           [
-              "Kontak RADJA AC",
+              "Kontak Radja AC",
               "/kontak"
           ]
       ],
@@ -2857,13 +2857,13 @@ export const areaItems = [
       ["Tambah unit bertahap", "Keluarga atau pemilik kos menambah AC per kamar mengikuti anggaran."],
     ],
     label: "Jual AC Sumbang",
-    title: "Jual AC Sumbang untuk Rumah, Kost & Usaha — RADJA AC",
+    title: "Jual AC Sumbang untuk Rumah, Kost & Usaha — Radja AC",
     description:
-      "Butuh AC untuk rumah, kost, toko, kantor kecil, atau usaha di Sumbang? RADJA AC cek kebutuhan PK, stok, pengiriman unit, dan opsi pemasangan via WhatsApp.",
+      "Butuh AC untuk rumah, kost, toko, kantor kecil, atau usaha di Sumbang? Radja AC cek kebutuhan PK, stok, pengiriman unit, dan opsi pemasangan via WhatsApp.",
     h1: "Jual AC Sumbang untuk Rumah, Kost & Usaha",
     eyebrow: "Area Banyumas Utara / Timur",
     intro:
-      "Butuh AC di Sumbang untuk rumah, kost, kontrakan, toko, kantor kecil, atau usaha? Tim RADJA AC cek ukuran ruangan, daya listrik, pilihan brand, stok unit, pengiriman, dan opsi pemasangan sebelum pembelian.",
+      "Butuh AC di Sumbang untuk rumah, kost, kontrakan, toko, kantor kecil, atau usaha? Tim Radja AC cek ukuran ruangan, daya listrik, pilihan brand, stok unit, pengiriman, dan opsi pemasangan sebelum pembelian.",
     parentAreaName: "Banyumas",
     parentAreaPath: routes.jualAcBanyumas,
     priority: "P1",
@@ -2902,7 +2902,7 @@ export const areaItems = [
       "Sumbang diposisikan sebagai ring utara/timur Purwokerto yang masih dekat dengan basis layanan Banyumas.",
       "Kebutuhan AC dibaca dari ukuran ruangan, daya listrik, jumlah unit, stok aktif, dan alamat detail.",
       "Pengiriman dan opsi pemasangan dikonfirmasi dari data lokasi, akses pekerjaan, dan jadwal yang memungkinkan.",
-      "Tidak ada klaim cabang lokal; konsultasi tetap diarahkan ke showroom dan gudang RADJA AC di Banyumas.",
+      "Tidak ada klaim cabang lokal; konsultasi tetap diarahkan ke showroom dan gudang Radja AC di Banyumas.",
     ],
     localFaqOverride: [
       [
@@ -2929,7 +2929,7 @@ export const areaItems = [
       ["Jual AC Baturraden", routes.jualAcBaturraden],
       ["Katalog AC", routes.katalog],
       ["Kalkulator PK AC", routes.kalkulatorPkAc],
-      ["Kontak RADJA AC", routes.kontak],
+      ["Kontak Radja AC", routes.kontak],
     ],
   },
   {
@@ -2956,13 +2956,13 @@ export const areaItems = [
       ["Properti sewa & usaha", "Pemilihan unit untuk kamar sewa atau ruang usaha, dikirim ke alamat lalu dipasang."],
     ],
     label: "Jual AC Kedungbanteng",
-    title: "Jual AC Kedungbanteng untuk Rumah, Villa & Usaha — RADJA AC",
+    title: "Jual AC Kedungbanteng untuk Rumah, Villa & Usaha — Radja AC",
     description:
-      "Butuh AC untuk rumah, villa, homestay, toko, kantor kecil, atau usaha di Kedungbanteng? RADJA AC cek PK, stok, pengiriman, dan opsi pemasangan.",
+      "Butuh AC untuk rumah, villa, homestay, toko, kantor kecil, atau usaha di Kedungbanteng? Radja AC cek PK, stok, pengiriman, dan opsi pemasangan.",
     h1: "Jual AC Kedungbanteng untuk Rumah, Villa & Usaha",
     eyebrow: "Area Banyumas Utara-Barat",
     intro:
-      "Butuh AC di Kedungbanteng untuk rumah, villa, homestay kecil, toko, kantor kecil, atau usaha lokal? Tim RADJA AC membantu cek ukuran ruangan, daya listrik, stok, pilihan brand, pengiriman, dan opsi pemasangan dari data awal.",
+      "Butuh AC di Kedungbanteng untuk rumah, villa, homestay kecil, toko, kantor kecil, atau usaha lokal? Tim Radja AC membantu cek ukuran ruangan, daya listrik, stok, pilihan brand, pengiriman, dan opsi pemasangan dari data awal.",
     parentAreaName: "Banyumas",
     parentAreaPath: routes.jualAcBanyumas,
     priority: "P1",
@@ -3001,7 +3001,7 @@ export const areaItems = [
       "Kedungbanteng diposisikan sebagai ring utara-barat Purwokerto yang dekat dengan Baturraden dan Karanglewas.",
       "Cocok untuk kebutuhan rumah, usaha lokal, properti sewa, dan beberapa unit dengan pengecekan PK lebih dulu.",
       "Stok, pengiriman, dan opsi pemasangan dikonfirmasi berdasarkan data lokasi dan jumlah unit.",
-      "Tidak ada klaim showroom lokal; bukti operasional tetap mengacu ke RADJA AC Banyumas.",
+      "Tidak ada klaim showroom lokal; bukti operasional tetap mengacu ke Radja AC Banyumas.",
     ],
     localFaqOverride: [
       [
@@ -3028,7 +3028,7 @@ export const areaItems = [
       ["Jual AC Baturraden", routes.jualAcBaturraden],
       ["AC Inverter", routes.katalogAcInverter],
       ["Kalkulator PK AC", routes.kalkulatorPkAc],
-      ["Kontak RADJA AC", routes.kontak],
+      ["Kontak Radja AC", routes.kontak],
     ],
   },
   {
@@ -3036,13 +3036,13 @@ export const areaItems = [
     path: routes.jualAcKalibagor,
     areaName: "Kalibagor",
     localContext:
-      "Kalibagor ada di jalur Banyumas–Sokaraja, daerah dagang dan pertanian dengan jejak bekas Pabrik Gula Kalibagor. Karena posisinya dekat basis layanan RADJA AC di Sokaraja, pengiriman unit dan survei lokasi relatif mudah. Pembeli AC di sini umumnya rumah, toko, dan kantor desa yang gerah saat siang. Untuk jual AC Kalibagor, unit diantar ke alamat lalu dipasang, dengan pembayaran DP, COD, atau transfer setelah stok dipastikan.",
+      "Kalibagor ada di jalur Banyumas–Sokaraja, daerah dagang dan pertanian dengan jejak bekas Pabrik Gula Kalibagor. Karena posisinya dekat basis layanan Radja AC di Sokaraja, pengiriman unit dan survei lokasi relatif mudah. Pembeli AC di sini umumnya rumah, toko, dan kantor desa yang gerah saat siang. Untuk jual AC Kalibagor, unit diantar ke alamat lalu dipasang, dengan pembayaran DP, COD, atau transfer setelah stok dipastikan.",
     localLandmarks: [
       "Bekas Pabrik Gula Kalibagor",
       "Jalur Banyumas–Sokaraja",
       "Pasar Kalibagor",
       "Aliran Sungai Serayu",
-      "Dekat basis layanan RADJA AC di Sokaraja",
+      "Dekat basis layanan Radja AC di Sokaraja",
     ],
     localBenefits: [
       "Dekat basis layanan di Sokaraja sehingga pengiriman unit dan survei lokasi gampang dijadwalkan",
@@ -3055,13 +3055,13 @@ export const areaItems = [
       ["Kantor kecil & usaha", "Pemilihan unit ruang kerja dengan pengiriman cepat ke alamat Kalibagor."],
     ],
     label: "Jual AC Kalibagor",
-    title: "Jual AC Kalibagor untuk Rumah, Toko & Usaha — RADJA AC",
+    title: "Jual AC Kalibagor untuk Rumah, Toko & Usaha — Radja AC",
     description:
-      "Butuh AC untuk rumah, toko, kantor kecil, ruko, atau usaha di Kalibagor? RADJA AC cek kebutuhan PK, stok, pengiriman unit, dan opsi pemasangan via WhatsApp.",
+      "Butuh AC untuk rumah, toko, kantor kecil, ruko, atau usaha di Kalibagor? Radja AC cek kebutuhan PK, stok, pengiriman unit, dan opsi pemasangan via WhatsApp.",
     h1: "Jual AC Kalibagor untuk Rumah, Toko & Usaha",
     eyebrow: "Jalur Banyumas - Sokaraja",
     intro:
-      "Butuh AC di Kalibagor untuk rumah, toko, kantor kecil, ruko, atau usaha? Tim RADJA AC cek ukuran ruangan, daya listrik, pilihan brand, stok unit, pengiriman, dan opsi pemasangan sebelum pembelian.",
+      "Butuh AC di Kalibagor untuk rumah, toko, kantor kecil, ruko, atau usaha? Tim Radja AC cek ukuran ruangan, daya listrik, pilihan brand, stok unit, pengiriman, dan opsi pemasangan sebelum pembelian.",
     parentAreaName: "Banyumas",
     parentAreaPath: routes.jualAcBanyumas,
     priority: "P1",
@@ -3100,7 +3100,7 @@ export const areaItems = [
       "Kalibagor diposisikan sebagai child area jalur Banyumas-Sokaraja.",
       "Kebutuhan AC cocok dimulai dari cek ukuran ruangan, daya listrik, stok aktif, dan pilihan brand.",
       "Pengiriman serta opsi pemasangan dikonfirmasi berdasarkan alamat detail dan kondisi lokasi.",
-      "Konsultasi tetap diarahkan ke RADJA AC Banyumas tanpa klaim toko/cabang lokal.",
+      "Konsultasi tetap diarahkan ke Radja AC Banyumas tanpa klaim toko/cabang lokal.",
     ],
     localFaqOverride: [
       [
@@ -3127,7 +3127,7 @@ export const areaItems = [
       ["Jual AC Purwokerto", routes.jualAcPurwokerto],
       ["AC 1/2 PK", routes.katalogAcSetengahPk],
       ["Kalkulator PK AC", routes.kalkulatorPkAc],
-      ["Kontak RADJA AC", routes.kontak],
+      ["Kontak Radja AC", routes.kontak],
     ],
   },
 

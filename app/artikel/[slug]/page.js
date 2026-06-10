@@ -87,7 +87,7 @@ export default async function ArticleDetailPage({ params }) {
 
   const relatedArticles = pickRelatedArticles(item);
   const moneyLinks = moneyLinksBySlug[item.slug] || item.relatedLinks?.map(([label, href]) => [label, href, "Buka halaman terkait untuk lanjut dari artikel ke kebutuhan pembelian."]) || defaultMoneyLinks;
-  const keywords = item.keywords?.length ? item.keywords : [item.eyebrow, "AC", "RADJA AC"];
+  const keywords = item.keywords?.length ? item.keywords : [item.eyebrow, "AC", "Radja AC"];
 
   const articleUrl = absoluteSiteUrl(item.path);
   const structuredData = [

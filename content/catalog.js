@@ -5,9 +5,9 @@ export const catalogItems = [
     slug: "ac-1-2-pk",
     path: routes.katalogAcSetengahPk,
     label: "AC 1/2 PK",
-    title: "AC 1/2 PK | Cocok untuk Kamar Berapa & Pilihan Unit — RADJA AC",
+    title: "AC 1/2 PK | Cocok untuk Kamar Berapa & Pilihan Unit — Radja AC",
     description:
-      "Konsultasi AC 1/2 PK untuk kamar, kost, ruang kerja, dan kebutuhan rumah. Tim RADJA AC membaca ukuran ruangan, daya listrik, stok unit, pengiriman, dan kebutuhan pemasangan.",
+      "Konsultasi AC 1/2 PK untuk kamar, kost, ruang kerja, dan kebutuhan rumah. Tim Radja AC membaca ukuran ruangan, daya listrik, stok unit, pengiriman, dan kebutuhan pemasangan.",
     h1: "AC 1/2 PK untuk kamar, kost, dan ruang kerja",
     eyebrow: "Katalog Kapasitas",
     intro:
@@ -122,7 +122,7 @@ export const catalogItems = [
     slug: "ac-1-pk",
     path: routes.katalogAcSatuPk,
     label: "AC 1 PK",
-    title: "AC 1 PK | Cocok untuk Ruangan Berapa & Pilihan Unit — RADJA AC",
+    title: "AC 1 PK | Cocok untuk Ruangan Berapa & Pilihan Unit — Radja AC",
     description:
       "Konsultasi AC 1 PK untuk kamar besar, ruang kerja, ruang tamu kecil, kost, dan toko kecil. Cek ukuran ruangan, daya listrik, stok, garansi, pembayaran, pengiriman, dan opsi pemasangan.",
     h1: "AC 1 PK untuk kamar besar, ruang kerja, dan ruang tamu kecil",
@@ -172,7 +172,7 @@ export const catalogItems = [
     slug: "ac-1-5-pk",
     path: routes.katalogAcSatuSetengahPk,
     label: "AC 1.5 PK",
-    title: "AC 1.5 PK | Untuk Ruangan Lebih Besar — RADJA AC",
+    title: "AC 1.5 PK | Untuk Ruangan Lebih Besar — Radja AC",
     description:
       "Konsultasi AC 1.5 PK untuk ruang keluarga, kantor kecil, cafe kecil, toko, dan ruangan sekitar 18–24 m². Cek daya listrik, brand, stok, garansi, pembayaran, pengiriman, dan opsi pemasangan.",
     h1: "AC 1.5 PK untuk ruang keluarga, kantor kecil, cafe kecil, dan toko",
@@ -222,7 +222,7 @@ export const catalogItems = [
     slug: "ac-2-pk",
     path: routes.katalogAcDuaPk,
     label: "AC 2 PK",
-    title: "AC 2 PK | Untuk Ruang Keluarga, Ruko & Kantor — RADJA AC",
+    title: "AC 2 PK | Untuk Ruang Keluarga, Ruko & Kantor — Radja AC",
     description:
       "Konsultasi AC 2 PK untuk ruang tamu besar, kantor, meeting room, ruko, toko, dan kebutuhan usaha. Cek daya listrik, tipe unit, stok, garansi, pembayaran, pengiriman, dan opsi pemasangan.",
     h1: "AC 2 PK untuk kantor, ruko, ruang besar, dan kebutuhan usaha",
@@ -272,7 +272,7 @@ export const catalogItems = [
     slug: "ac-split-rumah",
     path: routes.katalogAcSplitRumah,
     label: "AC Split Rumah",
-    title: "AC Split Rumah | Untuk Kamar, Ruang Keluarga & Rumah Tinggal — RADJA AC",
+    title: "AC Split Rumah | Untuk Kamar, Ruang Keluarga & Rumah Tinggal — Radja AC",
     description:
       "Konsultasi AC split rumah untuk kamar, ruang keluarga, rumah, kost, dan kontrakan. Cek kebutuhan PK, daya listrik, stok, pengiriman, dan opsi pemasangan.",
     h1: "AC split rumah untuk kamar, ruang keluarga, dan pemakaian rutin",
@@ -299,7 +299,7 @@ export const catalogItems = [
     slug: "ac-inverter",
     path: routes.katalogAcInverter,
     label: "AC Inverter",
-    title: "AC Inverter | Untuk Pemakaian Lama & Hemat Tarikan Listrik — RADJA AC",
+    title: "AC Inverter | Untuk Pemakaian Lama & Hemat Tarikan Listrik — Radja AC",
     description:
       "Konsultasi AC inverter untuk pemakaian lama, kamar, rumah, kantor, dan kebutuhan hemat listrik. Cek ukuran ruangan, jam pemakaian, daya listrik, stok, garansi, pembayaran, dan opsi pemasangan.",
     h1: "AC inverter untuk pemakaian lama dan kebutuhan hemat listrik",
@@ -344,7 +344,7 @@ export const catalogItems = [
     slug: "ac-low-watt",
     path: routes.katalogAcLowWatt,
     label: "AC Low Watt",
-    title: "AC Low Watt | Untuk Daya Listrik Terbatas — RADJA AC",
+    title: "AC Low Watt | Untuk Daya Listrik Terbatas — Radja AC",
     description:
       "Konsultasi AC low watt untuk rumah dengan daya listrik terbatas. Cek ukuran ruangan, daya listrik, MCB, pilihan brand, stok, garansi, pembayaran, pengiriman, dan opsi pemasangan.",
     h1: "AC low watt untuk rumah dengan daya listrik terbatas",
@@ -389,7 +389,7 @@ export const catalogItems = [
     slug: "ac-kantor-komersial",
     path: routes.katalogAcKantorKomersial,
     label: "AC Kantor & Komersial",
-    title: "AC Kantor & Komersial | Untuk Usaha, Showroom & Banyak Unit — RADJA AC",
+    title: "AC Kantor & Komersial | Untuk Usaha, Showroom & Banyak Unit — Radja AC",
     description:
       "Konsultasi AC kantor dan komersial untuk toko, ruko, cafe, klinik, showroom, hotel, proyek, dan banyak unit. Cek PK, tipe unit, stok, garansi, pembayaran, pengiriman, dan opsi pemasangan.",
     h1: "AC kantor & komersial untuk toko, ruko, cafe, hotel, dan proyek",

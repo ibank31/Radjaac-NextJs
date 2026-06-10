@@ -67,13 +67,13 @@ export default async function AreaPage({ params }) {
     ];
   const trustBullets =
     item.trustBullets ?? [
-      "Showroom dan gudang RADJA AC berada di Pamijen, Sokaraja, Banyumas.",
+      "Showroom dan gudang Radja AC berada di Pamijen, Sokaraja, Banyumas.",
       "Ada dokumentasi pengiriman, stok fisik, dan aktivitas pemasangan sebagai bukti operasional.",
       "Kebutuhan PK, daya listrik, stok, pengiriman, dan opsi pemasangan dicek sebelum pembelian.",
     ];
   const paymentNote =
     item.paymentNote ??
-    "Pembayaran fleksibel: COD, DP, atau transfer. Detail pembayaran dikonfirmasi bersama tim RADJA AC sebelum pengiriman atau pemasangan.";
+    "Pembayaran fleksibel: COD, DP, atau transfer. Detail pembayaran dikonfirmasi bersama tim Radja AC sebelum pengiriman atau pemasangan.";
 
   const heroChips = isPurwokerto
     ? ["Showroom Pamijen", "Stok dicek hari ini", "Unit + pemasangan", "Mulai 3 jutaan"]
@@ -82,18 +82,18 @@ export default async function AreaPage({ params }) {
   const bulkCards = [
     ["Rumah & Kamar", `Cek AC untuk kamar tidur, ruang keluarga, dan rumah tinggal di ${item.areaName}.`],
     ["Toko, Ruko & Usaha", `Bantu pilih AC untuk ruang usaha, area pelanggan, kantor, atau ruko di ${item.areaName}.`],
-    ["Kost & Banyak Unit", "Untuk banyak kamar, tim RADJA AC cek daya listrik, pilihan unit, stok, dan jadwal bertahap."],
+    ["Kost & Banyak Unit", "Untuk banyak kamar, tim Radja AC cek daya listrik, pilihan unit, stok, dan jadwal bertahap."],
   ];
 
   const valueItems = [
-    ["Cek stok & anggaran dulu", "Tim RADJA AC cek unit yang tersedia, pilihan brand, dan estimasi awal sebelum konfirmasi pembelian."],
+    ["Cek stok & anggaran dulu", "Tim Radja AC cek unit yang tersedia, pilihan brand, dan estimasi awal sebelum konfirmasi pembelian."],
     ["Bantu pilih PK", "Ukuran ruangan, daya listrik, jumlah orang, panas matahari, dan jam pemakaian ikut dipertimbangkan."],
     ["Pemasangan berdasarkan lokasi", "Panjang pipa, posisi outdoor, akses lokasi, dan tambahan material dibahas di awal."],
   ];
 
   const processSteps = [
     ["Kirim info awal", `Sebutkan area ${item.areaName}, ukuran ruangan, daya listrik, jumlah unit, anggaran, dan brand yang diminati.`],
-    ["Tim RADJA AC cek & rekomendasikan", "Stok dicek, PK dicocokkan, pilihan brand dibandingkan, dan estimasi dijelaskan."],
+    ["Tim Radja AC cek & rekomendasikan", "Stok dicek, PK dicocokkan, pilihan brand dibandingkan, dan estimasi dijelaskan."],
     ["Foto lokasi bila perlu", "Foto titik indoor dan outdoor membantu memperkirakan jalur pipa dan posisi outdoor."],
     ["Jadwal disusun setelah data cocok", "Setelah stok, estimasi, alamat, dan kebutuhan jelas, tim menyusun pengiriman atau opsi pemasangan."],
   ];
@@ -169,7 +169,7 @@ export default async function AreaPage({ params }) {
 
           <div className="relative mx-auto w-full max-w-[520px] lg:mr-0">
             <div className="overflow-hidden rounded-[1.7rem] border border-slate-200 bg-[#f7fbff]/75 p-3 shadow-[0_30px_90px_rgba(8,20,47,0.42)]">
-              <Image src="/photos/showroom/showroom-multibrand-radja-ac-purwokerto-01.webp" alt={`Showroom RADJA AC untuk konsultasi jual AC ${item.areaName}`} width={900} height={1100} className="h-[340px] w-full rounded-[1.35rem] object-cover object-center sm:h-[430px]" sizes="(min-width: 1024px) 520px, 100vw" priority />
+              <Image src="/photos/showroom/showroom-multibrand-radja-ac-purwokerto-01.webp" alt={`Showroom Radja AC untuk konsultasi jual AC ${item.areaName}`} width={900} height={1100} className="h-[340px] w-full rounded-[1.35rem] object-cover object-center sm:h-[430px]" sizes="(min-width: 1024px) 520px, 100vw" priority />
             </div>
             <div className="mt-3 grid grid-cols-2 gap-2.5 sm:gap-3">
               {proofImages.map(([label, src, alt]) => (
@@ -294,14 +294,14 @@ export default async function AreaPage({ params }) {
       </section>
 
       <section className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8 lg:py-12">
-        <SectionTitle eyebrow="KEBUTUHAN BANYAK UNIT" title={`Butuh AC banyak unit di ${item.areaName}? Jangan cari stok satu-satu.`} description={`Untuk toko, kost, ruko, kantor, rumah banyak ruangan, proyek, pengadaan, atau kebutuhan banyak unit di ${item.areaName}, RADJA AC mengecek stok, menyusun pilihan brand, estimasi anggaran, pengiriman, dan opsi pemasangan.`} />
+        <SectionTitle eyebrow="KEBUTUHAN BANYAK UNIT" title={`Butuh AC banyak unit di ${item.areaName}? Jangan cari stok satu-satu.`} description={`Untuk toko, kost, ruko, kantor, rumah banyak ruangan, proyek, pengadaan, atau kebutuhan banyak unit di ${item.areaName}, Radja AC mengecek stok, menyusun pilihan brand, estimasi anggaran, pengiriman, dan opsi pemasangan.`} />
         <div className="grid gap-5 md:grid-cols-3">
           {bulkCards.map(([title, description]) => <div key={title} className="rounded-[1.45rem] border border-slate-200 bg-white p-6 text-center"><div className="mx-auto mb-5 flex h-12 w-12 items-center justify-center rounded-2xl bg-blue-50 text-2xl text-blue-700">✓</div><h2 className={`mb-3 ${typography.sectionTitle} text-slate-950`}>{title}</h2><p className="text-sm leading-7 text-slate-600">{description}</p></div>)}
         </div>
       </section>
 
       <section className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8 lg:py-12">
-        <SectionTitle eyebrow="KONSULTASI PEMBELIAN" title="Anggaran murah tidak ada artinya kalau PK salah dan biaya pasang belum dihitung" description="Yang sering jadi masalah: PK tidak sesuai ruangan, biaya pasang belum jelas, atau stok kosong saat mau beli. RADJA AC kerja sebaliknya — stok dicek dulu, kebutuhan dihitung, estimasi dijelaskan sebelum pembelian." />
+        <SectionTitle eyebrow="KONSULTASI PEMBELIAN" title="Anggaran murah tidak ada artinya kalau PK salah dan biaya pasang belum dihitung" description="Yang sering jadi masalah: PK tidak sesuai ruangan, biaya pasang belum jelas, atau stok kosong saat mau beli. Radja AC kerja sebaliknya — stok dicek dulu, kebutuhan dihitung, estimasi dijelaskan sebelum pembelian." />
         <div className="grid gap-5 md:grid-cols-3">
           {valueItems.map(([title, description]) => <div key={title} className="rounded-[1.45rem] border border-slate-200 bg-white p-6 text-center"><div className="mx-auto mb-5 flex h-12 w-12 items-center justify-center rounded-2xl bg-blue-50 text-2xl text-blue-700">✓</div><h2 className={`mb-3 ${typography.sectionTitle} text-slate-950`}>{title}</h2><p className="text-sm leading-7 text-slate-600">{description}</p></div>)}
         </div>
@@ -328,7 +328,7 @@ export default async function AreaPage({ params }) {
                 TRUST & PEMBAYARAN
               </div>
               <h2 className={`mb-4 ${typography.sectionTitle} text-slate-950`}>
-                Bukti aktivitas RADJA AC dan pembayaran yang bisa dikonfirmasi dulu
+                Bukti aktivitas Radja AC dan pembayaran yang bisa dikonfirmasi dulu
               </h2>
               <p className="mb-5 text-sm leading-7 text-slate-600 sm:text-base">{paymentNote}</p>
               <Link href={routes.buktiPengirimanProyek} className="inline-flex items-center justify-center rounded-full border border-slate-200 bg-slate-50 px-5 py-3 text-sm font-semibold text-slate-950 transition hover:bg-slate-100">

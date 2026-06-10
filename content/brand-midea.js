@@ -8,13 +8,13 @@ const HERO_IMAGE = "/photos/brand-proof/midea-midea-showcase.webp";
 export const mideaPremiumContent = {
   hero: {
     image: HERO_IMAGE,
-    imageAlt: "Showcase AC Midea original di showroom RADJA AC",
-    badge: "AC MIDEA ORIGINAL — RADJA AC",
+    imageAlt: "Showcase AC Midea original di showroom Radja AC",
+    badge: "AC MIDEA ORIGINAL — Radja AC",
     breadcrumbLabel: "Midea",
     titleLead: "AC Midea Original",
     titleHighlight: "Stok Dicek Hari Ini, Harga Jelas Sebelum Deal",
     paragraphs: [
-      "Midea cocok untuk rumah, kamar, kost, kontrakan, atau toko yang membutuhkan AC dengan fitur modern dan harga yang tetap terjangkau. Kalau sedang cari AC Midea original, admin RADJA AC bisa bantu cek stok yang ready, kisaran harga, alamat pengiriman, dan opsi pemasangan hari ini.",
+      "Midea cocok untuk rumah, kamar, kost, kontrakan, atau toko yang membutuhkan AC dengan fitur modern dan harga yang tetap terjangkau. Kalau sedang cari AC Midea original, admin Radja AC bisa bantu cek stok yang ready, kisaran harga, alamat pengiriman, dan opsi pemasangan hari ini.",
     ],
     primaryCtaLabel: "Cek Stok & Harga Midea Sekarang",
     secondaryCtaLabel: "Lihat Pilihan Midea",
@@ -39,19 +39,19 @@ export const mideaPremiumContent = {
     ],
     badgeLabel: "Authorized Dealer Certificate",
     image: "/photos/brand-proof/midea-sertificate-midea.webp",
-    imageAlt: "Sertifikat resmi dealer Midea untuk RADJA AC",
+    imageAlt: "Sertifikat resmi dealer Midea untuk Radja AC",
   },
 
   warranty: {
     eyebrow: "Garansi & Klaim Unit",
     title: "Beli Midea di sini, garansi teknisi dan urusan klaim unit jelas",
     description:
-      "Garansi teknisi 1 bulan berlaku untuk kendala yang berkaitan dengan pekerjaan pemasangan. Garansi produk mengikuti kartu garansi Midea di dalam kemasan. Kalau ada kendala pada unit setelah dipasang, RADJA AC bisa bantu arahan proses klaim garansi ke Midea sesuai ketentuan resmi — bukan diganti toko, tapi dibantu prosesnya.",
+      "Garansi teknisi 1 bulan berlaku untuk kendala yang berkaitan dengan pekerjaan pemasangan. Garansi produk mengikuti kartu garansi Midea di dalam kemasan. Kalau ada kendala pada unit setelah dipasang, Radja AC bisa bantu arahan proses klaim garansi ke Midea sesuai ketentuan resmi — bukan diganti toko, tapi dibantu prosesnya.",
     cards: [
       {
         title: "Garansi teknisi 1 bulan",
         description:
-          "Garansi berlaku untuk kendala yang berkaitan langsung dengan pekerjaan pemasangan atau instalasi dari teknisi RADJA AC.",
+          "Garansi berlaku untuk kendala yang berkaitan langsung dengan pekerjaan pemasangan atau instalasi dari teknisi Radja AC.",
       },
       {
         title: "Garansi unit mengikuti ketentuan Midea",
@@ -61,7 +61,7 @@ export const mideaPremiumContent = {
       {
         title: "Bantu arahkan klaim ke brand terkait",
         description:
-          "Kalau ada kendala pada unit AC, RADJA AC bisa bantu arahan proses klaim garansi ke Midea sesuai ketentuan resmi — selama dokumen pembelian dan kartu garansi tersedia.",
+          "Kalau ada kendala pada unit AC, Radja AC bisa bantu arahan proses klaim garansi ke Midea sesuai ketentuan resmi — selama dokumen pembelian dan kartu garansi tersedia.",
       },
     ],
   },
@@ -111,7 +111,7 @@ export const mideaPremiumContent = {
       {
         title: "Bingung Midea, Gree, atau Daikin? Admin bisa bantu bandingkan",
         description:
-          "Kirim ukuran ruangan, daya listrik, dan budget. Admin RADJA AC bantu bandingkan mana yang lebih sesuai — Midea, Gree, Hisense, atau Daikin — tanpa harus langsung deal.",
+          "Kirim ukuran ruangan, daya listrik, dan budget. Admin Radja AC bantu bandingkan mana yang lebih sesuai — Midea, Gree, Hisense, atau Daikin — tanpa harus langsung deal.",
       },
     ],
   },
@@ -163,7 +163,7 @@ export const mideaPremiumContent = {
     eyebrow: "Sebelum Beli",
     title: "Supaya tidak salah PK — kirim info ini sebelum deal",
     description:
-      "Midea salah PK sama saja sia-sia — AC tidak dingin maksimal atau tagihan listrik membengkak. Kirim data di bawah ini ke admin RADJA AC, kami bantu rekomendasikan tipe dan kapasitas yang sesuai untuk kondisi ruangan Anda.",
+      "Midea salah PK sama saja sia-sia — AC tidak dingin maksimal atau tagihan listrik membengkak. Kirim data di bawah ini ke admin Radja AC, kami bantu rekomendasikan tipe dan kapasitas yang sesuai untuk kondisi ruangan Anda.",
     items: [
       "Ukuran ruangan kira-kira (panjang × lebar) dan tinggi plafon jika ada",
       "Daya listrik rumah, kost, toko, atau tempat usaha",
@@ -197,7 +197,7 @@ export const mideaPremiumContent = {
     links: [
       {
         title: "Konsultasi AC Midea",
-        description: "Sebelum OTW ke showroom, cek stok, harga, brand yang ready, dan kebutuhan pemasangan di RADJA AC.",
+        description: "Sebelum OTW ke showroom, cek stok, harga, brand yang ready, dan kebutuhan pemasangan di Radja AC.",
         href: routes.kontak,
       },
       {
@@ -221,7 +221,7 @@ export const mideaPremiumContent = {
   closing: {
     title: "Mau beli AC Midea original? Cek stok dulu, deal belakangan.",
     description:
-      "Chat tidak harus langsung transfer. Kirim ukuran ruangan, daya listrik, lokasi, dan budget — admin RADJA AC bantu cek pilihan Midea yang ready hari ini, estimasi harga plus pasang, dan konfirmasi jadwal teknisi sebelum Anda memutuskan.",
+      "Chat tidak harus langsung transfer. Kirim ukuran ruangan, daya listrik, lokasi, dan budget — admin Radja AC bantu cek pilihan Midea yang ready hari ini, estimasi harga plus pasang, dan konfirmasi jadwal teknisi sebelum Anda memutuskan.",
     buttonLabel: "Cek Stok & Harga Midea Sekarang",
   },
 

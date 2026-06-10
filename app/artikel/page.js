@@ -6,16 +6,16 @@ import WhatsappLink from "@/components/ui/WhatsappLink";
 import { typography } from "@/lib/typography";
 
 export const metadata = buildMetadata({
-  title: "Artikel Panduan Beli AC | RADJA AC",
+  title: "Artikel Panduan Beli AC | Radja AC",
   description:
-    "Pusat artikel RADJA AC untuk panduan membeli AC, memilih PK, cek daya listrik, pilihan brand, pengiriman, pemasangan, dan pengadaan banyak unit.",
+    "Pusat artikel Radja AC untuk panduan membeli AC, memilih PK, cek daya listrik, pilihan brand, pengiriman, pemasangan, dan pengadaan banyak unit.",
   path: routes.artikel,
 });
 
 const featuredLinks = [
   ["Katalog AC", routes.katalog, "Mulai dari tipe AC rumah, low watt, inverter, dan komersial."],
   ["Kalkulator PK AC", routes.kalkulatorPkAc, "Hitung kebutuhan PK sebelum memilih unit."],
-  ["Jual AC Purwokerto", routes.jualAcPurwokerto, "Lanjut ke halaman pembelian utama RADJA AC."],
+  ["Jual AC Purwokerto", routes.jualAcPurwokerto, "Lanjut ke halaman pembelian utama Radja AC."],
 ];
 
 const guideStats = [
@@ -35,10 +35,10 @@ export default function ArtikelPage() {
         <div className="relative mx-auto grid max-w-7xl gap-10 lg:grid-cols-[1.05fr_0.95fr] lg:items-center lg:gap-14">
           <div>
             <p className={`inline-flex rounded-full border border-white/15 bg-white/10 px-4 py-2 ${typography.eyebrow} text-blue-100 backdrop-blur`}>
-              Artikel RADJA AC
+              Artikel Radja AC
             </p>
             <h1 className={`mt-6 max-w-4xl ${typography.pageTitle}`}>
-              Panduan beli AC yang tidak bikin bingung sebelum chat RADJA AC
+              Panduan beli AC yang tidak bikin bingung sebelum chat Radja AC
             </h1>
             <p className="mt-6 max-w-3xl text-sm leading-7 text-blue-50/90 sm:text-base">
               Mulai dari PK, ukuran ruangan, daya listrik, inverter vs low watt, instalasi, sampai tanda kapan AC lama perlu dievaluasi. Baca dulu, lalu kirim brief WhatsApp yang lebih jelas.
@@ -191,12 +191,12 @@ export default function ArtikelPage() {
             Sudah baca? Lanjutkan dengan data ruangan
           </h2>
           <p className="mx-auto mb-7 max-w-2xl text-sm leading-7 text-slate-600">
-            Kirim ukuran ruangan, daya listrik, kota, anggaran, dan brand yang diminati. Tim RADJA AC cocokkan pilihan dari data itu.
+            Kirim ukuran ruangan, daya listrik, kota, anggaran, dan brand yang diminati. Tim Radja AC cocokkan pilihan dari data itu.
           </p>
           <WhatsappLink
             className="inline-flex items-center justify-center rounded-full bg-[#25D366] px-6 py-4 font-bold text-slate-950 shadow-[0_16px_40px_rgba(37,211,102,0.20)] transition hover:-translate-y-0.5 hover:bg-[#20BA5A]"
             source="Artikel Index - Final CTA"
-            intent="konsultasi setelah membaca artikel RADJA AC"
+            intent="konsultasi setelah membaca artikel Radja AC"
           >
             Kirim Ukuran Ruangan
           </WhatsappLink>

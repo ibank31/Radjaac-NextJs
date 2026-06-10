@@ -79,7 +79,7 @@ export default function KatalogPage() {
         <div className="relative mx-auto grid max-w-7xl items-center gap-9 lg:grid-cols-2 lg:gap-16">
           <div>
             <p className={`mb-5 inline-flex rounded-full border border-blue-100 bg-white/80 px-4 py-2 ${typography.eyebrow} text-blue-800 shadow-sm backdrop-blur`}>
-              Katalog AC RADJA AC
+              Katalog AC Radja AC
             </p>
 
             <h1 className={`mb-5 max-w-2xl ${typography.pageTitle} text-slate-950`}>
@@ -88,7 +88,7 @@ export default function KatalogPage() {
             </h1>
 
             <p className="mb-6 max-w-xl text-sm leading-7 text-slate-600 sm:text-base">
-              Di katalog ini, pilihan AC bisa dilihat dari kebutuhan kamar kecil, ruang keluarga, kost, toko, kantor, sampai banyak unit. Kirim ukuran ruangan dan daya listrik; tim RADJA AC cek PK, stok, pengiriman, dan opsi pemasangan sebelum lanjut pembelian.
+              Di katalog ini, pilihan AC bisa dilihat dari kebutuhan kamar kecil, ruang keluarga, kost, toko, kantor, sampai banyak unit. Kirim ukuran ruangan dan daya listrik; tim Radja AC cek PK, stok, pengiriman, dan opsi pemasangan sebelum lanjut pembelian.
             </p>
 
             <div className="flex flex-col gap-3 sm:flex-row sm:flex-wrap">
@@ -105,7 +105,7 @@ export default function KatalogPage() {
             </div>
 
             <p className="mt-4 max-w-xl text-sm leading-6 text-slate-500">
-              Mulai konsultasi dari data ruangan. Kirim ukuran ruangan, daya listrik, lokasi, dan anggaran — tim RADJA AC mengecek stok, kisaran harga, pengiriman, dan opsi pemasangan.
+              Mulai konsultasi dari data ruangan. Kirim ukuran ruangan, daya listrik, lokasi, dan anggaran — tim Radja AC mengecek stok, kisaran harga, pengiriman, dan opsi pemasangan.
             </p>
           </div>
 
@@ -127,7 +127,7 @@ export default function KatalogPage() {
               </div>
               <div className="mt-4 rounded-2xl border border-blue-100 bg-blue-50 p-4">
                 <p className="text-sm font-bold text-slate-950">Mulai dari data ruangan</p>
-                <p className="mt-1 text-xs leading-5 text-slate-600">Kirim ukuran ruangan, daya listrik, dan lokasi. Tim RADJA AC mencocokkan kategori AC, kapasitas PK, dan stok yang tersedia.</p>
+                <p className="mt-1 text-xs leading-5 text-slate-600">Kirim ukuran ruangan, daya listrik, dan lokasi. Tim Radja AC mencocokkan kategori AC, kapasitas PK, dan stok yang tersedia.</p>
               </div>
             </div>
           </div>
@@ -136,7 +136,7 @@ export default function KatalogPage() {
 
       <section className="mx-auto max-w-7xl px-4 py-7 sm:px-6 lg:px-8 lg:py-10">
         <div className="rounded-[1.7rem] border border-slate-200 bg-white p-5 shadow-[0_18px_50px_rgba(15,39,66,0.08)] sm:p-6 lg:p-7">
-          <SectionTitle eyebrow="Estimasi Anggaran AC + Pasang" title="Pilih AC dari anggaran, PK, dan kondisi ruangan" description="Gunakan sebagai patokan awal. Tim RADJA AC cek angka dari tipe unit, stok, promo, alamat, dan kebutuhan pemasangan." />
+          <SectionTitle eyebrow="Estimasi Anggaran AC + Pasang" title="Pilih AC dari anggaran, PK, dan kondisi ruangan" description="Gunakan sebagai patokan awal. Tim Radja AC cek angka dari tipe unit, stok, promo, alamat, dan kebutuhan pemasangan." />
 
           <div className="grid gap-3 md:grid-cols-3">
             {anggaranPackages.map(([anggaran, note]) => (
@@ -160,7 +160,7 @@ export default function KatalogPage() {
           </div>
 
           <p className="mx-auto mt-4 max-w-2xl text-center text-xs leading-6 text-slate-500 sm:text-sm">
-            Tim RADJA AC cek harga dari merek, PK, stok, promo, alamat pengiriman, panjang pipa, posisi outdoor, dan kebutuhan pemasangan tambahan sebelum pembelian.
+            Tim Radja AC cek harga dari merek, PK, stok, promo, alamat pengiriman, panjang pipa, posisi outdoor, dan kebutuhan pemasangan tambahan sebelum pembelian.
           </p>
         </div>
       </section>
@@ -226,7 +226,7 @@ export default function KatalogPage() {
         <div className="rounded-[1.7rem] border border-[#25D366]/20 bg-[#25D366]/10 p-6 text-center shadow-[0_18px_50px_rgba(15,39,66,0.08)] sm:p-10 lg:p-14">
           <h2 className={`mx-auto mb-5 max-w-3xl ${typography.sectionTitle} text-slate-950`}>Mulai dari data ruangan</h2>
           <p className="mx-auto mb-6 max-w-2xl leading-7 text-slate-700">
-            Kirim ukuran ruangan, daya listrik, lokasi pengiriman, dan perkiraan anggaran. Tim RADJA AC cocokkan kategori, brand, dan tipe AC yang tersedia.
+            Kirim ukuran ruangan, daya listrik, lokasi pengiriman, dan perkiraan anggaran. Tim Radja AC cocokkan kategori, brand, dan tipe AC yang tersedia.
           </p>
           <WhatsappLink
             className="inline-flex items-center justify-center rounded-full bg-[#25D366] px-6 py-4 font-bold text-slate-950 shadow-[0_14px_34px_rgba(37,211,102,0.20)] transition hover:-translate-y-0.5 hover:bg-[#20BA5A]"

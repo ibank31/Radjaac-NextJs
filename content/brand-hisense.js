@@ -8,13 +8,13 @@ const HERO_IMAGE = "/photos/showroom/display-hisense-new.webp";
 export const hisensePremiumContent = {
   hero: {
     image: HERO_IMAGE,
-    imageAlt: "Showcase AC Hisense original di showroom RADJA AC",
-    badge: "AC HISENSE ORIGINAL — RADJA AC",
+    imageAlt: "Showcase AC Hisense original di showroom Radja AC",
+    badge: "AC HISENSE ORIGINAL — Radja AC",
     breadcrumbLabel: "Hisense",
     titleLead: "AC Hisense Original",
     titleHighlight: "Modern, Value Bagus, Stok Dicek Hari Ini",
     paragraphs: [
-      "Hisense pilihan pintar untuk yang tidak mau overpay tapi tetap ingin AC yang terasa modern. Kalau sedang cari AC Hisense Original untuk kamar, kost, ruang keluarga, toko kecil, atau kantor, admin RADJA AC bisa bantu cek stok yang ready, kisaran harga, dan estimasi pemasangan area yang dikonfirmasi hari ini.",
+      "Hisense pilihan pintar untuk yang tidak mau overpay tapi tetap ingin AC yang terasa modern. Kalau sedang cari AC Hisense Original untuk kamar, kost, ruang keluarga, toko kecil, atau kantor, admin Radja AC bisa bantu cek stok yang ready, kisaran harga, dan estimasi pemasangan area yang dikonfirmasi hari ini.",
     ],
     primaryCtaLabel: "Cek Stok & Harga Hisense Sekarang",
     secondaryCtaLabel: "Lihat Pilihan Hisense",
@@ -39,19 +39,19 @@ export const hisensePremiumContent = {
     ],
     badgeLabel: "Dealer Certificate",
     image: "/photos/brand-proof/hisense-sertifikat-hisense.webp",
-    imageAlt: "Sertifikat resmi dealer Hisense untuk RADJA AC",
+    imageAlt: "Sertifikat resmi dealer Hisense untuk Radja AC",
   },
 
   warranty: {
     eyebrow: "Garansi & Klaim Unit",
     title: "Beli Hisense di sini, garansi teknisi dan urusan klaim unit sudah jelas",
     description:
-      "Garansi teknisi 1 bulan berlaku untuk kendala yang berkaitan dengan pekerjaan pemasangan. Garansi produk mengikuti kartu garansi Hisense di dalam kemasan. Kalau ada kendala pada unit setelah dipasang, RADJA AC bisa bantu arahan proses klaim garansi ke Hisense sesuai ketentuan resmi — bukan diganti toko, tapi dibantu prosesnya.",
+      "Garansi teknisi 1 bulan berlaku untuk kendala yang berkaitan dengan pekerjaan pemasangan. Garansi produk mengikuti kartu garansi Hisense di dalam kemasan. Kalau ada kendala pada unit setelah dipasang, Radja AC bisa bantu arahan proses klaim garansi ke Hisense sesuai ketentuan resmi — bukan diganti toko, tapi dibantu prosesnya.",
     cards: [
       {
         title: "Garansi teknisi 1 bulan",
         description:
-          "Garansi berlaku untuk kendala yang berkaitan langsung dengan pekerjaan pemasangan atau instalasi dari teknisi RADJA AC.",
+          "Garansi berlaku untuk kendala yang berkaitan langsung dengan pekerjaan pemasangan atau instalasi dari teknisi Radja AC.",
       },
       {
         title: "Garansi unit mengikuti ketentuan Hisense",
@@ -61,7 +61,7 @@ export const hisensePremiumContent = {
       {
         title: "Bantu arahkan klaim ke brand terkait",
         description:
-          "Kalau ada kendala pada unit AC, RADJA AC bisa bantu arahan proses klaim garansi ke Hisense sesuai ketentuan resmi — selama dokumen pembelian dan kartu garansi tersedia.",
+          "Kalau ada kendala pada unit AC, Radja AC bisa bantu arahan proses klaim garansi ke Hisense sesuai ketentuan resmi — selama dokumen pembelian dan kartu garansi tersedia.",
       },
     ],
   },
@@ -111,7 +111,7 @@ export const hisensePremiumContent = {
       {
         title: "Bingung Hisense vs Midea vs Gree? Admin bisa bantu bedakan",
         description:
-          "Kirim ukuran ruangan, daya listrik, dan budget. Admin RADJA AC bantu bandingkan mana yang paling sesuai — Hisense, Midea, Gree, atau Daikin — sebelum Anda memutuskan.",
+          "Kirim ukuran ruangan, daya listrik, dan budget. Admin Radja AC bantu bandingkan mana yang paling sesuai — Hisense, Midea, Gree, atau Daikin — sebelum Anda memutuskan.",
       },
     ],
   },
@@ -163,7 +163,7 @@ export const hisensePremiumContent = {
     eyebrow: "Sebelum Beli",
     title: "Supaya AC Hisense tidak salah PK — kirim info ini sebelum deal",
     description:
-      "Hisense salah PK sama saja rugi dua kali — AC tidak maksimal atau tagihan listrik jebol. Kirim data di bawah ini ke admin RADJA AC, kami bantu rekomendasikan tipe dan kapasitas yang sesuai untuk kondisi ruangan Anda.",
+      "Hisense salah PK sama saja rugi dua kali — AC tidak maksimal atau tagihan listrik jebol. Kirim data di bawah ini ke admin Radja AC, kami bantu rekomendasikan tipe dan kapasitas yang sesuai untuk kondisi ruangan Anda.",
     items: [
       "Ukuran ruangan kira-kira (panjang × lebar) dan tinggi plafon jika ada",
       "Daya listrik rumah, kost, toko, atau tempat usaha",
@@ -197,7 +197,7 @@ export const hisensePremiumContent = {
     links: [
       {
         title: "Konsultasi AC Hisense",
-        description: "Sebelum OTW ke showroom, cek stok, harga, brand yang ready, dan kebutuhan pemasangan di RADJA AC.",
+        description: "Sebelum OTW ke showroom, cek stok, harga, brand yang ready, dan kebutuhan pemasangan di Radja AC.",
         href: routes.kontak,
       },
       {
@@ -221,7 +221,7 @@ export const hisensePremiumContent = {
   closing: {
     title: "Mau beli AC Hisense original? Cek stok dulu, deal belakangan.",
     description:
-      "Chat tidak harus langsung transfer. Kirim ukuran ruangan, daya listrik, lokasi, dan budget — admin RADJA AC bantu cek pilihan Hisense yang ready hari ini, estimasi harga plus pasang, dan konfirmasi jadwal teknisi sebelum Anda memutuskan.",
+      "Chat tidak harus langsung transfer. Kirim ukuran ruangan, daya listrik, lokasi, dan budget — admin Radja AC bantu cek pilihan Hisense yang ready hari ini, estimasi harga plus pasang, dan konfirmasi jadwal teknisi sebelum Anda memutuskan.",
     buttonLabel: "Cek Stok & Harga Hisense Sekarang",
   },
 

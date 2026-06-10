@@ -223,7 +223,7 @@ export default function DaikinBrandPage({ item, faqItems, structuredData }) {
               <div className="relative overflow-hidden border-b border-slate-100 bg-[#f8fbff] p-3">
                 <Image
                   src={product.image}
-                  alt={`${product.title} di RADJA AC`}
+                  alt={`${product.title} di Radja AC`}
                   width={600}
                   height={400}
                   sizes="(min-width: 768px) 360px, 100vw"

@@ -7,13 +7,13 @@ import { routes } from "@/content/routes";
 export const daikinPremiumContent = {
   hero: {
     image: "/photos/showroom/display-daikin-new.webp",
-    imageAlt: "Display AC Daikin original di showroom RADJA AC",
+    imageAlt: "Display AC Daikin original di showroom Radja AC",
     badge: "AC DAIKIN ORIGINAL MULTI-BRAND DEALER",
     breadcrumbLabel: "Daikin",
     titleLead: "Jual AC Daikin Original",
     titleHighlight: "Cek Stok, Harga & Pemasangan Hari Ini",
     description:
-      "Daikin dikenal tahan lama, spare part relatif mudah, dan pilihan tipenya lengkap untuk rumah, kost, toko, kantor, hotel, sampai proyek. RADJA AC bantu cek stok yang benar-benar ready, estimasi harga, rekomendasi PK sesuai ruangan, pengiriman unit, dan opsi pemasangan by konfirmasi. Garansi unit mengikuti ketentuan resmi Daikin.",
+      "Daikin dikenal tahan lama, spare part relatif mudah, dan pilihan tipenya lengkap untuk rumah, kost, toko, kantor, hotel, sampai proyek. Radja AC bantu cek stok yang benar-benar ready, estimasi harga, rekomendasi PK sesuai ruangan, pengiriman unit, dan opsi pemasangan by konfirmasi. Garansi unit mengikuti ketentuan resmi Daikin.",
     primaryCtaLabel: "Cek Stok & Harga Daikin Sekarang",
     secondaryCtaLabel: "Lihat Pilihan Daikin",
     secondaryCtaHref: "#produk-daikin",
@@ -38,7 +38,7 @@ export const daikinPremiumContent = {
     eyebrow: "Garansi & Bantuan Klaim",
     title: "Beli Daikin di sini, tidak ditinggal begitu AC terpasang",
     description:
-      "Banyak yang takut beli AC terus ada masalah dan tidak ada yang bisa dimintai bantuan. Di RADJA AC, garansi teknisi 1 bulan berlaku untuk kendala yang berkaitan dengan pekerjaan pemasangan. Untuk unit Daikin-nya, garansi mengikuti ketentuan resmi Daikin dan kartu garansi produk. Kalau ada kendala, toko bantu arahan awal proses klaim sesuai syarat yang berlaku.",
+      "Banyak yang takut beli AC terus ada masalah dan tidak ada yang bisa dimintai bantuan. Di Radja AC, garansi teknisi 1 bulan berlaku untuk kendala yang berkaitan dengan pekerjaan pemasangan. Untuk unit Daikin-nya, garansi mengikuti ketentuan resmi Daikin dan kartu garansi produk. Kalau ada kendala, toko bantu arahan awal proses klaim sesuai syarat yang berlaku.",
   },
 
   warrantyTrust: [
@@ -55,7 +55,7 @@ export const daikinPremiumContent = {
     {
       title: "Ada masalah? Toko bantu arahkan",
       description:
-        "Kalau unit bermasalah setelah pasang, RADJA AC bantu arahan awal proses klaim — selama dokumen pembelian, kartu garansi, dan nomor seri unit tersedia.",
+        "Kalau unit bermasalah setelah pasang, Radja AC bantu arahan awal proses klaim — selama dokumen pembelian, kartu garansi, dan nomor seri unit tersedia.",
     },
   ],
 
@@ -88,12 +88,12 @@ export const daikinPremiumContent = {
 
   authorizedDealer: {
     badge: "Sertifikat Resmi Daikin",
-    title: "RADJA AC adalah Authorized Dealer Daikin",
+    title: "Radja AC adalah Authorized Dealer Daikin",
     description:
       "Bukan sekadar klaim — ada sertifikat yang bisa dilihat langsung. Ini yang membedakan dealer resmi dengan toko biasa yang jual AC Daikin tanpa kejelasan asal unit. Stok kami original, dan garansi Daikin berlaku sesuai ketentuan resmi.",
     badgeLabel: "Authorized Dealer Daikin",
     certificateImage: "/photos/brand-proof/daikin-sertificate-daikin.webp",
-    certificateAlt: "Sertifikat resmi Daikin Authorized Dealer untuk RADJA AC",
+    certificateAlt: "Sertifikat resmi Daikin Authorized Dealer untuk Radja AC",
   },
 
   brandCharacterSection: {
@@ -107,7 +107,7 @@ export const daikinPremiumContent = {
     {
       title: "Unit original, garansi ikut ketentuan Daikin",
       description:
-        "RADJA AC menyediakan AC Daikin original untuk kebutuhan rumah, kost, toko, kantor, hotel, dan proyek. Garansi unit mengikuti ketentuan resmi Daikin dan kartu garansi produk — bukan garansi toko saja.",
+        "Radja AC menyediakan AC Daikin original untuk kebutuhan rumah, kost, toko, kantor, hotel, dan proyek. Garansi unit mengikuti ketentuan resmi Daikin dan kartu garansi produk — bukan garansi toko saja.",
     },
     {
       title: "PK dikonsultasikan dulu sebelum deal",

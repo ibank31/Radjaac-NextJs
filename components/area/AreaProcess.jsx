@@ -13,7 +13,7 @@ export default function AreaProcess({ item, processSteps }) {
             Cek kebutuhan dulu, baru kunci stok dan jadwal
           </h2>
           <p className="mb-6 text-sm leading-7 text-slate-600 sm:text-base">
-            Mulai dari area dan ukuran ruangan. Tim RADJA AC cek stok,
+            Mulai dari area dan ukuran ruangan. Tim Radja AC cek stok,
             cocokkan PK, jelaskan estimasi, lalu susun jadwal setelah data
             cocok.
           </p>

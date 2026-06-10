@@ -1,6 +1,6 @@
 export const siteConfig = {
-  name: "RADJA AC",
-  legalName: "RADJA AC",
+  name: "Radja AC",
+  legalName: "Radja AC",
   baseUrl: "https://www.radjaac.com",
   domain: "www.radjaac.com",
   whatsappNumber: "62882008246099",
@@ -30,9 +30,9 @@ export const siteConfig = {
   language: "id-ID",
   locale: "id_ID",
   positioning:
-    "Website resmi RADJA AC untuk penjualan AC original multi-brand, konsultasi PK, cek stok, pengiriman unit, opsi pemasangan, dan pengadaan banyak unit.",
+    "Website resmi Radja AC untuk penjualan AC original multi-brand, konsultasi PK, cek stok, pengiriman unit, opsi pemasangan, dan pengadaan banyak unit.",
   defaultTitle:
-    "RADJA AC | Jual AC Original Multi-Brand, Konsultasi PK & Pengadaan",
+    "Radja AC | Jual AC Original Multi-Brand, Konsultasi PK & Pengadaan",
   defaultDescription:
-    "RADJA AC membantu pembelian AC original multi-brand untuk rumah, kost, toko, kantor, hotel, dan proyek. Konsultasi PK, cek stok, pengiriman unit, dan opsi pemasangan.",
+    "Radja AC membantu pembelian AC original multi-brand untuk rumah, kost, toko, kantor, hotel, dan proyek. Konsultasi PK, cek stok, pengiriman unit, dan opsi pemasangan.",
 };

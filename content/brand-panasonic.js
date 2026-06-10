@@ -5,12 +5,12 @@
 
 export const panasonicPremiumContent = {
   hero: {
-    badge: "AC PANASONIC ORIGINAL — RADJA AC",
+    badge: "AC PANASONIC ORIGINAL — Radja AC",
     breadcrumbLabel: "Panasonic",
     titleLead: "AC Panasonic",
     titleHighlight: "Brand Familiar, Stok Dicek Dulu",
     paragraph:
-      "Kalau Anda sedang cari AC Panasonic karena ingin brand yang familiar dan sudah percaya brand ini untuk jangka panjang, admin RADJA AC bisa bantu cek stok yang ready hari ini, pilihan tipe, kisaran harga, pengiriman, dan opsi pemasangan by konfirmasi.",
+      "Kalau Anda sedang cari AC Panasonic karena ingin brand yang familiar dan sudah percaya brand ini untuk jangka panjang, admin Radja AC bisa bantu cek stok yang ready hari ini, pilihan tipe, kisaran harga, pengiriman, dan opsi pemasangan by konfirmasi.",
     primaryCtaLabel: "Cek Stok & Harga Panasonic Sekarang",
     secondaryCtaLabel: "Lihat Pilihan Panasonic",
     secondaryCtaHref: "#rekomendasi",
@@ -27,12 +27,12 @@ export const panasonicPremiumContent = {
     eyebrow: "Garansi & Bantuan Klaim",
     title: "Garansi teknisi jelas, klaim unit dibantu",
     description:
-      "Garansi teknisi 1 bulan untuk pekerjaan pemasangan. Kalau ada kendala pada unit AC, RADJA AC bisa bantu arahan proses klaim garansi ke brand terkait sesuai ketentuan resmi Panasonic. Simpan kartu garansi dan nota pembelian sebagai dokumen klaim.",
+      "Garansi teknisi 1 bulan untuk pekerjaan pemasangan. Kalau ada kendala pada unit AC, Radja AC bisa bantu arahan proses klaim garansi ke brand terkait sesuai ketentuan resmi Panasonic. Simpan kartu garansi dan nota pembelian sebagai dokumen klaim.",
     cards: [
       {
         title: "Garansi teknisi 1 bulan",
         description:
-          "Garansi pekerjaan pemasangan berlaku 1 bulan. Kalau ada kendala yang berkaitan dengan instalasi dari teknisi, bisa langsung hubungi RADJA AC.",
+          "Garansi pekerjaan pemasangan berlaku 1 bulan. Kalau ada kendala yang berkaitan dengan instalasi dari teknisi, bisa langsung hubungi Radja AC.",
       },
       {
         title: "Garansi unit sesuai ketentuan Panasonic",
@@ -42,7 +42,7 @@ export const panasonicPremiumContent = {
       {
         title: "Dibantu arahkan klaim ke Panasonic",
         description:
-          "Kalau ada kendala pada unit AC setelah dipasang, RADJA AC bisa bantu arahan proses klaim garansi ke brand terkait sesuai ketentuan resmi Panasonic.",
+          "Kalau ada kendala pada unit AC setelah dipasang, Radja AC bisa bantu arahan proses klaim garansi ke brand terkait sesuai ketentuan resmi Panasonic.",
       },
     ],
   },
@@ -52,7 +52,7 @@ export const panasonicPremiumContent = {
       eyebrow: "Kapasitas PK",
       title: "Tidak cuma 1/2 PK — Panasonic tersedia sampai 2 PK sesuai stok",
       description:
-        "Jangan langsung pilih kapasitas hanya dari nama ruangan. Untuk Panasonic di atas 1/2 PK, admin RADJA AC bantu cek stok dan rekomendasikan kapasitas yang pas via WhatsApp — termasuk 3/4 PK, 1 PK, 1.5 PK, dan 2 PK sesuai ketersediaan.",
+        "Jangan langsung pilih kapasitas hanya dari nama ruangan. Untuk Panasonic di atas 1/2 PK, admin Radja AC bantu cek stok dan rekomendasikan kapasitas yang pas via WhatsApp — termasuk 3/4 PK, 1 PK, 1.5 PK, dan 2 PK sesuai ketersediaan.",
       options: [
         "1/2 PK untuk kamar kecil, kost, kontrakan, atau ruang kerja harian",
         "3/4 PK dan 1 PK untuk kamar sedang, ruang keluarga kecil, atau kantor kecil",
@@ -86,8 +86,8 @@ export const panasonicPremiumContent = {
     items: [
       "Panasonic sudah lama dikenal di Indonesia dan banyak dipilih untuk rumah, kantor, dan kebutuhan komersial. Untuk pembeli yang ingin AC rumah dengan kesan stabil dan awet, Panasonic jadi pilihan yang sesuai untuk kebutuhan tersebut.",
       "Cocok untuk kamar, ruang keluarga, kantor kecil, kost, dan kontrakan — selama kapasitas PK, daya listrik, dan kondisi ruangan sudah dicek dulu supaya tidak salah pilih.",
-      "Stok AC Panasonic bisa berubah mengikuti supplier. Sebelum deal, admin RADJA AC selalu cek dulu tipe yang ready hari ini — bukan jawab dari katalog lama.",
-      "Bingung antara Panasonic, Sharp, Midea, Gree, atau Daikin? Admin RADJA AC bisa bantu bandingkan sesuai budget, daya listrik, ukuran ruangan, dan pola pemakaian Anda.",
+      "Stok AC Panasonic bisa berubah mengikuti supplier. Sebelum deal, admin Radja AC selalu cek dulu tipe yang ready hari ini — bukan jawab dari katalog lama.",
+      "Bingung antara Panasonic, Sharp, Midea, Gree, atau Daikin? Admin Radja AC bisa bantu bandingkan sesuai budget, daya listrik, ukuran ruangan, dan pola pemakaian Anda.",
     ],
   },
 
@@ -123,7 +123,7 @@ export const panasonicPremiumContent = {
     eyebrow: "Sebelum Beli",
     title: "Sebelum deal AC Panasonic — kirim info ini dulu",
     description:
-      "Supaya rekomendasi tidak asal dan MCB tidak gampang turun setelah AC dipasang, admin RADJA AC perlu tahu beberapa hal dasar dari Anda sebelum konfirmasi harga dan stok Panasonic.",
+      "Supaya rekomendasi tidak asal dan MCB tidak gampang turun setelah AC dipasang, admin Radja AC perlu tahu beberapa hal dasar dari Anda sebelum konfirmasi harga dan stok Panasonic.",
     items: [
       "Ukuran ruangan kira-kira dan tinggi plafon jika ada",
       "Daya listrik tempat Anda — rumah, kost, kantor, atau usaha",
@@ -158,7 +158,7 @@ export const panasonicPremiumContent = {
   closing: {
     title: "Mau beli AC Panasonic original? Mulai dari cek stok dulu.",
     description:
-      "Chat tidak harus langsung deal. Kirim ukuran ruangan, daya listrik, lokasi, dan budget awal Anda. Admin RADJA AC bantu cek stok Panasonic yang ready hari ini, estimasi harga, dan kebutuhan pemasangan — termasuk kalau Anda masih banding-banding antara Panasonic, Sharp, Midea, Gree, atau brand lainnya.",
+      "Chat tidak harus langsung deal. Kirim ukuran ruangan, daya listrik, lokasi, dan budget awal Anda. Admin Radja AC bantu cek stok Panasonic yang ready hari ini, estimasi harga, dan kebutuhan pemasangan — termasuk kalau Anda masih banding-banding antara Panasonic, Sharp, Midea, Gree, atau brand lainnya.",
     buttonLabel: "Cek Stok & Harga Panasonic Sekarang",
   },
 };

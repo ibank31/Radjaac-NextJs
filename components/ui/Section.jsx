@@ -2,7 +2,7 @@ import Link from "next/link";
 import { typography } from "@/lib/typography";
 
 /**
- * RADJA AC shared design-system primitives.
+ * Radja AC shared design-system primitives.
  * One consistent visual language across Showroom / Procurement / Proof modes.
  */
 

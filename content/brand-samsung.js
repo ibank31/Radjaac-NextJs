@@ -10,13 +10,13 @@ const PRODUCT_IMAGE = "/photos/product-display/samsung-samsung-inverter.webp";
 export const samsungPremiumContent = {
   hero: {
     image: HERO_IMAGE,
-    imageAlt: "Showroom RADJA AC — dealer AC Samsung inverter",
-    badge: "AC SAMSUNG INVERTER — RADJA AC",
+    imageAlt: "Showroom Radja AC — dealer AC Samsung inverter",
+    badge: "AC SAMSUNG INVERTER — Radja AC",
     breadcrumbLabel: "Samsung",
     titleLead: "AC Samsung Original",
     titleHighlight: "Cek Stok, Harga & Pemasangan Dulu Sebelum Deal",
     paragraphs: [
-      "Cari AC Samsung Original untuk kamar, kost, rumah, atau kantor kecil? Stok dicek dulu, PK dihitung dari ukuran ruangan, harga pasang dijelaskan dari awal. RADJA AC melayani area yang dikonfirmasi.",
+      "Cari AC Samsung Original untuk kamar, kost, rumah, atau kantor kecil? Stok dicek dulu, PK dihitung dari ukuran ruangan, harga pasang dijelaskan dari awal. Radja AC melayani area yang dikonfirmasi.",
     ],
     primaryCtaLabel: "Cek Stok & Harga Samsung Sekarang",
     secondaryCtaLabel: "Lihat Pilihan Samsung",
@@ -38,22 +38,22 @@ export const samsungPremiumContent = {
     eyebrow: "Garansi & Bantuan Klaim",
     title: "Garansi teknisi jelas, klaim unit bisa dibantu arahannya",
     description:
-      "Garansi teknisi 1 bulan untuk kendala yang berhubungan dengan pekerjaan pemasangan. Garansi unit mengikuti kartu garansi Samsung di dalam kemasan — bukan dari toko. Kalau ada kendala unit, RADJA AC bisa bantu arahan proses klaim ke brand terkait sesuai ketentuan resmi.",
+      "Garansi teknisi 1 bulan untuk kendala yang berhubungan dengan pekerjaan pemasangan. Garansi unit mengikuti kartu garansi Samsung di dalam kemasan — bukan dari toko. Kalau ada kendala unit, Radja AC bisa bantu arahan proses klaim ke brand terkait sesuai ketentuan resmi.",
     cards: [
       {
         title: "Garansi teknisi 1 bulan",
         description:
-          "Berlaku untuk kendala yang berhubungan dengan pekerjaan pemasangan atau instalasi dari teknisi RADJA AC — bukan untuk kerusakan unit.",
+          "Berlaku untuk kendala yang berhubungan dengan pekerjaan pemasangan atau instalasi dari teknisi Radja AC — bukan untuk kerusakan unit.",
       },
       {
         title: "Garansi unit ikut ketentuan Samsung",
         description:
-          "Garansi produk mengikuti kartu garansi Samsung yang ada di dalam kemasan unit. Bukan garansi dari toko, bukan dari RADJA AC.",
+          "Garansi produk mengikuti kartu garansi Samsung yang ada di dalam kemasan unit. Bukan garansi dari toko, bukan dari Radja AC.",
       },
       {
         title: "Bisa dibantu arahan klaim",
         description:
-          "Kalau ada kendala pada unit, RADJA AC bisa bantu arahan proses klaim garansi ke Samsung sesuai ketentuan resmi selama dokumen dan bukti tersedia.",
+          "Kalau ada kendala pada unit, Radja AC bisa bantu arahan proses klaim garansi ke Samsung sesuai ketentuan resmi selama dokumen dan bukti tersedia.",
       },
     ],
   },
@@ -63,7 +63,7 @@ export const samsungPremiumContent = {
       eyebrow: "Kapasitas PK",
       title: "Tidak cuma 1/2 PK — Samsung tersedia sampai 2 PK sesuai ruangan",
       description:
-        "Untuk kebutuhan di atas 1/2 PK, RADJA AC melayani Samsung 3/4 PK, 1 PK, 1.5 PK, sampai 2 PK sesuai stok. Kirim ukuran ruangan dan daya listrik — admin bantu arahin kapasitas yang paling pas.",
+        "Untuk kebutuhan di atas 1/2 PK, Radja AC melayani Samsung 3/4 PK, 1 PK, 1.5 PK, sampai 2 PK sesuai stok. Kirim ukuran ruangan dan daya listrik — admin bantu arahin kapasitas yang paling pas.",
       options: [
         "1/2 PK untuk kamar kecil, kost, kontrakan, atau ruang kerja — cek daya listrik dulu",
         "3/4 PK dan 1 PK untuk kamar sedang sampai besar, ruang keluarga kecil, atau toko kecil",
@@ -109,7 +109,7 @@ export const samsungPremiumContent = {
       {
         title: "Stok dan PK dicek dulu sebelum deal",
         description:
-          "Stok Samsung tidak selalu sama tiap waktu. RADJA AC bantu cek stok yang ready, hitung PK sesuai ruangan, dan estimasi biaya pasang — supaya tidak kaget setelah teknisi datang.",
+          "Stok Samsung tidak selalu sama tiap waktu. Radja AC bantu cek stok yang ready, hitung PK sesuai ruangan, dan estimasi biaya pasang — supaya tidak kaget setelah teknisi datang.",
       },
     ],
   },
@@ -206,7 +206,7 @@ export const samsungPremiumContent = {
       },
       {
         title: "Konsultasi AC Samsung",
-        description: "Cek dulu stok, harga, dan brand yang ready sebelum datang ke showroom RADJA AC.",
+        description: "Cek dulu stok, harga, dan brand yang ready sebelum datang ke showroom Radja AC.",
         href: routes.kontak,
       },
       {
@@ -220,7 +220,7 @@ export const samsungPremiumContent = {
   closing: {
     title: "Mau beli AC Samsung inverter? Cek stok dan PK dulu.",
     description:
-      "Kirim ukuran ruangan, daya listrik, lokasi, dan budget. Admin RADJA AC bantu cek stok Samsung yang ready, rekomendasikan PK yang pas, jelaskan harga pasang dari awal, dan atur jadwal teknisi. Chat dulu tidak harus langsung deal.",
+      "Kirim ukuran ruangan, daya listrik, lokasi, dan budget. Admin Radja AC bantu cek stok Samsung yang ready, rekomendasikan PK yang pas, jelaskan harga pasang dari awal, dan atur jadwal teknisi. Chat dulu tidak harus langsung deal.",
     buttonLabel: "Cek Stok & Harga Samsung Sekarang",
   },
 

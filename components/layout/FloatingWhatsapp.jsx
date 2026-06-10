@@ -16,7 +16,7 @@ export default function FloatingWhatsapp() {
         className="h-7 w-7 sm:h-8 sm:w-8"
         aria-hidden="true"
       />
-      <span className="sr-only">Chat WhatsApp RADJA AC</span>
+      <span className="sr-only">Chat WhatsApp Radja AC</span>
     </WhatsappLink>
   );
 }

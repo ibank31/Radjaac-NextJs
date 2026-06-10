@@ -166,7 +166,7 @@ export default function PkCalculator() {
         <section className="rounded-[1.6rem] border border-blue-200 bg-[linear-gradient(180deg,#ecfeff_0%,#f8fbff_100%)] p-5 shadow-[0_18px_50px_rgba(34,211,238,0.12)]">
           <div className="mb-5">
             <p className={`${typography.eyebrow} text-blue-800`}>Estimasi awal</p>
-            <h2 className={`mt-2 ${typography.sectionTitle} text-slate-950`}>Cek hasil PK ke tim RADJA AC</h2>
+            <h2 className={`mt-2 ${typography.sectionTitle} text-slate-950`}>Cek hasil PK ke tim Radja AC</h2>
           </div>
 
           <div className="mb-5 grid grid-cols-2 gap-3 xl:grid-cols-4">
@@ -184,7 +184,7 @@ export default function PkCalculator() {
               Kebutuhan sekitar ±{formatNumber(result.estimatedBtu, 0)} BTU/h. Estimasi pemakaian listrik ±{formatNumber(result.dailyKwh)} kWh/hari atau ±{formatNumber(result.monthlyKwh)} kWh/bulan.
             </p>
             <p className="mt-3 text-sm leading-7 text-slate-500">
-              Kondisi ruang: {result.selectedCondition.note} Angka ini patokan awal. Tim RADJA AC tetap cek daya listrik, MCB, posisi indoor-outdoor, panjang pipa, tipe AC, dan stok.
+              Kondisi ruang: {result.selectedCondition.note} Angka ini patokan awal. Tim Radja AC tetap cek daya listrik, MCB, posisi indoor-outdoor, panjang pipa, tipe AC, dan stok.
             </p>
           </div>
 
@@ -207,7 +207,7 @@ export default function PkCalculator() {
           <div className="mt-5 rounded-3xl border border-blue-200 bg-blue-50 p-4">
             <p className="font-bold text-blue-950">Sudah keluar hasilnya? Jangan berhenti di sini</p>
             <p className="mt-2 text-sm leading-7 text-blue-900">
-              Kalkulator ini memberi gambaran awal. Kirim hasil hitung agar tim RADJA AC cek stok unit, harga unit, biaya pasang, daya listrik, kondisi MCB, dan posisi pemasangan.
+              Kalkulator ini memberi gambaran awal. Kirim hasil hitung agar tim Radja AC cek stok unit, harga unit, biaya pasang, daya listrik, kondisi MCB, dan posisi pemasangan.
             </p>
           </div>
         </section>

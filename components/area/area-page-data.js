@@ -45,10 +45,10 @@ export const packageIncludes = [
 ];
 
 export const proofImages = [
-  ["Showroom", "/photos/showroom/showroom-multibrand-radja-ac-purwokerto-01.webp", "Showroom RADJA AC"],
-  ["Gudang Stok", "/photos/stock/gudang-stok-ac-radja-ac-purwokerto-01.webp", "Gudang stok AC RADJA AC"],
-  ["Pengiriman", "/photos/delivery/radja-ac-persiapan-pengiriman.webp", "Persiapan pengiriman AC RADJA AC"],
-  ["Material", "/photos/installation/material-instalasi-ac-radja-ac-01.webp", "Material instalasi AC RADJA AC"],
+  ["Showroom", "/photos/showroom/showroom-multibrand-radja-ac-purwokerto-01.webp", "Showroom Radja AC"],
+  ["Gudang Stok", "/photos/stock/gudang-stok-ac-radja-ac-purwokerto-01.webp", "Gudang stok AC Radja AC"],
+  ["Pengiriman", "/photos/delivery/radja-ac-persiapan-pengiriman.webp", "Persiapan pengiriman AC Radja AC"],
+  ["Material", "/photos/installation/material-instalasi-ac-radja-ac-01.webp", "Material instalasi AC Radja AC"],
 ];
 
 export const primaryLinks = [
@@ -59,7 +59,7 @@ export const primaryLinks = [
   ["AC Daikin", routes.brandDaikin],
   ["Pengadaan AC", routes.pengadaanAc],
   ["Bukti Pengiriman", routes.buktiPengirimanProyek],
-  ["Kontak RADJA AC", routes.kontak],
+  ["Kontak Radja AC", routes.kontak],
 ];
 
 export const areaPageLinkOverrides = {
@@ -71,7 +71,7 @@ export const areaPageLinkOverrides = {
     ["AC Low Watt", routes.katalogAcLowWatt],
     ["AC Gree", routes.brandGree],
     ["Bukti Pengiriman & Proyek", routes.buktiPengirimanProyek],
-    ["Kontak RADJA AC", routes.kontak],
+    ["Kontak Radja AC", routes.kontak],
   ],
   "jual-ac-purbalingga": [
     ["Kalkulator PK AC", routes.kalkulatorPkAc],
@@ -82,7 +82,7 @@ export const areaPageLinkOverrides = {
     ["AC Gree", routes.brandGree],
     ["AC Midea", routes.brandMidea],
     ["Bukti Pengiriman & Proyek", routes.buktiPengirimanProyek],
-    ["Kontak RADJA AC", routes.kontak],
+    ["Kontak Radja AC", routes.kontak],
   ],
   "jual-ac-kebumen": [
     ["Katalog AC", routes.katalog],
@@ -93,7 +93,7 @@ export const areaPageLinkOverrides = {
     ["AC Daikin", routes.brandDaikin],
     ["AC Gree", routes.brandGree],
     ["Bukti Pengiriman & Proyek", routes.buktiPengirimanProyek],
-    ["Kontak RADJA AC", routes.kontak],
+    ["Kontak Radja AC", routes.kontak],
   ],
   "jual-ac-banjarnegara": [
     ["Katalog AC", routes.katalog],
@@ -103,6 +103,6 @@ export const areaPageLinkOverrides = {
     ["AC Split Rumah", routes.katalogAcSplitRumah],
     ["Bukti Pengiriman & Proyek", routes.buktiPengirimanProyek],
     ["Pengadaan AC", routes.pengadaanAc],
-    ["Kontak RADJA AC", routes.kontak],
+    ["Kontak Radja AC", routes.kontak],
   ],
 };

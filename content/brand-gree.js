@@ -6,13 +6,13 @@ import { routes } from "@/content/routes";
 export const greePremiumContent = {
   hero: {
     image: "/photos/showroom/display-gree-new.webp",
-    imageAlt: "Showcase AC Gree original di showroom RADJA AC",
+    imageAlt: "Showcase AC Gree original di showroom Radja AC",
     badge: "PROSHOP GREE RESMI",
     breadcrumbLabel: "Gree",
     titleLead: "Proshop Gree Resmi",
     titleHighlight: "Stok Lebih Lengkap, Pilihan Lebih Banyak",
     paragraphs: [
-      "RADJA AC tercantum di website resmi Gree Indonesia sebagai Proshop Gree — bukan sekadar klaim. Itu artinya stok Gree kami lebih lengkap dari toko biasa: standard, low watt, inverter, berbagai kapasitas PK. Mau cari AC Gree untuk kamar, rumah, kost, toko, ruko, atau kantor? Cek stok dan harga dulu lewat WhatsApp sebelum OTW.",
+      "Radja AC tercantum di website resmi Gree Indonesia sebagai Proshop Gree — bukan sekadar klaim. Itu artinya stok Gree kami lebih lengkap dari toko biasa: standard, low watt, inverter, berbagai kapasitas PK. Mau cari AC Gree untuk kamar, rumah, kost, toko, ruko, atau kantor? Cek stok dan harga dulu lewat WhatsApp sebelum OTW.",
       "Garansi teknisi 1 bulan untuk pekerjaan pemasangan. Garansi unit mengikuti ketentuan resmi Gree. Kalau ada kendala unit setelah pasang, toko bantu arahan awal proses klaim ke Gree sesuai ketentuan yang berlaku.",
     ],
     primaryCtaLabel: "Cek Stok & Harga Gree Sekarang",
@@ -32,13 +32,13 @@ export const greePremiumContent = {
   statusBlock: {
     placement: "beforeWarranty",
     badge: "Status Resmi Proshop Gree",
-    title: "Nama RADJA AC ada di website resmi Gree Indonesia",
+    title: "Nama Radja AC ada di website resmi Gree Indonesia",
     paragraphs: [
       "Dealer Gree biasa dan Proshop Gree itu beda. Proshop punya stok lebih lengkap, dan statusnya memang tercantum di listing resmi Gree. Ini yang membuat kami lebih yakin merekomendasikan Gree untuk pembeli rumah, usaha, dan proyek — bukan sekadar jual putus tanpa kejelasan asal unit.",
       "Kalau sedang cari AC Gree yang stok-nya bisa dipercaya, cek dulu lewat WhatsApp sebelum memutuskan. Admin konfirmasi unit yang benar-benar ready hari ini — bukan dari katalog online yang belum tentu update.",
     ],
     image: "/photos/showroom/showroom-gree-radja-ac-purwokerto-01.webp",
-    imageAlt: "Showroom Proshop Gree RADJA AC",
+    imageAlt: "Showroom Proshop Gree Radja AC",
     infoCards: ["Proshop Gree Resmi", "Pamijen, Sokaraja, dekat RS Margono"],
   },
 
@@ -46,7 +46,7 @@ export const greePremiumContent = {
     eyebrow: "Garansi & Bantuan Klaim",
     title: "Beli Gree di sini, tidak ditinggal begitu AC terpasang",
     description:
-      "Banyak yang khawatir — beli AC, teknisi pasang, terus kalau ada masalah tidak ada yang bisa dimintai bantuan. Di RADJA AC, garansi teknisi 1 bulan berlaku untuk kendala yang berkaitan dengan pekerjaan pemasangan. Garansi unit Gree mengikuti ketentuan resmi dan kartu garansi produk. Kalau unit bermasalah, toko bantu arahan awal proses klaim ke Gree sesuai syarat yang berlaku.",
+      "Banyak yang khawatir — beli AC, teknisi pasang, terus kalau ada masalah tidak ada yang bisa dimintai bantuan. Di Radja AC, garansi teknisi 1 bulan berlaku untuk kendala yang berkaitan dengan pekerjaan pemasangan. Garansi unit Gree mengikuti ketentuan resmi dan kartu garansi produk. Kalau unit bermasalah, toko bantu arahan awal proses klaim ke Gree sesuai syarat yang berlaku.",
     cards: [
       {
         title: "Garansi teknisi 1 bulan",
@@ -61,7 +61,7 @@ export const greePremiumContent = {
       {
         title: "Ada masalah? Toko bantu arahkan",
         description:
-          "Kalau unit bermasalah setelah pasang, RADJA AC bantu arahan awal proses klaim ke Gree — selama dokumen, kartu garansi, dan nomor seri unit tersedia.",
+          "Kalau unit bermasalah setelah pasang, Radja AC bantu arahan awal proses klaim ke Gree — selama dokumen, kartu garansi, dan nomor seri unit tersedia.",
       },
     ],
   },
@@ -106,7 +106,7 @@ export const greePremiumContent = {
       {
         title: "Pilihan tipe lebih lengkap dari brand lain",
         description:
-          "Standard, low watt, inverter — stok Gree di RADJA AC lebih bervariasi. Mau cari AC Gree yang pas untuk rumah, kost, toko, kantor kecil, atau proyek? Admin bantu cek yang paling sesuai.",
+          "Standard, low watt, inverter — stok Gree di Radja AC lebih bervariasi. Mau cari AC Gree yang pas untuk rumah, kost, toko, kantor kecil, atau proyek? Admin bantu cek yang paling sesuai.",
       },
       {
         title: "Cocok untuk rumah, toko, sampai ruko",
@@ -202,7 +202,7 @@ export const greePremiumContent = {
     links: [
       {
         title: "Konsultasi AC Gree",
-        description: "Sebelum OTW, cek stok, harga, brand yang ready, dan kebutuhan pemasangan di RADJA AC.",
+        description: "Sebelum OTW, cek stok, harga, brand yang ready, dan kebutuhan pemasangan di Radja AC.",
         href: routes.kontak,
       },
       {

@@ -14,14 +14,14 @@ export const dynamicParams = false;
 
 const processSteps = [
   ["01", "Kirim jumlah unit & lokasi", "Jumlah unit/titik, jenis bangunan, lokasi, daya listrik, dan kapan unit dibutuhkan."],
-  ["02", "Cek stok & opsi brand", "RADJA AC cek ketersediaan unit di gudang, pilihan brand, dan estimasi PK per ruangan."],
+  ["02", "Cek stok & opsi brand", "Radja AC cek ketersediaan unit di gudang, pilihan brand, dan estimasi PK per ruangan."],
   ["03", "Konfirmasi & jadwal kirim", "Spesifikasi unit, jadwal pengiriman, dan kebutuhan pemasangan dikunci sebelum order jalan."],
-  ["04", "Kirim & pasang", "Unit dikirim pakai armada RADJA AC; pemasangan bergaransi 1 bulan bila dikerjakan tim kami."],
+  ["04", "Kirim & pasang", "Unit dikirim pakai armada Radja AC; pemasangan bergaransi 1 bulan bila dikerjakan tim kami."],
 ];
 
 const heroTrust = [
   ["Stok banyak unit", "Ready di gudang Sokaraja, restock rutin terdokumentasi."],
-  ["Pengiriman sendiri", "Armada RADJA AC, bisa sekaligus atau bertahap."],
+  ["Pengiriman sendiri", "Armada Radja AC, bisa sekaligus atau bertahap."],
   ["Pemasangan bergaransi", "Garansi pemasangan 1 bulan bila dikerjakan tim kami."],
 ];
 
@@ -216,7 +216,7 @@ export default async function ProcurementDetailPage({ params }) {
               </h2>
             </div>
             <p className="text-sm leading-7 text-slate-600 sm:text-base">
-              Foto diambil dari aktivitas gudang dan pengiriman RADJA AC di Sokaraja, Banyumas.
+              Foto diambil dari aktivitas gudang dan pengiriman Radja AC di Sokaraja, Banyumas.
               Ketersediaan tipe dan jumlah unit dikonfirmasi saat order.
             </p>
           </div>

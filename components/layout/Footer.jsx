@@ -26,7 +26,7 @@ const footerGroups = [
   {
     title: "Kepercayaan",
     links: [
-      { label: "Tentang RADJA AC", href: routes.tentangKami },
+      { label: "Tentang Radja AC", href: routes.tentangKami },
       { label: "Bukti Pengiriman", href: routes.buktiPengirimanProyek },
       { label: "Pengiriman & Pemasangan", href: routes.pengirimanPemasangan },
       { label: "Artikel Panduan", href: routes.artikel },
@@ -98,17 +98,17 @@ export default function Footer() {
               />
             </span>
             <div>
-              <p className="text-xl font-bold tracking-[-0.03em] text-white sm:text-2xl">RADJA AC</p>
+              <p className="text-xl font-bold tracking-[-0.03em] text-white sm:text-2xl">Radja AC</p>
               <p className={`mt-1 ${typography.eyebrow} text-white/70`}>Sokaraja, Banyumas</p>
             </div>
           </div>
 
           <p className="mt-3 max-w-md text-sm leading-7 text-white/85">
-            AC original untuk rumah, usaha, properti, dan proyek. Tim RADJA AC cek PK, stok, pengiriman, pemasangan, dan kebutuhan banyak unit dari data ruangan yang dikirim.
+            AC original untuk rumah, usaha, properti, dan proyek. Tim Radja AC cek PK, stok, pengiriman, pemasangan, dan kebutuhan banyak unit dari data ruangan yang dikirim.
           </p>
 
           <p className="mt-3 text-sm leading-7 text-white/75">
-            Showroom dan gudang berada di Sokaraja, Banyumas. Tim RADJA AC cek stok aktif, area pengiriman, dan kondisi pemasangan sebelum memberi rincian pembelian.
+            Showroom dan gudang berada di Sokaraja, Banyumas. Tim Radja AC cek stok aktif, area pengiriman, dan kondisi pemasangan sebelum memberi rincian pembelian.
           </p>
 
           <div className="mt-5 flex flex-wrap gap-2">
@@ -150,7 +150,7 @@ export default function Footer() {
       </div>
 
       <div className="bg-slate-950/90 px-4 py-4 text-center text-xs leading-6 text-white/70">
-        © {new Date().getFullYear()} RADJA AC. AC original multi-brand untuk rumah, usaha, dan proyek. Garansi unit mengikuti ketentuan masing-masing brand.
+        © {new Date().getFullYear()} Radja AC. AC original multi-brand untuk rumah, usaha, dan proyek. Garansi unit mengikuti ketentuan masing-masing brand.
       </div>
     </footer>
   );

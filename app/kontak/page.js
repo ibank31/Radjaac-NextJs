@@ -28,7 +28,7 @@ const messageChecklist = [
 const contactReasons = [
   [
     "Tidak perlu nebak PK sendiri",
-    "Tim RADJA AC membaca kapasitas AC dari ukuran ruangan, pemakaian, daya listrik, dan kondisi lokasi.",
+    "Tim Radja AC membaca kapasitas AC dari ukuran ruangan, pemakaian, daya listrik, dan kondisi lokasi.",
   ],
   [
     "Stok dicek dulu",
@@ -60,15 +60,15 @@ export default function KontakPage() {
         <div className="relative mx-auto grid max-w-7xl gap-10 lg:grid-cols-[1fr_0.92fr] lg:items-start lg:gap-16">
           <div>
             <p className={`inline-flex rounded-full border border-blue-100 bg-white/80 px-4 py-2 ${typography.eyebrow} text-blue-800 shadow-sm backdrop-blur`}>
-              Kontak RADJA AC
+              Kontak Radja AC
             </p>
 
             <h1 className={`mt-6 max-w-4xl ${typography.pageTitle} text-slate-950`}>
-              Mau beli AC? Kirim ukuran ruangan, daya listrik, lokasi, dan jumlah unit ke RADJA AC.
+              Mau beli AC? Kirim ukuran ruangan, daya listrik, lokasi, dan jumlah unit ke Radja AC.
             </h1>
 
             <p className="mt-6 max-w-3xl text-sm leading-7 text-slate-600 sm:text-base">
-              Showroom dan gudang RADJA AC berada di {siteConfig.businessBase}. Tim RADJA AC cek kebutuhan AC untuk rumah, kost, toko, kantor, hotel, sampai pengadaan banyak unit sebelum pembelian.
+              Showroom dan gudang Radja AC berada di {siteConfig.businessBase}. Tim Radja AC cek kebutuhan AC untuk rumah, kost, toko, kantor, hotel, sampai pengadaan banyak unit sebelum pembelian.
             </p>
 
             <div className="mt-8 flex flex-col gap-3 sm:flex-row sm:flex-wrap">
@@ -135,7 +135,7 @@ export default function KontakPage() {
             <WhatsappLink
               className="mt-6 inline-flex w-full items-center justify-center rounded-full bg-[#25D366] px-6 py-4 text-sm font-bold text-slate-950 shadow-[0_14px_34px_rgba(37,211,102,0.20)] transition hover:-translate-y-0.5 hover:bg-[#20BA5A]"
               source="Halaman Kontak - Card Nomor WA"
-              intent="mengirim detail kebutuhan AC untuk dicek tim RADJA AC"
+              intent="mengirim detail kebutuhan AC untuk dicek tim Radja AC"
             >
               Kirim Detail Kebutuhan Sekarang
             </WhatsappLink>
@@ -202,7 +202,7 @@ export default function KontakPage() {
             Siap cek stok dan rekomendasi AC?
           </h2>
           <p className="mx-auto mb-7 max-w-2xl text-sm leading-7 text-slate-700">
-            Kirim ukuran ruangan, daya listrik, lokasi, jumlah unit, anggaran, dan brand yang diminati. Tim RADJA AC menyusun opsi yang masuk akal sebelum pembelian.
+            Kirim ukuran ruangan, daya listrik, lokasi, jumlah unit, anggaran, dan brand yang diminati. Tim Radja AC menyusun opsi yang masuk akal sebelum pembelian.
           </p>
           <WhatsappLink
             className="inline-flex items-center justify-center rounded-full bg-[#25D366] px-6 py-4 font-bold text-slate-950 shadow-[0_14px_34px_rgba(37,211,102,0.20)] transition hover:-translate-y-0.5 hover:bg-[#20BA5A]"

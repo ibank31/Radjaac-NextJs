@@ -7,7 +7,7 @@ const defaultChildRelatedLinks = [
   ["Katalog AC", "/katalog"],
   ["Kalkulator PK AC", "/kalkulator-pk-ac"],
   ["Pengadaan AC", "/pengadaan-ac"],
-  ["Kontak RADJA AC", "/kontak"],
+  ["Kontak Radja AC", "/kontak"],
 ];
 
 function createChildAreaDraft({
@@ -32,13 +32,13 @@ function createChildAreaDraft({
     path: `/${slug}`,
     areaName,
     label: `Jual AC ${areaName}`,
-    title: `Jual AC ${areaName} untuk Rumah, Toko & Usaha — RADJA AC`,
-    description: `Butuh AC untuk rumah, toko, kantor, usaha, atau banyak unit di ${areaName}? RADJA AC bantu cek PK, stok, pengiriman unit, opsi pemasangan, dan pembayaran fleksibel via WhatsApp.`,
+    title: `Jual AC ${areaName} untuk Rumah, Toko & Usaha — Radja AC`,
+    description: `Butuh AC untuk rumah, toko, kantor, usaha, atau banyak unit di ${areaName}? Radja AC bantu cek PK, stok, pengiriman unit, opsi pemasangan, dan pembayaran fleksibel via WhatsApp.`,
     h1: `Jual AC ${areaName} untuk Rumah, Toko & Usaha`,
     eyebrow: `Child Area ${parentAreaName}`,
-    intro: `Butuh AC di ${areaName} untuk rumah, kamar, toko, kantor, usaha, atau banyak unit? Tim RADJA AC membantu cek kebutuhan PK, daya listrik, pilihan brand, stok unit, pengiriman, dan opsi pemasangan berdasarkan data awal.`,
-    localContext: `${areaName} disiapkan sebagai child area dari ${parentAreaName}. ${localAngle} Kirim lokasi detail, ukuran ruangan, daya listrik, jumlah unit, anggaran, dan kebutuhan unit saja atau opsi pemasangan agar tim RADJA AC bisa menyusun rekomendasi yang masuk akal.`,
-    coverageNote: `Showroom dan gudang RADJA AC berada di Banyumas. Kebutuhan AC area ${areaName} dilayani dengan konsultasi PK, cek stok unit, pengiriman, dan opsi pemasangan sesuai alamat, jumlah unit, akses lokasi, serta jadwal.`,
+    intro: `Butuh AC di ${areaName} untuk rumah, kamar, toko, kantor, usaha, atau banyak unit? Tim Radja AC membantu cek kebutuhan PK, daya listrik, pilihan brand, stok unit, pengiriman, dan opsi pemasangan berdasarkan data awal.`,
+    localContext: `${areaName} disiapkan sebagai child area dari ${parentAreaName}. ${localAngle} Kirim lokasi detail, ukuran ruangan, daya listrik, jumlah unit, anggaran, dan kebutuhan unit saja atau opsi pemasangan agar tim Radja AC bisa menyusun rekomendasi yang masuk akal.`,
+    coverageNote: `Showroom dan gudang Radja AC berada di Banyumas. Kebutuhan AC area ${areaName} dilayani dengan konsultasi PK, cek stok unit, pengiriman, dan opsi pemasangan sesuai alamat, jumlah unit, akses lokasi, serta jadwal.`,
     keywordVariants: keywordVariantsOverride ?? [
       `jual AC ${areaName}`,
       `AC rumah ${areaName}`,
@@ -58,8 +58,8 @@ function createChildAreaDraft({
     ],
     localFaq: localFaqOverride ?? [
       [
-        `Apakah RADJA AC punya toko fisik di ${areaName}?`,
-        `Showroom dan gudang RADJA AC berada di Banyumas. Untuk kebutuhan AC ${areaName}, tim membantu cek stok, kapasitas PK, pengiriman, dan opsi pemasangan berdasarkan alamat serta jumlah unit.`,
+        `Apakah Radja AC punya toko fisik di ${areaName}?`,
+        `Showroom dan gudang Radja AC berada di Banyumas. Untuk kebutuhan AC ${areaName}, tim membantu cek stok, kapasitas PK, pengiriman, dan opsi pemasangan berdasarkan alamat serta jumlah unit.`,
       ],
       [
         `Bisa konsultasi AC untuk rumah, toko, atau kantor di ${areaName}?`,
@@ -71,7 +71,7 @@ function createChildAreaDraft({
       ],
       [
         "Apakah pembayaran bisa COD, DP, atau transfer?",
-        "Skema pembayaran fleksibel dapat dikonsultasikan. Detail COD, DP, atau transfer dikonfirmasi bersama tim RADJA AC sesuai kebutuhan unit, pengiriman, dan pemasangan.",
+        "Skema pembayaran fleksibel dapat dikonsultasikan. Detail COD, DP, atau transfer dikonfirmasi bersama tim Radja AC sesuai kebutuhan unit, pengiriman, dan pemasangan.",
       ],
     ],
     commonNeeds: commonNeedsOverride ?? [
@@ -123,26 +123,26 @@ function createChildAreaDraft({
     },
     draftHeroImage: {
       src: "/photos/showroom/showroom-multibrand-radja-ac-purwokerto-01.webp",
-      alt: `Showroom dan gudang RADJA AC sebagai referensi konsultasi AC ${areaName}`,
-      caption: "Dokumentasi showroom dan gudang RADJA AC di Banyumas.",
+      alt: `Showroom dan gudang Radja AC sebagai referensi konsultasi AC ${areaName}`,
+      caption: "Dokumentasi showroom dan gudang Radja AC di Banyumas.",
       usageNote:
         "Generic proof. Jangan ditulis sebagai foto toko, cabang, atau showroom fisik di area child.",
     },
     draftProofImages: [
       {
         src: "/photos/stock/gudang-stok-ac-radja-ac-purwokerto-01.webp",
-        alt: `Dokumentasi stok AC RADJA AC untuk konsultasi kebutuhan AC ${areaName}`,
-        caption: "Dokumentasi stok unit AC RADJA AC.",
+        alt: `Dokumentasi stok AC Radja AC untuk konsultasi kebutuhan AC ${areaName}`,
+        caption: "Dokumentasi stok unit AC Radja AC.",
       },
       {
         src: "/photos/delivery/radja-ac-persiapan-pengiriman.webp",
-        alt: `Dokumentasi persiapan pengiriman AC RADJA AC untuk kebutuhan area ${areaName}`,
-        caption: "Dokumentasi persiapan pengiriman unit AC RADJA AC.",
+        alt: `Dokumentasi persiapan pengiriman AC Radja AC untuk kebutuhan area ${areaName}`,
+        caption: "Dokumentasi persiapan pengiriman unit AC Radja AC.",
       },
       {
         src: "/photos/installation/material-instalasi-ac-radja-ac-01.webp",
-        alt: `Dokumentasi material instalasi AC RADJA AC untuk kebutuhan pemasangan area ${areaName}`,
-        caption: "Dokumentasi material instalasi AC RADJA AC.",
+        alt: `Dokumentasi material instalasi AC Radja AC untuk kebutuhan pemasangan area ${areaName}`,
+        caption: "Dokumentasi material instalasi AC Radja AC.",
       },
     ],
     incomingInternalLinkPlan: [
@@ -231,16 +231,16 @@ export const areaChildDraftItems = [
       "Sumbang diposisikan sebagai ring utara/timur Purwokerto yang masih dekat dengan basis layanan Banyumas.",
       "Kebutuhan AC dibaca dari ukuran ruangan, daya listrik, jumlah unit, stok aktif, dan alamat detail.",
       "Pengiriman dan opsi pemasangan dikonfirmasi dari data lokasi, akses pekerjaan, dan jadwal yang memungkinkan.",
-      "Tidak ada klaim cabang lokal; konsultasi tetap diarahkan ke showroom dan gudang RADJA AC di Banyumas.",
+      "Tidak ada klaim cabang lokal; konsultasi tetap diarahkan ke showroom dan gudang Radja AC di Banyumas.",
     ],
     localFaqOverride: [
       [
-        "Apakah RADJA AC melayani pembelian AC area Sumbang?",
-        "Bisa dikonsultasikan. Kirim ukuran ruangan, daya listrik, jumlah unit, alamat area Sumbang, dan kebutuhan unit saja atau opsi pemasangan agar tim RADJA AC mengecek stok serta arahan PK.",
+        "Apakah Radja AC melayani pembelian AC area Sumbang?",
+        "Bisa dikonsultasikan. Kirim ukuran ruangan, daya listrik, jumlah unit, alamat area Sumbang, dan kebutuhan unit saja atau opsi pemasangan agar tim Radja AC mengecek stok serta arahan PK.",
       ],
       [
-        "Apakah ada toko RADJA AC di Sumbang?",
-        "Showroom dan gudang RADJA AC berada di Banyumas. Untuk area Sumbang, tim membantu cek stok, pengiriman, dan opsi pemasangan berdasarkan alamat serta jumlah unit.",
+        "Apakah ada toko Radja AC di Sumbang?",
+        "Showroom dan gudang Radja AC berada di Banyumas. Untuk area Sumbang, tim membantu cek stok, pengiriman, dan opsi pemasangan berdasarkan alamat serta jumlah unit.",
       ],
       [
         "AC apa yang cocok untuk rumah, kost, atau toko di Sumbang?",
@@ -258,7 +258,7 @@ export const areaChildDraftItems = [
       ["Jual AC Baturraden", "/jual-ac-baturraden"],
       ["Katalog AC", "/katalog"],
       ["Kalkulator PK AC", "/kalkulator-pk-ac"],
-      ["Kontak RADJA AC", "/kontak"],
+      ["Kontak Radja AC", "/kontak"],
     ],
     prePublishNotes: [
       "Cocok sebagai batch 1 karena menguatkan ring utara/timur Purwokerto.",
@@ -309,11 +309,11 @@ export const areaChildDraftItems = [
       "Kedungbanteng diposisikan sebagai ring utara-barat Purwokerto yang dekat dengan Baturraden dan Karanglewas.",
       "Cocok untuk kebutuhan rumah, usaha lokal, properti sewa, dan beberapa unit dengan pengecekan PK lebih dulu.",
       "Stok, pengiriman, dan opsi pemasangan dikonfirmasi berdasarkan data lokasi dan jumlah unit.",
-      "Tidak ada klaim showroom lokal; bukti operasional tetap mengacu ke RADJA AC Banyumas.",
+      "Tidak ada klaim showroom lokal; bukti operasional tetap mengacu ke Radja AC Banyumas.",
     ],
     localFaqOverride: [
       [
-        "Apakah RADJA AC melayani AC area Kedungbanteng?",
+        "Apakah Radja AC melayani AC area Kedungbanteng?",
         "Bisa dikonsultasikan. Kirim alamat detail Kedungbanteng, ukuran ruangan, daya listrik, jumlah unit, dan kebutuhan unit saja atau pemasangan agar tim mengecek stok serta arahan PK.",
       ],
       [
@@ -321,8 +321,8 @@ export const areaChildDraftItems = [
         "Bisa. Untuk properti sewa atau penginapan kecil, tim membaca jumlah kamar, ukuran ruangan, daya listrik, pola pemakaian, dan kebutuhan unit bertahap.",
       ],
       [
-        "Apakah ada toko RADJA AC di Kedungbanteng?",
-        "Showroom dan gudang RADJA AC berada di Banyumas. Untuk Kedungbanteng, konsultasi dimulai dari WhatsApp agar stok, pengiriman, dan opsi pemasangan dicek lebih dulu.",
+        "Apakah ada toko Radja AC di Kedungbanteng?",
+        "Showroom dan gudang Radja AC berada di Banyumas. Untuk Kedungbanteng, konsultasi dimulai dari WhatsApp agar stok, pengiriman, dan opsi pemasangan dicek lebih dulu.",
       ],
       [
         "Data apa yang paling penting untuk cek AC Kedungbanteng?",
@@ -336,7 +336,7 @@ export const areaChildDraftItems = [
       ["Jual AC Baturraden", "/jual-ac-baturraden"],
       ["AC Inverter", "/katalog/ac-inverter"],
       ["Kalkulator PK AC", "/kalkulator-pk-ac"],
-      ["Kontak RADJA AC", "/kontak"],
+      ["Kontak Radja AC", "/kontak"],
     ],
     prePublishNotes: [
       "Cocok sebagai batch 1 karena menguatkan ring utara-barat Purwokerto.",
@@ -387,12 +387,12 @@ export const areaChildDraftItems = [
       "Kalibagor diposisikan sebagai child area jalur Banyumas-Sokaraja.",
       "Kebutuhan AC cocok dimulai dari cek ukuran ruangan, daya listrik, stok aktif, dan pilihan brand.",
       "Pengiriman serta opsi pemasangan dikonfirmasi berdasarkan alamat detail dan kondisi lokasi.",
-      "Konsultasi tetap diarahkan ke RADJA AC Banyumas tanpa klaim toko/cabang lokal.",
+      "Konsultasi tetap diarahkan ke Radja AC Banyumas tanpa klaim toko/cabang lokal.",
     ],
     localFaqOverride: [
       [
-        "Apakah RADJA AC melayani pembelian AC area Kalibagor?",
-        "Bisa dikonsultasikan. Kirim ukuran ruangan, daya listrik, jumlah unit, alamat area Kalibagor, dan kebutuhan unit saja atau pemasangan agar tim RADJA AC mengecek stok dan arahan PK.",
+        "Apakah Radja AC melayani pembelian AC area Kalibagor?",
+        "Bisa dikonsultasikan. Kirim ukuran ruangan, daya listrik, jumlah unit, alamat area Kalibagor, dan kebutuhan unit saja atau pemasangan agar tim Radja AC mengecek stok dan arahan PK.",
       ],
       [
         "Kalibagor lebih dekat ke Banyumas atau Sokaraja?",
@@ -414,7 +414,7 @@ export const areaChildDraftItems = [
       ["Jual AC Purwokerto", "/jual-ac-purwokerto"],
       ["AC 1/2 PK", "/katalog/ac-1-2-pk"],
       ["Kalkulator PK AC", "/kalkulator-pk-ac"],
-      ["Kontak RADJA AC", "/kontak"],
+      ["Kontak Radja AC", "/kontak"],
     ],
     prePublishNotes: [
       "Cocok sebagai batch 1 karena menguatkan jalur Banyumas-Sokaraja.",
