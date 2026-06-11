@@ -337,6 +337,13 @@ export default function PremiumBrandPage({ content, item, faqItems, structuredDa
       {/* 10. BACA JUGA */}
       <section className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8 lg:py-14">
         <SectionHeading eyebrow={internalLinks.eyebrow} title={internalLinks.title} description={internalLinks.description} />
+        <p className={`mb-6 max-w-3xl ${typography.body} text-slate-600`}>
+          Masih membandingkan beberapa merk? Pelajari{" "}
+          <Link href={routes.artikelAcBagusMerkApa} className="font-semibold text-blue-700 underline-offset-2 transition hover:underline">
+            panduan memilih AC bagus merk apa untuk rumah
+          </Link>{" "}
+          sebelum menentukan pilihan akhir.
+        </p>
         <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-4">
           {internalLinks.links.map((link) => (
             <Link

@@ -36,6 +36,13 @@ const brandLinks = [
   ["Brand Lainnya", routes.brandLainnya],
 ];
 
+// Contextual guide article per catalog category (commercial-investigation feeders).
+const guideArticleBySlug = {
+  "ac-low-watt": [routes.artikelAcUntukListrik900Watt, "panduan memilih AC untuk listrik 900 watt agar MCB tidak sering turun"],
+  "ac-inverter": [routes.artikelAcPalingHematListrik, "panduan AC paling hemat listrik untuk rumah"],
+  "ac-1-2-pk": [routes.artikelPilihanAcSetengahPkTerbaik, "panduan memilih AC 1/2 PK terbaik untuk ruang kecil"],
+};
+
 export function generateStaticParams() {
   return catalogItems.map((item) => ({
     slug: item.slug,
@@ -84,6 +91,7 @@ export default async function CatalogDetailPage({ params }) {
   }
 
   const relatedItems = catalogItems.filter((catalogItem) => catalogItem.slug !== item.slug);
+  const guideArticle = guideArticleBySlug[item.slug];
   const structuredData = [
     breadcrumbSchema([
       ["Beranda", routes.home],
@@ -305,6 +313,26 @@ export default async function CatalogDetailPage({ params }) {
           </div>
         </div>
       </section>
+
+      {guideArticle ? (
+        <section className="mx-auto max-w-7xl px-4 pb-2 pt-4 sm:px-6 lg:px-8">
+          <div className="rounded-[1.7rem] border border-blue-100 bg-blue-50/60 p-6 shadow-sm sm:p-8">
+            <p className={`mb-3 ${typography.eyebrow} text-blue-700`}>
+              Panduan terkait
+            </p>
+            <h2 className={`mb-3 ${typography.sectionTitle} text-slate-950`}>
+              Masih menimbang kategori ini?
+            </h2>
+            <p className="text-sm leading-7 text-slate-600 sm:text-base">
+              Pelajari{" "}
+              <Link href={guideArticle[0]} className="font-semibold text-blue-700 underline-offset-2 transition hover:underline">
+                {guideArticle[1]}
+              </Link>{" "}
+              agar pilihan unit lebih sesuai dengan ukuran ruangan dan daya listrik Anda.
+            </p>
+          </div>
+        </section>
+      ) : null}
 
       <section className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8 lg:py-14">
         <div className="rounded-[1.7rem] border border-slate-200 bg-white p-6 text-center shadow-[0_18px_50px_rgba(15,39,66,0.08)] sm:p-8 lg:p-10">

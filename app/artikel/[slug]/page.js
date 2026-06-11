@@ -3,7 +3,7 @@ import { notFound } from "next/navigation";
 import { routes } from "@/content/routes";
 import { articleItems, getArticleItem } from "@/content/articles";
 import { buildMetadata } from "@/lib/seo";
-import { breadcrumbSchema } from "@/lib/schema";
+import { breadcrumbSchema, faqSchema } from "@/lib/schema";
 import { siteConfig } from "@/content/site";
 import { absoluteSiteUrl } from "@/lib/url";
 import JsonLd from "@/components/seo/JsonLd";
@@ -47,6 +47,42 @@ const moneyLinksBySlug = {
   "ac-kurang-dingin-belum-tentu-freon-habis": [
     ["Jual AC Purwokerto", routes.jualAcPurwokerto, "Konsultasi AC baru kalau unit lama sudah tidak efisien."],
     ["Kalkulator PK AC", routes.kalkulatorPkAc, "Cek apakah masalah kurang dingin bisa berawal dari kapasitas PK yang tidak sesuai."],
+    ["Ganti AC Lama ke Unit Baru", routes.gantiAcBaruPurwokerto, "Pertimbangkan penggantian AC baru bila unit lama sudah tidak ekonomis diperbaiki."],
+  ],
+  "ac-bagus-merk-apa": [
+    ["AC Daikin", routes.brandDaikin, "Pertimbangkan Daikin untuk kebutuhan yang mengutamakan reputasi dan ketahanan; dokumen Authorized Dealer tersedia."],
+    ["AC Gree", routes.brandGree, "Cek Gree untuk value pemakaian harian, didukung status Proshop Gree."],
+    ["AC Split Rumah", routes.katalogAcSplitRumah, "Lihat pilihan AC untuk kamar, ruang keluarga, dan rumah tinggal sebelum memilih merk."],
+    ["Kalkulator PK AC", routes.kalkulatorPkAc, "Cek estimasi PK agar merk yang dipilih dipasangkan dengan kapasitas yang tepat."],
+  ],
+  "ac-paling-hemat-listrik": [
+    ["AC Inverter", routes.katalogAcInverter, "Cek AC inverter yang lebih efisien untuk pemakaian rutin berjam-jam."],
+    ["AC Low Watt", routes.katalogAcLowWatt, "Lihat AC low watt untuk rumah dengan daya listrik terbatas."],
+    ["Kalkulator PK AC", routes.kalkulatorPkAc, "Hitung kebutuhan PK agar AC tidak bekerja berat dan boros."],
+    ["Kontak Radja AC", routes.kontak, "Konsultasikan daya listrik dan pola pemakaian untuk pilihan paling hemat."],
+  ],
+  "rekomendasi-ac-kamar-tidur": [
+    ["AC 1/2 PK", routes.katalogAcSetengahPk, "Lihat kapasitas yang umum untuk kamar tidur kecil hingga sedang."],
+    ["AC Inverter", routes.katalogAcInverter, "Cek pilihan inverter untuk tidur yang lebih nyaman dan suhu stabil."],
+    ["Kalkulator PK AC", routes.kalkulatorPkAc, "Cek estimasi PK sesuai luas dan kondisi kamar tidur."],
+    ["Kontak Radja AC", routes.kontak, "Kirim foto kamar dan titik pemasangan untuk rekomendasi yang lebih tepat."],
+  ],
+  "ac-untuk-listrik-900-watt": [
+    ["AC Low Watt", routes.katalogAcLowWatt, "Lihat AC low watt yang lebih ramah untuk daya listrik 900 watt."],
+    ["Kalkulator PK AC", routes.kalkulatorPkAc, "Cek kapasitas PK yang aman agar beban listrik tetap terkendali."],
+    ["Kontak Radja AC", routes.kontak, "Sampaikan daya listrik dan perangkat rumah untuk pilihan AC yang aman."],
+  ],
+  "biaya-pasang-ac-baru": [
+    ["Pengiriman & Pemasangan", routes.pengirimanPemasangan, "Pahami cakupan pemasangan standar, material, garansi pasang, dan jadwal."],
+    ["AC Split Rumah", routes.katalogAcSplitRumah, "Lihat pilihan unit rumah sambil memperkirakan kebutuhan pemasangan."],
+    ["Ganti AC Lama ke Unit Baru", routes.gantiAcBaruPurwokerto, "Solusi bila AC lama sudah tidak ekonomis diperbaiki: ganti AC lama dengan unit baru."],
+    ["Kontak Radja AC", routes.kontak, "Kirim foto titik indoor-outdoor dan jarak pipa untuk estimasi yang lebih akurat."],
+  ],
+  "pilihan-ac-1-2-pk-terbaik": [
+    ["AC 1/2 PK", routes.katalogAcSetengahPk, "Lihat pilihan AC 1/2 PK untuk kamar dan ruang kecil."],
+    ["AC Low Watt", routes.katalogAcLowWatt, "Cek opsi low watt bila daya listrik rumah terbatas."],
+    ["Kalkulator PK AC", routes.kalkulatorPkAc, "Pastikan ruangan memang cukup 1/2 PK sebelum order."],
+    ["Kontak Radja AC", routes.kontak, "Konsultasikan ukuran ruangan dan daya listrik untuk pilihan 1/2 PK yang sesuai."],
   ],
 };
 
@@ -118,6 +154,11 @@ export default async function ArticleDetailPage({ params }) {
       },
     },
   ];
+
+  const articleFaqSchema = item.faqs?.length ? faqSchema(item.faqs) : null;
+  if (articleFaqSchema) {
+    structuredData.push(articleFaqSchema);
+  }
 
   return (
     <main className="min-h-screen overflow-hidden bg-[#f4f8fb] text-slate-950">
@@ -204,6 +245,25 @@ export default async function ArticleDetailPage({ params }) {
               </section>
             ))}
           </div>
+
+          {item.faqs?.length ? (
+            <section className="mt-10 overflow-hidden rounded-[1.7rem] border border-slate-200 bg-white p-6 shadow-[0_16px_45px_rgba(15,39,66,0.07)] sm:p-8">
+              <p className={`mb-3 ${typography.eyebrow} text-blue-700`}>
+                Pertanyaan yang sering ditanyakan
+              </p>
+              <h2 className={`mb-6 ${typography.sectionTitle} text-slate-950`}>
+                FAQ seputar topik ini
+              </h2>
+              <div className="space-y-4">
+                {item.faqs.map((faq) => (
+                  <div key={faq.question} className="rounded-[1.2rem] border border-slate-200 bg-[#f8fbff] p-5">
+                    <h3 className={`mb-2 ${typography.cardTitle} text-slate-950`}>{faq.question}</h3>
+                    <p className="text-sm leading-7 text-slate-600">{faq.answer}</p>
+                  </div>
+                ))}
+              </div>
+            </section>
+          ) : null}
 
           <section className="mt-10 overflow-hidden rounded-[1.7rem] border border-slate-200 bg-white shadow-[0_18px_55px_rgba(15,39,66,0.08)]">
             <div className="bg-[linear-gradient(135deg,#083449_0%,#0ea5b7_100%)] p-6 text-white sm:p-8">

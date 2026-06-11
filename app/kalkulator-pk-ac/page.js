@@ -150,6 +150,7 @@ export default function KalkulatorPkAcPage() {
               ["AC 2 PK", routes.katalogAcDuaPk],
               ["AC Low Watt", routes.katalogAcLowWatt],
               ["AC Inverter", routes.katalogAcInverter],
+              ["Rekomendasi AC Kamar Tidur", routes.artikelRekomendasiAcKamarTidur],
               ["Pengadaan AC Banyak Unit", routes.pengadaanAc],
               ["Kontak Radja AC", routes.kontak],
             ].map(([label, href]) => (

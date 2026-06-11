@@ -79,6 +79,12 @@ export const routes = {
   artikelAcKurangDingin: "/artikel/ac-kurang-dingin-belum-tentu-freon-habis",
   artikelPanduanInstalasiAcBaru: "/artikel/panduan-instalasi-ac-baru",
   artikelCaraMemilihAcKamarTigaKaliEmpat: "/artikel/cara-memilih-ac-untuk-kamar-3x4",
+  artikelAcBagusMerkApa: "/artikel/ac-bagus-merk-apa",
+  artikelAcPalingHematListrik: "/artikel/ac-paling-hemat-listrik",
+  artikelRekomendasiAcKamarTidur: "/artikel/rekomendasi-ac-kamar-tidur",
+  artikelAcUntukListrik900Watt: "/artikel/ac-untuk-listrik-900-watt",
+  artikelBiayaPasangAcBaru: "/artikel/biaya-pasang-ac-baru",
+  artikelPilihanAcSetengahPkTerbaik: "/artikel/pilihan-ac-1-2-pk-terbaik",
 };
 
 export const sitemapRoutes = [
@@ -161,4 +167,10 @@ export const sitemapRoutes = [
   { path: routes.artikelAcKurangDingin, priority: 0.5 },
   { path: routes.artikelPanduanInstalasiAcBaru, priority: 0.5 },
   { path: routes.artikelCaraMemilihAcKamarTigaKaliEmpat, priority: 0.5 },
+  { path: routes.artikelAcBagusMerkApa, priority: 0.55, lastModified: "2026-06-11" },
+  { path: routes.artikelAcPalingHematListrik, priority: 0.55, lastModified: "2026-06-11" },
+  { path: routes.artikelRekomendasiAcKamarTidur, priority: 0.55, lastModified: "2026-06-11" },
+  { path: routes.artikelAcUntukListrik900Watt, priority: 0.55, lastModified: "2026-06-11" },
+  { path: routes.artikelBiayaPasangAcBaru, priority: 0.55, lastModified: "2026-06-11" },
+  { path: routes.artikelPilihanAcSetengahPkTerbaik, priority: 0.55, lastModified: "2026-06-11" },
 ];

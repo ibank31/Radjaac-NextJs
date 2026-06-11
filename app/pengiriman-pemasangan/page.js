@@ -37,6 +37,8 @@ const photoBriefs = [
 ];
 
 const relatedLinks = [
+  ["Biaya Pasang AC Baru: Rincian Komponen", routes.artikelBiayaPasangAcBaru],
+  ["Ganti AC Lama ke Unit Baru di Purwokerto", routes.gantiAcBaruPurwokerto],
   ["Bukti Pengiriman Proyek", routes.buktiPengirimanProyek],
   ["Katalog AC", routes.katalog],
   ["Pengadaan AC", routes.pengadaanAc],

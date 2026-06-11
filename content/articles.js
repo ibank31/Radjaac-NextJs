@@ -380,6 +380,470 @@ export const articleItems = [
       ["Kontak Radja AC", routes.kontak],
     ],
   },
+  {
+    slug: "ac-bagus-merk-apa",
+    path: routes.artikelAcBagusMerkApa,
+    title: "AC yang Bagus Merk Apa untuk Rumah? | Cara Memilih Merk AC",
+    description:
+      "Bingung AC bagus merk apa untuk rumah? Pahami kelas merk AC, cara mencocokkan dengan PK, daya listrik, garansi, dan stok sebelum memutuskan beli.",
+    h1: "AC yang bagus merk apa untuk rumah?",
+    eyebrow: "Panduan Merk AC",
+    readTime: "7 menit baca",
+    keywords: ["AC bagus merk apa", "merk AC rumah", "pilih merk AC", "AC original"],
+    intro:
+      "Pertanyaan AC bagus merk apa hampir selalu muncul sebelum membeli. Jawabannya bukan satu merk tunggal, melainkan merk yang paling cocok dengan ukuran ruangan, daya listrik, anggaran, dan pola pemakaian. Radja AC menyediakan AC original multi-brand, jadi pilihan bisa disesuaikan dengan kebutuhan, bukan dipaksakan ke satu nama.",
+    sections: [
+      {
+        heading: "Tidak ada satu merk yang paling bagus untuk semua rumah",
+        body: [
+          "Setiap merk punya karakter berbeda. Ada yang menonjol di reputasi dan ketahanan, ada yang menarik di sisi anggaran, dan ada yang seimbang untuk pemakaian harian. Karena itu, merk terbaik untuk tetangga belum tentu paling pas untuk ruangan Anda.",
+          "Daripada mencari merk paling bagus secara umum, lebih masuk akal menentukan dulu kebutuhan ruangan. Dari sana, daftar merk yang masuk akal bisa dipersempit tanpa menebak-nebak.",
+        ],
+      },
+      {
+        heading: "Kenali kelas merk AC sesuai kebutuhan",
+        body: [
+          "Untuk kebutuhan yang mengutamakan reputasi dan ketahanan jangka panjang, Daikin sering masuk pertimbangan. Gree juga banyak dipilih untuk value harian dan didukung status Proshop Gree. Untuk beberapa brand seperti Daikin, Midea, Hisense, dan Sansui, dokumen Authorized Dealer tersedia di Radja AC.",
+          "Untuk anggaran yang lebih ketat, brand seperti Sharp, Samsung, atau Panasonic bisa menjadi pilihan unit original; ketersediaan tipe dan stok dicek dulu sebelum order. Intinya, kelas merk dipilih dari kebutuhan, bukan sekadar nama yang paling sering didengar.",
+        ],
+      },
+      {
+        heading: "Cocokkan merk dengan kebutuhan PK dan daya listrik",
+        body: [
+          "Merk sebagus apa pun tetap perlu kapasitas PK yang sesuai. Ruangan yang luas, panas, atau berplafon tinggi membutuhkan kapasitas lebih besar, sedangkan kamar kecil yang teduh bisa cukup dengan PK lebih rendah.",
+          "Daya listrik rumah juga menentukan. Untuk daya terbatas, tipe low watt lebih aman, sementara pemakaian rutin berjam-jam sering lebih nyaman dengan tipe inverter. Banyak merk menyediakan kedua tipe ini, jadi pilihan merk dan tipe sebaiknya ditentukan bersamaan.",
+        ],
+      },
+      {
+        heading: "Cek garansi, layanan, dan ketersediaan stok",
+        body: [
+          "Garansi unit mengikuti ketentuan resmi masing-masing brand, sedangkan garansi pemasangan mengikuti pekerjaan yang dikerjakan melalui Radja AC. Pertimbangkan juga kemudahan layanan dan ketersediaan unit saat dibutuhkan.",
+          "Karena stok dan promo bisa berubah, konfirmasi tipe dan ketersediaan sebaiknya dilakukan sebelum memutuskan. Ini membantu memastikan merk yang dipilih memang tersedia dengan PK dan tipe yang sesuai.",
+        ],
+      },
+      {
+        heading: "Cara mempersempit pilihan merk sebelum membeli",
+        body: [
+          "Siapkan ukuran ruangan, tinggi plafon, daya listrik, anggaran awal, dan pola pemakaian. Dengan data ini, tim Radja AC bisa membantu membandingkan beberapa merk yang relevan beserta tipe yang cocok.",
+          "Jika masih ragu antara dua atau tiga merk, bandingkan dari sisi kebutuhan harian dan kenyamanan, bukan hanya dari selisih harga awal yang terlihat di permukaan.",
+        ],
+      },
+    ],
+    faqs: [
+      {
+        question: "AC yang bagus merk apa untuk kamar rumah biasa?",
+        answer:
+          "Untuk kamar rumah biasa, banyak merk sudah cukup baik selama kapasitas PK sesuai luas ruangan dan daya listrik. Yang lebih menentukan kenyamanan adalah ketepatan PK dan tipe (standard, low watt, atau inverter), bukan sekadar nama merk.",
+      },
+      {
+        question: "Apakah merk AC yang lebih mahal pasti lebih awet?",
+        answer:
+          "Tidak selalu. Harga lebih tinggi sering berkaitan dengan reputasi, fitur, dan layanan, tetapi keawetan juga dipengaruhi ketepatan kapasitas, kualitas pemasangan, dan perawatan rutin. Merk kelas menengah yang dipasang benar bisa awet untuk pemakaian harian.",
+      },
+      {
+        question: "Radja AC menjual merk AC apa saja?",
+        answer:
+          "Radja AC menyediakan AC original multi-brand seperti Daikin, Gree, Midea, Hisense, Sharp, Samsung, Panasonic, dan Sansui. Ketersediaan tipe dan stok per merk bisa dicek lebih dulu sesuai kebutuhan ruangan Anda.",
+      },
+      {
+        question: "Bagaimana cara memilih merk kalau anggaran terbatas?",
+        answer:
+          "Tentukan dulu PK yang dibutuhkan, lalu pilih merk yang menyediakan tipe sesuai daya listrik dan anggaran. Dengan begitu, anggaran terpakai untuk kapasitas yang tepat, bukan untuk fitur yang belum tentu Anda butuhkan.",
+      },
+    ],
+    ctaLabel: "Konsultasi Pilih Merk AC",
+    waIntent: "konsultasi memilih merk AC yang cocok untuk rumah",
+    relatedLinks: [
+      ["AC Daikin", routes.brandDaikin],
+      ["AC Gree", routes.brandGree],
+      ["AC Split Rumah", routes.katalogAcSplitRumah],
+      ["Kalkulator PK AC", routes.kalkulatorPkAc],
+      ["Kontak Radja AC", routes.kontak],
+    ],
+  },
+  {
+    slug: "ac-paling-hemat-listrik",
+    path: routes.artikelAcPalingHematListrik,
+    title: "AC Paling Hemat Listrik untuk Rumah | Inverter vs Low Watt",
+    description:
+      "Cari AC paling hemat listrik untuk rumah? Pahami peran inverter, low watt, kapasitas PK, dan kebiasaan pakai agar tagihan listrik lebih terkendali.",
+    h1: "AC paling hemat listrik untuk rumah",
+    eyebrow: "AC Hemat Listrik",
+    readTime: "7 menit baca",
+    keywords: ["AC hemat listrik", "AC inverter", "AC low watt", "tagihan listrik AC"],
+    intro:
+      "Hemat listrik adalah alasan paling sering disebut saat memilih AC. Namun hemat tidaknya sebuah AC bukan hanya soal label, melainkan kombinasi antara tipe unit, ketepatan kapasitas PK, daya listrik rumah, dan kebiasaan pemakaian. Memahami ini membantu memilih AC yang benar-benar terasa hemat di tagihan bulanan.",
+    sections: [
+      {
+        heading: "Hemat listrik datang dari kombinasi, bukan satu fitur",
+        body: [
+          "Banyak yang mengira cukup memilih AC berlabel hemat lalu tagihan otomatis turun. Kenyataannya, AC yang kapasitasnya tidak sesuai ruangan tetap bekerja berat dan boros, sekalipun tipenya hemat listrik.",
+          "Karena itu, langkah pertama bukan mencari label, melainkan memastikan PK sesuai ukuran dan kondisi ruangan. Setelah itu, baru pilih tipe yang paling cocok dengan pola pemakaian.",
+        ],
+      },
+      {
+        heading: "Inverter: lebih hemat untuk pemakaian lama",
+        body: [
+          "AC inverter menyesuaikan kerja kompresor saat suhu mendekati target, sehingga konsumsi daya bisa lebih efisien untuk pemakaian berjam-jam. Tipe ini cocok untuk kamar tidur atau ruang keluarga yang dipakai rutin setiap hari.",
+          "Manfaat inverter paling terasa saat AC menyala lama. Untuk pemakaian yang hanya sebentar-sebentar, selisih penghematannya bisa tidak sebesar yang dibayangkan.",
+        ],
+      },
+      {
+        heading: "Low watt: meringankan tarikan daya listrik",
+        body: [
+          "AC low watt dirancang agar tarikan dayanya lebih ringan, sehingga lebih bersahabat untuk rumah dengan daya listrik terbatas. Fokus utamanya adalah mengurangi risiko listrik turun, bukan selalu menjadi paling hemat secara bulanan.",
+          "Untuk rumah, kost, atau kontrakan dengan daya kecil, low watt sering menjadi pilihan aman. Pastikan kapasitas PK tetap cukup agar AC tidak bekerja terlalu keras hanya demi menahan daya.",
+        ],
+      },
+      {
+        heading: "PK yang tepat ikut menentukan hemat tidaknya",
+        body: [
+          "Kapasitas PK yang terlalu kecil membuat AC bekerja terus-menerus untuk mengejar suhu, dan ini justru menambah konsumsi listrik. Sebaliknya, kapasitas yang sesuai membantu AC mencapai suhu nyaman lebih cepat lalu bekerja lebih ringan.",
+          "Cek estimasi kebutuhan PK sebelum memilih tipe. Kombinasi PK yang pas dengan tipe inverter atau low watt biasanya memberi hasil yang lebih hemat dibanding hanya mengandalkan satu sisi saja.",
+        ],
+      },
+      {
+        heading: "Kebiasaan pakai dan perawatan tetap berpengaruh",
+        body: [
+          "Mengatur suhu di angka yang wajar, menutup pintu dan jendela saat AC menyala, serta membersihkan filter secara rutin membantu menjaga konsumsi listrik tetap efisien.",
+          "AC yang jarang dirawat cenderung bekerja lebih berat dan kurang dingin. Jadi penghematan bukan hanya soal unit saat membeli, tetapi juga cara pemakaian setelah terpasang.",
+        ],
+      },
+    ],
+    faqs: [
+      {
+        question: "Mana yang lebih hemat, AC inverter atau low watt?",
+        answer:
+          "Keduanya hemat untuk tujuan berbeda. Inverter lebih hemat untuk pemakaian lama karena kerja kompresor menyesuaikan, sedangkan low watt meringankan tarikan daya untuk rumah berdaya listrik terbatas. Pilih sesuai pola pemakaian dan daya listrik Anda.",
+      },
+      {
+        question: "Apakah AC low watt pasti membuat tagihan listrik lebih murah?",
+        answer:
+          "Tidak otomatis. Low watt fokus menurunkan tarikan daya agar listrik tidak mudah turun. Penghematan tagihan bulanan lebih dipengaruhi ketepatan PK, durasi pemakaian, dan kebiasaan mengatur suhu.",
+      },
+      {
+        question: "Kenapa AC saya boros padahal sudah inverter?",
+        answer:
+          "Penyebab umum adalah kapasitas PK yang kurang untuk ukuran ruangan, ruangan yang sering terbuka, filter kotor, atau pengaturan suhu terlalu rendah. AC inverter pun bisa boros bila bekerja berat terus-menerus.",
+      },
+    ],
+    ctaLabel: "Konsultasi AC Hemat Listrik",
+    waIntent: "konsultasi memilih AC hemat listrik sesuai daya rumah",
+    relatedLinks: [
+      ["AC Inverter", routes.katalogAcInverter],
+      ["AC Low Watt", routes.katalogAcLowWatt],
+      ["Kalkulator PK AC", routes.kalkulatorPkAc],
+      ["Kontak Radja AC", routes.kontak],
+    ],
+  },
+  {
+    slug: "rekomendasi-ac-kamar-tidur",
+    path: routes.artikelRekomendasiAcKamarTidur,
+    title: "Rekomendasi AC untuk Kamar Tidur | Cek PK, Tipe & Posisi",
+    description:
+      "Rekomendasi AC untuk kamar tidur: cara menentukan PK, memilih tipe inverter atau low watt, dan posisi pemasangan agar tidur lebih nyaman dan hemat.",
+    h1: "Rekomendasi AC untuk kamar tidur",
+    eyebrow: "AC Kamar Tidur",
+    readTime: "6 menit baca",
+    keywords: ["AC kamar tidur", "rekomendasi AC kamar", "AC kamar hemat", "PK AC kamar"],
+    intro:
+      "Kamar tidur termasuk ruangan yang paling sering memakai AC dalam durasi panjang, biasanya sepanjang malam. Karena itu, pilihan AC untuk kamar tidur sebaiknya mengutamakan kenyamanan suhu, ketenangan, dan efisiensi listrik, bukan hanya harga unit yang paling ringan.",
+    sections: [
+      {
+        heading: "Mulai dari ukuran dan kondisi kamar",
+        body: [
+          "Sebelum memilih unit, cek luas kamar, tinggi plafon, jumlah penghuni, dan apakah dinding terkena panas matahari sore. Kamar di lantai atas atau dengan banyak kaca biasanya butuh kapasitas lebih besar.",
+          "Data sederhana ini membantu menentukan PK yang tepat. Kamar yang teduh dan kecil berbeda kebutuhannya dengan kamar luas yang panas, meskipun ukurannya terlihat mirip.",
+        ],
+      },
+      {
+        heading: "PK yang umum untuk kamar tidur",
+        body: [
+          "Kamar tidur berukuran kecil hingga sedang sering masuk rentang 1/2 PK sampai 1 PK dalam kondisi normal. Kamar yang lebih luas atau panas bisa membutuhkan 1.5 PK agar suhu cepat nyaman.",
+          "Angka ini bukan patokan kaku. Cek estimasi kebutuhan PK lebih dulu agar tidak memilih kapasitas yang terlalu kecil sehingga AC bekerja berat semalaman.",
+        ],
+      },
+      {
+        heading: "Inverter untuk tidur yang lebih nyaman",
+        body: [
+          "Karena kamar tidur dipakai berjam-jam, AC inverter sering terasa lebih nyaman. Suhu cenderung stabil dan kerja kompresor menyesuaikan, sehingga cocok untuk pemakaian malam yang panjang.",
+          "Untuk pemakaian rutin setiap malam, inverter biasanya memberi keseimbangan yang baik antara kenyamanan dan efisiensi listrik dibanding tipe standard.",
+        ],
+      },
+      {
+        heading: "Low watt untuk kamar dengan daya terbatas",
+        body: [
+          "Jika daya listrik rumah terbatas atau kamar berada di kost dan kontrakan, AC low watt bisa menjadi pilihan agar listrik tidak mudah turun saat AC dinyalakan bersama perangkat lain.",
+          "Pastikan kapasitas PK tetap sesuai luas kamar. Low watt yang PK-nya terlalu kecil tetap akan terasa kurang dingin dan bekerja berat.",
+        ],
+      },
+      {
+        heading: "Posisi pemasangan agar tidur tetap nyaman",
+        body: [
+          "Hindari mengarahkan hembusan udara langsung ke tempat tidur agar tidak terlalu dingin di satu titik. Posisi indoor sebaiknya tidak terhalang lemari atau gorden tebal agar udara merata.",
+          "Outdoor juga butuh sirkulasi yang baik. Kirim foto kamar dan titik pemasangan saat konsultasi agar rekomendasi unit dan posisi pasang lebih tepat.",
+        ],
+      },
+    ],
+    faqs: [
+      {
+        question: "Berapa PK AC yang cocok untuk kamar tidur?",
+        answer:
+          "Kamar tidur kecil hingga sedang umumnya cocok dengan 1/2 PK sampai 1 PK, sedangkan kamar luas atau panas bisa butuh 1.5 PK. Sebaiknya cek estimasi PK berdasarkan luas, plafon, dan kondisi panas kamar sebelum memutuskan.",
+      },
+      {
+        question: "Lebih baik AC inverter atau standard untuk kamar tidur?",
+        answer:
+          "Untuk kamar tidur yang dipakai semalaman, inverter sering lebih nyaman karena suhu lebih stabil dan efisien untuk pemakaian lama. AC standard masih masuk akal bila pemakaian singkat dan anggaran awal lebih ketat.",
+      },
+      {
+        question: "Apakah AC kamar tidur sebaiknya low watt?",
+        answer:
+          "Low watt cocok bila daya listrik rumah terbatas atau kamar di kost dan kontrakan. Jika daya mencukupi dan AC dipakai lama, inverter bisa lebih menguntungkan dari sisi kenyamanan. Sesuaikan dengan kondisi listrik Anda.",
+      },
+      {
+        question: "Apakah arah hembusan AC memengaruhi kenyamanan tidur?",
+        answer:
+          "Ya. Hembusan yang langsung mengenai tubuh bisa terasa terlalu dingin dan kurang nyaman. Posisi indoor sebaiknya diatur agar udara menyebar merata, bukan terfokus ke arah tempat tidur.",
+      },
+    ],
+    ctaLabel: "Konsultasi AC Kamar Tidur",
+    waIntent: "konsultasi memilih AC untuk kamar tidur",
+    relatedLinks: [
+      ["AC 1/2 PK", routes.katalogAcSetengahPk],
+      ["AC Inverter", routes.katalogAcInverter],
+      ["Kalkulator PK AC", routes.kalkulatorPkAc],
+      ["Kontak Radja AC", routes.kontak],
+    ],
+  },
+  {
+    slug: "ac-untuk-listrik-900-watt",
+    path: routes.artikelAcUntukListrik900Watt,
+    title: "AC untuk Listrik 900 Watt | Pilih Low Watt Tanpa MCB Turun",
+    description:
+      "Panduan memilih AC untuk listrik 900 watt agar MCB tidak sering turun: cek beban listrik, kapasitas PK, dan pilihan AC low watt yang sesuai.",
+    h1: "AC untuk listrik 900 watt tanpa sering turun MCB",
+    eyebrow: "AC Low Watt",
+    readTime: "6 menit baca",
+    keywords: ["AC listrik 900 watt", "AC low watt", "MCB turun AC", "AC daya kecil"],
+    intro:
+      "Rumah dengan daya listrik 900 watt sering ragu memasang AC karena takut MCB sering turun. Sebenarnya AC tetap bisa dipasang asal pilihan tipe dan kapasitasnya disesuaikan dengan daya yang tersedia serta beban listrik lain di rumah.",
+    sections: [
+      {
+        heading: "Kenapa listrik 900 watt perlu perhatian khusus",
+        body: [
+          "Pada daya 900 watt, total beban listrik di rumah relatif terbatas. Jika AC menarik daya besar saat menyala bersama kulkas, pompa air, dan lampu, MCB bisa turun karena beban melebihi batas.",
+          "Karena itu, kunci utamanya bukan memaksakan AC berkapasitas besar, melainkan memilih tipe dan PK yang ramah terhadap daya yang tersedia.",
+        ],
+      },
+      {
+        heading: "Pilih AC low watt dengan PK yang sesuai",
+        body: [
+          "Untuk daya 900 watt, AC low watt menjadi pilihan utama karena tarikan dayanya lebih ringan. Kapasitas yang umum dipertimbangkan adalah 1/2 PK untuk kamar kecil, dengan tetap menyesuaikan kondisi ruangan.",
+          "Hindari memilih PK terlalu besar hanya agar cepat dingin. Pada daya terbatas, kapasitas yang berlebihan justru meningkatkan risiko beban dan membuat listrik tidak stabil.",
+        ],
+      },
+      {
+        heading: "Hitung beban listrik lain di rumah",
+        body: [
+          "Sebelum menambah AC, perhatikan perangkat lain yang sering menyala bersamaan seperti kulkas, mesin cuci, pompa air, dan pemanas. Total beban inilah yang menentukan apakah AC masih aman ditambahkan.",
+          "Jika beban lain sudah tinggi, mungkin perlu mengatur pemakaian bergantian, atau mempertimbangkan penambahan daya listrik bila AC dibutuhkan untuk pemakaian rutin.",
+        ],
+      },
+      {
+        heading: "Inverter low watt sebagai opsi pertimbangan",
+        body: [
+          "Beberapa unit inverter memiliki tarikan daya yang relatif ramah saat suhu sudah stabil. Untuk daya 900 watt, opsi ini bisa dipertimbangkan, namun tetap perlu dicek kebutuhan dan beban listrik rumah secara keseluruhan.",
+          "Pilihan antara low watt biasa dan inverter low watt sebaiknya dibahas berdasarkan ukuran ruangan, durasi pemakaian, dan perangkat lain yang aktif di rumah.",
+        ],
+      },
+      {
+        heading: "Cek instalasi dan kondisi MCB",
+        body: [
+          "Selain unit, kondisi instalasi listrik dan MCB ikut berpengaruh. Instalasi yang sudah tua atau tidak sesuai bisa membuat AC kurang stabil meskipun kapasitasnya sudah tepat.",
+          "Sampaikan besaran daya listrik dan perangkat utama di rumah saat konsultasi. Dari sana, tim Radja AC bisa membantu mencocokkan pilihan AC low watt yang paling aman untuk daya 900 watt.",
+        ],
+      },
+    ],
+    faqs: [
+      {
+        question: "AC berapa PK yang aman untuk listrik 900 watt?",
+        answer:
+          "Untuk daya 900 watt, AC low watt 1/2 PK pada kamar kecil umumnya paling aman. Pemilihan tetap perlu menghitung beban perangkat lain agar MCB tidak turun saat AC menyala bersamaan.",
+      },
+      {
+        question: "Apakah AC bikin MCB sering turun di rumah 900 watt?",
+        answer:
+          "Bisa terjadi bila AC menarik daya besar dan menyala bersama perangkat lain hingga total beban melebihi batas. Memilih tipe low watt dengan PK sesuai dan mengatur pemakaian membantu mengurangi risiko MCB turun.",
+      },
+      {
+        question: "Apakah perlu tambah daya listrik untuk pasang AC?",
+        answer:
+          "Tidak selalu. Banyak rumah 900 watt tetap bisa memakai AC low watt dengan kapasitas kecil. Penambahan daya baru dipertimbangkan jika beban listrik lain sudah tinggi atau AC dipakai rutin dalam waktu lama.",
+      },
+    ],
+    ctaLabel: "Konsultasi AC Low Watt 900 Watt",
+    waIntent: "konsultasi memilih AC untuk listrik 900 watt",
+    relatedLinks: [
+      ["AC Low Watt", routes.katalogAcLowWatt],
+      ["Kalkulator PK AC", routes.kalkulatorPkAc],
+      ["Kontak Radja AC", routes.kontak],
+    ],
+  },
+  {
+    slug: "biaya-pasang-ac-baru",
+    path: routes.artikelBiayaPasangAcBaru,
+    title: "Biaya Pasang AC Baru: Apa Saja yang Dihitung | Radja AC",
+    description:
+      "Pahami komponen biaya pasang AC baru: jasa pemasangan, material standar, kebutuhan tambahan sesuai lokasi, dan cara meminta estimasi yang lebih akurat.",
+    h1: "Biaya pasang AC baru: apa saja yang dihitung",
+    eyebrow: "Biaya Pemasangan",
+    readTime: "6 menit baca",
+    keywords: ["biaya pasang AC", "pemasangan AC baru", "material pasang AC", "jasa pasang AC"],
+    intro:
+      "Saat membeli AC baru, total yang dikeluarkan tidak hanya harga unit. Ada komponen pemasangan yang ikut menentukan kenyamanan dan kerapian hasil akhir. Memahami apa saja yang dihitung membantu Anda menyiapkan anggaran lebih realistis dan menghindari kaget di kemudian hari.",
+    sections: [
+      {
+        heading: "Biaya pasang bukan hanya harga unit",
+        body: [
+          "Harga unit adalah satu bagian, sedangkan pemasangan adalah bagian lain yang sama pentingnya. AC yang bagus tetap bisa kurang optimal bila dipasang seadanya tanpa memperhatikan jalur pipa, posisi outdoor, dan kelistrikan.",
+          "Karena itu, saat menanyakan harga, pastikan dijelaskan apakah penawaran sudah mencakup pemasangan standar atau masih terpisah. Ini membuat perbandingan antarpenawaran jadi lebih adil.",
+        ],
+      },
+      {
+        heading: "Komponen standar dalam pemasangan",
+        body: [
+          "Pemasangan standar umumnya mencakup jasa pasang, pipa dengan panjang standar, kabel, bracket outdoor, selang pembuangan, dan proses vakum agar sistem bekerja baik. Komponen ini menjadi dasar agar AC bisa dipakai dengan benar.",
+          "Setiap penyedia bisa punya batas standar berbeda, misalnya panjang pipa bawaan. Menanyakan detail ini sejak awal membantu memahami sampai mana cakupan paket standar.",
+        ],
+      },
+      {
+        heading: "Material tambahan yang menyesuaikan lokasi",
+        body: [
+          "Jika kebutuhan melebihi standar, biasanya muncul tambahan seperti pipa ekstra, bracket khusus, pekerjaan bobok tembok, atau pelindung pipa. Tambahan ini wajar karena setiap lokasi punya kondisi berbeda.",
+          "Tambahan bukan biaya tersembunyi selama dijelaskan sejak awal. Maka, kondisi ruangan dan jarak indoor ke outdoor sebaiknya dibahas sebelum jadwal pemasangan ditetapkan.",
+        ],
+      },
+      {
+        heading: "Faktor lokasi: pipa, outdoor, akses, dan ketinggian",
+        body: [
+          "Jarak antara unit indoor dan outdoor memengaruhi panjang pipa dan kabel. Outdoor yang dipasang di tempat tinggi atau sulit dijangkau bisa membutuhkan upaya tambahan agar aman dan rapi.",
+          "Rumah bertingkat, ruko, atau area sempit perlu perhatian khusus pada akses dan sirkulasi outdoor. Faktor-faktor ini ikut memengaruhi estimasi pemasangan secara keseluruhan.",
+        ],
+      },
+      {
+        heading: "Cara meminta estimasi yang lebih akurat",
+        body: [
+          "Untuk estimasi yang mendekati kenyataan, siapkan foto titik indoor, foto area outdoor, perkiraan jarak keduanya, dan informasi daya listrik. Sebutkan juga apakah dinding berupa tembok, gypsum, atau bahan lain.",
+          "Dengan data ini, tim Radja AC bisa membantu menjelaskan cakupan pemasangan standar dan kemungkinan kebutuhan tambahan, sehingga anggaran lebih jelas sebelum unit dipasang.",
+        ],
+      },
+    ],
+    faqs: [
+      {
+        question: "Apa saja yang termasuk dalam biaya pasang AC baru?",
+        answer:
+          "Umumnya mencakup jasa pemasangan, pipa panjang standar, kabel, bracket, selang pembuangan, dan proses vakum. Kebutuhan di luar standar seperti pipa tambahan atau bobok tembok dihitung terpisah sesuai kondisi lokasi.",
+      },
+      {
+        question: "Kenapa biaya pasang AC bisa berbeda tiap rumah?",
+        answer:
+          "Karena kondisi lokasi berbeda. Jarak indoor ke outdoor, ketinggian pemasangan, jenis dinding, dan kebutuhan material tambahan membuat estimasi tiap rumah bisa tidak sama meskipun unitnya serupa.",
+      },
+      {
+        question: "Apakah harga unit sudah termasuk pemasangan?",
+        answer:
+          "Tergantung penawaran. Sebagian sudah termasuk pemasangan standar, sebagian terpisah. Sebaiknya tanyakan sejak awal agar Anda bisa membandingkan total biaya, bukan hanya harga unitnya saja.",
+      },
+      {
+        question: "Bagaimana cara mendapat estimasi biaya pasang yang akurat?",
+        answer:
+          "Kirim foto titik indoor dan outdoor, perkiraan jarak pipa, jenis dinding, dan informasi daya listrik. Data ini membantu tim Radja AC menjelaskan cakupan standar dan kemungkinan kebutuhan tambahan sebelum pemasangan.",
+      },
+    ],
+    ctaLabel: "Konsultasi Biaya Pasang AC",
+    waIntent: "konsultasi estimasi biaya pasang AC baru",
+    relatedLinks: [
+      ["Pengiriman & Pemasangan", routes.pengirimanPemasangan],
+      ["AC Split Rumah", routes.katalogAcSplitRumah],
+      ["Kontak Radja AC", routes.kontak],
+    ],
+  },
+  {
+    slug: "pilihan-ac-1-2-pk-terbaik",
+    path: routes.artikelPilihanAcSetengahPkTerbaik,
+    title: "Pilihan AC 1/2 PK Terbaik untuk Ruang Kecil | Cara Memilih",
+    description:
+      "Panduan memilih AC 1/2 PK untuk ruang kecil: cek kecocokan ruangan, pilihan tipe standard, low watt, inverter, dan pertimbangan merk sebelum order.",
+    h1: "Pilihan AC 1/2 PK terbaik untuk ruang kecil",
+    eyebrow: "Panduan AC 1/2 PK",
+    readTime: "6 menit baca",
+    keywords: ["AC 1/2 PK", "AC ruang kecil", "AC kamar kecil", "AC setengah PK"],
+    intro:
+      "AC 1/2 PK adalah salah satu kapasitas paling diminati untuk kamar dan ruang kecil. Supaya pilihan tepat, fokusnya bukan sekadar mencari yang paling ringan, tetapi memastikan kapasitas memang cukup untuk ruangan, lalu memilih tipe dan merk yang sesuai kebutuhan.",
+    sections: [
+      {
+        heading: "Kapan AC 1/2 PK menjadi pilihan tepat",
+        body: [
+          "AC 1/2 PK umumnya cocok untuk ruangan kecil sekitar 9–12 m² dalam kondisi normal, seperti kamar tidur kecil, kamar kost, atau ruang kerja sempit yang tertutup.",
+          "Untuk ruangan yang teduh dan tidak banyak sumber panas, 1/2 PK sering sudah cukup. Ini membuatnya populer untuk kebutuhan rumah tangga dan hunian sewa.",
+        ],
+      },
+      {
+        heading: "Cek dulu apakah ruangan benar cukup 1/2 PK",
+        body: [
+          "Sebelum memutuskan, pastikan ruangan memang masuk kategori kecil. Kamar yang panas, berplafon tinggi, atau sering terkena matahari bisa membutuhkan kapasitas lebih besar agar tidak terasa kurang dingin.",
+          "Memaksakan 1/2 PK pada ruangan yang sebenarnya butuh lebih besar membuat AC bekerja berat dan boros. Cek estimasi kebutuhan PK lebih dulu untuk memastikan kapasitas ini memang pas.",
+        ],
+      },
+      {
+        heading: "Pilihan tipe 1/2 PK: standard, low watt, atau inverter",
+        body: [
+          "AC 1/2 PK tersedia dalam beberapa tipe. Low watt cocok untuk rumah berdaya listrik terbatas, inverter cocok untuk pemakaian lama yang mengutamakan kestabilan suhu, dan standard masuk akal untuk pemakaian sederhana.",
+          "Pilih tipe berdasarkan daya listrik dan durasi pemakaian, bukan hanya selisih harga. Tipe yang tepat membuat kapasitas 1/2 PK bekerja lebih nyaman dan efisien.",
+        ],
+      },
+      {
+        heading: "Pertimbangan merk untuk AC 1/2 PK",
+        body: [
+          "Banyak merk menyediakan kapasitas 1/2 PK, mulai dari kelas value sampai premium. Radja AC menyediakan AC original multi-brand, sehingga pilihan 1/2 PK bisa disesuaikan dengan anggaran dan kebutuhan.",
+          "Pertimbangkan garansi unit, ketersediaan tipe, dan layanan saat memilih merk. Konfirmasi stok sebaiknya dilakukan karena ketersediaan bisa berubah sewaktu-waktu.",
+        ],
+      },
+      {
+        heading: "Lanjut cek stok dan kebutuhan pemasangan",
+        body: [
+          "Setelah kapasitas dan tipe lebih jelas, cek ketersediaan unit 1/2 PK yang sesuai dan kebutuhan pemasangan. Posisi indoor, outdoor, panjang pipa, dan kondisi listrik ikut memengaruhi hasil akhir.",
+          "Sampaikan ukuran ruangan, daya listrik, dan pola pemakaian saat konsultasi agar pilihan AC 1/2 PK yang direkomendasikan benar-benar sesuai dengan kebutuhan ruang kecil Anda.",
+        ],
+      },
+    ],
+    faqs: [
+      {
+        question: "AC 1/2 PK cocok untuk ruangan berapa meter?",
+        answer:
+          "Dalam kondisi normal, AC 1/2 PK umumnya cocok untuk ruangan kecil sekitar 9–12 m², seperti kamar tidur kecil atau kamar kost. Ruangan yang panas atau berplafon tinggi bisa membutuhkan kapasitas lebih besar.",
+      },
+      {
+        question: "Apakah AC 1/2 PK ada yang tipe low watt dan inverter?",
+        answer:
+          "Ada. Kapasitas 1/2 PK tersedia dalam tipe standard, low watt, dan inverter. Pilih sesuai daya listrik rumah dan durasi pemakaian agar kapasitas kecil ini tetap nyaman dan efisien.",
+      },
+      {
+        question: "Apa risiko memaksakan AC 1/2 PK pada ruangan besar?",
+        answer:
+          "AC akan bekerja terus-menerus untuk mengejar suhu, sehingga ruangan lama dingin, mesin cepat lelah, dan konsumsi listrik kurang efisien. Lebih baik menaikkan kapasitas bila ruangan memang lebih besar atau panas.",
+      },
+    ],
+    ctaLabel: "Konsultasi AC 1/2 PK",
+    waIntent: "konsultasi memilih AC 1/2 PK untuk ruang kecil",
+    relatedLinks: [
+      ["AC 1/2 PK", routes.katalogAcSetengahPk],
+      ["AC Low Watt", routes.katalogAcLowWatt],
+      ["Kalkulator PK AC", routes.kalkulatorPkAc],
+      ["Kontak Radja AC", routes.kontak],
+    ],
+  },
 ];
 
 export function getArticleItem(slug) {
