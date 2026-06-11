@@ -4,6 +4,17 @@ export const articleItems = [
   {
     slug: "panduan-beli-ac-baru",
     path: routes.artikelPanduanBeliAcBaru,
+    cluster: "informational",
+    role: "pillar",
+    intent: "commercial",
+    parentSlug: null,
+    updatedAt: "2026-06-11",
+    moneyLinks: [
+      ["Jual AC", routes.jualAc, "Mulai dari halaman penjualan utama untuk cek AC original multi-brand."],
+      ["Katalog AC", routes.katalog, "Lihat kategori AC rumah, low watt, inverter, dan kebutuhan komersial."],
+      ["Kalkulator PK AC", routes.kalkulatorPkAc, "Cek estimasi kebutuhan PK sebelum memilih unit."],
+      ["Pengiriman & Pemasangan", routes.pengirimanPemasangan, "Pahami kebutuhan lokasi, material, garansi pasang, dan jadwal sebelum order."],
+    ],
     title: "Panduan Beli AC Baru | Cek Ruangan, PK, Daya & Anggaran",
     description:
       "Panduan beli AC baru agar tidak salah pilih: cek ukuran ruangan, daya listrik, PK, tipe AC, brand, garansi, stok, dan estimasi anggaran.",
@@ -61,6 +72,15 @@ export const articleItems = [
   {
     slug: "sharp-bey-purwokerto",
     path: routes.artikelSharpBeyPurwokerto,
+    cluster: "brand-evaluation",
+    role: "pillar",
+    intent: "commercial",
+    parentSlug: null,
+    updatedAt: "2026-06-01",
+    moneyLinks: [
+      ["Jual AC Purwokerto", routes.jualAcPurwokerto, "Pusat konsultasi beli AC, cek brand, stok, harga, dan rekomendasi PK."],
+      ["Kalkulator PK AC", routes.kalkulatorPkAc, "Cek estimasi kebutuhan PK sebelum memilih unit dan paket pemasangan."],
+    ],
     title: "Sharp BEY Purwokerto | Cek Stok, PK & Opsi Pemasangan",
     description:
       "Catatan singkat sebelum memilih AC Sharp seri BEY di Purwokerto: cek kebutuhan PK, daya listrik, stok aktif, pengiriman, dan opsi pemasangan melalui Radja AC.",
@@ -100,6 +120,17 @@ export const articleItems = [
   {
     slug: "ac-1-pk-untuk-ruangan-berapa",
     path: routes.artikelAcSatuPkUntukRuanganBerapa,
+    cluster: "capacity-sizing",
+    role: "pillar",
+    intent: "informational",
+    parentSlug: null,
+    updatedAt: "2026-06-11",
+    moneyLinks: [
+      ["Kalkulator PK AC", routes.kalkulatorPkAc, "Hitung estimasi kebutuhan PK sebelum memilih 3/4 PK, 1 PK, atau 1.5 PK."],
+      ["AC 1 PK", routes.katalogAcSatuPk, "Lihat pilihan AC 1 PK untuk kamar besar, ruang kerja, ruang tamu kecil, atau toko kecil."],
+      ["AC 1.5 PK", routes.katalogAcSatuSetengahPk, "Bandingkan jika ruangan panas, lebih besar, atau sering dipakai banyak orang."],
+      ["Pengiriman & Pemasangan", routes.pengirimanPemasangan, "Cek kebutuhan lokasi, material, garansi pasang, dan jadwal sebelum order."],
+    ],
     title: "AC 1 PK Cocok untuk Ruangan Berapa? | Panduan Sebelum Order — Radja AC",
     description:
       "Panduan memilih AC 1 PK untuk kamar dan ruang keluarga. Cek ukuran ruangan, BTU, kondisi panas, daya listrik, dan kapan perlu naik atau turun kapasitas.",
@@ -158,6 +189,17 @@ export const articleItems = [
   {
     slug: "ac-inverter-vs-low-watt",
     path: routes.artikelAcInverterVsLowWatt,
+    cluster: "comparison",
+    role: "pillar",
+    intent: "commercial",
+    parentSlug: null,
+    updatedAt: "2026-06-11",
+    moneyLinks: [
+      ["AC Inverter", routes.katalogAcInverter, "Cek pilihan AC inverter untuk pemakaian rutin dan suhu stabil."],
+      ["AC Low Watt", routes.katalogAcLowWatt, "Cek pilihan AC untuk rumah dengan daya listrik terbatas."],
+      ["Kalkulator PK AC", routes.kalkulatorPkAc, "Hitung estimasi PK agar pilihan tipe tidak salah kapasitas."],
+      ["Pengiriman & Pemasangan", routes.pengirimanPemasangan, "Cek kebutuhan lokasi, material, garansi pasang, dan jadwal sebelum order."],
+    ],
     title: "AC Inverter vs Low Watt | Mana yang Cocok untuk Rumah?",
     description:
       "Bingung pilih AC inverter atau low watt? Pahami beda fungsi, cocok untuk siapa, risiko salah pilih, dan kapan sebaiknya cek PK dulu sebelum beli.",
@@ -216,6 +258,16 @@ export const articleItems = [
   {
     slug: "ac-kurang-dingin-belum-tentu-freon-habis",
     path: routes.artikelAcKurangDingin,
+    cluster: "troubleshooting",
+    role: "pillar",
+    intent: "informational",
+    parentSlug: null,
+    updatedAt: "2026-06-11",
+    moneyLinks: [
+      ["Jual AC Purwokerto", routes.jualAcPurwokerto, "Konsultasi AC baru kalau unit lama sudah tidak efisien."],
+      ["Kalkulator PK AC", routes.kalkulatorPkAc, "Cek apakah masalah kurang dingin bisa berawal dari kapasitas PK yang tidak sesuai."],
+      ["Ganti AC Lama ke Unit Baru", routes.gantiAcBaruPurwokerto, "Pertimbangkan penggantian AC baru bila unit lama sudah tidak ekonomis diperbaiki."],
+    ],
     title: "AC Kurang Dingin? Cek Layak Pakai atau Ganti Baru",
     description:
       "AC kurang dingin tidak selalu berarti freon habis. Cek kapasitas PK, usia unit, pemakaian, daya listrik, dan kapan lebih masuk akal mempertimbangkan AC baru.",
@@ -267,6 +319,15 @@ export const articleItems = [
   {
     slug: "panduan-instalasi-ac-baru",
     path: routes.artikelPanduanInstalasiAcBaru,
+    cluster: "informational",
+    role: "supporting",
+    intent: "informational",
+    parentSlug: "panduan-beli-ac-baru",
+    updatedAt: "2026-06-01",
+    moneyLinks: [
+      ["Pengiriman & Pemasangan", routes.pengirimanPemasangan, "Lihat informasi pemasangan AC baru yang rapi dan berdasarkan kondisi lokasi."],
+      ["AC 1/2 PK", routes.katalogAcSetengahPk, "Pahami harga unit vs paket pasang sebelum memilih AC kamar atau kos."],
+    ],
     title: "Panduan Instalasi AC Baru | Cek Indoor, Outdoor, Pipa & Listrik",
     description:
       "Panduan sebelum memasang AC baru: cek posisi indoor, outdoor, jalur pipa, drainase, listrik, dan kebutuhan ruangan agar tidak salah pilih unit.",
@@ -325,6 +386,15 @@ export const articleItems = [
   {
     slug: "cara-memilih-ac-untuk-kamar-3x4",
     path: routes.artikelCaraMemilihAcKamarTigaKaliEmpat,
+    cluster: "capacity-sizing",
+    role: "supporting",
+    intent: "commercial",
+    parentSlug: "ac-1-pk-untuk-ruangan-berapa",
+    updatedAt: "2026-06-01",
+    moneyLinks: [
+      ["Kalkulator PK AC", routes.kalkulatorPkAc, "Cek apakah kamar 3x4 cukup 1/2 PK, 3/4 PK, atau perlu kapasitas lain."],
+      ["AC Split Rumah", routes.katalogAcSplitRumah, "Panduan pilihan AC untuk kamar tidur, ruang keluarga, kos, dan rumah tinggal."],
+    ],
     title: "Cara Memilih AC untuk Kamar 3x4 | Cek PK, Daya & Posisi Pasang",
     description:
       "Panduan memilih AC untuk kamar ukuran 3x4 meter, mulai dari kapasitas PK, tipe AC, daya listrik, sampai posisi pemasangan.",
@@ -383,6 +453,17 @@ export const articleItems = [
   {
     slug: "ac-bagus-merk-apa",
     path: routes.artikelAcBagusMerkApa,
+    cluster: "commercial-investigation",
+    role: "pillar",
+    intent: "commercial",
+    parentSlug: null,
+    updatedAt: "2026-06-11",
+    moneyLinks: [
+      ["AC Daikin", routes.brandDaikin, "Pertimbangkan Daikin untuk kebutuhan yang mengutamakan reputasi dan ketahanan; dokumen Authorized Dealer tersedia."],
+      ["AC Gree", routes.brandGree, "Cek Gree untuk value pemakaian harian, didukung status Proshop Gree."],
+      ["AC Split Rumah", routes.katalogAcSplitRumah, "Lihat pilihan AC untuk kamar, ruang keluarga, dan rumah tinggal sebelum memilih merk."],
+      ["Kalkulator PK AC", routes.kalkulatorPkAc, "Cek estimasi PK agar merk yang dipilih dipasangkan dengan kapasitas yang tepat."],
+    ],
     title: "AC yang Bagus Merk Apa untuk Rumah? | Cara Memilih Merk AC",
     description:
       "Bingung AC bagus merk apa untuk rumah? Pahami kelas merk AC, cara mencocokkan dengan PK, daya listrik, garansi, dan stok sebelum memutuskan beli.",
@@ -464,6 +545,17 @@ export const articleItems = [
   {
     slug: "ac-paling-hemat-listrik",
     path: routes.artikelAcPalingHematListrik,
+    cluster: "commercial-investigation",
+    role: "supporting",
+    intent: "commercial",
+    parentSlug: "ac-bagus-merk-apa",
+    updatedAt: "2026-06-11",
+    moneyLinks: [
+      ["AC Inverter", routes.katalogAcInverter, "Cek AC inverter yang lebih efisien untuk pemakaian rutin berjam-jam."],
+      ["AC Low Watt", routes.katalogAcLowWatt, "Lihat AC low watt untuk rumah dengan daya listrik terbatas."],
+      ["Kalkulator PK AC", routes.kalkulatorPkAc, "Hitung kebutuhan PK agar AC tidak bekerja berat dan boros."],
+      ["Kontak Radja AC", routes.kontak, "Konsultasikan daya listrik dan pola pemakaian untuk pilihan paling hemat."],
+    ],
     title: "AC Paling Hemat Listrik untuk Rumah | Inverter vs Low Watt",
     description:
       "Cari AC paling hemat listrik untuk rumah? Pahami peran inverter, low watt, kapasitas PK, dan kebiasaan pakai agar tagihan listrik lebih terkendali.",
@@ -539,6 +631,17 @@ export const articleItems = [
   {
     slug: "rekomendasi-ac-kamar-tidur",
     path: routes.artikelRekomendasiAcKamarTidur,
+    cluster: "commercial-investigation",
+    role: "supporting",
+    intent: "commercial",
+    parentSlug: "ac-bagus-merk-apa",
+    updatedAt: "2026-06-11",
+    moneyLinks: [
+      ["AC 1/2 PK", routes.katalogAcSetengahPk, "Lihat kapasitas yang umum untuk kamar tidur kecil hingga sedang."],
+      ["AC Inverter", routes.katalogAcInverter, "Cek pilihan inverter untuk tidur yang lebih nyaman dan suhu stabil."],
+      ["Kalkulator PK AC", routes.kalkulatorPkAc, "Cek estimasi PK sesuai luas dan kondisi kamar tidur."],
+      ["Kontak Radja AC", routes.kontak, "Kirim foto kamar dan titik pemasangan untuk rekomendasi yang lebih tepat."],
+    ],
     title: "Rekomendasi AC untuk Kamar Tidur | Cek PK, Tipe & Posisi",
     description:
       "Rekomendasi AC untuk kamar tidur: cara menentukan PK, memilih tipe inverter atau low watt, dan posisi pemasangan agar tidur lebih nyaman dan hemat.",
@@ -619,6 +722,16 @@ export const articleItems = [
   {
     slug: "ac-untuk-listrik-900-watt",
     path: routes.artikelAcUntukListrik900Watt,
+    cluster: "commercial-investigation",
+    role: "supporting",
+    intent: "commercial",
+    parentSlug: "ac-bagus-merk-apa",
+    updatedAt: "2026-06-11",
+    moneyLinks: [
+      ["AC Low Watt", routes.katalogAcLowWatt, "Lihat AC low watt yang lebih ramah untuk daya listrik 900 watt."],
+      ["Kalkulator PK AC", routes.kalkulatorPkAc, "Cek kapasitas PK yang aman agar beban listrik tetap terkendali."],
+      ["Kontak Radja AC", routes.kontak, "Sampaikan daya listrik dan perangkat rumah untuk pilihan AC yang aman."],
+    ],
     title: "AC untuk Listrik 900 Watt | Pilih Low Watt Tanpa MCB Turun",
     description:
       "Panduan memilih AC untuk listrik 900 watt agar MCB tidak sering turun: cek beban listrik, kapasitas PK, dan pilihan AC low watt yang sesuai.",
@@ -693,6 +806,17 @@ export const articleItems = [
   {
     slug: "biaya-pasang-ac-baru",
     path: routes.artikelBiayaPasangAcBaru,
+    cluster: "commercial-investigation",
+    role: "supporting",
+    intent: "commercial",
+    parentSlug: "ac-bagus-merk-apa",
+    updatedAt: "2026-06-11",
+    moneyLinks: [
+      ["Pengiriman & Pemasangan", routes.pengirimanPemasangan, "Pahami cakupan pemasangan standar, material, garansi pasang, dan jadwal."],
+      ["AC Split Rumah", routes.katalogAcSplitRumah, "Lihat pilihan unit rumah sambil memperkirakan kebutuhan pemasangan."],
+      ["Ganti AC Lama ke Unit Baru", routes.gantiAcBaruPurwokerto, "Solusi bila AC lama sudah tidak ekonomis diperbaiki: ganti AC lama dengan unit baru."],
+      ["Kontak Radja AC", routes.kontak, "Kirim foto titik indoor-outdoor dan jarak pipa untuk estimasi yang lebih akurat."],
+    ],
     title: "Biaya Pasang AC Baru: Apa Saja yang Dihitung | Radja AC",
     description:
       "Pahami komponen biaya pasang AC baru: jasa pemasangan, material standar, kebutuhan tambahan sesuai lokasi, dan cara meminta estimasi yang lebih akurat.",
@@ -772,6 +896,17 @@ export const articleItems = [
   {
     slug: "pilihan-ac-1-2-pk-terbaik",
     path: routes.artikelPilihanAcSetengahPkTerbaik,
+    cluster: "capacity-sizing",
+    role: "supporting",
+    intent: "commercial",
+    parentSlug: "ac-1-pk-untuk-ruangan-berapa",
+    updatedAt: "2026-06-11",
+    moneyLinks: [
+      ["AC 1/2 PK", routes.katalogAcSetengahPk, "Lihat pilihan AC 1/2 PK untuk kamar dan ruang kecil."],
+      ["AC Low Watt", routes.katalogAcLowWatt, "Cek opsi low watt bila daya listrik rumah terbatas."],
+      ["Kalkulator PK AC", routes.kalkulatorPkAc, "Pastikan ruangan memang cukup 1/2 PK sebelum order."],
+      ["Kontak Radja AC", routes.kontak, "Konsultasikan ukuran ruangan dan daya listrik untuk pilihan 1/2 PK yang sesuai."],
+    ],
     title: "Pilihan AC 1/2 PK Terbaik untuk Ruang Kecil | Cara Memilih",
     description:
       "Panduan memilih AC 1/2 PK untuk ruang kecil: cek kecocokan ruangan, pilihan tipe standard, low watt, inverter, dan pertimbangan merk sebelum order.",

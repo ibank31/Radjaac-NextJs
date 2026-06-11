@@ -7,9 +7,10 @@
     "build": "next build --webpack",
     "start": "next start",
     "lint": "eslint",
-    "check": "npm run lint && npm run validate:areas && npm run validate:seo && npm run build",
+    "check": "npm run lint && npm run validate:areas && npm run validate:seo && npm run validate:articles && npm run build",
     "validate:areas": "node --no-warnings scripts/validate-areas.mjs",
     "validate:seo": "node --no-warnings scripts/validate-seo.mjs",
+    "validate:articles": "node --no-warnings scripts/validate-articles.mjs",
     "audit:staged": "node scripts/audit-staged.mjs"
   },
   "dependencies": {

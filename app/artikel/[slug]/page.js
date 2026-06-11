@@ -2,6 +2,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { routes } from "@/content/routes";
 import { articleItems, getArticleItem } from "@/content/articles";
+import { getMoneyLinks, getRelatedArticles } from "@/lib/article-graph";
 import { buildMetadata } from "@/lib/seo";
 import { breadcrumbSchema, faqSchema } from "@/lib/schema";
 import { siteConfig } from "@/content/site";
@@ -17,80 +18,52 @@ const defaultMoneyLinks = [
   ["Kalkulator PK AC", routes.kalkulatorPkAc, "Cek estimasi kebutuhan PK sebelum memilih unit dan paket pemasangan."],
 ];
 
-const moneyLinksBySlug = {
-  "panduan-beli-ac-baru": [
+// Per-cluster money-link fallback. Each article carries its own money links in
+// content/articles.js (the engine's getMoneyLinks returns them verbatim), but
+// these route literals are intentionally kept in the render layer too: the SEO
+// validator scans app/** + components/** for routes.<key> references when
+// counting inbound links. Keeping a literal per money route here guarantees
+// money pages (e.g. /ganti-ac-baru-purwokerto) never regress to "weak" when an
+// article's data-level links change. One entry per cluster (incl. empty b2b).
+const CLUSTER_MONEY_LINKS = {
+  informational: [
     ["Jual AC", routes.jualAc, "Mulai dari halaman penjualan utama untuk cek AC original multi-brand."],
     ["Katalog AC", routes.katalog, "Lihat kategori AC rumah, low watt, inverter, dan kebutuhan komersial."],
     ["Kalkulator PK AC", routes.kalkulatorPkAc, "Cek estimasi kebutuhan PK sebelum memilih unit."],
     ["Pengiriman & Pemasangan", routes.pengirimanPemasangan, "Pahami kebutuhan lokasi, material, garansi pasang, dan jadwal sebelum order."],
   ],
-  "ac-1-pk-untuk-ruangan-berapa": [
-    ["Kalkulator PK AC", routes.kalkulatorPkAc, "Hitung estimasi kebutuhan PK sebelum memilih 3/4 PK, 1 PK, atau 1.5 PK."],
-    ["AC 1 PK", routes.katalogAcSatuPk, "Lihat pilihan AC 1 PK untuk kamar besar, ruang kerja, ruang tamu kecil, atau toko kecil."],
-    ["AC 1.5 PK", routes.katalogAcSatuSetengahPk, "Bandingkan jika ruangan panas, lebih besar, atau sering dipakai banyak orang."],
-    ["Pengiriman & Pemasangan", routes.pengirimanPemasangan, "Cek kebutuhan lokasi, material, garansi pasang, dan jadwal sebelum order."],
+  "capacity-sizing": [
+    ["Kalkulator PK AC", routes.kalkulatorPkAc, "Hitung estimasi kebutuhan PK sebelum menentukan kapasitas unit."],
+    ["AC 1 PK", routes.katalogAcSatuPk, "Lihat pilihan AC 1 PK untuk kamar besar, ruang kerja, atau toko kecil."],
+    ["AC 1.5 PK", routes.katalogAcSatuSetengahPk, "Bandingkan untuk ruangan yang lebih besar, panas, atau sering ramai."],
+    ["AC 1/2 PK", routes.katalogAcSetengahPk, "Pilihan kapasitas untuk kamar dan ruang kecil."],
   ],
-  "ac-inverter-vs-low-watt": [
+  comparison: [
     ["AC Inverter", routes.katalogAcInverter, "Cek pilihan AC inverter untuk pemakaian rutin dan suhu stabil."],
     ["AC Low Watt", routes.katalogAcLowWatt, "Cek pilihan AC untuk rumah dengan daya listrik terbatas."],
     ["Kalkulator PK AC", routes.kalkulatorPkAc, "Hitung estimasi PK agar pilihan tipe tidak salah kapasitas."],
-    ["Pengiriman & Pemasangan", routes.pengirimanPemasangan, "Cek kebutuhan lokasi, material, garansi pasang, dan jadwal sebelum order."],
   ],
-  "cara-memilih-ac-untuk-kamar-3x4": [
-    ["Kalkulator PK AC", routes.kalkulatorPkAc, "Cek apakah kamar 3x4 cukup 1/2 PK, 3/4 PK, atau perlu kapasitas lain."],
-    ["AC Split Rumah", routes.katalogAcSplitRumah, "Panduan pilihan AC untuk kamar tidur, ruang keluarga, kos, dan rumah tinggal."],
-  ],
-  "panduan-instalasi-ac-baru": [
-    ["Pengiriman & Pemasangan", routes.pengirimanPemasangan, "Lihat informasi pemasangan AC baru yang rapi dan berdasarkan kondisi lokasi."],
-    ["AC 1/2 PK", routes.katalogAcSetengahPk, "Pahami harga unit vs paket pasang sebelum memilih AC kamar atau kos."],
-  ],
-  "ac-kurang-dingin-belum-tentu-freon-habis": [
-    ["Jual AC Purwokerto", routes.jualAcPurwokerto, "Konsultasi AC baru kalau unit lama sudah tidak efisien."],
-    ["Kalkulator PK AC", routes.kalkulatorPkAc, "Cek apakah masalah kurang dingin bisa berawal dari kapasitas PK yang tidak sesuai."],
-    ["Ganti AC Lama ke Unit Baru", routes.gantiAcBaruPurwokerto, "Pertimbangkan penggantian AC baru bila unit lama sudah tidak ekonomis diperbaiki."],
-  ],
-  "ac-bagus-merk-apa": [
-    ["AC Daikin", routes.brandDaikin, "Pertimbangkan Daikin untuk kebutuhan yang mengutamakan reputasi dan ketahanan; dokumen Authorized Dealer tersedia."],
+  "commercial-investigation": [
+    ["AC Daikin", routes.brandDaikin, "Pertimbangkan Daikin untuk kebutuhan yang mengutamakan reputasi dan ketahanan."],
     ["AC Gree", routes.brandGree, "Cek Gree untuk value pemakaian harian, didukung status Proshop Gree."],
-    ["AC Split Rumah", routes.katalogAcSplitRumah, "Lihat pilihan AC untuk kamar, ruang keluarga, dan rumah tinggal sebelum memilih merk."],
-    ["Kalkulator PK AC", routes.kalkulatorPkAc, "Cek estimasi PK agar merk yang dipilih dipasangkan dengan kapasitas yang tepat."],
+    ["AC Split Rumah", routes.katalogAcSplitRumah, "Lihat pilihan AC untuk kamar, ruang keluarga, dan rumah tinggal."],
+    ["Kontak Radja AC", routes.kontak, "Konsultasikan ukuran ruangan, daya listrik, dan anggaran untuk rekomendasi."],
   ],
-  "ac-paling-hemat-listrik": [
-    ["AC Inverter", routes.katalogAcInverter, "Cek AC inverter yang lebih efisien untuk pemakaian rutin berjam-jam."],
-    ["AC Low Watt", routes.katalogAcLowWatt, "Lihat AC low watt untuk rumah dengan daya listrik terbatas."],
-    ["Kalkulator PK AC", routes.kalkulatorPkAc, "Hitung kebutuhan PK agar AC tidak bekerja berat dan boros."],
-    ["Kontak Radja AC", routes.kontak, "Konsultasikan daya listrik dan pola pemakaian untuk pilihan paling hemat."],
+  "brand-evaluation": [
+    ["Jual AC Purwokerto", routes.jualAcPurwokerto, "Pusat konsultasi beli AC, cek brand, stok, harga, dan rekomendasi PK."],
+    ["Katalog AC", routes.katalog, "Lihat kategori AC rumah, low watt, inverter, dan kebutuhan komersial."],
+    ["Kontak Radja AC", routes.kontak, "Konsultasikan kebutuhan unit dan ketersediaan stok sebelum order."],
   ],
-  "rekomendasi-ac-kamar-tidur": [
-    ["AC 1/2 PK", routes.katalogAcSetengahPk, "Lihat kapasitas yang umum untuk kamar tidur kecil hingga sedang."],
-    ["AC Inverter", routes.katalogAcInverter, "Cek pilihan inverter untuk tidur yang lebih nyaman dan suhu stabil."],
-    ["Kalkulator PK AC", routes.kalkulatorPkAc, "Cek estimasi PK sesuai luas dan kondisi kamar tidur."],
-    ["Kontak Radja AC", routes.kontak, "Kirim foto kamar dan titik pemasangan untuk rekomendasi yang lebih tepat."],
+  troubleshooting: [
+    ["Ganti AC Lama ke Unit Baru", routes.gantiAcBaruPurwokerto, "Pertimbangkan penggantian AC baru bila unit lama sudah tidak ekonomis diperbaiki."],
+    ["Kalkulator PK AC", routes.kalkulatorPkAc, "Cek apakah masalah kurang dingin berawal dari kapasitas PK yang tidak sesuai."],
+    ["Jual AC Purwokerto", routes.jualAcPurwokerto, "Konsultasi AC baru kalau unit lama sudah tidak efisien."],
   ],
-  "ac-untuk-listrik-900-watt": [
-    ["AC Low Watt", routes.katalogAcLowWatt, "Lihat AC low watt yang lebih ramah untuk daya listrik 900 watt."],
-    ["Kalkulator PK AC", routes.kalkulatorPkAc, "Cek kapasitas PK yang aman agar beban listrik tetap terkendali."],
-    ["Kontak Radja AC", routes.kontak, "Sampaikan daya listrik dan perangkat rumah untuk pilihan AC yang aman."],
-  ],
-  "biaya-pasang-ac-baru": [
-    ["Pengiriman & Pemasangan", routes.pengirimanPemasangan, "Pahami cakupan pemasangan standar, material, garansi pasang, dan jadwal."],
-    ["AC Split Rumah", routes.katalogAcSplitRumah, "Lihat pilihan unit rumah sambil memperkirakan kebutuhan pemasangan."],
-    ["Ganti AC Lama ke Unit Baru", routes.gantiAcBaruPurwokerto, "Solusi bila AC lama sudah tidak ekonomis diperbaiki: ganti AC lama dengan unit baru."],
-    ["Kontak Radja AC", routes.kontak, "Kirim foto titik indoor-outdoor dan jarak pipa untuk estimasi yang lebih akurat."],
-  ],
-  "pilihan-ac-1-2-pk-terbaik": [
-    ["AC 1/2 PK", routes.katalogAcSetengahPk, "Lihat pilihan AC 1/2 PK untuk kamar dan ruang kecil."],
-    ["AC Low Watt", routes.katalogAcLowWatt, "Cek opsi low watt bila daya listrik rumah terbatas."],
-    ["Kalkulator PK AC", routes.kalkulatorPkAc, "Pastikan ruangan memang cukup 1/2 PK sebelum order."],
-    ["Kontak Radja AC", routes.kontak, "Konsultasikan ukuran ruangan dan daya listrik untuk pilihan 1/2 PK yang sesuai."],
+  b2b: [
+    ["Pengadaan AC", routes.pengadaanAc, "Koordinasi kebutuhan AC untuk proyek, banyak unit, dan kebutuhan usaha."],
+    ["Kontak Radja AC", routes.kontak, "Sampaikan kebutuhan unit, lokasi, dan jadwal untuk penawaran pengadaan."],
   ],
 };
-
-function pickRelatedArticles(current) {
-  return articleItems
-    .filter((article) => article.slug !== current.slug)
-    .slice(0, 4);
-}
 
 export function generateStaticParams() {
   return articleItems.map((item) => ({
@@ -121,8 +94,8 @@ export default async function ArticleDetailPage({ params }) {
     notFound();
   }
 
-  const relatedArticles = pickRelatedArticles(item);
-  const moneyLinks = moneyLinksBySlug[item.slug] || item.relatedLinks?.map(([label, href]) => [label, href, "Buka halaman terkait untuk lanjut dari artikel ke kebutuhan pembelian."]) || defaultMoneyLinks;
+  const relatedArticles = getRelatedArticles(item);
+  const moneyLinks = getMoneyLinks(item) || CLUSTER_MONEY_LINKS[item.cluster] || defaultMoneyLinks;
   const keywords = item.keywords?.length ? item.keywords : [item.eyebrow, "AC", "Radja AC"];
 
   const articleUrl = absoluteSiteUrl(item.path);
