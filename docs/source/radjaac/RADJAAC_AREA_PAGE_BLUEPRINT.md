@@ -8,7 +8,7 @@ Field/elemen aktif yang harus diperhitungkan sekarang:
 - `localLandmarks` — minimal 5 landmark nyata, dirender sebagai chip "Landmark & titik lokal".
 - `localBenefits` — minimal 3 alasan spesifik kenapa kebutuhan AC muncul di area itu.
 - `localCases` — minimal 3 use case `[judul, detail]` nyata.
-- `clusterType` — `residential | trade | industrial | education | hospitality | urban`. Dipetakan di `areaClusterMap` (content/areas.js) atau di-set langsung pada item; dipakai `resolveAreaContent()` di `content/area-content-templates.js` untuk buyerGuide + clusterFaq.
+- `clusterType` — `residential | trade | industrial | education | hospitality | urban`. Dipetakan di `areaClusterMap` (`content/areas/cluster-map.js`) atau di-set langsung pada item; dipakai `resolveAreaContent()` di `content/area-content-templates.js` untuk buyerGuide + clusterFaq.
 - `localFaq` — FAQ berbasis lokasi (lihat aturan FAQ yang diperbarui di bawah).
 - `keywordVariants` (semantik + entity lokal), `nearbyAreaLinks`, `trustBullets`, `paymentNote`
 - `eyebrow` reposisi lokal (mis. "Jalur Banyumas - Sokaraja", "Area Banyumas Utara / Timur")

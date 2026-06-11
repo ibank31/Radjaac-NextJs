@@ -1,8 +1,9 @@
 // STAGED CHILD AREA DRAFTS ONLY.
 // Do not import this file into app routes, sitemap, or live components.
-// To publish a child area, move one item into content/areas.js and add the final route intentionally.
+// To publish a child area, move one item into the matching region file under content/areas/
+// (e.g. content/areas/<region>.js) and add the final route intentionally.
 //
-// NOTE: Sumbang, Kedungbanteng, and Kalibagor were promoted to content/areas.js
+// NOTE: Sumbang, Kedungbanteng, and Kalibagor were promoted to content/areas/
 // (live) with rewritten local content, so they were removed from this draft file
 // to avoid stale duplicates and slug collisions in npm run audit:staged.
 //
@@ -172,7 +173,7 @@ function createChildAreaDraft({
     publishChecklist: [
       "Pastikan parent/hub sudah live dan stabil.",
       "Tambah route final di content/routes.js.",
-      "Pindahkan draft item ke content/areas.js dan tambahkan slug ke areaClusterMap sesuai clusterType item.",
+      "Pindahkan draft item ke file region yang sesuai di content/areas/ dan tambahkan slug ke areaClusterMap (content/areas/cluster-map.js) sesuai clusterType item.",
       "Pastikan plannedRouteKey dipakai konsisten.",
       "Cek nearbyAreaLinks tidak menuju URL draft yang belum live.",
       "Pasang internal link masuk dari parent/hub bila masuk akal.",
@@ -1023,6 +1024,6 @@ export const areaChildDraftPublishRules = [
   "Child draft ini belum live, belum masuk sitemap, dan tidak boleh di-import ke app sebelum waktunya publish.",
   "Child page tidak boleh dipublish sebelum parent/hub live dan stabil.",
   "Publish maksimal 3–5 area per batch.",
-  "Sebelum publish: tambah route final, pindahkan item ke content/areas.js, tambahkan slug ke areaClusterMap sesuai clusterType item, cek parent/nearby links, lalu jalankan npm run check.",
+  "Sebelum publish: tambah route final, pindahkan item ke file region yang sesuai di content/areas/, tambahkan slug ke areaClusterMap (content/areas/cluster-map.js) sesuai clusterType item, cek parent/nearby links, lalu jalankan npm run check.",
   "Jangan publish child area yang hanya swap nama tanpa localContext unik, localLandmarks, localBenefits, localCases, parentAreaPath, nearby links, CTA, dan FAQ berbasis lokasi.",
 ];

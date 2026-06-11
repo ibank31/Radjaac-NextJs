@@ -1,7 +1,7 @@
 // Cluster-based content templates for area pages.
 //
 // These templates act ONLY as a base layer. Area-specific data in
-// content/areas.js (localContext, localBenefits, localCases, localLandmarks)
+// content/areas/* (localContext, localBenefits, localCases, localLandmarks)
 // always takes priority via resolveAreaContent() below.
 //
 // Each template is keyed by clusterType and exposes area-aware builders:

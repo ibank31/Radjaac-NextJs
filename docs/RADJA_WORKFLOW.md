@@ -115,8 +115,8 @@ Status terakhir yang sudah selesai:
 
 ### Update 2026-06-10 — Area lokal & sistem cluster
 
-- Child area `jual-ac-sumbang`, `jual-ac-kedungbanteng`, dan `jual-ac-kalibagor` sudah dipromosikan ke `content/areas.js` (live) dengan konten lokal yang ditulis ulang (landmark nyata, localBenefits, localCases, FAQ berbasis lokasi). Ketiganya sudah dihapus dari `content/area-child-drafts.js` agar tidak jadi duplikat basi dan tidak memicu slug collision di `npm run audit:staged`.
-- Sistem konten area sekarang berlapis: `content/area-content-templates.js` (`resolveAreaContent` + cluster: residential/trade/industrial/education/hospitality/urban) sebagai base, dan data lokal per item di `content/areas.js` sebagai prioritas. Cluster dipetakan di `areaClusterMap`.
+- Child area `jual-ac-sumbang`, `jual-ac-kedungbanteng`, dan `jual-ac-kalibagor` sudah dipromosikan ke `content/areas/` (live) dengan konten lokal yang ditulis ulang (landmark nyata, localBenefits, localCases, FAQ berbasis lokasi). Ketiganya sudah dihapus dari `content/area-child-drafts.js` agar tidak jadi duplikat basi dan tidak memicu slug collision di `npm run audit:staged`.
+- Sistem konten area sekarang berlapis: `content/area-content-templates.js` (`resolveAreaContent` + cluster: residential/trade/industrial/education/hospitality/urban) sebagai base, dan data lokal per item di `content/areas/*` sebagai prioritas. Cluster dipetakan di `areaClusterMap` (`content/areas/cluster-map.js`).
 - Renderer `app/[slug]/page.js` merender `localContext`, `localLandmarks`, `localBenefits`, `localCases`, `clusterType` (buyerGuide + clusterFaq), `localFaq`, `keywordVariants`, dan `trustBullets`. `commonNeeds`/`buyingChecks` TIDAK dirender (hanya data perencanaan).
 - Staged draft (`area-drafts.js`, `area-child-drafts.js`, `procurement-next.js`) sudah ditulis ulang ke standar live: tiap area punya localContext unik, 5 landmark, 3 benefit, 3 case, clusterType, dan FAQ lokal. `procurement-next.js` di-merge agar tetap punya `faqs` + `relatedSegments` + bukti konkret seperti live.
 - Batch publish 2026-06-10: `jual-ac-magelang` (hospitality), `jual-ac-pekalongan` (trade), dan `jual-ac-salatiga` (education) dipromosikan ke live — `routes.js` + `sitemapRoutes` + `areaItems` + `areaClusterMap` + hub `/jual-ac` + Footer + reciprocal `nearbyAreaLinks` (Magelang←Yogya/Semarang/Solo, Pekalongan←Tegal/Semarang, Salatiga←Semarang/Solo). Ketiganya dihapus dari `area-drafts.js`.
@@ -358,7 +358,7 @@ Aturan wajib:
 
 - File draft tidak boleh di-import ke `app/`, sitemap, route generator, atau komponen live.
 - Draft belum live, belum masuk sitemap, dan belum boleh direquest indexing.
-- Publish area hanya dengan cara sadar: tambah route di `content/routes.js`, pindahkan item ke `content/areas.js`, cek internal link, lalu jalankan `npm run check`.
+- Publish area hanya dengan cara sadar: tambah route di `content/routes.js`, pindahkan item ke file region yang sesuai di `content/areas/`, cek internal link, lalu jalankan `npm run check`.
 - Publish maksimal 1–2 area pada H+7–H+14, 2–3 area pada H+14–H+30, dan 3–5 area hanya setelah H+30 jika GSC/GA4 stabil.
 - Child area tidak boleh publish sebelum parent/hub live dan stabil.
 - Setelah publish, live check 200/canonical/sitemap/cache sebelum request indexing terbatas.
