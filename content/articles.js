@@ -60,6 +60,23 @@ export const articleItems = [
         ],
       },
     ],
+    faqs: [
+      {
+        question: "Apa yang perlu dicek pertama sebelum beli AC baru?",
+        answer:
+          "Mulai dari ukuran ruangan, tinggi plafon, arah panas matahari, jumlah penghuni, dan daya listrik. Data ini menentukan estimasi PK sebelum memilih brand atau tipe, sehingga unit tidak terlalu kecil atau terlalu besar.",
+      },
+      {
+        question: "Apakah harga AC sudah termasuk pemasangan?",
+        answer:
+          "Tergantung penawaran. Sebaiknya konfirmasi sejak awal apakah sudah termasuk pipa standar, kabel, bracket, vakum, dan jasa pasang agar perbandingan total biaya lebih adil. Kebutuhan tambahan menyesuaikan kondisi lokasi.",
+      },
+      {
+        question: "Bagaimana cara memastikan stok dan garansi unit?",
+        answer:
+          "Stok, harga, dan promo bisa berubah, jadi tipe unit sebaiknya dikonfirmasi sebelum pembelian. Garansi unit mengikuti ketentuan resmi brand, sedangkan garansi pemasangan mengikuti pekerjaan yang dikerjakan melalui Radja AC.",
+      },
+    ],
     ctaLabel: "Konsultasi Beli AC Baru",
     waIntent: "konsultasi beli AC baru setelah membaca panduan",
     relatedLinks: [
@@ -115,6 +132,25 @@ export const articleItems = [
         ],
       },
     ],
+    faqs: [
+      {
+        question: "Apakah Sharp BEY tersedia di Purwokerto?",
+        answer:
+          "Ketersediaan tipe Sharp BEY mengikuti stok aktif. Halaman ini menjadi shortlist awal; konfirmasi stok, tipe, harga, dan pengiriman dilakukan lewat WhatsApp sebelum order.",
+      },
+      {
+        question: "Sharp BEY cocok untuk ruangan seperti apa?",
+        answer:
+          "Sharp BEY bisa dipertimbangkan untuk kamar, kost, rumah, atau usaha kecil. Pilihan PK tetap perlu dicek sesuai ukuran ruangan, daya listrik, dan pola pemakaian.",
+      },
+      {
+        question: "Apakah pemasangan bisa sekalian diatur?",
+        answer:
+          "Bisa dibantu opsi pemasangan. Panjang pipa, posisi outdoor, akses lokasi, dan material tambahan dicek dulu agar estimasi kebutuhan pemasangan lebih jelas sebelum jadwal disusun.",
+      },
+    ],
+    ctaLabel: "Konsultasi AC Sharp BEY",
+    waIntent: "konsultasi stok dan PK AC Sharp BEY di Purwokerto",
   },
 
   {
@@ -174,6 +210,23 @@ export const articleItems = [
           "Setelah estimasi PK lebih jelas, cek stok AC 1 PK, pilihan standard/low watt/inverter, garansi unit, dan kebutuhan pemasangan. Posisi indoor-outdoor, panjang pipa, akses lokasi, dan material tambahan bisa memengaruhi total biaya.",
           "Pembayaran seperti DP, transfer, atau COD bisa dikonfirmasi setelah pilihan unit, alamat pengiriman, jadwal, dan opsi pemasangan jelas. Jadi hasil hitung PK sebaiknya dilanjutkan dengan data ruangan dan kebutuhan pembelian yang lengkap.",
         ],
+      },
+    ],
+    faqs: [
+      {
+        question: "AC 1 PK cocok untuk ruangan berapa meter?",
+        answer:
+          "Dalam kondisi normal, AC 1 PK umumnya masuk akal untuk ruangan sekitar 15–20 m². Ruangan yang panas, banyak kaca, atau berplafon tinggi bisa membutuhkan kapasitas lebih besar.",
+      },
+      {
+        question: "Apakah AC 1 PK boros listrik?",
+        answer:
+          "Tidak selalu. Konsumsi listrik lebih dipengaruhi kesesuaian PK dengan ruangan, tipe AC, dan pola pemakaian. PK yang terlalu kecil untuk ruangan besar justru membuat AC bekerja berat dan kurang efisien.",
+      },
+      {
+        question: "Kapan sebaiknya pilih 3/4 PK atau 1.5 PK?",
+        answer:
+          "Untuk kamar kecil dan cukup teduh, 3/4 PK bisa lebih masuk akal. Untuk ruangan lebih besar atau panas, 1.5 PK lebih aman daripada memaksa 1 PK. Sebaiknya cek estimasi PK lebih dulu sebelum menentukan unit.",
       },
     ],
     ctaLabel: "Cek PK AC via WhatsApp",
@@ -245,6 +298,23 @@ export const articleItems = [
         ],
       },
     ],
+    faqs: [
+      {
+        question: "Apa beda AC inverter dan low watt?",
+        answer:
+          "Inverter menjaga kerja kompresor lebih stabil untuk pemakaian lama, sedangkan low watt fokus meringankan tarikan daya untuk rumah dengan listrik terbatas. Keduanya hemat untuk tujuan yang berbeda.",
+      },
+      {
+        question: "Mana yang lebih hemat listrik?",
+        answer:
+          "Untuk pemakaian rutin berjam-jam, inverter cenderung lebih efisien. Low watt lebih menolong agar listrik tidak mudah turun. Penghematan tetap dipengaruhi ketepatan PK dan kebiasaan pemakaian.",
+      },
+      {
+        question: "Bagaimana cara memilih di antara keduanya?",
+        answer:
+          "Cek daya listrik rumah, durasi pemakaian, dan ukuran ruangan. Sampaikan data tersebut saat konsultasi agar pilihan inverter, low watt, atau standard bisa dicocokkan dengan kebutuhan.",
+      },
+    ],
     ctaLabel: "Cek Pilihan Inverter / Low Watt",
     waIntent: "konsultasi memilih AC inverter low watt atau standard",
     relatedLinks: [
@@ -304,6 +374,23 @@ export const articleItems = [
           "Siapkan ukuran ruangan, daya listrik, lokasi indoor dan outdoor, kebiasaan pemakaian, anggaran, dan merek yang diminati. Data ini membantu memilih AC dengan PK dan fitur yang sesuai.",
           "Untuk rumah dengan daya terbatas, AC low watt menjadi pilihan. Untuk pemakaian lama setiap hari, AC inverter sering lebih nyaman. Untuk toko, kantor, kost, atau banyak ruangan, stok dan jadwal pemasangan perlu dicek lebih awal.",
         ],
+      },
+    ],
+    faqs: [
+      {
+        question: "AC kurang dingin apakah pasti freon habis?",
+        answer:
+          "Tidak selalu. Penyebab lain bisa kapasitas PK yang kurang, ruangan berubah fungsi, filter kotor, instalasi kurang ideal, atau usia unit yang sudah tinggi. Sebaiknya dievaluasi dulu sebelum menambah biaya.",
+      },
+      {
+        question: "Kapan lebih baik ganti AC baru daripada memperbaiki?",
+        answer:
+          "Pertimbangkan ganti baru jika unit sudah tua, sering bermasalah, boros listrik, spare part sulit, atau biaya perbaikan mulai mendekati harga unit baru. Kebutuhan ruangan yang berubah juga jadi pertimbangan.",
+      },
+      {
+        question: "Apa yang perlu dicek sebelum beli AC pengganti?",
+        answer:
+          "Siapkan ukuran ruangan, daya listrik, lokasi indoor dan outdoor, pola pemakaian, dan anggaran. Data ini membantu memilih PK dan tipe yang sesuai, serta mengecek stok dan jadwal pemasangan.",
       },
     ],
     ctaLabel: "Konsultasi Ganti AC Baru",
@@ -373,6 +460,23 @@ export const articleItems = [
         ],
       },
     ],
+    faqs: [
+      {
+        question: "Kenapa instalasi perlu dipikirkan sebelum beli AC?",
+        answer:
+          "Karena hasil akhir dipengaruhi titik indoor, outdoor, jalur pipa, drainase, dan kesiapan listrik. Instalasi yang kurang tepat bisa membuat ruangan lama dingin, lebih berisik, atau air menetes meski PK sudah benar.",
+      },
+      {
+        question: "Apa saja yang memengaruhi biaya pemasangan?",
+        answer:
+          "Panjang pipa, posisi outdoor, akses tinggi, bobok tembok, bracket, dan material tambahan bisa memengaruhi total biaya. Kondisi lokasi sebaiknya dibahas sebelum jadwal pemasangan dipastikan.",
+      },
+      {
+        question: "Apakah garansi pemasangan tersedia?",
+        answer:
+          "Untuk pemasangan yang dikerjakan melalui Radja AC, garansi pemasangan mengikuti ketentuan yang berlaku. Garansi unit tetap mengikuti ketentuan resmi brand.",
+      },
+    ],
     ctaLabel: "Konsultasi AC Baru & Opsi Pemasangan",
     waIntent: "konsultasi beli AC baru dan opsi pemasangan",
     relatedLinks: [
@@ -438,6 +542,23 @@ export const articleItems = [
           "Setelah kapasitas PK lebih jelas, cek stok AC 1/2 PK atau opsi lain yang sesuai, pilihan brand, garansi unit, dan kebutuhan pemasangan. Posisi indoor-outdoor, panjang pipa, akses lokasi, dan material tambahan bisa memengaruhi total biaya.",
           "Pembayaran seperti DP, transfer, atau COD bisa dikonfirmasi setelah pilihan unit, alamat pengiriman, jadwal, dan opsi pemasangan jelas. Jadi rekomendasi untuk kamar 3x4 sebaiknya tetap dilanjutkan dengan data ruangan dan daya listrik yang lengkap.",
         ],
+      },
+    ],
+    faqs: [
+      {
+        question: "Berapa PK AC untuk kamar 3x4 meter?",
+        answer:
+          "Kamar 3x4 meter (sekitar 12 m²) dalam kondisi normal sering masuk rentang 1/2 PK sampai 3/4 PK. Kamar yang panas, berplafon tinggi, atau terkena matahari sore bisa membutuhkan kapasitas lebih besar.",
+      },
+      {
+        question: "Lebih baik inverter atau low watt untuk kamar 3x4?",
+        answer:
+          "Untuk pemakaian setiap malam, inverter sering lebih nyaman karena suhu lebih stabil. Bila daya listrik rumah terbatas, low watt lebih aman. Pastikan kapasitas PK tetap sesuai agar AC tidak bekerja berat.",
+      },
+      {
+        question: "Apa yang perlu disiapkan sebelum konsultasi?",
+        answer:
+          "Siapkan ukuran kamar, tinggi plafon, arah panas matahari, daya listrik, dan pola pemakaian. Foto ruangan dan titik pemasangan membantu rekomendasi unit serta opsi pemasangan yang lebih tepat.",
       },
     ],
     ctaLabel: "Konsultasi AC Kamar 3x4",
