@@ -7,7 +7,7 @@ Panduan ini dipakai saat staged area draft akan diaktifkan menjadi halaman live.
 ## File Penting
 
 Live:
-- content/areas.js
+- content/areas/ (data area modular per region + cluster-map.js)
 - content/routes.js
 
 Staged, belum live:
@@ -23,7 +23,7 @@ Draft belum live, belum masuk sitemap, dan belum boleh diminta indexing.
 
 Jangan import file draft ke app, sitemap, route generator, atau komponen live.
 
-Draft hanya menjadi live jika item dipindahkan ke content/areas.js dan route ditambahkan ke content/routes.js.
+Draft hanya menjadi live jika item dipindahkan ke file region yang sesuai di content/areas/ dan route ditambahkan ke content/routes.js.
 
 ## Publish Batch Rule
 
@@ -59,7 +59,7 @@ Contoh publish jual-ac-magelang:
 1. Buka content/area-drafts.js.
 2. Ambil item slug jual-ac-magelang.
 3. Tambah route di content/routes.js: jualAcMagelang: /jual-ac-magelang.
-4. Pindahkan item ke content/areas.js.
+4. Pindahkan item ke file region yang sesuai di content/areas/ (untuk Magelang: content/areas/regional.js).
 5. Ubah path menjadi routes.jualAcMagelang.
 6. Hapus field staging yang tidak dipakai template live.
 7. Cek nearbyAreaLinks tidak menuju draft yang belum live.
@@ -75,7 +75,7 @@ Contoh publish jual-ac-sumbang:
 2. Buka content/area-child-drafts.js.
 3. Ambil item slug jual-ac-sumbang.
 4. Tambah route di content/routes.js: jualAcSumbang: /jual-ac-sumbang.
-5. Pindahkan item ke content/areas.js.
+5. Pindahkan item ke file region yang sesuai di content/areas/ (untuk Sumbang: content/areas/banyumas.js).
 6. Ubah path menjadi routes.jualAcSumbang.
 7. Pastikan child punya link balik ke parent lewat nearbyAreaLinks.
 8. Tambah link dari parent/hub ke child hanya jika child sudah live.
@@ -88,7 +88,7 @@ Jalankan git diff --check.
 
 Cek draft tidak sengaja di-import:
 
-grep -RIn "areaDraftItems\|areaChildDraftItems\|area-drafts\|area-child-drafts" app components lib content/routes.js content/areas.js app/sitemap.js --exclude-dir=node_modules --exclude-dir=.next --exclude-dir=.git 2>/dev/null || true
+grep -RIn "areaDraftItems\|areaChildDraftItems\|area-drafts\|area-child-drafts" app components lib content/routes.js content/areas app/sitemap.js --exclude-dir=node_modules --exclude-dir=.next --exclude-dir=.git 2>/dev/null || true
 
 Jalankan npm run check.
 

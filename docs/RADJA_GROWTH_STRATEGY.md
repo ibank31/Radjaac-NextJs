@@ -161,9 +161,9 @@ Area lokal dan regional yang sudah ada di source repo terbaru:
 - `/jual-ac-pekalongan` (regional Pantura, published 2026-06-10)
 - `/jual-ac-salatiga` (regional koridor Semarang–Solo, published 2026-06-10)
 
-Standar konten area sekarang: tiap halaman wajib punya `localContext` unik, minimal 5 `localLandmarks`, 3 `localBenefits`, 3 `localCases`, `clusterType` yang benar, dan `localFaq` berbasis lokasi (lihat `docs/source/radjaac/RADJAAC_AREA_PAGE_BLUEPRINT.md`). Cluster dipetakan di `areaClusterMap` (content/areas.js). Staged draft (Magelang, Salatiga, Pekalongan, Pemalang, Brebes, Wonosobo, Temanggung, Kudus, Jepara, Demak, dan child Kebasen/Somagede/Bobotsari/Kalimanah/Kutasari/Slawi/Adiwerna/Talang/Mandiraja/Klampok/Bawang Banjarnegara) sudah ditulis ulang ke standar ini tetapi belum live.
+Standar konten area sekarang: tiap halaman wajib punya `localContext` unik, minimal 5 `localLandmarks`, 3 `localBenefits`, 3 `localCases`, `clusterType` yang benar, dan `localFaq` berbasis lokasi (lihat `docs/source/radjaac/RADJAAC_AREA_PAGE_BLUEPRINT.md`). Cluster dipetakan di `areaClusterMap` (`content/areas/cluster-map.js`). Staged draft (Magelang, Salatiga, Pekalongan, Pemalang, Brebes, Wonosobo, Temanggung, Kudus, Jepara, Demak, dan child Kebasen/Somagede/Bobotsari/Kalimanah/Kutasari/Slawi/Adiwerna/Talang/Mandiraja/Klampok/Bawang Banjarnegara) sudah ditulis ulang ke standar ini tetapi belum live.
 
-Kalau daftar ini berubah, cek `content/routes.js`, `content/areas.js`, sitemap live, dan live 200.
+Kalau daftar ini berubah, cek `content/routes.js`, `content/areas/` (data area modular + `cluster-map.js`), sitemap live, dan live 200.
 
 ## Retail Area Priority
 

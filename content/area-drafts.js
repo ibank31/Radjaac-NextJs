@@ -1,6 +1,7 @@
 // STAGED AREA DRAFTS ONLY.
 // Do not import this file into app routes, sitemap, or live components.
-// To publish an area, move one item into content/areas.js and add the final route intentionally.
+// To publish an area, move one item into the matching region file under content/areas/
+// (e.g. content/areas/<region>.js) and add the final route intentionally.
 //
 // Quality standard: every item must read like it was written for that specific
 // place. Each draft below carries real localContext, 5 localLandmarks,
@@ -9,7 +10,7 @@
 // live renderer (app/[slug]/page.js + resolveAreaContent) actually surfaces.
 //
 // PUBLISHED 2026-06-10: jual-ac-magelang, jual-ac-pekalongan, and jual-ac-salatiga
-// were promoted into content/areas.js (live) with routes + areaClusterMap + reciprocal
+// were promoted into content/areas/ (live) with routes + areaClusterMap + reciprocal
 // internal links, so they were removed from this draft file to avoid slug collision.
 
 const defaultDraftRelatedLinks = [
@@ -168,7 +169,7 @@ function createRegionalAreaDraft({
     ],
     publishChecklist: [
       "Tambah route final di content/routes.js.",
-      "Pindahkan draft item ke content/areas.js dan tambahkan slug ke areaClusterMap dengan clusterType item ini.",
+      "Pindahkan draft item ke file region yang sesuai di content/areas/ dan tambahkan slug ke areaClusterMap (content/areas/cluster-map.js) dengan clusterType item ini.",
       "Pastikan plannedRouteKey dipakai konsisten.",
       "Cek nearbyAreaLinks tidak menuju URL draft yang belum live.",
       "Pasang internal link masuk dari hub atau area relevan bila masuk akal.",
@@ -716,6 +717,6 @@ export const areaDraftItems = [
 export const areaDraftPublishRules = [
   "Draft ini belum live, belum masuk sitemap, dan tidak boleh di-import ke app sebelum waktunya publish.",
   "Publish maksimal 3–5 area per batch.",
-  "Sebelum publish: tambah route final, pindahkan item ke content/areas.js, tambahkan slug ke areaClusterMap sesuai clusterType item, cek internal link, lalu jalankan npm run check.",
+  "Sebelum publish: tambah route final, pindahkan item ke file region yang sesuai di content/areas/, tambahkan slug ke areaClusterMap (content/areas/cluster-map.js) sesuai clusterType item, cek internal link, lalu jalankan npm run check.",
   "Jangan publish area yang hanya swap nama tanpa localContext unik, localLandmarks, localBenefits, localCases, nearby links, CTA, dan FAQ berbasis lokasi.",
 ];

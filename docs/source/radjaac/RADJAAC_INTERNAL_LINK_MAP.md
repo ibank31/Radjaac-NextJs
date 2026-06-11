@@ -22,7 +22,7 @@ Aturan aktif:
 - Jangan semua halaman link ke semua halaman.
 - Internal link harus menuju URL final, bukan redirect source.
 
-Cek `content/routes.js`, `content/areas.js`, dan sitemap sebelum patch internal link.
+Cek `content/routes.js`, `content/areas/`, dan sitemap sebelum patch internal link.
 
 # RADJAAC_INTERNAL_LINK_MAP.md
 

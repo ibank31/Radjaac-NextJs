@@ -54,7 +54,7 @@ Area ditahan kalau:
 
 ## Published (Live) — Batch 2026-06-10
 
-Dipublish ke `content/areas.js` + `content/routes.js` + `sitemapRoutes` + `areaClusterMap` + hub `/jual-ac` + Footer + reciprocal `nearbyAreaLinks`:
+Dipublish ke `content/areas/` + `content/routes.js` + `sitemapRoutes` + `areaClusterMap` + hub `/jual-ac` + Footer + reciprocal `nearbyAreaLinks`:
 
 | Area | Slug | clusterType | Inbound internal |
 |---|---|---|---|
@@ -78,7 +78,7 @@ Dipublish ke `content/areas.js` + `content/routes.js` + `sitemapRoutes` + `areaC
 
 1. Pilih maksimal 3–5 area.
 2. Tambahkan route final di content/routes.js.
-3. Pindahkan item dari content/area-drafts.js ke content/areas.js.
+3. Pindahkan item dari content/area-drafts.js ke file region yang sesuai di content/areas/.
 4. Sesuaikan nearbyAreaLinks bila ada area dalam batch yang saling relevan.
 5. Pastikan tidak ada redirect collision.
 6. Jalankan npm run check.
@@ -115,7 +115,7 @@ Draft area dianggap publish-ready tahap 2 jika data di `content/area-drafts.js` 
 Catatan:
 - Foto di draft adalah generic proof RADJA AC, bukan bukti toko/cabang/showroom di area tersebut.
 - Saat publish, caption harus tetap jujur.
-- Draft belum live sampai dipindahkan ke `content/areas.js` dan route ditambahkan ke `content/routes.js`.
+- Draft belum live sampai dipindahkan ke file region yang sesuai di `content/areas/` dan route ditambahkan ke `content/routes.js`.
 
 ## Ready Child Draft Area
 
@@ -145,6 +145,6 @@ Child publish rule:
 - Jangan request indexing massal.
 
 Catatan sinkronisasi 2026-06-10:
-- Sumbang, Kedungbanteng, dan Kalibagor sudah LIVE di `content/areas.js` (dihapus dari tabel child draft).
+- Sumbang, Kedungbanteng, dan Kalibagor sudah LIVE di `content/areas/` (dihapus dari tabel child draft).
 - Ejaan diperbaiki: Adwerna → Adiwerna (slug `jual-ac-adiwerna`).
-- Gombong, Karanganyar Kebumen, dan Kutowinangun dihapus dari tabel ready-child karena SUDAH LIVE di `content/areas.js` — ditulis dengan gaya quoted-key (`"slug": "jual-ac-gombong"`) sehingga sempat tidak terdeteksi oleh grep `slug:` biasa. Route, sitemapRoutes, hub `/jual-ac`, dan areaClusterMap untuk ketiganya valid dan dipertahankan; tidak ada URL 404 dan tidak ada pembersihan yang diperlukan.
+- Gombong, Karanganyar Kebumen, dan Kutowinangun dihapus dari tabel ready-child karena SUDAH LIVE di `content/areas/` (region `content/areas/kebumen.js`) — semula ditulis dengan gaya quoted-key (`"slug": "jual-ac-gombong"`) sehingga sempat tidak terdeteksi oleh grep `slug:` biasa; sejak refactor modular formatnya diseragamkan ke key tanpa kutip. Route, sitemapRoutes, hub `/jual-ac`, dan areaClusterMap untuk ketiganya valid dan dipertahankan; tidak ada URL 404 dan tidak ada pembersihan yang diperlukan.

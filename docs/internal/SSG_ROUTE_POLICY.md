@@ -4,7 +4,7 @@ RADJA AC menggunakan Next.js App Router dengan konten utama dari file lokal di `
 
 Halaman money page berbasis data lokal harus tetap static/SSG:
 
-- `app/[slug]/page.js` untuk area pages dari `content/areas.js`
+- `app/[slug]/page.js` untuk area pages dari `content/areas/`
 - `app/brand/[slug]/page.js` untuk brand pages dari `content/brands.js`
 - `app/katalog/[slug]/page.js` untuk catalog pages dari `content/catalog.js`
 - `app/pengadaan-ac/[slug]/page.js` untuk procurement pages dari `content/procurement.js`

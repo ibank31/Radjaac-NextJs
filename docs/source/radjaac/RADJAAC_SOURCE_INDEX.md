@@ -33,7 +33,7 @@ Dokumen ini menjadi peta baca source RADJA AC agar assistant/Codex masuk dari fi
 
 5. Source repo aktif:
    - `content/routes.js`
-   - `content/areas.js`
+   - `content/areas/` (data area modular per region + `cluster-map.js`)
 - `content/area-drafts.js` staged hub/kabupaten drafts, not live
 - `content/area-child-drafts.js` staged child/kecamatan drafts, not live
    - `content/brands.js`
@@ -75,7 +75,7 @@ Jangan import file tersebut ke app, sitemap, route generator, atau komponen live
 Cara publish yang benar:
 1. pilih maksimal 3–5 draft,
 2. tambah route final di `content/routes.js`,
-3. pindahkan item ke `content/areas.js`,
+3. pindahkan item ke file region yang sesuai di `content/areas/`,
 4. cek parent/nearby/internal link,
 5. jalankan `npm run check`,
 6. push,

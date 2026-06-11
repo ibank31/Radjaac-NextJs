@@ -14,7 +14,7 @@ const liveSearchFiles = [
   "components",
   "lib",
   "content/routes.js",
-  "content/areas.js",
+  "content/areas",
   "content/procurement.js",
   "app/sitemap.js",
 ];
@@ -57,7 +57,24 @@ function walk(target) {
 }
 
 function extractSlugs(text) {
-  return [...text.matchAll(/slug:\s*"([^"]+)"/g)].map((m) => m[1]);
+  // Defensive: match both unquoted (slug: "x") and quoted ("slug": "x") keys,
+  // with single or double quotes around the value.
+  return [...text.matchAll(/["']?slug["']?\s*:\s*["']([^"']+)["']/g)].map((m) => m[1]);
+}
+
+function readLiveAreaText() {
+  // Live area data now lives in content/areas/*.js (previously content/areas.js).
+  const dir = "content/areas";
+  const dirFull = path.join(root, dir);
+  if (fs.existsSync(dirFull) && fs.statSync(dirFull).isDirectory()) {
+    return fs
+      .readdirSync(dirFull)
+      .filter((name) => name.endsWith(".js"))
+      .map((name) => read(path.join(dir, name)))
+      .join("\n");
+  }
+  // Back-compat with the old single-file layout.
+  return exists("content/areas.js") ? read("content/areas.js") : "";
 }
 
 function countField(text, field) {
@@ -104,8 +121,18 @@ function checkNotImported() {
 function checkSlugCollisions() {
   console.log("\n=== SLUG COLLISION CHECK ===");
 
-  const liveAreas = exists("content/areas.js") ? read("content/areas.js") : "";
+  const liveAreas = readLiveAreaText();
+  const liveAreaSlugs = new Set(extractSlugs(liveAreas));
   const liveRoutes = exists("content/routes.js") ? read("content/routes.js") : "";
+
+  // Internal self-check: if live area data exists but parsing yields zero slugs,
+  // the audit is silently broken (the exact regression we are guarding against).
+  if (liveAreas.length > 0 && liveAreaSlugs.size === 0) {
+    review++;
+    console.log("[REVIEW] Live area parsing returned 0 slugs — audit-staged may be broken (check content/areas/).");
+  } else {
+    console.log(`[OK] Live area slugs parsed: ${liveAreaSlugs.size}`);
+  }
 
   const stagedAreaFiles = [
     "content/area-drafts.js",
@@ -121,7 +148,7 @@ function checkSlugCollisions() {
     console.log(`${file}: ${slugs.length} staged area slugs`);
 
     for (const slug of slugs) {
-      const inAreas = liveAreas.includes(`slug: "${slug}"`);
+      const inAreas = liveAreaSlugs.has(slug);
       const inRoutes = liveRoutes.includes(`/${slug}`);
 
       if (inAreas || inRoutes) {
