@@ -214,7 +214,7 @@ export default function KatalogPage() {
           </p>
           <div className="flex flex-wrap justify-center gap-2.5">
             {brandLinks.map(([label, href]) => (
-              <Link key={href} href={href} className="rounded-full border border-slate-200 bg-[#f8fbff] px-4 py-2 text-sm font-bold text-slate-700 transition hover:border-blue-200 hover:bg-blue-50 hover:text-blue-800">
+              <Link key={href} href={href} prefetch={false} className="rounded-full border border-slate-200 bg-[#f8fbff] px-4 py-2 text-sm font-bold text-slate-700 transition hover:border-blue-200 hover:bg-blue-50 hover:text-blue-800">
                 {label}
               </Link>
             ))}

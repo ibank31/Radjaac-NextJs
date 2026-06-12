@@ -211,7 +211,7 @@ export default async function BrandDetailPage({ params }) {
                 Lihat Pilihan Tipe
               </a>
 
-              <Link href={routes.buktiPengirimanProyek} className="inline-flex items-center justify-center rounded-full border border-slate-200 bg-white px-6 py-4 font-semibold text-slate-900 shadow-sm transition hover:bg-slate-50">
+              <Link href={routes.buktiPengirimanProyek} prefetch={false} className="inline-flex items-center justify-center rounded-full border border-slate-200 bg-white px-6 py-4 font-semibold text-slate-900 shadow-sm transition hover:bg-slate-50">
                 Foto Showroom & Stok
               </Link>
             </div>
@@ -389,7 +389,7 @@ export default async function BrandDetailPage({ params }) {
         <SectionTitle eyebrow="Halaman Terkait" title="Lanjutkan dari brand ke kebutuhan ruangan" />
         <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
           {pageRelatedLinks.map(([title, href]) => (
-            <Link key={href} href={href} className="rounded-[1.35rem] border border-slate-200 bg-white p-5 shadow-sm transition hover:-translate-y-1 hover:border-blue-200 hover:bg-blue-50">
+            <Link key={href} href={href} prefetch={false} className="rounded-[1.35rem] border border-slate-200 bg-white p-5 shadow-sm transition hover:-translate-y-1 hover:border-blue-200 hover:bg-blue-50">
               <h3 className={`${typography.cardTitle} text-slate-950`}>{title}</h3>
             </Link>
           ))}
@@ -412,11 +412,11 @@ export default async function BrandDetailPage({ params }) {
         <SectionTitle eyebrow="Brand Lain" title="Pilih brand dari ukuran ruangan, daya listrik, dan stok" />
         <div className="flex flex-wrap justify-center gap-3">
           {relatedBrands.slice(0, 10).map((relatedBrand) => (
-            <Link key={relatedBrand.slug} href={relatedBrand.path} className="rounded-full border border-slate-200 bg-white px-4 py-2 text-sm font-bold text-slate-700 shadow-sm transition hover:border-blue-200 hover:bg-blue-50 hover:text-blue-800">
+            <Link key={relatedBrand.slug} href={relatedBrand.path} prefetch={false} className="rounded-full border border-slate-200 bg-white px-4 py-2 text-sm font-bold text-slate-700 shadow-sm transition hover:border-blue-200 hover:bg-blue-50 hover:text-blue-800">
               {relatedBrand.label}
             </Link>
           ))}
-          <Link href={routes.katalog} className="rounded-full border border-slate-200 bg-white px-4 py-2 text-sm font-bold text-slate-700 shadow-sm transition hover:border-blue-200 hover:bg-blue-50 hover:text-blue-800">
+          <Link href={routes.katalog} prefetch={false} className="rounded-full border border-slate-200 bg-white px-4 py-2 text-sm font-bold text-slate-700 shadow-sm transition hover:border-blue-200 hover:bg-blue-50 hover:text-blue-800">
             Katalog AC
           </Link>
         </div>
@@ -427,7 +427,7 @@ export default async function BrandDetailPage({ params }) {
           <SectionTitle eyebrow="Brand Utama" title="Brand utama Radja AC" />
           <div className="flex flex-wrap justify-center gap-3">
             {featuredBrandItems.map((brand) => (
-              <Link key={brand.slug} href={brand.path} className="rounded-full border border-slate-200 bg-white px-4 py-2 text-sm font-bold text-slate-700 shadow-sm transition hover:border-blue-200 hover:bg-blue-50 hover:text-blue-800">
+              <Link key={brand.slug} href={brand.path} prefetch={false} className="rounded-full border border-slate-200 bg-white px-4 py-2 text-sm font-bold text-slate-700 shadow-sm transition hover:border-blue-200 hover:bg-blue-50 hover:text-blue-800">
                 {brand.label}
               </Link>
             ))}
