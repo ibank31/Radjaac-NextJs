@@ -107,7 +107,7 @@ export default async function CatalogDetailPage({ params }) {
   ];
 
   return (
-    <main className="min-h-screen overflow-hidden bg-[#f7fbff] text-slate-950">
+    <main id="main-content" className="min-h-screen bg-[#f7fbff] text-slate-950">
       <JsonLd data={structuredData} />
       <section className="relative overflow-hidden border-b border-blue-100 bg-[linear-gradient(180deg,#f8fdff_0%,#eefbff_100%)] px-4 pb-10 pt-12 sm:px-6 lg:px-8 lg:pb-14 lg:pt-20">
         <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_top_left,rgba(34,211,238,0.16),transparent_34%),radial-gradient(circle_at_bottom_right,rgba(15,23,42,0.08),transparent_32%)]" />

@@ -111,7 +111,7 @@ const proofImages = [
 
 export default function JualAcPage() {
   return (
-    <main className="bg-white">
+    <main id="main-content" className="bg-white">
       <section className="relative overflow-hidden bg-[#f7fbff] text-slate-950">
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_left,rgba(56,189,248,0.24),transparent_34%),radial-gradient(circle_at_bottom_right,rgba(34,197,94,0.18),transparent_30%)]" />
         <div className="relative mx-auto grid max-w-7xl gap-12 px-6 py-20 lg:grid-cols-[1.05fr_0.95fr] lg:px-8 lg:py-24">

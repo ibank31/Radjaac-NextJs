@@ -52,7 +52,7 @@ const checkFactors = [
 
 export default function KalkulatorPkAcPage() {
   return (
-    <main className="bg-[linear-gradient(180deg,#f7fbff_0%,#eef8ff_42%,#ffffff_100%)]">
+    <main id="main-content" className="bg-[linear-gradient(180deg,#f7fbff_0%,#eef8ff_42%,#ffffff_100%)]">
       <section className="mx-auto max-w-7xl px-4 py-14 lg:py-20">
         <p className={`${typography.eyebrow} text-slate-500`}>
           Kalkulator PK AC

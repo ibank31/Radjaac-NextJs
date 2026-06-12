@@ -96,7 +96,7 @@ export default async function ProcurementDetailPage({ params }) {
     : relatedItems.slice(0, 2).map((relatedItem) => [relatedItem.label, relatedItem.path]);
 
   return (
-    <main className="min-h-screen bg-white text-slate-800">
+    <main id="main-content" className="min-h-screen bg-white text-slate-800">
       <JsonLd data={structuredData} />
       <JsonLd data={breadcrumbStructuredData} />
       {faqStructuredData ? <JsonLd data={faqStructuredData} /> : null}

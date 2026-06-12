@@ -34,7 +34,7 @@ const nextLinks = [
 
 export default function GantiAcBaruPurwokertoPage() {
   return (
-    <main className="min-h-screen overflow-hidden bg-[#f7fbff] text-slate-950">
+    <main id="main-content" className="min-h-screen bg-[#f7fbff] text-slate-950">
       <section className="relative overflow-hidden border-b border-blue-100 bg-[linear-gradient(180deg,#f8fdff_0%,#eefbff_100%)] px-4 py-12 lg:py-20">
         <div className="pointer-events-none absolute inset-0 -z-10 bg-[radial-gradient(circle_at_top_left,rgba(34,211,238,0.18),transparent_32%),radial-gradient(circle_at_bottom_right,rgba(37,211,102,0.12),transparent_28%)]" />
         <p className={`${typography.eyebrow} text-blue-700`}>

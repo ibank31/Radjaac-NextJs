@@ -23,6 +23,9 @@ export default function RootLayout({ children }) {
       <body className={plusJakartaSans.variable}>
         <JsonLd data={sitewideSchemas()} />
         <GoogleAnalytics />
+        <a href="#main-content" className="skip-to-content">
+          Langsung ke konten utama
+        </a>
         <Header />
         {children}
         <Footer />

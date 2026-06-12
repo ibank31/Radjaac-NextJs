@@ -29,7 +29,7 @@ export default function ArtikelPage() {
   const otherArticles = articleItems.slice(1);
 
   return (
-    <main className="min-h-screen overflow-hidden bg-[#f4f8fb] text-slate-950">
+    <main id="main-content" className="min-h-screen bg-[#f4f8fb] text-slate-950">
       <section className="relative overflow-hidden border-b border-slate-200 bg-[linear-gradient(135deg,#061727_0%,#0f3f57_44%,#e9fbff_100%)] px-4 pb-12 pt-12 text-white sm:px-6 lg:px-8 lg:pb-18 lg:pt-20">
         <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_top_left,rgba(34,211,238,0.22),transparent_34%),radial-gradient(circle_at_bottom_right,rgba(37,211,102,0.22),transparent_30%)]" />
         <div className="relative mx-auto grid max-w-7xl gap-10 lg:grid-cols-[1.05fr_0.95fr] lg:items-center lg:gap-14">

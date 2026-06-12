@@ -28,7 +28,7 @@ const recoveryLinks = [
 
 export default function NotFound() {
   return (
-    <main className="bg-[linear-gradient(180deg,#f8fdff_0%,#eef7ff_100%)] px-4 py-14 text-slate-900 sm:py-20">
+    <main id="main-content" className="bg-[linear-gradient(180deg,#f8fdff_0%,#eef7ff_100%)] px-4 py-14 text-slate-900 sm:py-20">
       <section className="mx-auto max-w-5xl">
         <div className="overflow-hidden rounded-[2rem] border border-blue-100 bg-white shadow-[0_24px_70px_rgba(15,39,66,0.10)]">
           <div className="grid gap-0 lg:grid-cols-[0.95fr_1.05fr]">

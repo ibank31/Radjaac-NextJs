@@ -5,5 +5,9 @@ import HomepageLegacyParity from "@/components/home/HomepageLegacyParity";
 export const metadata = buildMetadata(staticPageMetadata.home);
 
 export default function HomePage() {
-  return <HomepageLegacyParity />;
+  return (
+    <>
+      <HomepageLegacyParity />
+    </>
+  );
 }

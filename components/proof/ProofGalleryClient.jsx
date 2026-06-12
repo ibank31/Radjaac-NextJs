@@ -364,7 +364,7 @@ export default function ProofGalleryClient() {
   }, [activeFilter]);
 
   return (
-    <main className="relative overflow-hidden bg-white text-slate-950">
+    <main id="main-content" className="relative bg-white text-slate-950">
       <div className="pointer-events-none fixed inset-0 -z-10 overflow-hidden">
         <div className="absolute left-[-160px] top-[-220px] h-[420px] w-[420px] rounded-full bg-blue-100/70 blur-[120px]" />
         <div className="absolute bottom-[-220px] right-[-160px] h-[420px] w-[420px] rounded-full bg-slate-100 blur-[120px]" />

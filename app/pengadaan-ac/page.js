@@ -128,7 +128,7 @@ const capacityRows = [
 
 export default function PengadaanAcPage() {
   return (
-    <main className="min-h-screen bg-white text-slate-800">
+    <main id="main-content" className="min-h-screen bg-white text-slate-800">
       <JsonLd data={breadcrumbStructuredData} />
       <section className="relative overflow-hidden border-b border-blue-100 bg-[linear-gradient(155deg,#ffffff_0%,#f1f5ff_52%,#e0f0ff_100%)]">
         <div className="pointer-events-none absolute -right-32 -top-24 h-[30rem] w-[30rem] rounded-full bg-blue-300/10 blur-3xl" />

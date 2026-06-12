@@ -123,7 +123,7 @@ export default async function AreaPage({ params }) {
   ];
 
   return (
-    <main className="min-h-screen overflow-hidden bg-[#f7fbff] text-slate-950">
+    <main id="main-content" className="min-h-screen bg-[#f7fbff] text-slate-950">
       <JsonLd data={structuredData} />
       <section className="relative overflow-hidden border-b border-blue-100 bg-[linear-gradient(180deg,#f8fdff_0%,#eefbff_100%)] px-4 pb-10 pt-12 sm:px-6 lg:px-8 lg:pb-16 lg:pt-20">
         <div className="grid items-center gap-10 lg:grid-cols-[1.04fr_0.96fr] lg:gap-16">

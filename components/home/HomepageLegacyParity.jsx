@@ -730,7 +730,7 @@ function HomeClosingCta() {
 
 export default function HomepageLegacyParity() {
   return (
-    <main className="overflow-hidden bg-background text-navy">
+    <main id="main-content" className="bg-background text-navy">
       <HomeHero />
       <HomeTrust />
       <HomePriceEstimate />

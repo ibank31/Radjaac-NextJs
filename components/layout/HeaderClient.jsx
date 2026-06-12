@@ -16,7 +16,6 @@ const navItems = [
     items: [
       { label: "Panduan Pilih AC", href: routes.katalog, exact: true },
       { label: "Kalkulator PK AC", href: routes.kalkulatorPkAc, exact: true },
-      { label: "AC 1/2 PK", href: routes.katalogAcSetengahPk },
       { label: "AC Split Rumah", href: routes.katalogAcSplitRumah },
       { label: "AC Inverter", href: routes.katalogAcInverter },
       { label: "AC Low Watt", href: routes.katalogAcLowWatt },
@@ -112,9 +111,28 @@ function DesktopDropdown({ item, pathname }) {
   );
 }
 
+const katalogItemsByGroup = {
+  panduan: [
+    { label: "Panduan Pilih AC", href: routes.katalog, exact: true },
+    { label: "Kalkulator PK AC", href: routes.kalkulatorPkAc, exact: true },
+  ],
+  kategori: [
+    { label: "AC Split Rumah", href: routes.katalogAcSplitRumah },
+    { label: "AC Inverter", href: routes.katalogAcInverter },
+    { label: "AC Low Watt", href: routes.katalogAcLowWatt },
+    { label: "AC Kantor / Komersial", href: routes.katalogAcKantorKomersial },
+  ],
+};
+
 function MobileNavItem({ item, pathname, onNavigate, index }) {
   if (item.items) {
     const active = isDropdownActive(pathname, item);
+    const isKatalog = item.label === "Katalog AC";
+
+    // Desktop uses flat items — mobile uses grouped layout for Katalog
+    const mobileItems = isKatalog
+      ? katalogItemsByGroup
+      : { items: item.items };
 
     return (
       <details className={`group rounded-2xl border ${active ? "border-blue-100 bg-blue-50" : "border-slate-100 bg-white"}`}>
@@ -126,25 +144,79 @@ function MobileNavItem({ item, pathname, onNavigate, index }) {
         </summary>
 
         <div className="grid gap-1 border-t border-blue-50 bg-white p-2">
-          {item.items.map((subItem) => {
-            const subActive = isPathActive(pathname, subItem.href, subItem.exact);
-
-            return (
-              <Link
-                key={subItem.href}
-                href={subItem.href}
-                className={[
-                  "rounded-xl px-3 py-2 text-sm font-medium transition",
-                  subActive
-                    ? "bg-blue-50 text-blue-800 ring-1 ring-blue-100"
-                    : "text-slate-600 hover:bg-blue-50 hover:text-blue-800",
-                ].join(" ")}
-                onClick={onNavigate}
-              >
-                {subItem.label}
-              </Link>
-            );
-          })}
+          {isKatalog ? (
+            <>
+              {/* Kategori AC group */}
+              <div className="px-3 pt-2 pb-1">
+                <span className="text-[10px] font-bold uppercase tracking-[0.08em] text-slate-400">
+                  Kategori AC
+                </span>
+              </div>
+              {katalogItemsByGroup.kategori.map((subItem) => {
+                const subActive = isPathActive(pathname, subItem.href, subItem.exact);
+                return (
+                  <Link
+                    key={subItem.href}
+                    href={subItem.href}
+                    className={[
+                      "rounded-xl px-3 py-2 text-sm font-medium transition",
+                      subActive
+                        ? "bg-blue-50 text-blue-800 ring-1 ring-blue-100"
+                        : "text-slate-600 hover:bg-blue-50 hover:text-blue-800",
+                    ].join(" ")}
+                    onClick={onNavigate}
+                  >
+                    {subItem.label}
+                  </Link>
+                );
+              })}
+              <div className="mx-3 my-1 border-t border-slate-100" />
+              {/* Panduan group */}
+              <div className="px-3 pt-1 pb-1">
+                <span className="text-[10px] font-bold uppercase tracking-[0.08em] text-slate-400">
+                  Panduan
+                </span>
+              </div>
+              {katalogItemsByGroup.panduan.map((subItem) => {
+                const subActive = isPathActive(pathname, subItem.href, subItem.exact);
+                return (
+                  <Link
+                    key={subItem.href}
+                    href={subItem.href}
+                    className={[
+                      "rounded-xl px-3 py-2 text-sm font-medium transition",
+                      subActive
+                        ? "bg-blue-50 text-blue-800 ring-1 ring-blue-100"
+                        : "text-slate-600 hover:bg-blue-50 hover:text-blue-800",
+                    ].join(" ")}
+                    onClick={onNavigate}
+                  >
+                    {subItem.label}
+                  </Link>
+                );
+              })}
+            </>
+          ) : (
+            /* Non-Katalog dropdown — flat items */
+            item.items.map((subItem) => {
+              const subActive = isPathActive(pathname, subItem.href, subItem.exact);
+              return (
+                <Link
+                  key={subItem.href}
+                  href={subItem.href}
+                  className={[
+                    "rounded-xl px-3 py-2 text-sm font-medium transition",
+                    subActive
+                      ? "bg-blue-50 text-blue-800 ring-1 ring-blue-100"
+                      : "text-slate-600 hover:bg-blue-50 hover:text-blue-800",
+                  ].join(" ")}
+                  onClick={onNavigate}
+                >
+                  {subItem.label}
+                </Link>
+              );
+            })
+          )}
         </div>
       </details>
     );
@@ -191,12 +263,7 @@ export default function HeaderClient() {
     }
   };
 
-  // Close menu when pathname changes (navigation happened)
-  useEffect(() => {
-    if (isMobileOpen) {
-      handleToggleMenu();
-    }
-  }, [pathname]);
+  // Note: Mobile menu closes on navigation via onNavigate callbacks on each nav item
 
   return (
     <header className="sticky top-0 z-50 border-b border-blue-100 bg-white/95 shadow-[0_12px_34px_rgba(73,132,184,0.14)] backdrop-blur-xl">
@@ -301,7 +368,7 @@ export default function HeaderClient() {
               role="navigation"
               aria-label="Mobile navigation"
             >
-              <nav className="grid gap-2">
+              <nav className="flex flex-col">
                 {navItems.map((item, index) => (
                   <div
                     key={item.label}
