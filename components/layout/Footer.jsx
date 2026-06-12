@@ -141,7 +141,7 @@ export default function Footer() {
               <ul className="mt-5 space-y-2.5 text-sm font-medium text-white/85">
                 {group.links.map((item) => (
                   <li key={item.href}>
-                    <Link href={item.href} className="transition hover:text-white">
+                    <Link href={item.href} prefetch={false} className="transition hover:text-white">
                       {item.label}
                     </Link>
                   </li>
