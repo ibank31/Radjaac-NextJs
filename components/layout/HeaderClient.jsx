@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import { useState } from "react";
+import { useState, useRef, useEffect } from "react";
 import { usePathname } from "next/navigation";
 import { routes } from "@/content/routes";
 import WhatsappLink from "@/components/ui/WhatsappLink";
@@ -112,7 +112,7 @@ function DesktopDropdown({ item, pathname }) {
   );
 }
 
-function MobileNavItem({ item, pathname, onNavigate }) {
+function MobileNavItem({ item, pathname, onNavigate, index }) {
   if (item.items) {
     const active = isDropdownActive(pathname, item);
 
@@ -162,6 +162,7 @@ function MobileNavItem({ item, pathname, onNavigate }) {
           : "border-slate-100 bg-white text-slate-800 hover:bg-blue-50/80 hover:text-blue-800",
       ].join(" ")}
       onClick={onNavigate}
+      data-index={index}
     >
       {item.label}
     </Link>
@@ -171,6 +172,31 @@ function MobileNavItem({ item, pathname, onNavigate }) {
 export default function HeaderClient() {
   const pathname = usePathname();
   const [isMobileOpen, setIsMobileOpen] = useState(false);
+  const [isAnimating, setIsAnimating] = useState(false);
+  const detailsRef = useRef(null);
+
+  // Handle opening/closing with animation
+  const handleToggleMenu = () => {
+    if (isMobileOpen) {
+      // Closing animation
+      setIsAnimating(true);
+      setTimeout(() => {
+        setIsMobileOpen(false);
+        setIsAnimating(false);
+      }, 300);
+    } else {
+      // Opening
+      setIsMobileOpen(true);
+      setIsAnimating(false);
+    }
+  };
+
+  // Close menu when pathname changes (navigation happened)
+  useEffect(() => {
+    if (isMobileOpen) {
+      handleToggleMenu();
+    }
+  }, [pathname]);
 
   return (
     <header className="sticky top-0 z-50 border-b border-blue-100 bg-white/95 shadow-[0_12px_34px_rgba(73,132,184,0.14)] backdrop-blur-xl">
@@ -222,51 +248,89 @@ export default function HeaderClient() {
           </WhatsappLink>
         </div>
 
-        <details
-          className="group relative xl:hidden"
-          open={isMobileOpen}
-          onToggle={(event) => setIsMobileOpen(event.currentTarget.open)}
-        >
-          <summary
-            className="flex h-10 w-10 list-none items-center justify-center rounded-full border border-slate-200 bg-white text-slate-900 shadow-[0_10px_24px_rgba(15,23,42,0.10)] marker:hidden"
-            aria-label="Buka navigasi"
-            onClick={(event) => {
-              event.preventDefault();
-              setIsMobileOpen((current) => !current);
-            }}
+        {/* Mobile Menu Hamburger - FIXED VERSION */}
+        <div className="relative xl:hidden">
+          {/* Backdrop - Touch dismiss */}
+          {isMobileOpen && (
+            <div
+              className={`mobile-backdrop fixed inset-0 z-40 bg-black/20 ${
+                isAnimating ? "closing" : "open"
+              }`}
+              onClick={() => handleToggleMenu()}
+              aria-hidden="true"
+            />
+          )}
+
+          {/* Hamburger Button */}
+          <button
+            onClick={handleToggleMenu}
+            className={`hamburger-button flex h-10 w-10 list-none items-center justify-center rounded-full border border-slate-200 bg-white text-slate-900 shadow-[0_10px_24px_rgba(15,23,42,0.10)] ${
+              isMobileOpen ? "open" : ""
+            }`}
+            aria-label={isMobileOpen ? "Tutup navigasi" : "Buka navigasi"}
+            aria-expanded={isMobileOpen}
+            aria-controls="mobile-menu-panel"
           >
-            <span className="sr-only">Buka navigasi</span>
+            <span className="sr-only">{isMobileOpen ? "Tutup navigasi" : "Buka navigasi"}</span>
             <span className="flex flex-col gap-1.5">
-              <span className="block h-0.5 w-5 rounded-full bg-slate-800" />
-              <span className="block h-0.5 w-5 rounded-full bg-slate-800" />
-              <span className="block h-0.5 w-5 rounded-full bg-slate-800" />
+              <span
+                className={`hamburger-line-top block h-0.5 w-5 rounded-full bg-slate-800 ${
+                  isMobileOpen ? (isAnimating ? "closing" : "open") : ""
+                }`}
+              />
+              <span
+                className={`hamburger-line-middle block h-0.5 w-5 rounded-full bg-slate-800 ${
+                  isMobileOpen ? (isAnimating ? "closing" : "open") : ""
+                }`}
+              />
+              <span
+                className={`hamburger-line-bottom block h-0.5 w-5 rounded-full bg-slate-800 ${
+                  isMobileOpen ? (isAnimating ? "closing" : "open") : ""
+                }`}
+              />
             </span>
-          </summary>
+          </button>
 
-          <div className="absolute right-0 top-12 max-h-[calc(100vh-6rem)] w-[min(88vw,360px)] overflow-y-auto rounded-[1.6rem] border border-blue-100 bg-white/95 p-3 shadow-[0_24px_70px_rgba(15,23,42,0.16)] backdrop-blur-xl">
-            <nav className="grid gap-2">
-              {navItems.map((item) => (
-                <MobileNavItem
-                  key={item.label}
-                  item={item}
-                  pathname={pathname}
-                  onNavigate={() => setIsMobileOpen(false)}
-                />
-              ))}
-            </nav>
+          {/* Mobile Menu Panel */}
+          {isMobileOpen && (
+            <div
+              id="mobile-menu-panel"
+              className={`mobile-menu-panel absolute right-0 top-12 z-50 max-h-[calc(100vh-6rem)] w-[min(88vw,360px)] overflow-y-auto rounded-[1.6rem] border border-blue-100 bg-white/95 p-3 shadow-[0_24px_70px_rgba(15,23,42,0.16)] backdrop-blur-xl ${
+                isAnimating ? "closing" : "open"
+              }`}
+              role="navigation"
+              aria-label="Mobile navigation"
+            >
+              <nav className="grid gap-2">
+                {navItems.map((item, index) => (
+                  <div
+                    key={item.label}
+                    className={`mobile-menu-item ${isAnimating ? "" : ""}`}
+                    data-index={index}
+                  >
+                    <MobileNavItem
+                      item={item}
+                      pathname={pathname}
+                      onNavigate={() => handleToggleMenu()}
+                      index={index}
+                    />
+                  </div>
+                ))}
+              </nav>
 
-            <div className="mt-3 border-t border-blue-50 pt-3">
-              <WhatsappLink
-                className="flex w-full items-center justify-center rounded-2xl bg-brand-red px-4 py-3 text-sm font-bold text-white shadow-[0_14px_34px_rgba(214,40,40,0.24)]"
-                source="Mobile Header"
-                intent="konsultasi beli AC"
-                onClick={() => setIsMobileOpen(false)}
-              >
-                Cek AC
-              </WhatsappLink>
+              <div className="mt-3 border-t border-blue-50 pt-3">
+                <WhatsappLink
+                  className="flex w-full items-center justify-center rounded-2xl bg-brand-red px-4 py-3 text-sm font-bold text-white shadow-[0_14px_34px_rgba(214,40,40,0.24)] transition hover:bg-brand-red-dark"
+                  source="Mobile Header"
+                  intent="konsultasi beli AC"
+                  onClick={() => handleToggleMenu()}
+                >
+                  Cek AC
+                </WhatsappLink>
+              </div>
             </div>
-          </div>
-        </details>
+          )}
+        </div>
       </div>
     </header>
   );
