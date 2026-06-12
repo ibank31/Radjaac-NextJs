@@ -59,6 +59,277 @@
   --color-whatsapp-dark: var(--whatsapp-dark);
 }
 
+/* ────────────────────────────────────────────────────────────────
+ * HAMBURGER MENU ANIMATIONS
+ * Premium menu interactions: icon transform + menu entrance + stagger
+ * ──────────────────────────────────────────────────────────────── */
+
+@keyframes hamburgerTop {
+  from {
+    transform: translateY(0) rotate(0deg);
+    opacity: 1;
+  }
+  to {
+    transform: translateY(5px) rotate(45deg);
+    opacity: 1;
+  }
+}
+
+@keyframes hamburgerMiddle {
+  from {
+    transform: scaleX(1);
+    opacity: 1;
+  }
+  to {
+    transform: scaleX(0);
+    opacity: 0;
+  }
+}
+
+@keyframes hamburgerBottom {
+  from {
+    transform: translateY(0) rotate(0deg);
+    opacity: 1;
+  }
+  to {
+    transform: translateY(-5px) rotate(-45deg);
+    opacity: 1;
+  }
+}
+
+@keyframes hamburgerTopReverse {
+  from {
+    transform: translateY(5px) rotate(45deg);
+    opacity: 1;
+  }
+  to {
+    transform: translateY(0) rotate(0deg);
+    opacity: 1;
+  }
+}
+
+@keyframes hamburgerMiddleReverse {
+  from {
+    transform: scaleX(0);
+    opacity: 0;
+  }
+  to {
+    transform: scaleX(1);
+    opacity: 1;
+  }
+}
+
+@keyframes hamburgerBottomReverse {
+  from {
+    transform: translateY(-5px) rotate(-45deg);
+    opacity: 1;
+  }
+  to {
+    transform: translateY(0) rotate(0deg);
+    opacity: 1;
+  }
+}
+
+@keyframes menuPanelSlideIn {
+  from {
+    transform: translateY(-12px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes menuPanelSlideOut {
+  from {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  to {
+    transform: translateY(-12px);
+    opacity: 0;
+  }
+}
+
+@keyframes menuItemStagger {
+  from {
+    transform: translateY(8px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes backdropFadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes backdropFadeOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+.hamburger-line-top {
+  animation-duration: 300ms;
+  animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transform-origin: center;
+}
+
+.hamburger-line-top.open {
+  animation-name: hamburgerTop;
+  animation-fill-mode: forwards;
+}
+
+.hamburger-line-top.closing {
+  animation-name: hamburgerTopReverse;
+  animation-fill-mode: forwards;
+}
+
+.hamburger-line-middle {
+  animation-duration: 300ms;
+  animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transform-origin: center;
+}
+
+.hamburger-line-middle.open {
+  animation-name: hamburgerMiddle;
+  animation-fill-mode: forwards;
+}
+
+.hamburger-line-middle.closing {
+  animation-name: hamburgerMiddleReverse;
+  animation-fill-mode: forwards;
+}
+
+.hamburger-line-bottom {
+  animation-duration: 300ms;
+  animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transform-origin: center;
+}
+
+.hamburger-line-bottom.open {
+  animation-name: hamburgerBottom;
+  animation-fill-mode: forwards;
+}
+
+.hamburger-line-bottom.closing {
+  animation-name: hamburgerBottomReverse;
+  animation-fill-mode: forwards;
+}
+
+.mobile-menu-panel {
+  animation-duration: 300ms;
+  animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.mobile-menu-panel.open {
+  animation-name: menuPanelSlideIn;
+  animation-fill-mode: forwards;
+}
+
+.mobile-menu-panel.closing {
+  animation-name: menuPanelSlideOut;
+  animation-fill-mode: forwards;
+}
+
+.mobile-menu-item {
+  animation-duration: 300ms;
+  animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  animation-name: menuItemStagger;
+  animation-fill-mode: backwards;
+}
+
+.mobile-menu-item[data-index="0"] {
+  animation-delay: 80ms;
+}
+
+.mobile-menu-item[data-index="1"] {
+  animation-delay: 160ms;
+}
+
+.mobile-menu-item[data-index="2"] {
+  animation-delay: 240ms;
+}
+
+.mobile-menu-item[data-index="3"] {
+  animation-delay: 320ms;
+}
+
+.mobile-menu-item[data-index="4"] {
+  animation-delay: 400ms;
+}
+
+.mobile-menu-item[data-index="5"] {
+  animation-delay: 480ms;
+}
+
+.mobile-menu-item[data-index="6"] {
+  animation-delay: 560ms;
+}
+
+.mobile-menu-item[data-index="7"] {
+  animation-delay: 640ms;
+}
+
+.mobile-backdrop {
+  animation-duration: 300ms;
+  animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.mobile-backdrop.open {
+  animation-name: backdropFadeIn;
+  animation-fill-mode: forwards;
+}
+
+.mobile-backdrop.closing {
+  animation-name: backdropFadeOut;
+  animation-fill-mode: forwards;
+}
+
+/* ────────────────────────────────────────────────────────────────
+ * HAMBURGER BUTTON INTERACTIONS
+ * Hover, active, dan focus states
+ * ──────────────────────────────────────────────────────────────── */
+
+.hamburger-button {
+  transition: all 200ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.hamburger-button:hover {
+  background-color: #f0f9ff;
+  transform: scale(1.05);
+  box-shadow: 0 16px 32px rgba(15, 23, 42, 0.12);
+}
+
+.hamburger-button:active {
+  transform: scale(0.98);
+}
+
+.hamburger-button.open {
+  background-color: #e7f0f9;
+  box-shadow: 0 12px 24px rgba(15, 23, 42, 0.14);
+}
+
+.hamburger-button.open:hover {
+  background-color: #dce9f5;
+}
+
+/* ────────────────────────────────────────────────────────────────
+ * BASE STYLES
+ * ──────────────────────────────────────────────────────────────── */
+
 * {
   box-sizing: border-box;
 }
