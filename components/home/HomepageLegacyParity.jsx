@@ -194,6 +194,7 @@ function ArrowLink({ href, children, className = "" }) {
   return (
     <Link
       href={href}
+      prefetch={false}
       className={`inline-flex items-center justify-center gap-2 rounded-full px-5 py-3 text-sm font-semibold transition ${className}`}
     >
       {children}
@@ -542,6 +543,7 @@ function HomeCategory() {
           <Link
             key={item.title}
             href={item.href}
+            prefetch={false}
             className="rounded-[1.5rem] border border-slate-200 bg-white p-4 text-center shadow-sm transition hover:-translate-y-0.5 hover:border-blue-200 hover:bg-blue-50 sm:p-6"
           >
             <div className="mx-auto mb-4 flex h-12 w-12 items-center justify-center rounded-2xl border border-blue-100 bg-blue-50 text-xl font-bold text-blue-800 sm:h-14 sm:w-14">
@@ -587,6 +589,7 @@ function HomeBrands() {
           <Link
             key={brand.name}
             href={brand.href}
+            prefetch={false}
             className="group rounded-[1.5rem] border border-slate-200 bg-white px-4 py-5 text-center shadow-sm transition hover:-translate-y-0.5 hover:border-blue-200 hover:bg-blue-50"
           >
             <div className="flex h-12 items-center justify-center">

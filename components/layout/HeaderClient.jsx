@@ -88,7 +88,7 @@ function DesktopDropdown({ item, pathname }) {
         </span>
       </button>
 
-      <div className="invisible absolute left-0 top-full z-50 pt-3 opacity-0 transition group-hover:visible group-hover:opacity-100 group-focus-within:visible group-focus-within:opacity-100">
+      <div className="invisible absolute left-1/2 -translate-x-1/2 top-full z-50 pt-3 opacity-0 transition group-hover:visible group-hover:opacity-100 group-focus-within:visible group-focus-within:opacity-100">
         <div className="min-w-64 rounded-[1.6rem] border border-blue-100 bg-white/95 p-3 shadow-[0_24px_70px_rgba(15,23,42,0.14)] backdrop-blur-xl">
           <div className="grid gap-1">
             {item.items.map((subItem) => {
@@ -136,7 +136,7 @@ function MobileNavItem({ item, pathname, onNavigate, index }) {
 
     return (
       <details className={`group rounded-2xl border ${active ? "border-blue-100 bg-blue-50" : "border-slate-100 bg-white"}`}>
-        <summary className="list-none cursor-pointer px-4 py-3 text-sm font-semibold text-slate-800 marker:hidden">
+        <summary className="list-none cursor-pointer px-4 py-3 text-sm font-semibold text-slate-800 marker:hidden [&::-webkit-details-marker]:hidden">
           <span className="flex items-center justify-between">
             <span className={active ? "text-blue-800" : "text-slate-800"}>{item.label}</span>
             <span className="text-xs leading-none text-slate-400">⌄</span>
@@ -368,7 +368,7 @@ export default function HeaderClient() {
               role="navigation"
               aria-label="Mobile navigation"
             >
-              <nav className="flex flex-col">
+              <nav className="flex flex-col gap-2">
                 {navItems.map((item, index) => (
                   <div
                     key={item.label}
