@@ -228,7 +228,7 @@ function MobileNavItem({ item, pathname, onNavigate, index }) {
     <Link
       href={item.href}
       className={[
-        "rounded-2xl border px-4 py-3 text-sm font-semibold transition-all duration-200",
+        "rounded-2xl border px-4 py-3.5 text-sm font-semibold transition-all duration-200",
         active
           ? "border-blue-100 bg-blue-50 text-blue-800 ring-1 ring-blue-100 shadow-sm"
           : "border-slate-100 bg-white text-slate-800 hover:border-blue-100 hover:bg-blue-50/80 hover:text-blue-800 hover:shadow-sm",
