@@ -92,6 +92,16 @@ Catatan: workflow branch/PR boleh dipakai untuk perubahan besar, tetapi kerja Te
 
 Namun jika dokumentasi ikut di-commit bersama perubahan source, jalankan `npm run check` sebelum push.
 
+## Status Repo / Live Terbaru — 2026-06-13
+
+### Update 2026-06-13 — UI/UX improvement (dingin, bersih, premium)
+
+- Fix mobile hamburger menu spacing: gap di dropdown content dari gap-1 ke gap-2, padding bottom di details, py-2.5 untuk tap target konsisten.
+- Warna & kontras konsisten dengan homepage: slate-800 untuk readability, blue-800 untuk active state, navy/blue-50/blue-100/slate-200 untuk palet dingin/bersih.
+- Hover state & micro-interaction smooth: transition-all duration-200, hover:-translate-y-0.5, shadow hover state di CTA & button.
+- Typography konsisten dengan lib/typography (heroTitle, sectionTitle, cardTitle, eyebrow).
+- Semua perubahan hanya styling, tidak ubah route/cache/tracking/sitemap.
+
 ## Status Repo / Live Terbaru — 2026-06-04
 
 Status terakhir yang sudah selesai:
