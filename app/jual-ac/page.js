@@ -376,6 +376,7 @@ export default function JualAcPage() {
               </p>
               <Link
                 href={routes.buktiPengirimanProyek}
+                prefetch={false}
                 className="mt-8 inline-flex rounded-full bg-white px-6 py-4 text-sm font-bold text-slate-950 transition hover:bg-slate-200"
               >
                 Lihat Bukti Pengiriman & Proyek
@@ -425,6 +426,7 @@ export default function JualAcPage() {
                       <Link
                         key={href}
                         href={href}
+                        prefetch={false}
                         className="rounded-full border border-slate-200 px-4 py-2 text-xs font-semibold text-slate-800 transition hover:border-blue-300 hover:bg-blue-50 hover:text-blue-800"
                       >
                         Jual AC {label}
@@ -459,6 +461,7 @@ export default function JualAcPage() {
             </WhatsappLink>
             <Link
               href={routes.kontak}
+              prefetch={false}
               className="inline-flex items-center justify-center rounded-full border border-slate-300 px-7 py-4 text-sm font-semibold text-slate-950 transition hover:bg-slate-50"
             >
               Lihat Kontak
