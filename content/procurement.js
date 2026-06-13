@@ -57,8 +57,10 @@ export const procurementItems = [
       ],
     ],
     relatedSegments: [
-      ["Pengadaan AC kantor & ruko", routes.pengadaanGedungKantorRuko],
-      ["Supplier AC proyek kontraktor", routes.pengadaanKontraktorDeveloper],
+      ["Hotel & Guest House", routes.pengadaanHotelGuestHouse],
+      ["Kontraktor & Developer", routes.pengadaanKontraktorDeveloper],
+      ["Gedung, Kantor & Ruko", routes.pengadaanGedungKantorRuko],
+      ["Cafe & Resto", routes.pengadaanCafeResto],
     ],
   },
   {
@@ -117,8 +119,10 @@ export const procurementItems = [
       ],
     ],
     relatedSegments: [
-      ["Supplier AC proyek kontraktor", routes.pengadaanKontraktorDeveloper],
-      ["Pengadaan AC kantor & ruko", routes.pengadaanGedungKantorRuko],
+      ["Kost & Apartemen", routes.pengadaanKostApartemen],
+      ["Kontraktor & Developer", routes.pengadaanKontraktorDeveloper],
+      ["Gedung, Kantor & Ruko", routes.pengadaanGedungKantorRuko],
+      ["Cafe & Resto", routes.pengadaanCafeResto],
     ],
   },
   {
@@ -181,8 +185,10 @@ export const procurementItems = [
       ],
     ],
     relatedSegments: [
-      ["Pengadaan AC kantor & gedung", routes.pengadaanGedungKantorRuko],
-      ["Supplier AC hotel & guest house", routes.pengadaanHotelGuestHouse],
+      ["Kost & Apartemen", routes.pengadaanKostApartemen],
+      ["Hotel & Guest House", routes.pengadaanHotelGuestHouse],
+      ["Gedung, Kantor & Ruko", routes.pengadaanGedungKantorRuko],
+      ["Cafe & Resto", routes.pengadaanCafeResto],
     ],
   },
   {
@@ -244,8 +250,10 @@ export const procurementItems = [
       ],
     ],
     relatedSegments: [
-      ["Supplier AC proyek kontraktor", routes.pengadaanKontraktorDeveloper],
-      ["Pengadaan AC cafe & resto", routes.pengadaanCafeResto],
+      ["Kost & Apartemen", routes.pengadaanKostApartemen],
+      ["Hotel & Guest House", routes.pengadaanHotelGuestHouse],
+      ["Kontraktor & Developer", routes.pengadaanKontraktorDeveloper],
+      ["Cafe & Resto", routes.pengadaanCafeResto],
     ],
   },
   {
@@ -306,8 +314,10 @@ export const procurementItems = [
       ],
     ],
     relatedSegments: [
-      ["Pengadaan AC kantor & ruko", routes.pengadaanGedungKantorRuko],
-      ["Supplier AC hotel & guest house", routes.pengadaanHotelGuestHouse],
+      ["Kost & Apartemen", routes.pengadaanKostApartemen],
+      ["Hotel & Guest House", routes.pengadaanHotelGuestHouse],
+      ["Kontraktor & Developer", routes.pengadaanKontraktorDeveloper],
+      ["Gedung, Kantor & Ruko", routes.pengadaanGedungKantorRuko],
     ],
   },
 
