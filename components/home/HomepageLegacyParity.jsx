@@ -519,13 +519,9 @@ function HomeCategory() {
   return (
     <section className="mx-auto max-w-7xl px-4 py-10">
       <div className="mb-6">
-        <SectionBadge>Kategori AC</SectionBadge>
-        <h2 className={`mt-4 ${typography.sectionTitle} text-blue-950`}>
-          AC buat apa? Kamar, toko, kantor, atau banyak unit punya hitungan beda
+        <h2 className={`mt-0 mb-6 ${typography.sectionTitle} text-blue-950`}>
+          AC untuk kebutuhan apa?
         </h2>
-        <p className="mt-3 max-w-2xl text-sm leading-7 text-slate-600 sm:text-base">
-          Kamar kost 3x3, ruang tamu 4x5, toko yang pintunya jarang tutup, kantor — semua butuh PK yang beda. Pilih kategori yang paling sesuai dulu, baru cocokkan dengan daya listrik dan kondisi ruangan.
-        </p>
       </div>
 
       <div className="grid grid-cols-2 gap-4">
@@ -534,18 +530,26 @@ function HomeCategory() {
             key={item.title}
             href={item.href}
             prefetch={false}
-            className="rounded-[1.5rem] border border-slate-200 bg-white p-4 text-center shadow-sm transition hover:-translate-y-0.5 hover:border-blue-200 hover:bg-blue-50 sm:p-6"
+            className="rounded-2xl border border-slate-200 bg-white p-5 shadow-sm transition hover:-translate-y-0.5 hover:border-blue-200 hover:bg-blue-50"
           >
-            <div className="mx-auto mb-4 flex h-12 w-12 items-center justify-center rounded-2xl border border-blue-100 bg-blue-50 text-xl font-bold text-blue-800 sm:h-14 sm:w-14">
+            <div className="mb-3 flex h-12 w-12 items-center justify-center rounded-2xl border border-blue-100 bg-blue-50 text-xl font-bold text-blue-800 sm:h-14 sm:w-14">
               {item.icon}
             </div>
             <h3 className={`mb-2 ${typography.cardTitle} text-blue-950`}>{item.title}</h3>
             <p className="text-xs leading-6 text-slate-600 sm:text-sm">{item.desc}</p>
-            <div className="mt-4 text-blue-700" aria-hidden="true">
-              →
-            </div>
+            <span className="mt-3 block text-[13px] font-semibold text-blue-700">Lihat →</span>
           </Link>
         ))}
+      </div>
+
+      <div className="mt-8 flex justify-center">
+        <WhatsappLink
+          className="inline-flex items-center justify-center rounded-full bg-[#25D366] px-7 py-4 text-sm font-bold text-slate-950 shadow-[0_12px_28px_rgba(37,211,102,0.20)] transition hover:-translate-y-0.5 hover:bg-[#20BA5A]"
+          source="Home Category"
+          intent="minta rekomendasi kategori AC yang sesuai ruangan"
+        >
+          Minta Rekomendasi AC
+        </WhatsappLink>
       </div>
     </section>
   );
