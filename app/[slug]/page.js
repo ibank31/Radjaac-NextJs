@@ -128,7 +128,7 @@ export default async function AreaPage({ params }) {
       <section className="relative overflow-hidden border-b border-blue-100 bg-[linear-gradient(180deg,#f8fdff_0%,#eefbff_100%)] px-4 pb-10 pt-12 sm:px-6 lg:px-8 lg:pb-16 lg:pt-20">
         <div className="grid items-center gap-10 lg:grid-cols-[1.04fr_0.96fr] lg:gap-16">
           <div>
-            <Link href={routes.jualAc} className="mb-5 inline-flex text-sm font-semibold text-blue-700 transition hover:text-slate-950">
+            <Link href={routes.jualAc} prefetch={false} className="mb-5 inline-flex text-sm font-semibold text-blue-700 transition hover:text-slate-950">
               ← Kembali ke Jual AC
             </Link>
             <div className="mb-5 inline-flex rounded-full border border-blue-100 bg-blue-50 px-4 py-2 text-sm text-blue-700">
@@ -148,7 +148,7 @@ export default async function AreaPage({ params }) {
               <a href="#estimasi-anggaran" className="inline-flex items-center justify-center rounded-full border border-slate-200 bg-white px-6 py-4 font-semibold text-slate-900 shadow-sm transition hover:bg-slate-50">
                 Lihat Estimasi Anggaran
               </a>
-              <Link href={routes.katalog} className="inline-flex items-center justify-center rounded-full border border-slate-200 bg-white px-6 py-4 font-semibold text-slate-900 shadow-sm transition hover:bg-slate-50">
+              <Link href={routes.katalog} prefetch={false} className="inline-flex items-center justify-center rounded-full border border-slate-200 bg-white px-6 py-4 font-semibold text-slate-900 shadow-sm transition hover:bg-slate-50">
                 Lihat Katalog AC
               </Link>
             </div>
@@ -331,7 +331,7 @@ export default async function AreaPage({ params }) {
                 Bukti aktivitas Radja AC dan pembayaran yang bisa dikonfirmasi dulu
               </h2>
               <p className="mb-5 text-sm leading-7 text-slate-600 sm:text-base">{paymentNote}</p>
-              <Link href={routes.buktiPengirimanProyek} className="inline-flex items-center justify-center rounded-full border border-slate-200 bg-slate-50 px-5 py-3 text-sm font-semibold text-slate-950 transition hover:bg-slate-100">
+              <Link href={routes.buktiPengirimanProyek} prefetch={false} className="inline-flex items-center justify-center rounded-full border border-slate-200 bg-slate-50 px-5 py-3 text-sm font-semibold text-slate-950 transition hover:bg-slate-100">
                 Lihat Bukti Pengiriman
               </Link>
             </div>
