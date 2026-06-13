@@ -8,27 +8,18 @@ const footerGroups = [
   {
     title: "Belanja AC",
     links: [
-      { label: "Jual AC", href: routes.jualAc },
       { label: "Katalog AC", href: routes.katalog },
       { label: "Kalkulator PK AC", href: routes.kalkulatorPkAc },
+      { label: "Pengadaan AC", href: routes.pengadaanAc },
       { label: "Kontak", href: routes.kontak },
     ],
   },
   {
-    title: "Proyek",
-    links: [
-      { label: "Pengadaan AC", href: routes.pengadaanAc },
-      { label: "Kost & Apartemen", href: routes.pengadaanKostApartemen },
-      { label: "Hotel & Guest House", href: routes.pengadaanHotelGuestHouse },
-      { label: "Kontraktor & Developer", href: routes.pengadaanKontraktorDeveloper },
-    ],
-  },
-  {
-    title: "Kepercayaan",
+    title: "Informasi",
     links: [
       { label: "Tentang Radja AC", href: routes.tentangKami },
       { label: "Bukti Pengiriman", href: routes.buktiPengirimanProyek },
-      { label: "Pengiriman & Pemasangan", href: routes.pengirimanPemasangan },
+      { label: "Pengiriman & Pasang", href: routes.pengirimanPemasangan },
       { label: "Artikel Panduan", href: routes.artikel },
     ],
   },
@@ -38,38 +29,9 @@ const footerGroups = [
       { label: "Jual AC Purwokerto", href: routes.jualAcPurwokerto },
       { label: "Jual AC Banyumas", href: routes.jualAcBanyumas },
       { label: "Jual AC Sokaraja", href: routes.jualAcSokaraja },
-      { label: "Jual AC Baturraden", href: routes.jualAcBaturraden },
-      { label: "Jual AC Karanglewas", href: routes.jualAcKaranglewas },
-      { label: "Jual AC Kembaran", href: routes.jualAcKembaran },
-      { label: "Jual AC Patikraja", href: routes.jualAcPatikraja },
-      { label: "Jual AC Rawalo", href: routes.jualAcRawalo },
       { label: "Jual AC Purbalingga", href: routes.jualAcPurbalingga },
       { label: "Jual AC Cilacap", href: routes.jualAcCilacap },
-      { label: "Jual AC Kebumen", href: routes.jualAcKebumen },
-      { label: "Jual AC Semarang", href: routes.jualAcSemarang },
-      { label: "Jual AC Solo", href: routes.jualAcSolo },
-      { label: "Jual AC Magelang", href: routes.jualAcMagelang },
-      { label: "Jual AC Pekalongan", href: routes.jualAcPekalongan },
-      { label: "Jual AC Salatiga", href: routes.jualAcSalatiga },
-    ],
-  },
-  {
-    title: "Kategori AC",
-    links: [
-      { label: "AC 0.5 PK", href: routes.katalogAcSetengahPk },
-      { label: "AC 1 PK", href: routes.katalogAcSatuPk },
-      { label: "AC 1.5 PK", href: routes.katalogAcSatuSetengahPk },
-      { label: "AC 2 PK", href: routes.katalogAcDuaPk },
-    ],
-  },
-  {
-    title: "Pengadaan",
-    links: [
-      { label: "Cafe & Resto", href: routes.pengadaanCafeResto },
-      { label: "Gedung Kantor", href: routes.pengadaanGedungKantorRuko },
-      { label: "Hotel", href: routes.pengadaanHotelGuestHouse },
-      { label: "Kost", href: routes.pengadaanKostApartemen },
-      { label: "Kontraktor", href: routes.pengadaanKontraktorDeveloper },
+      { label: "Semua Area →", href: routes.jualAc },
     ],
   },
 ];
@@ -108,10 +70,6 @@ export default function Footer() {
 
           <p className="mt-3 max-w-md text-sm leading-7 text-white/85">
             AC original untuk rumah, usaha, properti, dan proyek. Tim Radja AC cek PK, stok, pengiriman, pemasangan, dan kebutuhan banyak unit dari data ruangan yang dikirim.
-          </p>
-
-          <p className="mt-3 text-sm leading-7 text-white/75">
-            Showroom dan gudang berada di Sokaraja, Banyumas. Tim Radja AC cek stok aktif, area pengiriman, dan kondisi pemasangan sebelum memberi rincian pembelian.
           </p>
 
           <div className="mt-5 flex flex-wrap gap-2">
