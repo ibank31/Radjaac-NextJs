@@ -654,13 +654,6 @@ function HomeWhyChoose() {
 }
 
 function HomeClosingCta() {
-  const checklist = [
-    "Ukuran ruangan",
-    "Daya listrik",
-    "Lokasi pengiriman",
-    "Jumlah unit / kebutuhan proyek",
-  ];
-
   return (
     <section className="mx-auto max-w-7xl px-4 pb-14 pt-8">
       <div className="relative overflow-hidden rounded-[2rem] bg-[linear-gradient(135deg,#0e2a47_0%,#15395a_55%,#1f4f78_100%)] p-6 shadow-[0_30px_70px_rgba(14,42,71,0.30)] sm:p-8 lg:p-12">
@@ -674,12 +667,9 @@ function HomeClosingCta() {
             <h2 className={`mt-4 max-w-2xl text-balance ${typography.sectionTitle} text-white`}>
               Kirim data ruangan. <BrandName /> hitung PK dan jelaskan biaya totalnya.
             </h2>
-            <p className="mt-4 max-w-2xl text-sm leading-7 text-white/80 sm:text-base">
-              Kirim ukuran ruangan, daya listrik, lokasi kirim, jumlah unit, dan kebutuhan pasang ke <BrandName />. Setelah itu PK dihitung, stok dicek, lalu pilihan unit dan biaya lengkap dijelaskan.
-            </p>
           </div>
 
-          <div className="rounded-[1.5rem] border border-white/15 bg-white/5 p-5 backdrop-blur">
+          <div className="rounded-[1.5rem] border border-white/15 bg-white/5 p-5">
             <WhatsappLink
               className="inline-flex w-full items-center justify-center rounded-full bg-red-600 px-6 py-4 text-sm font-bold text-white shadow-lg shadow-red-600/20 transition hover:-translate-y-0.5 hover:bg-red-700"
               source="Homepage Closing CTA"
@@ -687,15 +677,9 @@ function HomeClosingCta() {
             >
               Cek Stok & Hitung PK
             </WhatsappLink>
-
-            <div className="mt-4 grid grid-cols-1 gap-2 sm:grid-cols-2">
-              {checklist.map((item) => (
-                <div key={item} className="flex items-center gap-2 rounded-2xl border border-white/15 bg-white/5 px-4 py-3 text-sm font-semibold text-white/90">
-                  <span className="flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-brand-red text-[10px] font-bold text-white" aria-hidden="true">✓</span>
-                  {item}
-                </div>
-              ))}
-            </div>
+            <p className="mt-3 text-center text-xs text-white/50">
+              Kirim ukuran ruangan · daya listrik · lokasi · jumlah unit
+            </p>
           </div>
         </div>
       </div>
