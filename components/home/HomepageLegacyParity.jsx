@@ -434,87 +434,6 @@ function HomePriceEstimate() {
   );
 }
 
-function HomePaymentTrust() {
-  return (
-    <section className="mx-auto max-w-7xl px-4 py-6">
-      <div className="rounded-[1.75rem] border border-slate-200 bg-white p-5 shadow-sm">
-        <div className="grid gap-4 md:grid-cols-3 md:items-center">
-          <div>
-            <p className={`${typography.eyebrow} text-blue-700`}>
-              Beli AC di Radja AC — Alurnya Simpel
-            </p>
-            <h2 className={`mt-2 ${typography.sectionTitle} text-blue-950`}>
-              Kirim data ruangan. PK dihitung, stok dicek, biaya pasang dijelaskan. Baru beli.
-            </h2>
-          </div>
-
-          <div className="md:col-span-2 grid gap-3 sm:grid-cols-3">
-            {["Hitung PK yang pas", "Cek stok dan pilih brand", "Konfirmasi kirim dan pasang"].map((item) => (
-              <div key={item} className="rounded-2xl bg-slate-50 p-4 text-sm font-bold text-slate-700">
-                {item}
-              </div>
-            ))}
-          </div>
-        </div>
-      </div>
-    </section>
-  );
-}
-
-function HomeSalesLanding() {
-  return (
-    <section className="mx-auto max-w-7xl px-4 py-10">
-      <div className="overflow-hidden rounded-[1.7rem] border border-blue-200 bg-blue-50 p-6 shadow-[0_22px_60px_rgba(15,39,66,0.08)] sm:p-8 lg:p-10">
-        <div className="grid gap-8 lg:grid-cols-[0.9fr_1.1fr] lg:items-center">
-          <div>
-            <SectionBadge>Jangan Salah Beli AC</SectionBadge>
-            <h2 className={`mt-4 ${typography.sectionTitle} text-blue-950`}>
-              Murah di awal bisa mahal di belakang kalau salah pilih
-            </h2>
-            <p className="mt-5 max-w-2xl text-sm leading-7 text-slate-600 sm:text-base">
-              Kebanyakan masalah beli AC bukan soal unitnya — tapi PK terlalu kecil buat ruangan, stok belum dikunci, ongkir belum dihitung, dan biaya pasang belum jelas. <BrandName /> jelaskan semua itu di awal, untuk beli satuan maupun banyak unit.
-            </p>
-
-            <div className="mt-6 flex flex-col gap-3 sm:flex-row sm:flex-wrap">
-              <WhatsappLink
-                className="inline-flex items-center justify-center rounded-full bg-red-600 px-6 py-4 font-bold text-white shadow-lg shadow-red-600/20 transition hover:-translate-y-0.5 hover:bg-red-700"
-                source="Home Sales Landing"
-                intent="minta rekomendasi AC sesuai ruangan dan anggaran"
-              >
-                Minta Pilihan AC
-              </WhatsappLink>
-              <ArrowLink
-                href={routes.katalog}
-                className="border border-blue-200 bg-white text-slate-900 hover:bg-blue-100"
-              >
-                Lihat Katalog AC
-              </ArrowLink>
-              <ArrowLink
-                href={routes.buktiPengirimanProyek}
-                className="border border-blue-200 bg-white text-blue-900 hover:bg-blue-100"
-              >
-                Lihat Bukti Pengiriman
-              </ArrowLink>
-            </div>
-          </div>
-
-          <div className="grid gap-4 md:grid-cols-3 lg:grid-cols-1">
-            {salesPoints.map((item) => (
-              <div key={item.title} className="rounded-[1.5rem] border border-blue-100 bg-white p-5 shadow-sm">
-                <div className="mb-3 flex h-10 w-10 items-center justify-center rounded-2xl bg-blue-50 text-sm font-bold text-blue-800">
-                  {item.icon}
-                </div>
-                <h3 className={`mb-2 ${typography.cardTitle} text-blue-950`}>{item.title}</h3>
-                <p className="text-sm leading-6 text-slate-600">{item.description}</p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </div>
-    </section>
-  );
-}
-
 function HomeCategory() {
   return (
     <section className="mx-auto max-w-7xl px-4 py-10">
@@ -550,6 +469,65 @@ function HomeCategory() {
         >
           Minta Rekomendasi AC
         </WhatsappLink>
+      </div>
+    </section>
+  );
+}
+
+function HomeProcess() {
+  const steps = [
+    {
+      number: "1",
+      title: "Kirim data ruangan",
+      desc: "Ukuran, daya listrik, lokasi, dan jumlah unit.",
+    },
+    {
+      number: "2",
+      title: "PK dihitung, stok dicek",
+      desc: "Tim Radja AC konfirmasi unit dan estimasi biaya pasang.",
+    },
+    {
+      number: "3",
+      title: "Jadwal kirim & pasang dikunci",
+      desc: "Bayar setelah semua detail jelas.",
+      highlight: true,
+    },
+  ];
+
+  return (
+    <section className="bg-surface-soft px-4 py-14">
+      <div className="mx-auto max-w-7xl">
+        <h2 className={`mb-10 text-center ${typography.sectionTitle} text-blue-950`}>
+          Cara beli AC di Radja AC
+        </h2>
+
+        <div className="grid gap-6 sm:grid-cols-3">
+          {steps.map((step) => (
+            <div key={step.number} className="flex flex-col items-center text-center">
+              <div
+                className={`mb-4 flex h-10 w-10 items-center justify-center rounded-full text-base font-bold ${
+                  step.highlight
+                    ? "bg-brand-red text-white"
+                    : "bg-blue-100 text-blue-800"
+                }`}
+              >
+                {step.number}
+              </div>
+              <h3 className={`mb-2 ${typography.cardTitle} text-blue-950`}>{step.title}</h3>
+              <p className="text-sm leading-6 text-slate-600">{step.desc}</p>
+            </div>
+          ))}
+        </div>
+
+        <div className="mt-10 flex justify-center">
+          <WhatsappLink
+            className="inline-flex items-center justify-center rounded-full bg-brand-red px-7 py-4 text-sm font-bold text-white shadow-[0_12px_28px_rgba(214,40,40,0.22)] transition hover:-translate-y-0.5 hover:bg-brand-red-dark"
+            source="Home Process"
+            intent="mulai konsultasi kebutuhan AC"
+          >
+            Mulai Konsultasi
+          </WhatsappLink>
+        </div>
       </div>
     </section>
   );
@@ -730,10 +708,8 @@ export default function HomepageLegacyParity() {
     <main id="main-content" className="bg-background text-navy">
       <HomeHero />
       <HomeTrust />
-      <HomePriceEstimate />
-      <HomePaymentTrust />
-      <HomeSalesLanding />
       <HomeCategory />
+      <HomeProcess />
       <HomeBrands />
       <HomeWhyChoose />
       <HomeClosingCta />
