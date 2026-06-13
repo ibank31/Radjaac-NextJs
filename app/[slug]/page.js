@@ -161,7 +161,7 @@ export default async function AreaPage({ params }) {
             <div className="text-center text-xs leading-6 text-slate-400 sm:text-sm lg:text-left">
               Area terkait: {relatedAreas.map((area, index) => (
                 <span key={area.path}>
-                  <Link href={area.path} className="font-semibold text-blue-700/80 hover:text-blue-700">{area.areaName}</Link>{index < relatedAreas.length - 1 ? <span>, </span> : null}
+                  <Link href={area.path} prefetch={false} className="font-semibold text-blue-700/80 hover:text-blue-700">{area.areaName}</Link>{index < relatedAreas.length - 1 ? <span>, </span> : null}
                 </span>
               ))}
             </div>
