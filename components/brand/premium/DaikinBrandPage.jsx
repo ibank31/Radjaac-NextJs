@@ -62,7 +62,7 @@ export default function DaikinBrandPage({ item, faqItems, structuredData }) {
 
             <div className="mb-4 flex flex-col gap-3 sm:flex-row sm:flex-wrap">
               <WhatsappLink
-                className="inline-flex items-center justify-center rounded-full bg-[#25D366] px-6 py-4 font-extrabold text-slate-950 shadow-[0_18px_42px_rgba(37,211,102,0.20)] transition hover:-translate-y-0.5 hover:bg-[#20BA5A]"
+                className="inline-flex items-center justify-center rounded-full bg-[#25D366] px-6 py-4 font-extrabold text-slate-950 shadow-[0_18px_42px_rgba(37,211,102,0.20)] transition-all duration-200 hover:-translate-y-0.5 hover:bg-[#20BA5A] hover:shadow-[0_22px_50px_rgba(37,211,102,0.26)]"
                 source="Brand Daikin - Hero"
                 intent={item.waIntent}
                 brand={item.waBrand}
@@ -71,11 +71,11 @@ export default function DaikinBrandPage({ item, faqItems, structuredData }) {
                 {hero.primaryCtaLabel}
               </WhatsappLink>
 
-              <a href={hero.secondaryCtaHref} className="inline-flex items-center justify-center rounded-full border border-slate-200 bg-white px-6 py-4 font-semibold text-slate-900 shadow-sm transition hover:bg-slate-50">
+              <a href={hero.secondaryCtaHref} className="inline-flex items-center justify-center rounded-full border border-slate-200 bg-white px-6 py-4 font-semibold text-slate-900 shadow-sm transition-all duration-200 hover:-translate-y-0.5 hover:border-slate-300 hover:bg-slate-50 hover:shadow">
                 {hero.secondaryCtaLabel}
               </a>
 
-              <Link href={routes.buktiPengirimanProyek} className="inline-flex items-center justify-center rounded-full border border-slate-200 bg-white px-6 py-4 font-semibold text-slate-900 shadow-sm transition hover:bg-slate-50">
+              <Link href={routes.buktiPengirimanProyek} className="inline-flex items-center justify-center rounded-full border border-slate-200 bg-white px-6 py-4 font-semibold text-slate-900 shadow-sm transition-all duration-200 hover:-translate-y-0.5 hover:border-slate-300 hover:bg-slate-50 hover:shadow">
                 Foto Showroom & Stok
               </Link>
             </div>
