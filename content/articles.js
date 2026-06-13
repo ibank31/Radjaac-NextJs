@@ -987,6 +987,241 @@ export const articleItems = [
       ["Kontak Radja AC", routes.kontak],
     ],
   },
+  {
+    slug: "biaya-servis-ac-vs-ganti-baru",
+    path: routes.artikelBiayaServisVsGantiBaru,
+    cluster: "troubleshooting",
+    role: "pillar",
+    intent: "commercial",
+    parentSlug: null,
+    updatedAt: "2026-06-13",
+    moneyLinks: [
+      ["Katalog AC", routes.katalog, "Cek pilihan unit baru setelah kamu tahu kapan waktunya ganti."],
+      ["Kalkulator PK AC", routes.kalkulatorPkAc, "Hitung PK yang tepat sebelum beli unit pengganti."],
+      ["Ganti AC Baru Purwokerto", routes.gantiAcBaruPurwokerto, "Solusi ganti AC lama ke unit baru di area Purwokerto dan sekitarnya."],
+      ["Pengiriman & Pemasangan", routes.pengirimanPemasangan, "Cek cakupan paket pasang sebelum order unit baru."],
+    ],
+    title: "Biaya Servis AC vs Ganti Baru: Kapan Harus Berhenti Servis?",
+    description:
+      "Servis AC terus-terusan tapi tidak dingin juga? Hitung kapan biaya servis sudah tidak masuk akal dan saatnya ganti unit baru yang lebih hemat listrik.",
+    h1: "Biaya servis AC vs ganti baru: kapan harus berhenti servis?",
+    eyebrow: "Evaluasi AC Lama",
+    readTime: "5 menit baca",
+    intro:
+      "Servis AC itu wajar. Tapi kalau kamu sudah servis dua kali dalam setahun dan AC tetap tidak dingin, ada yang perlu dihitung ulang. Bukan soal teknisinya — tapi soal apakah unit lama itu masih layak dipertahankan atau sudah saatnya diganti.",
+    sections: [
+      {
+        heading: "Hitung total biaya servis dalam setahun",
+        body: [
+          "Catat semua pengeluaran servis AC kamu dalam 12 bulan terakhir: cuci AC, isi freon, ganti kapasitor, perbaikan PCB, dan lain-lain. Kalau totalnya sudah menyentuh 30\u201340% dari harga unit baru, kamu sedang membuang uang ke unit yang tidak akan membaik.",
+          "Unit AC yang sudah berumur lebih dari 7\u201310 tahun biasanya masuk kategori ini. Komponen aus, efisiensi turun, dan biaya servis akan terus naik setiap tahunnya.",
+        ],
+      },
+      {
+        heading: "Tanda unit lama sudah tidak ekonomis dipertahankan",
+        body: [
+          "Ada beberapa tanda yang jelas: AC tidak dingin meski sudah diisi freon, tagihan listrik naik padahal pemakaian sama, suara kompresor kasar, air menetes dari indoor, atau unit sering mati sendiri. Satu tanda saja sudah cukup untuk mulai menghitung.",
+          "Yang paling sering diabaikan adalah tagihan listrik. AC lama yang kompressornya sudah aus bekerja lebih keras untuk hasil yang sama — dan itu langsung terasa di tagihan bulanan.",
+        ],
+      },
+      {
+        heading: "Berapa penghematan nyata kalau ganti ke unit baru?",
+        body: [
+          "AC inverter baru yang PK-nya sesuai ruangan bisa memangkas konsumsi listrik 30\u201350% dibanding unit lama yang sudah aus. Kalau tagihan listrik kamu sekarang Rp 300.000 per bulan hanya dari AC, penghematan Rp 100.000\u2013150.000 per bulan itu nyata.",
+          "Dalam 2\u20133 tahun, selisih tagihan listrik itu sudah menutup sebagian besar harga unit baru. Belum ditambah kamu tidak perlu keluar biaya servis lagi.",
+        ],
+      },
+      {
+        heading: "Kapan servis masih masuk akal?",
+        body: [
+          "Servis masih masuk akal kalau unit baru berumur di bawah 3 tahun, masalahnya jelas dan terisolasi (misalnya filter kotor atau selang mampet), dan biaya servis jauh di bawah 20% harga unit baru.",
+          "Di luar kondisi itu, terutama kalau unit sudah tua dan masalah datang silih berganti, ganti baru adalah keputusan yang lebih sehat secara finansial.",
+        ],
+      },
+      {
+        heading: "Langkah sebelum beli unit pengganti",
+        body: [
+          "Jangan langsung beli unit yang sama dengan yang lama. Ukur ruangan dulu, cek daya listrik, dan tentukan apakah kamu butuh standard, low watt, atau inverter. PK yang salah akan mengulang masalah yang sama.",
+          "Kirim ukuran ruangan, daya listrik, dan kondisi unit lama ke tim Radja AC — tim bantu rekomendasikan unit pengganti yang sesuai dan tidak bikin kamu menyesal dua tahun lagi.",
+        ],
+      },
+    ],
+    faqs: [
+      {
+        question: "Berapa kali servis AC dalam setahun masih wajar?",
+        answer:
+          "Cuci AC rutin 3\u20136 bulan sekali itu normal. Tapi kalau dalam setahun kamu sudah isi freon lebih dari sekali atau ganti komponen dua kali, itu tanda unit sudah tidak efisien dan perlu dievaluasi.",
+      },
+      {
+        question: "AC saya baru 4 tahun tapi sudah sering bermasalah, ganti atau servis?",
+        answer:
+          "Unit 4 tahun yang sering bermasalah biasanya karena instalasi awal yang kurang tepat atau PK yang tidak sesuai ruangan sehingga unit bekerja terlalu keras. Cek dulu akar masalahnya sebelum memutuskan. Kirim kondisi unit dan ukuran ruangan ke tim Radja AC untuk evaluasi.",
+      },
+      {
+        question: "Apakah ganti AC baru otomatis lebih hemat listrik?",
+        answer:
+          "Ya, asalkan PK-nya sesuai ruangan dan kamu pilih tipe inverter untuk pemakaian rutin. Unit baru dengan komponen segar bekerja lebih efisien dibanding unit lama yang kompressornya sudah aus.",
+      },
+    ],
+    ctaLabel: "Konsultasi Ganti AC Baru",
+    waIntent: "konsultasi evaluasi AC lama dan pertimbangan ganti unit baru",
+    relatedLinks: [
+      ["Ganti AC Baru Purwokerto", routes.gantiAcBaruPurwokerto],
+      ["Kalkulator PK AC", routes.kalkulatorPkAc],
+      ["AC Inverter", routes.katalogAcInverter],
+      ["AC Low Watt", routes.katalogAcLowWatt],
+      ["Kontak Radja AC", routes.kontak],
+    ],
+  },
+  {
+    slug: "tanda-ac-harus-ganti-unit",
+    path: routes.artikelTandaAcHarusGantiUnit,
+    cluster: "troubleshooting",
+    role: "supporting",
+    intent: "commercial",
+    parentSlug: "biaya-servis-ac-vs-ganti-baru",
+    updatedAt: "2026-06-13",
+    moneyLinks: [
+      ["Ganti AC Baru Purwokerto", routes.gantiAcBaruPurwokerto, "Solusi ganti AC lama ke unit baru di area Purwokerto dan sekitarnya."],
+      ["Katalog AC", routes.katalog, "Cek pilihan unit baru setelah kamu tahu kapan waktunya ganti."],
+      ["Kalkulator PK AC", routes.kalkulatorPkAc, "Hitung PK yang tepat untuk unit pengganti."],
+      ["Kontak Radja AC", routes.kontak, "Kirim kondisi unit lama dan ukuran ruangan untuk evaluasi."],
+    ],
+    title: "5 Tanda AC Harus Ganti Unit, Bukan Servis Lagi",
+    description:
+      "AC mati sendiri, bunyi kasar, atau tidak dingin meski sudah diisi freon? Kenali 5 tanda AC sudah waktunya diganti, bukan dirawat terus.",
+    h1: "5 tanda AC harus ganti unit, bukan servis lagi",
+    eyebrow: "Evaluasi AC Lama",
+    readTime: "4 menit baca",
+    intro:
+      "Banyak orang terus servis AC yang sebenarnya sudah tidak layak dipertahankan. Bukan karena tidak mau ganti, tapi karena tidak tahu kapan batas wajarnya. Ini 5 tanda yang jelas bahwa AC kamu sudah waktunya diganti.",
+    sections: [
+      {
+        heading: "1. Sudah diisi freon tapi tetap tidak dingin",
+        body: [
+          "Freon habis itu gejala, bukan penyebab. Kalau AC sudah diisi freon tapi dalam 1\u20132 bulan tidak dingin lagi, ada kebocoran yang tidak ketemu atau komponen lain yang sudah aus. Isi freon terus-terusan bukan solusi — itu hanya menunda pengeluaran yang lebih besar.",
+        ],
+      },
+      {
+        heading: "2. Tagihan listrik naik tanpa perubahan pemakaian",
+        body: [
+          "Ini tanda paling sering diabaikan. Kalau tagihan listrik naik 20\u201340% padahal pemakaian AC sama seperti biasanya, kompressor unit sudah bekerja tidak efisien. Unit baru dengan PK yang sesuai akan langsung terasa bedanya di tagihan bulan pertama.",
+        ],
+      },
+      {
+        heading: "3. Suara kompresor kasar atau unit sering mati sendiri",
+        body: [
+          "Suara kasar dari outdoor biasanya tanda bearing atau kompressor sudah aus. Unit yang sering mati sendiri bisa karena proteksi termal aktif karena kompressor kepanasan. Dua kondisi ini biaya perbaikannya bisa mendekati atau melebihi harga unit baru.",
+        ],
+      },
+      {
+        heading: "4. Unit sudah lebih dari 10 tahun",
+        body: [
+          "Umur teknis AC split umumnya 10\u201315 tahun dengan perawatan rutin. Di atas 10 tahun, efisiensi turun dan spare part mulai sulit dicari. Kalau unit kamu sudah di rentang ini dan mulai bermasalah, ganti baru adalah keputusan yang lebih masuk akal daripada terus menambal.",
+        ],
+      },
+      {
+        heading: "5. Biaya servis dalam setahun sudah di atas 30% harga unit baru",
+        body: [
+          "Hitung semua pengeluaran servis dalam 12 bulan terakhir. Kalau totalnya sudah menyentuh sepertiga harga unit baru, kamu sedang membuang uang ke unit yang tidak akan membaik. Lebih baik uang itu dipakai untuk DP unit baru yang efisien.",
+        ],
+      },
+      {
+        heading: "Langkah setelah memutuskan ganti",
+        body: [
+          "Jangan beli unit yang sama dengan yang lama. Ukur ruangan, cek daya listrik, dan tentukan tipe yang sesuai pola pemakaian. Kirim data itu ke tim Radja AC — tim bantu rekomendasikan unit pengganti yang tepat PK dan tidak mengulang masalah yang sama.",
+        ],
+      },
+    ],
+    ctaLabel: "Konsultasi Ganti AC Baru",
+    waIntent: "konsultasi tanda AC harus ganti unit dan rekomendasi unit pengganti",
+    relatedLinks: [
+      ["Biaya Servis vs Ganti Baru", routes.artikelBiayaServisVsGantiBaru],
+      ["Ganti AC Baru Purwokerto", routes.gantiAcBaruPurwokerto],
+      ["Kalkulator PK AC", routes.kalkulatorPkAc],
+      ["AC Inverter", routes.katalogAcInverter],
+      ["Kontak Radja AC", routes.kontak],
+    ],
+  },
+  {
+    slug: "ac-boros-listrik-ganti-inverter",
+    path: routes.artikelAcBorosListrikGantiInverter,
+    cluster: "comparison",
+    role: "supporting",
+    intent: "commercial",
+    parentSlug: "ac-inverter-vs-low-watt",
+    updatedAt: "2026-06-13",
+    moneyLinks: [
+      ["AC Inverter", routes.katalogAcInverter, "Cek pilihan AC inverter untuk pemakaian rutin yang lebih hemat."],
+      ["AC Low Watt", routes.katalogAcLowWatt, "Cek AC low watt untuk rumah dengan daya listrik terbatas."],
+      ["Kalkulator PK AC", routes.kalkulatorPkAc, "Hitung PK yang tepat sebelum beli unit pengganti."],
+      ["Kontak Radja AC", routes.kontak, "Kirim tagihan listrik dan ukuran ruangan untuk rekomendasi unit."],
+    ],
+    title: "AC Boros Listrik Tiap Bulan? Hitung Untung Ganti ke Inverter",
+    description:
+      "Tagihan listrik naik terus gara-gara AC lama? Hitung selisih konsumsi AC lama vs inverter baru dan kapan titik balik investasinya tercapai.",
+    h1: "AC boros listrik tiap bulan? hitung untung ganti ke inverter",
+    eyebrow: "Hemat Listrik AC",
+    readTime: "5 menit baca",
+    intro:
+      "Kalau tagihan listrik kamu naik dan AC adalah tersangka utamanya, ada dua kemungkinan: PK tidak sesuai ruangan, atau unit sudah tua dan tidak efisien. Dua-duanya punya solusi yang sama — ganti ke unit baru yang tepat. Yang perlu dihitung adalah seberapa cepat investasinya balik.",
+    sections: [
+      {
+        heading: "Kenapa AC lama bisa tiba-tiba boros?",
+        body: [
+          "AC yang sudah berumur 5 tahun ke atas mulai kehilangan efisiensi. Kompressor bekerja lebih keras untuk hasil yang sama, freon bisa berkurang perlahan, dan filter yang jarang dibersihkan membuat aliran udara terhambat. Semua itu berujung ke konsumsi listrik yang lebih tinggi.",
+          "Selain itu, kalau PK unit tidak sesuai ukuran ruangan, AC akan terus bekerja tanpa pernah mencapai suhu target — dan itu artinya listrik jalan terus tanpa ruangan benar-benar dingin.",
+        ],
+      },
+      {
+        heading: "Berapa selisih konsumsi AC lama vs inverter baru?",
+        body: [
+          "AC non-inverter lama yang sudah aus bisa mengonsumsi 900\u20131.200 watt per jam untuk kapasitas 1 PK. AC inverter baru dengan kapasitas sama, saat suhu sudah stabil, bisa turun ke 300\u2013500 watt per jam. Kalau AC menyala 8 jam per hari, selisihnya bisa 3\u20136 kWh per hari.",
+          "Dengan tarif listrik rumah tangga sekitar Rp 1.500 per kWh, selisih itu setara Rp 4.500\u20139.000 per hari, atau Rp 135.000\u2013270.000 per bulan. Dalam setahun, penghematan itu bisa mencapai Rp 1,6\u20133,2 juta.",
+        ],
+      },
+      {
+        heading: "Kapan titik balik investasi unit baru tercapai?",
+        body: [
+          "Kalau penghematan listrik Rp 200.000 per bulan dan harga unit inverter baru (termasuk pasang) sekitar Rp 4\u20135 juta, titik balik investasinya sekitar 20\u201325 bulan. Kurang dari 2 tahun, dan setelah itu kamu murni hemat.",
+          "Belum ditambah kamu tidak perlu keluar biaya servis lagi, dan unit baru punya garansi resmi brand yang melindungi 2\u20135 tahun ke depan.",
+        ],
+      },
+      {
+        heading: "PK yang tepat sama pentingnya dengan tipe inverter",
+        body: [
+          "Ganti ke inverter tapi PK-nya salah tidak akan menyelesaikan masalah. AC inverter 1/2 PK di ruangan 20 m\u00b2 tetap akan bekerja keras dan boros. Ukur ruangan dulu, cek kondisi panas, dan tentukan PK yang sesuai sebelum memilih unit.",
+          "Kirim ukuran ruangan, daya listrik, dan estimasi tagihan listrik sekarang ke tim Radja AC — tim bantu hitung unit inverter mana yang paling masuk akal untuk kondisi kamu.",
+        ],
+      },
+    ],
+    faqs: [
+      {
+        question: "AC inverter baru pasti lebih hemat dari AC lama saya?",
+        answer:
+          "Ya, asalkan PK-nya sesuai ruangan. AC inverter baru dengan komponen segar bekerja jauh lebih efisien dibanding unit lama yang kompressornya sudah aus. Penghematan paling terasa untuk pemakaian 6\u20138 jam per hari.",
+      },
+      {
+        question: "Kalau daya listrik saya 900 watt, bisa pakai inverter?",
+        answer:
+          "Bisa, tapi pilih inverter low watt atau unit dengan tarikan daya awal yang rendah. Beberapa unit inverter 1/2 PK dirancang untuk daya terbatas. Kirim daya listrik dan ukuran ruangan untuk cek pilihan yang aman.",
+      },
+      {
+        question: "Berapa lama AC inverter baru bisa balik modal dari penghematan listrik?",
+        answer:
+          "Rata-rata 18\u201330 bulan tergantung selisih konsumsi unit lama vs baru dan tarif listrik kamu. Semakin sering AC dipakai dan semakin boros unit lama, semakin cepat titik baliknya.",
+      },
+    ],
+    ctaLabel: "Konsultasi Ganti ke AC Inverter",
+    waIntent: "konsultasi AC boros listrik dan rekomendasi unit inverter pengganti",
+    relatedLinks: [
+      ["AC Inverter", routes.katalogAcInverter],
+      ["AC Low Watt", routes.katalogAcLowWatt],
+      ["Kalkulator PK AC", routes.kalkulatorPkAc],
+      ["Biaya Servis vs Ganti Baru", routes.artikelBiayaServisVsGantiBaru],
+      ["Kontak Radja AC", routes.kontak],
+    ],
+  },
 ];
 
 export function getArticleItem(slug) {

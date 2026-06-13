@@ -23,10 +23,10 @@ export const cilacapAreas = [
         ["Rumah tinggal", "Pengiriman unit per kecamatan lalu pemasangan, dengan pilihan unit untuk cuaca lembap."],
       ],
       label: "Jual AC Cilacap",
-      title: "Jual AC Cilacap | Cek Stok, PK & Pemasangan — Radja AC",
+      title: "Jual AC Cilacap | Industri, Pesisir & Pengadaan Proyek — Radja AC",
       description:
-        "Butuh AC untuk rumah, toko, kantor, proyek, atau banyak unit di Cilacap? Radja AC bantu cek PK, stok, pengiriman, opsi pemasangan, dan pembayaran fleksibel.",
-      h1: "Jual AC Cilacap untuk rumah, toko, kantor, usaha, dan banyak unit",
+        "Beli AC untuk rumah, kantor, proyek industri, atau banyak unit di Cilacap? Radja AC cek PK, stok, pengiriman, dan opsi pemasangan via WhatsApp.",
+      h1: "Jual AC Cilacap — rumah, kantor, proyek industri, dan pengadaan banyak unit",
       eyebrow: "Layanan AC Area Cilacap",
       intro:
         "Butuh AC di Cilacap untuk rumah, toko, kantor, usaha, proyek, pengadaan, atau banyak unit? Tim Radja AC membantu cek kebutuhan PK, daya listrik, pilihan brand, stok unit, pengiriman, dan opsi pemasangan berdasarkan kecamatan serta kebutuhan unit.",
@@ -71,15 +71,16 @@ export const cilacapAreas = [
       keywordVariants: [
         "jual AC Cilacap",
         "toko AC Cilacap",
-        "AC Cilacap",
-        "cek stok AC Cilacap",
-        "konsultasi PK AC Cilacap",
-        "pengiriman AC Cilacap",
-        "opsi pemasangan AC Cilacap",
-        "AC rumah Cilacap",
-        "AC toko Cilacap",
+        "beli AC Cilacap",
         "AC kantor Cilacap",
+        "AC proyek industri Cilacap",
+        "pengadaan AC pabrik Cilacap",
+        "AC pesisir tahan korosi Cilacap",
+        "AC rumah Cilacap",
+        "pasang AC Cilacap",
+        "ganti AC lama Cilacap",
         "AC banyak unit Cilacap",
+        "pengiriman AC Cilacap",
       ],
       nearbyAreaLinks: [
         ["Kroya", routes.jualAcKroya],
@@ -109,6 +110,14 @@ export const cilacapAreas = [
         [
           "AC rumah atau ruko di Cilacap supaya cepat dingin di cuaca panas pesisir?",
           "Kapasitas dihitung dari luas, paparan panas, dan jumlah orang agar dingin merata. Sebutkan ukuran ruangan dan daya listrik untuk cek unit dan stok.",
+        ],
+        [
+          "AC lama di rumah atau kantor Cilacap sudah tidak dingin padahal sudah sering dirawat, ganti atau servis lagi?",
+          "Kalau unit sudah tua, sering kurang dingin, dan biaya servis terus keluar — apalagi di udara pesisir yang mempercepat kerusakan komponen — ganti baru lebih hemat. Kirim kondisi unit lama dan ukuran ruangan, tim Radja AC bantu hitung mana yang lebih masuk akal.",
+        ],
+        [
+          "AC boros listrik di Cilacap, solusinya apa?",
+          "AC lama yang boros biasanya karena kapasitas PK tidak sesuai ruangan atau komponen sudah aus. Ganti ke unit inverter baru yang sesuai PK jauh lebih hemat tagihan bulanan. Kirim ukuran ruangan dan daya listrik untuk rekomendasi unit.",
         ],
       ],
     },

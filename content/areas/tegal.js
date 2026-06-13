@@ -23,10 +23,10 @@ export const tegalAreas = [
         ["Kos pekerja & rumah", "AC kos dan rumah dengan pilihan low watt; unit dikirim ke alamat Tegal atau Slawi lalu dipasang."],
       ],
       label: "Jual AC Tegal",
-      title: "Jual AC Tegal & Slawi | Cek Stok & Pengiriman — Radja AC",
+      title: "Jual AC Tegal & Slawi | Workshop, Pantura & Pengadaan Proyek — Radja AC",
       description:
-        "Butuh AC untuk rumah, toko, kantor, proyek, atau banyak unit di Tegal dan Slawi? Radja AC bantu cek PK, stok, pengiriman, dan opsi pemasangan.",
-      h1: "Jual AC Tegal dan Slawi untuk rumah, toko, kantor, usaha, proyek, dan banyak unit",
+        "Beli AC untuk rumah, workshop logam, ruko Pantura, kos pekerja, atau pengadaan proyek di Tegal dan Slawi? Radja AC cek PK, stok, dan jadwal pasang via WhatsApp.",
+      h1: "Jual AC Tegal dan Slawi — workshop, ruko Pantura, kos pekerja, dan pengadaan proyek",
       eyebrow: "Layanan AC Area Tegal & Slawi",
       intro:
         "Butuh AC di Tegal atau Slawi untuk rumah, toko, kantor, ruko, usaha, proyek, pengadaan, atau banyak unit? Tim Radja AC membantu cek kebutuhan PK, daya listrik, pilihan brand, stok unit, pengiriman, dan opsi pemasangan berdasarkan area serta kebutuhan.",
@@ -69,16 +69,16 @@ export const tegalAreas = [
       keywordVariants: [
         "jual AC Tegal",
         "toko AC Tegal",
-        "AC Tegal",
+        "beli AC Tegal",
         "AC Slawi",
-        "cek stok AC Tegal",
-        "konsultasi PK AC Tegal",
+        "AC workshop logam Tegal",
+        "AC ruko Pantura Tegal",
+        "AC kos pekerja Tegal",
+        "pengadaan AC kantor Tegal",
+        "pasang AC Tegal",
+        "ganti AC lama Tegal",
+        "AC boros listrik Tegal",
         "pengiriman AC Tegal",
-        "opsi pemasangan AC Tegal",
-        "AC rumah Tegal",
-        "AC toko Tegal",
-        "AC kantor Tegal",
-        "AC proyek dan pengadaan Tegal",
       ],
       nearbyAreaLinks: [
         ["Kebumen", routes.jualAcKebumen],
@@ -108,6 +108,14 @@ export const tegalAreas = [
         [
           "AC kos pekerja di Tegal, hemat listrik?",
           "Untuk banyak kamar, low watt tipe seragam menjaga daya dan memudahkan perawatan. Sebutkan jumlah kamar dan daya listrik untuk cek pilihan unit.",
+        ],
+        [
+          "AC lama di workshop atau kantor Tegal sudah tidak dingin, ganti atau servis?",
+          "Kalau unit sudah sering bermasalah dan biaya servis terus keluar, ganti baru lebih hemat. Workshop dan kantor yang AC-nya tidak optimal bikin produktivitas turun. Kirim kondisi unit lama dan ukuran ruangan — tim Radja AC bantu hitung mana yang lebih masuk akal.",
+        ],
+        [
+          "AC boros listrik di rumah atau toko Tegal, solusinya apa?",
+          "AC lama yang boros biasanya karena PK tidak sesuai ruangan atau komponen sudah aus. Ganti ke unit inverter baru yang sesuai PK bisa memangkas tagihan listrik bulanan secara signifikan. Kirim ukuran ruangan dan daya listrik untuk rekomendasi unit.",
         ],
       ],
     },
