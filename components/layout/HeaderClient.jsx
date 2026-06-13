@@ -39,7 +39,6 @@ const navItems = [
   { label: "Pengadaan", href: routes.pengadaanAc },
   { label: "Gallery", href: routes.buktiPengirimanProyek, exact: true },
   { label: "Artikel", href: routes.artikel },
-  { label: "Tentang Kami", href: routes.tentangKami },
 ];
 
 function isPathActive(pathname, href, exact = false) {
