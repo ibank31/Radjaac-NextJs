@@ -554,6 +554,65 @@ function HomeWhyChoose() {
   );
 }
 
+function HomeArticles() {
+  const articles = [
+    {
+      title: "Panduan Beli AC Baru",
+      excerpt: "Cek ukuran ruangan, daya listrik, PK, tipe AC, brand, garansi, stok, dan estimasi anggaran agar pilihan unit lebih masuk akal.",
+      readTime: "6 menit baca",
+      href: routes.artikelPanduanBeliAcBaru,
+    },
+    {
+      title: "AC 1 PK untuk Ruangan Berapa?",
+      excerpt: "Panduan memilih AC 1 PK untuk kamar dan ruang keluarga. Cek ukuran ruangan, BTU, kondisi panas, daya listrik, dan kapan perlu naik atau turun kapasitas.",
+      readTime: "6 menit baca",
+      href: routes.artikelAcSatuPkUntukRuanganBerapa,
+    },
+    {
+      title: "AC Inverter vs Low Watt",
+      excerpt: "Bingung pilih AC inverter atau low watt? Pahami beda fungsi, cocok untuk siapa, risiko salah pilih, dan kapan sebaiknya cek PK dulu sebelum beli.",
+      readTime: "7 menit baca",
+      href: routes.artikelAcInverterVsLowWatt,
+    },
+  ];
+
+  return (
+    <section className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8 lg:py-12">
+      <div className="mb-8 text-center">
+        <span className={`inline-flex rounded-full border border-blue-100 bg-blue-50 px-4 py-2 ${typography.eyebrow} text-blue-700`}>
+          PANDUAN & TIPS
+        </span>
+        <h2 className={`mt-4 ${typography.sectionTitle} text-slate-950`}>
+          Baca dulu sebelum beli AC
+        </h2>
+        <p className="mx-auto mt-3 max-w-2xl text-sm leading-7 text-slate-600">
+          Panduan singkat agar tidak salah pilih PK, tipe AC, dan brand sebelum memutuskan beli.
+        </p>
+      </div>
+
+      <div className="grid gap-5 md:grid-cols-3">
+        {articles.map((article) => (
+          <div key={article.href} className="rounded-[1.45rem] border border-slate-200 bg-white p-6">
+            <h3 className={`mb-3 ${typography.cardTitle} text-slate-950`}>{article.title}</h3>
+            <p className="mb-4 text-sm leading-6 text-slate-600">{article.excerpt}</p>
+            <div className="mb-4 flex items-center gap-2 text-xs text-slate-500">
+              <span>📖</span>
+              <span>{article.readTime}</span>
+            </div>
+            <Link
+              href={article.href}
+              prefetch={false}
+              className="inline-flex items-center gap-2 text-sm font-bold text-blue-700 transition hover:text-blue-900"
+            >
+              Baca Panduan →
+            </Link>
+          </div>
+        ))}
+      </div>
+    </section>
+  );
+}
+
 function HomeClosingCta() {
   return (
     <section className="mx-auto max-w-7xl px-4 pb-14 pt-8">
@@ -597,6 +656,7 @@ export default function HomepageLegacyParity() {
       <HomeProcess />
       <HomeBrands />
       <HomeWhyChoose />
+      <HomeArticles />
       <HomeClosingCta />
     </main>
   );

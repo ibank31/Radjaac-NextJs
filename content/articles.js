@@ -75,7 +75,7 @@ export const articleItems = [
     cluster: "brand-evaluation",
     role: "pillar",
     intent: "commercial",
-    parentSlug: null,
+      parentSlug: null,
     updatedAt: "2026-06-01",
     moneyLinks: [
       ["Jual AC Purwokerto", routes.jualAcPurwokerto, "Pusat konsultasi beli AC, cek brand, stok, harga, dan rekomendasi PK."],
@@ -114,6 +114,14 @@ export const articleItems = [
           "Jika Sharp BEY belum cocok dengan kebutuhan ruangan atau stok, tim Radja AC bisa membantu cek alternatif AC Sharp lain atau brand lain berdasarkan anggaran, daya listrik, dan penggunaan harian.",
         ],
       },
+    ],
+    ctaLabel: "Chat WhatsApp untuk cek AC Sharp BEY",
+    waIntent: "konsultasi AC Sharp BEY dan ketersediaan stok",
+    relatedLinks: [
+      ["Jual AC Purwokerto", routes.jualAcPurwokerto],
+      ["Kalkulator PK AC", routes.kalkulatorPkAc],
+      ["AC Split Rumah", routes.katalogAcSplitRumah],
+      ["Kontak Radja AC", routes.kontak],
     ],
   },
 
