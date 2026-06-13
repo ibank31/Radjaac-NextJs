@@ -143,11 +143,11 @@ function MobileNavItem({ item, pathname, onNavigate, index }) {
           </span>
         </summary>
 
-        <div className="grid gap-1 border-t border-blue-50 bg-white p-2">
+        <div className="grid gap-2 border-t border-blue-50 bg-white p-3 pb-2">
           {isKatalog ? (
             <>
               {/* Kategori AC group */}
-              <div className="px-3 pt-2 pb-1">
+              <div className="px-3 pt-1 pb-1">
                 <span className="text-[10px] font-bold uppercase tracking-[0.08em] text-slate-400">
                   Kategori AC
                 </span>
@@ -159,7 +159,7 @@ function MobileNavItem({ item, pathname, onNavigate, index }) {
                     key={subItem.href}
                     href={subItem.href}
                     className={[
-                      "rounded-xl px-3 py-2 text-sm font-medium transition",
+                      "rounded-xl px-3 py-2.5 text-sm font-medium transition",
                       subActive
                         ? "bg-blue-50 text-blue-800 ring-1 ring-blue-100"
                         : "text-slate-600 hover:bg-blue-50 hover:text-blue-800",
@@ -170,7 +170,7 @@ function MobileNavItem({ item, pathname, onNavigate, index }) {
                   </Link>
                 );
               })}
-              <div className="mx-3 my-1 border-t border-slate-100" />
+              <div className="mx-3 my-1.5 border-t border-slate-100" />
               {/* Panduan group */}
               <div className="px-3 pt-1 pb-1">
                 <span className="text-[10px] font-bold uppercase tracking-[0.08em] text-slate-400">
@@ -184,7 +184,7 @@ function MobileNavItem({ item, pathname, onNavigate, index }) {
                     key={subItem.href}
                     href={subItem.href}
                     className={[
-                      "rounded-xl px-3 py-2 text-sm font-medium transition",
+                      "rounded-xl px-3 py-2.5 text-sm font-medium transition",
                       subActive
                         ? "bg-blue-50 text-blue-800 ring-1 ring-blue-100"
                         : "text-slate-600 hover:bg-blue-50 hover:text-blue-800",
@@ -205,7 +205,7 @@ function MobileNavItem({ item, pathname, onNavigate, index }) {
                   key={subItem.href}
                   href={subItem.href}
                   className={[
-                    "rounded-xl px-3 py-2 text-sm font-medium transition",
+                    "rounded-xl px-3 py-2.5 text-sm font-medium transition",
                     subActive
                       ? "bg-blue-50 text-blue-800 ring-1 ring-blue-100"
                       : "text-slate-600 hover:bg-blue-50 hover:text-blue-800",
