@@ -159,7 +159,7 @@ function MobileNavItem({ item, pathname, onNavigate, index }) {
                     key={subItem.href}
                     href={subItem.href}
                     className={[
-                      "rounded-xl px-3 py-2.5 text-sm font-medium transition",
+                      "rounded-xl px-3 py-3 text-sm font-medium transition",
                       subActive
                         ? "bg-blue-50 text-blue-800 ring-1 ring-blue-100"
                         : "text-slate-600 hover:bg-blue-50 hover:text-blue-800",
