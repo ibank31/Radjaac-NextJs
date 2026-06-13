@@ -25,22 +25,30 @@ export const banyumasAreas = [
       localFaq: [
         [
           "Berapa unit AC untuk kos banyak kamar dekat UNSOED?",
-          "Tergantung jumlah kamar dan daya listrik total bangunan. Kirim jumlah kamar dan daya agar tim bantu cek pilihan unit hemat daya dengan tipe seragam.",
+          "Tergantung jumlah kamar dan daya listrik total bangunan. Kirim jumlah kamar dan daya — tim Radja AC langsung cek pilihan unit hemat daya dengan tipe seragam biar perawatannya gampang.",
         ],
         [
           "AC untuk hotel, guest house, atau kantor di pusat kota Purwokerto?",
-          "Bisa. Kirim jumlah ruang atau kamar, ukuran, jam pemakaian, dan preferensi brand agar tim menyiapkan kapasitas dan pilihan untuk ruang publik.",
+          "Bisa. Kirim jumlah ruang atau kamar, ukuran, jam pemakaian, dan preferensi brand — tim siapkan kapasitas dan pilihan untuk ruang publik yang dipakai seharian.",
         ],
         [
           "AC untuk toko atau ruko di pusat perdagangan Purwokerto?",
-          "Ditentukan dari luas, jumlah pengunjung, dan pintu yang sering terbuka. Kirim ukuran ruang usaha untuk perkiraan PK.",
+          "Ditentukan dari luas, jumlah pengunjung, dan pintu yang sering terbuka. Kirim ukuran ruang usaha untuk perkiraan PK yang pas.",
+        ],
+        [
+          "AC lama di rumah atau kost Purwokerto sudah tidak dingin, ganti atau servis?",
+          "Kalau unit sudah lebih dari 5 tahun, sering kurang dingin, dan listrik terasa boros — lebih hemat ganti baru. Biaya servis berulang bisa melebihi harga unit baru dalam setahun. Kirim kondisi unit lama dan ukuran ruangan, tim bantu hitung mana yang lebih masuk akal.",
+        ],
+        [
+          "Harga pasang AC di Purwokerto berapa?",
+          "Tergantung panjang pipa, posisi outdoor, dan kondisi lokasi. Kirim foto titik indoor dan outdoor — tim Radja AC kasih estimasi biaya pasang yang jelas sebelum kamu putuskan.",
         ],
       ],
       label: "Jual AC Purwokerto",
-      title: "Jual AC Purwokerto | Cek Stok, PK & Opsi Pemasangan — Radja AC",
+      title: "Jual AC Purwokerto | Showroom Ready Stok, Cek PK & Pasang Hari Ini",
       description:
-        "Butuh AC Purwokerto untuk rumah, kost, toko, kantor, hotel, guest house, atau banyak unit? Radja AC bantu cek PK, stok, pengiriman, dan opsi pemasangan.",
-      h1: "Jual AC Purwokerto dengan cek stok, PK, dan opsi pemasangan",
+        "Beli AC di Purwokerto untuk rumah, kost UNSOED, toko, kantor, atau banyak unit? Radja AC cek PK, stok, harga, dan jadwal pasang langsung via WhatsApp.",
+      h1: "Jual AC Purwokerto — stok dicek hari ini, pasang bisa dijadwalkan",
       eyebrow: "Area Utama Purwokerto",
       intro:
         "Butuh beli AC di Purwokerto untuk rumah, kost, toko, kantor, hotel, guest house, hospitality, atau banyak unit? Mulai dari cek ukuran ruangan, daya listrik, pilihan brand, stok unit, pengiriman, dan opsi pemasangan sebelum pembelian.",
@@ -82,10 +90,13 @@ export const banyumasAreas = [
         "beli AC Purwokerto",
         "dealer AC Purwokerto",
         "AC rumah Purwokerto",
-        "AC kost Purwokerto",
+        "AC kost UNSOED Purwokerto",
         "AC toko Purwokerto",
-        "pengiriman AC Purwokerto",
-        "pemasangan AC Purwokerto",
+        "pasang AC Purwokerto",
+        "ganti AC lama Purwokerto",
+        "AC inverter hemat listrik Purwokerto",
+        "AC low watt 900 watt Purwokerto",
+        "harga pasang AC Purwokerto",
       ],
       nearbyAreaLinks: [
         ["Banyumas", routes.jualAcBanyumas],
@@ -323,10 +334,10 @@ export const banyumasAreas = [
           ["Kantor desa & ruang layanan", "Pemilihan unit untuk ruang kerja kecil dengan pengiriman ke alamat Jatilawang."],
         ],
         label: "Jual AC Jatilawang",
-        title: "Jual AC Jatilawang untuk Rumah, Toko & Usaha — Radja AC",
+        title: "Jual AC Jatilawang | Low Watt 900W, Rumah & UMKM — Radja AC",
         description:
-          "Butuh AC untuk rumah, toko, ruko, kantor, atau usaha di Jatilawang? Radja AC bantu cek PK, stok, pengiriman, opsi pemasangan, dan pembayaran fleksibel.",
-        h1: "Jual AC Jatilawang untuk Rumah, Toko & Usaha",
+          "Beli AC low watt untuk rumah, UMKM, atau toko di Jatilawang? Radja AC cek PK, stok, pengiriman ke desa, dan opsi pemasangan via WhatsApp.",
+        h1: "Jual AC Jatilawang — low watt untuk rumah, UMKM, dan toko desa",
         eyebrow: "Area Banyumas",
         intro:
           "Butuh AC di Jatilawang untuk rumah, toko, ruko, kantor, ruang usaha, atau beberapa unit? Tim Radja AC bantu cek kebutuhan PK, daya listrik, stok brand, pengiriman, dan opsi pemasangan dari data awal.",
@@ -335,12 +346,15 @@ export const banyumasAreas = [
         coverageNote:
           "Showroom dan gudang Radja AC berada di Banyumas. Kebutuhan AC area Jatilawang dilayani dengan konsultasi PK, cek stok unit, pengiriman, serta opsi pemasangan sesuai alamat, jumlah unit, dan jadwal.",
         keywordVariants: [
+          "jual AC Jatilawang",
+          "AC low watt Jatilawang",
+          "AC 900 watt Jatilawang",
           "AC rumah Jatilawang",
-          "AC toko dan ruko Jatilawang",
-          "AC kantor kecil Jatilawang",
-          "AC usaha Jatilawang",
-          "Banyak unit area Jatilawang",
-          "Cek PK AC Jatilawang",
+          "AC UMKM Jatilawang",
+          "AC toko Jatilawang",
+          "pasang AC Jatilawang",
+          "pengiriman AC Jatilawang",
+          "ganti AC lama Jatilawang",
         ],
         nearbyAreaLinks: [
           ["Jual AC Banyumas", routes.jualAcBanyumas],
@@ -371,6 +385,10 @@ export const banyumasAreas = [
           [
             "Pembayaran AC di Jatilawang bisa COD atau transfer?",
             "Bisa. Banyak pembeli ambil DP dulu lalu pelunasan COD saat unit datang, atau transfer setelah stok dipastikan.",
+          ],
+          [
+            "AC lama di rumah atau UMKM Jatilawang sudah boros listrik, ganti atau servis?",
+            "Kalau unit sudah tua dan tagihan listrik naik terus, ganti ke AC low watt baru jauh lebih hemat. Kirim daya listrik rumah dan ukuran ruangan — tim Radja AC bantu pilih unit yang pas dan tidak bikin MCB turun.",
           ],
         ],
         commonNeeds: [
@@ -521,10 +539,10 @@ export const banyumasAreas = [
           ["Rumah tinggal", "Pemasangan AC kamar dengan pengiriman unit ke alamat di Ajibarang dan sekitarnya."],
         ],
         label: "Jual AC Ajibarang",
-        title: "Jual AC Ajibarang untuk Rumah, Toko & Usaha — Radja AC",
+        title: "Jual AC Ajibarang | Pasar, RSUD & Jalur Bumiayu — Radja AC",
         description:
-          "Butuh AC untuk rumah, toko, ruko, kantor, atau usaha di Ajibarang? Radja AC cek kebutuhan PK, stok, pengiriman unit, dan opsi pemasangan via WhatsApp.",
-        h1: "Jual AC Ajibarang untuk Rumah, Toko & Usaha",
+          "Beli AC untuk rumah, ruko Pasar Ajibarang, klinik, kantor, atau area Pekuncen–Gumelar–Bumiayu? Radja AC cek PK, stok, dan jadwal pasang via WhatsApp.",
+        h1: "Jual AC Ajibarang — rumah, ruko, klinik, dan area jalur Bumiayu",
         eyebrow: "Area Banyumas Barat",
         intro:
           "Butuh AC di Ajibarang untuk rumah, toko, ruko, kantor, atau usaha? Tim Radja AC cek ukuran ruangan, daya listrik, pilihan brand, stok unit, pengiriman, dan opsi pemasangan sebelum pembelian.",
@@ -561,10 +579,15 @@ export const banyumasAreas = [
           "jual AC Ajibarang",
           "toko AC Ajibarang",
           "beli AC Ajibarang",
+          "AC ruko Pasar Ajibarang",
+          "AC klinik Ajibarang",
+          "AC RSUD Ajibarang",
+          "pasang AC Ajibarang",
+          "AC Pekuncen",
+          "AC Gumelar",
+          "AC Bumiayu dari Ajibarang",
           "pengiriman AC Ajibarang",
-          "pemasangan AC Ajibarang",
-          "AC untuk rumah dan toko Ajibarang",
-          "AC ruko Ajibarang",
+          "ganti AC lama Ajibarang",
         ],
         nearbyAreaLinks: [
           ["Purwokerto", routes.jualAcPurwokerto],
@@ -588,7 +611,11 @@ export const banyumasAreas = [
           ],
           [
             "Melayani pengiriman dan pemasangan AC ke arah Pekuncen, Gumelar, atau Bumiayu dari Ajibarang?",
-            "Pengiriman unit bisa diantar ke alamat di sekitar jalur Ajibarang–Bumiayu lalu pemasangan dijadwalkan sesuai akses lokasi. Sebutkan alamat dan jumlah unit untuk perkiraan.",
+            "Ya. Unit dikirim ke alamat di jalur Ajibarang–Bumiayu lalu pemasangan dijadwalkan sesuai akses lokasi. Sebutkan alamat dan jumlah unit untuk perkiraan.",
+          ],
+          [
+            "AC lama di toko atau rumah Ajibarang sudah tidak dingin, ganti atau servis dulu?",
+            "Kalau unit sudah sering bermasalah dan biaya servis terus keluar, ganti baru lebih hemat jangka panjang. Kirim kondisi unit lama dan ukuran ruangan — tim Radja AC bantu hitung mana yang lebih masuk akal.",
           ],
         ],
       },

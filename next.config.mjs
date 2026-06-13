@@ -110,7 +110,20 @@ const legacyRedirects = [
 
 const nextConfig = {
   async redirects() {
-    return legacyRedirects;
+    return [
+      {
+        source: "/:path*",
+        destination: "https://www.radjaac.com/:path*",
+        permanent: true,
+        has: [
+          {
+            type: "host",
+            value: "radjaac.com",
+          },
+        ],
+      },
+      ...legacyRedirects,
+    ];
   },
 };
 

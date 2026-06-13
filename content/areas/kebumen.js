@@ -23,10 +23,10 @@ export const kebumenAreas = [
         ["Rumah tinggal", "Pemasangan AC kamar dengan unit dikirim ke alamat di Kebumen dan sekitarnya."],
       ],
       label: "Jual AC Kebumen",
-      title: "Jual AC Kebumen | Cek Stok, PK & Pemasangan — Radja AC",
+      title: "Jual AC Kebumen | Kost, Properti Sewa & Toko Pusat Kota — Radja AC",
       description:
-        "Butuh AC untuk rumah, kost, kontrakan, toko, ruko, kantor, atau usaha di Kebumen? Radja AC bantu cek PK, stok, pengiriman, dan opsi pemasangan.",
-      h1: "Jual AC Kebumen untuk rumah, kost, kontrakan, properti sewa, toko, ruko, dan kantor",
+        "Beli AC untuk kost, kontrakan, rumah, toko, atau ruko di Kebumen? Kamar ber-AC lebih cepat terisi. Radja AC cek PK, stok, dan jadwal pasang via WhatsApp.",
+      h1: "Jual AC Kebumen — kost, properti sewa, rumah, dan toko pusat kota",
       eyebrow: "Layanan AC Area Kebumen",
       intro:
         "Butuh AC di Kebumen untuk rumah, kamar, kost, kontrakan, properti sewa, toko, ruko, kantor, atau usaha harian? Tim Radja AC membantu cek kebutuhan PK, daya listrik, pilihan brand, stok unit, pengiriman, dan opsi pemasangan sebelum pembelian.",
@@ -71,15 +71,16 @@ export const kebumenAreas = [
       keywordVariants: [
         "jual AC Kebumen",
         "toko AC Kebumen",
-        "AC Kebumen",
-        "cek stok AC Kebumen",
-        "konsultasi PK AC Kebumen",
-        "pengiriman AC Kebumen",
-        "opsi pemasangan AC Kebumen",
-        "AC rumah Kebumen",
+        "beli AC Kebumen",
         "AC kost Kebumen",
+        "AC properti sewa Kebumen",
+        "AC low watt Kebumen",
         "AC toko Kebumen",
-        "AC kantor Kebumen",
+        "pasang AC Kebumen",
+        "ganti AC lama Kebumen",
+        "AC boros listrik Kebumen",
+        "pengiriman AC Kebumen",
+        "AC kontrakan Kebumen",
       ],
       nearbyAreaLinks: [
         ["Cilacap", routes.jualAcCilacap],
@@ -108,6 +109,14 @@ export const kebumenAreas = [
         [
           "Pembayaran AC di Kebumen bisa DP atau transfer?",
           "Bisa. Banyak pembeli ambil DP dulu lalu pelunasan transfer atau COD saat unit datang dan stok dipastikan.",
+        ],
+        [
+          "AC lama di kost atau rumah Kebumen sudah tidak dingin, ganti atau servis?",
+          "Kalau unit sudah sering kurang dingin dan biaya servis terus keluar, ganti baru lebih hemat. Kamar kost yang AC-nya optimal juga lebih cepat terisi dan bisa dinaikkan harga sewanya. Kirim kondisi unit lama dan ukuran ruangan — tim Radja AC bantu hitung mana yang lebih masuk akal.",
+        ],
+        [
+          "AC boros listrik di kost atau rumah Kebumen, solusinya apa?",
+          "AC lama yang boros biasanya karena PK tidak sesuai ruangan atau komponen sudah aus. Ganti ke unit low watt atau inverter baru yang sesuai PK bisa memangkas tagihan listrik bulanan. Kirim ukuran ruangan dan daya listrik untuk rekomendasi unit.",
         ],
       ],
     },

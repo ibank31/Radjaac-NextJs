@@ -25,8 +25,9 @@ const guideStats = [
 ];
 
 export default function ArtikelPage() {
-  const featuredArticle = articleItems[0];
-  const otherArticles = articleItems.slice(1);
+  const reversedArticles = [...articleItems].reverse();
+  const featuredArticle = reversedArticles[0];
+  const otherArticles = reversedArticles.slice(1);
 
   return (
     <main id="main-content" className="min-h-screen bg-[#f4f8fb] text-slate-950">
@@ -60,7 +61,7 @@ export default function ArtikelPage() {
               </Link>
               <Link
                 href={routes.katalog}
-                className="inline-flex items-center justify-center rounded-full border border-white/20 bg-white px-6 py-4 font-semibold text-slate-950 shadow-sm transition hover:-translate-y-0.5 hover:bg-blue-50"
+                className="inline-flex items-center justify-center rounded-full border border-white/30 bg-white/20 px-6 py-4 font-semibold text-white backdrop-blur transition hover:-translate-y-0.5 hover:bg-white/30"
               >
                 Lihat Katalog AC
               </Link>
@@ -133,10 +134,18 @@ export default function ArtikelPage() {
               </div>
             </div>
           </Link>
+          <div className="mt-8 flex justify-center">
+            <a
+              href="#semua-artikel"
+              className="inline-flex items-center justify-center rounded-full border border-slate-300 bg-slate-50 px-6 py-3 font-semibold text-slate-950 shadow-sm transition hover:-translate-y-0.5 hover:border-blue-300 hover:bg-blue-50"
+            >
+              Lihat Semua Artikel →
+            </a>
+          </div>
         </section>
       ) : null}
 
-      <section className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8 lg:py-12">
+      <section id="semua-artikel" className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8 lg:py-12">
         <div className="mb-8 max-w-3xl">
           <p className={`mb-3 ${typography.eyebrow} text-blue-700`}>Semua Artikel</p>
           <h2 className={`${typography.sectionTitle} text-slate-950`}>Pilih panduan sesuai masalah pembelian AC</h2>
