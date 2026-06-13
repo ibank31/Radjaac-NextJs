@@ -69,38 +69,6 @@ const pricePackages = [
   },
 ];
 
-const packageIncludes = [
-  "Unit AC",
-  "Instalasi standar",
-  "Pipa 2 meter",
-  "Kabel 5 meter",
-  "Bracket 1 set",
-  "Duct tape",
-  "Selang pembuangan",
-  "Vacuum AC",
-];
-
-const salesPoints = [
-  {
-    title: "Stok dan tipe unit dicek duluan",
-    description:
-      "Sebelum bayar, Radja AC cek dulu apakah unitnya tersedia. Bukan janjikan stok yang belum pasti.",
-    icon: "✓",
-  },
-  {
-    title: "PK salah, ruangan tidak dingin",
-    description:
-      "Kamar 3x3 dan toko yang pintunya sering buka punya hitungan PK berbeda. Salah pilih — AC kerja keras, tagihan listrik naik, ruangan tetap gerah.",
-    icon: "PK",
-  },
-  {
-    title: "Biaya pemasangan tergantung kondisi lokasi",
-    description:
-      "Panjang pipa, posisi outdoor, akses lokasi, dan material tambahan ikut menentukan biaya akhir. Radja AC jelaskan ini sebelum jadwal pasang dikunci.",
-    icon: "Rp",
-  },
-];
-
 const mainBrands = [
   {
     name: "Daikin",
@@ -364,73 +332,6 @@ function HomeTrust() {
         </div>
       </section>
     </div>
-  );
-}
-
-function HomePriceEstimate() {
-  return (
-    <section className="mx-auto max-w-7xl px-4 py-10">
-      <div className="overflow-hidden rounded-[1.7rem] border border-blue-100 bg-white p-5 shadow-[0_22px_60px_rgba(15,39,66,0.08)] sm:p-8">
-        <div className="mb-7 grid gap-5 lg:grid-cols-[0.9fr_1.1fr] lg:items-end">
-          <div>
-            <SectionBadge>Estimasi Budget</SectionBadge>
-            <h2 className={`mt-4 ${typography.sectionTitle} text-blue-950`}>
-              Kisaran harga AC + pasang di Banyumas
-            </h2>
-          </div>
-          <p className="text-sm leading-7 text-slate-600 sm:text-base">
-            Harga akhir mengikuti merek, PK, kondisi lokasi, dan panjang pipa. Kisaran ini membantu pembeli menyiapkan budget sebelum chat.
-          </p>
-        </div>
-
-        <div className="grid gap-4 md:grid-cols-3">
-          {pricePackages.map((item) => (
-            <div
-              key={item.range}
-              className="rounded-[1.6rem] border border-slate-200 bg-slate-50 p-5 text-center transition hover:-translate-y-0.5 hover:bg-white hover:shadow-lg"
-            >
-              <div className="mx-auto mb-4 flex h-11 w-11 items-center justify-center rounded-2xl border border-blue-100 bg-blue-50 font-bold text-blue-700">
-                ✓
-              </div>
-              <h3 className={`mb-3 ${typography.cardTitle} text-blue-950`}>{item.range}</h3>
-              <p className="rounded-2xl border border-blue-100 bg-white px-4 py-4 text-sm font-semibold leading-7 text-slate-700">
-                {item.brands}
-              </p>
-            </div>
-          ))}
-        </div>
-
-        <div className="mt-6 rounded-[1.5rem] border border-blue-100 bg-blue-50 p-5">
-          <p className={`mb-4 ${typography.eyebrow} text-slate-500`}>
-            Paket standar sudah termasuk:
-          </p>
-          <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
-            {packageIncludes.map((item) => (
-              <div key={item} className="flex items-center gap-2 text-sm font-semibold text-slate-700">
-                <span className="flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-blue-600 text-xs font-bold text-white">
-                  ✓
-                </span>
-                {item}
-              </div>
-            ))}
-          </div>
-        </div>
-
-        <div className="mt-6 rounded-[1.4rem] border border-blue-200 bg-blue-50 px-4 py-4 text-sm leading-7 text-blue-900">
-          <strong>Catatan:</strong> Harga dapat berubah mengikuti merek, PK, promo aktif, panjang pipa, posisi outdoor, dan kondisi lokasi pasang. Detail biaya dijelaskan sebelum jadwal pasang dikunci.
-        </div>
-
-        <div className="mt-6 flex justify-center">
-          <WhatsappLink
-            className="inline-flex w-full items-center justify-center rounded-full bg-red-600 px-6 py-4 text-sm font-bold text-white shadow-lg shadow-red-600/20 transition hover:-translate-y-0.5 hover:bg-red-700 sm:w-auto"
-            source="Home Price Estimate"
-            intent="cek estimasi anggaran AC dan pemasangan"
-          >
-            Hitung Budget dari Ukuran Ruangan
-          </WhatsappLink>
-        </div>
-      </div>
-    </section>
   );
 }
 
