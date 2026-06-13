@@ -380,6 +380,26 @@ export default async function CatalogDetailPage({ params }) {
           </WhatsappLink>
         </div>
       </section>
+      {/* Artikel relevan */}
+      {slug === "ac-1-pk" && (
+        <section className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8 lg:py-12">
+          <h2 className={`mb-6 ${typography.sectionTitle} text-slate-950`}>Panduan Terkait</h2>
+          <Link href={routes.artikelAcSatuPkUntukRuanganBerapa} prefetch={false} className="rounded-[1.45rem] border border-slate-200 bg-white p-6 transition hover:-translate-y-1">
+            <h3 className={`mb-2 ${typography.cardTitle} text-slate-950`}>AC 1 PK untuk Ruangan Berapa?</h3>
+            <p className="text-sm text-slate-600">Panduan memilih AC 1 PK untuk kamar dan ruang keluarga.</p>
+          </Link>
+        </section>
+      )}
+
+      {(slug === "ac-low-watt" || slug === "ac-inverter") && (
+        <section className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8 lg:py-12">
+          <h2 className={`mb-6 ${typography.sectionTitle} text-slate-950`}>Panduan Terkait</h2>
+          <Link href={routes.artikelAcInverterVsLowWatt} prefetch={false} className="rounded-[1.45rem] border border-slate-200 bg-white p-6 transition hover:-translate-y-1">
+            <h3 className={`mb-2 ${typography.cardTitle} text-slate-950`}>AC Inverter vs Low Watt</h3>
+            <p className="text-sm text-slate-600">Pahami beda fungsi dan kapan memilih tipe mana.</p>
+          </Link>
+        </section>
+      )}
     </main>
   );
 }
