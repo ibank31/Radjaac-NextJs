@@ -143,11 +143,11 @@ function MobileNavItem({ item, pathname, onNavigate, index }) {
           </span>
         </summary>
 
-        <div className="grid gap-2 border-t border-blue-50 bg-white p-3 pb-3">
+        <div className="grid gap-2.5 border-t border-blue-50 bg-white p-3 pb-3">
           {isKatalog ? (
             <>
               {/* Kategori AC group */}
-              <div className="px-3 pt-2 pb-1.5">
+              <div className="px-3 pt-1.5 pb-1">
                 <span className="text-[10px] font-bold uppercase tracking-[0.08em] text-slate-400">
                   Kategori AC
                 </span>
@@ -170,9 +170,9 @@ function MobileNavItem({ item, pathname, onNavigate, index }) {
                   </Link>
                 );
               })}
-              <div className="mx-3 my-2 border-t border-slate-100" />
+              <div className="mx-3 my-1.5 border-t border-slate-100" />
               {/* Panduan group */}
-              <div className="px-3 pt-2 pb-1.5">
+              <div className="px-3 pt-1.5 pb-1">
                 <span className="text-[10px] font-bold uppercase tracking-[0.08em] text-slate-400">
                   Panduan
                 </span>
@@ -369,7 +369,7 @@ export default function HeaderClient() {
               role="navigation"
               aria-label="Mobile navigation"
             >
-              <nav className="flex flex-col gap-3">
+              <nav className="flex flex-col gap-4">
                 {navItems.map((item, index) => (
                   <div
                     key={item.label}
