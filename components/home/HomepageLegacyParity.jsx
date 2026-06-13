@@ -289,6 +289,80 @@ function HomeTrust() {
           </div>
         ))}
       </div>
+
+      <section className="mx-auto max-w-7xl px-4 py-10">
+        <div className="overflow-hidden rounded-[1.7rem] border border-blue-200 bg-[linear-gradient(135deg,#fffaf2_0%,#ffffff_58%,#eef7ff_100%)] p-6 shadow-[0_24px_70px_rgba(15,39,66,0.08)] sm:p-8">
+          <div className="grid gap-7 lg:grid-cols-[0.7fr_1.3fr] lg:items-center">
+            <div>
+              <div className="mb-5 flex h-14 w-14 items-center justify-center rounded-2xl border border-blue-200 bg-white text-2xl text-blue-700 shadow-sm">
+                ✓
+              </div>
+              <p className={`mb-2 ${typography.eyebrow} text-blue-800`}>
+                PROSHOP GREE
+              </p>
+              <h3 className={`${typography.cardTitle} text-blue-950`}>
+                <BrandName /> terdaftar resmi sebagai Proshop Gree Purwokerto
+              </h3>
+            </div>
+
+            <div className="border-t border-blue-200 pt-6 lg:border-l lg:border-t-0 lg:pl-8 lg:pt-0">
+              <p className="text-sm leading-7 text-slate-700 sm:text-base">
+                Ini bukan toko online tanpa bukti fisik. <BrandName /> punya showroom, gudang, stok fisik, dan pembeli dapat datang melihat unit. Untuk Gree, <BrandName /> terdaftar sebagai <strong className="font-bold text-brand-red">Proshop Gree Radja AC Purwokerto</strong>. Stok, tipe, harga, jadwal kirim, dan biaya pasang dijelaskan di awal agar transaksi jelas.
+              </p>
+
+              <ArrowLink
+                href={routes.brandGree}
+                className="mt-5 border border-blue-300 bg-white text-blue-900 shadow-sm hover:bg-blue-50"
+              >
+                Lihat AC Gree
+              </ArrowLink>
+            </div>
+          </div>
+        </div>
+
+        <div className="mt-8 border-y border-slate-200 bg-white/80 py-8">
+          <div className="grid gap-7 lg:grid-cols-[0.8fr_1.2fr] lg:items-start">
+            <div>
+              <div className="mb-4 flex h-13 w-13 items-center justify-center rounded-2xl border border-blue-100 bg-blue-50 text-2xl font-extrabold text-[#1565C0]">
+                ✓
+              </div>
+
+              <p className={`mb-3 ${typography.eyebrow} text-[#1565C0]`}>
+                Sertifikat Resmi
+              </p>
+              <h3 className={`mb-3 ${typography.cardTitle} text-blue-950`}>
+                Beli AC harus jelas asal-usulnya, garansinya, dan dokumennya
+              </h3>
+            </div>
+
+            <div className="grid grid-cols-2 gap-x-4 gap-y-7 sm:grid-cols-4">
+              {certificates.map((item) => (
+                <figure key={item.brand} className="text-center">
+                  <div className="rounded-[18px] border border-slate-200 bg-white p-2 shadow-[0_14px_34px_rgba(15,39,66,0.08)]">
+                    <Image
+                      src={item.image}
+                      alt={`Sertifikat Authorized Dealer ${item.brand} Radja AC`}
+                      width={260}
+                      height={180}
+                      sizes="(min-width: 1024px) 220px, 50vw"
+                      className="h-[96px] w-full rounded-[12px] object-contain object-center sm:h-[112px]"
+                    />
+                  </div>
+                  <figcaption className="mt-3 text-center">
+                    <span className="inline-flex items-center justify-center gap-1.5 text-sm font-bold text-blue-950 sm:text-base">
+                      <span className="text-[#1565C0]" aria-hidden="true">✓</span>
+                      {item.brand}
+                    </span>
+                    <span className="mt-1 block text-xs font-semibold text-slate-500">
+                      {item.status}
+                    </span>
+                  </figcaption>
+                </figure>
+              ))}
+            </div>
+          </div>
+        </div>
+      </section>
     </div>
   );
 }
