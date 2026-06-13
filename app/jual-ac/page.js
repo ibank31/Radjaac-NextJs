@@ -205,6 +205,7 @@ export default function JualAcPage() {
               <Link
                 key={href}
                 href={href}
+                prefetch={false}
                 className="group rounded-3xl border border-slate-200 bg-white p-6 shadow-sm transition hover:-translate-y-1 hover:border-blue-300 hover:shadow-xl"
               >
                 <p className="text-base font-bold text-slate-950 sm:text-lg">{label}</p>
@@ -250,6 +251,7 @@ export default function JualAcPage() {
           <div className="mt-8 flex flex-col gap-3 sm:flex-row">
             <Link
               href={routes.katalogAcSetengahPk}
+              prefetch={false}
               className="inline-flex items-center justify-center rounded-full bg-slate-950 px-6 py-4 text-sm font-semibold text-white transition hover:bg-slate-800"
             >
               Lihat Detail AC 1/2 PK
@@ -287,6 +289,7 @@ export default function JualAcPage() {
               <Link
                 key={href}
                 href={href}
+                prefetch={false}
                 className="rounded-3xl border border-slate-200 bg-white p-6 shadow-sm transition hover:-translate-y-1 hover:shadow-xl"
               >
                 <p className="text-lg font-bold text-slate-950 sm:text-xl">AC {label}</p>
