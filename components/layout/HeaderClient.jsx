@@ -143,7 +143,7 @@ function MobileNavItem({ item, pathname, onNavigate, index }) {
           </span>
         </summary>
 
-        <div className="grid gap-2 border-t border-blue-50 bg-white p-3 pb-2">
+        <div className="grid gap-2 border-t border-blue-50 bg-white p-3 pb-3">
           {isKatalog ? (
             <>
               {/* Kategori AC group */}
@@ -170,7 +170,7 @@ function MobileNavItem({ item, pathname, onNavigate, index }) {
                   </Link>
                 );
               })}
-              <div className="mx-3 my-1.5 border-t border-slate-100" />
+              <div className="mx-3 my-2 border-t border-slate-100" />
               {/* Panduan group */}
               <div className="px-3 pt-1 pb-1">
                 <span className="text-[10px] font-bold uppercase tracking-[0.08em] text-slate-400">
@@ -363,13 +363,13 @@ export default function HeaderClient() {
           {isMobileOpen && (
             <div
               id="mobile-menu-panel"
-              className={`mobile-menu-panel absolute right-0 top-12 z-50 max-h-[calc(100vh-6rem)] w-[min(88vw,360px)] overflow-y-auto rounded-[1.6rem] border border-blue-100 bg-white/95 p-3 shadow-[0_24px_70px_rgba(15,23,42,0.16)] backdrop-blur-xl ${
+              className={`mobile-menu-panel absolute right-0 top-12 z-50 max-h-[calc(100vh-6rem)] w-[min(88vw,360px)] overflow-y-auto rounded-[1.6rem] border border-blue-100 bg-white/95 p-4 shadow-[0_24px_70px_rgba(15,23,42,0.16)] backdrop-blur-xl ${
                 isAnimating ? "closing" : "open"
               }`}
               role="navigation"
               aria-label="Mobile navigation"
             >
-              <nav className="flex flex-col gap-2">
+              <nav className="flex flex-col gap-3">
                 {navItems.map((item, index) => (
                   <div
                     key={item.label}
