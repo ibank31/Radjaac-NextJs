@@ -247,25 +247,7 @@ function HomeHero() {
             >
               Lihat Katalog AC
             </ArrowLink>
-
-            <ArrowLink
-              href={routes.pengadaanAc}
-              className="border border-brand-blue/30 bg-brand-blue-tint text-navy hover:bg-brand-blue/15"
-            >
-              Pengadaan Banyak Unit
-            </ArrowLink>
-
-            <ArrowLink
-              href={routes.jualAc}
-              className="border border-blue-200 bg-white text-blue-900 hover:bg-blue-50"
-            >
-              Area Jual AC
-            </ArrowLink>
           </div>
-
-          <p className="mt-5 max-w-2xl text-sm leading-7 text-slate-500">
-            Kirim ukuran ruangan, daya listrik, lokasi, jumlah unit, dan budget. <BrandName /> hitung PK, cek stok, lalu jelaskan biaya kirim dan pasang.
-          </p>
         </div>
 
         <div className="relative hidden sm:block">
