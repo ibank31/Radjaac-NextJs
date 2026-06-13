@@ -98,6 +98,7 @@ function DesktopDropdown({ item, pathname }) {
                 <Link
                   key={subItem.href}
                   href={subItem.href}
+                  prefetch={false}
                   className={dropdownItemClass(subActive)}
                 >
                   {subItem.label}
