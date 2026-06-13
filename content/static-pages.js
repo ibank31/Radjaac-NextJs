@@ -32,9 +32,9 @@ export const staticPageMetadata = {
   },
 
   pengadaanAc: {
-    title: "Supplier AC Banyak Unit | Pengadaan AC Proyek, Hotel & Kost — Radja AC",
+    title: "Distributor AC Banyak Unit | Pengadaan AC Proyek, Hotel, Kost & Kantor — Radja AC",
     description:
-      "Supplier AC banyak unit dari gudang Radja AC di Sokaraja, Banyumas. Stok AC banyak unit, pengiriman AC banyak unit pakai armada sendiri, dan pemasangan bergaransi untuk pengadaan AC proyek, hotel, kost, kantor, ruko, dan cafe.",
+      "Distributor dan supplier AC banyak unit dari gudang Radja AC di Sokaraja, Banyumas. Authorized Dealer Daikin, Midea, Hisense, dan Sansui. Stok banyak unit, pengiriman pakai armada sendiri, dan pemasangan bergaransi untuk pengadaan AC proyek, hotel, kost, kantor, ruko, dan cafe.",
     path: routes.pengadaanAc,
   },
 

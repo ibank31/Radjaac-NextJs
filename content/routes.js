@@ -151,12 +151,12 @@ export const sitemapRoutes = [
   { path: routes.brandPanasonic, priority: 0.7 },
   { path: routes.brandAriston, priority: 0.7 },
 
-  { path: routes.pengadaanAc, priority: 0.85 },
-  { path: routes.pengadaanKostApartemen, priority: 0.75 },
-  { path: routes.pengadaanHotelGuestHouse, priority: 0.75 },
-  { path: routes.pengadaanKontraktorDeveloper, priority: 0.75 },
-  { path: routes.pengadaanGedungKantorRuko, priority: 0.75 },
-  { path: routes.pengadaanCafeResto, priority: 0.75 },
+  { path: routes.pengadaanAc, priority: 0.85, lastModified: "2026-06-13" },
+  { path: routes.pengadaanKostApartemen, priority: 0.75, lastModified: "2026-06-13" },
+  { path: routes.pengadaanHotelGuestHouse, priority: 0.8, lastModified: "2026-06-13" },
+  { path: routes.pengadaanKontraktorDeveloper, priority: 0.8, lastModified: "2026-06-13" },
+  { path: routes.pengadaanGedungKantorRuko, priority: 0.75, lastModified: "2026-06-13" },
+  { path: routes.pengadaanCafeResto, priority: 0.75, lastModified: "2026-06-13" },
 
   { path: routes.pengirimanPemasangan, priority: 0.7 },
   { path: routes.buktiPengirimanProyek, priority: 0.7 },
