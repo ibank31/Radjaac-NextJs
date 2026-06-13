@@ -57,19 +57,19 @@ function isDropdownActive(pathname, item) {
 
 function navLinkClass(active) {
   return [
-    "rounded-full px-3.5 py-2 text-sm font-semibold transition",
+    "rounded-full px-3.5 py-2 text-sm font-semibold transition-all duration-200",
     active
       ? "bg-brand-blue-tint text-navy shadow-sm ring-1 ring-brand-blue/20"
-      : "text-slate-700 hover:bg-brand-blue-tint/60 hover:text-navy",
+      : "text-slate-800 hover:bg-brand-blue-tint/70 hover:text-navy hover:shadow-sm",
   ].join(" ");
 }
 
 function dropdownItemClass(active) {
   return [
-    "rounded-2xl px-4 py-3 text-sm font-medium transition",
+    "rounded-2xl px-4 py-3 text-sm font-medium transition-all duration-200",
     active
       ? "bg-blue-50 text-blue-800 ring-1 ring-blue-100"
-      : "text-slate-700 hover:bg-blue-50/80 hover:text-blue-800",
+      : "text-slate-800 hover:bg-blue-50/90 hover:text-blue-800 hover:shadow-sm",
   ].join(" ");
 }
 
@@ -81,14 +81,14 @@ function DesktopDropdown({ item, pathname }) {
       <button type="button" className={navLinkClass(active)}>
         <span className="inline-flex items-center gap-1">
           {item.label}
-          <span className={`text-xs leading-none ${active ? "text-blue-700" : "text-slate-400"}`}>
+          <span className={`text-xs leading-none transition-colors ${active ? "text-blue-800" : "text-slate-400 group-hover:text-slate-600"}`}>
             ⌄
           </span>
         </span>
       </button>
 
-      <div className="invisible absolute left-1/2 -translate-x-1/2 top-full z-50 pt-3 opacity-0 transition group-hover:visible group-hover:opacity-100 group-focus-within:visible group-focus-within:opacity-100">
-        <div className="min-w-64 rounded-[1.6rem] border border-blue-100 bg-white/95 p-3 shadow-[0_24px_70px_rgba(15,23,42,0.14)] backdrop-blur-xl">
+      <div className="invisible absolute left-1/2 -translate-x-1/2 top-full z-50 pt-3 opacity-0 transition-all duration-300 group-hover:visible group-hover:opacity-100 group-focus-within:visible group-focus-within:opacity-100">
+        <div className="min-w-64 rounded-[1.6rem] border border-blue-100 bg-white/95 p-3 shadow-[0_24px_70px_rgba(15,23,42,0.16)] backdrop-blur-xl">
           <div className="grid gap-1">
             {item.items.map((subItem) => {
               const subActive = isPathActive(pathname, subItem.href, subItem.exact);
