@@ -125,24 +125,53 @@ const katalogItemsByGroup = {
 };
 
 function MobileNavItem({ item, pathname, onNavigate, index }) {
-  if (item.items) {
-    const active = isDropdownActive(pathname, item);
-    const isKatalog = item.label === "Katalog AC";
+  const active = item.items
+    ? isDropdownActive(pathname, item)
+    : isPathActive(pathname, item.href, item.exact);
+  const isKatalog = item.label === "Katalog AC";
 
-    // Desktop uses flat items — mobile uses grouped layout for Katalog
-    const mobileItems = isKatalog
-      ? katalogItemsByGroup
-      : { items: item.items };
-
-    return (
-      <details className={`group rounded-2xl border transition-all ${active ? "border-blue-100 bg-blue-50" : "border-slate-100 bg-white hover:border-blue-100 hover:bg-blue-50/50"}`}>
-        <summary className="list-none cursor-pointer px-4 py-3.5 text-sm font-semibold marker:hidden [&::-webkit-details-marker]:hidden">
-          <span className="flex items-center justify-between">
-            <span className={`transition-colors ${active ? "text-blue-800" : "text-slate-800"}`}>{item.label}</span>
-            <span className="text-xs leading-none text-slate-400 transition-colors group-hover:text-slate-600">⌄</span>
+  // Semua item pakai <details> wrapper yang sama
+  return (
+    <details
+      className={`group rounded-2xl border transition-all ${
+        active
+          ? "border-blue-100 bg-blue-50"
+          : "border-slate-100 bg-white hover:border-blue-100 hover:bg-blue-50/50"
+      }`}
+      open={false}
+    >
+      <summary
+        className="list-none cursor-pointer px-4 py-3.5 text-sm font-semibold marker:hidden [&::-webkit-details-marker]:hidden"
+        onClick={(e) => {
+          // Jika tidak ada items, navigate langsung
+          if (!item.items) {
+            e.preventDefault();
+            onNavigate();
+            // Trigger navigation
+            if (item.href) {
+              window.location.href = item.href;
+            }
+          }
+        }}
+      >
+        <span className="flex items-center justify-between">
+          <span
+            className={`transition-colors ${
+              active ? "text-blue-800" : "text-slate-800"
+            }`}
+          >
+            {item.label}
           </span>
-        </summary>
+          {item.items && (
+            <span className="text-xs leading-none text-slate-400 transition-colors group-hover:text-slate-600">
+              ⌄
+            </span>
+          )}
+        </span>
+      </summary>
 
+      {/* Dropdown content — hanya render jika ada items */}
+      {item.items && (
         <div className="grid gap-2.5 border-t border-blue-50 bg-white p-3 pb-3">
           {isKatalog ? (
             <>
@@ -218,26 +247,8 @@ function MobileNavItem({ item, pathname, onNavigate, index }) {
             })
           )}
         </div>
-      </details>
-    );
-  }
-
-  const active = isPathActive(pathname, item.href, item.exact);
-
-  return (
-    <Link
-      href={item.href}
-      className={[
-        "rounded-2xl border px-4 py-3.5 text-sm font-semibold transition-all duration-200",
-        active
-          ? "border-blue-100 bg-blue-50 text-blue-800 ring-1 ring-blue-100 shadow-sm"
-          : "border-slate-100 bg-white text-slate-800 hover:border-blue-100 hover:bg-blue-50/80 hover:text-blue-800 hover:shadow-sm",
-      ].join(" ")}
-      onClick={onNavigate}
-      data-index={index}
-    >
-      {item.label}
-    </Link>
+      )}
+    </details>
   );
 }
 
