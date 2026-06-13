@@ -136,7 +136,7 @@ function MobileNavItem({ item, pathname, onNavigate, index }) {
 
     return (
       <details className={`group rounded-2xl border transition-all ${active ? "border-blue-100 bg-blue-50" : "border-slate-100 bg-white hover:border-blue-100 hover:bg-blue-50/50"}`}>
-        <summary className="list-none cursor-pointer px-4 py-3 text-sm font-semibold marker:hidden [&::-webkit-details-marker]:hidden">
+        <summary className="list-none cursor-pointer px-4 py-3.5 text-sm font-semibold marker:hidden [&::-webkit-details-marker]:hidden">
           <span className="flex items-center justify-between">
             <span className={`transition-colors ${active ? "text-blue-800" : "text-slate-800"}`}>{item.label}</span>
             <span className="text-xs leading-none text-slate-400 transition-colors group-hover:text-slate-600">⌄</span>
@@ -147,7 +147,7 @@ function MobileNavItem({ item, pathname, onNavigate, index }) {
           {isKatalog ? (
             <>
               {/* Kategori AC group */}
-              <div className="px-3 pt-1 pb-1">
+              <div className="px-3 pt-2 pb-1.5">
                 <span className="text-[10px] font-bold uppercase tracking-[0.08em] text-slate-400">
                   Kategori AC
                 </span>
@@ -172,7 +172,7 @@ function MobileNavItem({ item, pathname, onNavigate, index }) {
               })}
               <div className="mx-3 my-2 border-t border-slate-100" />
               {/* Panduan group */}
-              <div className="px-3 pt-1 pb-1">
+              <div className="px-3 pt-2 pb-1.5">
                 <span className="text-[10px] font-bold uppercase tracking-[0.08em] text-slate-400">
                   Panduan
                 </span>
