@@ -13,9 +13,9 @@ export const procurementItems = [
     intro:
       "Untuk kost, apartemen, kontrakan, dan hunian banyak kamar, unit AC disiapkan dari stok gudang Radja AC di Sokaraja, Banyumas. Cocok untuk owner kost, investor, dan pengelola yang butuh AC banyak kamar dengan tipe seragam, pilihan low watt untuk daya listrik per kamar, dan pengiriman bertahap mengikuti kamar yang siap.",
     segmentContext:
-      "Stok AC 1/2 PK, 1 PK, dan low watt untuk kebutuhan banyak kamar tersedia di gudang dan bisa dikirim sekaligus atau bertahap per lantai. Tipe unit seragam memudahkan perawatan dan penggantian antar kamar. Opsi harga untuk banyak unit dibahas dari jumlah kamar, tipe unit, dan jadwal kirim.",
+      "Kost dan apartemen biasanya butuh unit yang seragam, mudah dirawat, dan konsumsi listriknya masuk akal—dan kebutuhannya berbeda antara kost kecil, kost banyak kamar, apartemen sewa, atau hunian bertahap. Stok AC 1/2 PK, 1 PK, dan low watt untuk kebutuhan banyak kamar tersedia di gudang dan bisa dikirim sekaligus atau bertahap per lantai. Tipe unit seragam memudahkan perawatan dan penggantian antar kamar. Opsi harga untuk banyak unit dibahas dari jumlah kamar, tipe unit, dan jadwal kirim.",
     coordinationNote:
-      "Pengiriman dijadwalkan dari gudang Sokaraja, sekaligus atau bertahap mengikuti kamar yang siap. Pemasangan dikerjakan tim Radja AC dengan garansi pemasangan 1 bulan, atau unit dikirim untuk dipasang tim sendiri.",
+      "Untuk pengadaan kost atau apartemen, siapkan jumlah kamar siap pasang dan yang menyusul, ukuran tiap kamar, daya listrik per kamar atau per lantai, lokasi bangunan, serta apakah pengiriman dan pemasangan sekaligus atau bertahap. Pengiriman dijadwalkan dari gudang Sokaraja, sekaligus atau bertahap mengikuti kamar yang siap. Pemasangan dikerjakan tim Radja AC dengan garansi pemasangan 1 bulan, atau unit dikirim untuk dipasang tim sendiri.",
     commonNeeds: [
       "Stok AC banyak kamar untuk kost, kontrakan, mess, atau hunian sewa",
       "Tipe unit seragam agar perawatan dan penggantian antar kamar lebih mudah",
@@ -75,9 +75,9 @@ export const procurementItems = [
     intro:
       "Untuk hotel, guest house, homestay, dan villa, unit AC disiapkan dari stok gudang Radja AC di Sokaraja, Banyumas. Cocok untuk owner, purchasing, dan chief engineer yang butuh AC kamar hotel dengan suara unit nyaman untuk tamu, brand seragam antar kamar, dan jadwal kerja yang tidak mengganggu okupansi.",
     segmentContext:
-      "Stok unit untuk kamar tamu, lobby, dan area bersama tersedia dan bisa dikirim bertahap mengikuti kesiapan kamar. Brand seragam menjaga kenyamanan antar kamar dan pemakaian lama. Opsi harga untuk banyak unit dibahas dari jumlah kamar, tipe unit, dan jadwal kirim.",
+      "Kebutuhan penginapan tidak hanya kamar tamu—lobby, resepsionis, ruang makan, meeting room, ruang tunggu, dan area staff bisa butuh pendekatan berbeda. Stok unit untuk kamar tamu, lobby, dan area bersama tersedia dan bisa dikirim bertahap mengikuti kesiapan kamar. Brand seragam menjaga kenyamanan antar kamar dan pemakaian lama. Opsi harga untuk banyak unit dibahas dari jumlah kamar, tipe unit, dan jadwal kirim.",
     coordinationNote:
-      "Pengiriman dijadwalkan dari gudang Sokaraja, bertahap mengikuti kamar yang siap atau saat okupansi rendah. Pemasangan dikerjakan tim Radja AC dengan garansi pemasangan 1 bulan, diatur agar tidak mengganggu tamu menginap.",
+      "Untuk hotel dan guest house, data awal yang dibutuhkan adalah jumlah kamar, tipe kamar, ukuran ruangan, area publik yang perlu AC, jadwal kamar kosong, lokasi penginapan, dan preferensi brand. Pengiriman dijadwalkan dari gudang Sokaraja, bertahap mengikuti kamar yang siap atau saat okupansi rendah. Pemasangan dikerjakan tim Radja AC dengan garansi pemasangan 1 bulan, diatur agar tidak mengganggu tamu menginap.",
     commonNeeds: [
       "Stok AC kamar tamu hotel, guest house, homestay, atau villa",
       "AC lobby, resepsionis, ruang tunggu, dan area bersama",
@@ -137,9 +137,9 @@ export const procurementItems = [
     intro:
       "AC proyek butuh stok yang siap, brand yang masuk RAB/BOQ, dan pengiriman yang ikut progres lapangan. Radja AC menyiapkan unit dari gudang sendiri di Sokaraja, Banyumas. Kirim daftar titik atau BOQ awal, jumlah unit, lokasi, dan timeline; balasannya berisi ketersediaan stok, pilihan brand, dan jadwal kirim.",
     segmentContext:
-      "Stok banyak unit untuk titik AC tersedia di gudang dan bisa dikirim sekaligus maupun bertahap mengikuti progres proyek. Pilihan brand mengikuti RAB/BOQ dan anggaran: Daikin, Midea, Hisense, dan Sansui tersedia sebagai Authorized Dealer, brand lain mengikuti stok aktif. Opsi harga untuk banyak unit dibahas dari jumlah titik, tipe unit, dan jadwal kirim.",
+      "Kebutuhan kontraktor dan developer sering memerlukan alternatif brand sesuai anggaran, kesiapan unit, dan jadwal proyek. Stok banyak unit untuk titik AC tersedia di gudang dan bisa dikirim sekaligus maupun bertahap mengikuti progres proyek. Pilihan brand mengikuti RAB/BOQ dan anggaran: Daikin, Midea, Hisense, dan Sansui tersedia sebagai Authorized Dealer, brand lain mengikuti stok aktif. Opsi harga untuk banyak unit dibahas dari jumlah titik, tipe unit, dan jadwal kirim.",
     coordinationNote:
-      "Pengiriman pakai armada Radja AC sendiri, baik muatan banyak unit sekaligus maupun bertahap mengikuti progres lapangan. Pemasangan bisa dikerjakan tim Radja AC dengan garansi pemasangan 1 bulan, atau unit dikirim untuk dipasang tim lapangan proyek.",
+      "Brief proyek sebaiknya memuat daftar unit, BOQ/RAB awal bila ada, tipe dan ukuran ruangan, jumlah titik, lokasi proyek, target pengiriman, dan apakah butuh unit saja atau opsi pemasangan. Pengiriman pakai armada Radja AC sendiri, baik muatan banyak unit sekaligus maupun bertahap mengikuti progres lapangan. Pemasangan bisa dikerjakan tim Radja AC dengan garansi pemasangan 1 bulan, atau unit dikirim untuk dipasang tim lapangan proyek.",
     commonNeeds: [
       "Stok banyak unit untuk rumah contoh, ruko, kantor proyek, klinik, dan ruang usaha",
       "Supply berdasarkan daftar titik AC atau BOQ/RAB awal",
@@ -203,9 +203,9 @@ export const procurementItems = [
     intro:
       "Untuk kantor, gedung, dan ruko, unit AC disiapkan dari stok gudang Radja AC di Sokaraja, Banyumas. Cocok untuk GA, office manager, dan pemilik ruko yang butuh AC ruang kerja, AC ruang meeting, dan area pelanggan dengan pemasangan yang bisa diatur di luar jam kerja.",
     segmentContext:
-      "Stok unit split dan komersial ringan tersedia untuk ruang kerja, ruang meeting, dan ruko. Pengiriman dan pemasangan bisa diatur bertahap atau di luar jam operasional untuk menekan downtime. Opsi harga untuk banyak unit dibahas dari jumlah titik, tipe unit, dan jadwal kirim.",
+      "Kantor dan ruko bisa punya ruang kerja harian, meeting room, lobby kecil, area pelanggan, ruang admin, ruang perangkat ringan, atau showroom kecil yang kebutuhannya berbeda. Stok unit split dan komersial ringan tersedia untuk ruang kerja, ruang meeting, dan ruko. Pengiriman dan pemasangan bisa diatur bertahap atau di luar jam operasional untuk menekan downtime. Opsi harga untuk banyak unit dibahas dari jumlah titik, tipe unit, dan jadwal kirim.",
     coordinationNote:
-      "Pengiriman dijadwalkan dari gudang Sokaraja. Pemasangan dikerjakan tim Radja AC dengan garansi pemasangan 1 bulan, diatur akhir pekan atau di luar jam kerja agar aktivitas kantor tidak terganggu.",
+      "Untuk kantor dan ruko, data awal bisa berupa layout sederhana atau foto ruangan, ukuran ruang, tinggi plafon, jumlah orang, jam operasional, titik indoor/outdoor yang memungkinkan, dan daya listrik. Pengiriman dijadwalkan dari gudang Sokaraja. Pemasangan dikerjakan tim Radja AC dengan garansi pemasangan 1 bulan, diatur akhir pekan atau di luar jam kerja agar aktivitas kantor tidak terganggu.",
     commonNeeds: [
       "Stok AC untuk ruang kerja, ruang meeting, lobby kecil, dan ruang operasional",
       "AC untuk ruko, showroom kecil, klinik ringan, dan kantor usaha",
@@ -268,9 +268,9 @@ export const procurementItems = [
     intro:
       "Untuk cafe dan resto, unit AC disiapkan dari stok gudang Radja AC di Sokaraja, Banyumas. Cocok untuk owner cafe, owner resto, dan kontraktor interior yang butuh pendinginan merata untuk ruang makan, area pelanggan, dan ruang dengan kaca besar atau pintu yang sering terbuka, dengan jadwal yang mengejar opening.",
     segmentContext:
-      "Stok unit untuk ruang makan dan area pelanggan tersedia, termasuk pilihan komersial untuk plafon tinggi dan beban panas tinggi. Pengiriman dan pemasangan bisa dijadwalkan mengejar opening atau renovasi. Opsi harga untuk banyak unit dibahas dari jumlah titik, luas area, dan jadwal kirim.",
+      "Cafe dan resto sering punya tantangan berbeda dari rumah: banyak orang, panas lampu, bukaan pintu, kaca besar, dan area semi-terbuka. Stok unit untuk ruang makan dan area pelanggan tersedia, termasuk pilihan komersial untuk plafon tinggi dan beban panas tinggi. Pengiriman dan pemasangan bisa dijadwalkan mengejar opening atau renovasi. Opsi harga untuk banyak unit dibahas dari jumlah titik, luas area, dan jadwal kirim.",
     coordinationNote:
-      "Pengiriman dijadwalkan dari gudang Sokaraja mengikuti timeline opening atau renovasi. Pemasangan dikerjakan tim Radja AC dengan garansi pemasangan 1 bulan, diatur di luar jam ramai.",
+      "Untuk cafe dan resto, foto area makan membantu membaca ukuran ruangan, tinggi plafon, kondisi tertutup atau semi-terbuka, titik indoor/outdoor, kapasitas pengunjung, lokasi usaha, dan timeline opening atau renovasi. Pengiriman dijadwalkan dari gudang Sokaraja mengikuti timeline opening atau renovasi. Pemasangan dikerjakan tim Radja AC dengan garansi pemasangan 1 bulan, diatur di luar jam ramai.",
     commonNeeds: [
       "Stok AC untuk area makan, kasir, ruang tunggu, dan area pelanggan",
       "Pendinginan merata untuk ruangan dengan banyak orang dan beban panas tinggi",
