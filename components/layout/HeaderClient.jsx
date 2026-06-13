@@ -269,7 +269,7 @@ export default function HeaderClient() {
   return (
     <header className="sticky top-0 z-50 border-b border-blue-100 bg-white/95 shadow-[0_12px_34px_rgba(73,132,184,0.14)] backdrop-blur-xl">
       <div className="mx-auto flex max-w-7xl items-center justify-between gap-4 px-4 py-3.5">
-        <Link href={routes.home} className="flex items-center gap-3" aria-label="Radja AC">
+        <Link href={routes.home} prefetch={false} className="flex items-center gap-3" aria-label="Radja AC">
           <span className="relative flex h-11 w-11 shrink-0 overflow-hidden rounded-2xl bg-white ring-1 ring-slate-200 shadow-[0_10px_26px_rgba(15,23,42,0.10)]">
             <Image
               src="/icons/master-icon-1024.png"
@@ -298,6 +298,7 @@ export default function HeaderClient() {
               <Link
                 key={item.href}
                 href={item.href}
+                prefetch={false}
                 className={navLinkClass(isPathActive(pathname, item.href, item.exact))}
               >
                 {item.label}
