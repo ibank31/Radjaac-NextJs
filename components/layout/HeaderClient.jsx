@@ -36,7 +36,18 @@ const navItems = [
       { label: "Brand Lainnya", href: routes.brandLainnya },
     ],
   },
-  { label: "Pengadaan", href: routes.pengadaanAc },
+  {
+    label: "Pengadaan",
+    activePaths: ["/pengadaan-ac"],
+    items: [
+      { label: "Semua Segmen", href: routes.pengadaanAc, exact: true },
+      { label: "Kost & Apartemen", href: routes.pengadaanKostApartemen },
+      { label: "Hotel & Guest House", href: routes.pengadaanHotelGuestHouse },
+      { label: "Kontraktor & Developer", href: routes.pengadaanKontraktorDeveloper },
+      { label: "Gedung, Kantor & Ruko", href: routes.pengadaanGedungKantorRuko },
+      { label: "Cafe & Resto", href: routes.pengadaanCafeResto },
+    ],
+  },
   { label: "Gallery", href: routes.buktiPengirimanProyek, exact: true },
   { label: "Artikel", href: routes.artikel },
 ];

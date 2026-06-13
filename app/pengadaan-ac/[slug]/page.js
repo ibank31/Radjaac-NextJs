@@ -9,6 +9,7 @@ import { warrantyHighlights, legalEntityCopy } from "@/content/policies";
 import WhatsappLink from "@/components/ui/WhatsappLink";
 import JsonLd from "@/components/seo/JsonLd";
 import { typography } from "@/lib/typography";
+import AuthorizedDealerCerts from "@/components/proof/AuthorizedDealerCerts";
 
 export const dynamicParams = false;
 
@@ -253,6 +254,8 @@ export default async function ProcurementDetailPage({ params }) {
           </div>
         </div>
       </section>
+
+      <AuthorizedDealerCerts />
 
       <section className="bg-[#F8FAFC]">
         <div className="mx-auto max-w-7xl px-5 py-16 sm:px-6 lg:px-8">

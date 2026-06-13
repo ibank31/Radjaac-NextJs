@@ -8,6 +8,7 @@ import { breadcrumbSchema } from "@/lib/schema";
 import JsonLd from "@/components/seo/JsonLd";
 import WhatsappLink from "@/components/ui/WhatsappLink";
 import { typography } from "@/lib/typography";
+import AuthorizedDealerCerts from "@/components/proof/AuthorizedDealerCerts";
 
 export const metadata = buildMetadata(staticPageMetadata.pengadaanAc);
 
@@ -285,6 +286,8 @@ export default function PengadaanAcPage() {
           </div>
         </div>
       </section>
+
+      <AuthorizedDealerCerts />
 
       <section className="bg-[#F8FAFC]">
         <div className="mx-auto max-w-7xl px-5 py-16 sm:px-6 lg:px-8">
