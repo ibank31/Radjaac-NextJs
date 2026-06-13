@@ -308,7 +308,7 @@ export default function HeaderClient() {
 
         <div className="hidden items-center gap-3 md:flex">
           <WhatsappLink
-            className="inline-flex items-center justify-center rounded-full bg-brand-red px-5 py-2.5 text-sm font-bold text-white shadow-[0_14px_34px_rgba(214,40,40,0.24)] transition hover:-translate-y-0.5 hover:bg-brand-red-dark"
+            className="inline-flex items-center justify-center rounded-full bg-brand-red px-5 py-2.5 text-sm font-bold text-white shadow-[0_14px_34px_rgba(214,40,40,0.24)] transition-all duration-200 hover:-translate-y-0.5 hover:bg-brand-red-dark hover:shadow-[0_18px_40px_rgba(214,40,40,0.30)]"
             source="Header"
             intent="konsultasi beli AC"
           >
