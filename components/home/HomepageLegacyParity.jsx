@@ -536,27 +536,19 @@ function HomeProcess() {
 function HomeBrands() {
   return (
     <section className="mx-auto max-w-7xl px-4 py-10" id="brand-lainnya">
-      <div className="mb-6 flex items-end justify-between gap-4">
-        <div>
-          <SectionBadge>Brand AC</SectionBadge>
-          <h2 className={`mt-4 ${typography.sectionTitle} text-blue-950`}>
-            Beli AC merek apa? Cek stok, budget, dan kecocokan ruangan dulu
-          </h2>
-        </div>
-
+      <div className="mb-6 flex items-center justify-between gap-4">
+        <h2 className={`${typography.sectionTitle} text-blue-950`}>
+          Pilih merek AC
+        </h2>
         <ArrowLink
           href={routes.brandLainnya}
           className="hidden border border-blue-200 bg-white text-blue-900 hover:bg-blue-50 sm:inline-flex"
         >
-          Lihat Semua Brand
+          Lihat Semua
         </ArrowLink>
       </div>
 
-      <p className="mb-7 max-w-3xl text-sm leading-7 text-slate-600 sm:text-base">
-        <BrandName /> jual AC original dari banyak merek — beli satuan sampai banyak unit. Gree kuat di value dan ada dukungan Proshop resmi. Daikin banyak dipilih untuk pemakaian jangka panjang. Midea masuk di budget tengah. Hisense punya pilihan fitur modern. Sansui ekonomis. Brand lain dikonfirmasi dari stok aktif. Kirim ukuran ruangan dan daya listrik — <BrandName /> cocokkan pilihan dari data tersebut.
-      </p>
-
-      <div className="mb-8 grid grid-cols-2 gap-4 md:grid-cols-4 lg:grid-cols-8">
+      <div className="mb-8 grid grid-cols-2 gap-4 md:grid-cols-4">
         {mainBrands.map((brand) => (
           <Link
             key={brand.name}
@@ -578,10 +570,7 @@ function HomeBrands() {
                 }
               />
             </div>
-            <p className="mt-3 mb-3 flex min-h-[40px] items-center justify-center text-xs leading-5 text-slate-500">
-              {brand.tagline}
-            </p>
-            <div className="text-xs font-bold text-blue-700">
+            <div className="mt-3 text-xs font-bold text-blue-700">
               Cek Unit & Budget →
             </div>
           </Link>
@@ -618,6 +607,23 @@ function HomeBrands() {
           ))}
         </div>
       </div>
+
+      <div className="mt-6 rounded-2xl border border-blue-100 bg-white p-5 sm:p-6">
+        <p className="mb-4 text-[11px] font-bold uppercase tracking-[0.1em] text-slate-400">
+          KISARAN BUDGET AC + PASANG
+        </p>
+        <div className="grid gap-3 sm:grid-cols-3">
+          {pricePackages.map((item) => (
+            <div key={item.range} className="rounded-xl bg-slate-50 p-4">
+              <p className="mb-1 text-base font-bold text-blue-950">{item.range}</p>
+              <p className="text-xs leading-6 text-slate-500">{item.brands}</p>
+            </div>
+          ))}
+        </div>
+        <p className="mt-3 text-center text-xs text-slate-400">
+          Harga mengikuti merek, PK, dan kondisi lokasi. Detail dijelaskan sebelum bayar.
+        </p>
+      </div>
     </section>
   );
 }
@@ -625,17 +631,11 @@ function HomeBrands() {
 function HomeWhyChoose() {
   return (
     <section className="mx-auto max-w-7xl px-4 py-12">
-      <div className="mx-auto mb-10 max-w-3xl text-center">
-        <SectionBadge>Cara Kerja Radja AC</SectionBadge>
-        <h2 className={`mt-4 ${typography.sectionTitle} text-blue-950`}>
-          Stok dikunci, PK dihitung, biaya pasang dijelaskan — sebelum uang keluar
-        </h2>
-        <p className="mx-auto mt-4 max-w-2xl text-sm leading-7 text-slate-600">
-          Promo boleh menarik. Tapi kalau unit tidak cocok ruangan, semua sia-sia. <BrandName /> cek stok dulu, hitung PK, jelaskan biaya pasang — baru pembeli lanjut bayar.
-        </p>
-      </div>
+      <h2 className={`mb-8 text-center ${typography.sectionTitle} text-blue-950`}>
+        Kenapa konfirmasi dulu sebelum beli?
+      </h2>
 
-      <div className="grid grid-cols-2 gap-4 sm:gap-5">
+      <div className="grid sm:grid-cols-2 grid-cols-1 gap-4 sm:gap-5">
         {whyChooseItems.map((item) => (
           <div
             key={item.title}
