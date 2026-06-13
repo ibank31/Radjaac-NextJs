@@ -135,11 +135,11 @@ function MobileNavItem({ item, pathname, onNavigate, index }) {
       : { items: item.items };
 
     return (
-      <details className={`group rounded-2xl border ${active ? "border-blue-100 bg-blue-50" : "border-slate-100 bg-white"}`}>
-        <summary className="list-none cursor-pointer px-4 py-3 text-sm font-semibold text-slate-800 marker:hidden [&::-webkit-details-marker]:hidden">
+      <details className={`group rounded-2xl border transition-all ${active ? "border-blue-100 bg-blue-50" : "border-slate-100 bg-white hover:border-blue-100 hover:bg-blue-50/50"}`}>
+        <summary className="list-none cursor-pointer px-4 py-3 text-sm font-semibold marker:hidden [&::-webkit-details-marker]:hidden">
           <span className="flex items-center justify-between">
-            <span className={active ? "text-blue-800" : "text-slate-800"}>{item.label}</span>
-            <span className="text-xs leading-none text-slate-400">⌄</span>
+            <span className={`transition-colors ${active ? "text-blue-800" : "text-slate-800"}`}>{item.label}</span>
+            <span className="text-xs leading-none text-slate-400 transition-colors group-hover:text-slate-600">⌄</span>
           </span>
         </summary>
 
@@ -228,10 +228,10 @@ function MobileNavItem({ item, pathname, onNavigate, index }) {
     <Link
       href={item.href}
       className={[
-        "rounded-2xl border px-4 py-3 text-sm font-semibold transition",
+        "rounded-2xl border px-4 py-3 text-sm font-semibold transition-all duration-200",
         active
-          ? "border-blue-100 bg-blue-50 text-blue-800 ring-1 ring-blue-100"
-          : "border-slate-100 bg-white text-slate-800 hover:bg-blue-50/80 hover:text-blue-800",
+          ? "border-blue-100 bg-blue-50 text-blue-800 ring-1 ring-blue-100 shadow-sm"
+          : "border-slate-100 bg-white text-slate-800 hover:border-blue-100 hover:bg-blue-50/80 hover:text-blue-800 hover:shadow-sm",
       ].join(" ")}
       onClick={onNavigate}
       data-index={index}
@@ -386,9 +386,9 @@ export default function HeaderClient() {
                 ))}
               </nav>
 
-              <div className="mt-3 border-t border-blue-50 pt-3">
+              <div className="mt-3 border-t border-blue-100 pt-3">
                 <WhatsappLink
-                  className="flex w-full items-center justify-center rounded-2xl bg-brand-red px-4 py-3 text-sm font-bold text-white shadow-[0_14px_34px_rgba(214,40,40,0.24)] transition hover:bg-brand-red-dark"
+                  className="flex w-full items-center justify-center rounded-2xl bg-brand-red px-4 py-3.5 text-sm font-bold text-white shadow-[0_14px_34px_rgba(214,40,40,0.24)] transition-all duration-200 hover:-translate-y-0.5 hover:bg-brand-red-dark hover:shadow-[0_18px_40px_rgba(214,40,40,0.30)]"
                   source="Mobile Header"
                   intent="konsultasi beli AC"
                   onClick={() => handleToggleMenu()}
