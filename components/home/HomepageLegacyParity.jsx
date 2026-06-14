@@ -98,7 +98,7 @@ const mainBrands = [
     name: "Sansui",
     href: routes.brandSansui,
     tagline: "Simpel, ekonomis, cocok buat kost",
-    logo: "/brand-logos/sansui-logo.png",
+    logo: "/brand-logos/sansui-logo.webp",
   },
   {
     name: "Sharp",
@@ -218,17 +218,18 @@ function HomeHero() {
           </div>
         </div>
 
-        <div className="relative hidden sm:block">
+        <div className="relative mt-6 sm:mt-0">
           <div className="absolute -inset-4 rounded-[1.7rem] bg-blue-200/30 blur-3xl" />
           <div className="relative overflow-hidden rounded-[1.7rem] border border-white bg-white p-2 shadow-[0_22px_60px_rgba(15,39,66,0.12)]">
             <Image
               src="/photos/showroom/showroom-multibrand-radja-ac-purwokerto-01.webp"
               alt="Showroom Radja AC — jual AC original multi-brand, Sokaraja Banyumas"
-              width={900}
-              height={720}
+              width={640}
+              height={512}
               sizes="(min-width: 1024px) 560px, 100vw"
               priority
-              className="h-[310px] w-full rounded-[1.5rem] object-cover object-center sm:h-[390px] lg:h-[500px]"
+              quality={70}
+              className="h-[220px] w-full rounded-[1.5rem] object-cover object-center sm:h-[390px] lg:h-[500px]"
             />
           </div>
         </div>

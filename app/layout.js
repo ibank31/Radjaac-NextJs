@@ -13,6 +13,8 @@ const plusJakartaSans = Plus_Jakarta_Sans({
   subsets: ["latin"],
   display: "swap",
   variable: "--font-sans",
+  preload: true,
+  adjustFontFallback: true,
 });
 
 export const metadata = buildMetadata();
@@ -20,6 +22,10 @@ export const metadata = buildMetadata();
 export default function RootLayout({ children }) {
   return (
     <html lang={siteConfig.language}>
+      <head>
+        <link rel="preconnect" href="https://www.googletagmanager.com" />
+        <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
+      </head>
       <body className={plusJakartaSans.variable}>
         <JsonLd data={sitewideSchemas()} />
         <GoogleAnalytics />

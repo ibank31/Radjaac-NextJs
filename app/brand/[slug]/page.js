@@ -230,8 +230,9 @@ export default async function BrandDetailPage({ params }) {
               <Image
                 src={heroImage}
                 alt={`Showcase ${item.label} di Radja AC`}
-                width={900}
-                height={1100}
+                width={640}
+                height={780}
+                quality={70}
                 className="h-[390px] w-full rounded-[1.35rem] object-cover object-center sm:h-[520px] lg:h-[600px]"
                 sizes="(min-width: 1024px) 500px, 100vw"
                 priority
