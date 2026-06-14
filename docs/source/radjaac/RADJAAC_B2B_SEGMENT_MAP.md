@@ -8,7 +8,7 @@ Needs quarterly refresh
 **Fungsi Dokumen**  
 Menentukan segmen B2B/proyek yang paling layak dibangun sebagai money page, mana yang paling dekat ke uang, mana yang harus dikerjakan dalam 30 hari, dan mana yang lebih aman dijadikan artikel/supporting page dulu.
 
-Pembeda utama di sini adalah **kecepatan closing** dan **kerumitan procurement**. Untuk segmen pemerintah, peluangnya nyata tetapi jalurnya formal melalui portal pengadaan nasional, LPSE, dan e-Katalog, sehingga tanpa kesiapan administrasi dan dokumen vendor yang rapi, halaman “instansi pemerintah” berisiko menghasilkan lead yang lambat atau tidak qualified. Sebaliknya, private B2B seperti kost, hotel, kontraktor/developer, kantor/ruko, dan cafe/resto lebih dekat ke transaksi WA. Di sisi demand, DIY, Semarang, Surakarta, Bandung, Surabaya, dan Jakarta sama-sama memberi sinyal kuat untuk hospitality, pendidikan, dan properti komersial ringan. citeturn25search8turn25search10turn25search11turn25search12turn11search0turn7search0turn6search15turn7search6turn7search9turn7search15turn8search8turn8search1
+Pembeda utama di sini adalah **kecepatan closing** dan **kerumitan procurement**. Untuk segmen pemerintah, peluangnya nyata tetapi jalurnya formal melalui portal pengadaan nasional, LPSE, dan e-Katalog, sehingga tanpa kesiapan administrasi dan dokumen vendor yang rapi, halaman “instansi pemerintah” berisiko menghasilkan lead yang lambat atau tidak qualified. Sebaliknya, private B2B seperti kost, hotel, kontraktor/developer, kantor/ruko, dan cafe/resto lebih dekat ke transaksi WA. Di sisi demand, DIY, Semarang, Surakarta, Bandung, Surabaya, dan Jakarta sama-sama memberi sinyal kuat untuk hospitality, pendidikan, dan properti komersial ringan.
 
 **Prinsip Utama**
 
@@ -55,7 +55,7 @@ Pembeda utama di sini adalah **kecepatan closing** dan **kerumitan procurement**
 | Keputusan | Isi Konkret |
 |---|---|
 | Segmen paling dekat ke uang | Kost/apartemen besar; hotel/guest house; kontraktor/developer; kantor/ruko; cafe/resto |
-| Yang harus dibuat dalam 30 hari | Pertajam 3 existing + buat ` /pengadaan-ac/gedung-kantor-ruko` + ` /pengadaan-ac/cafe-resto` |
+| Yang harus dibuat dalam 30 hari | Pertajam 3 existing + buat `/pengadaan-ac/gedung-kantor-ruko` + `/pengadaan-ac/cafe-resto` |
 | Yang bisa ditunda | Sekolah/kampus; klinik/RS kecil; toko chain/showroom |
 | Yang lebih baik jadi artikel dulu | Villa/homestay; instansi pemerintah; pabrik/gudang |
 | CTA WhatsApp baku B2B | `Kirim lokasi proyek, jumlah unit, ukuran ruang, daya listrik, timeline, dan butuh pemasangan atau tidak` |

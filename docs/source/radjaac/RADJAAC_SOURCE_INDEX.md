@@ -6,7 +6,7 @@ Stable source.
 
 ## Fungsi Dokumen
 
-Dokumen ini menjadi peta baca source RADJA AC agar assistant/Codex masuk dari file yang benar, mengikuti guardrail positioning, dan tidak membuat patch tanpa konteks bisnis.
+Dokumen ini menjadi peta baca source Radja AC agar assistant/Codex masuk dari file yang benar, mengikuti guardrail positioning, dan tidak membuat patch tanpa konteks bisnis.
 
 ## Urutan Baca Wajib
 
@@ -14,7 +14,7 @@ Dokumen ini menjadi peta baca source RADJA AC agar assistant/Codex masuk dari fi
    Pintu masuk semua pekerjaan. Menentukan cara kerja, reset keyword, scope, verifikasi, dan larangan eksekusi melebar.
 
 2. `docs/source/radjaac/RADJAAC_DO_NOT_VIOLATE_RULES.md`  
-   Guardrail keras. Wajib dibaca sebelum file strategi lain. Mengunci positioning RADJA AC, klaim lokasi, klaim resmi, CTA WhatsApp, redirect, indexing, schema, dan larangan overclaim.
+   Guardrail keras. Wajib dibaca sebelum file strategi lain. Mengunci positioning Radja AC, klaim lokasi, klaim resmi, CTA WhatsApp, redirect, indexing, schema, dan larangan overclaim.
 
 3. `docs/RADJA_GROWTH_STRATEGY.md`  
    Arah bisnis aktif. Dipakai untuk prioritas growth, area, B2B, lead WhatsApp, decision gates, dan kapan harus build, polish, hold, B2B-first, coverage-only, atau redirect.
@@ -36,7 +36,7 @@ Dokumen ini menjadi peta baca source RADJA AC agar assistant/Codex masuk dari fi
    - `content/areas/` (data area modular per region + `cluster-map.js`)
 - `content/area-drafts.js` staged hub/kabupaten drafts, not live
 - `content/area-child-drafts.js` staged child/kecamatan drafts, not live
-   - `content/brands.js`
+   - `content/brands.js` (10 brand live: gree, daikin, midea, hisense, sansui, sharp, samsung, panasonic, ariston, lainnya; `ariston` dan `lainnya` memakai layout generik di `app/brand/[slug]/page.js`, bukan komponen premium — ini disengaja, bukan file hilang)
    - `content/procurement.js`
    - `content/procurement-next.js` sebagai staged replacement untuk polish child pengadaan, belum live
    - `content/static-pages.js`
@@ -51,9 +51,8 @@ Dokumen ini menjadi peta baca source RADJA AC agar assistant/Codex masuk dari fi
 - Guardrail positioning menang atas wording lama di file strategi.
 - Source repo terbaru dan live production menang atas dokumen.
 - Jangan patch sebelum jelas page type, intent, CTA, proof, dan risiko klaim.
-- Jangan membuat RADJA AC terlihat kecil, defensif, atau hanya cocok untuk order kecil.
-- Gunakan positioning kuat dan jujur: supplier AC original multi-brand, pengadaan, partai besar, banyak unit, proyek, hotel, guest house, hospitality, kantor, ruko, kontraktor, developer.
-- Untuk copy user-facing, pakai `Showroom dan gudang RADJA AC ada di Banyumas` atau `RADJA AC melayani pengiriman dan opsi pemasangan dari Banyumas`.
+- Posisikan Radja AC kuat, tegas, dan jujur: supplier AC original multi-brand dengan showroom/gudang fisik, Proshop Gree resmi, dan sertifikat Authorized Dealer, yang melayani rumah, pengadaan, partai besar, banyak unit, proyek, hotel, guest house, hospitality, kantor, ruko, kontraktor, dan developer.
+- Untuk copy user-facing, pakai `Showroom dan gudang Radja AC ada di Banyumas` atau `Radja AC melayani pengiriman dan opsi pemasangan dari Banyumas`.
 
 ## Checklist Sebelum Patch
 
@@ -62,7 +61,7 @@ Dokumen ini menjadi peta baca source RADJA AC agar assistant/Codex masuk dari fi
 - Sudah tentukan jenis halaman.
 - Sudah cek apakah task masuk growth, area, title/meta, trust, GSC, katalog, redirect, atau market.
 - Sudah cek source repo aktif.
-- Sudah pastikan tidak ada klaim toko/cabang/showroom lokal palsu.
+- Sudah pastikan tidak ada klaim toko/cabang/showroom lokal palsu di luar Banyumas.
 - Sudah pastikan CTA WhatsApp membawa source/intent yang jelas.
 - Sudah rencanakan verifikasi: diff, scan, `npm run audit:staged` untuk staged draft, `npm run check` untuk perubahan live, dan live check bila perlu.
 

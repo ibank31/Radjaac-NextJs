@@ -8,7 +8,7 @@ Needs monthly refresh
 
 ### Fungsi Dokumen
 
-Dokumen ini menjadi peta keputusan sebelum membuat, memoles, atau menunda halaman `/jual-ac-{area}` di Pulau Jawa. Fokusnya bukan sekadar “kota mana yang punya demand”, tetapi “kota mana yang SERP-nya masih bisa dimasuki secara jujur oleh RADJA AC dengan angle cek stok, konsultasi PK, pengiriman unit, opsi pemasangan, dan lead WhatsApp berkualitas.” Snapshot SERP di bawah dibaca per 28 Mei 2026. Semua keputusan peluang, risiko, dan prioritas adalah inferensi strategis dari pola SERP yang terlihat saat ini. Kompetitor dan pola SERP bisa berubah, sehingga dokumen ini memang harus direfresh bulanan. citeturn2search2turn6search0turn8search1turn11search12turn14search10turn16search6
+Dokumen ini menjadi peta keputusan sebelum membuat, memoles, atau menunda halaman `/jual-ac-{area}` di Pulau Jawa. Fokusnya bukan sekadar “kota mana yang punya demand”, tetapi “kota mana yang SERP-nya masih bisa dimasuki secara kuat dan jujur oleh Radja AC dengan angle cek stok, konsultasi PK, pengiriman unit, opsi pemasangan, dan lead WhatsApp berkualitas.” Snapshot SERP di bawah dibaca per 28 Mei 2026. Semua keputusan peluang, risiko, dan prioritas adalah inferensi strategis dari pola SERP yang terlihat saat ini. Kompetitor dan pola SERP bisa berubah, sehingga dokumen ini memang harus direfresh bulanan. citeturn2search2turn6search0turn8search1turn11search12turn14search10turn16search6
 
 Catatan historis: audit sebelumnya menemukan beberapa halaman area sempat terbaca terlalu Purwokerto-sentris di hasil fetch/snippet. Status terkini repo dan live sudah diperbaiki: halaman area memakai H1/title/meta spesifik area, sitemap live bersih, canonical memakai `www`, dan crawl sitemap live tidak menemukan title lama.
 
@@ -157,7 +157,7 @@ Halaman baru pertama yang harus dibuat atau di-rebuild serius adalah **`/jual-ac
 - Jika prioritas kota adalah **B2B-first**, jangan paksa membuat `/jual-ac-{kota}` retail lebih dulu.
 - Jika kota cukup sebagai coverage area, sebut kota itu di halaman provinsi/kota induk yang lebih kuat; jangan memaksa halaman tipis.
 - Untuk metro yang kompetitif, pakai framing aman seperti **“cek stok, konsultasi PK, pengiriman unit, dan opsi pemasangan ke [kota]”**.
-- Gunakan trust asset pusat Banyumas, bukti pengiriman, dan bukti proyek sebagai pembeda; jangan memalsukan showroom lokal.
+- Gunakan trust asset kuat Radja AC — showroom dan gudang fisik Banyumas, Proshop Gree, sertifikat Authorized Dealer, bukti pengiriman, dan bukti proyek — sebagai pembeda; jangan memalsukan showroom lokal.
 - Jangan deploy area page baru sebelum city page yang sudah terindeks bebas dari boilerplate Purwokerto.
 - Jadikan Semarang dan Solo sebagai kota build besar pertama setelah cleanup Yogyakarta/Cilacap/Kebumen/Tegal.
 - Saat menyerang kota dengan official dealer kuat, perkuat juga halaman brand dan katalog kapasitas sebelum launch area page-nya. citeturn34view0turn34view4turn24view3turn24view4turn17view3
@@ -185,7 +185,7 @@ Halaman baru pertama yang harus dibuat atau di-rebuild serius adalah **`/jual-ac
   - brand unggulan dan tipe yang sering dicari
   - alur order: konsultasi PK → cek stok → estimasi kirim → opsi pemasangan
   - bukti pengiriman/proyek yang relevan
-  - FAQ “apakah RADJA AC punya toko di Semarang?” dengan jawaban jujur
+  - FAQ spesifik lokasi (BUKAN “punya toko di {Kota}?”): mis. “Berapa lama pengiriman unit dari Banyumas ke Semarang?”, “AC untuk kantor/ruko di kawasan bisnis Semarang, mulai dari mana?”, dan opsi DP/COD/transfer
 - Internal link:
   - `/katalog/ac-1-2-pk`
   - `/katalog/ac-inverter`
