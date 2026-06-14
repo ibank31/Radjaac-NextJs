@@ -54,7 +54,7 @@ export default function NotFound() {
                 <WhatsappLink
                   source="404 Page"
                   intent="konsultasi dari halaman 404"
-                  className="inline-flex items-center justify-center rounded-full bg-red-600 px-6 py-4 text-sm font-bold text-white shadow-lg shadow-red-600/20 transition hover:-translate-y-0.5 hover:bg-red-700"
+                  className="inline-flex items-center justify-center rounded-full bg-[#25D366] px-6 py-4 text-sm font-bold text-slate-950 shadow-lg shadow-[#25D366]/20 transition hover:-translate-y-0.5 hover:bg-[#20BA5A]"
                 >
                   Konsultasi via WhatsApp
                 </WhatsappLink>
