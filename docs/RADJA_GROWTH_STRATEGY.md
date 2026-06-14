@@ -152,6 +152,9 @@ Area lokal dan regional yang sudah ada di source repo terbaru:
 - `/jual-ac-kesugihan`
 - `/jual-ac-adipala`
 - `/jual-ac-kebumen`
+- `/jual-ac-gombong` (child Kebumen, ditulis gaya quoted-key di `areaItems`)
+- `/jual-ac-karanganyar-kebumen` (child Kebumen)
+- `/jual-ac-kutowinangun` (child Kebumen)
 - `/jual-ac-tegal`
 - `/jual-ac-banjarnegara`
 - `/jual-ac-sumbang` (child Banyumas, promoted 2026-06)

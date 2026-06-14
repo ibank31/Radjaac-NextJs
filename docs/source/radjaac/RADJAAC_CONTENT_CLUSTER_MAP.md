@@ -6,7 +6,7 @@ Needs monthly refresh
 
 ## Fungsi Dokumen
 
-Dokumen ini menetapkan sistem cluster agar RADJA AC tidak kembali ke pola artikel acak. Audit publik menunjukkan beberapa artikel baru sudah baik untuk intent edukasi murni—misalnya kalkulator PK, kamar 3x4, AC 1 PK, dan inverter vs low watt—tetapi juga ada artikel yang sangat dekat dengan query uang seperti “toko AC Purwokerto” dan “jual AC Banyumas”, sementara area money page untuk query tersebut juga sudah ada. Selain itu, beberapa artikel brand dan artikel legacy memang sudah redirect ke canonical brand/katalog/B2B pages. Karena itu, peta cluster ini memaksa setiap artikel baru menjadi feeder untuk money page yang tepat, atau tidak dibuat sama sekali. citeturn23search0turn24search7turn23search2turn7search1turn5search6turn6view0turn6view1turn8view0turn8view1turn8view2
+Dokumen ini menetapkan sistem cluster agar Radja AC tidak kembali ke pola artikel acak. Audit publik menunjukkan beberapa artikel baru sudah baik untuk intent edukasi murni—misalnya kalkulator PK, kamar 3x4, AC 1 PK, dan inverter vs low watt—tetapi juga ada artikel yang sangat dekat dengan query uang seperti “toko AC Purwokerto” dan “jual AC Banyumas”, sementara area money page untuk query tersebut juga sudah ada. Selain itu, beberapa artikel brand dan artikel legacy memang sudah redirect ke canonical brand/katalog/B2B pages. Karena itu, peta cluster ini memaksa setiap artikel baru menjadi feeder untuk money page yang tepat, atau tidak dibuat sama sekali. citeturn23search0turn24search7turn23search2turn7search1turn5search6turn6view0turn6view1turn8view0turn8view1turn8view2
 
 ## Prinsip Utama
 

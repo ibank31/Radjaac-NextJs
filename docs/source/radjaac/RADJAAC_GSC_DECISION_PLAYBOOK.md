@@ -1,6 +1,6 @@
 # RADJAAC_GSC_DECISION_PLAYBOOK.md
 
-## RADJAAC GSC Decision Playbook
+## Radja AC GSC Decision Playbook
 
 File: `RADJAAC_GSC_DECISION_PLAYBOOK.md`
 
@@ -10,13 +10,13 @@ Active. Last aligned with live owner audit and URL Inspection on 2026-06-04.
 
 ### Fungsi Dokumen
 
-Dokumen ini menjadi SOP membaca Google Search Console untuk RADJA AC setelah migrasi Next.js, redirect legacy, penambahan halaman area, katalog, dan ekspansi B2B. Dasarnya: tidak semua `Not indexed` adalah masalah, redirect source memang tidak diindeks, URL Inspection dipakai untuk URL spesifik, request indexing hanya untuk sedikit URL prioritas, dan sitemap hanyalah sinyal discovery, bukan jaminan ranking/indexing cepat.
+Dokumen ini menjadi SOP membaca Google Search Console untuk Radja AC setelah migrasi Next.js, redirect legacy, penambahan halaman area, katalog, dan ekspansi B2B. Dasarnya: tidak semua `Not indexed` adalah masalah, redirect source memang tidak diindeks, URL Inspection dipakai untuk URL spesifik, request indexing hanya untuk sedikit URL prioritas, dan sitemap hanyalah sinyal discovery, bukan jaminan ranking/indexing cepat.
 
 GSC Performance harus dibaca sebagai pasangan query–page: klik, impresi, CTR, average position, dan landing page yang dipilih Google.
 
 ### Source of Truth untuk GSC / Rendering
 
-Urutan kebenaran saat menilai indexing/rendering RADJA AC:
+Urutan kebenaran saat menilai indexing/rendering Radja AC:
 
 1. GSC URL Inspection live untuk URL final `https://www.radjaac.com/...`.
 2. `curl` terminal owner: status code, redirect chain, canonical, title, HTML marker Next.js seperti `__next_f`, `_next/static`, dan `next-size-adjust`.
@@ -28,7 +28,7 @@ Jika parser AI menyebut halaman kosong/CSR/SPA lama tetapi `curl` dan GSC menunj
 
 ### Current GSC Status — 2026-06-04
 
-Klaim `de-index total` tidak berlaku untuk kondisi RADJA AC saat audit ini.
+Klaim `de-index total` tidak berlaku untuk kondisi Radja AC saat audit ini.
 
 URL Inspection menunjukkan URL berikut sudah `URL ada di Google` dan `Halaman diindeks`:
 
@@ -99,7 +99,7 @@ Keputusan operasional:
 - Perlakukan redirect lama yang disengaja sebagai normal, selama target akhirnya benar dan internal link sudah diarahkan ke target final.
 - Jangan spam request indexing; request berulang untuk URL yang sama tidak mempercepat crawl.
 - Jika CTR rendah pada halaman prioritas, audit bukan hanya `<title>`, tetapi juga H1, hero copy, intro, dan CTA pertama.
-- Gunakan threshold internal 28 hari sebagai dasar keputusan strategis. Ini asumsi operasional RADJA AC, bukan aturan Google.
+- Gunakan threshold internal 28 hari sebagai dasar keputusan strategis. Ini asumsi operasional Radja AC, bukan aturan Google.
 - Data 24 jam cocok untuk debugging awal, bukan keputusan ekspansi.
 
 ### Tabel Keputusan
@@ -195,7 +195,7 @@ Semua URL di atas adalah legacy/redirect context. Inspect target final, bukan so
 
 ### Metrik Minimum Pengambilan Keputusan
 
-Semua angka di bawah adalah asumsi operasional RADJA AC, untuk dikalibrasi ulang setelah data live tersedia.
+Semua angka di bawah adalah asumsi operasional Radja AC, untuk dikalibrasi ulang setelah data live tersedia.
 
 | Trigger | Threshold 28 hari | Keputusan |
 |---|---|---|

@@ -6,14 +6,14 @@
 Needs monthly refresh
 
 **Fungsi Dokumen**  
-Menentukan urutan kota/area di Pulau Jawa yang paling layak dikerjakan untuk SEO dan lead WhatsApp RADJA AC, sambil menjaga posisi bisnis tetap jujur: basis fisik di Banyumas, tetapi melayani kebutuhan AC kota-kota target lewat konsultasi PK, cek stok, pengiriman unit, dan opsi pemasangan.
+Menentukan urutan kota/area di Pulau Jawa yang paling layak dikerjakan untuk SEO dan lead WhatsApp Radja AC, sambil menjaga posisi bisnis tetap kuat dan jujur: showroom dan gudang fisik di Banyumas, melayani kebutuhan AC kota-kota target lewat konsultasi PK, cek stok, pengiriman unit, dan opsi pemasangan.
 
 **Prinsip Utama**
 
 - Tier adalah **urutan build SEO**, bukan ranking omzet nasional.
 - Kota dekat Banyumas dan koridor DIY–Jawa Tengah dinaikkan lebih dulu bila demand cukup dan risiko logistik lebih rendah.
 - Kota besar dengan demand raksasa tetapi kompetisi lokal sangat padat masuk **Tier 2**, bukan karena jelek, tetapi karena lebih berat untuk dimenangkan sekarang.
-- Untuk kota yang tidak punya toko fisik RADJA AC, positioning aman adalah **“cek stok, konsultasi PK, pengiriman unit, dan opsi pemasangan ke [kota]”**, bukan “toko AC [kota]”.
+- Untuk kota yang tidak punya toko fisik Radja AC, positioning aman dan tetap kuat adalah **“cek stok, konsultasi PK, pengiriman unit, dan opsi pemasangan ke [kota]”**, bukan “toko AC [kota]”.
 - Tier 3 cukup disebut di halaman area induk, halaman B2B, atau bagian cakupan layanan sampai proof/logistik siap.
 
 Tingkat prioritas di bawah disusun dari gabungan skala pasar Jawa, sinyal hospitality/pendidikan di kota-kota kunci, dan snapshot SERP. Kota besar seperti Yogyakarta, Bandung, Surabaya, Jakarta, Bekasi, dan Tangerang memperlihatkan kompetisi yang padat dari dealer lokal/authorized dealer; sebaliknya, SERP Cilacap, Kebumen, Tegal, Magelang, dan Cirebon masih lebih terfragmentasi sehingga lebih winnable untuk fase awal. Yogyakarta juga kuat untuk segmen kost dan hospitality karena APK perguruan tinggi DIY sangat tinggi dan okupansi hotelnya tetap aktif; Semarang dan Surakarta juga punya sinyal pendidikan/hotel yang jelas. citeturn11search0turn7search0turn6search15turn7search6turn7search9turn7search15turn18search8turn18search16turn20search0turn20search5turn18search10turn21search7turn21search10turn21search19turn39search0turn39search1
@@ -49,7 +49,7 @@ Keputusan paling penting dari tabel ini: **Jabodetabek, Bandung, dan Surabaya se
 - Buat halaman area baru **hanya** untuk Tier 1 lebih dulu.
 - Tier 2 baru dinaikkan setelah template area page, internal link, dan CTA WA Tier 1 sudah stabil.
 - Tier 3 tidak dibuat sebagai halaman sendiri kecuali ada bukti kebutuhan lead atau proof proyek.
-- Untuk kota berisiko klaim lokal tinggi, selalu tampilkan basis Banyumas dengan bahasa netral, bukan defensif.
+- Untuk kota berisiko klaim lokal tinggi, selalu tampilkan basis Banyumas dengan bahasa percaya diri dan berbasis bukti, bukan defensif.
 - Satu kota = satu sudut intent utama; jangan tumpuk rumah, hotel, proyek, dan instansi menjadi halaman yang kabur.
 - Kota yang lebih cocok untuk B2B berat boleh disebut dulu di halaman segmen proyek sebelum dibuat area page.
 

@@ -15,18 +15,18 @@ Aturan keras ini dikunci oleh tiga sumber risiko utama: pedoman Google Business 
 - Akurasi lebih penting daripada dramatisasi lokal.
 - Struktur website harus mengikuti intent dan money page, bukan kebiasaan bikin artikel sebanyak mungkin.
 - Semua perubahan besar harus memikirkan redirect, sitemap, indexing, internal link, dan dampak ke lead WA.
-- Assistant/Codex boleh mempercepat eksekusi, tetapi tidak boleh mengubah arah bisnis.
+- Assistant/Codex boleh mempercepat eksekusi, tetapi tidak boleh mengubah arah bisnis Radja AC.
 
-## Aturan Positioning RADJA AC
+## Aturan Positioning Radja AC
 
-- Jangan memakai bahasa yang membuat RADJA AC terlihat kecil, defensif, atau hanya cocok untuk order kecil.
-- Hindari istilah user-facing dan source-planning seperti `proyek kecil`, `proyek ringan`, `lead murah`, `harga-only`, `SERP lemah`, `thin content`, atau framing yang merendahkan kapasitas RADJA AC.
-- Gunakan bahasa yang lebih kuat dan tetap jujur: `supplier AC original multi-brand`, `pengadaan`, `partai besar`, `banyak unit`, `proyek`, `hotel`, `guest house`, `hospitality`, `kantor`, `ruko`, `kontraktor`, dan `developer`.
-- Klaim kuat harus berbasis bukti: Proshop Gree, sertifikat Authorized Dealer yang tersedia, showroom/gudang nyata, stok fisik, dokumentasi pengiriman, dan dokumentasi pemasangan.
-- RADJA AC boleh diposisikan sebagai supplier AC original multi-brand untuk rumah, toko, ruko, kantor, hotel, kontraktor, developer, proyek, pengadaan, partai besar, dan banyak unit.
-- Untuk copy user-facing, jangan memakai kata `berbasis`; gunakan kalimat yang lebih familiar seperti `Showroom dan gudang RADJA AC ada di Banyumas` atau `RADJA AC melayani pengiriman dan opsi pemasangan dari Banyumas`.
+- Posisikan Radja AC kuat, tegas, dan percaya diri — tegas tapi tidak berlebihan dan tetap jujur.
+- Hindari istilah user-facing dan source-planning seperti `proyek kecil`, `proyek ringan`, `lead murah`, `harga-only`, `SERP lemah`, `thin content`, atau framing apa pun yang merendahkan kapasitas Radja AC.
+- Gunakan bahasa yang kuat dan tetap jujur: `supplier AC original multi-brand`, `pengadaan`, `partai besar`, `banyak unit`, `proyek`, `hotel`, `guest house`, `hospitality`, `kantor`, `ruko`, `kontraktor`, dan `developer`.
+- Klaim kuat harus berbasis bukti nyata yang sudah dipakai live: Proshop Gree resmi, sertifikat Authorized Dealer (Daikin, Midea, Hisense, Sansui), showroom dan gudang fisik, stok fisik yang bisa dicek, dokumentasi pengiriman, dan dokumentasi pemasangan.
+- Radja AC diposisikan sebagai supplier AC original multi-brand untuk rumah, toko, ruko, kantor, hotel, guest house, hospitality, kontraktor, developer, proyek, pengadaan, partai besar, dan banyak unit.
+- Untuk copy user-facing, jangan memakai kata `berbasis`; gunakan kalimat yang lebih familiar seperti `Showroom dan gudang Radja AC ada di Banyumas` atau `Radja AC melayani pengiriman dan opsi pemasangan dari Banyumas`.
 - Jangan menulis `distributor resmi` atau `dealer resmi {kota}` bila bukti resminya belum spesifik untuk klaim tersebut. Untuk brand yang sudah punya bukti, gunakan wording aman seperti `didukung Proshop Gree` atau `dokumen/sertifikat Authorized Dealer tersedia`.
-- Jangan membuat RADJA AC terlihat lebih kecil dari kompetitor. Jika menyebut kompetitor besar, respons positioning RADJA AC harus tetap percaya diri: supplier multi-brand, stok fisik, pengadaan, pengiriman, opsi pemasangan, dan bukti aktivitas nyata.
+- Saat menyebut kompetitor besar, jawab dengan positioning Radja AC yang percaya diri dan berbasis bukti: supplier multi-brand, showroom/gudang fisik, stok fisik, pengadaan, pengiriman, opsi pemasangan, dan dokumentasi aktivitas nyata.
 
 
 **Tabel Keputusan**

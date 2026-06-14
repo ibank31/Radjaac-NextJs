@@ -1,10 +1,10 @@
 # RADJA AC Working Workflow
 
-Dokumen ini adalah pintu utama untuk kerja teknis, SEO, tracking, GSC, dan deploy RADJA AC.
+Dokumen ini adalah pintu utama untuk kerja teknis, SEO, tracking, GSC, dan deploy Radja AC.
 
 ## Urutan Baca Wajib Assistant / Codex
 
-Setiap sesi kerja RADJA AC wajib dimulai dari urutan ini:
+Setiap sesi kerja Radja AC wajib dimulai dari urutan ini:
 
 1. `docs/RADJA_WORKFLOW.md`
 2. `docs/source/radjaac/RADJAAC_DO_NOT_VIOLATE_RULES.md`
@@ -24,13 +24,13 @@ Aturan ini wajib karena `RADJAAC_DO_NOT_VIOLATE_RULES.md` memuat guardrail posit
 
 ## Guardrail Positioning Singkat
 
-RADJA AC harus diposisikan kuat dan tetap jujur sebagai supplier AC original multi-brand untuk rumah, toko, ruko, kantor, hotel, guest house, hospitality, kontraktor, developer, proyek, pengadaan, partai besar, dan banyak unit.
+Radja AC diposisikan kuat, tegas, dan tetap jujur sebagai supplier AC original multi-brand untuk rumah, toko, ruko, kantor, hotel, guest house, hospitality, kontraktor, developer, proyek, pengadaan, partai besar, dan banyak unit.
 
-Jangan memakai framing yang membuat RADJA AC terlihat kecil, defensif, atau hanya cocok untuk order kecil. Daftar istilah yang wajib dihindari ada di `RADJAAC_DO_NOT_VIOLATE_RULES.md`.
+Daftar istilah yang wajib dihindari ada di `RADJAAC_DO_NOT_VIOLATE_RULES.md`.
 
-Klaim kuat harus berbasis bukti: Proshop Gree, sertifikat Authorized Dealer yang tersedia, showroom/gudang nyata, stok fisik, dokumentasi pengiriman, dan dokumentasi pemasangan.
+Klaim kuat harus berbasis bukti yang nyata dan sudah dipakai live: Proshop Gree resmi, sertifikat Authorized Dealer (Daikin, Midea, Hisense, Sansui), showroom dan gudang fisik, stok fisik yang bisa dicek, dokumentasi pengiriman, dan dokumentasi pemasangan.
 
-Untuk copy user-facing, gunakan kalimat familiar seperti `Showroom dan gudang RADJA AC ada di Banyumas` atau `RADJA AC melayani pengiriman dan opsi pemasangan dari Banyumas`.
+Untuk copy user-facing, gunakan kalimat familiar seperti `Showroom dan gudang Radja AC ada di Banyumas` atau `Radja AC melayani pengiriman dan opsi pemasangan dari Banyumas`.
 
 ## Source of Truth
 
@@ -296,8 +296,7 @@ Gunakan:
 
 ## WhatsApp Tracking
 
-GA4 Measurement ID aktif:
-`G-FVQSY68276`
+GA4 Measurement ID tidak di-hardcode di repo. `components/analytics/GoogleAnalytics.jsx` membacanya dari environment variable `NEXT_PUBLIC_GA_MEASUREMENT_ID`, dan analytics hanya aktif pada hostname produksi `www.radjaac.com`.
 
 Repo memakai gtag langsung, bukan GTM container.
 

@@ -8,7 +8,7 @@ Active roadmap with post-migration gate. Refreshed 2026-06-04.
 
 Menentukan halaman katalog kapasitas/tipe yang harus dibangun setelah struktur katalog dasar yang sekarang ada, sekaligus membagi jelas mana intent yang harus dimiliki katalog, mana yang harus dimiliki kalkulator PK, dan mana yang sebaiknya ditangani artikel pendukung.
 
-RADJA AC sudah punya fondasi problem-solving melalui `/kalkulator-pk-ac` dan artikel seputar ukuran ruangan/kapasitas. Katalog komersial yang ada juga mulai menampung kebutuhan kantor, usaha, dan banyak unit. Langkah berikutnya bukan menambah artikel transaksional, tetapi memecah katalog ke halaman exact-capacity dan commercial-type yang lebih dekat ke lead WhatsApp — dengan jadwal bertahap agar tidak mengganggu stabilisasi GSC pasca migrasi.
+Radja AC sudah punya fondasi problem-solving melalui `/kalkulator-pk-ac` dan artikel seputar ukuran ruangan/kapasitas. Katalog komersial yang ada juga mulai menampung kebutuhan kantor, usaha, dan banyak unit. Langkah berikutnya bukan menambah artikel transaksional, tetapi memecah katalog ke halaman exact-capacity dan commercial-type yang lebih dekat ke lead WhatsApp — dengan jadwal bertahap agar tidak mengganggu stabilisasi GSC pasca migrasi.
 
 ## Kondisi Repo Saat Ini
 
