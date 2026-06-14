@@ -312,7 +312,7 @@ export default function PengadaanAcPage() {
                 <p className="mt-3 text-sm leading-7 text-slate-600">{item.desc}</p>
                 <div className="mt-5 flex flex-wrap gap-2">
                   {item.painTags.map((tag) => (
-                    <span key={tag} className="rounded-full bg-red-50 px-3 py-1 text-xs font-bold text-red-700">
+                    <span key={tag} className={typography.chipDangerSoft}>
                       {tag}
                     </span>
                   ))}
