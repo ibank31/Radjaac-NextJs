@@ -151,8 +151,8 @@ const certificates = [
 
 function SectionBadge({ children }) {
   return (
-    <p className={`inline-flex items-center gap-2 rounded-full border border-brand-red/20 bg-brand-red/5 px-4 py-1.5 ${typography.eyebrow} text-brand-red`}>
-      <span className="h-1.5 w-1.5 rounded-full bg-brand-red" aria-hidden="true" />
+    <p className={`inline-flex items-center gap-2 rounded-full bg-brand-red px-4 py-1.5 ${typography.eyebrow} text-white`}>
+      <span className="h-1.5 w-1.5 rounded-full bg-white" aria-hidden="true" />
       {children}
     </p>
   );

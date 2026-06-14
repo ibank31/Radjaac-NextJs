@@ -35,7 +35,7 @@ export default function AreaProcess({ item, processSteps }) {
               className="rounded-[1.45rem] border border-slate-200 bg-white p-5"
             >
               <div className="mb-3 flex items-center gap-3">
-                <span className="flex h-9 w-9 items-center justify-center rounded-full bg-blue-300 text-sm font-bold text-slate-950">
+                <span className="flex h-9 w-9 items-center justify-center rounded-full bg-blue-600 text-sm font-bold text-white">
                   {index + 1}
                 </span>
                 <h3 className={`${typography.cardTitle} text-slate-950`}>{title}</h3>

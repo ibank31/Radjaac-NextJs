@@ -110,7 +110,7 @@ export default function PremiumBrandPage({ content, item, faqItems, structuredDa
 
             <div className="mb-4 mt-2 flex flex-col gap-3 sm:flex-row sm:flex-wrap">
               <WhatsappLink
-                className="inline-flex items-center justify-center rounded-full bg-[#25D366] px-6 py-4 font-extrabold text-slate-950 shadow-[0_18px_42px_rgba(37,211,102,0.20)] transition-all duration-200 hover:-translate-y-0.5 hover:bg-[#20BA5A] hover:shadow-[0_22px_50px_rgba(37,211,102,0.26)]"
+                className="inline-flex items-center justify-center rounded-full bg-[#25D366] px-6 py-4 font-bold text-slate-950 shadow-[0_18px_42px_rgba(37,211,102,0.20)] transition-all duration-200 hover:-translate-y-0.5 hover:bg-[#20BA5A] hover:shadow-[0_22px_50px_rgba(37,211,102,0.26)]"
                 source={`Brand ${item.name} - Hero`}
                 intent={item.waIntent}
                 brand={item.waBrand}
@@ -270,7 +270,7 @@ export default function PremiumBrandPage({ content, item, faqItems, structuredDa
                 </div>
 
                 <WhatsappLink
-                  className="mt-auto inline-flex items-center justify-center rounded-full bg-[#25D366] px-5 py-3 text-sm font-extrabold text-slate-950 shadow-[0_14px_34px_rgba(37,211,102,0.18)] transition hover:-translate-y-0.5 hover:bg-[#20BA5A]"
+                  className="mt-auto inline-flex items-center justify-center rounded-full bg-[#25D366] px-5 py-3 text-sm font-bold text-slate-950 shadow-[0_14px_34px_rgba(37,211,102,0.18)] transition hover:-translate-y-0.5 hover:bg-[#20BA5A]"
                   source={`Brand ${item.name} - ${product.title}`}
                   intent={`cek stok ${product.title}`}
                   brand={item.waBrand}
@@ -322,7 +322,7 @@ export default function PremiumBrandPage({ content, item, faqItems, structuredDa
             <h3 className={`mb-2 ${typography.cardTitle} text-slate-950`}>{pk.cta.title}</h3>
             <p className={`mb-5 max-w-2xl ${typography.body} text-slate-600`}>{pk.cta.description}</p>
             <WhatsappLink
-              className="inline-flex w-full items-center justify-center rounded-full bg-[#25D366] px-6 py-4 font-extrabold text-slate-950 shadow-[0_18px_42px_rgba(37,211,102,0.20)] transition hover:-translate-y-0.5 hover:bg-[#20BA5A] sm:w-auto"
+              className="inline-flex w-full items-center justify-center rounded-full bg-[#25D366] px-6 py-4 font-bold text-slate-950 shadow-[0_18px_42px_rgba(37,211,102,0.20)] transition hover:-translate-y-0.5 hover:bg-[#20BA5A] sm:w-auto"
               source={`Brand ${item.name} - Panduan PK`}
               intent={item.waIntent}
               brand={item.waBrand}
@@ -367,7 +367,7 @@ export default function PremiumBrandPage({ content, item, faqItems, structuredDa
           <h2 className={`mx-auto mb-5 max-w-3xl ${typography.sectionTitle} text-slate-950`}>{closing.title}</h2>
           <p className="mx-auto mb-7 max-w-2xl text-sm leading-7 text-slate-700">{closing.description}</p>
           <WhatsappLink
-            className="inline-flex items-center justify-center rounded-full bg-[#25D366] px-6 py-4 font-extrabold text-slate-950 shadow-[0_18px_42px_rgba(37,211,102,0.20)] transition hover:-translate-y-0.5 hover:bg-[#20BA5A]"
+            className="inline-flex items-center justify-center rounded-full bg-[#25D366] px-6 py-4 font-bold text-slate-950 shadow-[0_18px_42px_rgba(37,211,102,0.20)] transition hover:-translate-y-0.5 hover:bg-[#20BA5A]"
             source={`Brand ${item.name} - Closing CTA`}
             intent={item.waIntent}
             brand={item.waBrand}
