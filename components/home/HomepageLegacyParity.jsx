@@ -202,7 +202,7 @@ function HomeHero() {
 
           <div className="mt-7 flex flex-col gap-3 sm:flex-row sm:flex-wrap">
             <WhatsappLink
-              className="inline-flex w-full items-center justify-center rounded-full bg-red-600 px-7 py-4 text-base font-bold text-white shadow-xl shadow-red-600/20 transition hover:-translate-y-0.5 hover:bg-red-700 sm:w-auto"
+              className="inline-flex w-full items-center justify-center rounded-full bg-[#25D366] px-7 py-4 text-base font-bold text-slate-950 shadow-xl shadow-[#25D366]/20 transition hover:-translate-y-0.5 hover:bg-[#20BA5A] sm:w-auto"
               source="Homepage Hero"
               intent="konsultasi AC yang cocok, cek PK, stok, pengiriman, dan pemasangan"
             >
@@ -632,7 +632,7 @@ function HomeClosingCta() {
 
           <div className="rounded-[1.5rem] border border-white/15 bg-white/5 p-5">
             <WhatsappLink
-              className="inline-flex w-full items-center justify-center rounded-full bg-red-600 px-6 py-4 text-sm font-bold text-white shadow-lg shadow-red-600/20 transition hover:-translate-y-0.5 hover:bg-red-700"
+              className="inline-flex w-full items-center justify-center rounded-full bg-[#25D366] px-6 py-4 text-sm font-bold text-slate-950 shadow-lg shadow-[#25D366]/20 transition hover:-translate-y-0.5 hover:bg-[#20BA5A]"
               source="Homepage Closing CTA"
               intent="konsultasi kebutuhan AC dari homepage"
             >

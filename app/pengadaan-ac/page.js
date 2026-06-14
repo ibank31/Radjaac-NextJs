@@ -162,7 +162,7 @@ export default function PengadaanAcPage() {
 
             <div className="mt-8 flex flex-col gap-3 sm:flex-row sm:flex-wrap">
               <WhatsappLink
-                className="inline-flex items-center justify-center rounded-2xl bg-red-600 px-7 py-4 text-base font-bold text-white shadow-xl shadow-red-600/20 transition hover:-translate-y-0.5 hover:bg-red-700"
+                className="inline-flex items-center justify-center rounded-2xl bg-[#25D366] px-7 py-4 text-base font-bold text-slate-950 shadow-xl shadow-[#25D366]/20 transition hover:-translate-y-0.5 hover:bg-[#20BA5A]"
                 source="Pengadaan AC - Hero"
                 intent="kirim kebutuhan pengadaan AC banyak unit: jenis bangunan, jumlah unit, lokasi, daya listrik, dan timeline kebutuhan"
                 pageType="procurement"
@@ -526,7 +526,7 @@ export default function PengadaanAcPage() {
               ))}
             </ul>
             <WhatsappLink
-              className="mt-6 inline-flex w-full justify-center rounded-2xl bg-red-600 px-6 py-4 font-bold text-white shadow-lg shadow-red-600/20 transition hover:-translate-y-0.5 hover:bg-red-700"
+              className="mt-6 inline-flex w-full justify-center rounded-2xl bg-[#25D366] px-6 py-4 font-bold text-slate-950 shadow-lg shadow-[#25D366]/20 transition hover:-translate-y-0.5 hover:bg-[#20BA5A]"
               source="Pengadaan AC - Final CTA"
               intent="kirim data lengkap pengadaan AC banyak unit: jenis bangunan, jumlah unit, lokasi, daya listrik, timeline, dan kebutuhan pemasangan"
               pageType="procurement"

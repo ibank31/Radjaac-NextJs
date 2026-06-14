@@ -330,7 +330,7 @@ export default function HeaderClient() {
 
         <div className="hidden items-center gap-3 md:flex">
           <WhatsappLink
-            className="inline-flex items-center justify-center rounded-full bg-brand-red px-5 py-2.5 text-sm font-bold text-white shadow-[0_14px_34px_rgba(214,40,40,0.24)] transition-all duration-200 hover:-translate-y-0.5 hover:bg-brand-red-dark hover:shadow-[0_18px_40px_rgba(214,40,40,0.30)]"
+            className="inline-flex items-center justify-center rounded-full bg-[#25D366] px-5 py-2.5 text-sm font-bold text-slate-950 shadow-[0_14px_34px_rgba(37,211,102,0.24)] transition-all duration-200 hover:-translate-y-0.5 hover:bg-[#20BA5A] hover:shadow-[0_18px_40px_rgba(37,211,102,0.30)]"
             source="Header"
             intent="konsultasi beli AC"
           >
@@ -410,7 +410,7 @@ export default function HeaderClient() {
 
               <div className="mt-3 border-t border-blue-100 pt-3">
                 <WhatsappLink
-                  className="flex w-full items-center justify-center rounded-2xl bg-brand-red px-4 py-3.5 text-sm font-bold text-white shadow-[0_14px_34px_rgba(214,40,40,0.24)] transition-all duration-200 hover:-translate-y-0.5 hover:bg-brand-red-dark hover:shadow-[0_18px_40px_rgba(214,40,40,0.30)]"
+                  className="flex w-full items-center justify-center rounded-2xl bg-[#25D366] px-4 py-3.5 text-sm font-bold text-slate-950 shadow-[0_14px_34px_rgba(37,211,102,0.24)] transition-all duration-200 hover:-translate-y-0.5 hover:bg-[#20BA5A] hover:shadow-[0_18px_40px_rgba(37,211,102,0.30)]"
                   source="Mobile Header"
                   intent="konsultasi beli AC"
                   onClick={() => handleToggleMenu()}
