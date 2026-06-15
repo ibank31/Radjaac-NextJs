@@ -22,7 +22,7 @@ function SectionHeading({ eyebrow, title, description }) {
 }
 
 export default function PanasonicBrandPage({ item, faqItems, structuredData }) {
-  const { hero, warranty, price, character, recommendations, checklist, useCase, faq, closing } = content;
+  const { hero, warranty, price, character, recommendations, checklist, useCase, internalLinks, faq, closing } = content;
 
   return (
     <main className="min-h-screen overflow-hidden bg-[#f7fbff] text-slate-950">
@@ -185,6 +185,28 @@ export default function PanasonicBrandPage({ item, faqItems, structuredData }) {
           ))}
         </div>
       </section>
+
+      {/* BACA JUGA */}
+      {internalLinks ? (
+        <section className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8 lg:py-14">
+          <SectionHeading eyebrow={internalLinks.eyebrow} title={internalLinks.title} description={internalLinks.description} />
+          <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-4">
+            {internalLinks.links.map((link) => (
+              <Link
+                key={`${link.title}-${link.href}`}
+                href={link.href}
+                className="group rounded-[1.35rem] border border-slate-200 bg-white p-5 shadow-sm transition hover:-translate-y-1 hover:border-blue-200 hover:bg-blue-50"
+              >
+                <h3 className={`mb-2 ${typography.cardTitle} text-slate-950`}>{link.title}</h3>
+                <p className="mb-4 text-sm leading-6 text-slate-600">{link.description}</p>
+                <span className="inline-flex items-center gap-2 text-sm font-bold text-blue-700 group-hover:text-blue-800">
+                  Buka halaman <span aria-hidden="true">→</span>
+                </span>
+              </Link>
+            ))}
+          </div>
+        </section>
+      ) : null}
 
       {/* FAQ */}
       <section id="faq" className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8 lg:py-14">
