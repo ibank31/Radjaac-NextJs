@@ -90,9 +90,9 @@ export const articleItems = [
     slug: "sharp-bey-purwokerto",
     path: routes.artikelSharpBeyPurwokerto,
     cluster: "brand-evaluation",
-    role: "pillar",
+    role: "supporting",
     intent: "commercial",
-      parentSlug: null,
+    parentSlug: "gree-vs-daikin-untuk-rumah",
     updatedAt: "2026-06-01",
     moneyLinks: [
       ["Jual AC Purwokerto", routes.jualAcPurwokerto, "Pusat konsultasi beli AC, cek brand, stok, harga, dan rekomendasi PK."],
@@ -1110,9 +1110,9 @@ export const articleItems = [
     slug: "biaya-servis-ac-vs-ganti-baru",
     path: routes.artikelBiayaServisVsGantiBaru,
     cluster: "troubleshooting",
-    role: "pillar",
+    role: "supporting",
     intent: "commercial",
-    parentSlug: null,
+    parentSlug: "ac-kurang-dingin-belum-tentu-freon-habis",
     updatedAt: "2026-06-13",
     moneyLinks: [
       ["Katalog AC", routes.katalog, "Cek pilihan unit baru setelah kamu tahu kapan waktunya ganti."],
