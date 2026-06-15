@@ -126,21 +126,21 @@ export const cilacapAreas = [
       path: routes.jualAcKroya,
       areaName: "Kroya",
       localLandmarks: [
-        "Stasiun Kroya (simpul kereta jalur selatan)",
-        "Pasar Kroya",
-        "Ruko dan pertokoan sekitar stasiun",
-        "Jalur Buntu–Kroya–Cilacap",
-        "Permukiman dan persawahan sekitar",
+        "Stasiun Kroya (simpul kereta jalur selatan Jawa)",
+        "Pasar Kroya dan deretan ruko di jalan utama",
+        "Pertigaan Buntu–Kroya–Cilacap (jalur lintas selatan)",
+        "Kawasan kos dan hunian sekitar stasiun",
+        "Pabrik dan gudang di koridor industri Kroya–Cilacap",
       ],
       localBenefits: [
-        "Toko dan ruko di sekitar Pasar dan Stasiun Kroya yang ramai cepat gerah, jadi butuh AC yang cepat dingin",
-        "AC rumah dan AC kos banyak pilih low watt menyesuaikan daya listrik rumahan",
-        "Posisi simpul transit memudahkan penjadwalan pengiriman unit",
+        "Toko dan ruko di sekitar Stasiun dan Pasar Kroya yang ramai penumpang dan pembeli cepat gerah saat siang, sehingga AC ruang jualan jadi kebutuhan nyata bukan sekadar kenyamanan",
+        "Kos dan hunian di sekitar stasiun banyak dihuni pekerja dan penumpang transit yang butuh kamar adem; low watt jadi pilihan agar daya per kamar aman",
+        "Pabrik dan gudang di koridor Kroya–Cilacap kadang butuh pengadaan beberapa unit untuk ruang kerja dan kantor lapangan dengan jadwal yang mengikuti operasional",
       ],
       localCases: [
-        ["Toko & ruko sekitar stasiun/pasar", "AC ruang jualan yang ramai agar pembeli betah."],
-        ["Rumah & kos", "Pemasangan AC kamar dengan pilihan low watt sesuai daya."],
-        ["Kantor kecil & usaha", "Pemilihan unit ruang kerja dengan pengiriman ke alamat Kroya."],
+        ["Toko & ruko sekitar stasiun", "AC ruang jualan yang ramai penumpang dan pembeli agar betah; kapasitas dihitung dari luas dan lalu lalang."],
+        ["Kos & hunian transit", "Pemasangan AC kamar dengan low watt agar daya per kamar aman saat banyak unit menyala."],
+        ["Kantor & gudang industri", "Pemilihan unit ruang kerja dan kantor lapangan di koridor Kroya–Cilacap."],
       ],
       label: "Jual AC Kroya",
       title: "Jual AC Kroya untuk Rumah, Toko & Usaha — Radja AC",
@@ -151,7 +151,7 @@ export const cilacapAreas = [
       intro:
         "Butuh AC di Kroya untuk rumah, toko, ruko, kantor, usaha, atau banyak unit? Tim Radja AC cek kebutuhan PK, daya listrik, stok brand, pengiriman, dan opsi pemasangan dari data awal yang dikirim.",
       localContext:
-        "Kroya adalah kota dengan Stasiun Kroya—simpul kereta penting di jalur selatan—jadi denyutnya transit dan dagang. Pembeli AC banyak dari toko dan ruko di sekitar pasar dan stasiun, rumah warga, serta kos. Toko yang ramai di dekat stasiun dan pasar cepat gerah saat siang. Untuk jual AC Kroya, unit dikirim ke alamat lalu dipasang, dengan pembayaran DP, COD, atau transfer setelah stok dipastikan.",
+        "Kroya adalah simpul transit penting di jalur selatan Jawa—Stasiun Kroya melayani kereta lintas Jawa sehingga denyut ekonominya campuran antara dagang dan transit. Toko dan ruko di sekitar Pasar Kroya dan stasiun ramai penumpang dan pembeli, cepat gerah saat siang karena pintu sering terbuka. Kos dan hunian di sekitar stasiun banyak dihuni pekerja dan penumpang transit yang butuh kamar adem. Di koridor Kroya–Cilacap juga ada pabrik dan gudang yang kadang butuh pengadaan beberapa unit untuk ruang kerja. Untuk jual AC Kroya, unit dikirim ke alamat lalu dipasang, dengan pembayaran DP, COD, atau transfer setelah stok dipastikan.",
       coverageNote:
         "Showroom dan gudang Radja AC berada di Banyumas. Kebutuhan AC area Kroya dilayani dengan konsultasi PK, cek stok unit, pengiriman, serta opsi pemasangan sesuai alamat, jumlah unit, dan jadwal.",
       keywordVariants: [
@@ -177,20 +177,20 @@ export const cilacapAreas = [
       ],
       localFaq: [
         [
-          "AC untuk toko ramai di sekitar Pasar/Stasiun Kroya, pilih apa?",
-          "Ruang yang ramai dan pintunya sering kebuka butuh kapasitas sesuai luas dan jumlah pengunjung. Sebutkan ukuran toko dan jam ramai untuk cek unit dan stok.",
+          "AC untuk toko atau ruko di sekitar Stasiun Kroya yang ramai penumpang, pilih apa?",
+          "Ruang yang ramai penumpang dan pintunya sering terbuka butuh kapasitas sedikit lebih besar dari kamar biasa agar dingin merata. Sebutkan ukuran toko dan jam ramai untuk cek unit dan stok.",
         ],
         [
-          "AC rumah atau AC kos di Kroya, hemat listrik?",
-          "Rumah dan kos dengan daya 900–1300 watt banyak pakai low watt agar listrik tidak turun. Sebutkan daya dan ukuran kamar untuk cek pilihan unit.",
+          "Kos di sekitar Stasiun Kroya banyak penghuni, AC-nya bagaimana?",
+          "Kos yang banyak kamarnya sebaiknya pakai low watt tipe seragam agar daya total bangunan tidak turun saat banyak unit menyala. Sebutkan jumlah kamar dan daya listrik total untuk arahan.",
         ],
         [
-          "Bisa kirim dan pasang AC ke alamat di Kroya?",
-          "Bisa. Unit dikirim ke alamat lalu pemasangan dijadwalkan; posisi Kroya sebagai simpul transit memudahkan penjadwalan. Sebutkan alamat dan jumlah unit.",
+          "Bisa pengadaan beberapa unit untuk kantor atau gudang di koridor Kroya–Cilacap?",
+          "Bisa. Sebutkan jumlah ruang, ukuran, dan target waktu; unit disiapkan dari stok lalu pengiriman dan pemasangan dijadwalkan mengikuti operasional. Pembayaran bisa DP atau transfer.",
         ],
         [
-          "Pembayaran AC di Kroya bisa DP atau transfer?",
-          "Bisa. Banyak pembeli ambil DP dulu lalu pelunasan transfer atau COD saat unit datang dan stok dipastikan.",
+          "Bisa kirim dan pasang AC ke alamat di Kroya atau sekitar pertigaan Buntu?",
+          "Bisa. Unit dikirim ke alamat di Kroya lalu pemasangan dijadwalkan sesuai akses lokasi. Sebutkan alamat dan jumlah unit untuk perkiraan pengiriman.",
         ],
       ],
       commonNeeds: [
@@ -223,21 +223,21 @@ export const cilacapAreas = [
       path: routes.jualAcMajenang,
       areaName: "Majenang",
       localLandmarks: [
-        "Pasar Majenang",
-        "Deretan ruko dan pertokoan pusat kota",
-        "Jalur Majenang menuju Bandung/Banjar",
-        "Kawasan dagang Cilacap barat",
-        "Terminal dan area transit Majenang",
+        "Pasar Majenang dan deretan ruko di jalan utama",
+        "Terminal Majenang dan jalur menuju Banjar/Bandung",
+        "RSUD Majenang (rumah sakit umum daerah)",
+        "Kawasan kos dan hunian sekitar pusat kota",
+        "Jalur Majenang–Sidareja–Cilacap (lintas barat)",
       ],
       localBenefits: [
-        "Ruko dan toko dagang di pusat Majenang yang ramai butuh AC yang cepat dingin untuk pembeli",
-        "AC rumah banyak pilih low watt atau inverter sesuai daya dan lama pemakaian",
-        "Pengiriman ke Cilacap barat dijadwalkan tersendiri karena jaraknya",
+        "Ruko dan toko di Pasar Majenang yang jadi pusat dagang Cilacap barat ramai pembeli dari berbagai kecamatan, sehingga ruang jualan yang adem jadi daya tarik tersendiri",
+        "RSUD Majenang dan klinik sekitarnya butuh ruang tunggu dan ruang periksa yang adem sepanjang jam operasional, bukan hanya saat ramai",
+        "Majenang adalah titik terjauh dari gudang Banyumas di jalur barat, sehingga pengiriman dijadwalkan tersendiri dan pembeli perlu konfirmasi alamat detail lebih awal",
       ],
       localCases: [
-        ["Ruko & toko dagang", "AC ruang jualan di pusat dagang Majenang agar pembeli betah."],
-        ["Rumah tinggal", "Pemasangan AC kamar dengan pilihan sesuai daya rumah."],
-        ["Kantor & usaha", "Pemilihan unit ruang kerja, dengan pengiriman dijadwalkan ke Cilacap barat."],
+        ["Ruko & toko Pasar Majenang", "AC ruang jualan di pusat dagang Cilacap barat agar pembeli dari berbagai kecamatan betah."],
+        ["RSUD & klinik", "AC ruang tunggu dan ruang periksa yang dipakai seharian dengan kapasitas sesuai luas."],
+        ["Rumah & kos", "Pemasangan AC kamar dengan pengiriman yang dijadwalkan tersendiri ke Cilacap barat."],
       ],
       label: "Jual AC Majenang",
       title: "Jual AC Majenang untuk Rumah, Toko & Banyak Unit — Radja AC",
@@ -248,7 +248,7 @@ export const cilacapAreas = [
       intro:
         "Butuh AC di Majenang untuk rumah, toko, kantor, usaha, atau kebutuhan beberapa unit? Tim Radja AC cek kapasitas PK, daya listrik, stok brand, pengiriman, dan opsi pemasangan dari data awal.",
       localContext:
-        "Majenang adalah kota dagang teramai di Cilacap bagian barat, di jalur menuju Bandung, dengan Pasar Majenang dan deretan ruko sebagai pusat ekonominya. Pembeli AC banyak dari pemilik ruko dan toko, rumah, serta kantor. Karena jauh dari kota Cilacap, pengiriman ke Majenang dijadwalkan tersendiri. Untuk jual AC Majenang, unit dikirim ke alamat lalu dipasang, dengan pembayaran DP, transfer, atau COD setelah stok dipastikan.",
+        "Majenang adalah kota dagang terbesar di Cilacap bagian barat, di jalur lintas menuju Banjar dan Bandung, dengan Pasar Majenang sebagai pusat ekonomi yang menarik pembeli dari berbagai kecamatan sekitarnya. RSUD Majenang dan klinik di sekitarnya juga jadi pusat layanan kesehatan untuk wilayah barat. Karena posisinya paling jauh dari gudang Radja AC di Banyumas di antara area Cilacap, pengiriman ke Majenang dijadwalkan tersendiri dan pembeli perlu konfirmasi alamat detail lebih awal. Untuk jual AC Majenang, unit dikirim ke alamat lalu dipasang, dengan pembayaran DP, transfer, atau COD setelah stok dipastikan.",
       coverageNote:
         "Showroom dan gudang Radja AC berada di Banyumas. Kebutuhan AC area Majenang dilayani dengan konsultasi PK, cek stok unit, pengiriman, serta opsi pemasangan sesuai alamat, jumlah unit, dan jadwal.",
       keywordVariants: [
@@ -274,20 +274,20 @@ export const cilacapAreas = [
       ],
       localFaq: [
         [
-          "AC untuk ruko atau toko dagang di pusat Majenang?",
-          "Ruang jualan ramai yang pintunya sering kebuka butuh kapasitas sesuai luas. Sebutkan ukuran ruko dan jam buka untuk cek unit dan stok.",
+          "AC untuk ruko atau toko di Pasar Majenang yang jadi pusat dagang Cilacap barat?",
+          "Ruang jualan yang ramai pembeli dari berbagai kecamatan dan pintunya sering terbuka butuh kapasitas sesuai luas dan lalu lalang. Sebutkan ukuran ruko dan jam buka untuk cek unit dan stok.",
         ],
         [
-          "Majenang jauh dari kota Cilacap, pengirimannya bagaimana?",
-          "Pengiriman ke Cilacap barat seperti Majenang dijadwalkan tersendiri sesuai alamat dan jumlah unit. Sebutkan alamat detail untuk perkiraan pengiriman dan pemasangan.",
+          "AC untuk ruang tunggu atau ruang periksa di RSUD atau klinik Majenang?",
+          "Ruang layanan kesehatan yang dipakai seharian butuh kapasitas yang stabil, bukan yang termurah. Sebutkan ukuran ruang dan jam operasional untuk perkiraan PK dan stok.",
+        ],
+        [
+          "Majenang paling jauh dari gudang Banyumas, pengirimannya bagaimana?",
+          "Pengiriman ke Majenang dijadwalkan tersendiri karena jaraknya dari gudang Banyumas. Konfirmasi alamat detail dan jumlah unit lebih awal agar jadwal pengiriman dan pemasangan bisa disusun.",
         ],
         [
           "AC rumah di Majenang, pilih low watt atau inverter?",
-          "Tergantung daya listrik dan lama pemakaian: low watt untuk daya terbatas, inverter untuk pemakaian lama. Sebutkan daya dan ukuran ruangan.",
-        ],
-        [
-          "Pembayaran AC di Majenang bisa DP atau transfer?",
-          "Bisa. Banyak pembeli ambil DP dulu lalu pelunasan transfer atau COD saat unit datang dan stok dipastikan.",
+          "Low watt cocok untuk rumah dengan daya 900–1300 watt agar MCB tidak turun; inverter lebih hemat untuk kamar yang AC-nya menyala hampir setiap malam. Sebutkan daya dan ukuran kamar untuk arahan yang lebih tepat.",
         ],
       ],
       commonNeeds: [
@@ -320,21 +320,21 @@ export const cilacapAreas = [
       path: routes.jualAcSidareja,
       areaName: "Sidareja",
       localLandmarks: [
-        "Stasiun Sidareja",
-        "Pasar Sidareja",
-        "Ruko dan pertokoan pusat kecamatan",
-        "Kawasan pertanian dan rawa Sidareja",
-        "Jalur Sidareja menuju Majenang/Cilacap",
+        "Stasiun Sidareja dan jalur kereta selatan",
+        "Pasar Sidareja dan ruko di jalan utama kecamatan",
+        "Kawasan rawa dan pertanian Sidareja (Rawa Besar)",
+        "Jalur Sidareja–Majenang (lintas barat Cilacap)",
+        "Permukiman warga di sekitar pasar dan stasiun",
       ],
       localBenefits: [
-        "Ruko dan toko di pusat Sidareja yang ramai butuh AC yang cepat dingin untuk pembeli",
-        "AC rumah banyak pilih low watt menyesuaikan daya listrik rumahan",
-        "Pengiriman ke Cilacap barat dijadwalkan tersendiri sesuai alamat",
+        "Ruko dan toko di sekitar Pasar Sidareja yang jadi titik belanja warga beberapa desa sekitar butuh ruang yang adem agar pembeli betah, terutama saat hari pasar ramai",
+        "Rumah di permukiman sekitar rawa Sidareja terasa lembap dan gerah saat siang, sehingga AC kamar jadi kebutuhan yang lebih terasa dibanding daerah yang lebih kering",
+        "Sidareja berada di antara Majenang dan Cilacap kota, sehingga pengiriman unit dijadwalkan tersendiri dan pembeli perlu konfirmasi alamat lebih awal",
       ],
       localCases: [
-        ["Ruko & toko pusat kecamatan", "AC ruang jualan agar pembeli betah di pusat dagang Sidareja."],
-        ["Rumah tinggal", "Pemasangan AC kamar dengan pilihan low watt sesuai daya."],
-        ["Kantor & usaha", "Pemilihan unit ruang kerja dengan pengiriman ke alamat Sidareja."],
+        ["Ruko & toko hari pasar", "AC ruang jualan di Pasar Sidareja agar pembeli dari desa sekitar betah saat hari pasar ramai."],
+        ["Rumah sekitar rawa", "Pemasangan AC kamar yang terasa lembap dan gerah karena pengaruh rawa di sekitar permukiman."],
+        ["Kantor & usaha", "Pemilihan unit ruang kerja dengan pengiriman yang dijadwalkan ke jalur barat Cilacap."],
       ],
       label: "Jual AC Sidareja",
       title: "Jual AC Sidareja untuk Rumah, Ruko & Usaha — Radja AC",
@@ -345,7 +345,7 @@ export const cilacapAreas = [
       intro:
         "Butuh AC di Sidareja untuk rumah, ruko, toko, kantor, usaha, atau kebutuhan beberapa unit? Tim Radja AC cek kebutuhan PK, daya listrik, stok brand, pengiriman, dan opsi pemasangan dari data awal.",
       localContext:
-        "Sidareja adalah kota kecamatan dagang di Cilacap bagian barat, punya Stasiun Sidareja dan pasar yang jadi pusat kegiatan, dikelilingi area pertanian dan rawa. Pembeli AC umumnya pemilik ruko dan toko, rumah, serta kantor di sepanjang jalur. Karena jauh dari kota Cilacap, pengiriman dijadwalkan tersendiri. Untuk jual AC Sidareja, unit dikirim ke alamat lalu dipasang, dengan pembayaran DP, COD, atau transfer setelah stok dipastikan.",
+        "Sidareja adalah kota kecamatan di Cilacap bagian barat yang dikelilingi kawasan rawa dan pertanian—termasuk Rawa Besar—dengan Stasiun Sidareja dan Pasar Sidareja sebagai pusat kegiatan. Karena dikelilingi rawa, udara di permukiman sekitar terasa lebih lembap dan gerah saat siang dibanding daerah yang lebih kering, sehingga AC kamar jadi kebutuhan yang lebih terasa. Ruko dan toko di sekitar pasar ramai saat hari pasar karena pembeli datang dari beberapa desa sekitar. Posisi Sidareja di antara Majenang dan Cilacap kota membuat pengiriman dijadwalkan tersendiri. Untuk jual AC Sidareja, unit dikirim ke alamat lalu dipasang, dengan pembayaran DP, COD, atau transfer setelah stok dipastikan.",
       coverageNote:
         "Showroom dan gudang Radja AC berada di Banyumas. Kebutuhan AC area Sidareja dilayani dengan konsultasi PK, cek stok unit, pengiriman, serta opsi pemasangan sesuai alamat, jumlah unit, dan jadwal.",
       keywordVariants: [
@@ -371,20 +371,20 @@ export const cilacapAreas = [
       ],
       localFaq: [
         [
-          "AC untuk ruko atau toko di pusat Sidareja?",
-          "Ruang jualan ramai yang pintunya sering kebuka butuh kapasitas sesuai luas. Sebutkan ukuran ruko dan jam buka untuk cek unit dan stok.",
+          "Rumah di Sidareja dekat rawa terasa lembap dan gerah, AC apa yang cocok?",
+          "Udara lembap dari rawa membuat ruangan terasa lebih gerah, jadi kapasitas PK perlu dihitung dari luas dan kondisi lembap tersebut, bukan sekadar ukuran standar. Sebutkan ukuran kamar dan kondisi sekitar untuk arahan yang lebih tepat.",
         ],
         [
-          "Sidareja jauh dari kota Cilacap, pengirimannya bagaimana?",
-          "Pengiriman ke Cilacap barat seperti Sidareja dijadwalkan tersendiri sesuai alamat dan jumlah unit. Sebutkan alamat detail untuk perkiraan pengiriman dan pemasangan.",
+          "AC untuk ruko atau toko di Pasar Sidareja saat hari pasar ramai?",
+          "Hari pasar membuat toko lebih ramai dari biasanya; kapasitas dihitung dari luas dan jumlah pengunjung puncak. Sebutkan ukuran toko dan hari pasar untuk cek unit dan stok.",
         ],
         [
-          "AC rumah di Sidareja, hemat listrik?",
-          "Rumah dengan daya 900–1300 watt banyak pakai low watt agar listrik tidak turun. Sebutkan daya dan ukuran kamar untuk cek unit.",
+          "Sidareja di antara Majenang dan Cilacap kota, pengirimannya bagaimana?",
+          "Pengiriman ke Sidareja dijadwalkan tersendiri karena posisinya di jalur barat. Konfirmasi alamat detail dan jumlah unit lebih awal agar jadwal pengiriman dan pemasangan bisa disusun.",
         ],
         [
-          "Pembayaran AC di Sidareja bisa DP atau transfer?",
-          "Bisa. Banyak pembeli ambil DP dulu lalu pelunasan transfer atau COD saat unit datang dan stok dipastikan.",
+          "AC rumah di Sidareja, daya listrik terbatas, pilih apa?",
+          "Rumah dengan daya 900–1300 watt banyak pakai low watt agar MCB tidak turun. Sebutkan daya dan ukuran kamar untuk cek unit dan stok yang sesuai.",
         ],
       ],
       commonNeeds: [

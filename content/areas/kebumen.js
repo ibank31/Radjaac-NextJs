@@ -262,29 +262,29 @@ export const kebumenAreas = [
       path: routes.jualAcKaranganyarKebumen,
       areaName: "Karanganyar Kebumen",
       localLandmarks: [
-        "Stasiun Karanganyar (Kebumen)",
-        "Pasar Karanganyar",
-        "Jalur jalan dan rel Gombong–Kebumen",
-        "Area persawahan dan permukiman",
-        "Kawasan dekat Gombong",
+        "Stasiun Karanganyar Kebumen (jalur rel selatan)",
+        "Pasar Karanganyar dan deretan toko di jalan utama",
+        "Jalur Gombong–Karanganyar–Kebumen kota",
+        "Kawasan pertanian dan sentra hasil bumi Karanganyar",
+        "Permukiman warga di sepanjang jalur rel dan jalan utama",
       ],
       localBenefits: [
-        "AC rumah di Karanganyar Kebumen banyak pilih low watt karena daya listrik di permukiman desa terbatas",
-        "Toko dan usaha di jalur Gombong–Kebumen butuh ruang yang adem buat pembeli",
-        "Pengiriman unit ke alamat lalu pemasangan memudahkan pembeli yang jauh dari kota",
+        "Toko dan warung di sekitar Pasar Karanganyar yang jadi titik belanja warga desa sekitar butuh ruang yang adem agar pembeli betah, terutama saat hari pasar",
+        "Rumah di permukiman desa Karanganyar yang terasa panas saat siang banyak pilih low watt karena daya listrik rumahan terbatas dan tidak ingin MCB sering turun",
+        "Karanganyar Kebumen sering tertukar dengan Karanganyar dekat Solo, sehingga konfirmasi alamat detail penting agar pengiriman unit tidak salah tujuan",
       ],
       localCases: [
         [
-          "Rumah tinggal",
-          "Pemasangan AC kamar yang panas saat siang dengan pilihan low watt menyesuaikan daya.",
+          "Toko & warung hari pasar",
+          "AC ruang jualan di Pasar Karanganyar agar pembeli dari desa sekitar betah saat hari pasar ramai.",
         ],
         [
-          "Toko & usaha jalur",
-          "AC ruang jualan di sepanjang jalur Gombong–Kebumen agar pembeli betah.",
+          "Rumah tinggal desa",
+          "Pemasangan AC kamar yang panas saat siang dengan low watt agar daya rumahan tidak turun.",
         ],
         [
           "Kantor kecil & ruang layanan",
-          "Pemilihan unit untuk ruang kerja dengan pengiriman ke alamat Karanganyar, Kebumen.",
+          "Pemilihan unit untuk ruang kerja dengan konfirmasi alamat Karanganyar Kebumen agar pengiriman tepat sasaran.",
         ],
       ],
       label: "Jual AC Karanganyar Kebumen",
@@ -293,7 +293,7 @@ export const kebumenAreas = [
       h1: "Jual AC Karanganyar Kebumen untuk Rumah, Toko & Usaha",
       eyebrow: "Area Kebumen",
       intro: "Butuh AC di Karanganyar Kebumen untuk rumah, kamar, toko, kantor, usaha, atau banyak unit? Tim Radja AC membantu cek kebutuhan PK, daya listrik, pilihan brand, stok unit, pengiriman, dan opsi pemasangan berdasarkan data awal.",
-      localContext: "Karanganyar di sini adalah kecamatan di Kabupaten Kebumen pada jalur Gombong–Kebumen—bukan Karanganyar dekat Solo. Wilayahnya dagang-pertanian, dengan toko, rumah, dan usaha kecil di sepanjang jalur jalan dan rel selatan. Pembeli AC umumnya rumah tinggal dan toko yang gerah saat siang, dengan daya listrik rumahan. Untuk jual AC Karanganyar Kebumen, unit dikirim ke alamat lalu dipasang, dengan pembayaran DP, COD, atau transfer setelah stok dipastikan.",
+      localContext: "Karanganyar di sini adalah kecamatan di Kabupaten Kebumen pada jalur Gombong–Kebumen—bukan Karanganyar dekat Solo. Wilayahnya campuran dagang dan pertanian, dengan Pasar Karanganyar sebagai pusat kegiatan dan Stasiun Karanganyar Kebumen di jalur rel selatan. Toko dan warung di sekitar pasar ramai saat hari pasar karena pembeli datang dari beberapa desa sekitar. Rumah di permukiman desa banyak yang pilih low watt karena daya listrik terbatas. Karena nama areanya sering tertukar dengan Karanganyar dekat Solo, konfirmasi alamat detail penting agar pengiriman unit tidak salah tujuan. Untuk jual AC Karanganyar Kebumen, unit dikirim ke alamat lalu dipasang, dengan pembayaran DP, COD, atau transfer setelah stok dipastikan.",
       coverageNote: "Showroom dan gudang Radja AC berada di Banyumas. Kebutuhan AC area Karanganyar Kebumen dilayani dengan konsultasi PK, cek stok unit, pengiriman, dan opsi pemasangan sesuai alamat, jumlah unit, akses lokasi, serta jadwal.",
       keywordVariants: [
         "AC untuk rumah area Karanganyar Kebumen",
@@ -331,20 +331,20 @@ export const kebumenAreas = [
       ],
       localFaq: [
         [
-          "Karanganyar di sini yang dekat Solo atau yang di Kebumen?",
-          "Yang ini Karanganyar di Kabupaten Kebumen, di jalur Gombong–Kebumen—bukan Karanganyar dekat Solo. Kirim alamat detail agar pengecekan pengiriman dan pemasangan lebih jelas.",
+          "Karanganyar di sini yang di Kebumen atau yang dekat Solo?",
+          "Yang ini Karanganyar di Kabupaten Kebumen, di jalur Gombong–Kebumen—bukan Karanganyar dekat Solo. Kirim alamat detail termasuk nama desa atau kecamatan agar pengiriman tidak salah tujuan.",
         ],
         [
-          "AC rumah di Karanganyar Kebumen, hemat listrik karena daya terbatas?",
-          "Banyak rumah di sini pakai daya 900–1300 watt, jadi low watt sering jadi pilihan. Sebutkan daya listrik dan ukuran kamar untuk cek unit dan stok.",
+          "AC untuk toko atau warung di Pasar Karanganyar Kebumen saat hari pasar ramai?",
+          "Hari pasar membuat toko lebih ramai dari biasanya; kapasitas dihitung dari luas dan jumlah pengunjung puncak. Sebutkan ukuran toko dan hari pasar untuk cek unit dan stok.",
         ],
         [
-          "Bisa kirim dan pasang AC ke alamat di jalur Gombong–Kebumen?",
-          "Bisa. Unit dikirim ke alamat lalu pemasangan dijadwalkan sesuai akses lokasi; sebutkan alamat dan jumlah unit untuk perkiraan pengiriman.",
+          "Rumah di desa Karanganyar Kebumen, daya listrik terbatas, AC apa yang aman?",
+          "Banyak rumah di permukiman desa Karanganyar Kebumen pakai daya 900–1300 watt, jadi low watt sering jadi pilihan agar MCB tidak turun. Sebutkan daya dan ukuran kamar untuk cek unit.",
         ],
         [
-          "Pembayaran AC di Karanganyar Kebumen bisa DP atau transfer?",
-          "Bisa. Banyak pembeli ambil DP dulu lalu pelunasan transfer atau COD saat unit datang dan stok dipastikan.",
+          "Bisa kirim dan pasang AC ke alamat di jalur Gombong–Karanganyar–Kebumen?",
+          "Bisa. Unit dikirim ke alamat di Karanganyar Kebumen lalu pemasangan dijadwalkan sesuai akses lokasi. Sebutkan alamat lengkap termasuk nama desa dan jumlah unit untuk perkiraan pengiriman.",
         ],
       ],
       commonNeeds: [
@@ -399,29 +399,29 @@ export const kebumenAreas = [
       path: routes.jualAcKutowinangun,
       areaName: "Kutowinangun",
       localLandmarks: [
-        "Stasiun Kutowinangun",
-        "Pasar Kutowinangun",
-        "Jalur jalan dan rel Kebumen–Prembun",
-        "Area persawahan dan permukiman",
-        "Ruko dan toko sepanjang jalan utama",
+        "Stasiun Kutowinangun dan jalur rel selatan",
+        "Pasar Kutowinangun dan ruko di jalan utama",
+        "Jalur Kebumen–Kutowinangun–Prembun (lintas timur Kebumen)",
+        "Kawasan pertanian dan sentra bawang merah Kutowinangun",
+        "Permukiman warga di sepanjang jalur jalan dan rel",
       ],
       localBenefits: [
-        "AC rumah di Kutowinangun banyak pilih low watt karena daya listrik di permukiman terbatas",
-        "Toko dan ruko di jalur Kebumen–Prembun butuh ruang yang adem buat pembeli",
-        "Pengiriman unit ke alamat lalu pemasangan memudahkan pembeli di pinggir jalur",
+        "Kutowinangun dikenal sebagai sentra bawang merah Kebumen, sehingga banyak pedagang hasil bumi dan toko di sekitar pasar yang butuh ruang usaha yang adem saat jam transaksi ramai",
+        "Rumah di permukiman desa Kutowinangun yang terasa panas saat siang banyak pilih low watt karena daya listrik terbatas dan tidak ingin tagihan listrik membengkak",
+        "Posisi Kutowinangun di timur Kebumen menuju Prembun membuat pengiriman unit perlu konfirmasi alamat detail agar tidak tertukar dengan area Prembun atau Kebumen kota",
       ],
       localCases: [
         [
-          "Rumah tinggal",
-          "Pemasangan AC kamar yang panas saat siang dengan pilihan low watt.",
+          "Toko & pedagang hasil bumi",
+          "AC ruang usaha di sekitar Pasar Kutowinangun agar pedagang bawang merah dan pembeli betah saat jam transaksi ramai.",
         ],
         [
-          "Toko & ruko jalur",
-          "AC ruang jualan di sepanjang jalur Kebumen–Prembun supaya pembeli betah.",
+          "Rumah tinggal desa",
+          "Pemasangan AC kamar yang panas saat siang dengan low watt agar daya rumahan tidak turun.",
         ],
         [
-          "Kantor kecil",
-          "Pemilihan unit ruang kerja dengan pengiriman ke alamat Kutowinangun.",
+          "Kantor kecil & ruang layanan",
+          "Pemilihan unit ruang kerja dengan konfirmasi alamat Kutowinangun agar pengiriman tepat ke timur Kebumen.",
         ],
       ],
       label: "Jual AC Kutowinangun",
@@ -430,7 +430,7 @@ export const kebumenAreas = [
       h1: "Jual AC Kutowinangun untuk Rumah, Toko & Usaha",
       eyebrow: "Area Kebumen",
       intro: "Butuh AC di Kutowinangun untuk rumah, kamar, toko, kantor, usaha, atau banyak unit? Tim Radja AC membantu cek kebutuhan PK, daya listrik, pilihan brand, stok unit, pengiriman, dan opsi pemasangan berdasarkan data awal.",
-      localContext: "Kutowinangun adalah kecamatan dagang-pertanian di timur Kebumen, di jalur jalan dan rel selatan menuju Prembun. Toko, rumah, dan kantor kecil berjajar di sepanjang jalur, dan pembeli AC umumnya rumah tinggal serta toko yang gerah saat siang dengan daya listrik rumahan. Untuk jual AC Kutowinangun, unit dikirim ke alamat lalu dipasang, dengan pembayaran DP, COD, atau transfer setelah stok dipastikan.",
+      localContext: "Kutowinangun adalah kecamatan di timur Kebumen yang dikenal sebagai sentra bawang merah, di jalur jalan dan rel selatan menuju Prembun. Pasar Kutowinangun ramai pedagang hasil bumi dan pembeli dari desa sekitar, sehingga toko dan warung di sekitar pasar butuh ruang yang adem saat jam transaksi. Rumah di permukiman desa banyak yang pilih low watt karena daya listrik terbatas. Posisi Kutowinangun di timur Kebumen membuat pengiriman perlu konfirmasi alamat detail agar tidak tertukar dengan area Prembun atau Kebumen kota. Untuk jual AC Kutowinangun, unit dikirim ke alamat lalu dipasang, dengan pembayaran DP, COD, atau transfer setelah stok dipastikan.",
       coverageNote: "Showroom dan gudang Radja AC berada di Banyumas. Kebutuhan AC area Kutowinangun dilayani dengan konsultasi PK, cek stok unit, pengiriman, dan opsi pemasangan sesuai alamat, jumlah unit, akses lokasi, serta jadwal.",
       keywordVariants: [
         "AC untuk kamar dan rumah area Kutowinangun",
@@ -468,20 +468,20 @@ export const kebumenAreas = [
       ],
       localFaq: [
         [
-          "AC rumah di Kutowinangun, hemat listrik karena daya terbatas?",
-          "Banyak rumah di sini pakai daya 900–1300 watt, jadi low watt sering jadi pilihan agar listrik tidak turun. Sebutkan daya listrik dan ukuran kamar untuk cek unit dan stok.",
+          "AC untuk toko atau pedagang bawang merah di Pasar Kutowinangun saat jam transaksi ramai?",
+          "Pasar yang ramai pedagang dan pembeli hasil bumi butuh ruang yang adem agar transaksi nyaman. Kapasitas dihitung dari luas dan jumlah orang. Sebutkan ukuran toko dan jam ramai untuk cek unit dan stok.",
         ],
         [
-          "Bisa kirim dan pasang AC ke alamat di jalur Kebumen–Prembun?",
-          "Bisa. Unit dikirim ke alamat di Kutowinangun lalu pemasangan dijadwalkan sesuai akses lokasi; sebutkan alamat dan jumlah unit.",
+          "Rumah di desa Kutowinangun, daya listrik terbatas, AC apa yang aman?",
+          "Banyak rumah di permukiman desa Kutowinangun pakai daya 900–1300 watt, jadi low watt sering jadi pilihan agar MCB tidak turun dan tagihan tidak membengkak. Sebutkan daya dan ukuran kamar untuk cek unit.",
         ],
         [
-          "AC untuk toko atau ruko di Kutowinangun, pilih apa?",
-          "Ruang jualan yang ramai dan pintunya sering kebuka butuh kapasitas sesuai luas. Sebutkan ukuran toko dan jam buka untuk cek unit.",
+          "Kutowinangun di timur Kebumen menuju Prembun, pengirimannya bagaimana?",
+          "Pengiriman ke Kutowinangun dikonfirmasi dari alamat detail agar tidak tertukar dengan area Prembun atau Kebumen kota. Sebutkan nama desa dan jumlah unit untuk perkiraan pengiriman dan pemasangan.",
         ],
         [
-          "Pembayaran AC di Kutowinangun bisa DP atau transfer?",
-          "Bisa. Banyak pembeli ambil DP dulu lalu pelunasan transfer atau COD saat unit datang dan stok dipastikan.",
+          "Bisa kirim dan pasang AC ke alamat di jalur Kutowinangun–Prembun?",
+          "Bisa. Unit dikirim ke alamat di Kutowinangun lalu pemasangan dijadwalkan sesuai akses lokasi. Sebutkan alamat lengkap dan jumlah unit untuk perkiraan.",
         ],
       ],
       commonNeeds: [
