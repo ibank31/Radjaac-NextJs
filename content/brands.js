@@ -439,7 +439,7 @@ export const brandItems = [
     path: routes.brandPanasonic,
     name: "Panasonic",
     label: "AC Panasonic",
-    title: "AC Panasonic Original | Econavi, nanoe-G, Inverter untuk Rumah, Kantor & Hotel — Radja AC",
+    title: "AC Panasonic Original | Econavi, nanoe-G & Inverter untuk Rumah & Hotel — Radja AC",
     description:
       "Cek stok AC Panasonic original dengan teknologi Econavi dan nanoe-G untuk rumah, kantor, dan hotel di Radja AC. Konsultasi PK, pengiriman, dan pemasangan via WhatsApp.",
     h1: "AC Panasonic original untuk rumah, usaha, kantor, hotel, dan proyek",

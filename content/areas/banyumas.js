@@ -1333,7 +1333,7 @@ export const banyumasAreas = [
         ["Properti sewa & usaha", "Pemilihan unit untuk kamar sewa atau ruang usaha, dikirim ke alamat lalu dipasang."],
       ],
       label: "Jual AC Kedungbanteng",
-      title: "Jual AC Kedungbanteng | Villa & Homestay Dekat Hutan UNSOED, Rumah & Usaha — Radja AC",
+      title: "Jual AC Kedungbanteng | Villa & Homestay Dekat Hutan UNSOED & Usaha — Radja AC",
       description:
         "AC kamar tamu untuk villa dan homestay dekat hutan pendidikan UNSOED Kedungbanteng, atau AC rumah yang panas saat siang? Radja AC cek PK, stok, dan pengiriman via WhatsApp.",
       h1: "Jual AC Kedungbanteng untuk Rumah, Villa & Usaha",

@@ -434,7 +434,7 @@ export const cilacapAreas = [
         ["Kantor & usaha koridor industri", "Pemilihan unit ruang kerja di jalur Kesugihan–Cilacap yang dekat kawasan industri."],
       ],
       label: "Jual AC Kesugihan",
-      title: "Jual AC Kesugihan | Pesantren Al-Ihya Ulumaddin, Asrama Santri & Koridor Industri — Radja AC",
+      title: "Jual AC Kesugihan | Pesantren Al-Ihya Ulumaddin, Asrama Santri & Industri — Radja AC",
       description:
         "AC ruang kelas dan asrama Pesantren Al-Ihya Ulumaddin Kesugihan, atau kantor di koridor industri Cilacap? Radja AC cek PK, stok, dan pengiriman via WhatsApp.",
       h1: "Jual AC Kesugihan untuk Rumah, Kantor & Proyek",
@@ -531,7 +531,7 @@ export const cilacapAreas = [
         ["Toko & usaha jalur Adipala–Kroya", "AC ruang jualan di jalur utama agar pembeli betah di cuaca panas pesisir."],
       ],
       label: "Jual AC Adipala",
-      title: "Jual AC Adipala | PLTU, Permukiman Nelayan Pantai Widarapayung & Toko Pesisir — Radja AC",
+      title: "Jual AC Adipala | PLTU, Nelayan Pantai Widarapayung & Toko Pesisir — Radja AC",
       description:
         "AC untuk mess kontraktor PLTU Adipala, rumah nelayan di Pantai Widarapayung, atau toko pesisir yang panas? Radja AC cek PK, stok, dan pengiriman via WhatsApp.",
       h1: "Jual AC Adipala untuk Rumah, Toko & Usaha",

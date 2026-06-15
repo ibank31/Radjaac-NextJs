@@ -288,7 +288,7 @@ export const kebumenAreas = [
         ],
       ],
       label: "Jual AC Karanganyar Kebumen",
-      title: "Jual AC Karanganyar Kebumen | Toko Hari Pasar, Rumah Desa & Jalur Gombong — Radja AC",
+      title: "Jual AC Karanganyar Kebumen | Toko Hari Pasar & Rumah Desa Jalur Gombong — Radja AC",
       description: "AC untuk toko di Pasar Karanganyar Kebumen (bukan Karanganyar Solo), rumah desa jalur Gombong–Kebumen, atau usaha lokal? Radja AC cek PK, stok, dan pengiriman via WhatsApp.",
       h1: "Jual AC Karanganyar Kebumen untuk Rumah, Toko & Usaha",
       eyebrow: "Area Kebumen",
