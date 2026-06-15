@@ -142,13 +142,13 @@ export const sitemapRoutes = [
 
   { path: routes.brandGree, priority: 0.8 },
   { path: routes.brandDaikin, priority: 0.8 },
-  { path: routes.brandMidea, priority: 0.8 },
-  { path: routes.brandHisense, priority: 0.75 },
-  { path: routes.brandLainnya, priority: 0.7 },
+  { path: routes.brandMidea, priority: 0.8, lastModified: "2026-06-15" },
+  { path: routes.brandHisense, priority: 0.75, lastModified: "2026-06-15" },
+  { path: routes.brandLainnya, priority: 0.7, lastModified: "2026-06-15" },
   { path: routes.brandSansui, priority: 0.7 },
-  { path: routes.brandSharp, priority: 0.7 },
+  { path: routes.brandSharp, priority: 0.7, lastModified: "2026-06-15" },
   { path: routes.brandSamsung, priority: 0.7 },
-  { path: routes.brandPanasonic, priority: 0.7 },
+  { path: routes.brandPanasonic, priority: 0.7, lastModified: "2026-06-15" },
   { path: routes.brandAriston, priority: 0.7 },
 
   { path: routes.pengadaanAc, priority: 0.85, lastModified: "2026-06-13" },

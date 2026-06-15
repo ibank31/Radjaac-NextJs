@@ -80,14 +80,14 @@ export const panasonicPremiumContent = {
   },
 
   character: {
-    title: "Panasonic bukan yang termurah, bukan yang paling premium — tapi sudah teruji kenal nama",
+    title: "Panasonic punya keunggulan teknis yang relevan untuk pemakaian jangka panjang",
     description:
-      "Banyak pembeli Purwokerto pilih Panasonic bukan karena spec paling canggih, tapi karena sudah percaya nama brandnya untuk jangka panjang. Tapi brand yang sudah teruji tetap harus diikuti dengan cek PK yang tepat — bukan asal pilih yang paling murah.",
+      "Panasonic bukan sekadar nama familiar. Ada teknologi spesifik yang membuat Panasonic banyak dipilih untuk rumah, kantor, dan hotel — mulai dari Econavi yang menyesuaikan pendinginan otomatis, nanoe-G yang membantu kualitas udara, sampai reputasi ketahanan unit yang sudah teruji puluhan tahun.",
     items: [
-      "Panasonic sudah lama dikenal di Indonesia dan banyak dipilih untuk rumah, kantor, dan kebutuhan komersial. Untuk pembeli yang ingin AC rumah dengan kesan stabil dan awet, Panasonic jadi pilihan yang sesuai untuk kebutuhan tersebut.",
-      "Cocok untuk kamar, ruang keluarga, kantor kecil, kost, dan kontrakan — selama kapasitas PK, daya listrik, dan kondisi ruangan sudah dicek dulu supaya tidak salah pilih.",
-      "Stok AC Panasonic bisa berubah mengikuti supplier. Sebelum deal, admin Radja AC selalu cek dulu tipe yang ready hari ini — bukan jawab dari katalog lama.",
-      "Bingung antara Panasonic, Sharp, Midea, Gree, atau Daikin? Admin Radja AC bisa bantu bandingkan sesuai budget, daya listrik, ukuran ruangan, dan pola pemakaian Anda.",
+      "Teknologi Econavi pada beberapa tipe Panasonic mendeteksi aktivitas di ruangan dan menyesuaikan pendinginan secara otomatis — AC tidak bekerja penuh saat ruangan kosong, sehingga listrik lebih efisien tanpa harus diatur manual.",
+      "Beberapa tipe Panasonic dilengkapi nanoe-G, teknologi yang diklaim membantu mengurangi bakteri dan virus di udara. Relevan untuk kamar tidur, ruang keluarga, atau kantor yang dipakai banyak orang setiap hari.",
+      "Panasonic dikenal dengan ketahanan unit jangka panjang — banyak unit Panasonic yang masih berfungsi baik setelah 8–10 tahun pemakaian dengan perawatan rutin. Ini yang membuat Panasonic banyak dipilih untuk hotel, kantor, dan rumah yang tidak mau sering ganti unit.",
+      "Stok AC Panasonic mengikuti ketersediaan supplier dan bisa berubah. Sebelum deal, admin Radja AC selalu cek tipe yang benar-benar ready hari ini — bukan dari katalog yang belum tentu update.",
     ],
   },
 
@@ -135,7 +135,7 @@ export const panasonicPremiumContent = {
   },
 
   useCase: {
-    title: "Panasonic untuk kamar tidur, rumah, sampai kantor kecil",
+    title: "Panasonic untuk kamar tidur, rumah, kantor, sampai hotel",
     items: [
       {
         title: "Kamar Tidur & Kost",
@@ -145,7 +145,41 @@ export const panasonicPremiumContent = {
       {
         title: "Rumah & Kantor Kecil",
         description:
-          "Untuk ruang keluarga, kantor kecil, atau usaha rumahan di Purwokerto-Banyumas yang ingin brand yang sudah lama dikenal — Panasonic banyak dipilih untuk penggunaan jangka panjang — yang penting stok dicek dulu, harga pasang dikonfirmasi, dan PK tidak asal direkomendasikan.",
+          "Untuk ruang keluarga, kantor kecil, atau usaha rumahan yang ingin brand yang sudah lama dikenal dan tidak mau sering ganti unit — Panasonic banyak dipilih untuk penggunaan jangka panjang. Stok dicek dulu, harga pasang dikonfirmasi, dan PK tidak asal direkomendasikan.",
+      },
+      {
+        title: "Hotel, Guest House & Penginapan",
+        description:
+          "Panasonic banyak dipilih untuk kamar hotel dan guest house karena reputasi ketahanan unitnya. Kamar yang AC-nya menyala hampir setiap malam butuh unit yang tidak rewel — Panasonic inverter cocok untuk kebutuhan ini. Untuk pengadaan banyak kamar, kirim jumlah unit dan ukuran kamar untuk cek stok dan jadwal.",
+      },
+    ],
+  },
+
+  internalLinks: {
+    eyebrow: "Baca Juga",
+    title: "Panduan sebelum beli AC Panasonic",
+    description:
+      "Halaman berikut membantu Anda memahami pilihan tipe, kapasitas PK, dan kebutuhan ruangan sebelum konsultasi ke admin.",
+    links: [
+      {
+        title: "Konsultasi AC Panasonic",
+        description: "Cek stok Panasonic yang ready, rekomendasi PK, dan estimasi pemasangan sebelum memutuskan.",
+        href: "/kontak",
+      },
+      {
+        title: "AC Inverter",
+        description: "Kapan inverter Panasonic lebih efisien dibanding standard? Bandingkan pilihan dari berbagai brand.",
+        href: "/katalog/ac-inverter",
+      },
+      {
+        title: "AC Split Rumah",
+        description: "Pilihan AC untuk kamar, kost, kontrakan, dan rumah tinggal dari berbagai merek dan kapasitas.",
+        href: "/katalog/ac-split-rumah",
+      },
+      {
+        title: "Pengadaan AC Hotel & Guest House",
+        description: "Butuh AC banyak kamar untuk penginapan? Cek opsi pengadaan unit seragam dengan jadwal pemasangan.",
+        href: "/pengadaan-ac/hotel-guest-house",
       },
     ],
   },

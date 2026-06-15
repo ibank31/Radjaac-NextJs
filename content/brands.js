@@ -531,9 +531,9 @@ export const brandItems = [
     h1: "Brand AC original lainnya yang bisa dicek melalui Radja AC",
     eyebrow: "Brand AC",
     intro:
-      "Selain Gree, Daikin, Midea, dan Hisense, Radja AC juga membantu cek pilihan brand lain berdasarkan stok aktif, kebutuhan ruangan, anggaran, pengiriman, opsi pemasangan, garansi unit, dan opsi pembayaran.",
+      "Selain Gree, Daikin, Midea, dan Hisense, Radja AC juga membantu cek pilihan brand lain berdasarkan stok aktif. TCL dan Aqua banyak dicari untuk rumah dan kost dengan budget terbatas. Polytron dikenal sebagai brand lokal yang spare part-nya mudah dicari. LG punya reputasi kuat untuk pemakaian jangka panjang. Toshiba dan Modena cocok untuk yang ingin tampilan lebih rapi. Stok, tipe, harga, pengiriman, opsi pemasangan, garansi unit, dan opsi pembayaran dicek sebelum pembelian.",
     trustNote:
-      "Untuk brand lain, stok, tipe, harga, garansi unit, dan opsi pemasangan dicek sebelum pembelian.",
+      "Untuk brand lain, stok dan tipe mengikuti ketersediaan supplier dan bisa berubah. Admin Radja AC selalu cek stok yang benar-benar ready sebelum konfirmasi — bukan dari katalog lama. Sansui termasuk brand yang dokumennya tercatat atas nama CV. Prima Sedaya, bagian dari operasional Radja AC.",
     certificateHolder: "",
     variants: ["Standard", "Low watt", "Inverter", "Window", "Portable"],
     suitableFor: ["Rumah", "Kost", "Usaha", "Kantor", "Kebutuhan khusus"],
@@ -559,6 +559,36 @@ export const brandItems = [
     ctaLabel: "Cek Brand AC Lainnya",
     waIntent: "cek stok brand AC lainnya",
     waBrand: "Brand lainnya",
+    localFaq: [
+      [
+        "Apakah Radja AC menyediakan AC TCL original?",
+        "TCL termasuk brand yang bisa dicek stoknya di Radja AC. TCL banyak dicari untuk rumah dan kost karena harganya kompetitif dengan fitur yang sudah cukup modern. Stok dan tipe dikonfirmasi admin sebelum deal — ketersediaan mengikuti supplier.",
+      ],
+      [
+        "Apakah ada AC Aqua di Radja AC?",
+        "Aqua (merek Sanyo/Sharp group) termasuk brand yang bisa dicek. Aqua banyak dipilih untuk rumah dan kamar karena nama brandnya sudah lama dikenal di Indonesia. Kirim kebutuhan via WhatsApp untuk cek stok yang ready hari ini.",
+      ],
+      [
+        "Polytron buatan lokal, apakah kualitasnya bisa diandalkan?",
+        "Polytron adalah brand elektronik lokal Indonesia yang sudah lama berdiri. Kelebihannya: spare part relatif mudah dicari di dalam negeri dan jaringan servis tersebar luas. Cocok untuk yang mengutamakan kemudahan perawatan jangka panjang. Stok dicek dulu sebelum konfirmasi.",
+      ],
+      [
+        "AC LG tersedia di Radja AC?",
+        "LG termasuk brand yang bisa dicek stoknya. LG dikenal dengan teknologi Dual Inverter Compressor yang diklaim lebih hemat listrik dan lebih tahan lama. Stok dan tipe LG mengikuti ketersediaan supplier — kirim kebutuhan untuk cek unit yang ready.",
+      ],
+      [
+        "Bingung pilih antara TCL, Aqua, Polytron, atau brand lain — bisa dibantu?",
+        "Bisa. Kirim ukuran ruangan, daya listrik, budget, dan pola pemakaian. Admin Radja AC bantu bandingkan pilihan yang paling realistis dari brand yang stoknya ready — tanpa harus langsung deal dulu.",
+      ],
+      [
+        "Apakah ada AC Toshiba atau Modena di Radja AC?",
+        "Toshiba dan Modena termasuk brand yang bisa dicek. Toshiba dikenal dengan desain yang rapi dan teknologi inverter yang efisien. Modena lebih dikenal untuk segmen premium dengan tampilan minimalis. Stok keduanya mengikuti ketersediaan supplier.",
+      ],
+      [
+        "Kalau brand yang saya cari tidak ada di daftar, bisa dibantu cek?",
+        "Bisa. Kirim nama brand dan tipe yang Anda cari via WhatsApp. Admin Radja AC akan cek ketersediaan dari jaringan supplier — kalau tidak ada, admin bisa rekomendasikan alternatif yang paling mendekati kebutuhan Anda.",
+      ],
+    ],
   },
 ];
 

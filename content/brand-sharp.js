@@ -31,7 +31,17 @@ export const sharpPremiumContent = {
     ],
   },
 
-  statusBlock: null,
+  statusBlock: {
+    placement: "afterWarranty",
+    badge: "AC Sharp Original — Supplier Resmi",
+    title: "Sharp yang dijual di Radja AC adalah unit original dari jalur supplier resmi",
+    paragraphs: [
+      "Sharp bukan brand baru di Indonesia — sudah puluhan tahun hadir untuk rumah tangga lewat kulkas, TV, dan elektronik lainnya. Untuk AC Sharp, Radja AC mengambil unit dari jalur supplier resmi sehingga garansi brand berlaku sesuai ketentuan Sharp. Stok, tipe, dan harga selalu dicek sebelum konfirmasi — bukan dari katalog yang belum tentu update.",
+    ],
+    badgeLabel: "Supplier Resmi",
+    image: "/photos/product-display/sharp-ac-sharp-bey.webp",
+    imageAlt: "Unit AC Sharp BEY original di Radja AC",
+  },
 
   warranty: {
     eyebrow: "Garansi & Bantuan Klaim",
@@ -80,24 +90,24 @@ export const sharpPremiumContent = {
 
   character: {
     eyebrow: "Kenapa Sharp",
-    title: "Sharp bukan yang termurah, bukan yang paling premium — tapi sudah teruji kenal nama",
+    title: "Sharp punya keunggulan nyata yang sering diabaikan saat banding-banding brand",
     description:
-      "Banyak orang pilih Sharp bukan karena spec paling canggih, tapi karena sudah percaya nama brandnya. Sharp jadi pilihan yang sudah dikenal luas untuk pembeli yang mengutamakan brand dengan dukungan produk yang mudah ditemukan.",
+      "Sharp bukan sekadar nama familiar. Ada alasan teknis kenapa Sharp masih banyak dipilih untuk rumah, kost, dan usaha kecil — mulai dari seri BEY yang terbukti andal, spare part yang mudah dicari, sampai pilihan inverter J-Tech yang efisien untuk pemakaian rutin.",
     cards: [
       {
-        title: "Nama besar yang sudah lama dikenal",
+        title: "Seri BEY: terbukti andal untuk pemakaian harian",
         description:
-          "Sharp bukan brand baru. Banyak orang sudah kenal Sharp dari lemari es, TV, sampai elektronik rumah lainnya — jadi Sharp jadi pilihan yang sudah dikenal luas untuk rumah, kamar, kost, dan toko kecil.",
+          "Sharp BEY adalah seri yang paling banyak terpasang di rumah dan kost Indonesia. Bukan karena murah semata — tapi karena track record-nya panjang, perawatannya tidak ribet, dan teknisi lokal sudah sangat familiar dengan unit ini.",
       },
       {
-        title: "Pas untuk kamar, kos, rumah, dan toko kecil",
+        title: "Spare part mudah dicari, teknisi lokal familiar",
         description:
-          "Sharp BEY cocok untuk pemakaian harian yang tidak butuh sesuatu yang terlalu ribet — kamar tidur, ruang keluarga, kost, kontrakan, atau toko kecil yang butuh AC dengan brand yang sudah terpercaya.",
+          "Salah satu keunggulan Sharp yang jarang disebut: spare part-nya tersebar luas di toko elektronik lokal dan teknisi AC di mana-mana sudah kenal unit Sharp. Ini penting untuk pemakaian jangka panjang — kalau ada masalah, tidak perlu nunggu lama.",
       },
       {
-        title: "Stok dan harga dikonfirmasi dulu sebelum deal",
+        title: "J-Tech Inverter untuk yang butuh efisiensi lebih",
         description:
-          "Sebelum Anda putuskan, admin Radja AC akan cek stok Sharp yang ready hari ini, tipe yang sesuai kebutuhan, kisaran harga, dan estimasi pemasangan — bukan asal jawab dari katalog.",
+          "Sharp punya teknologi J-Tech Inverter yang diklaim lebih hemat listrik untuk pemakaian rutin. Cocok untuk kamar yang AC-nya menyala hampir setiap malam — suhu lebih stabil dan tagihan listrik lebih bisa diprediksi dibanding tipe standard.",
       },
     ],
   },
@@ -172,7 +182,12 @@ export const sharpPremiumContent = {
       ["1.5 PK", "± 20–30 m²", "Ruang keluarga, kantor, atau toko"],
       ["2 PK", "± 30–40 m²", "Ruangan besar dan kebutuhan komersial"],
     ],
-    cta: null,
+    cta: {
+      title: "Sudah tahu ukuran ruangannya?",
+      description:
+        "Kirim ukuran dan daya listrik — admin bantu cek PK Sharp yang sesuai dan stok yang ready hari ini. Tidak harus langsung deal.",
+      buttonLabel: "Konsultasi PK Sharp",
+    },
   },
 
   internalLinks: {

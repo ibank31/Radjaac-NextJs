@@ -163,14 +163,14 @@ export const hisensePremiumContent = {
     eyebrow: "Sebelum Beli",
     title: "Supaya AC Hisense tidak salah PK — kirim info ini sebelum deal",
     description:
-      "Hisense salah PK sama saja rugi dua kali — AC tidak maksimal atau tagihan listrik jebol. Kirim data di bawah ini ke admin Radja AC, kami bantu rekomendasikan tipe dan kapasitas yang sesuai untuk kondisi ruangan Anda.",
+      "Hisense salah PK sama saja rugi dua kali — AC tidak maksimal atau tagihan listrik jebol. Yang paling sering terjadi: pembeli toko atau usaha kecil asal pilih kapasitas tanpa hitung beban panas dari banyak orang dan pintu yang sering terbuka. Kirim data ini ke admin Radja AC sebelum deal.",
     items: [
       "Ukuran ruangan kira-kira (panjang × lebar) dan tinggi plafon jika ada",
-      "Daya listrik rumah, kost, toko, atau tempat usaha",
-      "Jenis ruangan: kamar, rumah, kost, kontrakan, toko, ruko, atau kantor",
-      "Jumlah unit yang dibutuhkan sekaligus atau bertahap",
-      "Mau standard atau inverter — atau belum tahu sama sekali",
-      "Foto posisi indoor-outdoor jika butuh estimasi pemasangan",
+      "Daya listrik — untuk toko atau usaha, sebutkan juga apakah ada perangkat lain yang menyala bersamaan",
+      "Jenis ruangan: kamar, rumah, toko, ruko, kantor, atau ruang usaha — dan apakah pintunya sering terbuka",
+      "Jumlah unit yang dibutuhkan — sekaligus atau bertahap",
+      "Mau standard atau inverter — kalau untuk usaha yang AC-nya menyala seharian, inverter biasanya lebih hemat",
+      "Foto posisi indoor dan outdoor jika butuh estimasi pemasangan",
     ],
   },
 
@@ -186,7 +186,12 @@ export const hisensePremiumContent = {
       ["1.5 PK", "± 20–30 m²", "Ruang keluarga, kantor, atau toko kecil"],
       ["2 PK", "± 30–40 m²", "Ruangan luas, toko, atau kebutuhan komersial"],
     ],
-    cta: null,
+    cta: {
+      title: "Sudah tahu ukuran ruangannya?",
+      description:
+        "Kirim ukuran dan daya listrik — admin bantu cek PK Hisense yang sesuai, termasuk apakah standard atau inverter yang lebih pas untuk pola pemakaian Anda. Tidak harus langsung deal.",
+      buttonLabel: "Konsultasi PK Hisense",
+    },
   },
 
   internalLinks: {

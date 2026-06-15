@@ -161,16 +161,16 @@ export const mideaPremiumContent = {
 
   checklist: {
     eyebrow: "Sebelum Beli",
-    title: "Supaya tidak salah PK — kirim info ini sebelum deal",
+    title: "Supaya Midea yang dipasang tidak salah PK — kirim info ini dulu",
     description:
-      "Midea salah PK sama saja sia-sia — AC tidak dingin maksimal atau tagihan listrik membengkak. Kirim data di bawah ini ke admin Radja AC, kami bantu rekomendasikan tipe dan kapasitas yang sesuai untuk kondisi ruangan Anda.",
+      "Midea salah PK sama saja sia-sia — AC tidak dingin maksimal atau tagihan listrik membengkak. Yang paling sering terjadi: pembeli kost atau kontrakan asal pilih 1/2 PK tanpa cek daya listrik total bangunan. Kirim data ini ke admin Radja AC sebelum deal.",
     items: [
       "Ukuran ruangan kira-kira (panjang × lebar) dan tinggi plafon jika ada",
-      "Daya listrik rumah, kost, toko, atau tempat usaha",
+      "Daya listrik — terutama untuk kost atau kontrakan, sebutkan daya total bangunan bukan per kamar",
       "Jenis ruangan: kamar, rumah, kost, kontrakan, toko, ruko, atau kantor",
-      "Jumlah unit yang dibutuhkan sekaligus atau bertahap",
-      "Mau standard, low watt, atau inverter — atau belum tahu sama sekali",
-      "Foto posisi indoor-outdoor jika butuh estimasi pemasangan",
+      "Jumlah unit yang dibutuhkan — sekaligus atau bertahap per kamar",
+      "Mau standard, low watt, atau inverter — kalau belum tahu, ceritakan pola pemakaian hariannya",
+      "Foto posisi indoor dan outdoor jika butuh estimasi pemasangan",
     ],
   },
 
@@ -186,7 +186,12 @@ export const mideaPremiumContent = {
       ["1.5 PK", "± 20–30 m²", "Ruang keluarga, kantor, atau toko kecil"],
       ["2 PK", "± 30–40 m²", "Ruangan luas, toko, atau kebutuhan komersial"],
     ],
-    cta: null,
+    cta: {
+      title: "Sudah tahu ukuran ruangannya?",
+      description:
+        "Kirim ukuran dan daya listrik — admin bantu cek PK Midea yang sesuai, termasuk apakah standard, low watt, atau inverter yang lebih pas untuk kondisi Anda. Tidak harus langsung deal.",
+      buttonLabel: "Konsultasi PK Midea",
+    },
   },
 
   internalLinks: {
