@@ -242,7 +242,7 @@ export const cilacapAreas = [
       label: "Jual AC Majenang",
       title: "Jual AC Majenang | Pasar Dagang Cilacap Barat, RSUD & Rumah — Radja AC",
       description:
-        "AC untuk ruko di Pasar Majenang pusat dagang Cilacap barat, ruang tunggu RSUD Majenang, atau rumah? Radja AC cek PK, stok, dan jadwal pengiriman via WhatsApp.",
+        "AC untuk ruko di Pasar Majenang pusat dagang Cilacap barat, ruang tunggu RSUD Majenang, atau rumah? Radja AC bantu pilih unit, konfirmasi stok, dan jadwalkan pengiriman ke Cilacap barat.",
       h1: "Jual AC Majenang untuk Rumah, Toko & Banyak Unit",
       eyebrow: "Area Cilacap Barat",
       intro:
@@ -339,7 +339,7 @@ export const cilacapAreas = [
       label: "Jual AC Sidareja",
       title: "Jual AC Sidareja | Ruko Pasar, Rumah Sekitar Rawa Besar & Jalur Barat Cilacap — Radja AC",
       description:
-        "AC untuk ruko di Pasar Sidareja, rumah yang lembap karena Rawa Besar, atau usaha jalur barat Cilacap? Radja AC cek PK, stok, dan pengiriman via WhatsApp.",
+        "AC untuk ruko di Pasar Sidareja, rumah yang lembap karena Rawa Besar, atau usaha jalur barat Cilacap? Radja AC rekomendasikan PK sesuai kondisi lembap dan atur pengiriman ke Sidareja.",
       h1: "Jual AC Sidareja untuk Rumah, Ruko & Usaha",
       eyebrow: "Area Cilacap Barat",
       intro:

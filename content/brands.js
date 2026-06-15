@@ -201,7 +201,7 @@ export const brandItems = [
     label: "AC Hisense",
     title: "AC Hisense Original | Self-Cleaning, Inverter Modern untuk Rumah & Usaha — Radja AC",
     description:
-      "Cek stok AC Hisense original dengan fitur Self-Cleaning dan Anti Mildew untuk rumah, toko, dan usaha di Radja AC. Konsultasi PK, pengiriman, dan pemasangan via WhatsApp.",
+      "AC Hisense original dengan Self-Cleaning dan Anti Mildew tersedia di Radja AC untuk rumah, toko, dan usaha. Dealer resmi — cek stok, rekomendasi PK, dan jadwal pemasangan via WhatsApp.",
     h1: "AC Hisense original untuk rumah, kost, usaha, dan kebutuhan anggaran efisien",
     eyebrow: "Brand AC",
     intro:
