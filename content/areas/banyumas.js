@@ -724,20 +724,21 @@ export const banyumasAreas = [
         path: routes.jualAcKaranglewas,
         areaName: "Karanglewas",
         localLandmarks: [
-          "Kawasan perumahan dan cluster di Karanglewas",
-          "Ruko dan toko di jalur Karanglewas–Purwokerto",
-          "Pasar serta area usaha lokal",
-          "Akses dekat pusat kota Purwokerto",
+          "Perumahan Griya Satria dan cluster perumahan baru di Karanglewas",
+          "Jalan Karanglewas–Purwokerto (jalur barat menuju pusat kota)",
+          "Pasar Karanglewas dan deretan ruko di jalan utama",
+          "Kawasan kos dan hunian dekat kampus sisi barat Purwokerto",
+          "Akses ke Cilongok dan Kedungbanteng via jalur barat",
         ],
         localBenefits: [
-          "Dekat basis layanan Banyumas sehingga pengiriman unit dan survei lokasi relatif mudah dijadwalkan",
-          "Cocok untuk rumah dan ruko yang umumnya butuh 1/2–1 PK dengan pemasangan rapi",
-          "Pilihan inverter relevan untuk pemakaian harian di rumah keluarga",
+          "Perumahan baru di Karanglewas banyak yang pasang AC kamar utama dan ruang keluarga sekaligus saat baru pindah, jadi sering beli 2–3 unit sekaligus",
+          "Ruko dan toko di jalan utama Karanglewas butuh ruang yang adem buat pembeli, terutama siang hari saat jalur ramai",
+          "Kos dan hunian dekat kampus sisi barat cocok pakai low watt agar daya per kamar tidak turun saat beberapa unit menyala bersamaan",
         ],
         localCases: [
-          ["Rumah perumahan baru", "Pemasangan AC kamar utama dan ruang keluarga dengan jalur pipa yang rapi."],
-          ["Ruko & toko", "AC untuk area pelanggan dan ruang kerja dengan kapasitas menyesuaikan luas ruangan."],
-          ["Tambah unit bertahap", "Beberapa keluarga menambah unit per kamar secara bertahap sesuai anggaran."],
+          ["Perumahan baru", "Keluarga baru pindah pasang AC kamar utama dan ruang keluarga sekaligus dengan jalur pipa yang rapi."],
+          ["Ruko & toko jalan utama", "AC area pelanggan di ruko Karanglewas agar pembeli betah saat siang yang panas."],
+          ["Kos & hunian kampus", "Pemilik kos pasang unit hemat daya per kamar secara bertahap mengikuti anggaran."],
         ],
         label: "Jual AC Karanglewas",
         title: "Jual AC Karanglewas untuk Rumah, Kost & Usaha — Radja AC",
@@ -748,7 +749,7 @@ export const banyumasAreas = [
         intro:
           "Butuh AC di Karanglewas untuk rumah, kamar, kost, toko, kantor, ruko, atau usaha? Tim Radja AC cek ukuran ruangan, daya listrik, pilihan brand, stok unit, pengiriman, dan opsi pemasangan sebelum pembelian.",
         localContext:
-          "Karanglewas adalah ring barat Purwokerto yang berkembang dengan perumahan, ruko, dan toko, dekat pusat kota. Pembeli AC banyak dari rumah perumahan, ruko, dan toko, dengan kebutuhan pemasangan yang rapi. Karena dekat basis layanan Banyumas, pengiriman unit dan survei lokasi mudah dijadwalkan. Untuk jual AC Karanglewas, unit dikirim ke alamat lalu dipasang, dengan pembayaran DP, COD, atau transfer setelah stok dipastikan.",
+          "Karanglewas adalah ring barat Purwokerto yang berkembang pesat dengan perumahan baru, ruko, dan kos mahasiswa. Jalur Karanglewas–Purwokerto menghubungkan kawasan ini langsung ke pusat kota, sehingga banyak keluarga muda yang baru pindah ke perumahan seperti Griya Satria memilih pasang AC kamar utama dan ruang keluarga sekaligus. Ruko di jalan utama butuh ruang yang adem buat pembeli saat siang, sedangkan kos dekat kampus sisi barat sering cari low watt agar daya per kamar aman. Karena dekat basis layanan Banyumas, pengiriman unit dan survei lokasi mudah dijadwalkan. Pembayaran bisa DP, COD, atau transfer setelah stok dipastikan.",
         coverageNote:
           "Showroom dan gudang Radja AC berada di Pamijen, Sokaraja, Banyumas. Untuk area Karanglewas, pengiriman unit dan opsi pemasangan dikonfirmasi dari alamat detail, stok, jumlah unit, dan jadwal.",
         commonNeeds: [
@@ -798,16 +799,20 @@ export const banyumasAreas = [
         ],
         localFaq: [
           [
-            "AC rumah di perumahan Karanglewas, pasang pipanya rapi?",
-            "Untuk rumah dan perumahan, jalur pipa indoor-outdoor dibahas dulu supaya instalasi rapi. Kirim foto titik pemasangan dan ukuran kamar untuk perkiraan unit dan material.",
+            "Baru pindah ke perumahan di Karanglewas, pasang AC kamar utama dan ruang keluarga sekaligus bisa?",
+            "Bisa. Banyak keluarga baru di perumahan Karanglewas pasang 2–3 unit sekaligus. Kirim jumlah ruangan, ukuran, dan daya listrik — tim Radja AC bantu cek stok dan jadwal pemasangan sekaligus.",
           ],
           [
-            "Bisa kirim dan pasang AC ke ruko atau rumah di Karanglewas?",
-            "Bisa. Karanglewas dekat pusat kota dan basis layanan, jadi pengiriman unit dan survei lokasi mudah dijadwalkan. Sebutkan alamat dan jumlah unit.",
+            "AC untuk ruko di jalan utama Karanglewas, kuat dipakai seharian?",
+            "Ruko yang ramai pembeli dan pintunya sering terbuka butuh kapasitas sesuai luas. Sebutkan ukuran ruang usaha dan jam buka untuk cek unit yang pas.",
           ],
           [
-            "AC kos atau rumah di Karanglewas, hemat listrik?",
-            "Rumah dan kos dengan daya terbatas banyak pakai low watt; untuk pemakaian harian keluarga, inverter lebih hemat. Sebutkan daya dan ukuran kamar untuk arahan.",
+            "AC kos dekat kampus sisi barat Purwokerto di Karanglewas, hemat listrik?",
+            "Kos dengan banyak kamar dan daya terbatas banyak pakai low watt agar listrik tidak turun saat beberapa unit menyala. Sebutkan daya total dan jumlah kamar untuk arahan.",
+          ],
+          [
+            "Bisa kirim dan pasang AC ke alamat di Karanglewas?",
+            "Bisa. Karanglewas dekat pusat kota dan basis layanan Banyumas, jadi pengiriman unit dan survei lokasi mudah dijadwalkan. Sebutkan alamat dan jumlah unit.",
           ],
         ],
       },
@@ -816,34 +821,38 @@ export const banyumasAreas = [
         path: routes.jualAcKembaran,
         areaName: "Kembaran",
         localLandmarks: [
-          "Kawasan kampus UNSOED sisi timur (Karangwangkal)",
+          "Kampus UNSOED Karangwangkal (sisi timur Purwokerto)",
           "Jalur Purwokerto–Sokaraja via Kembaran",
-          "Kawasan kos dan hunian Kembaran",
-          "Pasar dan area usaha lokal",
-          "Perumahan di ring timur Purwokerto",
+          "Kawasan kos padat di sekitar Karangwangkal dan Dukuhwaluh",
+          "Pasar Kembaran dan deretan warung serta toko lokal",
+          "Perumahan warga di ring timur Purwokerto",
         ],
         localBenefits: [
-          "Kos kecil dan kontrakan dengan banyak kamar membutuhkan unit hemat daya per kamar",
-          "Rumah sewa dan hunian warga dengan daya listrik terbatas cocok memakai low watt",
-          "Tipe unit seragam memudahkan pemilik kos merawat dan menambah AC bertahap",
+          "Kos dan kontrakan di sekitar Karangwangkal dan Dukuhwaluh butuh unit hemat daya per kamar agar daya total bangunan tidak turun saat banyak AC menyala bersamaan",
+          "Pemilik kos sering beli tipe seragam supaya kalau ada unit rusak, penggantian dan perawatan lebih mudah dan tidak perlu stok sparepart berbeda",
+          "Rumah warga di ring timur Purwokerto yang terasa panas saat siang banyak pilih inverter untuk kamar utama karena AC menyala hampir setiap malam",
         ],
         localCases: [
-          ["Kos kecil & kontrakan", "Banyak kamar kecil dengan unit hemat daya dan tipe seragam."],
-          ["Rumah sewa & hunian warga", "AC kamar untuk hunian dengan daya listrik standar."],
-          ["Penambahan unit bertahap", "Pemilik kos menambah AC per kamar mengikuti anggaran."],
+          ["Kos padat dekat UNSOED", "Pemilik kos di Karangwangkal pasang unit hemat daya tipe seragam per kamar secara bertahap."],
+          ["Kontrakan & rumah sewa", "AC kamar untuk hunian sewa dengan daya listrik standar; tipe seragam memudahkan perawatan."],
+          ["Rumah tinggal warga", "Keluarga pasang AC kamar utama dengan inverter untuk pemakaian malam yang panjang."],
         ],
         localFaq: [
           [
-            "AC untuk kos kecil banyak kamar di Kembaran, pakai apa?",
-            "Untuk banyak kamar kecil, unit kapasitas kecil yang hemat daya biasanya cocok, tetapi tetap dicek dari daya listrik total bangunan. Kirim jumlah kamar dan daya untuk arahan.",
+            "AC untuk kos banyak kamar di sekitar Karangwangkal Kembaran, pakai apa?",
+            "Untuk banyak kamar kecil, unit hemat daya tipe seragam biasanya cocok agar daya total bangunan tidak turun. Kirim jumlah kamar dan daya listrik total untuk arahan unit dan stok.",
           ],
           [
-            "Bisa pasang AC bertahap untuk rumah sewa atau kontrakan di Kembaran?",
-            "Bisa. Banyak pemilik memasang per kamar secara bertahap. Kirim jumlah kamar dan target agar tim menyiapkan tipe seragam dan jadwal.",
+            "Bisa pasang AC bertahap untuk kontrakan atau rumah sewa di Kembaran?",
+            "Bisa. Banyak pemilik di Dukuhwaluh dan Karangwangkal pasang per kamar secara bertahap. Kirim jumlah kamar dan target jadwal agar tim menyiapkan tipe seragam dan estimasi biaya.",
           ],
           [
-            "AC low watt cukup untuk hunian Kembaran dengan daya terbatas?",
-            "Sering cocok untuk daya standar, tergantung jumlah unit yang menyala bersamaan. Kirim daya listrik dan jumlah unit agar dicek kecocokannya.",
+            "AC low watt cukup untuk kos di Kembaran dengan daya terbatas?",
+            "Sering cocok, tergantung jumlah unit yang menyala bersamaan dan daya total bangunan. Kirim daya listrik dan jumlah kamar agar dicek kecocokannya sebelum deal.",
+          ],
+          [
+            "Rumah di ring timur Purwokerto area Kembaran, inverter atau standard?",
+            "Untuk kamar utama yang AC-nya menyala hampir setiap malam, inverter lebih hemat jangka panjang. Untuk kamar tambahan yang jarang dipakai, standard sudah cukup. Sebutkan pola pemakaian untuk arahan.",
           ],
         ],
         label: "Jual AC Kembaran",
@@ -855,7 +864,7 @@ export const banyumasAreas = [
         intro:
           "Butuh AC di Kembaran untuk rumah, kost, kontrakan, toko, atau usaha? Tim Radja AC cek ukuran ruangan, daya listrik, pilihan brand, stok unit, pengiriman, dan opsi pemasangan sebelum pembelian.",
         localContext:
-          "Kembaran adalah ring hunian di timur Purwokerto, dekat sisi kampus UNSOED Karangwangkal, dengan banyak kos kecil, rumah sewa, dan kontrakan. Permintaan AC umumnya berupa kamar-kamar kecil di kos dan kontrakan serta rumah tinggal warga, dengan daya listrik yang terbatas. Pemilik kos sering memasang AC per kamar secara bertahap, sehingga efisiensi daya dan tipe unit seragam jadi pertimbangan utama.",
+          "Kembaran adalah ring hunian di timur Purwokerto, berbatasan langsung dengan kampus UNSOED Karangwangkal dan kawasan kos padat di Dukuhwaluh. Permintaan AC paling banyak dari pemilik kos yang ingin unit hemat daya tipe seragam agar daya total bangunan tidak turun saat banyak kamar menyala bersamaan, serta rumah tinggal warga yang kamar utamanya panas saat siang. Jalur Kembaran–Sokaraja juga memudahkan pengiriman unit dari gudang Radja AC di Pamijen. Pemilik kos sering pasang per kamar secara bertahap, sehingga efisiensi daya dan keseragaman tipe jadi pertimbangan utama.",
         coverageNote:
           "Showroom dan gudang Radja AC berada di Pamijen, Sokaraja, Banyumas. Untuk area Kembaran, pengiriman unit dan opsi pemasangan dikonfirmasi dari alamat detail, stok, jumlah unit, dan jadwal.",
         commonNeeds: [
@@ -911,20 +920,21 @@ export const banyumasAreas = [
         path: routes.jualAcPatikraja,
         areaName: "Patikraja",
         localLandmarks: [
-          "Jalur Purwokerto–Patikraja–Banyumas",
-          "Kawasan dekat aliran Sungai Serayu",
-          "Permukiman dan area persawahan Patikraja",
-          "Ruko serta usaha lokal di sepanjang jalan utama",
+          "Jembatan Serayu Patikraja dan aliran Sungai Serayu",
+          "Jalur Purwokerto–Patikraja–Banyumas (jalan selatan)",
+          "Pasar Patikraja dan deretan toko serta warung di jalan utama",
+          "Kawasan persawahan dan permukiman desa Patikraja",
+          "Sentra UMKM dan usaha rumahan di sepanjang jalur selatan",
         ],
         localBenefits: [
-          "Relevan untuk rumah yang terasa panas pada siang hari dan butuh pendinginan kamar",
-          "Pilihan low watt membantu rumah dengan daya listrik terbatas",
-          "Dekat jalur Banyumas sehingga pengiriman unit mudah dijadwalkan",
+          "Rumah di Patikraja yang menghadap barat atau dekat persawahan terasa panas saat siang, sehingga AC kamar jadi kebutuhan utama bukan sekadar kenyamanan tambahan",
+          "UMKM dan toko di jalur selatan Patikraja butuh ruang yang adem agar pembeli betah, terutama saat jam ramai siang hari",
+          "Daya listrik rumahan di permukiman desa Patikraja banyak yang terbatas, sehingga low watt jadi pilihan agar MCB tidak turun saat AC menyala",
         ],
         localCases: [
-          ["Rumah tinggal", "AC kamar tidur agar tetap nyaman saat siang yang panas."],
-          ["Kost & rumah sewa", "Pemilihan unit hemat daya untuk beberapa kamar sekaligus."],
-          ["Toko & kantor kecil", "AC ruang pelanggan dan ruang kerja dengan kapasitas sesuai luas ruangan."],
+          ["Rumah tinggal", "AC kamar yang panas saat siang, terutama kamar yang menghadap barat atau dekat atap seng."],
+          ["UMKM & toko jalur selatan", "AC ruang usaha agar pembeli betah dan pemilik tidak kelelahan saat jam ramai."],
+          ["Kost & rumah sewa", "Unit hemat daya untuk beberapa kamar dengan daya listrik terbatas."],
         ],
         label: "Jual AC Patikraja",
         title: "Jual AC Patikraja untuk Rumah, Toko & Usaha — Radja AC",
@@ -935,7 +945,7 @@ export const banyumasAreas = [
         intro:
           "Butuh AC di Patikraja untuk rumah, toko, kantor, ruko, atau usaha? Tim Radja AC cek ukuran ruangan, daya listrik, pilihan brand, stok unit, pengiriman, dan opsi pemasangan sebelum pembelian.",
         localContext:
-          "Patikraja ada di jalur selatan Purwokerto menuju Banyumas, dilewati Sungai Serayu—daerah rumah tinggal, UMKM, toko, dan pertanian yang terasa panas saat siang. Pembeli AC umumnya rumah dan UMKM atau toko di sepanjang jalan utama, dengan daya listrik rumahan. Untuk jual AC Patikraja, unit dikirim ke alamat lalu dipasang, dengan pembayaran DP, COD, atau transfer setelah stok dipastikan.",
+          "Patikraja ada di jalur selatan Purwokerto menuju Banyumas, dibelah Sungai Serayu dengan Jembatan Serayu Patikraja sebagai penanda utamanya. Daerah ini campuran permukiman desa, persawahan, dan UMKM serta toko di sepanjang jalan utama. Rumah yang menghadap barat atau dekat atap seng terasa panas saat siang, sehingga AC kamar jadi kebutuhan nyata. Toko dan UMKM di jalur selatan butuh ruang yang adem agar pembeli betah. Karena daya listrik rumahan banyak yang terbatas, low watt sering jadi pilihan. Unit dikirim ke alamat lalu dipasang, dengan pembayaran DP, COD, atau transfer setelah stok dipastikan.",
         coverageNote:
           "Showroom dan gudang Radja AC berada di Pamijen, Sokaraja, Banyumas. Untuk area Patikraja, pengiriman unit dan opsi pemasangan dikonfirmasi dari alamat detail, stok, jumlah unit, akses lokasi, dan jadwal.",
         commonNeeds: [
@@ -985,16 +995,20 @@ export const banyumasAreas = [
         ],
         localFaq: [
           [
-            "AC rumah atau UMKM di Patikraja, hemat listrik?",
-            "Rumah dan usaha rumahan dengan daya terbatas banyak pakai low watt agar listrik tidak turun. Sebutkan daya dan ukuran ruangan untuk cek unit dan stok.",
+            "Rumah di Patikraja kamarnya panas saat siang, AC apa yang cocok?",
+            "Kamar yang menghadap barat atau dekat atap seng memang lebih cepat panas. Kapasitas PK dihitung dari luas kamar dan kondisi panas tersebut, bukan sekadar ukuran standar. Sebutkan ukuran kamar dan arah hadap untuk arahan yang lebih tepat.",
           ],
           [
-            "Bisa kirim dan pasang AC ke alamat di jalur Patikraja?",
-            "Bisa. Unit dikirim ke alamat di jalur selatan Patikraja lalu pemasangan dijadwalkan; sebutkan alamat dan jumlah unit untuk perkiraan.",
+            "AC untuk UMKM atau toko di jalur selatan Patikraja, pilih apa?",
+            "Ruang usaha yang dipakai seharian dan ramai pembeli butuh kapasitas sesuai luas, bukan yang termurah, supaya dingin merata dan awet. Sebutkan ukuran ruang dan jam buka untuk cek unit.",
           ],
           [
-            "AC untuk toko atau UMKM di Patikraja, pilih apa?",
-            "Ruang usaha yang dipakai harian sebaiknya kapasitasnya sesuai luas, bukan yang termurah, supaya awet. Sebutkan ukuran ruang dan jam pakai.",
+            "Daya listrik rumah di Patikraja terbatas, AC low watt cukup?",
+            "Banyak rumah di permukiman desa Patikraja pakai daya 900–1300 watt, jadi low watt sering jadi pilihan agar MCB tidak turun. Sebutkan daya dan ukuran kamar untuk cek unit dan stok.",
+          ],
+          [
+            "Bisa kirim dan pasang AC ke alamat di jalur Patikraja dekat Jembatan Serayu?",
+            "Bisa. Unit dikirim ke alamat di jalur selatan Patikraja lalu pemasangan dijadwalkan sesuai akses lokasi. Sebutkan alamat dan jumlah unit untuk perkiraan pengiriman.",
           ],
         ],
       },
@@ -1003,20 +1017,21 @@ export const banyumasAreas = [
         path: routes.jualAcRawalo,
         areaName: "Rawalo",
         localLandmarks: [
-          "Jalur Purwokerto–Rawalo–Buntu",
-          "Kawasan Jembatan Serayu Rawalo",
-          "Area pertigaan dan usaha tepi jalan utama",
-          "Permukiman serta persawahan Rawalo",
+          "Pertigaan Rawalo (simpul jalur Purwokerto–Buntu–Wangon)",
+          "Jembatan Serayu Rawalo dan aliran Sungai Serayu",
+          "Pasar Rawalo dan deretan toko serta warung di jalan utama",
+          "Kawasan persawahan dan permukiman desa Rawalo",
+          "Jalur menuju Buntu dan Majenang (selatan Banyumas)",
         ],
         localBenefits: [
-          "Cocok untuk toko dan warung di tepi jalur yang ingin ruang lebih nyaman bagi pelanggan",
-          "Pilihan low watt sesuai untuk rumah dengan daya listrik standar",
-          "Posisi di jalur utama memudahkan penjadwalan pengiriman unit",
+          "Toko dan warung di pertigaan Rawalo yang ramai kendaraan butuh AC ruang pelanggan agar pembeli betah singgah, terutama siang hari saat jalur panas",
+          "Rumah di permukiman desa Rawalo yang terasa panas saat siang banyak pilih low watt karena daya listrik rumahan terbatas",
+          "Posisi Rawalo di pertigaan jalur utama memudahkan penjadwalan pengiriman unit dari gudang Sokaraja ke alamat tujuan",
         ],
         localCases: [
-          ["Toko & warung tepi jalan", "AC ruang pelanggan agar betah meski lalu lintas padat dan udara panas."],
-          ["Rumah tinggal", "Pendinginan kamar dengan unit yang hemat daya."],
-          ["Kantor kecil & usaha", "Pemilihan kapasitas AC sesuai luas ruang kerja."],
+          ["Toko & warung pertigaan", "AC ruang pelanggan di pertigaan Rawalo agar pembeli yang singgah betah dan tidak buru-buru pergi."],
+          ["Rumah tinggal desa", "Pendinginan kamar yang panas saat siang dengan pilihan low watt sesuai daya rumahan."],
+          ["Kantor kecil & usaha", "Pemilihan kapasitas AC sesuai luas ruang kerja dengan pengiriman ke alamat Rawalo."],
         ],
         label: "Jual AC Rawalo",
         title: "Jual AC Rawalo untuk Rumah, Toko & Usaha — Radja AC",
@@ -1027,7 +1042,7 @@ export const banyumasAreas = [
         intro:
           "Butuh AC di Rawalo untuk rumah, toko, kantor, ruko, atau usaha? Tim Radja AC cek ukuran ruangan, daya listrik, pilihan brand, stok unit, pengiriman, dan opsi pemasangan sebelum pembelian.",
         localContext:
-          "Rawalo berada di area selatan Banyumas dengan kebutuhan AC untuk rumah tinggal, toko, ruang usaha, dan bangunan keluarga. Untuk menghindari salah pilih kapasitas, tim Radja AC akan membaca ukuran ruangan, daya listrik, jumlah unit, anggaran, alamat detail, serta kebutuhan unit saja atau opsi pemasangan.",
+          "Rawalo adalah pertigaan jalur selatan Banyumas yang menghubungkan Purwokerto ke Buntu dan Wangon, dengan Jembatan Serayu Rawalo sebagai penanda geografisnya. Daerah ini campuran permukiman desa, persawahan, dan usaha tepi jalan di sekitar pertigaan. Toko dan warung di pertigaan yang ramai kendaraan butuh AC ruang pelanggan agar pembeli betah singgah, sedangkan rumah di permukiman desa banyak yang pilih low watt karena daya listrik terbatas. Posisi Rawalo di jalur utama memudahkan penjadwalan pengiriman unit dari gudang Sokaraja. Pembayaran bisa DP, COD, atau transfer setelah stok dipastikan.",
         coverageNote:
           "Showroom dan gudang Radja AC berada di Pamijen, Sokaraja, Banyumas. Untuk area Rawalo, pengiriman unit dan opsi pemasangan dikonfirmasi dari alamat detail, stok, jumlah unit, akses lokasi, dan jadwal.",
         commonNeeds: [
@@ -1077,16 +1092,20 @@ export const banyumasAreas = [
         ],
         localFaq: [
           [
-            "AC untuk toko atau warung di pertigaan Rawalo, kuat dipakai seharian?",
-            "Usaha tepi jalur yang ramai dan pintunya sering kebuka butuh kapasitas sesuai luas. Sebutkan ukuran ruang dan jam buka untuk cek unit dan stok.",
+            "AC untuk toko atau warung di pertigaan Rawalo yang ramai kendaraan, pilih apa?",
+            "Ruang usaha di pertigaan yang pintunya sering terbuka dan ramai pembeli butuh kapasitas sedikit lebih besar dari kamar biasa agar dingin merata. Sebutkan ukuran ruang dan jam buka untuk cek unit dan stok.",
           ],
           [
-            "Bisa kirim dan pasang AC ke alamat di jalur Rawalo?",
-            "Bisa. Posisi Rawalo di pertigaan jalur utama memudahkan penjadwalan pengiriman unit lalu pemasangan. Sebutkan alamat dan jumlah unit.",
+            "Rumah di permukiman desa Rawalo, daya listrik terbatas, AC apa yang aman?",
+            "Banyak rumah di Rawalo pakai daya 900–1300 watt, jadi low watt sering jadi pilihan agar MCB tidak turun saat AC menyala. Sebutkan daya dan ukuran kamar untuk cek unit.",
           ],
           [
-            "AC rumah di Rawalo, hemat listrik?",
-            "Rumah dengan daya standar banyak pakai low watt agar listrik tidak turun. Sebutkan daya dan ukuran kamar untuk cek pilihan unit.",
+            "Bisa kirim dan pasang AC ke alamat di jalur Rawalo dekat Jembatan Serayu?",
+            "Bisa. Posisi Rawalo di pertigaan jalur utama memudahkan penjadwalan pengiriman dari gudang Sokaraja. Sebutkan alamat dan jumlah unit untuk perkiraan.",
+          ],
+          [
+            "Melayani pengiriman ke arah Buntu atau Majenang dari Rawalo?",
+            "Untuk area di jalur selatan Rawalo menuju Buntu dan Majenang, unit dikirim ke alamat lalu pemasangan dijadwalkan sesuai akses lokasi. Sebutkan alamat detail dan jumlah unit.",
           ],
         ],
       },
@@ -1095,20 +1114,21 @@ export const banyumasAreas = [
         path: routes.jualAcBaturraden,
         areaName: "Baturraden",
         localLandmarks: [
-          "Kawasan Lokawisata Baturraden",
-          "Area villa, homestay, dan guest house",
-          "Kafe dan resto di jalur wisata Purwokerto–Baturraden",
-          "Permukiman di kaki Gunung Slamet",
+          "Lokawisata Baturraden dan kolam renang air panas",
+          "Jalur wisata Purwokerto–Baturraden (Jl. Raya Baturraden)",
+          "Kawasan villa dan homestay di lereng Gunung Slamet",
+          "Kafe dan warung makan di sepanjang jalur wisata",
+          "Permukiman warga di Karangmangu dan Kemutug Lor",
         ],
         localBenefits: [
-          "Cocok untuk kamar penginapan dan villa yang perlu suhu stabil saat okupansi tinggi",
-          "Pilihan low watt membantu penginapan kecil menjaga daya listrik",
-          "Unit hemat energi relevan untuk kafe dan ruang usaha dengan jam buka panjang",
+          "Homestay dan villa di lereng Slamet butuh AC kamar tamu yang seragam dan mudah dirawat saat musim liburan ramai",
+          "Kafe dan warung di jalur wisata perlu ruang yang tetap adem walau pintu sering terbuka dan pengunjung padat saat akhir pekan",
+          "Rumah warga di area bawah yang terasa panas saat siang cukup pasang AC di kamar tertentu, bukan seluruh bangunan",
         ],
         localCases: [
-          ["Homestay & villa wisata", "Pemilihan AC kamar dan ruang bersama untuk penginapan yang ramai saat akhir pekan."],
-          ["Kafe & resto jalur wisata", "AC ruang pelanggan agar tetap nyaman walau pengunjung padat."],
-          ["Rumah kawasan sejuk", "Sebagian rumah hanya butuh AC di kamar tertentu, bukan seluruh ruangan."],
+          ["Homestay & villa wisata", "Pemilihan AC kamar tamu seragam untuk penginapan yang ramai saat akhir pekan dan libur panjang."],
+          ["Kafe & warung jalur wisata", "AC ruang pelanggan agar pengunjung betah walau lalu lintas wisata padat."],
+          ["Rumah kawasan lereng", "Sebagian rumah hanya butuh AC di kamar yang panas saat siang, bukan seluruh ruangan."],
         ],
         label: "Jual AC Baturraden",
         title: "Jual AC Baturraden untuk Rumah, Villa & Penginapan — Radja AC",
@@ -1119,7 +1139,7 @@ export const banyumasAreas = [
         intro:
           "Butuh AC di Baturraden atau Baturaden untuk rumah, villa, homestay, guest house, atau ruang usaha? Tim Radja AC cek kebutuhan PK, daya listrik, pilihan brand, stok unit, pengiriman, dan opsi pemasangan dari data lokasi.",
         localContext:
-          "Baturraden dikenal sebagai area wisata dan hunian di wilayah Banyumas. Kebutuhan AC untuk rumah tinggal, villa, penginapan, homestay, atau ruang usaha tidak selalu sama dengan kamar rumah biasa, sehingga tim Radja AC perlu membaca ukuran ruangan, jumlah titik, pola pemakaian, daya listrik, dan kebutuhan pemasangan sebelum memberi arahan.",
+          "Baturraden adalah kawasan wisata alam di kaki Gunung Slamet, sekitar 14 km utara Purwokerto, yang dikenal dengan Lokawisata Baturraden, kolam renang air panas, dan udara sejuk. Jalur wisata Purwokerto–Baturraden dipenuhi homestay, villa, kafe, dan warung makan yang ramai saat akhir pekan dan musim liburan. Kebutuhan AC di sini berbeda: penginapan butuh kamar tamu yang adem dan seragam saat okupansi naik, kafe butuh ruang pelanggan yang nyaman walau pintu sering terbuka, sedangkan rumah warga di area bawah yang panas saat siang cukup pasang AC di kamar tertentu. Tim Radja AC mengecek jumlah kamar, ukuran ruangan, daya listrik, dan pola pemakaian sebelum unit dikirim dari gudang Sokaraja.",
         coverageNote:
           "Showroom dan gudang Radja AC berada di Pamijen, Sokaraja, Banyumas. Untuk area Baturraden atau Baturaden, pengiriman unit dan opsi pemasangan dikonfirmasi berdasarkan alamat, jumlah unit, akses lokasi, stok, dan jadwal.",
         commonNeeds: [
@@ -1173,16 +1193,20 @@ export const banyumasAreas = [
         ],
         localFaq: [
           [
-            "AC untuk kamar penginapan atau villa wisata di Baturraden, pilih apa?",
-            "Kamar tamu yang dipakai saat okupansi naik sebaiknya unit seragam yang mudah dirawat; inverter membantu kalau AC menyala lama. Kirim jumlah kamar dan ukurannya.",
+            "AC untuk kamar homestay atau villa di lereng Baturraden, pilih apa?",
+            "Kamar tamu yang dipakai saat liburan panjang sebaiknya unit seragam yang mudah dirawat; inverter lebih efisien kalau AC menyala hampir setiap malam. Kirim jumlah kamar dan ukurannya untuk arahan stok.",
           ],
           [
-            "Baturraden sejuk, semua ruangan perlu AC?",
-            "Tidak selalu. Banyak penginapan dan rumah hanya pasang AC di kamar tertentu atau ruang ramai pengunjung, bukan seluruh bangunan. Sebutkan ruangannya untuk masukan.",
+            "Baturraden kan sejuk, semua ruangan perlu AC?",
+            "Tidak selalu. Banyak rumah warga di Karangmangu dan Kemutug Lor hanya pasang AC di kamar yang panas saat siang, bukan seluruh bangunan. Penginapan biasanya pasang di kamar tamu saja. Sebutkan ruangannya untuk masukan.",
           ],
           [
-            "Bisa kirim dan pasang AC ke villa atau kafe di jalur wisata Baturraden?",
-            "Bisa. Unit dikirim ke alamat di jalur Baturraden lalu pemasangan dijadwalkan sesuai akses lokasi; sebutkan alamat dan jumlah unit. Pembayaran bisa DP atau transfer.",
+            "Bisa kirim dan pasang AC ke kafe atau warung di jalur wisata Baturraden?",
+            "Bisa. Unit dikirim ke alamat di Jl. Raya Baturraden lalu pemasangan dijadwalkan sesuai akses lokasi. Sebutkan alamat dan jumlah unit; pembayaran bisa DP atau transfer setelah stok dipastikan.",
+          ],
+          [
+            "Pengadaan AC banyak kamar untuk homestay atau villa di Baturraden, bisa?",
+            "Bisa. Untuk beberapa kamar sekaligus, kirim jumlah kamar, ukuran, daya listrik, dan target musim ramai agar tim menyiapkan unit seragam, stok, dan jadwal pengiriman bertahap.",
           ],
         ],
       },
