@@ -41,6 +41,21 @@ const guideArticleBySlug = {
   "ac-low-watt": [routes.artikelAcUntukListrik900Watt, "panduan memilih AC untuk listrik 900 watt agar MCB tidak sering turun"],
   "ac-inverter": [routes.artikelAcPalingHematListrik, "panduan AC paling hemat listrik untuk rumah"],
   "ac-1-2-pk": [routes.artikelPilihanAcSetengahPkTerbaik, "panduan memilih AC 1/2 PK terbaik untuk ruang kecil"],
+  "ac-kantor-komersial": [routes.artikelAcUntukTokoRukoPilihPkBerapa, "panduan memilih PK AC untuk toko dan ruko"],
+};
+
+// Additional related articles per catalog category
+const additionalArticlesBySlug = {
+  "ac-low-watt": [
+    [routes.artikelAcKantorKecilInverterAtauLowWatt, "AC Kantor Kecil: Inverter atau Low Watt?", "Panduan memilih tipe AC yang tepat untuk kantor kecil."],
+    [routes.artikelCaraMenghitungKebutuhanAcKost, "Cara Menghitung Kebutuhan AC Kost", "Hitung jumlah dan kapasitas AC untuk bangunan kost."],
+  ],
+  "ac-inverter": [
+    [routes.artikelAcKantorKecilInverterAtauLowWatt, "AC Kantor Kecil: Inverter atau Low Watt?", "Panduan memilih tipe AC yang tepat untuk kantor kecil."],
+  ],
+  "ac-kantor-komersial": [
+    [routes.artikelAcUntukTokoRukoPilihPkBerapa, "AC untuk Toko dan Ruko: Pilih PK Berapa?", "Panduan kapasitas AC untuk ruang usaha."],
+  ],
 };
 
 export function generateStaticParams() {
@@ -394,10 +409,38 @@ export default async function CatalogDetailPage({ params }) {
       {(slug === "ac-low-watt" || slug === "ac-inverter") && (
         <section className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8 lg:py-12">
           <h2 className={`mb-6 ${typography.sectionTitle} text-slate-950`}>Panduan Terkait</h2>
-          <Link href={routes.artikelAcInverterVsLowWatt} prefetch={false} className="rounded-[1.45rem] border border-slate-200 bg-white p-6 transition hover:-translate-y-1">
-            <h3 className={`mb-2 ${typography.cardTitle} text-slate-950`}>AC Inverter vs Low Watt</h3>
-            <p className="text-sm text-slate-600">Pahami beda fungsi dan kapan memilih tipe mana.</p>
-          </Link>
+          <div className="grid gap-4 lg:grid-cols-2">
+            <Link href={routes.artikelAcInverterVsLowWatt} prefetch={false} className="block rounded-[1.45rem] border border-slate-200 bg-white p-6 transition hover:-translate-y-1">
+              <h3 className={`mb-2 ${typography.cardTitle} text-slate-950`}>AC Inverter vs Low Watt</h3>
+              <p className="text-sm text-slate-600">Pahami beda fungsi dan kapan memilih tipe mana.</p>
+            </Link>
+            <Link href={routes.artikelAcKantorKecilInverterAtauLowWatt} prefetch={false} className="block rounded-[1.45rem] border border-slate-200 bg-white p-6 transition hover:-translate-y-1">
+              <h3 className={`mb-2 ${typography.cardTitle} text-slate-950`}>AC Kantor Kecil: Inverter atau Low Watt?</h3>
+              <p className="text-sm text-slate-600">Panduan memilih tipe AC yang tepat untuk kantor kecil.</p>
+            </Link>
+            {slug === "ac-low-watt" && (
+              <Link href={routes.artikelCaraMenghitungKebutuhanAcKost} prefetch={false} className="block rounded-[1.45rem] border border-slate-200 bg-white p-6 transition hover:-translate-y-1">
+                <h3 className={`mb-2 ${typography.cardTitle} text-slate-950`}>Cara Menghitung Kebutuhan AC Kost</h3>
+                <p className="text-sm text-slate-600">Hitung jumlah dan kapasitas AC untuk bangunan kost.</p>
+              </Link>
+            )}
+          </div>
+        </section>
+      )}
+
+      {slug === "ac-kantor-komersial" && (
+        <section className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8 lg:py-12">
+          <h2 className={`mb-6 ${typography.sectionTitle} text-slate-950`}>Panduan Terkait</h2>
+          <div className="grid gap-4 lg:grid-cols-2">
+            <Link href={routes.artikelAcUntukTokoRukoPilihPkBerapa} prefetch={false} className="block rounded-[1.45rem] border border-slate-200 bg-white p-6 transition hover:-translate-y-1">
+              <h3 className={`mb-2 ${typography.cardTitle} text-slate-950`}>AC untuk Toko dan Ruko: Pilih PK Berapa?</h3>
+              <p className="text-sm text-slate-600">Panduan kapasitas AC untuk ruang usaha.</p>
+            </Link>
+            <Link href={routes.artikelAcKantorKecilInverterAtauLowWatt} prefetch={false} className="block rounded-[1.45rem] border border-slate-200 bg-white p-6 transition hover:-translate-y-1">
+              <h3 className={`mb-2 ${typography.cardTitle} text-slate-950`}>AC Kantor Kecil: Inverter atau Low Watt?</h3>
+              <p className="text-sm text-slate-600">Panduan memilih tipe AC yang tepat untuk kantor kecil.</p>
+            </Link>
+          </div>
         </section>
       )}
     </main>

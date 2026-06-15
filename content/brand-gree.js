@@ -201,6 +201,16 @@ export const greePremiumContent = {
       "Halaman dan artikel berikut bantu Anda paham tipe AC, kapasitas PK, dan kebutuhan ruangan sebelum chat ke admin.",
     links: [
       {
+        title: "Perbandingan Gree vs Daikin",
+        description: "Mana yang lebih cocok untuk rumah Anda? Baca perbandingan lengkap fitur, harga, dan efisiensi.",
+        href: routes.artikelGreeVsDaikinUntukRumah,
+      },
+      {
+        title: "AC Gree Cocok untuk Siapa?",
+        description: "Panduan memilih AC Gree berdasarkan kebutuhan ruangan, budget, dan pola pemakaian.",
+        href: routes.artikelAcGreeCocokUntukSiapa,
+      },
+      {
         title: "Konsultasi AC Gree",
         description: "Sebelum OTW, cek stok, harga, brand yang ready, dan kebutuhan pemasangan di Radja AC.",
         href: routes.kontak,

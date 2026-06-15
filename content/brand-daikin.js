@@ -211,20 +211,20 @@ export const daikinPremiumContent = {
 
   internalLinks: [
     {
+      title: "Perbandingan Gree vs Daikin",
+      description: "Bandingkan Gree dan Daikin untuk kebutuhan rumah — fitur, harga, dan efisiensi.",
+      href: routes.artikelGreeVsDaikinUntukRumah,
+    },
+    {
+      title: "Daikin vs Panasonic Jangka Panjang",
+      description: "Mana yang lebih awet dan hemat untuk pemakaian bertahun-tahun? Baca perbandingannya.",
+      href: routes.artikelDaikinVsPanasonicJangkaPanjang,
+    },
+    {
       title: "Konsultasi AC Daikin",
       description:
         "Cek stok Daikin, rekomendasi PK, alamat pengiriman, dan opsi pemasangan sebelum membeli.",
       href: routes.kontak,
-    },
-    {
-      title: "Harga AC Daikin",
-      description: "Panduan cek harga, stok, tipe, dan estimasi pemasangan Daikin sebelum membeli.",
-      href: routes.brandDaikin,
-    },
-    {
-      title: "Daikin Inverter",
-      description: "Kapan inverter lebih efisien dibanding standard? Baca panduan pemakaian dan perbandingannya.",
-      href: routes.katalogAcInverter,
     },
     {
       title: "AC Inverter",

@@ -201,6 +201,11 @@ export const mideaPremiumContent = {
       "Halaman berikut membantu Anda membandingkan kebutuhan AC Midea dengan kategori dan panduan pembelian yang relevan sebelum memutuskan.",
     links: [
       {
+        title: "Perbandingan Midea vs Hisense",
+        description: "Pilihan terbaik untuk budget terbatas. Baca perbandingan fitur, harga, dan kualitas.",
+        href: routes.artikelMideaVsHisenseBudgetTerbatas,
+      },
+      {
         title: "Konsultasi AC Midea",
         description: "Sebelum OTW ke showroom, cek stok, harga, brand yang ready, dan kebutuhan pemasangan di Radja AC.",
         href: routes.kontak,
