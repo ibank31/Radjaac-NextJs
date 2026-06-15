@@ -1341,6 +1341,1118 @@ export const articleItems = [
       ["Kontak Radja AC", routes.kontak],
     ],
   },
+  // ============================================================
+  // 12 ARTIKEL BARU UNTUK TOPICAL AUTHORITY
+  // ============================================================
+
+  // CLUSTER A - BRAND AUTHORITY (4 artikel)
+  {
+    slug: "gree-vs-daikin-untuk-rumah",
+    path: routes.artikelGreeVsDaikinUntukRumah,
+    cluster: "brand-evaluation",
+    role: "pillar",
+    intent: "commercial",
+    parentSlug: null,
+    updatedAt: "2026-06-15",
+    moneyLinks: [
+      ["AC Gree", routes.brandGree, "Cek pilihan AC Gree dengan status Proshop resmi dan stok lengkap."],
+      ["AC Daikin", routes.brandDaikin, "Lihat pilihan AC Daikin dengan dokumen Authorized Dealer."],
+      ["Jual AC Purwokerto", routes.jualAcPurwokerto, "Konsultasi pembelian AC di area Purwokerto dan sekitarnya."],
+      ["AC Inverter", routes.katalogAcInverter, "Bandingkan pilihan inverter dari berbagai brand untuk pemakaian rutin."],
+    ],
+    title: "Gree vs Daikin untuk Rumah | Perbandingan Brand AC Terbaik — Radja AC",
+    description:
+      "Bingung pilih Gree atau Daikin untuk rumah? Bandingkan harga, efisiensi, garansi, ketersediaan spare part, dan mana yang lebih cocok untuk kebutuhan Anda.",
+    h1: "Gree vs Daikin untuk rumah: mana yang lebih cocok?",
+    eyebrow: "Perbandingan Brand AC",
+    readTime: "8 menit baca",
+    intro:
+      "Gree dan Daikin adalah dua brand AC yang sering dibandingkan oleh pembeli rumah tangga. Keduanya punya karakter berbeda: Daikin dikenal dengan reputasi premium dan ketahanan jangka panjang, sedangkan Gree menawarkan value yang kompetitif dengan pilihan tipe yang lengkap. Artikel ini membantu Anda memilih berdasarkan kebutuhan nyata, bukan sekadar nama brand.",
+    sections: [
+      {
+        heading: "Profil singkat kedua brand",
+        body: [
+          "Daikin adalah brand Jepang yang sudah puluhan tahun dikenal sebagai salah satu produsen AC premium dunia. Reputasinya kuat di segmen yang mengutamakan ketahanan, efisiensi, dan layanan purna jual. Harga unitnya cenderung lebih tinggi, tapi banyak pembeli menganggapnya sebagai investasi jangka panjang.",
+          "Gree adalah produsen AC terbesar di dunia asal Tiongkok. Brand ini menawarkan pilihan tipe yang sangat lengkap — dari standard, low watt, hingga inverter — dengan harga yang lebih kompetitif. Radja AC adalah Proshop Gree resmi, sehingga stok Gree lebih lengkap dibanding toko biasa.",
+        ],
+      },
+      {
+        heading: "Perbandingan harga: Gree lebih terjangkau, Daikin lebih premium",
+        body: [
+          "Untuk kapasitas yang sama, harga Gree umumnya 15-30% lebih rendah dibanding Daikin. Selisih ini cukup signifikan, terutama jika Anda membeli beberapa unit sekaligus untuk rumah atau kost.",
+          "Namun harga bukan satu-satunya pertimbangan. Daikin sering dipilih oleh pembeli yang mengutamakan reputasi brand dan bersedia membayar lebih untuk ketenangan pikiran jangka panjang. Gree cocok untuk pembeli yang ingin value terbaik tanpa mengorbankan kualitas.",
+        ],
+      },
+      {
+        heading: "Efisiensi listrik: keduanya punya pilihan inverter",
+        body: [
+          "Baik Gree maupun Daikin sama-sama menyediakan tipe inverter yang efisien untuk pemakaian rutin. Daikin inverter dikenal dengan teknologi yang sudah matang dan suhu yang sangat stabil. Gree inverter menawarkan efisiensi serupa dengan harga yang lebih kompetitif.",
+          "Untuk pemakaian 6-8 jam sehari, keduanya bisa menghemat listrik dibanding AC non-inverter. Pilihan lebih bergantung pada anggaran dan preferensi brand daripada perbedaan efisiensi yang signifikan.",
+        ],
+      },
+      {
+        heading: "Garansi dan layanan purna jual",
+        body: [
+          "Daikin dikenal dengan jaringan service center yang luas dan spare part yang mudah didapat. Garansi unit mengikuti ketentuan resmi brand, dan banyak pembeli merasa tenang dengan reputasi layanan Daikin.",
+          "Gree juga memiliki garansi resmi dan jaringan layanan yang terus berkembang. Sebagai Proshop Gree, Radja AC membantu arahan awal proses klaim bila terjadi kendala unit, sehingga pembeli tidak ditinggal begitu saja setelah pembelian.",
+        ],
+      },
+      {
+        heading: "Kapan pilih Gree, kapan pilih Daikin?",
+        body: [
+          "Pilih Gree jika: anggaran menjadi pertimbangan utama, Anda butuh pilihan tipe yang lengkap (standard, low watt, inverter), atau Anda membeli beberapa unit sekaligus dan ingin total biaya lebih efisien.",
+          "Pilih Daikin jika: Anda mengutamakan reputasi brand premium, berencana memakai AC dalam jangka sangat panjang (10+ tahun), atau sudah familiar dan puas dengan pengalaman Daikin sebelumnya.",
+        ],
+      },
+      {
+        heading: "Cara memilih yang tepat untuk rumah Anda",
+        body: [
+          "Jangan memilih brand dulu sebelum tahu kebutuhan ruangan. Ukur luas ruangan, cek daya listrik, tentukan apakah butuh standard, low watt, atau inverter. Setelah itu, bandingkan Gree dan Daikin berdasarkan stok yang tersedia dan anggaran.",
+          "Kirim data ruangan ke tim Radja AC — tim bantu bandingkan pilihan Gree dan Daikin yang sesuai dengan kebutuhan Anda, lengkap dengan estimasi harga dan ketersediaan stok.",
+        ],
+      },
+    ],
+    faqs: [
+      {
+        question: "Mana yang lebih awet, Gree atau Daikin?",
+        answer:
+          "Keduanya bisa awet jika kapasitas PK sesuai ruangan, pemasangan benar, dan perawatan rutin dilakukan. Daikin punya reputasi ketahanan yang sudah teruji puluhan tahun, sedangkan Gree menawarkan kualitas yang kompetitif dengan harga lebih terjangkau.",
+      },
+      {
+        question: "Apakah spare part Gree mudah didapat?",
+        answer:
+          "Ya. Gree adalah produsen AC terbesar di dunia, sehingga spare part tersedia luas. Sebagai Proshop Gree, Radja AC juga membantu arahan bila ada kendala unit.",
+      },
+      {
+        question: "Untuk kost banyak kamar, lebih baik Gree atau Daikin?",
+        answer:
+          "Untuk kost dengan banyak unit, Gree sering lebih efisien dari sisi total anggaran. Pilihan low watt Gree juga cocok untuk kamar dengan daya listrik terbatas. Daikin bisa dipertimbangkan jika anggaran tidak menjadi kendala utama.",
+      },
+      {
+        question: "Radja AC jual Gree dan Daikin?",
+        answer:
+          "Ya. Radja AC adalah Proshop Gree resmi dan Authorized Dealer Daikin. Keduanya tersedia dengan stok yang bisa dicek langsung, sehingga Anda bisa membandingkan sebelum memutuskan.",
+      },
+    ],
+    ctaLabel: "Bandingkan Gree vs Daikin",
+    waIntent: "konsultasi perbandingan AC Gree vs Daikin untuk rumah",
+    relatedLinks: [
+      ["AC Gree", routes.brandGree],
+      ["AC Daikin", routes.brandDaikin],
+      ["AC Inverter", routes.katalogAcInverter],
+      ["Kalkulator PK AC", routes.kalkulatorPkAc],
+      ["Kontak Radja AC", routes.kontak],
+    ],
+  },
+  {
+    slug: "midea-vs-hisense-budget-terbatas",
+    path: routes.artikelMideaVsHisenseBudgetTerbatas,
+    cluster: "brand-evaluation",
+    role: "supporting",
+    intent: "commercial",
+    parentSlug: "gree-vs-daikin-untuk-rumah",
+    updatedAt: "2026-06-15",
+    moneyLinks: [
+      ["AC Midea", routes.brandMidea, "Cek pilihan AC Midea dengan dokumen Authorized Dealer."],
+      ["AC Hisense", routes.brandHisense, "Lihat pilihan AC Hisense untuk kebutuhan rumah dan usaha."],
+      ["AC Low Watt", routes.katalogAcLowWatt, "Bandingkan pilihan low watt untuk daya listrik terbatas."],
+      ["Kalkulator PK AC", routes.kalkulatorPkAc, "Hitung kebutuhan PK sebelum memilih brand."],
+    ],
+    title: "Midea vs Hisense untuk Budget Terbatas | Pilih Mana? — Radja AC",
+    description:
+      "Anggaran terbatas tapi butuh AC berkualitas? Bandingkan Midea vs Hisense dari sisi harga, fitur, efisiensi, dan mana yang lebih cocok untuk kebutuhan Anda.",
+    h1: "Midea vs Hisense untuk budget terbatas: pilih mana?",
+    eyebrow: "Perbandingan Brand AC",
+    readTime: "7 menit baca",
+    intro:
+      "Midea dan Hisense adalah dua brand yang sering masuk pertimbangan pembeli dengan anggaran terbatas. Keduanya menawarkan AC berkualitas dengan harga yang lebih terjangkau dibanding brand premium. Artikel ini membantu Anda memilih berdasarkan kebutuhan spesifik, bukan sekadar harga termurah.",
+    sections: [
+      {
+        heading: "Kenapa Midea dan Hisense jadi pilihan budget-friendly",
+        body: [
+          "Midea adalah salah satu produsen elektronik terbesar di dunia dengan pabrik di berbagai negara. Brand ini dikenal menawarkan produk dengan kualitas konsisten dan harga kompetitif. Radja AC adalah Authorized Dealer Midea.",
+          "Hisense juga merupakan brand global yang berkembang pesat di pasar AC Indonesia. Pilihan tipenya cukup lengkap dan harganya bersaing. Radja AC adalah Authorized Dealer Hisense, sehingga unit yang dijual original dengan garansi resmi.",
+        ],
+      },
+      {
+        heading: "Perbandingan harga dan value",
+        body: [
+          "Harga Midea dan Hisense relatif setara untuk kapasitas yang sama. Keduanya berada di segmen yang lebih terjangkau dibanding Daikin atau Gree inverter premium. Selisih harga antar keduanya biasanya tidak signifikan.",
+          "Yang lebih menentukan adalah ketersediaan tipe yang sesuai kebutuhan. Cek apakah brand tersebut punya pilihan low watt, inverter, atau kapasitas PK yang Anda butuhkan sebelum membandingkan harga.",
+        ],
+      },
+      {
+        heading: "Pilihan tipe dan fitur",
+        body: [
+          "Midea menyediakan pilihan standard, low watt, dan inverter dengan rentang kapasitas yang cukup lengkap. Beberapa seri Midea juga dilengkapi fitur seperti filter anti-bakteri dan mode hemat energi.",
+          "Hisense juga punya pilihan tipe yang beragam. Beberapa seri Hisense dikenal dengan desain indoor yang compact dan operasi yang relatif senyap. Pilih berdasarkan fitur yang benar-benar Anda butuhkan.",
+        ],
+      },
+      {
+        heading: "Garansi dan ketersediaan layanan",
+        body: [
+          "Sebagai Authorized Dealer kedua brand, Radja AC menjual unit original dengan garansi resmi. Garansi unit mengikuti ketentuan masing-masing brand, sedangkan garansi pemasangan mengikuti pekerjaan yang dikerjakan melalui Radja AC.",
+          "Untuk kendala unit, tim Radja AC membantu arahan awal proses klaim sesuai jalur garansi brand. Ini memberikan ketenangan bahwa Anda tidak ditinggal begitu saja setelah pembelian.",
+        ],
+      },
+      {
+        heading: "Kapan pilih Midea, kapan pilih Hisense?",
+        body: [
+          "Pilih Midea jika: Anda sudah familiar dengan brand Midea dari produk lain, butuh pilihan low watt untuk daya terbatas, atau tipe yang Anda cari kebetulan tersedia di stok Midea.",
+          "Pilih Hisense jika: Anda mencari unit dengan desain compact, operasi senyap menjadi prioritas, atau tipe yang sesuai kebutuhan tersedia di stok Hisense. Keduanya sama-sama layak dipertimbangkan.",
+        ],
+      },
+    ],
+    faqs: [
+      {
+        question: "Midea dan Hisense sama-sama original di Radja AC?",
+        answer:
+          "Ya. Radja AC adalah Authorized Dealer untuk kedua brand, sehingga unit yang dijual original dengan garansi resmi dari masing-masing brand.",
+      },
+      {
+        question: "Mana yang lebih hemat listrik, Midea atau Hisense?",
+        answer:
+          "Keduanya punya pilihan tipe hemat listrik. Yang lebih menentukan adalah ketepatan kapasitas PK dengan ukuran ruangan. PK yang sesuai membuat AC bekerja efisien, apapun brand-nya.",
+      },
+      {
+        question: "Untuk kamar kost dengan budget terbatas, pilih mana?",
+        answer:
+          "Keduanya cocok untuk kamar kost. Cek ketersediaan tipe low watt 1/2 PK dari masing-masing brand, lalu bandingkan harga dan stok yang ready. Kirim data kamar untuk rekomendasi yang lebih spesifik.",
+      },
+    ],
+    ctaLabel: "Bandingkan Midea vs Hisense",
+    waIntent: "konsultasi perbandingan AC Midea vs Hisense untuk budget terbatas",
+    relatedLinks: [
+      ["AC Midea", routes.brandMidea],
+      ["AC Hisense", routes.brandHisense],
+      ["AC Low Watt", routes.katalogAcLowWatt],
+      ["Gree vs Daikin", routes.artikelGreeVsDaikinUntukRumah],
+      ["Kontak Radja AC", routes.kontak],
+    ],
+  },
+  {
+    slug: "daikin-vs-panasonic-jangka-panjang",
+    path: routes.artikelDaikinVsPanasonicJangkaPanjang,
+    cluster: "brand-evaluation",
+    role: "supporting",
+    intent: "commercial",
+    parentSlug: "gree-vs-daikin-untuk-rumah",
+    updatedAt: "2026-06-15",
+    moneyLinks: [
+      ["AC Daikin", routes.brandDaikin, "Cek pilihan AC Daikin dengan dokumen Authorized Dealer."],
+      ["AC Panasonic", routes.brandPanasonic, "Lihat pilihan AC Panasonic untuk kebutuhan rumah."],
+      ["AC Inverter", routes.katalogAcInverter, "Bandingkan pilihan inverter untuk pemakaian jangka panjang."],
+      ["Kalkulator PK AC", routes.kalkulatorPkAc, "Hitung kebutuhan PK sebelum memilih brand premium."],
+    ],
+    title: "Daikin vs Panasonic untuk Pemakaian Jangka Panjang — Radja AC",
+    description:
+      "Mencari AC yang awet untuk pemakaian 10+ tahun? Bandingkan Daikin vs Panasonic dari sisi ketahanan, efisiensi, garansi, dan total cost of ownership.",
+    h1: "Daikin vs Panasonic untuk pemakaian jangka panjang",
+    eyebrow: "Perbandingan Brand Premium",
+    readTime: "7 menit baca",
+    intro:
+      "Daikin dan Panasonic adalah dua brand Jepang yang dikenal dengan kualitas dan ketahanan. Keduanya sering dipilih oleh pembeli yang berpikir jangka panjang — bukan sekadar mencari harga termurah, tapi mencari AC yang bisa diandalkan selama 10 tahun atau lebih.",
+    sections: [
+      {
+        heading: "Reputasi ketahanan kedua brand",
+        body: [
+          "Daikin adalah spesialis AC yang fokus pada teknologi pendinginan. Brand ini dikenal dengan kompressor yang tahan lama dan efisiensi yang konsisten bahkan setelah bertahun-tahun pemakaian. Banyak unit Daikin yang masih berfungsi baik setelah 10-15 tahun.",
+          "Panasonic adalah brand elektronik Jepang dengan reputasi kualitas yang sudah teruji di berbagai produk. AC Panasonic dikenal dengan teknologi Nanoe-X untuk kualitas udara dan operasi yang relatif senyap. Ketahanannya juga tergolong baik untuk pemakaian rumah tangga.",
+        ],
+      },
+      {
+        heading: "Efisiensi listrik jangka panjang",
+        body: [
+          "Kedua brand sama-sama menyediakan tipe inverter yang efisien. Daikin inverter dikenal dengan teknologi yang sudah sangat matang dan efisiensi yang terjaga bahkan setelah bertahun-tahun. Panasonic inverter juga menawarkan efisiensi yang kompetitif.",
+          "Yang perlu diperhatikan adalah efisiensi jangka panjang. AC yang kompressornya cepat aus akan bekerja lebih keras dan lebih boros seiring waktu. Brand premium seperti Daikin dan Panasonic cenderung mempertahankan efisiensinya lebih lama.",
+        ],
+      },
+      {
+        heading: "Garansi dan ketersediaan spare part",
+        body: [
+          "Daikin memiliki jaringan service center yang luas di Indonesia dan spare part yang mudah didapat. Ini penting untuk pemakaian jangka panjang karena Anda tidak perlu khawatir kesulitan mencari komponen pengganti.",
+          "Panasonic juga memiliki jaringan layanan yang established sebagai brand elektronik besar. Spare part tersedia luas dan service center mudah ditemukan di berbagai kota.",
+        ],
+      },
+      {
+        heading: "Total cost of ownership",
+        body: [
+          "Harga awal Daikin dan Panasonic memang lebih tinggi dibanding brand ekonomis. Namun jika dihitung total biaya selama 10 tahun — termasuk tagihan listrik, biaya servis, dan potensi penggantian — brand premium sering lebih ekonomis.",
+          "AC murah yang cepat rusak atau boros listrik bisa menghabiskan lebih banyak uang dalam jangka panjang. Investasi di brand premium adalah keputusan finansial, bukan sekadar gengsi.",
+        ],
+      },
+      {
+        heading: "Kapan pilih Daikin, kapan pilih Panasonic?",
+        body: [
+          "Pilih Daikin jika: Anda mengutamakan spesialisasi di bidang AC, menginginkan efisiensi terbaik untuk pemakaian rutin berjam-jam, atau sudah puas dengan pengalaman Daikin sebelumnya.",
+          "Pilih Panasonic jika: Anda menginginkan fitur tambahan seperti Nanoe-X untuk kualitas udara, menyukai ekosistem Panasonic, atau tipe yang sesuai kebutuhan tersedia di stok Panasonic.",
+        ],
+      },
+    ],
+    faqs: [
+      {
+        question: "Mana yang lebih awet, Daikin atau Panasonic?",
+        answer:
+          "Keduanya tergolong awet untuk brand premium. Daikin sedikit lebih unggul dalam hal spesialisasi AC, sedangkan Panasonic menawarkan fitur tambahan seperti Nanoe-X. Keduanya bisa bertahan 10+ tahun dengan perawatan yang baik.",
+      },
+      {
+        question: "Apakah harga Daikin dan Panasonic setara?",
+        answer:
+          "Relatif setara untuk kapasitas dan tipe yang sama. Keduanya berada di segmen premium dengan harga di atas brand ekonomis. Selisih harga biasanya tidak signifikan.",
+      },
+      {
+        question: "Untuk rumah yang dipakai setiap hari, pilih mana?",
+        answer:
+          "Keduanya cocok untuk pemakaian harian. Daikin sedikit lebih unggul untuk efisiensi pemakaian rutin berjam-jam. Panasonic menawarkan fitur kualitas udara yang menarik. Pilih berdasarkan prioritas Anda.",
+      },
+    ],
+    ctaLabel: "Bandingkan Daikin vs Panasonic",
+    waIntent: "konsultasi perbandingan AC Daikin vs Panasonic untuk jangka panjang",
+    relatedLinks: [
+      ["AC Daikin", routes.brandDaikin],
+      ["AC Panasonic", routes.brandPanasonic],
+      ["AC Inverter", routes.katalogAcInverter],
+      ["Gree vs Daikin", routes.artikelGreeVsDaikinUntukRumah],
+      ["Kontak Radja AC", routes.kontak],
+    ],
+  },
+  {
+    slug: "ac-gree-cocok-untuk-siapa",
+    path: routes.artikelAcGreeCocokUntukSiapa,
+    cluster: "brand-evaluation",
+    role: "supporting",
+    intent: "commercial",
+    parentSlug: "gree-vs-daikin-untuk-rumah",
+    updatedAt: "2026-06-15",
+    moneyLinks: [
+      ["AC Gree", routes.brandGree, "Cek pilihan AC Gree lengkap dengan status Proshop resmi."],
+      ["Jual AC Purwokerto", routes.jualAcPurwokerto, "Konsultasi pembelian AC di area Purwokerto."],
+      ["Pengadaan AC Kost", routes.pengadaanKostApartemen, "Solusi pengadaan AC untuk kost banyak kamar."],
+      ["AC Low Watt", routes.katalogAcLowWatt, "Pilihan Gree low watt untuk daya listrik terbatas."],
+    ],
+    title: "AC Gree Cocok untuk Siapa? | Panduan Memilih AC Gree — Radja AC",
+    description:
+      "AC Gree cocok untuk rumah, kost, toko, atau usaha? Pahami profil pembeli ideal untuk AC Gree dan kapan brand ini menjadi pilihan terbaik.",
+    h1: "AC Gree cocok untuk siapa?",
+    eyebrow: "Panduan Brand Gree",
+    readTime: "6 menit baca",
+    intro:
+      "Gree adalah produsen AC terbesar di dunia dengan pilihan tipe yang sangat lengkap. Tapi apakah Gree cocok untuk semua orang? Artikel ini membantu Anda memahami profil pembeli yang paling cocok dengan AC Gree, sehingga keputusan pembelian lebih tepat sasaran.",
+    sections: [
+      {
+        heading: "Gree cocok untuk pembeli yang mencari value terbaik",
+        body: [
+          "Jika Anda mencari AC berkualitas dengan harga yang kompetitif, Gree adalah pilihan yang masuk akal. Brand ini menawarkan kualitas yang konsisten tanpa harga premium seperti brand Jepang.",
+          "Value di sini bukan berarti murahan. Gree adalah brand global dengan standar kualitas internasional. Radja AC sebagai Proshop Gree menjamin unit yang dijual original dengan garansi resmi.",
+        ],
+      },
+      {
+        heading: "Gree cocok untuk kost dan properti sewa",
+        body: [
+          "Pemilik kost yang butuh banyak unit dengan anggaran terkontrol sering memilih Gree. Pilihan low watt Gree cocok untuk kamar dengan daya listrik terbatas, dan tipe seragam memudahkan perawatan antar kamar.",
+          "Untuk kost 10-20 kamar, selisih harga Gree vs brand premium bisa sangat signifikan. Uang yang dihemat bisa dialokasikan untuk kebutuhan lain atau unit tambahan.",
+        ],
+      },
+      {
+        heading: "Gree cocok untuk rumah dengan berbagai kebutuhan",
+        body: [
+          "Gree menyediakan pilihan standard, low watt, dan inverter dengan rentang kapasitas dari 1/2 PK hingga 2 PK. Apapun kebutuhan ruangan Anda — kamar kecil, ruang keluarga, atau ruang kerja — kemungkinan besar ada tipe Gree yang sesuai.",
+          "Sebagai Proshop Gree, stok Radja AC lebih lengkap dibanding toko biasa. Ini memudahkan pembeli yang butuh tipe spesifik atau kapasitas tertentu.",
+        ],
+      },
+      {
+        heading: "Gree cocok untuk toko dan usaha kecil",
+        body: [
+          "Toko, ruko, dan usaha kecil yang butuh AC dengan anggaran terkontrol sering memilih Gree. Pilihan 1 PK hingga 2 PK tersedia untuk berbagai ukuran ruang usaha.",
+          "Untuk usaha yang baru mulai, investasi AC yang terlalu mahal bisa membebani cash flow. Gree menawarkan keseimbangan antara kualitas dan anggaran yang masuk akal.",
+        ],
+      },
+      {
+        heading: "Kapan Gree mungkin bukan pilihan terbaik?",
+        body: [
+          "Jika Anda mengutamakan reputasi brand premium di atas segalanya, atau sudah sangat familiar dan puas dengan brand tertentu seperti Daikin, mungkin lebih baik tetap dengan pilihan tersebut.",
+          "Gree adalah pilihan rasional untuk pembeli yang menilai berdasarkan value, bukan sekadar nama brand. Jika Anda tipe pembeli seperti ini, Gree sangat layak dipertimbangkan.",
+        ],
+      },
+    ],
+    faqs: [
+      {
+        question: "Apakah AC Gree awet?",
+        answer:
+          "Ya, dengan catatan kapasitas PK sesuai ruangan, pemasangan benar, dan perawatan rutin. Gree adalah produsen AC terbesar di dunia dengan standar kualitas internasional.",
+      },
+      {
+        question: "Gree cocok untuk kamar tidur?",
+        answer:
+          "Cocok. Gree menyediakan pilihan 1/2 PK dan 3/4 PK untuk kamar tidur, termasuk tipe low watt dan inverter. Pilih berdasarkan ukuran kamar dan daya listrik.",
+      },
+      {
+        question: "Kenapa Radja AC banyak jual Gree?",
+        answer:
+          "Radja AC adalah Proshop Gree resmi, sehingga stok lebih lengkap dan harga lebih kompetitif. Status ini juga memudahkan bantuan klaim bila ada kendala unit.",
+      },
+      {
+        question: "Gree vs brand lain untuk kost, pilih mana?",
+        answer:
+          "Untuk kost dengan banyak unit, Gree sering menjadi pilihan karena value yang kompetitif dan pilihan low watt yang lengkap. Selisih harga bisa sangat signifikan untuk pembelian banyak unit.",
+      },
+    ],
+    ctaLabel: "Konsultasi AC Gree",
+    waIntent: "konsultasi apakah AC Gree cocok untuk kebutuhan saya",
+    relatedLinks: [
+      ["AC Gree", routes.brandGree],
+      ["Gree vs Daikin", routes.artikelGreeVsDaikinUntukRumah],
+      ["Pengadaan AC Kost", routes.pengadaanKostApartemen],
+      ["AC Low Watt", routes.katalogAcLowWatt],
+      ["Kontak Radja AC", routes.kontak],
+    ],
+  },
+
+  // CLUSTER B - PROCUREMENT AUTHORITY (3 artikel)
+  {
+    slug: "cara-menghitung-kebutuhan-ac-kost",
+    path: routes.artikelCaraMenghitungKebutuhanAcKost,
+    cluster: "b2b",
+    role: "pillar",
+    intent: "informational",
+    parentSlug: null,
+    updatedAt: "2026-06-15",
+    moneyLinks: [
+      ["Pengadaan AC Kost", routes.pengadaanKostApartemen, "Solusi pengadaan AC untuk kost dan apartemen banyak kamar."],
+      ["Pengadaan AC", routes.pengadaanAc, "Halaman utama pengadaan AC untuk berbagai kebutuhan B2B."],
+      ["AC Low Watt", routes.katalogAcLowWatt, "Pilihan AC low watt untuk kamar kost dengan daya terbatas."],
+      ["Kalkulator PK AC", routes.kalkulatorPkAc, "Hitung kebutuhan PK per kamar sebelum pengadaan."],
+    ],
+    title: "Cara Menghitung Kebutuhan AC untuk Kost Banyak Kamar — Radja AC",
+    description:
+      "Panduan teknis menghitung kebutuhan AC untuk kost: jumlah unit, kapasitas PK per kamar, daya listrik total, tipe seragam, dan estimasi anggaran pengadaan.",
+    h1: "Cara menghitung kebutuhan AC untuk kost banyak kamar",
+    eyebrow: "Panduan Pengadaan AC Kost",
+    readTime: "8 menit baca",
+    intro:
+      "Menghitung kebutuhan AC untuk kost bukan sekadar mengalikan jumlah kamar dengan harga unit. Ada pertimbangan teknis seperti daya listrik per kamar, kapasitas PK yang sesuai, pemilihan tipe seragam, dan strategi pengadaan bertahap yang perlu dipahami agar investasi lebih efisien.",
+    sections: [
+      {
+        heading: "Langkah 1: Hitung jumlah kamar dan ukurannya",
+        body: [
+          "Mulai dengan mendata jumlah kamar yang akan dipasang AC. Catat ukuran masing-masing kamar (panjang x lebar), tinggi plafon, dan kondisi khusus seperti kamar yang terkena matahari sore atau berada di lantai atas.",
+          "Untuk kost dengan ukuran kamar seragam (misalnya semua 3x3 meter), perhitungan lebih mudah. Untuk ukuran bervariasi, kelompokkan kamar berdasarkan ukuran untuk menentukan kapasitas PK yang sesuai.",
+        ],
+      },
+      {
+        heading: "Langkah 2: Tentukan kapasitas PK per kamar",
+        body: [
+          "Kamar kost ukuran 3x3 meter (9 m²) umumnya cukup dengan AC 1/2 PK. Kamar 3x4 meter (12 m²) bisa 1/2 PK atau 3/4 PK tergantung kondisi panas. Kamar lebih besar atau panas mungkin butuh 3/4 PK atau 1 PK.",
+          "Jangan memilih PK terlalu kecil hanya untuk menghemat. AC yang bekerja terlalu keras akan cepat rusak dan boros listrik. Lebih baik investasi PK yang tepat dari awal.",
+        ],
+      },
+      {
+        heading: "Langkah 3: Hitung kebutuhan daya listrik total",
+        body: [
+          "Ini sering diabaikan dan menjadi masalah di kemudian hari. Hitung daya listrik total bangunan dan berapa yang tersedia untuk AC. Jika daya per kamar terbatas, pilih AC low watt.",
+          "Contoh: kost 10 kamar dengan daya total 5500 VA. Jika setiap kamar punya perangkat lain (lampu, charger, kipas), daya tersisa untuk AC mungkin hanya 300-400 watt per kamar. AC low watt menjadi pilihan wajib.",
+        ],
+      },
+      {
+        heading: "Langkah 4: Pilih tipe seragam untuk kemudahan perawatan",
+        body: [
+          "Untuk kost, sangat disarankan memilih tipe dan brand yang seragam untuk semua kamar. Ini memudahkan perawatan, penggantian spare part, dan negosiasi harga untuk pembelian banyak unit.",
+          "Tipe seragam juga memudahkan jika ada unit yang rusak — Anda bisa memindahkan unit dari kamar kosong atau menyimpan spare unit untuk penggantian cepat.",
+        ],
+      },
+      {
+        heading: "Langkah 5: Pertimbangkan pengadaan bertahap",
+        body: [
+          "Tidak semua kamar harus dipasang AC sekaligus. Banyak pemilik kost memulai dengan kamar yang sudah terisi atau kamar premium, lalu menambah unit secara bertahap sesuai okupansi dan cash flow.",
+          "Radja AC melayani pengiriman dan pemasangan bertahap. Anda bisa memesan 5 unit dulu, lalu menambah 5 unit lagi bulan depan dengan tipe yang sama.",
+        ],
+      },
+      {
+        heading: "Langkah 6: Hitung estimasi anggaran total",
+        body: [
+          "Anggaran pengadaan AC kost meliputi: harga unit x jumlah kamar, biaya pemasangan per unit, dan kemungkinan kebutuhan tambahan seperti pipa ekstra atau instalasi listrik.",
+          "Kirim data lengkap (jumlah kamar, ukuran, daya listrik, lokasi) ke tim Radja AC untuk mendapatkan estimasi anggaran yang lebih akurat. Harga bisa lebih kompetitif untuk pembelian banyak unit.",
+        ],
+      },
+    ],
+    faqs: [
+      {
+        question: "Berapa PK AC untuk kamar kost ukuran 3x3?",
+        answer:
+          "Kamar 3x3 meter (9 m²) umumnya cukup dengan AC 1/2 PK dalam kondisi normal. Jika kamar panas atau di lantai atas, pertimbangkan 3/4 PK.",
+      },
+      {
+        question: "AC low watt wajib untuk kost?",
+        answer:
+          "Tergantung daya listrik per kamar. Jika daya terbatas (misalnya 450-900 VA per kamar), low watt sangat disarankan agar listrik tidak sering turun.",
+      },
+      {
+        question: "Bisa beli AC kost secara bertahap?",
+        answer:
+          "Bisa. Radja AC melayani pengadaan bertahap dengan tipe seragam. Anda bisa memesan sebagian unit dulu, lalu menambah sesuai kebutuhan.",
+      },
+      {
+        question: "Ada diskon untuk pembelian banyak unit?",
+        answer:
+          "Harga bisa lebih kompetitif untuk pembelian banyak unit. Kirim jumlah kamar dan kebutuhan untuk mendapatkan penawaran yang sesuai.",
+      },
+    ],
+    ctaLabel: "Konsultasi Pengadaan AC Kost",
+    waIntent: "konsultasi menghitung kebutuhan AC untuk kost banyak kamar",
+    relatedLinks: [
+      ["Pengadaan AC Kost", routes.pengadaanKostApartemen],
+      ["AC Low Watt", routes.katalogAcLowWatt],
+      ["Kalkulator PK AC", routes.kalkulatorPkAc],
+      ["AC 1/2 PK", routes.katalogAcSetengahPk],
+      ["Kontak Radja AC", routes.kontak],
+    ],
+  },
+  {
+    slug: "checklist-pengadaan-ac-hotel",
+    path: routes.artikelChecklistPengadaanAcHotel,
+    cluster: "b2b",
+    role: "supporting",
+    intent: "informational",
+    parentSlug: "cara-menghitung-kebutuhan-ac-kost",
+    updatedAt: "2026-06-15",
+    moneyLinks: [
+      ["Pengadaan AC Hotel", routes.pengadaanHotelGuestHouse, "Solusi pengadaan AC untuk hotel dan guest house."],
+      ["AC Inverter", routes.katalogAcInverter, "Pilihan inverter untuk kamar tamu dengan pemakaian panjang."],
+      ["AC Kantor & Komersial", routes.katalogAcKantorKomersial, "Pilihan AC untuk lobby dan area publik hotel."],
+      ["Pengadaan AC", routes.pengadaanAc, "Halaman utama pengadaan AC untuk berbagai kebutuhan B2B."],
+    ],
+    title: "Checklist Pengadaan AC untuk Hotel dan Guest House — Radja AC",
+    description:
+      "Checklist lengkap pengadaan AC hotel: kebutuhan kamar tamu, lobby, area publik, pemilihan brand seragam, jadwal pemasangan, dan koordinasi dengan okupansi.",
+    h1: "Checklist pengadaan AC untuk hotel dan guest house",
+    eyebrow: "Panduan Pengadaan AC Hotel",
+    readTime: "7 menit baca",
+    intro:
+      "Pengadaan AC untuk hotel berbeda dengan rumah atau kost. Ada pertimbangan khusus seperti kenyamanan tamu, keseragaman antar kamar, area publik dengan beban berbeda, dan jadwal pemasangan yang tidak mengganggu operasional. Checklist ini membantu Anda mempersiapkan pengadaan dengan lebih terstruktur.",
+    sections: [
+      {
+        heading: "Checklist 1: Data kamar tamu",
+        body: [
+          "Catat jumlah kamar tamu, tipe kamar (standard, deluxe, suite), dan ukuran masing-masing. Kamar dengan ukuran berbeda mungkin butuh kapasitas PK berbeda.",
+          "Perhatikan juga kamar yang terkena matahari sore atau berada di lantai atas — kamar ini mungkin butuh kapasitas sedikit lebih besar untuk kenyamanan tamu.",
+        ],
+      },
+      {
+        heading: "Checklist 2: Area publik dan fasilitas",
+        body: [
+          "Selain kamar tamu, hotel biasanya punya area publik: lobby, resepsionis, ruang makan, meeting room, dan koridor. Setiap area punya kebutuhan berbeda.",
+          "Lobby dan ruang makan dengan plafon tinggi dan banyak orang butuh kapasitas lebih besar. Meeting room butuh AC yang bisa menyesuaikan jumlah peserta yang bervariasi.",
+        ],
+      },
+      {
+        heading: "Checklist 3: Pemilihan brand dan tipe seragam",
+        body: [
+          "Untuk kamar tamu, sangat disarankan memilih brand dan tipe seragam. Ini menjaga konsistensi kenyamanan antar kamar dan memudahkan perawatan.",
+          "Pertimbangkan juga tingkat kebisingan unit. Kamar tamu butuh AC yang operasinya senyap agar tidak mengganggu istirahat tamu.",
+        ],
+      },
+      {
+        heading: "Checklist 4: Kebutuhan daya listrik",
+        body: [
+          "Hitung total kebutuhan daya untuk semua unit AC. Pastikan kapasitas listrik bangunan mencukupi, terutama saat semua kamar terisi dan AC menyala bersamaan.",
+          "Untuk hotel yang sudah beroperasi, pertimbangkan apakah perlu upgrade daya listrik sebelum menambah unit AC.",
+        ],
+      },
+      {
+        heading: "Checklist 5: Jadwal pemasangan",
+        body: [
+          "Pemasangan AC di hotel yang sudah beroperasi harus dijadwalkan agar tidak mengganggu tamu. Pilih waktu okupansi rendah atau lakukan bertahap per lantai.",
+          "Koordinasikan dengan tim Radja AC untuk jadwal yang fleksibel. Pemasangan bisa dilakukan di luar jam check-in/check-out atau saat kamar kosong.",
+        ],
+      },
+      {
+        heading: "Checklist 6: Garansi dan layanan",
+        body: [
+          "Pastikan unit yang dibeli original dengan garansi resmi brand. Untuk hotel, downtime AC bisa langsung berdampak pada kepuasan tamu dan review.",
+          "Tanyakan juga tentang respons layanan jika ada kendala. Hotel butuh penanganan cepat karena kamar yang AC-nya rusak tidak bisa dijual.",
+        ],
+      },
+    ],
+    faqs: [
+      {
+        question: "AC apa yang cocok untuk kamar hotel?",
+        answer:
+          "Pilih AC dengan operasi senyap dan efisiensi baik untuk pemakaian panjang. Inverter sering dipilih karena suhu lebih stabil dan lebih hemat untuk kamar yang AC-nya menyala sepanjang malam.",
+      },
+      {
+        question: "Bisa pasang AC hotel tanpa mengganggu tamu?",
+        answer:
+          "Bisa. Pemasangan dijadwalkan saat okupansi rendah atau dilakukan bertahap per lantai. Koordinasikan jadwal dengan tim Radja AC.",
+      },
+      {
+        question: "Berapa lama proses pengadaan AC untuk hotel?",
+        answer:
+          "Tergantung jumlah unit dan ketersediaan stok. Untuk hotel kecil (10-20 kamar), biasanya bisa diselesaikan dalam 1-2 minggu. Hotel lebih besar mungkin butuh pengadaan bertahap.",
+      },
+    ],
+    ctaLabel: "Konsultasi Pengadaan AC Hotel",
+    waIntent: "konsultasi checklist pengadaan AC untuk hotel atau guest house",
+    relatedLinks: [
+      ["Pengadaan AC Hotel", routes.pengadaanHotelGuestHouse],
+      ["AC Inverter", routes.katalogAcInverter],
+      ["Cara Menghitung AC Kost", routes.artikelCaraMenghitungKebutuhanAcKost],
+      ["AC Kantor & Komersial", routes.katalogAcKantorKomersial],
+      ["Kontak Radja AC", routes.kontak],
+    ],
+  },
+  {
+    slug: "panduan-boq-ac-kontraktor",
+    path: routes.artikelPanduanBoqAcKontraktor,
+    cluster: "b2b",
+    role: "supporting",
+    intent: "informational",
+    parentSlug: "cara-menghitung-kebutuhan-ac-kost",
+    updatedAt: "2026-06-15",
+    moneyLinks: [
+      ["Pengadaan AC Kontraktor", routes.pengadaanKontraktorDeveloper, "Solusi supplier AC proyek untuk kontraktor dan developer."],
+      ["Pengadaan AC Gedung", routes.pengadaanGedungKantorRuko, "Pengadaan AC untuk gedung, kantor, dan ruko."],
+      ["AC Kantor & Komersial", routes.katalogAcKantorKomersial, "Pilihan AC untuk kebutuhan komersial dan proyek."],
+      ["Pengadaan AC", routes.pengadaanAc, "Halaman utama pengadaan AC untuk berbagai kebutuhan B2B."],
+    ],
+    title: "Panduan BOQ AC untuk Kontraktor dan Developer — Radja AC",
+    description:
+      "Panduan menyusun BOQ AC untuk proyek: cara menentukan spesifikasi, memilih brand alternatif sesuai RAB, dan koordinasi pengiriman mengikuti progres lapangan.",
+    h1: "Panduan BOQ AC untuk kontraktor dan developer",
+    eyebrow: "Panduan Pengadaan AC Proyek",
+    readTime: "8 menit baca",
+    intro:
+      "Menyusun BOQ (Bill of Quantity) AC untuk proyek konstruksi membutuhkan pemahaman tentang spesifikasi teknis, alternatif brand sesuai anggaran, dan koordinasi pengiriman yang mengikuti progres lapangan. Panduan ini membantu kontraktor dan developer menyusun BOQ AC yang realistis dan dapat dieksekusi.",
+    sections: [
+      {
+        heading: "Memahami kebutuhan proyek",
+        body: [
+          "Sebelum menyusun BOQ, pahami dulu kebutuhan proyek secara keseluruhan. Berapa jumlah titik AC? Apa fungsi masing-masing ruangan? Apakah ada standar khusus dari owner atau konsultan?",
+          "Untuk proyek perumahan, kebutuhan biasanya standar: kamar tidur, ruang keluarga, dan mungkin ruang kerja. Untuk proyek komersial, kebutuhan lebih bervariasi: ruang kantor, meeting room, lobby, dan area publik.",
+        ],
+      },
+      {
+        heading: "Menentukan spesifikasi per titik",
+        body: [
+          "Setiap titik AC perlu spesifikasi yang jelas: kapasitas PK, tipe (standard/low watt/inverter), dan brand. Kapasitas ditentukan dari luas ruangan, fungsi, dan beban panas.",
+          "Untuk BOQ, biasanya dicantumkan spesifikasi minimum dan brand referensi. Contoh: 'AC Split 1 PK Inverter, Daikin atau setara'. Ini memberi fleksibilitas untuk alternatif brand sesuai ketersediaan dan anggaran.",
+        ],
+      },
+      {
+        heading: "Memilih brand alternatif sesuai RAB",
+        body: [
+          "RAB proyek sering sudah ditetapkan, sehingga pemilihan brand harus menyesuaikan. Radja AC menyediakan berbagai brand: Daikin dan Gree untuk segmen premium, Midea dan Hisense untuk segmen value.",
+          "Sebagai Authorized Dealer untuk Daikin, Midea, Hisense, dan Sansui, serta Proshop Gree, Radja AC bisa membantu menyediakan alternatif brand yang sesuai spesifikasi BOQ dan anggaran proyek.",
+        ],
+      },
+      {
+        heading: "Menyusun jadwal pengiriman",
+        body: [
+          "Pengiriman AC untuk proyek biasanya tidak sekaligus, tapi mengikuti progres lapangan. Unit dikirim saat ruangan sudah siap dipasang, bukan saat proyek baru mulai.",
+          "Koordinasikan jadwal pengiriman dengan tim Radja AC. Pengiriman bisa bertahap per lantai atau per blok, mengikuti progres konstruksi dan kesiapan instalasi listrik.",
+        ],
+      },
+      {
+        heading: "Dokumentasi dan administrasi",
+        body: [
+          "Untuk proyek, dokumentasi penting untuk administrasi dan serah terima. Radja AC menyediakan dokumentasi pengiriman dan bisa membantu kelengkapan administrasi sesuai kebutuhan proyek.",
+          "Pastikan juga garansi unit tercatat dengan baik. Garansi mengikuti ketentuan resmi brand, dan Radja AC membantu arahan klaim bila ada kendala unit.",
+        ],
+      },
+      {
+        heading: "Tips negosiasi untuk volume besar",
+        body: [
+          "Untuk proyek dengan volume besar (puluhan hingga ratusan unit), harga bisa lebih kompetitif. Kirim BOQ lengkap ke tim Radja AC untuk mendapatkan penawaran yang sesuai.",
+          "Pertimbangkan juga untuk membangun hubungan jangka panjang. Kontraktor yang rutin mengerjakan proyek bisa mendapat prioritas stok dan layanan yang lebih responsif.",
+        ],
+      },
+    ],
+    faqs: [
+      {
+        question: "Radja AC bisa supply AC untuk proyek besar?",
+        answer:
+          "Bisa. Radja AC memiliki gudang sendiri dan bisa menyediakan puluhan hingga ratusan unit untuk proyek. Pengiriman dijadwalkan mengikuti progres lapangan.",
+      },
+      {
+        question: "Brand apa saja yang tersedia untuk proyek?",
+        answer:
+          "Daikin, Gree, Midea, Hisense, Sansui, dan brand lain sesuai stok. Sebagai Authorized Dealer dan Proshop, unit yang disediakan original dengan garansi resmi.",
+      },
+      {
+        question: "Bisa bantu susun spesifikasi BOQ?",
+        answer:
+          "Bisa. Kirim data proyek (jumlah titik, fungsi ruangan, anggaran) dan tim Radja AC bantu rekomendasikan spesifikasi dan brand yang sesuai.",
+      },
+      {
+        question: "Bagaimana sistem pembayaran untuk proyek?",
+        answer:
+          "Sistem pembayaran bisa disesuaikan dengan kebutuhan proyek: termin, DP + pelunasan, atau sesuai kesepakatan. Diskusikan dengan tim Radja AC.",
+      },
+    ],
+    ctaLabel: "Konsultasi BOQ AC Proyek",
+    waIntent: "konsultasi panduan BOQ AC untuk proyek kontraktor atau developer",
+    relatedLinks: [
+      ["Pengadaan AC Kontraktor", routes.pengadaanKontraktorDeveloper],
+      ["Pengadaan AC Gedung", routes.pengadaanGedungKantorRuko],
+      ["Cara Menghitung AC Kost", routes.artikelCaraMenghitungKebutuhanAcKost],
+      ["AC Kantor & Komersial", routes.katalogAcKantorKomersial],
+      ["Kontak Radja AC", routes.kontak],
+    ],
+  },
+
+  // CLUSTER C - COMMERCIAL AUTHORITY (2 artikel)
+  {
+    slug: "ac-untuk-toko-dan-ruko-pilih-pk-berapa",
+    path: routes.artikelAcUntukTokoRukoPilihPkBerapa,
+    cluster: "commercial-investigation",
+    role: "supporting",
+    intent: "commercial",
+    parentSlug: "ac-bagus-merk-apa",
+    updatedAt: "2026-06-15",
+    moneyLinks: [
+      ["AC Kantor & Komersial", routes.katalogAcKantorKomersial, "Pilihan AC untuk toko, ruko, dan kebutuhan komersial."],
+      ["Jual AC Purwokerto", routes.jualAcPurwokerto, "Konsultasi pembelian AC di area Purwokerto."],
+      ["Jual AC Cilacap", routes.jualAcCilacap, "Konsultasi pembelian AC di area Cilacap."],
+      ["Kalkulator PK AC", routes.kalkulatorPkAc, "Hitung kebutuhan PK untuk toko atau ruko Anda."],
+    ],
+    title: "AC untuk Toko dan Ruko Pilih PK Berapa? — Radja AC",
+    description:
+      "Panduan memilih kapasitas AC untuk toko dan ruko: cara menghitung PK berdasarkan luas, beban panas, pintu yang sering terbuka, dan jumlah pengunjung.",
+    h1: "AC untuk toko dan ruko pilih PK berapa?",
+    eyebrow: "Panduan AC Komersial",
+    readTime: "7 menit baca",
+    intro:
+      "Memilih AC untuk toko dan ruko berbeda dengan memilih AC untuk kamar tidur. Ada faktor tambahan seperti pintu yang sering terbuka, jumlah pengunjung, panas dari lampu dan peralatan, serta jam operasional yang panjang. Artikel ini membantu Anda menentukan kapasitas PK yang tepat.",
+    sections: [
+      {
+        heading: "Kenapa toko butuh PK lebih besar dari rumah?",
+        body: [
+          "Ruangan toko dengan luas yang sama dengan kamar rumah biasanya butuh kapasitas AC lebih besar. Alasannya: pintu sering terbuka saat pelanggan keluar masuk, ada panas dari lampu display dan peralatan, dan jumlah orang di dalam ruangan lebih banyak.",
+          "Jika Anda menggunakan patokan PK untuk kamar rumah, AC toko akan terasa kurang dingin dan bekerja terlalu keras. Ini mempercepat kerusakan dan membuat tagihan listrik lebih tinggi.",
+        ],
+      },
+      {
+        heading: "Panduan umum PK untuk toko dan ruko",
+        body: [
+          "Toko kecil (15-20 m²): minimal 1 PK, lebih aman 1.5 PK jika pintu sering terbuka. Toko sedang (20-30 m²): 1.5-2 PK tergantung beban panas. Ruko 2 lantai: pertimbangkan 2 unit terpisah untuk setiap lantai.",
+          "Angka ini adalah panduan awal. Kondisi spesifik seperti arah matahari, jumlah kaca, dan jenis usaha bisa mengubah kebutuhan. Toko makanan dengan kompor atau oven butuh kapasitas lebih besar.",
+        ],
+      },
+      {
+        heading: "Faktor yang menambah kebutuhan PK",
+        body: [
+          "Pintu yang sering terbuka: setiap kali pintu terbuka, udara dingin keluar dan udara panas masuk. Toko dengan traffic tinggi butuh kapasitas ekstra untuk mengkompensasi ini.",
+          "Panas dari peralatan: lampu display, komputer kasir, kulkas display, dan peralatan lain menghasilkan panas. Semakin banyak peralatan, semakin besar kebutuhan pendinginan.",
+          "Jumlah orang: setiap orang menghasilkan panas tubuh sekitar 100 watt. Toko yang ramai dengan 10-20 orang sekaligus butuh kapasitas lebih besar.",
+        ],
+      },
+      {
+        heading: "Inverter atau standard untuk toko?",
+        body: [
+          "Untuk toko yang buka 8-12 jam sehari, inverter sering lebih hemat dalam jangka panjang. Meski harga awal lebih tinggi, efisiensi listrik untuk pemakaian panjang bisa menghemat biaya operasional.",
+          "AC standard masih masuk akal untuk toko dengan jam operasional pendek atau anggaran awal yang ketat. Yang penting kapasitas PK harus sesuai agar AC tidak bekerja terlalu keras.",
+        ],
+      },
+      {
+        heading: "Cara mendapatkan rekomendasi yang tepat",
+        body: [
+          "Kirim data toko Anda: luas ruangan, tinggi plafon, jenis usaha, jam operasional, dan perkiraan jumlah pengunjung. Foto ruangan juga membantu untuk melihat kondisi kaca, pintu, dan sumber panas.",
+          "Tim Radja AC akan membantu menghitung kebutuhan PK yang tepat dan merekomendasikan tipe AC yang sesuai dengan anggaran dan kebutuhan operasional toko Anda.",
+        ],
+      },
+    ],
+    faqs: [
+      {
+        question: "Toko 4x5 meter butuh AC berapa PK?",
+        answer:
+          "Toko 20 m² umumnya butuh minimal 1.5 PK. Jika pintu sering terbuka, banyak lampu, atau ramai pengunjung, pertimbangkan 2 PK untuk kenyamanan yang lebih baik.",
+      },
+      {
+        question: "Kenapa AC toko saya tidak dingin padahal baru?",
+        answer:
+          "Kemungkinan besar kapasitas PK kurang untuk beban toko. Toko dengan pintu sering terbuka dan banyak pengunjung butuh PK lebih besar dari perhitungan standar.",
+      },
+      {
+        question: "Ruko 2 lantai pakai 1 AC besar atau 2 AC kecil?",
+        answer:
+          "Lebih baik 2 AC terpisah untuk setiap lantai. Ini lebih efisien karena Anda bisa menyalakan hanya lantai yang dipakai, dan pendinginan lebih merata.",
+      },
+      {
+        question: "AC toko harus inverter?",
+        answer:
+          "Tidak harus, tapi inverter lebih hemat untuk toko yang buka 8+ jam sehari. Untuk jam operasional pendek atau anggaran ketat, standard masih bisa dipertimbangkan.",
+      },
+    ],
+    ctaLabel: "Konsultasi AC Toko/Ruko",
+    waIntent: "konsultasi memilih PK AC untuk toko atau ruko",
+    relatedLinks: [
+      ["AC Kantor & Komersial", routes.katalogAcKantorKomersial],
+      ["Kalkulator PK AC", routes.kalkulatorPkAc],
+      ["AC 1.5 PK", routes.katalogAcSatuSetengahPk],
+      ["AC 2 PK", routes.katalogAcDuaPk],
+      ["Kontak Radja AC", routes.kontak],
+    ],
+  },
+  {
+    slug: "ac-kantor-kecil-inverter-atau-low-watt",
+    path: routes.artikelAcKantorKecilInverterAtauLowWatt,
+    cluster: "comparison",
+    role: "supporting",
+    intent: "commercial",
+    parentSlug: "ac-inverter-vs-low-watt",
+    updatedAt: "2026-06-15",
+    moneyLinks: [
+      ["AC Inverter", routes.katalogAcInverter, "Pilihan AC inverter untuk kantor dengan pemakaian rutin."],
+      ["AC Low Watt", routes.katalogAcLowWatt, "Pilihan AC low watt untuk kantor dengan daya terbatas."],
+      ["AC Kantor & Komersial", routes.katalogAcKantorKomersial, "Pilihan AC untuk berbagai kebutuhan kantor."],
+      ["Kalkulator PK AC", routes.kalkulatorPkAc, "Hitung kebutuhan PK untuk ruang kantor Anda."],
+    ],
+    title: "AC untuk Kantor Kecil: Inverter atau Low Watt? — Radja AC",
+    description:
+      "Bingung pilih AC inverter atau low watt untuk kantor kecil? Pahami perbedaannya dan mana yang lebih cocok berdasarkan jam operasional dan daya listrik.",
+    h1: "AC untuk kantor kecil: inverter atau low watt?",
+    eyebrow: "Panduan AC Kantor",
+    readTime: "6 menit baca",
+    intro:
+      "Kantor kecil punya kebutuhan AC yang berbeda dengan rumah. AC menyala lebih lama (8-10 jam sehari), ada beban panas dari komputer dan peralatan, dan kenyamanan karyawan langsung memengaruhi produktivitas. Pilihan antara inverter dan low watt bergantung pada kondisi spesifik kantor Anda.",
+    sections: [
+      {
+        heading: "Karakteristik kebutuhan AC kantor kecil",
+        body: [
+          "Kantor kecil biasanya beroperasi 8-10 jam sehari, 5-6 hari seminggu. AC menyala hampir sepanjang jam kerja, berbeda dengan kamar tidur yang hanya dipakai malam hari.",
+          "Ada juga beban panas tambahan dari komputer, printer, lampu, dan orang-orang yang bekerja. Ruangan 20 m² dengan 4-5 orang dan beberapa komputer butuh pendinginan lebih dari kamar tidur ukuran sama.",
+        ],
+      },
+      {
+        heading: "Kapan pilih inverter untuk kantor?",
+        body: [
+          "Inverter sangat cocok untuk kantor yang AC-nya menyala 8+ jam sehari. Setelah suhu tercapai, kompresor bekerja lebih ringan dan konsumsi listrik lebih efisien. Penghematan terasa signifikan untuk pemakaian rutin.",
+          "Inverter juga menjaga suhu lebih stabil, yang penting untuk kenyamanan kerja. Suhu yang naik-turun bisa mengganggu konsentrasi dan membuat karyawan tidak nyaman.",
+        ],
+      },
+      {
+        heading: "Kapan pilih low watt untuk kantor?",
+        body: [
+          "Low watt menjadi pilihan jika daya listrik kantor terbatas. Banyak ruko atau kantor kecil yang berbagi daya dengan unit lain atau punya kapasitas listrik yang tidak besar.",
+          "Jika menambah AC berisiko membuat listrik sering turun, low watt adalah solusi yang lebih aman. Fokusnya adalah meringankan tarikan daya, bukan efisiensi pemakaian jangka panjang.",
+        ],
+      },
+      {
+        heading: "Pertimbangan kapasitas PK untuk kantor",
+        body: [
+          "Kantor dengan banyak komputer dan orang butuh PK lebih besar dari perhitungan standar. Ruangan 20 m² yang di rumah cukup 1 PK, di kantor mungkin butuh 1.5 PK.",
+          "Jangan memilih PK terlalu kecil hanya karena ingin hemat. AC yang bekerja terlalu keras akan lebih boros listrik dan lebih cepat rusak.",
+        ],
+      },
+      {
+        heading: "Rekomendasi berdasarkan kondisi",
+        body: [
+          "Daya listrik cukup + pemakaian 8+ jam: pilih inverter untuk efisiensi jangka panjang dan kenyamanan suhu yang stabil.",
+          "Daya listrik terbatas: pilih low watt untuk menghindari listrik sering turun. Jika memungkinkan, pertimbangkan inverter low watt yang menggabungkan kedua keunggulan.",
+        ],
+      },
+    ],
+    faqs: [
+      {
+        question: "Kantor kecil 4x5 meter dengan 4 orang, butuh AC berapa PK?",
+        answer:
+          "Ruangan 20 m² dengan 4 orang dan komputer butuh minimal 1.5 PK. Jika ada banyak peralatan atau ruangan panas, pertimbangkan 2 PK.",
+      },
+      {
+        question: "Inverter lebih mahal, apakah worth it untuk kantor kecil?",
+        answer:
+          "Untuk kantor yang AC-nya menyala 8+ jam sehari, inverter biasanya worth it. Penghematan listrik bulanan bisa menutup selisih harga dalam 1-2 tahun.",
+      },
+      {
+        question: "Kantor di ruko dengan daya terbatas, pilih apa?",
+        answer:
+          "Pilih low watt untuk menghindari listrik turun. Jika tersedia, inverter low watt adalah pilihan terbaik karena hemat tarikan daya sekaligus efisien untuk pemakaian panjang.",
+      },
+    ],
+    ctaLabel: "Konsultasi AC Kantor Kecil",
+    waIntent: "konsultasi memilih AC inverter atau low watt untuk kantor kecil",
+    relatedLinks: [
+      ["AC Inverter", routes.katalogAcInverter],
+      ["AC Low Watt", routes.katalogAcLowWatt],
+      ["AC Inverter vs Low Watt", routes.artikelAcInverterVsLowWatt],
+      ["AC Kantor & Komersial", routes.katalogAcKantorKomersial],
+      ["Kontak Radja AC", routes.kontak],
+    ],
+  },
+
+  // CLUSTER D - LOCAL AUTHORITY (3 artikel)
+  {
+    slug: "ac-untuk-kos-mahasiswa-purwokerto",
+    path: routes.artikelAcUntukKosMahasiswaPurwokerto,
+    cluster: "informational",
+    role: "supporting",
+    intent: "commercial",
+    parentSlug: "panduan-beli-ac-baru",
+    updatedAt: "2026-06-15",
+    moneyLinks: [
+      ["Jual AC Purwokerto", routes.jualAcPurwokerto, "Konsultasi pembelian AC di area Purwokerto dan sekitar UNSOED."],
+      ["Jual AC Kembaran", routes.jualAcKembaran, "Layanan AC untuk area kost di Kembaran dekat kampus."],
+      ["Jual AC Karanglewas", routes.jualAcKaranglewas, "Layanan AC untuk area kost di Karanglewas."],
+      ["Pengadaan AC Kost", routes.pengadaanKostApartemen, "Solusi pengadaan AC untuk kost banyak kamar."],
+    ],
+    title: "Panduan Memilih AC untuk Kos Mahasiswa Purwokerto — Radja AC",
+    description:
+      "Panduan memilih AC untuk kos mahasiswa di sekitar UNSOED Purwokerto: pilihan low watt untuk daya terbatas, tipe seragam, dan tips pengadaan bertahap.",
+    h1: "Panduan memilih AC untuk kos mahasiswa Purwokerto",
+    eyebrow: "AC Kost Purwokerto",
+    readTime: "7 menit baca",
+    intro:
+      "Purwokerto adalah kota kampus dengan ribuan mahasiswa UNSOED yang tinggal di kost sekitar Karangwangkal, Dukuhwaluh, Kembaran, dan Karanglewas. Pemilik kost di area ini punya kebutuhan khusus: AC yang hemat listrik, tipe seragam untuk kemudahan perawatan, dan harga yang kompetitif untuk pembelian banyak unit.",
+    sections: [
+      {
+        heading: "Karakteristik kost mahasiswa Purwokerto",
+        body: [
+          "Kost mahasiswa di sekitar UNSOED umumnya punya kamar berukuran kecil (3x3 atau 3x4 meter) dengan daya listrik per kamar yang terbatas. Banyak kost yang masih menggunakan sistem listrik bersama atau daya per kamar hanya 450-900 VA.",
+          "Mahasiswa biasanya menyalakan AC saat istirahat siang dan malam hari. Pola pemakaian ini berbeda dengan rumah tangga yang mungkin menyalakan AC sepanjang hari.",
+        ],
+      },
+      {
+        heading: "Pilihan AC low watt untuk daya terbatas",
+        body: [
+          "Untuk kost dengan daya per kamar terbatas, AC low watt adalah pilihan wajib. Gree low watt 1/2 PK adalah salah satu pilihan populer karena tarikan dayanya ringan dan harganya kompetitif.",
+          "Sebagai Proshop Gree, Radja AC memiliki stok low watt yang lebih lengkap. Ini memudahkan pemilik kost yang butuh banyak unit dengan tipe seragam.",
+        ],
+      },
+      {
+        heading: "Keuntungan tipe seragam untuk kost",
+        body: [
+          "Memilih tipe dan brand yang sama untuk semua kamar sangat disarankan. Keuntungannya: perawatan lebih mudah karena teknisi sudah familiar, spare part bisa dipakai bersama, dan jika ada unit rusak bisa dipindahkan dari kamar kosong.",
+          "Tipe seragam juga memudahkan negosiasi harga untuk pembelian banyak unit. Radja AC memberikan harga lebih kompetitif untuk pengadaan kost dengan volume besar.",
+        ],
+      },
+      {
+        heading: "Area layanan di sekitar UNSOED",
+        body: [
+          "Radja AC melayani area kost di sekitar UNSOED termasuk Karangwangkal, Dukuhwaluh, Kembaran, Karanglewas, dan Purwokerto pusat. Showroom dan gudang berada di Pamijen, Sokaraja, sehingga pengiriman ke area kampus relatif cepat.",
+          "Untuk pemilik kost di area ini, survei lokasi dan konsultasi kebutuhan bisa dijadwalkan. Tim Radja AC akan membantu menghitung kebutuhan PK, daya listrik, dan estimasi anggaran.",
+        ],
+      },
+      {
+        heading: "Tips pengadaan bertahap untuk kost baru",
+        body: [
+          "Tidak semua kamar harus dipasang AC sekaligus. Banyak pemilik kost memulai dengan kamar yang sudah terisi atau kamar premium, lalu menambah unit secara bertahap sesuai okupansi.",
+          "Radja AC melayani pengadaan bertahap dengan tipe seragam. Anda bisa memesan 5 unit dulu untuk kamar yang sudah terisi, lalu menambah unit lagi saat ada penyewa baru.",
+        ],
+      },
+    ],
+    faqs: [
+      {
+        question: "AC apa yang cocok untuk kost mahasiswa di Purwokerto?",
+        answer:
+          "AC low watt 1/2 PK adalah pilihan paling umum untuk kamar kost ukuran 3x3 atau 3x4 meter dengan daya terbatas. Gree low watt sering dipilih karena harga kompetitif dan stok lengkap di Radja AC.",
+      },
+      {
+        question: "Berapa harga AC untuk kost per kamar?",
+        answer:
+          "Harga bervariasi tergantung brand dan tipe. Untuk pembelian banyak unit, harga bisa lebih kompetitif. Kirim jumlah kamar dan kebutuhan untuk mendapatkan penawaran yang sesuai.",
+      },
+      {
+        question: "Bisa pasang AC kost di area Kembaran atau Karanglewas?",
+        answer:
+          "Bisa. Radja AC melayani area kost di sekitar UNSOED termasuk Kembaran, Karanglewas, Karangwangkal, dan Dukuhwaluh. Pengiriman dari gudang Sokaraja relatif cepat ke area ini.",
+      },
+      {
+        question: "Ada garansi untuk AC kost?",
+        answer:
+          "Garansi unit mengikuti ketentuan resmi brand. Garansi pemasangan 1 bulan untuk pekerjaan yang dikerjakan tim Radja AC. Jika ada kendala unit, tim membantu arahan klaim.",
+      },
+    ],
+    ctaLabel: "Konsultasi AC Kost Purwokerto",
+    waIntent: "konsultasi memilih AC untuk kost mahasiswa di Purwokerto sekitar UNSOED",
+    relatedLinks: [
+      ["Jual AC Purwokerto", routes.jualAcPurwokerto],
+      ["Jual AC Kembaran", routes.jualAcKembaran],
+      ["Pengadaan AC Kost", routes.pengadaanKostApartemen],
+      ["AC Low Watt", routes.katalogAcLowWatt],
+      ["Kontak Radja AC", routes.kontak],
+    ],
+  },
+  {
+    slug: "ac-untuk-villa-dan-penginapan-baturraden",
+    path: routes.artikelAcUntukVillaPenginapanBaturraden,
+    cluster: "informational",
+    role: "supporting",
+    intent: "commercial",
+    parentSlug: "panduan-beli-ac-baru",
+    updatedAt: "2026-06-15",
+    moneyLinks: [
+      ["Jual AC Baturraden", routes.jualAcBaturraden, "Konsultasi pembelian AC di area wisata Baturraden."],
+      ["Jual AC Cilongok", routes.jualAcCilongok, "Layanan AC untuk area Cilongok dekat Curug Cipendok."],
+      ["Pengadaan AC Hotel", routes.pengadaanHotelGuestHouse, "Solusi pengadaan AC untuk penginapan dan guest house."],
+      ["AC Inverter", routes.katalogAcInverter, "Pilihan inverter untuk kamar tamu dengan pemakaian malam."],
+    ],
+    title: "AC untuk Penginapan dan Villa di Baturraden — Radja AC",
+    description:
+      "Panduan memilih AC untuk villa, homestay, dan penginapan di kawasan wisata Baturraden: kebutuhan kamar tamu, efisiensi untuk pemakaian musiman, dan tipe seragam.",
+    h1: "AC untuk penginapan dan villa di Baturraden",
+    eyebrow: "AC Penginapan Baturraden",
+    readTime: "7 menit baca",
+    intro:
+      "Baturraden adalah kawasan wisata di kaki Gunung Slamet yang ramai dikunjungi saat akhir pekan dan musim liburan. Villa, homestay, dan penginapan di area ini punya kebutuhan AC yang unik: kamar tamu yang nyaman untuk wisatawan, efisiensi untuk pemakaian yang tidak setiap hari, dan ketahanan untuk kondisi lembap pegunungan.",
+    sections: [
+      {
+        heading: "Karakteristik penginapan di Baturraden",
+        body: [
+          "Penginapan di Baturraden biasanya ramai saat akhir pekan dan musim liburan, tapi relatif sepi di hari kerja. Pola pemakaian AC tidak setiap hari seperti rumah tangga, tapi intensif saat ada tamu.",
+          "Meski Baturraden terkenal sejuk, kamar tamu tetap butuh AC untuk kenyamanan. Wisatawan dari kota yang terbiasa dengan AC akan merasa kurang nyaman tanpa pendinginan, terutama saat cuaca panas atau kamar di lantai atas.",
+        ],
+      },
+      {
+        heading: "Pilihan AC untuk kamar tamu",
+        body: [
+          "Untuk kamar tamu penginapan, inverter sering menjadi pilihan karena suhu lebih stabil dan lebih senyap. Tamu yang menginap untuk istirahat akan lebih nyaman dengan AC yang tidak berisik.",
+          "Kapasitas 1/2 PK atau 3/4 PK biasanya cukup untuk kamar tamu ukuran standar. Untuk suite atau kamar lebih besar, pertimbangkan 1 PK.",
+        ],
+      },
+      {
+        heading: "Tipe seragam untuk kemudahan operasional",
+        body: [
+          "Seperti hotel, penginapan di Baturraden sebaiknya memilih tipe dan brand seragam untuk semua kamar. Ini menjaga konsistensi kenyamanan dan memudahkan perawatan.",
+          "Jika ada unit yang bermasalah, Anda bisa memindahkan unit dari kamar yang sedang kosong. Spare part juga bisa dipakai bersama antar unit.",
+        ],
+      },
+      {
+        heading: "Pertimbangan untuk kondisi Baturraden",
+        body: [
+          "Baturraden memiliki kelembapan yang lebih tinggi karena berada di kawasan pegunungan. Pilih AC dengan fitur anti-jamur atau pastikan perawatan rutin untuk mencegah masalah kelembapan.",
+          "Untuk villa yang tidak selalu terisi, AC yang jarang dipakai perlu dinyalakan secara berkala untuk menjaga kondisinya. Ini mencegah masalah seperti jamur atau komponen yang macet.",
+        ],
+      },
+      {
+        heading: "Area layanan di sekitar Baturraden",
+        body: [
+          "Radja AC melayani area Baturraden, Karangmangu, Kemutug, dan sekitarnya. Untuk penginapan di jalur wisata Purwokerto-Baturraden, pengiriman dan pemasangan bisa dijadwalkan.",
+          "Area Cilongok dengan Curug Cipendok juga dilayani. Pemilik villa atau homestay di kawasan wisata ini bisa konsultasi kebutuhan AC untuk kamar tamu.",
+        ],
+      },
+    ],
+    faqs: [
+      {
+        question: "Baturraden kan sejuk, perlu AC untuk penginapan?",
+        answer:
+          "Perlu untuk kenyamanan tamu. Wisatawan dari kota yang terbiasa AC akan merasa kurang nyaman tanpa pendinginan. AC juga membantu mengontrol kelembapan kamar.",
+      },
+      {
+        question: "AC apa yang cocok untuk villa di Baturraden?",
+        answer:
+          "Inverter 1/2 PK atau 3/4 PK untuk kamar standar. Inverter lebih senyap dan suhu lebih stabil, cocok untuk tamu yang menginap untuk istirahat.",
+      },
+      {
+        question: "Bisa pasang AC untuk homestay di sekitar Curug Cipendok?",
+        answer:
+          "Bisa. Radja AC melayani area Cilongok termasuk sekitar Curug Cipendok. Pengiriman dan pemasangan dijadwalkan sesuai lokasi.",
+      },
+      {
+        question: "Ada tips perawatan AC di daerah lembap seperti Baturraden?",
+        answer:
+          "Nyalakan AC secara berkala meski kamar kosong untuk mencegah jamur. Bersihkan filter lebih sering dan pastikan drainase lancar. Pertimbangkan AC dengan fitur anti-jamur.",
+      },
+    ],
+    ctaLabel: "Konsultasi AC Penginapan Baturraden",
+    waIntent: "konsultasi memilih AC untuk villa atau penginapan di Baturraden",
+    relatedLinks: [
+      ["Jual AC Baturraden", routes.jualAcBaturraden],
+      ["Jual AC Cilongok", routes.jualAcCilongok],
+      ["Pengadaan AC Hotel", routes.pengadaanHotelGuestHouse],
+      ["AC Inverter", routes.katalogAcInverter],
+      ["Kontak Radja AC", routes.kontak],
+    ],
+  },
+  {
+    slug: "memilih-ac-untuk-daerah-pesisir",
+    path: routes.artikelMemilihAcUntukDaerahPesisir,
+    cluster: "informational",
+    role: "supporting",
+    intent: "commercial",
+    parentSlug: "panduan-beli-ac-baru",
+    updatedAt: "2026-06-15",
+    moneyLinks: [
+      ["Jual AC Cilacap", routes.jualAcCilacap, "Konsultasi pembelian AC di area pesisir Cilacap."],
+      ["Jual AC Adipala", routes.jualAcAdipala, "Layanan AC untuk area Adipala dekat pantai."],
+      ["Jual AC Tegal", routes.jualAcTegal, "Konsultasi pembelian AC di area pesisir Tegal."],
+      ["Jual AC Pekalongan", routes.jualAcPekalongan, "Layanan AC untuk area pesisir Pekalongan."],
+    ],
+    title: "Memilih AC untuk Daerah Pesisir | Panduan Anti Korosi — Radja AC",
+    description:
+      "Panduan memilih AC untuk daerah pesisir: tips menghindari korosi akibat udara asin, pemilihan brand yang tahan, dan perawatan khusus untuk area pantai.",
+    h1: "Memilih AC untuk daerah pesisir: panduan anti korosi",
+    eyebrow: "AC Daerah Pesisir",
+    readTime: "7 menit baca",
+    intro:
+      "Daerah pesisir seperti Cilacap, Adipala, Tegal, dan Pekalongan punya tantangan khusus untuk AC: udara asin yang mempercepat korosi. Tanpa pemilihan unit yang tepat dan perawatan yang benar, AC di daerah pesisir bisa lebih cepat rusak. Artikel ini membantu Anda memilih dan merawat AC untuk kondisi pesisir.",
+    sections: [
+      {
+        heading: "Kenapa AC di pesisir lebih cepat rusak?",
+        body: [
+          "Udara di daerah pesisir mengandung garam (sodium chloride) yang bersifat korosif. Garam ini menempel pada komponen AC, terutama unit outdoor yang terpapar langsung, dan mempercepat proses karat.",
+          "Komponen yang paling rentan adalah kondensor (coil outdoor), rangka outdoor, dan sambungan pipa. Korosi pada kondensor menurunkan efisiensi pendinginan, sedangkan korosi pada rangka bisa memperpendek umur unit.",
+        ],
+      },
+      {
+        heading: "Pilih AC dengan fitur anti-korosi",
+        body: [
+          "Beberapa brand menyediakan seri khusus untuk daerah pesisir dengan coating anti-korosi pada kondensor dan rangka outdoor. Fitur ini menambah perlindungan terhadap udara asin.",
+          "Jika tidak tersedia seri khusus, pilih AC dengan kondensor yang dilapisi (coated) dan rangka outdoor dari material yang lebih tahan korosi. Konsultasikan kebutuhan ini saat memilih unit.",
+        ],
+      },
+      {
+        heading: "Posisi pemasangan outdoor yang tepat",
+        body: [
+          "Posisi outdoor sangat memengaruhi paparan udara asin. Jika memungkinkan, pasang outdoor di sisi yang tidak langsung menghadap laut atau terlindung dari angin laut.",
+          "Hindari memasang outdoor terlalu dekat dengan tanah atau area yang sering terkena percikan air laut. Ketinggian yang cukup membantu mengurangi paparan langsung.",
+        ],
+      },
+      {
+        heading: "Perawatan rutin lebih penting di pesisir",
+        body: [
+          "Di daerah pesisir, perawatan AC harus lebih sering. Cuci kondensor outdoor minimal setiap 2-3 bulan untuk membersihkan endapan garam sebelum menyebabkan korosi.",
+          "Periksa juga kondisi rangka dan sambungan secara berkala. Jika terlihat tanda-tanda karat, segera bersihkan dan berikan perlindungan tambahan seperti cat anti-karat.",
+        ],
+      },
+      {
+        heading: "Area layanan pesisir Radja AC",
+        body: [
+          "Radja AC melayani area pesisir termasuk Cilacap, Adipala, Kesugihan, Kroya, Tegal, dan Pekalongan. Untuk kebutuhan AC di area ini, tim bisa membantu merekomendasikan unit yang lebih tahan untuk kondisi pesisir.",
+          "Konsultasikan lokasi spesifik Anda — seberapa dekat dengan pantai, arah angin dominan, dan kondisi lingkungan — untuk mendapatkan rekomendasi yang lebih tepat.",
+        ],
+      },
+    ],
+    faqs: [
+      {
+        question: "AC biasa bisa dipakai di daerah pesisir?",
+        answer:
+          "Bisa, tapi umurnya cenderung lebih pendek tanpa perawatan ekstra. Lebih baik pilih AC dengan fitur anti-korosi atau lakukan perawatan lebih sering untuk memperpanjang umur unit.",
+      },
+      {
+        question: "Berapa sering harus cuci AC di daerah pesisir?",
+        answer:
+          "Cuci kondensor outdoor minimal setiap 2-3 bulan, lebih sering jika lokasi sangat dekat pantai. Filter indoor juga perlu dibersihkan lebih rutin.",
+      },
+      {
+        question: "Brand AC apa yang bagus untuk pesisir?",
+        answer:
+          "Beberapa brand punya seri dengan coating anti-korosi. Konsultasikan kebutuhan spesifik Anda — lokasi, jarak dari pantai, anggaran — untuk rekomendasi yang sesuai.",
+      },
+      {
+        question: "Rumah saya 2 km dari pantai, perlu AC khusus pesisir?",
+        answer:
+          "Pada jarak 2 km, paparan udara asin sudah berkurang signifikan. AC standar dengan perawatan rutin biasanya cukup. Jika lebih dekat dari 500 meter, pertimbangkan fitur anti-korosi.",
+      },
+    ],
+    ctaLabel: "Konsultasi AC Daerah Pesisir",
+    waIntent: "konsultasi memilih AC untuk daerah pesisir anti korosi",
+    relatedLinks: [
+      ["Jual AC Cilacap", routes.jualAcCilacap],
+      ["Jual AC Adipala", routes.jualAcAdipala],
+      ["Jual AC Tegal", routes.jualAcTegal],
+      ["Jual AC Pekalongan", routes.jualAcPekalongan],
+      ["Kontak Radja AC", routes.kontak],
+    ],
+  },
 ];
 
 export function getArticleItem(slug) {
