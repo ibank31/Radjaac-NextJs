@@ -423,21 +423,21 @@ export const banyumasAreas = [
         path: routes.jualAcCilongok,
         areaName: "Cilongok",
         localLandmarks: [
+          "Curug Cipendok (air terjun wisata di kaki Gunung Slamet)",
           "Jalur Purwokerto–Cilongok–Ajibarang",
           "Sentra durian dan gula kelapa Cilongok",
-          "Pasar Cilongok",
-          "Permukiman dan persawahan desa",
-          "Curug dan wisata alam sekitar Cilongok",
+          "Pasar Cilongok dan permukiman desa",
+          "Kawasan penginapan dan homestay sekitar Curug Cipendok",
         ],
         localBenefits: [
-          "AC rumah dan AC kos di permukiman desa Cilongok banyak pilih low watt karena daya listrik terbatas",
-          "Toko kecil dan usaha rumahan butuh unit hemat untuk dipakai harian",
-          "Pengiriman unit ke alamat desa lalu pemasangan memudahkan pembeli yang jauh dari kota",
+          "Penginapan dan homestay di sekitar Curug Cipendok butuh AC kamar tamu yang seragam dan mudah dirawat saat musim kunjungan wisata ramai, terutama akhir pekan",
+          "Toko oleh-oleh durian dan gula kelapa di jalur Cilongok yang ramai pembeli dari kota butuh ruang yang adem agar pembeli betah memilih dan tidak buru-buru pergi",
+          "Rumah warga di permukiman desa Cilongok banyak pilih low watt karena daya listrik terbatas, dan sering pasang per kamar secara bertahap mengikuti anggaran",
         ],
         localCases: [
-          ["Rumah & kos desa", "Pemasangan AC kamar yang panas saat siang dengan pilihan low watt sesuai daya."],
-          ["Toko kecil & usaha rumahan", "AC ruang usaha atau warung di sepanjang jalan desa."],
-          ["Tambah unit bertahap", "Keluarga menambah AC per kamar mengikuti anggaran."],
+          ["Penginapan & homestay Curug Cipendok", "AC kamar tamu seragam untuk penginapan yang ramai saat akhir pekan dan musim liburan."],
+          ["Toko oleh-oleh durian & gula kelapa", "AC ruang jualan di jalur Cilongok agar pembeli dari kota betah memilih produk."],
+          ["Rumah & kos desa", "Pemasangan AC kamar yang panas saat siang dengan low watt sesuai daya listrik rumahan."],
         ],
         label: "Jual AC Cilongok",
         title: "Jual AC Cilongok untuk Rumah, Toko & Usaha — Radja AC",
@@ -446,9 +446,9 @@ export const banyumasAreas = [
         h1: "Jual AC Cilongok untuk Rumah, Toko & Usaha",
         eyebrow: "Area Banyumas",
         intro:
-          "Butuh AC di Cilongok untuk rumah, toko, ruko, kantor, ruang usaha, atau beberapa unit? Tim Radja AC bantu cek kebutuhan PK, daya listrik, stok brand, pengiriman, dan opsi pemasangan dari data awal.",
+          "Butuh AC di Cilongok untuk rumah, toko, penginapan, ruko, kantor, ruang usaha, atau beberapa unit? Tim Radja AC bantu cek kebutuhan PK, daya listrik, stok brand, pengiriman, dan opsi pemasangan dari data awal.",
         localContext:
-          "Cilongok ada di sisi barat Banyumas menuju Ajibarang—daerah pertanian dan perdesaan yang dikenal dengan durian dan gula kelapa. Pembeli AC di sini umumnya rumah warga, kos, dan toko kecil di sepanjang jalan desa, dengan daya listrik rumahan yang sering terbatas. Karena itu banyak yang cari AC rumah low watt. Untuk jual AC Cilongok, unit diantar ke alamat lalu dipasang, dengan pembayaran DP, COD, atau transfer setelah stok dipastikan.",
+          "Cilongok ada di sisi barat Banyumas menuju Ajibarang, dikenal dengan Curug Cipendok—air terjun di kaki Gunung Slamet yang jadi tujuan wisata akhir pekan—serta sentra durian dan gula kelapa. Penginapan dan homestay di sekitar Curug Cipendok butuh AC kamar tamu yang seragam saat musim kunjungan ramai, sedangkan toko oleh-oleh di jalur Cilongok butuh ruang yang adem agar pembeli dari kota betah. Rumah warga di permukiman desa banyak yang pilih low watt karena daya listrik terbatas. Untuk jual AC Cilongok, unit diantar ke alamat lalu dipasang, dengan pembayaran DP, COD, atau transfer setelah stok dipastikan.",
         coverageNote:
           "Showroom dan gudang Radja AC berada di Banyumas. Kebutuhan AC area Cilongok dilayani dengan konsultasi PK, cek stok unit, pengiriman, serta opsi pemasangan sesuai alamat, jumlah unit, dan jadwal.",
         keywordVariants: [
@@ -474,20 +474,20 @@ export const banyumasAreas = [
         ],
         localFaq: [
           [
-            "AC rumah di Cilongok, pas pakai low watt karena listrik terbatas?",
-            "Banyak rumah desa di Cilongok pakai daya 900–1300 watt, jadi low watt sering cocok agar listrik tidak turun. Sebutkan daya dan ukuran kamar untuk cek unit dan stok.",
+            "AC untuk penginapan atau homestay di sekitar Curug Cipendok, pilih apa?",
+            "Kamar tamu yang dipakai saat akhir pekan dan musim liburan sebaiknya unit seragam yang mudah dirawat; inverter lebih efisien kalau AC menyala hampir setiap malam. Kirim jumlah kamar dan ukurannya untuk arahan stok.",
           ],
           [
-            "Bisa kirim AC ke alamat yang masuk desa di Cilongok?",
-            "Bisa. Unit dikirim ke alamat lalu pemasangan dijadwalkan sesuai akses lokasi; sebutkan alamat dan jumlah unit untuk perkiraan pengiriman.",
+            "Toko oleh-oleh durian atau gula kelapa di jalur Cilongok, AC-nya bagaimana?",
+            "Ruang jualan yang dikunjungi pembeli dari kota butuh kapasitas sesuai luas dan lalu lalang agar pembeli betah memilih. Sebutkan ukuran toko dan jam ramai untuk cek unit dan stok.",
           ],
           [
-            "Untuk toko kecil atau warung di Cilongok, AC-nya bagaimana?",
-            "Ruang usaha yang dipakai harian sebaiknya pakai kapasitas sesuai luas, bukan yang termurah, supaya awet. Sebutkan ukuran ruang dan jam pakai.",
+            "Rumah di desa Cilongok, daya listrik terbatas, AC apa yang aman?",
+            "Banyak rumah desa di Cilongok pakai daya 900–1300 watt, jadi low watt sering jadi pilihan agar MCB tidak turun. Sebutkan daya dan ukuran kamar untuk cek unit dan stok.",
           ],
           [
-            "Pembayaran AC di Cilongok bisa COD atau transfer?",
-            "Bisa. Banyak pembeli ambil DP dulu lalu pelunasan COD saat unit datang, atau transfer setelah stok dipastikan.",
+            "Bisa kirim dan pasang AC ke alamat di Cilongok atau sekitar Curug Cipendok?",
+            "Bisa. Unit dikirim ke alamat di Cilongok lalu pemasangan dijadwalkan sesuai akses lokasi. Sebutkan alamat dan jumlah unit untuk perkiraan pengiriman.",
           ],
         ],
         commonNeeds: [
