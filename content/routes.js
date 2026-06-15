@@ -88,6 +88,19 @@ export const routes = {
   artikelBiayaServisVsGantiBaru: "/artikel/biaya-servis-ac-vs-ganti-baru",
   artikelTandaAcHarusGantiUnit: "/artikel/tanda-ac-harus-ganti-unit",
   artikelAcBorosListrikGantiInverter: "/artikel/ac-boros-listrik-ganti-inverter",
+  // 12 artikel baru untuk topical authority
+  artikelGreeVsDaikinUntukRumah: "/artikel/gree-vs-daikin-untuk-rumah",
+  artikelMideaVsHisenseBudgetTerbatas: "/artikel/midea-vs-hisense-budget-terbatas",
+  artikelDaikinVsPanasonicJangkaPanjang: "/artikel/daikin-vs-panasonic-jangka-panjang",
+  artikelAcGreeCocokUntukSiapa: "/artikel/ac-gree-cocok-untuk-siapa",
+  artikelCaraMenghitungKebutuhanAcKost: "/artikel/cara-menghitung-kebutuhan-ac-kost",
+  artikelChecklistPengadaanAcHotel: "/artikel/checklist-pengadaan-ac-hotel",
+  artikelPanduanBoqAcKontraktor: "/artikel/panduan-boq-ac-kontraktor",
+  artikelAcUntukTokoRukoPilihPkBerapa: "/artikel/ac-untuk-toko-dan-ruko-pilih-pk-berapa",
+  artikelAcKantorKecilInverterAtauLowWatt: "/artikel/ac-kantor-kecil-inverter-atau-low-watt",
+  artikelAcUntukKosMahasiswaPurwokerto: "/artikel/ac-untuk-kos-mahasiswa-purwokerto",
+  artikelAcUntukVillaPenginapanBaturraden: "/artikel/ac-untuk-villa-dan-penginapan-baturraden",
+  artikelMemilihAcUntukDaerahPesisir: "/artikel/memilih-ac-untuk-daerah-pesisir",
 };
 
 export const sitemapRoutes = [
@@ -179,4 +192,17 @@ export const sitemapRoutes = [
   { path: routes.artikelBiayaServisVsGantiBaru, priority: 0.6, lastModified: "2026-06-13" },
   { path: routes.artikelTandaAcHarusGantiUnit, priority: 0.6, lastModified: "2026-06-13" },
   { path: routes.artikelAcBorosListrikGantiInverter, priority: 0.6, lastModified: "2026-06-13" },
+  // 12 artikel baru untuk topical authority
+  { path: routes.artikelGreeVsDaikinUntukRumah, priority: 0.6, lastModified: "2026-06-15" },
+  { path: routes.artikelMideaVsHisenseBudgetTerbatas, priority: 0.6, lastModified: "2026-06-15" },
+  { path: routes.artikelDaikinVsPanasonicJangkaPanjang, priority: 0.6, lastModified: "2026-06-15" },
+  { path: routes.artikelAcGreeCocokUntukSiapa, priority: 0.6, lastModified: "2026-06-15" },
+  { path: routes.artikelCaraMenghitungKebutuhanAcKost, priority: 0.6, lastModified: "2026-06-15" },
+  { path: routes.artikelChecklistPengadaanAcHotel, priority: 0.6, lastModified: "2026-06-15" },
+  { path: routes.artikelPanduanBoqAcKontraktor, priority: 0.6, lastModified: "2026-06-15" },
+  { path: routes.artikelAcUntukTokoRukoPilihPkBerapa, priority: 0.6, lastModified: "2026-06-15" },
+  { path: routes.artikelAcKantorKecilInverterAtauLowWatt, priority: 0.6, lastModified: "2026-06-15" },
+  { path: routes.artikelAcUntukKosMahasiswaPurwokerto, priority: 0.6, lastModified: "2026-06-15" },
+  { path: routes.artikelAcUntukVillaPenginapanBaturraden, priority: 0.6, lastModified: "2026-06-15" },
+  { path: routes.artikelMemilihAcUntukDaerahPesisir, priority: 0.6, lastModified: "2026-06-15" },
 ];
