@@ -440,9 +440,9 @@ export const banyumasAreas = [
           ["Rumah & kos desa", "Pemasangan AC kamar yang panas saat siang dengan low watt sesuai daya listrik rumahan."],
         ],
         label: "Jual AC Cilongok",
-        title: "Jual AC Cilongok untuk Rumah, Toko & Usaha — Radja AC",
+        title: "Jual AC Cilongok | Penginapan Curug Cipendok, Toko Durian & Rumah Desa — Radja AC",
         description:
-          "Butuh AC untuk rumah, toko, ruko, kantor, atau usaha di Cilongok? Radja AC bantu cek PK, stok, pengiriman, opsi pemasangan, dan pembayaran fleksibel.",
+          "Cek stok AC untuk homestay sekitar Curug Cipendok, toko oleh-oleh durian, atau rumah desa di Cilongok. Radja AC bantu pilih PK, cek stok, dan atur pengiriman via WhatsApp.",
         h1: "Jual AC Cilongok untuk Rumah, Toko & Usaha",
         eyebrow: "Area Banyumas",
         intro:
@@ -641,9 +641,9 @@ export const banyumasAreas = [
           ["Rumah & kos pinggir jalur", "Pemasangan AC kamar dengan pilihan low watt; unit dikirim langsung ke alamat di jalur Wangon."],
         ],
         label: "Jual AC Wangon",
-        title: "Jual AC Wangon untuk Rumah, Toko & Usaha — Radja AC",
+        title: "Jual AC Wangon | Rumah Makan Jalur Selatan, Toko & Rumah — Radja AC",
         description:
-          "Butuh AC untuk rumah, toko, ruko, kantor, atau usaha di Wangon? Radja AC cek kebutuhan PK, stok, pengiriman unit, dan opsi pemasangan via WhatsApp.",
+          "AC untuk rumah makan di pertigaan Wangon jalur Purwokerto–Cilacap, toko pinggir jalan, atau rumah? Radja AC cek PK, stok, dan pengiriman unit via WhatsApp.",
         h1: "Jual AC Wangon untuk Rumah, Toko & Usaha",
         eyebrow: "Area Banyumas Barat & Jalur Selatan",
         intro:
@@ -741,9 +741,9 @@ export const banyumasAreas = [
           ["Kos & hunian kampus", "Pemilik kos pasang unit hemat daya per kamar secara bertahap mengikuti anggaran."],
         ],
         label: "Jual AC Karanglewas",
-        title: "Jual AC Karanglewas untuk Rumah, Kost & Usaha — Radja AC",
+        title: "Jual AC Karanglewas | Perumahan Griya Satria, Kos Kampus & Ruko — Radja AC",
         description:
-          "Butuh AC untuk rumah, kost, toko, kantor, ruko, atau usaha di Karanglewas? Radja AC cek kebutuhan PK, stok, pengiriman unit, dan opsi pemasangan via WhatsApp.",
+          "Pasang AC untuk perumahan baru di Karanglewas, kos dekat kampus sisi barat, atau ruko jalan utama? Radja AC cek PK, stok, dan jadwal pemasangan via WhatsApp.",
         h1: "Jual AC Karanglewas untuk Rumah, Kost & Usaha",
         eyebrow: "Area Ring Purwokerto",
         intro:
@@ -856,9 +856,9 @@ export const banyumasAreas = [
           ],
         ],
         label: "Jual AC Kembaran",
-        title: "Jual AC Kembaran untuk Rumah, Kost & Usaha — Radja AC",
+        title: "Jual AC Kembaran | Kos UNSOED Karangwangkal, Kontrakan & Rumah — Radja AC",
         description:
-          "Butuh AC untuk rumah, kost, kontrakan, toko, atau usaha di Kembaran? Radja AC cek kebutuhan PK, stok, pengiriman unit, dan opsi pemasangan via WhatsApp.",
+          "AC low watt tipe seragam untuk kos padat di Karangwangkal dan Dukuhwaluh, atau inverter untuk rumah warga Kembaran? Radja AC cek PK, stok, dan pengiriman via WhatsApp.",
         h1: "Jual AC Kembaran untuk Rumah, Kost & Usaha",
         eyebrow: "Area Kampus & Hunian Banyumas",
         intro:
@@ -937,9 +937,9 @@ export const banyumasAreas = [
           ["Kost & rumah sewa", "Unit hemat daya untuk beberapa kamar dengan daya listrik terbatas."],
         ],
         label: "Jual AC Patikraja",
-        title: "Jual AC Patikraja untuk Rumah, Toko & Usaha — Radja AC",
+        title: "Jual AC Patikraja | Rumah Dekat Sungai Serayu, UMKM & Jalur Selatan — Radja AC",
         description:
-          "Butuh AC untuk rumah, toko, kantor, ruko, atau usaha di Patikraja? Radja AC cek kebutuhan PK, stok, pengiriman unit, dan opsi pemasangan via WhatsApp.",
+          "AC low watt untuk rumah yang panas saat siang di Patikraja, atau AC ruang usaha UMKM jalur selatan dekat Jembatan Serayu? Radja AC cek PK, stok, dan pengiriman via WhatsApp.",
         h1: "Jual AC Patikraja untuk Rumah, Toko & Usaha",
         eyebrow: "Area Selatan Purwokerto",
         intro:
@@ -1034,9 +1034,9 @@ export const banyumasAreas = [
           ["Kantor kecil & usaha", "Pemilihan kapasitas AC sesuai luas ruang kerja dengan pengiriman ke alamat Rawalo."],
         ],
         label: "Jual AC Rawalo",
-        title: "Jual AC Rawalo untuk Rumah, Toko & Usaha — Radja AC",
+        title: "Jual AC Rawalo | Toko Pertigaan Jalur Buntu–Wangon, Rumah Desa — Radja AC",
         description:
-          "Butuh AC untuk rumah, toko, kantor, ruko, atau usaha di Rawalo? Radja AC cek kebutuhan PK, stok, pengiriman unit, dan opsi pemasangan via WhatsApp.",
+          "AC untuk toko dan warung di pertigaan Rawalo jalur Purwokerto–Buntu, atau rumah desa dengan daya terbatas? Radja AC cek PK, stok, dan pengiriman via WhatsApp.",
         h1: "Jual AC Rawalo untuk Rumah, Toko & Usaha",
         eyebrow: "Area Selatan Banyumas",
         intro:
@@ -1131,9 +1131,9 @@ export const banyumasAreas = [
           ["Rumah kawasan lereng", "Sebagian rumah hanya butuh AC di kamar yang panas saat siang, bukan seluruh ruangan."],
         ],
         label: "Jual AC Baturraden",
-        title: "Jual AC Baturraden untuk Rumah, Villa & Penginapan — Radja AC",
+        title: "Jual AC Baturraden | Villa & Homestay Lokawisata, Kafe Jalur Wisata & Rumah — Radja AC",
         description:
-          "Butuh AC untuk rumah, villa, homestay, guest house, atau usaha di Baturraden? Radja AC cek kebutuhan PK, stok, pengiriman unit, dan opsi pemasangan via WhatsApp.",
+          "AC kamar tamu seragam untuk villa dan homestay di lereng Gunung Slamet, atau AC kafe jalur wisata Baturraden? Radja AC cek PK, stok, dan pengiriman via WhatsApp.",
         h1: "Jual AC Baturraden untuk Rumah, Villa & Penginapan",
         eyebrow: "Area Wisata Banyumas",
         intro:
@@ -1234,9 +1234,9 @@ export const banyumasAreas = [
         ["Tambah unit bertahap", "Keluarga atau pemilik kos menambah AC per kamar mengikuti anggaran."],
       ],
       label: "Jual AC Sumbang",
-      title: "Jual AC Sumbang untuk Rumah, Kost & Usaha — Radja AC",
+      title: "Jual AC Sumbang | Rumah & Kos Jalur Baturraden, Toko Lokal — Radja AC",
       description:
-        "Butuh AC untuk rumah, kost, toko, kantor kecil, atau usaha di Sumbang? Radja AC cek kebutuhan PK, stok, pengiriman unit, dan opsi pemasangan via WhatsApp.",
+        "AC low watt untuk rumah dan kos di jalur Purwokerto–Sumbang menuju kaki Gunung Slamet, atau AC toko usaha lokal? Radja AC cek PK, stok, dan pengiriman via WhatsApp.",
       h1: "Jual AC Sumbang untuk Rumah, Kost & Usaha",
       eyebrow: "Area Banyumas Utara / Timur",
       intro:
@@ -1333,9 +1333,9 @@ export const banyumasAreas = [
         ["Properti sewa & usaha", "Pemilihan unit untuk kamar sewa atau ruang usaha, dikirim ke alamat lalu dipasang."],
       ],
       label: "Jual AC Kedungbanteng",
-      title: "Jual AC Kedungbanteng untuk Rumah, Villa & Usaha — Radja AC",
+      title: "Jual AC Kedungbanteng | Villa & Homestay Dekat Hutan UNSOED, Rumah & Usaha — Radja AC",
       description:
-        "Butuh AC untuk rumah, villa, homestay, toko, kantor kecil, atau usaha di Kedungbanteng? Radja AC cek PK, stok, pengiriman, dan opsi pemasangan.",
+        "AC kamar tamu untuk villa dan homestay dekat hutan pendidikan UNSOED Kedungbanteng, atau AC rumah yang panas saat siang? Radja AC cek PK, stok, dan pengiriman via WhatsApp.",
       h1: "Jual AC Kedungbanteng untuk Rumah, Villa & Usaha",
       eyebrow: "Area Banyumas Utara-Barat",
       intro:
@@ -1432,9 +1432,9 @@ export const banyumasAreas = [
         ["Kantor kecil & usaha", "Pemilihan unit ruang kerja dengan pengiriman cepat ke alamat Kalibagor."],
       ],
       label: "Jual AC Kalibagor",
-      title: "Jual AC Kalibagor untuk Rumah, Toko & Usaha — Radja AC",
+      title: "Jual AC Kalibagor | Toko Jalur Banyumas–Sokaraja, Rumah & Usaha — Radja AC",
       description:
-        "Butuh AC untuk rumah, toko, kantor kecil, ruko, atau usaha di Kalibagor? Radja AC cek kebutuhan PK, stok, pengiriman unit, dan opsi pemasangan via WhatsApp.",
+        "AC untuk toko dan ruko di jalur Banyumas–Sokaraja dekat bekas Pabrik Gula Kalibagor, atau rumah warga? Radja AC cek PK, stok, dan pengiriman cepat via WhatsApp.",
       h1: "Jual AC Kalibagor untuk Rumah, Toko & Usaha",
       eyebrow: "Jalur Banyumas - Sokaraja",
       intro:

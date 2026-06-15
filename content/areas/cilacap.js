@@ -143,9 +143,9 @@ export const cilacapAreas = [
         ["Kantor & gudang industri", "Pemilihan unit ruang kerja dan kantor lapangan di koridor Kroya–Cilacap."],
       ],
       label: "Jual AC Kroya",
-      title: "Jual AC Kroya untuk Rumah, Toko & Usaha — Radja AC",
+      title: "Jual AC Kroya | Toko Sekitar Stasiun, Kos Transit & Koridor Industri Cilacap — Radja AC",
       description:
-        "Butuh AC untuk rumah, toko, ruko, kantor, atau banyak unit di Kroya? Radja AC bantu cek PK, stok, pengiriman, opsi pemasangan, dan pembayaran fleksibel.",
+        "AC untuk toko dan ruko sekitar Stasiun Kroya, kos pekerja transit, atau kantor di koridor industri Kroya–Cilacap? Radja AC cek PK, stok, dan pengiriman via WhatsApp.",
       h1: "Jual AC Kroya untuk Rumah, Toko & Usaha",
       eyebrow: "Area Cilacap",
       intro:
@@ -240,9 +240,9 @@ export const cilacapAreas = [
         ["Rumah & kos", "Pemasangan AC kamar dengan pengiriman yang dijadwalkan tersendiri ke Cilacap barat."],
       ],
       label: "Jual AC Majenang",
-      title: "Jual AC Majenang untuk Rumah, Toko & Banyak Unit — Radja AC",
+      title: "Jual AC Majenang | Pasar Dagang Cilacap Barat, RSUD & Rumah — Radja AC",
       description:
-        "Butuh AC untuk rumah, toko, kantor, usaha, atau banyak unit di Majenang? Radja AC bantu cek PK, stok, pengiriman, opsi pemasangan, dan pembayaran fleksibel.",
+        "AC untuk ruko di Pasar Majenang pusat dagang Cilacap barat, ruang tunggu RSUD Majenang, atau rumah? Radja AC cek PK, stok, dan jadwal pengiriman via WhatsApp.",
       h1: "Jual AC Majenang untuk Rumah, Toko & Banyak Unit",
       eyebrow: "Area Cilacap Barat",
       intro:
@@ -337,9 +337,9 @@ export const cilacapAreas = [
         ["Kantor & usaha", "Pemilihan unit ruang kerja dengan pengiriman yang dijadwalkan ke jalur barat Cilacap."],
       ],
       label: "Jual AC Sidareja",
-      title: "Jual AC Sidareja untuk Rumah, Ruko & Usaha — Radja AC",
+      title: "Jual AC Sidareja | Ruko Pasar, Rumah Sekitar Rawa Besar & Jalur Barat Cilacap — Radja AC",
       description:
-        "Butuh AC untuk rumah, ruko, toko, kantor, atau banyak unit di Sidareja? Radja AC bantu cek PK, stok, pengiriman, opsi pemasangan, dan pembayaran fleksibel.",
+        "AC untuk ruko di Pasar Sidareja, rumah yang lembap karena Rawa Besar, atau usaha jalur barat Cilacap? Radja AC cek PK, stok, dan pengiriman via WhatsApp.",
       h1: "Jual AC Sidareja untuk Rumah, Ruko & Usaha",
       eyebrow: "Area Cilacap Barat",
       intro:
@@ -434,9 +434,9 @@ export const cilacapAreas = [
         ["Kantor & usaha koridor industri", "Pemilihan unit ruang kerja di jalur Kesugihan–Cilacap yang dekat kawasan industri."],
       ],
       label: "Jual AC Kesugihan",
-      title: "Jual AC Kesugihan untuk Rumah, Kantor & Proyek — Radja AC",
+      title: "Jual AC Kesugihan | Pesantren Al-Ihya Ulumaddin, Asrama Santri & Koridor Industri — Radja AC",
       description:
-        "Butuh AC untuk rumah, kantor, proyek, atau banyak unit di Kesugihan? Radja AC bantu cek PK, stok, pengiriman, opsi pemasangan, dan pembayaran fleksibel.",
+        "AC ruang kelas dan asrama Pesantren Al-Ihya Ulumaddin Kesugihan, atau kantor di koridor industri Cilacap? Radja AC cek PK, stok, dan pengiriman via WhatsApp.",
       h1: "Jual AC Kesugihan untuk Rumah, Kantor & Proyek",
       eyebrow: "Area Cilacap",
       intro:
@@ -531,9 +531,9 @@ export const cilacapAreas = [
         ["Toko & usaha jalur Adipala–Kroya", "AC ruang jualan di jalur utama agar pembeli betah di cuaca panas pesisir."],
       ],
       label: "Jual AC Adipala",
-      title: "Jual AC Adipala untuk Rumah, Toko & Usaha — Radja AC",
+      title: "Jual AC Adipala | PLTU, Permukiman Nelayan Pantai Widarapayung & Toko Pesisir — Radja AC",
       description:
-        "Butuh AC untuk rumah, toko, kantor, usaha, atau banyak unit di Adipala? Radja AC bantu cek PK, stok, pengiriman, opsi pemasangan, dan pembayaran fleksibel.",
+        "AC untuk mess kontraktor PLTU Adipala, rumah nelayan di Pantai Widarapayung, atau toko pesisir yang panas? Radja AC cek PK, stok, dan pengiriman via WhatsApp.",
       h1: "Jual AC Adipala untuk Rumah, Toko & Usaha",
       eyebrow: "Area Cilacap",
       intro:

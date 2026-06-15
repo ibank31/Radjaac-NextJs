@@ -128,9 +128,9 @@ export const brandItems = [
     path: routes.brandMidea,
     name: "Midea",
     label: "AC Midea",
-    title: "AC Midea Original | Cek Stok, Tipe & Konsultasi PK — Radja AC",
+    title: "AC Midea Original | FT, AF & Inverter untuk Rumah, Kost & Usaha — Radja AC",
     description:
-      "Radja AC menyediakan AC Midea original untuk rumah, kost, toko, kantor, usaha, hotel, dan proyek. Cek stok FT/AF/inverter, rekomendasi PK, pengiriman, pemasangan, dan garansi.",
+      "Cek stok AC Midea original tipe FT, AF, dan inverter untuk rumah, kost, kontrakan, dan usaha di Radja AC. Authorized Dealer Midea. Konsultasi PK, pengiriman, dan pemasangan via WhatsApp.",
     h1: "AC Midea original untuk rumah, kost, usaha, kantor, hotel, dan proyek",
     eyebrow: "Brand AC Midea",
     intro:
@@ -199,9 +199,9 @@ export const brandItems = [
     path: routes.brandHisense,
     name: "Hisense",
     label: "AC Hisense",
-    title: "AC Hisense Original | Cek Stok, Tipe & Konsultasi PK — Radja AC",
+    title: "AC Hisense Original | Self-Cleaning, Inverter Modern untuk Rumah & Usaha — Radja AC",
     description:
-      "Radja AC menyediakan AC Hisense original. Cek stok Hisense standard dan inverter, rekomendasi PK, pengiriman, opsi pemasangan, dan bantuan klaim sesuai ketentuan brand.",
+      "Cek stok AC Hisense original dengan fitur Self-Cleaning dan Anti Mildew untuk rumah, toko, dan usaha di Radja AC. Konsultasi PK, pengiriman, dan pemasangan via WhatsApp.",
     h1: "AC Hisense original untuk rumah, kost, usaha, dan kebutuhan anggaran efisien",
     eyebrow: "Brand AC",
     intro:
@@ -321,9 +321,9 @@ export const brandItems = [
     path: routes.brandSharp,
     name: "Sharp",
     label: "AC Sharp",
-    title: "AC Sharp Original | Cek Stok, Tipe & Konsultasi PK — Radja AC",
+    title: "AC Sharp Original | Seri BEY, J-Tech Inverter & Spare Part Mudah — Radja AC",
     description:
-      "Radja AC menyediakan AC Sharp original. Stok aktif, kebutuhan ruangan, daya listrik, pengiriman, pemasangan, dan alur klaim dicek sesuai ketentuan brand.",
+      "Cek stok AC Sharp original seri BEY dan J-Tech Inverter di Radja AC. Spare part mudah dicari, teknisi lokal familiar. Konsultasi PK, pengiriman, dan pemasangan via WhatsApp.",
     h1: "AC Sharp original untuk rumah, kost, usaha, kantor, hotel, dan proyek",
     eyebrow: "Brand AC",
     intro:
@@ -439,9 +439,9 @@ export const brandItems = [
     path: routes.brandPanasonic,
     name: "Panasonic",
     label: "AC Panasonic",
-    title: "AC Panasonic Original | Cek Stok, Tipe & Konsultasi PK — Radja AC",
+    title: "AC Panasonic Original | Econavi, nanoe-G, Inverter untuk Rumah, Kantor & Hotel — Radja AC",
     description:
-      "Radja AC menyediakan AC Panasonic original. Stok aktif, kebutuhan ruangan, daya listrik, pengiriman, pemasangan, dan alur klaim dicek sesuai ketentuan brand.",
+      "Cek stok AC Panasonic original dengan teknologi Econavi dan nanoe-G untuk rumah, kantor, dan hotel di Radja AC. Konsultasi PK, pengiriman, dan pemasangan via WhatsApp.",
     h1: "AC Panasonic original untuk rumah, usaha, kantor, hotel, dan proyek",
     eyebrow: "Brand AC",
     intro:
@@ -525,9 +525,9 @@ export const brandItems = [
     path: routes.brandLainnya,
     name: "Brand Lainnya",
     label: "Brand AC Lainnya",
-    title: "Brand AC Lainnya | Cek Stok & Konsultasi Unit Original — Radja AC",
+    title: "AC TCL, Aqua, Polytron, LG, Toshiba & Brand Lainnya | Cek Stok Original — Radja AC",
     description:
-      "Cek pilihan brand AC lainnya di Radja AC seperti Sharp, Panasonic, Sansui, Samsung, LG, TCL, Ariston, Modena, Aqua, Polytron, Toshiba, Akari, dan lainnya berdasarkan stok aktif.",
+      "Cek stok AC TCL, Aqua, Polytron, LG, Toshiba, Modena, Akari, dan brand lainnya di Radja AC. Stok dikonfirmasi sebelum deal, bisa bantu bandingkan brand sesuai budget dan kebutuhan ruangan.",
     h1: "Brand AC original lainnya yang bisa dicek melalui Radja AC",
     eyebrow: "Brand AC",
     intro:

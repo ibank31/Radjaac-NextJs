@@ -24,9 +24,9 @@ export const banjarnegaraAreas = [
         ["Rumah, kos & toko kota bawah", "Pemasangan AC kamar dan ruang usaha di Banjarnegara kota dengan pilihan low watt sesuai daya."],
       ],
       label: "Jual AC Banjarnegara",
-      title: "Jual AC Banjarnegara untuk Rumah, Kost, Toko & Usaha — Radja AC",
+      title: "Jual AC Banjarnegara | Showroom Keramik Klampok, Penginapan Dieng & Rumah Kota — Radja AC",
       description:
-        "Butuh AC untuk rumah, kost, toko, kantor, atau usaha di Banjarnegara? Radja AC cek stok, kebutuhan PK, pengiriman unit, dan opsi pemasangan via WhatsApp.",
+        "AC untuk showroom keramik di sentra Klampok, penginapan wisata Dieng, atau rumah dan kos di kota bawah Banjarnegara? Radja AC cek PK, stok, dan pengiriman via WhatsApp.",
       h1: "Jual AC Banjarnegara untuk Rumah, Kost, Toko & Usaha",
       eyebrow: "Area Regional Bertahap",
       intro:
