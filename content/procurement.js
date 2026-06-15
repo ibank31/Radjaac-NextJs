@@ -30,6 +30,7 @@ export const procurementItems = [
       "Akses lokasi, titik outdoor, timeline kebutuhan, dan jadwal pekerjaan bertahap",
     ],
     suggestedLinks: [
+      ["Cara Menghitung Kebutuhan AC Kost", routes.artikelCaraMenghitungKebutuhanAcKost],
       ["AC 1/2 PK", routes.katalogAcSetengahPk],
       ["AC Low Watt", routes.katalogAcLowWatt],
       ["AC Split Rumah", routes.katalogAcSplitRumah],
@@ -92,6 +93,7 @@ export const procurementItems = [
       "Timeline kebutuhan dan jadwal pekerjaan agar tidak bentrok dengan tamu menginap",
     ],
     suggestedLinks: [
+      ["Checklist Pengadaan AC Hotel", routes.artikelChecklistPengadaanAcHotel],
       ["AC Inverter", routes.katalogAcInverter],
       ["AC Split Rumah", routes.katalogAcSplitRumah],
       ["AC Kantor & Komersial", routes.katalogAcKantorKomersial],
@@ -154,6 +156,7 @@ export const procurementItems = [
       "Akses lokasi, jadwal proyek, dan kebutuhan dokumentasi pengiriman",
     ],
     suggestedLinks: [
+      ["Panduan BOQ AC untuk Kontraktor", routes.artikelPanduanBoqAcKontraktor],
       ["AC Kantor & Komersial", routes.katalogAcKantorKomersial],
       ["AC Inverter", routes.katalogAcInverter],
       ["Brand Gree", routes.brandGree],
@@ -220,6 +223,8 @@ export const procurementItems = [
       "Timeline kebutuhan unit, pengiriman, dan opsi pemasangan bertahap",
     ],
     suggestedLinks: [
+      ["Panduan BOQ AC untuk Kontraktor", routes.artikelPanduanBoqAcKontraktor],
+      ["AC untuk Toko dan Ruko", routes.artikelAcUntukTokoRukoPilihPkBerapa],
       ["AC Kantor & Komersial", routes.katalogAcKantorKomersial],
       ["AC 2 PK", routes.katalogAcDuaPk],
       ["AC 1.5 PK", routes.katalogAcSatuSetengahPk],

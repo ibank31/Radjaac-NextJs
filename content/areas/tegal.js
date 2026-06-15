@@ -62,6 +62,7 @@ export const tegalAreas = [
         ["Bukti Pengiriman & Proyek", routes.buktiPengirimanProyek],
         ["Tentang Radja AC", routes.tentangKami],
         ["Kontak Radja AC", routes.kontak],
+        ["Memilih AC untuk Daerah Pesisir", routes.artikelMemilihAcUntukDaerahPesisir],
       ],
       ctaLabel: "Chat WhatsApp untuk cek pengiriman AC Tegal",
       waIntent: "cek pengiriman dan stok AC Tegal atau Slawi dengan data area ukuran ruangan daya listrik jumlah unit alamat anggaran dan kebutuhan pemasangan",

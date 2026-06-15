@@ -162,6 +162,11 @@ export const panasonicPremiumContent = {
       "Halaman berikut membantu Anda memahami pilihan tipe, kapasitas PK, dan kebutuhan ruangan sebelum konsultasi ke admin.",
     links: [
       {
+        title: "Daikin vs Panasonic Jangka Panjang",
+        description: "Perbandingan ketahanan dan efisiensi Daikin vs Panasonic untuk pemakaian bertahun-tahun.",
+        href: "/artikel/daikin-vs-panasonic-jangka-panjang",
+      },
+      {
         title: "Konsultasi AC Panasonic",
         description: "Cek stok Panasonic yang ready, rekomendasi PK, dan estimasi pemasangan sebelum memutuskan.",
         href: "/kontak",

@@ -90,7 +90,13 @@ export function runChecks(model) {
 
   // 5. REDIRECT SAFETY
   const sourceSet = new Set(redirects.map((r) => r.source));
-  const deadDest = redirects.filter((r) => !liveSet.has(r.destination));
+  // Only check internal destinations (starting with "/") against liveRoutes.
+  // Absolute URLs to the site's own domain (https://www.radjaac.com/...) are
+  // canonical domain redirects and are always valid — do NOT flag them as dead.
+  const deadDest = redirects.filter(
+    (r) =>
+      r.destination.startsWith("/") && !liveSet.has(r.destination)
+  );
   const chains = redirects.filter((r) => sourceSet.has(r.destination));
   deadDest.length ? fail(`Redirect destinations not live: ${deadDest.map((r) => `${r.source} -> ${r.destination}`).join(" | ")}`) : ok(`All ${redirects.length} redirect destinations are live`);
   chains.length ? fail(`Redirect chains: ${chains.map((r) => `${r.source} -> ${r.destination} (also a source)`).join(" | ")}`) : ok("No redirect chains");

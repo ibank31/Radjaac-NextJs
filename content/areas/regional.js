@@ -474,6 +474,7 @@ export const regionalAreas = [
         ["Kalkulator PK AC", routes.kalkulatorPkAc],
         ["Katalog AC", routes.katalog],
         ["Kontak Radja AC", routes.kontak],
+        ["Memilih AC untuk Daerah Pesisir", routes.artikelMemilihAcUntukDaerahPesisir],
       ],
       ctaLabel: "Chat WhatsApp untuk cek stok AC Pekalongan",
       waIntent: "cek stok AC Pekalongan dengan data luas ruang usaha jam buka daya listrik jumlah unit alamat dan kebutuhan pemasangan",
