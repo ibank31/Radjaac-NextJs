@@ -2,6 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { routes } from "@/content/routes";
 import WhatsappLink from "@/components/ui/WhatsappLink";
+import Icon from "@/components/ui/Icon";
 import { typography } from "@/lib/typography";
 
 const categoryItems = [
@@ -9,25 +10,25 @@ const categoryItems = [
     title: "AC Split Rumah",
     desc: "Buat kamar, ruang keluarga, kamar kost, kontrakan, dan rumah tinggal.",
     href: routes.katalogAcSplitRumah,
-    icon: "⌂",
+    icon: "home",
   },
   {
     title: "AC Inverter",
     desc: "Buat pemakaian lama setiap hari. Listrik lebih hemat, suhu lebih stabil.",
     href: routes.katalogAcInverter,
-    icon: "⚡",
+    icon: "zap",
   },
   {
     title: "AC Low Watt",
     desc: "Buat rumah atau kost dengan daya listrik terbatas.",
     href: routes.katalogAcLowWatt,
-    icon: "◌",
+    icon: "leaf",
   },
   {
     title: "AC Toko, Kantor & Proyek",
     desc: "Buat toko, ruko, kantor, cafe, dan pembelian banyak unit sekaligus.",
     href: routes.katalogAcKantorKomersial,
-    icon: "▦",
+    icon: "building",
   },
 ];
 
@@ -35,22 +36,22 @@ const whyChooseItems = [
   {
     title: "PK jangan asal tebak",
     desc: "Kamar kost, ruang tamu, toko, dan kantor butuh hitungan PK berbeda. Salah PK — AC kerja berat, tagihan naik, ruangan tidak dingin.",
-    icon: "★",
+    icon: "calculator",
   },
   {
     title: "Jangan pilih AC dari harga saja",
     desc: "Yang perlu dicek: stok ada apa tidak, tipe unitnya cocok apa tidak, garansinya jelas apa tidak, biaya pasang berapa.",
-    icon: "☏",
+    icon: "clipboard-check",
   },
   {
     title: "Titik pasang ikut dihitung",
     desc: "Panjang pipa, posisi outdoor, jalur kabel, dan akses lokasi menentukan biaya akhir. Ini dijelaskan sebelum jadwal pasang.",
-    icon: "⌁",
+    icon: "map-pin",
   },
   {
     title: "Beli satuan sampai banyak unit",
     desc: "Radja AC tangani pembelian rumah tangga, toko, kantor, dan proyek dari Sokaraja, Banyumas. Stok dan jadwal dikunci sebelum bayar.",
-    icon: "⌖",
+    icon: "package",
   },
 ];
 
@@ -251,8 +252,8 @@ function HomeTrust() {
       <div className="mx-auto flex max-w-7xl flex-wrap items-center justify-center gap-x-8 gap-y-3 px-4 py-4">
         {signals.map((text) => (
           <div key={text} className="flex items-center gap-2">
-            <span className="flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-blue-50 text-xs font-bold text-blue-700">
-              ✓
+            <span className="flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-blue-50 text-blue-700">
+              <Icon name="check" className="h-3 w-3" strokeWidth={3} />
             </span>
             <span className="text-[13px] font-semibold text-slate-600">{text}</span>
           </div>
@@ -263,8 +264,8 @@ function HomeTrust() {
         <div className="overflow-hidden rounded-[1.7rem] border border-blue-200 bg-[linear-gradient(135deg,#fffaf2_0%,#ffffff_58%,#eef7ff_100%)] p-6 shadow-[0_24px_70px_rgba(15,39,66,0.08)] sm:p-8">
           <div className="grid gap-7 lg:grid-cols-[0.7fr_1.3fr] lg:items-center">
             <div>
-              <div className="mb-5 flex h-14 w-14 items-center justify-center rounded-2xl border border-blue-200 bg-white text-2xl text-blue-700 shadow-sm">
-                ✓
+              <div className="mb-5 flex h-14 w-14 items-center justify-center rounded-2xl border border-blue-200 bg-white text-blue-700 shadow-sm">
+                <Icon name="badge-check" className="h-7 w-7" />
               </div>
               <p className={`mb-2 ${typography.eyebrow} text-blue-800`}>
                 PROSHOP GREE
@@ -292,8 +293,8 @@ function HomeTrust() {
         <div className="mt-8 border-y border-slate-200 bg-white/80 py-8">
           <div className="grid gap-7 lg:grid-cols-[0.8fr_1.2fr] lg:items-start">
             <div>
-              <div className="mb-4 flex h-13 w-13 items-center justify-center rounded-2xl border border-blue-100 bg-blue-50 text-2xl font-extrabold text-[#1565C0]">
-                ✓
+              <div className="mb-4 flex h-13 w-13 items-center justify-center rounded-2xl border border-blue-100 bg-blue-50 text-[#1565C0]">
+                <Icon name="badge-check" className="h-6 w-6" />
               </div>
 
               <p className={`mb-3 ${typography.eyebrow} text-[#1565C0]`}>
@@ -319,7 +320,7 @@ function HomeTrust() {
                   </div>
                   <figcaption className="mt-3 text-center">
                     <span className="inline-flex items-center justify-center gap-1.5 text-sm font-bold text-blue-950 sm:text-base">
-                      <span className="text-[#1565C0]" aria-hidden="true">✓</span>
+                      <Icon name="check" className="h-4 w-4 text-[#1565C0]" strokeWidth={3} />
                       {item.brand}
                     </span>
                     <span className="mt-1 block text-xs font-semibold text-slate-500">
@@ -353,8 +354,8 @@ function HomeCategory() {
             prefetch={false}
             className="rounded-2xl border border-slate-200 bg-white p-5 shadow-sm transition hover:-translate-y-0.5 hover:border-blue-200 hover:bg-blue-50"
           >
-            <div className="mb-3 flex h-12 w-12 items-center justify-center rounded-2xl border border-blue-100 bg-blue-50 text-xl font-bold text-blue-800 sm:h-14 sm:w-14">
-              {item.icon}
+            <div className="mb-3 flex h-12 w-12 items-center justify-center rounded-2xl border border-blue-100 bg-blue-50 text-blue-800 sm:h-14 sm:w-14">
+              <Icon name={item.icon} className="h-6 w-6 sm:h-7 sm:w-7" />
             </div>
             <h3 className={`mb-2 ${typography.cardTitle} text-blue-950`}>{item.title}</h3>
             <p className="text-xs leading-6 text-slate-600 sm:text-sm">{item.desc}</p>
@@ -543,8 +544,8 @@ function HomeWhyChoose() {
             key={item.title}
             className="rounded-[1.75rem] border border-slate-200 bg-white p-5 text-center shadow-sm transition hover:-translate-y-0.5 hover:border-blue-200 hover:bg-blue-50 sm:p-6"
           >
-            <div className="mx-auto mb-5 flex h-14 w-14 items-center justify-center rounded-2xl border border-blue-100 bg-blue-50 text-xl font-bold text-blue-800 sm:h-16 sm:w-16">
-              {item.icon}
+            <div className="mx-auto mb-5 flex h-14 w-14 items-center justify-center rounded-2xl border border-blue-100 bg-blue-50 text-blue-800 sm:h-16 sm:w-16">
+              <Icon name={item.icon} className="h-7 w-7 sm:h-8 sm:w-8" />
             </div>
             <h3 className={`mb-3 ${typography.cardTitle} text-blue-950`}>{item.title}</h3>
             <p className="text-xs leading-6 text-slate-600 sm:text-sm sm:leading-7">{item.desc}</p>
@@ -597,7 +598,7 @@ function HomeArticles() {
             <h3 className={`mb-3 ${typography.cardTitle} text-slate-950`}>{article.title}</h3>
             <p className="mb-4 text-sm leading-6 text-slate-600">{article.excerpt}</p>
             <div className="mb-4 flex items-center gap-2 text-xs text-slate-500">
-              <span>📖</span>
+              <Icon name="book-open" className="h-4 w-4" />
               <span>{article.readTime}</span>
             </div>
             <Link
