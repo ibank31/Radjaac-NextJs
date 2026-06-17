@@ -70,7 +70,14 @@ const ICONS = {
 
 export default function Icon({ name, className = "", strokeWidth = 2, ...props }) {
   const glyph = ICONS[name];
-  if (!glyph) return null;
+  if (!glyph) {
+    if (process.env.NODE_ENV !== "production") {
+      console.warn(
+        `[Icon] Ikon "${name}" tidak ditemukan di registry ICONS. Periksa penulisan nama atau daftarkan ikonnya di components/ui/Icon.jsx.`
+      );
+    }
+    return null;
+  }
 
   return (
     <svg
