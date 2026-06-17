@@ -2,7 +2,41 @@
 
 Dokumen ini adalah strategi pertumbuhan aktif RADJA AC untuk SEO lokal, ekspansi area, B2B/proyek, katalog, dan lead WhatsApp.
 
-Source repo terbaru tetap menjadi sumber kebenaran teknis. Dokumen ini mengarahkan prioritas ekspansi, bukan menggantikan audit source, GSC, GA4, atau live production.
+Source repo terbaru tetap menjadi sumber kebenaran teknis. Dokumen ini mengarahkan prioritas ekspansi, bukan menggantikan audit source atau live production.
+
+## Konteks & Tujuan Bisnis
+
+Konteks kepemilikan dan monetisasi (wajib jadi dasar semua keputusan):
+
+- Website dibangun oleh freelancer atas izin owner toko. Situs **tidak terhubung** ke Google Business Profile (GBP), sosial media, atau marketplace milik toko.
+- Lead WhatsApp masuk ke **nomor freelancer**, lalu diteruskan ke toko dengan margin per unit.
+- Karena itu, **ukuran keberhasilan utama adalah lead WhatsApp yang masuk ke nomor di situs**, bukan sekadar ranking atau traffic mentah.
+
+Realita kompetisi head-term:
+
+- Untuk head-term inti `AC Purwokerto` / `AC Banyumas`, **Map Pack (GBP) toko dan sosial medianya akan menang**. Bahkan bila peringkat organik menang, lead lewat GBP toko tetap masuk ke nomor toko — bukan ke nomor situs.
+- Karena itu situs **tidak bertarung frontal** di head-term Banyumas/Purwokerto. Banyumas/Purwokerto dipertahankan sebagai **brand hub + penangkap long-tail**, bukan medan tempur utama.
+
+Arah pertumbuhan agresif (di sinilah lead jadi milik situs):
+
+- **Target utama: luar Banyumas, fokus Jawa Tengah** (Kebumen, Cilacap, Purbalingga, Banjarnegara, Tegal, dan kota Jateng lain di luar jangkauan fisik/GBP toko).
+- **Long-tail & informational buyer-intent** — panduan, kalkulator PK, perbandingan, "harga pasang AC", "AC kost banyak unit".
+- **B2B / pengadaan / proyek / multi-unit** — nilai per-transaksi tinggi, nyaris tidak lewat Map Pack.
+
+## Data & Input Keputusan (yang benar-benar kita punya)
+
+Keputusan ekspansi/polish memakai data yang benar-benar tersedia, bukan data yang diasumsikan:
+
+- **Cloudflare Analytics (read-only)** — sumber utama traffic: page views, pengunjung unik, requests, negara/referrer, status code, cache, ancaman WAF. Ini data primer yang selalu tersedia.
+- **Posisi organik / long-tail (cek live)** — audit on-page langsung ke URL live (title, meta, canonical, H1, schema, status HTTP) + riset SERP/kompetitor lewat web.
+- **Kualitas lead WhatsApp** — sinyal konversi paling bernilai; dievaluasi dari chat WA yang masuk ke nomor situs.
+
+Sumber sekunder (hanya bila tersedia via export manual / Google Drive, bukan koneksi langsung):
+
+- **Google Search Console (GSC)** — query, CTR, impresi, indexing. Tidak ada koneksi langsung; pakai hanya bila owner meng-export.
+- **Google Analytics 4 (GA4)** — event `whatsapp_click`, `generate_lead`. Tidak ada koneksi langsung; pakai hanya bila owner meng-export.
+
+Aturan: jangan menahan keputusan hanya karena GSC/GA4 tidak tersedia. Gunakan Cloudflare Analytics + posisi organik live + kualitas lead WA sebagai dasar; perlakukan GSC/GA4 sebagai pelengkap opsional.
 
 ## Misi Besar
 
@@ -14,7 +48,7 @@ RADJA AC membangun website sebagai mesin lead untuk:
 - pengadaan AC banyak unit
 - WhatsApp lead yang bisa diukur
 
-Fokus utama bukan sekadar traffic, tetapi lead berkualitas yang masuk melalui WhatsApp.
+Fokus utama bukan sekadar traffic, tetapi lead berkualitas yang masuk melalui WhatsApp ke nomor situs.
 
 ## Basis Authority
 
@@ -34,21 +68,19 @@ Homepage tetap brand hub. Jangan mengubah homepage menjadi city-money-page tungg
 
 ## Kondisi Aktif Pasca Migrasi — 2026-06-04
 
-Migrasi Next.js dan technical SEO dasar sudah stabil berdasarkan repo/live/GSC sample:
+Migrasi Next.js dan technical SEO dasar sudah stabil berdasarkan repo/live/Cloudflare Analytics (sampel GSC bila tersedia):
 
 - URL utama final memakai `https://www.radjaac.com/...`.
 - Sitemap berisi URL final, bukan legacy redirect.
 - Robots, canonical, HTTPS, dan www final sehat pada audit owner.
-- GSC URL Inspection membantah klaim `de-index total`.
-- Sampel money page utama sudah indexed.
-- Live curl owner menunjukkan halaman kritis bukan SPA lama.
-- GA4 memakai gtag langsung dengan event `whatsapp_click` dan `generate_lead`.
+- Cek live (curl/audit on-page) membantah klaim `de-index total`; sampel money page utama terbaca penuh, bukan SPA lama.
+- GA4 memakai gtag langsung dengan event `whatsapp_click` dan `generate_lead` (datanya dipakai bila di-export).
 
 Implikasi strategi:
 
 - Tidak perlu freeze total.
 - Jangan ekspansi besar serentak.
-- Prioritas 2–4 minggu pertama adalah stabilisasi sinyal Google, query mapping, CTR, dan kualitas lead WA.
+- Prioritas 2–4 minggu pertama adalah stabilisasi sinyal organik, query mapping, dan kualitas lead WA — dipantau via Cloudflare Analytics + posisi organik live.
 - Halaman baru tetap boleh, tetapi hanya batch kecil dan harus mengikuti jadwal post-migration.
 
 ## Post-Migration Growth Schedule
@@ -62,8 +94,9 @@ Boleh:
 - polish copy kecil pada halaman prioritas
 - tambah internal link kontekstual bila benar-benar membantu user
 - request indexing terbatas untuk URL final www yang baru diedit penting
-- validasi GA4 Realtime/DebugView
-- cek GSC URL Inspection untuk URL prioritas
+- pantau traffic di Cloudflare Analytics
+- validasi event WA (GA4 Realtime/DebugView bila tersedia)
+- cek posisi organik live untuk URL prioritas (GSC URL Inspection bila tersedia)
 
 Tahan:
 
@@ -93,8 +126,8 @@ Setelah setiap batch:
 - live check 200/canonical/sitemap
 - cek tidak ada route/redirect collision
 - request indexing terbatas untuk target final penting
-- pantau GSC pages/queries
-- pantau GA4 lead event dan kualitas chat WA
+- pantau traffic & referrer di Cloudflare Analytics
+- pantau kualitas chat WA (GSC pages/queries + GA4 lead event bila tersedia via export)
 
 Jika muncul issue canonical, redirect, not indexed yang menyentuh money page, hentikan batch berikutnya dan polish dulu.
 
@@ -102,19 +135,19 @@ Jika muncul issue canonical, redirect, not indexed yang menyentuh money page, he
 
 Boleh naik ke 3–5 halaman per batch jika:
 
-- GSC mulai memberi sinyal query/page
-- GA4 `generate_lead` stabil
+- Cloudflare Analytics + posisi organik mulai memberi sinyal positif
+- lead WA stabil (GA4 `generate_lead` bila tersedia)
 - halaman existing tidak saling kanibal
 - internal link tetap natural
 - proof/trust dan operasional mendukung
 
 ## Prinsip Ekspansi
 
-Ekspansi memakai dua cincin:
+Ekspansi memakai dua cincin, dengan tilt utama ke luar Banyumas (Jawa Tengah) + B2B:
 
 1. Cincin dekat untuk retail-area capture:
-   - Banyumas Raya
-   - Jawa Tengah
+   - Banyumas Raya (brand hub + long-tail, bukan medan tempur head-term)
+   - Jawa Tengah (target utama ekspansi)
    - DI Yogyakarta
 
 2. Cincin jauh untuk B2B/proyek:
@@ -123,7 +156,7 @@ Ekspansi memakai dua cincin:
    - DKI Jakarta
    - Jawa Timur
 
-Kota besar jauh penting, tetapi tidak boleh diserang dengan retail page biasa sebelum trust, proof, B2B assets, data GSC, dan data lead cukup kuat.
+Kota besar jauh penting, tetapi tidak boleh diserang dengan retail page biasa sebelum trust, proof, B2B assets, data Cloudflare Analytics, dan data lead cukup kuat.
 
 ## Area Aktif Saat Ini
 
@@ -187,11 +220,11 @@ Kota yang layak untuk retail-area page atau polish serius:
 
 Prioritas dekat:
 
-1. Pertahankan Purwokerto/Banyumas/Sokaraja sebagai fondasi trust.
+1. Pertahankan Purwokerto/Banyumas/Sokaraja sebagai fondasi trust + brand hub (jangan bertarung frontal head-term Map Pack toko).
 2. Perkuat Banyumas ring: Ajibarang, Baturraden, Wangon, Karanglewas, Kembaran, Patikraja, Rawalo.
-3. Polish regional yang sudah live sebelum membuat banyak kota baru.
+3. Polish regional Jawa Tengah yang sudah live sebelum membuat banyak kota baru.
 4. Cilacap sudah live sebagai hub regional; child Cilacap seperti Kroya, Majenang, Sidareja, Kesugihan, dan Adipala harus tetap diperlakukan sebagai child, bukan semua dipromosikan setara homepage.
-5. Jika ingin menambah area baru setelah jadwal stabilisasi, Magelang lebih aman daripada metro jauh karena masih sesuai cincin dekat.
+5. Jika ingin menambah area baru setelah jadwal stabilisasi, prioritaskan kota Jawa Tengah di luar Banyumas (lebih aman daripada metro jauh dan sesuai tilt strategi).
 
 ## B2B-First Priority
 
@@ -244,11 +277,11 @@ Area yang lebih aman disebut sebagai coverage dulu:
 
 Jangan buat halaman tipis untuk area coverage-only. Sebut di halaman induk yang lebih kuat jika relevan.
 
-> Catatan 2026-06-10: Kudus dan Jepara kini punya draft regional yang sudah ditulis ulang ke standar konten lokal (Kudus = cluster industrial/kretek, Jepara = cluster industrial/mebel). Keduanya tidak lagi sekadar coverage-only karena punya pembeda intent B2B yang jelas, tetapi tetap ditahan sampai ada sinyal GSC/lead dan kapasitas batch. Putuskan publish per data, bukan otomatis.
+> Catatan 2026-06-10: Kudus dan Jepara kini punya draft regional yang sudah ditulis ulang ke standar konten lokal (Kudus = cluster industrial/kretek, Jepara = cluster industrial/mebel). Keduanya tidak lagi sekadar coverage-only karena punya pembeda intent B2B yang jelas, tetapi tetap ditahan sampai ada sinyal traffic/lead dan kapasitas batch. Putuskan publish per data, bukan otomatis.
 
 ## Tunda Build
 
-Jangan dibuat dulu kecuali ada data GSC/lead/proof yang kuat:
+Jangan dibuat dulu kecuali ada data traffic/lead/proof yang kuat:
 
 - retail Jakarta generik
 - retail Surabaya generik
@@ -283,8 +316,8 @@ Jangan gunakan framing palsu:
 Sebelum masuk kota besar jauh seperti Bandung, Jakarta, Tangerang, Surabaya:
 
 - tracking WA harus stabil
-- `generate_lead` terbaca di GA4
-- area inti punya data GSC
+- lead WA ke nomor situs terbaca dan berkualitas (`generate_lead` di GA4 bila tersedia)
+- area inti punya data traffic Cloudflare + posisi organik
 - trust/proof page kuat
 - B2B page dan katalog komersial siap
 - CTA B2B jelas
@@ -298,8 +331,10 @@ Sebelum ekspansi, tambah area, atau membuat halaman baru, assistant wajib mengec
 - source repo terbaru
 - halaman yang sudah live
 - sitemap dan internal link
-- GSC pages/queries jika tersedia
-- GA4 `whatsapp_click` dan `generate_lead` jika relevan
+- Cloudflare Analytics (traffic, referrer, negara) sebagai input utama
+- posisi organik / long-tail dari cek live + riset SERP
+- kualitas lead WhatsApp ke nomor situs
+- GSC pages/queries dan GA4 `whatsapp_click`/`generate_lead` bila tersedia via export
 - proof/trust yang mendukung klaim area
 - risiko doorway, konten kurang kuat, dan klaim lokal palsu
 - apakah ide sudah tercakup di source strategy lama atau belum
@@ -326,7 +361,7 @@ Ekspansi harus ditahan jika:
 
 - hanya swap nama area
 - template inti belum bersih
-- GSC/GA4 belum memberi sinyal cukup untuk skala batch besar
+- Cloudflare Analytics + posisi organik belum memberi sinyal cukup untuk skala batch besar
 - operasional/proof belum mendukung
 - kota terlalu jauh dan lebih cocok B2B-first
 - perubahan melebar tanpa verifikasi
@@ -335,18 +370,16 @@ Ekspansi harus ditahan jika:
 
 Jangan memilih next page hanya dari feeling.
 
-Gunakan gabungan:
+Gunakan gabungan (urut prioritas data yang kita punya):
 
-- GSC queries
-- GSC pages
-- indexed/not indexed status
-- GA4 `whatsapp_click`
-- GA4 `generate_lead`
-- kualitas chat WA
+- Cloudflare Analytics: page views, referrer, negara, tren traffic
+- posisi organik / long-tail dari cek live + SERP
+- kualitas chat WA dan lead ke nomor situs
 - kedekatan operasional
 - risiko klaim lokal
 - kekuatan internal link
 - kesiapan proof/trust
+- GSC queries/pages + GA4 `whatsapp_click`/`generate_lead` bila tersedia via export
 
 Keputusan page:
 
@@ -361,21 +394,21 @@ Keputusan page:
 
 Fokus saat ini:
 
-1. Jaga Purwokerto/Banyumas/Sokaraja sebagai fondasi.
+1. Jaga Purwokerto/Banyumas/Sokaraja sebagai fondasi brand hub.
 2. Pastikan area Banyumas ring live, aman, dan terhubung.
-3. Pantau GSC dan GA4 setelah tracking WA beres.
+3. Pantau Cloudflare Analytics + posisi organik setelah tracking WA beres (GSC/GA4 bila tersedia).
 4. Perkuat internal link untuk halaman prioritas hanya secara kontekstual.
-5. Polish halaman regional yang sudah live sebelum ekspansi area baru besar.
+5. Polish halaman regional Jawa Tengah yang sudah live sebelum ekspansi area baru besar.
 6. Tambah halaman baru mengikuti jadwal post-migration, bukan karena panik ranking.
-7. Jangan ekspansi metro besar sebelum data GSC + WA lead lebih matang.
+7. Arahkan ekspansi agresif ke regional Jawa Tengah (luar Banyumas) + B2B; jangan ekspansi metro besar sebelum data traffic + WA lead lebih matang.
 
 ## Prinsip Berhenti
 
 Jangan lanjut ekspansi kalau:
 
-- GSC belum memberi sinyal
+- Cloudflare Analytics + posisi organik belum memberi sinyal
 - WA tracking belum terbaca
 - internal link belum jelas
 - halaman baru hanya copy nama area
 - bukti/trust belum cukup untuk klaim area jauh
-- batch sebelumnya belum diverifikasi live/GSC
+- batch sebelumnya belum diverifikasi live
