@@ -11,24 +11,28 @@ const categoryItems = [
     desc: "Buat kamar, ruang keluarga, kamar kost, kontrakan, dan rumah tinggal.",
     href: routes.katalogAcSplitRumah,
     icon: "home",
+    accent: "from-blue-100 to-blue-50 text-blue-700 ring-blue-100",
   },
   {
     title: "AC Inverter",
     desc: "Buat pemakaian lama setiap hari. Listrik lebih hemat, suhu lebih stabil.",
     href: routes.katalogAcInverter,
     icon: "zap",
+    accent: "from-red-100 to-rose-50 text-brand-red ring-red-100",
   },
   {
     title: "AC Low Watt",
     desc: "Buat rumah atau kost dengan daya listrik terbatas.",
     href: routes.katalogAcLowWatt,
     icon: "leaf",
+    accent: "from-sky-100 to-cyan-50 text-sky-700 ring-sky-100",
   },
   {
     title: "AC Toko, Kantor & Proyek",
     desc: "Buat toko, ruko, kantor, cafe, dan pembelian banyak unit sekaligus.",
     href: routes.katalogAcKantorKomersial,
     icon: "building",
+    accent: "from-slate-200 to-slate-100 text-navy ring-slate-200",
   },
 ];
 
@@ -37,21 +41,25 @@ const whyChooseItems = [
     title: "PK jangan asal tebak",
     desc: "Kamar kost, ruang tamu, toko, dan kantor butuh hitungan PK berbeda. Salah PK — AC kerja berat, tagihan naik, ruangan tidak dingin.",
     icon: "calculator",
+    accent: "from-blue-100 to-blue-50 text-blue-700 ring-blue-100",
   },
   {
     title: "Jangan pilih AC dari harga saja",
     desc: "Yang perlu dicek: stok ada apa tidak, tipe unitnya cocok apa tidak, garansinya jelas apa tidak, biaya pasang berapa.",
     icon: "clipboard-check",
+    accent: "from-red-100 to-rose-50 text-brand-red ring-red-100",
   },
   {
     title: "Titik pasang ikut dihitung",
     desc: "Panjang pipa, posisi outdoor, jalur kabel, dan akses lokasi menentukan biaya akhir. Ini dijelaskan sebelum jadwal pasang.",
     icon: "map-pin",
+    accent: "from-sky-100 to-cyan-50 text-sky-700 ring-sky-100",
   },
   {
     title: "Beli satuan sampai banyak unit",
     desc: "Radja AC tangani pembelian rumah tangga, toko, kantor, dan proyek dari Sokaraja, Banyumas. Stok dan jadwal dikunci sebelum bayar.",
     icon: "package",
+    accent: "from-slate-200 to-slate-100 text-navy ring-slate-200",
   },
 ];
 
@@ -354,7 +362,7 @@ function HomeCategory() {
             prefetch={false}
             className="rounded-2xl border border-slate-200 bg-white p-5 shadow-sm transition hover:-translate-y-0.5 hover:border-blue-200 hover:bg-blue-50"
           >
-            <div className="mb-3 flex h-12 w-12 items-center justify-center rounded-2xl border border-blue-100 bg-blue-50 text-blue-800 sm:h-14 sm:w-14">
+            <div className={`mb-3 flex h-12 w-12 items-center justify-center rounded-2xl bg-gradient-to-br shadow-sm ring-1 sm:h-14 sm:w-14 ${item.accent}`}>
               <Icon name={item.icon} className="h-6 w-6 sm:h-7 sm:w-7" />
             </div>
             <h3 className={`mb-2 ${typography.cardTitle} text-blue-950`}>{item.title}</h3>
@@ -544,7 +552,7 @@ function HomeWhyChoose() {
             key={item.title}
             className="rounded-[1.75rem] border border-slate-200 bg-white p-5 text-center shadow-sm transition hover:-translate-y-0.5 hover:border-blue-200 hover:bg-blue-50 sm:p-6"
           >
-            <div className="mx-auto mb-5 flex h-14 w-14 items-center justify-center rounded-2xl border border-blue-100 bg-blue-50 text-blue-800 sm:h-16 sm:w-16">
+            <div className={`mx-auto mb-5 flex h-14 w-14 items-center justify-center rounded-2xl bg-gradient-to-br shadow-sm ring-1 sm:h-16 sm:w-16 ${item.accent}`}>
               <Icon name={item.icon} className="h-7 w-7 sm:h-8 sm:w-8" />
             </div>
             <h3 className={`mb-3 ${typography.cardTitle} text-blue-950`}>{item.title}</h3>
