@@ -135,27 +135,13 @@ const otherBrandRows = [
   ["Modena", "Bestlife", "Akari", "FLife", "Reiwa"],
 ];
 
-const certificates = [
-  {
-    brand: "Daikin",
-    status: "Authorized Dealer",
-    image: "/certificates/daikin-authorized-dealer.webp",
-  },
-  {
-    brand: "Midea",
-    status: "Authorized Dealer",
-    image: "/certificates/midea-authorized-dealer.webp",
-  },
-  {
-    brand: "Hisense",
-    status: "Authorized Dealer",
-    image: "/certificates/hisense-authorized-dealer.webp",
-  },
-  {
-    brand: "Sansui",
-    status: "Authorized Dealer",
-    image: "/certificates/sansui-authorized-dealer.webp",
-  },
+const serviceAreas = [
+  { label: "Jual AC Purwokerto", href: routes.jualAcPurwokerto },
+  { label: "Jual AC Banyumas", href: routes.jualAcBanyumas },
+  { label: "Jual AC Sokaraja", href: routes.jualAcSokaraja },
+  { label: "Jual AC Purbalingga", href: routes.jualAcPurbalingga },
+  { label: "Jual AC Cilacap", href: routes.jualAcCilacap },
+  { label: "Jual AC Kebumen", href: routes.jualAcKebumen },
 ];
 
 function SectionBadge({ children }) {
@@ -539,6 +525,59 @@ function HomeBrands() {
   );
 }
 
+function HomeAreas() {
+  return (
+    <section className="mx-auto max-w-7xl px-4 py-10">
+      <div className="mb-6 flex items-center justify-between gap-4">
+        <div>
+          <p className={`mb-2 ${typography.eyebrow} text-blue-700`}>
+            Area Layanan
+          </p>
+          <h2 className={`${typography.sectionTitle} text-blue-950`}>
+            Beli AC sesuai area kamu
+          </h2>
+        </div>
+        <ArrowLink
+          href={routes.jualAc}
+          className="hidden border border-blue-200 bg-white text-blue-900 hover:bg-blue-50 sm:inline-flex"
+        >
+          Lihat Semua Area
+        </ArrowLink>
+      </div>
+
+      <p className="mb-6 max-w-2xl text-sm leading-7 text-slate-600">
+        Showroom dan gudang <BrandName /> ada di Pamijen, Sokaraja, Banyumas. Untuk area sekitar, Radja AC bantu konsultasi PK, cek stok, pengiriman unit, dan opsi pemasangan.
+      </p>
+
+      <div className="grid grid-cols-2 gap-3 sm:grid-cols-3">
+        {serviceAreas.map((area) => (
+          <Link
+            key={area.href}
+            href={area.href}
+            prefetch={false}
+            className="flex items-center justify-between gap-2 rounded-2xl border border-slate-200 bg-white px-4 py-3.5 text-sm font-semibold text-blue-950 shadow-sm transition hover:-translate-y-0.5 hover:border-blue-200 hover:bg-blue-50"
+          >
+            <span className="inline-flex items-center gap-2">
+              <Icon name="map-pin" className="h-4 w-4 text-blue-700" />
+              {area.label}
+            </span>
+            <span aria-hidden="true" className="text-blue-700">→</span>
+          </Link>
+        ))}
+      </div>
+
+      <div className="mt-6 flex justify-center sm:hidden">
+        <ArrowLink
+          href={routes.jualAc}
+          className="border border-blue-200 bg-white text-blue-900 hover:bg-blue-50"
+        >
+          Lihat Semua Area
+        </ArrowLink>
+      </div>
+    </section>
+  );
+}
+
 function HomeWhyChoose() {
   return (
     <section className="mx-auto max-w-7xl px-4 py-12">
@@ -665,6 +704,7 @@ export default function HomepageLegacyParity() {
       <HomeCategory />
       <HomeProcess />
       <HomeBrands />
+      <HomeAreas />
       <HomeWhyChoose />
       <HomeArticles />
       <HomeClosingCta />
