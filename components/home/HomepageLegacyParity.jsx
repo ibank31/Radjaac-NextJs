@@ -135,6 +135,29 @@ const otherBrandRows = [
   ["Modena", "Bestlife", "Akari", "FLife", "Reiwa"],
 ];
 
+const certificates = [
+  {
+    brand: "Daikin",
+    status: "Authorized Dealer",
+    image: "/certificates/daikin-authorized-dealer.webp",
+  },
+  {
+    brand: "Midea",
+    status: "Authorized Dealer",
+    image: "/certificates/midea-authorized-dealer.webp",
+  },
+  {
+    brand: "Hisense",
+    status: "Authorized Dealer",
+    image: "/certificates/hisense-authorized-dealer.webp",
+  },
+  {
+    brand: "Sansui",
+    status: "Authorized Dealer",
+    image: "/certificates/sansui-authorized-dealer.webp",
+  },
+];
+
 const serviceAreas = [
   { label: "Jual AC Purwokerto", href: routes.jualAcPurwokerto },
   { label: "Jual AC Banyumas", href: routes.jualAcBanyumas },
