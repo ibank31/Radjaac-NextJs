@@ -7,7 +7,7 @@ export const acBagusMerkApa = {
   role: "pillar",
   intent: "commercial",
   parentSlug: null,
-  updatedAt: "2026-06-11",
+  updatedAt: "2026-06-18",
   moneyLinks: [
     ["AC Daikin", routes.brandDaikin, "Pertimbangkan Daikin untuk kebutuhan yang mengutamakan reputasi dan ketahanan; dokumen Authorized Dealer tersedia."],
     ["AC Gree", routes.brandGree, "Cek Gree untuk value pemakaian harian, didukung status Proshop Gree."],
@@ -22,41 +22,41 @@ export const acBagusMerkApa = {
   readTime: "7 menit baca",
   keywords: ["AC bagus merk apa", "merk AC rumah", "pilih merk AC", "AC original"],
   intro:
-    "Pertanyaan AC bagus merk apa hampir selalu muncul sebelum membeli. Jawabannya bukan satu merk tunggal, melainkan merk yang paling cocok dengan ukuran ruangan, daya listrik, anggaran, dan pola pemakaian. Radja AC menyediakan AC original multi-brand, jadi pilihan bisa disesuaikan dengan kebutuhan, bukan dipaksakan ke satu nama.",
+    "Pertanyaan 'AC bagus merk apa' hampir selalu muncul sebelum beli. Jujurnya, tidak ada satu merk tunggal yang menang untuk semua orang. Yang paling menentukan justru merk yang paling cocok dengan ukuran ruangan, daya listrik, anggaran, dan pola pemakaianmu. Radja AC menyediakan AC original multi-brand, jadi pilihannya bisa disesuaikan dengan kebutuhanmu, bukan dipaksakan ke satu nama.",
   sections: [
     {
       heading: "Tidak ada satu merk yang paling bagus untuk semua rumah",
       body: [
-        "Setiap merk punya karakter berbeda. Ada yang menonjol di reputasi dan ketahanan, ada yang menarik di sisi anggaran, dan ada yang seimbang untuk pemakaian harian. Karena itu, merk terbaik untuk tetangga belum tentu paling pas untuk ruangan Anda.",
-        "Daripada mencari merk paling bagus secara umum, lebih masuk akal menentukan dulu kebutuhan ruangan. Dari sana, daftar merk yang masuk akal bisa dipersempit tanpa menebak-nebak.",
+        "Setiap merk punya karakter berbeda. Ada yang menonjol di reputasi dan ketahanan, ada yang menarik di sisi anggaran, dan ada yang seimbang untuk pemakaian harian. Karena itu, merk yang paling pas buat tetangga belum tentu paling pas untuk ruanganmu.",
+        "Daripada mencari merk paling bagus secara umum, lebih masuk akal menentukan dulu kebutuhan ruanganmu. Dari situ, daftar merk yang relevan langsung mengerucut.",
       ],
     },
     {
       heading: "Kenali kelas merk AC sesuai kebutuhan",
       body: [
         "Untuk kebutuhan yang mengutamakan reputasi dan ketahanan jangka panjang, Daikin sering masuk pertimbangan. Gree juga banyak dipilih untuk value harian dan didukung status Proshop Gree. Untuk beberapa brand seperti Daikin, Midea, Hisense, dan Sansui, dokumen Authorized Dealer tersedia di Radja AC.",
-        "Untuk anggaran yang lebih ketat, brand seperti Sharp, Samsung, atau Panasonic bisa menjadi pilihan unit original; ketersediaan tipe dan stok dicek dulu sebelum order. Intinya, kelas merk dipilih dari kebutuhan, bukan sekadar nama yang paling sering didengar.",
+        "Untuk anggaran yang lebih ketat, brand seperti Sharp, Samsung, atau Panasonic bisa jadi pilihan unit original; ketersediaan tipe dan stoknya kamu cek dulu sebelum order. Intinya, kelas merk dipilih dari kebutuhan, bukan sekadar nama yang paling sering didengar.",
       ],
     },
     {
       heading: "Cocokkan merk dengan kebutuhan PK dan daya listrik",
       body: [
         "Merk sebagus apa pun tetap perlu kapasitas PK yang sesuai. Ruangan yang luas, panas, atau berplafon tinggi membutuhkan kapasitas lebih besar, sedangkan kamar kecil yang teduh bisa cukup dengan PK lebih rendah.",
-        "Daya listrik rumah juga menentukan. Untuk daya terbatas, tipe low watt lebih aman, sementara pemakaian rutin berjam-jam sering lebih nyaman dengan tipe inverter. Banyak merk menyediakan kedua tipe ini, jadi pilihan merk dan tipe sebaiknya ditentukan bersamaan.",
+        "Daya listrik rumahmu juga menentukan. Kalau dayanya terbatas, tipe low watt lebih aman; untuk pemakaian rutin berjam-jam, tipe inverter biasanya lebih nyaman. Banyak merk menyediakan kedua tipe ini, jadi merk dan tipe sebaiknya kamu tentukan barengan.",
       ],
     },
     {
       heading: "Cek garansi, layanan, dan ketersediaan stok",
       body: [
         "Garansi unit mengikuti ketentuan resmi masing-masing brand, sedangkan garansi pemasangan mengikuti pekerjaan yang dikerjakan melalui Radja AC. Pertimbangkan juga kemudahan layanan dan ketersediaan unit saat dibutuhkan.",
-        "Karena stok dan promo bisa berubah, konfirmasi tipe dan ketersediaan sebaiknya dilakukan sebelum memutuskan. Ini membantu memastikan merk yang dipilih memang tersedia dengan PK dan tipe yang sesuai.",
+        "Karena stok dan promo bisa berubah, sebaiknya konfirmasi tipe dan ketersediaannya dulu sebelum memutuskan. Dengan begitu merk yang kamu pilih memang tersedia dengan PK dan tipe yang sesuai.",
       ],
     },
     {
       heading: "Cara mempersempit pilihan merk sebelum membeli",
       body: [
-        "Siapkan ukuran ruangan, tinggi plafon, daya listrik, anggaran awal, dan pola pemakaian. Dengan data ini, tim Radja AC bisa membantu membandingkan beberapa merk yang relevan beserta tipe yang cocok.",
-        "Jika masih ragu antara dua atau tiga merk, bandingkan dari sisi kebutuhan harian dan kenyamanan, bukan hanya dari selisih harga awal yang terlihat di permukaan.",
+        "Siapkan ukuran ruangan, tinggi plafon, daya listrik, anggaran awal, dan pola pemakaianmu. Dengan data ini, tim Radja AC bisa bantu membandingkan beberapa merk yang relevan beserta tipe yang cocok.",
+        "Kalau masih bimbang antara dua atau tiga merk, bandingkan dari sisi kebutuhan harian dan kenyamanan, bukan cuma dari selisih harga di awal.",
       ],
     },
   ],
@@ -74,12 +74,12 @@ export const acBagusMerkApa = {
     {
       question: "Radja AC menjual merk AC apa saja?",
       answer:
-        "Radja AC menyediakan AC original multi-brand seperti Daikin, Gree, Midea, Hisense, Sharp, Samsung, Panasonic, dan Sansui. Ketersediaan tipe dan stok per merk bisa dicek lebih dulu sesuai kebutuhan ruangan Anda.",
+        "Radja AC menyediakan AC original multi-brand seperti Daikin, Gree, Midea, Hisense, Sharp, Samsung, Panasonic, dan Sansui. Ketersediaan tipe dan stok per merk bisa dicek lebih dulu sesuai kebutuhan ruanganmu.",
     },
     {
       question: "Bagaimana cara memilih merk kalau anggaran terbatas?",
       answer:
-        "Tentukan dulu PK yang dibutuhkan, lalu pilih merk yang menyediakan tipe sesuai daya listrik dan anggaran. Dengan begitu, anggaran terpakai untuk kapasitas yang tepat, bukan untuk fitur yang belum tentu Anda butuhkan.",
+        "Tentukan dulu PK yang dibutuhkan, lalu pilih merk yang menyediakan tipe sesuai daya listrik dan anggaran. Dengan begitu, anggaran terpakai untuk kapasitas yang tepat, bukan untuk fitur yang belum tentu kamu butuhkan.",
     },
   ],
   ctaLabel: "Konsultasi Pilih Merk AC",
