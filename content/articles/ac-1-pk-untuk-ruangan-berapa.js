@@ -7,55 +7,55 @@ export const ac1PkUntukRuanganBerapa = {
   role: "pillar",
   intent: "informational",
   parentSlug: null,
-  updatedAt: "2026-06-11",
+  updatedAt: "2026-06-18",
   moneyLinks: [
     ["Kalkulator PK AC", routes.kalkulatorPkAc, "Hitung estimasi kebutuhan PK sebelum memilih 3/4 PK, 1 PK, atau 1.5 PK."],
     ["AC 1 PK", routes.katalogAcSatuPk, "Lihat pilihan AC 1 PK untuk kamar besar, ruang kerja, ruang tamu kecil, atau toko kecil."],
     ["AC 1.5 PK", routes.katalogAcSatuSetengahPk, "Bandingkan jika ruangan panas, lebih besar, atau sering dipakai banyak orang."],
     ["Pengiriman & Pemasangan", routes.pengirimanPemasangan, "Cek kebutuhan lokasi, material, garansi pasang, dan jadwal sebelum order."],
   ],
-  title: "AC 1 PK Cocok untuk Ruangan Berapa? | Panduan Sebelum Order — Radja AC",
+  title: "AC 1 PK Cocok untuk Ruangan Berapa? | Panduan Sebelum Order | Radja AC",
   description:
-    "Panduan memilih AC 1 PK untuk kamar dan ruang keluarga. Cek ukuran ruangan, BTU, kondisi panas, daya listrik, dan kapan perlu naik atau turun kapasitas.",
+    "AC 1 PK cocok untuk ruangan berapa? Umumnya sekitar 15-20 m2. Cek cara mencocokkan PK dengan ukuran ruangan, daya listrik, dan kapan perlu 3/4 PK atau 1.5 PK.",
   h1: "AC 1 PK cocok untuk ruangan berapa?",
   eyebrow: "Panduan PK AC",
   readTime: "6 menit baca",
   intro:
-    "AC 1 PK memang populer, tapi jangan langsung beli hanya karena terasa aman di tengah. Salah kapasitas bisa membuat ruangan lama dingin, listrik terasa berat, dan biaya pembelian jadi kurang efisien.",
+    "AC 1 PK memang populer, tapi jangan langsung beli cuma karena merasa ukuran ini paling aman. Salah kapasitas bikin ruangan lama dingin, listrik terasa berat, dan biaya belinya jadi kurang efisien.",
   sections: [
     {
       heading: "Jawaban cepat: biasanya sekitar 15–20 m²",
       body: [
         "Dalam kondisi normal, AC 1 PK biasanya masuk akal untuk ruangan sekitar 15–20 m². Contohnya kamar besar, ruang keluarga kecil, ruang kerja, atau ruangan tertutup yang tidak terlalu panas.",
-        "Angka ini bukan aturan kaku. Kamar 15 m² yang panas sore bisa berbeda kebutuhannya dengan ruang 18 m² yang teduh dan tertutup.",
+        "Angka ini bukan aturan kaku. Kamarmu yang 15 m² tapi panas di sore hari bisa beda kebutuhannya dengan ruang 18 m² yang teduh dan tertutup.",
       ],
     },
     {
       heading: "Kapan 1 PK terasa kurang?",
       body: [
-        "AC 1 PK bisa terasa kurang jika ruangan terlalu luas, banyak kaca, plafon tinggi, terkena matahari langsung, sering terbuka, atau dipakai banyak orang.",
-        "Kalau dipaksakan, pembeli sering merasa AC tidak dingin padahal masalahnya bukan merek, melainkan kapasitas yang tidak sesuai.",
+        "AC 1 PK bisa terasa kurang kalau ruangan terlalu luas, banyak kaca, plafon tinggi, kena matahari langsung, sering terbuka, atau dipakai banyak orang.",
+        "Kalau dipaksakan, AC sering terasa tidak dingin. Biasanya itu bukan soal mereknya, tapi kapasitasnya yang kurang pas untuk ruanganmu.",
       ],
     },
     {
       heading: "Kapan cukup 3/4 PK atau perlu naik kapasitas?",
       body: [
-        "Untuk kamar yang lebih kecil dan cukup teduh, 3/4 PK bisa lebih masuk akal daripada langsung memilih 1 PK. Untuk ruangan lebih besar atau panas, 1.5 PK bisa lebih aman dibanding memaksa 1 PK.",
-        "Jangan pilih PK kecil hanya karena ingin hemat. PK yang terlalu kecil bisa membuat AC bekerja lama dan berat.",
+        "Untuk kamar yang lebih kecil dan cukup teduh, 3/4 PK biasanya lebih masuk akal daripada langsung ambil 1 PK. Untuk ruangan lebih besar atau panas, 1.5 PK lebih aman dibanding memaksakan 1 PK.",
+        "Jangan pilih PK kecil cuma demi hemat di awal. PK yang kekecilan justru bikin AC bekerja lama dan berat.",
       ],
     },
     {
       heading: "Cek daya listrik sebelum menentukan unit",
       body: [
-        "Selain ukuran ruangan, daya listrik rumah wajib dicek. Untuk rumah dengan daya terbatas, pilihan low watt atau tipe tertentu menjadi pilihan.",
-        "Pilihan final sebaiknya tidak hanya dari PK, tapi juga dari tipe AC, pola pemakaian, dan kesiapan listrik.",
+        "Selain ukuran ruangan, daya listrik rumahmu wajib dicek. Kalau dayanya terbatas, AC low watt atau tipe tertentu jadi pilihan yang lebih aman.",
+        "Keputusan akhir sebaiknya tidak cuma dari PK, tapi juga tipe AC, pola pemakaian, dan kesiapan listrik di rumahmu.",
       ],
     },
     {
       heading: "Lanjutkan ke stok, pemasangan, garansi, dan pembayaran",
       body: [
         "Setelah estimasi PK lebih jelas, cek stok AC 1 PK, pilihan standard/low watt/inverter, garansi unit, dan kebutuhan pemasangan. Posisi indoor-outdoor, panjang pipa, akses lokasi, dan material tambahan bisa memengaruhi total biaya.",
-        "Pembayaran seperti DP, transfer, atau COD bisa dikonfirmasi setelah pilihan unit, alamat pengiriman, jadwal, dan opsi pemasangan jelas. Jadi hasil hitung PK sebaiknya dilanjutkan dengan data ruangan dan kebutuhan pembelian yang lengkap.",
+        "Pembayaran seperti DP, transfer, atau COD bisa kamu konfirmasi setelah pilihan unit, alamat pengiriman, jadwal, dan opsi pemasangan jelas. Jadi setelah dapat estimasi PK, lanjutkan dengan data ruangan dan kebutuhan pembelian yang lengkap.",
       ],
     },
   ],
