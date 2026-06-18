@@ -184,7 +184,7 @@ export const sitemapRoutes = [
   { path: routes.artikelPanduanInstalasiAcBaru, priority: 0.5, lastModified: "2026-06-01" },
   { path: routes.artikelCaraMemilihAcKamarTigaKaliEmpat, priority: 0.5, lastModified: "2026-06-18" },
   { path: routes.artikelAcBagusMerkApa, priority: 0.55, lastModified: "2026-06-18" },
-  { path: routes.artikelAcPalingHematListrik, priority: 0.55, lastModified: "2026-06-11" },
+  { path: routes.artikelAcPalingHematListrik, priority: 0.55, lastModified: "2026-06-18" },
   { path: routes.artikelRekomendasiAcKamarTidur, priority: 0.55, lastModified: "2026-06-18" },
   { path: routes.artikelAcUntukListrik900Watt, priority: 0.55, lastModified: "2026-06-18" },
   { path: routes.artikelBiayaPasangAcBaru, priority: 0.55, lastModified: "2026-06-11" },
