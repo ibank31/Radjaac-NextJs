@@ -179,7 +179,7 @@ export const sitemapRoutes = [
   { path: routes.artikelPanduanBeliAcBaru, priority: 0.55, lastModified: "2026-06-18" },
   { path: routes.artikelSharpBeyPurwokerto, priority: 0.5, lastModified: "2026-06-01" },
   { path: routes.artikelAcSatuPkUntukRuanganBerapa, priority: 0.55, lastModified: "2026-06-18" },
-  { path: routes.artikelAcInverterVsLowWatt, priority: 0.55, lastModified: "2026-06-11" },
+  { path: routes.artikelAcInverterVsLowWatt, priority: 0.55, lastModified: "2026-06-18" },
   { path: routes.artikelAcKurangDingin, priority: 0.5, lastModified: "2026-06-11" },
   { path: routes.artikelPanduanInstalasiAcBaru, priority: 0.5, lastModified: "2026-06-01" },
   { path: routes.artikelCaraMemilihAcKamarTigaKaliEmpat, priority: 0.5, lastModified: "2026-06-18" },
