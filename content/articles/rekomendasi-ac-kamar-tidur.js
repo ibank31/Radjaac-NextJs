@@ -7,7 +7,7 @@ export const rekomendasiAcKamarTidur = {
   role: "supporting",
   intent: "commercial",
   parentSlug: "ac-bagus-merk-apa",
-  updatedAt: "2026-06-11",
+  updatedAt: "2026-06-18",
   moneyLinks: [
     ["AC 1/2 PK", routes.katalogAcSetengahPk, "Lihat kapasitas yang umum untuk kamar tidur kecil hingga sedang."],
     ["AC Inverter", routes.katalogAcInverter, "Cek pilihan inverter untuk tidur yang lebih nyaman dan suhu stabil."],
@@ -36,6 +36,7 @@ export const rekomendasiAcKamarTidur = {
       body: [
         "Kamar tidur berukuran kecil hingga sedang sering masuk rentang 1/2 PK sampai 1 PK dalam kondisi normal. Kamar yang lebih luas atau panas bisa membutuhkan 1.5 PK agar suhu cepat nyaman.",
         "Angka ini bukan patokan kaku. Cek estimasi kebutuhan PK lebih dulu agar tidak memilih kapasitas yang terlalu kecil sehingga AC bekerja berat semalaman.",
+        "Kalau kamarmu tergolong besar, patokan umum AC 1 PK untuk ruangan sekitar 15–20 m² bisa jadi acuan awal sebelum kamu pastikan dengan kondisi kamar.",
       ],
     },
     {
@@ -85,6 +86,7 @@ export const rekomendasiAcKamarTidur = {
   ctaLabel: "Konsultasi AC Kamar Tidur",
   waIntent: "konsultasi memilih AC untuk kamar tidur",
   relatedLinks: [
+    ["AC 1 PK untuk ruangan berapa", routes.artikelAcSatuPkUntukRuanganBerapa],
     ["AC 1/2 PK", routes.katalogAcSetengahPk],
     ["AC Inverter", routes.katalogAcInverter],
     ["Kalkulator PK AC", routes.kalkulatorPkAc],
