@@ -7,22 +7,22 @@ export const caraMemilihAcUntukKamar3x4 = {
   role: "supporting",
   intent: "commercial",
   parentSlug: "ac-1-pk-untuk-ruangan-berapa",
-  updatedAt: "2026-06-01",
+  updatedAt: "2026-06-18",
   moneyLinks: [
     ["Kalkulator PK AC", routes.kalkulatorPkAc, "Cek apakah kamar 3x4 cukup 1/2 PK, 3/4 PK, atau perlu kapasitas lain."],
     ["AC Split Rumah", routes.katalogAcSplitRumah, "Panduan pilihan AC untuk kamar tidur, ruang keluarga, kos, dan rumah tinggal."],
   ],
-  title: "Cara Memilih AC untuk Kamar 3x4 | Cek PK, Daya & Posisi Pasang",
+  title: "Cara Memilih AC untuk Kamar 3x4 | Hitung PK Sebelum Beli | Radja AC",
   description:
-    "Panduan memilih AC untuk kamar ukuran 3x4 meter, mulai dari kapasitas PK, tipe AC, daya listrik, sampai posisi pemasangan.",
+    "AC untuk kamar 3x4 meter biasanya butuh 1/2 PK sampai 3/4 PK. Cek cara menghitung PK dari kondisi kamar, daya listrik, dan posisi pasang sebelum kamu beli.",
   h1: "Cara memilih AC untuk kamar 3x4 meter",
   eyebrow: "Panduan Ruangan",
   readTime: "4 menit baca",
   intro:
-    "Kamar ukuran 3x4 meter termasuk ukuran yang umum di rumah. Untuk ruangan seperti ini, pilihan AC tidak hanya ditentukan dari luas ruangan, tetapi juga kondisi panas, plafon, jumlah penghuni, pola pemakaian, dan daya listrik.",
+    "Kamar 3x4 meter termasuk ukuran yang umum di rumah. Untuk ruangan seperti ini, pilihan AC bukan cuma soal luas kamar, tapi juga kondisi panas, plafon, jumlah penghuni, pola pemakaian, dan daya listrik di rumahmu.",
   sections: [
     {
-      heading: "Hitung kebutuhan dari kondisi kamar",
+      heading: "Jawaban singkat: kamar 3x4 biasanya 1/2 sampai 3/4 PK",
       body: [
         "Kamar 3x4 meter memiliki luas sekitar 12 m². Dalam kondisi normal, ruangan seperti ini sering masuk rentang 1/2 PK sampai 3/4 PK, tetapi bisa berubah jika kamar panas, plafon tinggi, atau sering terkena matahari langsung.",
         "Jika kamar di lantai atas, banyak kaca, atau dinding terkena panas sore, kebutuhan pendinginan bisa lebih besar dibanding kamar yang teduh.",
@@ -39,7 +39,7 @@ export const caraMemilihAcUntukKamar3x4 = {
       heading: "Jangan abaikan posisi pemasangan",
       body: [
         "Posisi indoor sebaiknya tidak langsung terhalang lemari, tirai, atau plafon terlalu dekat. Outdoor juga perlu sirkulasi udara yang baik agar performa pendinginan tidak turun.",
-        "Sebelum membeli, foto ruangan dan titik pemasangan bisa dikirim ke tim Radja AC agar rekomendasi unit dan opsi pemasangannya lebih tepat.",
+        "Sebelum beli, kamu bisa kirim foto ruangan dan titik pemasangan ke tim Radja AC supaya rekomendasi unit dan opsi pemasangannya lebih tepat.",
       ],
     },
     {
@@ -78,6 +78,7 @@ export const caraMemilihAcUntukKamar3x4 = {
   waIntent: "konsultasi memilih AC untuk kamar 3x4",
   relatedLinks: [
     ["Kalkulator PK AC", routes.kalkulatorPkAc],
+    ["AC 1 PK untuk ruangan berapa", routes.artikelAcSatuPkUntukRuanganBerapa],
     ["AC 1/2 PK", routes.katalogAcSetengahPk],
     ["AC Low Watt", routes.katalogAcLowWatt],
     ["AC Inverter", routes.katalogAcInverter],
