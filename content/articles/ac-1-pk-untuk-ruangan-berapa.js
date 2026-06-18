@@ -14,9 +14,9 @@ export const ac1PkUntukRuanganBerapa = {
     ["AC 1.5 PK", routes.katalogAcSatuSetengahPk, "Bandingkan jika ruangan panas, lebih besar, atau sering dipakai banyak orang."],
     ["Pengiriman & Pemasangan", routes.pengirimanPemasangan, "Cek kebutuhan lokasi, material, garansi pasang, dan jadwal sebelum order."],
   ],
-  title: "AC 1 PK Cocok untuk Ruangan Berapa? | Panduan Sebelum Order — Radja AC",
+  title: "AC 1 PK Cocok untuk Ruangan Berapa? | Panduan Sebelum Order | Radja AC",
   description:
-    "Panduan memilih AC 1 PK untuk kamar dan ruang keluarga. Cek ukuran ruangan, BTU, kondisi panas, daya listrik, dan kapan perlu naik atau turun kapasitas.",
+    "AC 1 PK cocok untuk ruangan berapa? Umumnya sekitar 15-20 m2. Cek cara mencocokkan PK dengan ukuran ruangan, daya listrik, dan kapan perlu 3/4 PK atau 1.5 PK.",
   h1: "AC 1 PK cocok untuk ruangan berapa?",
   eyebrow: "Panduan PK AC",
   readTime: "6 menit baca",
