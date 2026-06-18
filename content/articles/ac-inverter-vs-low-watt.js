@@ -7,7 +7,7 @@ export const acInverterVsLowWatt = {
   role: "pillar",
   intent: "commercial",
   parentSlug: null,
-  updatedAt: "2026-06-11",
+  updatedAt: "2026-06-18",
   moneyLinks: [
     ["AC Inverter", routes.katalogAcInverter, "Cek pilihan AC inverter untuk pemakaian rutin dan suhu stabil."],
     ["AC Low Watt", routes.katalogAcLowWatt, "Cek pilihan AC untuk rumah dengan daya listrik terbatas."],
@@ -21,41 +21,40 @@ export const acInverterVsLowWatt = {
   eyebrow: "Panduan Tipe AC",
   readTime: "7 menit baca",
   intro:
-    "AC inverter dan low watt sama-sama sering disebut hemat listrik, tapi fungsinya tidak sama. Pilihan unit dibaca dari daya listrik, durasi pemakaian, ukuran ruangan, dan anggaran.",
+    "AC inverter dan low watt sama-sama sering disebut hemat listrik, padahal yang dihemat beda. Buat kamu yang lagi milih, keputusannya jadi lebih gampang kalau dibaca dari empat hal: daya listrik rumah, berapa lama AC dipakai tiap hari, ukuran ruangan, dan anggaran.",
   sections: [
     {
-      heading: "Jangan pilih AC hanya dari klaim hemat",
+      heading: "Bedanya di mana, biar tidak ketukar",
       body: [
-        "Label hemat listrik memang menarik, tapi tidak cukup untuk menentukan AC yang tepat. Low watt fokus membantu tarikan daya lebih ringan, sedangkan inverter fokus menjaga kerja kompresor lebih stabil untuk pemakaian rutin.",
-        "Kalau ruangan terlalu besar, panas, atau kapasitas PK kurang, AC tetap bisa bekerja berat. Jadi sebelum membahas merek dan harga, cek dulu ukuran ruangan, daya listrik, dan pola pemakaian harian.",
+        "Singkatnya begini. Low watt menekan tarikan watt saat AC menyala, jadi listrik rumah yang pas-pasan tidak gampang njeglek. Inverter mengatur kerja kompresor supaya tidak hidup-mati penuh terus, jadi suhu lebih stabil dan konsumsi listrik lebih irit saat AC dipakai lama.",
+        "Dua-duanya boleh disebut hemat, tapi untuk tujuan yang beda: low watt soal aman di daya kecil, inverter soal efisien di pemakaian panjang. Begitu kamu paham ini, sisanya tinggal dicocokkan dengan kondisi rumahmu.",
       ],
     },
     {
-      heading: "Pilih low watt kalau daya listrik terbatas",
+      heading: "Pilih low watt kalau daya listrik rumah terbatas",
       body: [
-        "AC low watt cocok dipertimbangkan untuk rumah, kost, atau kontrakan dengan daya listrik terbatas. Fokusnya adalah membuat tarikan daya lebih ringan sehingga risiko listrik turun bisa lebih terkendali.",
-        "Namun low watt bukan berarti otomatis paling dingin atau paling hemat bulanan. Jika PK terlalu kecil untuk ruangan, AC bisa lama dingin dan bekerja lebih berat.",
+        "Kalau listrik rumah, kost, atau kontrakan kamu di 900-1.300 VA dan sering kepakai barengan sama kulkas, pompa, atau magic com, low watt biasanya lebih aman. Tarikan dayanya yang lebih ringan bikin risiko listrik turun jadi lebih kecil.",
+        "Yang perlu dicatat, low watt bukan jaminan paling dingin atau paling murah di tagihan. Kalau PK-nya kekecilan buat ruanganmu, AC tetap kerja keras dan ujungnya boros juga.",
       ],
     },
     {
-      heading: "Pilih inverter kalau AC sering dipakai lama",
+      heading: "Pilih inverter kalau AC nyala berjam-jam",
       body: [
-        "AC inverter lebih cocok untuk kamar tidur, ruang keluarga, atau ruang kerja yang dipakai berjam-jam. Saat suhu mendekati target, kerja kompresor bisa menyesuaikan sehingga suhu ruangan terasa lebih stabil.",
-        "Manfaat inverter paling terasa untuk pemakaian rutin. Kalau AC hanya dinyalakan sebentar-sebentar, selisih manfaatnya bisa tidak sebesar yang dibayangkan.",
+        "Buat kamar tidur, ruang keluarga, atau ruang kerja yang AC-nya nyala lama tiap hari, inverter lebih masuk. Pas suhu mendekati target, kompresor melambat, jadi suhu ruangan terasa stabil dan listrik tidak terus ketarik penuh. Manfaat ini paling kerasa kalau pemakaiannya rutin; kalau cuma dinyalakan sebentar lalu mati, selisih hematnya sering tidak sebesar yang dibayangkan.",
       ],
     },
     {
-      heading: "AC standard tetap masuk akal untuk kondisi tertentu",
+      heading: "Apa pun tipenya, PK yang salah bikin boros",
       body: [
-        "Tidak semua pembeli harus mengambil inverter atau low watt. AC standard masih bisa masuk akal untuk pemakaian sederhana, anggaran awal lebih ketat, dan ruangan yang tidak terlalu berat.",
-        "Yang penting jangan asal ambil standard hanya karena harga awal lebih ringan. Pastikan kapasitas PK, paket pemasangan, dan daya listrik tetap sesuai.",
+        "Ini bagian yang paling sering kelewat. Inverter atau low watt sekelas apa pun bakal kerja berat kalau kapasitas PK-nya tidak pas sama ruangan. AC yang kekecilan akan nyala terus mengejar dingin, dan itu justru menambah tagihan.",
+        "Jadi sebelum mikir tipe dan merek, pastikan dulu PK-nya sesuai ukuran dan kondisi ruangan. Kombinasi PK yang pas dengan tipe yang tepat hasilnya jauh lebih hemat dibanding cuma mengandalkan satu sisi.",
       ],
     },
     {
-      heading: "Cek stok, garansi, pembayaran, dan pemasangan sebelum memilih",
+      heading: "Ringkasnya, mana yang buat kamu?",
       body: [
-        "Setelah tahu kecenderungan tipe yang cocok, cek lagi stok brand, kapasitas PK, garansi unit, dan kebutuhan pemasangan. Pilihan inverter atau low watt tetap perlu disesuaikan dengan lokasi indoor-outdoor, panjang pipa, daya listrik, dan pola pemakaian.",
-        "Pembayaran seperti DP, transfer, atau COD bisa dikonfirmasi setelah pilihan unit, alamat pengiriman, jadwal, dan opsi pemasangan jelas. Jadi keputusan akhir sebaiknya tidak hanya dari label hemat listrik, tapi dari data ruangan dan kebutuhan pembelian.",
+        "Biar gampang, ini patokan kasarnya. Listrik terbatas (900-1.300 VA) dan ruangan kecil: low watt jadi pilihan aman. Dipakai lama tiap hari dan listrik cukup: inverter lebih efisien. Pemakaian jarang atau anggaran awal ketat: AC standard masih masuk akal asal PK-nya benar.",
+        "Kalau masih ragu, kabari aja ukuran ruangan, daya listrik, sama jam pemakaianmu. Dari situ kami bantu cocokkan tipe, PK, stok brand, sampai paket pemasangannya lewat WhatsApp.",
       ],
     },
   ],
@@ -63,17 +62,22 @@ export const acInverterVsLowWatt = {
     {
       question: "Apa beda AC inverter dan low watt?",
       answer:
-        "Inverter menjaga kerja kompresor lebih stabil untuk pemakaian lama, sedangkan low watt fokus meringankan tarikan daya untuk rumah dengan listrik terbatas. Keduanya hemat untuk tujuan yang berbeda.",
+        "Inverter menjaga kerja kompresor lebih stabil supaya hemat saat AC dipakai lama. Low watt menekan tarikan daya supaya aman buat rumah dengan listrik terbatas. Hematnya untuk tujuan yang beda, jadi pilih sesuai kebutuhanmu.",
     },
     {
       question: "Mana yang lebih hemat listrik?",
       answer:
-        "Untuk pemakaian rutin berjam-jam, inverter cenderung lebih efisien. Low watt lebih menolong agar listrik tidak mudah turun. Penghematan tetap dipengaruhi ketepatan PK dan kebiasaan pemakaian.",
+        "Untuk pemakaian rutin berjam-jam, inverter cenderung lebih irit. Low watt lebih menolong supaya listrik tidak gampang turun. Penghematan tetap dipengaruhi ketepatan PK dan kebiasaan pakai.",
     },
     {
-      question: "Bagaimana cara memilih di antara keduanya?",
+      question: "Ada AC yang inverter sekaligus low watt?",
       answer:
-        "Cek daya listrik rumah, durasi pemakaian, dan ukuran ruangan. Sampaikan data tersebut saat konsultasi agar pilihan inverter, low watt, atau standard bisa dicocokkan dengan kebutuhan.",
+        "Ada sebagian unit yang menggabungkan keduanya. Tapi tetap cek spesifikasi watt dan PK-nya, karena label gabungan tidak otomatis cocok untuk semua ukuran ruangan dan daya listrik.",
+    },
+    {
+      question: "Gimana cara milih kalau masih bingung?",
+      answer:
+        "Cek daya listrik rumah, durasi pemakaian, dan ukuran ruangan. Sampaikan data itu saat konsultasi biar pilihan inverter, low watt, atau standard bisa dicocokkan sama kebutuhanmu.",
     },
   ],
   ctaLabel: "Cek Pilihan Inverter / Low Watt",
@@ -81,7 +85,8 @@ export const acInverterVsLowWatt = {
   relatedLinks: [
     ["AC Inverter", routes.katalogAcInverter],
     ["AC Low Watt", routes.katalogAcLowWatt],
+    ["AC paling hemat listrik", routes.artikelAcPalingHematListrik],
+    ["AC 1 PK untuk ruangan berapa", routes.artikelAcSatuPkUntukRuanganBerapa],
     ["Kalkulator PK AC", routes.kalkulatorPkAc],
-    ["Kontak Radja AC", routes.kontak],
   ],
 };
