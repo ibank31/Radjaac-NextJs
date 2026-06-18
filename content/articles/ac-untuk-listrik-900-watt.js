@@ -7,7 +7,7 @@ export const acUntukListrik900Watt = {
   role: "supporting",
   intent: "commercial",
   parentSlug: "ac-bagus-merk-apa",
-  updatedAt: "2026-06-11",
+  updatedAt: "2026-06-18",
   moneyLinks: [
     ["AC Low Watt", routes.katalogAcLowWatt, "Lihat AC low watt yang lebih ramah untuk daya listrik 900 watt."],
     ["Kalkulator PK AC", routes.kalkulatorPkAc, "Cek kapasitas PK yang aman agar beban listrik tetap terkendali."],
@@ -35,6 +35,7 @@ export const acUntukListrik900Watt = {
       body: [
         "Untuk daya 900 watt, AC low watt menjadi pilihan utama karena tarikan dayanya lebih ringan. Kapasitas yang umum dipertimbangkan adalah 1/2 PK untuk kamar kecil, dengan tetap menyesuaikan kondisi ruangan.",
         "Hindari memilih PK terlalu besar hanya agar cepat dingin. Pada daya terbatas, kapasitas yang berlebihan justru meningkatkan risiko beban dan membuat listrik tidak stabil.",
+        "Untuk mencocokkan PK dengan luas kamar, kamu bisa memakai patokan AC 1 PK untuk ruangan sekitar 15–20 m² sebagai pembanding sebelum memilih kapasitas yang lebih kecil.",
       ],
     },
     {
@@ -55,7 +56,7 @@ export const acUntukListrik900Watt = {
       heading: "Cek instalasi dan kondisi MCB",
       body: [
         "Selain unit, kondisi instalasi listrik dan MCB ikut berpengaruh. Instalasi yang sudah tua atau tidak sesuai bisa membuat AC kurang stabil meskipun kapasitasnya sudah tepat.",
-        "Sampaikan besaran daya listrik dan perangkat utama di rumah saat konsultasi. Dari sana, tim Radja AC bisa membantu mencocokkan pilihan AC low watt yang paling aman untuk daya 900 watt.",
+        "Sampaikan besaran daya listrik dan perangkat utama di rumah saat konsultasi. Dari sana, tim Radja AC bisa membantu mencocokkan pilihan AC low watt yang paling sesuai untuk daya 900 watt.",
       ],
     },
   ],
@@ -80,6 +81,7 @@ export const acUntukListrik900Watt = {
   waIntent: "konsultasi memilih AC untuk listrik 900 watt",
   relatedLinks: [
     ["AC Low Watt", routes.katalogAcLowWatt],
+    ["AC 1 PK untuk ruangan berapa", routes.artikelAcSatuPkUntukRuanganBerapa],
     ["Kalkulator PK AC", routes.kalkulatorPkAc],
     ["Kontak Radja AC", routes.kontak],
   ],
