@@ -182,7 +182,7 @@ export const sitemapRoutes = [
   { path: routes.artikelAcInverterVsLowWatt, priority: 0.55, lastModified: "2026-06-11" },
   { path: routes.artikelAcKurangDingin, priority: 0.5, lastModified: "2026-06-11" },
   { path: routes.artikelPanduanInstalasiAcBaru, priority: 0.5, lastModified: "2026-06-01" },
-  { path: routes.artikelCaraMemilihAcKamarTigaKaliEmpat, priority: 0.5, lastModified: "2026-06-01" },
+  { path: routes.artikelCaraMemilihAcKamarTigaKaliEmpat, priority: 0.5, lastModified: "2026-06-18" },
   { path: routes.artikelAcBagusMerkApa, priority: 0.55, lastModified: "2026-06-11" },
   { path: routes.artikelAcPalingHematListrik, priority: 0.55, lastModified: "2026-06-11" },
   { path: routes.artikelRekomendasiAcKamarTidur, priority: 0.55, lastModified: "2026-06-11" },
