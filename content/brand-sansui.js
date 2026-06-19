@@ -6,7 +6,7 @@ import { routes } from "@/content/routes";
 
 export const sansuiPremiumContent = {
   hero: {
-    image: "/photos/showroom/display-sansui-new.webp",
+    image: "/photos/display/display-sansui-new.webp",
     imageAlt: "Showcase AC Sansui original di showroom Radja AC",
     badge: "AC SANSUI ORIGINAL — Radja AC",
     breadcrumbLabel: "Sansui",
