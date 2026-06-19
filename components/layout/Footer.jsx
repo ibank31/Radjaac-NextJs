@@ -55,7 +55,7 @@ export default function Footer() {
           <div className="mt-5 flex items-center gap-3">
             <span className="relative flex h-14 w-14 shrink-0 overflow-hidden rounded-2xl bg-white/95 ring-1 ring-white/30 shadow-[0_14px_34px_rgba(15,23,42,0.18)]">
               <Image
-                src="/icons/master-icon-1024.png"
+                src="/icons/icon-192.png"
                 alt=""
                 fill
                 sizes="56px"
