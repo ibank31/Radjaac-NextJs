@@ -1,0 +1,70 @@
+# Cloudflare Pages redirects — migrasi RADJA AC (React SPA lama -> Next.js, 28 Mei 2026)
+# Disinkronkan dengan `legacyRedirects` di next.config.mjs.
+# Alasan: redirects() Next.js TIDAK tereksekusi pada deploy statis Cloudflare Pages,
+# sehingga URL lama era Purwokerto-sentris mengembalikan 404 (bukan 301) dan equity hangus.
+# Format: /sumber  /tujuan  301  (aturan pertama yang cocok menang)
+
+# --- Brand index ---
+/brand                 /brand/lainnya             301
+/brand/                /brand/lainnya             301
+
+# --- Toko AC terdekat -> money page Purwokerto ---
+/toko-ac-terdekat              /jual-ac-purwokerto  301
+/toko-ac-terdekat/             /jual-ac-purwokerto  301
+/toko-ac-terdekat-purwokerto   /jual-ac-purwokerto  301
+/toko-ac-terdekat-purwokerto/  /jual-ac-purwokerto  301
+
+# --- Brand + kota -> halaman brand kanonik ---
+/daikin-purwokerto      /brand/daikin      301
+/daikin-purwokerto/     /brand/daikin      301
+/gree-purwokerto        /brand/gree        301
+/gree-purwokerto/       /brand/gree        301
+/midea-purwokerto       /brand/midea       301
+/midea-purwokerto/      /brand/midea       301
+/hisense-purwokerto     /brand/hisense     301
+/hisense-purwokerto/    /brand/hisense     301
+/sansui-purwokerto      /brand/sansui      301
+/sansui-purwokerto/     /brand/sansui      301
+/sharp-purwokerto       /brand/sharp       301
+/sharp-purwokerto/      /brand/sharp       301
+/samsung-purwokerto     /brand/samsung     301
+/samsung-purwokerto/    /brand/samsung     301
+/panasonic-purwokerto   /brand/panasonic   301
+/panasonic-purwokerto/  /brand/panasonic   301
+
+# --- Kategori + kota -> katalog kanonik ---
+/ac-inverter-purwokerto    /katalog/ac-inverter   301
+/ac-inverter-purwokerto/   /katalog/ac-inverter   301
+/ac-low-watt-purwokerto    /katalog/ac-low-watt   301
+/ac-low-watt-purwokerto/   /katalog/ac-low-watt   301
+
+# --- Area & layanan lama -> money page / halaman terkait ---
+/ac-purwokerto-selatan     /jual-ac-purwokerto         301
+/ac-purwokerto-selatan/    /jual-ac-purwokerto         301
+/instalasi-ac-banyumas     /jual-ac-purwokerto         301
+/instalasi-ac-banyumas/    /jual-ac-purwokerto         301
+/portfolio                 /bukti-pengiriman-proyek    301
+/portfolio/                /bukti-pengiriman-proyek    301
+/gallery                   /bukti-pengiriman-proyek    301
+/gallery/                  /bukti-pengiriman-proyek    301
+/service-ac-purwokerto     /ganti-ac-baru-purwokerto   301
+/service-ac-purwokerto/    /ganti-ac-baru-purwokerto   301
+/cuci-ac-purwokerto        /ganti-ac-baru-purwokerto   301
+/cuci-ac-purwokerto/       /ganti-ac-baru-purwokerto   301
+/instalasi-profesional     /pengiriman-pemasangan      301
+/instalasi-profesional/    /pengiriman-pemasangan      301
+/pengadaan-ac-proyek       /pengadaan-ac               301
+
+# --- Artikel lama era Purwokerto-sentris -> halaman kanonik ---
+/artikel/harga-ac-1-2-pk-purwokerto-pemasangan          /katalog/ac-1-2-pk    301
+/artikel/ac-low-watt-listrik-900-1300-watt-purwokerto   /katalog/ac-low-watt  301
+/artikel/ac-low-watt-listrik-900-1300-watt-purwokerto/  /katalog/ac-low-watt  301
+/artikel/harga-ac-daikin-purwokerto     /brand/daikin     301
+/artikel/daikin-inverter-purwokerto     /brand/daikin     301
+/artikel/harga-ac-gree-purwokerto       /brand/gree       301
+/artikel/harga-ac-midea-purwokerto      /brand/midea      301
+/artikel/ac-untuk-kost-purwokerto       /pengadaan-ac/kost-apartemen-skala-besar  301
+/artikel/beli-ac-baru-purwokerto-panduan-sebelum-order  /artikel/panduan-beli-ac-baru  301
+/artikel/jual-ac-banyumas-konsultasi-pk-stok-pasang     /jual-ac-banyumas  301
+/artikel/toko-ac-purwokerto-yang-bisa-konsultasi-pk     /jual-ac-purwokerto  301
+/artikel/samsung-inverter-purwokerto    /brand/samsung    301
