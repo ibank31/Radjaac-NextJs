@@ -293,7 +293,7 @@ export default function HeaderClient() {
         <Link href={routes.home} prefetch={false} className="flex items-center gap-3" aria-label="Radja AC">
           <span className="relative flex h-11 w-11 shrink-0 overflow-hidden rounded-2xl bg-white ring-1 ring-slate-200 shadow-[0_10px_26px_rgba(15,23,42,0.10)]">
             <Image
-              src="/icons/master-icon-1024.png"
+              src="/icons/icon-192.png"
               alt=""
               fill
               sizes="44px"
