@@ -1,6 +1,6 @@
 export const siteConfig = {
   name: "Radja AC",
-  legalName: "Radja AC",
+  legalName: "CV. Prima Sedaya",
   baseUrl: "https://www.radjaac.com",
   domain: "www.radjaac.com",
   whatsappNumber: "62882008246099",
