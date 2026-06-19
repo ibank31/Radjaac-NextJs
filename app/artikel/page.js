@@ -5,6 +5,13 @@ import { buildMetadata } from "@/lib/seo";
 import WhatsappLink from "@/components/ui/WhatsappLink";
 import { typography } from "@/lib/typography";
 
+// Hipotesis perbaikan: render /artikel di runtime (Edge) alih-alih sebagai HTML
+// statik prerender. Indeks /artikel tersaji kosong (tanpa <main>) di produksi
+// (Cloudflare/next-on-pages) walau build log menunjukkan route ter-prerender
+// sukses. Mode ini menyamai pola halaman detail /artikel/[slug] yang render
+// normal di live. Verifikasi di preview deploy sebelum merge.
+export const dynamic = "force-dynamic";
+
 export const metadata = buildMetadata({
   title: "Artikel Panduan Beli AC | Radja AC",
   description:
