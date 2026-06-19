@@ -5,6 +5,16 @@ import { buildMetadata } from "@/lib/seo";
 import WhatsappLink from "@/components/ui/WhatsappLink";
 import { typography } from "@/lib/typography";
 
+// Hipotesis perbaikan: render /artikel di runtime Edge alih-alih sebagai HTML
+// statik prerender. Indeks /artikel tersaji kosong (tanpa <main>) di produksi
+// (Cloudflare/next-on-pages) walau build menunjukkan route ter-generate.
+// next-on-pages MEWAJIBKAN route non-statik (ƒ) memakai Edge Runtime, jadi
+// 'force-dynamic' harus dipasangkan dengan runtime 'edge'. Pola ini juga
+// menyamai mesin render runtime yang dipakai route sehat lain. Verifikasi di
+// preview deploy sebelum merge.
+export const dynamic = "force-dynamic";
+export const runtime = "edge";
+
 export const metadata = buildMetadata({
   title: "Artikel Panduan Beli AC | Radja AC",
   description:
