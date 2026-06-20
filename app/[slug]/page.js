@@ -303,14 +303,14 @@ export default async function AreaPage({ params }) {
       <section className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8 lg:py-12">
         <SectionTitle eyebrow="KEBUTUHAN BANYAK UNIT" title={`Butuh AC banyak unit di ${item.areaName}? Jangan cari stok satu-satu.`} description={`Untuk toko, kost, ruko, kantor, rumah banyak ruangan, proyek, pengadaan, atau kebutuhan banyak unit di ${item.areaName}, Radja AC mengecek stok, menyusun pilihan brand, estimasi anggaran, pengiriman, dan opsi pemasangan.`} />
         <div className="grid gap-5 md:grid-cols-3">
-          {bulkCards.map(([title, description]) => <div key={title} className="rounded-[1.45rem] border border-slate-200 bg-white p-6 text-center"><div className="mx-auto mb-5 flex h-12 w-12 items-center justify-center rounded-2xl bg-blue-50 text-2xl text-blue-700">✓</div><h2 className={`mb-3 ${typography.sectionTitle} text-slate-950`}>{title}</h2><p className="text-sm leading-7 text-slate-600">{description}</p></div>)}
+          {bulkCards.map(([title, description]) => <div key={title} className="rounded-[1.45rem] border border-slate-200 bg-white p-6 text-center"><div className="mx-auto mb-5 flex h-12 w-12 items-center justify-center rounded-2xl bg-blue-50 text-2xl text-blue-700">✓</div><h3 className={`mb-3 ${typography.cardTitle} text-slate-950`}>{title}</h3><p className="text-sm leading-7 text-slate-600">{description}</p></div>)}
         </div>
       </section>
 
       <section className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8 lg:py-12">
         <SectionTitle eyebrow="KONSULTASI PEMBELIAN" title="Anggaran murah tidak ada artinya kalau PK salah dan biaya pasang belum dihitung" description="Yang sering jadi masalah: PK tidak sesuai ruangan, biaya pasang belum jelas, atau stok kosong saat mau beli. Radja AC kerja sebaliknya — stok dicek dulu, kebutuhan dihitung, estimasi dijelaskan sebelum pembelian." />
         <div className="grid gap-5 md:grid-cols-3">
-          {valueItems.map(([title, description]) => <div key={title} className="rounded-[1.45rem] border border-slate-200 bg-white p-6 text-center"><div className="mx-auto mb-5 flex h-12 w-12 items-center justify-center rounded-2xl bg-blue-50 text-2xl text-blue-700">✓</div><h2 className={`mb-3 ${typography.sectionTitle} text-slate-950`}>{title}</h2><p className="text-sm leading-7 text-slate-600">{description}</p></div>)}
+          {valueItems.map(([title, description]) => <div key={title} className="rounded-[1.45rem] border border-slate-200 bg-white p-6 text-center"><div className="mx-auto mb-5 flex h-12 w-12 items-center justify-center rounded-2xl bg-blue-50 text-2xl text-blue-700">✓</div><h3 className={`mb-3 ${typography.cardTitle} text-slate-950`}>{title}</h3><p className="text-sm leading-7 text-slate-600">{description}</p></div>)}
         </div>
       </section>
 
