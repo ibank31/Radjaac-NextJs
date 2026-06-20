@@ -246,7 +246,7 @@ function HomeHero() {
               height={512}
               sizes="(min-width: 1024px) 560px, 100vw"
               priority
-              quality={70}
+              quality={62}
               className="h-[220px] w-full rounded-[1.5rem] object-cover object-center sm:h-[390px] lg:h-[500px]"
             />
           </div>
@@ -287,9 +287,9 @@ function HomeTrust() {
               <p className={`mb-2 ${typography.eyebrow} text-blue-800`}>
                 PROSHOP GREE
               </p>
-              <h3 className={`${typography.cardTitle} text-blue-950`}>
+              <h2 className={`${typography.cardTitle} text-blue-950`}>
                 <BrandName /> terdaftar resmi sebagai Proshop Gree Purwokerto
-              </h3>
+              </h2>
             </div>
 
             <div className="border-t border-blue-200 pt-6 lg:border-l lg:border-t-0 lg:pl-8 lg:pt-0">
@@ -317,9 +317,9 @@ function HomeTrust() {
               <p className={`mb-3 ${typography.eyebrow} text-[#1565C0]`}>
                 Sertifikat Resmi
               </p>
-              <h3 className={`mb-3 ${typography.cardTitle} text-blue-950`}>
+              <h2 className={`mb-3 ${typography.cardTitle} text-blue-950`}>
                 Beli AC harus jelas asal-usulnya, garansinya, dan dokumennya
-              </h3>
+              </h2>
             </div>
 
             <div className="grid grid-cols-2 gap-x-4 gap-y-7 sm:grid-cols-4">
@@ -332,6 +332,7 @@ function HomeTrust() {
                       width={260}
                       height={180}
                       sizes="(min-width: 1024px) 220px, 50vw"
+                      quality={58}
                       className="h-[96px] w-full rounded-[12px] object-contain object-center sm:h-[112px]"
                     />
                   </div>
@@ -529,18 +530,18 @@ function HomeBrands() {
       </div>
 
       <div className="mt-6 rounded-2xl border border-blue-100 bg-white p-5 sm:p-6">
-        <p className="mb-4 text-[11px] font-bold uppercase tracking-[0.1em] text-slate-400">
+        <p className="mb-4 text-[11px] font-bold uppercase tracking-[0.1em] text-slate-500">
           KISARAN BUDGET AC + PASANG
         </p>
         <div className="grid gap-3 sm:grid-cols-3">
           {pricePackages.map((item) => (
             <div key={item.range} className="rounded-xl bg-slate-50 p-4">
               <p className="mb-1 text-base font-bold text-blue-950">{item.range}</p>
-              <p className="text-xs leading-6 text-slate-500">{item.brands}</p>
+              <p className="text-xs leading-6 text-slate-600">{item.brands}</p>
             </div>
           ))}
         </div>
-        <p className="mt-3 text-center text-xs text-slate-400">
+        <p className="mt-3 text-center text-xs text-slate-500">
           Harga mengikuti merek, PK, dan kondisi lokasi. Detail dijelaskan sebelum bayar.
         </p>
       </div>
