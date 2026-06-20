@@ -77,10 +77,10 @@ const projectTypes = [
 
 const heroTrust = [
   "Stok banyak unit ready",
-  "Gudang & showroom Sokaraja",
-  "Armada pengiriman sendiri",
+  "Gudang & armada sendiri di Sokaraja",
+  "Kirim bertahap atau sekaligus",
   "Garansi pemasangan 1 bulan",
-  "Authorized Dealer",
+  "Authorized Dealer 4 brand",
 ];
 
 const proofImages = [
@@ -106,18 +106,19 @@ const proofImages = [
   },
 ];
 
-const capabilityCards = [
-  ["Stok banyak unit", "Unit indoor dan outdoor berbagai brand ready di gudang Sokaraja, Banyumas. Restock rutin terdokumentasi lewat foto dan video."],
-  ["Pengiriman banyak unit", "Pengiriman pakai armada Radja AC sendiri, termasuk muatan banyak unit sekaligus maupun pengiriman bertahap mengikuti kesiapan lokasi."],
-  ["Pemasangan bergaransi", "Pemasangan dikerjakan tim Radja AC dengan garansi pemasangan 1 bulan, atau unit dikirim untuk dipasang tim lapangan sendiri."],
-  ["Authorized Dealer", "Authorized Dealer Daikin, Midea, Hisense, dan Sansui. Garansi unit resmi brand plus bantuan klaim bila ada kendala unit."],
+const capabilities = [
+  ["Stok banyak unit ready", "Unit indoor dan outdoor berbagai brand siap di gudang Sokaraja, Banyumas. Restock rutin terdokumentasi lewat foto dan video."],
+  ["Kirim bertahap, armada sendiri", "Pengiriman pakai armada Radja AC: banyak unit sekaligus atau bertahap mengikuti kesiapan tiap lantai dan lokasi."],
+  ["Beli unit saja atau sekalian pasang", "Ambil unitnya saja untuk dipasang tim lapangan Anda, atau pasang oleh tim Radja AC dengan garansi pemasangan 1 bulan."],
+  ["Unit original & bantuan klaim", "Semua unit original bergaransi resmi brand. Kalau ada kendala unit di luar pemasangan, kami bantu proses klaim ke brand."],
+  ["Harga khusus banyak unit", "Pembelian dalam jumlah banyak dapat harga khusus. Kirim daftar kebutuhan untuk minta penawaran."],
 ];
 
 const processSteps = [
   ["01", "Kirim jumlah unit & lokasi", "Jenis bangunan, jumlah unit/titik, lokasi, daya listrik, dan kapan unit dibutuhkan."],
-  ["02", "Cek stok & opsi brand", "Radja AC cek ketersediaan unit di gudang, pilihan brand, dan estimasi PK per ruangan."],
-  ["03", "Konfirmasi & jadwal kirim", "Spesifikasi unit, jadwal pengiriman, dan kebutuhan pemasangan dikunci sebelum order jalan."],
-  ["04", "Kirim & pasang", "Unit dikirim pakai armada Radja AC; pemasangan bergaransi 1 bulan bila dikerjakan tim kami."],
+  ["02", "Cek stok & opsi brand", "Kami cek ketersediaan unit di gudang, pilihan brand, dan estimasi PK tiap ruangan."],
+  ["03", "Konfirmasi & jadwal kirim", "Spesifikasi unit, jadwal kirim, dan pemasangan kami pastikan sebelum unit berangkat."],
+  ["04", "Kirim & pasang", "Unit dikirim pakai armada Radja AC; pemasangan oleh tim kami bila dibutuhkan."],
 ];
 
 const capacityRows = [
@@ -139,16 +140,16 @@ export default function PengadaanAcPage() {
           <div className="flex flex-col justify-center">
             <div className={`mb-6 inline-flex w-fit items-center gap-3 rounded-full border border-blue-100 bg-white px-4 py-2 ${typography.eyebrow} text-blue-900 shadow-sm`}>
               <span className="h-2.5 w-2.5 rounded-full bg-red-600" />
-              Supplier AC Banyak Unit
+              Supplier & Distributor AC Proyek
             </div>
 
             <h1 className={`max-w-4xl ${typography.pageTitle} text-blue-950`}>
-              Pengadaan AC banyak unit langsung dari gudang Radja AC di Sokaraja, Banyumas.
+              Supplier AC banyak unit untuk proyek, hotel, kost & kantor — langsung dari gudang Radja AC, Sokaraja.
             </h1>
 
             <p className="mt-6 max-w-2xl text-sm leading-7 text-slate-600 sm:text-base">
-              Stok banyak unit ready di gudang, pengiriman pakai armada sendiri, dan pemasangan bergaransi 1 bulan.
-              Kirim jumlah unit, lokasi, dan timeline lewat WhatsApp; balasannya berisi ketersediaan stok, pilihan brand, dan jadwal kirim.
+              Stok banyak unit ready di gudang, kirim pakai armada sendiri (sekaligus atau bertahap), dan pemasangan bergaransi 1 bulan.
+              Melayani kost, hotel, kantor, ruko, cafe, sampai proyek konstruksi, dengan harga khusus untuk pembelian banyak unit.
             </p>
 
             <div className="mt-7 flex flex-wrap gap-2">
@@ -177,15 +178,6 @@ export default function PengadaanAcPage() {
                 Lihat Bukti Pengiriman
               </Link>
             </div>
-
-            <div className="mt-10 grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
-              {capabilityCards.map(([title, desc]) => (
-                <div key={title} className="rounded-3xl border border-slate-200 bg-white p-5 shadow-sm">
-                  <div className="text-base font-bold text-blue-950">{title}</div>
-                  <p className="mt-2 text-sm leading-6 text-slate-600">{desc}</p>
-                </div>
-              ))}
-            </div>
           </div>
 
           <div className="grid gap-4">
@@ -200,23 +192,25 @@ export default function PengadaanAcPage() {
                 className="h-[320px] w-full object-cover sm:h-[420px] lg:h-[520px]"
               />
             </div>
-            <div className="rounded-[1.7rem] border border-blue-100 bg-white p-5 shadow-xl shadow-blue-900/10">
-              <div className="mb-4 flex items-center justify-between gap-4">
-                <h2 className={`${typography.sectionTitle} text-blue-950`}>Alur order banyak unit</h2>
-                <span className="rounded-full bg-red-600 px-3 py-1 text-xs font-bold text-white">B2B</span>
+          </div>
+        </div>
+      </section>
+
+      <section className="border-b border-slate-100 bg-white">
+        <div className="mx-auto max-w-7xl px-5 py-14 sm:px-6 lg:px-8">
+          <div className="mb-8 max-w-3xl">
+            <p className={`${typography.eyebrow} text-red-600`}>Kenapa pengadaan lewat Radja AC</p>
+            <h2 className={`mt-3 ${typography.sectionTitle} text-blue-950`}>
+              Stok, pengiriman, dan pemasangan dalam satu tangan.
+            </h2>
+          </div>
+          <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+            {capabilities.map(([title, desc]) => (
+              <div key={title} className="rounded-3xl border border-slate-200 bg-white p-5 shadow-sm">
+                <div className="text-base font-bold text-blue-950">{title}</div>
+                <p className="mt-2 text-sm leading-6 text-slate-600">{desc}</p>
               </div>
-              <div className="grid gap-3 sm:grid-cols-2">
-                {processSteps.map(([number, title, desc]) => (
-                  <div key={number} className="rounded-2xl border border-slate-100 bg-slate-50 p-4">
-                    <div className="mb-3 flex h-8 w-8 items-center justify-center rounded-full bg-blue-950 text-xs font-bold text-white">
-                      {number}
-                    </div>
-                    <h3 className={`${typography.cardTitle} text-blue-950`}>{title}</h3>
-                    <p className="mt-1 text-xs leading-5 text-slate-600">{desc}</p>
-                  </div>
-                ))}
-              </div>
-            </div>
+            ))}
           </div>
         </div>
       </section>
@@ -261,7 +255,7 @@ export default function PengadaanAcPage() {
             </div>
             <p className="text-sm leading-7 text-slate-600 sm:text-base">
               Foto dan video diambil dari aktivitas gudang, pengiriman, dan pemasangan Radja AC.
-              Ketersediaan tipe dan jumlah unit dikonfirmasi saat order.
+              Tipe dan jumlah unit kami cek sesuai kebutuhan Anda.
             </p>
           </div>
 
@@ -334,7 +328,7 @@ export default function PengadaanAcPage() {
               Tidak ada form. Cukup WhatsApp dengan data yang tepat.
             </h2>
             <p className="mt-4 text-sm leading-7 text-slate-600 sm:text-base">
-              Kirim jumlah unit, lokasi, dan timeline. Balasannya berisi ketersediaan stok di gudang, pilihan brand,
+              Sebutkan jumlah unit, lokasi, dan kapan dibutuhkan — kami balas dengan stok ready, pilihan brand,
               dan estimasi jadwal kirim.
             </p>
           </div>
@@ -358,44 +352,16 @@ export default function PengadaanAcPage() {
 
       <section className="bg-[#F8FAFC]">
         <div className="mx-auto max-w-7xl px-5 py-16 sm:px-6 lg:px-8">
-          <div className="mb-10 max-w-3xl">
-            <p className={`${typography.eyebrow} text-red-600`}>Garansi, pembayaran & pengiriman</p>
+          <div className="mb-8 max-w-3xl">
+            <p className={`${typography.eyebrow} text-red-600`}>Pembayaran & ketentuan</p>
             <h2 className={`mt-3 ${typography.sectionTitle} text-blue-950`}>
-              Garansi, pembayaran, dan pengiriman dikunci sejak awal.
+              Pembayaran banyak unit dibahas setelah kebutuhan jelas.
             </h2>
             <p className="mt-4 text-sm leading-7 text-slate-600 sm:text-base">
-              Untuk order banyak unit, ketersediaan stok, pilihan brand, jadwal pengiriman, dan skema pembayaran
-              dikonfirmasi sebelum order jalan.
+              Skema seperti DP, transfer, atau pembayaran bertahap kami bahas setelah jumlah unit, stok, dan jadwal pengiriman disepakati.
             </p>
           </div>
-
-          <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-4">
-            {[
-              [
-                "Garansi unit & klaim brand",
-                "Garansi unit mengikuti ketentuan resmi brand. Sebagai Authorized Dealer Daikin, Midea, Hisense, dan Sansui, Radja AC membantu proses awal klaim bila ada kendala unit.",
-              ],
-              [
-                "Garansi pemasangan 1 bulan",
-                "Pemasangan yang dikerjakan tim Radja AC bergaransi 1 bulan. Unit juga bisa dikirim untuk dipasang tim lapangan sendiri.",
-              ],
-              [
-                "Pembayaran banyak unit",
-                "Skema pembayaran seperti DP, transfer, atau pembayaran bertahap dibahas setelah jumlah unit, stok, dan jadwal pengiriman jelas.",
-              ],
-              [
-                "Pengiriman pakai armada sendiri",
-                "Pengiriman dijadwalkan dari gudang Sokaraja pakai armada Radja AC, baik banyak unit sekaligus maupun bertahap mengikuti kesiapan lokasi.",
-              ],
-            ].map(([title, desc]) => (
-              <div key={title} className="rounded-[1.5rem] border border-slate-200 bg-white p-6 shadow-sm">
-                <h3 className={`${typography.cardTitle} text-blue-950`}>{title}</h3>
-                <p className="mt-3 text-sm leading-7 text-slate-600">{desc}</p>
-              </div>
-            ))}
-          </div>
-
-          <div className="mt-6 rounded-[1.5rem] border border-blue-100 bg-white p-5 text-sm leading-7 text-slate-600 shadow-sm">
+          <div className="rounded-[1.5rem] border border-blue-100 bg-white p-5 text-sm leading-7 text-slate-600 shadow-sm">
             {legalEntityCopy} Showroom dan gudang berada di Pamijen, Sokaraja, Banyumas.
           </div>
         </div>
@@ -412,9 +378,9 @@ export default function PengadaanAcPage() {
 
           <div className="grid gap-8 lg:grid-cols-[0.8fr_1.2fr]">
             <div className="rounded-[1.7rem] border border-blue-100 bg-white p-6 shadow-sm">
-              <h3 className={`${typography.cardTitle} text-blue-950`}>Ini hanya estimasi awal</h3>
+              <h3 className={`${typography.cardTitle} text-blue-950`}>Estimasi awal sebelum survei lokasi</h3>
               <p className="mt-3 text-sm leading-7 text-slate-600">
-                Angka PK yang tepat bergantung pada faktor yang tidak bisa dihitung dari tabel saja. Radja AC cek kondisi ini saat order:
+                Angka PK final kami pastikan dari kondisi lapangan saat survei:
               </p>
               <ul className="mt-5 space-y-3 text-sm leading-6 text-slate-600">
                 {[
@@ -501,7 +467,7 @@ export default function PengadaanAcPage() {
           <div>
             <p className={`${typography.eyebrow} text-white/40`}>Mulai order</p>
             <h2 className={`mt-4 ${typography.sectionTitle} text-white`}>
-              Kirim jumlah unit dan lokasi, kami cek stok dan jadwal kirim.
+              Mulai pengadaan AC banyak unit Anda.
             </h2>
             <p className="mt-5 max-w-2xl text-sm leading-7 text-white/70 sm:text-base">
               Showroom dan gudang Radja AC berada di Pamijen, Sokaraja, Banyumas, dengan stok banyak unit untuk kost, hotel,
