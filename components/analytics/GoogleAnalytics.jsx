@@ -6,6 +6,7 @@ import { Suspense, useEffect } from "react";
 
 const GA_MEASUREMENT_ID = process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID;
 const PRODUCTION_HOSTNAME = "www.radjaac.com";
+const GTAG_SRC = `https://www.googletagmanager.com/gtag/js?id=${GA_MEASUREMENT_ID}`;
 
 function isProductionHostname() {
   return typeof window !== "undefined" && window.location.hostname === PRODUCTION_HOSTNAME;
@@ -122,10 +123,7 @@ export default function GoogleAnalytics() {
 
   return (
     <>
-      <Script
-        src={`https://www.googletagmanager.com/gtag/js?id=${GA_MEASUREMENT_ID}`}
-        strategy="lazyOnload"
-      />
+      <Script src={GTAG_SRC} strategy="lazyOnload" />
       <Script id="google-analytics" strategy="lazyOnload">
         {`
           if (window.location.hostname === '${PRODUCTION_HOSTNAME}') {
