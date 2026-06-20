@@ -15,9 +15,9 @@ export const dynamicParams = false;
 
 const processSteps = [
   ["01", "Kirim jumlah unit & lokasi", "Jumlah unit/titik, jenis bangunan, lokasi, daya listrik, dan kapan unit dibutuhkan."],
-  ["02", "Cek stok & opsi brand", "Radja AC cek ketersediaan unit di gudang, pilihan brand, dan estimasi PK per ruangan."],
-  ["03", "Konfirmasi & jadwal kirim", "Spesifikasi unit, jadwal pengiriman, dan kebutuhan pemasangan dikunci sebelum order jalan."],
-  ["04", "Kirim & pasang", "Unit dikirim pakai armada Radja AC; pemasangan bergaransi 1 bulan bila dikerjakan tim kami."],
+  ["02", "Cek stok & opsi brand", "Kami cek stok gudang, pilihan brand, dan estimasi PK tiap ruangan."],
+  ["03", "Konfirmasi & jadwal kirim", "Spesifikasi unit, jadwal pengiriman, dan kebutuhan pemasangan kami pastikan sebelum unit berangkat."],
+  ["04", "Kirim & pasang", "Unit dikirim pakai armada Radja AC; pemasangan oleh tim kami bila dibutuhkan."],
 ];
 
 const heroTrust = [
@@ -126,7 +126,7 @@ export default async function ProcurementDetailPage({ params }) {
 
             <div className="mt-8 flex flex-col gap-3 sm:flex-row sm:flex-wrap">
               <WhatsappLink
-                className="inline-flex items-center justify-center rounded-2xl bg-red-600 px-7 py-4 text-base font-bold text-white shadow-xl shadow-red-600/20 transition hover:-translate-y-0.5 hover:bg-red-700"
+                className="inline-flex items-center justify-center rounded-2xl bg-[#25D366] px-7 py-4 text-base font-bold text-white shadow-xl shadow-green-600/20 transition hover:-translate-y-0.5 hover:bg-[#1ebe5d]"
                 source={item.label}
                 intent={item.waIntent}
                 category={item.waProjectType}
@@ -218,7 +218,7 @@ export default async function ProcurementDetailPage({ params }) {
             </div>
             <p className="text-sm leading-7 text-slate-600 sm:text-base">
               Foto diambil dari aktivitas gudang dan pengiriman Radja AC di Sokaraja, Banyumas.
-              Ketersediaan tipe dan jumlah unit dikonfirmasi saat order.
+              Tipe dan jumlah unit kami cek sesuai kebutuhan Anda.
             </p>
           </div>
 
@@ -274,7 +274,7 @@ export default async function ProcurementDetailPage({ params }) {
             ))}
           </ul>
           <div className="mt-4 rounded-[1.5rem] border border-blue-100 bg-white p-5 text-sm leading-7 text-slate-600 shadow-sm">
-            Authorized Dealer Daikin, Midea, Hisense, dan Sansui. {legalEntityCopy}
+            {legalEntityCopy}
           </div>
         </div>
       </section>
@@ -358,7 +358,7 @@ export default async function ProcurementDetailPage({ params }) {
           <div>
             <p className={`${typography.eyebrow} text-white/40`}>Mulai order</p>
             <h2 className={`mt-4 ${typography.sectionTitle} text-white`}>
-              Kirim jumlah unit dan lokasi, kami cek stok dan jadwal kirim.
+              Mulai pengadaan AC untuk {item.label.toLowerCase()}.
             </h2>
             <p className="mt-5 max-w-2xl text-sm leading-7 text-white/70 sm:text-base">
               Siapkan brief singkat untuk {item.label.toLowerCase()}. Stok banyak unit siap di gudang Sokaraja, Banyumas,
@@ -377,7 +377,7 @@ export default async function ProcurementDetailPage({ params }) {
               ))}
             </ul>
             <WhatsappLink
-              className="mt-6 inline-flex w-full justify-center rounded-2xl bg-red-600 px-6 py-4 font-bold text-white shadow-lg shadow-red-600/20 transition hover:-translate-y-0.5 hover:bg-red-700"
+              className="mt-6 inline-flex w-full justify-center rounded-2xl bg-[#25D366] px-6 py-4 font-bold text-white shadow-lg shadow-green-600/20 transition hover:-translate-y-0.5 hover:bg-[#1ebe5d]"
               source={`${item.label} - Final CTA`}
               intent={item.waIntent}
               category={item.waProjectType}
