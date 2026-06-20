@@ -26,6 +26,13 @@ import {
 
 export const dynamicParams = false;
 
+// Standarkan anchor area menjadi keyword-rich "Jual AC {Kota}".
+// Idempoten: anchor yang sudah diawali "Jual AC" tidak diubah.
+function formatAreaAnchor(name) {
+  if (typeof name !== "string") return name;
+  return /^jual ac/i.test(name.trim()) ? name : `Jual AC ${name}`;
+}
+
 
 export function generateStaticParams() {
   return areaItems.map((item) => ({ slug: item.slug }));
@@ -321,7 +328,7 @@ export default async function AreaPage({ params }) {
           <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
             {item.nearbyAreaLinks.map(([areaLabel, areaPath]) => (
               <Link key={areaPath} href={areaPath} prefetch={false} className="rounded-[1.25rem] border border-slate-200 bg-white p-5 text-center transition hover:-translate-y-1 hover:border-blue-200">
-                <h3 className={`${typography.cardTitle} text-slate-950`}>{areaLabel}</h3>
+                <h3 className={`${typography.cardTitle} text-slate-950`}>{formatAreaAnchor(areaLabel)}</h3>
                 <span className="inline-flex items-center gap-2 text-xs font-bold text-blue-700 sm:text-sm">Cek stok & layanan →</span>
               </Link>
             ))}
