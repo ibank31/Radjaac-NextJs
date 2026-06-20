@@ -710,7 +710,7 @@ function HomeClosingCta() {
             >
               Cek Stok & Hitung PK
             </WhatsappLink>
-            <p className="mt-3 text-center text-xs text-white/50">
+            <p className="mt-3 text-center text-xs text-white/80">
               Kirim ukuran ruangan · daya listrik · lokasi · jumlah unit
             </p>
           </div>
