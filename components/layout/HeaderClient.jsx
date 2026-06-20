@@ -11,6 +11,25 @@ import { typography } from "@/lib/typography";
 const navItems = [
   { label: "Beranda", href: routes.home, exact: true },
   {
+    label: "Jual AC",
+    activePaths: [routes.jualAc],
+    items: [
+      { label: "Semua Area", href: routes.jualAc, exact: true },
+      { label: "AC Purwokerto", href: routes.jualAcPurwokerto },
+      { label: "AC Banyumas", href: routes.jualAcBanyumas },
+      { label: "AC Purbalingga", href: routes.jualAcPurbalingga },
+      { label: "AC Cilacap", href: routes.jualAcCilacap },
+      { label: "AC Banjarnegara", href: routes.jualAcBanjarnegara },
+      { label: "AC Kebumen", href: routes.jualAcKebumen },
+      { label: "AC Tegal", href: routes.jualAcTegal },
+      { label: "AC Pekalongan", href: routes.jualAcPekalongan },
+      { label: "AC Magelang", href: routes.jualAcMagelang },
+      { label: "AC Semarang", href: routes.jualAcSemarang },
+      { label: "AC Solo", href: routes.jualAcSolo },
+      { label: "AC Yogyakarta", href: routes.jualAcYogyakarta },
+    ],
+  },
+  {
     label: "Katalog AC",
     activePaths: [routes.katalog, routes.kalkulatorPkAc],
     items: [
