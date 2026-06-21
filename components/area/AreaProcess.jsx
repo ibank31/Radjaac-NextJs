@@ -10,12 +10,16 @@ export default function AreaProcess({ item, processSteps }) {
             ALUR BELI AC
           </div>
           <h2 className={`mb-5 ${typography.sectionTitle}`}>
-            Cek kebutuhan dulu, baru kunci stok dan jadwal
+            {item.processTitle ?? "Cek kebutuhan dulu, baru kunci stok dan jadwal"}
           </h2>
           <p className="mb-6 text-sm leading-7 text-slate-600 sm:text-base">
-            Mulai dari area dan ukuran ruangan. Tim Radja AC cek stok,
-            cocokkan PK, jelaskan estimasi, lalu susun jadwal setelah data
-            cocok.
+            {item.processDescription ?? (
+              <>
+                Mulai dari area dan ukuran ruangan. Tim Radja AC cek stok,
+                cocokkan PK, jelaskan estimasi, lalu susun jadwal setelah data
+                cocok.
+              </>
+            )}
           </p>
           <WhatsappLink
             className="inline-flex items-center justify-center rounded-full bg-[#25D366] px-6 py-4 font-bold text-slate-950 transition hover:bg-[#20BA5A]"
@@ -24,7 +28,7 @@ export default function AreaProcess({ item, processSteps }) {
             area={item.waArea}
             pageType="area"
           >
-            Cek AC untuk Area Ini
+            {item.processCtaLabel ?? "Cek AC untuk Area Ini"}
           </WhatsappLink>
         </div>
 

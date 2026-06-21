@@ -6,6 +6,7 @@ import { buildMetadata } from "@/lib/seo";
 import { breadcrumbSchema, faqSchema, serviceSchema } from "@/lib/schema";
 import { areaItems, getAreaItem } from "@/content/areas";
 import { resolveAreaContent } from "@/content/area-content-templates";
+import { resolveAreaPageOverrides } from "@/content/area-page-overrides";
 import WhatsappLink from "@/components/ui/WhatsappLink";
 import JsonLd from "@/components/seo/JsonLd";
 import SectionTitle from "@/components/area/SectionTitle";
@@ -33,6 +34,11 @@ function formatAreaAnchor(name) {
   return /^jual ac/i.test(name.trim()) ? name : `Jual AC ${name}`;
 }
 
+function applyAreaPageOverrides(item) {
+  if (!item) return item;
+  const overrides = resolveAreaPageOverrides(item.slug);
+  return overrides ? { ...item, ...overrides } : item;
+}
 
 export function generateStaticParams() {
   return areaItems.map((item) => ({ slug: item.slug }));
@@ -40,7 +46,7 @@ export function generateStaticParams() {
 
 export async function generateMetadata({ params }) {
   const { slug } = await params;
-  const item = getAreaItem(slug);
+  const item = applyAreaPageOverrides(getAreaItem(slug));
 
   if (!item) return {};
 
@@ -54,7 +60,7 @@ export async function generateMetadata({ params }) {
 
 export default async function AreaPage({ params }) {
   const { slug } = await params;
-  const item = getAreaItem(slug);
+  const item = applyAreaPageOverrides(getAreaItem(slug));
 
   if (!item) notFound();
 
@@ -82,23 +88,23 @@ export default async function AreaPage({ params }) {
     item.paymentNote ??
     "Pembayaran fleksibel: COD, DP, atau transfer. Detail pembayaran dikonfirmasi bersama tim Radja AC sebelum pengiriman atau pemasangan.";
 
-  const heroChips = isPurwokerto
+  const heroChips = item.heroChips ?? (isPurwokerto
     ? ["Showroom Pamijen", "Stok dicek hari ini", "Unit + pemasangan", "Mulai 3 jutaan"]
-    : ["Cek stok dulu", "COD / DP / Transfer", "Area pengiriman dicek", "Konsultasi pemasangan"];
+    : ["Cek stok dulu", "COD / DP / Transfer", "Area pengiriman dicek", "Konsultasi pemasangan"]);
 
-  const bulkCards = [
+  const bulkCards = item.bulkCards ?? [
     ["Rumah & Kamar", `Cek AC untuk kamar tidur, ruang keluarga, dan rumah tinggal di ${item.areaName}.`],
     ["Toko, Ruko & Usaha", `Bantu pilih AC untuk ruang usaha, area pelanggan, kantor, atau ruko di ${item.areaName}.`],
     ["Kost & Banyak Unit", "Untuk banyak kamar, tim Radja AC cek daya listrik, pilihan unit, stok, dan jadwal bertahap."],
   ];
 
-  const valueItems = [
+  const valueItems = item.valueItems ?? [
     ["Cek stok & anggaran dulu", "Tim Radja AC cek unit yang tersedia, pilihan brand, dan estimasi awal sebelum konfirmasi pembelian."],
     ["Bantu pilih PK", "Ukuran ruangan, daya listrik, jumlah orang, panas matahari, dan jam pemakaian ikut dipertimbangkan."],
     ["Pemasangan berdasarkan lokasi", "Panjang pipa, posisi outdoor, akses lokasi, dan tambahan material dibahas di awal."],
   ];
 
-  const processSteps = [
+  const processSteps = item.processSteps ?? [
     ["Kirim info awal", `Sebutkan area ${item.areaName}, ukuran ruangan, daya listrik, jumlah unit, anggaran, dan brand yang diminati.`],
     ["Tim Radja AC cek & rekomendasikan", "Stok dicek, PK dicocokkan, pilihan brand dibandingkan, dan estimasi dijelaskan."],
     ["Foto lokasi bila perlu", "Foto titik indoor dan outdoor membantu memperkirakan jalur pipa dan posisi outdoor."],
@@ -145,7 +151,7 @@ export default async function AreaPage({ params }) {
               {item.h1}
             </h1>
             <p className="mb-5 max-w-2xl text-sm font-bold leading-6 text-blue-700">
-              Cek stok, anggaran, PK, pembayaran, dan jadwal sebelum pembelian.
+              {item.heroSubcopy ?? "Cek stok, anggaran, PK, pembayaran, dan jadwal sebelum pembelian."}
             </p>
             <p className="mb-6 max-w-2xl text-sm leading-7 text-slate-600 sm:text-base">{item.intro}</p>
             <div className="mb-3 flex flex-col gap-3 sm:flex-row sm:items-center sm:flex-wrap">
@@ -160,7 +166,7 @@ export default async function AreaPage({ params }) {
               </Link>
             </div>
             <p className="mb-5 max-w-2xl text-center text-sm leading-6 text-slate-500 lg:text-left">
-              Mulai konsultasi dari data ruangan. Kirim ukuran ruangan, daya listrik, anggaran, lokasi, dan jumlah unit.
+              {item.heroNote ?? "Mulai konsultasi dari data ruangan. Kirim ukuran ruangan, daya listrik, anggaran, lokasi, dan jumlah unit."}
             </p>
             <div className="mb-5 flex flex-wrap justify-center gap-2 text-sm text-slate-600 lg:justify-start">
               {heroChips.map((chip) => <span key={chip} className="rounded-full border border-slate-200 bg-white px-3 py-1">{chip}</span>)}
@@ -301,7 +307,7 @@ export default async function AreaPage({ params }) {
       </section>
 
       <section className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8 lg:py-12">
-        <SectionTitle eyebrow="KEBUTUHAN BANYAK UNIT" title={`Butuh AC banyak unit di ${item.areaName}? Jangan cari stok satu-satu.`} description={`Untuk toko, kost, ruko, kantor, rumah banyak ruangan, proyek, pengadaan, atau kebutuhan banyak unit di ${item.areaName}, Radja AC mengecek stok, menyusun pilihan brand, estimasi anggaran, pengiriman, dan opsi pemasangan.`} />
+        <SectionTitle eyebrow="KEBUTUHAN BANYAK UNIT" title={item.bulkTitle ?? `Butuh AC banyak unit di ${item.areaName}? Jangan cari stok satu-satu.`} description={item.bulkDescription ?? `Untuk toko, kost, ruko, kantor, rumah banyak ruangan, proyek, pengadaan, atau kebutuhan banyak unit di ${item.areaName}, Radja AC mengecek stok, menyusun pilihan brand, estimasi anggaran, pengiriman, dan opsi pemasangan.`} />
         <div className="grid gap-5 md:grid-cols-3">
           {bulkCards.map(([title, description]) => <div key={title} className="rounded-[1.45rem] border border-slate-200 bg-white p-6 text-center"><div className="mx-auto mb-5 flex h-12 w-12 items-center justify-center rounded-2xl bg-blue-50 text-2xl text-blue-700">✓</div><h3 className={`mb-3 ${typography.cardTitle} text-slate-950`}>{title}</h3><p className="text-sm leading-7 text-slate-600">{description}</p></div>)}
         </div>
