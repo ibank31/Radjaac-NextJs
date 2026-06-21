@@ -53,6 +53,16 @@ export async function generateMetadata({ params }) {
     });
   }
 
+  if (slug === "jual-ac-cilacap") {
+    return buildMetadata({
+      title: "Jual AC Cilacap untuk Rumah, Ruko, Kantor & Proyek | Radja AC",
+      description:
+        "Beli AC baru original di Cilacap untuk rumah, ruko, kantor, gudang, mess, atau proyek industri. Konsultasi unit, pengiriman, pemasangan, dan penawaran banyak unit.",
+      path: item.path,
+      image: "/photos/showroom/showroom-multibrand-radja-ac-purwokerto-01.webp",
+    });
+  }
+
   return buildMetadata({
     title: item.title,
     description: item.description,
@@ -68,12 +78,24 @@ export default async function AreaPage({ params }) {
   if (!item) notFound();
 
   const isPurwokerto = item.slug === "jual-ac-purwokerto";
-  const isHumanPilot = isPurwokerto;
+  const isCilacap = item.slug === "jual-ac-cilacap";
+  const isHumanPilot = isPurwokerto || isCilacap;
   const relatedAreas = item.nearbyAreaLinks?.length
     ? item.nearbyAreaLinks.map(([areaName, path]) => ({ areaName, path }))
     : areaItems.filter((areaItem) => areaItem.slug !== item.slug).slice(0, 5);
   const rawPageLinks = areaPageLinkOverrides[item.slug] ?? (item.relatedLinks?.length ? item.relatedLinks : primaryLinks);
-  const pageLinks = isHumanPilot ? rawPageLinks.slice(0, 5) : rawPageLinks.slice(0, 15);
+  const cilacapLinkLabels = new Set([
+    "Pengadaan AC Proyek",
+    "AC Kantor & Komersial",
+    "AC Low Watt",
+    "AC Inverter",
+    "Memilih AC untuk Daerah Pesisir",
+    "Bukti Pengiriman & Proyek",
+    "Kontak Radja AC",
+  ]);
+  const pageLinks = isCilacap
+    ? rawPageLinks.filter(([label]) => cilacapLinkLabels.has(label)).slice(0, 8)
+    : isHumanPilot ? rawPageLinks.slice(0, 5) : rawPageLinks.slice(0, 15);
   const visibleBrandLinks = isHumanPilot ? brandLinks.slice(0, 3) : brandLinks;
   const visibleCategoryLinks = isHumanPilot ? categoryLinks.slice(0, 3) : categoryLinks;
   const keywordVariants =
@@ -84,21 +106,29 @@ export default async function AreaPage({ params }) {
       `pengiriman AC ${item.areaName}`,
       `pemasangan AC ${item.areaName}`,
     ];
-  const trustBullets = isHumanPilot
+  const trustBullets = isCilacap
     ? [
-        "Radja AC punya showroom dan gudang di Pamijen, Sokaraja, Banyumas.",
+        "Cilacap dilayani dari showroom dan gudang Radja AC di Pamijen, Sokaraja, Banyumas.",
         "Pembeli bisa melihat dokumentasi stok, pengiriman, dan pemasangan sebelum lanjut.",
-        "Pembayaran bisa dibahas di awal: DP, COD, atau transfer sesuai kebutuhan pembelian.",
+        "Untuk rumah, ruko, kantor, atau banyak unit, pembayaran bisa dibahas di awal.",
       ]
-    : item.trustBullets ?? [
-        "Showroom dan gudang Radja AC berada di Pamijen, Sokaraja, Banyumas.",
-        "Ada dokumentasi pengiriman, stok fisik, dan aktivitas pemasangan sebagai bukti operasional.",
-        "Kebutuhan PK, daya listrik, stok, pengiriman, dan opsi pemasangan dicek sebelum pembelian.",
-      ];
-  const paymentNote = isHumanPilot
-    ? "Radja AC punya showroom dan gudang di Pamijen, Sokaraja, Banyumas. Pembeli bisa melihat dokumentasi stok, pengiriman, dan pemasangan. Pembayaran bisa dibahas di awal: DP, COD, atau transfer sesuai kebutuhan pembelian."
-    : item.paymentNote ??
-      "Pembayaran fleksibel: COD, DP, atau transfer. Detail pembayaran dikonfirmasi bersama tim Radja AC sebelum pengiriman atau pemasangan.";
+    : isPurwokerto
+      ? [
+          "Radja AC punya showroom dan gudang di Pamijen, Sokaraja, Banyumas.",
+          "Pembeli bisa melihat dokumentasi stok, pengiriman, dan pemasangan sebelum lanjut.",
+          "Pembayaran bisa dibahas di awal: DP, COD, atau transfer sesuai kebutuhan pembelian.",
+        ]
+      : item.trustBullets ?? [
+          "Showroom dan gudang Radja AC berada di Pamijen, Sokaraja, Banyumas.",
+          "Ada dokumentasi pengiriman, stok fisik, dan aktivitas pemasangan sebagai bukti operasional.",
+          "Kebutuhan PK, daya listrik, stok, pengiriman, dan opsi pemasangan dicek sebelum pembelian.",
+        ];
+  const paymentNote = isCilacap
+    ? "Radja AC melayani Cilacap dari showroom dan gudang di Pamijen, Sokaraja, Banyumas. Pembeli bisa melihat dokumentasi stok, pengiriman, dan pemasangan. Untuk rumah, ruko, atau banyak unit, pembayaran bisa dibahas di awal: DP, transfer, COD, atau skema proyek jika memang disepakati."
+    : isPurwokerto
+      ? "Radja AC punya showroom dan gudang di Pamijen, Sokaraja, Banyumas. Pembeli bisa melihat dokumentasi stok, pengiriman, dan pemasangan. Pembayaran bisa dibahas di awal: DP, COD, atau transfer sesuai kebutuhan pembelian."
+      : item.paymentNote ??
+        "Pembayaran fleksibel: COD, DP, atau transfer. Detail pembayaran dikonfirmasi bersama tim Radja AC sebelum pengiriman atau pemasangan.";
 
   const heroChips = isPurwokerto
     ? ["Showroom Pamijen", "Stok dicek hari ini", "Unit + pemasangan", "Mulai 3 jutaan"]
@@ -123,23 +153,41 @@ export default async function AreaPage({ params }) {
     ["Jadwal disusun setelah data cocok", "Setelah stok, estimasi, alamat, dan kebutuhan jelas, tim menyusun pengiriman atau opsi pemasangan."],
   ];
 
-  const faqItems = isHumanPilot
-    ? item.localFaq ?? []
-    : [
-        ...(item.localFaq ?? []),
-        ["Belum tahu butuh berapa PK?", "Kirim ukuran ruangan, daya listrik, jumlah orang, dan pola pemakaian; kapasitas PK dicocokkan dari data itu."],
-        ["Brand AC apa saja yang tersedia?", "Stok bisa dicek untuk Gree, Daikin, Midea, Hisense, Sharp, Panasonic, Samsung, Aqua, TCL, dan brand lain sesuai ketersediaan."],
-      ];
+  const cilacapFaqItems = [
+    ["Bisa pengadaan AC banyak unit untuk kantor atau proyek di Cilacap?", "Bisa. Kirim jumlah ruang, ukuran, dan target waktu. Untuk banyak unit, tipe AC bisa dibuat seragam supaya pengiriman, pemasangan, dan perawatan lebih rapi."],
+    ["Cilacap dekat laut, outdoor AC cepat karat?", "Udara asin memang lebih keras ke unit outdoor. Penempatan yang terlindung dari angin laut langsung dan perawatan rutin bisa membantu umur pakai AC."],
+    ["Melayani pengiriman ke kecamatan mana saja di Cilacap?", "Pengiriman dikonfirmasi per alamat. Untuk hub Cilacap, area yang perlu diarahkan: Kroya, Majenang, Sidareja, Kesugihan, Adipala, dan Cilacap kota."],
+    ["AC untuk rumah atau ruko di Cilacap agar cepat dingin, pilih apa?", "Mulai dari ukuran ruangan, jumlah orang, dan kondisi panas. Ruko yang pintunya sering terbuka biasanya butuh hitungan berbeda dari kamar rumah."],
+    ["AC lama di Cilacap boros atau tidak dingin, ganti atau servis?", "Kalau unit sudah tua, sering diservis, dan tetap boros, ganti baru sering lebih masuk akal. Kirim kondisi unit lama dan ukuran ruangan dulu supaya tidak salah pilih."],
+  ];
+
+  const faqItems = isCilacap
+    ? cilacapFaqItems
+    : isPurwokerto
+      ? item.localFaq ?? []
+      : [
+          ...(item.localFaq ?? []),
+          ["Belum tahu butuh berapa PK?", "Kirim ukuran ruangan, daya listrik, jumlah orang, dan pola pemakaian; kapasitas PK dicocokkan dari data itu."],
+          ["Brand AC apa saja yang tersedia?", "Stok bisa dicek untuk Gree, Daikin, Midea, Hisense, Sharp, Panasonic, Samsung, Aqua, TCL, dan brand lain sesuai ketersediaan."],
+        ];
 
   const areaContent = resolveAreaContent(item);
-  const heroTitle = isHumanPilot ? "Jual AC Purwokerto untuk Rumah, Kos, Toko, dan Kantor" : item.h1;
-  const heroSubcopy = isHumanPilot
-    ? "Beli AC baru original untuk area Purwokerto. Bisa konsultasi PK, kirim ke alamat, atau sekalian pemasangan."
-    : "Cek stok, anggaran, PK, pembayaran, dan jadwal sebelum pembelian.";
-  const heroIntro = isHumanPilot
-    ? "Kalau kamu sedang cari AC untuk kamar kos sekitar UNSOED, rumah di Purwokerto, toko, ruko, kantor, atau beberapa kamar sekaligus, mulai dari ukuran ruangan dan daya listrik dulu. Dari situ Radja AC bantu arahkan kapasitas PK, pilihan AC, dan kebutuhan pemasangannya."
-    : item.intro;
-  const heroCtaLabel = isHumanPilot ? "Konsultasi AC Purwokerto" : item.ctaLabel ?? `Cek AC ${item.areaName}`;
+  const heroTitle = isCilacap
+    ? "Jual AC Cilacap untuk Rumah, Ruko, Kantor, dan Proyek Industri"
+    : isPurwokerto ? "Jual AC Purwokerto untuk Rumah, Kos, Toko, dan Kantor" : item.h1;
+  const heroSubcopy = isCilacap
+    ? "Cilacap panas, lembap, dan dekat laut. Rumah, ruko, kantor, sampai proyek industri butuh hitungan AC yang berbeda. Radja AC bantu pilih unit baru original, kirim ke alamat, atau sekalian pemasangan."
+    : isPurwokerto
+      ? "Beli AC baru original untuk area Purwokerto. Bisa konsultasi PK, kirim ke alamat, atau sekalian pemasangan."
+      : "Cek stok, anggaran, PK, pembayaran, dan jadwal sebelum pembelian.";
+  const heroIntro = isCilacap
+    ? "Kalau AC dipasang di Cilacap, jangan cuma lihat merek dan harga. Ruko yang pintunya sering terbuka beda kebutuhannya dengan kamar rumah. Kantor proyek, gudang, atau mess juga tidak bisa disamakan dengan pembelian satu unit untuk kamar tidur."
+    : isPurwokerto
+      ? "Kalau kamu sedang cari AC untuk kamar kos sekitar UNSOED, rumah di Purwokerto, toko, ruko, kantor, atau beberapa kamar sekaligus, mulai dari ukuran ruangan dan daya listrik dulu. Dari situ Radja AC bantu arahkan kapasitas PK, pilihan AC, dan kebutuhan pemasangannya."
+      : item.intro;
+  const heroCtaLabel = isCilacap
+    ? "Konsultasi AC Cilacap"
+    : isPurwokerto ? "Konsultasi AC Purwokerto" : item.ctaLabel ?? `Cek AC ${item.areaName}`;
 
   const structuredData = [
     breadcrumbSchema([
@@ -149,9 +197,11 @@ export default async function AreaPage({ params }) {
     ]),
     serviceSchema({
       name: item.label,
-      description: isHumanPilot
-        ? "Penjualan AC baru original untuk area Purwokerto, termasuk konsultasi PK, pengiriman, dan opsi pemasangan."
-        : item.description,
+      description: isCilacap
+        ? "Penjualan AC baru original untuk rumah, ruko, kantor, gudang, mess, dan proyek industri di Cilacap."
+        : isPurwokerto
+          ? "Penjualan AC baru original untuk area Purwokerto, termasuk konsultasi PK, pengiriman, dan opsi pemasangan."
+          : item.description,
       url: item.path,
       serviceType: "Penjualan & pemasangan AC",
       areaServed: item.areaName,
@@ -194,8 +244,8 @@ export default async function AreaPage({ params }) {
                   </Link>
                 </>
               ) : (
-                <Link href={routes.katalog} prefetch={false} className="inline-flex items-center justify-center rounded-full border border-slate-200 bg-white px-6 py-4 font-semibold text-slate-900 shadow-sm transition hover:bg-slate-50">
-                  Lihat katalog
+                <Link href={isCilacap ? routes.pengadaanAc : routes.katalog} prefetch={false} className="inline-flex items-center justify-center rounded-full border border-slate-200 bg-white px-6 py-4 font-semibold text-slate-900 shadow-sm transition hover:bg-slate-50">
+                  {isCilacap ? "Minta penawaran banyak unit" : "Lihat katalog"}
                 </Link>
               )}
             </div>
@@ -243,7 +293,33 @@ export default async function AreaPage({ params }) {
         (!isHumanPilot && areaContent.buyerGuide) ||
         (!isHumanPilot && areaContent.clusterFaq.length)) ? (
         <section className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8 lg:py-12">
-          {isHumanPilot ? (
+          {isCilacap ? (
+            <>
+              <SectionTitle
+                eyebrow="CILACAP"
+                title="Cilacap itu panas pesisir, ruko ramai, dan kantor proyek"
+                description="Cilacap tidak cukup dibaca sebagai kota biasa. Ada kawasan industri, pelabuhan, kantor, gudang, ruko, rumah, dan permukiman pesisir dengan kebutuhan AC yang berbeda-beda."
+              />
+              <div className="grid gap-6 lg:grid-cols-[1.1fr_0.9fr]">
+                <div className="rounded-[1.45rem] border border-slate-200 bg-white p-6 sm:p-8">
+                  <p className="mb-4 text-sm leading-7 text-slate-600 sm:text-base">
+                    Cilacap punya kilang Pertamina, Pelabuhan Tanjung Intan, kawasan industri, pergudangan, ruko, kantor, dan permukiman pesisir. Cuacanya panas dan lembap. Di beberapa titik, udara asin juga lebih keras ke unit outdoor.
+                  </p>
+                  <p className="text-sm leading-7 text-slate-600 sm:text-base">
+                    Untuk rumah, toko, ruko, dan kantor kecil, fokusnya biasanya PK yang pas dan listrik yang aman. Untuk proyek atau banyak unit, fokusnya pindah ke ketersediaan unit, tipe yang seragam, pengiriman bertahap, dan penawaran yang rapi.
+                  </p>
+                </div>
+                <div className="rounded-[1.45rem] border border-blue-100 bg-blue-50/70 p-6 sm:p-8">
+                  <h3 className={`mb-4 ${typography.cardTitle} text-slate-950`}>Kebutuhan yang paling sering muncul</h3>
+                  <ul className="space-y-3 text-sm leading-6 text-slate-700">
+                    <li>• Ruko dan toko yang pintunya sering terbuka.</li>
+                    <li>• Rumah dan kantor kecil di cuaca panas lembap.</li>
+                    <li>• Kantor proyek, gudang, mess, dan banyak unit.</li>
+                  </ul>
+                </div>
+              </div>
+            </>
+          ) : isPurwokerto ? (
             <>
               <SectionTitle
                 eyebrow="PURWOKERTO"
@@ -318,6 +394,23 @@ export default async function AreaPage({ params }) {
             </>
           )}
 
+          {isCilacap ? (
+            <div className="mt-6 grid gap-5 lg:grid-cols-2">
+              <div className="rounded-[1.45rem] border border-slate-200 bg-white p-6 sm:p-8">
+                <h3 className={`mb-3 ${typography.cardTitle} text-slate-950`}>Outdoor AC di area pesisir jangan asal taruh</h3>
+                <p className="text-sm leading-7 text-slate-600">
+                  Udara asin bisa membuat bagian luar unit lebih cepat kotor dan berkarat. Penempatan yang lebih terlindung dan perawatan rutin membantu AC lebih awet.
+                </p>
+              </div>
+              <div className="rounded-[1.45rem] border border-slate-200 bg-white p-6 sm:p-8">
+                <h3 className={`mb-3 ${typography.cardTitle} text-slate-950`}>Untuk proyek, mulai dari daftar ruang</h3>
+                <p className="text-sm leading-7 text-slate-600">
+                  Ukuran, jumlah titik, daya listrik, dan target waktu menentukan tipe AC yang paling aman. Kalau jumlah unit banyak, tipe yang seragam membuat pengiriman, pemasangan, dan perawatan lebih rapi.
+                </p>
+              </div>
+            </div>
+          ) : null}
+
           {!isHumanPilot && areaContent.buyerGuide ? (
             <div className="mt-6 rounded-[1.7rem] border border-blue-100 bg-blue-50/60 p-6 sm:p-8">
               <h3 className={`mb-2 ${typography.cardTitle} text-slate-950`}>{areaContent.buyerGuide.title}</h3>
@@ -354,12 +447,14 @@ export default async function AreaPage({ params }) {
       <section id="estimasi-anggaran" className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8 lg:py-12">
         <div className="rounded-[1.7rem] border border-blue-100 bg-blue-50 p-5 sm:p-6 lg:p-8">
           <h2 className={`mb-3 text-center ${typography.sectionTitle} text-slate-950`}>
-            {isHumanPilot ? "Estimasi awal sebelum beli AC di Purwokerto" : "Estimasi Anggaran AC + Pasang"}
+            {isCilacap ? "Estimasi awal sebelum beli AC di Cilacap" : isPurwokerto ? "Estimasi awal sebelum beli AC di Purwokerto" : "Estimasi Anggaran AC + Pasang"}
           </h2>
           <p className="mx-auto mb-4 max-w-2xl text-center text-sm leading-7 text-slate-600">
-            {isHumanPilot
-              ? "Harga AC dipengaruhi merek, PK, tipe standard/low watt/inverter, panjang pipa, posisi outdoor, dan kebutuhan pemasangan. Kalau belum yakin, mulai dari ukuran ruangan dan daya listrik."
-              : `Gunakan tabel ini sebagai patokan awal. Angka akhir tetap mengikuti brand, PK, stok, alamat, opsi pembayaran, dan kondisi pemasangan di area ${item.areaName}.`}
+            {isCilacap
+              ? "Untuk rumah dan ruko, biaya dipengaruhi PK, tipe AC, panjang pipa, posisi outdoor, dan lokasi. Untuk kantor proyek atau banyak unit, lebih aman minta penawaran agar jumlah titik dan jadwal kerja ikut dihitung."
+              : isPurwokerto
+                ? "Harga AC dipengaruhi merek, PK, tipe standard/low watt/inverter, panjang pipa, posisi outdoor, dan kebutuhan pemasangan. Kalau belum yakin, mulai dari ukuran ruangan dan daya listrik."
+                : `Gunakan tabel ini sebagai patokan awal. Angka akhir tetap mengikuti brand, PK, stok, alamat, opsi pembayaran, dan kondisi pemasangan di area ${item.areaName}.`}
           </p>
           {!isHumanPilot ? (
             <div className="mx-auto mb-4 grid max-w-5xl gap-3 sm:grid-cols-3">
@@ -374,7 +469,9 @@ export default async function AreaPage({ params }) {
           ) : (
             <div className="mx-auto mb-4 max-w-3xl rounded-[22px] border border-slate-200 bg-white p-5 text-sm leading-7 text-slate-600">
               <p>
-                Untuk kamar kos dan kamar rumah, kebutuhan biasanya mulai dari 1/2 PK sampai 1 PK. Toko, ruko, kantor, atau ruang yang sering terbuka perlu dihitung lebih hati-hati supaya AC tidak bekerja terlalu berat.
+                {isCilacap
+                  ? "Ruko yang pintunya sering terbuka biasanya butuh hitungan berbeda dari kamar rumah. Untuk banyak unit, daftar ruang dan jumlah titik lebih penting daripada menebak harga satuan."
+                  : "Untuk kamar kos dan kamar rumah, kebutuhan biasanya mulai dari 1/2 PK sampai 1 PK. Toko, ruko, kantor, atau ruang yang sering terbuka perlu dihitung lebih hati-hati supaya AC tidak bekerja terlalu berat."}
               </p>
             </div>
           )}
@@ -386,7 +483,7 @@ export default async function AreaPage({ params }) {
           </div>
           <div className="mt-5 flex justify-center">
             <WhatsappLink className="inline-flex w-full items-center justify-center rounded-full bg-[#25D366] px-5 py-3 text-sm font-bold text-slate-950 transition hover:bg-[#20BA5A] sm:w-auto" source={`${item.label} - Estimasi Anggaran`} intent={item.waIntent} area={item.waArea} pageType="area">
-              {isHumanPilot ? "Tanya estimasi AC Purwokerto" : "Cek Anggaran Area Ini"}
+              {isCilacap ? "Tanya estimasi AC Cilacap" : isPurwokerto ? "Tanya estimasi AC Purwokerto" : "Cek Anggaran Area Ini"}
             </WhatsappLink>
           </div>
         </div>
@@ -395,9 +492,9 @@ export default async function AreaPage({ params }) {
       {isHumanPilot ? (
         <section className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8 lg:py-12">
           <SectionTitle
-            eyebrow="BANYAK UNIT"
-            title="Untuk kos, ruko, kantor, atau penginapan, tipe AC bisa diseragamkan"
-            description="Butuh beberapa unit untuk kos, ruko, kantor, atau penginapan? Tipe AC bisa disamakan agar perawatan lebih mudah. Pengiriman dan pemasangan bisa dibuat bertahap kalau ruangan belum siap semua."
+            eyebrow={isCilacap ? "BANYAK UNIT" : "BANYAK UNIT"}
+            title={isCilacap ? "Untuk kantor proyek, mess, gudang, atau ruko besar, jangan beli unit satu-satu" : "Untuk kos, ruko, kantor, atau penginapan, tipe AC bisa diseragamkan"}
+            description={isCilacap ? "Mulai dari daftar ruang dulu: ukuran, jumlah titik, daya listrik, dan target waktu. Dari situ pilihan AC bisa dibuat lebih rapi, termasuk tipe yang seragam, pengiriman, dan jadwal pemasangan." : "Butuh beberapa unit untuk kos, ruko, kantor, atau penginapan? Tipe AC bisa disamakan agar perawatan lebih mudah. Pengiriman dan pemasangan bisa dibuat bertahap kalau ruangan belum siap semua."}
           />
         </section>
       ) : (
@@ -423,8 +520,8 @@ export default async function AreaPage({ params }) {
       <section className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8 lg:py-12">
         <SectionTitle
           eyebrow="PILIHAN AC"
-          title={isHumanPilot ? "Mulai dari ukuran ruang, baru pilih merek" : "Mulai dari brand atau kebutuhan"}
-          description={isHumanPilot ? "Brand tetap penting, tapi ukuran ruangan, daya listrik, dan pola pemakaian menentukan pilihan yang paling aman." : "Saat memilih merek, mulai dari ukuran ruangan, daya listrik, anggaran, dan jam pemakaian."}
+          title={isCilacap ? "Pilihan AC untuk rumah, ruko, kantor, dan banyak unit" : isPurwokerto ? "Mulai dari ukuran ruang, baru pilih merek" : "Mulai dari brand atau kebutuhan"}
+          description={isCilacap ? "Untuk Cilacap, pilihan AC sebaiknya melihat kondisi ruang, jam pakai, daya listrik, dan posisi outdoor." : isPurwokerto ? "Brand tetap penting, tapi ukuran ruangan, daya listrik, dan pola pemakaian menentukan pilihan yang paling aman." : "Saat memilih merek, mulai dari ukuran ruangan, daya listrik, anggaran, dan jam pemakaian."}
         />
         <div className="mb-5 grid grid-cols-2 gap-4 lg:grid-cols-3">{visibleBrandLinks.map(([title, href]) => <Link key={href} href={href} prefetch={false} className="group rounded-[22px] border border-slate-200 bg-white p-4 transition hover:-translate-y-1 hover:border-blue-200"><h3 className={`mb-2 ${typography.cardTitle} text-slate-950`}>{title}</h3><span className="inline-flex items-center gap-2 text-xs font-bold text-blue-700 sm:text-sm">Lihat pilihan →</span></Link>)}</div>
         <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-4">{visibleCategoryLinks.map(([title, href, description]) => <Link key={href} href={href} prefetch={false} className="rounded-[1.35rem] border border-slate-200 bg-white p-5 text-center transition hover:-translate-y-1 hover:border-blue-200"><h3 className={`mb-3 ${typography.cardTitle} text-slate-950`}>{title}</h3><p className="text-xs leading-6 text-slate-500">{description}</p></Link>)}</div>
@@ -432,7 +529,11 @@ export default async function AreaPage({ params }) {
 
       {item.nearbyAreaLinks && item.nearbyAreaLinks.length > 0 && (
         <section className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8 lg:py-12">
-          <SectionTitle eyebrow={`AREA TERDEKAT ${item.areaName.toUpperCase()}`} title={`Jual AC di area terdekat ${item.areaName}`} description={`Cek ketersediaan AC dan layanan di area sekitar ${item.areaName} untuk perbandingan atau kebutuhan area lain.`} />
+          <SectionTitle
+            eyebrow={`AREA TERDEKAT ${item.areaName.toUpperCase()}`}
+            title={isCilacap ? "Pilih area Cilacap yang paling dekat" : `Jual AC di area terdekat ${item.areaName}`}
+            description={isCilacap ? "Kebutuhan AC di Cilacap bisa berbeda per area. Kroya, Majenang, Sidareja, Kesugihan, dan Adipala punya karakter ruang dan jarak pengiriman yang berbeda." : `Cek ketersediaan AC dan layanan di area sekitar ${item.areaName} untuk perbandingan atau kebutuhan area lain.`}
+          />
           <div className={isHumanPilot ? "mx-auto flex max-w-4xl flex-wrap justify-center gap-3" : "grid gap-3 sm:grid-cols-2 lg:grid-cols-3"}>
             {item.nearbyAreaLinks.map(([areaLabel, areaPath]) => (
               <Link key={areaPath} href={areaPath} prefetch={false} className={isHumanPilot ? "rounded-full border border-slate-200 bg-white px-4 py-2 text-sm font-semibold text-slate-700 transition hover:border-blue-300/40 hover:text-blue-700" : "rounded-[1.25rem] border border-slate-200 bg-white p-5 text-center transition hover:-translate-y-1 hover:border-blue-200"}>
@@ -451,7 +552,7 @@ export default async function AreaPage({ params }) {
       )}
 
       <section className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8 lg:py-12">
-        <SectionTitle eyebrow="LINK PENTING" title={isHumanPilot ? "Halaman yang paling membantu sebelum beli" : "Halaman pendukung sebelum chat"} />
+        <SectionTitle eyebrow="LINK PENTING" title={isCilacap ? "Halaman yang paling relevan untuk Cilacap" : isPurwokerto ? "Halaman yang paling membantu sebelum beli" : "Halaman pendukung sebelum chat"} />
         <div className="mx-auto flex max-w-4xl flex-wrap justify-center gap-3">{pageLinks.map(([label, href]) => <Link key={href} href={href} prefetch={false} className="rounded-full border border-slate-200 bg-white px-4 py-2 text-sm font-semibold text-slate-700 transition hover:-translate-y-1 hover:border-blue-300/40 hover:text-blue-700">{label}</Link>)}</div>
       </section>
 
@@ -463,7 +564,7 @@ export default async function AreaPage({ params }) {
                 TRUST & PEMBAYARAN
               </div>
               <h2 className={`mb-4 ${typography.sectionTitle} text-slate-950`}>
-                {isHumanPilot ? "Showroom, gudang, dan pembayaran jelas dari awal" : "Bukti aktivitas Radja AC dan pembayaran yang bisa dikonfirmasi dulu"}
+                {isCilacap ? "Pengiriman Cilacap, bukti kerja, dan pembayaran dibahas dari awal" : isPurwokerto ? "Showroom, gudang, dan pembayaran jelas dari awal" : "Bukti aktivitas Radja AC dan pembayaran yang bisa dikonfirmasi dulu"}
               </h2>
               <p className="mb-5 text-sm leading-7 text-slate-600 sm:text-base">{paymentNote}</p>
               <Link href={routes.buktiPengirimanProyek} prefetch={false} className="inline-flex items-center justify-center rounded-full border border-slate-200 bg-slate-50 px-5 py-3 text-sm font-semibold text-slate-950 transition hover:bg-slate-100">
@@ -495,7 +596,7 @@ export default async function AreaPage({ params }) {
         <AreaFaq areaName={item.areaName} faqItems={faqItems} />
       </section>
 
-      <AreaFinalCta item={isHumanPilot ? { ...item, ctaLabel: "Mau beli AC di Purwokerto? Chat kebutuhan ruanganmu, kami bantu pilihkan AC-nya." } : item} />
+      <AreaFinalCta item={isCilacap ? { ...item, ctaLabel: "Butuh AC untuk Cilacap? Kirim kebutuhan rumah, ruko, kantor, atau daftar ruang proyek. Kami bantu arahkan unit dan penawarannya." } : isPurwokerto ? { ...item, ctaLabel: "Mau beli AC di Purwokerto? Chat kebutuhan ruanganmu, kami bantu pilihkan AC-nya." } : item} />
     </main>
   );
 }
