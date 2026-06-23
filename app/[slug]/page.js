@@ -12,6 +12,7 @@ import SectionTitle from "@/components/area/SectionTitle";
 import AreaFaq from "@/components/area/AreaFaq";
 import AreaFinalCta from "@/components/area/AreaFinalCta";
 import AreaProcess from "@/components/area/AreaProcess";
+import CilacapBenchmarkPage from "@/components/area/CilacapBenchmarkPage";
 import { typography } from "@/lib/typography";
 
 import {
@@ -148,6 +149,22 @@ export default async function AreaPage({ params }) {
     }),
     faqSchema(faqItems),
   ];
+
+  if (item.slug === "jual-ac-cilacap") {
+    return (
+      <CilacapBenchmarkPage
+        item={item}
+        structuredData={structuredData}
+        proofImages={proofImages}
+        pricePackages={pricePackages}
+        packageIncludes={packageIncludes}
+        brandLinks={brandLinks}
+        categoryLinks={categoryLinks}
+        trustBullets={trustBullets}
+        faqItems={faqItems}
+      />
+    );
+  }
 
   return (
     <main id="main-content" className="min-h-screen bg-[#f7fbff] text-slate-950">
