@@ -76,10 +76,10 @@ const projectTypes = [
 ];
 
 const heroTrust = [
-  "Stok banyak unit ready",
-  "Gudang & armada sendiri di Sokaraja",
-  "Kirim bertahap atau sekaligus",
-  "Garansi pemasangan 1 bulan",
+  "Stok banyak unit di gudang",
+  "Penawaran untuk pembelian banyak unit",
+  "Unit saja atau unit + pemasangan",
+  "Pengiriman sekaligus atau bertahap",
   "Authorized Dealer 4 brand",
 ];
 
@@ -107,18 +107,36 @@ const proofImages = [
 ];
 
 const capabilities = [
-  ["Stok banyak unit ready", "Unit indoor dan outdoor berbagai brand siap di gudang Sokaraja, Banyumas. Restock rutin terdokumentasi lewat foto dan video."],
-  ["Kirim bertahap, armada sendiri", "Pengiriman pakai armada Radja AC: banyak unit sekaligus atau bertahap mengikuti kesiapan tiap lantai dan lokasi."],
+  ["Supply banyak unit dari gudang", "Unit indoor dan outdoor berbagai brand siap dicek dari gudang Sokaraja, Banyumas. Cocok untuk kost, hotel, kantor, ruko, cafe, dan proyek."],
+  ["Penawaran sesuai kebutuhan proyek", "Kirim jumlah unit, lokasi, timeline, dan preferensi brand. Admin bantu susun opsi unit yang masuk kebutuhan teknis dan anggaran."],
+  ["Kirim bertahap, armada sendiri", "Pengiriman pakai armada Radja AC: banyak unit sekaligus atau bertahap mengikuti kesiapan tiap lantai, kamar, atau lokasi proyek."],
   ["Beli unit saja atau sekalian pasang", "Ambil unitnya saja untuk dipasang tim lapangan Anda, atau pasang oleh tim Radja AC dengan garansi pemasangan 1 bulan."],
-  ["Unit original & bantuan klaim", "Semua unit original bergaransi resmi brand. Kalau ada kendala unit di luar pemasangan, kami bantu proses klaim ke brand."],
-  ["Harga khusus banyak unit", "Pembelian dalam jumlah banyak dapat harga khusus. Kirim daftar kebutuhan untuk minta penawaran."],
+  ["Unit original & bantuan klaim", "Semua unit original bergaransi resmi brand. Kalau ada kendala unit di luar pemasangan, kami bantu arahkan proses klaim sesuai jalur brand."],
+  ["Harga khusus banyak unit", "Pembelian dalam jumlah banyak bisa dibahas khusus setelah jumlah unit, tipe, stok, lokasi, dan jadwal pengiriman jelas."],
+];
+
+const buyerRoles = [
+  ["Purchasing / GA", "Butuh opsi brand, estimasi kapasitas, jadwal pengiriman, dan penawaran yang rapi untuk dibandingkan internal."],
+  ["Kontraktor / Developer", "Butuh supply dari daftar titik, BOQ/RAB, alternatif brand, dan pengiriman yang bisa mengikuti progres lapangan."],
+  ["Owner Bisnis", "Butuh AC cepat dingin, stok jelas, pemasangan bisa dijadwalkan, dan biaya awal bisa dihitung sebelum ambil keputusan."],
+];
+
+const offerDocuments = [
+  ["Jumlah unit / titik", "total kebutuhan sekarang, bertahap, atau per lantai"],
+  ["Lokasi & akses", "kota, area pengiriman, akses truk, dan jam terima barang"],
+  ["Jenis bangunan", "kost, hotel, kantor, ruko, cafe, toko, gudang kantor, atau proyek"],
+  ["Ukuran & fungsi ruang", "untuk cek estimasi PK, tipe indoor, dan pilihan unit"],
+  ["Daya listrik", "total daya, batas MCB, atau daya per kamar/titik bila ada"],
+  ["Timeline", "target kirim, target pasang, opening, renovasi, atau serah terima"],
+  ["Skema kebutuhan", "unit saja, unit + pemasangan, atau pengiriman bertahap"],
+  ["File pendukung", "BOQ/RAB, layout, foto ruangan, atau daftar titik jika tersedia"],
 ];
 
 const processSteps = [
-  ["01", "Kirim jumlah unit & lokasi", "Jenis bangunan, jumlah unit/titik, lokasi, daya listrik, dan kapan unit dibutuhkan."],
-  ["02", "Cek stok & opsi brand", "Kami cek ketersediaan unit di gudang, pilihan brand, dan estimasi PK tiap ruangan."],
-  ["03", "Konfirmasi & jadwal kirim", "Spesifikasi unit, jadwal kirim, dan pemasangan kami pastikan sebelum unit berangkat."],
-  ["04", "Kirim & pasang", "Unit dikirim pakai armada Radja AC; pemasangan oleh tim kami bila dibutuhkan."],
+  ["01", "Kirim brief kebutuhan", "Jenis bangunan, jumlah unit/titik, lokasi, daya listrik, timeline, dan skema unit saja atau unit + pasang."],
+  ["02", "Cek stok & opsi brand", "Kami cek ketersediaan unit di gudang, pilihan brand, estimasi PK, dan alternatif sesuai anggaran."],
+  ["03", "Minta penawaran", "Spesifikasi unit, jumlah, jadwal kirim, dan kebutuhan pemasangan dirapikan sebelum Anda ambil keputusan."],
+  ["04", "Kirim & pasang", "Unit dikirim pakai armada Radja AC; pemasangan oleh tim kami bila dibutuhkan dan area memungkinkan."],
 ];
 
 const capacityRows = [
@@ -140,16 +158,17 @@ export default function PengadaanAcPage() {
           <div className="flex flex-col justify-center">
             <div className={`mb-6 inline-flex w-fit items-center gap-3 rounded-full border border-blue-100 bg-white px-4 py-2 ${typography.eyebrow} text-blue-900 shadow-sm`}>
               <span className="h-2.5 w-2.5 rounded-full bg-red-600" />
-              Supplier & Distributor AC Proyek
+              Supplier AC Proyek & Pengadaan Banyak Unit
             </div>
 
             <h1 className={`max-w-4xl ${typography.pageTitle} text-blue-950`}>
-              Supplier AC banyak unit untuk proyek, hotel, kost & kantor — langsung dari gudang Radja AC, Sokaraja.
+              Minta penawaran supply AC banyak unit untuk proyek, hotel, kost, kantor, ruko, dan usaha.
             </h1>
 
             <p className="mt-6 max-w-2xl text-sm leading-7 text-slate-600 sm:text-base">
-              Stok banyak unit ready di gudang, kirim pakai armada sendiri (sekaligus atau bertahap), dan pemasangan bergaransi 1 bulan.
-              Melayani kost, hotel, kantor, ruko, cafe, sampai proyek konstruksi, dengan harga khusus untuk pembelian banyak unit.
+              Radja AC melayani pengadaan AC original multi-brand dari gudang Sokaraja, Banyumas: cek stok, susun opsi brand,
+              kirim unit sekaligus atau bertahap, dan bantu pemasangan bila dibutuhkan. Cocok untuk pembelian banyak unit,
+              kebutuhan proyek, opening bisnis, renovasi, dan pengadaan rutin.
             </p>
 
             <div className="mt-7 flex flex-wrap gap-2">
@@ -165,10 +184,10 @@ export default function PengadaanAcPage() {
               <WhatsappLink
                 className="inline-flex items-center justify-center rounded-2xl bg-[#25D366] px-7 py-4 text-base font-bold text-slate-950 shadow-xl shadow-[#25D366]/20 transition hover:-translate-y-0.5 hover:bg-[#20BA5A]"
                 source="Pengadaan AC - Hero"
-                intent="kirim kebutuhan pengadaan AC banyak unit: jenis bangunan, jumlah unit, lokasi, daya listrik, dan timeline kebutuhan"
+                intent="minta penawaran pengadaan AC banyak unit: jenis bangunan, jumlah unit, lokasi, daya listrik, timeline, dan kebutuhan unit saja atau pemasangan"
                 pageType="procurement"
               >
-                Kirim Kebutuhan via WhatsApp
+                Minta Penawaran Pengadaan AC
               </WhatsappLink>
 
               <Link
@@ -201,7 +220,7 @@ export default function PengadaanAcPage() {
           <div className="mb-8 max-w-3xl">
             <p className={`${typography.eyebrow} text-red-600`}>Kenapa pengadaan lewat Radja AC</p>
             <h2 className={`mt-3 ${typography.sectionTitle} text-blue-950`}>
-              Stok, pengiriman, dan pemasangan dalam satu tangan.
+              Stok, penawaran, pengiriman, dan pemasangan dalam satu alur.
             </h2>
           </div>
           <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
@@ -209,6 +228,38 @@ export default function PengadaanAcPage() {
               <div key={title} className="rounded-3xl border border-slate-200 bg-white p-5 shadow-sm">
                 <div className="text-base font-bold text-blue-950">{title}</div>
                 <p className="mt-2 text-sm leading-6 text-slate-600">{desc}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      <section className="bg-blue-950 text-white">
+        <div className="mx-auto grid max-w-7xl gap-8 px-5 py-16 sm:px-6 lg:grid-cols-[0.82fr_1.18fr] lg:items-start lg:px-8">
+          <div>
+            <p className={`${typography.eyebrow} text-white/45`}>Untuk buyer B2B</p>
+            <h2 className={`mt-3 ${typography.sectionTitle} text-white`}>
+              Kalau butuh supply AC serius, mulai dari brief yang jelas.
+            </h2>
+            <p className="mt-5 text-sm leading-7 text-white/70 sm:text-base">
+              Tim purchasing, kontraktor, dan owner bisnis biasanya tidak butuh jawaban generik. Mereka butuh opsi unit,
+              estimasi kapasitas, stok yang bisa dicek, jadwal kirim, dan penawaran yang mudah diputuskan.
+            </p>
+            <WhatsappLink
+              className="mt-7 inline-flex items-center justify-center rounded-2xl bg-[#25D366] px-7 py-4 text-base font-bold text-slate-950 shadow-xl shadow-[#25D366]/20 transition hover:-translate-y-0.5 hover:bg-[#20BA5A]"
+              source="Pengadaan AC - B2B Buyer"
+              intent="minta penawaran supply AC B2B dengan data jumlah unit, lokasi, jenis bangunan, daya listrik, timeline, dan preferensi brand"
+              pageType="procurement"
+            >
+              Kirim Brief untuk Penawaran
+            </WhatsappLink>
+          </div>
+
+          <div className="grid gap-4 md:grid-cols-3">
+            {buyerRoles.map(([title, desc]) => (
+              <div key={title} className="rounded-[1.5rem] border border-white/10 bg-white/10 p-5 shadow-sm backdrop-blur">
+                <h3 className={`${typography.cardTitle} text-white`}>{title}</h3>
+                <p className="mt-3 text-sm leading-6 text-white/70">{desc}</p>
               </div>
             ))}
           </div>
@@ -273,10 +324,18 @@ export default function PengadaanAcPage() {
             ))}
           </div>
 
-          <div className="mt-6">
+          <div className="mt-6 flex flex-col gap-3 sm:flex-row sm:items-center">
             <Link href={routes.buktiPengirimanProyek} className="inline-flex font-semibold text-red-600 transition hover:translate-x-1">
               Lihat lebih banyak bukti pengiriman dan stok →
             </Link>
+            <WhatsappLink
+              className="inline-flex w-fit rounded-2xl border border-green-200 bg-green-50 px-5 py-3 text-sm font-bold text-green-800 transition hover:-translate-y-0.5 hover:bg-green-100"
+              source="Pengadaan AC - Proof"
+              intent="minta penawaran setelah melihat bukti pengiriman dan stok pengadaan AC banyak unit"
+              pageType="procurement"
+            >
+              Minta Penawaran Setelah Cek Bukti
+            </WhatsappLink>
           </div>
         </div>
       </section>
@@ -285,6 +344,30 @@ export default function PengadaanAcPage() {
 
       <section className="bg-[#F8FAFC]">
         <div className="mx-auto max-w-7xl px-5 py-16 sm:px-6 lg:px-8">
+          <div className="mb-10 max-w-3xl">
+            <p className={`${typography.eyebrow} text-red-600`}>Data untuk penawaran</p>
+            <h2 className={`mt-3 ${typography.sectionTitle} text-blue-950`}>
+              Kirim data ini agar penawaran AC banyak unit lebih cepat dan tepat.
+            </h2>
+            <p className="mt-4 text-sm leading-7 text-slate-600 sm:text-base">
+              Tidak harus lengkap dari awal. Semakin jelas data yang dikirim, semakin cepat admin menyiapkan opsi stok,
+              kapasitas PK, brand pembanding, dan jadwal pengiriman.
+            </p>
+          </div>
+
+          <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
+            {offerDocuments.map(([title, desc]) => (
+              <div key={title} className="rounded-[1.35rem] border border-slate-200 bg-white p-5 shadow-sm">
+                <div className="text-sm font-bold text-blue-950">{title}</div>
+                <p className="mt-2 text-xs leading-5 text-slate-600">{desc}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      <section className="bg-[#F8FAFC]">
+        <div className="mx-auto max-w-7xl px-5 pb-16 sm:px-6 lg:px-8">
           <div className="mb-10 max-w-3xl">
             <p className={`${typography.eyebrow} text-red-600`}>Segmen yang dilayani</p>
             <h2 className={`mt-3 ${typography.sectionTitle} text-blue-950`}>
@@ -325,11 +408,11 @@ export default function PengadaanAcPage() {
           <div className="mb-10 max-w-3xl">
             <p className={`${typography.eyebrow} text-red-600`}>Cara order</p>
             <h2 className={`mt-3 ${typography.sectionTitle} text-blue-950`}>
-              Tidak ada form. Cukup WhatsApp dengan data yang tepat.
+              Tidak ada form panjang. Brief yang jelas langsung masuk ke admin.
             </h2>
             <p className="mt-4 text-sm leading-7 text-slate-600 sm:text-base">
-              Sebutkan jumlah unit, lokasi, dan kapan dibutuhkan — kami balas dengan stok ready, pilihan brand,
-              dan estimasi jadwal kirim.
+              Sebutkan jumlah unit, lokasi, dan kapan dibutuhkan — kami balas dengan stok yang bisa dicek, pilihan brand,
+              estimasi kapasitas, dan jadwal kirim yang memungkinkan.
             </p>
           </div>
 
@@ -467,11 +550,11 @@ export default function PengadaanAcPage() {
           <div>
             <p className={`${typography.eyebrow} text-white/40`}>Mulai order</p>
             <h2 className={`mt-4 ${typography.sectionTitle} text-white`}>
-              Mulai pengadaan AC banyak unit Anda.
+              Minta penawaran supply AC banyak unit untuk kebutuhan Anda.
             </h2>
             <p className="mt-5 max-w-2xl text-sm leading-7 text-white/70 sm:text-base">
               Showroom dan gudang Radja AC berada di Pamijen, Sokaraja, Banyumas, dengan stok banyak unit untuk kost, hotel,
-              kantor, ruko, cafe, dan proyek konstruksi.
+              kantor, ruko, cafe, dan proyek konstruksi. Kirim brief, lalu admin bantu cek stok, opsi brand, dan jadwal kirim.
             </p>
           </div>
 
@@ -494,10 +577,10 @@ export default function PengadaanAcPage() {
             <WhatsappLink
               className="mt-6 inline-flex w-full justify-center rounded-2xl bg-[#25D366] px-6 py-4 font-bold text-slate-950 shadow-lg shadow-[#25D366]/20 transition hover:-translate-y-0.5 hover:bg-[#20BA5A]"
               source="Pengadaan AC - Final CTA"
-              intent="kirim data lengkap pengadaan AC banyak unit: jenis bangunan, jumlah unit, lokasi, daya listrik, timeline, dan kebutuhan pemasangan"
+              intent="minta penawaran pengadaan AC banyak unit: jenis bangunan, jumlah unit, lokasi, daya listrik, timeline, preferensi brand, dan kebutuhan pemasangan"
               pageType="procurement"
             >
-              Kirim Data via WhatsApp
+              Minta Penawaran via WhatsApp
             </WhatsappLink>
           </div>
         </div>
