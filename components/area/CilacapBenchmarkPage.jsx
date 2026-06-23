@@ -49,6 +49,7 @@ export default function CilacapBenchmarkPage({
   const visibleCategories = categoryLinks.slice(0, 3);
   const visibleAreas = item.nearbyAreaLinks ?? [];
   const visibleFaq = faqItems.slice(0, 5);
+  const finalCtaItem = { ...item, ctaLabel: "Cari AC untuk area Cilacap? Mulai dari data ruangan." };
 
   return (
     <main id="main-content" className="min-h-screen bg-[#f7fbff] text-slate-950">
@@ -251,7 +252,7 @@ export default function CilacapBenchmarkPage({
         </div>
       </section>
 
-      <AreaFinalCta item= ...item, ctaLabel: "Cari AC untuk area Cilacap? Mulai dari data ruangan."  />
+      <AreaFinalCta item={finalCtaItem} />
     </main>
   );
 }
