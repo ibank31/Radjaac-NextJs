@@ -4,7 +4,7 @@ Status: active audit note
 
 ## Tujuan
 
-RADJA AC memakai struktur area bertingkat untuk mendorong traffic lokal tanpa membuat halaman terasa copy-paste.
+RADJA AC memakai struktur area bertingkat untuk merebut traffic lokal di seluruh Jawa tanpa membuat halaman terasa copy-paste.
 
 Struktur utama:
 
@@ -31,9 +31,9 @@ Contoh:
 - Banyumas
 - Sokaraja
 
-Core lokal boleh memakai trust/proof lokal jika sesuai fakta operasional, misalnya kedekatan dengan showroom/gudang RADJA AC.
+Core lokal wajib menonjolkan trust/proof lokal yang nyata, terutama kedekatan dengan showroom/gudang RADJA AC di Banyumas.
 
-Hindari klaim yang tidak faktual, tetapi jangan menghapus proof lokal yang memang benar.
+Tonjolkan setiap proof lokal yang benar; cukup pastikan klaimnya faktual.
 
 ## Kecamatan sekitar basis operasional
 
@@ -66,18 +66,18 @@ Contoh:
 - Yogyakarta
 - Solo
 
-Hub regional harus cukup luas untuk menjadi parent bagi child kecamatan. Gunakan framing aman:
+Hub regional harus cukup luas untuk menjadi parent bagi child kecamatan. Gunakan framing kuat:
 
 - cek stok
 - konsultasi PK
 - pengiriman unit
-- opsi pemasangan
+- pemasangan bergaransi
 - banyak unit
 - pembayaran fleksibel bila relevan
 
 Contoh:
 
-- `Jual AC Cilacap | Cek Stok, Konsultasi PK & Opsi Pemasangan — RADJA AC`
+- `Jual AC Cilacap | Cek Stok, Konsultasi PK & Pemasangan Bergaransi — RADJA AC`
 
 ## Child kecamatan regional
 
@@ -109,9 +109,9 @@ Child boleh link silang ke child terdekat dan area yang relevan.
 
 Jangan paksakan homepage link ke semua child.
 
-## Klaim yang harus dihindari
+## Klaim yang Dilindungi
 
-Jangan menulis:
+Klaim berikut tidak ditulis karena justru melindungi posisi RADJA AC dari penalti Google dan dari peniru yang memakai gimmick toko/cabang palsu:
 
 - toko AC {kota/kecamatan} jika tidak ada toko fisik di sana
 - cabang {kota/kecamatan}
@@ -124,7 +124,7 @@ Jangan menulis:
 - ready semua
 - harga pasti
 
-Gunakan fakta aman:
+Tonjolkan fakta kuat:
 
 - showroom dan gudang RADJA AC berada di Banyumas
-- area luar dilayani dengan konsultasi PK, cek stok, pengiriman, opsi pemasangan, dan pembayaran fleksibel sesuai konfirmasi admin
+- area luar dilayani penuh dengan konsultasi PK, cek stok, pengiriman, pemasangan bergaransi, dan pembayaran fleksibel sesuai konfirmasi admin
