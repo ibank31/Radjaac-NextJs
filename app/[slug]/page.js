@@ -33,6 +33,15 @@ function formatAreaAnchor(name) {
   return /^jual ac/i.test(name.trim()) ? name : `Jual AC ${name}`;
 }
 
+function getAreaVisualType(slug) {
+  if (["jual-ac-kebumen", "jual-ac-cilacap"].includes(slug)) return "city";
+  if (["jual-ac-gombong", "jual-ac-kroya", "jual-ac-majenang"].includes(slug)) return "transit";
+  if (slug === "jual-ac-sidareja") return "humid";
+  if (slug === "jual-ac-adipala") return "coastal";
+  if (slug === "jual-ac-karanganyar-kebumen") return "disambiguation";
+  return "default";
+}
+
 export function generateStaticParams() {
   return areaItems.map((item) => ({ slug: item.slug }));
 }
@@ -109,6 +118,10 @@ export default async function AreaPage({ params }) {
       ];
 
   const areaContent = resolveAreaContent(item);
+  const areaVisualType = getAreaVisualType(item.slug);
+  const localBenefits = areaContent.benefits.slice(0, 3);
+  const localCases = areaContent.cases.slice(0, 3);
+  const localLandmarks = areaContent.landmarks.slice(0, 7);
   const heroTitle = isHumanPilot ? "Jual AC Purwokerto untuk Rumah, Kos, Toko, dan Kantor" : item.h1;
   const heroSubcopy = isHumanPilot
     ? "Beli AC baru original untuk area Purwokerto. Bisa konsultasi PK, kirim ke alamat, atau sekalian pemasangan."
@@ -139,24 +152,24 @@ export default async function AreaPage({ params }) {
   return (
     <main id="main-content" className="min-h-screen bg-[#f7fbff] text-slate-950">
       <JsonLd data={structuredData} />
-      <section className="relative overflow-hidden border-b border-blue-100 bg-[linear-gradient(180deg,#f8fdff_0%,#eefbff_100%)] px-4 pb-10 pt-12 sm:px-6 lg:px-8 lg:pb-16 lg:pt-20">
-        <div className="grid items-center gap-10 lg:grid-cols-[1.04fr_0.96fr] lg:gap-16">
+      <section className="relative overflow-hidden border-b border-blue-100 bg-[linear-gradient(180deg,#f8fdff_0%,#eefbff_100%)] px-4 pb-8 pt-10 sm:px-6 lg:px-8 lg:pb-14 lg:pt-18">
+        <div className="grid items-center gap-8 lg:grid-cols-[1.04fr_0.96fr] lg:gap-14">
           <div>
             <Link href={routes.jualAc} prefetch={false} className="mb-5 inline-flex text-sm font-semibold text-blue-700 transition hover:text-slate-950">
               ← Kembali ke Jual AC
             </Link>
             {!isHumanPilot ? (
-              <div className="mb-5 inline-flex rounded-full border border-blue-100 bg-blue-50 px-4 py-2 text-sm text-blue-700">
+              <div className="mb-4 inline-flex rounded-full border border-blue-100 bg-blue-50 px-4 py-2 text-sm text-blue-700">
                 {item.eyebrow}
               </div>
             ) : null}
             <h1 className={`mb-3 max-w-3xl ${typography.pageTitle}`}>
               {heroTitle}
             </h1>
-            <p className="mb-5 max-w-2xl text-sm font-bold leading-6 text-blue-700">
+            <p className="mb-4 max-w-2xl text-sm font-bold leading-6 text-blue-700">
               {heroSubcopy}
             </p>
-            <p className="mb-6 max-w-2xl text-sm leading-7 text-slate-600 sm:text-base">{heroIntro}</p>
+            <p className="mb-5 max-w-2xl text-sm leading-7 text-slate-600 sm:text-base">{heroIntro}</p>
             <div className="mb-3 flex flex-col gap-3 sm:flex-row sm:items-center sm:flex-wrap">
               <WhatsappLink className="inline-flex items-center justify-center rounded-full bg-[#25D366] px-6 py-4 font-bold text-slate-950 shadow-[0_18px_50px_rgba(37,211,102,0.2)] transition hover:-translate-y-0.5 hover:bg-[#20BA5A]" source={item.label} intent={item.waIntent} area={item.waArea} pageType="area">
                 {heroCtaLabel}
@@ -177,7 +190,7 @@ export default async function AreaPage({ params }) {
               )}
             </div>
             {!isHumanPilot ? (
-              <div className="mb-5 flex flex-wrap justify-center gap-2 text-sm text-slate-600 lg:justify-start">
+              <div className="mb-4 flex flex-wrap justify-center gap-2 text-sm text-slate-600 lg:justify-start">
                 {heroChips.map((chip) => <span key={chip} className="rounded-full border border-slate-200 bg-white px-3 py-1">{chip}</span>)}
               </div>
             ) : null}
@@ -185,14 +198,14 @@ export default async function AreaPage({ params }) {
 
           <div className="relative mx-auto w-full max-w-[520px] lg:mr-0">
             <div className="overflow-hidden rounded-[1.7rem] border border-slate-200 bg-[#f7fbff]/75 p-3 shadow-[0_30px_90px_rgba(8,20,47,0.42)]">
-              <Image src="/photos/showroom/showroom-multibrand-radja-ac-purwokerto-01.webp" alt={`Showroom Radja AC untuk konsultasi jual AC ${item.areaName}`} width={640} height={780} quality={70} className="h-[340px] w-full rounded-[1.35rem] object-cover object-center sm:h-[430px]" sizes="(min-width: 1024px) 520px, 100vw" priority />
+              <Image src="/photos/showroom/showroom-multibrand-radja-ac-purwokerto-01.webp" alt={`Showroom Radja AC untuk konsultasi jual AC ${item.areaName}`} width={640} height={780} quality={70} className="h-[300px] w-full rounded-[1.35rem] object-cover object-center sm:h-[400px] lg:h-[430px]" sizes="(min-width: 1024px) 520px, 100vw" priority />
             </div>
             {!isHumanPilot ? (
-              <div className="mt-3 grid grid-cols-2 gap-2.5 sm:gap-3">
+              <div className="mt-3 grid grid-cols-3 gap-2 sm:gap-3">
                 {proofImages.map(([label, src, alt]) => (
-                  <div key={src} className="group relative overflow-hidden rounded-[18px] border border-slate-200 bg-white shadow-[0_18px_45px_rgba(8,20,47,0.24)] sm:rounded-[22px]">
-                    <Image src={src} alt={alt} width={420} height={300} sizes="(min-width: 1024px) 250px, 50vw" className="h-[118px] w-full object-cover transition duration-300 group-hover:scale-105 sm:h-[140px] lg:h-[136px]" />
-                    <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-slate-950/70 to-transparent px-2 pb-2 pt-7 text-center text-[11px] font-bold text-white sm:text-xs">{label}</div>
+                  <div key={src} className="group relative overflow-hidden rounded-[16px] border border-slate-200 bg-white shadow-[0_18px_45px_rgba(8,20,47,0.18)] sm:rounded-[20px]">
+                    <Image src={src} alt={alt} width={420} height={300} sizes="(min-width: 1024px) 160px, 33vw" className="h-[86px] w-full object-cover transition duration-300 group-hover:scale-105 sm:h-[112px] lg:h-[118px]" />
+                    <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-slate-950/70 to-transparent px-1.5 pb-1.5 pt-7 text-center text-[10px] font-bold text-white sm:text-xs">{label}</div>
                   </div>
                 ))}
               </div>
@@ -207,7 +220,7 @@ export default async function AreaPage({ params }) {
         areaContent.landmarks.length ||
         (!isHumanPilot && areaContent.buyerGuide) ||
         (!isHumanPilot && areaContent.clusterFaq.length)) ? (
-        <section className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8 lg:py-12">
+        <section className="mx-auto max-w-7xl px-4 py-7 sm:px-6 lg:px-8 lg:py-11">
           {isHumanPilot ? (
             <>
               <SectionTitle
@@ -238,48 +251,153 @@ export default async function AreaPage({ params }) {
             <>
               <SectionTitle
                 eyebrow={`SEPUTAR ${item.areaName.toUpperCase()}`}
-                title={`Konteks lokal AC di ${item.areaName}`}
+                title={
+                  areaVisualType === "transit"
+                    ? `Cek 3 hal sebelum beli AC di ${item.areaName}`
+                    : areaVisualType === "humid"
+                      ? `Area lembap seperti ${item.areaName} butuh AC yang tepat`
+                      : areaVisualType === "coastal"
+                        ? `AC untuk area panas dan pesisir ${item.areaName}`
+                        : areaVisualType === "disambiguation"
+                          ? "Karanganyar Kebumen, bukan Karanganyar Solo"
+                          : `Kebutuhan AC di ${item.areaName}`
+                }
                 description={areaContent.localContext ?? undefined}
               />
-              <div className="grid gap-5 lg:grid-cols-3">
-                {areaContent.benefits.length ? (
-                  <div className="rounded-[1.45rem] border border-slate-200 bg-white p-6">
-                    <h3 className={`mb-4 ${typography.cardTitle} text-slate-950`}>{`Kenapa relevan di ${item.areaName}`}</h3>
-                    <ul className="space-y-3">
-                      {areaContent.benefits.map((benefit) => (
-                        <li key={benefit} className="rounded-2xl border border-slate-200 bg-[#f8fbff] p-4 text-sm font-semibold leading-6 text-slate-700">
-                          {benefit}
+
+              {areaVisualType === "city" ? (
+                <div className="grid gap-4 lg:grid-cols-[0.95fr_1.05fr] lg:items-stretch">
+                  <div className="rounded-[1.55rem] border border-slate-200 bg-white p-5 sm:p-7">
+                    <h3 className={`mb-4 ${typography.cardTitle} text-slate-950`}>{`Mulai dari jenis ruang di ${item.areaName}`}</h3>
+                    <ul className="space-y-3 text-sm leading-6 text-slate-700">
+                      {localBenefits.map((benefit) => (
+                        <li key={benefit} className="flex gap-3">
+                          <span className="mt-1 flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-blue-600 text-[11px] font-bold text-white">✓</span>
+                          <span>{benefit}</span>
                         </li>
                       ))}
                     </ul>
                   </div>
-                ) : null}
-                {areaContent.cases.length ? (
-                  <div className="rounded-[1.45rem] border border-slate-200 bg-white p-6">
-                    <h3 className={`mb-4 ${typography.cardTitle} text-slate-950`}>{`Contoh kebutuhan dari ${item.areaName}`}</h3>
-                    <ul className="space-y-3">
-                      {areaContent.cases.map(([caseTitle, caseDetail]) => (
-                        <li key={caseTitle} className="rounded-2xl border border-slate-200 bg-[#f8fbff] p-4 text-sm leading-6 text-slate-700">
-                          <span className="block font-bold text-slate-950">{caseTitle}</span>
-                          {caseDetail ? <span className="mt-1 block text-slate-600">{caseDetail}</span> : null}
-                        </li>
-                      ))}
-                    </ul>
-                  </div>
-                ) : null}
-                {areaContent.landmarks.length ? (
-                  <div className="rounded-[1.45rem] border border-slate-200 bg-white p-6">
-                    <h3 className={`mb-4 ${typography.cardTitle} text-slate-950`}>Landmark &amp; titik lokal yang sering dilayani</h3>
-                    <div className="flex flex-wrap gap-2">
-                      {areaContent.landmarks.map((landmark) => (
-                        <span key={landmark} className="rounded-full border border-slate-200 bg-[#f8fbff] px-3 py-2 text-xs font-bold text-slate-700">
-                          {landmark}
-                        </span>
-                      ))}
+                  <div className="grid gap-4 md:grid-cols-2">
+                    <div className="rounded-[1.55rem] border border-blue-100 bg-blue-50/70 p-5 sm:p-7">
+                      <h3 className={`mb-4 ${typography.cardTitle} text-slate-950`}>Contoh kebutuhan</h3>
+                      <div className="space-y-3">
+                        {localCases.slice(0, 2).map(([caseTitle, caseDetail]) => (
+                          <div key={caseTitle}>
+                            <p className="text-sm font-bold text-slate-950">{caseTitle}</p>
+                            {caseDetail ? <p className="mt-1 text-sm leading-6 text-slate-600">{caseDetail}</p> : null}
+                          </div>
+                        ))}
+                      </div>
+                    </div>
+                    <div className="rounded-[1.55rem] border border-slate-200 bg-white p-5 sm:p-7">
+                      <h3 className={`mb-4 ${typography.cardTitle} text-slate-950`}>Titik lokal</h3>
+                      <div className="flex flex-wrap gap-2">
+                        {localLandmarks.map((landmark) => <span key={landmark} className="rounded-full border border-slate-200 bg-[#f8fbff] px-3 py-2 text-xs font-bold text-slate-700">{landmark}</span>)}
+                      </div>
                     </div>
                   </div>
-                ) : null}
-              </div>
+                </div>
+              ) : null}
+
+              {areaVisualType === "transit" ? (
+                <div className="rounded-[1.7rem] border border-slate-200 bg-white p-5 sm:p-7">
+                  <div className="grid gap-4 md:grid-cols-3">
+                    {localBenefits.map((benefit, index) => (
+                      <div key={benefit} className="border-b border-slate-100 pb-4 last:border-b-0 md:border-b-0 md:border-r md:pb-0 md:pr-4 md:last:border-r-0">
+                        <span className="mb-3 inline-flex h-8 w-8 items-center justify-center rounded-full bg-blue-600 text-sm font-bold text-white">{index + 1}</span>
+                        <p className="text-sm font-semibold leading-6 text-slate-700">{benefit}</p>
+                      </div>
+                    ))}
+                  </div>
+                  {localCases.length ? (
+                    <div className="mt-5 rounded-[1.25rem] bg-blue-50/70 p-4 text-sm leading-6 text-slate-700">
+                      <span className="font-bold text-slate-950">Contoh: </span>
+                      {localCases[0][0]}{localCases[0][1] ? ` — ${localCases[0][1]}` : ""}
+                    </div>
+                  ) : null}
+                </div>
+              ) : null}
+
+              {areaVisualType === "humid" || areaVisualType === "coastal" ? (
+                <div className="grid gap-4 lg:grid-cols-[0.85fr_1.15fr] lg:items-start">
+                  <div className="rounded-[1.7rem] border border-blue-100 bg-blue-600 p-5 text-white sm:p-7">
+                    <p className={`${typography.eyebrow} text-blue-100`}>{areaVisualType === "humid" ? "AREA LEMBAP" : "AREA PESISIR"}</p>
+                    <h3 className={`mt-3 ${typography.cardTitle}`}>{areaVisualType === "humid" ? "Jangan asal pilih AC untuk ruang lembap." : "Panas pesisir butuh AC yang kerjanya stabil."}</h3>
+                    <p className="mt-3 text-sm leading-7 text-blue-50">{areaContent.localContext}</p>
+                  </div>
+                  <div className="rounded-[1.7rem] border border-slate-200 bg-white p-5 sm:p-7">
+                    <h3 className={`mb-4 ${typography.cardTitle} text-slate-950`}>Yang dicek dulu</h3>
+                    <div className="grid gap-3 sm:grid-cols-2">
+                      {localBenefits.map((benefit) => (
+                        <div key={benefit} className="flex gap-3 text-sm leading-6 text-slate-700">
+                          <span className="mt-1 h-2.5 w-2.5 shrink-0 rounded-full bg-blue-600" />
+                          <span>{benefit}</span>
+                        </div>
+                      ))}
+                    </div>
+                    {localLandmarks.length ? <div className="mt-5 flex flex-wrap gap-2">{localLandmarks.slice(0, 5).map((landmark) => <span key={landmark} className="rounded-full bg-blue-50 px-3 py-2 text-xs font-bold text-blue-700">{landmark}</span>)}</div> : null}
+                  </div>
+                </div>
+              ) : null}
+
+              {areaVisualType === "disambiguation" ? (
+                <div className="grid gap-4 lg:grid-cols-[0.9fr_1.1fr]">
+                  <div className="rounded-[1.7rem] border border-amber-200 bg-amber-50 p-5 sm:p-7">
+                    <p className={`${typography.eyebrow} text-amber-700`}>CATATAN AREA</p>
+                    <h3 className={`mt-3 ${typography.cardTitle} text-slate-950`}>Ini Karanganyar, Kebumen — bukan Karanganyar Solo.</h3>
+                    <p className="mt-3 text-sm leading-7 text-slate-700">Halaman ini untuk pembeli AC di wilayah Karanganyar, Kabupaten Kebumen. Stok, pengiriman, dan opsi pemasangan tetap dikonfirmasi dulu sebelum pembelian.</p>
+                  </div>
+                  <div className="rounded-[1.7rem] border border-slate-200 bg-white p-5 sm:p-7">
+                    <h3 className={`mb-4 ${typography.cardTitle} text-slate-950`}>Kebutuhan yang dilayani</h3>
+                    <ul className="space-y-3 text-sm leading-6 text-slate-700">
+                      {localBenefits.map((benefit) => <li key={benefit}>• {benefit}</li>)}
+                    </ul>
+                  </div>
+                </div>
+              ) : null}
+
+              {areaVisualType === "default" ? (
+                <div className="grid gap-5 lg:grid-cols-3">
+                  {areaContent.benefits.length ? (
+                    <div className="rounded-[1.45rem] border border-slate-200 bg-white p-6">
+                      <h3 className={`mb-4 ${typography.cardTitle} text-slate-950`}>{`Kenapa relevan di ${item.areaName}`}</h3>
+                      <ul className="space-y-3">
+                        {localBenefits.map((benefit) => (
+                          <li key={benefit} className="rounded-2xl border border-slate-200 bg-[#f8fbff] p-4 text-sm font-semibold leading-6 text-slate-700">
+                            {benefit}
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
+                  ) : null}
+                  {areaContent.cases.length ? (
+                    <div className="rounded-[1.45rem] border border-slate-200 bg-white p-6">
+                      <h3 className={`mb-4 ${typography.cardTitle} text-slate-950`}>{`Contoh kebutuhan dari ${item.areaName}`}</h3>
+                      <ul className="space-y-3">
+                        {localCases.map(([caseTitle, caseDetail]) => (
+                          <li key={caseTitle} className="rounded-2xl border border-slate-200 bg-[#f8fbff] p-4 text-sm leading-6 text-slate-700">
+                            <span className="block font-bold text-slate-950">{caseTitle}</span>
+                            {caseDetail ? <span className="mt-1 block text-slate-600">{caseDetail}</span> : null}
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
+                  ) : null}
+                  {areaContent.landmarks.length ? (
+                    <div className="rounded-[1.45rem] border border-slate-200 bg-white p-6">
+                      <h3 className={`mb-4 ${typography.cardTitle} text-slate-950`}>Landmark &amp; titik lokal yang sering dilayani</h3>
+                      <div className="flex flex-wrap gap-2">
+                        {localLandmarks.map((landmark) => (
+                          <span key={landmark} className="rounded-full border border-slate-200 bg-[#f8fbff] px-3 py-2 text-xs font-bold text-slate-700">
+                            {landmark}
+                          </span>
+                        ))}
+                      </div>
+                    </div>
+                  ) : null}
+                </div>
+              ) : null}
             </>
           )}
 
@@ -316,7 +434,7 @@ export default async function AreaPage({ params }) {
         </section>
       ) : null}
 
-      <section id="estimasi-anggaran" className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8 lg:py-12">
+      <section id="estimasi-anggaran" className="mx-auto max-w-7xl px-4 py-7 sm:px-6 lg:px-8 lg:py-11">
         <div className="rounded-[1.7rem] border border-blue-100 bg-blue-50 p-5 sm:p-6 lg:p-8">
           <h2 className={`mb-3 text-center ${typography.sectionTitle} text-slate-950`}>
             {isHumanPilot ? "Estimasi awal sebelum beli AC di Purwokerto" : "Estimasi Anggaran AC + Pasang"}
@@ -369,18 +487,18 @@ export default async function AreaPage({ params }) {
         <AreaProcess item={item} processSteps={processSteps} />
       )}
 
-      <section className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8 lg:py-12">
+      <section className="mx-auto max-w-7xl px-4 py-7 sm:px-6 lg:px-8 lg:py-11">
         <SectionTitle
           eyebrow="PILIHAN AC"
           title={isHumanPilot ? "Mulai dari ukuran ruang, baru pilih merek" : "Mulai dari brand atau kebutuhan"}
           description={isHumanPilot ? "Brand tetap penting, tapi ukuran ruangan, daya listrik, dan pola pemakaian menentukan pilihan yang paling aman." : "Saat memilih merek, mulai dari ukuran ruangan, daya listrik, anggaran, dan jam pemakaian."}
         />
-        <div className="mb-5 grid grid-cols-2 gap-4 lg:grid-cols-3">{visibleBrandLinks.map(([title, href]) => <Link key={href} href={href} prefetch={false} className="group rounded-[22px] border border-slate-200 bg-white p-4 transition hover:-translate-y-1 hover:border-blue-200"><h3 className={`mb-2 ${typography.cardTitle} text-slate-950`}>{title}</h3><span className="inline-flex items-center gap-2 text-xs font-bold text-blue-700 sm:text-sm">Lihat pilihan →</span></Link>)}</div>
-        <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-4">{visibleCategoryLinks.map(([title, href, description]) => <Link key={href} href={href} prefetch={false} className="rounded-[1.35rem] border border-slate-200 bg-white p-5 text-center transition hover:-translate-y-1 hover:border-blue-200"><h3 className={`mb-3 ${typography.cardTitle} text-slate-950`}>{title}</h3><p className="text-xs leading-6 text-slate-500">{description}</p></Link>)}</div>
+        <div className="mb-5 grid grid-cols-2 gap-3 lg:grid-cols-3">{visibleBrandLinks.map(([title, href]) => <Link key={href} href={href} prefetch={false} className="group rounded-[22px] border border-slate-200 bg-white p-4 transition hover:-translate-y-1 hover:border-blue-200"><h3 className={`mb-2 ${typography.cardTitle} text-slate-950`}>{title}</h3><span className="inline-flex items-center gap-2 text-xs font-bold text-blue-700 sm:text-sm">Lihat pilihan →</span></Link>)}</div>
+        <div className="grid gap-3 md:grid-cols-2 lg:grid-cols-4">{visibleCategoryLinks.map(([title, href, description]) => <Link key={href} href={href} prefetch={false} className="rounded-[1.35rem] border border-slate-200 bg-white p-5 text-center transition hover:-translate-y-1 hover:border-blue-200"><h3 className={`mb-3 ${typography.cardTitle} text-slate-950`}>{title}</h3><p className="text-xs leading-6 text-slate-500">{description}</p></Link>)}</div>
       </section>
 
       {item.nearbyAreaLinks && item.nearbyAreaLinks.length > 0 && (
-        <section className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8 lg:py-12">
+        <section className="mx-auto max-w-7xl px-4 py-7 sm:px-6 lg:px-8 lg:py-11">
           <SectionTitle eyebrow={`AREA TERDEKAT ${item.areaName.toUpperCase()}`} title={`Jual AC di area terdekat ${item.areaName}`} description={`Cek ketersediaan AC dan layanan di area sekitar ${item.areaName} untuk perbandingan atau kebutuhan area lain.`} />
           <div className={isHumanPilot ? "mx-auto flex max-w-4xl flex-wrap justify-center gap-3" : "grid gap-3 sm:grid-cols-2 lg:grid-cols-3"}>
             {item.nearbyAreaLinks.map(([areaLabel, areaPath]) => (
@@ -399,12 +517,12 @@ export default async function AreaPage({ params }) {
         </section>
       )}
 
-      <section className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8 lg:py-12">
+      <section className="mx-auto max-w-7xl px-4 py-7 sm:px-6 lg:px-8 lg:py-11">
         <SectionTitle eyebrow="LINK PENTING" title={isHumanPilot ? "Halaman yang paling membantu sebelum beli" : "Halaman pendukung sebelum chat"} />
         <div className="mx-auto flex max-w-4xl flex-wrap justify-center gap-3">{pageLinks.map(([label, href]) => <Link key={href} href={href} prefetch={false} className="rounded-full border border-slate-200 bg-white px-4 py-2 text-sm font-semibold text-slate-700 transition hover:-translate-y-1 hover:border-blue-300/40 hover:text-blue-700">{label}</Link>)}</div>
       </section>
 
-      <section className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8 lg:py-12">
+      <section className="mx-auto max-w-7xl px-4 py-7 sm:px-6 lg:px-8 lg:py-11">
         <div className="rounded-[1.7rem] border border-slate-200 bg-white p-6 shadow-sm sm:p-8">
           <div className="grid gap-6 lg:grid-cols-[1.05fr_0.95fr] lg:items-start">
             <div>
