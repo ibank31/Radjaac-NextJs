@@ -1,414 +1,197 @@
 # RADJA AC Growth Strategy
 
-Dokumen ini adalah strategi pertumbuhan aktif RADJA AC untuk SEO lokal, ekspansi area, B2B/proyek, katalog, dan lead WhatsApp.
+Dokumen ini adalah strategi pertumbuhan agresif RADJA AC untuk SEO lokal, ekspansi area, B2B/proyek, katalog, dan lead WhatsApp.
 
-Source repo terbaru tetap menjadi sumber kebenaran teknis. Dokumen ini mengarahkan prioritas ekspansi, bukan menggantikan audit source atau live production.
+Source repo terbaru tetap sumber kebenaran teknis. Dokumen ini menetapkan prioritas ekspansi yang ofensif.
 
 ## Konteks & Tujuan Bisnis
 
-Konteks kepemilikan dan monetisasi (wajib jadi dasar semua keputusan):
+Konteks monetisasi (dasar semua keputusan):
 
-- Website dibangun oleh freelancer atas izin owner toko. Situs **tidak terhubung** ke Google Business Profile (GBP), sosial media, atau marketplace milik toko.
-- Lead WhatsApp masuk ke **nomor freelancer**, lalu diteruskan ke toko dengan margin per unit.
-- Karena itu, **ukuran keberhasilan utama adalah lead WhatsApp yang masuk ke nomor di situs**, bukan sekadar ranking atau traffic mentah.
+- Lead WhatsApp masuk ke nomor di situs, lalu diteruskan ke toko dengan margin per unit.
+- **Ukuran keberhasilan utama: lead WhatsApp berkualitas ke nomor situs.** Itu yang dikejar, bukan traffic mentah.
 
 Realita kompetisi head-term:
 
-- Untuk head-term inti `AC Purwokerto` / `AC Banyumas`, **Map Pack (GBP) toko dan sosial medianya akan menang**. Bahkan bila peringkat organik menang, lead lewat GBP toko tetap masuk ke nomor toko — bukan ke nomor situs.
-- Karena itu situs **tidak bertarung frontal** di head-term Banyumas/Purwokerto. Banyumas/Purwokerto dipertahankan sebagai **brand hub + penangkap long-tail**, bukan medan tempur utama.
+- Untuk head-term `AC Purwokerto` / `AC Banyumas`, Map Pack (GBP) toko menang dan lead-nya masuk ke nomor toko. Maka situs tidak buang energi bertarung frontal di situ.
+- Banyumas/Purwokerto dipakai sebagai **brand hub + penangkap long-tail** — fondasi kuat, bukan medan tempur utama.
 
 Arah pertumbuhan agresif (di sinilah lead jadi milik situs):
 
-- **Target utama: luar Banyumas, fokus Jawa Tengah** (Kebumen, Cilacap, Purbalingga, Banjarnegara, Tegal, dan kota Jateng lain di luar jangkauan fisik/GBP toko).
-- **Long-tail & informational buyer-intent** — panduan, kalkulator PK, perbandingan, "harga pasang AC", "AC kost banyak unit".
-- **B2B / pengadaan / proyek / multi-unit** — nilai per-transaksi tinggi, nyaris tidak lewat Map Pack.
+- **Target utama: luar Banyumas, gas penuh ke Jawa Tengah** (Kebumen, Cilacap, Purbalingga, Banjarnegara, Tegal, dan kota Jateng lain di luar jangkauan GBP toko).
+- **Long-tail & buyer-intent** — panduan, kalkulator PK, perbandingan, “harga pasang AC”, “AC kost banyak unit”.
+- **B2B / pengadaan / proyek / multi-unit** — nilai per-transaksi tinggi, nyaris tidak lewat Map Pack. Ini prioritas ofensif utama.
 
-## Data & Input Keputusan (yang benar-benar kita punya)
+## Data & Input Keputusan
 
-Keputusan ekspansi/polish memakai data yang benar-benar tersedia, bukan data yang diasumsikan:
+Keputusan ekspansi memakai data yang benar-benar tersedia:
 
-- **Cloudflare Analytics (read-only)** — sumber utama traffic: page views, pengunjung unik, requests, negara/referrer, status code, cache, ancaman WAF. Ini data primer yang selalu tersedia.
-- **Posisi organik / long-tail (cek live)** — audit on-page langsung ke URL live (title, meta, canonical, H1, schema, status HTTP) + riset SERP/kompetitor lewat web.
-- **Kualitas lead WhatsApp** — sinyal konversi paling bernilai; dievaluasi dari chat WA yang masuk ke nomor situs.
+- **Cloudflare Analytics (read-only)** — sumber utama traffic: page views, pengunjung unik, requests, negara/referrer, status code, cache, WAF.
+- **Posisi organik / long-tail (cek live)** — audit on-page langsung ke URL live + riset SERP/kompetitor.
+- **Kualitas lead WhatsApp** — sinyal konversi paling bernilai.
 
-Sumber sekunder (hanya bila tersedia via export manual / Google Drive, bukan koneksi langsung):
+Sekunder (bila tersedia via export): GSC (query, CTR, impresi, indexing) dan GA4 (`whatsapp_click`, `generate_lead`).
 
-- **Google Search Console (GSC)** — query, CTR, impresi, indexing. Tidak ada koneksi langsung; pakai hanya bila owner meng-export.
-- **Google Analytics 4 (GA4)** — event `whatsapp_click`, `generate_lead`. Tidak ada koneksi langsung; pakai hanya bila owner meng-export.
-
-Aturan: jangan menahan keputusan hanya karena GSC/GA4 tidak tersedia. Gunakan Cloudflare Analytics + posisi organik live + kualitas lead WA sebagai dasar; perlakukan GSC/GA4 sebagai pelengkap opsional.
+Aturan: jangan menahan keputusan hanya karena GSC/GA4 belum ada. Gerak pakai Cloudflare Analytics + posisi organik live + kualitas lead WA; GSC/GA4 pelengkap.
 
 ## Misi Besar
 
-RADJA AC membangun website sebagai mesin lead untuk:
+RADJA AC adalah mesin lead untuk:
 
 - pembelian AC rumah dan usaha
 - katalog AC multi-brand
 - area lokal dan regional
 - pengadaan AC banyak unit
-- WhatsApp lead yang bisa diukur
+- WhatsApp lead yang terukur
 
-Fokus utama bukan sekadar traffic, tetapi lead berkualitas yang masuk melalui WhatsApp ke nomor situs.
+Fokus: lead berkualitas ke nomor situs.
 
 ## Basis Authority
 
-Basis kepercayaan RADJA AC tetap:
+Basis kepercayaan RADJA AC:
 
-- Purwokerto
-- Banyumas
-- Sokaraja
+- Purwokerto, Banyumas, Sokaraja
 - showroom/gudang Pamijen, Sokaraja, Banyumas
 - bukti pengiriman/proyek
-- konsultasi PK
-- cek stok
-- pengiriman unit
-- opsi pemasangan yang dikonfirmasi
+- konsultasi PK, cek stok, pengiriman unit armada sendiri, pemasangan bergaransi 1 bulan
 
-Homepage tetap brand hub. Jangan mengubah homepage menjadi city-money-page tunggal.
+Homepage tetap brand hub. Jangan ubah homepage jadi city-money-page tunggal.
 
-## Kondisi Aktif Pasca Migrasi — 2026-06-04
+## Kondisi Aktif Pasca Migrasi
 
-Migrasi Next.js dan technical SEO dasar sudah stabil berdasarkan repo/live/Cloudflare Analytics (sampel GSC bila tersedia):
+Migrasi Next.js dan technical SEO dasar sudah stabil:
 
-- URL utama final memakai `https://www.radjaac.com/...`.
-- Sitemap berisi URL final, bukan legacy redirect.
-- Robots, canonical, HTTPS, dan www final sehat pada audit owner.
-- Cek live (curl/audit on-page) membantah klaim `de-index total`; sampel money page utama terbaca penuh, bukan SPA lama.
-- GA4 memakai gtag langsung dengan event `whatsapp_click` dan `generate_lead` (datanya dipakai bila di-export).
+- URL final `https://www.radjaac.com/...`, sitemap berisi URL final, robots/canonical/HTTPS/www sehat.
+- Money page utama terbaca penuh dan terindeks.
+- GA4 memakai gtag langsung (`whatsapp_click`, `generate_lead`).
 
-Implikasi strategi:
+Implikasi: fondasi sudah kuat, jadi fokus sekarang adalah **menyerang** — perkuat money page, ekspansi terarah ke Jateng + B2B, dan jaga kualitas lead. Publish halaman baru jalan terus selama tiap halaman unik dan kuat.
 
-- Tidak perlu freeze total.
-- Jangan ekspansi besar serentak.
-- Prioritas 2–4 minggu pertama adalah stabilisasi sinyal organik, query mapping, dan kualitas lead WA — dipantau via Cloudflare Analytics + posisi organik live.
-- Halaman baru tetap boleh, tetapi hanya batch kecil dan harus mengikuti jadwal post-migration.
+## Growth Schedule
 
-## Post-Migration Growth Schedule
+Jadwal ini menjaga ritme batch tetap sehat di mata Google sambil terus menyerang — bukan menahan diri.
 
-### H+0 sampai H+7
+### Minggu 1
 
-Fokus growth bukan tambah halaman, tetapi memastikan fondasi terbaca Google dan lead tracking stabil.
+- polish copy money page prioritas supaya makin tegas dan konversi
+- tambah internal link kontekstual yang membantu user
+- request indexing untuk URL final penting yang baru diedit
+- pantau traffic (Cloudflare) dan validasi event WA
 
-Boleh:
+### Minggu 2
 
-- polish copy kecil pada halaman prioritas
-- tambah internal link kontekstual bila benar-benar membantu user
-- request indexing terbatas untuk URL final www yang baru diedit penting
-- pantau traffic di Cloudflare Analytics
-- validasi event WA (GA4 Realtime/DebugView bila tersedia)
-- cek posisi organik live untuk URL prioritas (GSC URL Inspection bila tersedia)
-
-Tahan:
-
-- publish banyak area page
-- publish banyak katalog page
-- metro jauh retail generik
-- artikel transaksional baru yang memakan money page
-
-### H+7 sampai H+14
-
-Boleh publish 1–2 halaman maksimal jika memenuhi decision gates.
+Publish 1–2 halaman kuat yang memenuhi decision gates.
 
 Prioritas:
 
-1. polish URL yang sudah live tetapi belum kuat
-2. satu katalog buyer-intent P1 bila template dan internal link siap
-3. satu area Tier 1 bila copy unik dan proof cukup
+1. money page yang sudah live tapi belum maksimal — buat lebih tajam
+2. satu katalog buyer-intent P1
+3. satu area Tier 1 dengan copy unik dan proof kuat
 
-Jangan publish jika hanya karena “toko AC” terasa jauh di SERP. Ranking head-term lokal butuh waktu, recrawl, CTR, dan authority; bukan diselesaikan dengan menambah puluhan URL.
+### Minggu 3–4
 
-### H+14 sampai H+30
+Publish 2–3 halaman per batch dengan jeda 7–10 hari. Setelah tiap batch: live check 200/canonical/sitemap, cek route/redirect collision, request indexing target penting, pantau traffic + kualitas chat WA.
 
-Boleh publish 2–3 halaman per batch dengan jeda 7–10 hari.
+Kalau muncul issue canonical/redirect/not-indexed yang menyentuh money page, rapikan dulu lalu lanjut menyerang.
 
-Setelah setiap batch:
+### Bulan 2+
 
-- live check 200/canonical/sitemap
-- cek tidak ada route/redirect collision
-- request indexing terbatas untuk target final penting
-- pantau traffic & referrer di Cloudflare Analytics
-- pantau kualitas chat WA (GSC pages/queries + GA4 lead event bila tersedia via export)
-
-Jika muncul issue canonical, redirect, not indexed yang menyentuh money page, hentikan batch berikutnya dan polish dulu.
-
-### H+30 ke atas
-
-Boleh naik ke 3–5 halaman per batch jika:
-
-- Cloudflare Analytics + posisi organik mulai memberi sinyal positif
-- lead WA stabil (GA4 `generate_lead` bila tersedia)
-- halaman existing tidak saling kanibal
-- internal link tetap natural
-- proof/trust dan operasional mendukung
+Naik ke 3–5 halaman per batch saat sinyal positif: traffic/posisi organik naik, lead WA stabil, halaman tidak kanibal, internal link natural, proof/operasional mendukung.
 
 ## Prinsip Ekspansi
 
-Ekspansi memakai dua cincin, dengan tilt utama ke luar Banyumas (Jawa Tengah) + B2B:
+Ekspansi memakai dua cincin dengan tilt utama ke luar Banyumas (Jawa Tengah) + B2B:
 
-1. Cincin dekat untuk retail-area capture:
-   - Banyumas Raya (brand hub + long-tail, bukan medan tempur head-term)
-   - Jawa Tengah (target utama ekspansi)
-   - DI Yogyakarta
+1. Cincin dekat (retail-area capture): Banyumas Raya (brand hub + long-tail), Jawa Tengah (target utama), DI Yogyakarta.
+2. Cincin jauh (B2B/proyek): Jawa Barat, Banten, DKI Jakarta, Jawa Timur.
 
-2. Cincin jauh untuk B2B/proyek:
-   - Jawa Barat
-   - Banten
-   - DKI Jakarta
-   - Jawa Timur
-
-Kota besar jauh penting, tetapi tidak boleh diserang dengan retail page biasa sebelum trust, proof, B2B assets, data Cloudflare Analytics, dan data lead cukup kuat.
+Kota besar jauh diserang lewat B2B/proyek lebih dulu — itu pintu masuk paling kuat dan bernilai tinggi, bukan retail page generik.
 
 ## Area Aktif Saat Ini
 
-Area lokal dan regional yang sudah ada di source repo terbaru:
+Area lokal dan regional yang sudah live:
 
-- `/jual-ac-purwokerto`
-- `/jual-ac-banyumas`
-- `/jual-ac-sokaraja`
-- `/jual-ac-jatilawang`
-- `/jual-ac-cilongok`
-- `/jual-ac-ajibarang`
-- `/jual-ac-baturraden`
-- `/jual-ac-wangon`
-- `/jual-ac-karanglewas`
-- `/jual-ac-kembaran`
-- `/jual-ac-patikraja`
-- `/jual-ac-rawalo`
-- `/jual-ac-yogyakarta`
-- `/jual-ac-semarang`
-- `/jual-ac-solo`
-- `/jual-ac-purbalingga`
-- `/jual-ac-cilacap`
-- `/jual-ac-kroya`
-- `/jual-ac-majenang`
-- `/jual-ac-sidareja`
-- `/jual-ac-kesugihan`
-- `/jual-ac-adipala`
-- `/jual-ac-kebumen`
-- `/jual-ac-gombong` (child Kebumen, ditulis gaya quoted-key di `areaItems`)
-- `/jual-ac-karanganyar-kebumen` (child Kebumen)
-- `/jual-ac-kutowinangun` (child Kebumen)
-- `/jual-ac-tegal`
-- `/jual-ac-banjarnegara`
-- `/jual-ac-sumbang` (child Banyumas, promoted 2026-06)
-- `/jual-ac-kedungbanteng` (child Banyumas, promoted 2026-06)
-- `/jual-ac-kalibagor` (child Banyumas, promoted 2026-06)
-- `/jual-ac-magelang` (regional Jateng/Borobudur, published 2026-06-10)
-- `/jual-ac-pekalongan` (regional Pantura, published 2026-06-10)
-- `/jual-ac-salatiga` (regional koridor Semarang–Solo, published 2026-06-10)
+- `/jual-ac-purwokerto`, `/jual-ac-banyumas`, `/jual-ac-sokaraja`, `/jual-ac-jatilawang`, `/jual-ac-cilongok`, `/jual-ac-ajibarang`, `/jual-ac-baturraden`, `/jual-ac-wangon`, `/jual-ac-karanglewas`, `/jual-ac-kembaran`, `/jual-ac-patikraja`, `/jual-ac-rawalo`
+- `/jual-ac-yogyakarta`, `/jual-ac-semarang`, `/jual-ac-solo`, `/jual-ac-purbalingga`, `/jual-ac-cilacap`, `/jual-ac-kroya`, `/jual-ac-majenang`, `/jual-ac-sidareja`, `/jual-ac-kesugihan`, `/jual-ac-adipala`, `/jual-ac-kebumen`
+- `/jual-ac-gombong`, `/jual-ac-karanganyar-kebumen`, `/jual-ac-kutowinangun` (child Kebumen, gaya quoted-key di `areaItems`)
+- `/jual-ac-tegal`, `/jual-ac-banjarnegara`
+- `/jual-ac-sumbang`, `/jual-ac-kedungbanteng`, `/jual-ac-kalibagor` (child Banyumas, promoted 2026-06)
+- `/jual-ac-magelang`, `/jual-ac-pekalongan`, `/jual-ac-salatiga` (regional Jateng, published 2026-06-10)
 
-Standar konten area sekarang: tiap halaman wajib punya `localContext` unik, minimal 5 `localLandmarks`, 3 `localBenefits`, 3 `localCases`, `clusterType` yang benar, dan `localFaq` berbasis lokasi (lihat `docs/source/radjaac/RADJAAC_AREA_PAGE_BLUEPRINT.md`). Cluster dipetakan di `areaClusterMap` (`content/areas/cluster-map.js`). Staged draft (Magelang, Salatiga, Pekalongan, Pemalang, Brebes, Wonosobo, Temanggung, Kudus, Jepara, Demak, dan child Kebasen/Somagede/Bobotsari/Kalimanah/Kutasari/Slawi/Adiwerna/Talang/Mandiraja/Klampok/Bawang Banjarnegara) sudah ditulis ulang ke standar ini tetapi belum live.
+Standar konten area: tiap halaman wajib punya `localContext` unik, minimal 5 `localLandmarks`, 3 `localBenefits`, 3 `localCases`, `clusterType` benar, dan `localFaq` berbasis lokasi (lihat `RADJAAC_AREA_PAGE_BLUEPRINT.md`). Cluster dipetakan di `areaClusterMap` (`content/areas/cluster-map.js`).
 
-Kalau daftar ini berubah, cek `content/routes.js`, `content/areas/` (data area modular + `cluster-map.js`), sitemap live, dan live 200.
+Kalau daftar berubah, cek `content/routes.js`, `content/areas/`, sitemap live, dan live 200.
 
 ## Retail Area Priority
 
-Kota yang layak untuk retail-area page atau polish serius:
+Kota untuk retail-area page atau polish serius: Purwokerto, Banyumas, Sokaraja, Semarang, Yogyakarta, Solo, Cilacap, Kebumen, Tegal, Purbalingga, Banjarnegara, Magelang.
 
-- Purwokerto
-- Banyumas
-- Sokaraja
-- Semarang
-- Yogyakarta
-- Solo
-- Cilacap
-- Kebumen
-- Tegal
-- Purbalingga
-- Banjarnegara
-- Magelang
+Prioritas:
 
-Prioritas dekat:
-
-1. Pertahankan Purwokerto/Banyumas/Sokaraja sebagai fondasi trust + brand hub (jangan bertarung frontal head-term Map Pack toko).
-2. Perkuat Banyumas ring: Ajibarang, Baturraden, Wangon, Karanglewas, Kembaran, Patikraja, Rawalo.
-3. Polish regional Jawa Tengah yang sudah live sebelum membuat banyak kota baru.
-4. Cilacap sudah live sebagai hub regional; child Cilacap seperti Kroya, Majenang, Sidareja, Kesugihan, dan Adipala harus tetap diperlakukan sebagai child, bukan semua dipromosikan setara homepage.
-5. Jika ingin menambah area baru setelah jadwal stabilisasi, prioritaskan kota Jawa Tengah di luar Banyumas (lebih aman daripada metro jauh dan sesuai tilt strategi).
+1. Pegang Purwokerto/Banyumas/Sokaraja sebagai fondasi trust + brand hub.
+2. Kuasai Banyumas ring: Ajibarang, Baturraden, Wangon, Karanglewas, Kembaran, Patikraja, Rawalo.
+3. Pertajam regional Jawa Tengah yang sudah live sambil terus tambah kota Jateng baru.
+4. Cilacap sebagai hub regional; Kroya, Majenang, Sidareja, Kesugihan, Adipala diperlakukan sebagai child yang kuat.
+5. Saat menambah area baru, dahulukan kota Jawa Tengah di luar Banyumas — itu lahan paling subur untuk lead milik situs.
 
 ## B2B-First Priority
 
-Kota besar yang lebih aman masuk lewat B2B/proyek dulu:
+Kota besar yang diserang lewat B2B/proyek lebih dulu: Bandung, Bekasi, Tangerang, Tangerang Selatan, Jakarta (Barat/Selatan/Utara/Timur/Pusat), Surabaya, Malang, Karawang, Purwakarta, Cilegon.
 
-- Bandung
-- Bekasi
-- Tangerang
-- Tangerang Selatan
-- Jakarta Barat
-- Jakarta Selatan
-- Jakarta Utara
-- Jakarta Timur
-- Jakarta Pusat
-- Surabaya
-- Malang
-- Karawang
-- Purwakarta
-- Cilegon
-
-Untuk kota ini, jangan membuat retail page generik yang seolah-olah RADJA AC punya toko lokal di sana. Gunakan angle:
+Untuk kota ini, masuk dengan angle yang bernilai tinggi:
 
 - pengadaan unit AC original
 - kantor/ruko/proyek
 - hotel/guest house/kost banyak unit
-- pengiriman unit
-- konsultasi spesifikasi
-- koordinasi instalasi bila memungkinkan
+- pengiriman unit armada sendiri
+- konsultasi spesifikasi + pemasangan bergaransi
 - brief via WhatsApp
 
-## Coverage-Only / Mention Dulu
+Jangan buat retail page generik yang berpura-pura punya toko lokal di sana — B2B jauh lebih kuat dan jujur.
 
-Area yang lebih aman disebut sebagai coverage dulu:
+## Coverage & Mention
 
-- Sleman
-- Bantul
-- Kulon Progo
-- Gunungkidul
-- Kudus
-- Jepara
-- Tasikmalaya
-- Sukabumi
-- Kediri
-- Madiun
-- Sidoarjo
-- Gresik
-- Jember
-- Pasuruan
-- Mojokerto
+Area yang disebut sebagai coverage di halaman induk yang kuat: Sleman, Bantul, Kulon Progo, Gunungkidul, Kudus, Jepara, Tasikmalaya, Sukabumi, Kediri, Madiun, Sidoarjo, Gresik, Jember, Pasuruan, Mojokerto.
 
-Jangan buat halaman tipis untuk area coverage-only. Sebut di halaman induk yang lebih kuat jika relevan.
+Kudus dan Jepara sudah punya draft regional kuat (Kudus = industrial/kretek, Jepara = industrial/mebel) dengan pembeda intent B2B yang jelas. Publish per sinyal traffic/lead dan kapasitas batch.
 
-> Catatan 2026-06-10: Kudus dan Jepara kini punya draft regional yang sudah ditulis ulang ke standar konten lokal (Kudus = cluster industrial/kretek, Jepara = cluster industrial/mebel). Keduanya tidak lagi sekadar coverage-only karena punya pembeda intent B2B yang jelas, tetapi tetap ditahan sampai ada sinyal traffic/lead dan kapasitas batch. Putuskan publish per data, bukan otomatis.
+## Positioning
 
-## Tunda Build
+Untuk area tanpa toko fisik, pakai framing kuat dan jujur:
 
-Jangan dibuat dulu kecuali ada data traffic/lead/proof yang kuat:
-
-- retail Jakarta generik
-- retail Surabaya generik
-- retail Bandung generik
-- retail Tangerang generik
-- halaman kabupaten kecil yang hanya swap nama
-- kota jauh yang tidak punya pembeda intent
-- area yang hanya akan menjadi doorway page
-
-## Positioning Aman
-
-Untuk area tanpa toko fisik RADJA AC, gunakan framing:
-
-- cek stok
+- banyak unit ready, cek stok cepat
 - konsultasi PK
-- pengiriman unit
-- opsi pemasangan
+- pengiriman unit armada sendiri
+- pemasangan bergaransi 1 bulan
 - kebutuhan rumah/toko/kost/kantor/banyak unit
-- pembayaran fleksibel COD, DP, atau transfer
+- pembayaran fleksibel: COD, DP, atau transfer
 
-Jangan gunakan framing palsu:
+Jangan pakai framing palsu: toko/cabang/showroom di kota tanpa lokasi nyata, “pemasangan pasti semua area”, “ready semua tipe”, atau “termurah”. Bukti nyata Radja AC sudah lebih kuat dari klaim kosong.
 
-- toko AC [kota] bila tidak ada toko fisik di kota itu
-- cabang [kota]
-- showroom [kota]
-- pemasangan pasti semua area
-- ready semua tipe
-- termurah
+## Syarat Sebelum Ekspansi Metro Jauh
 
-## Syarat Sebelum Ekspansi Jauh
-
-Sebelum masuk kota besar jauh seperti Bandung, Jakarta, Tangerang, Surabaya:
-
-- tracking WA harus stabil
-- lead WA ke nomor situs terbaca dan berkualitas (`generate_lead` di GA4 bila tersedia)
-- area inti punya data traffic Cloudflare + posisi organik
-- trust/proof page kuat
-- B2B page dan katalog komersial siap
-- CTA B2B jelas
-- internal link tidak berantakan
-- tidak ada route/redirect collision
+Sebelum gas penuh ke Bandung, Jakarta, Tangerang, Surabaya: tracking WA stabil, lead WA terbaca, area inti punya data traffic + posisi organik, trust/proof kuat, B2B page + katalog siap, CTA B2B jelas, internal link rapi, tidak ada route/redirect collision.
 
 ## Decision Gates
 
-Sebelum ekspansi, tambah area, atau membuat halaman baru, assistant wajib mengecek:
+Sebelum tambah area/halaman baru, cek: source repo terbaru, halaman live, sitemap/internal link, Cloudflare Analytics, posisi organik live, kualitas lead WA, proof/trust, risiko doorway/klaim lokal palsu, dan jadwal batch.
 
-- source repo terbaru
-- halaman yang sudah live
-- sitemap dan internal link
-- Cloudflare Analytics (traffic, referrer, negara) sebagai input utama
-- posisi organik / long-tail dari cek live + riset SERP
-- kualitas lead WhatsApp ke nomor situs
-- GSC pages/queries dan GA4 `whatsapp_click`/`generate_lead` bila tersedia via export
-- proof/trust yang mendukung klaim area
-- risiko doorway, konten kurang kuat, dan klaim lokal palsu
-- apakah ide sudah tercakup di source strategy lama atau belum
-- jadwal post-migration: H+0–H+7, H+7–H+14, H+14–H+30, atau H+30+
+Ekspansi gas jika: intent buyer jelas, halaman bisa unik dan kuat, internal link siap, trust/proof cukup, tracking lead terukur, risiko klaim lokal rendah.
 
-Jika ide owner belum ada di dokumen/source:
-
-- jangan langsung eksekusi
-- audit source dan live dulu
-- cari sumber/data tambahan jika menyangkut pasar, kompetitor, SERP, tren, atau kondisi yang bisa berubah
-- baru putuskan: build, polish, hold, B2B-first, coverage-only, redirect, atau wait
-
-Ekspansi boleh lanjut jika:
-
-- intent buyer jelas
-- halaman bisa unik
-- internal link siap
-- trust/proof cukup
-- tracking lead bisa diukur
-- risiko klaim lokal rendah
-- batch sesuai jadwal stabilisasi
-
-Ekspansi harus ditahan jika:
-
-- hanya swap nama area
-- template inti belum bersih
-- Cloudflare Analytics + posisi organik belum memberi sinyal cukup untuk skala batch besar
-- operasional/proof belum mendukung
-- kota terlalu jauh dan lebih cocok B2B-first
-- perubahan melebar tanpa verifikasi
+Ekspansi dirapikan dulu jika: hanya swap nama area, template inti belum bersih, atau operasional/proof belum mendukung — perbaiki, lalu lanjut menyerang.
 
 ## Cara Memilih Next Page
 
-Jangan memilih next page hanya dari feeling.
+Pilih dari data, bukan feeling: Cloudflare Analytics, posisi organik/long-tail, kualitas chat WA, kedekatan operasional, kekuatan internal link, kesiapan proof/trust.
 
-Gunakan gabungan (urut prioritas data yang kita punya):
-
-- Cloudflare Analytics: page views, referrer, negara, tren traffic
-- posisi organik / long-tail dari cek live + SERP
-- kualitas chat WA dan lead ke nomor situs
-- kedekatan operasional
-- risiko klaim lokal
-- kekuatan internal link
-- kesiapan proof/trust
-- GSC queries/pages + GA4 `whatsapp_click`/`generate_lead` bila tersedia via export
-
-Keputusan page:
-
-- build jika intent jelas, proof cukup, page bisa unik, dan batch sesuai jadwal
-- polish jika URL sudah live tapi belum kuat
-- hold jika risiko konten kurang kuat/copy tinggi
-- B2B-first jika kota besar/kompetitif
-- coverage-only jika area terlalu kecil atau terlalu jauh
-- redirect jika URL lama sudah kalah intent dengan halaman final
+Keputusan page: build (intent jelas + proof cukup + unik), polish (live tapi belum maksimal), B2B-first (kota besar), coverage (area kecil/jauh), redirect (URL lama kalah intent).
 
 ## Roadmap Aktif
 
-Fokus saat ini:
-
-1. Jaga Purwokerto/Banyumas/Sokaraja sebagai fondasi brand hub.
-2. Pastikan area Banyumas ring live, aman, dan terhubung.
-3. Pantau Cloudflare Analytics + posisi organik setelah tracking WA beres (GSC/GA4 bila tersedia).
-4. Perkuat internal link untuk halaman prioritas hanya secara kontekstual.
-5. Polish halaman regional Jawa Tengah yang sudah live sebelum ekspansi area baru besar.
-6. Tambah halaman baru mengikuti jadwal post-migration, bukan karena panik ranking.
-7. Arahkan ekspansi agresif ke regional Jawa Tengah (luar Banyumas) + B2B; jangan ekspansi metro besar sebelum data traffic + WA lead lebih matang.
-
-## Prinsip Berhenti
-
-Jangan lanjut ekspansi kalau:
-
-- Cloudflare Analytics + posisi organik belum memberi sinyal
-- WA tracking belum terbaca
-- internal link belum jelas
-- halaman baru hanya copy nama area
-- bukti/trust belum cukup untuk klaim area jauh
-- batch sebelumnya belum diverifikasi live
+1. Pegang Purwokerto/Banyumas/Sokaraja sebagai fondasi brand hub.
+2. Kuasai dan hubungkan area Banyumas ring.
+3. Pantau Cloudflare Analytics + posisi organik.
+4. Perkuat internal link halaman prioritas secara kontekstual.
+5. Pertajam regional Jawa Tengah yang live, sambil tambah kota Jateng baru.
+6. Tambah halaman mengikuti ritme batch yang sehat — terus menyerang, bukan menahan.
+7. Gas ekspansi ke regional Jawa Tengah + B2B; metro besar lewat B2B-first.
