@@ -41,7 +41,6 @@ export default function CilacapBenchmarkPage({
   packageIncludes,
   brandLinks,
   categoryLinks,
-  pageLinks,
   trustBullets,
   faqItems,
 }) {
