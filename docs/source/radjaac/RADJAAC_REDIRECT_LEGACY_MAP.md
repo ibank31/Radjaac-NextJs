@@ -34,7 +34,7 @@ Audit owner menunjukkan:
 | Legacy URL | Target URL | Status | Alasan | Internal Link Action | Sitemap Action | GSC Action | Prioritas |
 |---|---|---|---|---|---|---|---|
 | `/toko-ac-terdekat` | `/jual-ac-purwokerto` | Redirect active | Intent toko/AC lokal paling tepat ke money page Purwokerto | Link internal hanya ke target final | Legacy tidak masuk sitemap | Inspect target only | Tinggi |
-| `/instalasi-ac-banyumas` | `/jual-ac-purwokerto` | Redirect active | Legacy instalasi lokal ditangkap oleh halaman lokal utama + opsi pemasangan | Remove legacy internal link | Legacy tidak masuk sitemap | Inspect target only | Tinggi |
+| `/instalasi-ac-banyumas` | `/jual-ac-purwokerto` | Redirect active | Legacy instalasi lokal ditangkap oleh halaman lokal utama + pemasangan bergaransi | Remove legacy internal link | Legacy tidak masuk sitemap | Inspect target only | Tinggi |
 | `/instalasi-profesional` | `/pengiriman-pemasangan` | Redirect active | Intent pemasangan umum lebih tepat ke page pengiriman/pemasangan | Link ke target final | Legacy tidak masuk sitemap | Inspect target only | Tinggi |
 | `/daikin-purwokerto` | `/brand/daikin` | Redirect active | Brand intent harus konsolidasi ke brand page | Link ke brand final | Legacy tidak masuk sitemap | Inspect target only | Tinggi |
 | `/gree-purwokerto` | `/brand/gree` | Redirect active | Brand intent harus konsolidasi ke brand page | Link ke brand final | Legacy tidak masuk sitemap | Inspect target only | Tinggi |
@@ -70,14 +70,14 @@ Keputusan saat ini:
 - `/artikel/panduan-beli-ac-baru` tetap hidup sebagai buying guide: ukuran ruangan, PK, daya listrik, tipe AC, brand, garansi, stok, dan anggaran.
 - `/artikel/panduan-instalasi-ac-baru` tetap hidup sebagai installation guide: posisi indoor, outdoor, jalur pipa, drainase, listrik, dan kesiapan titik pemasangan.
 
-Merge/redirect hanya dilakukan jika audit konten terbaru membuktikan keduanya kembali mengejar intent yang sama 100%. Selama intent berbeda, lebih aman mempertahankan keduanya dan menguatkan internal link ke money page yang tepat.
+Merge/redirect hanya dilakukan jika audit konten terbaru membuktikan keduanya kembali mengejar intent yang sama 100%. Selama intent berbeda, pertahankan keduanya dan kuatkan internal link ke money page yang tepat.
 
 ## Aturan untuk Assistant/Codex
 
 - Setiap kali membuat redirect baru, update tiga hal sekaligus: internal links, sitemap, dan daftar URL untuk URL Inspection target.
 - Jangan pernah menjadikan URL redirect sebagai tujuan link di navigation, body copy, breadcrumb, CTA, atau widget related posts.
 - Jika ada dua slug untuk tema yang sama, pilih satu canonical berdasarkan peran bisnis dan intent. Yang kalah harus redirect, bukan sekadar canonical tag.
-- Jika URL lama masih muncul di SERP, jangan panik dan jangan request indexing halaman lama. Inspect target final dan pastikan internal links sudah menunjuk ke target itu.
+- Jika URL lama masih muncul di SERP, jangan request indexing halaman lama. Inspect target final dan pastikan internal links sudah menunjuk ke target itu.
 - Untuk trailing slash issues, canonical dan redirect harus konsisten; jangan biarkan dua versi 200 OK.
 - Tambahkan redirect map ke source proyek sebelum deploy batch baru, agar tidak ada orphan rewrite.
 - AI/parser audit lama tidak boleh mengalahkan curl/live/GSC.

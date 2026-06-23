@@ -6,120 +6,95 @@
 Stable source
 
 **Fungsi Dokumen**  
-Menjadi guardrail keras agar pengembangan website RADJA AC tetap jujur, efektif, aman untuk SEO, dan tidak menyimpang dari target utama: **lead WhatsApp berkualitas dari Pulau Jawa**.
+Guardrail keras yang menjaga website RADJA AC tetap kuat, jujur, dan menang di SEO, dengan satu target jelas: **lead WhatsApp berkualitas dari seluruh Pulau Jawa**. Aturan di sini bukan rem — ini pelindung mesin lead supaya posisi Radja AC tetap dominan dan tidak kena penalti yang justru mematikan lead.
 
-Aturan keras ini dikunci oleh tiga sumber risiko utama: pedoman Google Business Profile/LocalBusiness untuk akurasi lokasi; pedoman Search Central tentang helpful content, doorway pages, dan scaled content abuse; serta best practice Google untuk title link, redirects, sitemap, noindex, dan URL Inspection/Search Console. Audit publik RADJA AC juga menunjukkan aturan ini perlu ditegakkan karena beberapa area snippet sudah aman, tetapi banyak brand/katalog masih tampil terlalu Purwokerto-sentris di SERP. citeturn35search7turn35search16turn35search1turn36search0turn15search4turn36search1turn15search2turn16search0turn16search1turn17search0turn17search6turn22search0turn22search1turn22search4turn22search11
+Guardrail ini dikunci tiga sumber risiko nyata: pedoman Google Business Profile/LocalBusiness untuk akurasi lokasi; pedoman Search Central tentang helpful content, doorway pages, dan scaled content abuse; serta best practice Google untuk title link, redirects, sitemap, noindex, dan URL Inspection/Search Console.
 
 **Prinsip Utama**
 
-- Akurasi lebih penting daripada dramatisasi lokal.
-- Struktur website harus mengikuti intent dan money page, bukan kebiasaan bikin artikel sebanyak mungkin.
-- Semua perubahan besar harus memikirkan redirect, sitemap, indexing, internal link, dan dampak ke lead WA.
-- Assistant/Codex boleh mempercepat eksekusi, tetapi tidak boleh mengubah arah bisnis Radja AC.
+- Posisikan Radja AC sebagai pemain kuat. Tegas, percaya diri, dan tetap akurat.
+- Struktur website mengikuti intent dan money page — setiap halaman dibangun untuk menutup lead, bukan sekadar mengejar jumlah artikel.
+- Setiap perubahan besar dijalankan rapi: redirect, sitemap, indexing, internal link, dan dampak ke lead WA dijaga supaya momentum tidak hilang.
+- Assistant/Codex mempercepat eksekusi; arah bisnis tetap dipegang owner.
 
 ## Aturan Positioning Radja AC
 
-- Posisikan Radja AC kuat, tegas, dan percaya diri — tegas tapi tidak berlebihan dan tetap jujur.
-- Hindari istilah user-facing dan source-planning seperti `proyek kecil`, `proyek ringan`, `lead murah`, `harga-only`, `SERP lemah`, `thin content`, atau framing apa pun yang merendahkan kapasitas Radja AC.
-- Gunakan bahasa yang kuat dan tetap jujur: `supplier AC original multi-brand`, `pengadaan`, `partai besar`, `banyak unit`, `proyek`, `hotel`, `guest house`, `hospitality`, `kantor`, `ruko`, `kontraktor`, dan `developer`.
-- Klaim kuat harus berbasis bukti nyata yang sudah dipakai live: Proshop Gree resmi, sertifikat Authorized Dealer (Daikin, Midea, Hisense, Sansui), showroom dan gudang fisik, stok fisik yang bisa dicek, dokumentasi pengiriman, dan dokumentasi pemasangan.
-- Radja AC diposisikan sebagai supplier AC original multi-brand untuk rumah, toko, ruko, kantor, hotel, guest house, hospitality, kontraktor, developer, proyek, pengadaan, partai besar, dan banyak unit.
-- Untuk copy user-facing, jangan memakai kata `berbasis`; gunakan kalimat yang lebih familiar seperti `Showroom dan gudang Radja AC ada di Banyumas` atau `Radja AC melayani pengiriman dan opsi pemasangan dari Banyumas`.
-- Jangan menulis `distributor resmi` atau `dealer resmi {kota}` bila bukti resminya belum spesifik untuk klaim tersebut. Untuk brand yang sudah punya bukti, gunakan wording aman seperti `didukung Proshop Gree` atau `dokumen/sertifikat Authorized Dealer tersedia`.
-- Saat menyebut kompetitor besar, jawab dengan positioning Radja AC yang percaya diri dan berbasis bukti: supplier multi-brand, showroom/gudang fisik, stok fisik, pengadaan, pengiriman, opsi pemasangan, dan dokumentasi aktivitas nyata.
-
+- Posisikan Radja AC kuat, tegas, dan percaya diri. Berani, tidak minta maaf, dan tetap jujur.
+- Hindari istilah yang merendahkan kapasitas Radja AC seperti `proyek kecil`, `proyek ringan`, `lead murah`, `harga-only`, `SERP lemah`, atau `thin content`.
+- Gunakan bahasa kuat: `supplier AC original multi-brand`, `pengadaan`, `partai besar`, `banyak unit`, `proyek`, `hotel`, `guest house`, `hospitality`, `kantor`, `ruko`, `kontraktor`, dan `developer`.
+- Klaim kuat berdiri di atas bukti nyata yang sudah live: Proshop Gree resmi, sertifikat Authorized Dealer (Daikin, Midea, Hisense, Sansui), showroom dan gudang fisik, stok fisik yang bisa dicek, dokumentasi pengiriman, dan dokumentasi pemasangan. Bukti sekuat ini wajib ditonjolkan, bukan disembunyikan.
+- Radja AC adalah supplier AC original multi-brand untuk rumah, toko, ruko, kantor, hotel, guest house, hospitality, kontraktor, developer, proyek, pengadaan, partai besar, dan banyak unit.
+- Untuk copy user-facing, pakai kalimat familiar dan tegas seperti `Showroom dan gudang Radja AC ada di Banyumas` atau `Radja AC kirim unit dan pasang dari Banyumas`.
+- Pakai `didukung Proshop Gree` atau `sertifikat Authorized Dealer tersedia` untuk brand yang sudah terbukti. Untuk brand tanpa bukti dealer spesifik, tetap tegas dengan `original`, `bergaransi resmi brand`, `stok bisa dicek` — jangan menulis `dealer resmi {kota}` tanpa dasar.
+- Saat menghadapi kompetitor besar, jawab dengan positioning Radja AC yang percaya diri dan berbukti: supplier multi-brand, showroom/gudang fisik, stok fisik, pengadaan, pengiriman armada sendiri, pemasangan bergaransi, dan dokumentasi nyata.
 
 **Tabel Keputusan**
 
 | Area | Keputusan Keras | Owner Utama | Trigger Audit |
 |---|---|---|---|
 | Klaim lokasi | Basis fisik hanya Banyumas sampai ada alamat publik baru | Owner | Setiap page local/schema/GBP baru |
-| Area pages | Bangun sesuai Tier; jangan mass-produce | SEO + Dev | Sebelum publish batch baru |
-| Brand/katalog | Non-area page tidak boleh dipimpin keyword Purwokerto | SEO | Sebelum ganti title/H1 |
+| Area pages | Bangun terarah sesuai Tier, setiap halaman unik dan kuat | SEO + Dev | Sebelum publish batch baru |
+| Brand/katalog | Non-area page tampil Jawa-wide, bukan dikunci ke satu kota | SEO | Sebelum ganti title/H1 |
 | Redirect | URL lama wajib 301 ke URL paling relevan | Dev | Saat migrasi/merge halaman |
 | Indexing | Halaman baru masuk sitemap dan dicek di GSC | Dev + SEO | Hari publish |
-| CTA WhatsApp | Satu CTA utama per halaman | SEO + Owner | Saat review copy |
-| Harga/stok | Jangan hardcode angka pasti bila cepat berubah | Owner + SEO | Saat update katalog |
+| CTA WhatsApp | Satu CTA utama yang dominan per halaman | SEO + Owner | Saat review copy |
+| Harga/stok | Tonjolkan “banyak unit ready”; angka pasti dikonfirmasi saat order | Owner + SEO | Saat update katalog |
 | Schema | LocalBusiness hanya untuk entitas/lokasi nyata | Dev | Sebelum deploy schema |
-
-**Aturan untuk Assistant/Codex**
 
 **Rules for Assistant/Codex**
 
-- Selalu cek apakah halaman baru punya keyword, intent, CTA, dan money page target yang jelas.
-- Pertahankan pola slug yang sudah rapi: area, brand, katalog, B2B, artikel, kalkulator.
+- Pastikan halaman baru punya keyword, intent, CTA, dan money page target yang jelas dan kuat.
+- Pertahankan pola slug yang rapi: area, brand, katalog, B2B, artikel, kalkulator.
 - Jangan publish halaman yang title, H1, meta, dan CTA-nya saling bertabrakan.
 - Setiap halaman baru wajib punya internal link masuk dan keluar.
-- Semua area page wajib memakai copy aman: konsultasi PK, cek stok, pengiriman unit, opsi pemasangan.
+- Area page memakai copy tegas: konsultasi PK, cek stok, pengiriman unit, pemasangan bergaransi.
 - Jangan mengubah URL existing tanpa daftar redirect 301.
-- Jangan memperluas ke Tier 2 sebelum Tier 1 rapi.
-- Jangan memecah kategori komersial besar tanpa alasan intent yang jelas.
+- Bangun setiap Tier dengan rapi sebelum melebar, supaya tiap halaman benar-benar menutup lead.
 
 **Rules for Deep Research**
 
-- Gunakan sumber resmi/primer lebih dulu untuk statistik, schema, dan pedoman SEO.
-- Pisahkan mana data stabil, mana yang perlu refresh bulanan/kuartalan.
-- Jika ada asumsi readiness bisnis, beri label **asumsi**, jangan ditulis sebagai fakta.
-- Audit SERP area dan kompetitor harus dibedakan dari keputusan bisnis internal.
-- Jangan menyimpulkan performa organik aktual tanpa data GSC.
+- Gunakan sumber resmi/primer untuk statistik, schema, dan pedoman SEO.
+- Pisahkan data stabil dari yang perlu refresh berkala.
+- Label asumsi sebagai **asumsi**, jangan ditulis sebagai fakta.
+- Bedakan audit SERP/kompetitor dari keputusan bisnis internal.
+- Jangan menyimpulkan performa organik aktual tanpa data.
 
 **Rules for Owner/Business Decision**
 
-- Jangan setujui halaman area baru bila SOP pengiriman/opsi pemasangan per koridor belum jelas.
-- Jangan setujui money page B2B baru bila admin belum tahu data apa yang harus diminta.
-- Jangan buka halaman VRV/VRF sebagai sales page jika readiness teknis belum ada.
-- Jangan mendorong segmen pemerintah lebih dulu bila dokumen/vendor readiness belum matang.
-- Jangan fokus pada traffic mentah; ukur page berdasarkan kualitas lead WA dan kesiapan closing.
+- Buka segmen baru (area, B2B, instansi, VRV/VRF) saat SOP-nya sudah siap, supaya lead yang masuk bisa langsung ditutup, bukan menggantung.
+- Ukur halaman dari kualitas lead WA dan kesiapan closing, bukan dari traffic mentah.
 
-**Jangan Dilakukan**
+**Garis Keras — Pelindung Lead & Reputasi**
 
-1. Jangan klaim punya toko fisik di kota luar Banyumas jika tidak ada alamat publik yang benar.  
-2. Jangan membuat “cabang” atau “showroom” fiktif hanya untuk SEO lokal.  
-3. Jangan membuat Google Business Profile baru untuk kota yang tidak punya lokasi nyata.  
-4. Jangan memakai schema `LocalBusiness` untuk kota target yang bukan lokasi bisnis yang sebenarnya.  
-5. Jangan menjadikan “Purwokerto” sebagai keyword utama di halaman brand, katalog, atau B2B non-area.  
-6. Jangan membiarkan title brand/katalog tetap terlalu Purwokerto-sentris jika target halaman itu sudah Jawa-wide.  
-7. Jangan membuat area page copy-paste yang hanya mengganti nama kota.  
-8. Jangan membuat banyak halaman area sekaligus bila isi utamanya tipis dan tidak unik.  
-9. Jangan membuat halaman yang fungsi utamanya hanya menangkap keyword lalu melempar user ke halaman lain; itu pola doorway page.  
-10. Jangan memproduksi page programmatic dalam jumlah besar jika nilainya untuk user rendah.  
-11. Jangan menulis title yang berbeda jauh dari H1 utama.  
-12. Jangan menaruh beberapa heading besar yang membingungkan Google soal judul utama halaman.  
-13. Jangan menulis meta description yang berjanji sesuatu yang tidak ada di halaman.  
-14. Jangan menulis harga pasti jika stok dan harga berubah cepat.  
-15. Jangan menulis “ready semua brand/semua PK” jika belum diverifikasi hari itu.  
-16. Jangan menjanjikan pemasangan nasional tanpa SOP partner dan batas cakupan yang jelas.  
-17. Jangan membuat artikel yang memakan money page.  
-18. Jangan membuat artikel head-term transaksi seperti “harga AC 1 PK”, “jual AC 2 PK”, atau “harga AC cassette” jika katalog halaman itu menjadi prioritas.  
-19. Jangan biarkan ` /kalkulator-pk-ac` mencoba ranking untuk semua keyword transaksi kapasitas.  
-20. Jangan menghapus URL lama tanpa redirect 301 ke URL terdekat yang paling relevan.  
-21. Jangan memakai 302 untuk perpindahan halaman yang permanen.  
-22. Jangan mengubah struktur slug besar tanpa audit redirect, sitemap, dan dampak GSC.  
-23. Jangan publish halaman baru sebelum masuk sitemap.  
-24. Jangan request indexing massal tanpa memastikan canonical, robots, dan status indexability benar.  
-25. Jangan memberi `noindex` ke money page utama.  
-26. Jangan memakai canonical ke halaman induk jika halaman child sebenarnya harus berdiri sendiri.  
-27. Jangan mengandalkan `robots.txt` untuk menyelesaikan masalah duplikasi halaman yang sebenarnya butuh canonical/redirect.  
-28. Jangan membuat CTA terlalu banyak dan membingungkan; satu halaman harus punya satu CTA WA dominan.  
-29. Jangan membuka terlalu banyak nomor WhatsApp berbeda tanpa routing yang jelas.  
-30. Jangan memakai testimonial, project photo, atau klaim merek resmi yang tidak bisa dibuktikan.  
-31. Jangan memasang FAQ markup bila FAQ tidak benar-benar tampil dan relevan di halaman.  
-32. Jangan membuat halaman B2B tanpa blok “data yang harus diminta sebelum estimasi”.  
-33. Jangan mendorong halaman instansi pemerintah sebagai money page utama sebelum readiness dokumen vendor jelas.  
-34. Jangan membuat halaman `VRV/VRF` sebagai sales page sebelum ada capability, survey flow, dan partner yang benar-benar siap.  
-35. Jangan menambah halaman baru sebelum jelas target keyword, intent, dan target money page-nya.  
-36. Jangan mengubah struktur besar website tanpa audit sitemap, redirect, internal link, dan dampak GSC.  
-37. Jangan menganggap traffic artikel sebagai kemenangan bila tidak mendorong lead WA yang qualified.  
-38. Jangan menaikkan Tier 2/Tier 3 sebelum Tier 1 rapi secara snippet, internal link, dan CTA.  
-39. Jangan biarkan halaman live tanpa owner yang bertanggung jawab atas update stok/copy/CTA.  
-40. Jangan menunda audit bulanan SERP dan snippet untuk area, brand, dan katalog.
+Ini bukan keraguan. Ini yang menjaga Radja AC tetap dipercaya Google dan calon pembeli, supaya lead WA terus mengalir:
+
+1. Jangan klaim toko fisik di kota luar Banyumas tanpa alamat publik yang benar.
+2. Jangan membuat “cabang” atau “showroom” fiktif untuk SEO lokal.
+3. Jangan membuat Google Business Profile untuk kota tanpa lokasi nyata.
+4. Jangan memakai schema `LocalBusiness` untuk kota yang bukan lokasi bisnis sebenarnya.
+5. Bangun brand/katalog non-area sebagai halaman Jawa-wide yang kuat, bukan dikunci ke keyword satu kota.
+6. Setiap halaman area harus unik dan kuat — bukan copy-paste yang hanya ganti nama kota.
+7. Jangan memproduksi page programmatic massal yang tipis; itu pola doorway yang dihukum Google dan membunuh lead.
+8. Title selaras dengan H1; satu judul utama yang jelas per halaman.
+9. Meta description menjanjikan persis apa yang ada di halaman.
+10. Tonjolkan “banyak unit ready” dan harga khusus partai; angka pasti dikonfirmasi saat order karena stok bergerak cepat.
+11. Garansi unit mengikuti ketentuan resmi tiap brand; pemasangan oleh tim Radja AC bergaransi 1 bulan. Sampaikan keduanya dengan tegas.
+12. Jangan menghapus URL lama tanpa redirect 301; jangan pakai 302 untuk perpindahan permanen.
+13. Halaman baru masuk sitemap sebelum live; canonical, robots, dan indexability benar sebelum request indexing.
+14. Jangan memberi `noindex` ke money page utama.
+15. Satu CTA WA dominan per halaman dengan routing nomor yang jelas.
+16. Pakai hanya testimonial, foto proyek, dan sertifikat brand yang nyata dan bisa dibuktikan — bukti asli Radja AC sudah lebih kuat dari klaim karangan.
+17. Pasang FAQ markup hanya bila FAQ benar-benar tampil dan relevan.
+18. Setiap halaman B2B punya blok “data yang diminta sebelum penawaran” supaya admin langsung bisa balas penawaran.
+19. Ukur kemenangan dari lead WA qualified, bukan traffic artikel.
+20. Setiap halaman live punya owner yang bertanggung jawab atas update stok/copy/CTA, dan audit SERP/snippet berkala tetap jalan.
 
 **Contoh Implementasi**
 
 | Skenario | Yang Benar | Yang Salah |
 |---|---|---|
-| Buat halaman area baru | Cek Tier, tentukan intent, buat title/H1/CTA unik, masukkan sitemap, link dari katalog/brand/B2B | Publish slug baru hanya karena nama kota besar |
+| Buat halaman area baru | Tentukan intent, buat title/H1/CTA unik dan kuat, masukkan sitemap, link dari katalog/brand/B2B | Publish slug baru hanya karena nama kota besar |
 | Merge artikel lama ke katalog | Redirect 301 ke page paling relevan dan update internal link | Hapus URL lama tanpa redirect |
-| Update brand page | Kurangi bias Purwokerto bila page dimaksudkan non-area, tambahkan link ke katalog/CTA WA | Membiarkan semua brand page terlihat seperti landing lokal yang sama |
-| Tambah halaman komersial | Pisahkan menurut use case yang beda: cassette, floor standing, kantor/ruko, cafe/resto | Satu halaman berisi semua istilah komersial tanpa struktur |
-| Naik ke segmen pemerintah | Siapkan dulu readiness dokumen, alur LPSE/e-Katalog, dan template penawaran | Langsung buat money page dan berharap lead WA cepat masuk |
+| Update brand page | Jadikan halaman brand Jawa-wide yang kuat, tambah link ke katalog/CTA WA | Mengunci semua brand page seperti landing satu kota |
+| Tambah halaman komersial | Pisahkan per use case: cassette, floor standing, kantor/ruko, cafe/resto | Satu halaman menumpuk semua istilah tanpa struktur |
+| Buka segmen pemerintah | Siapkan dokumen, alur LPSE/e-Katalog, dan template penawaran, lalu garap agresif | Buat money page tanpa SOP sehingga lead menggantung |

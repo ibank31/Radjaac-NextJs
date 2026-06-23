@@ -52,7 +52,7 @@ Dokumen ini menjadi peta baca source Radja AC agar assistant/Codex masuk dari fi
 - Source repo terbaru dan live production menang atas dokumen.
 - Jangan patch sebelum jelas page type, intent, CTA, proof, dan risiko klaim.
 - Posisikan Radja AC kuat, tegas, dan jujur: supplier AC original multi-brand dengan showroom/gudang fisik, Proshop Gree resmi, dan sertifikat Authorized Dealer, yang melayani rumah, pengadaan, partai besar, banyak unit, proyek, hotel, guest house, hospitality, kantor, ruko, kontraktor, dan developer.
-- Untuk copy user-facing, pakai `Showroom dan gudang Radja AC ada di Banyumas` atau `Radja AC melayani pengiriman dan opsi pemasangan dari Banyumas`.
+- Untuk copy user-facing, pakai `Showroom dan gudang Radja AC ada di Banyumas` atau `Radja AC melayani pengiriman dan pemasangan bergaransi dari Banyumas`.
 
 ## Checklist Sebelum Patch
 

@@ -6,17 +6,17 @@
 Needs quarterly refresh
 
 **Fungsi Dokumen**  
-Menentukan segmen B2B/proyek yang paling layak dibangun sebagai money page, mana yang paling dekat ke uang, mana yang harus dikerjakan dalam 30 hari, dan mana yang lebih aman dijadikan artikel/supporting page dulu.
+Menentukan segmen B2B/proyek yang paling layak dibangun sebagai money page, mana yang paling dekat ke uang, mana yang digarap lebih dulu dalam 30 hari, dan mana yang dimatangkan sebagai artikel/supporting page sebelum naik jadi money page.
 
-Pembeda utama di sini adalah **kecepatan closing** dan **kerumitan procurement**. Untuk segmen pemerintah, peluangnya nyata tetapi jalurnya formal melalui portal pengadaan nasional, LPSE, dan e-Katalog, sehingga tanpa kesiapan administrasi dan dokumen vendor yang rapi, halaman “instansi pemerintah” berisiko menghasilkan lead yang lambat atau tidak qualified. Sebaliknya, private B2B seperti kost, hotel, kontraktor/developer, kantor/ruko, dan cafe/resto lebih dekat ke transaksi WA. Di sisi demand, DIY, Semarang, Surakarta, Bandung, Surabaya, dan Jakarta sama-sama memberi sinyal kuat untuk hospitality, pendidikan, dan properti komersial ringan.
+Pembeda utama: **kecepatan closing** dan **kerumitan procurement**. Segmen pemerintah bernilai besar dan layak dikejar; jalurnya formal lewat portal pengadaan nasional, LPSE, dan e-Katalog, jadi diserang penuh begitu dokumen vendor dan template penawaran siap supaya lead langsung qualified. Private B2B — kost, hotel, kontraktor/developer, kantor/ruko, cafe/resto — paling dekat ke transaksi WA dan jadi ujung tombak. Di sisi demand, DIY, Semarang, Surakarta, Bandung, Surabaya, dan Jakarta sama-sama memberi sinyal kuat untuk hospitality, pendidikan, dan properti komersial ringan.
 
 **Prinsip Utama**
 
-- Segmen yang dekat ke uang adalah segmen dengan brief yang cukup standar, volume unit jelas, dan keputusan pembelian relatif cepat.
-- Segmen yang butuh banyak dokumen formal atau spesifikasi teknis berat tidak boleh diprioritaskan dulu jika proof belum ada.
-- Setiap halaman B2B harus meminta data proyek yang cukup sebelum admin memberi estimasi.
-- Halaman B2B wajib lebih “brief-driven” daripada halaman area; CTA harus mengumpulkan data, bukan hanya “halo admin”.
-- Halaman B2B yang kuat selalu disambungkan ke katalog dan brand page yang relevan.
+- Segmen paling dekat ke uang punya brief standar, volume unit jelas, dan keputusan beli cepat — garap paling agresif.
+- Segmen dengan dokumen formal/spesifikasi berat digarap dengan kesiapan dokumen lebih dulu supaya lead-nya benar-benar ditutup, bukan menggantung.
+- Setiap halaman B2B mengumpulkan data proyek yang cukup agar admin langsung balas penawaran.
+- Halaman B2B wajib lebih “brief-driven” daripada halaman area; CTA mengumpulkan data, bukan sekadar “halo admin”.
+- Halaman B2B yang kuat selalu disambungkan ke katalog dan brand page relevan.
 
 **Tabel Keputusan**
 
@@ -30,25 +30,25 @@ Pembeda utama di sini adalah **kecepatan closing** dan **kerumitan procurement**
 | Sekolah/kampus | `/pengadaan-ac/sekolah-kampus` | pengadaan AC sekolah | AC kelas; AC kampus; AC ruang dosen | Banyak ruangan; listrik; durability; jadwal pemasangan | Jumlah kelas/ruang; ukuran; daya listrik; jadwal libur/pekerjaan | Supply multi-unit; dokumen usaha standar | `WA: kirim jumlah ruang kelas/kantor` | `/katalog/ac-1-5-pk`, `/katalog/ac-2-pk`, `/katalog/ac-kantor-komersial` | P2 |
 | Klinik/rumah sakit kecil | `/pengadaan-ac/klinik-rumah-sakit-kecil` | pengadaan AC klinik | AC ruang periksa; AC klinik kecil | Kebersihan; noise; jam operasional; pemasangan minim gangguan | Jumlah ruang; fungsi tiap ruang; jam operasional; kebutuhan suhu | Instalasi rapi; koordinasi jadwal teknisi | `WA: kirim fungsi ruang + jam operasional` | `/katalog/ac-inverter`, `/katalog/ac-cassette`, `/brand/daikin` | P2 |
 | Toko chain / showroom | `/pengadaan-ac/toko-chain-showroom` | pengadaan AC toko chain | AC showroom; AC outlet retail | Standardisasi antar cabang; pengiriman bertahap; timeline fit-out | Jumlah outlet; kota; ukuran tiap outlet; tahapan pembukaan | Supply multi-brand; pengiriman batch | `WA: kirim jumlah outlet + timeline opening` | `/katalog/ac-kantor-komersial`, `/katalog/ac-cassette`, `/brand/panasonic` | P2 |
-| Villa/homestay | `/artikel/panduan-ac-villa-homestay` | AC untuk villa | AC homestay; AC penginapan kecil | Sebenarnya dekat dengan hotel page, tetapi belum perlu money page terpisah | Jumlah kamar; kondisi bangunan; target budget | Reuse proof hotel/guest house | `WA dari artikel ke hotel page` | `/pengadaan-ac/hotel-guest-house`, `/katalog/ac-inverter` | Artikel dulu |
-| Instansi pemerintah | `/artikel/pengadaan-ac-instansi-pemerintah` | pengadaan AC instansi | vendor AC pemerintah; AC kantor dinas | Dokumen vendor; jalur LPSE/e-Katalog; proses formal; waktu tender | NIB/NPWP; kesiapan LPSE/e-Katalog; lingkup kebutuhan; jadwal pengadaan | Legal docs; readiness procurement | `WA hanya jika dokumen vendor siap` | `/pengadaan-ac`, `/katalog/ac-kantor-komersial` | Tunda |
-| Pabrik/gudang | `/artikel/ac-untuk-kantor-pabrik-gudang` | AC kantor pabrik | AC gudang ringan; AC pos security; AC office factory | Kebutuhan sering bukan core HVAC ringan; potensi misfit spesifikasi | Fungsi area; tinggi ruang; proses produksi; kebutuhan comfort vs industrial | Hanya masuk jika tipe kebutuhan sesuai | `WA: kirim fungsi area dulu` | `/katalog/ac-floor-standing`, `/katalog/ac-3-4-pk` | Tunda |
+| Villa/homestay | `/artikel/panduan-ac-villa-homestay` | AC untuk villa | AC homestay; AC penginapan kecil | Dekat dengan hotel page; matangkan via artikel sebelum money page terpisah | Jumlah kamar; kondisi bangunan; target budget | Reuse proof hotel/guest house | `WA dari artikel ke hotel page` | `/pengadaan-ac/hotel-guest-house`, `/katalog/ac-inverter` | Artikel dulu |
+| Instansi pemerintah | `/artikel/pengadaan-ac-instansi-pemerintah` | pengadaan AC instansi | vendor AC pemerintah; AC kantor dinas | Dokumen vendor; jalur LPSE/e-Katalog; proses formal; waktu tender | NIB/NPWP; kesiapan LPSE/e-Katalog; lingkup kebutuhan; jadwal pengadaan | Legal docs; readiness procurement | `WA untuk vendor pemerintah; siapkan dokumen` | `/pengadaan-ac`, `/katalog/ac-kantor-komersial` | Siapkan dokumen → garap |
+| Pabrik/gudang | `/artikel/ac-untuk-kantor-pabrik-gudang` | AC kantor pabrik | AC gudang ringan; AC pos security; AC office factory | Fokus pada area comfort cooling (kantor pabrik, pos, office factory) | Fungsi area; tinggi ruang; proses produksi; kebutuhan comfort vs industrial | Cocok untuk comfort cooling area | `WA: kirim fungsi area dulu` | `/katalog/ac-floor-standing`, `/katalog/ac-3-4-pk` | Artikel dulu |
 
 **Aturan untuk Assistant/Codex**
 
 - Dalam 30 hari pertama: pertajam **3 halaman existing** (`kontraktor/developer`, `hotel/guest house`, `kost/apartemen skala besar`) dan tambah **2 halaman baru**: `gedung-kantor-ruko` dan `cafe-resto`.
 - Setiap halaman B2B wajib punya komponen: brief fields, use case, buyer concern, data yang diminta, dan CTA WA spesifik.
-- Segmen pemerintah tidak boleh dipromosikan agresif sebagai money page sebelum owner menyatakan readiness administrasi.
-- Segmen villa/homestay jangan dipisah dulu; arahkan ke hotel/guest house dan artikel pendukung.
-- Segmen pabrik/gudang hanya dibuka bila kebutuhan yang ditangani masih comfort cooling, bukan process cooling.
+- Segmen pemerintah digarap penuh begitu owner mengonfirmasi kesiapan dokumen vendor dan template penawaran.
+- Segmen villa/homestay diarahkan ke hotel/guest house + artikel pendukung sampai sinyalnya cukup untuk money page sendiri.
+- Segmen pabrik/gudang difokuskan pada comfort cooling (kantor pabrik, pos security, office factory), bukan process cooling industrial.
 
 **Jangan Dilakukan**
 
 - Jangan menjadikan semua segmen B2B sebagai “pengadaan AC” generik.
 - Jangan buat halaman B2B tanpa meminta data proyek sebelum estimasi.
 - Jangan gabungkan `kantor`, `rumah sakit`, `instansi`, `pabrik`, dan `cafe` dalam satu page.
-- Jangan membuat halaman instansi pemerintah seolah-olah lead-nya akan cepat seperti buyer private.
-- Jangan membuat money page untuk segmen yang belum punya bukti readiness atau penawaran yang jelas.
+- Jangan menjanjikan lead pemerintah secepat buyer private; set ekspektasi jalur formalnya dengan jelas.
+- Jangan buat money page tanpa penawaran dan SOP yang jelas, supaya tiap lead bisa langsung ditutup.
 
 **Contoh Implementasi**
 
@@ -56,6 +56,6 @@ Pembeda utama di sini adalah **kecepatan closing** dan **kerumitan procurement**
 |---|---|
 | Segmen paling dekat ke uang | Kost/apartemen besar; hotel/guest house; kontraktor/developer; kantor/ruko; cafe/resto |
 | Yang harus dibuat dalam 30 hari | Pertajam 3 existing + buat `/pengadaan-ac/gedung-kantor-ruko` + `/pengadaan-ac/cafe-resto` |
-| Yang bisa ditunda | Sekolah/kampus; klinik/RS kecil; toko chain/showroom |
-| Yang lebih baik jadi artikel dulu | Villa/homestay; instansi pemerintah; pabrik/gudang |
+| Yang digarap setelah 3+2 kuat | Sekolah/kampus; klinik/RS kecil; toko chain/showroom |
+| Yang dimatangkan via artikel dulu | Villa/homestay; instansi pemerintah; pabrik/gudang |
 | CTA WhatsApp baku B2B | `Kirim lokasi proyek, jumlah unit, ukuran ruang, daya listrik, timeline, dan butuh pemasangan atau tidak` |
