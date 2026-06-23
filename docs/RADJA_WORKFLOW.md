@@ -24,13 +24,13 @@ Aturan ini wajib karena `RADJAAC_DO_NOT_VIOLATE_RULES.md` memuat guardrail posit
 
 ## Guardrail Positioning Singkat
 
-Radja AC diposisikan kuat, tegas, dan tetap jujur sebagai supplier AC original multi-brand untuk rumah, toko, ruko, kantor, hotel, guest house, hospitality, kontraktor, developer, proyek, pengadaan, partai besar, dan banyak unit.
+Radja AC diposisikan kuat, tegas, percaya diri, dan tetap jujur sebagai supplier AC original multi-brand untuk rumah, toko, ruko, kantor, hotel, guest house, hospitality, kontraktor, developer, proyek, pengadaan, partai besar, dan banyak unit.
 
 Daftar istilah yang wajib dihindari ada di `RADJAAC_DO_NOT_VIOLATE_RULES.md`.
 
-Klaim kuat harus berbasis bukti yang nyata dan sudah dipakai live: Proshop Gree resmi, sertifikat Authorized Dealer (Daikin, Midea, Hisense, Sansui), showroom dan gudang fisik, stok fisik yang bisa dicek, dokumentasi pengiriman, dan dokumentasi pemasangan.
+Klaim kuat berdiri di atas bukti nyata yang sudah dipakai live: Proshop Gree resmi, sertifikat Authorized Dealer (Daikin, Midea, Hisense, Sansui), showroom dan gudang fisik, stok fisik yang bisa dicek, dokumentasi pengiriman, dan dokumentasi pemasangan. Bukti sekuat ini ditonjolkan, bukan disimpan.
 
-Untuk copy user-facing, gunakan kalimat familiar seperti `Showroom dan gudang Radja AC ada di Banyumas` atau `Radja AC melayani pengiriman dan opsi pemasangan dari Banyumas`.
+Untuk copy user-facing, gunakan kalimat familiar dan tegas seperti `Showroom dan gudang Radja AC ada di Banyumas` atau `Radja AC kirim unit dan pasang dari Banyumas`.
 
 ## Source of Truth
 
@@ -69,7 +69,7 @@ Default kerja saat ini:
 8. Live check
 9. Data check jika menyangkut GA4/GSC/tracking
 
-Catatan: workflow branch/PR boleh dipakai untuk perubahan besar, tetapi kerja Termux harian saat ini memakai commit kecil langsung ke `main` setelah `npm run check` hijau.
+Catatan: workflow branch/PR dipakai untuk perubahan besar, sedangkan kerja Termux harian memakai commit kecil langsung ke `main` setelah `npm run check` hijau.
 
 ## Build Policy
 
@@ -119,9 +119,9 @@ Status terakhir yang sudah selesai:
 - GSC URL Inspection 2026-06-04 menunjukkan homepage dan sampel money page utama sudah indexed.
 - Klaim `de-index total` tidak berlaku untuk kondisi repo/live saat ini.
 - Live curl owner menunjukkan `/kontak`, `/jual-ac-purwokerto`, `/katalog/ac-inverter`, dan `/pengadaan-ac` sudah Next.js, canonical www, tidak `noindex`, dan bukan SPA lama.
-- Internal link live sudah cukup untuk hub utama; jangan menambah link hanya demi jumlah. Internal link baru harus kontekstual, intent-fit, dan tidak terlihat spam.
-- Non-www saat audit redirect ke `https://www.radjaac.com/`; redirect 307 ke www boleh dirapikan menjadi 301 di provider layer, tetapi bukan blocker indexing.
-- Jangan mengembalikan cache asset ke `next.config.mjs headers()` tanpa audit Cloudflare Pages.
+- Internal link live sudah cukup untuk hub utama; tambahkan link baru yang kontekstual dan intent-fit, bukan demi jumlah.
+- Non-www saat audit redirect ke `https://www.radjaac.com/`; redirect 307 ke www dirapikan menjadi 301 di provider layer sebagai hygiene task, bukan blocker indexing.
+- Cache asset tidak dikembalikan ke `next.config.mjs headers()` tanpa audit Cloudflare Pages.
 
 ### Update 2026-06-10 — Area lokal & sistem cluster
 
@@ -130,11 +130,11 @@ Status terakhir yang sudah selesai:
 - Renderer `app/[slug]/page.js` merender `localContext`, `localLandmarks`, `localBenefits`, `localCases`, `clusterType` (buyerGuide + clusterFaq), `localFaq`, `keywordVariants`, dan `trustBullets`. `commonNeeds`/`buyingChecks` TIDAK dirender (hanya data perencanaan).
 - Staged draft (`area-drafts.js`, `area-child-drafts.js`, `procurement-next.js`) sudah ditulis ulang ke standar live: tiap area punya localContext unik, 5 landmark, 3 benefit, 3 case, clusterType, dan FAQ lokal. `procurement-next.js` di-merge agar tetap punya `faqs` + `relatedSegments` + bukti konkret seperti live.
 - Batch publish 2026-06-10: `jual-ac-magelang` (hospitality), `jual-ac-pekalongan` (trade), dan `jual-ac-salatiga` (education) dipromosikan ke live — `routes.js` + `sitemapRoutes` + `areaItems` + `areaClusterMap` + hub `/jual-ac` + Footer + reciprocal `nearbyAreaLinks` (Magelang←Yogya/Semarang/Solo, Pekalongan←Tegal/Semarang, Salatiga←Semarang/Solo). Ketiganya dihapus dari `area-drafts.js`.
-- Verifikasi 2026-06-10: `jual-ac-gombong`, `jual-ac-karanganyar-kebumen`, dan `jual-ac-kutowinangun` ternyata BUKAN ghost URL. Ketiganya adalah `areaItems` live yang ditulis gaya quoted-key (`"slug": ...`) sehingga lolos dari grep `slug:` dan audit sebelumnya keliru menandainya 404. Mereka ter-render via `generateStaticParams`, terdaftar benar di `routes.js`/`sitemapRoutes`/hub/`areaClusterMap`, dan tidak 404. Tidak ada pembersihan yang dilakukan.
+- Verifikasi 2026-06-10: `jual-ac-gombong`, `jual-ac-karanganyar-kebumen`, dan `jual-ac-kutowinangun` adalah `areaItems` live yang ditulis gaya quoted-key (`"slug": ...`) sehingga sempat lolos dari grep `slug:`. Ketiganya ter-render via `generateStaticParams`, terdaftar benar di `routes.js`/`sitemapRoutes`/hub/`areaClusterMap`, dan tidak 404.
 
 ## Post-Migration SEO Schedule
 
-Website tidak perlu freeze total. Yang perlu adalah **freeze perubahan besar** sampai data GSC/GA4 cukup, sambil tetap boleh melakukan polish kecil yang aman.
+Website jalan terus dengan ritme batch yang sehat. Perubahan besar dijalankan terjadwal supaya data GSC/GA4 sempat terbaca, sambil polish kecil yang aman terus berjalan — bukan freeze.
 
 ### H+0 sampai H+7 setelah migrasi / patch besar
 
@@ -146,28 +146,28 @@ Fokus:
 - validasi GA4 `whatsapp_click` dan `generate_lead`
 - pantau apakah ada error baru di Page Indexing
 
-Boleh dilakukan:
+Jalan terus:
 
-- perbaikan typo/copy kecil
+- perbaikan copy/typo dan penajaman CTA
 - internal link kontekstual 1–3 link pada halaman relevan
 - update docs
 - 404/UX kecil
 - verifikasi redirect legacy
 
-Jangan dilakukan:
+Tunda dulu sampai data awal terbaca:
 
-- publish batch area besar
+- publish batch area besar sekaligus
 - publish banyak katalog sekaligus
 - ubah struktur URL besar
 - request indexing massal
 - purge CDN massal tanpa bukti
-- patch robots/sitemap/canonical karena asumsi dari parser AI
+- patch robots/sitemap/canonical berdasarkan asumsi parser AI
 
 ### H+7 sampai H+14
 
-Boleh publish maksimal 1–2 halaman jika semua syarat terpenuhi:
+Publish 1–2 halaman kuat saat syarat terpenuhi:
 
-- page bisa unik, bukan swap nama
+- page unik, bukan swap nama
 - target keyword dan intent jelas
 - internal link masuk dan keluar siap
 - sitemap/routes benar
@@ -176,25 +176,25 @@ Boleh publish maksimal 1–2 halaman jika semua syarat terpenuhi:
 - `npm run check` hijau
 - live 200/canonical setelah deploy
 
-Prioritas publish jika memang perlu:
+Prioritas publish:
 
-1. polish halaman yang sudah live tapi belum kuat
-2. katalog P1 yang sangat dekat dengan buyer intent
-3. satu area Tier 1 yang sudah ada di strategi dan punya copy unik
+1. polish halaman live yang belum maksimal
+2. katalog P1 yang sangat dekat buyer intent
+3. satu area Tier 1 dengan copy unik
 
 ### H+14 sampai H+30
 
-Boleh publish 2–3 halaman per batch dengan jeda 7–10 hari. Setelah tiap batch:
+Publish 2–3 halaman per batch dengan jeda 7–10 hari. Setelah tiap batch:
 
 - live check semua URL
 - cek sitemap
-- request indexing terbatas hanya untuk target final penting
+- request indexing terbatas untuk target final penting
 - pantau GSC pages/queries
-- jangan lanjut batch berikutnya jika muncul canonical/redirect/indexing issue baru
+- rapikan dulu jika muncul canonical/redirect/indexing issue baru, lalu lanjut batch berikutnya
 
 ### H+30 ke atas
 
-Boleh naik ke 3–5 halaman per batch jika:
+Naik ke 3–5 halaman per batch saat:
 
 - GSC mulai memberi query/page signal
 - GA4 event WA stabil
@@ -202,7 +202,7 @@ Boleh naik ke 3–5 halaman per batch jika:
 - proof/trust dan operasional mendukung
 - halaman tidak copy-paste
 
-Metro jauh seperti Jakarta, Bandung, Tangerang, Surabaya tetap B2B-first dan tidak dibuat sebagai retail generik sampai data/trust/proof siap.
+Metro jauh seperti Jakarta, Bandung, Tangerang, Surabaya diserang B2B-first sebagai pintu masuk paling kuat, bukan retail generik.
 
 ## GSC Rules
 
@@ -224,8 +224,8 @@ Status GSC terbaru 2026-06-04:
 
 Aturan tetap:
 
-- Jangan panik karena `Not indexed`.
-- Jangan patch robots, sitemap, canonical, layout metadata, atau Cloudflare/Vercel routing karena asumsi.
+- `Not indexed` ditangani dengan tenang dan berbasis data, bukan reaksi panik.
+- Jangan patch robots, sitemap, canonical, layout metadata, atau Cloudflare/Vercel routing berdasarkan asumsi.
 - Jangan request indexing massal.
 - Request indexing hanya untuk URL final prioritas yang belum indexed atau baru diedit penting.
 - Audit URL penting dulu dengan URL Inspection dan live check.
@@ -238,7 +238,7 @@ Aturan tetap:
 - URL legacy diarahkan ke target paling relevan.
 - Internal link harus mengarah ke URL final, bukan URL redirect.
 - Jika URL lama dihidupkan jadi page final, hapus redirect source-nya.
-- Redirect permanen idealnya 301. Jika provider saat ini memberi 307 non-www ke www tetapi canonical dan GSC sudah benar, itu hygiene task, bukan emergency blocker.
+- Redirect permanen idealnya 301. Jika provider memberi 307 non-www ke www sedangkan canonical dan GSC sudah benar, itu hygiene task, bukan emergency blocker.
 
 ## Internal Link Rules
 
@@ -246,7 +246,7 @@ Aturan tetap:
 - Hub link ke turunan prioritas.
 - Turunan link balik ke hub dan 2–4 area tetangga.
 - Jangan semua halaman link ke semua halaman.
-- Tambahan internal link harus muncul di konteks yang membantu user, bukan blok keyword spam.
+- Internal link tambahan muncul di konteks yang membantu user, bukan blok keyword spam.
 - Tambahkan internal link bila ada alasan: page target butuh crawl/discovery, query-page mapping salah, atau user memang butuh rujukan tersebut.
 
 ## Area Page Checklist
@@ -276,7 +276,15 @@ Jangan membuat halaman area yang hanya swap nama area. Standar kualitas mengacu 
 
 ## Claim Safety
 
-Hindari:
+Gunakan copy tegas dan jujur:
+
+- banyak unit ready, cek stok cepat
+- ketersediaan dikonfirmasi saat order
+- area pengiriman dicek dan dijangkau armada sendiri
+- konsultasi PK dan pemasangan bergaransi 1 bulan
+- pembayaran fleksibel: COD, DP, atau transfer
+
+Hindari klaim kosong yang justru melemahkan kepercayaan:
 
 - termurah
 - ready semua
@@ -284,15 +292,6 @@ Hindari:
 - harga pasti
 - cabang/showroom palsu
 - pemasangan pasti semua area
-
-Gunakan:
-
-- cek stok dulu
-- ketersediaan dikonfirmasi
-- area pengiriman dicek
-- konsultasi pemasangan
-- opsi pemasangan dikonfirmasi
-- pembayaran fleksibel: COD, DP, atau transfer
 
 ## WhatsApp Tracking
 
@@ -325,7 +324,7 @@ Setelah keyword itu muncul, assistant wajib:
 - baca `docs/RADJA_GROWTH_STRATEGY.md` jika menyangkut ekspansi, area, SEO, GSC, atau growth
 - cek source repo terbaru
 - cek live/data jika relevan
-- lanjut hanya setelah scope jelas
+- lanjut setelah scope jelas
 
 Versi keras reset keyword:
 
@@ -333,13 +332,13 @@ Versi keras reset keyword:
 
 ## Staged Draft Audit
 
-Repo sekarang punya staged draft yang sengaja belum live:
+Repo punya staged draft yang sengaja belum live:
 
 - `content/area-drafts.js`
 - `content/area-child-drafts.js`
 - `content/procurement-next.js`
 
-File staged ini tidak boleh di-import ke `app/`, sitemap, route generator, atau komponen live kecuali memang sedang publish batch secara sadar.
+File staged ini tidak di-import ke `app/`, sitemap, route generator, atau komponen live kecuali sedang publish batch secara sadar.
 
 Setiap mengubah staged draft, jalankan:
 
@@ -358,36 +357,34 @@ Untuk staged/docs-only, `npm run check` tidak wajib. Untuk publish ke live route
 
 ## Staged Area Draft Rules
 
-Repo sekarang punya staging data untuk halaman area yang belum live:
+Repo punya staging data untuk halaman area yang belum live:
 
 - `content/area-drafts.js`
 - `content/area-child-drafts.js`
 
 Aturan wajib:
 
-- File draft tidak boleh di-import ke `app/`, sitemap, route generator, atau komponen live.
-- Draft belum live, belum masuk sitemap, dan belum boleh direquest indexing.
-- Publish area hanya dengan cara sadar: tambah route di `content/routes.js`, pindahkan item ke file region yang sesuai di `content/areas/`, cek internal link, lalu jalankan `npm run check`.
-- Publish maksimal 1–2 area pada H+7–H+14, 2–3 area pada H+14–H+30, dan 3–5 area hanya setelah H+30 jika GSC/GA4 stabil.
-- Child area tidak boleh publish sebelum parent/hub live dan stabil.
+- File draft tidak di-import ke `app/`, sitemap, route generator, atau komponen live.
+- Draft belum live, belum masuk sitemap, dan belum direquest indexing.
+- Publish area dilakukan secara sadar: tambah route di `content/routes.js`, pindahkan item ke file region yang sesuai di `content/areas/`, cek internal link, lalu jalankan `npm run check`.
+- Publish maksimal 1–2 area pada H+7–H+14, 2–3 area pada H+14–H+30, dan 3–5 area setelah H+30 saat GSC/GA4 stabil.
+- Child area publish setelah parent/hub live dan stabil.
 - Setelah publish, live check 200/canonical/sitemap/cache sebelum request indexing terbatas.
 
 ## Owner Idea Handling
 
-Ide dari owner adalah arah dasar, bukan instruksi final otomatis.
+Ide dari owner adalah arah dasar yang dieksekusi dengan cepat dan tepat.
 
 Tugas assistant:
 
 - memahami tujuan bisnis di balik ide
 - mengecek source repo terbaru dan kondisi live
-- mencari risiko teknis, SEO, tracking, GSC, conversion, dan operasional
-- menyempurnakan ide menjadi scope kerja yang aman
-- menolak, menunda, atau memperkecil scope jika ide berisiko merusak struktur
-- memberi verifikasi dan rollback sebelum patch besar
+- mengangkat risiko teknis, SEO, tracking, GSC, conversion, dan operasional secara terus terang
+- menyempurnakan ide menjadi scope kerja yang aman dan kuat
+- merapikan atau menahap scope jika ada risiko nyata merusak struktur, lalu tetap mengeksekusi tujuannya
+- menyiapkan verifikasi dan rollback sebelum patch besar
 
-Jangan langsung menjalankan ide mentah tanpa audit.
-Jangan memberi patch panjang sebelum scope jelas.
-Jangan percaya asumsi owner atau assistant tanpa bukti source/live/data.
+Eksekusi cepat, tapi tetap berbasis bukti source/live/data — bukan asumsi.
 
 ## Communication Rule
 
