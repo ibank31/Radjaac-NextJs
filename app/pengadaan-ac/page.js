@@ -41,45 +41,45 @@ const projectTypes = [
   {
     label: "Kost / Apartemen",
     title: "Kost, Apartemen & Hunian Banyak Kamar",
-    desc: "Banyak kamar, kontrakan, mess, atau apartemen sewa. Fokus: jumlah unit, daya listrik per kamar, pilihan 1/2 PK, low watt, inverter, dan pengiriman bertahap per lantai.",
+    desc: "Banyak kamar, kontrakan, mess, atau apartemen sewa. Radja AC supply unit 1/2 PK, 1 PK, low watt, dan inverter untuk banyak kamar, dengan pengiriman bertahap per lantai.",
     painTags: ["Banyak kamar", "Daya per titik", "Pengiriman bertahap"],
     href: routes.pengadaanKostApartemen,
   },
   {
     label: "Hotel / Guest House",
     title: "Hotel, Guest House & Penginapan",
-    desc: "Kamar tamu, lobby, ruang makan, dan meeting room. Fokus: kenyamanan tamu, suara unit, jam pemakaian, dan jadwal kerja yang tidak mengganggu okupansi.",
-    painTags: ["Kenyamanan tamu", "Jam pemakaian", "Area berbeda"],
+    desc: "Kamar tamu, lobby, ruang makan, dan meeting room. Radja AC supply unit senyap untuk kamar dan kapasitas besar untuk area publik, dengan brand seragam antar kamar.",
+    painTags: ["Kenyamanan tamu", "Brand seragam", "Area berbeda"],
     href: routes.pengadaanHotelGuestHouse,
   },
   {
     label: "Proyek",
     title: "Kontraktor & Developer",
-    desc: "Proyek bangunan, rumah contoh, ruko, kantor proyek, klinik, dan banyak titik AC. Kirim BOQ/RAB awal, daftar titik, lokasi, dan timeline untuk cek stok, brand, dan jadwal kirim.",
+    desc: "Proyek bangunan, rumah contoh, ruko, kantor proyek, dan banyak titik AC. Kirim BOQ/RAB atau daftar titik, Radja AC supply unit dan kirim mengikuti progres lapangan.",
     painTags: ["BOQ / RAB", "Timeline proyek", "Supply bertahap"],
     href: routes.pengadaanKontraktorDeveloper,
   },
   {
     label: "Kantor / Ruko",
     title: "Gedung, Kantor & Ruko",
-    desc: "Ruang kerja, meeting room, area pelanggan, showroom kecil, dan ruko. Fokus: layout ruangan, jumlah orang, jam operasional, titik indoor/outdoor, dan batasan downtime.",
-    painTags: ["Layout ruang", "Jam operasional", "Multi-unit"],
+    desc: "Ruang kerja, meeting room, area pelanggan, showroom, dan ruko. Radja AC supply unit sesuai layout dan pasang di luar jam kerja agar operasional tetap jalan.",
+    painTags: ["Layout ruang", "Pasang luar jam kerja", "Multi-unit"],
     href: routes.pengadaanGedungKantorRuko,
   },
   {
     label: "Cafe / Resto",
     title: "Cafe, Resto & Ruang Makan",
-    desc: "Area pelanggan, ruang makan, kasir, dan usaha kuliner. Kaca besar, plafon tinggi, pintu sering terbuka, dan jam ramai dihitung agar pilihan unit lebih tepat.",
-    painTags: ["Plafon tinggi", "Beban panas", "Kenyamanan pelanggan"],
+    desc: "Area pelanggan, ruang makan, kasir, dan usaha kuliner. Radja AC supply unit komersial untuk plafon tinggi, kaca besar, dan beban panas tinggi, dikejar mengikuti opening.",
+    painTags: ["Plafon tinggi", "Beban panas", "Kejar opening"],
     href: routes.pengadaanCafeResto,
   },
 ];
 
 const heroTrust = [
-  "Stok banyak unit di gudang",
-  "Penawaran untuk pembelian banyak unit",
+  "Stok banyak unit ready di gudang",
+  "Harga khusus pembelian banyak unit",
   "Unit saja atau unit + pemasangan",
-  "Pengiriman sekaligus atau bertahap",
+  "Kirim sekaligus atau bertahap, armada sendiri",
   "Authorized Dealer 4 brand",
 ];
 
@@ -107,36 +107,36 @@ const proofImages = [
 ];
 
 const capabilities = [
-  ["Supply banyak unit dari gudang", "Unit indoor dan outdoor berbagai brand siap dicek dari gudang Sokaraja, Banyumas. Cocok untuk kost, hotel, kantor, ruko, cafe, dan proyek."],
-  ["Penawaran sesuai kebutuhan proyek", "Kirim jumlah unit, lokasi, timeline, dan preferensi brand. Admin bantu susun opsi unit yang masuk kebutuhan teknis dan anggaran."],
-  ["Kirim bertahap, armada sendiri", "Pengiriman pakai armada Radja AC: banyak unit sekaligus atau bertahap mengikuti kesiapan tiap lantai, kamar, atau lokasi proyek."],
-  ["Beli unit saja atau sekalian pasang", "Ambil unitnya saja untuk dipasang tim lapangan Anda, atau pasang oleh tim Radja AC dengan garansi pemasangan 1 bulan."],
-  ["Unit original & bantuan klaim", "Semua unit original bergaransi resmi brand. Kalau ada kendala unit di luar pemasangan, kami bantu arahkan proses klaim sesuai jalur brand."],
-  ["Harga khusus banyak unit", "Pembelian dalam jumlah banyak bisa dibahas khusus setelah jumlah unit, tipe, stok, lokasi, dan jadwal pengiriman jelas."],
+  ["Stok banyak unit ready", "Unit indoor dan outdoor berbagai brand siap di gudang Sokaraja, Banyumas. Restock rutin terdokumentasi. Kebutuhan banyak unit kami layani langsung dari stok."],
+  ["Penawaran cepat untuk banyak unit", "Kirim jumlah unit, lokasi, timeline, dan preferensi brand. Admin susun opsi unit, harga banyak unit, dan jadwal kirim."],
+  ["Kirim bertahap, armada sendiri", "Pengiriman pakai armada Radja AC: banyak unit sekaligus atau bertahap mengikuti tiap lantai, kamar, atau progres proyek."],
+  ["Beli unit saja atau sekalian pasang", "Ambil unitnya saja untuk dipasang tim Anda, atau pasang oleh tim Radja AC dengan garansi pemasangan 1 bulan."],
+  ["Unit original & bantuan klaim", "Semua unit original bergaransi resmi brand. Kalau ada kendala unit, kami bantu urus dan arahkan klaim ke brand."],
+  ["Harga khusus banyak unit", "Pembelian banyak unit dapat harga khusus. Kirim daftar kebutuhan, kami balas dengan penawaran."],
 ];
 
 const buyerRoles = [
-  ["Purchasing / GA", "Butuh opsi brand, estimasi kapasitas, jadwal pengiriman, dan penawaran yang rapi untuk dibandingkan internal."],
-  ["Kontraktor / Developer", "Butuh supply dari daftar titik, BOQ/RAB, alternatif brand, dan pengiriman yang bisa mengikuti progres lapangan."],
-  ["Owner Bisnis", "Butuh AC cepat dingin, stok jelas, pemasangan bisa dijadwalkan, dan biaya awal bisa dihitung sebelum ambil keputusan."],
+  ["Purchasing / GA", "Kirim daftar kebutuhan, kami balas dengan opsi brand, estimasi kapasitas, harga banyak unit, dan jadwal kirim yang rapi untuk diputuskan internal."],
+  ["Kontraktor / Developer", "Kirim BOQ/RAB atau daftar titik, kami supply unit, siapkan alternatif brand sesuai anggaran, dan kirim mengikuti progres lapangan."],
+  ["Owner Bisnis", "Kirim jumlah ruangan dan target buka, kami supply unit dari stok, hitung kapasitas, dan jadwalkan kirim serta pasang."],
 ];
 
 const offerDocuments = [
   ["Jumlah unit / titik", "total kebutuhan sekarang, bertahap, atau per lantai"],
   ["Lokasi & akses", "kota, area pengiriman, akses truk, dan jam terima barang"],
-  ["Jenis bangunan", "kost, hotel, kantor, ruko, cafe, toko, gudang kantor, atau proyek"],
-  ["Ukuran & fungsi ruang", "untuk cek estimasi PK, tipe indoor, dan pilihan unit"],
-  ["Daya listrik", "total daya, batas MCB, atau daya per kamar/titik bila ada"],
+  ["Jenis bangunan", "kost, hotel, kantor, ruko, cafe, toko, atau proyek"],
+  ["Ukuran & fungsi ruang", "untuk hitung estimasi PK, tipe indoor, dan pilihan unit"],
+  ["Daya listrik", "total daya, batas MCB, atau daya per kamar/titik"],
   ["Timeline", "target kirim, target pasang, opening, renovasi, atau serah terima"],
   ["Skema kebutuhan", "unit saja, unit + pemasangan, atau pengiriman bertahap"],
-  ["File pendukung", "BOQ/RAB, layout, foto ruangan, atau daftar titik jika tersedia"],
+  ["File pendukung", "BOQ/RAB, layout, foto ruangan, atau daftar titik"],
 ];
 
 const processSteps = [
   ["01", "Kirim brief kebutuhan", "Jenis bangunan, jumlah unit/titik, lokasi, daya listrik, timeline, dan skema unit saja atau unit + pasang."],
-  ["02", "Cek stok & opsi brand", "Kami cek ketersediaan unit di gudang, pilihan brand, estimasi PK, dan alternatif sesuai anggaran."],
-  ["03", "Minta penawaran", "Spesifikasi unit, jumlah, jadwal kirim, dan kebutuhan pemasangan dirapikan sebelum Anda ambil keputusan."],
-  ["04", "Kirim & pasang", "Unit dikirim pakai armada Radja AC; pemasangan oleh tim kami bila dibutuhkan dan area memungkinkan."],
+  ["02", "Cek stok & opsi brand", "Kami cek unit di gudang, susun pilihan brand, estimasi PK, dan alternatif sesuai anggaran."],
+  ["03", "Terima penawaran", "Kami kirim spesifikasi unit, jumlah, harga banyak unit, dan jadwal kirim untuk diputuskan."],
+  ["04", "Kirim & pasang", "Unit dikirim pakai armada Radja AC; pemasangan oleh tim kami dengan garansi 1 bulan bila diminta."],
 ];
 
 const capacityRows = [
@@ -162,13 +162,12 @@ export default function PengadaanAcPage() {
             </div>
 
             <h1 className={`max-w-4xl ${typography.pageTitle} text-blue-950`}>
-              Minta penawaran supply AC banyak unit untuk proyek, hotel, kost, kantor, ruko, dan usaha.
+              Radja AC supply AC banyak unit untuk proyek, hotel, kost, kantor, ruko, dan usaha — langsung dari gudang Sokaraja.
             </h1>
 
             <p className="mt-6 max-w-2xl text-sm leading-7 text-slate-600 sm:text-base">
-              Radja AC melayani pengadaan AC original multi-brand dari gudang Sokaraja, Banyumas: cek stok, susun opsi brand,
-              kirim unit sekaligus atau bertahap, dan bantu pemasangan bila dibutuhkan. Cocok untuk pembelian banyak unit,
-              kebutuhan proyek, opening bisnis, renovasi, dan pengadaan rutin.
+              Stok banyak unit ready di gudang, harga khusus untuk pembelian banyak unit, pengiriman pakai armada sendiri,
+              dan pemasangan bergaransi 1 bulan. Kirim kebutuhan, kami balas dengan stok, opsi brand, dan penawaran.
             </p>
 
             <div className="mt-7 flex flex-wrap gap-2">
@@ -220,7 +219,7 @@ export default function PengadaanAcPage() {
           <div className="mb-8 max-w-3xl">
             <p className={`${typography.eyebrow} text-red-600`}>Kenapa pengadaan lewat Radja AC</p>
             <h2 className={`mt-3 ${typography.sectionTitle} text-blue-950`}>
-              Stok, penawaran, pengiriman, dan pemasangan dalam satu alur.
+              Stok, penawaran, pengiriman, dan pemasangan dalam satu tangan.
             </h2>
           </div>
           <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
@@ -239,11 +238,11 @@ export default function PengadaanAcPage() {
           <div>
             <p className={`${typography.eyebrow} text-white/45`}>Untuk buyer B2B</p>
             <h2 className={`mt-3 ${typography.sectionTitle} text-white`}>
-              Kalau butuh supply AC serius, mulai dari brief yang jelas.
+              Butuh supply AC banyak unit? Kirim brief, kami yang siapkan.
             </h2>
             <p className="mt-5 text-sm leading-7 text-white/70 sm:text-base">
-              Tim purchasing, kontraktor, dan owner bisnis biasanya tidak butuh jawaban generik. Mereka butuh opsi unit,
-              estimasi kapasitas, stok yang bisa dicek, jadwal kirim, dan penawaran yang mudah diputuskan.
+              Purchasing, kontraktor, dan owner bisnis tinggal kirim kebutuhan. Radja AC balas dengan opsi unit,
+              estimasi kapasitas, stok yang bisa dicek, harga banyak unit, dan jadwal kirim.
             </p>
             <WhatsappLink
               className="mt-7 inline-flex items-center justify-center rounded-2xl bg-[#25D366] px-7 py-4 text-base font-bold text-slate-950 shadow-xl shadow-[#25D366]/20 transition hover:-translate-y-0.5 hover:bg-[#20BA5A]"
@@ -306,7 +305,7 @@ export default function PengadaanAcPage() {
             </div>
             <p className="text-sm leading-7 text-slate-600 sm:text-base">
               Foto dan video diambil dari aktivitas gudang, pengiriman, dan pemasangan Radja AC.
-              Tipe dan jumlah unit kami cek sesuai kebutuhan Anda.
+              Tipe dan jumlah unit kami siapkan sesuai kebutuhan Anda.
             </p>
           </div>
 
@@ -334,7 +333,7 @@ export default function PengadaanAcPage() {
               intent="minta penawaran setelah melihat bukti pengiriman dan stok pengadaan AC banyak unit"
               pageType="procurement"
             >
-              Minta Penawaran Setelah Cek Bukti
+              Minta Penawaran Sekarang
             </WhatsappLink>
           </div>
         </div>
@@ -347,11 +346,11 @@ export default function PengadaanAcPage() {
           <div className="mb-10 max-w-3xl">
             <p className={`${typography.eyebrow} text-red-600`}>Data untuk penawaran</p>
             <h2 className={`mt-3 ${typography.sectionTitle} text-blue-950`}>
-              Kirim data ini agar penawaran AC banyak unit lebih cepat dan tepat.
+              Kirim data ini, penawaran AC banyak unit langsung kami siapkan.
             </h2>
             <p className="mt-4 text-sm leading-7 text-slate-600 sm:text-base">
-              Tidak harus lengkap dari awal. Semakin jelas data yang dikirim, semakin cepat admin menyiapkan opsi stok,
-              kapasitas PK, brand pembanding, dan jadwal pengiriman.
+              Makin lengkap data yang dikirim, makin cepat admin balas dengan opsi stok, kapasitas PK, brand pembanding,
+              harga banyak unit, dan jadwal pengiriman.
             </p>
           </div>
 
@@ -408,11 +407,11 @@ export default function PengadaanAcPage() {
           <div className="mb-10 max-w-3xl">
             <p className={`${typography.eyebrow} text-red-600`}>Cara order</p>
             <h2 className={`mt-3 ${typography.sectionTitle} text-blue-950`}>
-              Tidak ada form panjang. Brief yang jelas langsung masuk ke admin.
+              Tidak ada form panjang. Kirim brief, langsung diproses admin.
             </h2>
             <p className="mt-4 text-sm leading-7 text-slate-600 sm:text-base">
               Sebutkan jumlah unit, lokasi, dan kapan dibutuhkan — kami balas dengan stok yang bisa dicek, pilihan brand,
-              estimasi kapasitas, dan jadwal kirim yang memungkinkan.
+              estimasi kapasitas, dan jadwal kirim.
             </p>
           </div>
 
@@ -438,10 +437,10 @@ export default function PengadaanAcPage() {
           <div className="mb-8 max-w-3xl">
             <p className={`${typography.eyebrow} text-red-600`}>Pembayaran & ketentuan</p>
             <h2 className={`mt-3 ${typography.sectionTitle} text-blue-950`}>
-              Pembayaran banyak unit dibahas setelah kebutuhan jelas.
+              Pembayaran banyak unit fleksibel: DP, transfer, atau bertahap.
             </h2>
             <p className="mt-4 text-sm leading-7 text-slate-600 sm:text-base">
-              Skema seperti DP, transfer, atau pembayaran bertahap kami bahas setelah jumlah unit, stok, dan jadwal pengiriman disepakati.
+              Skema DP, transfer, atau pembayaran bertahap kami sesuaikan dengan jumlah unit dan jadwal pengiriman proyek Anda.
             </p>
           </div>
           <div className="rounded-[1.5rem] border border-blue-100 bg-white p-5 text-sm leading-7 text-slate-600 shadow-sm">
@@ -550,11 +549,11 @@ export default function PengadaanAcPage() {
           <div>
             <p className={`${typography.eyebrow} text-white/40`}>Mulai order</p>
             <h2 className={`mt-4 ${typography.sectionTitle} text-white`}>
-              Minta penawaran supply AC banyak unit untuk kebutuhan Anda.
+              Minta penawaran supply AC banyak unit sekarang.
             </h2>
             <p className="mt-5 max-w-2xl text-sm leading-7 text-white/70 sm:text-base">
-              Showroom dan gudang Radja AC berada di Pamijen, Sokaraja, Banyumas, dengan stok banyak unit untuk kost, hotel,
-              kantor, ruko, cafe, dan proyek konstruksi. Kirim brief, lalu admin bantu cek stok, opsi brand, dan jadwal kirim.
+              Showroom dan gudang Radja AC ada di Pamijen, Sokaraja, Banyumas, dengan stok banyak unit untuk kost, hotel,
+              kantor, ruko, cafe, dan proyek konstruksi. Kirim brief, admin balas dengan stok, opsi brand, dan jadwal kirim.
             </p>
           </div>
 
