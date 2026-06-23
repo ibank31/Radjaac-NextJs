@@ -7,10 +7,10 @@ import AreaFinalCta from "@/components/area/AreaFinalCta";
 import { typography } from "@/lib/typography";
 
 const quickAnswers = [
-  ["Kirim ke Cilacap?", "Bisa, cek alamat dulu"],
-  ["Bisa pasang?", "Bisa dikonsultasikan"],
+  ["Kirim Cilacap", "Cek alamat dulu"],
+  ["Bisa pasang", "Dikonfirmasi via WA"],
   ["Budget awal", "Mulai 3 jutaan"],
-  ["Area pesisir", "Posisi outdoor dicek"],
+  ["Area pesisir", "Outdoor dicek"],
 ];
 
 const buyingPaths = [
@@ -33,6 +33,13 @@ const compactProcess = [
   ["Jadwal jelas", "Kirim/pasang setelah stok dan alamat cocok."],
 ];
 
+const certificates = [
+  ["Daikin", "Authorized Dealer", "/certificates/daikin-authorized-dealer.webp"],
+  ["Midea", "Authorized Dealer", "/certificates/midea-authorized-dealer.webp"],
+  ["Hisense", "Authorized Dealer", "/certificates/hisense-authorized-dealer.webp"],
+  ["Sansui", "Authorized Dealer", "/certificates/sansui-authorized-dealer.webp"],
+];
+
 export default function CilacapBenchmarkPage({
   item,
   structuredData,
@@ -48,7 +55,7 @@ export default function CilacapBenchmarkPage({
   const visibleCategories = categoryLinks.slice(0, 3);
   const visibleAreas = item.nearbyAreaLinks ?? [];
   const visibleFaq = faqItems.slice(0, 5);
-  const finalCtaItem = { ...item, ctaLabel: "Cari AC untuk area Cilacap? Mulai dari data ruangan." };
+  const finalCtaItem = { ...item, ctaLabel: "Mau beli AC di Cilacap dan sekitarnya? Kirim data ruangan dulu." };
 
   return (
     <main id="main-content" className="min-h-screen bg-[#f7fbff] text-slate-950">
@@ -61,7 +68,7 @@ export default function CilacapBenchmarkPage({
               <Link href={routes.jualAc} prefetch={false} className="text-sm font-semibold text-blue-700 transition hover:text-slate-950">
                 ← Kembali ke Jual AC
               </Link>
-              <span className="rounded-full border border-blue-100 bg-white px-3 py-1 text-xs font-bold text-blue-700">Layanan AC Area Cilacap</span>
+              <span className="rounded-full border border-blue-100 bg-white px-3 py-1 text-xs font-bold text-blue-700">Parent hub area Cilacap</span>
             </div>
 
             <h1 className={`mb-3 max-w-3xl ${typography.pageTitle}`}>{item.h1}</h1>
@@ -84,7 +91,7 @@ export default function CilacapBenchmarkPage({
 
           <div className="mx-auto w-full max-w-[560px] lg:mr-0">
             <div className="overflow-hidden rounded-[1.45rem] border border-slate-200 bg-white p-2 shadow-[0_24px_70px_rgba(8,20,47,0.24)]">
-              <Image src="/photos/showroom/showroom-multibrand-radja-ac-purwokerto-01.webp" alt="Showroom dan stok AC Radja AC untuk pengiriman Cilacap" width={680} height={520} quality={72} className="h-[230px] w-full rounded-[1.15rem] object-cover object-center sm:h-[340px] lg:h-[380px]" sizes="(min-width: 1024px) 560px, 100vw" priority />
+              <Image src="/photos/showroom/showroom-multibrand-radja-ac-purwokerto-01.webp" alt="Showroom dan stok AC Radja AC untuk pengiriman Cilacap" width={680} height={520} quality={72} className="h-[220px] w-full rounded-[1.15rem] object-cover object-center sm:h-[340px] lg:h-[380px]" sizes="(min-width: 1024px) 560px, 100vw" priority />
             </div>
             <div className="mt-3 grid grid-cols-3 gap-2">
               {proofImages.slice(0, 3).map(([label, src, alt]) => (
@@ -101,9 +108,12 @@ export default function CilacapBenchmarkPage({
       <section className="mx-auto max-w-7xl px-4 py-5 sm:px-6 lg:px-8">
         <div className="grid gap-2 rounded-[1.45rem] border border-blue-100 bg-white p-3 shadow-sm sm:grid-cols-2 lg:grid-cols-4">
           {quickAnswers.map(([title, value]) => (
-            <div key={title} className="rounded-2xl bg-blue-50/70 px-4 py-3">
-              <p className="text-xs font-bold uppercase tracking-[0.14em] text-blue-700">{title}</p>
-              <p className="mt-1 text-sm font-bold text-slate-950">{value}</p>
+            <div key={title} className="flex gap-3 rounded-2xl bg-blue-50/70 px-4 py-3">
+              <span className="mt-0.5 flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-blue-600 text-[11px] font-bold text-white">✓</span>
+              <div>
+                <p className="text-xs font-bold uppercase tracking-[0.12em] text-blue-700">{title}</p>
+                <p className="mt-1 text-sm font-bold text-slate-950">{value}</p>
+              </div>
             </div>
           ))}
         </div>
@@ -113,7 +123,7 @@ export default function CilacapBenchmarkPage({
         <div className="grid gap-5 lg:grid-cols-[0.85fr_1.15fr] lg:items-start">
           <div>
             <p className={`${typography.eyebrow} text-blue-700`}>SEPUTAR CILACAP</p>
-            <h2 className={`mt-3 ${typography.sectionTitle} text-slate-950`}>Pilih AC berdasarkan ruangnya, bukan cuma mereknya.</h2>
+            <h2 className={`mt-3 ${typography.sectionTitle} text-slate-950`}>Pilih AC sesuaikan dengan kondisi ruangan.</h2>
             <p className="mt-4 text-sm leading-7 text-slate-600 sm:text-base">
               {item.localContext}
             </p>
@@ -142,8 +152,8 @@ export default function CilacapBenchmarkPage({
           <div className="grid gap-3 lg:grid-cols-3">
             {pricePackages.map(([priceRange, brands], index) => (
               <div key={priceRange} className="rounded-[1.35rem] border border-slate-200 bg-white p-5 text-center shadow-sm">
-                <p className={`${typography.eyebrow} text-blue-700/80`}>{priceRange}</p>
-                <h3 className="mt-3 text-lg font-bold leading-6 text-slate-950">{brands}</h3>
+                <p className="text-2xl font-black leading-tight text-slate-950 sm:text-3xl">{priceRange}</p>
+                <h3 className="mt-3 text-base font-bold leading-6 text-blue-700">{brands}</h3>
                 <p className="mt-3 text-sm leading-6 text-slate-600">{compactPriceNotes[index] ?? "Cek stok dan kebutuhan ruang dulu"}</p>
               </div>
             ))}
@@ -184,11 +194,30 @@ export default function CilacapBenchmarkPage({
 
       <section className="mx-auto max-w-7xl px-4 py-7 sm:px-6 lg:px-8 lg:py-10">
         <div className="grid gap-5 lg:grid-cols-[1.05fr_0.95fr] lg:items-start">
+          <div className="rounded-[1.7rem] border border-blue-100 bg-[linear-gradient(135deg,#fffaf2_0%,#ffffff_55%,#eef7ff_100%)] p-5 shadow-sm sm:p-7">
+            <p className={`${typography.eyebrow} text-blue-700`}>SERTIFIKAT AUTHORIZED DEALER</p>
+            <h2 className={`mt-3 ${typography.sectionTitle} text-slate-950`}>Sertifikat resmi, stok nyata, dan pengiriman yang jelas.</h2>
+            <div className="mt-5 grid grid-cols-2 gap-3">
+              {certificates.map(([brand, status, image]) => (
+                <figure key={brand} className="text-center">
+                  <div className="rounded-[16px] border border-slate-200 bg-white p-2 shadow-[0_12px_28px_rgba(15,39,66,0.08)]">
+                    <Image src={image} alt={`Sertifikat ${status} ${brand} Radja AC`} width={260} height={180} sizes="(min-width: 1024px) 220px, 50vw" className="h-[86px] w-full rounded-[10px] object-contain object-center sm:h-[108px]" />
+                  </div>
+                  <figcaption className="mt-2 text-xs font-bold text-slate-950">{brand}</figcaption>
+                </figure>
+              ))}
+            </div>
+          </div>
+
           <div className="rounded-[1.7rem] border border-slate-200 bg-white p-5 sm:p-7">
             <p className={`${typography.eyebrow} text-blue-700`}>BUKTI & PEMBAYARAN</p>
-            <h2 className={`mt-3 ${typography.sectionTitle} text-slate-950`}>Toko nyata, stok dicek, pengiriman dikonfirmasi.</h2>
+            <h2 className={`mt-3 ${typography.sectionTitle} text-slate-950`}>Beli AC dari toko yang jelas, bukan cuma harga murah.</h2>
             <p className="mt-4 text-sm leading-7 text-slate-600">{item.paymentNote}</p>
             <div className="mt-5 grid gap-3">
+              <div className="flex gap-3 text-sm leading-6 text-slate-700">
+                <span className="mt-1 flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-blue-600 text-[11px] font-bold text-white">✓</span>
+                <span>Sertifikat Authorized Dealer Daikin, Midea, Hisense, dan Sansui tersedia sebagai bukti resmi.</span>
+              </div>
               {trustBullets.map((point) => (
                 <div key={point} className="flex gap-3 text-sm leading-6 text-slate-700">
                   <span className="mt-1 flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-blue-600 text-[11px] font-bold text-white">✓</span>
@@ -196,12 +225,9 @@ export default function CilacapBenchmarkPage({
                 </div>
               ))}
             </div>
-          </div>
-          <div className="rounded-[1.7rem] border border-blue-100 bg-blue-50/70 p-5 sm:p-7">
-            <h3 className={`mb-4 ${typography.cardTitle} text-slate-950`}>Area Cilacap yang sering dicek</h3>
-            <div className="flex flex-wrap gap-2">
-              {(item.localLandmarks ?? []).slice(0, 7).map((landmark) => <span key={landmark} className="rounded-full bg-white px-3 py-2 text-xs font-bold text-slate-700 shadow-sm">{landmark}</span>)}
-            </div>
+            <Link href={routes.buktiPengirimanProyek} prefetch={false} className="mt-5 inline-flex items-center justify-center rounded-full border border-blue-200 bg-blue-50 px-5 py-3 text-sm font-bold text-blue-900 transition hover:bg-blue-100">
+              Lihat bukti pengiriman →
+            </Link>
           </div>
         </div>
       </section>
@@ -225,8 +251,9 @@ export default function CilacapBenchmarkPage({
       {visibleAreas.length ? (
         <section className="mx-auto max-w-7xl px-4 py-7 sm:px-6 lg:px-8 lg:py-10">
           <div className="rounded-[1.7rem] border border-slate-200 bg-white p-5 sm:p-7">
-            <p className={`${typography.eyebrow} text-blue-700`}>AREA TERDEKAT</p>
-            <h2 className={`mt-2 ${typography.sectionTitle} text-slate-950`}>Cek area sekitar Cilacap</h2>
+            <p className={`${typography.eyebrow} text-blue-700`}>CHILD AREA CILACAP</p>
+            <h2 className={`mt-2 ${typography.sectionTitle} text-slate-950`}>Pilih area layanan di cluster Cilacap</h2>
+            <p className="mt-3 max-w-2xl text-sm leading-7 text-slate-600">Cek halaman child area supaya info pengiriman dan konteks lokal lebih tepat untuk Kroya, Majenang, Sidareja, Kesugihan, dan Adipala.</p>
             <div className="mt-5 grid gap-3 sm:grid-cols-2 lg:grid-cols-5">
               {visibleAreas.map(([areaLabel, areaPath]) => <Link key={areaPath} href={areaPath} prefetch={false} className="rounded-[1.15rem] border border-slate-200 bg-[#f8fbff] p-4 text-center transition hover:-translate-y-1 hover:border-blue-200"><span className="font-bold text-slate-950">Jual AC {areaLabel}</span><span className="mt-1 block text-xs font-bold text-blue-700">Cek stok & layanan →</span></Link>)}
             </div>
@@ -243,7 +270,11 @@ export default function CilacapBenchmarkPage({
           <div className="grid gap-3 md:grid-cols-2">
             {visibleFaq.map(([question, answer]) => (
               <details key={question} className="group rounded-[1.15rem] border border-slate-200 bg-white p-4 open:border-blue-200 open:bg-blue-50/40">
-                <summary className="cursor-pointer list-none text-sm font-bold leading-6 text-slate-950">{question}</summary>
+                <summary className="flex cursor-pointer list-none items-start justify-between gap-3 text-sm font-bold leading-6 text-slate-950">
+                  <span>{question}</span>
+                  <span className="flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-blue-50 text-base font-black text-blue-700 group-open:hidden">+</span>
+                  <span className="hidden h-6 w-6 shrink-0 items-center justify-center rounded-full bg-blue-600 text-base font-black text-white group-open:flex">−</span>
+                </summary>
                 <p className="mt-3 text-sm leading-6 text-slate-600">{answer}</p>
               </details>
             ))}
