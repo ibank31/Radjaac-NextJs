@@ -31,9 +31,9 @@ export const cilacapAreas = [
       h1: "Toko AC Cilacap untuk Rumah, Ruko, Kantor & Banyak Unit",
       eyebrow: "Layanan AC Area Cilacap",
       intro:
-        "Cari AC untuk Cilacap? Mulai dari jenis ruangnya dulu: rumah, ruko, toko, kantor, atau banyak unit. Radja AC bantu cek PK, stok, estimasi harga, pengiriman, dan opsi pemasangan sebelum kamu beli.",
+        "Cari AC untuk Cilacap? Mulai dari jenis ruangnya: rumah, ruko, toko, kantor, atau pengadaan banyak unit. Dari situ kami arahkan kapasitas yang pas, bandingkan brand sesuai budget, lalu atur pengiriman dan pemasangannya.",
       localContext:
-        "Cilacap punya dua kebutuhan utama: pemakaian harian untuk rumah/ruko yang panas, dan kebutuhan stok banyak unit untuk kantor atau proyek. Karena dekat pesisir, posisi outdoor juga perlu diperhatikan agar unit lebih awet.",
+        "Kebutuhan AC di Cilacap terbelah dua: pemakaian harian rumah dan ruko yang gampang panas, plus pengadaan banyak unit untuk kantor dan proyek. Tambahan lagi, udara pantainya bikin unit luar lebih rentan korosi, jadi penempatannya ikut menentukan umur AC.",
       coverageNote:
         "Kebutuhan AC Cilacap dilayani dari basis showroom dan gudang Radja AC di Banyumas. Stok, pengiriman, dan opsi pemasangan dikonfirmasi setelah alamat, jumlah unit, dan kondisi ruangan jelas.",
       commonNeeds: [
@@ -93,30 +93,30 @@ export const cilacapAreas = [
         ["Adipala", routes.jualAcAdipala],
       ],
       trustBullets: [
-        "Showroom dan gudang Radja AC berada di Banyumas; stok dicek dulu sebelum pengiriman ke Cilacap.",
-        "Tim bantu cek PK dari ukuran ruangan, daya listrik, jumlah unit, dan kondisi lokasi.",
-        "Bukti aktivitas bisa dicek dari dokumentasi stok fisik, pengiriman, dan pemasangan.",
+        "Showroom dan gudang kami ada di Banyumas; unit dipastikan ready sebelum dikirim ke Cilacap.",
+        "Kapasitas PK kami hitung dari luas ruang, daya listrik, jumlah unit, dan kondisi lokasimu.",
+        "Aktivitas kami nyata dan terdokumentasi: stok fisik, proses pengiriman, sampai pemasangan.",
       ],
       localFaq: [
         [
           "Bisa kirim AC ke Cilacap kota, Kroya, Majenang, atau Sidareja?",
-          "Bisa. Sebutkan kecamatan, alamat, jumlah unit, dan kebutuhan pemasangan. Tim Radja AC cek stok dan jadwal pengiriman dulu.",
+          "Bisa, semua kecamatan Cilacap kami layani. Sebutkan kecamatan, alamat, jumlah unit, dan kebutuhan pasangnya — dari situ stok dan jadwal pengiriman kami susun.",
         ],
         [
           "Bisa sekalian pasang AC di Cilacap?",
-          "Bisa dikonsultasikan. Foto titik indoor dan outdoor membantu tim memperkirakan posisi pasang, jalur pipa, dan kebutuhan tambahan material.",
+          "Tentu, tinggal bilang ke kami. Foto titik indoor dan outdoor bikin tim lebih gampang memperkirakan posisi pasang, jalur pipa, dan material tambahannya.",
         ],
         [
           "Karena Cilacap dekat laut, outdoor AC cepat karat?",
-          "Udara pesisir memang lebih berat untuk unit outdoor. Posisi outdoor sebaiknya tidak langsung kena angin laut, dan perawatan rutin tetap diperlukan.",
+          "Udara pesisir memang lebih berat buat unit outdoor. Posisikan outdoor supaya nggak langsung kena angin laut, dan rutin dirawat biar umurnya panjang.",
         ],
         [
-          "Kalau belum tahu butuh berapa PK, mulai dari mana?",
-          "Kirim ukuran ruangan, tinggi plafon, daya listrik, jumlah orang, dan pemakaian harian. Dari situ kapasitas PK bisa diarahkan.",
+          "Rumah di Cilacap daya listriknya pas-pasan, harus low watt?",
+          "Kalau daya rumahmu 900–1300 watt, low watt paling aman biar MCB nggak sering turun. Sebutkan daya listrik dan ukuran kamarnya, nanti kami arahkan tipe yang cocok.",
         ],
         [
           "Bisa pengadaan AC banyak unit untuk kantor atau proyek?",
-          "Bisa. Sebutkan jumlah ruang, target waktu, dan kebutuhan faktur. Stok, spesifikasi, jadwal, dan pembayaran bisa dibahas sebelum pengiriman.",
+          "Ini justru yang sering kami tangani. Sebutkan jumlah ruang, target waktu, dan kebutuhan faktur — stok, spesifikasi, jadwal, sampai pembayaran kami bahas sebelum pengiriman.",
         ],
       ],
     },
@@ -345,266 +345,4 @@ export const cilacapAreas = [
       intro:
         "Butuh AC di Sidareja untuk rumah, ruko, toko, kantor, usaha, atau kebutuhan beberapa unit? Tim Radja AC cek kebutuhan PK, daya listrik, stok brand, pengiriman, dan opsi pemasangan dari data awal.",
       localContext:
-        "Sidareja adalah kota kecamatan di Cilacap bagian barat yang dikelilingi kawasan rawa dan pertanian—termasuk Rawa Besar—dengan Stasiun Sidareja dan Pasar Sidareja sebagai pusat kegiatan. Karena dikelilingi rawa, udara di permukiman sekitar terasa lebih lembap dan gerah saat siang dibanding daerah yang lebih kering, sehingga AC kamar jadi kebutuhan yang lebih terasa. Ruko dan toko di sekitar pasar ramai saat hari pasar karena pembeli datang dari beberapa desa sekitar. Posisi Sidareja di antara Majenang dan Cilacap kota membuat pengiriman dijadwalkan tersendiri. Untuk jual AC Sidareja, unit dikirim ke alamat lalu dipasang, dengan pembayaran DP, COD, atau transfer setelah stok dipastikan.",
-      coverageNote:
-        "Showroom dan gudang Radja AC berada di Banyumas. Kebutuhan AC area Sidareja dilayani dengan konsultasi PK, cek stok unit, pengiriman, serta opsi pemasangan sesuai alamat, jumlah unit, dan jadwal.",
-      keywordVariants: [
-        "AC rumah Sidareja",
-        "AC ruko Sidareja",
-        "AC toko Sidareja",
-        "AC kantor Sidareja",
-        "AC usaha Sidareja",
-        "Cek PK AC Sidareja",
-      ],
-      nearbyAreaLinks: [
-        ["Jual AC Cilacap", routes.jualAcCilacap],
-        ["Jual AC Majenang", routes.jualAcMajenang],
-        ["Jual AC Kroya", routes.jualAcKroya],
-        ["Jual AC Kesugihan", routes.jualAcKesugihan],
-        ["Jual AC Kebumen", routes.jualAcKebumen],
-      ],
-      trustBullets: [
-        "Cek kebutuhan PK dari ukuran ruangan, fungsi bangunan, dan daya listrik",
-        "Cek stok brand seperti Gree, Daikin, Midea, Hisense, Sharp, Samsung, dan lainnya",
-        "Opsi pengiriman dan pemasangan dikonfirmasi berdasarkan alamat Sidareja dan jumlah unit",
-        "Cocok untuk rumah, ruko, toko, kantor kecil, ruang usaha, dan beberapa unit",
-      ],
-      localFaq: [
-        [
-          "Rumah di Sidareja dekat rawa terasa lembap dan gerah, AC apa yang cocok?",
-          "Udara lembap dari rawa membuat ruangan terasa lebih gerah, jadi kapasitas PK perlu dihitung dari luas dan kondisi lembap tersebut, bukan sekadar ukuran standar. Sebutkan ukuran kamar dan kondisi sekitar untuk arahan yang lebih tepat.",
-        ],
-        [
-          "AC untuk ruko atau toko di Pasar Sidareja saat hari pasar ramai?",
-          "Hari pasar membuat toko lebih ramai dari biasanya; kapasitas dihitung dari luas dan jumlah pengunjung puncak. Sebutkan ukuran toko dan hari pasar untuk cek unit dan stok.",
-        ],
-        [
-          "Sidareja di antara Majenang dan Cilacap kota, pengirimannya bagaimana?",
-          "Pengiriman ke Sidareja dijadwalkan tersendiri karena posisinya di jalur barat. Konfirmasi alamat detail dan jumlah unit lebih awal agar jadwal pengiriman dan pemasangan bisa disusun.",
-        ],
-        [
-          "AC rumah di Sidareja, daya listrik terbatas, pilih apa?",
-          "Rumah dengan daya 900–1300 watt banyak pakai low watt agar MCB tidak turun. Sebutkan daya dan ukuran kamar untuk cek unit dan stok yang sesuai.",
-        ],
-      ],
-      commonNeeds: [
-        "AC rumah tinggal dan kamar tidur",
-        "AC ruko, toko, kantor kecil, dan ruang usaha",
-        "AC untuk beberapa ruangan atau beberapa titik",
-        "Pembelian unit untuk usaha lokal dan kebutuhan banyak unit",
-      ],
-      buyingChecks: [
-        "Alamat detail area Sidareja",
-        "Ukuran ruangan dan estimasi kebutuhan PK",
-        "Daya listrik serta pilihan standard, low watt, atau inverter",
-        "Kebutuhan unit saja, pengiriman, atau opsi pemasangan",
-      ],
-      relatedLinks: [
-        ["Jual AC Cilacap", routes.jualAcCilacap],
-        ["Kalkulator PK AC", routes.kalkulatorPkAc],
-        ["Pengiriman & Pemasangan", routes.pengirimanPemasangan],
-        ["AC Split Rumah", routes.katalogAcSplitRumah],
-        ["AC Low Watt", routes.katalogAcLowWatt],
-        ["Bukti Pengiriman & Proyek", routes.buktiPengirimanProyek],
-        ["Kontak Radja AC", routes.kontak],
-      ],
-      ctaLabel: "Chat WhatsApp untuk cek AC Sidareja",
-      waIntent: "cek stok AC Sidareja dengan data alamat ukuran ruangan daya listrik jumlah unit dan kebutuhan pemasangan",
-      waArea: "Sidareja",
-    },
-  {
-      slug: "jual-ac-kesugihan",
-      path: routes.jualAcKesugihan,
-      areaName: "Kesugihan",
-      localLandmarks: [
-        "Pondok Pesantren Al-Ihya Ulumaddin (Kesugihan)",
-        "Kawasan industri Cilacap (koridor Kesugihan–Cilacap kota)",
-        "Asrama santri dan kos sekitar pesantren",
-        "Pasar Kesugihan dan permukiman warga",
-        "Jalur Kesugihan–Cilacap kota (jalan nasional)",
-      ],
-      localBenefits: [
-        "Pondok Pesantren Al-Ihya Ulumaddin punya ratusan santri dengan asrama dan ruang belajar; ruang kelas dan aula yang dipakai seharian butuh pendinginan yang berbeda dari kamar kos biasa",
-        "Asrama dan kos santri dengan banyak kamar kecil cari AC low watt tipe seragam agar daya total bangunan tidak turun dan perawatan antar kamar lebih mudah",
-        "Kantor dan usaha di koridor Kesugihan–Cilacap yang dekat kawasan industri butuh unit yang cepat dingin dan tahan dipakai seharian di udara panas",
-      ],
-      localCases: [
-        ["Ruang kelas & aula pesantren", "AC ruang belajar dan aula Al-Ihya Ulumaddin yang dipakai seharian; kapasitas dihitung dari luas dan jumlah santri."],
-        ["Asrama & kos santri", "AC banyak kamar kecil dengan low watt tipe seragam agar daya total bangunan aman dan perawatan mudah."],
-        ["Kantor & usaha koridor industri", "Pemilihan unit ruang kerja di jalur Kesugihan–Cilacap yang dekat kawasan industri."],
-      ],
-      label: "Jual AC Kesugihan",
-      title: "Jual AC Kesugihan | Pesantren Al-Ihya Ulumaddin, Asrama Santri & Industri — Radja AC",
-      description:
-        "AC ruang kelas dan asrama Pesantren Al-Ihya Ulumaddin Kesugihan, atau kantor di koridor industri Cilacap? Radja AC cek PK, stok, dan pengiriman via WhatsApp.",
-      h1: "Jual AC Kesugihan untuk Rumah, Kantor & Proyek",
-      eyebrow: "Area Cilacap",
-      intro:
-        "Butuh AC di Kesugihan untuk rumah, asrama, kantor, ruang usaha, proyek, atau kebutuhan beberapa unit? Tim Radja AC cek kebutuhan PK, daya listrik, stok brand, pengiriman, dan opsi pemasangan berdasarkan data awal.",
-      localContext:
-        "Kesugihan berada di jalur Cilacap menuju kota, dikenal dengan Pondok Pesantren Al-Ihya Ulumaddin—salah satu pesantren besar di Cilacap—yang punya ratusan santri dengan asrama, ruang kelas, dan aula. Kebutuhan AC di sini beragam: ruang kelas dan aula yang dipakai seharian butuh kapasitas yang dihitung dari luas dan jumlah santri, sedangkan asrama dan kos santri butuh unit low watt tipe seragam agar daya total bangunan tidak turun. Di sisi lain, kantor dan usaha di koridor Kesugihan–Cilacap yang dekat kawasan industri butuh unit yang cepat dingin. Untuk jual AC Kesugihan, unit dikirim ke alamat lalu dipasang, dengan pembayaran DP, transfer, atau COD setelah stok dipastikan.",
-      coverageNote:
-        "Showroom dan gudang Radja AC berada di Banyumas. Kebutuhan AC area Kesugihan dilayani dengan konsultasi PK, cek stok unit, pengiriman, serta opsi pemasangan sesuai alamat, jumlah unit, dan jadwal.",
-      keywordVariants: [
-        "AC rumah Kesugihan",
-        "AC kantor Kesugihan",
-        "AC ruang usaha Kesugihan",
-        "AC proyek Kesugihan",
-        "Banyak unit Kesugihan",
-        "Cek PK AC Kesugihan",
-      ],
-      nearbyAreaLinks: [
-        ["Jual AC Cilacap", routes.jualAcCilacap],
-        ["Jual AC Kroya", routes.jualAcKroya],
-        ["Jual AC Adipala", routes.jualAcAdipala],
-        ["Jual AC Sidareja", routes.jualAcSidareja],
-        ["Jual AC Banyumas", routes.jualAcBanyumas],
-      ],
-      trustBullets: [
-        "Cek kebutuhan PK dari ukuran ruangan, fungsi bangunan, dan target pemakaian",
-        "Cek stok brand seperti Gree, Daikin, Midea, Hisense, Sharp, Samsung, dan lainnya",
-        "Opsi pengiriman dan pemasangan dikonfirmasi berdasarkan alamat Kesugihan dan jumlah unit",
-        "Cocok untuk rumah, kantor, ruang usaha, proyek kecil, dan kebutuhan banyak unit",
-      ],
-      localFaq: [
-        [
-          "AC untuk ruang kelas atau aula di Pesantren Al-Ihya Ulumaddin Kesugihan, pilih apa?",
-          "Ruang kelas dan aula yang dipakai seharian dengan banyak santri butuh kapasitas yang dihitung dari luas dan jumlah orang, bukan sekadar ukuran kamar biasa. Sebutkan ukuran ruang dan jumlah santri untuk perkiraan PK dan stok.",
-        ],
-        [
-          "AC untuk asrama atau kos santri banyak kamar di Kesugihan, hemat listrik?",
-          "Untuk banyak kamar kecil, low watt tipe seragam menjaga daya total bangunan dan memudahkan perawatan antar kamar. Sebutkan jumlah kamar dan daya listrik total untuk cek unit dan stok.",
-        ],
-        [
-          "Bisa pengadaan beberapa unit untuk kantor atau usaha di koridor Kesugihan–Cilacap?",
-          "Bisa. Sebutkan jumlah ruang, ukuran, dan target waktu; unit disiapkan dari stok lalu pengiriman dan pemasangan dijadwalkan. Pembayaran bisa DP atau transfer.",
-        ],
-        [
-          "Bisa kirim dan pasang AC ke alamat di Kesugihan atau sekitar pesantren?",
-          "Bisa. Unit dikirim ke alamat di Kesugihan lalu pemasangan dijadwalkan sesuai akses lokasi. Sebutkan alamat detail dan jumlah unit untuk perkiraan pengiriman.",
-        ],
-      ],
-      commonNeeds: [
-        "AC rumah tinggal dan ruang keluarga",
-        "AC kantor kecil, ruang usaha, dan ruang kerja",
-        "AC untuk beberapa ruangan atau beberapa titik",
-        "Pembelian unit untuk proyek kecil dan kebutuhan banyak unit",
-      ],
-      buyingChecks: [
-        "Alamat detail area Kesugihan",
-        "Ukuran ruangan dan estimasi kebutuhan PK",
-        "Daya listrik serta pilihan standard, low watt, atau inverter",
-        "Kebutuhan unit saja, pengiriman, atau opsi pemasangan",
-      ],
-      relatedLinks: [
-        ["Jual AC Cilacap", routes.jualAcCilacap],
-        ["Kalkulator PK AC", routes.kalkulatorPkAc],
-        ["Pengiriman & Pemasangan", routes.pengirimanPemasangan],
-        ["AC Kantor & Komersial", routes.katalogAcKantorKomersial],
-        ["Pengadaan AC Proyek", routes.pengadaanAc],
-        ["Bukti Pengiriman & Proyek", routes.buktiPengirimanProyek],
-        ["Kontak Radja AC", routes.kontak],
-      ],
-      ctaLabel: "Chat WhatsApp untuk cek AC Kesugihan",
-      waIntent: "cek stok AC Kesugihan dengan data alamat ukuran ruangan daya listrik jumlah unit dan kebutuhan pemasangan",
-      waArea: "Kesugihan",
-    },
-  {
-      slug: "jual-ac-adipala",
-      path: routes.jualAcAdipala,
-      areaName: "Adipala",
-      localLandmarks: [
-        "PLTU Adipala (Pembangkit Listrik Tenaga Uap)",
-        "Pantai Widarapayung dan Pantai Jetis (pesisir selatan Adipala)",
-        "Pasar Adipala dan permukiman nelayan",
-        "Kawasan tambak dan pertanian pesisir",
-        "Jalur Adipala–Kroya–Cilacap kota",
-      ],
-      localBenefits: [
-        "Kontraktor, vendor, dan kantor lapangan di sekitar PLTU Adipala kadang butuh pengadaan beberapa unit AC untuk ruang kerja dan mess dengan spesifikasi yang bisa dilengkapi faktur",
-        "Rumah dan toko di permukiman pesisir Adipala yang panas dan lembap butuh AC yang cepat mendinginkan ruangan; udara asin dari laut membuat penempatan outdoor perlu diperhatikan agar tidak cepat berkarat",
-        "Nelayan dan pelaku usaha tambak yang membangun rumah atau warung di pesisir Adipala sering cari unit yang tahan dipakai di lingkungan lembap dengan perawatan yang tidak rumit",
-      ],
-      localCases: [
-        ["Kantor & mess sekitar PLTU", "Pengadaan AC ruang kerja dan mess untuk kontraktor atau vendor proyek pembangkit, bisa dilengkapi faktur."],
-        ["Rumah & warung nelayan pesisir", "AC kamar dan ruang usaha di permukiman nelayan Adipala; penempatan outdoor diperhatikan karena udara asin."],
-        ["Toko & usaha jalur Adipala–Kroya", "AC ruang jualan di jalur utama agar pembeli betah di cuaca panas pesisir."],
-      ],
-      label: "Jual AC Adipala",
-      title: "Jual AC Adipala | PLTU, Nelayan Pantai Widarapayung & Toko Pesisir — Radja AC",
-      description:
-        "AC untuk mess kontraktor PLTU Adipala, rumah nelayan di Pantai Widarapayung, atau toko pesisir yang panas? Radja AC cek PK, stok, dan pengiriman via WhatsApp.",
-      h1: "Jual AC Adipala untuk Rumah, Toko & Usaha",
-      eyebrow: "Area Cilacap",
-      intro:
-        "Butuh AC di Adipala untuk rumah, toko, kantor, usaha, atau kebutuhan beberapa unit? Tim Radja AC cek kebutuhan PK, daya listrik, stok brand, pengiriman, dan opsi pemasangan berdasarkan kondisi ruangan.",
-      localContext:
-        "Adipala adalah kecamatan pesisir di Cilacap yang dikenal dengan PLTU Adipala—pembangkit listrik tenaga uap yang jadi salah satu infrastruktur energi penting di Jawa Tengah—serta pantai selatan seperti Pantai Widarapayung dan Pantai Jetis. Permukiman nelayan dan pelaku usaha tambak tersebar di sepanjang pesisir, dengan udara panas dan lembap yang membuat ruangan cepat gerah. Kontraktor dan vendor sekitar PLTU kadang butuh pengadaan beberapa unit AC untuk ruang kerja dan mess. Karena dekat laut, udara asin mempercepat korosi pada unit outdoor sehingga penempatan perlu diperhatikan sejak awal. Untuk jual AC Adipala, unit dikirim ke alamat lalu dipasang, dengan pembayaran DP, COD, atau transfer setelah stok dipastikan.",
-      coverageNote:
-        "Showroom dan gudang Radja AC berada di Banyumas. Kebutuhan AC area Adipala dilayani dengan konsultasi PK, cek stok unit, pengiriman, serta opsi pemasangan sesuai alamat, jumlah unit, dan jadwal.",
-      keywordVariants: [
-        "AC rumah Adipala",
-        "AC toko Adipala",
-        "AC kantor kecil Adipala",
-        "AC usaha Adipala",
-        "AC ruangan panas Adipala",
-        "Cek PK AC Adipala",
-      ],
-      nearbyAreaLinks: [
-        ["Jual AC Cilacap", routes.jualAcCilacap],
-        ["Jual AC Kroya", routes.jualAcKroya],
-        ["Jual AC Kesugihan", routes.jualAcKesugihan],
-        ["Jual AC Sidareja", routes.jualAcSidareja],
-        ["Jual AC Banyumas", routes.jualAcBanyumas],
-      ],
-      trustBullets: [
-        "Cek kebutuhan PK dari ukuran ruangan, paparan panas, daya listrik, dan pola pemakaian",
-        "Cek stok brand seperti Gree, Daikin, Midea, Hisense, Sharp, Samsung, dan lainnya",
-        "Opsi pengiriman dan pemasangan dikonfirmasi berdasarkan alamat Adipala dan jumlah unit",
-        "Cocok untuk rumah, toko, kantor kecil, usaha, dan ruangan yang terasa panas",
-      ],
-      localFaq: [
-        [
-          "Bisa pengadaan AC untuk kantor lapangan atau mess kontraktor di sekitar PLTU Adipala?",
-          "Bisa. Untuk pengadaan ruang kerja dan mess, sebutkan jumlah ruang, ukuran, dan target waktu; unit disiapkan dari stok, bisa dilengkapi faktur, lalu pengiriman dan pemasangan dijadwalkan mengikuti operasional proyek.",
-        ],
-        [
-          "Rumah atau warung nelayan di pesisir Adipala, unit outdoor-nya aman dari korosi?",
-          "Udara asin dari laut memang mempercepat korosi pada unit outdoor. Penempatan yang terlindung dari angin laut langsung dan perawatan rutin membantu memperpanjang umur unit. Sebutkan lokasi pemasangan untuk masukan lebih spesifik.",
-        ],
-        [
-          "AC untuk toko atau warung di jalur Adipala–Kroya yang panas, pilih apa?",
-          "Ruang usaha di jalur pesisir yang panas dan lembap butuh kapasitas sesuai luas dan paparan panas. Sebutkan ukuran ruang dan jam buka untuk cek unit dan stok yang sesuai.",
-        ],
-        [
-          "Bisa kirim dan pasang AC ke permukiman nelayan atau tambak di Adipala?",
-          "Bisa. Unit dikirim ke alamat di Adipala lalu pemasangan dijadwalkan sesuai akses lokasi. Sebutkan alamat detail dan jumlah unit untuk perkiraan pengiriman.",
-        ],
-      ],
-      commonNeeds: [
-        "AC rumah tinggal dan kamar tidur",
-        "AC toko, kantor kecil, dan ruang usaha",
-        "AC untuk ruangan yang panas atau sering dipakai",
-        "Pembelian unit untuk usaha lokal dan beberapa titik",
-      ],
-      buyingChecks: [
-        "Alamat detail area Adipala",
-        "Ukuran ruangan, paparan panas, dan estimasi kebutuhan PK",
-        "Daya listrik serta pilihan standard, low watt, atau inverter",
-        "Kebutuhan unit saja, pengiriman, atau opsi pemasangan",
-      ],
-      relatedLinks: [
-        ["Jual AC Cilacap", routes.jualAcCilacap],
-        ["Kalkulator PK AC", routes.kalkulatorPkAc],
-        ["Pengiriman & Pemasangan", routes.pengirimanPemasangan],
-        ["AC Low Watt", routes.katalogAcLowWatt],
-        ["AC Inverter", routes.katalogAcInverter],
-        ["Bukti Pengiriman & Proyek", routes.buktiPengirimanProyek],
-        ["Kontak Radja AC", routes.kontak],
-        ["Memilih AC untuk Daerah Pesisir", routes.artikelMemilihAcUntukDaerahPesisir],
-      ],
-      ctaLabel: "Chat WhatsApp untuk cek AC Adipala",
-      waIntent: "cek stok AC Adipala dengan data alamat ukuran ruangan daya listrik jumlah unit dan kebutuhan pemasangan",
-      waArea: "Adipala",
-    },
-];
+        "Sidareja adalah kota kecam

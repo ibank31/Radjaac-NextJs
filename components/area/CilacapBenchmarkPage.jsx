@@ -7,17 +7,17 @@ import AreaFinalCta from "@/components/area/AreaFinalCta";
 import { typography } from "@/lib/typography";
 
 const quickAnswers = [
-  ["Kirim Cilacap", "Cek alamat dulu"],
-  ["Bisa pasang", "Dikonfirmasi via WA"],
-  ["Budget awal", "Mulai 3 jutaan"],
-  ["Area pesisir", "Outdoor dicek"],
+  ["Kirim ke Cilacap", "Sebut alamatmu"],
+  ["Sekalian pasang", "Atur lewat WA"],
+  ["Mulai dari", "Rp3 jutaan"],
+  ["Dekat laut", "Outdoor diamankan"],
 ];
 
 const buyingPaths = [
-  ["Rumah / ruko panas", "Cek ukuran ruang, daya listrik, dan posisi outdoor sebelum pilih PK."],
-  ["Toko & kantor", "Butuh dingin stabil saat jam ramai; stok dan jadwal dicek dulu."],
-  ["Banyak unit / proyek", "Spesifikasi bisa diseragamkan, lengkap dengan faktur dan jadwal bertahap."],
-  ["Dekat pesisir", "Outdoor jangan asal taruh; udara asin bikin unit lebih cepat berkarat."],
+  ["Rumah / ruko panas", "Ukur dulu luas ruang, daya listrik, dan arah outdoor sebelum tentukan PK."],
+  ["Toko & kantor", "Butuh dingin stabil pas jam ramai; ketersediaan unit dan jadwal kami pastikan dulu."],
+  ["Banyak unit / proyek", "Spesifikasi bisa diseragamkan, lengkap faktur dan jadwal bertahap."],
+  ["Dekat pesisir", "Outdoor nggak boleh asal pasang; angin asin bikin unit lebih cepat berkarat."],
 ];
 
 const compactPriceNotes = [
@@ -28,9 +28,9 @@ const compactPriceNotes = [
 
 const compactProcess = [
   ["Kirim data ruang", "Area, ukuran, daya listrik, jumlah unit."],
-  ["Cek PK & stok", "Tim cocokkan kapasitas dan pilihan brand."],
-  ["Foto titik pasang", "Bantu cek indoor, outdoor, dan jalur pipa."],
-  ["Jadwal jelas", "Kirim/pasang setelah stok dan alamat cocok."],
+  ["Cocokkan unit", "Kami samakan kapasitas dengan brand yang ready."],
+  ["Foto titik pasang", "Bantu lihat posisi indoor, outdoor, dan jalur pipa."],
+  ["Jadwal jelas", "Kirim dan pasang begitu unit dan alamat fix."],
 ];
 
 const certificates = [
@@ -73,7 +73,7 @@ export default function CilacapBenchmarkPage({
 
             <h1 className={`mb-3 max-w-3xl ${typography.pageTitle}`}>{item.h1}</h1>
             <p className="mb-3 max-w-2xl text-sm font-bold leading-6 text-blue-700 sm:text-base">
-              Cek PK, stok, harga, pengiriman, dan opsi pemasangan sebelum beli.
+              Dari hitung PK sampai unit terpasang rapi, kami bantu sampai beres.
             </p>
             <p className="mb-5 max-w-2xl text-sm leading-7 text-slate-600 sm:text-base">
               {item.intro}
@@ -81,7 +81,7 @@ export default function CilacapBenchmarkPage({
 
             <div className="flex flex-col gap-3 sm:flex-row sm:flex-wrap sm:items-center">
               <WhatsappLink className="inline-flex items-center justify-center rounded-full bg-[#25D366] px-6 py-4 font-bold text-slate-950 shadow-[0_18px_50px_rgba(37,211,102,0.2)] transition hover:-translate-y-0.5 hover:bg-[#20BA5A]" source={item.label} intent={item.waIntent} area={item.waArea} pageType="area">
-                Chat WhatsApp untuk cek AC Cilacap
+                Chat WhatsApp soal AC Cilacap
               </WhatsappLink>
               <a href="#estimasi-anggaran" className="inline-flex items-center justify-center rounded-full border border-slate-200 bg-white px-6 py-4 text-sm font-bold text-slate-900 shadow-sm transition hover:bg-slate-50">
                 Lihat estimasi harga
@@ -123,7 +123,7 @@ export default function CilacapBenchmarkPage({
         <div className="grid gap-5 lg:grid-cols-[0.85fr_1.15fr] lg:items-start">
           <div>
             <p className={`${typography.eyebrow} text-blue-700`}>SEPUTAR CILACAP</p>
-            <h2 className={`mt-3 ${typography.sectionTitle} text-slate-950`}>Pilih AC sesuaikan dengan kondisi ruangan.</h2>
+            <h2 className={`mt-3 ${typography.sectionTitle} text-slate-950`}>Tiap ruang di Cilacap butuh hitungan beda.</h2>
             <p className="mt-4 text-sm leading-7 text-slate-600 sm:text-base">
               {item.localContext}
             </p>
@@ -147,14 +147,14 @@ export default function CilacapBenchmarkPage({
           <div className="mb-5 text-center">
             <p className={`${typography.eyebrow} text-blue-700`}>ESTIMASI HARGA</p>
             <h2 className={`mt-2 ${typography.sectionTitle} text-slate-950`}>Patokan awal AC + pasang</h2>
-            <p className="mx-auto mt-3 max-w-2xl text-sm leading-7 text-slate-600">Angka akhir tetap mengikuti stok, alamat, jumlah unit, dan kondisi pemasangan di Cilacap.</p>
+            <p className="mx-auto mt-3 max-w-2xl text-sm leading-7 text-slate-600">Angka pastinya menyesuaikan brand, ketersediaan unit, lokasi, dan tingkat kesulitan pemasangan.</p>
           </div>
           <div className="grid gap-3 lg:grid-cols-3">
             {pricePackages.map(([priceRange, brands], index) => (
               <div key={priceRange} className="rounded-[1.35rem] border border-slate-200 bg-white p-5 text-center shadow-sm">
                 <p className="text-2xl font-black leading-tight text-slate-950 sm:text-3xl">{priceRange}</p>
                 <h3 className="mt-3 text-base font-bold leading-6 text-blue-700">{brands}</h3>
-                <p className="mt-3 text-sm leading-6 text-slate-600">{compactPriceNotes[index] ?? "Cek stok dan kebutuhan ruang dulu"}</p>
+                <p className="mt-3 text-sm leading-6 text-slate-600">{compactPriceNotes[index] ?? "Sesuaikan stok dan kebutuhan ruang"}</p>
               </div>
             ))}
           </div>
@@ -165,7 +165,7 @@ export default function CilacapBenchmarkPage({
           </div>
           <div className="mt-5 flex justify-center">
             <WhatsappLink className="inline-flex w-full items-center justify-center rounded-full bg-[#25D366] px-5 py-3 text-sm font-bold text-slate-950 transition hover:bg-[#20BA5A] sm:w-auto" source={`${item.label} - Estimasi Anggaran`} intent={item.waIntent} area={item.waArea} pageType="area">
-              Cek anggaran AC Cilacap
+              Minta hitungan harga Cilacap
             </WhatsappLink>
           </div>
         </div>
@@ -175,8 +175,8 @@ export default function CilacapBenchmarkPage({
         <div className="grid gap-5 lg:grid-cols-[0.8fr_1.2fr] lg:items-start">
           <div>
             <p className={`${typography.eyebrow} text-blue-700`}>ALUR BELI</p>
-            <h2 className={`mt-3 ${typography.sectionTitle} text-slate-950`}>Cepat, tapi tetap dicek dulu.</h2>
-            <p className="mt-4 text-sm leading-7 text-slate-600">Tujuannya bukan asal kirim unit. PK, stok, alamat, dan titik pemasangan harus jelas supaya pembelian aman.</p>
+            <h2 className={`mt-3 ${typography.sectionTitle} text-slate-950`}>Cepat, tapi tetap teliti.</h2>
+            <p className="mt-4 text-sm leading-7 text-slate-600">Kami nggak mau asal kirim unit. Kapasitas, ketersediaan, alamat, dan titik pasang dipastikan jelas dulu biar kamu nggak salah beli.</p>
           </div>
           <div className="rounded-[1.6rem] border border-slate-200 bg-white p-4 sm:p-5">
             <div className="grid gap-3 md:grid-cols-4">
@@ -239,7 +239,7 @@ export default function CilacapBenchmarkPage({
         <div className="mb-5 flex flex-col gap-3 sm:flex-row sm:items-end sm:justify-between">
           <div>
             <p className={`${typography.eyebrow} text-blue-700`}>PILIHAN AC</p>
-            <h2 className={`mt-2 ${typography.sectionTitle} text-slate-950`}>Brand yang bisa dicek stoknya</h2>
+            <h2 className={`mt-2 ${typography.sectionTitle} text-slate-950`}>Brand yang stoknya bisa dipastikan</h2>
           </div>
           <Link href={routes.katalog} prefetch={false} className="text-sm font-bold text-blue-700 hover:text-slate-950">Lihat katalog lengkap →</Link>
         </div>
@@ -258,7 +258,7 @@ export default function CilacapBenchmarkPage({
             <h2 className={`mt-2 ${typography.sectionTitle} text-slate-950`}>Kirim & pasang AC sampai sekitar Cilacap</h2>
             <p className="mt-3 max-w-2xl text-sm leading-7 text-slate-600">Pilih daerahmu untuk info pengiriman dan harga yang lebih pas — Kroya, Majenang, Sidareja, Kesugihan, dan Adipala.</p>
             <div className="mt-5 grid gap-3 sm:grid-cols-2 lg:grid-cols-5">
-              {visibleAreas.map(([areaLabel, areaPath]) => <Link key={areaPath} href={areaPath} prefetch={false} className="rounded-[1.15rem] border border-slate-200 bg-[#f8fbff] p-4 text-center transition hover:-translate-y-1 hover:border-blue-200"><span className="font-bold text-slate-950">Toko AC {areaLabel}</span><span className="mt-1 block text-xs font-bold text-blue-700">Cek stok & ongkir →</span></Link>)}
+              {visibleAreas.map(([areaLabel, areaPath]) => <Link key={areaPath} href={areaPath} prefetch={false} className="rounded-[1.15rem] border border-slate-200 bg-[#f8fbff] p-4 text-center transition hover:-translate-y-1 hover:border-blue-200"><span className="font-bold text-slate-950">Toko AC {areaLabel}</span><span className="mt-1 block text-xs font-bold text-blue-700">Lihat stok & ongkir →</span></Link>)}
             </div>
           </div>
         </section>
