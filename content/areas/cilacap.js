@@ -148,18 +148,20 @@ export const cilacapAreas = [
       h1: "Jual AC Kroya untuk Rumah, Toko & Usaha",
       eyebrow: "Area Cilacap",
       intro:
-        "Butuh AC di Kroya untuk rumah, toko, ruko, kantor, usaha, atau banyak unit? Tim Radja AC cek kebutuhan PK, daya listrik, stok brand, pengiriman, dan opsi pemasangan dari data awal yang dikirim.",
+        "Cari AC di Kroya untuk rumah, toko, ruko, kantor, atau butuh banyak unit sekaligus? Kasih tahu jenis ruang dan alamatmu — kami bantu tentukan kapasitas PK, cek stok brand, dan atur pengiriman plus pemasangannya.",
       localContext:
         "Kroya adalah simpul transit penting di jalur selatan Jawa—Stasiun Kroya melayani kereta lintas Jawa sehingga denyut ekonominya campuran antara dagang dan transit. Toko dan ruko di sekitar Pasar Kroya dan stasiun ramai penumpang dan pembeli, cepat gerah saat siang karena pintu sering terbuka. Kos dan hunian di sekitar stasiun banyak dihuni pekerja dan penumpang transit yang butuh kamar adem. Di koridor Kroya–Cilacap juga ada pabrik dan gudang yang kadang butuh pengadaan beberapa unit untuk ruang kerja. Untuk jual AC Kroya, unit dikirim ke alamat lalu dipasang, dengan pembayaran DP, COD, atau transfer setelah stok dipastikan.",
       coverageNote:
         "Showroom dan gudang Radja AC berada di Banyumas. Kebutuhan AC area Kroya dilayani dengan konsultasi PK, cek stok unit, pengiriman, serta opsi pemasangan sesuai alamat, jumlah unit, dan jadwal.",
       keywordVariants: [
+        "toko AC Kroya",
+        "AC Kroya",
         "AC rumah Kroya",
         "AC toko dan ruko Kroya",
-        "AC kantor kecil Kroya",
+        "AC kantor Kroya",
         "AC usaha Kroya",
-        "Banyak unit area Kroya",
-        "Cek PK AC Kroya",
+        "beli AC Kroya",
+        "pasang AC Kroya",
       ],
       nearbyAreaLinks: [
         ["Jual AC Cilacap", routes.jualAcCilacap],
@@ -169,10 +171,10 @@ export const cilacapAreas = [
         ["Jual AC Banyumas", routes.jualAcBanyumas],
       ],
       trustBullets: [
-        "Cek kebutuhan PK dari ukuran ruangan, daya listrik, dan pola pemakaian",
-        "Cek stok brand seperti Gree, Daikin, Midea, Hisense, Sharp, Samsung, dan lainnya",
-        "Opsi pengiriman dan pemasangan dikonfirmasi berdasarkan alamat Kroya dan jumlah unit",
-        "Cocok untuk rumah, toko, ruko, kantor kecil, usaha, dan pembelian beberapa unit",
+        "Kapasitas PK dihitung dari ukuran ruangan, daya listrik, dan pola pemakaian harianmu.",
+        "Stok brand tersedia: Gree, Daikin, Midea, Hisense, Sharp, Samsung, dan pilihan lainnya.",
+        "Pengiriman dan pemasangan ke Kroya dikonfirmasi setelah alamat dan jumlah unit jelas.",
+        "Cocok untuk rumah, toko, ruko, kantor kecil, usaha, dan pembelian beberapa unit sekaligus.",
       ],
       localFaq: [
         [
@@ -189,7 +191,7 @@ export const cilacapAreas = [
         ],
         [
           "Bisa kirim dan pasang AC ke alamat di Kroya atau sekitar pertigaan Buntu?",
-          "Bisa. Unit dikirim ke alamat di Kroya lalu pemasangan dijadwalkan sesuai akses lokasi. Sebutkan alamat dan jumlah unit untuk perkiraan pengiriman.",
+          "Langsung kirimkan alamat detail dan jumlah unitnya. Unit kami kirim ke Kroya lalu pemasangan dijadwalkan sesuai akses lokasi.",
         ],
       ],
       commonNeeds: [
