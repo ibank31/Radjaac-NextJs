@@ -247,18 +247,20 @@ export const cilacapAreas = [
       h1: "Jual AC Majenang untuk Rumah, Toko & Banyak Unit",
       eyebrow: "Area Cilacap Barat",
       intro:
-        "Butuh AC di Majenang untuk rumah, toko, kantor, usaha, atau kebutuhan beberapa unit? Tim Radja AC cek kapasitas PK, daya listrik, stok brand, pengiriman, dan opsi pemasangan dari data awal.",
+        "Majenang pusat dagang Cilacap barat — ruko dan toko di Pasar Majenang ramai pembeli dari berbagai kecamatan, RSUD dan klinik yang sibuk sepanjang jam layanan, plus jalur lintas ke Banjar dan Bandung. Karena Majenang titik terjauh dari gudang Radja AC di Banyumas, sebutkan jenis ruang dan alamat detailmu — kami cocokkan PK, stok brand original, dan jadwal pengiriman dari situ.",
       localContext:
         "Majenang adalah kota dagang terbesar di Cilacap bagian barat, di jalur lintas menuju Banjar dan Bandung, dengan Pasar Majenang sebagai pusat ekonomi yang menarik pembeli dari berbagai kecamatan sekitarnya. RSUD Majenang dan klinik di sekitarnya juga jadi pusat layanan kesehatan untuk wilayah barat. Karena posisinya paling jauh dari gudang Radja AC di Banyumas di antara area Cilacap, pengiriman ke Majenang dijadwalkan tersendiri dan pembeli perlu konfirmasi alamat detail lebih awal. Untuk jual AC Majenang, unit dikirim ke alamat lalu dipasang, dengan pembayaran DP, transfer, atau COD setelah stok dipastikan.",
       coverageNote:
         "Showroom dan gudang Radja AC berada di Banyumas. Kebutuhan AC area Majenang dilayani dengan konsultasi PK, cek stok unit, pengiriman, serta opsi pemasangan sesuai alamat, jumlah unit, dan jadwal.",
       keywordVariants: [
+        "toko AC Majenang",
+        "AC Majenang",
         "AC rumah Majenang",
-        "AC toko Majenang",
+        "AC toko dan ruko Majenang",
         "AC kantor kecil Majenang",
         "AC usaha Majenang",
-        "Banyak unit Majenang",
-        "Cek PK AC Majenang",
+        "banyak unit area Majenang",
+        "cek PK AC Majenang",
       ],
       nearbyAreaLinks: [
         ["Jual AC Cilacap", routes.jualAcCilacap],
@@ -268,10 +270,9 @@ export const cilacapAreas = [
         ["Jual AC Kebumen", routes.jualAcKebumen],
       ],
       trustBullets: [
-        "Cek kebutuhan PK dari ukuran ruangan, fungsi bangunan, dan jam pemakaian",
-        "Cek stok brand seperti Gree, Daikin, Midea, Hisense, Sharp, Samsung, dan lainnya",
-        "Opsi pengiriman dan pemasangan dikonfirmasi berdasarkan alamat Majenang dan jumlah unit",
-        "Cocok untuk rumah, toko, kantor kecil, usaha lokal, dan kebutuhan banyak unit",
+        "Ruko dan toko Pasar Majenang: kapasitas dihitung dari luas dan lalu lalang pembeli dari berbagai kecamatan, bukan sekadar ukuran kamar.",
+        "RSUD dan klinik: ruang tunggu dan ruang periksa dipakai sepanjang jam layanan, jadi kapasitas dipilih agar stabil, bukan yang termurah.",
+        "Jalur barat terjauh dari gudang Banyumas: pengiriman dan pemasangan dijadwalkan tersendiri, faktur dan jumlah unit disusun dari awal.",
       ],
       localFaq: [
         [
