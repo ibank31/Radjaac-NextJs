@@ -137,9 +137,9 @@ export const cilacapAreas = [
         "Pabrik dan gudang di koridor Kroya–Cilacap kadang butuh pengadaan beberapa unit untuk ruang kerja dan kantor lapangan dengan jadwal yang mengikuti operasional",
       ],
       localCases: [
-        ["Toko & ruko sekitar stasiun", "AC ruang jualan yang ramai penumpang dan pembeli agar betah; kapasitas dihitung dari luas dan lalu lalang."],
-        ["Kos & hunian transit", "Pemasangan AC kamar dengan low watt agar daya per kamar aman saat banyak unit menyala."],
-        ["Kantor & gudang industri", "Pemilihan unit ruang kerja dan kantor lapangan di koridor Kroya–Cilacap."],
+        ["Toko & ruko sekitar stasiun", "Kapasitas dihitung dari luas dan lalu lalang penumpang; sedikit lebih besar dari kamar tidur biasa."],
+        ["Kos & hunian transit", "Low watt tipe seragam jaga daya total bangunan saat banyak unit menyala serentak."],
+        ["Kantor & gudang industri", "Pengadaan beberapa unit dengan jadwal yang mengikuti operasional; bisa dilengkapi faktur."],
       ],
       label: "Jual AC Kroya",
       title: "Jual AC Kroya | Toko Sekitar Stasiun, Kos Transit & Koridor Industri Cilacap — Radja AC",
@@ -148,18 +148,20 @@ export const cilacapAreas = [
       h1: "Jual AC Kroya untuk Rumah, Toko & Usaha",
       eyebrow: "Area Cilacap",
       intro:
-        "Butuh AC di Kroya untuk rumah, toko, ruko, kantor, usaha, atau banyak unit? Tim Radja AC cek kebutuhan PK, daya listrik, stok brand, pengiriman, dan opsi pemasangan dari data awal yang dikirim.",
+        "Kroya simpul transit jalur selatan Jawa — toko dan ruko ramai penumpang, kos dan hunian dekat stasiun, plus koridor industri ke arah Cilacap. Kasih tahu jenis ruang dan alamatmu, Radja AC cocokkan PK, stok, dan jadwal pengiriman dari situ.",
       localContext:
-        "Kroya adalah simpul transit penting di jalur selatan Jawa—Stasiun Kroya melayani kereta lintas Jawa sehingga denyut ekonominya campuran antara dagang dan transit. Toko dan ruko di sekitar Pasar Kroya dan stasiun ramai penumpang dan pembeli, cepat gerah saat siang karena pintu sering terbuka. Kos dan hunian di sekitar stasiun banyak dihuni pekerja dan penumpang transit yang butuh kamar adem. Di koridor Kroya–Cilacap juga ada pabrik dan gudang yang kadang butuh pengadaan beberapa unit untuk ruang kerja. Untuk jual AC Kroya, unit dikirim ke alamat lalu dipasang, dengan pembayaran DP, COD, atau transfer setelah stok dipastikan.",
+        "Kroya adalah simpul transit penting di jalur selatan Jawa—Stasiun Kroya melayani kereta lintas Jawa sehingga denyut ekonominya campuran antara dagang dan transit. Toko dan ruko di sekitar Pasar Kroya dan stasiun ramai penumpang dan pembeli, cepat gerah saat siang karena pintu sering terbuka. Kos dan hunian di sekitar stasiun banyak dihuni pekerja dan penumpang transit yang butuh kamar adem. Di koridor Kroya–Cilacap juga ada pabrik dan gudang yang kadang butuh pengadaan beberapa unit untuk ruang kerja.",
       coverageNote:
         "Showroom dan gudang Radja AC berada di Banyumas. Kebutuhan AC area Kroya dilayani dengan konsultasi PK, cek stok unit, pengiriman, serta opsi pemasangan sesuai alamat, jumlah unit, dan jadwal.",
       keywordVariants: [
+        "toko AC Kroya",
+        "AC Kroya",
         "AC rumah Kroya",
         "AC toko dan ruko Kroya",
         "AC kantor kecil Kroya",
         "AC usaha Kroya",
-        "Banyak unit area Kroya",
-        "Cek PK AC Kroya",
+        "banyak unit area Kroya",
+        "cek PK AC Kroya",
       ],
       nearbyAreaLinks: [
         ["Jual AC Cilacap", routes.jualAcCilacap],
@@ -169,10 +171,9 @@ export const cilacapAreas = [
         ["Jual AC Banyumas", routes.jualAcBanyumas],
       ],
       trustBullets: [
-        "Cek kebutuhan PK dari ukuran ruangan, daya listrik, dan pola pemakaian",
-        "Cek stok brand seperti Gree, Daikin, Midea, Hisense, Sharp, Samsung, dan lainnya",
-        "Opsi pengiriman dan pemasangan dikonfirmasi berdasarkan alamat Kroya dan jumlah unit",
-        "Cocok untuk rumah, toko, ruko, kantor kecil, usaha, dan pembelian beberapa unit",
+        "Toko dan ruko sekitar stasiun: kapasitas dihitung dari luas dan lalu lalang, bukan sekadar ukuran kamar.",
+        "Kos multi-kamar: low watt tipe seragam jaga daya total bangunan dan permudah perawatan antar kamar.",
+        "Koridor Kroya–Cilacap: pengadaan beberapa unit bisa dengan jadwal dan faktur yang disusun dari awal.",
       ],
       localFaq: [
         [
@@ -189,7 +190,7 @@ export const cilacapAreas = [
         ],
         [
           "Bisa kirim dan pasang AC ke alamat di Kroya atau sekitar pertigaan Buntu?",
-          "Bisa. Unit dikirim ke alamat di Kroya lalu pemasangan dijadwalkan sesuai akses lokasi. Sebutkan alamat dan jumlah unit untuk perkiraan pengiriman.",
+          "Langsung kirimkan alamat dan jumlah unitnya. Unit dikirim ke alamat di Kroya lalu pemasangan dijadwalkan sesuai akses lokasi untuk perkiraan pengiriman.",
         ],
       ],
       commonNeeds: [
