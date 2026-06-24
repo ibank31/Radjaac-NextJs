@@ -12,7 +12,7 @@ import SectionTitle from "@/components/area/SectionTitle";
 import AreaFaq from "@/components/area/AreaFaq";
 import AreaFinalCta from "@/components/area/AreaFinalCta";
 import AreaProcess from "@/components/area/AreaProcess";
-import CilacapBenchmarkPage from "@/components/area/CilacapBenchmarkPage";
+import AreaHubPage from "@/components/area/AreaHubPage";
 import { typography } from "@/lib/typography";
 
 import {
@@ -150,10 +150,19 @@ export default async function AreaPage({ params }) {
     faqSchema(faqItems),
   ];
 
-  if (item.slug === "jual-ac-cilacap") {
+  const cilacapHubSlugs = [
+    "jual-ac-cilacap",
+    "jual-ac-kroya",
+    "jual-ac-majenang",
+    "jual-ac-sidareja",
+    "jual-ac-kesugihan",
+    "jual-ac-adipala",
+  ];
+  if (cilacapHubSlugs.includes(item.slug)) {
     return (
-      <CilacapBenchmarkPage
+      <AreaHubPage
         item={item}
+        isHub={item.slug === "jual-ac-cilacap"}
         structuredData={structuredData}
         proofImages={proofImages}
         pricePackages={pricePackages}
