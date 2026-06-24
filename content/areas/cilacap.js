@@ -152,7 +152,7 @@ export const cilacapAreas = [
       localContext:
         "Kroya adalah simpul transit penting di jalur selatan Jawa—Stasiun Kroya melayani kereta lintas Jawa sehingga denyut ekonominya campuran antara dagang dan transit. Toko dan ruko di sekitar Pasar Kroya dan stasiun ramai penumpang dan pembeli, cepat gerah saat siang karena pintu sering terbuka. Kos dan hunian di sekitar stasiun banyak dihuni pekerja dan penumpang transit yang butuh kamar adem. Di koridor Kroya–Cilacap juga ada pabrik dan gudang yang kadang butuh pengadaan beberapa unit untuk ruang kerja.",
       coverageNote:
-        "Showroom dan gudang Radja AC berada di Banyumas. Kebutuhan AC area Kroya dilayani dengan konsultasi PK, cek stok unit, pengiriman, serta opsi pemasangan sesuai alamat, jumlah unit, dan jadwal.",
+        "Showroom dan gudang Radja AC ada di Banyumas, dan Kroya terhubung lewat jalur lintas selatan (Buntu–Kroya). Stok, pengiriman ke alamat sekitar stasiun, Pasar Kroya, atau koridor industri Kroya–Cilacap, sampai opsi pemasangan dikonfirmasi setelah alamat, jumlah unit, dan kondisi ruang jelas.",
       keywordVariants: [
         "toko AC Kroya",
         "AC Kroya",
@@ -194,16 +194,16 @@ export const cilacapAreas = [
         ],
       ],
       commonNeeds: [
-        "AC rumah tinggal dan kamar tidur",
-        "AC toko, ruko, kantor kecil, dan ruang usaha",
-        "AC untuk beberapa ruangan atau beberapa titik",
-        "Pembelian unit untuk usaha lokal dan kebutuhan banyak unit",
+        "AC rumah dan kamar kos di sekitar Stasiun Kroya",
+        "AC toko dan ruko di sekitar Pasar Kroya yang ramai penumpang",
+        "AC kantor kecil dan ruang kerja di koridor industri Kroya–Cilacap",
+        "Pengadaan beberapa unit untuk kos transit, kantor, atau gudang",
       ],
       buyingChecks: [
-        "Alamat detail area Kroya",
-        "Ukuran ruangan dan estimasi kebutuhan PK",
+        "Alamat detail area Kroya (sekitar stasiun, Pasar Kroya, atau koridor industri)",
+        "Ukuran ruang dan lalu lalang penumpang untuk perkiraan PK",
         "Daya listrik serta pilihan standard, low watt, atau inverter",
-        "Kebutuhan unit saja, pengiriman, atau opsi pemasangan",
+        "Jumlah unit dan jadwal pengiriman yang mengikuti operasional",
       ],
       relatedLinks: [
         ["Jual AC Cilacap", routes.jualAcCilacap],
