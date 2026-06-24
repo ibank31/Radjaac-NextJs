@@ -541,18 +541,20 @@ export const cilacapAreas = [
       h1: "Jual AC Adipala untuk Rumah, Toko & Usaha",
       eyebrow: "Area Cilacap",
       intro:
-        "Butuh AC di Adipala untuk rumah, toko, kantor, usaha, atau kebutuhan beberapa unit? Tim Radja AC cek kebutuhan PK, daya listrik, stok brand, pengiriman, dan opsi pemasangan berdasarkan kondisi ruangan.",
+        "Adipala kecamatan pesisir Cilacap — ada PLTU Adipala dengan kontraktor dan mess yang kadang butuh pengadaan banyak unit, permukiman nelayan di sekitar Pantai Widarapayung dan Jetis, plus toko di jalur Adipala–Kroya yang panas. Karena dekat laut, udara asin bikin penempatan outdoor perlu diperhatikan biar tidak cepat berkarat. Sebutkan jenis ruang dan alamat detailmu — Radja AC cocokkan PK, stok brand original, dan jadwal pengirimannya dari situ.",
       localContext:
         "Adipala adalah kecamatan pesisir di Cilacap yang dikenal dengan PLTU Adipala—pembangkit listrik tenaga uap yang jadi salah satu infrastruktur energi penting di Jawa Tengah—serta pantai selatan seperti Pantai Widarapayung dan Pantai Jetis. Permukiman nelayan dan pelaku usaha tambak tersebar di sepanjang pesisir, dengan udara panas dan lembap yang membuat ruangan cepat gerah. Kontraktor dan vendor sekitar PLTU kadang butuh pengadaan beberapa unit AC untuk ruang kerja dan mess. Karena dekat laut, udara asin mempercepat korosi pada unit outdoor sehingga penempatan perlu diperhatikan sejak awal. Untuk jual AC Adipala, unit dikirim ke alamat lalu dipasang, dengan pembayaran DP, COD, atau transfer setelah stok dipastikan.",
       coverageNote:
-        "Showroom dan gudang Radja AC berada di Banyumas. Kebutuhan AC area Adipala dilayani dengan konsultasi PK, cek stok unit, pengiriman, serta opsi pemasangan sesuai alamat, jumlah unit, dan jadwal.",
+        "Showroom dan gudang Radja AC ada di Banyumas, dan Adipala dijangkau lewat jalur Adipala–Kroya–Cilacap kota. Pengiriman ke alamat di permukiman pesisir, sekitar PLTU, atau jalur utama dikonfirmasi setelah alamat, jumlah unit, dan kondisi ruang jelas — termasuk pengadaan beberapa unit yang bisa dilengkapi faktur.",
       keywordVariants: [
+        "toko AC Adipala",
+        "AC Adipala",
         "AC rumah Adipala",
-        "AC toko Adipala",
+        "AC toko dan usaha pesisir Adipala",
         "AC kantor kecil Adipala",
-        "AC usaha Adipala",
         "AC ruangan panas Adipala",
-        "Cek PK AC Adipala",
+        "banyak unit area Adipala",
+        "cek PK AC Adipala",
       ],
       nearbyAreaLinks: [
         ["Jual AC Cilacap", routes.jualAcCilacap],
@@ -562,10 +564,9 @@ export const cilacapAreas = [
         ["Jual AC Banyumas", routes.jualAcBanyumas],
       ],
       trustBullets: [
-        "Cek kebutuhan PK dari ukuran ruangan, paparan panas, daya listrik, dan pola pemakaian",
-        "Cek stok brand seperti Gree, Daikin, Midea, Hisense, Sharp, Samsung, dan lainnya",
-        "Opsi pengiriman dan pemasangan dikonfirmasi berdasarkan alamat Adipala dan jumlah unit",
-        "Cocok untuk rumah, toko, kantor kecil, usaha, dan ruangan yang terasa panas",
+        "Kantor dan mess sekitar PLTU Adipala: pengadaan beberapa unit bisa dilengkapi faktur dan jadwal mengikuti operasional proyek.",
+        "Permukiman nelayan pesisir: udara asin mempercepat korosi, jadi penempatan outdoor dan perawatan kami perhatikan dari awal.",
+        "Toko dan usaha jalur Adipala–Kroya: kapasitas dihitung dari luas dan paparan panas, bukan sekadar ukuran kamar.",
       ],
       localFaq: [
         [
@@ -586,16 +587,16 @@ export const cilacapAreas = [
         ],
       ],
       commonNeeds: [
-        "AC rumah tinggal dan kamar tidur",
-        "AC toko, kantor kecil, dan ruang usaha",
-        "AC untuk ruangan yang panas atau sering dipakai",
-        "Pembelian unit untuk usaha lokal dan beberapa titik",
+        "AC kantor lapangan dan mess kontraktor sekitar PLTU Adipala",
+        "AC rumah dan warung di permukiman nelayan pesisir",
+        "AC toko dan ruang usaha di jalur Adipala–Kroya yang panas",
+        "Pengadaan beberapa unit dengan faktur untuk proyek atau usaha",
       ],
       buyingChecks: [
-        "Alamat detail area Adipala",
-        "Ukuran ruangan, paparan panas, dan estimasi kebutuhan PK",
+        "Alamat detail area Adipala (permukiman pesisir, sekitar PLTU, atau jalur utama)",
+        "Ukuran ruangan, paparan panas, dan jarak dari laut untuk perkiraan PK",
         "Daya listrik serta pilihan standard, low watt, atau inverter",
-        "Kebutuhan unit saja, pengiriman, atau opsi pemasangan",
+        "Jumlah unit, kebutuhan faktur, dan jadwal pengiriman",
       ],
       relatedLinks: [
         ["Jual AC Cilacap", routes.jualAcCilacap],
