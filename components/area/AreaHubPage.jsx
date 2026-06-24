@@ -210,6 +210,12 @@ export default function AreaHubPage({
             <div className="mt-4 rounded-[1.1rem] border border-blue-200 bg-blue-50 px-4 py-3 text-sm font-bold text-blue-900">
               ✓ Radja AC adalah Gree Proshop resmi — bukan sekadar penjual, plus dealer resmi 4 brand di bawah.
             </div>
+            <figure className="mt-4">
+              <div className="overflow-hidden rounded-[1.1rem] border border-slate-200 bg-white p-1.5 shadow-sm">
+                <Image src="/photos/proof/proshop-gree-purwokerto.webp" alt="Gree Proshop resmi Radja AC di Purwokerto" width={640} height={420} sizes="(min-width: 1024px) 460px, 100vw" className="h-[200px] w-full rounded-[0.85rem] object-cover object-center sm:h-[240px]" />
+              </div>
+              <figcaption className="mt-2 text-center text-xs font-semibold text-slate-500">Gree Proshop resmi Radja AC — Purwokerto, Banyumas</figcaption>
+            </figure>
             <div className="mt-4 grid grid-cols-2 gap-3">
               {certificates.map(([brand, status, image]) => (
                 <figure key={brand} className="text-center">
