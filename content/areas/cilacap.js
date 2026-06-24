@@ -21,19 +21,19 @@ export const cilacapAreas = [
       ],
       localCases: [
         ["Rumah / ruko panas", "Cek ukuran ruang, daya listrik, dan posisi outdoor dulu sebelum pilih PK."],
-        ["Toko & kantor", "Butuh dingin stabil saat jam ramai; stok dan jadwal bisa dikonfirmasi via WhatsApp."],
-        ["Proyek / banyak unit", "Spesifikasi bisa diseragamkan, dengan faktur dan jadwal pengiriman bertahap."],
+        ["Toko & kantor", "Butuh dingin stabil saat jam ramai; stok dan jadwal bisa dikonfirmasi sebelumnya."],
+        ["Proyek / banyak unit", "Spesifikasi bisa diseragamkan, dengan faktur dan jadwal pengiriman bertahap atau sekaligus."],
       ],
       label: "Toko AC Cilacap",
-      title: "Toko AC Cilacap — Dealer Resmi, Kirim & Pasang dari Banyumas | Radja AC",
+      title: "Toko AC Cilacap — Dealer Resmi, Satuan & Proyek | Radja AC",
       description:
-        "Toko AC Cilacap: unit AC original dari dealer resmi & Gree Proshop, dikirim dan dipasang dari showroom Banyumas. Cek PK, stok, dan harga untuk rumah, ruko, kantor, atau proyek lewat WhatsApp.",
-      h1: "Toko AC Cilacap untuk Rumah, Ruko, Kantor & Banyak Unit",
+        "Toko AC Cilacap untuk rumah, kantor & proyek: unit original dari dealer resmi, dikirim & dipasang dari Banyumas. Cek PK, stok & pengadaan partai besar.",
+      h1: "Toko AC Cilacap untuk Rumah, Ruko, Kantor & Partai Besar",
       eyebrow: "Layanan AC Area Cilacap",
       intro:
-        "Cari toko AC Cilacap yang bisa dipercaya? Radja AC dealer resmi yang melayani seluruh Cilacap dari showroom Banyumas — mulai dari jenis ruangnya: rumah, ruko, toko, kantor, atau pengadaan banyak unit. Dari situ kami arahkan kapasitas yang pas, bandingkan brand original sesuai budget, lalu atur pengiriman dan pemasangannya.",
+        "Cari toko AC Cilacap yang bisa dipercaya? Radja AC dealer resmi yang melayani seluruh Cilacap dari showroom Banyumas — mulai dari jenis ruangnya: rumah, ruko, toko, kantor, atau pengadaan banyak unit. Mengarahkan PK AC yang pas, bandingkan beberapa brand original sesuai budget, lalu atur pengiriman dan pemasangannya.",
       localContext:
-        "Kebutuhan AC di Cilacap terbelah dua: pemakaian harian rumah dan ruko yang gampang panas, plus pengadaan banyak unit untuk kantor dan proyek. Tambahan lagi, udara pantainya bikin unit luar lebih rentan korosi, jadi penempatannya ikut menentukan umur AC.",
+        "Kebutuhan AC di Cilacap terbelah dua: pemakaian harian rumah dan ruko yang gampang panas, penawaran banyak unit untuk kantor dan proyek. Tambahan lagi, udara pantainya bikin outdoor lebih rentan korosi, jadi penempatannya ikut menentukan umur AC.",
       coverageNote:
         "Sebagai dealer resmi yang melayani seluruh Cilacap, Radja AC jadi alternatif praktis dari sekadar cari toko AC terdekat — kebutuhan AC Cilacap dilayani dari basis showroom dan gudang di Banyumas. Stok, pengiriman, dan opsi pemasangan dikonfirmasi setelah alamat, jumlah unit, dan kondisi ruangan jelas.",
       commonNeeds: [
@@ -70,7 +70,7 @@ export const cilacapAreas = [
         ["Kontak Radja AC", routes.kontak],
         ["Memilih AC untuk Daerah Pesisir", routes.artikelMemilihAcUntukDaerahPesisir],
       ],
-      ctaLabel: "Chat WhatsApp untuk cek AC Cilacap",
+      ctaLabel: "Chat WhatsApp soal AC Cilacap",
       waIntent: "cek stok dan estimasi AC Cilacap dengan data kecamatan ukuran ruangan daya listrik jumlah unit alamat dan kebutuhan pemasangan",
       waArea: "Cilacap",
       keywordVariants: [
@@ -99,7 +99,7 @@ export const cilacapAreas = [
       trustBullets: [
         "Showroom dan gudang kami ada di Banyumas; unit dipastikan ready sebelum dikirim ke Cilacap.",
         "Kapasitas PK kami hitung dari luas ruang, daya listrik, jumlah unit, dan kondisi lokasimu.",
-        "Aktivitas kami nyata dan terdokumentasi: stok fisik, proses pengiriman, sampai pemasangan.",
+        "Stok fisik, proses pengiriman, sampai pemasangan.",
       ],
       localFaq: [
         [
