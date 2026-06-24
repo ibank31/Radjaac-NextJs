@@ -296,6 +296,56 @@ export default function AreaHubPage({
         </section>
       ) : null}
 
+      {isHub ? (
+        <section className="mx-auto max-w-7xl px-4 py-7 sm:px-6 lg:px-8 lg:py-10">
+          <div className="grid gap-5 lg:grid-cols-[0.8fr_1.2fr] lg:items-start">
+            <div>
+              <p className={`${typography.eyebrow} text-blue-700`}>SELENGKAPNYA</p>
+              <h2 className={`mt-3 ${typography.sectionTitle} text-slate-950`}>Panduan singkat beli AC di {areaName}</h2>
+              <p className="mt-4 text-sm leading-7 text-slate-600">Buka yang kamu perlu. Sisanya skip, langsung chat WhatsApp.</p>
+            </div>
+            <div className="grid gap-3">
+              {item.coverageNote ? (
+                <details className="group rounded-[1.15rem] border border-slate-200 bg-white p-4 open:border-blue-200 open:bg-blue-50/40">
+                  <summary className="cursor-pointer list-none text-sm font-bold leading-6 text-slate-950">Area &amp; cakupan layanan AC di {areaName}</summary>
+                  <p className="mt-3 text-sm leading-6 text-slate-600">{item.coverageNote}</p>
+                </details>
+              ) : null}
+              {item.commonNeeds?.length ? (
+                <details className="group rounded-[1.15rem] border border-slate-200 bg-white p-4 open:border-blue-200 open:bg-blue-50/40">
+                  <summary className="cursor-pointer list-none text-sm font-bold leading-6 text-slate-950">Kebutuhan AC yang paling sering dilayani</summary>
+                  <ul className="mt-3 space-y-2">
+                    {item.commonNeeds.map((need) => (
+                      <li key={need} className="flex gap-2 text-sm leading-6 text-slate-600"><span className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-blue-600" />{need}</li>
+                    ))}
+                  </ul>
+                </details>
+              ) : null}
+              {item.localBenefits?.length ? (
+                <details className="group rounded-[1.15rem] border border-slate-200 bg-white p-4 open:border-blue-200 open:bg-blue-50/40">
+                  <summary className="cursor-pointer list-none text-sm font-bold leading-6 text-slate-950">Hal yang sering jadi pertimbangan di {areaName}</summary>
+                  <ul className="mt-3 space-y-2">
+                    {item.localBenefits.map((benefit) => (
+                      <li key={benefit} className="flex gap-2 text-sm leading-6 text-slate-600"><span className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-blue-600" />{benefit}</li>
+                    ))}
+                  </ul>
+                </details>
+              ) : null}
+              {item.buyingChecks?.length ? (
+                <details className="group rounded-[1.15rem] border border-slate-200 bg-white p-4 open:border-blue-200 open:bg-blue-50/40">
+                  <summary className="cursor-pointer list-none text-sm font-bold leading-6 text-slate-950">Yang perlu disiapkan sebelum chat</summary>
+                  <ul className="mt-3 space-y-2">
+                    {item.buyingChecks.map((check) => (
+                      <li key={check} className="flex gap-2 text-sm leading-6 text-slate-600"><span className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-blue-600" />{check}</li>
+                    ))}
+                  </ul>
+                </details>
+              ) : null}
+            </div>
+          </div>
+        </section>
+      ) : null}
+
       <section className="mx-auto max-w-7xl px-4 py-7 sm:px-6 lg:px-8 lg:py-10">
         <div className="grid gap-5 lg:grid-cols-[0.8fr_1.2fr] lg:items-start">
           <div>
