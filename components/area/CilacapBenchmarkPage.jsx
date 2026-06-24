@@ -54,7 +54,7 @@ export default function CilacapBenchmarkPage({
   const visibleBrands = brandLinks.slice(0, 6);
   const visibleCategories = categoryLinks.slice(0, 3);
   const visibleAreas = item.nearbyAreaLinks ?? [];
-  const visibleFaq = faqItems.slice(0, 5);
+  const visibleFaq = faqItems;
   const finalCtaItem = { ...item, ctaLabel: "Mau beli AC di Cilacap dan sekitarnya? Kirim data ruangan dulu." };
 
   return (
@@ -68,7 +68,7 @@ export default function CilacapBenchmarkPage({
               <Link href={routes.jualAc} prefetch={false} className="text-sm font-semibold text-blue-700 transition hover:text-slate-950">
                 ← Kembali ke Jual AC
               </Link>
-              <span className="rounded-full border border-blue-100 bg-white px-3 py-1 text-xs font-bold text-blue-700">Parent hub area Cilacap</span>
+              <span className="rounded-full border border-blue-100 bg-white px-3 py-1 text-xs font-bold text-blue-700">Melayani se-Cilacap & sekitarnya</span>
             </div>
 
             <h1 className={`mb-3 max-w-3xl ${typography.pageTitle}`}>{item.h1}</h1>
@@ -195,9 +195,12 @@ export default function CilacapBenchmarkPage({
       <section className="mx-auto max-w-7xl px-4 py-7 sm:px-6 lg:px-8 lg:py-10">
         <div className="grid gap-5 lg:grid-cols-[1.05fr_0.95fr] lg:items-start">
           <div className="rounded-[1.7rem] border border-blue-100 bg-[linear-gradient(135deg,#fffaf2_0%,#ffffff_55%,#eef7ff_100%)] p-5 shadow-sm sm:p-7">
-            <p className={`${typography.eyebrow} text-blue-700`}>SERTIFIKAT AUTHORIZED DEALER</p>
-            <h2 className={`mt-3 ${typography.sectionTitle} text-slate-950`}>Sertifikat resmi, stok nyata, dan pengiriman yang jelas.</h2>
-            <div className="mt-5 grid grid-cols-2 gap-3">
+            <p className={`${typography.eyebrow} text-blue-700`}>DEALER RESMI & GREE PROSHOP</p>
+            <h2 className={`mt-3 ${typography.sectionTitle} text-slate-950`}>Gree Proshop resmi, dealer resmi, dan unit original.</h2>
+            <div className="mt-4 rounded-[1.1rem] border border-blue-200 bg-blue-50 px-4 py-3 text-sm font-bold text-blue-900">
+              ✓ Radja AC adalah Gree Proshop resmi — bukan sekadar penjual, plus dealer resmi 4 brand di bawah.
+            </div>
+            <div className="mt-4 grid grid-cols-2 gap-3">
               {certificates.map(([brand, status, image]) => (
                 <figure key={brand} className="text-center">
                   <div className="rounded-[16px] border border-slate-200 bg-white p-2 shadow-[0_12px_28px_rgba(15,39,66,0.08)]">
@@ -216,7 +219,7 @@ export default function CilacapBenchmarkPage({
             <div className="mt-5 grid gap-3">
               <div className="flex gap-3 text-sm leading-6 text-slate-700">
                 <span className="mt-1 flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-blue-600 text-[11px] font-bold text-white">✓</span>
-                <span>Sertifikat Authorized Dealer Daikin, Midea, Hisense, dan Sansui tersedia sebagai bukti resmi.</span>
+                <span>Gree Proshop resmi, plus Authorized Dealer Daikin, Midea, Hisense, dan Sansui — semua bisa ditunjukkan sebagai bukti resmi.</span>
               </div>
               {trustBullets.map((point) => (
                 <div key={point} className="flex gap-3 text-sm leading-6 text-slate-700">
@@ -251,11 +254,11 @@ export default function CilacapBenchmarkPage({
       {visibleAreas.length ? (
         <section className="mx-auto max-w-7xl px-4 py-7 sm:px-6 lg:px-8 lg:py-10">
           <div className="rounded-[1.7rem] border border-slate-200 bg-white p-5 sm:p-7">
-            <p className={`${typography.eyebrow} text-blue-700`}>CHILD AREA CILACAP</p>
-            <h2 className={`mt-2 ${typography.sectionTitle} text-slate-950`}>Pilih area layanan di cluster Cilacap</h2>
-            <p className="mt-3 max-w-2xl text-sm leading-7 text-slate-600">Cek halaman child area supaya info pengiriman dan konteks lokal lebih tepat untuk Kroya, Majenang, Sidareja, Kesugihan, dan Adipala.</p>
+            <p className={`${typography.eyebrow} text-blue-700`}>AREA SEKITAR CILACAP</p>
+            <h2 className={`mt-2 ${typography.sectionTitle} text-slate-950`}>Kirim & pasang AC sampai sekitar Cilacap</h2>
+            <p className="mt-3 max-w-2xl text-sm leading-7 text-slate-600">Pilih daerahmu untuk info pengiriman dan harga yang lebih pas — Kroya, Majenang, Sidareja, Kesugihan, dan Adipala.</p>
             <div className="mt-5 grid gap-3 sm:grid-cols-2 lg:grid-cols-5">
-              {visibleAreas.map(([areaLabel, areaPath]) => <Link key={areaPath} href={areaPath} prefetch={false} className="rounded-[1.15rem] border border-slate-200 bg-[#f8fbff] p-4 text-center transition hover:-translate-y-1 hover:border-blue-200"><span className="font-bold text-slate-950">Jual AC {areaLabel}</span><span className="mt-1 block text-xs font-bold text-blue-700">Cek stok & layanan →</span></Link>)}
+              {visibleAreas.map(([areaLabel, areaPath]) => <Link key={areaPath} href={areaPath} prefetch={false} className="rounded-[1.15rem] border border-slate-200 bg-[#f8fbff] p-4 text-center transition hover:-translate-y-1 hover:border-blue-200"><span className="font-bold text-slate-950">Toko AC {areaLabel}</span><span className="mt-1 block text-xs font-bold text-blue-700">Cek stok & ongkir →</span></Link>)}
             </div>
           </div>
         </section>

@@ -24,11 +24,11 @@ export const cilacapAreas = [
         ["Toko & kantor", "Butuh dingin stabil saat jam ramai; stok dan jadwal bisa dikonfirmasi via WhatsApp."],
         ["Proyek / banyak unit", "Spesifikasi bisa diseragamkan, dengan faktur dan jadwal pengiriman bertahap."],
       ],
-      label: "Jual AC Cilacap",
-      title: "Jual AC Cilacap | Rumah, Ruko, Kantor & Banyak Unit — Radja AC",
+      label: "Toko AC Cilacap",
+      title: "Toko AC Cilacap — Dealer Resmi, Kirim & Pasang dari Banyumas | Radja AC",
       description:
-        "Beli AC untuk rumah, ruko, kantor, toko, atau proyek di Cilacap? Radja AC bantu cek PK, stok, harga, pengiriman, dan opsi pemasangan via WhatsApp.",
-      h1: "Jual AC Cilacap untuk Rumah, Ruko, Kantor & Banyak Unit",
+        "Toko AC Cilacap: unit AC original dari dealer resmi & Gree Proshop, dikirim dan dipasang dari showroom Banyumas. Cek PK, stok, dan harga untuk rumah, ruko, kantor, atau proyek lewat WhatsApp.",
+      h1: "Toko AC Cilacap untuk Rumah, Ruko, Kantor & Banyak Unit",
       eyebrow: "Layanan AC Area Cilacap",
       intro:
         "Cari AC untuk Cilacap? Mulai dari jenis ruangnya dulu: rumah, ruko, toko, kantor, atau banyak unit. Radja AC bantu cek PK, stok, estimasi harga, pengiriman, dan opsi pemasangan sebelum kamu beli.",
@@ -72,8 +72,9 @@ export const cilacapAreas = [
       waIntent: "cek stok dan estimasi AC Cilacap dengan data kecamatan ukuran ruangan daya listrik jumlah unit alamat dan kebutuhan pemasangan",
       waArea: "Cilacap",
       keywordVariants: [
-        "jual AC Cilacap",
         "toko AC Cilacap",
+        "AC Cilacap",
+        "harga AC Cilacap",
         "beli AC Cilacap",
         "AC kantor Cilacap",
         "AC proyek industri Cilacap",
@@ -81,9 +82,8 @@ export const cilacapAreas = [
         "AC pesisir tahan korosi Cilacap",
         "AC rumah Cilacap",
         "pasang AC Cilacap",
-        "ganti AC lama Cilacap",
         "AC banyak unit Cilacap",
-        "pengiriman AC Cilacap",
+        "jual AC Cilacap",
       ],
       nearbyAreaLinks: [
         ["Kroya", routes.jualAcKroya],
