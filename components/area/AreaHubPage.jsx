@@ -302,18 +302,25 @@ export default function AreaHubPage({
             <div>
               <p className={`${typography.eyebrow} text-blue-700`}>SELENGKAPNYA</p>
               <h2 className={`mt-3 ${typography.sectionTitle} text-slate-950`}>Panduan singkat beli AC di {areaName}</h2>
-              <p className="mt-4 text-sm leading-7 text-slate-600">Buka yang kamu perlu. Sisanya skip, langsung chat WhatsApp.</p>
             </div>
             <div className="grid gap-3">
               {item.coverageNote ? (
                 <details className="group rounded-[1.15rem] border border-slate-200 bg-white p-4 open:border-blue-200 open:bg-blue-50/40">
-                  <summary className="cursor-pointer list-none text-sm font-bold leading-6 text-slate-950">Area &amp; cakupan layanan AC di {areaName}</summary>
+                  <summary className="flex cursor-pointer list-none items-start justify-between gap-3 text-sm font-bold leading-6 text-slate-950">
+                    <span>Area &amp; cakupan layanan AC di {areaName}</span>
+                    <span className="flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-blue-50 text-base font-black text-blue-700 group-open:hidden">+</span>
+                    <span className="hidden h-6 w-6 shrink-0 items-center justify-center rounded-full bg-blue-600 text-base font-black text-white group-open:flex">−</span>
+                  </summary>
                   <p className="mt-3 text-sm leading-6 text-slate-600">{item.coverageNote}</p>
                 </details>
               ) : null}
               {item.commonNeeds?.length ? (
                 <details className="group rounded-[1.15rem] border border-slate-200 bg-white p-4 open:border-blue-200 open:bg-blue-50/40">
-                  <summary className="cursor-pointer list-none text-sm font-bold leading-6 text-slate-950">Kebutuhan AC yang paling sering dilayani</summary>
+                  <summary className="flex cursor-pointer list-none items-start justify-between gap-3 text-sm font-bold leading-6 text-slate-950">
+                    <span>Kebutuhan AC yang paling sering dilayani</span>
+                    <span className="flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-blue-50 text-base font-black text-blue-700 group-open:hidden">+</span>
+                    <span className="hidden h-6 w-6 shrink-0 items-center justify-center rounded-full bg-blue-600 text-base font-black text-white group-open:flex">−</span>
+                  </summary>
                   <ul className="mt-3 space-y-2">
                     {item.commonNeeds.map((need) => (
                       <li key={need} className="flex gap-2 text-sm leading-6 text-slate-600"><span className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-blue-600" />{need}</li>
@@ -323,7 +330,11 @@ export default function AreaHubPage({
               ) : null}
               {item.localBenefits?.length ? (
                 <details className="group rounded-[1.15rem] border border-slate-200 bg-white p-4 open:border-blue-200 open:bg-blue-50/40">
-                  <summary className="cursor-pointer list-none text-sm font-bold leading-6 text-slate-950">Hal yang sering jadi pertimbangan di {areaName}</summary>
+                  <summary className="flex cursor-pointer list-none items-start justify-between gap-3 text-sm font-bold leading-6 text-slate-950">
+                    <span>Hal yang sering jadi pertimbangan di {areaName}</span>
+                    <span className="flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-blue-50 text-base font-black text-blue-700 group-open:hidden">+</span>
+                    <span className="hidden h-6 w-6 shrink-0 items-center justify-center rounded-full bg-blue-600 text-base font-black text-white group-open:flex">−</span>
+                  </summary>
                   <ul className="mt-3 space-y-2">
                     {item.localBenefits.map((benefit) => (
                       <li key={benefit} className="flex gap-2 text-sm leading-6 text-slate-600"><span className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-blue-600" />{benefit}</li>
@@ -333,7 +344,11 @@ export default function AreaHubPage({
               ) : null}
               {item.buyingChecks?.length ? (
                 <details className="group rounded-[1.15rem] border border-slate-200 bg-white p-4 open:border-blue-200 open:bg-blue-50/40">
-                  <summary className="cursor-pointer list-none text-sm font-bold leading-6 text-slate-950">Yang perlu disiapkan sebelum chat</summary>
+                  <summary className="flex cursor-pointer list-none items-start justify-between gap-3 text-sm font-bold leading-6 text-slate-950">
+                    <span>Yang perlu disiapkan sebelum chat</span>
+                    <span className="flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-blue-50 text-base font-black text-blue-700 group-open:hidden">+</span>
+                    <span className="hidden h-6 w-6 shrink-0 items-center justify-center rounded-full bg-blue-600 text-base font-black text-white group-open:flex">−</span>
+                  </summary>
                   <ul className="mt-3 space-y-2">
                     {item.buyingChecks.map((check) => (
                       <li key={check} className="flex gap-2 text-sm leading-6 text-slate-600"><span className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-blue-600" />{check}</li>
@@ -352,18 +367,25 @@ export default function AreaHubPage({
             <div>
               <p className={`${typography.eyebrow} text-blue-700`}>SELENGKAPNYA</p>
               <h2 className={`mt-3 ${typography.sectionTitle} text-slate-950`}>Selengkapnya soal AC di {areaName}</h2>
-              <p className="mt-4 text-sm leading-7 text-slate-600">Buka yang kamu perlu. Sisanya skip, langsung chat WhatsApp.</p>
             </div>
             <div className="grid gap-3">
               {item.coverageNote ? (
                 <details className="group rounded-[1.15rem] border border-slate-200 bg-white p-4 open:border-blue-200 open:bg-blue-50/40">
-                  <summary className="cursor-pointer list-none text-sm font-bold leading-6 text-slate-950">Area &amp; cakupan layanan AC di {areaName}</summary>
+                  <summary className="flex cursor-pointer list-none items-start justify-between gap-3 text-sm font-bold leading-6 text-slate-950">
+                    <span>Area &amp; cakupan layanan AC di {areaName}</span>
+                    <span className="flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-blue-50 text-base font-black text-blue-700 group-open:hidden">+</span>
+                    <span className="hidden h-6 w-6 shrink-0 items-center justify-center rounded-full bg-blue-600 text-base font-black text-white group-open:flex">−</span>
+                  </summary>
                   <p className="mt-3 text-sm leading-6 text-slate-600">{item.coverageNote}</p>
                 </details>
               ) : null}
               {item.commonNeeds?.length ? (
                 <details className="group rounded-[1.15rem] border border-slate-200 bg-white p-4 open:border-blue-200 open:bg-blue-50/40">
-                  <summary className="cursor-pointer list-none text-sm font-bold leading-6 text-slate-950">Kebutuhan AC yang paling sering dilayani</summary>
+                  <summary className="flex cursor-pointer list-none items-start justify-between gap-3 text-sm font-bold leading-6 text-slate-950">
+                    <span>Kebutuhan AC yang paling sering dilayani</span>
+                    <span className="flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-blue-50 text-base font-black text-blue-700 group-open:hidden">+</span>
+                    <span className="hidden h-6 w-6 shrink-0 items-center justify-center rounded-full bg-blue-600 text-base font-black text-white group-open:flex">−</span>
+                  </summary>
                   <ul className="mt-3 space-y-2">
                     {item.commonNeeds.map((need) => (
                       <li key={need} className="flex gap-2 text-sm leading-6 text-slate-600"><span className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-blue-600" />{need}</li>
@@ -373,7 +395,11 @@ export default function AreaHubPage({
               ) : null}
               {item.localBenefits?.length ? (
                 <details className="group rounded-[1.15rem] border border-slate-200 bg-white p-4 open:border-blue-200 open:bg-blue-50/40">
-                  <summary className="cursor-pointer list-none text-sm font-bold leading-6 text-slate-950">Hal yang sering jadi pertimbangan di {areaName}</summary>
+                  <summary className="flex cursor-pointer list-none items-start justify-between gap-3 text-sm font-bold leading-6 text-slate-950">
+                    <span>Hal yang sering jadi pertimbangan di {areaName}</span>
+                    <span className="flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-blue-50 text-base font-black text-blue-700 group-open:hidden">+</span>
+                    <span className="hidden h-6 w-6 shrink-0 items-center justify-center rounded-full bg-blue-600 text-base font-black text-white group-open:flex">−</span>
+                  </summary>
                   <ul className="mt-3 space-y-2">
                     {item.localBenefits.map((benefit) => (
                       <li key={benefit} className="flex gap-2 text-sm leading-6 text-slate-600"><span className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-blue-600" />{benefit}</li>
@@ -383,7 +409,11 @@ export default function AreaHubPage({
               ) : null}
               {item.buyingChecks?.length ? (
                 <details className="group rounded-[1.15rem] border border-slate-200 bg-white p-4 open:border-blue-200 open:bg-blue-50/40">
-                  <summary className="cursor-pointer list-none text-sm font-bold leading-6 text-slate-950">Yang perlu disiapkan sebelum chat</summary>
+                  <summary className="flex cursor-pointer list-none items-start justify-between gap-3 text-sm font-bold leading-6 text-slate-950">
+                    <span>Yang perlu disiapkan sebelum chat</span>
+                    <span className="flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-blue-50 text-base font-black text-blue-700 group-open:hidden">+</span>
+                    <span className="hidden h-6 w-6 shrink-0 items-center justify-center rounded-full bg-blue-600 text-base font-black text-white group-open:flex">−</span>
+                  </summary>
                   <ul className="mt-3 space-y-2">
                     {item.buyingChecks.map((check) => (
                       <li key={check} className="flex gap-2 text-sm leading-6 text-slate-600"><span className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-blue-600" />{check}</li>
