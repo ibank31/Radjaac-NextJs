@@ -349,7 +349,7 @@ export const cilacapAreas = [
       localContext:
         "Sidareja adalah kota kecamatan di Cilacap bagian barat yang dikelilingi kawasan rawa dan pertanian—termasuk Rawa Besar—dengan Stasiun Sidareja dan Pasar Sidareja sebagai pusat kegiatan. Karena dikelilingi rawa, udara di permukiman sekitar terasa lebih lembap dan gerah saat siang dibanding daerah yang lebih kering, sehingga AC kamar jadi kebutuhan yang lebih terasa. Ruko dan toko di sekitar pasar ramai saat hari pasar karena pembeli datang dari beberapa desa sekitar. Posisi Sidareja di antara Majenang dan Cilacap kota membuat pengiriman dijadwalkan tersendiri. Untuk jual AC Sidareja, unit dikirim ke alamat lalu dipasang, dengan pembayaran DP, COD, atau transfer setelah stok dipastikan.",
       coverageNote:
-        "Showroom dan gudang Radja AC berada di Banyumas. Kebutuhan AC area Sidareja dilayani dengan konsultasi PK, cek stok unit, pengiriman, serta opsi pemasangan sesuai alamat, jumlah unit, dan jadwal.",
+        "Showroom dan gudang Radja AC ada di Banyumas, dan Sidareja berada di jalur barat di antara Majenang dan Cilacap kota. Pengiriman ke alamat sekitar Pasar Sidareja atau permukiman dekat rawa dijadwalkan tersendiri — stok, jadwal, dan opsi pemasangan dikonfirmasi setelah alamat dan jumlah unit jelas.",
       keywordVariants: [
         "toko AC Sidareja",
         "AC Sidareja",
@@ -391,16 +391,16 @@ export const cilacapAreas = [
         ],
       ],
       commonNeeds: [
-        "AC rumah tinggal dan kamar tidur",
-        "AC ruko, toko, kantor kecil, dan ruang usaha",
-        "AC untuk beberapa ruangan atau beberapa titik",
-        "Pembelian unit untuk usaha lokal dan kebutuhan banyak unit",
+        "AC rumah di permukiman sekitar rawa yang terasa lembap dan gerah",
+        "AC ruko dan toko di Pasar Sidareja yang ramai saat hari pasar",
+        "AC kantor kecil dan ruang usaha di sekitar pusat kecamatan",
+        "Pembelian beberapa unit untuk usaha lokal dengan jadwal ke jalur barat",
       ],
       buyingChecks: [
-        "Alamat detail area Sidareja",
-        "Ukuran ruangan dan estimasi kebutuhan PK",
+        "Alamat detail area Sidareja (sekitar Pasar Sidareja, stasiun, atau dekat rawa)",
+        "Ukuran ruangan dan kondisi lembap sekitar untuk perkiraan PK",
         "Daya listrik serta pilihan standard, low watt, atau inverter",
-        "Kebutuhan unit saja, pengiriman, atau opsi pemasangan",
+        "Jumlah unit dan konfirmasi alamat lebih awal untuk jadwal pengiriman",
       ],
       relatedLinks: [
         ["Jual AC Cilacap", routes.jualAcCilacap],
