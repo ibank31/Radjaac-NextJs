@@ -443,18 +443,20 @@ export const cilacapAreas = [
       h1: "Jual AC Kesugihan untuk Rumah, Kantor & Proyek",
       eyebrow: "Area Cilacap",
       intro:
-        "Butuh AC di Kesugihan untuk rumah, asrama, kantor, ruang usaha, proyek, atau kebutuhan beberapa unit? Tim Radja AC cek kebutuhan PK, daya listrik, stok brand, pengiriman, dan opsi pemasangan berdasarkan data awal.",
+        "Kesugihan dikenal dengan Pondok Pesantren Al-Ihya Ulumaddin — ratusan santri dengan asrama, ruang kelas, dan aula yang dipakai seharian, plus koridor industri Kesugihan–Cilacap di dekatnya. Kebutuhan AC-nya beragam: ruang kelas dan aula butuh kapasitas sesuai jumlah santri, asrama dan kos cocok low watt tipe seragam, sedangkan kantor dan usaha butuh unit yang cepat dingin. Sebutkan jenis ruang dan alamat detailmu — Radja AC cocokkan PK, stok brand original, dan jadwal pengirimannya dari situ.",
       localContext:
         "Kesugihan berada di jalur Cilacap menuju kota, dikenal dengan Pondok Pesantren Al-Ihya Ulumaddin—salah satu pesantren besar di Cilacap—yang punya ratusan santri dengan asrama, ruang kelas, dan aula. Kebutuhan AC di sini beragam: ruang kelas dan aula yang dipakai seharian butuh kapasitas yang dihitung dari luas dan jumlah santri, sedangkan asrama dan kos santri butuh unit low watt tipe seragam agar daya total bangunan tidak turun. Di sisi lain, kantor dan usaha di koridor Kesugihan–Cilacap yang dekat kawasan industri butuh unit yang cepat dingin. Untuk jual AC Kesugihan, unit dikirim ke alamat lalu dipasang, dengan pembayaran DP, transfer, atau COD setelah stok dipastikan.",
       coverageNote:
-        "Showroom dan gudang Radja AC berada di Banyumas. Kebutuhan AC area Kesugihan dilayani dengan konsultasi PK, cek stok unit, pengiriman, serta opsi pemasangan sesuai alamat, jumlah unit, dan jadwal.",
+        "Showroom dan gudang Radja AC ada di Banyumas, dan Kesugihan terhubung lewat jalan nasional Kesugihan–Cilacap kota. Pengiriman ke alamat sekitar pesantren, asrama, atau koridor industri dikonfirmasi setelah alamat, jumlah unit, dan kondisi ruang jelas — termasuk untuk pengadaan banyak unit yang dijadwalkan bertahap.",
       keywordVariants: [
+        "toko AC Kesugihan",
+        "AC Kesugihan",
         "AC rumah Kesugihan",
-        "AC kantor Kesugihan",
+        "AC asrama dan kos santri Kesugihan",
+        "AC kantor kecil Kesugihan",
         "AC ruang usaha Kesugihan",
-        "AC proyek Kesugihan",
-        "Banyak unit Kesugihan",
-        "Cek PK AC Kesugihan",
+        "banyak unit area Kesugihan",
+        "cek PK AC Kesugihan",
       ],
       nearbyAreaLinks: [
         ["Jual AC Cilacap", routes.jualAcCilacap],
@@ -464,10 +466,9 @@ export const cilacapAreas = [
         ["Jual AC Banyumas", routes.jualAcBanyumas],
       ],
       trustBullets: [
-        "Cek kebutuhan PK dari ukuran ruangan, fungsi bangunan, dan target pemakaian",
-        "Cek stok brand seperti Gree, Daikin, Midea, Hisense, Sharp, Samsung, dan lainnya",
-        "Opsi pengiriman dan pemasangan dikonfirmasi berdasarkan alamat Kesugihan dan jumlah unit",
-        "Cocok untuk rumah, kantor, ruang usaha, proyek kecil, dan kebutuhan banyak unit",
+        "Ruang kelas dan aula Al-Ihya Ulumaddin: kapasitas dihitung dari luas dan jumlah santri, bukan sekadar ukuran kamar.",
+        "Asrama dan kos santri: low watt tipe seragam menjaga daya total bangunan dan permudah perawatan antar kamar.",
+        "Koridor industri Kesugihan–Cilacap: pengadaan beberapa unit bisa dengan jadwal dan faktur yang disusun dari awal.",
       ],
       localFaq: [
         [
@@ -488,16 +489,16 @@ export const cilacapAreas = [
         ],
       ],
       commonNeeds: [
-        "AC rumah tinggal dan ruang keluarga",
-        "AC kantor kecil, ruang usaha, dan ruang kerja",
-        "AC untuk beberapa ruangan atau beberapa titik",
-        "Pembelian unit untuk proyek kecil dan kebutuhan banyak unit",
+        "AC ruang kelas dan aula di Pesantren Al-Ihya Ulumaddin",
+        "AC asrama dan kos santri dengan banyak kamar kecil",
+        "AC kantor dan ruang usaha di koridor Kesugihan–Cilacap",
+        "Pengadaan beberapa unit untuk pesantren, kantor, atau proyek kecil",
       ],
       buyingChecks: [
-        "Alamat detail area Kesugihan",
-        "Ukuran ruangan dan estimasi kebutuhan PK",
+        "Alamat detail area Kesugihan (sekitar pesantren, asrama, atau koridor industri)",
+        "Ukuran ruang dan jumlah santri atau penghuni untuk perkiraan PK",
         "Daya listrik serta pilihan standard, low watt, atau inverter",
-        "Kebutuhan unit saja, pengiriman, atau opsi pemasangan",
+        "Jumlah unit dan jadwal pengadaan yang bisa bertahap",
       ],
       relatedLinks: [
         ["Jual AC Cilacap", routes.jualAcCilacap],
