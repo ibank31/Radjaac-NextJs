@@ -54,6 +54,8 @@ export const cilacapAreas = [
         ["Jual AC Kroya", routes.jualAcKroya],
         ["Jual AC Majenang", routes.jualAcMajenang],
         ["Jual AC Sidareja", routes.jualAcSidareja],
+        ["Jual AC Kesugihan", routes.jualAcKesugihan],
+        ["Jual AC Adipala", routes.jualAcAdipala],
         ["Jual AC Purwokerto", routes.jualAcPurwokerto],
         ["Jual AC Banyumas", routes.jualAcBanyumas],
         ["Kalkulator PK AC", routes.kalkulatorPkAc],
