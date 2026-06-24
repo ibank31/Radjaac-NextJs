@@ -31,11 +31,11 @@ export const cilacapAreas = [
       h1: "Toko AC Cilacap untuk Rumah, Ruko, Kantor & Banyak Unit",
       eyebrow: "Layanan AC Area Cilacap",
       intro:
-        "Cari AC untuk Cilacap? Mulai dari jenis ruangnya: rumah, ruko, toko, kantor, atau pengadaan banyak unit. Dari situ kami arahkan kapasitas yang pas, bandingkan brand sesuai budget, lalu atur pengiriman dan pemasangannya.",
+        "Cari toko AC Cilacap yang bisa dipercaya? Radja AC dealer resmi yang melayani seluruh Cilacap dari showroom Banyumas — mulai dari jenis ruangnya: rumah, ruko, toko, kantor, atau pengadaan banyak unit. Dari situ kami arahkan kapasitas yang pas, bandingkan brand original sesuai budget, lalu atur pengiriman dan pemasangannya.",
       localContext:
         "Kebutuhan AC di Cilacap terbelah dua: pemakaian harian rumah dan ruko yang gampang panas, plus pengadaan banyak unit untuk kantor dan proyek. Tambahan lagi, udara pantainya bikin unit luar lebih rentan korosi, jadi penempatannya ikut menentukan umur AC.",
       coverageNote:
-        "Kebutuhan AC Cilacap dilayani dari basis showroom dan gudang Radja AC di Banyumas. Stok, pengiriman, dan opsi pemasangan dikonfirmasi setelah alamat, jumlah unit, dan kondisi ruangan jelas.",
+        "Sebagai dealer resmi yang melayani seluruh Cilacap, Radja AC jadi alternatif praktis dari sekadar cari toko AC terdekat — kebutuhan AC Cilacap dilayani dari basis showroom dan gudang di Banyumas. Stok, pengiriman, dan opsi pemasangan dikonfirmasi setelah alamat, jumlah unit, dan kondisi ruangan jelas.",
       commonNeeds: [
         "AC rumah tinggal, kamar tidur, dan ruang keluarga di Cilacap",
         "AC toko, ruko, kantor, klinik, dan ruang usaha",
@@ -84,6 +84,8 @@ export const cilacapAreas = [
         "pasang AC Cilacap",
         "AC banyak unit Cilacap",
         "jual AC Cilacap",
+        "dealer AC Cilacap",
+        "dealer AC terdekat Cilacap",
       ],
       nearbyAreaLinks: [
         ["Kroya", routes.jualAcKroya],
