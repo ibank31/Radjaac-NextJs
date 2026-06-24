@@ -6,34 +6,36 @@ export const cilacapAreas = [
       path: routes.jualAcCilacap,
       areaName: "Cilacap",
       localLandmarks: [
-        "Kilang minyak Pertamina Cilacap",
-        "Pelabuhan Tanjung Intan",
-        "Kawasan industri dan pergudangan",
-        "Pantai Teluk Penyu dan Benteng Pendem",
-        "Permukiman pesisir yang panas dan lembap",
+        "Cilacap kota",
+        "Kroya",
+        "Majenang",
+        "Sidareja",
+        "Kesugihan",
+        "Adipala",
+        "Area pesisir dan kawasan industri",
       ],
       localBenefits: [
-        "Kantor perusahaan dan proyek industri sering butuh pengadaan AC banyak unit dengan spesifikasi seragam, faktur, dan jadwal pemasangan",
-        "Udara pesisir yang asin dan lembap mempercepat karat pada unit outdoor, jadi pemilihan unit dan penempatannya diperhatikan",
-        "Rumah, ruko, dan kantor di Cilacap cari unit yang cepat dingin di cuaca panas pesisir",
+        "Rumah dan ruko di Cilacap butuh AC yang cepat dingin, tapi tetap aman untuk daya listrik harian.",
+        "Area pesisir bikin unit outdoor lebih cepat kena karat, jadi posisi outdoor perlu dicek sebelum pasang.",
+        "Kantor, toko, dan proyek bisa cek stok banyak unit, faktur, dan jadwal pengiriman lebih awal.",
       ],
       localCases: [
-        ["Kantor perusahaan & proyek industri", "Pengadaan AC banyak unit untuk kantor dan proyek dengan faktur serta jadwal pemasangan bertahap."],
-        ["Ruko & toko pesisir", "AC ruang usaha yang cepat dingin; penempatan outdoor diperhatikan karena udara asin."],
-        ["Rumah tinggal", "Pengiriman unit per kecamatan lalu pemasangan, dengan pilihan unit untuk cuaca lembap."],
+        ["Rumah / ruko panas", "Cek ukuran ruang, daya listrik, dan posisi outdoor dulu sebelum pilih PK."],
+        ["Toko & kantor", "Butuh dingin stabil saat jam ramai; stok dan jadwal bisa dikonfirmasi via WhatsApp."],
+        ["Proyek / banyak unit", "Spesifikasi bisa diseragamkan, dengan faktur dan jadwal pengiriman bertahap."],
       ],
-      label: "Jual AC Cilacap",
-      title: "Jual AC Cilacap | Industri, Pesisir & Pengadaan Proyek — Radja AC",
+      label: "Toko AC Cilacap",
+      title: "Toko AC Cilacap — Dealer Resmi, Kirim & Pasang dari Banyumas | Radja AC",
       description:
-        "Beli AC untuk rumah, kantor, proyek industri, atau banyak unit di Cilacap? Radja AC cek PK, stok, pengiriman, dan opsi pemasangan via WhatsApp.",
-      h1: "Jual AC Cilacap — rumah, kantor, proyek industri, dan pengadaan banyak unit",
+        "Toko AC Cilacap: unit AC original dari dealer resmi & Gree Proshop, dikirim dan dipasang dari showroom Banyumas. Cek PK, stok, dan harga untuk rumah, ruko, kantor, atau proyek lewat WhatsApp.",
+      h1: "Toko AC Cilacap untuk Rumah, Ruko, Kantor & Banyak Unit",
       eyebrow: "Layanan AC Area Cilacap",
       intro:
-        "Butuh AC di Cilacap untuk rumah, toko, kantor, usaha, proyek, pengadaan, atau banyak unit? Tim Radja AC membantu cek kebutuhan PK, daya listrik, pilihan brand, stok unit, pengiriman, dan opsi pemasangan berdasarkan kecamatan serta kebutuhan unit.",
+        "Cari AC untuk Cilacap? Mulai dari jenis ruangnya: rumah, ruko, toko, kantor, atau pengadaan banyak unit. Dari situ kami arahkan kapasitas yang pas, bandingkan brand sesuai budget, lalu atur pengiriman dan pemasangannya.",
       localContext:
-        "Cilacap adalah kota industri dan pelabuhan—ada kilang Pertamina, pabrik semen, PLTU, dan Pelabuhan Tanjung Intan—dengan udara pesisir yang panas dan lembap. Karena itu permintaan terbesar datang dari kantor perusahaan, vendor dan kontraktor proyek, ruko, dan rumah; banyak yang butuh pengadaan AC banyak unit dengan faktur dan jadwal. Udara pesisir yang asin juga membuat unit outdoor lebih cepat berkarat, sehingga pemilihan dan penempatan unit jadi pertimbangan. Untuk jual AC Cilacap, pengiriman dan pemasangan dikonfirmasi per kecamatan, dengan pembayaran DP, transfer, atau termin untuk proyek.",
+        "Kebutuhan AC di Cilacap terbelah dua: pemakaian harian rumah dan ruko yang gampang panas, plus pengadaan banyak unit untuk kantor dan proyek. Tambahan lagi, udara pantainya bikin unit luar lebih rentan korosi, jadi penempatannya ikut menentukan umur AC.",
       coverageNote:
-        "Showroom dan gudang Radja AC berada di Banyumas. Kebutuhan AC area Cilacap dilayani dengan konsultasi PK, cek stok unit, pengiriman, serta opsi pemasangan yang dikonfirmasi berdasarkan alamat, jumlah unit, akses lokasi, stok, dan jadwal pekerjaan.",
+        "Kebutuhan AC Cilacap dilayani dari basis showroom dan gudang Radja AC di Banyumas. Stok, pengiriman, dan opsi pemasangan dikonfirmasi setelah alamat, jumlah unit, dan kondisi ruangan jelas.",
       commonNeeds: [
         "AC rumah tinggal, kamar tidur, dan ruang keluarga di Cilacap",
         "AC toko, ruko, kantor, klinik, dan ruang usaha",
@@ -47,7 +49,7 @@ export const cilacapAreas = [
         "Kebutuhan unit saja, pengiriman, atau opsi pemasangan sesuai alamat",
       ],
       paymentNote:
-        "Pembayaran fleksibel bisa dikonsultasikan: DP, COD, atau transfer setelah kebutuhan unit, alamat, pengiriman, dan opsi pemasangan jelas.",
+        "Pembayaran dibahas setelah kebutuhan jelas: DP, COD, transfer, atau termin untuk pengadaan proyek.",
       relatedLinks: [
         ["Jual AC Kroya", routes.jualAcKroya],
         ["Jual AC Majenang", routes.jualAcMajenang],
@@ -66,12 +68,13 @@ export const cilacapAreas = [
         ["Kontak Radja AC", routes.kontak],
         ["Memilih AC untuk Daerah Pesisir", routes.artikelMemilihAcUntukDaerahPesisir],
       ],
-      ctaLabel: "Chat WhatsApp untuk cek pengiriman AC Cilacap",
-      waIntent: "cek pengiriman dan stok AC Cilacap dengan data kecamatan ukuran ruangan daya listrik jumlah unit alamat dan kebutuhan pemasangan",
+      ctaLabel: "Chat WhatsApp untuk cek AC Cilacap",
+      waIntent: "cek stok dan estimasi AC Cilacap dengan data kecamatan ukuran ruangan daya listrik jumlah unit alamat dan kebutuhan pemasangan",
       waArea: "Cilacap",
       keywordVariants: [
-        "jual AC Cilacap",
         "toko AC Cilacap",
+        "AC Cilacap",
+        "harga AC Cilacap",
         "beli AC Cilacap",
         "AC kantor Cilacap",
         "AC proyek industri Cilacap",
@@ -79,9 +82,8 @@ export const cilacapAreas = [
         "AC pesisir tahan korosi Cilacap",
         "AC rumah Cilacap",
         "pasang AC Cilacap",
-        "ganti AC lama Cilacap",
         "AC banyak unit Cilacap",
-        "pengiriman AC Cilacap",
+        "jual AC Cilacap",
       ],
       nearbyAreaLinks: [
         ["Kroya", routes.jualAcKroya],
@@ -91,34 +93,30 @@ export const cilacapAreas = [
         ["Adipala", routes.jualAcAdipala],
       ],
       trustBullets: [
-        "Cilacap dilayani dari basis showroom dan gudang Radja AC di Banyumas.",
-        "Kebutuhan AC dicek dari kecamatan, ukuran ruangan, daya listrik, jumlah unit, stok aktif, dan opsi pemasangan.",
-        "Bukti aktivitas Radja AC bisa dicek melalui dokumentasi showroom, stok fisik, pengiriman, dan pemasangan.",
+        "Showroom dan gudang kami ada di Banyumas; unit dipastikan ready sebelum dikirim ke Cilacap.",
+        "Kapasitas PK kami hitung dari luas ruang, daya listrik, jumlah unit, dan kondisi lokasimu.",
+        "Aktivitas kami nyata dan terdokumentasi: stok fisik, proses pengiriman, sampai pemasangan.",
       ],
       localFaq: [
         [
-          "Bisa pengadaan AC banyak unit untuk kantor atau proyek di Cilacap?",
-          "Bisa. Sebutkan jumlah ruang atau titik, ukuran, dan target waktu; untuk pengadaan AC proyek unit disiapkan dengan spesifikasi seragam, faktur, dan jadwal pemasangan bertahap. Pembayaran bisa termin atau transfer.",
+          "Bisa kirim AC ke Cilacap kota, Kroya, Majenang, atau Sidareja?",
+          "Bisa, semua kecamatan Cilacap kami layani. Sebutkan kecamatan, alamat, jumlah unit, dan kebutuhan pasangnya — dari situ stok dan jadwal pengiriman kami susun.",
         ],
         [
-          "Karena dekat laut, unit outdoor cepat karat — ada saran untuk Cilacap?",
-          "Udara pesisir yang asin memang mempercepat korosi, jadi penempatan outdoor yang terlindung dan perawatan rutin membantu memperpanjang umur unit. Sebutkan lokasi pemasangan untuk masukan.",
+          "Bisa sekalian pasang AC di Cilacap?",
+          "Tentu, tinggal bilang ke kami. Foto titik indoor dan outdoor bikin tim lebih gampang memperkirakan posisi pasang, jalur pipa, dan material tambahannya.",
         ],
         [
-          "Melayani pengiriman AC ke kecamatan mana saja di Cilacap?",
-          "Pengiriman dikonfirmasi per kecamatan—misalnya Cilacap kota, Kroya, Majenang, Sidareja—lalu pemasangan dijadwalkan sesuai akses lokasi. Sebutkan kecamatan dan jumlah unit untuk perkiraan.",
+          "Karena Cilacap dekat laut, outdoor AC cepat karat?",
+          "Udara pesisir memang lebih berat buat unit outdoor. Posisikan outdoor supaya nggak langsung kena angin laut, dan rutin dirawat biar umurnya panjang.",
         ],
         [
-          "AC rumah atau ruko di Cilacap supaya cepat dingin di cuaca panas pesisir?",
-          "Kapasitas dihitung dari luas, paparan panas, dan jumlah orang agar dingin merata. Sebutkan ukuran ruangan dan daya listrik untuk cek unit dan stok.",
+          "Rumah di Cilacap daya listriknya pas-pasan, harus low watt?",
+          "Kalau daya rumahmu 900–1300 watt, low watt paling aman biar MCB nggak sering turun. Sebutkan daya listrik dan ukuran kamarnya, nanti kami arahkan tipe yang cocok.",
         ],
         [
-          "AC lama di rumah atau kantor Cilacap sudah tidak dingin padahal sudah sering dirawat, ganti atau servis lagi?",
-          "Kalau unit sudah tua, sering kurang dingin, dan biaya servis terus keluar — apalagi di udara pesisir yang mempercepat kerusakan komponen — ganti baru lebih hemat. Kirim kondisi unit lama dan ukuran ruangan, tim Radja AC bantu hitung mana yang lebih masuk akal.",
-        ],
-        [
-          "AC boros listrik di Cilacap, solusinya apa?",
-          "AC lama yang boros biasanya karena kapasitas PK tidak sesuai ruangan atau komponen sudah aus. Ganti ke unit inverter baru yang sesuai PK jauh lebih hemat tagihan bulanan. Kirim ukuran ruangan dan daya listrik untuk rekomendasi unit.",
+          "Bisa pengadaan AC banyak unit untuk kantor atau proyek?",
+          "Ini justru yang sering kami tangani. Sebutkan jumlah ruang, target waktu, dan kebutuhan faktur — stok, spesifikasi, jadwal, sampai pembayaran kami bahas sebelum pengiriman.",
         ],
       ],
     },
@@ -139,9 +137,9 @@ export const cilacapAreas = [
         "Pabrik dan gudang di koridor Kroya–Cilacap kadang butuh pengadaan beberapa unit untuk ruang kerja dan kantor lapangan dengan jadwal yang mengikuti operasional",
       ],
       localCases: [
-        ["Toko & ruko sekitar stasiun", "AC ruang jualan yang ramai penumpang dan pembeli agar betah; kapasitas dihitung dari luas dan lalu lalang."],
-        ["Kos & hunian transit", "Pemasangan AC kamar dengan low watt agar daya per kamar aman saat banyak unit menyala."],
-        ["Kantor & gudang industri", "Pemilihan unit ruang kerja dan kantor lapangan di koridor Kroya–Cilacap."],
+        ["Toko & ruko sekitar stasiun", "Kapasitas dihitung dari luas dan lalu lalang penumpang; sedikit lebih besar dari kamar tidur biasa."],
+        ["Kos & hunian transit", "Low watt tipe seragam jaga daya total bangunan saat banyak unit menyala serentak."],
+        ["Kantor & gudang industri", "Pengadaan beberapa unit dengan jadwal yang mengikuti operasional; bisa dilengkapi faktur."],
       ],
       label: "Jual AC Kroya",
       title: "Jual AC Kroya | Toko Sekitar Stasiun, Kos Transit & Koridor Industri Cilacap — Radja AC",
@@ -150,18 +148,20 @@ export const cilacapAreas = [
       h1: "Jual AC Kroya untuk Rumah, Toko & Usaha",
       eyebrow: "Area Cilacap",
       intro:
-        "Butuh AC di Kroya untuk rumah, toko, ruko, kantor, usaha, atau banyak unit? Tim Radja AC cek kebutuhan PK, daya listrik, stok brand, pengiriman, dan opsi pemasangan dari data awal yang dikirim.",
+        "Kroya simpul transit jalur selatan Jawa — toko dan ruko ramai penumpang, kos dan hunian dekat stasiun, plus koridor industri ke arah Cilacap. Kasih tahu jenis ruang dan alamatmu, Radja AC cocokkan PK, stok, dan jadwal pengiriman dari situ.",
       localContext:
-        "Kroya adalah simpul transit penting di jalur selatan Jawa—Stasiun Kroya melayani kereta lintas Jawa sehingga denyut ekonominya campuran antara dagang dan transit. Toko dan ruko di sekitar Pasar Kroya dan stasiun ramai penumpang dan pembeli, cepat gerah saat siang karena pintu sering terbuka. Kos dan hunian di sekitar stasiun banyak dihuni pekerja dan penumpang transit yang butuh kamar adem. Di koridor Kroya–Cilacap juga ada pabrik dan gudang yang kadang butuh pengadaan beberapa unit untuk ruang kerja. Untuk jual AC Kroya, unit dikirim ke alamat lalu dipasang, dengan pembayaran DP, COD, atau transfer setelah stok dipastikan.",
+        "Kroya adalah simpul transit penting di jalur selatan Jawa—Stasiun Kroya melayani kereta lintas Jawa sehingga denyut ekonominya campuran antara dagang dan transit. Toko dan ruko di sekitar Pasar Kroya dan stasiun ramai penumpang dan pembeli, cepat gerah saat siang karena pintu sering terbuka. Kos dan hunian di sekitar stasiun banyak dihuni pekerja dan penumpang transit yang butuh kamar adem. Di koridor Kroya–Cilacap juga ada pabrik dan gudang yang kadang butuh pengadaan beberapa unit untuk ruang kerja.",
       coverageNote:
         "Showroom dan gudang Radja AC berada di Banyumas. Kebutuhan AC area Kroya dilayani dengan konsultasi PK, cek stok unit, pengiriman, serta opsi pemasangan sesuai alamat, jumlah unit, dan jadwal.",
       keywordVariants: [
+        "toko AC Kroya",
+        "AC Kroya",
         "AC rumah Kroya",
         "AC toko dan ruko Kroya",
         "AC kantor kecil Kroya",
         "AC usaha Kroya",
-        "Banyak unit area Kroya",
-        "Cek PK AC Kroya",
+        "banyak unit area Kroya",
+        "cek PK AC Kroya",
       ],
       nearbyAreaLinks: [
         ["Jual AC Cilacap", routes.jualAcCilacap],
@@ -171,10 +171,9 @@ export const cilacapAreas = [
         ["Jual AC Banyumas", routes.jualAcBanyumas],
       ],
       trustBullets: [
-        "Cek kebutuhan PK dari ukuran ruangan, daya listrik, dan pola pemakaian",
-        "Cek stok brand seperti Gree, Daikin, Midea, Hisense, Sharp, Samsung, dan lainnya",
-        "Opsi pengiriman dan pemasangan dikonfirmasi berdasarkan alamat Kroya dan jumlah unit",
-        "Cocok untuk rumah, toko, ruko, kantor kecil, usaha, dan pembelian beberapa unit",
+        "Toko dan ruko sekitar stasiun: kapasitas dihitung dari luas dan lalu lalang, bukan sekadar ukuran kamar.",
+        "Kos multi-kamar: low watt tipe seragam jaga daya total bangunan dan permudah perawatan antar kamar.",
+        "Koridor Kroya–Cilacap: pengadaan beberapa unit bisa dengan jadwal dan faktur yang disusun dari awal.",
       ],
       localFaq: [
         [
@@ -191,7 +190,7 @@ export const cilacapAreas = [
         ],
         [
           "Bisa kirim dan pasang AC ke alamat di Kroya atau sekitar pertigaan Buntu?",
-          "Bisa. Unit dikirim ke alamat di Kroya lalu pemasangan dijadwalkan sesuai akses lokasi. Sebutkan alamat dan jumlah unit untuk perkiraan pengiriman.",
+          "Langsung kirimkan alamat dan jumlah unitnya. Unit dikirim ke alamat di Kroya lalu pemasangan dijadwalkan sesuai akses lokasi untuk perkiraan pengiriman.",
         ],
       ],
       commonNeeds: [
