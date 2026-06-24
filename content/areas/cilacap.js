@@ -345,18 +345,20 @@ export const cilacapAreas = [
       h1: "Jual AC Sidareja untuk Rumah, Ruko & Usaha",
       eyebrow: "Area Cilacap Barat",
       intro:
-        "Butuh AC di Sidareja untuk rumah, ruko, toko, kantor, usaha, atau kebutuhan beberapa unit? Tim Radja AC cek kebutuhan PK, daya listrik, stok brand, pengiriman, dan opsi pemasangan dari data awal.",
+        "Sidareja dikelilingi kawasan rawa termasuk Rawa Besar, jadi rumah di permukiman sekitar terasa lebih lembap dan gerah saat siang. Ruko dan toko di Pasar Sidareja ramai pembeli dari desa-desa sekitar saat hari pasar, sementara posisinya di jalur barat antara Majenang dan Cilacap kota bikin pengiriman dijadwalkan tersendiri. Sebutkan jenis ruang dan alamat detailmu — Radja AC cocokkan PK sesuai kondisi lembap, stok brand original, dan jadwal pengirimannya dari situ.",
       localContext:
         "Sidareja adalah kota kecamatan di Cilacap bagian barat yang dikelilingi kawasan rawa dan pertanian—termasuk Rawa Besar—dengan Stasiun Sidareja dan Pasar Sidareja sebagai pusat kegiatan. Karena dikelilingi rawa, udara di permukiman sekitar terasa lebih lembap dan gerah saat siang dibanding daerah yang lebih kering, sehingga AC kamar jadi kebutuhan yang lebih terasa. Ruko dan toko di sekitar pasar ramai saat hari pasar karena pembeli datang dari beberapa desa sekitar. Posisi Sidareja di antara Majenang dan Cilacap kota membuat pengiriman dijadwalkan tersendiri. Untuk jual AC Sidareja, unit dikirim ke alamat lalu dipasang, dengan pembayaran DP, COD, atau transfer setelah stok dipastikan.",
       coverageNote:
         "Showroom dan gudang Radja AC berada di Banyumas. Kebutuhan AC area Sidareja dilayani dengan konsultasi PK, cek stok unit, pengiriman, serta opsi pemasangan sesuai alamat, jumlah unit, dan jadwal.",
       keywordVariants: [
+        "toko AC Sidareja",
+        "AC Sidareja",
         "AC rumah Sidareja",
-        "AC ruko Sidareja",
-        "AC toko Sidareja",
-        "AC kantor Sidareja",
+        "AC toko dan ruko Sidareja",
+        "AC kantor kecil Sidareja",
         "AC usaha Sidareja",
-        "Cek PK AC Sidareja",
+        "banyak unit area Sidareja",
+        "cek PK AC Sidareja",
       ],
       nearbyAreaLinks: [
         ["Jual AC Cilacap", routes.jualAcCilacap],
@@ -366,10 +368,9 @@ export const cilacapAreas = [
         ["Jual AC Kebumen", routes.jualAcKebumen],
       ],
       trustBullets: [
-        "Cek kebutuhan PK dari ukuran ruangan, fungsi bangunan, dan daya listrik",
-        "Cek stok brand seperti Gree, Daikin, Midea, Hisense, Sharp, Samsung, dan lainnya",
-        "Opsi pengiriman dan pemasangan dikonfirmasi berdasarkan alamat Sidareja dan jumlah unit",
-        "Cocok untuk rumah, ruko, toko, kantor kecil, ruang usaha, dan beberapa unit",
+        "Rumah sekitar rawa (Rawa Besar): kapasitas PK dihitung dari luas dan kondisi udara lembap, bukan sekadar ukuran standar.",
+        "Ruko dan toko Pasar Sidareja: kapasitas disesuaikan dengan luas dan jumlah pengunjung puncak saat hari pasar, bukan ukuran kamar biasa.",
+        "Jalur barat di antara Majenang dan Cilacap kota: pengiriman dan pemasangan dijadwalkan tersendiri, jumlah unit dikonfirmasi dari awal.",
       ],
       localFaq: [
         [
