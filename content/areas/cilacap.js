@@ -251,7 +251,7 @@ export const cilacapAreas = [
       localContext:
         "Majenang adalah kota dagang terbesar di Cilacap bagian barat, di jalur lintas menuju Banjar dan Bandung, dengan Pasar Majenang sebagai pusat ekonomi yang menarik pembeli dari berbagai kecamatan sekitarnya. RSUD Majenang dan klinik di sekitarnya juga jadi pusat layanan kesehatan untuk wilayah barat. Karena posisinya paling jauh dari gudang Radja AC di Banyumas di antara area Cilacap, pengiriman ke Majenang dijadwalkan tersendiri dan pembeli perlu konfirmasi alamat detail lebih awal. Untuk jual AC Majenang, unit dikirim ke alamat lalu dipasang, dengan pembayaran DP, transfer, atau COD setelah stok dipastikan.",
       coverageNote:
-        "Showroom dan gudang Radja AC berada di Banyumas. Kebutuhan AC area Majenang dilayani dengan konsultasi PK, cek stok unit, pengiriman, serta opsi pemasangan sesuai alamat, jumlah unit, dan jadwal.",
+        "Showroom dan gudang Radja AC ada di Banyumas, dan Majenang jadi titik terjauh di jalur barat (arah Banjar–Bandung). Karena itu pengiriman ke Pasar Majenang, RSUD, atau alamat sekitar dijadwalkan tersendiri — stok, jadwal, dan opsi pemasangan dikonfirmasi setelah alamat detail dan jumlah unit jelas.",
       keywordVariants: [
         "toko AC Majenang",
         "AC Majenang",
@@ -293,16 +293,16 @@ export const cilacapAreas = [
         ],
       ],
       commonNeeds: [
-        "AC rumah tinggal dan kamar tidur",
-        "AC toko, kantor kecil, dan ruang usaha",
-        "AC untuk beberapa ruangan atau beberapa titik",
-        "Pembelian banyak unit untuk usaha lokal",
+        "AC ruko dan toko di Pasar Majenang, pusat dagang Cilacap barat",
+        "AC ruang tunggu dan ruang periksa RSUD atau klinik Majenang",
+        "AC rumah dan kos di sekitar pusat kota Majenang",
+        "Pengadaan beberapa unit dengan faktur dan jadwal ke jalur barat",
       ],
       buyingChecks: [
-        "Alamat detail area Majenang",
-        "Ukuran ruangan dan estimasi kebutuhan PK",
-        "Daya listrik dan kebutuhan low watt atau inverter",
-        "Kebutuhan pengiriman dan opsi pemasangan",
+        "Alamat detail area Majenang (Pasar Majenang, sekitar RSUD, atau permukiman)",
+        "Ukuran ruangan dan jam operasional untuk perkiraan PK",
+        "Daya listrik serta pilihan standard, low watt, atau inverter",
+        "Jumlah unit dan konfirmasi alamat lebih awal untuk jadwal pengiriman",
       ],
       relatedLinks: [
         ["Jual AC Cilacap", routes.jualAcCilacap],
