@@ -146,17 +146,17 @@ export const cilacapAreas = [
         ["Kantor & gudang industri", "Pengadaan beberapa unit dengan jadwal yang mengikuti operasional; bisa dilengkapi faktur."],
       ],
       label: "Jual AC Kroya",
-      title: "Jual AC Kroya | Toko Sekitar Stasiun, Kos Transit & Koridor Industri Cilacap — Radja AC",
+      title: "Toko AC Kroya — Ruko Pasar, Stasiun & Kos Transit | Radja AC",
       description:
-        "AC untuk toko dan ruko sekitar Stasiun Kroya, kos pekerja transit, atau kantor di koridor industri Kroya–Cilacap? Radja AC cek PK, stok, dan pengiriman via WhatsApp.",
+        "AC untuk ruko Pasar Kroya yang sedang dibangun ulang jadi tiga lantai, kos transit dekat Stasiun Kroya, atau kantor koridor industri Kroya–Cilacap? Radja AC cek PK, stok, dan pengiriman via WhatsApp.",
       h1: "Jual AC Kroya untuk Rumah, Toko & Usaha",
-      eyebrow: "Area Cilacap",
+      eyebrow: "Area Cilacap — Jalur Selatan Kroya",
       intro:
         "Kroya simpul transit jalur selatan Jawa — toko dan ruko ramai penumpang, kos dan hunian dekat stasiun, plus koridor industri ke arah Cilacap. Kasih tahu jenis ruang dan alamatmu, Radja AC cocokkan PK, stok, dan jadwal pengiriman dari situ.",
       localContext:
-        "Kroya adalah simpul transit penting di jalur selatan Jawa—Stasiun Kroya melayani kereta lintas Jawa sehingga denyut ekonominya campuran antara dagang dan transit. Toko dan ruko di sekitar Pasar Kroya dan stasiun ramai penumpang dan pembeli, cepat gerah saat siang karena pintu sering terbuka. Kos dan hunian di sekitar stasiun banyak dihuni pekerja dan penumpang transit yang butuh kamar adem. Di koridor Kroya–Cilacap juga ada pabrik dan gudang yang kadang butuh pengadaan beberapa unit untuk ruang kerja.",
+        "Kroya adalah simpul transit penting di jalur selatan Jawa—Stasiun Kroya melayani kereta lintas Jawa sehingga denyut ekonominya campuran antara dagang dan transit. Pasar Kroya sedang dibangun ulang jadi tiga lantai (dimulai September 2024 dan masih berjalan), dan deret ruko dagang di Jalan A. Yani serta Sudirman ramai pembeli, cepat gerah saat siang karena pintu sering terbuka. Kos dan hunian di sekitar stasiun banyak dihuni pekerja dan penumpang transit yang butuh kamar adem. Di koridor Kroya–Cilacap juga ada pabrik dan gudang yang kadang butuh pengadaan beberapa unit untuk ruang kerja.",
       coverageNote:
-        "Showroom dan gudang Radja AC ada di Banyumas, dan Kroya terhubung lewat jalur lintas selatan (Buntu–Kroya). Stok, pengiriman ke alamat sekitar stasiun, Pasar Kroya, atau koridor industri Kroya–Cilacap, sampai opsi pemasangan dikonfirmasi setelah alamat, jumlah unit, dan kondisi ruang jelas.",
+        "Basis kirim dan pasang Radja AC ada di Banyumas, dan Kroya terhubung lewat jalur lintas selatan (Buntu–Kroya). Stok, pengiriman ke alamat sekitar stasiun, Pasar Kroya, atau koridor industri Kroya–Cilacap, sampai opsi pemasangan dikonfirmasi setelah alamat, jumlah unit, dan kondisi ruang jelas.",
       keywordVariants: [
         "toko AC Kroya",
         "AC Kroya",
@@ -166,6 +166,8 @@ export const cilacapAreas = [
         "AC usaha Kroya",
         "banyak unit area Kroya",
         "cek PK AC Kroya",
+        "harga AC Kroya",
+        "pasang AC Kroya",
       ],
       nearbyAreaLinks: [
         ["Cilacap", routes.jualAcCilacap],
@@ -209,6 +211,8 @@ export const cilacapAreas = [
         "Daya listrik serta pilihan standard, low watt, atau inverter",
         "Jumlah unit dan jadwal pengiriman yang mengikuti operasional",
       ],
+      paymentNote:
+        "Pembayaran dibahas setelah kebutuhan jelas: DP, COD, transfer, atau termin untuk pengadaan kos dan kantor.",
       relatedLinks: [
         ["Jual AC Cilacap", routes.jualAcCilacap],
         ["Kalkulator PK AC", routes.kalkulatorPkAc],
@@ -245,17 +249,17 @@ export const cilacapAreas = [
         ["Rumah & kos", "Pemasangan AC kamar dengan pengiriman yang dijadwalkan tersendiri ke Cilacap barat."],
       ],
       label: "Jual AC Majenang",
-      title: "Jual AC Majenang | Pasar Dagang Cilacap Barat, RSUD & Rumah — Radja AC",
+      title: "Toko AC Majenang — Ruko Pasar, RSUD & Rumah Cilacap Barat | Radja AC",
       description:
-        "AC untuk ruko di Pasar Majenang pusat dagang Cilacap barat, ruang tunggu RSUD Majenang, atau rumah? Radja AC bantu pilih unit, konfirmasi stok, dan jadwalkan pengiriman ke Cilacap barat.",
+        "AC untuk ruko Pasar Majenang—pusat dagang Cilacap barat (± 147 ribu jiwa, ± 82 km dari kota Cilacap)—ruang tunggu RSUD Majenang, atau rumah? Radja AC cek PK, stok, dan jadwal pengiriman via WhatsApp.",
       h1: "Jual AC Majenang untuk Rumah, Toko & Banyak Unit",
       eyebrow: "Area Cilacap Barat",
       intro:
         "Majenang pusat dagang Cilacap barat — ruko dan toko di Pasar Majenang ramai pembeli dari berbagai kecamatan, RSUD dan klinik yang sibuk sepanjang jam layanan, plus jalur lintas ke Banjar dan Bandung. Karena Majenang titik terjauh dari gudang Radja AC di Banyumas, sebutkan jenis ruang dan alamat detailmu — kami cocokkan PK, stok brand original, dan jadwal pengiriman dari situ.",
       localContext:
-        "Majenang adalah kota dagang terbesar di Cilacap bagian barat, di jalur lintas menuju Banjar dan Bandung, dengan Pasar Majenang sebagai pusat ekonomi yang menarik pembeli dari berbagai kecamatan sekitarnya. RSUD Majenang dan klinik di sekitarnya juga jadi pusat layanan kesehatan untuk wilayah barat. Karena posisinya paling jauh dari gudang Radja AC di Banyumas di antara area Cilacap, pengiriman ke Majenang dijadwalkan tersendiri dan pembeli perlu konfirmasi alamat detail lebih awal. Untuk jual AC Majenang, unit dikirim ke alamat lalu dipasang, dengan pembayaran DP, transfer, atau COD setelah stok dipastikan.",
+        "Majenang adalah kota dagang terbesar di Cilacap bagian barat—berpenduduk sekitar 146.956 jiwa (pertengahan 2024) dan berjarak sekitar 82 km dari kota Cilacap—di jalur lintas provinsi Jawa Tengah–Jawa Barat menuju Banjar dan Bandung, dengan Pasar Majenang sebagai pusat ekonomi yang menarik pembeli dari berbagai kecamatan sekitarnya. RSUD Majenang dan klinik di sekitarnya juga jadi pusat layanan kesehatan untuk wilayah barat. Karena posisinya paling jauh dari gudang Radja AC di Banyumas di antara area Cilacap, pengiriman ke Majenang dijadwalkan tersendiri dan pembeli perlu konfirmasi alamat detail lebih awal. Untuk jual AC Majenang, unit dikirim ke alamat lalu dipasang, dengan pembayaran DP, transfer, atau COD setelah stok dipastikan.",
       coverageNote:
-        "Showroom dan gudang Radja AC ada di Banyumas, dan Majenang jadi titik terjauh di jalur barat (arah Banjar–Bandung). Karena itu pengiriman ke Pasar Majenang, RSUD, atau alamat sekitar dijadwalkan tersendiri — stok, jadwal, dan opsi pemasangan dikonfirmasi setelah alamat detail dan jumlah unit jelas.",
+        "Basis kirim dan pasang Radja AC ada di Banyumas, dan Majenang jadi titik terjauh di jalur barat (arah Banjar–Bandung). Karena itu pengiriman ke Pasar Majenang, RSUD, atau alamat sekitar dijadwalkan tersendiri — stok, jadwal, dan opsi pemasangan dikonfirmasi setelah alamat detail dan jumlah unit jelas.",
       keywordVariants: [
         "toko AC Majenang",
         "AC Majenang",
@@ -265,6 +269,9 @@ export const cilacapAreas = [
         "AC usaha Majenang",
         "banyak unit area Majenang",
         "cek PK AC Majenang",
+        "harga AC Majenang",
+        "pasang AC Majenang",
+        "AC RSUD dan klinik Majenang",
       ],
       nearbyAreaLinks: [
         ["Cilacap", routes.jualAcCilacap],
@@ -308,6 +315,8 @@ export const cilacapAreas = [
         "Daya listrik serta pilihan standard, low watt, atau inverter",
         "Jumlah unit dan konfirmasi alamat lebih awal untuk jadwal pengiriman",
       ],
+      paymentNote:
+        "Pembayaran dibahas setelah kebutuhan jelas: DP, transfer, COD, atau termin dan faktur untuk pengadaan RSUD, klinik, dan usaha.",
       relatedLinks: [
         ["Jual AC Cilacap", routes.jualAcCilacap],
         ["Kalkulator PK AC", routes.kalkulatorPkAc],
@@ -328,7 +337,7 @@ export const cilacapAreas = [
       localLandmarks: [
         "Stasiun Sidareja dan jalur kereta selatan",
         "Pasar Sidareja dan ruko di jalan utama kecamatan",
-        "Kawasan rawa dan pertanian Sidareja (Rawa Besar)",
+        "Kawasan rawa dan dataran rendah Sidareja",
         "Jalur Sidareja–Majenang (lintas barat Cilacap)",
         "Permukiman warga di sekitar pasar dan stasiun",
       ],
@@ -343,17 +352,17 @@ export const cilacapAreas = [
         ["Kantor & usaha", "Pemilihan unit ruang kerja dengan pengiriman yang dijadwalkan ke jalur barat Cilacap."],
       ],
       label: "Jual AC Sidareja",
-      title: "Jual AC Sidareja | Ruko Pasar, Rumah Sekitar Rawa Besar & Jalur Barat Cilacap — Radja AC",
+      title: "Toko AC Sidareja — Ruko Pasar & Rumah Jalur Barat Cilacap | Radja AC",
       description:
-        "AC untuk ruko di Pasar Sidareja, rumah yang lembap karena Rawa Besar, atau usaha jalur barat Cilacap? Radja AC rekomendasikan PK sesuai kondisi lembap dan atur pengiriman ke Sidareja.",
+        "AC untuk ruko Pasar Sidareja, rumah lembap di kawasan rawa dan dataran rendah Sidareja, atau usaha jalur barat Cilacap? Radja AC cek PK sesuai kondisi lembap dan atur pengiriman ke Sidareja.",
       h1: "Jual AC Sidareja untuk Rumah, Ruko & Usaha",
       eyebrow: "Area Cilacap Barat",
       intro:
-        "Sidareja dikelilingi kawasan rawa termasuk Rawa Besar, jadi rumah di permukiman sekitar terasa lebih lembap dan gerah saat siang. Ruko dan toko di Pasar Sidareja ramai pembeli dari desa-desa sekitar saat hari pasar, sementara posisinya di jalur barat antara Majenang dan Cilacap kota bikin pengiriman dijadwalkan tersendiri. Sebutkan jenis ruang dan alamat detailmu — Radja AC cocokkan PK sesuai kondisi lembap, stok brand original, dan jadwal pengirimannya dari situ.",
+        "Sidareja berada di kawasan rawa dan dataran rendah yang rawan genangan, jadi rumah di permukiman sekitar terasa lebih lembap dan gerah saat siang. Ruko dan toko di Pasar Sidareja ramai pembeli dari desa-desa sekitar saat hari pasar, sementara posisinya di jalur barat antara Majenang dan Cilacap kota bikin pengiriman dijadwalkan tersendiri. Sebutkan jenis ruang dan alamat detailmu — Radja AC cocokkan PK sesuai kondisi lembap, stok brand original, dan jadwal pengirimannya dari situ.",
       localContext:
-        "Sidareja adalah kota kecamatan di Cilacap bagian barat yang dikelilingi kawasan rawa dan pertanian—termasuk Rawa Besar—dengan Stasiun Sidareja dan Pasar Sidareja sebagai pusat kegiatan. Karena dikelilingi rawa, udara di permukiman sekitar terasa lebih lembap dan gerah saat siang dibanding daerah yang lebih kering, sehingga AC kamar jadi kebutuhan yang lebih terasa. Ruko dan toko di sekitar pasar ramai saat hari pasar karena pembeli datang dari beberapa desa sekitar. Posisi Sidareja di antara Majenang dan Cilacap kota membuat pengiriman dijadwalkan tersendiri. Untuk jual AC Sidareja, unit dikirim ke alamat lalu dipasang, dengan pembayaran DP, COD, atau transfer setelah stok dipastikan.",
+        "Sidareja adalah kota kecamatan di Cilacap bagian barat yang berada di kawasan rawa dan dataran rendah—rawan genangan saat musim hujan—dengan Stasiun Sidareja dan Pasar Sidareja sebagai pusat kegiatan. Karena kondisi rawa dan dataran rendah ini, udara di permukiman sekitar terasa lebih lembap dan gerah saat siang dibanding daerah yang lebih kering, sehingga AC kamar jadi kebutuhan yang lebih terasa. Ruko dan toko di sekitar pasar ramai saat hari pasar karena pembeli datang dari beberapa desa sekitar. Posisi Sidareja di antara Majenang dan Cilacap kota membuat pengiriman dijadwalkan tersendiri. Untuk jual AC Sidareja, unit dikirim ke alamat lalu dipasang, dengan pembayaran DP, COD, atau transfer setelah stok dipastikan.",
       coverageNote:
-        "Showroom dan gudang Radja AC ada di Banyumas, dan Sidareja berada di jalur barat di antara Majenang dan Cilacap kota. Pengiriman ke alamat sekitar Pasar Sidareja atau permukiman dekat rawa dijadwalkan tersendiri — stok, jadwal, dan opsi pemasangan dikonfirmasi setelah alamat dan jumlah unit jelas.",
+        "Basis kirim dan pasang Radja AC ada di Banyumas, dan Sidareja berada di jalur barat di antara Majenang dan Cilacap kota. Pengiriman ke alamat sekitar Pasar Sidareja atau permukiman dekat rawa dijadwalkan tersendiri — stok, jadwal, dan opsi pemasangan dikonfirmasi setelah alamat dan jumlah unit jelas.",
       keywordVariants: [
         "toko AC Sidareja",
         "AC Sidareja",
@@ -363,6 +372,8 @@ export const cilacapAreas = [
         "AC usaha Sidareja",
         "banyak unit area Sidareja",
         "cek PK AC Sidareja",
+        "harga AC Sidareja",
+        "pasang AC Sidareja",
       ],
       nearbyAreaLinks: [
         ["Cilacap", routes.jualAcCilacap],
@@ -372,7 +383,7 @@ export const cilacapAreas = [
         ["Kebumen", routes.jualAcKebumen],
       ],
       trustBullets: [
-        "Rumah sekitar rawa (Rawa Besar): kapasitas PK dihitung dari luas dan kondisi udara lembap, bukan sekadar ukuran standar.",
+        "Rumah di kawasan rawa dan dataran rendah: kapasitas PK dihitung dari luas dan kondisi udara lembap, bukan sekadar ukuran standar.",
         "Ruko dan toko Pasar Sidareja: kapasitas disesuaikan dengan luas dan jumlah pengunjung puncak saat hari pasar, bukan ukuran kamar biasa.",
         "Jalur barat di antara Majenang dan Cilacap kota: pengiriman dan pemasangan dijadwalkan tersendiri, jumlah unit dikonfirmasi dari awal.",
       ],
@@ -406,6 +417,8 @@ export const cilacapAreas = [
         "Daya listrik serta pilihan standard, low watt, atau inverter",
         "Jumlah unit dan konfirmasi alamat lebih awal untuk jadwal pengiriman",
       ],
+      paymentNote:
+        "Pembayaran dibahas setelah kebutuhan jelas: DP, COD, transfer, atau termin untuk usaha lokal.",
       relatedLinks: [
         ["Jual AC Cilacap", routes.jualAcCilacap],
         ["Kalkulator PK AC", routes.kalkulatorPkAc],
@@ -431,7 +444,7 @@ export const cilacapAreas = [
         "Jalur Kesugihan–Cilacap kota (jalan nasional)",
       ],
       localBenefits: [
-        "Pondok Pesantren Al-Ihya Ulumaddin punya ratusan santri dengan asrama dan ruang belajar; ruang kelas dan aula yang dipakai seharian butuh pendinginan yang berbeda dari kamar kos biasa",
+        "Pondok Pesantren Al-Ihya Ulumaddin punya ribuan santri dengan asrama dan ruang belajar; ruang kelas dan aula yang dipakai seharian butuh pendinginan yang berbeda dari kamar kos biasa",
         "Asrama dan kos santri dengan banyak kamar kecil cari AC low watt tipe seragam agar daya total bangunan tidak turun dan perawatan antar kamar lebih mudah",
         "Kantor dan usaha di koridor Kesugihan–Cilacap yang dekat kawasan industri butuh unit yang cepat dingin dan tahan dipakai seharian di udara panas",
       ],
@@ -441,17 +454,17 @@ export const cilacapAreas = [
         ["Kantor & usaha koridor industri", "Pemilihan unit ruang kerja di jalur Kesugihan–Cilacap yang dekat kawasan industri."],
       ],
       label: "Jual AC Kesugihan",
-      title: "Jual AC Kesugihan | Pesantren Al-Ihya Ulumaddin, Asrama Santri & Industri — Radja AC",
+      title: "Toko AC Kesugihan — Pesantren Al-Ihya, Asrama & Industri | Radja AC",
       description:
-        "AC ruang kelas dan asrama Pesantren Al-Ihya Ulumaddin Kesugihan, atau kantor di koridor industri Cilacap? Radja AC cek PK, stok, dan pengiriman via WhatsApp.",
+        "AC untuk ruang kelas dan asrama Pesantren Al-Ihya Ulumaddin, atau pengadaan unit kantor di Kawasan Peruntukan Industri (KPI) Kesugihan? Radja AC cek PK, stok, dan faktur via WhatsApp.",
       h1: "Jual AC Kesugihan untuk Rumah, Kantor & Proyek",
-      eyebrow: "Area Cilacap",
+      eyebrow: "Area Cilacap — Kesugihan",
       intro:
-        "Kesugihan dikenal dengan Pondok Pesantren Al-Ihya Ulumaddin — ratusan santri dengan asrama, ruang kelas, dan aula yang dipakai seharian, plus koridor industri Kesugihan–Cilacap di dekatnya. Kebutuhan AC-nya beragam: ruang kelas dan aula butuh kapasitas sesuai jumlah santri, asrama dan kos cocok low watt tipe seragam, sedangkan kantor dan usaha butuh unit yang cepat dingin. Sebutkan jenis ruang dan alamat detailmu — Radja AC cocokkan PK, stok brand original, dan jadwal pengirimannya dari situ.",
+        "Kesugihan dikenal dengan Pondok Pesantren Al-Ihya Ulumaddin — ribuan santri dengan asrama, ruang kelas, dan aula yang dipakai seharian, plus koridor industri Kesugihan–Cilacap di dekatnya. Kebutuhan AC-nya beragam: ruang kelas dan aula butuh kapasitas sesuai jumlah santri, asrama dan kos cocok low watt tipe seragam, sedangkan kantor dan usaha butuh unit yang cepat dingin. Sebutkan jenis ruang dan alamat detailmu — Radja AC cocokkan PK, stok brand original, dan jadwal pengirimannya dari situ.",
       localContext:
-        "Kesugihan berada di jalur Cilacap menuju kota, dikenal dengan Pondok Pesantren Al-Ihya Ulumaddin—salah satu pesantren besar di Cilacap—yang punya ratusan santri dengan asrama, ruang kelas, dan aula. Kebutuhan AC di sini beragam: ruang kelas dan aula yang dipakai seharian butuh kapasitas yang dihitung dari luas dan jumlah santri, sedangkan asrama dan kos santri butuh unit low watt tipe seragam agar daya total bangunan tidak turun. Di sisi lain, kantor dan usaha di koridor Kesugihan–Cilacap yang dekat kawasan industri butuh unit yang cepat dingin. Untuk jual AC Kesugihan, unit dikirim ke alamat lalu dipasang, dengan pembayaran DP, transfer, atau COD setelah stok dipastikan.",
+        "Kesugihan berada di jalur Cilacap menuju kota, dikenal dengan Pondok Pesantren Al-Ihya Ulumaddin—salah satu pesantren besar di Cilacap—yang punya ribuan santri dengan asrama, ruang kelas, dan aula. Kebutuhan AC di sini beragam: ruang kelas dan aula yang dipakai seharian butuh kapasitas yang dihitung dari luas dan jumlah santri, sedangkan asrama dan kos santri butuh unit low watt tipe seragam agar daya total bangunan tidak turun. Di sisi lain, Kesugihan punya Kawasan Peruntukan Industri (KPI) Bulupayung serta Cilacap Industrial Park di sekitar Desa Menganti dan Gardu Induk 500 kV Kesugihan, sehingga kantor dan usaha di koridor industrinya butuh unit yang cepat dingin dan kadang pengadaan banyak unit. Untuk jual AC Kesugihan, unit dikirim ke alamat lalu dipasang, dengan pembayaran DP, transfer, atau COD setelah stok dipastikan.",
       coverageNote:
-        "Showroom dan gudang Radja AC ada di Banyumas, dan Kesugihan terhubung lewat jalan nasional Kesugihan–Cilacap kota. Pengiriman ke alamat sekitar pesantren, asrama, atau koridor industri dikonfirmasi setelah alamat, jumlah unit, dan kondisi ruang jelas — termasuk untuk pengadaan banyak unit yang dijadwalkan bertahap.",
+        "Basis kirim dan pasang Radja AC ada di Banyumas, dan Kesugihan terhubung lewat jalan nasional Kesugihan–Cilacap kota. Pengiriman ke alamat sekitar pesantren, asrama, atau koridor industri dikonfirmasi setelah alamat, jumlah unit, dan kondisi ruang jelas — termasuk untuk pengadaan banyak unit yang dijadwalkan bertahap.",
       keywordVariants: [
         "toko AC Kesugihan",
         "AC Kesugihan",
@@ -461,6 +474,9 @@ export const cilacapAreas = [
         "AC ruang usaha Kesugihan",
         "banyak unit area Kesugihan",
         "cek PK AC Kesugihan",
+        "AC pesantren Kesugihan",
+        "pengadaan AC kantor Kesugihan",
+        "pasang AC Kesugihan",
       ],
       nearbyAreaLinks: [
         ["Cilacap", routes.jualAcCilacap],
@@ -504,6 +520,8 @@ export const cilacapAreas = [
         "Daya listrik serta pilihan standard, low watt, atau inverter",
         "Jumlah unit dan jadwal pengadaan yang bisa bertahap",
       ],
+      paymentNote:
+        "Pembayaran dibahas setelah kebutuhan jelas: DP, transfer, atau termin dan faktur untuk pengadaan pesantren dan kantor.",
       relatedLinks: [
         ["Jual AC Cilacap", routes.jualAcCilacap],
         ["Kalkulator PK AC", routes.kalkulatorPkAc],
@@ -523,7 +541,7 @@ export const cilacapAreas = [
       areaName: "Adipala",
       localLandmarks: [
         "PLTU Adipala (Pembangkit Listrik Tenaga Uap)",
-        "Pantai Widarapayung dan Pantai Jetis (pesisir selatan Adipala)",
+        "Pantai Widarapayung (pesisir selatan Adipala)",
         "Pasar Adipala dan permukiman nelayan",
         "Kawasan tambak dan pertanian pesisir",
         "Jalur Adipala–Kroya–Cilacap kota",
@@ -539,17 +557,17 @@ export const cilacapAreas = [
         ["Toko & usaha jalur Adipala–Kroya", "AC ruang jualan di jalur utama agar pembeli betah di cuaca panas pesisir."],
       ],
       label: "Jual AC Adipala",
-      title: "Jual AC Adipala | PLTU, Nelayan Pantai Widarapayung & Toko Pesisir — Radja AC",
+      title: "Toko AC Adipala — Mess PLTU, Nelayan Pesisir & Toko | Radja AC",
       description:
-        "AC untuk mess kontraktor PLTU Adipala, rumah nelayan di Pantai Widarapayung, atau toko pesisir yang panas? Radja AC cek PK, stok, dan pengiriman via WhatsApp.",
-      h1: "Jual AC Adipala untuk Rumah, Toko & Usaha",
-      eyebrow: "Area Cilacap",
+        "AC untuk mess kontraktor sekitar PLTU Adipala, warung dan penginapan Pantai Widarapayung, atau toko pesisir yang panas? Radja AC cek PK tahan korosi dan atur pengiriman via WhatsApp.",
+      h1: "Jual AC Adipala untuk Rumah, Toko & Proyek",
+      eyebrow: "Area Cilacap — Pesisir Adipala",
       intro:
-        "Adipala kecamatan pesisir Cilacap — ada PLTU Adipala dengan kontraktor dan mess yang kadang butuh pengadaan banyak unit, permukiman nelayan di sekitar Pantai Widarapayung dan Jetis, plus toko di jalur Adipala–Kroya yang panas. Karena dekat laut, udara asin bikin penempatan outdoor perlu diperhatikan biar tidak cepat berkarat. Sebutkan jenis ruang dan alamat detailmu — Radja AC cocokkan PK, stok brand original, dan jadwal pengirimannya dari situ.",
+        "Adipala kecamatan pesisir Cilacap — ada PLTU Adipala dengan kontraktor dan mess yang kadang butuh pengadaan banyak unit, permukiman nelayan di sekitar Pantai Widarapayung, plus toko di jalur Adipala–Kroya yang panas. Karena dekat laut, udara asin bikin penempatan outdoor perlu diperhatikan biar tidak cepat berkarat. Sebutkan jenis ruang dan alamat detailmu — Radja AC cocokkan PK, stok brand original, dan jadwal pengirimannya dari situ.",
       localContext:
-        "Adipala adalah kecamatan pesisir di Cilacap yang dikenal dengan PLTU Adipala—pembangkit listrik tenaga uap yang jadi salah satu infrastruktur energi penting di Jawa Tengah—serta pantai selatan seperti Pantai Widarapayung dan Pantai Jetis. Permukiman nelayan dan pelaku usaha tambak tersebar di sepanjang pesisir, dengan udara panas dan lembap yang membuat ruangan cepat gerah. Kontraktor dan vendor sekitar PLTU kadang butuh pengadaan beberapa unit AC untuk ruang kerja dan mess. Karena dekat laut, udara asin mempercepat korosi pada unit outdoor sehingga penempatan perlu diperhatikan sejak awal. Untuk jual AC Adipala, unit dikirim ke alamat lalu dipasang, dengan pembayaran DP, COD, atau transfer setelah stok dipastikan.",
+        "Adipala adalah kecamatan pesisir di Cilacap yang dikenal dengan PLTU Adipala—pembangkit listrik tenaga uap 1×660 MW di Desa Bunton yang dioperasikan PLN/PT Indonesia Power dan terhubung jaringan 500 kV—serta pantai selatan seperti Pantai Widarapayung yang ramai warung dan penginapan. Permukiman nelayan dan pelaku usaha tambak tersebar di sepanjang pesisir, dengan udara panas dan lembap yang membuat ruangan cepat gerah. Kontraktor dan vendor di sekitar PLTU kadang butuh pengadaan beberapa unit AC untuk ruang kerja dan mess. Karena dekat laut, udara asin mempercepat korosi pada unit outdoor sehingga penempatan perlu diperhatikan sejak awal. Untuk jual AC Adipala, unit dikirim ke alamat lalu dipasang, dengan pembayaran DP, COD, atau transfer setelah stok dipastikan.",
       coverageNote:
-        "Showroom dan gudang Radja AC ada di Banyumas, dan Adipala dijangkau lewat jalur Adipala–Kroya–Cilacap kota. Pengiriman ke alamat di permukiman pesisir, sekitar PLTU, atau jalur utama dikonfirmasi setelah alamat, jumlah unit, dan kondisi ruang jelas — termasuk pengadaan beberapa unit yang bisa dilengkapi faktur.",
+        "Basis kirim dan pasang Radja AC ada di Banyumas, dan Adipala dijangkau lewat jalur Adipala–Kroya–Cilacap kota. Pengiriman ke alamat di permukiman pesisir, sekitar PLTU, atau jalur utama dikonfirmasi setelah alamat, jumlah unit, dan kondisi ruang jelas — termasuk pengadaan beberapa unit yang bisa dilengkapi faktur.",
       keywordVariants: [
         "toko AC Adipala",
         "AC Adipala",
@@ -559,6 +577,9 @@ export const cilacapAreas = [
         "AC ruangan panas Adipala",
         "banyak unit area Adipala",
         "cek PK AC Adipala",
+        "AC tahan korosi Adipala",
+        "pengadaan AC proyek Adipala",
+        "pasang AC Adipala",
       ],
       nearbyAreaLinks: [
         ["Cilacap", routes.jualAcCilacap],
@@ -602,6 +623,8 @@ export const cilacapAreas = [
         "Daya listrik serta pilihan standard, low watt, atau inverter",
         "Jumlah unit, kebutuhan faktur, dan jadwal pengiriman",
       ],
+      paymentNote:
+        "Pembayaran dibahas setelah kebutuhan jelas: DP, COD, transfer, atau termin dan faktur untuk pengadaan proyek dan mess.",
       relatedLinks: [
         ["Jual AC Cilacap", routes.jualAcCilacap],
         ["Kalkulator PK AC", routes.kalkulatorPkAc],
