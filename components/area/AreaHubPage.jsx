@@ -99,7 +99,7 @@ export default function AreaHubPage({
 
           <div className="mx-auto w-full max-w-[560px] lg:mr-0">
             <div className="overflow-hidden rounded-[1.45rem] border border-slate-200 bg-white p-2 shadow-[0_24px_70px_rgba(8,20,47,0.24)]">
-              <Image src="/photos/showroom/showroom-multibrand-radja-ac-purwokerto-01.webp" alt={`Showroom dan stok AC Radja AC untuk pengiriman ${areaName}`} width={680} height={520} quality={72} className="h-[220px] w-full rounded-[1.15rem] object-cover object-center sm:h-[340px] lg:h-[380px]" sizes="(min-width: 1024px) 560px, 100vw" priority />
+              <Image src="/photos/proof/showroom-daikin-gree-radja-ac-01.webp" alt={`Showroom Daikin & Gree Radja AC untuk pengiriman ${areaName}`} width={680} height={520} quality={72} className="h-[220px] w-full rounded-[1.15rem] object-cover object-center sm:h-[340px] lg:h-[380px]" sizes="(min-width: 1024px) 560px, 100vw" priority />
             </div>
             <div className="mt-3 grid grid-cols-3 gap-2">
               {proofImages.slice(0, 3).map(([label, src, alt]) => (
@@ -210,6 +210,12 @@ export default function AreaHubPage({
             <div className="mt-4 rounded-[1.1rem] border border-blue-200 bg-blue-50 px-4 py-3 text-sm font-bold text-blue-900">
               ✓ Radja AC adalah Gree Proshop resmi — bukan sekadar penjual, plus dealer resmi 4 brand di bawah.
             </div>
+            <figure className="mt-4">
+              <div className="overflow-hidden rounded-[1.1rem] border border-slate-200 bg-white p-1.5 shadow-sm">
+                <Image src="/photos/proof/proshop-gree-purwokerto.webp" alt="Gree Proshop resmi Radja AC di Purwokerto" width={640} height={420} sizes="(min-width: 1024px) 460px, 100vw" className="h-[200px] w-full rounded-[0.85rem] object-cover object-center sm:h-[240px]" />
+              </div>
+              <figcaption className="mt-2 text-center text-xs font-semibold text-slate-500">Gree Proshop resmi Radja AC — Purwokerto, Banyumas</figcaption>
+            </figure>
             <div className="mt-4 grid grid-cols-2 gap-3">
               {certificates.map(([brand, status, image]) => (
                 <figure key={brand} className="text-center">
@@ -225,7 +231,7 @@ export default function AreaHubPage({
           <div className="rounded-[1.7rem] border border-slate-200 bg-white p-5 sm:p-7">
             <p className={`${typography.eyebrow} text-blue-700`}>BUKTI & PEMBAYARAN</p>
             <h2 className={`mt-3 ${typography.sectionTitle} text-slate-950`}>Beli AC dari toko yang jelas, bukan cuma harga murah.</h2>
-            <p className="mt-4 text-sm leading-7 text-slate-600">{item.paymentNote}</p>
+            <p className="mt-4 text-sm leading-7 text-slate-600">{item.paymentNote ?? "Pembayaran dibahas setelah kebutuhan jelas: DP, COD, transfer, atau termin untuk pengadaan proyek."}</p>
             <div className="mt-5 grid gap-3">
               <div className="flex gap-3 text-sm leading-6 text-slate-700">
                 <span className="mt-1 flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-blue-600 text-[11px] font-bold text-white">✓</span>
@@ -292,6 +298,136 @@ export default function AreaHubPage({
                 {nearbyAreas.map(([areaLabel, areaPath]) => <Link key={areaPath} href={areaPath} prefetch={false} className="rounded-full border border-slate-200 bg-white px-4 py-2 text-sm font-semibold text-slate-700 transition hover:border-blue-300 hover:text-blue-700">Toko AC {areaLabel}</Link>)}
               </div>
             ) : null}
+          </div>
+        </section>
+      ) : null}
+
+      {isHub ? (
+        <section className="mx-auto max-w-7xl px-4 py-7 sm:px-6 lg:px-8 lg:py-10">
+          <div className="grid gap-5 lg:grid-cols-[0.8fr_1.2fr] lg:items-start">
+            <div>
+              <p className={`${typography.eyebrow} text-blue-700`}>SELENGKAPNYA</p>
+              <h2 className={`mt-3 ${typography.sectionTitle} text-slate-950`}>Panduan singkat beli AC di {areaName}</h2>
+            </div>
+            <div className="grid gap-3">
+              {item.coverageNote ? (
+                <details className="group rounded-[1.15rem] border border-slate-200 bg-white p-4 open:border-blue-200 open:bg-blue-50/40">
+                  <summary className="flex cursor-pointer list-none items-start justify-between gap-3 text-sm font-bold leading-6 text-slate-950">
+                    <span>Area &amp; cakupan layanan AC di {areaName}</span>
+                    <span className="flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-blue-50 text-base font-black text-blue-700 group-open:hidden">+</span>
+                    <span className="hidden h-6 w-6 shrink-0 items-center justify-center rounded-full bg-blue-600 text-base font-black text-white group-open:flex">−</span>
+                  </summary>
+                  <p className="mt-3 text-sm leading-6 text-slate-600">{item.coverageNote}</p>
+                </details>
+              ) : null}
+              {item.commonNeeds?.length ? (
+                <details className="group rounded-[1.15rem] border border-slate-200 bg-white p-4 open:border-blue-200 open:bg-blue-50/40">
+                  <summary className="flex cursor-pointer list-none items-start justify-between gap-3 text-sm font-bold leading-6 text-slate-950">
+                    <span>Kebutuhan AC yang paling sering dilayani</span>
+                    <span className="flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-blue-50 text-base font-black text-blue-700 group-open:hidden">+</span>
+                    <span className="hidden h-6 w-6 shrink-0 items-center justify-center rounded-full bg-blue-600 text-base font-black text-white group-open:flex">−</span>
+                  </summary>
+                  <ul className="mt-3 space-y-2">
+                    {item.commonNeeds.map((need) => (
+                      <li key={need} className="flex gap-2 text-sm leading-6 text-slate-600"><span className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-blue-600" />{need}</li>
+                    ))}
+                  </ul>
+                </details>
+              ) : null}
+              {item.localBenefits?.length ? (
+                <details className="group rounded-[1.15rem] border border-slate-200 bg-white p-4 open:border-blue-200 open:bg-blue-50/40">
+                  <summary className="flex cursor-pointer list-none items-start justify-between gap-3 text-sm font-bold leading-6 text-slate-950">
+                    <span>Hal yang sering jadi pertimbangan di {areaName}</span>
+                    <span className="flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-blue-50 text-base font-black text-blue-700 group-open:hidden">+</span>
+                    <span className="hidden h-6 w-6 shrink-0 items-center justify-center rounded-full bg-blue-600 text-base font-black text-white group-open:flex">−</span>
+                  </summary>
+                  <ul className="mt-3 space-y-2">
+                    {item.localBenefits.map((benefit) => (
+                      <li key={benefit} className="flex gap-2 text-sm leading-6 text-slate-600"><span className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-blue-600" />{benefit}</li>
+                    ))}
+                  </ul>
+                </details>
+              ) : null}
+              {item.buyingChecks?.length ? (
+                <details className="group rounded-[1.15rem] border border-slate-200 bg-white p-4 open:border-blue-200 open:bg-blue-50/40">
+                  <summary className="flex cursor-pointer list-none items-start justify-between gap-3 text-sm font-bold leading-6 text-slate-950">
+                    <span>Yang perlu disiapkan sebelum chat</span>
+                    <span className="flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-blue-50 text-base font-black text-blue-700 group-open:hidden">+</span>
+                    <span className="hidden h-6 w-6 shrink-0 items-center justify-center rounded-full bg-blue-600 text-base font-black text-white group-open:flex">−</span>
+                  </summary>
+                  <ul className="mt-3 space-y-2">
+                    {item.buyingChecks.map((check) => (
+                      <li key={check} className="flex gap-2 text-sm leading-6 text-slate-600"><span className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-blue-600" />{check}</li>
+                    ))}
+                  </ul>
+                </details>
+              ) : null}
+            </div>
+          </div>
+        </section>
+      ) : null}
+
+      {!isHub ? (
+        <section className="mx-auto max-w-7xl px-4 py-7 sm:px-6 lg:px-8 lg:py-10">
+          <div className="grid gap-5 lg:grid-cols-[0.8fr_1.2fr] lg:items-start">
+            <div>
+              <p className={`${typography.eyebrow} text-blue-700`}>SELENGKAPNYA</p>
+              <h2 className={`mt-3 ${typography.sectionTitle} text-slate-950`}>Selengkapnya soal AC di {areaName}</h2>
+            </div>
+            <div className="grid gap-3">
+              {item.coverageNote ? (
+                <details className="group rounded-[1.15rem] border border-slate-200 bg-white p-4 open:border-blue-200 open:bg-blue-50/40">
+                  <summary className="flex cursor-pointer list-none items-start justify-between gap-3 text-sm font-bold leading-6 text-slate-950">
+                    <span>Area &amp; cakupan layanan AC di {areaName}</span>
+                    <span className="flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-blue-50 text-base font-black text-blue-700 group-open:hidden">+</span>
+                    <span className="hidden h-6 w-6 shrink-0 items-center justify-center rounded-full bg-blue-600 text-base font-black text-white group-open:flex">−</span>
+                  </summary>
+                  <p className="mt-3 text-sm leading-6 text-slate-600">{item.coverageNote}</p>
+                </details>
+              ) : null}
+              {item.commonNeeds?.length ? (
+                <details className="group rounded-[1.15rem] border border-slate-200 bg-white p-4 open:border-blue-200 open:bg-blue-50/40">
+                  <summary className="flex cursor-pointer list-none items-start justify-between gap-3 text-sm font-bold leading-6 text-slate-950">
+                    <span>Kebutuhan AC yang paling sering dilayani</span>
+                    <span className="flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-blue-50 text-base font-black text-blue-700 group-open:hidden">+</span>
+                    <span className="hidden h-6 w-6 shrink-0 items-center justify-center rounded-full bg-blue-600 text-base font-black text-white group-open:flex">−</span>
+                  </summary>
+                  <ul className="mt-3 space-y-2">
+                    {item.commonNeeds.map((need) => (
+                      <li key={need} className="flex gap-2 text-sm leading-6 text-slate-600"><span className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-blue-600" />{need}</li>
+                    ))}
+                  </ul>
+                </details>
+              ) : null}
+              {item.localBenefits?.length ? (
+                <details className="group rounded-[1.15rem] border border-slate-200 bg-white p-4 open:border-blue-200 open:bg-blue-50/40">
+                  <summary className="flex cursor-pointer list-none items-start justify-between gap-3 text-sm font-bold leading-6 text-slate-950">
+                    <span>Hal yang sering jadi pertimbangan di {areaName}</span>
+                    <span className="flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-blue-50 text-base font-black text-blue-700 group-open:hidden">+</span>
+                    <span className="hidden h-6 w-6 shrink-0 items-center justify-center rounded-full bg-blue-600 text-base font-black text-white group-open:flex">−</span>
+                  </summary>
+                  <ul className="mt-3 space-y-2">
+                    {item.localBenefits.map((benefit) => (
+                      <li key={benefit} className="flex gap-2 text-sm leading-6 text-slate-600"><span className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-blue-600" />{benefit}</li>
+                    ))}
+                  </ul>
+                </details>
+              ) : null}
+              {item.buyingChecks?.length ? (
+                <details className="group rounded-[1.15rem] border border-slate-200 bg-white p-4 open:border-blue-200 open:bg-blue-50/40">
+                  <summary className="flex cursor-pointer list-none items-start justify-between gap-3 text-sm font-bold leading-6 text-slate-950">
+                    <span>Yang perlu disiapkan sebelum chat</span>
+                    <span className="flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-blue-50 text-base font-black text-blue-700 group-open:hidden">+</span>
+                    <span className="hidden h-6 w-6 shrink-0 items-center justify-center rounded-full bg-blue-600 text-base font-black text-white group-open:flex">−</span>
+                  </summary>
+                  <ul className="mt-3 space-y-2">
+                    {item.buyingChecks.map((check) => (
+                      <li key={check} className="flex gap-2 text-sm leading-6 text-slate-600"><span className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-blue-600" />{check}</li>
+                    ))}
+                  </ul>
+                </details>
+              ) : null}
+            </div>
           </div>
         </section>
       ) : null}
