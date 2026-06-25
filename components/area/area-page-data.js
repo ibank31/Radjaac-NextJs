@@ -45,7 +45,7 @@ export const packageIncludes = [
 ];
 
 export const proofImages = [
-  ["Showroom", "/photos/proof/showroom-gree-radja-ac-purwokerto-01.webp", "Showroom Gree Radja AC Purwokerto"],
+  ["Showroom", "/photos/proof/showroom-multibrand-radja-ac-purwokerto-01.webp", "Showroom multibrand Radja AC Purwokerto"],
   ["Stok Unit", "/photos/proof/gudang-stok-ac-gree-radja-ac-01.webp", "Gudang stok unit AC Gree Radja AC"],
   ["Display Unit", "/photos/proof/display-ac-gree-low-watt-radja-ac-01.webp", "Display unit AC Gree low watt Radja AC"],
   ["Material", "/photos/proof/material-instalasi-ac-radja-ac-01.webp", "Material instalasi AC Radja AC"],
