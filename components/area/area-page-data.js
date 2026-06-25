@@ -45,10 +45,10 @@ export const packageIncludes = [
 ];
 
 export const proofImages = [
-  ["Showroom", "/photos/showroom/showroom-multibrand-radja-ac-purwokerto-01.webp", "Showroom Radja AC"],
-  ["Gudang Stok", "/photos/stock/gudang-stok-ac-radja-ac-purwokerto-01.webp", "Gudang stok AC Radja AC"],
-  ["Pengiriman", "/photos/delivery/radja-ac-persiapan-pengiriman.webp", "Persiapan pengiriman AC Radja AC"],
-  ["Material", "/photos/installation/material-instalasi-ac-radja-ac-01.webp", "Material instalasi AC Radja AC"],
+  ["Showroom", "/photos/proof/showroom-gree-radja-ac-purwokerto-01.webp", "Showroom Gree Radja AC Purwokerto"],
+  ["Stok Unit", "/photos/proof/gudang-stok-ac-gree-radja-ac-01.webp", "Gudang stok unit AC Gree Radja AC"],
+  ["Display Unit", "/photos/proof/display-ac-gree-low-watt-radja-ac-01.webp", "Display unit AC Gree low watt Radja AC"],
+  ["Material", "/photos/proof/material-instalasi-ac-radja-ac-01.webp", "Material instalasi AC Radja AC"],
 ];
 
 export const primaryLinks = [
