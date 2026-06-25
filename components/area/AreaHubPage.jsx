@@ -99,7 +99,7 @@ export default function AreaHubPage({
 
           <div className="mx-auto w-full max-w-[560px] lg:mr-0">
             <div className="overflow-hidden rounded-[1.45rem] border border-slate-200 bg-white p-2 shadow-[0_24px_70px_rgba(8,20,47,0.24)]">
-              <Image src="/photos/showroom/showroom-multibrand-radja-ac-purwokerto-01.webp" alt={`Showroom dan stok AC Radja AC untuk pengiriman ${areaName}`} width={680} height={520} quality={72} className="h-[220px] w-full rounded-[1.15rem] object-cover object-center sm:h-[340px] lg:h-[380px]" sizes="(min-width: 1024px) 560px, 100vw" priority />
+              <Image src="/photos/proof/showroom-daikin-gree-radja-ac-01.webp" alt={`Showroom Daikin & Gree Radja AC untuk pengiriman ${areaName}`} width={680} height={520} quality={72} className="h-[220px] w-full rounded-[1.15rem] object-cover object-center sm:h-[340px] lg:h-[380px]" sizes="(min-width: 1024px) 560px, 100vw" priority />
             </div>
             <div className="mt-3 grid grid-cols-3 gap-2">
               {proofImages.slice(0, 3).map(([label, src, alt]) => (
