@@ -25,9 +25,9 @@ export const staticPageMetadata = {
   },
 
   kontak: {
-    title: "Kontak Radja AC | WhatsApp, Showroom Banyumas & Konsultasi AC",
+    title: "Kontak Radja AC | WhatsApp, Jam Operasional & Lokasi Showroom",
     description:
-      "Hubungi Radja AC untuk konsultasi kebutuhan AC, cek stok, estimasi unit, pengiriman, dan opsi pemasangan. Showroom Radja AC berada di Pamijen, Sokaraja, Banyumas.",
+      "Hubungi Radja AC lewat WhatsApp untuk konsultasi kebutuhan AC. Cek jam operasional dan lokasi showroom di Pamijen, Sokaraja, Banyumas.",
     path: routes.kontak,
   },
 
@@ -54,9 +54,9 @@ export const staticPageMetadata = {
   },
 
   tentangKami: {
-    title: "Tentang Radja AC | Showroom Banyumas, Stok AC & Konsultasi PK",
+    title: "Tentang Radja AC | Profil, Legalitas & Showroom Resmi",
     description:
-      "Profil Radja AC, penyedia AC original multi-brand dengan showroom dan gudang di Pamijen, Sokaraja, Banyumas. Melayani pembelian satuan, proyek, cek PK, dan stok.",
+      "Profil Radja AC, penyedia AC original multi-brand dengan showroom dan gudang di Pamijen, Sokaraja, Banyumas. Mengenal legalitas, status dealer, dan cara kami melayani pembelian satuan hingga proyek.",
     path: routes.tentangKami,
   },
 
