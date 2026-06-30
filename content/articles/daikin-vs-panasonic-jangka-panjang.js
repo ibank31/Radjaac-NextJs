@@ -7,7 +7,7 @@ export const daikinVsPanasonicJangkaPanjang = {
   role: "supporting",
   intent: "commercial",
   parentSlug: "gree-vs-daikin-untuk-rumah",
-  updatedAt: "2026-06-15",
+  updatedAt: "2026-06-30",
   moneyLinks: [
     ["AC Daikin", routes.brandDaikin, "Cek pilihan AC Daikin dengan dokumen Authorized Dealer."],
     ["AC Panasonic", routes.brandPanasonic, "Lihat pilihan AC Panasonic untuk kebutuhan rumah."],
@@ -17,12 +17,19 @@ export const daikinVsPanasonicJangkaPanjang = {
   title: "Daikin vs Panasonic untuk Pemakaian Jangka Panjang — Radja AC",
   description:
     "Mencari AC yang awet untuk pemakaian 10+ tahun? Bandingkan Daikin vs Panasonic dari sisi ketahanan, efisiensi, garansi, dan total cost of ownership.",
-  h1: "Daikin vs Panasonic untuk pemakaian jangka panjang",
+  h1: "Daikin vs Panasonic untuk Pemakaian Jangka Panjang",
   eyebrow: "Perbandingan Brand Premium",
   readTime: "7 menit baca",
   intro:
     "Daikin dan Panasonic adalah dua brand Jepang yang dikenal dengan kualitas dan ketahanan. Keduanya sering dipilih oleh pembeli yang berpikir jangka panjang — bukan sekadar mencari harga termurah, tapi mencari AC yang bisa diandalkan selama 10 tahun atau lebih.",
   sections: [
+    {
+      heading: "Jawaban singkat: Daikin atau Panasonic?",
+      body: [
+        "Keduanya brand Jepang premium yang sama-sama bisa diandalkan 10+ tahun, jadi tidak ada pilihan yang benar-benar salah. Singkatnya: pilih Daikin bila prioritas Anda efisiensi pendinginan untuk pemakaian rutin berjam-jam dan jaringan servis AC yang luas. Pilih Panasonic bila Anda menginginkan fitur kualitas udara (Nanoe-X) dan operasi yang relatif senyap.",
+        "Selisih harga keduanya biasanya tidak besar. Karena sama-sama premium, keputusan akhir lebih ditentukan oleh prioritas fitur dan ketersediaan tipe serta PK yang Anda butuhkan di stok.",
+      ],
+    },
     {
       heading: "Reputasi ketahanan kedua brand",
       body: [

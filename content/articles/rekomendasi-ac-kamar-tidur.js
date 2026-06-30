@@ -7,23 +7,30 @@ export const rekomendasiAcKamarTidur = {
   role: "supporting",
   intent: "commercial",
   parentSlug: "ac-bagus-merk-apa",
-  updatedAt: "2026-06-18",
+  updatedAt: "2026-06-30",
   moneyLinks: [
     ["AC 1/2 PK", routes.katalogAcSetengahPk, "Lihat kapasitas yang umum untuk kamar tidur kecil hingga sedang."],
     ["AC Inverter", routes.katalogAcInverter, "Cek pilihan inverter untuk tidur yang lebih nyaman dan suhu stabil."],
     ["Kalkulator PK AC", routes.kalkulatorPkAc, "Cek estimasi PK sesuai luas dan kondisi kamar tidur."],
     ["Kontak Radja AC", routes.kontak, "Kirim foto kamar dan titik pemasangan untuk rekomendasi yang lebih tepat."],
   ],
-  title: "Rekomendasi AC untuk Kamar Tidur | Cek PK, Tipe & Posisi",
+  title: "Rekomendasi AC untuk Kamar Tidur: PK, Tipe & Posisi Pasang — Radja AC",
   description:
     "Rekomendasi AC untuk kamar tidur: cara menentukan PK, memilih tipe inverter atau low watt, dan posisi pemasangan agar tidur lebih nyaman dan hemat.",
-  h1: "Rekomendasi AC untuk kamar tidur",
+  h1: "Rekomendasi AC untuk Kamar Tidur: PK, Tipe & Posisi Pasang",
   eyebrow: "AC Kamar Tidur",
   readTime: "6 menit baca",
   keywords: ["AC kamar tidur", "rekomendasi AC kamar", "AC kamar hemat", "PK AC kamar"],
   intro:
     "Kamar tidur termasuk ruangan yang paling sering memakai AC dalam durasi panjang, biasanya sepanjang malam. Karena itu, pilihan AC untuk kamar tidur sebaiknya mengutamakan kenyamanan suhu, ketenangan, dan efisiensi listrik, bukan hanya harga unit yang paling ringan.",
   sections: [
+    {
+      heading: "Jawaban singkat: AC kamar tidur sebaiknya yang seperti apa?",
+      body: [
+        "Untuk kamar tidur kecil hingga sedang, mulai dari 1/2 PK sampai 1 PK; kamar luas atau yang panas di sore hari bisa butuh 1.5 PK. Karena AC kamar dipakai berjam-jam tiap malam, tipe inverter biasanya paling nyaman dan efisien — kecuali daya listrik rumah terbatas, di situ low watt lebih aman.",
+        "Apa pun pilihannya, pastikan PK sesuai luas kamar dan atur posisi indoor supaya hembusan tidak langsung mengenai badan. Dua hal itu yang paling menentukan nyaman atau tidaknya tidur.",
+      ],
+    },
     {
       heading: "Mulai dari ukuran dan kondisi kamar",
       body: [

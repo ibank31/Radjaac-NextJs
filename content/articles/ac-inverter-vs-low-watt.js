@@ -7,22 +7,29 @@ export const acInverterVsLowWatt = {
   role: "pillar",
   intent: "commercial",
   parentSlug: null,
-  updatedAt: "2026-06-18",
+  updatedAt: "2026-06-30",
   moneyLinks: [
     ["AC Inverter", routes.katalogAcInverter, "Cek pilihan AC inverter untuk pemakaian rutin dan suhu stabil."],
     ["AC Low Watt", routes.katalogAcLowWatt, "Cek pilihan AC untuk rumah dengan daya listrik terbatas."],
     ["Kalkulator PK AC", routes.kalkulatorPkAc, "Hitung estimasi PK agar pilihan tipe tidak salah kapasitas."],
     ["Pengiriman & Pemasangan", routes.pengirimanPemasangan, "Cek kebutuhan lokasi, material, garansi pasang, dan jadwal sebelum order."],
   ],
-  title: "AC Inverter vs Low Watt | Mana yang Cocok untuk Rumah?",
+  title: "AC Inverter vs Low Watt: Mana yang Cocok untuk Rumah? — Radja AC",
   description:
     "Bingung pilih AC inverter atau low watt? Pahami beda fungsi, cocok untuk siapa, risiko salah pilih, dan kapan sebaiknya cek PK dulu sebelum beli.",
-  h1: "AC inverter vs low watt: mana yang lebih cocok?",
+  h1: "AC Inverter vs Low Watt: Mana yang Cocok untuk Rumah?",
   eyebrow: "Panduan Tipe AC",
   readTime: "7 menit baca",
   intro:
     "AC inverter dan low watt sama-sama sering disebut hemat listrik, padahal yang dihemat beda. Buat kamu yang lagi milih, keputusannya jadi lebih gampang kalau dibaca dari empat hal: daya listrik rumah, berapa lama AC dipakai tiap hari, ukuran ruangan, dan anggaran.",
   sections: [
+    {
+      heading: "Jawaban singkat: pilih yang mana?",
+      body: [
+        "Patokan cepatnya: pilih low watt kalau daya listrik rumah terbatas (sekitar 900-1.300 VA) dan sering dipakai barengan alat lain — tujuannya supaya listrik tidak njeglek. Pilih inverter kalau AC dinyalakan berjam-jam tiap hari dan daya listrik cukup — tujuannya supaya konsumsi listrik lebih irit saat suhu sudah stabil.",
+        "Kalau pemakaian jarang atau anggaran awal ketat, AC standard masih masuk akal asalkan PK-nya pas. Apa pun tipenya, kapasitas PK yang sesuai ruangan tetap penentu utama hemat atau borosnya.",
+      ],
+    },
     {
       heading: "Bedanya di mana, biar tidak ketukar",
       body: [

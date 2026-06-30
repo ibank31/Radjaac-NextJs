@@ -7,22 +7,29 @@ export const acUntukListrik900Watt = {
   role: "supporting",
   intent: "commercial",
   parentSlug: "ac-bagus-merk-apa",
-  updatedAt: "2026-06-18",
+  updatedAt: "2026-06-30",
   moneyLinks: [
     ["AC Low Watt", routes.katalogAcLowWatt, "Lihat AC low watt yang lebih ramah untuk daya listrik 900 watt."],
     ["Kalkulator PK AC", routes.kalkulatorPkAc, "Cek kapasitas PK yang aman agar beban listrik tetap terkendali."],
     ["Kontak Radja AC", routes.kontak, "Sampaikan daya listrik dan perangkat rumah untuk pilihan AC yang aman."],
   ],
-  title: "AC untuk Listrik 900 Watt | Pilih Low Watt Tanpa MCB Turun",
+  title: "AC untuk Listrik 900 Watt: Low Watt Tanpa MCB Turun — Radja AC",
   description:
     "Panduan memilih AC untuk listrik 900 watt agar MCB tidak sering turun: cek beban listrik, kapasitas PK, dan pilihan AC low watt yang sesuai.",
-  h1: "AC untuk listrik 900 watt tanpa sering turun MCB",
+  h1: "AC untuk Listrik 900 Watt: Low Watt Tanpa MCB Turun",
   eyebrow: "AC Low Watt",
   readTime: "6 menit baca",
   keywords: ["AC listrik 900 watt", "AC low watt", "MCB turun AC", "AC daya kecil"],
   intro:
     "Rumah dengan daya listrik 900 watt sering ragu memasang AC karena takut MCB sering turun. Sebenarnya AC tetap bisa dipasang asal pilihan tipe dan kapasitasnya disesuaikan dengan daya yang tersedia serta beban listrik lain di rumah.",
   sections: [
+    {
+      heading: "Jawaban singkat: AC apa untuk listrik 900 watt?",
+      body: [
+        "Rumah 900 watt tetap bisa pasang AC asalkan pilih tipe low watt dengan kapasitas kecil. Patokan amannya: AC low watt 1/2 PK untuk kamar kecil, dengan catatan beban perangkat lain (kulkas, pompa air, mesin cuci) ikut dihitung supaya MCB tidak turun saat menyala bersamaan.",
+        "Tidak perlu langsung tambah daya. Penambahan daya baru dipertimbangkan kalau beban rumah sudah tinggi atau AC dipakai rutin berjam-jam. Inverter low watt bisa jadi opsi, tapi tetap dicek dulu ukuran ruangan dan total bebannya.",
+      ],
+    },
     {
       heading: "Kenapa listrik 900 watt perlu perhatian khusus",
       body: [
