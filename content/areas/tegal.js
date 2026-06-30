@@ -23,9 +23,9 @@ export const tegalAreas = [
         ["Kos pekerja & rumah", "AC kos dan rumah dengan pilihan low watt; unit dikirim ke alamat Tegal atau Slawi lalu dipasang."],
       ],
       label: "Jual AC Tegal",
-      title: "Jual AC Tegal & Slawi | Workshop, Pantura & Pengadaan Proyek — Radja AC",
+      title: "Jual AC Tegal & Slawi | Cek Stok, Konsultasi PK & Pasang Bergaransi — Radja AC",
       description:
-        "Beli AC untuk rumah, workshop logam, ruko Pantura, kos pekerja, atau pengadaan proyek di Tegal dan Slawi? Radja AC cek PK, stok, dan jadwal pasang via WhatsApp.",
+        "Jual AC Tegal & Slawi untuk rumah, ruko Pantura, workshop, kos, hingga pengadaan proyek. Radja AC cek stok, hitung PK, dan atur kirim + pasang bergaransi via WhatsApp.",
       h1: "Jual AC Tegal dan Slawi — workshop, ruko Pantura, kos pekerja, dan pengadaan proyek",
       eyebrow: "Layanan AC Area Tegal & Slawi",
       intro:
