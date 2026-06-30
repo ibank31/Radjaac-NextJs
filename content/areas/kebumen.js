@@ -23,9 +23,9 @@ export const kebumenAreas = [
         ["Rumah tinggal", "Pemasangan AC kamar dengan unit dikirim ke alamat di Kebumen dan sekitarnya."],
       ],
       label: "Jual AC Kebumen",
-      title: "Jual AC Kebumen | Kost, Properti Sewa & Toko Pusat Kota — Radja AC",
+      title: "Jual AC Kebumen | Cek Stok, Konsultasi PK & Pasang Bergaransi — Radja AC",
       description:
-        "Beli AC untuk kost, kontrakan, rumah, toko, atau ruko di Kebumen? Kamar ber-AC lebih cepat terisi. Radja AC cek PK, stok, dan jadwal pasang via WhatsApp.",
+        "Jual AC Kebumen untuk rumah, kost, kontrakan, toko, hingga ruko pusat kota. Radja AC cek stok, hitung PK, dan atur pengiriman + pasang bergaransi via WhatsApp.",
       h1: "Jual AC Kebumen — kost, properti sewa, rumah, dan toko pusat kota",
       eyebrow: "Layanan AC Area Kebumen",
       intro:
