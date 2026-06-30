@@ -7,23 +7,30 @@ export const biayaPasangAcBaru = {
   role: "supporting",
   intent: "commercial",
   parentSlug: "ac-bagus-merk-apa",
-  updatedAt: "2026-06-11",
+  updatedAt: "2026-06-30",
   moneyLinks: [
     ["Pengiriman & Pemasangan", routes.pengirimanPemasangan, "Pahami cakupan pemasangan standar, material, garansi pasang, dan jadwal."],
     ["AC Split Rumah", routes.katalogAcSplitRumah, "Lihat pilihan unit rumah sambil memperkirakan kebutuhan pemasangan."],
     ["Ganti AC Lama ke Unit Baru", routes.gantiAcBaruPurwokerto, "Solusi bila AC lama sudah tidak ekonomis diperbaiki: ganti AC lama dengan unit baru."],
     ["Kontak Radja AC", routes.kontak, "Kirim foto titik indoor-outdoor dan jarak pipa untuk estimasi yang lebih akurat."],
   ],
-  title: "Biaya Pasang AC Baru: Apa Saja yang Dihitung | Radja AC",
+  title: "Biaya Pasang AC Baru: Komponen Wajib & Cara Minta Estimasi — Radja AC",
   description:
     "Pahami komponen biaya pasang AC baru: jasa pemasangan, material standar, kebutuhan tambahan sesuai lokasi, dan cara meminta estimasi yang lebih akurat.",
-  h1: "Biaya pasang AC baru: apa saja yang dihitung",
+  h1: "Biaya Pasang AC Baru: Komponen Wajib & Cara Minta Estimasi",
   eyebrow: "Biaya Pemasangan",
   readTime: "6 menit baca",
   keywords: ["biaya pasang AC", "pemasangan AC baru", "material pasang AC", "jasa pasang AC"],
   intro:
     "Saat membeli AC baru, total yang dikeluarkan tidak hanya harga unit. Ada komponen pemasangan yang ikut menentukan kenyamanan dan kerapian hasil akhir. Memahami apa saja yang dihitung membantu Anda menyiapkan anggaran lebih realistis dan menghindari kaget di kemudian hari.",
   sections: [
+    {
+      heading: "Jawaban singkat: biaya pasang AC terdiri dari apa?",
+      body: [
+        "Total biaya pasang AC baru terdiri dari tiga komponen: jasa pemasangan standar, material standar (pipa bawaan, bracket, kabel, selang pembuangan, dan proses vakum), serta kebutuhan tambahan sesuai lokasi (pipa ekstra, bobok tembok, atau dudukan outdoor khusus). Harga unit dihitung terpisah dari ketiganya.",
+        "Karena kebutuhan tambahan sangat bergantung pada kondisi rumah, angka pastinya baru bisa dikunci setelah titik indoor–outdoor, jarak pipa, dan jenis dinding diketahui. Cara tercepat mendapat estimasi: kirim foto kedua titik dan perkiraan jaraknya ke tim Radja AC.",
+      ],
+    },
     {
       heading: "Biaya pasang bukan hanya harga unit",
       body: [
