@@ -441,9 +441,9 @@ export const regionalAreas = [
         ],
       ],
       label: "Jual AC Pekalongan",
-      title: "Jual AC Pekalongan untuk Toko Batik, Ruko & Usaha — Radja AC",
+      title: "Jual AC Pekalongan | Cek Stok, Konsultasi PK & Pasang Bergaransi — Radja AC",
       description:
-        "Butuh AC untuk showroom batik, ruko grosir, kantor, rumah, atau banyak unit di Pekalongan? Radja AC bantu cek PK, stok, pengiriman, dan opsi pemasangan via WhatsApp.",
+        "Jual AC Pekalongan untuk rumah, toko batik, ruko grosir, kantor, sampai banyak unit. Radja AC cek stok, hitung PK, dan atur kirim + pasang bergaransi via WhatsApp.",
       h1: "Jual AC Pekalongan untuk Toko Batik, Ruko & Usaha",
       eyebrow: "Area Pantura — Kota Batik Pekalongan",
       intro:

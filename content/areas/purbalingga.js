@@ -46,9 +46,9 @@ export const purbalinggaAreas = [
         ],
       ],
       label: "Jual AC Purbalingga",
-      title: "Jual AC Purbalingga | Pabrik Industri, Penginapan Owabong & Kos Pekerja — Radja AC",
+      title: "Jual AC Purbalingga | Cek Stok, Konsultasi PK & Pasang Bergaransi — Radja AC",
       description:
-        "AC untuk kantor pabrik rambut palsu dan knalpot Purbalingga, penginapan sekitar Owabong, atau kos pekerja di Padamara? Radja AC cek PK, stok, dan pengiriman via WhatsApp.",
+        "Jual AC Purbalingga untuk rumah, kos, toko, kantor, sampai pengadaan banyak unit. Radja AC bantu cek stok, hitung PK, dan atur pengiriman serta pemasangan bergaransi via WhatsApp.",
       h1: "Jual AC Purbalingga untuk Rumah, Kost, Toko & Kantor",
       eyebrow: "Area Regional Dekat Banyumas",
       intro:
