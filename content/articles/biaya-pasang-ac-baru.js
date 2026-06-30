@@ -16,7 +16,7 @@ export const biayaPasangAcBaru = {
   ],
   title: "Biaya Pasang AC Baru: Komponen Wajib & Cara Minta Estimasi — Radja AC",
   description:
-    "Pahami komponen biaya pasang AC baru: jasa pemasangan, material standar, kebutuhan tambahan sesuai lokasi, dan cara meminta estimasi yang lebih akurat.",
+    "Pahami komponen biaya pasang AC baru: jasa pemasangan, material standar, kebutuhan tambahan sesuai lokasi, dan patokan paket unit + pasang dari Radja AC.",
   h1: "Biaya Pasang AC Baru: Komponen Wajib & Cara Minta Estimasi",
   eyebrow: "Biaya Pemasangan",
   readTime: "6 menit baca",
@@ -27,8 +27,15 @@ export const biayaPasangAcBaru = {
     {
       heading: "Jawaban singkat: biaya pasang AC terdiri dari apa?",
       body: [
-        "Total biaya pasang AC baru terdiri dari tiga komponen: jasa pemasangan standar, material standar (pipa bawaan, bracket, kabel, selang pembuangan, dan proses vakum), serta kebutuhan tambahan sesuai lokasi (pipa ekstra, bobok tembok, atau dudukan outdoor khusus). Harga unit dihitung terpisah dari ketiganya.",
-        "Karena kebutuhan tambahan sangat bergantung pada kondisi rumah, angka pastinya baru bisa dikunci setelah titik indoor–outdoor, jarak pipa, dan jenis dinding diketahui. Cara tercepat mendapat estimasi: kirim foto kedua titik dan perkiraan jaraknya ke tim Radja AC.",
+        "Total biaya pasang AC baru terdiri dari tiga komponen: jasa pemasangan standar, material standar (pipa 2 meter, kabel 5 meter, bracket, selang pembuangan, dan proses vakum), serta kebutuhan tambahan sesuai lokasi (pipa ekstra, bobok tembok, atau dudukan outdoor khusus). Harga unit dihitung terpisah dari ketiganya.",
+        "Kalau ingin gambaran total unit + pemasangan, Radja AC punya patokan paket mulai 3 jutaan (rinciannya di bawah). Angka pastinya baru bisa dikunci setelah brand, PK, titik indoor–outdoor, jarak pipa, dan jenis dinding diketahui — cara tercepat mendapat estimasi: kirim foto kedua titik dan perkiraan jaraknya ke tim Radja AC.",
+      ],
+    },
+    {
+      heading: "Patokan paket: unit + pemasangan standar",
+      body: [
+        "Sebagai gambaran awal, ini patokan paket yang sudah termasuk unit dan pemasangan standar: mulai 3 jutaan untuk kelas Midea FT/AF, Hisense, Sharp, Sansui, Ariston, atau TCL — cocok untuk kamar kecil, kost, kontrakan, atau toko kecil. Kisaran 3–4 jutaan untuk Gree Standard/Low Watt, Daikin STC/STP, Midea Inverter, Panasonic, atau Samsung — untuk rumah harian dan pemakaian rutin. Mulai 4 jutaan untuk Gree Inverter dan Daikin Inverter — untuk pemakaian lebih lama, kamar utama, atau ruang kerja.",
+        "Angka ini patokan awal, bukan harga pasti. Brand, PK, tipe, stok, alamat, dan kondisi pemasangan tetap menentukan angka akhir, jadi stok dan harga sebaiknya dikonfirmasi dulu sebelum order.",
       ],
     },
     {
@@ -41,8 +48,8 @@ export const biayaPasangAcBaru = {
     {
       heading: "Komponen standar dalam pemasangan",
       body: [
-        "Pemasangan standar umumnya mencakup jasa pasang, pipa dengan panjang standar, kabel, bracket outdoor, selang pembuangan, dan proses vakum agar sistem bekerja baik. Komponen ini menjadi dasar agar AC bisa dipakai dengan benar.",
-        "Setiap penyedia bisa punya batas standar berbeda, misalnya panjang pipa bawaan. Menanyakan detail ini sejak awal membantu memahami sampai mana cakupan paket standar.",
+        "Pemasangan standar dari Radja AC umumnya mencakup jasa pasang plus material standar: pipa 2 meter, kabel 5 meter, bracket 1 set, duct tape, selang pembuangan, dan proses vakum AC. Komponen inilah yang membuat AC bisa dipakai dengan benar.",
+        "Kalau kebutuhan melebihi standar — misalnya pipa lebih dari 2 meter — selisihnya dihitung sebagai tambahan. Menanyakan batas standar sejak awal membantu memahami sampai mana cakupan paket standar.",
       ],
     },
     {
@@ -71,7 +78,12 @@ export const biayaPasangAcBaru = {
     {
       question: "Apa saja yang termasuk dalam biaya pasang AC baru?",
       answer:
-        "Umumnya mencakup jasa pemasangan, pipa panjang standar, kabel, bracket, selang pembuangan, dan proses vakum. Kebutuhan di luar standar seperti pipa tambahan atau bobok tembok dihitung terpisah sesuai kondisi lokasi.",
+        "Pemasangan standar mencakup jasa pasang dan material standar: pipa 2 meter, kabel 5 meter, bracket 1 set, duct tape, selang pembuangan, dan proses vakum. Kebutuhan di luar standar seperti pipa tambahan atau bobok tembok dihitung terpisah sesuai kondisi lokasi.",
+    },
+    {
+      question: "Berapa kisaran harga paket AC plus pemasangan?",
+      answer:
+        "Sebagai patokan, paket unit + pemasangan standar mulai 3 jutaan untuk kelas Midea, Hisense, Sharp, atau TCL; kisaran 3–4 jutaan untuk Gree, Daikin STC/STP, Midea Inverter, Panasonic, atau Samsung; dan mulai 4 jutaan untuk Gree Inverter dan Daikin Inverter. Angka akhir tetap mengikuti brand, PK, stok, dan kondisi pemasangan.",
     },
     {
       question: "Kenapa biaya pasang AC bisa berbeda tiap rumah?",
