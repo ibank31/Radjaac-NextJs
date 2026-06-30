@@ -7,22 +7,29 @@ export const acBorosListrikGantiInverter = {
   role: "supporting",
   intent: "commercial",
   parentSlug: "ac-inverter-vs-low-watt",
-  updatedAt: "2026-06-13",
+  updatedAt: "2026-06-30",
   moneyLinks: [
     ["AC Inverter", routes.katalogAcInverter, "Cek pilihan AC inverter untuk pemakaian rutin yang lebih hemat."],
     ["AC Low Watt", routes.katalogAcLowWatt, "Cek AC low watt untuk rumah dengan daya listrik terbatas."],
     ["Kalkulator PK AC", routes.kalkulatorPkAc, "Hitung PK yang tepat sebelum beli unit pengganti."],
     ["Kontak Radja AC", routes.kontak, "Kirim tagihan listrik dan ukuran ruangan untuk rekomendasi unit."],
   ],
-  title: "AC Boros Listrik Tiap Bulan? Hitung Untung Ganti ke Inverter",
+  title: "AC Boros Listrik Tiap Bulan? Hitung Untung Ganti ke Inverter — Radja AC",
   description:
     "Tagihan listrik naik terus gara-gara AC lama? Hitung selisih konsumsi AC lama vs inverter baru dan kapan titik balik investasinya tercapai.",
-  h1: "AC boros listrik tiap bulan? hitung untung ganti ke inverter",
+  h1: "AC Boros Listrik Tiap Bulan? Hitung Untung Ganti ke Inverter",
   eyebrow: "Hemat Listrik AC",
   readTime: "5 menit baca",
   intro:
     "Kalau tagihan listrik kamu naik dan AC adalah tersangka utamanya, ada dua kemungkinan: PK tidak sesuai ruangan, atau unit sudah tua dan tidak efisien. Dua-duanya punya solusi yang sama — ganti ke unit baru yang tepat. Yang perlu dihitung adalah seberapa cepat investasinya balik.",
   sections: [
+    {
+      heading: "Jawaban singkat: kapan ganti ke inverter itu worth?",
+      body: [
+        "Ganti ke inverter hampir selalu worth kalau tiga hal ini terpenuhi: AC lama sudah 5 tahun ke atas, dipakai minimal 6–8 jam sehari, dan tagihan listrik terasa naik. Dalam kondisi itu, penghematan listrik biasanya menutup harga unit baru dalam 1,5–2 tahun.",
+        "Kalau AC lama masih muda (di bawah 3 tahun) dan jarang dipakai, lebih masuk akal benahi dulu PK, freon, dan kebersihan filter sebelum memutuskan ganti unit.",
+      ],
+    },
     {
       heading: "Kenapa AC lama bisa tiba-tiba boros?",
       body: [
