@@ -69,6 +69,11 @@ const galleryVideos = [
 
 const galleryItems = [
   {
+    title: "Stok Outdoor Unit Gree GMV S",
+    category: "Gudang",
+    image: "/photos/proof/gree-gmvs-outdoor-unit-stock-radjaac.webp",
+  },
+  {
     title: "Stok AC Sansui dan Gree Radja AC",
     category: "Gudang",
     image: "/images/gallery/stock-sansui-gree.webp",
