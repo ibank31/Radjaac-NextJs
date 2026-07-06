@@ -68,3 +68,36 @@
 /artikel/jual-ac-banyumas-konsultasi-pk-stok-pasang     /jual-ac-banyumas  301
 /artikel/toko-ac-purwokerto-yang-bisa-konsultasi-pk     /jual-ac-purwokerto  301
 /artikel/samsung-inverter-purwokerto    /brand/samsung    301
+
+# --- Konsolidasi kecamatan ring Banyumas -> money page Purwokerto (6 Jul 2026) ---
+/jual-ac-cilongok         /jual-ac-purwokerto  301
+/jual-ac-cilongok/        /jual-ac-purwokerto  301
+/jual-ac-wangon           /jual-ac-purwokerto  301
+/jual-ac-wangon/          /jual-ac-purwokerto  301
+/jual-ac-sokaraja         /jual-ac-purwokerto  301
+/jual-ac-sokaraja/        /jual-ac-purwokerto  301
+/jual-ac-sumbang          /jual-ac-purwokerto  301
+/jual-ac-sumbang/         /jual-ac-purwokerto  301
+/jual-ac-rawalo           /jual-ac-purwokerto  301
+/jual-ac-rawalo/          /jual-ac-purwokerto  301
+/jual-ac-kembaran         /jual-ac-purwokerto  301
+/jual-ac-kembaran/        /jual-ac-purwokerto  301
+/jual-ac-karanglewas      /jual-ac-purwokerto  301
+/jual-ac-karanglewas/     /jual-ac-purwokerto  301
+/jual-ac-patikraja        /jual-ac-purwokerto  301
+/jual-ac-patikraja/       /jual-ac-purwokerto  301
+/jual-ac-ajibarang        /jual-ac-purwokerto  301
+/jual-ac-ajibarang/       /jual-ac-purwokerto  301
+/jual-ac-baturraden       /jual-ac-purwokerto  301
+/jual-ac-baturraden/      /jual-ac-purwokerto  301
+/jual-ac-kedungbanteng    /jual-ac-purwokerto  301
+/jual-ac-kedungbanteng/   /jual-ac-purwokerto  301
+/jual-ac-kalibagor        /jual-ac-purwokerto  301
+/jual-ac-kalibagor/       /jual-ac-purwokerto  301
+# --- Konsolidasi kecamatan Kebumen -> induk Kebumen ---
+/jual-ac-gombong              /jual-ac-kebumen  301
+/jual-ac-gombong/             /jual-ac-kebumen  301
+/jual-ac-karanganyar-kebumen  /jual-ac-kebumen  301
+/jual-ac-karanganyar-kebumen/ /jual-ac-kebumen  301
+/jual-ac-kutowinangun         /jual-ac-kebumen  301
+/jual-ac-kutowinangun/        /jual-ac-kebumen  301
