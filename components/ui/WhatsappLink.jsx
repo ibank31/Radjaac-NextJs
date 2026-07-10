@@ -2,26 +2,8 @@
 
 import { buildWhatsAppUrl } from "@/lib/whatsapp";
 
-function isInternalTestSession() {
-  if (typeof window === "undefined") {
-    return false;
-  }
-
-  const params = new URLSearchParams(window.location.search);
-  const testParam = params.get("radja_test");
-
-  if (testParam === "1" || testParam === "true") {
-    window.sessionStorage?.setItem("radja_internal_test", "1");
-    return true;
-  }
-
-  return window.sessionStorage?.getItem("radja_internal_test") === "1";
-}
-
 function trackWhatsappClick({ source, label, intent, area, brand, category, pageType, href }) {
   if (typeof window === "undefined") return;
-
-  const isInternalTest = isInternalTestSession();
 
   const payload = {
     event_category: "lead",
@@ -35,8 +17,6 @@ function trackWhatsappClick({ source, label, intent, area, brand, category, page
     page_type: pageType || "unknown",
     page_path: window.location.pathname,
     link_url: href,
-    traffic_type: isInternalTest ? "internal" : "external",
-    is_internal_test: isInternalTest ? "true" : "false",
     transport_type: "beacon",
   };
 
@@ -48,12 +28,6 @@ function trackWhatsappClick({ source, label, intent, area, brand, category, page
       value: 0,
     });
   }
-
-  window.dataLayer = window.dataLayer || [];
-  window.dataLayer.push({
-    event: "whatsapp_click",
-    ...payload,
-  });
 }
 
 export default function WhatsappLink({

@@ -16,29 +16,9 @@ function isProductionHostname() {
 }
 
 
-function isInternalTestSession() {
-  if (typeof window === "undefined") {
-    return false;
-  }
-
-  const params = new URLSearchParams(window.location.search);
-  const testParam = params.get("radja_test");
-
-  if (testParam === "1" || testParam === "true") {
-    window.sessionStorage?.setItem("radja_internal_test", "1");
-    return true;
-  }
-
-  return window.sessionStorage?.getItem("radja_internal_test") === "1";
-}
 function sendGaPageView(path) {
-  if (
-    !GA_MEASUREMENT_ID ||
-    !isProductionHostname() ||
-    typeof window.gtag !== "function"
-  ) {
-    return;
-  }
+  if (!GA_MEASUREMENT_ID || !isProductionHostname()) return false;
+  if (typeof window.gtag !== "function") return false;
 
   const cleanPath = path || window.location.pathname;
 
@@ -47,6 +27,8 @@ function sendGaPageView(path) {
     page_location: `${window.location.origin}${cleanPath}`,
     page_title: document.title,
   });
+
+  return true;
 }
 
 function GoogleAnalyticsPageView() {
@@ -57,7 +39,23 @@ function GoogleAnalyticsPageView() {
       return;
     }
 
-    sendGaPageView(pathname);
+    let retryTimer;
+    let attempts = 0;
+
+    const sendWhenReady = () => {
+      if (sendGaPageView(pathname)) return;
+
+      attempts += 1;
+      if (attempts < 40) {
+        retryTimer = window.setTimeout(sendWhenReady, 250);
+      }
+    };
+
+    sendWhenReady();
+
+    return () => {
+      if (retryTimer) window.clearTimeout(retryTimer);
+    };
   }, [pathname]);
 
   return null;
@@ -89,8 +87,6 @@ function GoogleAnalyticsEvents() {
         return;
       }
 
-      const isInternalTest = isInternalTestSession();
-
       window.gtag("event", "whatsapp_click", {
         event_category: "lead",
         event_label: link.dataset.waLabel || link.textContent?.trim() || "WhatsApp link",
@@ -101,8 +97,6 @@ function GoogleAnalyticsEvents() {
         brand_target: link.dataset.brandTarget || "",
         category_target: link.dataset.categoryTarget || "",
         page_type: link.dataset.pageType || "unknown",
-        traffic_type: isInternalTest ? "internal" : "external",
-        is_internal_test: isInternalTest ? "true" : "false",
         link_hostname: url.hostname,
         link_pathname: url.pathname,
         page_path: window.location.pathname,
@@ -126,8 +120,8 @@ export default function GoogleAnalytics() {
 
   return (
     <>
-      <Script src={GTAG_SRC} strategy="lazyOnload" />
-      <Script id="google-analytics" strategy="lazyOnload">
+      <Script src={GTAG_SRC} strategy="afterInteractive" />
+      <Script id="google-analytics" strategy="afterInteractive">
         {`
           if (window.location.hostname === '${PRODUCTION_HOSTNAME}') {
             window.dataLayer = window.dataLayer || [];

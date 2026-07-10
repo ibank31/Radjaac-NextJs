@@ -306,9 +306,6 @@ Event lead utama:
 
 `generate_lead` disarankan menjadi key event utama.
 
-Test internal:
-Buka URL dengan `?radja_test=1`, klik WhatsApp, lalu cek GA4 Realtime/DebugView.
-
 Jangan memakai `purchase` sebagai patokan klik WhatsApp.
 
 ## Reset Keyword
