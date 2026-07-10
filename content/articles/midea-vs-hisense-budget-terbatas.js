@@ -7,26 +7,26 @@ export const mideaVsHisenseBudgetTerbatas = {
   role: "supporting",
   intent: "commercial",
   parentSlug: "gree-vs-daikin-untuk-rumah",
-  updatedAt: "2026-06-30",
+  updatedAt: "2026-07-10",
   moneyLinks: [
     ["AC Midea", routes.brandMidea, "Cek pilihan AC Midea dengan dokumen Authorized Dealer."],
     ["AC Hisense", routes.brandHisense, "Lihat pilihan AC Hisense untuk kebutuhan rumah dan usaha."],
     ["AC Low Watt", routes.katalogAcLowWatt, "Bandingkan pilihan low watt untuk daya listrik terbatas."],
     ["Kalkulator PK AC", routes.kalkulatorPkAc, "Hitung kebutuhan PK sebelum memilih brand."],
   ],
-  title: "AC Midea vs Hisense untuk Budget Terbatas: Pilih Mana? — Radja AC",
+  title: "Midea vs Hisense: Mana yang Lebih Bagus untuk Budget Terbatas? | Radja AC",
   description:
-    "Bandingkan AC Midea vs Hisense untuk budget terbatas: harga, pilihan low watt, fitur, dan kebisingan. Lengkap dengan rekomendasi cepat mana yang lebih cocok untuk kamar, kost, dan rumah.",
-  h1: "AC Midea vs Hisense untuk budget terbatas: pilih mana?",
+    "Midea atau Hisense untuk budget terbatas? Bandingkan low watt, fitur, suara, harga, dan kecocokannya berdasarkan ukuran ruangan serta daya listrik.",
+  h1: "Midea vs Hisense: mana yang lebih bagus untuk budget terbatas?",
   eyebrow: "Perbandingan Brand AC",
   readTime: "7 menit baca",
   intro:
-    "Midea dan Hisense adalah dua brand yang sering masuk pertimbangan pembeli dengan anggaran terbatas. Keduanya menawarkan AC berkualitas dengan harga yang lebih terjangkau dibanding brand premium. Artikel ini membantu Anda memilih berdasarkan kebutuhan spesifik, bukan sekadar harga termurah.",
+    "Midea lebih menarik untuk pembeli yang membutuhkan pilihan low watt dan variasi tipe. Hisense cocok ketika desain compact dan suara unit menjadi prioritas. Harga keduanya bersaing; pilihan akhirnya mengikuti ukuran ruangan, daya listrik, stok, dan fitur yang dibutuhkan.",
   sections: [
     {
       heading: "Jawaban singkat: pilih Midea atau Hisense?",
       body: [
-        "Untuk budget terbatas, keduanya sama-sama layak dan harganya bersaing pada kapasitas yang sama. Singkatnya: pilih Midea bila Anda butuh pilihan low watt yang lebih beragam untuk daya listrik terbatas atau sudah familiar dengan produk Midea; pilih Hisense bila desain indoor compact dan operasi yang relatif senyap jadi prioritas.",
+        "Pilih Midea jika Anda membutuhkan pilihan low watt dan variasi tipe yang lebih luas. Pilih Hisense jika desain indoor compact dan suara unit menjadi prioritas. Untuk harga, keduanya bersaing pada kapasitas yang sama.",
         "Faktor yang lebih menentukan daripada merek adalah ketepatan kapasitas PK dengan ukuran ruangan dan ketersediaan tipe yang Anda butuhkan. Di Radja AC kedua brand original dan bergaransi resmi karena keduanya berstatus Authorized Dealer.",
       ],
     },
@@ -92,7 +92,7 @@ export const mideaVsHisenseBudgetTerbatas = {
         "Keduanya cocok untuk kamar kost. Cek ketersediaan tipe low watt 1/2 PK dari masing-masing brand, lalu bandingkan harga dan stok yang ready. Kirim data kamar untuk rekomendasi yang lebih spesifik.",
     },
   ],
-  ctaLabel: "Bandingkan Midea vs Hisense",
+  ctaLabel: "Cek Midea vs Hisense via WhatsApp",
   waIntent: "konsultasi perbandingan AC Midea vs Hisense untuk budget terbatas",
   relatedLinks: [
     ["AC Midea", routes.brandMidea],
